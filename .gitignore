@@ -1,0 +1,4 @@
+libraries/
+*.dll
+*.exe
+qt.conf
