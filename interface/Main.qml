@@ -1,6 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Window 2.12
+import "./menus"
 
 Window {
 	id: window
@@ -11,29 +12,25 @@ Window {
 	flags: Qt.FramelessWindowHint | Qt.Window
 	color: "black"
 	
-	Button {
-		id: start_game_button
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.verticalCenter: parent.verticalCenter
-		text: qsTr("Start Game")
-		width: 128
-		height: 48
-		
-		onClicked: {
-		}
+	readonly property real scale_factor: 2
+	
+	FontLoader {
+		id: berenika_font
+		source: "../fonts/berenika.ttf"
 	}
 	
-	Button {
-		id: exit_button
-		anchors.horizontalCenter: start_game_button.horizontalCenter
-		anchors.top: start_game_button.bottom
-		anchors.topMargin: 8 * 2
-		text: qsTr("Exit")
-		width: 128
-		height: 48
-		
-		onClicked: {
-			window.close()
-		}
+	FontLoader {
+		id: berenika_bold_font
+		source: "../fonts/berenika_bold.ttf"
+	}
+	
+	MenuStack {
+		id: menu_stack
+		initialItem: "menus/MainMenu.qml"
+	}
+	
+	function highlight(text) {
+		//highlight text
+		return "<font color=\"gold\">" + text + "</font>"
 	}
 }
