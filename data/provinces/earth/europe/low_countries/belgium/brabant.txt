@@ -1,0 +1,4 @@
+brabant = {
+	name = "Brabant"
+	color = { 1 128 97 }
+}

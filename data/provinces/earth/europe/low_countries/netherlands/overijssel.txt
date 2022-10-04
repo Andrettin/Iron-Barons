@@ -1,0 +1,4 @@
+overijssel = {
+	name = "Overijssel"
+	color = { 192 65 160 }
+}

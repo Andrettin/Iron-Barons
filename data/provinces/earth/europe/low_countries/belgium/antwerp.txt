@@ -1,0 +1,4 @@
+antwerp = {
+	name = "Antwerp"
+	color = { 128 0 96 }
+}
