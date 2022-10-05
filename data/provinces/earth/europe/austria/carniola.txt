@@ -1,0 +1,4 @@
+carniola = {
+	name = "Carniola"
+	color = { 176 224 64 }
+}
