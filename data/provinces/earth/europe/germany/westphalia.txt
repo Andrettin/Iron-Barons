@@ -1,0 +1,4 @@
+westphalia = {
+	name = "Westphalia"
+	color = { 1 128 224 }
+}

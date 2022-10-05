@@ -1,0 +1,4 @@
+hanover = {
+	name = "Hanover"
+	color = { 105 75 145 }
+}

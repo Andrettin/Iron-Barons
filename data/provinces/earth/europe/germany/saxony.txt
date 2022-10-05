@@ -1,0 +1,4 @@
+saxony = {
+	name = "Saxony"
+	color = { 175 223 191 }
+}

@@ -1,0 +1,4 @@
+thuringia = {
+	name = "Thuringia"
+	color = { 97 128 97 }
+}

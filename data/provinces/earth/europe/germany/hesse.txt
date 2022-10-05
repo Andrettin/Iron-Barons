@@ -1,0 +1,4 @@
+hesse = {
+	name = "Hesse"
+	color = { 17 65 160 }
+}
