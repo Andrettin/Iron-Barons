@@ -1,0 +1,4 @@
+tyrol = {
+	name = "Tyrol"
+	color = { 81 192 224 }
+}

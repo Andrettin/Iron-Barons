@@ -1,0 +1,4 @@
+lower_austria = {
+	name = "Lower Austria"
+	color = { 49 97 65 }
+}

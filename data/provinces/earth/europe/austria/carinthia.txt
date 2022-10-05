@@ -1,0 +1,4 @@
+carinthia = {
+	name = "Carinthia"
+	color = { 143 128 32 }
+}

@@ -1,0 +1,4 @@
+upper_austria = {
+	name = "Upper Austria"
+	color = { 144 1 160 }
+}
