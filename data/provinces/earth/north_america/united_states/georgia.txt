@@ -1,0 +1,4 @@
+georgia = {
+	name = "Georgia"
+	color = { 64 112 64 }
+}

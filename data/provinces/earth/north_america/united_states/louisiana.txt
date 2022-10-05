@@ -1,0 +1,4 @@
+louisiana = {
+	name = "Louisiana"
+	color = { 79 163 196 }
+}

@@ -1,0 +1,4 @@
+south_carolina = {
+	name = "South Carolina"
+	color = { 0 112 192 }
+}

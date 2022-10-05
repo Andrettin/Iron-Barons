@@ -1,0 +1,4 @@
+delaware = {
+	name = "Delaware"
+	color = { 112 128 0 }
+}

@@ -1,0 +1,4 @@
+california = {
+	name = "California"
+	color = { 144 128 0 }
+}

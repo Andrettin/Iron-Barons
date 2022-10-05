@@ -1,0 +1,4 @@
+new_york = {
+	name = "New York"
+	color = { 176 128 128 }
+}

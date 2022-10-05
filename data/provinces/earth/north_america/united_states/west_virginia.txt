@@ -1,0 +1,4 @@
+west_virginia = {
+	name = "West Virginia"
+	color = { 226 240 64 }
+}

@@ -1,0 +1,4 @@
+massachusetts = {
+	name = "Massachusetts"
+	color = { 165 142 210 }
+}

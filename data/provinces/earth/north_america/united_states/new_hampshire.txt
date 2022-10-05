@@ -1,0 +1,4 @@
+new_hampshire = {
+	name = "New Hampshire"
+	color = { 48 192 64 }
+}
