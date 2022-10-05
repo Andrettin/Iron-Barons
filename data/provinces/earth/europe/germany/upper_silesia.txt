@@ -1,0 +1,4 @@
+upper_silesia = {
+	name = "Upper Silesia"
+	color = { 175 159 32 }
+}

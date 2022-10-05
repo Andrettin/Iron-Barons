@@ -1,0 +1,4 @@
+east_prussia = {
+	name = "East Prussia"
+	color = { 65 33 160 }
+}

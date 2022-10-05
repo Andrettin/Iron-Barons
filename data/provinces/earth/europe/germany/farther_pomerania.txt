@@ -1,0 +1,4 @@
+farther_pomerania = {
+	name = "Farther Pomerania"
+	color = { 160 192 32 }
+}

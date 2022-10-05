@@ -1,0 +1,4 @@
+posen = {
+	name = "Posen"
+	color = { 33 65 160 }
+}
