@@ -1,0 +1,4 @@
+la_pampa = {
+	name = "La Pampa"
+	color = { 240 1 16 }
+}

@@ -1,0 +1,4 @@
+troms = {
+	name = "Troms"
+	color = { 97 128 128 }
+}

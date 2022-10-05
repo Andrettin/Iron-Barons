@@ -1,0 +1,4 @@
+chubut = {
+	name = "Chubut"
+	color = { 176 32 80 }
+}

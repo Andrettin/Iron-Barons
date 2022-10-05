@@ -1,0 +1,4 @@
+rio_negro = {
+	name = "Rio Negro"
+	color = { 176 128 144 }
+}

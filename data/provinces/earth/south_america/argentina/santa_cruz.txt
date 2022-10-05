@@ -1,0 +1,4 @@
+santa_cruz = {
+	name = "Santa Cruz"
+	color = { 239 160 16 }
+}
