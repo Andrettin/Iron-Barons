@@ -1,0 +1,4 @@
+budweis = {
+	name = "Budweis"
+	color = { 240 224 65 }
+}

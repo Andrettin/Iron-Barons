@@ -1,0 +1,4 @@
+pilsen = {
+	name = "Pilsen"
+	color = { 240 97 65 }
+}

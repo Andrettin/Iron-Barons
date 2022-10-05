@@ -1,0 +1,4 @@
+moravia = {
+	name = "Moravia"
+	color = { 113 224 128 }
+}
