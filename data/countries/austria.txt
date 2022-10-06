@@ -2,4 +2,5 @@ austria = {
 	name = "Austria"
 	type = great_power
 	color = { 244 121 126 }
+	capital_province = lower_austria
 }

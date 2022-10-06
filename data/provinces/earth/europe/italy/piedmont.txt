@@ -1,0 +1,4 @@
+piedmont = {
+	name = "Piedmont"
+	color = { 208 128 224 }
+}

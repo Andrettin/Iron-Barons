@@ -2,4 +2,5 @@ sardinia = {
 	name = "Sardinia"
 	type = great_power
 	color = { 142 167 80 }
+	capital_province = piedmont
 }

@@ -2,4 +2,5 @@ russia = {
 	name = "Russia"
 	type = great_power
 	color = { 111 177 210 }
+	capital_province = moscow
 }
