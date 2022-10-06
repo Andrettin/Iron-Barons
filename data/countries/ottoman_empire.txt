@@ -1,0 +1,5 @@
+ottoman_empire = {
+	name = "Ottoman Empire"
+	type = great_power
+	color = { 170 148 214 }
+}
