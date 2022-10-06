@@ -3,4 +3,14 @@ austria = {
 	type = great_power
 	color = { 244 121 126 }
 	capital_province = lower_austria
+	provinces = {
+		lower_austria
+		upper_austria
+		styria
+		carinthia
+		tyrol
+		salzburg
+		carniola
+		istria
+	}
 }

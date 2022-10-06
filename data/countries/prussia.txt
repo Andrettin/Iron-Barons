@@ -3,4 +3,14 @@ prussia = {
 	type = great_power
 	color = { 245 167 97 }
 	capital_province = brandenburg
+	provinces = {
+		brandenburg
+		east_prussia
+		west_prussia
+		magdeburg
+		lower_silesia
+		upper_silesia
+		rhineland
+		westphalia
+	}
 }
