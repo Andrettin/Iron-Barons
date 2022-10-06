@@ -1,0 +1,11 @@
+earth = {
+	name = "Earth"
+	size = { 1024 512 }
+	world = earth
+	map_projection = mercator
+	min_longitude = -180
+	max_longitude = 180
+	min_latitude = -60
+	max_latitude = 71.675
+	province_image_filepath = "earth/provinces.png"
+}
