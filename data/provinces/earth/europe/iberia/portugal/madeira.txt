@@ -1,0 +1,4 @@
+madeira = {
+	name = "Madeira"
+	color = { 56 87 25 }
+}

@@ -1,0 +1,4 @@
+douro = {
+	name = "Douro"
+	color = { 208 160 0 }
+}

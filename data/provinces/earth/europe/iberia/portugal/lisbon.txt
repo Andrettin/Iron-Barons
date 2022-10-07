@@ -1,0 +1,4 @@
+lisbon = {
+	name = "Lisbon"
+	color = { 208 160 128 }
+}

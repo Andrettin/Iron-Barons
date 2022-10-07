@@ -1,0 +1,4 @@
+azores = {
+	name = "Azores"
+	color = { 144 160 128 }
+}

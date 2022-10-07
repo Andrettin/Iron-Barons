@@ -1,0 +1,4 @@
+alentejo = {
+	name = "Alentejo"
+	color = { 235 169 53 }
+}

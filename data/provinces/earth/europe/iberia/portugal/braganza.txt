@@ -1,0 +1,4 @@
+braganza = {
+	name = "Braganza"
+	color = { 33 112 128 }
+}
