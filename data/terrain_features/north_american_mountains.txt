@@ -1,6 +1,6 @@
 adirondack_mountains = {
 	name = "Adirondack Mountains"
-	terrain_type = rock_snow #mountains
+	terrain_type = mountains
 	color = { 248 227 35 }
 }
 
@@ -42,6 +42,6 @@ ouachita_mountains = {
 
 torngat_mountains = {
 	name = "Torngat Mountains"
-	terrain_type = rock_snow #mountains
+	terrain_type = mountains
 	color = { 60 157 171 }
 }
