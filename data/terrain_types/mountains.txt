@@ -1,0 +1,4 @@
+mountains = {
+	name = "Mountains"
+	color = { 128 64 0 }
+}
