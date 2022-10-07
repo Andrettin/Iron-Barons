@@ -1,0 +1,7 @@
+black_forest = {
+	name = "Black Forest"
+	world = earth
+	geocoordinate = { 8.15 48.3 }
+	type = terrain
+	terrain_type = conifer_forest
+}

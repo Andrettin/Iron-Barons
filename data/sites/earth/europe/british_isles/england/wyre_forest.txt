@@ -1,0 +1,7 @@
+wyre_forest = {
+	name = "Wyre Forest"
+	world = earth
+	geocoordinate = { -2.3686111111111 52.385 }
+	type = terrain
+	terrain_type = conifer_forest
+}
