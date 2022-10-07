@@ -1,0 +1,4 @@
+ocean = {
+	name = "Ocean"
+	color = { 0 255 255 }
+}

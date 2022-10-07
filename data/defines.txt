@@ -1,0 +1,2 @@
+default_province_terrain = plains
+default_water_zone_terrain = ocean

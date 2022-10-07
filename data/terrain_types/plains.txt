@@ -1,0 +1,4 @@
+plains = {
+	name = "Plains"
+	color = { 224 224 128 }
+}
