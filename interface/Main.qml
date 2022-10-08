@@ -29,6 +29,15 @@ Window {
 		initialItem: "menus/MainMenu.qml"
 	}
 	
+	Connections {
+		target: metternich.game
+		function onRunningChanged() {
+			if (metternich.game.running) {
+				menu_stack.push("MapView.qml")
+			}
+		}
+	}
+	
 	function highlight(text) {
 		//highlight text
 		return "<font color=\"gold\">" + text + "</font>"
