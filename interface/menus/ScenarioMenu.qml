@@ -6,6 +6,16 @@ MenuBase {
 	id: main_menu
 	title: qsTr("Scenario")
 	
+	Image {
+		id: diplomatic_map
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.verticalCenter: parent.verticalCenter
+		source: "image://diplomatic_map/" + reload_count
+		cache: false
+		
+		property int reload_count: 0
+	}
+	
 	Button {
 		id: start_game_button
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -15,8 +25,7 @@ MenuBase {
 		height: 48
 		
 		onClicked: {
-			var scenario = metternich.get_scenarios()[0]
-			metternich.game.start_scenario(scenario)
+			metternich.game.start()
 		}
 	}
 	
@@ -32,5 +41,17 @@ MenuBase {
 		onClicked: {
 			menu_stack.pop()
 		}
+	}
+	
+	Connections {
+		target: metternich.game
+		function onDiplomatic_map_image_changed() {
+			diplomatic_map.reload_count += 1
+		}
+	}
+	
+	Component.onCompleted: {
+		var scenario = metternich.get_scenarios()[0]
+		metternich.game.setup_scenario(scenario)
 	}
 }
