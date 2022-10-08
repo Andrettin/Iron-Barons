@@ -1,4 +1,10 @@
 hither_pomerania = {
 	name = "Hither Pomerania"
 	color = { 25 174 25 }
+	
+	history = {
+		1815 = {
+			owner = prussia #part of the Kingdom of Prussia in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }
