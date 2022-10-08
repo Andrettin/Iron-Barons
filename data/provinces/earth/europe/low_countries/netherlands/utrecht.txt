@@ -1,4 +1,10 @@
 utrecht = {
 	name = "Utrecht"
 	color = { 192 64 33 }
+	
+	history = {
+		1815 = {
+			owner = netherlands #part of the Kingdom of the Netherlands in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }

@@ -1,4 +1,10 @@
 hanover = {
 	name = "Hanover"
 	color = { 105 75 145 }
+	
+	history = {
+		1815 = {
+			owner = hanover #part of the Kingdom of Hanover in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }
