@@ -7,5 +7,6 @@ earth = {
 	max_longitude = 180
 	min_latitude = -60
 	max_latitude = 71.675
+	terrain_image_filepath = "earth/terrain.png"
 	province_image_filepath = "earth/provinces.png"
 }
