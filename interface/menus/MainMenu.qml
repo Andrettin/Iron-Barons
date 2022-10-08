@@ -7,23 +7,22 @@ MenuBase {
 	title: qsTr("Main Menu")
 	
 	Button {
-		id: start_game_button
+		id: play_scenario_button
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
-		text: qsTr("Start Game")
+		text: qsTr("Play Scenario")
 		width: 128
 		height: 48
 		
 		onClicked: {
-			var scenario = metternich.get_scenarios()[0]
-			metternich.game.start_scenario(scenario)
+			menu_stack.push("ScenarioMenu.qml")
 		}
 	}
 	
 	Button {
 		id: exit_button
-		anchors.horizontalCenter: start_game_button.horizontalCenter
-		anchors.top: start_game_button.bottom
+		anchors.horizontalCenter: play_scenario_button.horizontalCenter
+		anchors.top: play_scenario_button.bottom
 		anchors.topMargin: 8 * 2
 		text: qsTr("Exit")
 		width: 128
