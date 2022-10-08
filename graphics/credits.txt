@@ -1,4 +1,6 @@
+/graphics/terrain/conifer_forest.png (by Jinn) (licensed under the CC0)
 /graphics/terrain/dark_plains.png (by Jinn) (licensed under the CC0)
+/graphics/terrain/mountains.png (by Jinn) (licensed under the CC0)
 /graphics/terrain/ocean.png (by Jinn) (licensed under the CC0)
 /graphics/terrain/plains.png (by Jinn) (licensed under the CC0)
 /graphics/terrain/scrub_forest.png (by Jinn) (licensed under the CC0)

@@ -1,4 +1,6 @@
 mountains = {
 	name = "Mountains"
 	color = { 128 64 0 }
+	image_filepath = "terrain/mountains.png"
+	tiles = { 0 }
 }
