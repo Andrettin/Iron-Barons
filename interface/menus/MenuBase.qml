@@ -16,5 +16,4 @@ Item {
 		anchors.top: parent.top
 		anchors.topMargin: 36 * scale_factor
 	}
-	}
 }

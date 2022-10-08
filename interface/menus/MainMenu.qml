@@ -15,6 +15,8 @@ MenuBase {
 		height: 48
 		
 		onClicked: {
+			var scenario = metternich.get_scenarios()[0]
+			metternich.game.start_scenario(scenario)
 		}
 	}
 	
