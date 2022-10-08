@@ -18,7 +18,8 @@ MenuBase {
 	
 	Button {
 		id: start_game_button
-		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.right: diplomatic_map.left
+		anchors.rightMargin: 32
 		anchors.verticalCenter: parent.verticalCenter
 		text: qsTr("Start Game")
 		width: 128
