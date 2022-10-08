@@ -1,0 +1,4 @@
+dauphiny = {
+	name = "Dauphiny"
+	color = { 48 192 96 }
+}

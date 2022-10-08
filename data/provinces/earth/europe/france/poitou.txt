@@ -1,0 +1,4 @@
+poitou = {
+	name = "Poitou"
+	color = { 208 32 192 }
+}

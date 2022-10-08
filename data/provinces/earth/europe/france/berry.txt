@@ -1,0 +1,4 @@
+berry = {
+	name = "Berry"
+	color = { 144 224 0 }
+}

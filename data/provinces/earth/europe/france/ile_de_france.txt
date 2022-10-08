@@ -1,0 +1,4 @@
+ile_de_france = {
+	name = "Ile-de-France"
+	color = { 144 96 0 }
+}

@@ -1,0 +1,4 @@
+normandy = {
+	name = "Normandy"
+	color = { 144 32 192 }
+}

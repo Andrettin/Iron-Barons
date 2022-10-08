@@ -1,0 +1,4 @@
+limousin = {
+	name = "Limousin"
+	color = { 48 96 0 }
+}

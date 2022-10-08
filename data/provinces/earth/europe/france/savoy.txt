@@ -1,0 +1,4 @@
+savoy = {
+	name = "Savoy"
+	color = { 208 0 224 }
+}

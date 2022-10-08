@@ -1,0 +1,4 @@
+gascony = {
+	name = "Gascony"
+	color = { 24 124 255 }
+}

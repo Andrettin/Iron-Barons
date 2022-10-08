@@ -1,0 +1,4 @@
+anjou = {
+	name = "Anjou"
+	color = { 80 160 64 }
+}

@@ -1,0 +1,4 @@
+orleanais = {
+	name = "Orleanais"
+	color = { 16 223 0 }
+}

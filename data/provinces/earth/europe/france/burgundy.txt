@@ -1,0 +1,4 @@
+burgundy = {
+	name = "Burgundy"
+	color = { 240 128 96 }
+}

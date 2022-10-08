@@ -1,0 +1,4 @@
+picardy = {
+	name = "Picardy"
+	color = { 16 160 192 }
+}
