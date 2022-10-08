@@ -1,0 +1,5 @@
+wurtemberg = {
+	name = "Wurtemberg"
+	type = minor_nation
+	capital_province = wurtemberg
+}

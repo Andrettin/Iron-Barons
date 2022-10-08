@@ -1,0 +1,5 @@
+hesse = {
+	name = "Hesse"
+	type = minor_nation
+	capital_province = hesse
+}

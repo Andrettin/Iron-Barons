@@ -1,0 +1,5 @@
+belgium = {
+	name = "Belgium"
+	type = minor_nation
+	capital_province = brabant
+}
