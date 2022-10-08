@@ -1,0 +1,6 @@
+unexplored = {
+	name = "Unexplored"
+	color = { 0 0 0 }
+	image_filepath = "terrain/unexplored.png"
+	tiles = { 0 }
+}
