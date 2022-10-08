@@ -1,0 +1,4 @@
+schleswig = {
+	name = "Schleswig"
+	color = { 0 192 96 }
+}
