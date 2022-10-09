@@ -2,4 +2,10 @@ quebec = {
 	name = "Quebec"
 	color = { 176 192 192 }
 	capital_settlement = quebec
+	
+	history = {
+		1300 = {
+			owner = huron #Huron territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

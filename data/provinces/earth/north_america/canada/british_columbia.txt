@@ -2,4 +2,10 @@ british_columbia = {
 	name = "British Columbia"
 	color = { 201 169 171 }
 	capital_settlement = victoria
+	
+	history = {
+		1300 = {
+			owner = kwakiutl #Kwakiutl territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

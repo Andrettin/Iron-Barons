@@ -2,4 +2,10 @@ ontario = {
 	name = "Ontario"
 	color = { 176 0 192 }
 	capital_settlement = ottawa
+	
+	history = {
+		1300 = {
+			owner = huron #territory of the Northeastern cultural group (to which the Huron belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

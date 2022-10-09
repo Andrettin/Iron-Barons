@@ -1,0 +1,5 @@
+kwakiutl = {
+	name = "Kwakiutl"
+	type = tribe
+	capital_province = british_columbia
+}
