@@ -1,4 +1,14 @@
 holstein = {
 	name = "Holstein"
 	color = { 128 65 96 }
+	
+	history = {
+		1460 = {
+			owner = denmark #became a Danish royal possession in 1460; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1815 = {
+			owner = denmark #Danish possession in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }
