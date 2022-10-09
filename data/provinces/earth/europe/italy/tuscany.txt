@@ -2,4 +2,10 @@ tuscany = {
 	name = "Tuscany"
 	color = { 112 128 160 }
 	capital_settlement = florence
+	
+	history = {
+		1477 = {
+			owner = florence #part of the Republic of Florence c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+	}
 }

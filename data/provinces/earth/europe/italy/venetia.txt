@@ -2,4 +2,14 @@ venetia = {
 	name = "Venetia"
 	color = { 176 1 160 }
 	capital_settlement = venice
+	
+	history = {
+		1477 = {
+			owner = venice #part of the Venetian Republic c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1815 = {
+			owner = austria #part of the Empire of Austria in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }

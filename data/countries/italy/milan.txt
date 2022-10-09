@@ -1,0 +1,5 @@
+milan = {
+	name = "Milan"
+	type = minor_nation
+	capital_province = lombardy
+}

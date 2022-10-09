@@ -2,4 +2,22 @@ lombardy = {
 	name = "Lombardy"
 	color = { 208 64 96 }
 	capital_settlement = milan
+	
+	history = {
+		1477 = {
+			owner = milan #part of the Duchy of Milan c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1815 = {
+			owner = austria #part of the Empire of Austria in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+		
+		1859 = {
+			owner = sardinia #became part of the Kingdom of Sardinia in 1859; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+		
+		1861 = {
+			owner = italy #became part of the Kingdom of Italy in 1861; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }

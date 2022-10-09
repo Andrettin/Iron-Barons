@@ -1,0 +1,5 @@
+florence = {
+	name = "Florence"
+	type = minor_nation
+	capital_province = tuscany
+}

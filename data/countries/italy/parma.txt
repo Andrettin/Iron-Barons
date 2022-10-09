@@ -1,0 +1,5 @@
+parma = {
+	name = "Parma"
+	type = minor_nation
+	capital_province = parma
+}

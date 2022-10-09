@@ -1,0 +1,5 @@
+papal_states = {
+	name = "Papal States"
+	type = minor_nation
+	capital_province = latium
+}
