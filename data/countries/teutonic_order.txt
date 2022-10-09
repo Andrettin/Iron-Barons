@@ -1,0 +1,5 @@
+teutonic_order = {
+	name = "Teutonic Order"
+	type = minor_nation
+	capital_province = east_prussia
+}

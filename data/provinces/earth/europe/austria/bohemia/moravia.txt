@@ -5,7 +5,11 @@ moravia = {
 	
 	history = {
 		1477 = {
-			owner = bohemia #part of the Kingdom of Bohemia c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			owner = hungary #Hungarian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1490 = {
+			owner = bohemia #became part of the Kingdom of Bohemia in 1490; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1815 = {

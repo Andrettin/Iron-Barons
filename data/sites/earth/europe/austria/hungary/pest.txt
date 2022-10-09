@@ -1,0 +1,6 @@
+pest = {
+	name = "Pest"
+	world = earth
+	geocoordinate = { 19.08332067740 47.50000632640 } #Budapest; from Natural Earth
+	type = settlement
+}

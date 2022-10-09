@@ -1,0 +1,5 @@
+magdeburg = {
+	name = "Magdeburg"
+	type = minor_nation
+	capital_province = magdeburg
+}

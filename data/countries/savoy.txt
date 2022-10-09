@@ -1,0 +1,6 @@
+savoy = {
+	name = "Savoy"
+	type = great_power
+	color = { 142 167 80 }
+	capital_province = savoy
+}

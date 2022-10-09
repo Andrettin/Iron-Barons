@@ -1,0 +1,5 @@
+thuringia = {
+	name = "Thuringia"
+	type = minor_nation
+	capital_province = thuringia
+}

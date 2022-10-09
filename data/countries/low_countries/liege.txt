@@ -1,0 +1,5 @@
+liege = {
+	name = "Liege" #"Liège"
+	type = minor_nation
+	capital_province = liege
+}

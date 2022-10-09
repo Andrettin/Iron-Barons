@@ -1,0 +1,5 @@
+hungary = {
+	name = "Hungary"
+	type = minor_nation
+	capital_province = pest
+}

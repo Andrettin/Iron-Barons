@@ -1,8 +1,12 @@
 liege = {
-	name = "Liege"
+	name = "Liege" #"Liège"
 	color = { 239 32 64 }
 	
 	history = {
+		1477 = {
+			owner = liege #part of the Bishopric of Liège c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
 		1815 = {
 			owner = netherlands #part of the Kingdom of the Netherlands in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

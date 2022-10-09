@@ -3,6 +3,10 @@ savoy = {
 	color = { 208 0 224 }
 	
 	history = {
+		1477 = {
+			owner = savoy #part of the Duchy of Savoy c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
 		1815 = {
 			owner = sardinia #part of the Kingdom of Sardinia in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

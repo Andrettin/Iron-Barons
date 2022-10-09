@@ -1,0 +1,5 @@
+utrecht = {
+	name = "Utrecht"
+	type = minor_nation
+	capital_province = utrecht
+}
