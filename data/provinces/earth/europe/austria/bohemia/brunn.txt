@@ -1,6 +1,7 @@
 brunn = {
-	name = "Brunn"
+	name = "Brunn" #"Brünn"
 	color = { 239 96 128 }
+	capital_settlement = brunn
 	
 	history = {
 		1815 = {

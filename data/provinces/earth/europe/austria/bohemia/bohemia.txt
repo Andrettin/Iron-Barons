@@ -1,6 +1,7 @@
 bohemia = {
 	name = "Bohemia"
 	color = { 113 224 65 }
+	capital_settlement = prague
 	
 	history = {
 		1815 = {

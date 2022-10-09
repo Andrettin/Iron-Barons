@@ -1,0 +1,6 @@
+laibach = {
+	name = "Laibach"
+	world = earth
+	geocoordinate = { 14.51496903350 46.05528830880 } #from Natural Earth
+	type = settlement
+}

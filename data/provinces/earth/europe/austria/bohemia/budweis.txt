@@ -1,6 +1,7 @@
 budweis = {
 	name = "Budweis"
 	color = { 240 224 65 }
+	capital_settlement = budweis
 	
 	history = {
 		1815 = {

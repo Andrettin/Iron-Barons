@@ -1,6 +1,7 @@
 styria = {
 	name = "Styria"
 	color = { 176 97 65 }
+	capital_settlement = graz
 	
 	history = {
 		1815 = {
