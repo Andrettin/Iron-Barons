@@ -2,4 +2,10 @@ tennessee = {
 	name = "Tennessee"
 	color = { 94 107 77 }
 	capital_settlement = nashville
+	
+	history = {
+		1300 = {
+			owner = cherokee
+		}
+	}
 }

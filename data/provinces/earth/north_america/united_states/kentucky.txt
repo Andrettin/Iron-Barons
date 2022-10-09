@@ -2,4 +2,10 @@ kentucky = {
 	name = "Kentucky"
 	color = { 240 0 64 }
 	capital_settlement = frankfort
+	
+	history = {
+		1300 = {
+			owner = cherokee
+		}
+	}
 }

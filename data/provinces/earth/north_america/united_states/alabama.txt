@@ -2,4 +2,10 @@ alabama = {
 	name = "Alabama"
 	color = { 32 176 0 }
 	capital_settlement = montgomery
+	
+	history = {
+		1300 = {
+			owner = cherokee #territory of the Southeastern cultural group (to which the Cherokee belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }
