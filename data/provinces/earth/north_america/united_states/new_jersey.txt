@@ -6,5 +6,13 @@ new_jersey = {
 		1300 = {
 			owner = iroquois #territory of the Northeastern cultural group (to which the Iroquois belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
 		}
+		
+		1585 = {
+			owner = virginia #became part of Raleigh's Colony of Virginia in 1585; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+		}
+		
+		1587 = {
+			owner = iroquois #ceased to be part of Raleigh's Colony of Virginia in 1587; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+		}
 	}
 }
