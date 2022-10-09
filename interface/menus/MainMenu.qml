@@ -11,8 +11,8 @@ MenuBase {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		text: qsTr("Play Scenario")
-		width: 128
-		height: 48
+		width: 64 * scale_factor
+		height: 24 * scale_factor
 		
 		onClicked: {
 			menu_stack.push("ScenarioMenu.qml")
@@ -23,10 +23,10 @@ MenuBase {
 		id: exit_button
 		anchors.horizontalCenter: play_scenario_button.horizontalCenter
 		anchors.top: play_scenario_button.bottom
-		anchors.topMargin: 8 * 2
+		anchors.topMargin: 8 * scale_factor
 		text: qsTr("Exit")
-		width: 128
-		height: 48
+		width: 64 * scale_factor
+		height: 24 * scale_factor
 		
 		onClicked: {
 			window.close()
