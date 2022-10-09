@@ -9,6 +9,7 @@ MenuBase {
 	Image {
 		id: diplomatic_map
 		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: 64 * scale_factor
 		anchors.verticalCenter: parent.verticalCenter
 		source: "image://diplomatic_map/" + reload_count
 		cache: false
@@ -16,14 +17,35 @@ MenuBase {
 		property int reload_count: 0
 	}
 	
-	Button {
-		id: start_game_button
+	ListView {
+		id: scenario_list
 		anchors.right: diplomatic_map.left
 		anchors.rightMargin: 16 * scale_factor
+		anchors.bottom: start_game_button.top
+		anchors.bottomMargin: 16 * scale_factor
+		width: 256 * scale_factor
+		height: 128 * scale_factor
+		boundsBehavior: Flickable.StopAtBounds
+		clip: true
+		model: metternich.get_scenarios()
+		delegate: Button {
+			text: model.modelData.name + ", " + date_year_string(model.modelData.start_date)
+			width: 256 * scale_factor
+			height: 24 * scale_factor
+			
+			onClicked: {
+				metternich.game.setup_scenario(model.modelData)
+			}
+		}
+	}
+	
+	Button {
+		id: start_game_button
+		anchors.horizontalCenter: scenario_list.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		text: qsTr("Start Game")
-		width: 128
-		height: 48
+		width: 64 * scale_factor
+		height: 24 * scale_factor
 		
 		onClicked: {
 			metternich.game.start()
@@ -36,8 +58,8 @@ MenuBase {
 		anchors.top: start_game_button.bottom
 		anchors.topMargin: 8 * scale_factor
 		text: qsTr("Previous Menu")
-		width: 128
-		height: 48
+		width: 64 * scale_factor
+		height: 24 * scale_factor
 		
 		onClicked: {
 			menu_stack.pop()
