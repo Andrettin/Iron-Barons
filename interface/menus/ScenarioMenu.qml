@@ -19,7 +19,7 @@ MenuBase {
 	Button {
 		id: start_game_button
 		anchors.right: diplomatic_map.left
-		anchors.rightMargin: 32
+		anchors.rightMargin: 16 * scale_factor
 		anchors.verticalCenter: parent.verticalCenter
 		text: qsTr("Start Game")
 		width: 128
@@ -34,7 +34,7 @@ MenuBase {
 		id: previous_menu_button
 		anchors.horizontalCenter: start_game_button.horizontalCenter
 		anchors.top: start_game_button.bottom
-		anchors.topMargin: 8 * 2
+		anchors.topMargin: 8 * scale_factor
 		text: qsTr("Previous Menu")
 		width: 128
 		height: 48

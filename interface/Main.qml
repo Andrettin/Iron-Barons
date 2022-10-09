@@ -12,7 +12,7 @@ Window {
 	flags: Qt.FramelessWindowHint | Qt.Window
 	color: "black"
 	
-	readonly property real scale_factor: 2
+	readonly property real scale_factor: metternich.scale_factor
 	
 	FontLoader {
 		id: berenika_font

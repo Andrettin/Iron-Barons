@@ -11,7 +11,7 @@ Item {
 		anchors.fill: parent
 	}
 	
-	readonly property int tile_size: metternich.defines.tile_size.width // * scale_factor
+	readonly property int tile_size: metternich.defines.tile_size.width * scale_factor
 	
 	TableView {
 		id: map
@@ -36,7 +36,7 @@ Item {
 			TinyText {
 				text: settlement ? settlement.name + ", " + model.modelData.name : ""
 				x: settlement ? settlement.game_data.tile_pos.x * tile_size + tile_size / 2 - width / 2 : 0
-				y: settlement ? settlement.game_data.tile_pos.y * tile_size + tile_size + 4 /* * scale_factor */ : 0
+				y: settlement ? settlement.game_data.tile_pos.y * tile_size + tile_size + 4 * scale_factor : 0
 				z: 40
 				
 				readonly property var settlement: model.modelData.capital_settlement
