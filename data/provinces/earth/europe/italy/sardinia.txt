@@ -1,0 +1,5 @@
+sardinia = {
+	name = "Sardinia"
+	color = { 128 208 32 }
+	capital_settlement = cagliari
+}

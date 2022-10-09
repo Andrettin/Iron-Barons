@@ -1,0 +1,6 @@
+cagliari = {
+	name = "Cagliari"
+	world = earth
+	geocoordinate = { 9.10398148462 39.22239788720 } #from Natural Earth
+	type = settlement
+}

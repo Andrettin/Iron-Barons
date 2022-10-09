@@ -1,0 +1,5 @@
+latium = {
+	name = "Latium"
+	color = { 176 192 160 }
+	capital_settlement = rome
+}

@@ -1,0 +1,5 @@
+lombardy = {
+	name = "Lombardy"
+	color = { 208 64 96 }
+	capital_settlement = milan
+}

@@ -1,0 +1,5 @@
+romagna = {
+	name = "Romagna"
+	color = { 112 0 160 }
+	capital_settlement = bologna
+}

@@ -1,0 +1,5 @@
+genoa = {
+	name = "Genoa"
+	color = { 144 64 97 }
+	capital_settlement = genoa
+}

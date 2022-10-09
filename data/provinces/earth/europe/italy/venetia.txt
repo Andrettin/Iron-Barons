@@ -1,0 +1,5 @@
+venetia = {
+	name = "Venetia"
+	color = { 176 1 160 }
+	capital_settlement = venice
+}

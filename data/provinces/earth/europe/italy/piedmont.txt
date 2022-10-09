@@ -1,4 +1,5 @@
 piedmont = {
 	name = "Piedmont"
 	color = { 208 128 224 }
+	capital_settlement = turin
 }

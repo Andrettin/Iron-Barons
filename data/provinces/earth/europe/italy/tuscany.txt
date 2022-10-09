@@ -1,0 +1,5 @@
+tuscany = {
+	name = "Tuscany"
+	color = { 112 128 160 }
+	capital_settlement = florence
+}

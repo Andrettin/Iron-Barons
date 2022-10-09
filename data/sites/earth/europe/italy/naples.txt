@@ -1,0 +1,6 @@
+naples = {
+	name = "Naples"
+	world = earth
+	geocoordinate = { 14.24501135120 40.84002524730 } #from Natural Earth
+	type = settlement
+}

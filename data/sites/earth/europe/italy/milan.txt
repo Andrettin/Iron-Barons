@@ -1,0 +1,6 @@
+milan = {
+	name = "Milan"
+	world = earth
+	geocoordinate = { 9.20500890976 45.46997519840 } #from Natural Earth
+	type = settlement
+}
