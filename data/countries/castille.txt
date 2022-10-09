@@ -1,0 +1,17 @@
+castille = {
+	name = "Castille"
+	type = great_power
+	color = { 255 173 41 }
+	capital_province = castille
+	provinces = {
+		castille
+		leon
+		asturias
+		extremadura
+		galicia
+		andalusia
+		murcia
+		granada
+		navarre
+	}
+}

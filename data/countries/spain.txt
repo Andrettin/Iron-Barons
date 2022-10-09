@@ -1,0 +1,20 @@
+spain = {
+	name = "Spain"
+	type = great_power
+	color = { 255 173 41 }
+	capital_province = castille
+	provinces = {
+		castille
+		leon
+		asturias
+		extremadura
+		galicia
+		andalusia
+		murcia
+		granada
+		navarre
+		aragon
+		catalonia
+		valencia
+	}
+}

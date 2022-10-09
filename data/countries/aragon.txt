@@ -1,0 +1,10 @@
+aragon = {
+	name = "Aragon"
+	type = minor_nation
+	capital_province = aragon
+	provinces = {
+		aragon
+		catalonia
+		valencia
+	}
+}
