@@ -1,0 +1,5 @@
+leon = {
+	name = "Leon"
+	color = { 208 96 192 }
+	capital_settlement = leon
+}

@@ -1,0 +1,5 @@
+catalonia = {
+	name = "Catalonia"
+	color = { 224 192 32 }
+	capital_settlement = barcelona
+}

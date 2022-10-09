@@ -1,0 +1,5 @@
+navarre = {
+	name = "Navarre"
+	color = { 16 224 192 }
+	capital_settlement = pamplona
+}

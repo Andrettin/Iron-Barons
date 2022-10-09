@@ -1,0 +1,6 @@
+merida = {
+	name = "Merida" #"Mérida"
+	world = earth
+	geocoordinate = { -6.33799751231 38.91200401840 } #from Natural Earth
+	type = settlement
+}

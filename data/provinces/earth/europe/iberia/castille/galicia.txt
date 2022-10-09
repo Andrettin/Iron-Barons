@@ -1,0 +1,5 @@
+galicia = {
+	name = "Galicia"
+	color = { 84 45 206 }
+	capital_settlement = santiago_de_compostela
+}

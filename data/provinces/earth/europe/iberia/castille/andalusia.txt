@@ -1,0 +1,5 @@
+andalusia = {
+	name = "Andalusia"
+	color = { 128 16 32 }
+	capital_settlement = seville
+}

@@ -1,0 +1,6 @@
+pamplona = {
+	name = "Pamplona"
+	world = earth
+	geocoordinate = { -1.64998742818 42.82000775050 } #from Natural Earth
+	type = settlement
+}

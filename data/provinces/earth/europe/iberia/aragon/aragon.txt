@@ -1,0 +1,5 @@
+aragon = {
+	name = "Aragon"
+	color = { 80 96 64 }
+	capital_settlement = zaragoza
+}
