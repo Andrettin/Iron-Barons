@@ -1,0 +1,11 @@
+warsaw = {
+	name = "Warsaw"
+	color = { 65 97 160 }
+	capital_settlement = warsaw
+	
+	history = {
+		1477 = {
+			owner = poland #part of the Kingdom of Poland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}		
+	}
+}

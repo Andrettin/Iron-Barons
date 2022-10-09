@@ -30,6 +30,16 @@ Window {
 	}
 	
 	Connections {
+		target: metternich
+		function onRunningChanged() {
+			if (metternich.running) {
+				//metternich.get_map_template("earth").write_province_image()
+				//metternich.get_map_template("earth").write_terrain_image()
+			}
+		}
+	}
+	
+	Connections {
 		target: metternich.game
 		function onRunningChanged() {
 			if (metternich.game.running) {

@@ -1,0 +1,11 @@
+poland = {
+	name = "Poland"
+	type = minor_nation
+	capital_province = warsaw
+	provinces = {
+		warsaw
+		lodz
+		czenstochowa
+		lublin
+	}
+}

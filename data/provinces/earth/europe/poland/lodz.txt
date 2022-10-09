@@ -1,0 +1,5 @@
+lodz = {
+	name = "Lodz" #"Łódź"
+	color = { 192 97 160 }
+	capital_settlement = lodz
+}

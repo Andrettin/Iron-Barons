@@ -1,0 +1,5 @@
+lublin = {
+	name = "Lublin"
+	color = { 81 160 224 }
+	capital_settlement = lublin
+}
