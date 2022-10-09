@@ -1,0 +1,5 @@
+mississippi = {
+	name = "Mississippi"
+	color = { 0 240 128 }
+	capital_settlement = jackson
+}

@@ -1,0 +1,5 @@
+arizona = {
+	name = "Arizona"
+	color = { 16 64 128 }
+	capital_settlement = phoenix
+}

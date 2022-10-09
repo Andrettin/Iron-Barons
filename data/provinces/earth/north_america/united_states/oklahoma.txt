@@ -1,0 +1,5 @@
+oklahoma = {
+	name = "Oklahoma"
+	color = { 144 192 192 }
+	capital_settlement = oklahoma_city
+}

@@ -1,0 +1,5 @@
+michigan = {
+	name = "Michigan"
+	color = { 148 215 186 }
+	capital_settlement = lansing
+}

@@ -1,0 +1,5 @@
+indiana = {
+	name = "Indiana"
+	color = { 240 64 128 }
+	capital_settlement = indianapolis
+}

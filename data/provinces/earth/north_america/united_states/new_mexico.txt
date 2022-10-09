@@ -1,0 +1,5 @@
+new_mexico = {
+	name = "New Mexico"
+	color = { 80 64 128 }
+	capital_settlement = santa_fe
+}
