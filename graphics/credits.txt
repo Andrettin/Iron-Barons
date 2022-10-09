@@ -1,3 +1,4 @@
+/graphics/settlements/dwarven_settlement.png (by Jinn) (licensed under the CC0)
 /graphics/terrain/conifer_forest.png (by Jinn) (licensed under the CC0)
 /graphics/terrain/dark_plains.png (by Jinn) (licensed under the CC0)
 /graphics/terrain/mountains.png (by Jinn) (licensed under the CC0)
