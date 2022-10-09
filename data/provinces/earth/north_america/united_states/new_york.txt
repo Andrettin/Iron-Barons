@@ -2,4 +2,10 @@ new_york = {
 	name = "New York"
 	color = { 176 128 128 }
 	capital_settlement = new_york
+	
+	history = {
+		1300 = {
+			owner = iroquois #Iroquois territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

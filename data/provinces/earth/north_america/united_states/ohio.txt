@@ -2,4 +2,10 @@ ohio = {
 	name = "Ohio"
 	color = { 112 64 0 }
 	capital_settlement = columbus
+	
+	history = {
+		1300 = {
+			owner = iroquois #territory of the Northeastern cultural group (to which the Iroquois belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

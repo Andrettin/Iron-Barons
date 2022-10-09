@@ -1,0 +1,5 @@
+iroquois = {
+	name = "Iroquois"
+	type = tribe
+	capital_province = new_york
+}

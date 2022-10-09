@@ -1,5 +1,5 @@
 cherokee = {
 	name = "Cherokee"
 	type = tribe
-	capital_province = tennessee
+	capital_province = west_virginia
 }
