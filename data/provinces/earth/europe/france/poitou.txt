@@ -3,6 +3,10 @@ poitou = {
 	color = { 208 32 192 }
 	
 	history = {
+		1360 = {
+			owner = england #English possession in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1477 = {
 			owner = france #part of the Kingdom of France c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

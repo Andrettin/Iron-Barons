@@ -2,4 +2,10 @@ leon = {
 	name = "Leon"
 	color = { 208 96 192 }
 	capital_settlement = leon
+	
+	history = {
+		1360 = {
+			owner = castille #part of Castille in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

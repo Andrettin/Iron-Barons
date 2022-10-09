@@ -2,4 +2,10 @@ valencia = {
 	name = "Valencia"
 	color = { 143 223 128 }
 	capital_settlement = valencia
+	
+	history = {
+		1360 = {
+			owner = aragon #part of Aragon in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

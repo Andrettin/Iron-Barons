@@ -2,4 +2,10 @@ latium = {
 	name = "Latium"
 	color = { 176 192 160 }
 	capital_settlement = rome
+	
+	history = {
+		1360 = {
+			owner = papal_states #part of the Papal States in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

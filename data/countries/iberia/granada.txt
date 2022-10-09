@@ -1,0 +1,5 @@
+granada = {
+	name = "Granada"
+	type = minor_nation
+	capital_province = granada
+}

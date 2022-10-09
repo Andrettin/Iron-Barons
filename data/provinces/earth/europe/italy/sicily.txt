@@ -2,4 +2,10 @@ sicily = {
 	name = "Sicily"
 	color = { 192 144 160 }
 	capital_settlement = palermo
+	
+	history = {
+		1360 = {
+			owner = sicily #part of the Kingdom of Sicily in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

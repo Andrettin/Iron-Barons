@@ -2,4 +2,10 @@ catalonia = {
 	name = "Catalonia"
 	color = { 224 192 32 }
 	capital_settlement = barcelona
+	
+	history = {
+		1360 = {
+			owner = aragon #part of Aragon in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

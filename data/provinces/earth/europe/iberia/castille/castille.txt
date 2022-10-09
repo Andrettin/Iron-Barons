@@ -2,4 +2,10 @@ castille = {
 	name = "Castille"
 	color = { 48 32 128 }
 	capital_settlement = madrid
+	
+	history = {
+		1360 = {
+			owner = castille #part of Castille in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

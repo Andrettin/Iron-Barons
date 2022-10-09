@@ -2,4 +2,10 @@ galicia = {
 	name = "Galicia"
 	color = { 84 45 206 }
 	capital_settlement = santiago_de_compostela
+	
+	history = {
+		1360 = {
+			owner = castille #part of Castille in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

@@ -4,6 +4,10 @@ parma = {
 	capital_settlement = parma
 	
 	history = {
+		1360 = {
+			owner = milan #part of the Lands of the Visconti in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1477 = {
 			owner = milan #part of the Duchy of Milan c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

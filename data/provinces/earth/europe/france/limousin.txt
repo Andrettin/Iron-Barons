@@ -1,4 +1,10 @@
 limousin = {
 	name = "Limousin"
 	color = { 48 96 0 }
+	
+	history = {
+		1360 = {
+			owner = england #English possession in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

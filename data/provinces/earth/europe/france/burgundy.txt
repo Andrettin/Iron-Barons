@@ -3,6 +3,10 @@ burgundy = {
 	color = { 240 128 96 }
 	
 	history = {
+		1360 = {
+			owner = france #part of France in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1477 = {
 			owner = burgundy #part of the Duchy of Burgundy c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

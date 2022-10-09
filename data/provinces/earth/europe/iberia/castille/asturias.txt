@@ -2,4 +2,10 @@ asturias = {
 	name = "Asturias"
 	color = { 80 96 192 }
 	capital_settlement = oviedo
+	
+	history = {
+		1360 = {
+			owner = castille #part of Castille in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

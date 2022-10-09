@@ -2,4 +2,10 @@ sardinia = {
 	name = "Sardinia"
 	color = { 128 208 32 }
 	capital_settlement = cagliari
+	
+	history = {
+		1360 = {
+			owner = aragon #Aragonese possession in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }
