@@ -3,6 +3,10 @@ brandenburg = {
 	color = { 131 177 168 }
 	
 	history = {
+		1477 = {
+			owner = brandenburg #part of the Margraviate of Brandenburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
 		1815 = {
 			owner = prussia #part of the Kingdom of Prussia in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

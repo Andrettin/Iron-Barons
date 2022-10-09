@@ -1,6 +1,7 @@
 posen = {
 	name = "Posen"
 	color = { 33 65 160 }
+	capital_settlement = posen
 	
 	history = {
 		1815 = {

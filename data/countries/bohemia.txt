@@ -1,0 +1,5 @@
+bohemia = {
+	name = "Bohemia"
+	type = minor_nation
+	capital_province = bohemia
+}

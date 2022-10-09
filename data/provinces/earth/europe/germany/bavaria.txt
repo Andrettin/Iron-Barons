@@ -3,6 +3,10 @@ bavaria = {
 	color = { 176 1 33 }
 	
 	history = {
+		1477 = {
+			owner = bavaria #part of the Duchy of Bavaria-Munich c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
 		1815 = {
 			owner = bavaria #part of the Kingdom of Bavaria in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

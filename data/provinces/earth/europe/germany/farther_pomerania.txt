@@ -3,6 +3,10 @@ farther_pomerania = {
 	color = { 160 192 32 }
 	
 	history = {
+		1477 = {
+			owner = pomerania #part of the Duchy of Pomerania c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
 		1815 = {
 			owner = prussia #part of the Kingdom of Prussia in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
