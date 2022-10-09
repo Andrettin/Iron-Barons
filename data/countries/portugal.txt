@@ -1,0 +1,14 @@
+portugal = {
+	name = "Portugal"
+	type = great_power
+	color = { 0 66 24 }
+	capital_province = lisbon
+	provinces = {
+		lisbon
+		douro
+		braganza
+		alentejo
+		madeira
+		azores
+	}
+}
