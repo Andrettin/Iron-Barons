@@ -1,0 +1,5 @@
+new_brunswick = {
+	name = "New Brunswick"
+	color = { 240 192 64 }
+	capital_settlement = halifax
+}

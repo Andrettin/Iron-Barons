@@ -1,0 +1,5 @@
+nova_scotia = {
+	name = "Nova Scotia"
+	color = { 240 64 64 }
+	capital_settlement = halifax
+}

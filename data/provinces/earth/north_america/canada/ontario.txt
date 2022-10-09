@@ -1,0 +1,5 @@
+ontario = {
+	name = "Ontario"
+	color = { 176 0 192 }
+	capital_settlement = ottawa
+}

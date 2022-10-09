@@ -1,0 +1,5 @@
+newfoundland = {
+	name = "Newfoundland"
+	color = { 209 215 159 }
+	capital_settlement = st_johns
+}
