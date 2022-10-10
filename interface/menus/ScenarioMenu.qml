@@ -32,6 +32,7 @@ MenuBase {
 			text: model.modelData.name + ", " + date_year_string(model.modelData.start_date)
 			width: 256 * scale_factor
 			height: 24 * scale_factor
+			visible: !model.modelData.hidden
 			
 			onClicked: {
 				metternich.game.setup_scenario(model.modelData)
