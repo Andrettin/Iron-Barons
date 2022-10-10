@@ -6,15 +6,25 @@ MenuBase {
 	id: main_menu
 	title: qsTr("Scenario")
 	
-	Image {
+	Flickable {
 		id: diplomatic_map
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.horizontalCenterOffset: 64 * scale_factor
 		anchors.verticalCenter: parent.verticalCenter
-		source: "image://diplomatic_map/" + reload_count
-		cache: false
+		width: 512 * scale_factor
+		height: 256 * scale_factor
+		contentWidth: contentItem.childrenRect.width
+		contentHeight: contentItem.childrenRect.height
+		boundsBehavior: Flickable.StopAtBounds
+		clip: true
 		
-		property int reload_count: 0
+		Image {
+			id: diplomatic_map_image
+			source: "image://diplomatic_map/" + reload_count
+			cache: false
+			
+			property int reload_count: 0
+		}
 	}
 	
 	ListView {
@@ -70,7 +80,7 @@ MenuBase {
 	Connections {
 		target: metternich.game
 		function onDiplomatic_map_image_changed() {
-			diplomatic_map.reload_count += 1
+			diplomatic_map_image.reload_count += 1
 		}
 	}
 	
