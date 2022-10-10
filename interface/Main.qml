@@ -27,6 +27,7 @@ Window {
 	MenuStack {
 		id: menu_stack
 		initialItem: "menus/MainMenu.qml"
+		visible: metternich.running
 	}
 	
 	Connections {
