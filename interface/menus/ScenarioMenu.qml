@@ -80,7 +80,7 @@ MenuBase {
 		model: metternich.get_scenarios()
 		delegate: Rectangle {
 			width: 256 * scale_factor
-			height: 24 * scale_factor
+			height: 16 * scale_factor
 			visible: !model.modelData.hidden
 			color: (selected_scenario == model.modelData) ? "olive" : "black"
 			border.color: "white"
