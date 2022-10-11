@@ -7,6 +7,10 @@ schleswig = {
 			owner = denmark #became a Danish royal possession in 1460; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1740 = {
+			owner = denmark #part of the Kingdom of Denmark c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1815 = {
 			owner = denmark #part of the Kingdom of Denmark in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

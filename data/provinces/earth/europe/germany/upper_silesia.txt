@@ -11,6 +11,14 @@ upper_silesia = {
 			owner = bohemia #became part of the Kingdom of Bohemia in 1490; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1740 = {
+			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1742 = {
+			owner = prussia #became a Prussian possession in 1742; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1815 = {
 			owner = prussia #part of the Kingdom of Prussia in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

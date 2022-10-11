@@ -7,6 +7,10 @@ east_prussia = {
 			owner = teutonic_order #part of the Domain of the Teutonic Order c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1740 = {
+			owner = prussia #part of the Kingdom of Prussia c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1815 = {
 			owner = prussia #part of the Kingdom of Prussia in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

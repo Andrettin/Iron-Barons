@@ -7,6 +7,10 @@ hanover = {
 			owner = brunswick #part of the Duchy of Brunswick-Kalenberg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1740 = {
+			owner = hanover #part of Hanover c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1815 = {
 			owner = hanover #part of the Kingdom of Hanover in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

@@ -1,0 +1,5 @@
+stockholm = {
+	name = "Stockholm"
+	color = { 96 64 96 }
+	capital_settlement = stockholm
+}
