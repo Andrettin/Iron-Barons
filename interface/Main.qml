@@ -24,11 +24,44 @@ Window {
 		source: "../fonts/berenika_bold.ttf"
 	}
 	
+	Item { //tooltips need to be attached to an item
+		id: tooltip_manager
+		
+		property int tooltip_y_override: 0
+		
+		//set the shared properties for tooltips
+		ToolTip.toolTip.palette.toolTipText: "white"
+		ToolTip.toolTip.font.family: berenika_font.name
+		ToolTip.toolTip.font.pixelSize: 12 * scale_factor
+		ToolTip.toolTip.background: Rectangle {
+			color: "black"
+			opacity: 0.90
+			border.color: "gray"
+			border.width: 1
+			radius: 5 * scale_factor
+		}
+		ToolTip.toolTip.contentItem: Text {
+			text: ToolTip.toolTip.text
+			font: ToolTip.toolTip.font
+			wrapMode: Text.WordWrap
+			color: ToolTip.toolTip.palette.toolTipText
+			textFormat: Text.RichText
+			width: Math.min(contentWidth, 512 * scale_factor)
+		}
+		ToolTip.toolTip.onOpened: {
+			if (tooltip_manager.tooltip_y_override !== 0) {
+				ToolTip.toolTip.y = tooltip_manager.tooltip_y_override
+				tooltip_manager.tooltip_y_override = 0
+			}
+		}
+	}
+	
 	MenuStack {
 		id: menu_stack
 		initialItem: "menus/MainMenu.qml"
 		visible: metternich.running
 	}
+
 	
 	Connections {
 		target: metternich
