@@ -1,0 +1,6 @@
+paris = {
+	name = "Paris"
+	world = earth
+	geocoordinate = { 2.33333532574 48.86669293120 } #from Natural Earth
+	type = settlement
+}

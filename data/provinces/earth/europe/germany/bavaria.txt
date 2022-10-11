@@ -1,6 +1,7 @@
 bavaria = {
 	name = "Bavaria"
 	color = { 176 1 33 }
+	capital_settlement = munich
 	
 	history = {
 		1477 = {

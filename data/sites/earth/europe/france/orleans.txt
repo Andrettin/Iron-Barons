@@ -1,0 +1,6 @@
+orleans = {
+	name = "Orleans" #"Orléans"
+	world = earth
+	geocoordinate = { 1.90002844098 47.90042116200 } #from Natural Earth
+	type = settlement
+}

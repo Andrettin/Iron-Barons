@@ -1,6 +1,7 @@
 alsace = {
 	name = "Alsace"
 	color = { 110 72 145 }
+	capital_settlement = strasbourg
 	
 	history = {
 		1477 = {

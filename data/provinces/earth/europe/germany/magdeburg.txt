@@ -1,6 +1,7 @@
 magdeburg = {
 	name = "Magdeburg"
 	color = { 160 128 224 }
+	capital_settlement = magdeburg
 	
 	history = {
 		1477 = {

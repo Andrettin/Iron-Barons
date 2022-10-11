@@ -1,6 +1,7 @@
 orleanais = {
 	name = "Orleanais"
 	color = { 16 223 0 }
+	capital_settlement = orleans
 	
 	history = {
 		1360 = {

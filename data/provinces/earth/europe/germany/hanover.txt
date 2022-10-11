@@ -1,6 +1,7 @@
 hanover = {
 	name = "Hanover"
 	color = { 105 75 145 }
+	capital_settlement = hanover
 	
 	history = {
 		1477 = {

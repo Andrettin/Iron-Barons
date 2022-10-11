@@ -1,6 +1,7 @@
 rhineland = {
 	name = "Rhineland"
 	color = { 81 128 33 }
+	capital_settlement = cologne
 	
 	history = {
 		1477 = {

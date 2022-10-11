@@ -1,6 +1,7 @@
 schleswig = {
 	name = "Schleswig"
 	color = { 0 192 96 }
+	capital_settlement = flensburg
 	
 	history = {
 		1460 = {
