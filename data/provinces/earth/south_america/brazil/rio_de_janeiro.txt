@@ -2,4 +2,10 @@ rio_de_janeiro = {
 	name = "Rio de Janeiro"
 	color = { 31 205 137 }
 	capital_settlement = rio_de_janeiro
+	
+	history = {
+		1300 = {
+			owner = tupi #Tupinambá territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

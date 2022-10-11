@@ -2,4 +2,10 @@ rio_grande_do_norte = {
 	name = "Rio Grande do Norte"
 	color = { 96 65 144 }
 	capital_settlement = natal
+	
+	history = {
+		1300 = {
+			owner = tupi #territory of the Tropical Forest cultural group (to which the Tupi belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

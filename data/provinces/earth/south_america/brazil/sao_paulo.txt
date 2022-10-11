@@ -2,4 +2,10 @@ sao_paulo = {
 	name = "Sao Paulo" #"São Paulo"
 	color = { 83 205 137 }
 	capital_settlement = sao_paulo
+	
+	history = {
+		1300 = {
+			owner = tupi #Tupinambá territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+		}
+	}
 }

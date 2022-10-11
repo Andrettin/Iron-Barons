@@ -1,0 +1,5 @@
+tupi = {
+	name = "Tupi"
+	type = tribe
+	capital_province = bahia
+}
