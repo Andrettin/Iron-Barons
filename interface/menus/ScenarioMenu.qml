@@ -18,12 +18,16 @@ MenuBase {
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		
-		Image {
-			id: diplomatic_map_image
-			source: "image://diplomatic_map/" + reload_count
-			cache: false
+		Repeater {
+			model: metternich.game.countries
 			
-			property int reload_count: 0
+			Image {
+				id: country_image
+				x: model.modelData.game_data.diplomatic_map_image_pos.x
+				y: model.modelData.game_data.diplomatic_map_image_pos.y
+				source: "image://diplomatic_map/" + model.modelData.identifier
+				cache: false
+			}
 		}
 	}
 	
@@ -74,13 +78,6 @@ MenuBase {
 		
 		onClicked: {
 			menu_stack.pop()
-		}
-	}
-	
-	Connections {
-		target: metternich.game
-		function onDiplomatic_map_image_changed() {
-			diplomatic_map_image.reload_count += 1
 		}
 	}
 	
