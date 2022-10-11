@@ -1,5 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
+import MaskedMouseArea 1.0
 import ".."
 
 MenuBase {
@@ -23,10 +24,21 @@ MenuBase {
 			
 			Image {
 				id: country_image
-				x: model.modelData.game_data.diplomatic_map_image_pos.x
-				y: model.modelData.game_data.diplomatic_map_image_pos.y
-				source: "image://diplomatic_map/" + model.modelData.identifier
+				x: country.game_data.diplomatic_map_image_pos.x
+				y: country.game_data.diplomatic_map_image_pos.y
+				source: "image://diplomatic_map/" + country.identifier
 				cache: false
+				
+				readonly property var country: model.modelData
+				
+				MaskedMouseArea {
+					anchors.fill: parent
+					alphaThreshold: 0.4
+					maskSource: parent.source
+					ToolTip.text: country.name
+					ToolTip.visible: containsMouse
+					ToolTip.delay: 1000
+				}
 			}
 		}
 	}
