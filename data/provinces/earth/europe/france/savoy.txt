@@ -3,8 +3,20 @@ savoy = {
 	color = { 208 0 224 }
 	
 	history = {
+		1280 = {
+			owner = savoy #part of the County of the Savoy c. 1280; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1418 = {
+			owner = savoy #part of the Domain of the Duchy of Savoy in 1418; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1477 = {
 			owner = savoy #part of the Duchy of Savoy c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1740 = {
+			owner = savoy #part of Savoy c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 		
 		1815 = {

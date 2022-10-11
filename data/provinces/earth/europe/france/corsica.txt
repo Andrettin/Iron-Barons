@@ -6,5 +6,13 @@ corsica = {
 		1360 = {
 			owner = genoa #part of Genoa in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
+		
+		1740 = {
+			owner = genoa #part of the Republic of Genoa c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1768 = {
+			owner = france #became part of France in 1768; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
 	}
 }

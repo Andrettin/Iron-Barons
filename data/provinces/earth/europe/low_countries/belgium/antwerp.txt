@@ -7,6 +7,10 @@ antwerp = {
 			owner = burgundy #Burgundian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1740 = {
+			owner = austria #part of the Austrian Netherlands c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1815 = {
 			owner = netherlands #part of the Kingdom of the Netherlands in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}

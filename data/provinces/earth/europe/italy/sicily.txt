@@ -7,5 +7,17 @@ sicily = {
 		1360 = {
 			owner = sicily #part of the Kingdom of Sicily in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
+		
+		1714 = {
+			owner = savoy #became a Savoyard possession in 1714; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1720 = {
+			owner = austria #became an Austrian possession in 1720; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1735 = {
+			owner = sicily #became part of the Kingdom of the Two Sicilies under the Spanish Bourbons in 1735; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
 	}
 }

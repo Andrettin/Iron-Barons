@@ -7,5 +7,9 @@ tuscany = {
 		1477 = {
 			owner = florence #part of the Republic of Florence c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
+		
+		1737 = {
+			owner = tuscany #part of the Grand Duchy of Tuscany in 1737; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
 	}
 }

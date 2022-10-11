@@ -2,4 +2,10 @@ zurich = {
 	name = "Zurich" #"Zürich"
 	color = { 126 75 134 }
 	capital_settlement = zurich
+	
+	history = {
+		1740 = {
+			owner = switzerland #part of Switzerland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

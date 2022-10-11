@@ -7,5 +7,13 @@ naples = {
 		1360 = {
 			owner = naples #part of the Kingdom of Naples in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
+		
+		1714 = {
+			owner = austria #became an Austrian possession in 1714; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1735 = {
+			owner = sicily #became part of the Kingdom of the Two Sicilies under the Spanish Bourbons in 1735; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
 	}
 }

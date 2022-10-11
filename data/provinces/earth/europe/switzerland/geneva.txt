@@ -2,4 +2,18 @@ geneva = {
 	name = "Geneva"
 	color = { 208 128 96 }
 	capital_settlement = geneva
+	
+	history = {
+		1418 = {
+			owner = savoy #part of the Domain of the Duchy of Savoy in 1418; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1536 = {
+			owner = switzerland #lost by Savoy by 1536; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1740 = {
+			owner = switzerland #part of Switzerland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

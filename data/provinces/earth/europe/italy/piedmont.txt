@@ -4,8 +4,16 @@ piedmont = {
 	capital_settlement = turin
 	
 	history = {
+		1280 = {
+			owner = savoy #part of the County of the Savoy c. 1280; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1477 = {
 			owner = savoy #part of the Duchy of Savoy c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1740 = {
+			owner = savoy #part of Savoy c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 		
 		1815 = {

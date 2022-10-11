@@ -10,5 +10,9 @@ poitou = {
 		1477 = {
 			owner = france #part of the Kingdom of France c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
+		
+		1740 = {
+			owner = france #part of the Kingdom of France c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
 	}
 }

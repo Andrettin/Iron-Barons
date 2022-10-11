@@ -7,5 +7,9 @@ castille = {
 		1360 = {
 			owner = castille #part of Castille in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
+		
+		1740 = {
+			owner = spain #part of the Kingdom of Spain c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
 	}
 }

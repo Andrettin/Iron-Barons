@@ -2,4 +2,10 @@ bern = {
 	name = "Bern"
 	color = { 80 128 96 }
 	capital_settlement = bern
+	
+	history = {
+		1740 = {
+			owner = switzerland #part of Switzerland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
