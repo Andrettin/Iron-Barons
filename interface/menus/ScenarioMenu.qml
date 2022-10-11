@@ -4,8 +4,10 @@ import MaskedMouseArea 1.0
 import ".."
 
 MenuBase {
-	id: main_menu
+	id: scenario_menu
 	title: qsTr("Scenario")
+	
+	property var selected_scenario: null
 	
 	Flickable {
 		id: diplomatic_map
@@ -43,6 +45,17 @@ MenuBase {
 		}
 	}
 	
+	Rectangle {
+		id: scenario_list_background
+		anchors.horizontalCenter: scenario_list.horizontalCenter
+		anchors.verticalCenter: scenario_list.verticalCenter
+		width: scenario_list.width + 2
+		height: scenario_list.height + 2
+		color: "transparent"
+		border.color: "white"
+		border.width: 1
+	}
+	
 	ListView {
 		id: scenario_list
 		anchors.right: diplomatic_map.left
@@ -54,14 +67,27 @@ MenuBase {
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		model: metternich.get_scenarios()
-		delegate: Button {
-			text: model.modelData.name + ", " + date_year_string(model.modelData.start_date)
+		delegate: Rectangle {
 			width: 256 * scale_factor
 			height: 24 * scale_factor
 			visible: !model.modelData.hidden
+			color: (selected_scenario == model.modelData) ? "olive" : "black"
+			border.color: "white"
+			border.width: 1
 			
-			onClicked: {
-				metternich.game.setup_scenario(model.modelData)
+			SmallText {
+				text: model.modelData.name + ", " + date_year_string(model.modelData.start_date)
+				anchors.horizontalCenter: parent.horizontalCenter
+				anchors.verticalCenter: parent.verticalCenter
+			}
+			
+			MouseArea {
+				anchors.fill: parent
+				
+				onClicked: {
+					selected_scenario = model.modelData
+					metternich.game.setup_scenario(selected_scenario)
+				}
 			}
 		}
 	}
@@ -94,7 +120,7 @@ MenuBase {
 	}
 	
 	Component.onCompleted: {
-		var scenario = metternich.get_scenarios()[0]
-		metternich.game.setup_scenario(scenario)
+		selected_scenario = metternich.get_scenarios()[0]
+		metternich.game.setup_scenario(selected_scenario)
 	}
 }
