@@ -3,6 +3,10 @@ spain = {
 	type = great_power
 	color = { 255 173 41 }
 	capital_province = castille
+	eras = {
+		renaissance
+		industrial
+	}
 	provinces = {
 		castille
 		leon

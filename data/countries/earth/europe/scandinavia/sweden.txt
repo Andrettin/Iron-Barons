@@ -3,4 +3,8 @@ sweden = {
 	type = great_power
 	color = { 0 173 198 }
 	capital_province = stockholm
+	eras = {
+		renaissance
+		industrial
+	}
 }

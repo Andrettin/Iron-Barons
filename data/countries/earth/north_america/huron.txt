@@ -2,4 +2,7 @@ huron = {
 	name = "Huron"
 	type = tribe
 	capital_province = quebec
+	eras = {
+		renaissance
+	}
 }

@@ -2,4 +2,7 @@ cherokee = {
 	name = "Cherokee"
 	type = tribe
 	capital_province = west_virginia
+	eras = {
+		renaissance
+	}
 }

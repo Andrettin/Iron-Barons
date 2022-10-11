@@ -3,4 +3,7 @@ england = {
 	type = great_power
 	color = { 206 8 8 }
 	capital_province = london
+	eras = {
+		renaissance
+	}
 }

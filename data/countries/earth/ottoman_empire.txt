@@ -3,4 +3,8 @@ ottoman_empire = {
 	type = great_power
 	color = { 170 148 214 }
 	capital_province = istanbul
+	eras = {
+		renaissance
+		industrial
+	}
 }

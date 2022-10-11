@@ -2,4 +2,7 @@ lorraine = {
 	name = "Lorraine"
 	type = minor_nation
 	capital_province = lorraine
+	eras = {
+		renaissance
+	}
 }

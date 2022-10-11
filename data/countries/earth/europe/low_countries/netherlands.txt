@@ -3,4 +3,7 @@ netherlands = {
 	type = great_power
 	color = { 255 90 8 }
 	capital_province = holland
+	eras = {
+		industrial
+	}
 }

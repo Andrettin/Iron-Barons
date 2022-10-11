@@ -2,4 +2,7 @@ brunswick = {
 	name = "Brunswick"
 	type = minor_nation
 	capital_province = hanover
+	eras = {
+		renaissance
+	}
 }

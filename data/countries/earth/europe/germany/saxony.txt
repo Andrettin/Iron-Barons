@@ -2,4 +2,8 @@ saxony = {
 	name = "Saxony"
 	type = minor_nation
 	capital_province = saxony
+	eras = {
+		renaissance
+		industrial
+	}
 }

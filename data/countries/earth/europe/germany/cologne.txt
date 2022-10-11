@@ -2,4 +2,7 @@ cologne = {
 	name = "Cologne"
 	type = minor_nation
 	capital_province = rhineland
+	eras = {
+		renaissance
+	}
 }

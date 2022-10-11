@@ -3,4 +3,8 @@ france = {
 	type = great_power
 	color = { 87 139 166 }
 	capital_province = ile_de_france
+	eras = {
+		renaissance
+		industrial
+	}
 }

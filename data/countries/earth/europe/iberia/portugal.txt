@@ -3,6 +3,10 @@ portugal = {
 	type = great_power
 	color = { 0 66 24 }
 	capital_province = lisbon
+	eras = {
+		renaissance
+		industrial
+	}
 	provinces = {
 		lisbon
 		douro

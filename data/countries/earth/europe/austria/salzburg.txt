@@ -2,4 +2,7 @@ salzburg = {
 	name = "Salzburg"
 	type = minor_nation
 	capital_province = salzburg
+	eras = {
+		renaissance
+	}
 }
