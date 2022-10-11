@@ -2,4 +2,10 @@ east_galicia = {
 	name = "East Galicia"
 	color = { 17 160 33 }
 	capital_settlement = lemberg
+	
+	history = {
+		1740 = {
+			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

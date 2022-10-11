@@ -2,4 +2,10 @@ kesmark = {
 	name = "Kesmark"
 	color = { 45 81 158 }
 	capital_settlement = kesmark
+	
+	history = {
+		1740 = {
+			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

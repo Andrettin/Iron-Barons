@@ -2,4 +2,10 @@ bukovina = {
 	name = "Bukovina"
 	color = { 49 160 160 }
 	capital_settlement = czernowitz
+	
+	history = {
+		1740 = {
+			owner = moldavia #part of Moldavia c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

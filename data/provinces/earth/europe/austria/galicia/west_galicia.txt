@@ -2,4 +2,10 @@ west_galicia = {
 	name = "West Galicia"
 	color = { 144 96 96 }
 	capital_settlement = cracow
+	
+	history = {
+		1740 = {
+			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

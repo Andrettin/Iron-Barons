@@ -2,4 +2,10 @@ pressburg = {
 	name = "Pressburg"
 	color = { 81 97 97 }
 	capital_settlement = pressburg
+	
+	history = {
+		1740 = {
+			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

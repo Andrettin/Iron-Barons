@@ -2,4 +2,10 @@ buda = {
 	name = "Buda"
 	color = { 30 101 51 }
 	capital_settlement = buda
+	
+	history = {
+		1740 = {
+			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

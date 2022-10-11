@@ -1,0 +1,5 @@
+moldavia = {
+	name = "Moldavia"
+	color = { 176 160 224 }
+	capital_settlement = iasi
+}
