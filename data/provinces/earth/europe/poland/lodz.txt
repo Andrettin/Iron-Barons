@@ -8,6 +8,10 @@ lodz = {
 			owner = poland #part of the Kingdom of Poland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1740 = {
+			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
 		1815 = {
 			owner = russia #part of the Russian Empire in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
