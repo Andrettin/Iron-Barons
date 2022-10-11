@@ -1,0 +1,5 @@
+pernambuco = {
+	name = "Pernambuco"
+	color = { 33 128 80 }
+	capital_settlement = recife
+}

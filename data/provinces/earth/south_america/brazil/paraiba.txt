@@ -1,0 +1,5 @@
+paraiba = {
+	name = "Paraiba" #"Paraíba"
+	color = { 160 1 80 }
+	capital_settlement = joao_pessoa
+}

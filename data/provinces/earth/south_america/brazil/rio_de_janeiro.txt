@@ -1,0 +1,5 @@
+rio_de_janeiro = {
+	name = "Rio de Janeiro"
+	color = { 31 205 137 }
+	capital_settlement = rio_de_janeiro
+}

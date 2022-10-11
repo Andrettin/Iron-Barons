@@ -1,0 +1,5 @@
+rio_grande_do_norte = {
+	name = "Rio Grande do Norte"
+	color = { 96 65 144 }
+	capital_settlement = natal
+}

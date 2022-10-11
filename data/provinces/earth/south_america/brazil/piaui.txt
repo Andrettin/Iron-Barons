@@ -1,0 +1,5 @@
+piaui = {
+	name = "Piaui" #"Piauí"
+	color = { 160 192 144 }
+	capital_settlement = teresina
+}
