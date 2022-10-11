@@ -9,6 +9,17 @@ MenuBase {
 	
 	property var selected_scenario: null
 	
+	Rectangle {
+		id: diplomatic_map_border
+		anchors.horizontalCenter: diplomatic_map.horizontalCenter
+		anchors.verticalCenter: diplomatic_map.verticalCenter
+		width: diplomatic_map.width + 2
+		height: diplomatic_map.height + 2
+		color: "transparent"
+		border.color: "white"
+		border.width: 1
+	}
+	
 	Flickable {
 		id: diplomatic_map
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -46,7 +57,7 @@ MenuBase {
 	}
 	
 	Rectangle {
-		id: scenario_list_background
+		id: scenario_list_border
 		anchors.horizontalCenter: scenario_list.horizontalCenter
 		anchors.verticalCenter: scenario_list.verticalCenter
 		width: scenario_list.width + 2
