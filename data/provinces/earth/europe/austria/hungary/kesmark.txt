@@ -1,0 +1,5 @@
+kesmark = {
+	name = "Kesmark"
+	color = { 45 81 158 }
+	capital_settlement = kesmark
+}

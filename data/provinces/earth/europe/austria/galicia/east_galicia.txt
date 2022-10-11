@@ -1,0 +1,5 @@
+east_galicia = {
+	name = "East Galicia"
+	color = { 17 160 33 }
+	capital_settlement = lemberg
+}

@@ -1,0 +1,7 @@
+buda = {
+	name = "Buda"
+	world = earth
+	#geocoordinate = { 19.05 47.466666666667 }
+	geocoordinate = { 18.93 47.511111111111 } #Budakeszi; Buda's actual location led to it being in the same tile as Pest
+	type = settlement
+}
