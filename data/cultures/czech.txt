@@ -1,0 +1,4 @@
+czech = {
+	name = "Czech"
+	group = west_slavic
+}

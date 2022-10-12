@@ -1,0 +1,4 @@
+suebi = {
+	name = "Suebi"
+	group = west_germanic
+}

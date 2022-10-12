@@ -1,0 +1,4 @@
+frankish = {
+	name = "Frankish"
+	group = west_germanic
+}
