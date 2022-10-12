@@ -1,6 +1,7 @@
 hanover = {
 	name = "Hanover"
 	type = minor_nation
+	culture = german
 	capital_province = hanover
 	eras = {
 		industrial

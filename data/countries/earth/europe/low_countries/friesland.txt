@@ -1,6 +1,7 @@
 friesland = {
 	name = "Friesland"
 	type = minor_nation
+	culture = dutch
 	capital_province = friesland
 	eras = {
 		renaissance

@@ -1,6 +1,7 @@
 salzburg = {
 	name = "Salzburg"
 	type = minor_nation
+	culture = austrian
 	capital_province = salzburg
 	eras = {
 		renaissance

@@ -1,0 +1,4 @@
+sioux = {
+	name = "Sioux"
+	group = siouan
+}

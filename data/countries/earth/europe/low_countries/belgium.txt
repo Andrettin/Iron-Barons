@@ -1,5 +1,6 @@
 belgium = {
 	name = "Belgium"
 	type = minor_nation
+	culture = wallonian
 	capital_province = brabant
 }

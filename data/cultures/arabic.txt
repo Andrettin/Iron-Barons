@@ -1,0 +1,4 @@
+arabic = {
+	name = "Arabic"
+	group = arabic
+}

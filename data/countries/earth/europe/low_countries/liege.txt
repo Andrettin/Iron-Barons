@@ -1,6 +1,7 @@
 liege = {
 	name = "Liege" #"Liège"
 	type = minor_nation
+	culture = wallonian
 	capital_province = liege
 	eras = {
 		renaissance

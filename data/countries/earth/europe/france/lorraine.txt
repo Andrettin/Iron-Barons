@@ -1,6 +1,7 @@
 lorraine = {
 	name = "Lorraine"
 	type = minor_nation
+	culture = french
 	capital_province = lorraine
 	eras = {
 		renaissance

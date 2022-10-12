@@ -1,6 +1,7 @@
 denmark = {
 	name = "Denmark"
 	type = minor_nation
+	culture = danish
 	capital_province = zealand
 	eras = {
 		renaissance

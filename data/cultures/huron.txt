@@ -1,0 +1,4 @@
+huron = {
+	name = "Huron"
+	group = iroquoian
+}

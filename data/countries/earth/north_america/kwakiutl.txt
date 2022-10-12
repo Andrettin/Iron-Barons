@@ -1,6 +1,7 @@
 kwakiutl = {
 	name = "Kwakiutl"
 	type = tribe
+	culture = kwakiutl
 	capital_province = british_columbia
 	eras = {
 		renaissance

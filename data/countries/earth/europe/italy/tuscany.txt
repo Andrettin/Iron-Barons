@@ -1,6 +1,7 @@
 tuscany = {
 	name = "Tuscany"
 	type = minor_nation
+	culture = italian
 	capital_province = tuscany
 	eras = {
 		industrial

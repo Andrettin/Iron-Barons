@@ -1,6 +1,7 @@
 bavaria = {
 	name = "Bavaria"
 	type = minor_nation
+	culture = german
 	capital_province = bavaria
 	eras = {
 		renaissance

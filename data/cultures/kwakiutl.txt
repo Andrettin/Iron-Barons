@@ -1,0 +1,4 @@
+kwakiutl = {
+	name = "Kwakiutl"
+	group = kwakiutl
+}

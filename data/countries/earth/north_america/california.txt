@@ -1,6 +1,7 @@
 california = {
 	name = "California"
 	type = minor_nation
+	culture = castillian
 	capital_province = california
 	
 	history = {

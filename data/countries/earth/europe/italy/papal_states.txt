@@ -1,6 +1,7 @@
 papal_states = {
 	name = "Papal States"
 	type = minor_nation
+	culture = italian
 	capital_province = latium
 	eras = {
 		renaissance

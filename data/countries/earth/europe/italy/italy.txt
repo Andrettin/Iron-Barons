@@ -2,5 +2,6 @@ italy = {
 	name = "Italy"
 	type = great_power
 	color = { 142 167 80 }
+	culture = italian
 	capital_province = latium
 }

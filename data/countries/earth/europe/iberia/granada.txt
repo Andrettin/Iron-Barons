@@ -1,5 +1,6 @@
 granada = {
 	name = "Granada"
 	type = minor_nation
+	culture = arabic
 	capital_province = granada
 }

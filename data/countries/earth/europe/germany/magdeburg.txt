@@ -1,6 +1,7 @@
 magdeburg = {
 	name = "Magdeburg"
 	type = minor_nation
+	culture = german
 	capital_province = magdeburg
 	eras = {
 		renaissance

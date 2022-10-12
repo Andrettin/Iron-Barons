@@ -1,0 +1,4 @@
+swedish = {
+	name = "Swedish"
+	group = scandinavian
+}

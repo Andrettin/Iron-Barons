@@ -2,6 +2,7 @@ sweden = {
 	name = "Sweden"
 	type = great_power
 	color = { 0 173 198 }
+	culture = swedish
 	capital_province = stockholm
 	eras = {
 		renaissance

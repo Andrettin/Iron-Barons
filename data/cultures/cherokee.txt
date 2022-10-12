@@ -1,0 +1,4 @@
+cherokee = {
+	name = "Cherokee"
+	group = iroquoian
+}

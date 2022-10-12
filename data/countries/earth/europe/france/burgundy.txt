@@ -1,5 +1,6 @@
 burgundy = {
 	name = "Burgundy"
 	type = minor_nation
+	culture = french
 	capital_province = burgundy
 }

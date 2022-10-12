@@ -2,6 +2,7 @@ castille = {
 	name = "Castille"
 	type = great_power
 	color = { 255 173 41 }
+	culture = castillian
 	capital_province = castille
 	provinces = {
 		castille

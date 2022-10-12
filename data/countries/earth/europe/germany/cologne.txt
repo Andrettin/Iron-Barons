@@ -1,6 +1,7 @@
 cologne = {
 	name = "Cologne"
 	type = minor_nation
+	culture = german
 	capital_province = rhineland
 	eras = {
 		renaissance

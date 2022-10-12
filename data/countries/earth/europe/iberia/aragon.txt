@@ -1,6 +1,7 @@
 aragon = {
 	name = "Aragon"
 	type = minor_nation
+	culture = catalan
 	capital_province = aragon
 	provinces = {
 		aragon

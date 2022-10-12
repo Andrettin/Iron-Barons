@@ -2,6 +2,7 @@ portugal = {
 	name = "Portugal"
 	type = great_power
 	color = { 0 66 24 }
+	culture = portuguese
 	capital_province = lisbon
 	eras = {
 		renaissance

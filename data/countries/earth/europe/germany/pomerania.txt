@@ -1,6 +1,7 @@
 pomerania = {
 	name = "Pomerania"
 	type = minor_nation
+	culture = german
 	capital_province = hither_pomerania
 	eras = {
 		renaissance

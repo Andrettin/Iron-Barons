@@ -1,6 +1,7 @@
 virginia = {
 	name = "Virginia"
 	type = minor_nation
+	culture = english
 	capital_province = virginia
 	
 	history = {

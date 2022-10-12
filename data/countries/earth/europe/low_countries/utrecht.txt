@@ -1,6 +1,7 @@
 utrecht = {
 	name = "Utrecht"
 	type = minor_nation
+	culture = dutch
 	capital_province = utrecht
 	eras = {
 		renaissance

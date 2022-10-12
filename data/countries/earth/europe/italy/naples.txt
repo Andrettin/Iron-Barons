@@ -1,5 +1,6 @@
 naples = {
 	name = "Naples"
 	type = minor_nation
+	culture = italian
 	capital_province = naples
 }

@@ -1,6 +1,7 @@
 milan = {
 	name = "Milan"
 	type = minor_nation
+	culture = italian
 	capital_province = lombardy
 	eras = {
 		renaissance

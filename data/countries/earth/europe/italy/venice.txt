@@ -1,6 +1,7 @@
 venice = {
 	name = "Venice"
 	type = minor_nation
+	culture = italian
 	capital_province = venetia
 	eras = {
 		renaissance

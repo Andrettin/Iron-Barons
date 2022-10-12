@@ -1,0 +1,4 @@
+iroquois = {
+	name = "Iroquois"
+	group = iroquoian
+}

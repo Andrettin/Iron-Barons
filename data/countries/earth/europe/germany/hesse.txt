@@ -1,6 +1,7 @@
 hesse = {
 	name = "Hesse"
 	type = minor_nation
+	culture = german
 	capital_province = hesse
 	eras = {
 		renaissance

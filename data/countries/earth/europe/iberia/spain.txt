@@ -2,6 +2,7 @@ spain = {
 	name = "Spain"
 	type = great_power
 	color = { 255 173 41 }
+	culture = castillian
 	capital_province = castille
 	eras = {
 		renaissance

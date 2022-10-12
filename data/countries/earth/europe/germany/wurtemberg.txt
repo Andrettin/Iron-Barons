@@ -1,6 +1,7 @@
 wurtemberg = {
 	name = "Wurtemberg"
 	type = minor_nation
+	culture = german
 	capital_province = wurtemberg
 	eras = {
 		renaissance

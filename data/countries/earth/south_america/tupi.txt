@@ -1,6 +1,7 @@
 tupi = {
 	name = "Tupi"
 	type = tribe
+	culture = tupi
 	capital_province = bahia
 	eras = {
 		renaissance

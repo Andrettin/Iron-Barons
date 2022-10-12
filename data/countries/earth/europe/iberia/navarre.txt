@@ -1,5 +1,6 @@
 navarre = {
 	name = "Navarre"
 	type = minor_nation
+	culture = basque
 	capital_province = navarre
 }
