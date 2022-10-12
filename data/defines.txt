@@ -5,3 +5,4 @@ default_province_terrain = plains
 default_water_zone_terrain = ocean
 minor_nation_color = { 221 216 181 }
 default_settlement_image_filepath = "settlements/dwarven_settlement.png"
+min_diplomatic_map_tile_scale = 5
