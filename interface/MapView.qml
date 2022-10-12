@@ -36,7 +36,7 @@ Item {
 			TinyText {
 				text: settlement ? province.game_data.current_cultural_name : ""
 				x: settlement ? settlement.game_data.tile_pos.x * tile_size + tile_size / 2 - width / 2 : 0
-				y: settlement ? settlement.game_data.tile_pos.y * tile_size + tile_size + 4 * scale_factor : 0
+				y: settlement ? settlement.game_data.tile_pos.y * tile_size + tile_size + 2 * scale_factor : 0
 				z: 40
 				
 				readonly property var province: model.modelData
