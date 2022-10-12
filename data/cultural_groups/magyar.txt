@@ -1,0 +1,3 @@
+magyar = {
+	name = "Magyar"
+}

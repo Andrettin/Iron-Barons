@@ -1,6 +1,7 @@
 teutonic_order = {
 	name = "Teutonic Order"
 	type = minor_nation
+	culture = german
 	capital_province = east_prussia
 	eras = {
 		renaissance

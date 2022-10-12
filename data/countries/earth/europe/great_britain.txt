@@ -2,6 +2,7 @@ great_britain = {
 	name = "Great Britain"
 	type = great_power
 	color = { 254 249 69 }
+	culture = english
 	capital_province = london
 	eras = {
 		industrial

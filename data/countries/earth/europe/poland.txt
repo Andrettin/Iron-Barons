@@ -1,6 +1,7 @@
 poland = {
 	name = "Poland"
 	type = minor_nation
+	culture = polish
 	capital_province = warsaw
 	eras = {
 		renaissance

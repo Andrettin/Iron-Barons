@@ -1,6 +1,7 @@
 moldavia = {
 	name = "Moldavia"
 	type = minor_nation
+	culture = romanian
 	capital_province = moldavia
 	eras = {
 		renaissance

@@ -1,6 +1,7 @@
 bohemia = {
 	name = "Bohemia"
 	type = minor_nation
+	culture = czech
 	capital_province = bohemia
 	eras = {
 		renaissance

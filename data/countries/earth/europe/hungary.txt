@@ -1,6 +1,7 @@
 hungary = {
 	name = "Hungary"
 	type = minor_nation
+	culture = magyar
 	capital_province = pest
 	eras = {
 		renaissance

@@ -1,6 +1,7 @@
 switzerland = {
 	name = "Switzerland"
 	type = minor_nation
+	culture = german
 	capital_province = bern
 	eras = {
 		renaissance

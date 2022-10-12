@@ -1,0 +1,4 @@
+italian = {
+	name = "Italian"
+	group = italian
+}

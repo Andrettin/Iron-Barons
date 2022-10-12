@@ -1,0 +1,4 @@
+magyar = {
+	name = "Magyar"
+	group = magyar
+}
