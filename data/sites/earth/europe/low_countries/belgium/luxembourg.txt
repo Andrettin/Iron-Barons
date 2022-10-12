@@ -1,0 +1,6 @@
+luxembourg = {
+	name = "Luxembourg"
+	world = earth
+	geocoordinate = { 6.13000280623 49.61166037910 } #from Natural Earth
+	type = settlement
+}

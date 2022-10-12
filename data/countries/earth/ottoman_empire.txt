@@ -3,7 +3,7 @@ ottoman_empire = {
 	type = great_power
 	color = { 170 148 214 }
 	culture = turkish
-	capital_province = istanbul
+	capital_province = constantinople
 	eras = {
 		renaissance
 		industrial

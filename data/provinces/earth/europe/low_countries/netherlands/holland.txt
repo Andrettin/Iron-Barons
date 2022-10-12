@@ -1,6 +1,7 @@
 holland = {
 	name = "Holland"
 	color = { 119 119 50 }
+	capital_settlement = amsterdam
 	
 	history = {
 		1477 = {

@@ -1,6 +1,7 @@
 antwerp = {
 	name = "Antwerp"
 	color = { 128 0 96 }
+	capital_settlement = antwerp
 	
 	history = {
 		1477 = {

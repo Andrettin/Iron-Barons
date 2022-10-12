@@ -1,0 +1,4 @@
+anglo_saxon = {
+	name = "Anglo-Saxon"
+	group = anglo_saxon
+}

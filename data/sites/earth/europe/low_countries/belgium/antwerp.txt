@@ -1,0 +1,6 @@
+antwerp = {
+	name = "Antwerp"
+	world = earth
+	geocoordinate = { 4.41501704776 51.22037355460 } #from Natural Earth
+	type = settlement
+}

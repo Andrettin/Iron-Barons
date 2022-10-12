@@ -1,0 +1,11 @@
+london = {
+	name = "London"
+	world = earth
+	geocoordinate = { -0.11672184386 51.49999472970 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		anglo_saxon = "Lunden" #Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 732.
+		briton = "Londinion"
+		roman = "Londinium" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
+	}
+}

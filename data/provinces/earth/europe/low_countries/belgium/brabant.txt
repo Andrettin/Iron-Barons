@@ -1,6 +1,7 @@
 brabant = {
 	name = "Brabant"
 	color = { 1 128 97 }
+	capital_settlement = brussels
 	
 	history = {
 		1477 = {

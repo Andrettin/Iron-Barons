@@ -1,4 +1,5 @@
 moscow = {
 	name = "Moscow"
 	color = { 224 160 33 }
+	capital_settlement = moscow
 }

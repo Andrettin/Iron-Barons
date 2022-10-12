@@ -1,0 +1,4 @@
+briton = {
+	name = "Briton"
+	group = celtic
+}
