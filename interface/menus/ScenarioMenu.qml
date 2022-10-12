@@ -54,24 +54,6 @@ MenuBase {
 				}
 			}
 		}
-		
-		/*
-		Repeater {
-			model: metternich.game.countries
-			
-			TinyText {
-				text: country.name
-				x: country.game_data.diplomatic_map_image_rect.x + country.game_data.diplomatic_map_image_rect.width / 2 - width / 2
-				y: country.game_data.diplomatic_map_image_rect.y + country.game_data.diplomatic_map_image_rect.height / 2 - height / 2
-				visible: country.game_data.territory_rect.width >= 32
-				color: country.great_power ? "white" : "black"
-				shadow_color: country.great_power ? "black" : "white"
-				font.bold: true
-				
-				readonly property var country: model.modelData
-			}
-		}
-		*/
 	}
 	
 	Rectangle {
