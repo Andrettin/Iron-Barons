@@ -8,12 +8,13 @@ Text {
 	font.family: berenika_font.name
 	
 	property int shadow_offset: 0
+	property var shadow_color: "#FF000000"
 	
 	layer.enabled: true
 	layer.effect: DropShadow {
 		horizontalOffset: label.shadow_offset
 		verticalOffset: label.shadow_offset
-		color: "#FF000000"
+		color: shadow_color
 		radius: 1
 		samples: 3
 	}
