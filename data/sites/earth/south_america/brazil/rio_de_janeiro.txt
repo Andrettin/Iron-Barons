@@ -3,4 +3,7 @@ rio_de_janeiro = {
 	world = earth
 	geocoordinate = { -43.22502079420 -22.92502317420 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		french = "Henriville"
+	}
 }

@@ -3,4 +3,8 @@ laibach = {
 	world = earth
 	geocoordinate = { 14.51496903350 46.05528830880 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		roman = "Emona" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 38-39.
+		slovene = "Ljubljana"
+	}
 }

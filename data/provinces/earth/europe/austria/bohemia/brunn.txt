@@ -2,6 +2,9 @@ brunn = {
 	name = "Brunn" #"Brünn"
 	color = { 239 96 128 }
 	capital_settlement = brunn
+	cultural_names = {
+		czech = "Brno"
+	}
 	
 	history = {
 		1477 = {

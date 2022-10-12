@@ -3,4 +3,7 @@ posen = {
 	world = earth
 	geocoordinate = { 16.89993973660 52.40575339670 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		polish = "Poznan" #"Poznań"
+	}
 }

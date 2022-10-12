@@ -2,6 +2,9 @@ pilsen = {
 	name = "Pilsen"
 	color = { 240 97 65 }
 	capital_settlement = pilsen
+	cultural_names = {
+		czech = "Plzen"
+	}
 	
 	history = {
 		1477 = {

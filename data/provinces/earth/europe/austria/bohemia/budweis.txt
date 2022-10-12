@@ -2,6 +2,9 @@ budweis = {
 	name = "Budweis"
 	color = { 240 224 65 }
 	capital_settlement = budweis
+	cultural_names = {
+		czech = "Budejovice" #Budějovice
+	}
 	
 	history = {
 		1477 = {

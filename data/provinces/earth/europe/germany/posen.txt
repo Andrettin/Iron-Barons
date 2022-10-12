@@ -2,6 +2,9 @@ posen = {
 	name = "Posen"
 	color = { 33 65 160 }
 	capital_settlement = posen
+	cultural_names = {
+		polish = "Poznan" #"Poznań"
+	}
 	
 	history = {
 		1477 = {

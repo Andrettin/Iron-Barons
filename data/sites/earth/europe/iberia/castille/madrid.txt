@@ -3,4 +3,7 @@ madrid = {
 	world = earth
 	geocoordinate = { -3.68335168600 40.40002626450 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		roman = "Complutum"
+	}
 }

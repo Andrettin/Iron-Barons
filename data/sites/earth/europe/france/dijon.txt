@@ -3,4 +3,7 @@ dijon = {
 	world = earth
 	geocoordinate = { 5.03001826846 47.33040427560 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		frankish = "Divio"
+	}
 }

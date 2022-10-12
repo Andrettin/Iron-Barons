@@ -2,6 +2,9 @@ valencia = {
 	name = "Valencia"
 	color = { 143 223 128 }
 	capital_settlement = valencia
+	cultural_names = {
+		roman = "Valentia" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
 	
 	history = {
 		1360 = {

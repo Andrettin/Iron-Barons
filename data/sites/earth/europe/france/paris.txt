@@ -3,4 +3,9 @@ paris = {
 	world = earth
 	geocoordinate = { 2.33333532574 48.86669293120 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		frankish = "Parisii"
+		gaulish = "Lutetia"
+		roman = "Lutetia" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
 }

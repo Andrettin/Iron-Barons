@@ -3,4 +3,8 @@ palermo = {
 	world = earth
 	geocoordinate = { 13.35002722030 38.12502300930 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		greek = "Panormus"
+		roman = "Panormus" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 12.
+	}
 }

@@ -3,4 +3,8 @@ vienna = {
 	world = earth
 	geocoordinate = { 16.36663895540 48.20001527820 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		gaulish = "Vindobona"
+		roman = "Vindobona" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
 }

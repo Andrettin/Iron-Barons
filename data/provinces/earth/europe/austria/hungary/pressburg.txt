@@ -2,6 +2,9 @@ pressburg = {
 	name = "Pressburg"
 	color = { 81 97 97 }
 	capital_settlement = pressburg
+	cultural_names = {
+		slovak = "Bratislava"
+	}
 	
 	history = {
 		1740 = {
