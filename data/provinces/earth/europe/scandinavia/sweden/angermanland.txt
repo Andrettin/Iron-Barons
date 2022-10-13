@@ -1,0 +1,5 @@
+angermanland = {
+	name = "Angermanland"
+	color = { 168 27 82 }
+	capital_settlement = harnosand
+}

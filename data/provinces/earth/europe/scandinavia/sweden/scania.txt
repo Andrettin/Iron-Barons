@@ -1,0 +1,5 @@
+scania = {
+	name = "Scania"
+	color = { 192 65 97 }
+	capital_settlement = malmo
+}

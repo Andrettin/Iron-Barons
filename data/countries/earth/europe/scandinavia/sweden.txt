@@ -3,7 +3,7 @@ sweden = {
 	type = great_power
 	color = { 0 173 198 }
 	culture = swedish
-	capital_province = stockholm
+	capital_province = uppland
 	eras = {
 		renaissance
 		industrial

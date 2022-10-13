@@ -1,0 +1,5 @@
+halland = {
+	name = "Halland"
+	color = { 168 9 37 }
+	capital_settlement = halmstad
+}
