@@ -1,6 +1,6 @@
 plains = {
 	name = "Plains"
 	color = { 224 224 128 }
-	image_filepath = "terrain/plains.png"
+	image_filepath = "tiles/terrain/plains.png"
 	tiles = { 0 1 2 3 4 }
 }

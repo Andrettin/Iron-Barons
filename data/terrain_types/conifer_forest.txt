@@ -1,6 +1,6 @@
 conifer_forest = {
 	name = "Conifer Forest"
 	color = { 0 128 0 }
-	image_filepath = "terrain/conifer_forest.png"
+	image_filepath = "tiles/terrain/conifer_forest.png"
 	tiles = { 0 }
 }
