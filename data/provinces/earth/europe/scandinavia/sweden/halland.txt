@@ -2,4 +2,10 @@ halland = {
 	name = "Halland"
 	color = { 168 9 37 }
 	capital_settlement = halmstad
+	
+	history = {
+		1740 = {
+			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

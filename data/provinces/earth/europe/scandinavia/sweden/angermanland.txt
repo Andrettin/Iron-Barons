@@ -2,4 +2,10 @@ angermanland = {
 	name = "Angermanland"
 	color = { 168 27 82 }
 	capital_settlement = harnosand
+	
+	history = {
+		1740 = {
+			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

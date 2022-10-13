@@ -2,4 +2,10 @@ uppland = {
 	name = "Uppland"
 	color = { 96 64 96 }
 	capital_settlement = stockholm
+	
+	history = {
+		1740 = {
+			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
