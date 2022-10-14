@@ -10,12 +10,12 @@ MenuBase {
 	property var selected_scenario: null
 	
 	Rectangle {
-		id: diplomatic_map_border
+		id: diplomatic_map_background
 		anchors.horizontalCenter: diplomatic_map.horizontalCenter
 		anchors.verticalCenter: diplomatic_map.verticalCenter
 		width: diplomatic_map.width + 2
 		height: diplomatic_map.height + 2
-		color: "transparent"
+		color: Qt.rgba(0.0 / 255.0, 0.0 / 255.0, 48.0 / 255.0, 1)
 		border.color: "white"
 		border.width: 1
 	}
