@@ -57,7 +57,11 @@ MenuBase {
 					
 					onClicked: {
 						if (country.great_power) {
-							diplomatic_map.selected_country = country
+							if (selected) {
+								diplomatic_map.selected_country = null
+							} else {
+								diplomatic_map.selected_country = country
+							}
 						}
 					}
 				}
