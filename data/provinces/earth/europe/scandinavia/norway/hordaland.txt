@@ -2,4 +2,10 @@ hordaland = {
 	name = "Hordaland"
 	color = { 224 128 32 }
 	capital_settlement = bergen
+	
+	history = {
+		1740 = {
+			owner = denmark #Danish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

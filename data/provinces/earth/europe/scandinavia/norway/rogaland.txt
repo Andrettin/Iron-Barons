@@ -2,4 +2,10 @@ rogaland = {
 	name = "Rogaland"
 	color = { 3 80 255 }
 	capital_settlement = stavanger
+	
+	history = {
+		1740 = {
+			owner = denmark #Danish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
