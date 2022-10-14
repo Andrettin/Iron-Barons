@@ -27,8 +27,8 @@ MenuBase {
 		anchors.verticalCenter: parent.verticalCenter
 		width: 512 * scale_factor
 		height: 256 * scale_factor
-		contentWidth: metternich.game.diplomatic_map_image_size.width
-		contentHeight: metternich.game.diplomatic_map_image_size.height
+		contentWidth: metternich.game.diplomatic_map_image_size.width * scale_factor
+		contentHeight: metternich.game.diplomatic_map_image_size.height * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		
