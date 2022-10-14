@@ -65,6 +65,14 @@ MenuBase {
 		}
 	}
 	
+	SmallText {
+		text: diplomatic_map.selected_country ? ("Country: " + diplomatic_map.selected_country.name) : ""
+		anchors.left: diplomatic_map.left
+		anchors.leftMargin: 4 * scale_factor
+		anchors.top: diplomatic_map_background.bottom
+		anchors.topMargin: 16 * scale_factor
+	}
+	
 	Rectangle {
 		id: scenario_list_border
 		anchors.horizontalCenter: scenario_list.horizontalCenter
@@ -136,6 +144,15 @@ MenuBase {
 		
 		onClicked: {
 			menu_stack.pop()
+		}
+	}
+	
+	Connections {
+		target: metternich.game
+		function onCountriesChanged() {
+			if (diplomatic_map.selected_country !== null && !metternich.game.countries.includes(diplomatic_map.selected_country)) {
+				diplomatic_map.selected_country = null
+			}
 		}
 	}
 	
