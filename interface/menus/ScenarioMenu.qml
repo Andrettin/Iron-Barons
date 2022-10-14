@@ -15,7 +15,7 @@ MenuBase {
 		anchors.verticalCenter: diplomatic_map.verticalCenter
 		width: diplomatic_map.width + 2
 		height: diplomatic_map.height + 2
-		color: Qt.rgba(0.0 / 255.0, 0.0 / 255.0, 48.0 / 255.0, 1)
+		color: Qt.rgba(0.0 / 255.0, 0.0 / 255.0, 32.0 / 255.0, 1)
 		border.color: "white"
 		border.width: 1
 	}
