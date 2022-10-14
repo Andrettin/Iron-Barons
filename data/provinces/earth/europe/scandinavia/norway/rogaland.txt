@@ -1,0 +1,5 @@
+rogaland = {
+	name = "Rogaland"
+	color = { 3 80 255 }
+	capital_settlement = stavanger
+}

@@ -1,0 +1,5 @@
+jutland = {
+	name = "Jutland"
+	color = { 128 65 224 }
+	capital_settlement = aarhus
+}

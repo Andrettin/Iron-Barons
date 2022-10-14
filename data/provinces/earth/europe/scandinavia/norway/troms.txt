@@ -1,4 +1,5 @@
 troms = {
 	name = "Troms"
-	color = { 97 128 128 }
+	color = { 126 114 224 }
+	capital_settlement = tromso
 }

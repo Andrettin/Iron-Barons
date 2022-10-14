@@ -1,0 +1,5 @@
+finnmark = {
+	name = "Finnmark"
+	color = { 97 128 128 }
+	capital_settlement = hammerfest
+}
