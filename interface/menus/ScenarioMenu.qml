@@ -63,6 +63,17 @@ MenuBase {
 				}
 			}
 		}
+		
+		function center_on_selected_country_capital() {
+			var capital_game_data = diplomatic_map.selected_country.capital_province.capital_settlement.game_data
+			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size.width * scale_factor
+			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size.height * scale_factor
+			
+			var scenario_x = capital_x - diplomatic_map.width / 2
+			var scenario_y = capital_y - diplomatic_map.height / 2
+			diplomatic_map.contentX = Math.min(Math.max(scenario_x, 0), diplomatic_map.contentWidth - diplomatic_map.width)
+			diplomatic_map.contentY = Math.min(Math.max(scenario_y, 0), diplomatic_map.contentHeight - diplomatic_map.height)
+		}
 	}
 	
 	SmallText {
@@ -150,16 +161,14 @@ MenuBase {
 	Connections {
 		target: metternich.game
 		function onCountriesChanged() {
-			diplomatic_map.selected_country = selected_scenario.default_country
+			if (diplomatic_map.selected_country !== null && !metternich.game.countries.includes(diplomatic_map.selected_country)) {
+				diplomatic_map.selected_country = null
+			}
 			
-			var capital_game_data = selected_scenario.default_country.capital_province.capital_settlement.game_data
-			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size.width * scale_factor
-			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size.height * scale_factor
-			
-			var scenario_x = capital_x - diplomatic_map.width / 2
-			var scenario_y = capital_y - diplomatic_map.height / 2
-			diplomatic_map.contentX = Math.min(Math.max(scenario_x, 0), diplomatic_map.contentWidth - diplomatic_map.width)
-			diplomatic_map.contentY = Math.min(Math.max(scenario_y, 0), diplomatic_map.contentHeight - diplomatic_map.height)
+			if (diplomatic_map.selected_country === null) {
+				diplomatic_map.selected_country = selected_scenario.default_country
+				diplomatic_map.center_on_selected_country_capital()
+			}
 		}
 	}
 	
