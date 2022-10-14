@@ -164,11 +164,6 @@ MenuBase {
 			if (diplomatic_map.selected_country !== null && !metternich.game.countries.includes(diplomatic_map.selected_country)) {
 				diplomatic_map.selected_country = null
 			}
-			
-			if (diplomatic_map.selected_country === null) {
-				diplomatic_map.selected_country = selected_scenario.default_country
-				diplomatic_map.center_on_selected_country_capital()
-			}
 		}
 	}
 	
