@@ -32,6 +32,8 @@ MenuBase {
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		
+		property var selected_country: null
+		
 		Repeater {
 			model: metternich.game.countries
 			
@@ -39,10 +41,11 @@ MenuBase {
 				id: country_image
 				x: country.game_data.diplomatic_map_image_rect.x
 				y: country.game_data.diplomatic_map_image_rect.y
-				source: "image://diplomatic_map/" + country.identifier
+				source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : "")
 				cache: false
 				
 				readonly property var country: model.modelData
+				readonly property var selected: diplomatic_map.selected_country === country
 				
 				MaskedMouseArea {
 					anchors.fill: parent
@@ -51,6 +54,12 @@ MenuBase {
 					ToolTip.text: country.name
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
+					
+					onClicked: {
+						if (country.great_power) {
+							diplomatic_map.selected_country = country
+						}
+					}
 				}
 			}
 		}
