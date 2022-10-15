@@ -43,5 +43,13 @@ Item {
 				readonly property var settlement: province.capital_settlement
 			}
 		}
+		
+		function center_on_tile(tile_x, tile_y) {
+			var pixel_x = tile_x * tile_size - map.width / 2
+			var pixel_y = tile_y * tile_size - map.height / 2
+			
+			map.contentX = Math.min(Math.max(pixel_x, 0), map.contentWidth - map.width)
+			map.contentY = Math.min(Math.max(pixel_y, 0), map.contentHeight - map.height)
+		}
 	}
 }
