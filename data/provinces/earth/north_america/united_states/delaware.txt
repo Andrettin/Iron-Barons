@@ -1,6 +1,7 @@
 delaware = {
 	name = "Delaware"
 	color = { 112 128 0 }
+	capital_settlement = dover_delaware
 	
 	history = {
 		1300 = {
