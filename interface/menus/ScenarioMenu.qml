@@ -34,6 +34,15 @@ MenuBase {
 		
 		property var selected_country: null
 		
+		MouseArea {
+			width: diplomatic_map.contentWidth
+			height: diplomatic_map.contentHeight
+			
+			onClicked: {
+				diplomatic_map.selected_country = null
+			}
+		}
+		
 		Repeater {
 			model: metternich.game.countries
 			
@@ -62,6 +71,8 @@ MenuBase {
 							} else {
 								diplomatic_map.selected_country = country
 							}
+						} else {
+							diplomatic_map.selected_country = null
 						}
 					}
 				}
