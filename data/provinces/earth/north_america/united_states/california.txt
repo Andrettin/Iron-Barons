@@ -1,6 +1,7 @@
 california = {
 	name = "California"
 	color = { 144 128 0 }
+	capital_settlement = sacramento
 	
 	history = {
 		1542 = {
