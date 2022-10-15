@@ -1,0 +1,4 @@
+grain = {
+	name = "Grain"
+	icon_filepath = "icons/commodities/grain.png"
+}

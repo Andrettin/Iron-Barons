@@ -1,0 +1,4 @@
+furniture = {
+	name = "Furniture"
+	icon_filepath = "icons/commodities/furniture.png"
+}
