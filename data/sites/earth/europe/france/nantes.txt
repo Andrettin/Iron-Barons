@@ -1,0 +1,9 @@
+nantes = {
+	name = "Nantes"
+	world = earth
+	geocoordinate = { -1.59001692850 47.21038576160 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		frankish = "Namnetes"
+	}
+}
