@@ -3,7 +3,7 @@ england = {
 	type = great_power
 	color = { 206 8 8 }
 	culture = english
-	capital_province = london
+	capital_province = middlesex
 	eras = {
 		renaissance
 	}

@@ -1,0 +1,5 @@
+northumberland = {
+	name = "Northumberland"
+	color = { 96 96 0 }
+	capital_settlement = newcastle
+}

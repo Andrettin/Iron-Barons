@@ -1,0 +1,5 @@
+lancashire = {
+	name = "Lancashire"
+	color = { 96 224 0 }
+	capital_settlement = liverpool
+}

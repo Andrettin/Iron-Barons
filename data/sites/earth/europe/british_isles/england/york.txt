@@ -1,0 +1,11 @@
+york = {
+	name = "York"
+	world = earth
+	geocoordinate = { -1.08002221822 53.97038657540 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		anglo_saxon = "Eoforwic" #Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 732.
+		briton = "Eboracum"
+		roman = "Eboracum" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
+	}
+}

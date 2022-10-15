@@ -1,0 +1,5 @@
+yorkshire = {
+	name = "Yorkshire"
+	color = { 163 138 0 }
+	capital_settlement = york
+}
