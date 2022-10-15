@@ -23,8 +23,6 @@ Item {
 		TileImage {
 			id: overlay_image
 			tile_image_source: "image://" + modelData
-			anchors.horizontalCenter: tile.horizontalCenter
-			anchors.verticalCenter: tile.verticalCenter
 		}
 	}
 }

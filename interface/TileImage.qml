@@ -12,5 +12,7 @@ Item {
 	Image {
 		id: tile_image
 		source: tile_image_source
+		anchors.horizontalCenter: tile_image_item.horizontalCenter
+		anchors.verticalCenter: tile_image_item.verticalCenter
 	}
 }
