@@ -25,12 +25,4 @@ Item {
 			tile_image_source: "image://" + modelData
 		}
 	}
-	
-	MouseArea {
-		anchors.fill: parent
-		ToolTip.text: province ? (site ? (site.game_data.current_cultural_name + ", " + province.game_data.current_cultural_name) : province.game_data.current_cultural_name) : ""
-		ToolTip.visible: containsMouse && ToolTip.text !== ""
-		ToolTip.delay: 1000
-		hoverEnabled: true
-	}
 }
