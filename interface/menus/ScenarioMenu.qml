@@ -45,7 +45,7 @@ MenuBase {
 				cache: false
 				
 				readonly property var country: model.modelData
-				readonly property var selected: diplomatic_map.selected_country === country || (country.game_data.overlord !== null && diplomatic_map.selected_country === country.game_data.overlord)
+				readonly property var selected: diplomatic_map.selected_country === country
 				
 				MaskedMouseArea {
 					anchors.fill: parent
@@ -56,13 +56,11 @@ MenuBase {
 					ToolTip.delay: 1000
 					
 					onClicked: {
-						if (selected) {
-							diplomatic_map.selected_country = null
-						} else {
-							if (country.great_power) {
+						if (country.great_power) {
+							if (selected) {
+								diplomatic_map.selected_country = null
+							} else {
 								diplomatic_map.selected_country = country
-							} else if (country.game_data.overlord !== null && country.game_data.overlord.great_power) {
-								diplomatic_map.selected_country = country.game_data.overlord
 							}
 						}
 					}
