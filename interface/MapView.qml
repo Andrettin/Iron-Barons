@@ -51,5 +51,17 @@ Item {
 			map.contentX = Math.min(Math.max(pixel_x, 0), map.contentWidth - map.width)
 			map.contentY = Math.min(Math.max(pixel_y, 0), map.contentHeight - map.height)
 		}
+		
+		function center_on_country_capital(country) {
+			var capital_game_data = country.capital_province.capital_settlement.game_data
+			var capital_x = capital_game_data.tile_pos.x
+			var capital_y = capital_game_data.tile_pos.y
+			
+			center_on_tile(capital_x, capital_y)
+		}
+	}
+	
+	Component.onCompleted: {
+		map.center_on_country_capital(metternich.game.player_country)
 	}
 }

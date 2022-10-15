@@ -153,8 +153,10 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 64 * scale_factor
 		height: 24 * scale_factor
+		enabled: diplomatic_map.selected_country !== null
 		
 		onClicked: {
+			metternich.game.player_country = diplomatic_map.selected_country
 			metternich.game.start()
 		}
 	}
