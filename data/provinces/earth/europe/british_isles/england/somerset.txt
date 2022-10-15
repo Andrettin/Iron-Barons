@@ -2,4 +2,10 @@ somerset = {
 	name = "Somerset"
 	color = { 222 47 96 }
 	capital_settlement = wells
+	
+	history = {
+		1740 = {
+			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

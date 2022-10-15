@@ -2,4 +2,10 @@ cornwall = {
 	name = "Cornwall"
 	color = { 166 203 93 }
 	capital_settlement = truro
+	
+	history = {
+		1740 = {
+			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

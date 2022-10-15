@@ -2,4 +2,10 @@ east_anglia = {
 	name = "East Anglia"
 	color = { 85 93 61 }
 	capital_settlement = norwich
+	
+	history = {
+		1740 = {
+			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
