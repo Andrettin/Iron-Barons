@@ -9,12 +9,12 @@ Item {
 	
 	TileImage {
 		id: base_terrain_image
-		tile_image_source: "image://tile/" + base_image_source
+		tile_image_source: "image://" + base_image_source
 	}
 	
 	TileImage {
 		id: terrain_image
-		tile_image_source: "image://tile/" + image_source
+		tile_image_source: "image://" + image_source
 	}
 	
 	Repeater {
@@ -22,7 +22,9 @@ Item {
 		
 		TileImage {
 			id: overlay_image
-			tile_image_source: "image://tile/" + modelData
+			tile_image_source: "image://" + modelData
+			anchors.horizontalCenter: tile.horizontalCenter
+			anchors.verticalCenter: tile.verticalCenter
 		}
 	}
 }
