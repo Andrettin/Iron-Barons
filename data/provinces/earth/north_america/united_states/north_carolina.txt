@@ -1,6 +1,7 @@
 north_carolina = {
 	name = "North Carolina"
 	color = { 0 112 64 }
+	capital_settlement = raleigh
 	
 	history = {
 		1300 = {

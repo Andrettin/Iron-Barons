@@ -1,6 +1,7 @@
 georgia = {
 	name = "Georgia"
 	color = { 64 112 64 }
+	capital_settlement = atlanta
 	
 	history = {
 		1300 = {

@@ -1,6 +1,7 @@
 washington = {
 	name = "Washington"
 	color = { 0 160 0 }
+	capital_settlement = seattle
 	
 	history = {
 		1300 = {

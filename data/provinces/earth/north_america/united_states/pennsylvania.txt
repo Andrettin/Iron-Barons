@@ -1,6 +1,7 @@
 pennsylvania = {
 	name = "Pennsylvania"
-	color = { 192 192 128 }
+	color = { 176 0 0 }
+	capital_settlement = philadelphia
 	
 	history = {
 		1300 = {

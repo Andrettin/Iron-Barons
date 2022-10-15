@@ -1,6 +1,7 @@
 oregon = {
 	name = "Oregon"
 	color = { 128 160 0 }
+	capital_settlement = portland
 	
 	history = {
 		1300 = {

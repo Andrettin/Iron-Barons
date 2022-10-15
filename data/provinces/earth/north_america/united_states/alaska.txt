@@ -1,4 +1,5 @@
 alaska = {
 	name = "Alaska"
 	color = { 153 230 153 }
+	capital_settlement = anchorage
 }
