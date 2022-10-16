@@ -1,6 +1,7 @@
 westphalia = {
 	name = "Westphalia"
 	color = { 1 128 224 }
+	capital_settlement = munster
 	
 	history = {
 		1477 = {

@@ -1,0 +1,6 @@
+middelburg = {
+	name = "Middelburg"
+	world = earth
+	geocoordinate = { 3.60999954067 51.50199617730 } #from Natural Earth
+	type = settlement
+}

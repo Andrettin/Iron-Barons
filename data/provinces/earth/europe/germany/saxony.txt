@@ -1,6 +1,7 @@
 saxony = {
 	name = "Saxony"
-	color = { 175 223 191 }
+	color = { 121 83 104 }
+	capital_settlement = dresden
 	
 	history = {
 		1477 = {

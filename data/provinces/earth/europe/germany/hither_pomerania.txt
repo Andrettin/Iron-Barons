@@ -1,6 +1,7 @@
 hither_pomerania = {
 	name = "Hither Pomerania"
 	color = { 25 174 25 }
+	capital_settlement = stettin
 	
 	history = {
 		1477 = {

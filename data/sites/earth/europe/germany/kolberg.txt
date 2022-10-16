@@ -1,0 +1,6 @@
+kolberg = {
+	name = "Kolberg"
+	world = earth
+	geocoordinate = { 15.566666666667 54.166666666667 }
+	type = settlement
+}

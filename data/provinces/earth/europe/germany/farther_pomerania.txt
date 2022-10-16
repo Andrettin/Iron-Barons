@@ -1,6 +1,7 @@
 farther_pomerania = {
 	name = "Farther Pomerania"
 	color = { 160 192 32 }
+	capital_settlement = kolberg
 	
 	history = {
 		1477 = {

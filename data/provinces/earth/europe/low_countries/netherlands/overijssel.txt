@@ -1,6 +1,7 @@
 overijssel = {
 	name = "Overijssel"
 	color = { 192 65 160 }
+	capital_settlement = zwolle
 	
 	history = {
 		1477 = {

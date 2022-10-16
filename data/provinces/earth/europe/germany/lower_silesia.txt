@@ -1,6 +1,7 @@
 lower_silesia = {
 	name = "Lower Silesia"
 	color = { 110 97 127 }
+	capital_settlement = breslau
 	
 	history = {
 		1477 = {
