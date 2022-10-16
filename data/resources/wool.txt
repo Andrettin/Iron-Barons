@@ -1,4 +1,0 @@
-wool = {
-	name = "Wool"
-	commodity = wool
-}
