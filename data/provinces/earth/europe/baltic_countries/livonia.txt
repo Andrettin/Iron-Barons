@@ -1,0 +1,5 @@
+livonia = {
+	name = "Livonia"
+	color = { 0 160 160 }
+	capital_settlement = riga
+}

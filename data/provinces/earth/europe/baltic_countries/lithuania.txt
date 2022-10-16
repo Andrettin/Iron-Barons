@@ -1,0 +1,5 @@
+lithuania = {
+	name = "Lithuania"
+	color = { 65 224 97 }
+	capital_settlement = vilnius
+}

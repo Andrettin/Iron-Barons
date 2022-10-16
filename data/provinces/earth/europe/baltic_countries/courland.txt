@@ -1,0 +1,5 @@
+courland = {
+	name = "Courland"
+	color = { 1 224 33 }
+	capital_settlement = mitau
+}
