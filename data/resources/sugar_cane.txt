@@ -1,0 +1,4 @@
+sugar_cane = {
+	name = "Sugar Cane"
+	commodity = sugar_cane
+}

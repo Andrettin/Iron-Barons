@@ -1,0 +1,4 @@
+cattle = {
+	name = "Cattle"
+	commodity = livestock
+}

@@ -1,0 +1,4 @@
+cotton = {
+	name = "Cotton"
+	commodity = cotton
+}

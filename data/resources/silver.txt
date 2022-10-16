@@ -1,0 +1,4 @@
+silver = {
+	name = "Silver"
+	commodity = silver
+}
