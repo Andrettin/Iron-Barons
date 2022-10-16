@@ -1,0 +1,4 @@
+walloon = {
+	name = "Walloon"
+	group = french
+}
