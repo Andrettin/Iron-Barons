@@ -187,5 +187,7 @@ MenuBase {
 	Component.onCompleted: {
 		selected_scenario = metternich.get_scenarios()[0]
 		metternich.game.setup_scenario(selected_scenario)
+		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+		diplomatic_map.center_on_selected_country_capital()
 	}
 }
