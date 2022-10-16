@@ -1,0 +1,4 @@
+armament = {
+	name = "Armament"
+	icon = cannon
+}
