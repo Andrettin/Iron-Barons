@@ -2,4 +2,10 @@ estonia = {
 	name = "Estonia"
 	color = { 128 160 33 }
 	capital_settlement = reval
+	
+	history = {
+		1721 = {
+			owner = russia #became part of the Russian Empire in 1721; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

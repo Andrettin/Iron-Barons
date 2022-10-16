@@ -2,4 +2,10 @@ livonia = {
 	name = "Livonia"
 	color = { 0 160 160 }
 	capital_settlement = riga
+	
+	history = {
+		1721 = {
+			owner = russia #became part of the Russian Empire in 1721; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
