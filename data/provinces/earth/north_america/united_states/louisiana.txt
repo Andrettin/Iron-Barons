@@ -1,6 +1,7 @@
 louisiana = {
 	name = "Louisiana"
 	color = { 79 163 196 }
+	capital_settlement = new_orleans
 	
 	history = {
 		1300 = {

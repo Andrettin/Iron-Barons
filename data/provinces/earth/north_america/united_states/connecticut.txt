@@ -1,6 +1,7 @@
 connecticut = {
 	name = "Connecticut"
 	color = { 48 64 192 }
+	capital_settlement = hartford
 	
 	history = {
 		1300 = {

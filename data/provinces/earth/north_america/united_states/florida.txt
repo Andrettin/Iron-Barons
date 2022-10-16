@@ -1,6 +1,7 @@
 florida = {
 	name = "Florida"
 	color = { 160 48 0 }
+	capital_settlement = tallahassee
 	
 	history = {
 		1300 = {

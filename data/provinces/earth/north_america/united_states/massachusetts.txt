@@ -1,6 +1,7 @@
 massachusetts = {
 	name = "Massachusetts"
 	color = { 165 142 210 }
+	capital_settlement = boston
 	
 	history = {
 		1300 = {
