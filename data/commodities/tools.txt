@@ -1,4 +1,4 @@
 tools = {
 	name = "Tools"
-	icon_filepath = "icons/commodities/tools.png"
+	icon = tools
 }

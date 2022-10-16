@@ -1,4 +1,4 @@
 paper = {
 	name = "Paper"
-	icon_filepath = "icons/commodities/paper.png"
+	icon = paper
 }

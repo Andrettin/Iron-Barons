@@ -1,4 +1,4 @@
 fabric = {
 	name = "Fabric"
-	icon_filepath = "icons/commodities/fabric.png"
+	icon = fabric
 }

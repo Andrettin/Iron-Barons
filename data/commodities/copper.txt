@@ -1,4 +1,4 @@
 copper = {
 	name = "Copper"
-	icon_filepath = "icons/commodities/copper.png"
+	icon = copper
 }
