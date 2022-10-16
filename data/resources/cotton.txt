@@ -1,4 +1,5 @@
 cotton = {
 	name = "Cotton"
 	commodity = cotton
+	discovery_technology = cotton
 }

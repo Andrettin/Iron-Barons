@@ -1,0 +1,4 @@
+sugar_cane = {
+	name = "Sugar Cane"
+	icon_filepath = "icons/commodities/sugar_cane.png"
+}
