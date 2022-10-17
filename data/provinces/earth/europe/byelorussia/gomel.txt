@@ -2,4 +2,10 @@ gomel = {
 	name = "Gomel"
 	color = { 128 97 224 }
 	capital_settlement = gomel
+	
+	history = {
+		1740 = {
+			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
