@@ -1,0 +1,5 @@
+mogilev = {
+	name = "Mogilev"
+	color = { 65 160 224 }
+	capital_settlement = mogilev
+}

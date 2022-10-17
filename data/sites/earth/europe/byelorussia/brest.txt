@@ -1,0 +1,6 @@
+brest = {
+	name = "Brest"
+	world = earth
+	geocoordinate = { 23.69998978550 52.09998394680 } #from Natural Earth
+	type = settlement
+}
