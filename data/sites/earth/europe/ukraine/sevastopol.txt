@@ -1,0 +1,6 @@
+sevastopol = {
+	name = "Sevastopol"
+	world = earth
+	geocoordinate = { 33.46497513710 44.59997662260 } #from Natural Earth
+	type = settlement
+}

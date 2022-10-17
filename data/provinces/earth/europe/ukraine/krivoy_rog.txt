@@ -1,0 +1,5 @@
+krivoy_rog = {
+	name = "Krivoy Rog"
+	color = { 240 224 160 }
+	capital_settlement = krivoy_rog
+}

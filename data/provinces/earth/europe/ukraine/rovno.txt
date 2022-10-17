@@ -1,0 +1,5 @@
+rovno = {
+	name = "Rovno"
+	color = { 113 224 160 }
+	capital_settlement = rovno
+}

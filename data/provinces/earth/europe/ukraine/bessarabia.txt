@@ -1,0 +1,5 @@
+bessarabia = {
+	name = "Bessarabia"
+	color = { 113 33 97 }
+	capital_settlement = chisinau
+}
