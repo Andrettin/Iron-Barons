@@ -2,4 +2,10 @@ vinnitsa = {
 	name = "Vinnitsa"
 	color = { 240 224 33 }
 	capital_settlement = vinnitsa
+	
+	history = {
+		1740 = {
+			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

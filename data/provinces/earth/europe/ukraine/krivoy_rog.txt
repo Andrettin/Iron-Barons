@@ -2,4 +2,10 @@ krivoy_rog = {
 	name = "Krivoy Rog"
 	color = { 240 224 160 }
 	capital_settlement = krivoy_rog
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
