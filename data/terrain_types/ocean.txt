@@ -158,6 +158,78 @@ ocean = {
 			southeast = other
 			variations = { 97 }
 		}
+		112 = {
+			north = other
+			south = same
+			west = other
+			east = same
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		113 = {
+			north = other
+			south = other
+			west = same
+			east = same
+			northwest = any
+			northeast = any
+			southwest = any
+			southeast = any
+			variations = { 116 145 }
+		}
+		114 = {
+			north = other
+			south = same
+			west = same
+			east = other
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		128 = {
+			north = same
+			south = same
+			west = other
+			east = other
+			northwest = any
+			northeast = any
+			southwest = any
+			southeast = any
+			variations = { 130 131 }
+		}
+		129 = {
+			north = other
+			south = other
+			west = other
+			east = other
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		144 = {
+			north = same
+			south = other
+			west = other
+			east = same
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		146 = {
+			north = same
+			south = other
+			west = same
+			east = other
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
 		176 = {
 			north = other
 			south = other
