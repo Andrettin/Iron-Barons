@@ -1,0 +1,11 @@
+luhansk = {
+	name = "Luhansk"
+	color = { 113 97 224 }
+	capital_settlement = luhansk
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}
