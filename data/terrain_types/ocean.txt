@@ -3,4 +3,190 @@ ocean = {
 	color = { 0 255 255 }
 	image_filepath = "tiles/terrain/ocean.png"
 	tiles = { 17 }
+	adjacency_tiles = {
+		0 = {
+			north = other
+			south = same
+			west = other
+			east = same
+			northwest = other
+			northeast = any
+			southwest = any
+			southeast = same
+			variations = { 3 6 9 }
+		}
+		1 = {
+			north = other
+			south = same
+			west = same
+			east = same
+			northwest = any
+			northeast = any
+			southwest = same
+			southeast = same
+			variations = { 4 7 10 }
+		}
+		2 = {
+			north = other
+			south = same
+			west = same
+			east = other
+			northwest = any
+			northeast = other
+			southwest = same
+			southeast = any
+			variations = { 5 8 11 }
+		}
+		16 = {
+			north = same
+			south = same
+			west = other
+			east = same
+			northwest = any
+			northeast = same
+			southwest = any
+			southeast = same
+			variations = { 19 22 25 }
+		}
+		18 = {
+			north = same
+			south = same
+			west = same
+			east = other
+			northwest = same
+			northeast = any
+			southwest = same
+			southeast = any
+			variations = { 21 24 27 }
+		}
+		32 = {
+			north = same
+			south = other
+			west = other
+			east = same
+			northwest = any
+			northeast = same
+			southwest = other
+			southeast = any
+			variations = { 35 38 41 }
+		}
+		33 = {
+			north = same
+			south = other
+			west = same
+			east = same
+			northwest = same
+			northeast = same
+			southwest = any
+			southeast = any
+			variations = { 36 39 42 }
+		}
+		34 = {
+			north = same
+			south = other
+			west = same
+			east = other
+			northwest = same
+			northeast = any
+			southwest = any
+			southeast = other
+			variations = { 37 40 43 }
+		}
+		48 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = same
+			southwest = same
+			southeast = same
+			variations = { 50 }
+		}
+		49 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = same
+			northeast = other
+			southwest = same
+			southeast = same
+			variations = { 51 }
+		}
+		64 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = same
+			northeast = same
+			southwest = other
+			southeast = same
+			variations = { 66 }
+		}
+		65 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = same
+			northeast = same
+			southwest = same
+			southeast = other
+			variations = { 67 }
+		}
+		80 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = same
+			northeast = other
+			southwest = other
+			southeast = same
+			variations = { 96 }
+		}
+		81 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = same
+			southwest = same
+			southeast = other
+			variations = { 97 }
+		}
+		176 = {
+			north = other
+			south = other
+			west = other
+			east = same
+			northwest = other
+			northeast = any
+			southwest = other
+			southeast = any
+		}
+		177 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		178 = {
+			north = other
+			south = other
+			west = same
+			east = other
+			northwest = any
+			northeast = other
+			southwest = any
+			southeast = other
+		}
+	}
 }
