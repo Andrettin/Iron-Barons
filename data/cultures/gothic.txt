@@ -1,0 +1,4 @@
+gothic = {
+	name = "Gothic"
+	group = east_germanic
+}

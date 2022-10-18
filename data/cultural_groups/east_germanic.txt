@@ -1,0 +1,3 @@
+east_germanic = {
+	name = "East Germanic"
+}
