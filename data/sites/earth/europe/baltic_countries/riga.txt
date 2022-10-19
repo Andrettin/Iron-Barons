@@ -2,5 +2,6 @@ riga = {
 	name = "Riga"
 	world = earth
 	geocoordinate = { 24.09996537140 56.95002382320 } #from Natural Earth
+	pos_offset = { 1 -1 }
 	type = settlement
 }
