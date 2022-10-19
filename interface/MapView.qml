@@ -63,15 +63,6 @@ Item {
 	}
 	
 	Rectangle {
-		id: infopanel
-		color: "gray"
-		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.right: parent.right
-		width: 176 * scale_factor
-	}
-	
-	Rectangle {
 		id: status_bar
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
@@ -85,6 +76,15 @@ Item {
 			anchors.left: parent.left
 			anchors.leftMargin: 16 * scale_factor
 		}
+	}
+	
+	Rectangle {
+		id: infopanel
+		color: "gray"
+		anchors.top: parent.top
+		anchors.bottom: parent.bottom
+		anchors.right: parent.right
+		width: 176 * scale_factor
 	}
 	
 	Component.onCompleted: {
