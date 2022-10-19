@@ -89,7 +89,7 @@ ocean = {
 			northwest = same
 			northeast = any
 			southwest = any
-			southeast = other
+			southeast = any
 			variations = { 37 40 43 }
 		}
 		48 = {
@@ -184,10 +184,10 @@ ocean = {
 			south = same
 			west = same
 			east = other
-			northwest = other
-			northeast = other
+			northwest = any
+			northeast = any
 			southwest = other
-			southeast = other
+			southeast = any
 		}
 		128 = {
 			north = same
@@ -230,6 +230,16 @@ ocean = {
 			southwest = other
 			southeast = other
 		}
+		161 = {
+			north = other
+			south = same
+			west = other
+			east = other
+			northwest = any
+			northeast = other
+			southwest = any
+			southeast = any
+		}
 		176 = {
 			north = other
 			south = other
@@ -258,6 +268,228 @@ ocean = {
 			northwest = any
 			northeast = other
 			southwest = any
+			southeast = other
+		}
+		193 = {
+			north = same
+			south = other
+			west = other
+			east = other
+			northwest = any
+			northeast = other
+			southwest = any
+			southeast = any
+		}
+		208 = {
+			north = other
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		209 = {
+			north = same
+			south = same
+			west = other
+			east = same
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		212 = {
+			north = same
+			south = same
+			west = other
+			east = same
+			northwest = any
+			northeast = other
+			southwest = any
+			southeast = same
+			variations = { 244 }
+		}
+		213 = {
+			north = same
+			south = same
+			west = same
+			east = other
+			northwest = other
+			northeast = other
+			southwest = same
+			southeast = other
+			variations = { 245 }
+		}
+		214 = {
+			north = other
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = any
+			southwest = other
+			southeast = same
+			variations = { 246 }
+		}
+		215 = {
+			north = other
+			south = same
+			west = same
+			east = same
+			northwest = any
+			northeast = other
+			southwest = same
+			southeast = other
+			variations = { 247 }
+		}
+		216 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = other
+			southwest = same
+			southeast = same
+			variations = { 248 }
+		}
+		217 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = same
+			southwest = other
+			southeast = same
+			variations = { 249 }
+		}
+		218 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = same
+		}
+		219 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = other
+			southwest = same
+			southeast = other
+		}
+		224 = {
+			north = same
+			south = other
+			west = same
+			east = same
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		225 = {
+			north = same
+			south = same
+			west = same
+			east = other
+			northwest = other
+			northeast = other
+			southwest = other
+			southeast = other
+		}
+		228 = {
+			north = same
+			south = same
+			west = other
+			east = same
+			northwest = other
+			northeast = same
+			southwest = other
+			southeast = other
+			variations = { 260 }
+		}
+		229 = {
+			north = same
+			south = same
+			west = same
+			east = other
+			northwest = same
+			northeast = other
+			southwest = other
+			southeast = other
+			variations = { 261 }
+		}
+		230 = {
+			north = same
+			south = other
+			west = same
+			east = same
+			northwest = other
+			northeast = same
+			southwest = other
+			southeast = any
+			variations = { 262 }
+		}
+		231 = {
+			north = same
+			south = other
+			west = same
+			east = same
+			northwest = same
+			northeast = other
+			southwest = other
+			southeast = any
+			variations = { 263 }
+		}
+		232 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = same
+			northeast = same
+			southwest = other
+			southeast = other
+			variations = { 264 }
+		}
+		233 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = same
+			northeast = other
+			southwest = same
+			southeast = other
+			variations = { 265 }
+		}
+		234 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = other
+			northeast = same
+			southwest = other
+			southeast = other
+		}
+		235 = {
+			north = same
+			south = same
+			west = same
+			east = same
+			northwest = same
+			northeast = other
+			southwest = other
 			southeast = other
 		}
 	}
