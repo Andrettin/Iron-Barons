@@ -2,6 +2,7 @@ ocean = {
 	name = "Ocean"
 	color = { 0 255 255 }
 	image_filepath = "tiles/terrain/ocean.png"
+	water = true
 	tiles = { 17 }
 	adjacency_tiles = {
 		0 = {
