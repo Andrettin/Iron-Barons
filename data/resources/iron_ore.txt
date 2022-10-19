@@ -1,4 +1,8 @@
 iron_ore = {
 	name = "Iron Ore"
 	commodity = iron_ore
+	terrain_types = {
+		barren_hills
+		mountains
+	}
 }

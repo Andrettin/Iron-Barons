@@ -1,4 +1,8 @@
 coal = {
 	name = "Coal"
 	commodity = coal
+	terrain_types = {
+		barren_hills
+		mountains
+	}
 }

@@ -1,4 +1,7 @@
 gold = {
 	name = "Gold"
 	commodity = gold
+	terrain_types = {
+		mountains
+	}
 }

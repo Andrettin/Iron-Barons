@@ -2,4 +2,7 @@ sugar_cane = {
 	name = "Sugar Cane"
 	commodity = sugar_cane
 	discovery_technology = sugar_cane
+	terrain_types = {
+		plains
+	}
 }

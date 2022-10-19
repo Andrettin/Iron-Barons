@@ -1,4 +1,7 @@
 cattle = {
 	name = "Cattle"
 	commodity = livestock
+	terrain_types = {
+		plains
+	}
 }

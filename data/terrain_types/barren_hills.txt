@@ -1,0 +1,6 @@
+barren_hills = {
+	name = "Barren Hills"
+	color = { 224 128 64 }
+	image_filepath = "tiles/terrain/barren_hills.png"
+	tiles = { 0 }
+}

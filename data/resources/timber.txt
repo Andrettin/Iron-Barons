@@ -1,4 +1,7 @@
 timber = {
 	name = "Timber"
 	commodity = timber
+	terrain_types = {
+		conifer_forest
+	}
 }

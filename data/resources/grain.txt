@@ -1,4 +1,7 @@
 grain = {
 	name = "Grain"
 	commodity = grain
+	terrain_types = {
+		plains
+	}
 }

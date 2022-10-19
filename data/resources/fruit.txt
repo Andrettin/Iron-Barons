@@ -1,4 +1,7 @@
 fruit = {
 	name = "Fruit"
 	commodity = fruit
+	terrain_types = {
+		plains
+	}
 }

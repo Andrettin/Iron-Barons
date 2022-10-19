@@ -2,4 +2,7 @@ cotton = {
 	name = "Cotton"
 	commodity = cotton
 	discovery_technology = cotton
+	terrain_types = {
+		plains
+	}
 }
