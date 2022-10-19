@@ -5,20 +5,21 @@ import map_grid_model 1.0
 Item {
 	id: map_view
 	
+	property string status_text: ""
+	readonly property int tile_size: metternich.defines.tile_size.width * scale_factor
+	
 	Rectangle {
 		id: map_view_background
 		color: "black"
 		anchors.fill: parent
 	}
 	
-	readonly property int tile_size: metternich.defines.tile_size.width * scale_factor
-	
 	TableView {
 		id: map
 		anchors.top: parent.top
-		anchors.bottom: parent.bottom
+		anchors.bottom: status_bar.top
 		anchors.left: parent.left
-		anchors.right: parent.right
+		anchors.right: infopanel.left
 		leftMargin: 0
 		rightMargin: 0
 		topMargin: 0
@@ -58,6 +59,31 @@ Item {
 			var capital_y = capital_game_data.tile_pos.y
 			
 			center_on_tile(capital_x, capital_y)
+		}
+	}
+	
+	Rectangle {
+		id: infopanel
+		color: "gray"
+		anchors.top: parent.top
+		anchors.bottom: parent.bottom
+		anchors.right: parent.right
+		width: 176 * scale_factor
+	}
+	
+	Rectangle {
+		id: status_bar
+		anchors.bottom: parent.bottom
+		anchors.left: parent.left
+		anchors.right: parent.right
+		height: 16 * scale_factor
+		color: "gray"
+		
+		SmallText {
+			text: status_text
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			anchors.leftMargin: 16 * scale_factor
 		}
 	}
 	
