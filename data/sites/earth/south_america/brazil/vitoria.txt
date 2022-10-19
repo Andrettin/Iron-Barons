@@ -2,5 +2,6 @@ vitoria = {
 	name = "Vitoria" #"Vitória"
 	world = earth
 	geocoordinate = { -40.36599633950 -20.32399330770 } #from Natural Earth
+	pos_offset = { -1 0 }
 	type = settlement
 }

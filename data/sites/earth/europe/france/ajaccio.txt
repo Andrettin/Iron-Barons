@@ -2,5 +2,6 @@ ajaccio = {
 	name = "Ajaccio"
 	world = earth
 	geocoordinate = { 8.72829382186 41.92706483870 } #from Natural Earth
+	pos_offset = { 1 0 }
 	type = settlement
 }

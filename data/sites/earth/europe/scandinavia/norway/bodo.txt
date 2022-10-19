@@ -2,5 +2,6 @@ bodo = {
 	name = "Bodo" #"Bodø"
 	world = earth
 	geocoordinate = { 14.39901132340 67.24677226870 } #from Natural Earth
+	pos_offset = { 1 1 }
 	type = settlement
 }

@@ -2,5 +2,6 @@ fortaleza = {
 	name = "Fortaleza"
 	world = earth
 	geocoordinate = { -38.57998132480 -3.75001788444 } #from Natural Earth
+	pos_offset = { -1 1 }
 	type = settlement
 }
