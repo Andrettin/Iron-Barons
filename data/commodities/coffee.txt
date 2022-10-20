@@ -1,0 +1,4 @@
+coffee = {
+	name = "Coffee"
+	icon = coffee
+}
