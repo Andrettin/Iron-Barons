@@ -1,0 +1,10 @@
+marica = {
+	name = "Marica" #"Maricá"
+	world = earth
+	geocoordinate = { -42.818888888889 -22.918888888889 }
+	type = resource
+	resource = fruit #bananas
+	title = {
+		max_tier = marquisate
+	}
+}

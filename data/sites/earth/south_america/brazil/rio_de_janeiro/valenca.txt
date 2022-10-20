@@ -1,0 +1,10 @@
+valenca = {
+	name = "Valenca" #"Valença"
+	world = earth
+	geocoordinate = { -43.7 -22.245833333333 }
+	type = resource
+	resource = coffee
+	title = {
+		max_tier = marquisate
+	}
+}
