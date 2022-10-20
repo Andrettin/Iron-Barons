@@ -1,0 +1,11 @@
+rifle_infantry_dark = {
+	filepath = "icons/units/troops/rifle_infantry_dark.png"
+}
+
+rifle_infantry_light = {
+	filepath = "icons/units/troops/rifle_infantry_light.png"
+}
+
+rifle_infantry_medium = {
+	filepath = "icons/units/troops/rifle_infantry_medium.png"
+}
