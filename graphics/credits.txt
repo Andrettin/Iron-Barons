@@ -1,3 +1,4 @@
+/graphics/icons/animals/lion.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/amber.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/cattle.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/clothing.png (by Jinn) (licensed under the CC0)

@@ -1,0 +1,3 @@
+lion = {
+	filepath = "icons/animals/lion.png"
+}
