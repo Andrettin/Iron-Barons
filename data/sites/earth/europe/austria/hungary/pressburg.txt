@@ -2,6 +2,7 @@ pressburg = {
 	name = "Pressburg"
 	world = earth
 	geocoordinate = { 17.11698075220 48.15001833000 } #from Natural Earth
+	pos_offset = { 1 -1 }
 	type = settlement
 	cultural_names = {
 		slovak = "Bratislava"
