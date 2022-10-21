@@ -1,0 +1,11 @@
+wales = {
+	name = "Wales"
+	color = { 143 77 6 }
+	capital_settlement = cardiff
+	
+	history = {
+		1740 = {
+			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}
