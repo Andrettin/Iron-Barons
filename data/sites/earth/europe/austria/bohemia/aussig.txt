@@ -1,0 +1,8 @@
+aussig = {
+	name = "Aussig"
+	world = earth
+	geocoordinate = { 14.08100455440 50.66299816220 } #from Natural Earth
+	cultural_names = {
+		czech = "Usti Nad Labem"
+	}
+}
