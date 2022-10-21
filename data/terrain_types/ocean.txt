@@ -174,7 +174,7 @@ ocean = {
 			south = same
 			west = other
 			east = same
-			northwest = other
+			northwest = any
 			northeast = any
 			southwest = any
 			southeast = other
@@ -239,7 +239,7 @@ ocean = {
 			northwest = other
 			northeast = any
 			southwest = any
-			southeast = other
+			southeast = any
 		}
 		161 = {
 			north = other
