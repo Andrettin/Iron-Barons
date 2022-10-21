@@ -1,0 +1,4 @@
+salt = {
+	name = "Salt"
+	icon = salt
+}
