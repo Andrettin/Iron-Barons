@@ -6,6 +6,6 @@ aracati = {
 	type = resource
 	resource = cattle
 	title = {
-		max_tier = marquisate
+		max_tier = marquisate #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 50-51.
 	}
 }

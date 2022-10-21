@@ -5,6 +5,6 @@ valenca = {
 	type = resource
 	resource = coffee
 	title = {
-		max_tier = marquisate
+		max_tier = marquisate #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 524-525.
 	}
 }
