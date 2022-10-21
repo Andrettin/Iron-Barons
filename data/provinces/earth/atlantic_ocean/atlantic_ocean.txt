@@ -68,3 +68,12 @@ sargasso_sea = {
 		atlantic_ocean
 	}
 }
+
+south_atlantic_ocean = {
+	name = "South Atlantic Ocean"
+	color = { 153 220 205 }
+	water_zone = true
+	regions = {
+		atlantic_ocean
+	}
+}
