@@ -1,0 +1,19 @@
+croatia = {
+	name = "Croatia"
+	color = { 244 17 246 }
+	capital_settlement = zagreb
+	
+	history = {
+		1477 = {
+			owner = hungary #part of the Kingdom of Hungary c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1740 = {
+			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1815 = {
+			owner = austria #part of the Empire of Austria in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
+}

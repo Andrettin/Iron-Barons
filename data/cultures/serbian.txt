@@ -1,0 +1,4 @@
+serbian = {
+	name = "Serbian"
+	group = south_slavic
+}
