@@ -1,0 +1,23 @@
+modena = {
+	name = "Modena"
+	color = { 168 134 150 }
+	capital_settlement = modena
+	
+	history = {
+		1477 = {
+			owner = modena #part of the Duchy of Modena c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1740 = {
+			owner = modena #c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1815 = {
+			owner = modena #part of the Duchy of Modena in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+		
+		1861 = {
+			owner = italy #became part of the Kingdom of Italy in 1861; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
+}

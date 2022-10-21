@@ -1,0 +1,10 @@
+modena = {
+	name = "Modena"
+	type = minor_nation
+	culture = italian
+	capital_province = modena
+	eras = {
+		renaissance
+		industrial
+	}
+}
