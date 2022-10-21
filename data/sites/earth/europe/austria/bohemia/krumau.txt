@@ -1,0 +1,13 @@
+krumau = {
+	name = "Krumau"
+	world = earth
+	geocoordinate = { 14.31520771066 48.810990441614 }
+	type = resource
+	resource = gold
+	cultural_names = {
+		czech = "Krumlov"
+	}
+	title = {
+		max_tier = duchy
+	}
+}
