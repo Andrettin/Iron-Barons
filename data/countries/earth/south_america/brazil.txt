@@ -1,0 +1,24 @@
+brazil = {
+	name = "Brazil"
+	type = minor_nation
+	culture = portuguese
+	capital_province = rio_de_janeiro
+	
+	history = {
+		1790 = {
+			#Portuguese colony c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+			diplomacy_state = {
+				country = portugal
+				state = colony
+			}
+		}
+		
+		1822 = {
+			#became independent in 1822; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+			diplomacy_state = {
+				country = portugal
+				state = peace
+			}
+		}
+	}
+}

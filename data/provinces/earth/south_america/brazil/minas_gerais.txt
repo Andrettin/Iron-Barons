@@ -2,4 +2,14 @@ minas_gerais = {
 	name = "Minas Gerais"
 	color = { 132 153 248 }
 	capital_settlement = ouro_preto
+	
+	history = {
+		1300 = {
+			owner = tupi
+		}
+		
+		1790 = {
+			owner = brazil #part of Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }
