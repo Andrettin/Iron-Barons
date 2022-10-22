@@ -4,6 +4,7 @@ tres_minas = {
 	geocoordinate = { -7.5180833333333 41.481138888889 }
 	type = resource
 	resource = gold #gold present in Três Minas; Source: M. J. T. Lewis, "Railways in the Greek and Roman World", 2001, p. 15.
+	terrain_type = mountains
 	
 	history = {
 		1 = {

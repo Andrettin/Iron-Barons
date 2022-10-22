@@ -2,6 +2,6 @@ salt = {
 	name = "Salt"
 	commodity = salt
 	terrain_types = {
-		barren_hills #correct?
+		plains
 	}
 }

@@ -4,4 +4,5 @@ kongsberg = {
 	geocoordinate = { 9.6463888888889 59.665 }
 	type = resource
 	resource = silver #Kongsberg Sølvverk
+	terrain_type = barren_hills
 }
