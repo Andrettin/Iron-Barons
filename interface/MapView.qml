@@ -63,6 +63,15 @@ Item {
 	}
 	
 	Rectangle {
+		id: left_bar
+		anchors.top: parent.top
+		anchors.bottom: parent.bottom
+		anchors.left: parent.left
+		width: 16 * scale_factor
+		color: "gray"
+	}
+	
+	Rectangle {
 		id: status_bar
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
@@ -76,6 +85,15 @@ Item {
 			anchors.left: parent.left
 			anchors.leftMargin: 16 * scale_factor
 		}
+	}
+	
+	Rectangle {
+		id: top_bar
+		anchors.top: parent.top
+		anchors.left: parent.left
+		anchors.right: parent.right
+		height: 16 * scale_factor
+		color: "gray"
 	}
 	
 	Rectangle {
