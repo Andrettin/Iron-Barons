@@ -296,8 +296,8 @@ ocean = {
 			south = same
 			west = same
 			east = same
-			northwest = other
-			northeast = other
+			northwest = any
+			northeast = any
 			southwest = other
 			southeast = other
 		}
@@ -404,8 +404,8 @@ ocean = {
 			east = same
 			northwest = other
 			northeast = other
-			southwest = other
-			southeast = other
+			southwest = any
+			southeast = any
 		}
 		225 = {
 			north = same
@@ -413,7 +413,7 @@ ocean = {
 			west = same
 			east = other
 			northwest = other
-			northeast = other
+			northeast = any
 			southwest = other
 			southeast = any
 		}
