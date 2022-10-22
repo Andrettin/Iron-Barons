@@ -1,0 +1,10 @@
+wallachia = {
+	name = "Wallachia"
+	type = minor_nation
+	culture = romanian
+	capital_province = wallachia
+	eras = {
+		renaissance
+		industrial
+	}
+}

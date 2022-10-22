@@ -1,0 +1,15 @@
+oltenia = {
+	name = "Oltenia"
+	color = { 50 146 44 }
+	capital_settlement = craiova
+	
+	history = {
+		1718 = {
+			owner = austria #became an Austrian possession in 1718; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1739 = {
+			owner = wallachia #became part of Wallachia in 1739; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}

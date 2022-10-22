@@ -1,0 +1,11 @@
+wallachia = {
+	name = "Wallachia"
+	color = { 177 111 178 }
+	capital_settlement = bucharest
+	
+	history = {
+		1740 = {
+			owner = wallachia #part of Wallachia c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}

@@ -1,0 +1,6 @@
+craiova = {
+	name = "Craiova"
+	world = earth
+	geocoordinate = { 23.82587357450 44.32627239900 } #from Natural Earth
+	type = settlement
+}
