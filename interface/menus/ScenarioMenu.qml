@@ -65,14 +65,10 @@ MenuBase {
 					ToolTip.delay: 1000
 					
 					onClicked: {
-						if (country.great_power) {
-							if (selected) {
-								scenario_menu.selected_country = null
-							} else {
-								scenario_menu.selected_country = country
-							}
-						} else {
+						if (selected) {
 							scenario_menu.selected_country = null
+						} else {
+							scenario_menu.selected_country = country
 						}
 					}
 				}
@@ -94,9 +90,12 @@ MenuBase {
 	SmallText {
 		text: selected_country ? (
 			selected_country.name
-			+ "\n\n" + selected_country.game_data.provinces.length + " Provinces"
+			+ "\n\n" + (selected_country.great_power ? "Great Power" : (selected_country.tribe ? "Tribe" : (selected_country.game_data.overlord !== null ? ("Colony of " + selected_country.game_data.overlord.name) : "Minor Nation")))
+			+ "\n" + selected_country.game_data.provinces.length + " Provinces"
 			+ get_resource_counts_string(selected_country.game_data.resource_counts)
-			+ (selected_country.game_data.vassals.length > 0 ? ("\n" + selected_country.game_data.vassals.length + " " + (selected_country.game_data.vassals.length > 1 ? "Colonies" : "Colony")) : "")
+			+ (selected_country.game_data.vassals.length > 0 ? (
+				"\n" + selected_country.game_data.vassals.length + " " + (selected_country.game_data.vassals.length > 1 ? "Colonies" : "Colony")
+			) : "")
 		) : ""
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
@@ -170,7 +169,7 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 64 * scale_factor
 		height: 24 * scale_factor
-		enabled: selected_country !== null
+		enabled: selected_country !== null && selected_country.great_power
 		
 		onClicked: {
 			metternich.game.player_country = selected_country
