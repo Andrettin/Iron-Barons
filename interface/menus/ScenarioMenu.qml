@@ -90,8 +90,8 @@ MenuBase {
 	SmallText {
 		text: selected_country ? (
 			selected_country.name
-			+ "\n\n" + (selected_country.great_power ? "Great Power" : (selected_country.tribe ? "Tribe" : (selected_country.game_data.overlord !== null ? ("Colony of " + selected_country.game_data.overlord.name) : "Minor Nation")))
-			+ "\n" + selected_country.game_data.provinces.length + " Provinces"
+			+ "\n\n" + (selected_country.game_data.secondary_power ? "Secondary Power" : (selected_country.great_power ? "Great Power" : (selected_country.tribe ? "Tribe" : (selected_country.game_data.overlord !== null ? ("Colony of " + selected_country.game_data.overlord.name) : "Minor Nation"))))
+			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
 			+ get_resource_counts_string(selected_country.game_data.resource_counts)
 			+ (selected_country.game_data.vassals.length > 0 ? (
 				"\n" + selected_country.game_data.vassals.length + " " + (selected_country.game_data.vassals.length > 1 ? "Colonies" : "Colony")
