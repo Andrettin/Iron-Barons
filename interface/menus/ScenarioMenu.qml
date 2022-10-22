@@ -26,6 +26,7 @@ MenuBase {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.horizontalCenterOffset: 64 * scale_factor
 		anchors.verticalCenter: parent.verticalCenter
+		anchors.verticalCenterOffset: -32 * scale_factor
 		width: 512 * scale_factor
 		height: 256 * scale_factor
 		contentWidth: metternich.game.diplomatic_map_image_size.width * scale_factor
@@ -93,11 +94,25 @@ MenuBase {
 	SmallText {
 		text: selected_country ? (
 			selected_country.name
+			+ "\n\n" + selected_country.game_data.provinces.length + " Provinces"
+			+ get_resource_counts_string(selected_country.game_data.resource_counts)
 		) : ""
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
 		anchors.top: diplomatic_map_background.bottom
 		anchors.topMargin: 16 * scale_factor
+		
+		function get_resource_counts_string(resource_counts) {
+			var str = "";
+			
+			for (const kv_pair of resource_counts) {
+				var resource = kv_pair.key
+				var count = kv_pair.value
+				str += "\n" + count + " " + resource.name
+			}
+			
+			return str
+		}
 	}
 	
 	Rectangle {
