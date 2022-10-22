@@ -8,6 +8,7 @@ MenuBase {
 	title: qsTr("Scenario")
 	
 	property var selected_scenario: null
+	property var selected_country: null
 	
 	Rectangle {
 		id: diplomatic_map_background
@@ -32,14 +33,12 @@ MenuBase {
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		
-		property var selected_country: null
-		
 		MouseArea {
 			width: diplomatic_map.contentWidth
 			height: diplomatic_map.contentHeight
 			
 			onClicked: {
-				diplomatic_map.selected_country = null
+				scenario_menu.selected_country = null
 			}
 		}
 		
@@ -54,7 +53,7 @@ MenuBase {
 				cache: false
 				
 				readonly property var country: model.modelData
-				readonly property var selected: diplomatic_map.selected_country === country
+				readonly property var selected: selected_country === country
 				
 				MaskedMouseArea {
 					anchors.fill: parent
@@ -67,12 +66,12 @@ MenuBase {
 					onClicked: {
 						if (country.great_power) {
 							if (selected) {
-								diplomatic_map.selected_country = null
+								scenario_menu.selected_country = null
 							} else {
-								diplomatic_map.selected_country = country
+								scenario_menu.selected_country = country
 							}
 						} else {
-							diplomatic_map.selected_country = null
+							scenario_menu.selected_country = null
 						}
 					}
 				}
@@ -80,7 +79,7 @@ MenuBase {
 		}
 		
 		function center_on_selected_country_capital() {
-			var capital_game_data = diplomatic_map.selected_country.capital_province.capital_settlement.game_data
+			var capital_game_data = selected_country.capital_province.capital_settlement.game_data
 			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size.width * scale_factor
 			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size.height * scale_factor
 			
@@ -92,7 +91,9 @@ MenuBase {
 	}
 	
 	SmallText {
-		text: diplomatic_map.selected_country ? ("Country: " + diplomatic_map.selected_country.name) : ""
+		text: selected_country ? (
+			selected_country.name
+		) : ""
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
 		anchors.top: diplomatic_map_background.bottom
@@ -153,10 +154,10 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 64 * scale_factor
 		height: 24 * scale_factor
-		enabled: diplomatic_map.selected_country !== null
+		enabled: selected_country !== null
 		
 		onClicked: {
-			metternich.game.player_country = diplomatic_map.selected_country
+			metternich.game.player_country = selected_country
 			metternich.game.start()
 		}
 	}
@@ -178,8 +179,8 @@ MenuBase {
 	Connections {
 		target: metternich.game
 		function onCountriesChanged() {
-			if (diplomatic_map.selected_country !== null && !metternich.game.countries.includes(diplomatic_map.selected_country)) {
-				diplomatic_map.selected_country = null
+			if (selected_country !== null && !metternich.game.countries.includes(selected_country)) {
+				scenario_menu.selected_country = null
 			}
 		}
 	}
@@ -187,7 +188,7 @@ MenuBase {
 	Component.onCompleted: {
 		selected_scenario = metternich.get_scenarios()[0]
 		metternich.game.setup_scenario(selected_scenario)
-		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+		scenario_menu.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
 		diplomatic_map.center_on_selected_country_capital()
 	}
 }
