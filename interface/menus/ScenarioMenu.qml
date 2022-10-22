@@ -92,58 +92,23 @@ MenuBase {
 			selected_country.name
 			+ "\n\n" + (selected_country.game_data.secondary_power ? "Secondary Power" : (selected_country.great_power ? "Great Power" : (selected_country.tribe ? "Tribe" : (selected_country.game_data.overlord !== null ? ("Colony of " + selected_country.game_data.overlord.name) : "Minor Nation"))))
 			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
+			+ get_resource_counts_string(selected_country.game_data.resource_counts)
 			+ (selected_country.game_data.vassals.length > 0 ? (
 				"\n" + selected_country.game_data.vassals.length + " " + (selected_country.game_data.vassals.length > 1 ? "Colonies" : "Colony")
 			) : "")
-			+ get_resource_counts_string(selected_country.game_data.resource_counts, selected_country.game_data.colonial_resource_counts)
 		) : ""
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
 		anchors.top: diplomatic_map_background.bottom
 		anchors.topMargin: 16 * scale_factor
 		
-		function get_resource_counts_string(resource_counts, colonial_resource_counts) {
-			var str = ""
-			
-			var resource_count_arrays = []
+		function get_resource_counts_string(resource_counts) {
+			var str = "";
 			
 			for (const kv_pair of resource_counts) {
 				var resource = kv_pair.key
 				var count = kv_pair.value
-				
-				resource_count_arrays.push([resource, count, 0])
-			}
-			
-			for (const kv_pair of colonial_resource_counts) {
-				var resource = kv_pair.key
-				var count = kv_pair.value
-				
-				var found_resource = false
-				
-				for (var i = 0; i < resource_count_arrays.length; ++i) {
-					var loop_resource = resource_count_arrays[i][0]
-					
-					if (loop_resource == resource) {
-						resource_count_arrays[i][2] = count
-						found_resource = true
-						break
-					}
-				}
-				
-				if (found_resource === false) {
-					resource_count_arrays.push([resource, 0, count])
-				}
-			}
-			
-			for (const resource_count_array of resource_count_arrays) {
-				var resource = resource_count_array[0]
-				var count = resource_count_array[1]
-				var colonial_count = resource_count_array[2]
-				
 				str += "\n" + count + " " + resource.name
-				if (colonial_count > 0) {
-					str += " (" + colonial_count + " Colonial)"
-				}
 			}
 			
 			return str
