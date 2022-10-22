@@ -4,4 +4,5 @@ chambery = {
 	geocoordinate = { 5.9208333333333 45.566388888889 }
 	pos_offset = { 1 -1 }
 	type = settlement
+	terrain_type = plains
 }

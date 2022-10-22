@@ -4,4 +4,5 @@ cracow = {
 	geocoordinate = { 19.96001135120 50.05997926750 } #from Natural Earth
 	pos_offset = { 0 1 }
 	type = settlement
+	terrain_type = plains
 }

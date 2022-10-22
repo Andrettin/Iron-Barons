@@ -3,4 +3,5 @@ klagenfurt = {
 	world = earth
 	geocoordinate = { 14.31002030300 46.62034425770 } #from Natural Earth
 	type = settlement
+	terrain_type = plains
 }

@@ -3,4 +3,5 @@ sao_paulo = {
 	world = earth
 	geocoordinate = { -46.62501998040 -23.55867958700 } #from Natural Earth
 	type = settlement
+	terrain_type = plains
 }

@@ -3,4 +3,5 @@ czernowitz = {
 	world = earth
 	geocoordinate = { 25.92155960970 48.30530600900 } #from Natural Earth
 	type = settlement
+	terrain_type = plains
 }
