@@ -96,6 +96,7 @@ MenuBase {
 			selected_country.name
 			+ "\n\n" + selected_country.game_data.provinces.length + " Provinces"
 			+ get_resource_counts_string(selected_country.game_data.resource_counts)
+			+ (selected_country.game_data.vassals.length > 0 ? ("\n" + selected_country.game_data.vassals.length + " " + (selected_country.game_data.vassals.length > 1 ? "Colonies" : "Colony")) : "")
 		) : ""
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
