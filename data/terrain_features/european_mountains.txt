@@ -40,6 +40,12 @@ cambrian_mountains = { #Source: "Philip's International School Atlas", 2006, p. 
 	color = { 22 92 32 }
 }
 
+carpathian_mountains = {
+	name = "Carpathian Mountains"
+	terrain_type = barren_hills
+	color = { 197 36 157 }
+}
+
 erzgebirge = {
 	name = "Erzgebirge"
 	terrain_type = mountains
