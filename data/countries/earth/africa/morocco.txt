@@ -1,0 +1,10 @@
+morocco = {
+	name = "Morocco"
+	type = minor_nation
+	culture = arabic
+	capital_province = morocco
+	eras = {
+		renaissance
+		industrial
+	}
+}

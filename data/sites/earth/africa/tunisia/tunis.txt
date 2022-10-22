@@ -1,0 +1,6 @@
+tunis = {
+	name = "Tunis"
+	world = earth
+	geocoordinate = { 10.17967809920 36.80277813620 } #from Natural Earth
+	type = settlement
+}

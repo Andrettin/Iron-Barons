@@ -1,0 +1,11 @@
+algeria = {
+	name = "Algeria"
+	color = { 136 222 8 }
+	capital_settlement = algiers
+	
+	history = {
+		1740 = {
+			owner = algeria #part of Algeria c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}

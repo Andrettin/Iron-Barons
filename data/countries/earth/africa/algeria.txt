@@ -1,0 +1,10 @@
+algeria = {
+	name = "Algeria"
+	type = minor_nation
+	culture = arabic
+	capital_province = algeria
+	eras = {
+		renaissance
+		industrial
+	}
+}

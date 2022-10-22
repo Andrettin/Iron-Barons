@@ -1,0 +1,10 @@
+tunisia = {
+	name = "Tunisia"
+	type = minor_nation
+	culture = arabic
+	capital_province = tunisia
+	eras = {
+		renaissance
+		industrial
+	}
+}
