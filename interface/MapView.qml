@@ -16,10 +16,10 @@ Item {
 	
 	TableView {
 		id: map
-		anchors.top: parent.top
+		anchors.top: top_bar.bottom
 		anchors.bottom: status_bar.top
-		anchors.left: parent.left
-		anchors.right: infopanel.left
+		anchors.left: infopanel.right
+		anchors.right: right_bar.left
 		leftMargin: 0
 		rightMargin: 0
 		topMargin: 0
@@ -62,47 +62,60 @@ Item {
 		}
 	}
 	
-	Rectangle {
-		id: left_bar
+	Image {
+		id: right_bar
 		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.left: parent.left
-		width: 16 * scale_factor
-		color: "gray"
+		anchors.right: parent.right
+		source: "image://interface/dwarven/right_bar"
+		fillMode: Image.PreserveAspectCrop
 	}
 	
-	Rectangle {
+	Image {
 		id: status_bar
 		anchors.bottom: parent.bottom
-		anchors.left: parent.left
-		anchors.right: parent.right
-		height: 16 * scale_factor
-		color: "gray"
+		anchors.left: infopanel.right
+		source: "image://interface/dwarven/status_bar"
+		fillMode: Image.PreserveAspectCrop
 		
 		SmallText {
 			text: status_text
-			anchors.verticalCenter: parent.verticalCenter
+			anchors.bottom: parent.bottom
+			anchors.bottomMargin: 1 * scale_factor
 			anchors.left: parent.left
 			anchors.leftMargin: 16 * scale_factor
 		}
 	}
 	
-	Rectangle {
+	Image {
 		id: top_bar
 		anchors.top: parent.top
-		anchors.left: parent.left
-		anchors.right: parent.right
-		height: 16 * scale_factor
-		color: "gray"
+		anchors.left: menu_button_bar.right
+		source: "image://interface/dwarven/top_bar"
+		fillMode: Image.PreserveAspectCrop
 	}
 	
-	Rectangle {
-		id: infopanel
-		color: "gray"
+	Image {
+		id: menu_button_bar
 		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.right: parent.right
-		width: 176 * scale_factor
+		anchors.left: parent.left
+		source: "image://interface/dwarven/menu_button_bar"
+		fillMode: Image.PreserveAspectCrop
+	}
+	
+	Image {
+		id: minimap
+		anchors.top: menu_button_bar.bottom
+		anchors.left: parent.left
+		source: "image://interface/dwarven/minimap"
+		fillMode: Image.PreserveAspectCrop
+	}
+	
+	Image {
+		id: infopanel
+		anchors.top: minimap.bottom
+		anchors.left: parent.left
+		source: "image://interface/dwarven/infopanel"
+		fillMode: Image.PreserveAspectCrop
 	}
 	
 	Component.onCompleted: {
