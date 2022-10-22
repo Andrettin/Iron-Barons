@@ -6,6 +6,7 @@ Item {
 	id: map_view
 	
 	property string status_text: ""
+	property string interface_style: "dwarven"
 	readonly property int tile_size: metternich.defines.tile_size.width * scale_factor
 	
 	Rectangle {
@@ -66,7 +67,7 @@ Item {
 		id: right_bar
 		anchors.top: parent.top
 		anchors.right: parent.right
-		source: "image://interface/dwarven/right_bar"
+		source: "image://interface/" + interface_style + "/right_bar"
 		fillMode: Image.PreserveAspectCrop
 	}
 	
@@ -74,7 +75,7 @@ Item {
 		id: status_bar
 		anchors.bottom: parent.bottom
 		anchors.left: infopanel.right
-		source: "image://interface/dwarven/status_bar"
+		source: "image://interface/" + interface_style + "/status_bar"
 		fillMode: Image.PreserveAspectCrop
 		
 		SmallText {
@@ -90,7 +91,7 @@ Item {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.left: menu_button_bar.right
-		source: "image://interface/dwarven/top_bar"
+		source: "image://interface/" + interface_style + "/top_bar"
 		fillMode: Image.PreserveAspectCrop
 	}
 	
@@ -98,7 +99,7 @@ Item {
 		id: menu_button_bar
 		anchors.top: parent.top
 		anchors.left: parent.left
-		source: "image://interface/dwarven/menu_button_bar"
+		source: "image://interface/" + interface_style + "/menu_button_bar"
 		fillMode: Image.PreserveAspectCrop
 	}
 	
@@ -106,7 +107,7 @@ Item {
 		id: minimap
 		anchors.top: menu_button_bar.bottom
 		anchors.left: parent.left
-		source: "image://interface/dwarven/minimap"
+		source: "image://interface/" + interface_style + "/minimap"
 		fillMode: Image.PreserveAspectCrop
 	}
 	
@@ -114,7 +115,7 @@ Item {
 		id: infopanel
 		anchors.top: minimap.bottom
 		anchors.left: parent.left
-		source: "image://interface/dwarven/infopanel"
+		source: "image://interface/" + interface_style + "/infopanel"
 		fillMode: Image.PreserveAspectCrop
 	}
 	
