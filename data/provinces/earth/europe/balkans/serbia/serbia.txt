@@ -1,0 +1,15 @@
+serbia = {
+	name = "Serbia"
+	color = { 207 226 120 }
+	capital_settlement = belgrade
+	
+	history = {
+		1718 = {
+			owner = austria #became an Austrian possession in 1718; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1739 = {
+			owner = ottoman_empire #became part of the Ottoman Empire in 1739; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}

@@ -1,0 +1,11 @@
+montenegro = {
+	name = "Montenegro"
+	color = { 64 223 9 }
+	capital_settlement = podgorica
+	
+	history = {
+		1740 = {
+			owner = montenegro #part of Montenegro c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}
