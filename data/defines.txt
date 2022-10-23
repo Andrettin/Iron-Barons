@@ -1,4 +1,6 @@
 tile_size = { 64 64 }
+months_per_turn = 3
+default_start_date = 1815.11.20
 default_base_terrain = plains
 unexplored_terrain = unexplored
 default_province_terrain = plains
