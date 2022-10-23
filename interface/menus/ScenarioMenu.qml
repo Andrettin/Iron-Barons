@@ -77,8 +77,8 @@ MenuBase {
 		
 		function center_on_selected_country_capital() {
 			var capital_game_data = selected_country.capital_province.capital_settlement.game_data
-			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size.width * scale_factor
-			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size.height * scale_factor
+			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
+			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
 			
 			var scenario_x = capital_x - diplomatic_map.width / 2
 			var scenario_y = capital_y - diplomatic_map.height / 2
