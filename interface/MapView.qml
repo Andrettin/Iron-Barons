@@ -100,6 +100,14 @@ Item {
 			anchors.topMargin: 1 * scale_factor
 			anchors.left: parent.left
 			anchors.leftMargin: 16 * scale_factor
+			
+			MouseArea {
+				anchors.fill: parent
+				hoverEnabled: true
+				onEntered: {
+					status_text = "Current Season and Year"
+				}
+			}
 		}
 	}
 	
