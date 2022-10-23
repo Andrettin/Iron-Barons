@@ -155,6 +155,10 @@ MenuBase {
 				anchors.fill: parent
 				
 				onClicked: {
+					if (selected_scenario === model.modelData) {
+						return
+					}
+					
 					selected_scenario = model.modelData
 					metternich.game.setup_scenario(selected_scenario)
 				}
