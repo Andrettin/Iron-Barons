@@ -1,0 +1,7 @@
+salonika = {
+	name = "Salonika"
+	world = earth
+	geocoordinate = { 22.88500077180 40.69610638330 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = settlement
+}

@@ -1,0 +1,5 @@
+west_macedonia = {
+	name = "West Macedonia"
+	color = { 161 235 105 }
+	capital_settlement = kozani
+}

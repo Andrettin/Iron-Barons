@@ -1,0 +1,7 @@
+sparta = {
+	name = "Sparta"
+	world = earth
+	geocoordinate = { 22.42967972690 37.07371767070 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = settlement
+}
