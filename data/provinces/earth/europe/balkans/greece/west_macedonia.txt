@@ -2,4 +2,10 @@ west_macedonia = {
 	name = "West Macedonia"
 	color = { 161 235 105 }
 	capital_settlement = kozani
+	
+	history = {
+		1740 = {
+			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

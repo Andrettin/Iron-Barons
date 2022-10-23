@@ -2,4 +2,14 @@ peloponnese = {
 	name = "Peloponnese"
 	color = { 247 168 1 }
 	capital_settlement = sparta
+	
+	history = {
+		1699 = {
+			owner = venice #became a Venetian possession in 1699; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1713 = {
+			owner = ottoman_empire #became part of the Ottoman Empire in 1713; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
