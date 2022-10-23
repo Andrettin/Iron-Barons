@@ -132,12 +132,10 @@ Window {
 	}
 	
 	function year_string(year) {
-		var year_suffix
+		var year_suffix = ""
 		
-		if (year >= 0) {
-			year_suffix = "AD"
-		} else {
-			year_suffix = "BC"
+		if (year < 0) {
+			year_suffix = " BC"
 			year = Math.abs(year)
 		}
 		
@@ -148,7 +146,7 @@ Window {
 			year_str = year
 		}
 		
-		return year_str + " " + year_suffix
+		return year_str + year_suffix
 	}
 	
 	function date_season_string(date) {
