@@ -1,0 +1,6 @@
+ankara = {
+	name = "Ankara"
+	world = earth
+	geocoordinate = { 32.86439164100 39.92723858550 } #from Natural Earth
+	type = settlement
+}

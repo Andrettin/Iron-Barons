@@ -1,8 +1,0 @@
-constantinople = {
-	name = "Constantinople"
-	color = { 240 160 32 }
-	capital_settlement = constantinople
-	cultural_names = {
-		turkish = "Istanbul"
-	}
-}
