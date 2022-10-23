@@ -111,12 +111,11 @@ Item {
 		fillMode: Image.PreserveAspectCrop
 	}
 	
-	Image {
+	InfoPanel {
 		id: infopanel
 		anchors.top: minimap.bottom
+		anchors.bottom: parent.bottom
 		anchors.left: parent.left
-		source: "image://interface/" + interface_style + "/infopanel"
-		fillMode: Image.PreserveAspectCrop
 	}
 	
 	Component.onCompleted: {
