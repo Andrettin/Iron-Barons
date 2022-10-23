@@ -93,6 +93,14 @@ Item {
 		anchors.left: menu_button_bar.right
 		source: "image://interface/" + interface_style + "/top_bar"
 		fillMode: Image.PreserveAspectCrop
+		
+		SmallText {
+			text: date_string(metternich.game.date)
+			anchors.top: parent.top
+			anchors.topMargin: 1 * scale_factor
+			anchors.left: parent.left
+			anchors.leftMargin: 16 * scale_factor
+		}
 	}
 	
 	Image {

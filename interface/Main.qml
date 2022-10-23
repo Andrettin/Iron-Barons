@@ -114,6 +114,13 @@ Window {
 		return n.toLocaleString(Qt.locale("en_US"), 'f', 0)
 	}
 	
+	function date_string(date) {
+		var year_str = date_year_string(date)
+		var season_str = date_season_string(date)
+		
+		return season_str + ", " + year_str
+	}
+	
 	function date_year_string(date) {
 		var year = date.getUTCFullYear()
 		
@@ -142,5 +149,27 @@ Window {
 		}
 		
 		return year_str + " " + year_suffix
+	}
+	
+	function date_season_string(date) {
+		var month = date.getMonth()
+		var season = Math.floor(month / 3 + 1)
+		
+		return season_string(season)
+	}
+	
+	function season_string(season) {
+		switch (season) {
+			case 1:
+				return "Winter"
+			case 2:
+				return "Spring"
+			case 3:
+				return "Summer"
+			case 4:
+				return "Autumn"
+		}
+		
+		return "Invalid Season: " + season
 	}
 }
