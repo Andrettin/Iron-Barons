@@ -8,6 +8,7 @@ default_water_zone_terrain = ocean
 minor_nation_color = { 221 216 181 }
 country_border_color = { 0 0 0 }
 selected_country_color = { 255 255 0 }
+ocean_color = { 191 207 207 }
 default_settlement_image_filepath = "tiles/settlements/dwarven_settlement.png"
 province_border_image_filepath = "tiles/borders/province_border.png"
 min_diplomatic_map_tile_scale = 2
