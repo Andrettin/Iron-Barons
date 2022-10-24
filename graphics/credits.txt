@@ -51,6 +51,7 @@
 /graphics/interface/dwarven/top_bar.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/borders/province_border.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/settlements/dwarven_settlement.png (by Jinn) (licensed under the CC0)
+/graphics/tiles/terrain/barren_hills.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/conifer_forest.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/dark_plains.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/mountains.png (by Jinn) (licensed under the CC0)
