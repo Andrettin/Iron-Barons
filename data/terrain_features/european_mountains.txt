@@ -12,7 +12,7 @@ apennine_mountains = {
 
 ardennes = {
 	name = "Ardennes"
-	terrain_type = mountains
+	terrain_type = barren_hills
 	color = { 131 190 134 }
 }
 
