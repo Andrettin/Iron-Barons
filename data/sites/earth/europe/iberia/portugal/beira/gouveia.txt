@@ -1,0 +1,10 @@
+gouveia = {
+	name = "Gouveia"
+	world = earth
+	geocoordinate = { -7.6 40.5 }
+	type = resource
+	resource = sheep
+	title = {
+		max_tier = marquisate
+	}
+}
