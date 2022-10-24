@@ -1,0 +1,10 @@
+metz = {
+	name = "Metz"
+	world = earth
+	geocoordinate = { 6.18002559269 49.12034669910 } #from Natural Earth
+	pos_offset = { 1 0 }
+	type = settlement
+	cultural_names = {
+		frankish = "Mettis"
+	}
+}
