@@ -26,6 +26,15 @@ Item {
 		}
 	}
 	
+	TinyText {
+		anchors.fill: parent
+		text: upper_label
+		visible: upper_label.length > 0
+		wrapMode: Text.WordWrap
+		horizontalAlignment: Text.AlignHCenter
+		verticalAlignment: Text.AlignTop
+	}
+	
 	MouseArea {
 		anchors.fill: parent
 		hoverEnabled: true

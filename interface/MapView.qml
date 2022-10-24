@@ -32,20 +32,6 @@ Item {
 		model: MapGridModel {}
 		delegate: TileView {}
 		
-		Repeater {
-			model: metternich.map.provinces
-			
-			TinyText {
-				text: settlement ? province.game_data.current_cultural_name : ""
-				x: settlement ? settlement.game_data.tile_pos.x * tile_size + tile_size / 2 - width / 2 : 0
-				y: settlement ? settlement.game_data.tile_pos.y * tile_size + tile_size + 2 * scale_factor : 0
-				z: 40
-				
-				readonly property var province: model.modelData
-				readonly property var settlement: province.capital_settlement
-			}
-		}
-		
 		function center_on_tile(tile_x, tile_y) {
 			var pixel_x = tile_x * tile_size - map.width / 2
 			var pixel_y = tile_y * tile_size - map.height / 2
