@@ -4,6 +4,7 @@ gouveia = {
 	geocoordinate = { -7.6 40.5 }
 	type = resource
 	resource = sheep
+	terrain_type = barren_hills
 	title = {
 		max_tier = marquisate
 	}
