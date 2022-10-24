@@ -1,0 +1,15 @@
+algarve = {
+	name = "Algarve"
+	color = { 233 129 162 }
+	capital_settlement = faro
+	
+	history = {
+		1257 = {
+			owner = portugal #became part of the Kingdom of Portugal in 1257; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 82-83.
+		}
+		
+		1740 = {
+			owner = portugal #part of the Kingdom of Portugal c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}
