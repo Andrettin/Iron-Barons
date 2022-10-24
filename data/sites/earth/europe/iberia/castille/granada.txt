@@ -3,4 +3,5 @@ granada = {
 	world = earth
 	geocoordinate = { -3.58501143535 37.16497825020 } #from Natural Earth
 	type = settlement
+	terrain_type = plains
 }
