@@ -1,7 +1,7 @@
-douro = {
-	name = "Douro"
-	color = { 208 160 0 }
-	capital_settlement = oporto
+tras_os_montes = {
+	name = "Tras-os-Montes" #"Trás-os-Montes"
+	color = { 33 112 128 }
+	capital_settlement = braganza
 	
 	history = {
 		1140 = {

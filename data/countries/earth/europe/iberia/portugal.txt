@@ -3,15 +3,16 @@ portugal = {
 	type = great_power
 	color = { 0 66 24 }
 	culture = portuguese
-	capital_province = lisbon
+	capital_province = estremadura
 	eras = {
 		renaissance
 		industrial
 	}
 	provinces = {
-		lisbon
-		douro
-		braganza
+		estremadura
+		beira
+		minho
+		tras_os_montes
 		alentejo
 		madeira
 		azores

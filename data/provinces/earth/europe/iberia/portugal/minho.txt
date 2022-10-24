@@ -1,0 +1,15 @@
+minho = {
+	name = "Minho"
+	color = { 208 160 0 }
+	capital_settlement = oporto
+	
+	history = {
+		1140 = {
+			owner = portugal #became part of the Kingdom of Portugal in 1140; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 82-83.
+		}
+		
+		1740 = {
+			owner = portugal #part of the Kingdom of Portugal c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}

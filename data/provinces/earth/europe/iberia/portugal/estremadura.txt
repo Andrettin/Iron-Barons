@@ -1,5 +1,5 @@
-lisbon = {
-	name = "Lisbon"
+estremadura = {
+	name = "Estremadura"
 	color = { 208 160 128 }
 	capital_settlement = lisbon
 	
