@@ -2,6 +2,7 @@ prussia = {
 	name = "Prussia"
 	type = great_power
 	color = { 245 167 97 }
+	palette = black
 	culture = german
 	capital_province = brandenburg
 	eras = {

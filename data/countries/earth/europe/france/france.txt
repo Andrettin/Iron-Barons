@@ -2,6 +2,7 @@ france = {
 	name = "France"
 	type = great_power
 	color = { 87 139 166 }
+	palette = blue
 	culture = french
 	capital_province = ile_de_france
 	eras = {

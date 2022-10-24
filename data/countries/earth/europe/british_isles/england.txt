@@ -2,6 +2,7 @@ england = {
 	name = "England"
 	type = great_power
 	color = { 206 8 8 }
+	palette = red
 	culture = english
 	capital_province = middlesex
 	eras = {

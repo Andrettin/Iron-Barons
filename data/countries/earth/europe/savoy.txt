@@ -2,6 +2,7 @@ savoy = {
 	name = "Savoy"
 	type = great_power
 	color = { 142 167 80 }
+	palette = lime
 	culture = italian
 	capital_province = savoy
 	eras = {
