@@ -1,0 +1,5 @@
+karelia = {
+	name = "Karelia"
+	color = { 172 130 218 }
+	capital_settlement = petrozavodsk
+}

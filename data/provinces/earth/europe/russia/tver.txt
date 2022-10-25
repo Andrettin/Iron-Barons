@@ -1,0 +1,5 @@
+tver = {
+	name = "Tver"
+	color = { 223 180 18 }
+	capital_settlement = tver
+}

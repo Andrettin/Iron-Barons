@@ -1,0 +1,5 @@
+smolensk = {
+	name = "Smolensk"
+	color = { 54 9 109 }
+	capital_settlement = smolensk
+}

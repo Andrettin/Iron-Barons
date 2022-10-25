@@ -1,0 +1,5 @@
+orel = {
+	name = "Orel"
+	color = { 84 120 59 }
+	capital_settlement = orel
+}

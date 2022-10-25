@@ -1,0 +1,5 @@
+voronezh = {
+	name = "Voronezh"
+	color = { 234 125 69 }
+	capital_settlement = voronezh
+}

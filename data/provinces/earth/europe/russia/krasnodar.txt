@@ -1,0 +1,5 @@
+krasnodar = {
+	name = "Krasnodar"
+	color = { 154 59 122 }
+	capital_settlement = krasnodar
+}

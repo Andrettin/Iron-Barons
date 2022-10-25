@@ -1,0 +1,5 @@
+ingria = {
+	name = "Ingria"
+	color = { 180 242 65 }
+	capital_settlement = saint_petersburg
+}

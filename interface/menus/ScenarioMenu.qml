@@ -9,6 +9,7 @@ MenuBase {
 	
 	property var selected_scenario: null
 	property var selected_country: null
+	property var ocean_map_template_identifier: ""
 	
 	Rectangle {
 		id: diplomatic_map_background
@@ -16,7 +17,7 @@ MenuBase {
 		anchors.verticalCenter: diplomatic_map.verticalCenter
 		width: diplomatic_map.width + 2
 		height: diplomatic_map.height + 2
-		color: Qt.rgba(0.0 / 255.0, 0.0 / 255.0, 32.0 / 255.0, 1)
+		color: Qt.rgba(0.0 / 255.0, 0.0 / 255.0, 0.0 / 255.0, 1)
 		border.color: "white"
 		border.width: 1
 	}
@@ -33,6 +34,12 @@ MenuBase {
 		contentHeight: metternich.game.diplomatic_map_image_size.height * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
+		
+		Image {
+			id: ocean_image
+			source: ocean_map_template_identifier.length > 0 ? ("image://diplomatic_map/ocean/" + ocean_map_template_identifier) : "image://empty/"
+			cache: false
+		}
 		
 		MouseArea {
 			width: diplomatic_map.contentWidth
@@ -198,6 +205,10 @@ MenuBase {
 	Connections {
 		target: metternich.game
 		function onCountriesChanged() {
+			if (selected_scenario.map_template.identifier !== scenario_menu.ocean_map_template_identifier) {
+				scenario_menu.ocean_map_template_identifier = selected_scenario.map_template.identifier
+			}
+			
 			if (selected_country !== null && !metternich.game.countries.includes(selected_country)) {
 				scenario_menu.selected_country = null
 			}
@@ -207,6 +218,7 @@ MenuBase {
 	Component.onCompleted: {
 		selected_scenario = metternich.get_scenarios()[0]
 		metternich.game.setup_scenario(selected_scenario)
+		
 		scenario_menu.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
 		diplomatic_map.center_on_selected_country_capital()
 	}
