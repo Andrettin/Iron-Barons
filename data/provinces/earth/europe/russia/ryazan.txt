@@ -2,4 +2,10 @@ ryazan = {
 	name = "Ryazan"
 	color = { 235 249 197 }
 	capital_settlement = ryazan
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
