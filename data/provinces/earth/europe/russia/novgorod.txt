@@ -2,4 +2,10 @@ novgorod = {
 	name = "Novgorod"
 	color = { 244 102 125 }
 	capital_settlement = novgorod
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

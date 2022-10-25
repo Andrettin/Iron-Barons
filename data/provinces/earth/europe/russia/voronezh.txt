@@ -2,4 +2,10 @@ voronezh = {
 	name = "Voronezh"
 	color = { 234 125 69 }
 	capital_settlement = voronezh
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

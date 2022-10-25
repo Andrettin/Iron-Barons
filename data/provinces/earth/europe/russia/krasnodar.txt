@@ -2,4 +2,18 @@ krasnodar = {
 	name = "Krasnodar"
 	color = { 154 59 122 }
 	capital_settlement = krasnodar
+	
+	history = {
+		1699 = {
+			owner = russia #became part of the Russian Empire in 1699; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1711 = {
+			owner = ottoman_empire #became part of the Ottoman Empire in 1711; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+		
+		1739 = {
+			owner = russia #became part of the Russian Empire in 1739; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

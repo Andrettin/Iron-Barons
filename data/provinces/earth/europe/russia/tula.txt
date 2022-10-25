@@ -2,4 +2,10 @@ tula = {
 	name = "Tula"
 	color = { 122 33 103 }
 	capital_settlement = tula
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

@@ -2,4 +2,10 @@ rostov = {
 	name = "Rostov"
 	color = { 177 191 157 }
 	capital_settlement = rostov
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

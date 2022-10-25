@@ -2,4 +2,10 @@ kaluga = {
 	name = "Kaluga"
 	color = { 35 212 109 }
 	capital_settlement = kaluga
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

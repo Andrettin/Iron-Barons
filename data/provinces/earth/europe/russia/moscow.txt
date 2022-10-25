@@ -2,4 +2,10 @@ moscow = {
 	name = "Moscow"
 	color = { 224 160 33 }
 	capital_settlement = moscow
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

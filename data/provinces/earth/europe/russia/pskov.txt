@@ -2,4 +2,10 @@ pskov = {
 	name = "Pskov"
 	color = { 77 163 105 }
 	capital_settlement = pskov
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }

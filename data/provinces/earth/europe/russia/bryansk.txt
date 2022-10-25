@@ -2,4 +2,10 @@ bryansk = {
 	name = "Bryansk"
 	color = { 173 107 57 }
 	capital_settlement = bryansk
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
 }
