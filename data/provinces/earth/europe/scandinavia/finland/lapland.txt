@@ -1,0 +1,5 @@
+lapland = {
+	name = "Lapland"
+	color = { 195 43 164 }
+	capital_settlement = rovaniemi
+}
