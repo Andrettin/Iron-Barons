@@ -1,0 +1,11 @@
+yaroslavl = {
+	name = "Yaroslavl"
+	color = { 194 1 164 }
+	capital_settlement = yaroslavl
+	
+	history = {
+		1740 = {
+			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		}
+	}
+}
