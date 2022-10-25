@@ -1,0 +1,5 @@
+crimean_war = {
+	name = "Crimean War"
+	start_date = 1853
+	map_template = earth
+}
