@@ -1,0 +1,11 @@
+puerto_rico = {
+	name = "Puerto Rico"
+	color = { 180 106 222 }
+	capital_settlement = san_juan
+	
+	history = {
+		1898 = {
+			owner = puerto_rico #part of Puerto Rico in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+		}
+	}
+}

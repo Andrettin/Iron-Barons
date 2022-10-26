@@ -1,0 +1,19 @@
+puerto_rico = {
+	name = "Puerto Rico"
+	type = minor_nation
+	culture = castillian
+	capital_province = puerto_rico
+	provinces = {
+		puerto_rico
+	}
+	
+	history = {
+		1898 = {
+			#became an American possession in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+			diplomacy_state = {
+				country = united_states
+				state = colony
+			}
+		}
+	}
+}
