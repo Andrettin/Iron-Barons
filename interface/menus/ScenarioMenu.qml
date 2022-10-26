@@ -10,6 +10,7 @@ MenuBase {
 	property var selected_scenario: null
 	property var selected_country: null
 	property var ocean_map_template_identifier: ""
+	property var diplomatic_map_start_date_string: ""
 	
 	Rectangle {
 		id: diplomatic_map_background
@@ -57,7 +58,7 @@ MenuBase {
 				id: country_image
 				x: country.game_data.diplomatic_map_image_rect.x
 				y: country.game_data.diplomatic_map_image_rect.y
-				source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : "")
+				source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : "") + "/" + diplomatic_map_start_date_string
 				cache: false
 				
 				readonly property var country: model.modelData
@@ -213,7 +214,7 @@ MenuBase {
 	
 	Connections {
 		target: metternich.game
-		function onCountriesChanged() {
+		function onSetup_finished() {
 			if (selected_scenario.map_template.identifier !== scenario_menu.ocean_map_template_identifier) {
 				scenario_menu.ocean_map_template_identifier = selected_scenario.map_template.identifier
 			}
@@ -221,6 +222,8 @@ MenuBase {
 			if (selected_country !== null && !metternich.game.countries.includes(selected_country)) {
 				scenario_menu.selected_country = null
 			}
+			
+			diplomatic_map_start_date_string = selected_scenario.start_date.getUTCFullYear() + "." + selected_scenario.start_date.getUTCMonth() + "." + selected_scenario.start_date.getUTCDay()
 		}
 	}
 	

@@ -150,7 +150,7 @@ Window {
 	}
 	
 	function date_season_string(date) {
-		var month = date.getMonth()
+		var month = date.getUTCMonth()
 		var season = Math.floor(month / 3 + 1)
 		
 		return season_string(season)
