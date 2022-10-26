@@ -15,5 +15,9 @@ virginia = {
 		1587 = {
 			owner = iroquois #ceased to be part of Raleigh's Colony of Virginia in 1587; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 		}
+		
+		1783 = {
+			owner = united_states #became part of the United States in 1783; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+		}
 	}
 }
