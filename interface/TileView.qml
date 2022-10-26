@@ -39,26 +39,34 @@ Item {
 		anchors.fill: parent
 		hoverEnabled: true
 		onEntered: {
-			var text = ""
+			var text = "(" + column + ", " + row + ") "
 			
-			if (site !== null) {
-				text += site.game_data.current_cultural_name + " ("
-				
-				if (site.settlement) {
-					text += "Settlement"
-				} else if (resource !== null) {
-					text += resource.name
-				} else {
-					text += terrain.name
-				}
-				
-				text += ")"
+			text += "("
+			
+			if (site !== null && site.settlement) {
+				text += "Settlement"
+			} else if (resource !== null) {
+				text += resource.name
 			} else {
 				text += terrain.name
 			}
 			
+			text += ") "
+			
+			if (site !== null) {
+				text += site.game_data.current_cultural_name
+			}
+			
 			if (province !== null) {
-				text += ", " + province.game_data.current_cultural_name
+				if (site !== null) {
+					text += ", "
+				}
+				
+				text += province.game_data.current_cultural_name
+				
+				if (province.game_data.owner !== null) {
+					text += ", " + province.game_data.owner.name
+				}
 			}
 			
 			status_text = text
