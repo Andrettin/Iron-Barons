@@ -8,6 +8,10 @@ Item {
 	property string status_text: ""
 	property string interface_style: "dwarven"
 	readonly property int tile_size: metternich.defines.tile_size.width * scale_factor
+	readonly property real map_area_start_x: map.contentX / tile_size
+	readonly property real map_area_start_y: map.contentY / tile_size
+	readonly property real map_area_tile_width: map.width / tile_size
+	readonly property real map_area_tile_height: map.height / tile_size
 	
 	Rectangle {
 		id: map_view_background
@@ -106,16 +110,23 @@ Item {
 	}
 	
 	Image {
-		id: minimap
+		id: minimap_area
 		anchors.top: menu_button_bar.bottom
 		anchors.left: parent.left
 		source: "image://interface/" + interface_style + "/minimap"
 		fillMode: Image.PreserveAspectCrop
+		
+		Minimap {
+			id: minimap
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.verticalCenterOffset: -2 * scale_factor
+		}
 	}
 	
 	InfoPanel {
 		id: infopanel
-		anchors.top: minimap.bottom
+		anchors.top: minimap_area.bottom
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
 	}
