@@ -1,0 +1,5 @@
+luzon = {
+	name = "Luzon"
+	color = { 186 58 71 }
+	capital_settlement = manila
+}
