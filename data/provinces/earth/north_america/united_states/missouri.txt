@@ -2,4 +2,10 @@ missouri = {
 	name = "Missouri"
 	color = { 22 48 17 }
 	capital_settlement = jefferson_city
+	
+	history = {
+		1803 = {
+			owner = united_states #became part of the United States in 1803; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+		}
+	}
 }

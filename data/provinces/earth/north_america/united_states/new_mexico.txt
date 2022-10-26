@@ -2,4 +2,10 @@ new_mexico = {
 	name = "New Mexico"
 	color = { 80 64 128 }
 	capital_settlement = santa_fe
+	
+	history = {
+		1845 = {
+			owner = united_states #became part of the United States in 1845; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+		}
+	}
 }

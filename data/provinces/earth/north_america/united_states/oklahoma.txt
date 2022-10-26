@@ -2,4 +2,10 @@ oklahoma = {
 	name = "Oklahoma"
 	color = { 144 192 192 }
 	capital_settlement = oklahoma_city
+	
+	history = {
+		1803 = {
+			owner = united_states #became part of the United States in 1803; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+		}
+	}
 }
