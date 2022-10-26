@@ -188,6 +188,15 @@ MenuBase {
 		}
 	}
 	
+	MouseArea {
+		anchors.fill: start_game_button
+		enabled: !start_game_button.enabled
+		hoverEnabled: true
+		ToolTip.text: small_text(selected_country !== null ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You must select a country to play")
+		ToolTip.visible: containsMouse
+		ToolTip.delay: 1000
+	}
+	
 	Button {
 		id: previous_menu_button
 		anchors.horizontalCenter: start_game_button.horizontalCenter
