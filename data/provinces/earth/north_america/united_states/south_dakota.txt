@@ -1,0 +1,5 @@
+south_dakota = {
+	name = "South Dakota"
+	color = { 160 63 62 }
+	capital_settlement = pierre
+}

@@ -1,0 +1,5 @@
+nevada = {
+	name = "Nevada"
+	color = { 240 216 148 }
+	capital_settlement = carson_city
+}

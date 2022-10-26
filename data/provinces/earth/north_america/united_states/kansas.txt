@@ -1,0 +1,5 @@
+kansas = {
+	name = "Kansas"
+	color = { 9 176 91 }
+	capital_settlement = topeka
+}

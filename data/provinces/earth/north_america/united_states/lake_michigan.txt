@@ -1,0 +1,5 @@
+lake_michigan = {
+	name = "Lake Michigan"
+	color = { 169 214 254 }
+	water_zone = true
+}

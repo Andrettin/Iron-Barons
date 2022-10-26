@@ -1,0 +1,5 @@
+utah = {
+	name = "Utah"
+	color = { 120 30 245 }
+	capital_settlement = salt_lake_city
+}

@@ -1,0 +1,5 @@
+arkansas = {
+	name = "Arkansas"
+	color = { 87 66 136 }
+	capital_settlement = little_rock
+}

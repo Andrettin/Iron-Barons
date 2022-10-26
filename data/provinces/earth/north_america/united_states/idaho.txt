@@ -1,0 +1,5 @@
+idaho = {
+	name = "Idaho"
+	color = { 209 1 11 }
+	capital_settlement = boise
+}

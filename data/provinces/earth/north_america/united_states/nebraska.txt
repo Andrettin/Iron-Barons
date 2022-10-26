@@ -1,0 +1,5 @@
+nebraska = {
+	name = "Nebraska"
+	color = { 50 207 38 }
+	capital_settlement = lincoln
+}

@@ -1,0 +1,5 @@
+minnesota = {
+	name = "Minnesota"
+	color = { 37 178 12 }
+	capital_settlement = minneapolis
+}
