@@ -61,20 +61,11 @@ Item {
 		fillMode: Image.PreserveAspectCrop
 	}
 	
-	Image {
+	StatusBar {
 		id: status_bar
 		anchors.bottom: parent.bottom
 		anchors.left: infopanel.right
-		source: "image://interface/" + interface_style + "/status_bar"
-		fillMode: Image.PreserveAspectCrop
-		
-		SmallText {
-			text: status_text
-			anchors.bottom: parent.bottom
-			anchors.bottomMargin: 1 * scale_factor
-			anchors.left: parent.left
-			anchors.leftMargin: 16 * scale_factor
-		}
+		anchors.right: parent.right
 	}
 	
 	Image {
