@@ -1,0 +1,4 @@
+filipino = {
+	name = "Filipino"
+	group = malay
+}

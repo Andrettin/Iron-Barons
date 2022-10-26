@@ -1,0 +1,5 @@
+first_world_war = {
+	name = "First World War"
+	start_date = 1914.7.28
+	map_template = earth
+}

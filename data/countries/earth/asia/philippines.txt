@@ -1,0 +1,21 @@
+philippines = {
+	name = "Philippines"
+	type = minor_nation
+	culture = filipino
+	capital_province = luzon
+	provinces = {
+		luzon
+		mindanao
+		palawan
+	}
+	
+	history = {
+		1898 = {
+			#became an American possession in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+			diplomacy_state = {
+				country = united_states
+				state = colony
+			}
+		}
+	}
+}

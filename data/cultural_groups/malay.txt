@@ -1,0 +1,3 @@
+malay = {
+	name = "Malay"
+}

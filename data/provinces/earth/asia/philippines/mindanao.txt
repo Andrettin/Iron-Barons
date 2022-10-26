@@ -2,4 +2,10 @@ mindanao = {
 	name = "Mindanao"
 	color = { 187 114 32 }
 	capital_settlement = davao
+	
+	history = {
+		1898 = {
+			owner = philippines #part of the Philippines in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+		}
+	}
 }

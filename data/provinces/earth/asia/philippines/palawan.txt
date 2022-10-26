@@ -2,4 +2,10 @@ palawan = {
 	name = "Palawan"
 	color = { 34 77 16 }
 	capital_settlement = puerto_princesa
+	
+	history = {
+		1898 = {
+			owner = philippines #part of the Philippines in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+		}
+	}
 }
