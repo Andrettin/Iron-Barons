@@ -1,0 +1,5 @@
+cordoba_argentina = {
+	name = "Cordoba" #"Córdoba"
+	color = { 149 170 120 }
+	capital_settlement = cordoba_argentina
+}

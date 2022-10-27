@@ -1,0 +1,5 @@
+jujuy = {
+	name = "Jujuy"
+	color = { 180 116 20 }
+	capital_settlement = san_salvador_de_jujuy
+}

@@ -1,0 +1,5 @@
+misiones = {
+	name = "Misiones"
+	color = { 28 70 2 }
+	capital_settlement = posadas
+}

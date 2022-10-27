@@ -1,0 +1,5 @@
+santiago_del_estero = {
+	name = "Santiago del Estero"
+	color = { 232 37 130 }
+	capital_settlement = santiago_del_estero
+}

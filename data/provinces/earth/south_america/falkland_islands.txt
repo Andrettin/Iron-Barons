@@ -1,0 +1,5 @@
+falkland_islands = {
+	name = "Falkland Islands"
+	color = { 137 35 47 }
+	capital_settlement = stanley
+}

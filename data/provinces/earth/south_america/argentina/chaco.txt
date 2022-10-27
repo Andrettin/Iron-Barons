@@ -1,0 +1,5 @@
+chaco = {
+	name = "Chaco"
+	color = { 162 128 84 }
+	capital_settlement = resistencia
+}

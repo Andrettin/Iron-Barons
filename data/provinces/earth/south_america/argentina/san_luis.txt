@@ -1,0 +1,5 @@
+san_luis = {
+	name = "San Luis"
+	color = { 0 128 54 }
+	capital_settlement = san_luis
+}

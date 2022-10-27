@@ -1,0 +1,5 @@
+santa_fe = {
+	name = "Santa Fe"
+	color = { 208 189 126 }
+	capital_settlement = santa_fe_argentina
+}

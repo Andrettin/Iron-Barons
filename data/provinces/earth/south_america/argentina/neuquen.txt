@@ -1,0 +1,5 @@
+neuquen = {
+	name = "Neuquen" #"Neuquén"
+	color = { 225 247 136 }
+	capital_settlement = neuquen
+}

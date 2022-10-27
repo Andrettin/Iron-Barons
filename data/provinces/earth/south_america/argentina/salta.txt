@@ -1,0 +1,5 @@
+salta = {
+	name = "Salta"
+	color = { 93 219 8 }
+	capital_settlement = salta
+}

@@ -1,0 +1,5 @@
+entre_rios = {
+	name = "Entre Rios" #"Entre Ríos"
+	color = { 185 245 67 }
+	capital_settlement = parana
+}

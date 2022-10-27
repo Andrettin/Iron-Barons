@@ -1,0 +1,5 @@
+catamarca = {
+	name = "Catamarca"
+	color = { 193 45 68 }
+	capital_settlement = catamarca
+}
