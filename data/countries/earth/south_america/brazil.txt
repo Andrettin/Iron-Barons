@@ -5,6 +5,14 @@ brazil = {
 	capital_province = rio_de_janeiro
 	
 	history = {
+		1567 = {
+			#Rio de Janeiro founded by the Portuguese in 1567; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+			diplomacy_state = {
+				country = portugal
+				state = colony
+			}
+		}
+		
 		1790 = {
 			#Portuguese colony c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 			diplomacy_state = {
