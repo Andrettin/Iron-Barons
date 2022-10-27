@@ -18,4 +18,22 @@ portugal = {
 		madeira
 		azores
 	}
+	
+	history = {
+		1580 = {
+			#became a Spanish possession in 1580; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
+			diplomacy_state = {
+				country = spain
+				state = dynastic_vassal
+			}
+		}
+		
+		1640 = {
+			#ceased to be a Spanish possession in 1640; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
+			diplomacy_state = {
+				country = spain
+				state = peace
+			}
+		}
+	}
 }
