@@ -98,9 +98,17 @@ MenuBase {
 	SmallText {
 		text: selected_country ? (
 			selected_country.name
-			+ "\n\n" + (selected_country.game_data.secondary_power ? "Secondary Power" : (selected_country.great_power ? "Great Power" : (selected_country.tribe ? "Tribe" : (selected_country.game_data.overlord !== null ? ("Colony of " + selected_country.game_data.overlord.name) : "Minor Nation"))))
-			+ (selected_country.game_data.vassals.length > 0 ? (
-				"\n" + selected_country.game_data.vassals.length + " " + (selected_country.game_data.vassals.length > 1 ? "Colonies" : "Colony")
+			+ "\n"
+			+ "\n" + selected_country.game_data.type_name
+			+ (selected_country.game_data.overlord ? (
+				"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
+			) : "")
+			+ (selected_country.great_power ? ("\nScore: " + selected_country.game_data.score + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
+			+ (vassal_count > 0 ? (
+				"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
+			) : "")
+			+ (selected_country.game_data.colonies.length > 0 ? (
+				"\n" + selected_country.game_data.colonies.length + " " + (selected_country.game_data.colonies.length > 1 ? "Colonies" : "Colony")
 			) : "")
 			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
 			+ get_resource_counts_string(selected_country.game_data.resource_counts)
@@ -109,6 +117,8 @@ MenuBase {
 		anchors.leftMargin: 4 * scale_factor
 		anchors.top: diplomatic_map_background.bottom
 		anchors.topMargin: 16 * scale_factor
+		
+		readonly property int vassal_count: selected_country ? (selected_country.game_data.vassals.length - selected_country.game_data.colonies.length) : 0
 		
 		function get_resource_counts_string(resource_counts) {
 			var str = "";
