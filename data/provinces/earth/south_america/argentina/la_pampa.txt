@@ -1,6 +1,7 @@
 la_pampa = {
 	name = "La Pampa"
 	color = { 240 1 16 }
+	capital_settlement = santa_rosa
 	
 	history = {
 		1790 = {

@@ -1,4 +1,5 @@
 chubut = {
 	name = "Chubut"
 	color = { 176 32 80 }
+	capital_settlement = rawson
 }
