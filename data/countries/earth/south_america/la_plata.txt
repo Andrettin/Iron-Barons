@@ -1,0 +1,16 @@
+la_plata = {
+	name = "La Plata"
+	type = minor_nation
+	culture = castillian
+	capital_province = buenos_aires
+	
+	history = {
+		1790 = {
+			#Spanish colony c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+			diplomacy_state = {
+				country = spain
+				state = colony
+			}
+		}
+	}
+}

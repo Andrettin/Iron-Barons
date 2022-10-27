@@ -1,0 +1,6 @@
+argentina = {
+	name = "Argentina"
+	type = minor_nation
+	culture = castillian
+	capital_province = buenos_aires
+}

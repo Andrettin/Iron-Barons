@@ -2,4 +2,10 @@ la_rioja = {
 	name = "La Rioja"
 	color = { 111 0 25 }
 	capital_settlement = la_rioja
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

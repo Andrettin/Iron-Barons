@@ -2,4 +2,10 @@ chaco = {
 	name = "Chaco"
 	color = { 162 128 84 }
 	capital_settlement = resistencia
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

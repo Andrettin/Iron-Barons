@@ -2,4 +2,10 @@ misiones = {
 	name = "Misiones"
 	color = { 28 70 2 }
 	capital_settlement = posadas
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

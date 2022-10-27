@@ -2,4 +2,10 @@ entre_rios = {
 	name = "Entre Rios" #"Entre Ríos"
 	color = { 185 245 67 }
 	capital_settlement = parana
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

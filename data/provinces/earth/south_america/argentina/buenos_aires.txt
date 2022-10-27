@@ -2,4 +2,10 @@ buenos_aires = {
 	name = "Buenos Aires"
 	color = { 176 192 144 }
 	capital_settlement = buenos_aires
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

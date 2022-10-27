@@ -2,4 +2,10 @@ corrientes = {
 	name = "Corrientes"
 	color = { 172 63 112 }
 	capital_settlement = corrientes
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

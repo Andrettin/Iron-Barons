@@ -2,4 +2,10 @@ san_juan = {
 	name = "San Juan"
 	color = { 178 46 130 }
 	capital_settlement = san_juan_argentina
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

@@ -2,4 +2,10 @@ tucuman = {
 	name = "Tucuman" #"Tucumán"
 	color = { 224 166 219 }
 	capital_settlement = tucuman
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

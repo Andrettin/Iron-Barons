@@ -2,4 +2,10 @@ santa_fe = {
 	name = "Santa Fe"
 	color = { 208 189 126 }
 	capital_settlement = santa_fe_argentina
+	
+	history = {
+		1790 = {
+			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }
