@@ -2,4 +2,10 @@ santa_cruz = {
 	name = "Santa Cruz"
 	color = { 239 160 16 }
 	capital_settlement = rio_gallegos
+	
+	history = {
+		1911 = {
+			owner = argentina #part of the Argentine Republic in 1911; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

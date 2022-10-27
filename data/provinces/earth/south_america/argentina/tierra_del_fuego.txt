@@ -2,4 +2,10 @@ tierra_del_fuego = {
 	name = "Tierra del Fuego"
 	color = { 239 96 144 }
 	capital_settlement = ushuaia
+	
+	history = {
+		1911 = {
+			owner = argentina #part of the Argentine Republic in 1911; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

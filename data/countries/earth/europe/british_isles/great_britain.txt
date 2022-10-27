@@ -1,7 +1,8 @@
 great_britain = {
 	name = "Great Britain"
 	type = great_power
-	color = { 254 249 69 }
+	#color = { 254 249 69 }
+	color = { 206 8 8 }
 	palette = red
 	culture = english
 	capital_province = middlesex

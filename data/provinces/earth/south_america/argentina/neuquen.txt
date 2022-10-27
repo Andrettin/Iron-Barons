@@ -2,4 +2,10 @@ neuquen = {
 	name = "Neuquen" #"Neuquén"
 	color = { 225 247 136 }
 	capital_settlement = neuquen
+	
+	history = {
+		1911 = {
+			owner = argentina #part of the Argentine Republic in 1911; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
+	}
 }

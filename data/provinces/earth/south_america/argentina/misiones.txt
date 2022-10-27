@@ -7,5 +7,9 @@ misiones = {
 		1790 = {
 			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 		}
+		
+		1810 = {
+			owner = argentina #Argentina became independent in 1810/1816; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+		}
 	}
 }
