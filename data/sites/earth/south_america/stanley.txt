@@ -2,5 +2,6 @@ stanley = {
 	name = "Stanley"
 	world = earth
 	geocoordinate = { -57.84996789720 -51.70001096730 } #from Natural Earth
+	pos_offset = { -1 0 }
 	type = settlement
 }
