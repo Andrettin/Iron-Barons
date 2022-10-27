@@ -8,6 +8,10 @@ granada = {
 			owner = granada #part of Granada in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
+		1560 = {
+			owner = spain #part of the Kingdom of Spain c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
+		}
+		
 		1740 = {
 			owner = spain #part of the Kingdom of Spain c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
