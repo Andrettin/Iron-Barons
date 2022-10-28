@@ -26,6 +26,14 @@ Item {
 		}
 	}
 	
+	TileImage {
+		id: civilian_unit_image
+		tile_image_source: civilian_unit ? ("image://icon/" + civilian_unit.icon.identifier + (selected ? "/selected" : "")) : "image://empty/"
+		visible: civilian_unit !== null
+		
+		readonly property bool selected: selected_civilian_unit === civilian_unit
+	}
+	
 	TinyText {
 		anchors.fill: parent
 		text: upper_label
@@ -38,6 +46,15 @@ Item {
 	MouseArea {
 		anchors.fill: parent
 		hoverEnabled: true
+		
+		onClicked: {
+			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit) {
+				selected_civilian_unit = civilian_unit
+			} else {
+				selected_civilian_unit = null
+			}
+		}
+		
 		onEntered: {
 			var text = "(" + column + ", " + row + ") "
 			

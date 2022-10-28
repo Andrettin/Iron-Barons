@@ -13,6 +13,8 @@ Item {
 	readonly property real map_area_tile_width: map.width / tile_size
 	readonly property real map_area_tile_height: map.height / tile_size
 	
+	property var selected_civilian_unit: null
+	
 	Rectangle {
 		id: map_view_background
 		color: "black"
