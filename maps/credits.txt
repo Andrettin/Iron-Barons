@@ -1,0 +1,2 @@
+/maps/earth/provinces/ (www.naturalearthdata.com) (released to the public domain)
+/maps/earth/terrain/ (www.naturalearthdata.com) (released to the public domain)
