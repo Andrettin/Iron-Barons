@@ -7,4 +7,30 @@ tunisia = {
 		renaissance
 		industrial
 	}
+	
+	history = {
+		1575 = {
+			#became a Turkish dependency in 1575; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
+			diplomacy_state = {
+				country = ottoman_empire
+				state = vassal
+			}
+		}
+		
+		1871 = {
+			#ceased to be a Turkish dependency in 1871; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
+			diplomacy_state = {
+				country = ottoman_empire
+				state = peace
+			}
+		}
+		
+		1881 = {
+			#became a French possession in 1881; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
+			diplomacy_state = {
+				country = france
+				state = colony
+			}
+		}
+	}
 }

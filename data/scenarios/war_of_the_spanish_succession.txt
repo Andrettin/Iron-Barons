@@ -1,0 +1,5 @@
+war_of_the_spanish_succession = {
+	name = "War of the Spanish Succession"
+	start_date = 1701
+	map_template = earth
+}

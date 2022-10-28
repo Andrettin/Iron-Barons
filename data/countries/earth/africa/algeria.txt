@@ -7,4 +7,30 @@ algeria = {
 		renaissance
 		industrial
 	}
+	
+	history = {
+		1519 = {
+			#became a Turkish dependency in 1519; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
+			diplomacy_state = {
+				country = ottoman_empire
+				state = vassal
+			}
+		}
+		
+		1710 = {
+			#ceased to be a Turkish dependency in 1710; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
+			diplomacy_state = {
+				country = ottoman_empire
+				state = peace
+			}
+		}
+		
+		1830 = {
+			#became a French possession in 1830; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
+			diplomacy_state = {
+				country = france
+				state = colony
+			}
+		}
+	}
 }
