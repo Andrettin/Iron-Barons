@@ -14,6 +14,22 @@ Item {
 		fillMode: Image.PreserveAspectCrop
 	}
 	
+	NormalText {
+		id: title
+		anchors.top: parent.top
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		text: selected_settlement ? (selected_settlement.game_data.current_cultural_name) : (selected_civilian_unit ? selected_civilian_unit.type.name : "")
+	}
+	
+	Image {
+		id: icon
+		anchors.top: title.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		source: selected_civilian_unit ? ("image://icon/" + selected_civilian_unit.icon.identifier) : "image://empty/"
+	}
+	
 	Button {
 		id: end_turn_button
 		anchors.horizontalCenter: parent.horizontalCenter
