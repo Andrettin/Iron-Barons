@@ -16,7 +16,7 @@ Image {
 	readonly property real tiles_per_pixel: sourceSize.width / width
 	
 	Rectangle {
-		id: visible_area_rect
+		id: visible_area_rectangle
 		color: "transparent"
 		border.color: "white"
 		border.width: 1

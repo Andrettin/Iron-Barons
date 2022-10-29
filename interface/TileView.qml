@@ -3,9 +3,10 @@ import QtQuick.Controls 2.12
 
 Item {
 	id: tile
-	
 	implicitWidth: tile_size
 	implicitHeight: tile_size
+	
+	readonly property bool tile_selected: site !== null && selected_settlement === site
 	
 	TileImage {
 		id: base_terrain_image
@@ -26,12 +27,21 @@ Item {
 		}
 	}
 	
+	Rectangle {
+		id: selection_rectangle
+		anchors.fill: parent
+		color: "transparent"
+		border.color: "white"
+		border.width: 1 * scale_factor
+		visible: tile_selected
+	}
+	
 	TileImage {
 		id: civilian_unit_image
-		tile_image_source: civilian_unit ? ("image://icon/" + civilian_unit.icon.identifier + (selected ? "/selected" : "")) : "image://empty/"
+		tile_image_source: civilian_unit ? ("image://icon/" + civilian_unit.icon.identifier + (unit_selected ? "/selected" : "")) : "image://empty/"
 		visible: civilian_unit !== null
 		
-		readonly property bool selected: selected_civilian_unit === civilian_unit
+		readonly property bool unit_selected: selected_civilian_unit === civilian_unit
 	}
 	
 	TinyText {
@@ -50,8 +60,13 @@ Item {
 		onClicked: {
 			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit) {
 				selected_civilian_unit = civilian_unit
+				selected_settlement = null
+			} else if (site !== null && site.settlement && site !== selected_settlement) {
+				selected_settlement = site
+				selected_civilian_unit = null
 			} else {
 				selected_civilian_unit = null
+				selected_settlement = null
 			}
 		}
 		
