@@ -103,6 +103,7 @@ MenuBase {
 			+ (selected_country.game_data.overlord ? (
 				"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
 			) : "")
+			+ (selected_country.capital_province.game_data.owner !== selected_country ? "\nAnarchy" : "")
 			+ (selected_country.great_power ? ("\nScore: " + selected_country.game_data.score + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 			+ (vassal_count > 0 ? (
 				"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
@@ -191,7 +192,7 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 64 * scale_factor
 		height: 24 * scale_factor
-		enabled: selected_country !== null && selected_country.great_power
+		enabled: selected_country !== null && selected_country.great_power && selected_country.capital_province.game_data.owner === selected_country
 		
 		onClicked: {
 			metternich.game.player_country = selected_country
@@ -203,7 +204,12 @@ MenuBase {
 		anchors.fill: start_game_button
 		enabled: !start_game_button.enabled
 		hoverEnabled: true
-		ToolTip.text: small_text(selected_country !== null ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You must select a country to play")
+		ToolTip.text: small_text(
+			selected_country === null ? "You must select a country to play" : (
+				!selected_country.great_power ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You cannot play as a country under anarchy"
+			)
+			
+		)
 		ToolTip.visible: containsMouse
 		ToolTip.delay: 1000
 	}
