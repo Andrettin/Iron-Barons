@@ -39,6 +39,13 @@ Item {
 		model: MapGridModel {}
 		delegate: TileView {}
 		
+		function pixel_to_tile_pos(pixel_x, pixel_y) {
+			var tile_x = Math.floor(pixel_x / tile_size)
+			var tile_y = Math.floor(pixel_y / tile_size)
+			
+			return Qt.point(tile_x, tile_y)
+		}
+		
 		function center_on_tile(tile_x, tile_y) {
 			var pixel_x = tile_x * tile_size - map.width / 2
 			var pixel_y = tile_y * tile_size - map.height / 2

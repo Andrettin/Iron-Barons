@@ -38,7 +38,9 @@ Item {
 	
 	TileImage {
 		id: civilian_unit_image
-		tile_image_source: civilian_unit ? ("image://icon/" + civilian_unit.icon.identifier + (unit_selected ? "/selected" : "")) : "image://empty/"
+		tile_image_source: civilian_unit ? (
+			"image://icon/" + civilian_unit.icon.identifier + (unit_selected ? "/selected" : (civilian_unit.moving ? "/grayscale" : ""))
+		) : "image://empty/"
 		visible: civilian_unit !== null
 		
 		readonly property bool unit_selected: selected_civilian_unit === civilian_unit
@@ -58,8 +60,18 @@ Item {
 		hoverEnabled: true
 		
 		onClicked: {
+			var tile_pos = Qt.point(column, row)
+			if (selected_civilian_unit !== null && selected_civilian_unit.can_move_to(tile_pos)) {
+				selected_civilian_unit.move_to(tile_pos)
+				selected_civilian_unit = null
+				selected_settlement = null
+				return
+			}
+			
 			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit) {
-				selected_civilian_unit = civilian_unit
+				if (!civilian_unit.moving) {
+					selected_civilian_unit = civilian_unit
+				}
 				selected_settlement = null
 			} else if (site !== null && site.settlement && site !== selected_settlement) {
 				selected_settlement = site
