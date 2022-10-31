@@ -80,6 +80,13 @@ Item {
 			}
 		}
 		
+		onDoubleClicked: {
+			//maybe move cancellations should be done by a cancel dialog when left-clicking the civilian unit instead
+			if (civilian_unit !== null && civilian_unit.moving) {
+				civilian_unit.cancel_move()
+			}
+		}
+		
 		onEntered: {
 			var text = "(" + column + ", " + row + ") "
 			
