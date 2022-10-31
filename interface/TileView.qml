@@ -68,7 +68,7 @@ Item {
 				return
 			}
 			
-			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit && !civilian_unit.moving) {
+			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_settlement === null || site !== selected_settlement)) {
 				selected_civilian_unit = civilian_unit
 				selected_settlement = null
 			} else if (site !== null && site.settlement && site !== selected_settlement) {
