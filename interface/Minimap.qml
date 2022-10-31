@@ -8,8 +8,8 @@ Flickable {
 	anchors.verticalCenterOffset: -2 * scale_factor
 	width: 128 * scale_factor
 	height: 128 * scale_factor
-	contentX: Math.min(Math.max(map_area_start_x / tiles_per_pixel - minimap.width / 2, 0), minimap.contentWidth - minimap.width)
-	contentY: Math.min(Math.max(map_area_start_y / tiles_per_pixel - minimap.height / 2, 0), minimap.contentHeight - minimap.height)
+	contentX: Math.min(Math.max(Math.round(map_area_start_x) / tiles_per_pixel - minimap.width / 2, 0), minimap.contentWidth - minimap.width)
+	contentY: Math.min(Math.max(Math.round(map_area_start_y) / tiles_per_pixel - minimap.height / 2, 0), minimap.contentHeight - minimap.height)
 	contentWidth: minimap_image.width
 	contentHeight: minimap_image.height
 	boundsBehavior: Flickable.StopAtBounds
@@ -30,8 +30,8 @@ Flickable {
 		color: "transparent"
 		border.color: "white"
 		border.width: 1
-		x: x_override !== null ? x_override : map_area_start_x / tiles_per_pixel
-		y: y_override !== null ? y_override : map_area_start_y / tiles_per_pixel
+		x: x_override !== null ? x_override : Math.round(map_area_start_x) / tiles_per_pixel
+		y: y_override !== null ? y_override : Math.round(map_area_start_y) / tiles_per_pixel
 		width: map_area_tile_width / tiles_per_pixel
 		height: map_area_tile_height / tiles_per_pixel
 		
