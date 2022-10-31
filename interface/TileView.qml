@@ -61,17 +61,15 @@ Item {
 		
 		onClicked: {
 			var tile_pos = Qt.point(column, row)
-			if (selected_civilian_unit !== null && selected_civilian_unit.can_move_to(tile_pos)) {
+			if (selected_civilian_unit !== null && civilian_unit === null && selected_civilian_unit.can_move_to(tile_pos)) {
 				selected_civilian_unit.move_to(tile_pos)
 				selected_civilian_unit = null
 				selected_settlement = null
 				return
 			}
 			
-			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit) {
-				if (!civilian_unit.moving) {
-					selected_civilian_unit = civilian_unit
-				}
+			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit && !civilian_unit.moving) {
+				selected_civilian_unit = civilian_unit
 				selected_settlement = null
 			} else if (site !== null && site.settlement && site !== selected_settlement) {
 				selected_settlement = site
