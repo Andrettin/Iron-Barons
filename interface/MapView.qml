@@ -14,7 +14,7 @@ Item {
 	readonly property real map_area_tile_height: map.height / tile_size
 	
 	property var selected_civilian_unit: null
-	property var selected_settlement: null
+	property var selected_site: null
 	
 	Rectangle {
 		id: map_view_background

@@ -6,7 +6,7 @@ Item {
 	implicitWidth: tile_size
 	implicitHeight: tile_size
 	
-	readonly property bool tile_selected: site !== null && selected_settlement === site
+	readonly property bool tile_selected: site !== null && selected_site === site
 	
 	TileImage {
 		id: base_terrain_image
@@ -73,19 +73,19 @@ Item {
 			if (selected_civilian_unit !== null && civilian_unit === null && selected_civilian_unit.can_move_to(tile_pos)) {
 				selected_civilian_unit.move_to(tile_pos)
 				selected_civilian_unit = null
-				selected_settlement = null
+				selected_site = null
 				return
 			}
 			
-			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_settlement === null || site !== selected_settlement)) {
+			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site)) {
 				selected_civilian_unit = civilian_unit
-				selected_settlement = null
-			} else if (site !== null && site.settlement && site !== selected_settlement) {
-				selected_settlement = site
+				selected_site = null
+			} else if (site !== null && site !== selected_site && (site.settlement || (resource && improvement))) {
+				selected_site = site
 				selected_civilian_unit = null
 			} else {
 				selected_civilian_unit = null
-				selected_settlement = null
+				selected_site = null
 			}
 		}
 		

@@ -21,7 +21,7 @@ Item {
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: selected_settlement ? (selected_settlement.game_data.current_cultural_name) : (selected_civilian_unit ? selected_civilian_unit.type.name : "")
+		text: selected_site ? (selected_site.game_data.current_cultural_name) : (selected_civilian_unit ? selected_civilian_unit.type.name : "")
 	}
 	
 	Image {
