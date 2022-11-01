@@ -39,11 +39,20 @@ Item {
 	TileImage {
 		id: civilian_unit_image
 		tile_image_source: civilian_unit ? (
-			"image://icon/" + civilian_unit.icon.identifier + (unit_selected ? "/selected" : (civilian_unit.moving ? "/grayscale" : ""))
+			"image://icon/" + civilian_unit.icon.identifier + (unit_selected ? "/selected" : (civilian_unit.moving && !civilian_unit.working ? "/grayscale" : ""))
 		) : "image://empty/"
 		visible: civilian_unit !== null
 		
 		readonly property bool unit_selected: selected_civilian_unit === civilian_unit
+		
+		Image {
+			id: working_icon
+			anchors.left: parent.left
+			anchors.bottom: parent.bottom
+			source: "image://icon/cog"
+			fillMode: Image.Pad
+			visible: civilian_unit !== null && civilian_unit.working
+		}
 	}
 	
 	TinyText {
@@ -59,7 +68,7 @@ Item {
 		anchors.fill: parent
 		hoverEnabled: true
 		
-		onClicked: {
+		onReleased: {
 			var tile_pos = Qt.point(column, row)
 			if (selected_civilian_unit !== null && civilian_unit === null && selected_civilian_unit.can_move_to(tile_pos)) {
 				selected_civilian_unit.move_to(tile_pos)
