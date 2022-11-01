@@ -1,5 +1,7 @@
 grain_farm = {
 	name = "Grain Farm"
 	resource = grain
+	image_filepath = "tiles/improvements/grain_farm.png"
 	output_value = 1
+	variation_count = 4
 }
