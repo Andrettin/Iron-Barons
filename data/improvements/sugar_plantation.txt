@@ -1,0 +1,5 @@
+sugar_plantation = {
+	name = "Sugar Plantation"
+	resource = sugar_cane
+	output_value = 1
+}

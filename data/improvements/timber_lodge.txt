@@ -1,0 +1,5 @@
+timber_lodge = {
+	name = "Timber Lodge"
+	resource = timber
+	output_value = 1
+}

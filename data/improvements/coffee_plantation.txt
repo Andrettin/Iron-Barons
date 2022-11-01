@@ -1,0 +1,5 @@
+coffee_plantation = {
+	name = "Coffee Plantation"
+	resource = coffee
+	output_value = 1
+}

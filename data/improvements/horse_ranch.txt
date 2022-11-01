@@ -1,0 +1,5 @@
+horse_ranch = {
+	name = "Horse Ranch"
+	resource = horses
+	output_value = 1
+}

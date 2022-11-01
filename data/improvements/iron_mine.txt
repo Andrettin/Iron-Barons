@@ -1,0 +1,5 @@
+iron_mine = {
+	name = "Iron Mine"
+	resource = iron_ore
+	output_value = 1
+}
