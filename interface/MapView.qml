@@ -132,6 +132,27 @@ Item {
 		anchors.left: parent.left
 	}
 	
+	Keys.onPressed: {
+		switch (event.key) {
+			case Qt.Key_E:
+				infopanel.end_turn_button.down = true
+				break
+		}
+	}
+	
+	Keys.onReleased: {
+		if (event.isAutoRepeat) {
+			return
+		}
+		
+		switch (event.key) {
+			case Qt.Key_E:
+				infopanel.end_turn_button.down = undefined
+				infopanel.end_turn_button.onReleased()
+				break
+		}
+	}
+	
 	Component.onCompleted: {
 		map.center_on_country_capital(metternich.game.player_country)
 	}

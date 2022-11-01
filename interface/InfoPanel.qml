@@ -6,6 +6,8 @@ Item {
 	
 	width: infopanel_image.width
 	
+	readonly property var end_turn_button: end_turn_button_internal
+	
 	Image {
 		id: infopanel_image
 		anchors.top: parent.top
@@ -31,7 +33,7 @@ Item {
 	}
 	
 	Button {
-		id: end_turn_button
+		id: end_turn_button_internal
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8 * scale_factor
