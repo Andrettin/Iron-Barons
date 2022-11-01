@@ -7,7 +7,7 @@ gossensass = {
 	
 	history = {
 		1427 = {
-			development_level = 1 #the silver-lead mine Gossensass was in existence in 1427; Source: M. J. T. Lewis, "Railways in the Greek and Roman World", 2001, p. 16.
+			#improvement = silver_mine #the silver-lead mine Gossensass was in existence in 1427; Source: M. J. T. Lewis, "Railways in the Greek and Roman World", 2001, p. 16.
 		}
 		
 		1480 = {
