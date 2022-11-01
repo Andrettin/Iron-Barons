@@ -103,6 +103,8 @@ Item {
 			
 			if (site !== null && site.settlement) {
 				text += "Settlement"
+			} else if (improvement !== null) {
+				text += improvement.name
 			} else if (resource !== null) {
 				text += resource.name
 			} else {
