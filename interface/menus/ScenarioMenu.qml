@@ -31,14 +31,14 @@ MenuBase {
 		anchors.verticalCenterOffset: -32 * scale_factor
 		width: 512 * scale_factor
 		height: 256 * scale_factor
-		contentWidth: metternich.map.width * metternich.game.diplomatic_map_scale_factor * scale_factor
-		contentHeight: metternich.map.height * metternich.game.diplomatic_map_scale_factor * scale_factor
+		contentWidth: metternich.game.diplomatic_map_image_size.width * scale_factor
+		contentHeight: metternich.game.diplomatic_map_image_size.height * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		
 		Image {
-			id: diplomatic_map_image
-			source: diplomatic_map_start_date_string.length > 0 ? "image://diplomatic_map/" + (selected_country ? "selected/" + selected_country.identifier + "/" : "") + diplomatic_map_start_date_string : "image://empty/"
+			id: ocean_image
+			source: ocean_map_template_identifier.length > 0 ? ("image://diplomatic_map/ocean/" + ocean_map_template_identifier) : "image://empty/"
 			cache: false
 		}
 		
@@ -54,25 +54,30 @@ MenuBase {
 		Repeater {
 			model: metternich.game.countries
 			
-			MaskedMouseArea {
-				x: country.game_data.territory_rect.x * metternich.game.diplomatic_map_scale_factor * scale_factor
-				y: country.game_data.territory_rect.y * metternich.game.diplomatic_map_scale_factor * scale_factor
-				width: country.game_data.territory_rect.width * metternich.game.diplomatic_map_scale_factor * scale_factor
-				height: country.game_data.territory_rect.height * metternich.game.diplomatic_map_scale_factor * scale_factor
-				alphaThreshold: 0.4
-				maskSource: "image://diplomatic_map/country/" + country.identifier + "/" + diplomatic_map_start_date_string
-				ToolTip.text: country.name
-				ToolTip.visible: containsMouse
-				ToolTip.delay: 1000
+			Image {
+				id: country_image
+				x: country.game_data.diplomatic_map_image_rect.x
+				y: country.game_data.diplomatic_map_image_rect.y
+				source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : "") + "/" + diplomatic_map_start_date_string
+				cache: false
 				
 				readonly property var country: model.modelData
 				readonly property var selected: selected_country === country
 				
-				onClicked: {
-					if (selected) {
-						scenario_menu.selected_country = null
-					} else {
-						scenario_menu.selected_country = country
+				MaskedMouseArea {
+					anchors.fill: parent
+					alphaThreshold: 0.4
+					maskSource: parent.source
+					ToolTip.text: country.name
+					ToolTip.visible: containsMouse
+					ToolTip.delay: 1000
+					
+					onClicked: {
+						if (selected) {
+							scenario_menu.selected_country = null
+						} else {
+							scenario_menu.selected_country = country
+						}
 					}
 				}
 			}
@@ -80,8 +85,8 @@ MenuBase {
 		
 		function center_on_selected_country_capital() {
 			var capital_game_data = selected_country.capital_province.capital_settlement.game_data
-			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_scale_factor * scale_factor
-			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_scale_factor * scale_factor
+			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
+			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
 			
 			var scenario_x = capital_x - diplomatic_map.width / 2
 			var scenario_y = capital_y - diplomatic_map.height / 2
