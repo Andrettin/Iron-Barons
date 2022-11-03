@@ -1,0 +1,15 @@
+baden = {
+	name = "Baden"
+	color = { 94 34 10 }
+	capital_settlement = karlsruhe
+	
+	history = {
+		1477 = {
+			owner = baden #part of the Margraviate of Baden c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1815 = {
+			owner = baden #part of the Grand Duchy of Baden in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
+}

@@ -1,0 +1,9 @@
+wurzburg = {
+	name = "Wurzburg" #"Würzburg"
+	type = minor_nation
+	culture = german
+	capital_province = franconia
+	eras = {
+		renaissance
+	}
+}

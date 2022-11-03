@@ -1,0 +1,10 @@
+baden = {
+	name = "Baden"
+	type = minor_nation
+	culture = german
+	capital_province = baden
+	eras = {
+		renaissance
+		industrial
+	}
+}

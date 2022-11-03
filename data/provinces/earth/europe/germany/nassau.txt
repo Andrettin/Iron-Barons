@@ -1,0 +1,15 @@
+nassau = {
+	name = "Nassau"
+	color = { 245 217 121 }
+	capital_settlement = wiesbaden
+	
+	history = {
+		1477 = {
+			owner = nassau #part of the County of Nassau c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1815 = {
+			owner = nassau #part of the Duchy of Nassau in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
+}

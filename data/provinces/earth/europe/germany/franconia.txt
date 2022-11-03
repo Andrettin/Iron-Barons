@@ -1,0 +1,15 @@
+franconia = {
+	name = "Franconia"
+	color = { 202 229 25 }
+	capital_settlement = nuremberg
+	
+	history = {
+		1477 = {
+			owner = wurzburg #part of the Bishopric of Würzburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1815 = {
+			owner = bavaria #part of the Kingdom of Bavaria in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
+}

@@ -1,0 +1,10 @@
+nassau = {
+	name = "Nassau"
+	type = minor_nation
+	culture = german
+	capital_province = nassau
+	eras = {
+		renaissance
+		industrial
+	}
+}

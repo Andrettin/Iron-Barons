@@ -1,0 +1,9 @@
+palatinate = {
+	name = "Palatinate"
+	type = minor_nation
+	culture = german
+	capital_province = palatinate
+	eras = {
+		renaissance
+	}
+}

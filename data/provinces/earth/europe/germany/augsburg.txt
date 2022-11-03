@@ -1,0 +1,15 @@
+augsburg = {
+	name = "Augsburg"
+	color = { 188 0 180 }
+	capital_settlement = augsburg
+	
+	history = {
+		1477 = {
+			owner = augsburg #part of the Bishopric of Augsburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+		
+		1815 = {
+			owner = bavaria #part of the Kingdom of Bavaria in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
+}
