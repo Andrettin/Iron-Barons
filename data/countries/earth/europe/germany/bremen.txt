@@ -1,0 +1,9 @@
+bremen = {
+	name = "Bremen"
+	type = minor_nation
+	culture = german
+	capital_province = bremen
+	eras = {
+		renaissance
+	}
+}

@@ -1,0 +1,7 @@
+emden = {
+	name = "Emden"
+	world = earth
+	geocoordinate = { 7.21665482446 53.36667665520 } #from Natural Earth
+	pos_offset = { 1 0 }
+	type = settlement
+}

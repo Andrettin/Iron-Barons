@@ -1,0 +1,9 @@
+east_friesland = {
+	name = "East Friesland"
+	type = minor_nation
+	culture = german
+	capital_province = east_friesland
+	eras = {
+		renaissance
+	}
+}
