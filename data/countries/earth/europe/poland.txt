@@ -12,4 +12,14 @@ poland = {
 		czenstochowa
 		lublin
 	}
+	
+	history = {
+		1815 = {
+			#subject to the Russian Empire in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			diplomacy_state = {
+				country = russia
+				state = dynastic_vassal
+			}
+		}
+	}
 }
