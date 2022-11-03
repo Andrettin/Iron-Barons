@@ -24,7 +24,7 @@ portugal = {
 			#became a Spanish possession in 1580; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
 			diplomacy_state = {
 				country = spain
-				state = dynastic_vassal
+				state = personal_union_subject
 			}
 		}
 		
