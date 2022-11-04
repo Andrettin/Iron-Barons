@@ -1,5 +1,7 @@
 sugar_plantation = {
 	name = "Sugar Plantation"
 	resource = sugar_cane
+	image_filepath = "tiles/improvements/grain_farm.png"
 	output_value = 1
+	variation_count = 4
 }

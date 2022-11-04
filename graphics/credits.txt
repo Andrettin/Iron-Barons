@@ -69,6 +69,8 @@
 /graphics/interface/dwarven/top_bar.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/borders/province_border.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/grain_farm.png (by Jinn) (licensed under the CC0)
+/graphics/tiles/improvements/quarry.png (by Jinn) (licensed under the CC0)
+/graphics/tiles/improvements/quarry_mountains.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/timber_lodge.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/timber_lodge_clearing.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/settlements/dwarven_settlement.png (by Jinn) (licensed under the CC0)

@@ -1,5 +1,7 @@
 orchard = {
 	name = "Orchard"
 	resource = fruit
+	image_filepath = "tiles/improvements/grain_farm.png"
 	output_value = 1
+	variation_count = 4
 }

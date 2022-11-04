@@ -4,10 +4,11 @@ gossensass = {
 	geocoordinate = { 11.444825 46.938301 }
 	type = resource
 	resource = silver
+	terrain_type = barren_hills
 	
 	history = {
 		1427 = {
-			#improvement = silver_mine #the silver-lead mine Gossensass was in existence in 1427; Source: M. J. T. Lewis, "Railways in the Greek and Roman World", 2001, p. 16.
+			improvement = silver_mine #the silver-lead mine Gossensass was in existence in 1427; Source: M. J. T. Lewis, "Railways in the Greek and Roman World", 2001, p. 16.
 		}
 		
 		1480 = {

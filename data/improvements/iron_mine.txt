@@ -1,5 +1,9 @@
 iron_mine = {
 	name = "Iron Mine"
 	resource = iron_ore
+	image_filepath = "tiles/improvements/quarry.png"
+	terrain_image_filepaths = {
+		mountains = "tiles/improvements/quarry_mountains.png"
+	}
 	output_value = 1
 }
