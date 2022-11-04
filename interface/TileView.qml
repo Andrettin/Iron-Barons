@@ -7,6 +7,7 @@ Item {
 	implicitHeight: tile_size
 	
 	readonly property bool tile_selected: site !== null && selected_site === site
+	readonly property bool civilian_unit_interactable: civilian_unit !== null && civilian_unit.owner === metternich.game.player_country
 	
 	TileImage {
 		id: base_terrain_image
@@ -77,7 +78,7 @@ Item {
 				return
 			}
 			
-			if (civilian_unit !== null && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site)) {
+			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site)) {
 				selected_civilian_unit = civilian_unit
 				selected_site = null
 			} else if (site !== null && site !== selected_site && (site.settlement || (resource && improvement))) {
@@ -91,7 +92,7 @@ Item {
 		
 		onDoubleClicked: {
 			//maybe move cancellations should be done by a cancel dialog when left-clicking the civilian unit instead
-			if (civilian_unit !== null && civilian_unit.moving) {
+			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit.moving) {
 				civilian_unit.cancel_move()
 			}
 		}
