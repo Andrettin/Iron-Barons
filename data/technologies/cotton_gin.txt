@@ -1,0 +1,7 @@
+cotton_gin = {
+	name = "Cotton Gin"
+	icon = cotton
+	prerequisites = {
+		cotton
+	}
+}
