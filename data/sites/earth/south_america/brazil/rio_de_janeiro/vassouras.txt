@@ -8,4 +8,10 @@ vassouras = {
 	title = {
 		max_tier = barony #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
 	}
+	
+	history = {
+		1871.5.17 = {
+			improvement = coffee_plantation #created as barony on 1871.5.17; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
+		}
+	}
 }

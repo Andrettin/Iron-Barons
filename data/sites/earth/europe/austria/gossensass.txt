@@ -4,7 +4,6 @@ gossensass = {
 	geocoordinate = { 11.444825 46.938301 }
 	type = resource
 	resource = silver
-	terrain_type = barren_hills
 	
 	history = {
 		1427 = {
