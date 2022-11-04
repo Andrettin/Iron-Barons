@@ -1,0 +1,9 @@
+mechanized_grain_farm = {
+	name = "Mechanized Grain Farm"
+	resource = grain
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_value = 2
+	variation_count = 4
+	required_improvement = grain_farm
+	required_technology = seed_drill
+}

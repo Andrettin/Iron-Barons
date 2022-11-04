@@ -1,0 +1,9 @@
+mechanized_cotton_plantation = {
+	name = "Mechanized Cotton Plantation"
+	resource = cotton
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_value = 2
+	variation_count = 4
+	required_improvement = cotton_plantation
+	required_technology = cotton_gin
+}

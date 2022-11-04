@@ -1,0 +1,9 @@
+mechanized_orchard = {
+	name = "Mechanized Orchard"
+	resource = fruit
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_value = 2
+	variation_count = 4
+	required_improvement = orchard
+	required_technology = seed_drill
+}
