@@ -1,0 +1,4 @@
+steam_in_mining = {
+	name = "Steam in Mining"
+	icon = cog
+}

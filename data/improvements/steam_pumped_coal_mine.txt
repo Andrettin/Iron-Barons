@@ -1,0 +1,11 @@
+steam_pumped_coal_mine = {
+	name = "Steam-Pumped Coal Mine"
+	resource = coal
+	image_filepath = "tiles/improvements/quarry.png"
+	terrain_image_filepaths = {
+		mountains = "tiles/improvements/quarry_mountains.png"
+	}
+	output_value = 2
+	required_improvement = coal_mine
+	required_technology = steam_in_mining
+}
