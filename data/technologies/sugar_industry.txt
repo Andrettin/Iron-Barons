@@ -1,0 +1,7 @@
+sugar_industry = {
+	name = "Sugar Industry"
+	icon = sugar_cane
+	prerequisites = {
+		sugar_cane
+	}
+}

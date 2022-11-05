@@ -1,0 +1,9 @@
+mechanized_sugar_plantation = {
+	name = "Mechanized Sugar Plantation"
+	resource = sugar_cane
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_value = 2
+	variation_count = 4
+	required_improvement = sugar_plantation
+	required_technology = sugar_industry
+}
