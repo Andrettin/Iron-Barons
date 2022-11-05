@@ -28,13 +28,27 @@ Item {
 		}
 	}
 	
-	LargeText {
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: 16 * scale_factor
-		anchors.verticalCenter: parent.verticalCenter
-		anchors.verticalCenterOffset: -16 * scale_factor
-		text: improvement ? improvement.output_value : ""
+	Item {
+		id: tile_detail_item
+		anchors.fill: parent
 		visible: improvement !== null && tile_detail_mode
+		
+		LargeText {
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.verticalCenterOffset: -24 * scale_factor
+			text: improvement ? improvement.output_value : ""
+			visible: improvement !== null && improvement.resource !== null
+		}
+		
+		Image {
+			id: tile_detail_resource_icon
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+			source: improvement && improvement.resource ? ("image://icon/" + improvement.resource.commodity.icon.identifier) : "image://empty/"
+			fillMode: Image.Pad
+			visible: improvement !== null && improvement.resource !== null
+		}
 	}
 	
 	Rectangle {
