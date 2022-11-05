@@ -16,6 +16,8 @@ Item {
 	property var selected_civilian_unit: null
 	property var selected_site: null
 	
+	property bool tile_detail_mode: false
+	
 	Rectangle {
 		id: map_view_background
 		color: "black"
@@ -137,6 +139,9 @@ Item {
 			case Qt.Key_E:
 				infopanel.end_turn_button.down = true
 				break
+			case Qt.Key_Shift:
+				tile_detail_mode = true
+				break
 		}
 	}
 	
@@ -149,6 +154,9 @@ Item {
 			case Qt.Key_E:
 				infopanel.end_turn_button.down = undefined
 				infopanel.end_turn_button.onReleased()
+				break
+			case Qt.Key_Shift:
+				tile_detail_mode = false
 				break
 		}
 	}

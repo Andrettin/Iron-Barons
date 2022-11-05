@@ -28,6 +28,15 @@ Item {
 		}
 	}
 	
+	LargeText {
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: 16 * scale_factor
+		anchors.verticalCenter: parent.verticalCenter
+		anchors.verticalCenterOffset: -16 * scale_factor
+		text: improvement ? improvement.output_value : ""
+		visible: improvement !== null && tile_detail_mode
+	}
+	
 	Rectangle {
 		id: selection_rectangle
 		anchors.fill: parent
