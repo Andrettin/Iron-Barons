@@ -192,26 +192,20 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 96 * scale_factor
 		height: 24 * scale_factor
-		enabled: selected_country !== null && selected_country.great_power && selected_country.capital_province.game_data.owner === selected_country
-		
-		onClicked: {
-			metternich.game.player_country = selected_country
-			metternich.game.start()
-		}
-	}
-	
-	MouseArea {
-		anchors.fill: start_game_button
-		enabled: !start_game_button.enabled
-		hoverEnabled: true
-		ToolTip.text: small_text(
+		allowed: selected_country !== null && selected_country.great_power && selected_country.capital_province.game_data.owner === selected_country
+		tooltip: allowed ? "" : small_text(
 			selected_country === null ? "You must select a country to play" : (
 				!selected_country.great_power ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You cannot play as a country under anarchy"
 			)
 			
 		)
-		ToolTip.visible: containsMouse
+		ToolTip.visible: hovered && !allowed
 		ToolTip.delay: 1000
+		
+		onClicked: {
+			metternich.game.player_country = selected_country
+			metternich.game.start()
+		}
 	}
 	
 	TextButton {

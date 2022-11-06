@@ -41,7 +41,7 @@ Item {
 		width: 64 * scale_factor
 		height: 24 * scale_factor
 		
-		onReleased: {
+		onClicked: {
 			metternich.game.do_turn_async()
 		}
 	}
