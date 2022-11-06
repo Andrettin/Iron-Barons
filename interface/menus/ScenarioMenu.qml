@@ -83,6 +83,28 @@ MenuBase {
 			}
 		}
 		
+		/*
+		Repeater {
+			model: metternich.game.countries
+			
+			TinyText {
+				id: country_label
+				text: country.name
+				x: Math.floor(territory_rect.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_width / 2 - width / 2)
+				y: Math.floor(territory_rect.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_height / 2 - height / 2)
+				visible: width <= territory_rect_width
+				font.pixelSize: 8 * scale_factor
+				shadow_offset: 1 * scale_factor
+				font.bold: true
+						
+				readonly property var country: model.modelData
+				readonly property var territory_rect: country.game_data.main_contiguous_territory_rect
+				readonly property int territory_rect_width: territory_rect.width * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
+				readonly property int territory_rect_height: territory_rect.height * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
+			}
+		}
+		*/
+		
 		function center_on_selected_country_capital() {
 			var capital_game_data = selected_country.capital_province.capital_settlement.game_data
 			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
