@@ -185,12 +185,12 @@ MenuBase {
 		}
 	}
 	
-	Button {
+	TextButton {
 		id: start_game_button
 		anchors.horizontalCenter: scenario_list.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		text: qsTr("Start Game")
-		width: 64 * scale_factor
+		width: 96 * scale_factor
 		height: 24 * scale_factor
 		enabled: selected_country !== null && selected_country.great_power && selected_country.capital_province.game_data.owner === selected_country
 		
@@ -214,13 +214,13 @@ MenuBase {
 		ToolTip.delay: 1000
 	}
 	
-	Button {
+	TextButton {
 		id: previous_menu_button
 		anchors.horizontalCenter: start_game_button.horizontalCenter
 		anchors.top: start_game_button.bottom
 		anchors.topMargin: 8 * scale_factor
 		text: qsTr("Previous Menu")
-		width: 64 * scale_factor
+		width: 96 * scale_factor
 		height: 24 * scale_factor
 		
 		onClicked: {

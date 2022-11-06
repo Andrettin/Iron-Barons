@@ -32,7 +32,7 @@ Item {
 		source: selected_civilian_unit ? ("image://icon/" + selected_civilian_unit.icon.identifier) : "image://empty/"
 	}
 	
-	Button {
+	TextButton {
 		id: end_turn_button_internal
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.bottom: parent.bottom
