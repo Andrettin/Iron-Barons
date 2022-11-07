@@ -23,6 +23,13 @@ Item {
 		icon_identifier: "settlement"
 		
 		onReleased: {
+			menu_stack.push("SettlementView.qml")
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Capital Settlement"
+			}
 		}
 	}
 	
@@ -43,6 +50,27 @@ Item {
 	}
 	
 	TextButton {
+		id: settlement_button
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.bottom: end_turn_button_internal.top
+		anchors.bottomMargin: 8 * scale_factor
+		text: qsTr("Settlement")
+		width: 64 * scale_factor
+		height: 24 * scale_factor
+		visible: selected_site !== null && selected_site.settlement
+		
+		onClicked: {
+			menu_stack.push("SettlementView.qml")
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Settlement"
+			}
+		}
+	}
+	
+	TextButton {
 		id: end_turn_button_internal
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.bottom: parent.bottom
@@ -53,6 +81,12 @@ Item {
 		
 		onClicked: {
 			metternich.game.do_turn_async()
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "End Turn"
+			}
 		}
 	}
 }
