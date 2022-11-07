@@ -8,9 +8,7 @@ MenuBase {
 	title: qsTr("Scenario")
 	
 	property var selected_scenario: null
-	property var selected_country: null
-	property var ocean_map_template_identifier: ""
-	property var diplomatic_map_start_date_string: ""
+	readonly property var selected_country: diplomatic_map.selected_country
 	
 	Rectangle {
 		id: diplomatic_map_background
@@ -23,7 +21,7 @@ MenuBase {
 		border.width: 1
 	}
 	
-	Flickable {
+	DiplomaticMap {
 		id: diplomatic_map
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.horizontalCenterOffset: 64 * scale_factor
@@ -31,90 +29,6 @@ MenuBase {
 		anchors.verticalCenterOffset: -32 * scale_factor
 		width: 512 * scale_factor
 		height: 256 * scale_factor
-		contentWidth: metternich.game.diplomatic_map_image_size.width * scale_factor
-		contentHeight: metternich.game.diplomatic_map_image_size.height * scale_factor
-		boundsBehavior: Flickable.StopAtBounds
-		clip: true
-		
-		Image {
-			id: ocean_image
-			source: ocean_map_template_identifier.length > 0 ? ("image://diplomatic_map/ocean/" + ocean_map_template_identifier) : "image://empty/"
-			cache: false
-		}
-		
-		MouseArea {
-			width: diplomatic_map.contentWidth
-			height: diplomatic_map.contentHeight
-			
-			onClicked: {
-				scenario_menu.selected_country = null
-			}
-		}
-		
-		Repeater {
-			model: metternich.game.countries
-			
-			Image {
-				id: country_image
-				x: country.game_data.diplomatic_map_image_rect.x
-				y: country.game_data.diplomatic_map_image_rect.y
-				source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : "") + "/" + diplomatic_map_start_date_string
-				cache: false
-				
-				readonly property var country: model.modelData
-				readonly property var selected: selected_country === country
-				
-				MaskedMouseArea {
-					anchors.fill: parent
-					alphaThreshold: 0.4
-					maskSource: parent.source
-					ToolTip.text: country.name
-					ToolTip.visible: containsMouse
-					ToolTip.delay: 1000
-					
-					onClicked: {
-						if (selected) {
-							scenario_menu.selected_country = null
-						} else {
-							scenario_menu.selected_country = country
-						}
-					}
-				}
-			}
-		}
-		
-		/*
-		Repeater {
-			model: metternich.game.countries
-			
-			TinyText {
-				id: country_label
-				text: country.name
-				x: Math.floor(territory_rect.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_width / 2 - width / 2)
-				y: Math.floor(territory_rect.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_height / 2 - height / 2)
-				visible: width <= territory_rect_width
-				font.pixelSize: 8 * scale_factor
-				shadow_offset: 1 * scale_factor
-				font.bold: true
-						
-				readonly property var country: model.modelData
-				readonly property var territory_rect: country.game_data.main_contiguous_territory_rect
-				readonly property int territory_rect_width: territory_rect.width * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
-				readonly property int territory_rect_height: territory_rect.height * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
-			}
-		}
-		*/
-		
-		function center_on_selected_country_capital() {
-			var capital_game_data = selected_country.capital_province.capital_settlement.game_data
-			var capital_x = capital_game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
-			var capital_y = capital_game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
-			
-			var scenario_x = capital_x - diplomatic_map.width / 2
-			var scenario_y = capital_y - diplomatic_map.height / 2
-			diplomatic_map.contentX = Math.min(Math.max(scenario_x, 0), diplomatic_map.contentWidth - diplomatic_map.width)
-			diplomatic_map.contentY = Math.min(Math.max(scenario_y, 0), diplomatic_map.contentHeight - diplomatic_map.height)
-		}
 	}
 	
 	SmallText {
@@ -247,15 +161,15 @@ MenuBase {
 	Connections {
 		target: metternich.game
 		function onSetup_finished() {
-			if (selected_scenario.map_template.identifier !== scenario_menu.ocean_map_template_identifier) {
-				scenario_menu.ocean_map_template_identifier = selected_scenario.map_template.identifier
+			if (selected_scenario.map_template.identifier !== diplomatic_map.ocean_suffix) {
+				diplomatic_map.ocean_suffix = selected_scenario.map_template.identifier
 			}
 			
 			if (selected_country !== null && !metternich.game.countries.includes(selected_country)) {
-				scenario_menu.selected_country = null
+				diplomatic_map.selected_country = null
 			}
 			
-			diplomatic_map_start_date_string = selected_scenario.start_date.getUTCFullYear() + "." + selected_scenario.start_date.getUTCMonth() + "." + selected_scenario.start_date.getUTCDay()
+			diplomatic_map.country_suffix = selected_scenario.start_date.getUTCFullYear() + "." + selected_scenario.start_date.getUTCMonth() + "." + selected_scenario.start_date.getUTCDay()
 		}
 	}
 	
@@ -263,7 +177,7 @@ MenuBase {
 		selected_scenario = metternich.get_scenarios()[0]
 		metternich.game.setup_scenario(selected_scenario)
 		
-		scenario_menu.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
 		diplomatic_map.center_on_selected_country_capital()
 	}
 }
