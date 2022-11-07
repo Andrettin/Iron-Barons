@@ -1,0 +1,4 @@
+ewe = {
+	name = "Ewe"
+	group = west_african
+}

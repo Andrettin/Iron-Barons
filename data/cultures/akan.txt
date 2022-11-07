@@ -1,0 +1,4 @@
+akan = {
+	name = "Akan"
+	group = west_african
+}
