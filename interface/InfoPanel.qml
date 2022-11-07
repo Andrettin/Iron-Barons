@@ -18,6 +18,7 @@ Item {
 	
 	IconButton {
 		id: capital_settlement_button
+		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "settlement"
@@ -29,6 +30,24 @@ Item {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "View Capital Settlement"
+			}
+		}
+	}
+	
+	IconButton {
+		id: diplomatic_map_button
+		anchors.top: capital_settlement_button.top
+		anchors.left: capital_settlement_button.right
+		anchors.leftMargin: 8 * scale_factor
+		icon_identifier: "globe"
+		
+		onReleased: {
+			menu_stack.push("DiplomaticMapView.qml")
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Diplomatic Map"
 			}
 		}
 	}
