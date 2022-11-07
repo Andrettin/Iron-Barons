@@ -16,9 +16,19 @@ Item {
 		fillMode: Image.PreserveAspectCrop
 	}
 	
+	IconButton {
+		id: capital_settlement_button
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "settlement"
+		
+		onReleased: {
+		}
+	}
+	
 	NormalText {
 		id: title
-		anchors.top: parent.top
+		anchors.top: capital_settlement_button.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: selected_site ? (selected_site.game_data.current_cultural_name) : (selected_civilian_unit ? selected_civilian_unit.type.name : "")
