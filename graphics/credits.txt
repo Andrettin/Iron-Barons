@@ -62,6 +62,7 @@
 /graphics/icons/anchor.png (by Jinn) (licensed under the CC0)
 /graphics/icons/cannon.png (by Jinn) (licensed under the CC0)
 /graphics/icons/cog.png (by Jinn) (licensed under the CC0)
+/graphics/icons/flag.png (by Jinn) (licensed under the CC0)
 /graphics/icons/globe.png (by Jinn) (licensed under the CC0)
 /graphics/icons/hammer.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/hammer_extra_1.png (by Exidelo) (licensed under the CC0)
