@@ -8,6 +8,10 @@ alagoas = {
 			owner = tupi #Tupinambá territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
 		}
 		
+		1549 = {
+			owner = brazil #Portuguese possession in the 1340-1600 period; Salvador founded by the Portuguese in 1549; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+		}
+		
 		1790 = {
 			owner = brazil #part of Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 		}
