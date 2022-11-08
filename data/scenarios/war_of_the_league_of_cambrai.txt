@@ -1,0 +1,5 @@
+war_of_the_league_of_cambrai = {
+	name = "War of the League of Cambrai"
+	start_date = 1508.12.10
+	map_template = earth
+}
