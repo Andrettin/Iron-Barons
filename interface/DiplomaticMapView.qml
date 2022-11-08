@@ -4,6 +4,9 @@ import QtQuick.Controls 2.12
 Item {
 	id: diplomatic_map_view
 	
+	property int start_tile_x: 0
+	property int start_tile_y: 0
+	
 	Rectangle {
 		id: diplomatic_map_background
 		anchors.top: parent.top
@@ -41,5 +44,9 @@ Item {
 		onClicked: {
 			menu_stack.pop()
 		}
+	}
+	
+	Component.onCompleted: {
+		diplomatic_map.center_on_tile_pos(start_tile_x, start_tile_y)
 	}
 }

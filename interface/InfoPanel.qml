@@ -42,7 +42,10 @@ Item {
 		icon_identifier: "globe"
 		
 		onReleased: {
-			menu_stack.push("DiplomaticMapView.qml")
+			menu_stack.push("DiplomaticMapView.qml", {
+				start_tile_x: map_area_start_x + map_area_tile_width / 2,
+				start_tile_y: map_area_start_y + map_area_tile_height / 2
+			})
 		}
 		
 		onHoveredChanged: {
