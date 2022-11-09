@@ -2,6 +2,9 @@ zealand = {
 	name = "Zealand"
 	color = { 128 192 224 }
 	capital_settlement = copenhagen
+	regions = {
+		denmark
+	}
 	
 	history = {
 		1740 = {

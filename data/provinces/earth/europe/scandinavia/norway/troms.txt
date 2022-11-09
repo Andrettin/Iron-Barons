@@ -2,4 +2,7 @@ troms = {
 	name = "Troms"
 	color = { 126 114 224 }
 	capital_settlement = tromso
+	regions = {
+		norway
+	}
 }

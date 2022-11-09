@@ -2,6 +2,9 @@ scania = {
 	name = "Scania"
 	color = { 192 65 97 }
 	capital_settlement = malmo
+	regions = {
+		sweden
+	}
 	
 	history = {
 		1740 = {

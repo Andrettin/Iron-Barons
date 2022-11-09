@@ -2,4 +2,7 @@ vasterbotten = {
 	name = "Vasterbotten"
 	color = { 97 1 128 }
 	capital_settlement = umea
+	regions = {
+		sweden
+	}
 }

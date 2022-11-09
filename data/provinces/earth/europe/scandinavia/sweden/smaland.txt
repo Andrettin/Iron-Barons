@@ -2,6 +2,9 @@ smaland = {
 	name = "Smaland"
 	color = { 64 64 223 }
 	capital_settlement = kalmar
+	regions = {
+		sweden
+	}
 	
 	history = {
 		1740 = {

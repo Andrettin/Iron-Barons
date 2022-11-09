@@ -2,4 +2,7 @@ nordland = {
 	name = "Nordland"
 	color = { 192 192 192 }
 	capital_settlement = bodo
+	regions = {
+		norway
+	}
 }

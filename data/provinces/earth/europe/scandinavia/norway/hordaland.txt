@@ -2,6 +2,9 @@ hordaland = {
 	name = "Hordaland"
 	color = { 224 128 32 }
 	capital_settlement = bergen
+	regions = {
+		norway
+	}
 	
 	history = {
 		1740 = {
