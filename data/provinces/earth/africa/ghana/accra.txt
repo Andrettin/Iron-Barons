@@ -2,6 +2,9 @@ accra = {
 	name = "Accra"
 	color = { 230 217 208 }
 	capital_settlement = accra
+	regions = {
+		africa
+	}
 	
 	history = {
 		1482 = {

@@ -2,6 +2,9 @@ algeria = {
 	name = "Algeria"
 	color = { 136 222 8 }
 	capital_settlement = algiers
+	regions = {
+		africa
+	}
 	
 	history = {
 		1740 = {

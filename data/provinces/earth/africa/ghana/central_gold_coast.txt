@@ -2,6 +2,9 @@ central_gold_coast = {
 	name = "Central Gold Coast"
 	color = { 222 167 181 }
 	capital_settlement = cape_coast
+	regions = {
+		africa
+	}
 	
 	history = {
 		1482 = {

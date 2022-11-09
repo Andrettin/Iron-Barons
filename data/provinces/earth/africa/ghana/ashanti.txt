@@ -2,6 +2,9 @@ ashanti = {
 	name = "Ashanti"
 	color = { 230 22 101 }
 	capital_settlement = kumasi
+	regions = {
+		africa
+	}
 	
 	history = {
 		1898 = {
