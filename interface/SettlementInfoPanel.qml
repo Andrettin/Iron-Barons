@@ -40,7 +40,7 @@ Item {
 			}
 			
 			SmallText {
-				text: population_count
+				text: number_string(population_count)
 				anchors.top: population_type_icon.bottom
 				anchors.topMargin: 4 * scale_factor
 				anchors.horizontalCenter: parent.horizontalCenter
