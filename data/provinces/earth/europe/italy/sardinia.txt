@@ -2,6 +2,9 @@ sardinia = {
 	name = "Sardinia"
 	color = { 128 208 32 }
 	capital_settlement = cagliari
+	regions = {
+		italy
+	}
 	
 	history = {
 		1360 = {

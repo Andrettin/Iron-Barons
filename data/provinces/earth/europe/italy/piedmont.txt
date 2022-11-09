@@ -2,6 +2,9 @@ piedmont = {
 	name = "Piedmont"
 	color = { 208 128 224 }
 	capital_settlement = turin
+	regions = {
+		italy
+	}
 	
 	history = {
 		1280 = {

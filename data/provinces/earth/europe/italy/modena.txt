@@ -2,6 +2,9 @@ modena = {
 	name = "Modena"
 	color = { 168 134 150 }
 	capital_settlement = modena
+	regions = {
+		italy
+	}
 	
 	history = {
 		1477 = {

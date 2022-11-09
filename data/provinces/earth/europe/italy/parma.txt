@@ -2,6 +2,9 @@ parma = {
 	name = "Parma"
 	color = { 112 1 32 }
 	capital_settlement = parma
+	regions = {
+		italy
+	}
 	
 	history = {
 		1360 = {
