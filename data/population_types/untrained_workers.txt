@@ -2,4 +2,5 @@ untrained_workers = {
 	name = "Untrained Workers"
 	population_class = untrained_workers
 	icon = craftsmen_light
+	small_icon = craftsmen_light_small
 }
