@@ -68,7 +68,21 @@ Item {
 		anchors.top: title.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		source: selected_civilian_unit ? ("image://icon/" + selected_civilian_unit.icon.identifier) : "image://empty/"
+		source: icon_identifier.length > 0 ? ("image://icon/" + icon_identifier) : "image://empty/"
+		
+		readonly property string icon_identifier: selected_civilian_unit ? selected_civilian_unit.icon.identifier : (
+			selected_site && selected_site.settlement ? "settlement" : ""
+		)
+	}
+	
+	SmallText {
+		id: population_label
+		anchors.top: icon.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 16 * scale_factor
+		text: selected_site && selected_site.settlement ? "Population: " + number_string(selected_site.game_data.province.game_data.population) : ""
+		visible: selected_site && selected_site.settlement
 	}
 	
 	TextButton {
