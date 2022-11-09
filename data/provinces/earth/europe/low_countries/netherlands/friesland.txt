@@ -2,6 +2,9 @@ friesland = {
 	name = "Friesland"
 	color = { 65 192 33 }
 	capital_settlement = leeuwarden
+	regions = {
+		netherlands
+	}
 	
 	history = {
 		1477 = {

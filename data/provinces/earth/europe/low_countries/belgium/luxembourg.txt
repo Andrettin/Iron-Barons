@@ -2,6 +2,9 @@ luxembourg = {
 	name = "Luxembourg"
 	color = { 81 128 160 }
 	capital_settlement = luxembourg
+	regions = {
+		low_countries
+	}
 	
 	history = {
 		1477 = {

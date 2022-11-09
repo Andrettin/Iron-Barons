@@ -1,0 +1,5 @@
+slovakia = {
+	superregions = {
+		czechoslovakia
+	}
+}

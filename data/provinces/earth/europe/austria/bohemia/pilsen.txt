@@ -5,6 +5,9 @@ pilsen = {
 	cultural_names = {
 		czech = "Plzen"
 	}
+	regions = {
+		bohemia
+	}
 	
 	history = {
 		1477 = {

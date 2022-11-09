@@ -2,6 +2,9 @@ lower_austria = {
 	name = "Lower Austria"
 	color = { 49 97 65 }
 	capital_settlement = vienna
+	regions = {
+		austria
+	}
 	
 	history = {
 		1477 = {

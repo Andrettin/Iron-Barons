@@ -5,6 +5,9 @@ salzburg = {
 	cultural_names = {
 		roman = "Iuvavum"
 	}
+	regions = {
+		austria
+	}
 	
 	history = {
 		1477 = {

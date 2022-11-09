@@ -2,6 +2,9 @@ carinthia = {
 	name = "Carinthia"
 	color = { 143 128 32 }
 	capital_settlement = klagenfurt
+	regions = {
+		austria
+	}
 	
 	history = {
 		1477 = {

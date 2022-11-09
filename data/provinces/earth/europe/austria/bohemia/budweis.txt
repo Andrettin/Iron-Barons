@@ -5,6 +5,9 @@ budweis = {
 	cultural_names = {
 		czech = "Budejovice" #Budějovice
 	}
+	regions = {
+		bohemia
+	}
 	
 	history = {
 		1477 = {

@@ -2,6 +2,9 @@ styria = {
 	name = "Styria"
 	color = { 176 97 65 }
 	capital_settlement = graz
+	regions = {
+		austria #only Lower Styria belongs to modern Austria; Upper Styria is part of Slovenia
+	}
 	
 	history = {
 		1477 = {

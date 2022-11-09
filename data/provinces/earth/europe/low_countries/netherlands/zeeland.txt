@@ -2,6 +2,9 @@ zeeland = {
 	name = "Zeeland"
 	color = { 1 192 160 }
 	capital_settlement = middelburg
+	regions = {
+		netherlands
+	}
 	
 	history = {
 		1477 = {

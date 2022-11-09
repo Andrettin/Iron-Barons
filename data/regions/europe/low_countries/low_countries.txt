@@ -1,0 +1,5 @@
+low_countries = {
+	superregions = {
+		europe
+	}
+}

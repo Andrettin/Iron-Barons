@@ -5,6 +5,9 @@ pressburg = {
 	cultural_names = {
 		slovak = "Bratislava"
 	}
+	regions = {
+		slovakia
+	}
 	
 	history = {
 		1740 = {

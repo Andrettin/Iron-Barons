@@ -2,6 +2,9 @@ liege = {
 	name = "Liege" #"Liège"
 	color = { 239 32 64 }
 	capital_settlement = liege
+	regions = {
+		belgium
+	}
 	
 	history = {
 		1477 = {

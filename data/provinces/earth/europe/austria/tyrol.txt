@@ -2,6 +2,9 @@ tyrol = {
 	name = "Tyrol"
 	color = { 81 192 224 }
 	capital_settlement = innsbruck
+	regions = {
+		austria
+	}
 	
 	history = {
 		1477 = {
