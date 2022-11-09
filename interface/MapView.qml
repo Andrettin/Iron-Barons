@@ -100,6 +100,9 @@ Item {
 				onEntered: {
 					status_text = "Current Season and Year"
 				}
+				onExited: {
+					status_text = ""
+				}
 			}
 		}
 	}

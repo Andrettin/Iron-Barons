@@ -155,5 +155,8 @@ Item {
 			
 			status_text = text
 		}
+		onExited: {
+			status_text = ""
+		}
 	}
 }

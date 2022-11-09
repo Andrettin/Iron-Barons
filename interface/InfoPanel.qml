@@ -30,6 +30,8 @@ Item {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "View Capital Settlement"
+			} else {
+				status_text = ""
 			}
 		}
 	}
@@ -51,6 +53,8 @@ Item {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "View Diplomatic Map"
+			} else {
+				status_text = ""
 			}
 		}
 	}
@@ -102,6 +106,8 @@ Item {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "View Settlement"
+			} else {
+				status_text = ""
 			}
 		}
 	}
@@ -122,6 +128,8 @@ Item {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "End Turn"
+			} else {
+				status_text = ""
 			}
 		}
 	}
