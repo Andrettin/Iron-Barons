@@ -2,6 +2,9 @@ minho = {
 	name = "Minho"
 	color = { 208 160 0 }
 	capital_settlement = oporto
+	regions = {
+		portugal
+	}
 	
 	history = {
 		1140 = {

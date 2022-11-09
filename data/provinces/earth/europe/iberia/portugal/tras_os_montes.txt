@@ -2,6 +2,9 @@ tras_os_montes = {
 	name = "Tras-os-Montes" #"Trás-os-Montes"
 	color = { 33 112 128 }
 	capital_settlement = braganza
+	regions = {
+		portugal
+	}
 	
 	history = {
 		1140 = {

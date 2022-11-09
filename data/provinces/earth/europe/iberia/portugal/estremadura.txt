@@ -2,6 +2,9 @@ estremadura = {
 	name = "Estremadura"
 	color = { 208 160 128 }
 	capital_settlement = lisbon
+	regions = {
+		portugal
+	}
 	
 	history = {
 		1148 = {

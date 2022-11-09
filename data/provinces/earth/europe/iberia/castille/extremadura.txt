@@ -2,6 +2,9 @@ extremadura = {
 	name = "Extremadura"
 	color = { 80 48 192 }
 	capital_settlement = merida
+	regions = {
+		spain
+	}
 	
 	history = {
 		1360 = {

@@ -1,6 +1,9 @@
 azores = {
 	name = "Azores"
 	color = { 144 160 128 }
+	regions = {
+		portugal
+	}
 	
 	history = {
 		1431 = {

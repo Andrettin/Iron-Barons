@@ -2,6 +2,9 @@ asturias = {
 	name = "Asturias"
 	color = { 80 96 192 }
 	capital_settlement = oviedo
+	regions = {
+		spain
+	}
 	
 	history = {
 		1360 = {

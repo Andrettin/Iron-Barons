@@ -2,6 +2,9 @@ algarve = {
 	name = "Algarve"
 	color = { 233 129 162 }
 	capital_settlement = faro
+	regions = {
+		portugal
+	}
 	
 	history = {
 		1257 = {

@@ -2,6 +2,9 @@ murcia = {
 	name = "Murcia"
 	color = { 98 104 120 }
 	capital_settlement = murcia
+	regions = {
+		spain
+	}
 	
 	history = {
 		1360 = {

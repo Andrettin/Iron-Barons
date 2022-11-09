@@ -5,6 +5,9 @@ leon = {
 	cultural_names = {
 		roman = "Castra Legionis" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 	}
+	regions = {
+		spain
+	}
 	
 	history = {
 		1360 = {

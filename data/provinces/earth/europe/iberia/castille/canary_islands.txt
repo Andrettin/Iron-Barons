@@ -2,4 +2,7 @@ canary_islands = {
 	name = "Canary Islands"
 	color = { 32 239 1 }
 	capital_settlement = las_palmas
+	regions = {
+		spain
+	}
 }
