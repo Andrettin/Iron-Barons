@@ -1,6 +1,9 @@
 guyenne = {
 	name = "Guyenne"
 	color = { 240 160 128 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

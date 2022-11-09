@@ -1,6 +1,9 @@
 languedoc = {
 	name = "Languedoc"
 	color = { 48 96 128 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

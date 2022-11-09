@@ -1,6 +1,9 @@
 provence = {
 	name = "Provence"
 	color = { 49 192 223 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1481 = {

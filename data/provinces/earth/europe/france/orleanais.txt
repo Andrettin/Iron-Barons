@@ -2,6 +2,9 @@ orleanais = {
 	name = "Orleanais"
 	color = { 16 223 0 }
 	capital_settlement = orleans
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

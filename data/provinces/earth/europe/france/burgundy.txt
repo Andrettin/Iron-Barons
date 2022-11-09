@@ -2,6 +2,9 @@ burgundy = {
 	name = "Burgundy"
 	color = { 240 128 96 }
 	capital_settlement = dijon
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

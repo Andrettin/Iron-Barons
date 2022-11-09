@@ -1,6 +1,9 @@
 champagne = {
 	name = "Champagne"
 	color = { 239 0 223 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

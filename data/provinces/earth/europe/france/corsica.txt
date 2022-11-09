@@ -2,6 +2,9 @@ corsica = {
 	name = "Corsica"
 	color = { 239 64 32 }
 	capital_settlement = ajaccio
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

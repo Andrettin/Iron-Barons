@@ -1,6 +1,9 @@
 normandy = {
 	name = "Normandy"
 	color = { 144 32 192 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

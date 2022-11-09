@@ -1,6 +1,9 @@
 gascony = {
 	name = "Gascony"
 	color = { 24 124 255 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

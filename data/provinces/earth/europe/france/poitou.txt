@@ -1,6 +1,9 @@
 poitou = {
 	name = "Poitou"
 	color = { 208 32 192 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

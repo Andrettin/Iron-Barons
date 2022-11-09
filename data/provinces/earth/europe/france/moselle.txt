@@ -2,6 +2,9 @@ moselle = {
 	name = "Moselle"
 	color = { 248 197 32 }
 	capital_settlement = metz
+	regions = {
+		france
+	}
 	
 	history = {
 		1477 = {

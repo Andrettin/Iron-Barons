@@ -1,6 +1,9 @@
 dauphiny = {
 	name = "Dauphiny"
 	color = { 48 192 96 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {

@@ -1,6 +1,9 @@
 anjou = {
 	name = "Anjou"
 	color = { 80 160 64 }
+	regions = {
+		france
+	}
 	
 	history = {
 		1360 = {
