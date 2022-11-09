@@ -2,6 +2,9 @@ parana = {
 	name = "Parana" #"Paraná"
 	color = { 0 54 137 }
 	capital_settlement = curitiba
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

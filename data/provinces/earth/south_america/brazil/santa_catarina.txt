@@ -2,6 +2,9 @@ santa_catarina = {
 	name = "Santa Catarina"
 	color = { 165 114 56 }
 	capital_settlement = florianopolis
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

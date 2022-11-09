@@ -2,6 +2,9 @@ ceara = {
 	name = "Ceara" #"Ceará"
 	color = { 131 92 31 }
 	capital_settlement = fortaleza
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

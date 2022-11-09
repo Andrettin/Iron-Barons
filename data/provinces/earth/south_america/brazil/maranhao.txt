@@ -2,6 +2,9 @@ maranhao = {
 	name = "Maranhao" #"Maranhão"
 	color = { 33 192 17 }
 	capital_settlement = sao_luis
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

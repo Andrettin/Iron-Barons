@@ -2,6 +2,9 @@ pernambuco = {
 	name = "Pernambuco"
 	color = { 33 128 80 }
 	capital_settlement = recife
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

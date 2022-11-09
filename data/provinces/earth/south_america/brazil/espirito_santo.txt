@@ -2,6 +2,9 @@ espirito_santo = {
 	name = "Espirito Santo" #"Espírito Santo"
 	color = { 150 114 142 }
 	capital_settlement = vitoria
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

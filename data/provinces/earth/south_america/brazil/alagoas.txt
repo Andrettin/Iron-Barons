@@ -2,6 +2,9 @@ alagoas = {
 	name = "Alagoas"
 	color = { 160 128 80 }
 	capital_settlement = maceio
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

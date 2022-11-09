@@ -2,6 +2,9 @@ sergipe = {
 	name = "Sergipe"
 	color = { 192 160 112 }
 	capital_settlement = aracaju
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {

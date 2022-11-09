@@ -2,6 +2,9 @@ minas_gerais = {
 	name = "Minas Gerais"
 	color = { 132 153 248 }
 	capital_settlement = ouro_preto
+	regions = {
+		brazil
+	}
 	
 	history = {
 		1300 = {
