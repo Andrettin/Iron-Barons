@@ -80,31 +80,10 @@ Item {
 		anchors.right: parent.right
 	}
 	
-	Image {
+	TopBar {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.left: menu_button_bar.right
-		source: "image://interface/" + interface_style + "/top_bar"
-		fillMode: Image.PreserveAspectCrop
-		
-		SmallText {
-			text: date_string(metternich.game.date)
-			anchors.top: parent.top
-			anchors.topMargin: 1 * scale_factor
-			anchors.left: parent.left
-			anchors.leftMargin: 16 * scale_factor
-			
-			MouseArea {
-				anchors.fill: parent
-				hoverEnabled: true
-				onEntered: {
-					status_text = "Current Season and Year"
-				}
-				onExited: {
-					status_text = ""
-				}
-			}
-		}
 	}
 	
 	Image {

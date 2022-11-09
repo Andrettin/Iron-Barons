@@ -3,7 +3,6 @@ import QtQuick.Controls 2.12
 
 Item {
 	id: infopanel
-	
 	width: infopanel_image.width
 	
 	readonly property var end_turn_button: end_turn_button_internal
@@ -24,7 +23,10 @@ Item {
 		icon_identifier: "settlement"
 		
 		onReleased: {
-			menu_stack.push("SettlementView.qml")
+			menu_stack.push("SettlementView.qml", {
+				settlement: metternich.game.player_country.capital_province.capital_settlement,
+				interface_style: map_view.interface_style
+			})
 		}
 		
 		onHoveredChanged: {
@@ -100,7 +102,10 @@ Item {
 		visible: selected_site !== null && selected_site.settlement
 		
 		onClicked: {
-			menu_stack.push("SettlementView.qml")
+			menu_stack.push("SettlementView.qml", {
+				settlement: selected_site,
+				interface_style: map_view.interface_style
+			})
 		}
 		
 		onHoveredChanged: {

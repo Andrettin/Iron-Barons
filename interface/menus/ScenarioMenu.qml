@@ -133,10 +133,7 @@ MenuBase {
 			selected_country === null ? "You must select a country to play" : (
 				!selected_country.great_power ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You cannot play as a country under anarchy"
 			)
-			
 		)
-		ToolTip.visible: hovered && !allowed
-		ToolTip.delay: 1000
 		
 		onClicked: {
 			metternich.game.player_country = selected_country
