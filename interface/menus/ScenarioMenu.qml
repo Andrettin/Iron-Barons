@@ -32,6 +32,21 @@ MenuBase {
 	}
 	
 	SmallText {
+		id: scenario_text
+		text: selected_scenario ? (
+			(selected_scenario.timeline ? ("Timeline: " + selected_scenario.timeline.name + "\n\n") : "")
+			+ selected_scenario.description
+		) : ""
+		anchors.left: scenario_list.left
+		anchors.leftMargin: 4 * scale_factor
+		anchors.right: scenario_list.right
+		anchors.rightMargin: 4 * scale_factor
+		anchors.top: previous_menu_button.bottom
+		anchors.topMargin: 16 * scale_factor
+		wrapMode: Text.WordWrap
+	}
+	
+	SmallText {
 		id: country_text
 		text: selected_country ? (
 			selected_country.name
