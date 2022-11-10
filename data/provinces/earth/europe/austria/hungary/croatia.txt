@@ -2,6 +2,9 @@ croatia = {
 	name = "Croatia"
 	color = { 244 17 246 }
 	capital_settlement = zagreb
+	regions = {
+		croatia
+	}
 	
 	history = {
 		culture = croatian

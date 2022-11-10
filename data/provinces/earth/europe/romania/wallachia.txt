@@ -2,6 +2,9 @@ wallachia = {
 	name = "Wallachia"
 	color = { 177 111 178 }
 	capital_settlement = bucharest
+	regions = {
+		romania
+	}
 	
 	history = {
 		culture = romanian

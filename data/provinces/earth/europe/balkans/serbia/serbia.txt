@@ -2,6 +2,9 @@ serbia = {
 	name = "Serbia"
 	color = { 207 226 120 }
 	capital_settlement = belgrade
+	regions = {
+		serbia
+	}
 	
 	history = {
 		culture = serbian

@@ -2,6 +2,9 @@ transylvania = {
 	name = "Transylvania"
 	color = { 108 208 7 }
 	capital_settlement = klausenburg
+	regions = {
+		romania
+	}
 	
 	history = {
 		culture = romanian

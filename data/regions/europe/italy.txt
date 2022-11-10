@@ -1,6 +1,7 @@
 italy = { #the territory of modern Italy
 	superregions = {
 		europe
+		west_and_central_europe
 	}
 	
 	history = {

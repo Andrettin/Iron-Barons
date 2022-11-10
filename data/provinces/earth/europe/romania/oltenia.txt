@@ -2,6 +2,9 @@ oltenia = {
 	name = "Oltenia"
 	color = { 50 146 44 }
 	capital_settlement = craiova
+	regions = {
+		romania
+	}
 	
 	history = {
 		culture = romanian

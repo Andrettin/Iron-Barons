@@ -2,6 +2,9 @@ dobruja = {
 	name = "Dobruja"
 	color = { 181 231 157 }
 	capital_settlement = constanta
+	regions = {
+		romania
+	}
 	
 	history = {
 		culture = romanian

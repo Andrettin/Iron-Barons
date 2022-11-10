@@ -2,6 +2,9 @@ crete = {
 	name = "Crete"
 	color = { 93 56 165 }
 	capital_settlement = knossos
+	regions = {
+		greece
+	}
 	
 	history = {
 		culture = greek

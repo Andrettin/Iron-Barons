@@ -2,8 +2,13 @@ albania = {
 	name = "Albania"
 	color = { 106 17 180 }
 	capital_settlement = tirana
+	regions = {
+		albania
+	}
 	
 	history = {
+		culture = albanian
+		
 		1740 = {
 			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

@@ -1,0 +1,4 @@
+welsh = {
+	name = "Welsh"
+	group = brythonic
+}

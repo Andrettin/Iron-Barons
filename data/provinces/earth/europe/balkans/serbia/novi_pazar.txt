@@ -2,6 +2,9 @@ novi_pazar = {
 	name = "Novi Pazar"
 	color = { 136 13 124 }
 	capital_settlement = novi_pazar
+	regions = {
+		serbia
+	}
 	
 	history = {
 		culture = serbian

@@ -2,6 +2,9 @@ thessaly = {
 	name = "Thessaly"
 	color = { 176 147 141 }
 	capital_settlement = larissa
+	regions = {
+		greece
+	}
 	
 	history = {
 		culture = greek

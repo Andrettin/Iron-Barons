@@ -2,6 +2,9 @@ epirus = {
 	name = "Epirus"
 	color = { 172 132 96 }
 	capital_settlement = ioanina
+	regions = {
+		greece
+	}
 	
 	history = {
 		culture = greek

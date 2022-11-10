@@ -2,6 +2,9 @@ eastern_rumelia = {
 	name = "Eastern Rumelia"
 	color = { 225 194 148 }
 	capital_settlement = philippopolis
+	regions = {
+		bulgaria
+	}
 	
 	history = {
 		culture = bulgarian

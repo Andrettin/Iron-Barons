@@ -2,8 +2,13 @@ lithuania = {
 	name = "Lithuania"
 	color = { 65 224 97 }
 	capital_settlement = vilnius
+	regions = {
+		lithuania
+	}
 	
 	history = {
+		culture = lithuanian
+		
 		1740 = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

@@ -4,6 +4,7 @@ istria = {
 	capital_settlement = trieste
 	regions = {
 		cisleithania
+		croatia
 	}
 	
 	history = {

@@ -2,6 +2,9 @@ attica = {
 	name = "Attica"
 	color = { 241 47 230 }
 	capital_settlement = athens
+	regions = {
+		greece
+	}
 	
 	history = {
 		culture = greek

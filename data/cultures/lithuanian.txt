@@ -1,0 +1,4 @@
+lithuanian = {
+	name = "Lithuanian"
+	group = baltic
+}

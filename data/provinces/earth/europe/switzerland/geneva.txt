@@ -2,6 +2,9 @@ geneva = {
 	name = "Geneva"
 	color = { 208 128 96 }
 	capital_settlement = geneva
+	regions = {
+		switzerland
+	}
 	
 	history = {
 		culture = french

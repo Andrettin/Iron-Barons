@@ -1,0 +1,4 @@
+finnish = {
+	name = "Finnish"
+	group = finnic
+}

@@ -2,6 +2,9 @@ east_macedonia = {
 	name = "East Macedonia"
 	color = { 241 143 205 }
 	capital_settlement = komatini
+	regions = {
+		greece
+	}
 	
 	history = {
 		culture = greek

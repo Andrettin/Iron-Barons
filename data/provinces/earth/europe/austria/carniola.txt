@@ -4,6 +4,7 @@ carniola = {
 	capital_settlement = laibach
 	regions = {
 		cisleithania
+		slovenia
 	}
 	
 	history = {

@@ -2,6 +2,9 @@ peloponnese = {
 	name = "Peloponnese"
 	color = { 247 168 1 }
 	capital_settlement = sparta
+	regions = {
+		greece
+	}
 	
 	history = {
 		culture = greek

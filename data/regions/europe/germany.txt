@@ -1,6 +1,7 @@
 germany = { #the territory of modern Germany
 	superregions = {
 		europe
+		west_and_central_europe
 	}
 	
 	history = {

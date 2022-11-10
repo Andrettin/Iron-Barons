@@ -2,6 +2,9 @@ pest = {
 	name = "Pest"
 	color = { 81 224 224 }
 	capital_settlement = pest
+	regions = {
+		hungary
+	}
 	
 	history = {
 		culture = magyar

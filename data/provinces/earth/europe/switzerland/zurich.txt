@@ -2,6 +2,9 @@ zurich = {
 	name = "Zurich" #"Zürich"
 	color = { 126 75 134 }
 	capital_settlement = zurich
+	regions = {
+		switzerland
+	}
 	
 	history = {
 		culture = german

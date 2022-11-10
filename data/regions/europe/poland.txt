@@ -1,6 +1,7 @@
 poland = { #the territory of modern Poland
 	superregions = {
 		europe
+		west_and_central_europe
 	}
 	
 	history = {

@@ -1,6 +1,7 @@
 austria = { #the territory of the modern Republic of Austria
 	superregions = {
 		europe
+		west_and_central_europe
 		cisleithania
 	}
 	

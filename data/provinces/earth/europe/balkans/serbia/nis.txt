@@ -2,6 +2,9 @@ nis = {
 	name = "Nis" #"Niš"
 	color = { 213 134 20 }
 	capital_settlement = nis
+	regions = {
+		serbia
+	}
 	
 	history = {
 		culture = serbian

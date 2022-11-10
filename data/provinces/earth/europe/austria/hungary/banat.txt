@@ -2,6 +2,9 @@ banat = {
 	name = "Banat"
 	color = { 201 13 189 }
 	capital_settlement = temesvar
+	regions = {
+		romania
+	}
 	
 	history = {
 		culture = romanian

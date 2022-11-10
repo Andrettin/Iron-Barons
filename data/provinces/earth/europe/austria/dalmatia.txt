@@ -4,6 +4,7 @@ dalmatia = {
 	capital_settlement = zara
 	regions = {
 		cisleithania
+		croatia
 	}
 	
 	history = {

@@ -2,6 +2,9 @@ slavonia = {
 	name = "Slavonia"
 	color = { 61 252 109 }
 	capital_settlement = esseg
+	regions = {
+		croatia
+	}
 	
 	history = {
 		culture = croatian
