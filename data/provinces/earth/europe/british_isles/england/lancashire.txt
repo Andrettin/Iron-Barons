@@ -5,4 +5,8 @@ lancashire = {
 	regions = {
 		england
 	}
+	
+	history = {
+		culture = english
+	}
 }

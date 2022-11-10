@@ -7,6 +7,8 @@ east_prussia = {
 	}
 	
 	history = {
+		culture = german
+		
 		1477 = {
 			owner = teutonic_order #part of the Domain of the Teutonic Order c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

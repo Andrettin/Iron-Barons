@@ -7,6 +7,8 @@ friesland = {
 	}
 	
 	history = {
+		culture = dutch
+		
 		1477 = {
 			owner = friesland #part of Friesland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

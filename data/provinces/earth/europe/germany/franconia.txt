@@ -7,6 +7,8 @@ franconia = {
 	}
 	
 	history = {
+		culture = german
+		
 		1477 = {
 			owner = wurzburg #part of the Bishopric of Würzburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

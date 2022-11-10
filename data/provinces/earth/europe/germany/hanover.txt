@@ -7,6 +7,8 @@ hanover = {
 	}
 	
 	history = {
+		culture = german
+		
 		1477 = {
 			owner = brunswick #part of the Duchy of Brunswick-Kalenberg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

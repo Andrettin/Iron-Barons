@@ -7,6 +7,8 @@ jutland = {
 	}
 	
 	history = {
+		culture = danish
+		
 		1740 = {
 			owner = denmark #part of the Kingdom of Denmark c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

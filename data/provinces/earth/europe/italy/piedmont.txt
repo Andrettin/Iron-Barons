@@ -7,6 +7,8 @@ piedmont = {
 	}
 	
 	history = {
+		culture = italian
+		
 		1280 = {
 			owner = savoy #part of the County of the Savoy c. 1280; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

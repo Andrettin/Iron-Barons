@@ -10,6 +10,8 @@ brunn = {
 	}
 	
 	history = {
+		culture = czech
+		
 		1477 = {
 			owner = hungary #Hungarian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

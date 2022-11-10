@@ -7,6 +7,8 @@ alsace = {
 	}
 	
 	history = {
+		culture = alsatian
+		
 		1477 = {
 			owner = strasbourg #part of the Bishopric of Strasburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

@@ -6,6 +6,8 @@ azores = {
 	}
 	
 	history = {
+		culture = portuguese
+		
 		1431 = {
 			owner = portugal #became a Portuguese possession in 1431; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 		}

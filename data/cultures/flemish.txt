@@ -1,0 +1,4 @@
+flemish = {
+	name = "Flemish"
+	group = german
+}

@@ -7,6 +7,8 @@ lower_austria = {
 	}
 	
 	history = {
+		culture = austrian
+		
 		1477 = {
 			owner = austria #part of the Archduchy of Austria c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

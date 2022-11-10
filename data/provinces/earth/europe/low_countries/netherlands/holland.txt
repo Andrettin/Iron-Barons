@@ -7,6 +7,8 @@ holland = {
 	}
 	
 	history = {
+		culture = dutch
+		
 		1477 = {
 			owner = burgundy #Burgundian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

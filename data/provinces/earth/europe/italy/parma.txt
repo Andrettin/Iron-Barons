@@ -7,6 +7,8 @@ parma = {
 	}
 	
 	history = {
+		culture = italian
+		
 		1360 = {
 			owner = milan #part of the Lands of the Visconti in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}

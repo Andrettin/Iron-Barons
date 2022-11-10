@@ -4,6 +4,8 @@ slavonia = {
 	capital_settlement = esseg
 	
 	history = {
+		culture = croatian
+		
 		1477 = {
 			owner = hungary #part of the Kingdom of Hungary c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

@@ -4,6 +4,8 @@ montenegro = {
 	capital_settlement = podgorica
 	
 	history = {
+		culture = serbian
+		
 		1740 = {
 			owner = montenegro #part of Montenegro c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

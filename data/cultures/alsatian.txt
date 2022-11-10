@@ -1,0 +1,4 @@
+alsatian = {
+	name = "Alsatian"
+	group = german
+}

@@ -4,6 +4,8 @@ buda = {
 	capital_settlement = buda
 	
 	history = {
+		culture = magyar
+		
 		1740 = {
 			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

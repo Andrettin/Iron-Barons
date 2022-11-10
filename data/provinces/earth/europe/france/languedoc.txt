@@ -6,6 +6,8 @@ languedoc = {
 	}
 	
 	history = {
+		culture = french
+		
 		1360 = {
 			owner = france #part of France in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}

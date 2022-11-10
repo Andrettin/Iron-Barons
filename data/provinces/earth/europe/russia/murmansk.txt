@@ -5,4 +5,8 @@ murmansk = {
 	regions = {
 		european_russia
 	}
+	
+	history = {
+		culture = russian
+	}
 }

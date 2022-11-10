@@ -4,6 +4,8 @@ geneva = {
 	capital_settlement = geneva
 	
 	history = {
+		culture = french
+		
 		1418 = {
 			owner = savoy #part of the Domain of the Duchy of Savoy in 1418; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

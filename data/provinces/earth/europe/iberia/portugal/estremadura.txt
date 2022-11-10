@@ -7,6 +7,8 @@ estremadura = {
 	}
 	
 	history = {
+		culture = portuguese
+		
 		1148 = {
 			owner = portugal #became part of the Kingdom of Portugal in 1148; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 82-83.
 		}

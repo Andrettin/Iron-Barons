@@ -7,6 +7,8 @@ latium = {
 	}
 	
 	history = {
+		culture = italian
+		
 		1360 = {
 			owner = papal_states #part of the Papal States in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}

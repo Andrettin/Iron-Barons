@@ -1,0 +1,4 @@
+ukrainian = {
+	name = "Ukrainian"
+	group = east_slavic
+}

@@ -5,4 +5,8 @@ northumberland = {
 	regions = {
 		england
 	}
+	
+	history = {
+		culture = english
+	}
 }

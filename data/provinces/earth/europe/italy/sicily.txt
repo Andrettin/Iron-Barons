@@ -7,6 +7,8 @@ sicily = {
 	}
 	
 	history = {
+		culture = italian
+		
 		1360 = {
 			owner = sicily #part of the Kingdom of Sicily in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}

@@ -7,6 +7,8 @@ wurtemberg = {
 	}
 	
 	history = {
+		culture = german
+		
 		1477 = {
 			owner = wurtemberg #part of the County of Wurtemberg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

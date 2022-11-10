@@ -7,6 +7,8 @@ morocco = {
 	}
 	
 	history = {
+		culture = arabic
+		
 		1740 = {
 			owner = morocco #part of Fez and Morocco c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

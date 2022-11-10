@@ -5,4 +5,8 @@ vasterbotten = {
 	regions = {
 		sweden
 	}
+	
+	history = {
+		culture = swedish
+	}
 }

@@ -7,6 +7,8 @@ togo = {
 	}
 	
 	history = {
+		culture = ewe
+		
 		1897 = {
 			owner = togoland #became part of German Togoland in 1897; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
 		}

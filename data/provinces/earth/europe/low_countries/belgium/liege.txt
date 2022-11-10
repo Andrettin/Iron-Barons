@@ -7,6 +7,8 @@ liege = {
 	}
 	
 	history = {
+		culture = walloon
+		
 		1477 = {
 			owner = liege #part of the Bishopric of Liège c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

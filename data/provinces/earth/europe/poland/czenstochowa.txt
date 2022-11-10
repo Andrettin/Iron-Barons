@@ -7,6 +7,8 @@ czenstochowa = {
 	}
 	
 	history = {
+		culture = polish
+		
 		1477 = {
 			owner = poland #part of the Kingdom of Poland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

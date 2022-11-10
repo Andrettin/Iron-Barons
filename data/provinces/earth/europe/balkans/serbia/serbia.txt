@@ -4,6 +4,8 @@ serbia = {
 	capital_settlement = belgrade
 	
 	history = {
+		culture = serbian
+		
 		1718 = {
 			owner = austria #became an Austrian possession in 1718; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

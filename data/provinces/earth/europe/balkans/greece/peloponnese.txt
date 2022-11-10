@@ -4,6 +4,8 @@ peloponnese = {
 	capital_settlement = sparta
 	
 	history = {
+		culture = greek
+		
 		1699 = {
 			owner = venice #became a Venetian possession in 1699; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

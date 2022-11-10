@@ -7,6 +7,8 @@ hither_pomerania = {
 	}
 	
 	history = {
+		culture = german
+		
 		1477 = {
 			owner = pomerania #part of the Duchy of Pomerania c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

@@ -7,6 +7,8 @@ baden = {
 	}
 	
 	history = {
+		culture = german
+		
 		1477 = {
 			owner = baden #part of the Margraviate of Baden c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}

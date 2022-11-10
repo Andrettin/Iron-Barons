@@ -7,6 +7,8 @@ krasnodar = {
 	}
 	
 	history = {
+		culture = russian
+		
 		1699 = {
 			owner = russia #became part of the Russian Empire in 1699; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

@@ -6,6 +6,8 @@ provence = {
 	}
 	
 	history = {
+		culture = french
+		
 		1481 = {
 			owner = france #became part of the Kingdom of France in 1481; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
