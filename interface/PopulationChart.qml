@@ -27,7 +27,7 @@ ChartView {
 
 		onHovered: {
 			if (state == true) {
-				chart.ToolTip.text = "<font color=\"white\">" + slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)</font>"
+				chart.ToolTip.text = small_text(slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)")
 				chart.ToolTip.visible = true
 			} else {
 				chart.ToolTip.visible = false
