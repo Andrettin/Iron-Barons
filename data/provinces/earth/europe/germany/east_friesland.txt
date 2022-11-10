@@ -2,6 +2,9 @@ east_friesland = {
 	name = "East Friesland"
 	color = { 217 49 83 }
 	capital_settlement = emden
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

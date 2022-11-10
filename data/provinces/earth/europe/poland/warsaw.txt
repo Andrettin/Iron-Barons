@@ -2,6 +2,9 @@ warsaw = {
 	name = "Warsaw"
 	color = { 65 97 160 }
 	capital_settlement = warsaw
+	regions = {
+		poland
+	}
 	
 	history = {
 		1477 = {

@@ -2,6 +2,9 @@ baden = {
 	name = "Baden"
 	color = { 94 34 10 }
 	capital_settlement = karlsruhe
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

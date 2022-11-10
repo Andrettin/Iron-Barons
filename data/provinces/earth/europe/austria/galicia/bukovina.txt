@@ -2,6 +2,9 @@ bukovina = {
 	name = "Bukovina"
 	color = { 49 160 160 }
 	capital_settlement = czernowitz
+	regions = {
+		galicia
+	}
 	
 	history = {
 		1740 = {

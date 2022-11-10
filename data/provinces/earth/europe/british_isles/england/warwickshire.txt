@@ -2,6 +2,9 @@ warwickshire = {
 	name = "Warwickshire"
 	color = { 96 32 192 }
 	capital_settlement = coventry
+	regions = {
+		england
+	}
 	
 	history = {
 		1740 = {

@@ -1,6 +1,5 @@
-bohemia = {
+galicia = {
 	superregions = {
 		cisleithania
-		czechoslovakia
 	}
 }

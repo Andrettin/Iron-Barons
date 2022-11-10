@@ -2,6 +2,9 @@ bremen = {
 	name = "Bremen"
 	color = { 47 146 12 }
 	capital_settlement = bremen
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

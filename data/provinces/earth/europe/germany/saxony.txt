@@ -2,6 +2,9 @@ saxony = {
 	name = "Saxony"
 	color = { 121 83 104 }
 	capital_settlement = dresden
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

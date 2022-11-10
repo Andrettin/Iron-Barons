@@ -2,6 +2,9 @@ franconia = {
 	name = "Franconia"
 	color = { 202 229 25 }
 	capital_settlement = nuremberg
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

@@ -2,6 +2,9 @@ brandenburg = {
 	name = "Brandenburg"
 	color = { 131 177 168 }
 	capital_settlement = berlin
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

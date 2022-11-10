@@ -2,6 +2,9 @@ holstein = {
 	name = "Holstein"
 	color = { 128 65 96 }
 	capital_settlement = kiel
+	regions = {
+		germany
+	}
 	
 	history = {
 		1460 = {

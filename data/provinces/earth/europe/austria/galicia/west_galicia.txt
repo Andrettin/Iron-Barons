@@ -2,6 +2,10 @@ west_galicia = {
 	name = "West Galicia"
 	color = { 144 96 96 }
 	capital_settlement = cracow
+	regions = {
+		galicia
+		poland
+	}
 	
 	history = {
 		1740 = {

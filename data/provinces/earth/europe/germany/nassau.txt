@@ -2,6 +2,9 @@ nassau = {
 	name = "Nassau"
 	color = { 245 217 121 }
 	capital_settlement = wiesbaden
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

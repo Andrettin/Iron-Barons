@@ -2,6 +2,9 @@ augsburg = {
 	name = "Augsburg"
 	color = { 188 0 180 }
 	capital_settlement = augsburg
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

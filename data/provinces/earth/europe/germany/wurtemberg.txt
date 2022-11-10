@@ -2,6 +2,9 @@ wurtemberg = {
 	name = "Wurtemberg"
 	color = { 17 128 96 }
 	capital_settlement = stuttgart
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

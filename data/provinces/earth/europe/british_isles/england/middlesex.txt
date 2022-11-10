@@ -2,6 +2,9 @@ middlesex = {
 	name = "Middlesex"
 	color = { 224 224 192 }
 	capital_settlement = london
+	regions = {
+		england
+	}
 	
 	history = {
 		1740 = {

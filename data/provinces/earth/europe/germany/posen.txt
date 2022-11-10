@@ -5,6 +5,9 @@ posen = {
 	cultural_names = {
 		polish = "Poznan" #"Poznań"
 	}
+	regions = {
+		poland
+	}
 	
 	history = {
 		1477 = {

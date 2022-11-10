@@ -2,6 +2,9 @@ czenstochowa = {
 	name = "Czenstochowa"
 	color = { 126 21 144 }
 	capital_settlement = czenstochowa
+	regions = {
+		poland
+	}
 	
 	history = {
 		1477 = {

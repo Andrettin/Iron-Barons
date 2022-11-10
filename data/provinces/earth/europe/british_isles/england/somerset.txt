@@ -2,6 +2,9 @@ somerset = {
 	name = "Somerset"
 	color = { 222 47 96 }
 	capital_settlement = wells
+	regions = {
+		england
+	}
 	
 	history = {
 		1740 = {

@@ -2,6 +2,9 @@ carniola = {
 	name = "Carniola"
 	color = { 176 224 64 }
 	capital_settlement = laibach
+	regions = {
+		cisleithania
+	}
 	
 	history = {
 		1477 = {

@@ -2,6 +2,9 @@ mecklenburg = {
 	name = "Mecklenburg"
 	color = { 224 128 160 }
 	capital_settlement = schwerin
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

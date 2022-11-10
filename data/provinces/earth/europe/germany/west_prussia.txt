@@ -2,6 +2,9 @@ west_prussia = {
 	name = "West Prussia"
 	color = { 128 160 160 }
 	capital_settlement = danzig
+	regions = {
+		poland
+	}
 	
 	history = {
 		1466 = {

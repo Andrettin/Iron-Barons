@@ -2,6 +2,9 @@ oldenburg = {
 	name = "Oldenburg"
 	color = { 231 184 84 }
 	capital_settlement = oldenburg
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {

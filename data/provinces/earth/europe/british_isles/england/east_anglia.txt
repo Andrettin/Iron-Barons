@@ -2,6 +2,9 @@ east_anglia = {
 	name = "East Anglia"
 	color = { 85 93 61 }
 	capital_settlement = norwich
+	regions = {
+		england
+	}
 	
 	history = {
 		1740 = {

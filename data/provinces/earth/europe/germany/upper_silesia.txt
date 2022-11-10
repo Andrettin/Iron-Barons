@@ -2,6 +2,9 @@ upper_silesia = {
 	name = "Upper Silesia"
 	color = { 175 159 32 }
 	capital_settlement = oppeln
+	regions = {
+		poland
+	}
 	
 	history = {
 		1477 = {

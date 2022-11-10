@@ -2,6 +2,9 @@ palatinate = {
 	name = "Palatinate"
 	color = { 130 219 54 }
 	capital_settlement = mainz
+	regions = {
+		germany
+	}
 	
 	history = {
 		1477 = {
