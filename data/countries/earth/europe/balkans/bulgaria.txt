@@ -1,0 +1,9 @@
+bulgaria = {
+	name = "Bulgaria"
+	type = minor_nation
+	culture = bulgarian
+	capital_province = bulgaria
+	eras = {
+		industrial
+	}
+}

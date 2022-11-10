@@ -24,5 +24,11 @@ brabant = {
 		1831 = {
 			owner = belgium #became part of the Kingdom of Belgium in 1831; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
+		
+		germanys_future = {
+			1918 = {
+				owner = germany
+			}
+		}
 	}
 }

@@ -16,5 +16,11 @@ serbia = {
 		1739 = {
 			owner = ottoman_empire #became part of the Ottoman Empire in 1739; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
+		
+		germanys_future = {
+			1918 = {
+				owner = austria
+			}
+		}
 	}
 }

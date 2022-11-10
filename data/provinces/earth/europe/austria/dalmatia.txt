@@ -17,5 +17,9 @@ dalmatia = {
 		1740 = {
 			owner = venice #Venetian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
+		
+		1814 = {
+			owner = austria #became part of the Empire of Austria in 1814; Source: William R. Shepherd, "Historical Atlas", 1911, p. 157.
+		}
 	}
 }
