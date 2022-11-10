@@ -7,12 +7,15 @@ minas_gerais = {
 	}
 	
 	history = {
+		culture = tupi
+		
 		1300 = {
 			owner = tupi
 		}
 		
 		1790 = {
 			owner = brazil #part of Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+			culture = portuguese
 		}
 	}
 }
