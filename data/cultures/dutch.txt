@@ -1,4 +1,5 @@
 dutch = {
 	name = "Dutch"
 	group = german
+	color = { 255 90 8 }
 }

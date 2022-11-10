@@ -1,4 +1,5 @@
 swedish = {
 	name = "Swedish"
 	group = scandinavian
+	color = { 0 173 198 }
 }

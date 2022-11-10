@@ -1,4 +1,5 @@
 austrian = {
 	name = "Austrian"
 	group = german
+	color = { 244 121 126 }
 }

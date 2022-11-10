@@ -26,6 +26,7 @@ PopulationChart {
 			var culture = population_per_culture[i].key
 			var count = population_per_culture[i].value
 			var pie_slice = pie_series.append(culture.name, count)
+			pie_slice.color = culture.color
 			pie_slice.borderColor = "black"
 		}
 	}

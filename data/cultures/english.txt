@@ -1,4 +1,5 @@
 english = {
 	name = "English"
 	group = anglo_saxon
+	color = { 206 8 8 }
 }
