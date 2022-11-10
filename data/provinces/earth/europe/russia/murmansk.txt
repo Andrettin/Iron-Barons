@@ -8,5 +8,11 @@ murmansk = {
 	
 	history = {
 		culture = russian
+		
+		germanys_future = {
+			1918 = {
+				owner = germany
+			}
+		}
 	}
 }

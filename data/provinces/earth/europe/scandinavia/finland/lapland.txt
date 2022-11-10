@@ -8,5 +8,11 @@ lapland = {
 	
 	history = {
 		culture = finnish
+		
+		germanys_future = {
+			1918 = {
+				owner = germany
+			}
+		}
 	}
 }

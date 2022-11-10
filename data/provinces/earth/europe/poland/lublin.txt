@@ -16,5 +16,11 @@ lublin = {
 		1815 = {
 			owner = poland #part of the Kingdom of Poland in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
+		
+		germanys_future = {
+			1918 = {
+				owner = germany
+			}
+		}
 	}
 }
