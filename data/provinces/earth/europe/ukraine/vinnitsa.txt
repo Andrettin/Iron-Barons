@@ -2,6 +2,9 @@ vinnitsa = {
 	name = "Vinnitsa"
 	color = { 240 224 33 }
 	capital_settlement = vinnitsa
+	regions = {
+		ukraine
+	}
 	
 	history = {
 		1740 = {

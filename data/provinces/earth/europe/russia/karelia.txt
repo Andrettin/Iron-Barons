@@ -2,6 +2,9 @@ karelia = {
 	name = "Karelia"
 	color = { 172 130 218 }
 	capital_settlement = petrozavodsk
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1721 = {

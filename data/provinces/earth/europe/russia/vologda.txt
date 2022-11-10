@@ -2,6 +2,9 @@ vologda = {
 	name = "Vologda"
 	color = { 143 47 105 }
 	capital_settlement = vologda
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {

@@ -2,6 +2,9 @@ brest = {
 	name = "Brest"
 	color = { 191 223 32 }
 	capital_settlement = brest
+	regions = {
+		byelorussia
+	}
 	
 	history = {
 		1740 = {

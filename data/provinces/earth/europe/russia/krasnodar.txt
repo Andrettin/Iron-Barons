@@ -2,6 +2,9 @@ krasnodar = {
 	name = "Krasnodar"
 	color = { 154 59 122 }
 	capital_settlement = krasnodar
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1699 = {

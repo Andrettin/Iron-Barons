@@ -2,6 +2,9 @@ kherson = {
 	name = "Kherson"
 	color = { 173 45 162 }
 	capital_settlement = kherson
+	regions = {
+		ukraine
+	}
 	
 	history = {
 		1740 = {

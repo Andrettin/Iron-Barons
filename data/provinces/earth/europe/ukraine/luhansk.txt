@@ -2,6 +2,9 @@ luhansk = {
 	name = "Luhansk"
 	color = { 113 97 224 }
 	capital_settlement = luhansk
+	regions = {
+		ukraine
+	}
 	
 	history = {
 		1740 = {

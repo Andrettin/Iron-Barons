@@ -2,6 +2,9 @@ voronezh = {
 	name = "Voronezh"
 	color = { 234 125 69 }
 	capital_settlement = voronezh
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {

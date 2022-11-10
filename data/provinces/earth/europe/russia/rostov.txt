@@ -2,6 +2,9 @@ rostov = {
 	name = "Rostov"
 	color = { 177 191 157 }
 	capital_settlement = rostov
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {

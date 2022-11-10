@@ -2,6 +2,9 @@ chernigov = {
 	name = "Chernigov"
 	color = { 224 128 97 }
 	capital_settlement = chernigov
+	regions = {
+		ukraine
+	}
 	
 	history = {
 		1740 = {

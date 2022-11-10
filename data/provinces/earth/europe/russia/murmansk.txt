@@ -2,4 +2,7 @@ murmansk = {
 	name = "Murmansk"
 	color = { 172 179 160 }
 	capital_settlement = murmansk
+	regions = {
+		european_russia
+	}
 }

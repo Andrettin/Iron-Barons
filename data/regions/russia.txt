@@ -1,0 +1,6 @@
+russia = {
+	superregions = {
+		commonwealth_of_independent_states
+		soviet_union
+	}
+}

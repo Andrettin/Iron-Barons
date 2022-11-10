@@ -2,6 +2,9 @@ moscow = {
 	name = "Moscow"
 	color = { 224 160 33 }
 	capital_settlement = moscow
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {

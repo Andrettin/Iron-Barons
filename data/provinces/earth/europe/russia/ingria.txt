@@ -5,6 +5,9 @@ ingria = {
 	cultural_names = {
 		swedish = "Ingermanland"
 	}
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1721 = {

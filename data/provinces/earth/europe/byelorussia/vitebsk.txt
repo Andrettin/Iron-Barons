@@ -2,6 +2,9 @@ vitebsk = {
 	name = "Vitebsk"
 	color = { 192 160 224 }
 	capital_settlement = vitebsk
+	regions = {
+		byelorussia
+	}
 	
 	history = {
 		1740 = {

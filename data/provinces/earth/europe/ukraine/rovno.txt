@@ -2,6 +2,9 @@ rovno = {
 	name = "Rovno"
 	color = { 113 224 160 }
 	capital_settlement = rovno
+	regions = {
+		ukraine
+	}
 	
 	history = {
 		1740 = {

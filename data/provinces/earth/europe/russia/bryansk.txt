@@ -2,6 +2,9 @@ bryansk = {
 	name = "Bryansk"
 	color = { 173 107 57 }
 	capital_settlement = bryansk
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {

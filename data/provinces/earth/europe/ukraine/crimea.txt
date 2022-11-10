@@ -2,6 +2,9 @@ crimea = {
 	name = "Crimea"
 	color = { 176 223 223 }
 	capital_settlement = sevastopol
+	regions = {
+		ukraine
+	}
 	
 	history = {
 		1740 = {

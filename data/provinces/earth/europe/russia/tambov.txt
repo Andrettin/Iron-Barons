@@ -2,4 +2,7 @@ tambov = {
 	name = "Tambov"
 	color = { 156 132 226 }
 	capital_settlement = tambov
+	regions = {
+		european_russia
+	}
 }

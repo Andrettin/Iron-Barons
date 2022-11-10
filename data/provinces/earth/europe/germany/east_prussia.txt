@@ -2,6 +2,9 @@ east_prussia = {
 	name = "East Prussia"
 	color = { 65 33 160 }
 	capital_settlement = konigsberg
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1477 = {

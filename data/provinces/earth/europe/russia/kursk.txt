@@ -2,6 +2,9 @@ kursk = {
 	name = "Kursk"
 	color = { 61 10 107 }
 	capital_settlement = kursk
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {

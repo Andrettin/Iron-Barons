@@ -2,6 +2,9 @@ donetsk = {
 	name = "Donetsk"
 	color = { 173 210 62 }
 	capital_settlement = donetsk
+	regions = {
+		ukraine
+	}
 	
 	history = {
 		1740 = {

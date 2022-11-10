@@ -2,6 +2,9 @@ vladimir = {
 	name = "Vladimir"
 	color = { 42 20 43 }
 	capital_settlement = vladimir
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {

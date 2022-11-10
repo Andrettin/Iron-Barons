@@ -2,6 +2,9 @@ nizhegorod = {
 	name = "Nizhegorod"
 	color = { 81 19 61 }
 	capital_settlement = nizhny_novgorod
+	regions = {
+		european_russia
+	}
 	
 	history = {
 		1740 = {
