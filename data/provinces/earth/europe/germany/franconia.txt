@@ -16,5 +16,9 @@ franconia = {
 		1815 = {
 			owner = bavaria #part of the Kingdom of Bavaria in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
+		
+		1871 = {
+			owner = germany #became part of the German Empire in 1871; Source: William R. Shepherd, "Historical Atlas", 1911, p. 161.
+		}
 	}
 }
