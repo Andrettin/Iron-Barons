@@ -1,0 +1,4 @@
+byelorussian = {
+	name = "Byelorussian"
+	group = east_slavic
+}

@@ -5,4 +5,8 @@ trondelag = {
 	regions = {
 		norway
 	}
+	
+	history = {
+		culture = norwegian
+	}
 }

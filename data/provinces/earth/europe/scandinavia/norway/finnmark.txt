@@ -5,4 +5,8 @@ finnmark = {
 	regions = {
 		norway
 	}
+	
+	history = {
+		culture = norwegian
+	}
 }
