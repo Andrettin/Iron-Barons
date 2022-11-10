@@ -32,6 +32,7 @@ MenuBase {
 	}
 	
 	SmallText {
+		id: country_text
 		text: selected_country ? (
 			selected_country.name
 			+ "\n"
@@ -69,6 +70,15 @@ MenuBase {
 			
 			return str
 		}
+	}
+	
+	CultureChart {
+		id: culture_chart
+		anchors.top: country_text.top
+		anchors.right: diplomatic_map_background.right
+		anchors.rightMargin: 4 * scale_factor
+		visible: selected_country !== null
+		data_source: selected_country ? selected_country.game_data : null
 	}
 	
 	Rectangle {
