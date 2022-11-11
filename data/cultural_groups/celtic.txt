@@ -1,3 +1,4 @@
 celtic = {
 	name = "Celtic"
+	default_phenotype = light
 }

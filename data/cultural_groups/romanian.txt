@@ -1,3 +1,4 @@
 romanian = {
 	name = "Romanian"
+	default_phenotype = light
 }

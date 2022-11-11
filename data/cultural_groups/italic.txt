@@ -1,3 +1,4 @@
 italic = {
 	name = "Italic"
+	default_phenotype = light
 }

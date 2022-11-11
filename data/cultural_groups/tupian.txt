@@ -1,3 +1,4 @@
 tupian = {
 	name = "Tupian"
+	default_phenotype = medium
 }

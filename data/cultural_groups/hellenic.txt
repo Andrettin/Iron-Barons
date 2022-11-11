@@ -1,3 +1,4 @@
 hellenic = {
 	name = "Hellenic"
+	default_phenotype = light
 }

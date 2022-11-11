@@ -1,3 +1,4 @@
 arabic = {
 	name = "Arabic"
+	default_phenotype = light
 }

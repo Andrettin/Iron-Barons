@@ -1,3 +1,4 @@
 baltic = {
 	name = "Baltic"
+	default_phenotype = light
 }

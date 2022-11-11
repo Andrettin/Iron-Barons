@@ -1,3 +1,4 @@
 anglo_saxon = {
 	name = "Anglo-Saxon"
+	default_phenotype = light
 }

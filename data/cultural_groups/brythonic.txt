@@ -1,3 +1,4 @@
 brythonic = {
 	name = "Brythonic"
+	default_phenotype = light
 }

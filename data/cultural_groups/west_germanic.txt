@@ -1,3 +1,4 @@
 west_germanic = {
 	name = "West Germanic"
+	default_phenotype = light
 }

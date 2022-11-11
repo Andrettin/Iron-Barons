@@ -1,3 +1,4 @@
 basque = {
 	name = "Basque"
+	default_phenotype = light
 }

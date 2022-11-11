@@ -1,3 +1,4 @@
 iberian = {
 	name = "Iberian"
+	default_phenotype = light
 }

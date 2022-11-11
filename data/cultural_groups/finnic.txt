@@ -1,3 +1,4 @@
 finnic = {
 	name = "Finnic"
+	default_phenotype = light
 }

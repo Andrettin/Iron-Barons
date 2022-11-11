@@ -1,3 +1,4 @@
 west_slavic = {
 	name = "West Slavic"
+	default_phenotype = light
 }

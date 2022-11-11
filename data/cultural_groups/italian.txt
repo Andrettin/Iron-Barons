@@ -1,3 +1,4 @@
 italian = {
 	name = "Italian"
+	default_phenotype = light
 }

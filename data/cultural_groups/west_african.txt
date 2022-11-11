@@ -1,3 +1,4 @@
 west_african = {
 	name = "West African"
+	default_phenotype = dark
 }

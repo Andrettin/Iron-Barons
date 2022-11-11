@@ -1,3 +1,4 @@
 magyar = {
 	name = "Magyar"
+	default_phenotype = light
 }
