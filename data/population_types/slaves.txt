@@ -1,7 +1,7 @@
 slaves = {
 	name = "Slaves"
 	population_class = slaves
-	color = { 17 17 17 }
+	color = { 173 143 137 }
 	icon = slaves_light
 	small_icon = slaves_light_small
 	phenotype_icons = {
