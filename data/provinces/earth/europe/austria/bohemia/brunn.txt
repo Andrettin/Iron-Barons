@@ -6,7 +6,7 @@ brunn = {
 		czech = "Brno"
 	}
 	regions = {
-		bohemia
+		moravia
 	}
 	
 	history = {

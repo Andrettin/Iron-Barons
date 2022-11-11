@@ -3,6 +3,7 @@ lublin = {
 	color = { 81 160 224 }
 	capital_settlement = lublin
 	regions = {
+		galicia_and_west_galicia
 		poland
 	}
 	
