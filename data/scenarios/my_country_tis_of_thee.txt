@@ -1,0 +1,7 @@
+my_country_tis_of_thee = {
+	name = "My Country, 'Tis of Thee"
+	start_date = 1920
+	timeline = my_country_tis_of_thee
+	map_template = earth
+	description = "In February 10, 1916, Life Magazine published a map on its cover depicting the United States under Imperial German domination, warning that this could be the country's future if it did not intervene in the Great War then raging in Europe. This scenario replicates the situation described in that map."
+}

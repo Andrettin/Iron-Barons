@@ -1,0 +1,6 @@
+romania = {
+	name = "Romania"
+	type = minor_nation
+	culture = romanian
+	capital_province = wallachia
+}

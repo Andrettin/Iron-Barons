@@ -1,0 +1,6 @@
+new_mexico = {
+	name = "New Mexico"
+	type = minor_nation
+	culture = english
+	capital_province = new_mexico
+}

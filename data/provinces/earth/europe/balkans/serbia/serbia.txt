@@ -19,7 +19,7 @@ serbia = {
 		
 		germanys_future = {
 			1918 = {
-				owner = austria
+				owner = austria #Source: "The British Dominions Year Book 1918", 1918, Map 11.
 			}
 		}
 	}
