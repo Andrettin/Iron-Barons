@@ -26,6 +26,8 @@ minas_gerais = {
 		}
 		
 		1786 = {
+			population = 362847 #362,847 people lived in Minas Gerais in 1786; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+			
 			population_groups = {
 				slaves.african = 174135 #174,135 slaves lived in Minas Gerais in 1786; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
 			}
@@ -37,24 +39,32 @@ minas_gerais = {
 		}
 		
 		1805 = {
+			population = 406984 #406,984 people lived in Minas Gerais in 1805; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+			
 			population_groups = {
 				slaves.african = 188761 #188,761 slaves lived in Minas Gerais in 1805; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
 			}
 		}
 		
 		1808 = {
+			population = 433049 #433,049 people lived in Minas Gerais in 1808; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+			
 			population_groups = {
 				slaves.african = 148772 #148,772 slaves lived in Minas Gerais in 1808; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
 			}
 		}
 		
 		1821 = {
+			population = 514537 #514,537 people lived in Minas Gerais in 1821; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+			
 			population_groups = {
 				slaves.african = 171204 #171,204 slaves lived in Minas Gerais in 1821; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
 			}
 		}
 		
 		1823 = {
+			population = 518985 #518,985 people lived in Minas Gerais in 1823; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+			
 			population_groups = {
 				slaves.african = 140365 #140,365 slaves lived in Minas Gerais in 1823; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
 			}
