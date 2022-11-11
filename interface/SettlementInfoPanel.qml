@@ -36,7 +36,7 @@ Item {
 				id: population_type_icon
 				anchors.top: parent.top
 				anchors.horizontalCenter: parent.horizontalCenter
-				source: "image://icon/" + population_type.small_icon.identifier
+				source: "image://icon/" + province_game_data.get_population_type_small_icon(population_type).identifier
 			}
 			
 			SmallText {
