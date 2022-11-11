@@ -1,6 +1,14 @@
 slaves = {
 	name = "Slaves"
 	population_class = slaves
-	icon = slaves_dark
-	small_icon = slaves_dark_small
+	icon = slaves_light
+	small_icon = slaves_light_small
+	phenotype_icons = {
+		medium = slaves_medium
+		dark = slaves_dark
+	}
+	phenotype_small_icons = {
+		medium = slaves_medium_small
+		dark = slaves_dark_small
+	}
 }

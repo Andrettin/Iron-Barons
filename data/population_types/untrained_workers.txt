@@ -3,4 +3,12 @@ untrained_workers = {
 	population_class = untrained_workers
 	icon = craftsmen_light
 	small_icon = craftsmen_light_small
+	phenotype_icons = {
+		medium = craftsmen_medium
+		dark = craftsmen_dark
+	}
+	phenotype_small_icons = {
+		medium = craftsmen_medium_small
+		dark = craftsmen_dark_small
+	}
 }
