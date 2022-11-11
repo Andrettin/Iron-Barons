@@ -1,0 +1,3 @@
+afro_european = {
+	name = "Afro-European"
+}

@@ -1,4 +1,4 @@
 celtic = {
 	name = "Celtic"
-	default_phenotype = light
+	default_phenotype = european
 }

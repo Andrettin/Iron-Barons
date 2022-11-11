@@ -1,4 +1,4 @@
 kwakiutl = {
 	name = "Kwakiutl"
-	default_phenotype = medium
+	default_phenotype = amerindian
 }

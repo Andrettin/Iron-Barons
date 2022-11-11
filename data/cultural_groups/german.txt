@@ -1,4 +1,4 @@
 german = {
 	name = "German"
-	default_phenotype = light
+	default_phenotype = european
 }

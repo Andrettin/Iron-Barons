@@ -1,0 +1,3 @@
+amerindian = {
+	name = "Amerindian"
+}

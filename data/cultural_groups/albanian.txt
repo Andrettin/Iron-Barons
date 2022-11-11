@@ -1,4 +1,4 @@
 albanian = {
 	name = "Albanian"
-	default_phenotype = light
+	default_phenotype = european
 }

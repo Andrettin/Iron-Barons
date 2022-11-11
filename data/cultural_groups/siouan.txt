@@ -1,4 +1,4 @@
 siouan = {
 	name = "Siouan"
-	default_phenotype = medium
+	default_phenotype = amerindian
 }

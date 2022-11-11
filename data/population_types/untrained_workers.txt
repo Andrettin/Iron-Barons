@@ -4,11 +4,15 @@ untrained_workers = {
 	icon = craftsmen_light
 	small_icon = craftsmen_light_small
 	phenotype_icons = {
-		medium = craftsmen_medium
-		dark = craftsmen_dark
+		afro_european = craftsmen_medium
+		amerindian = craftsmen_medium
+		south_asian = craftsmen_medium
+		african = craftsmen_dark
 	}
 	phenotype_small_icons = {
-		medium = craftsmen_medium_small
-		dark = craftsmen_dark_small
+		afro_european = craftsmen_medium_small
+		amerindian = craftsmen_medium_small
+		south_asian = craftsmen_medium_small
+		african = craftsmen_dark_small
 	}
 }

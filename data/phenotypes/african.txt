@@ -1,0 +1,3 @@
+african = {
+	name = "African"
+}

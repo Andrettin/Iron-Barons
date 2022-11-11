@@ -1,4 +1,4 @@
 turkic = {
 	name = "Turkic"
-	default_phenotype = light
+	default_phenotype = middle_eastern
 }

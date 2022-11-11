@@ -1,4 +1,4 @@
 malay = {
 	name = "Malay"
-	default_phenotype = medium
+	default_phenotype = east_asian
 }

@@ -1,4 +1,4 @@
 east_slavic = {
 	name = "East Slavic"
-	default_phenotype = light
+	default_phenotype = european
 }

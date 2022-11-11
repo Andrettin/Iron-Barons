@@ -1,4 +1,4 @@
 west_germanic = {
 	name = "West Germanic"
-	default_phenotype = light
+	default_phenotype = european
 }

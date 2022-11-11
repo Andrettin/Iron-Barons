@@ -1,0 +1,3 @@
+east_asian = {
+	name = "East Asian"
+}

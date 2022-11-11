@@ -1,4 +1,4 @@
 iroquoian = {
 	name = "Iroquoian"
-	default_phenotype = medium
+	default_phenotype = amerindian
 }
