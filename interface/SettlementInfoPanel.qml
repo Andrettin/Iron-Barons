@@ -23,6 +23,7 @@ Item {
 		anchors.bottom: back_button.top
 		anchors.bottomMargin: 8 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
+		spacing: 8 * scale_factor
 		clip: true
 		model: province_game_data.population_type_counts
 		delegate: Item {
