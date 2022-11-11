@@ -81,9 +81,18 @@ Item {
 		)
 	}
 	
+	CultureChart {
+		id: culture_chart
+		anchors.top: icon.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		visible: selected_site && selected_site.settlement
+		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
+	}
+	
 	SmallText {
 		id: population_label
-		anchors.top: icon.bottom
+		anchors.top: culture_chart.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
