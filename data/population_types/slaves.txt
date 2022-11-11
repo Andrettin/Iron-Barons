@@ -1,0 +1,6 @@
+slaves = {
+	name = "Slaves"
+	population_class = slaves
+	icon = slaves_dark
+	small_icon = slaves_dark_small
+}
