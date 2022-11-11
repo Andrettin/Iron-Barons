@@ -1,0 +1,11 @@
+dark = {
+	name = "Dark"
+}
+
+light = {
+	name = "Light"
+}
+
+medium = {
+	name = "Medium"
+}
