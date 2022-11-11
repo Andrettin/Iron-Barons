@@ -81,11 +81,24 @@ Item {
 		)
 	}
 	
+	PopulationTypeChart {
+		id: population_type_chart
+		anchors.top: culture_chart.top
+		anchors.right: culture_chart.left
+		anchors.rightMargin: 8 * scale_factor
+		width: 48 * scale_factor
+		height: 48 * scale_factor
+		visible: selected_site && selected_site.settlement
+		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
+	}
+	
 	CultureChart {
 		id: culture_chart
 		anchors.top: icon.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		width: 48 * scale_factor
+		height: 48 * scale_factor
 		visible: selected_site && selected_site.settlement
 		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
 	}

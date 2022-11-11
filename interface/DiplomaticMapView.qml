@@ -53,6 +53,15 @@ Item {
 		anchors.topMargin: 16 * scale_factor
 	}
 	
+	PopulationTypeChart {
+		id: population_type_chart
+		anchors.top: culture_chart.top
+		anchors.right: culture_chart.left
+		anchors.rightMargin: 16 * scale_factor
+		visible: selected_country !== null
+		data_source: selected_country ? selected_country.game_data : null
+	}
+	
 	CultureChart {
 		id: culture_chart
 		anchors.top: country_text.top
