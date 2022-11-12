@@ -24,5 +24,9 @@ sicily = {
 		1735 = {
 			owner = sicily #became part of the Kingdom of the Two Sicilies under the Spanish Bourbons in 1735; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
+		
+		1815 = {
+			culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+		}
 	}
 }

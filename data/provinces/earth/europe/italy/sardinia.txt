@@ -20,5 +20,9 @@ sardinia = {
 		1720 = {
 			owner = savoy #became a Savoyard possession in 1720; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
+		
+		1815 = {
+			culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+		}
 	}
 }

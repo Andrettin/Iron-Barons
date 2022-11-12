@@ -22,6 +22,8 @@ posen = {
 		
 		1815 = {
 			owner = prussia #part of the Kingdom of Prussia in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			
+			culture = polish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 		}
 		
 		1871 = {

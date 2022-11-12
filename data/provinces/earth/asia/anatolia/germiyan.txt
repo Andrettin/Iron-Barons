@@ -12,5 +12,9 @@ germiyan = {
 		1740 = {
 			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
+		
+		1815 = {
+			culture = turkish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+		}
 	}
 }

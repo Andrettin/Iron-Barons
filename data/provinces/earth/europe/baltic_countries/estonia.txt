@@ -13,6 +13,10 @@ estonia = {
 			owner = russia #became part of the Russian Empire in 1721; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 		
+		1815 = {
+			culture = estonian #Chude; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+		}
+		
 		germanys_future = {
 			1918 = {
 				owner = germany #Source: "The British Dominions Year Book 1918", 1918, Map 11.
