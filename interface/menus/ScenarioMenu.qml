@@ -23,12 +23,15 @@ MenuBase {
 	
 	DiplomaticMap {
 		id: diplomatic_map
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: 64 * scale_factor
-		anchors.verticalCenter: parent.verticalCenter
-		anchors.verticalCenterOffset: -32 * scale_factor
+		anchors.left: scenario_list.right
+		anchors.leftMargin: 16 * scale_factor
+		anchors.right: parent.right
+		anchors.rightMargin: 16 * scale_factor
+		anchors.top: title_item.bottom
+		anchors.topMargin: 32 * scale_factor
+		anchors.bottom: country_text.top
+		anchors.bottomMargin: 16 * scale_factor
 		width: 512 * scale_factor
-		height: 256 * scale_factor
 	}
 	
 	SmallText {
@@ -41,8 +44,7 @@ MenuBase {
 		anchors.leftMargin: 4 * scale_factor
 		anchors.right: scenario_list.right
 		anchors.rightMargin: 4 * scale_factor
-		anchors.top: previous_menu_button.bottom
-		anchors.topMargin: 16 * scale_factor
+		anchors.top: country_text.top
 		wrapMode: Text.WordWrap
 	}
 	
@@ -69,8 +71,9 @@ MenuBase {
 		) : ""
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
-		anchors.top: diplomatic_map_background.bottom
-		anchors.topMargin: 16 * scale_factor
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 16 * scale_factor
+		height: 128 * scale_factor
 		
 		readonly property int vassal_count: selected_country ? (selected_country.game_data.vassals.length - selected_country.game_data.colonies.length) : 0
 		
@@ -85,6 +88,15 @@ MenuBase {
 			
 			return str
 		}
+	}
+	
+	PopulationTypeChart {
+		id: population_type_chart
+		anchors.top: culture_chart.top
+		anchors.right: culture_chart.left
+		anchors.rightMargin: 16 * scale_factor
+		visible: selected_country !== null
+		data_source: selected_country ? selected_country.game_data : null
 	}
 	
 	CultureChart {
@@ -109,8 +121,10 @@ MenuBase {
 	
 	ListView {
 		id: scenario_list
-		anchors.right: diplomatic_map.left
-		anchors.rightMargin: 16 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 16 * scale_factor
+		anchors.top: title_item.bottom
+		anchors.topMargin: 32 * scale_factor
 		anchors.bottom: start_game_button.top
 		anchors.bottomMargin: 16 * scale_factor
 		width: 256 * scale_factor
@@ -150,7 +164,8 @@ MenuBase {
 	TextButton {
 		id: start_game_button
 		anchors.horizontalCenter: scenario_list.horizontalCenter
-		anchors.verticalCenter: parent.verticalCenter
+		anchors.bottom: previous_menu_button.top
+		anchors.bottomMargin: 8 * scale_factor
 		text: qsTr("Start Game")
 		width: 96 * scale_factor
 		height: 24 * scale_factor
@@ -170,8 +185,8 @@ MenuBase {
 	TextButton {
 		id: previous_menu_button
 		anchors.horizontalCenter: start_game_button.horizontalCenter
-		anchors.top: start_game_button.bottom
-		anchors.topMargin: 8 * scale_factor
+		anchors.bottom: diplomatic_map.bottom
+		anchors.bottomMargin: 8 * scale_factor
 		text: qsTr("Previous Menu")
 		width: 96 * scale_factor
 		height: 24 * scale_factor
