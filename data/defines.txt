@@ -14,6 +14,6 @@ ocean_color = { 49 82 123 }
 minimap_ocean_color = { 49 82 123 }
 conversible_country_palette = violet
 minor_nation_palette = gray
-default_settlement_image_filepath = "tiles/settlements/dwarven_settlement.png"
+default_settlement_image_filepath = "tiles/settlements/town.png"
 province_border_image_filepath = "tiles/borders/province_border.png"
 min_diplomatic_map_tile_scale = 2
