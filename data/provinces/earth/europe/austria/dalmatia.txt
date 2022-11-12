@@ -21,5 +21,9 @@ dalmatia = {
 		1814 = {
 			owner = austria #became part of the Empire of Austria in 1814; Source: William R. Shepherd, "Historical Atlas", 1911, p. 157.
 		}
+		
+		1815 = {
+			culture = croatian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+		}
 	}
 }
