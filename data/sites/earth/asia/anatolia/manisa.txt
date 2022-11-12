@@ -1,0 +1,7 @@
+manisa = {
+	name = "Manisa"
+	world = earth
+	geocoordinate = { 27.43996821970 38.63039267890 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = settlement
+}

@@ -1,0 +1,6 @@
+bursa = {
+	name = "Bursa"
+	world = earth
+	geocoordinate = { 29.06999792350 40.19998679510 } #from Natural Earth
+	type = settlement
+}

@@ -1,0 +1,9 @@
+smyrna = {
+	name = "Smyrna"
+	world = earth
+	geocoordinate = { 27.15179401050 38.43614968230 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		turkish = "Izmir" #"İzmir"
+	}
+}

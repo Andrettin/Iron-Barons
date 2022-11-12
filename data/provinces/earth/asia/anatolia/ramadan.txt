@@ -1,0 +1,5 @@
+ramadan = {
+	name = "Ramadan"
+	color = { 180 178 61 }
+	capital_settlement = adana
+}

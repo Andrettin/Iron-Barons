@@ -1,7 +1,7 @@
-anatolia = {
-	name = "Anatolia"
-	color = { 113 164 104 }
-	capital_settlement = ankara
+saruhan = {
+	name = "Saruhan"
+	color = { 175 27 216 }
+	capital_settlement = manisa
 	
 	history = {
 		1740 = {

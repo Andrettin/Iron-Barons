@@ -1,0 +1,6 @@
+adana = {
+	name = "Adana"
+	world = earth
+	geocoordinate = { 35.32000402700 36.99498862610 } #from Natural Earth
+	type = settlement
+}

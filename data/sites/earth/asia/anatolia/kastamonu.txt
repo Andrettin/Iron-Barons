@@ -1,0 +1,6 @@
+kastamonu = {
+	name = "Kastamonu"
+	world = earth
+	geocoordinate = { 33.78300349050 41.38900215260 } #from Natural Earth
+	type = settlement
+}
