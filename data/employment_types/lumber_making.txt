@@ -1,0 +1,14 @@
+lumber_making = {
+	name = "Lumber Making"
+	input_commodities = {
+		timber = 1
+	}
+	output_commodity = lumber
+	output_multiplier = 0.5
+	employees = {
+		untrained_workers
+		apprentice_carpenters
+		journeyman_carpenters
+		master_carpenters
+	}
+}

@@ -1,0 +1,14 @@
+furniture_making = {
+	name = "Furniture Making"
+	input_commodities = {
+		lumber = 1
+	}
+	output_commodity = furniture
+	output_multiplier = 0.5
+	employees = {
+		untrained_workers
+		apprentice_carpenters
+		journeyman_carpenters
+		master_carpenters
+	}
+}
