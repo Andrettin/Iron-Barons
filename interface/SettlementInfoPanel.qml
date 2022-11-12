@@ -25,7 +25,7 @@ Item {
 		boundsBehavior: Flickable.StopAtBounds
 		spacing: 8 * scale_factor
 		clip: true
-		model: province_game_data.population_type_counts
+		model: sort_model(province_game_data.population_type_counts)
 		delegate: Item {
 			width: population_unit_list.width
 			height: 48 * scale_factor
@@ -59,6 +59,21 @@ Item {
 					status_text = ""
 				}
 			}
+		}
+		
+		function sort_model(population_type_counts) {
+			population_type_counts.sort((a, b) => {
+				if (a.value > b.value) {
+					return -1
+				}
+				
+				if (a.value < b.value) {
+					return 1
+				}
+				
+				return 0
+			})
+			return population_type_counts
 		}
 	}
 	
