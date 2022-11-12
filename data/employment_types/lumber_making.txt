@@ -6,7 +6,7 @@ lumber_making = {
 	output_commodity = lumber
 	output_multiplier = 0.5
 	employees = {
-		untrained_workers
+		freemen
 		apprentice_carpenters
 		journeyman_carpenters
 		master_carpenters

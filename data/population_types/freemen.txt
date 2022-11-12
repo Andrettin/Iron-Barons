@@ -1,6 +1,6 @@
-untrained_workers = {
-	name = "Untrained Workers"
-	population_class = untrained_workers
+freemen = {
+	name = "Freemen"
+	population_class = freemen
 	color = { 189 57 36 }
 	icon = craftsmen_light
 	small_icon = craftsmen_light_small
