@@ -1,0 +1,68 @@
+apprentice_carpenters = {
+	name = "Apprentice Carpenters"
+	population_class = apprentice_carpenters
+	icon = craftsmen_light
+	small_icon = craftsmen_light_small
+	phenotype_icons = {
+		afro_european = craftsmen_medium
+		amerindian = craftsmen_medium
+		south_asian = craftsmen_medium
+		african = craftsmen_dark
+	}
+	phenotype_small_icons = {
+		afro_european = craftsmen_medium_small
+		amerindian = craftsmen_medium_small
+		south_asian = craftsmen_medium_small
+		african = craftsmen_dark_small
+	}
+	production_multipliers = {
+		lumber = 2
+		furniture = 2
+	}
+}
+
+journeyman_carpenters = {
+	name = "Journeyman Carpenters"
+	population_class = journeyman_carpenters
+	icon = craftsmen_light
+	small_icon = craftsmen_light_small
+	phenotype_icons = {
+		afro_european = craftsmen_medium
+		amerindian = craftsmen_medium
+		south_asian = craftsmen_medium
+		african = craftsmen_dark
+	}
+	phenotype_small_icons = {
+		afro_european = craftsmen_medium_small
+		amerindian = craftsmen_medium_small
+		south_asian = craftsmen_medium_small
+		african = craftsmen_dark_small
+	}
+	production_multipliers = {
+		lumber = 3
+		furniture = 3
+	}
+}
+
+master_carpenters = {
+	name = "Master Carpenters"
+	population_class = master_carpenters
+	icon = craftsmen_light
+	small_icon = craftsmen_light_small
+	phenotype_icons = {
+		afro_european = craftsmen_medium
+		amerindian = craftsmen_medium
+		south_asian = craftsmen_medium
+		african = craftsmen_dark
+	}
+	phenotype_small_icons = {
+		afro_european = craftsmen_medium_small
+		amerindian = craftsmen_medium_small
+		south_asian = craftsmen_medium_small
+		african = craftsmen_dark_small
+	}
+	production_multipliers = {
+		lumber = 4
+		furniture = 4
+	}
+}
