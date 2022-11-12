@@ -2,4 +2,11 @@ karaman = {
 	name = "Karaman"
 	color = { 70 0 137 }
 	capital_settlement = karaman
+	regions = {
+		anatolia
+	}
+	
+	history = {
+		culture = turkish		
+	}
 }

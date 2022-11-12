@@ -2,4 +2,11 @@ trebizond = {
 	name = "Trebizond"
 	color = { 228 165 197 }
 	capital_settlement = trebizond
+	regions = {
+		anatolia
+	}
+	
+	history = {
+		culture = turkish		
+	}
 }
