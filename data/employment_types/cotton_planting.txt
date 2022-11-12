@@ -3,6 +3,7 @@ cotton_planting = {
 	output_commodity = cotton
 	employees = {
 		slaves
+		tribesmen
 		freemen
 	}
 }
