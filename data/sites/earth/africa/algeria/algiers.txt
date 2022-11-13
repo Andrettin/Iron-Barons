@@ -3,4 +3,10 @@ algiers = {
 	world = earth
 	geocoordinate = { 3.05055252952 36.76306479800 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1815 = {
+			population = 170000 #Algiers had a population of 170,000 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
+		}
+	}
 }

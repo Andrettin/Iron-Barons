@@ -8,5 +8,9 @@ rome = {
 		1600 = {
 			population = 100000 #Rome had a population of 100,000 in 1600; Source: Henry Kamen, "The Iron Century", p. 419.
 		}
+		
+		1815 = {
+			population = 160000 #Rome had a population of 160,000 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 88.
+		}
 	}
 }
