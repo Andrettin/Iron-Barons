@@ -7,6 +7,7 @@ default_province_terrain = plains
 default_water_zone_terrain = ocean
 default_population_class = freemen
 population_per_unit = 10000
+population_growth_threshold = 100
 minor_nation_color = { 221 216 181 }
 country_border_color = { 0 0 0 }
 selected_country_color = { 255 255 0 }
