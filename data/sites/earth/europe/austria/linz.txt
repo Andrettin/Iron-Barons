@@ -3,4 +3,10 @@ linz = {
 	world = earth
 	geocoordinate = { 14.28878128930 48.31923280750 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1815 = {
+			population = 18754 #Linz had a population of 18,754 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 86.
+		}
+	}
 }

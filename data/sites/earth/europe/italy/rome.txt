@@ -3,4 +3,10 @@ rome = {
 	world = earth
 	geocoordinate = { 12.48325842150 41.89595562650 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1600 = {
+			population = 100000 #Rome had a population of 100,000 in 1600; Source: Henry Kamen, "The Iron Century", p. 419.
+		}
+	}
 }

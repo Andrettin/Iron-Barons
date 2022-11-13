@@ -7,4 +7,10 @@ salzburg = {
 	cultural_names = {
 		roman = "Iuvavum"
 	}
+	
+	history = {
+		1815 = {
+			population = 15500 #Salzburg had a population of 15,500 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 89.
+		}
+	}
 }
