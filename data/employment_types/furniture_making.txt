@@ -6,7 +6,8 @@ furniture_making = {
 	output_commodity = furniture
 	output_multiplier = 0.5
 	employees = {
-		freemen
+		untrained_workers
+		trained_workers
 		apprentice_carpenters
 		journeyman_carpenters
 		master_carpenters

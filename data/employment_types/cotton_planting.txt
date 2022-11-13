@@ -4,6 +4,7 @@ cotton_planting = {
 	employees = {
 		slaves
 		tribesmen
-		freemen
+		untrained_workers
+		trained_workers
 	}
 }
