@@ -16,6 +16,10 @@ rio_de_janeiro = {
 		1555 = {
 			owner = france #Villegaignon Island became a French possession in 1555; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 			culture = french
+			
+			population_groups = {
+				tribesmen.tupi = 500 #over 500 Tamoio Indians lived in France Antarctique in 1555; Source: Ronaldo Vainfas, "Dicionário do Brasil Colonial (1500-1808)", p. 584.
+			}
 		}
 		
 		1567 = {

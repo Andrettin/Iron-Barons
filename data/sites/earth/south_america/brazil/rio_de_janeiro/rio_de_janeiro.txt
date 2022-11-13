@@ -6,4 +6,22 @@ rio_de_janeiro = {
 	cultural_names = {
 		french = "Henriville"
 	}
+	
+	history = {
+		1872 = {
+			population = 274972 #in 1872, the population of the city of Rio de Janeiro was 274,972; Source: Elisabeth von der Weid, "O bonde como elemento de expansão urbana no Rio de Janeiro", p. 4.
+		}
+		
+		1890 = {
+			population = 522651 #in 1890, the population of the city of Rio de Janeiro was 522,651; Source: Elisabeth von der Weid, "O bonde como elemento de expansão urbana no Rio de Janeiro", p. 4.
+		}
+		
+		1900 = {
+			population = 691565 #in 1900, the population of the city of Rio de Janeiro was 691,565; Source: Elisabeth von der Weid, "O bonde como elemento de expansão urbana no Rio de Janeiro", p. 4.
+		}
+		
+		1906 = {
+			population = 811444 #in 1906, the population of the city of Rio de Janeiro was 811,444; Source: Elisabeth von der Weid, "O bonde como elemento de expansão urbana no Rio de Janeiro", p. 4.
+		}
+	}
 }
