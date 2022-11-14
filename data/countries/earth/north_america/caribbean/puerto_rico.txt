@@ -8,6 +8,14 @@ puerto_rico = {
 	}
 	
 	history = {
+		1600 = {
+			#Spanish possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			diplomacy_state = {
+				country = spain
+				state = colony
+			}
+		}
+		
 		1898 = {
 			#became an American possession in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
 			diplomacy_state = {

@@ -2,8 +2,21 @@ jamaica = {
 	name = "Jamaica"
 	color = { 122 95 199 }
 	capital_settlement = kingston
+	cultural_names = {
+		castillian = "Santiago"
+	}
 	
 	history = {
+		1600 = {
+			owner = santiago #part of Spanish Jamaica in 1600; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			culture = castillian
+		}
+		
+		1635 = {
+			owner = jamaica #became part of English Jamaica in 1635; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			culture = english
+		}
+		
 		my_country_tis_of_thee = {
 			1920 = {
 				owner = romania #New Romania; Source: "Life Magazine", 1916.

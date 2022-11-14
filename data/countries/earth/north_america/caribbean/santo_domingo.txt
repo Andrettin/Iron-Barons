@@ -1,0 +1,19 @@
+santo_domingo = {
+	name = "Santo Domingo"
+	type = minor_nation
+	culture = castillian
+	capital_province = santo_domingo
+	provinces = {
+		santo_domingo
+	}
+	
+	history = {
+		1600 = {
+			#Spanish possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			diplomacy_state = {
+				country = spain
+				state = colony
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+saint_domingue = {
+	name = "Saint-Domingue"
+	type = minor_nation
+	culture = french
+	capital_province = haiti
+	provinces = {
+		haiti
+	}
+	
+	history = {
+		1600 = {
+			#French possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			diplomacy_state = {
+				country = france
+				state = colony
+			}
+		}
+	}
+}

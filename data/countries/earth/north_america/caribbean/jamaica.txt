@@ -1,0 +1,19 @@
+jamaica = {
+	name = "Jamaica"
+	type = minor_nation
+	culture = english
+	capital_province = jamaica
+	provinces = {
+		jamaica
+	}
+	
+	history = {
+		1635 = {
+			#became an English possession in 1635; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			diplomacy_state = {
+				country = england
+				state = colony
+			}
+		}
+	}
+}

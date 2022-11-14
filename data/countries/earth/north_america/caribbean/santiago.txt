@@ -1,0 +1,19 @@
+santiago = {
+	name = "Santiago"
+	type = minor_nation
+	culture = castillian
+	capital_province = jamaica
+	provinces = {
+		jamaica
+	}
+	
+	history = {
+		1600 = {
+			#Spanish possession in 1600; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			diplomacy_state = {
+				country = spain
+				state = colony
+			}
+		}
+	}
+}
