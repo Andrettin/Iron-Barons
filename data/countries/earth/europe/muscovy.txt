@@ -1,0 +1,11 @@
+muscovy = {
+	name = "Muscovy"
+	type = great_power
+	color = { 111 177 210 }
+	palette = cyan
+	culture = russian
+	capital_province = moscow
+	eras = {
+		renaissance
+	}
+}
