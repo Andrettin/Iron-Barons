@@ -14,21 +14,3 @@ scandinavia = {
 		}
 	}
 }
-
-denmark = {
-	superregions = {
-		scandinavia
-	}
-}
-
-norway = {
-	superregions = {
-		scandinavia
-	}
-}
-
-sweden = {
-	superregions = {
-		scandinavia
-	}
-}

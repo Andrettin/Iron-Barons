@@ -3,4 +3,10 @@ bohemia = {
 		cisleithania
 		czechoslovakia
 	}
+	
+	history = {
+		1850 = {
+			literacy_rate = 60 #"Czech lands"; 50-70% of adults; Source: Eric J. Hobsbawm, "A Era do Capital 1848-1875", 1977, p. 522.
+		}
+	}
 }

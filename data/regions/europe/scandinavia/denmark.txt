@@ -1,7 +1,6 @@
-switzerland = {
+denmark = {
 	superregions = {
-		europe
-		west_and_central_europe
+		scandinavia
 	}
 	
 	history = {

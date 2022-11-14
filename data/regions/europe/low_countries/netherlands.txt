@@ -23,5 +23,9 @@ netherlands = {
 		1700 = {
 			population = 1900000 #the Netherlands had a population of 1,900,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
+		
+		1850 = {
+			literacy_rate = 70 #70%+ of adults; Source: Eric J. Hobsbawm, "A Era do Capital 1848-1875", 1977, p. 522.
+		}
 	}
 }

@@ -34,5 +34,9 @@ italy = { #the territory of modern Italy
 		1700 = {
 			population = 13300000 #Italy had a population of 13,300,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
+		
+		1850 = {
+			literacy_rate = 50 #50%- of adults; Source: Eric J. Hobsbawm, "A Era do Capital 1848-1875", 1977, p. 522.
+		}
 	}
 }
