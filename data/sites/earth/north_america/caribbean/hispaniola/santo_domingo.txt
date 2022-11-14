@@ -1,0 +1,7 @@
+santo_domingo = {
+	name = "Santo Domingo"
+	world = earth
+	geocoordinate = { -69.90008508470 18.47007285460 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = settlement
+}

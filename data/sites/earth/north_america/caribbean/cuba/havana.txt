@@ -1,0 +1,6 @@
+havana = {
+	name = "Havana"
+	world = earth
+	geocoordinate = { -82.36418217130 23.13195884090 } #from Natural Earth
+	type = settlement
+}

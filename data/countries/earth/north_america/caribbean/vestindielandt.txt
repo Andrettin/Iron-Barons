@@ -1,0 +1,23 @@
+vestindielandt = {
+	name = "Vestindielandt"
+	type = minor_nation
+	culture = german
+	capital_province = cuba
+	provinces = {
+		cuba
+		bahamas
+		haiti
+		santo_domingo
+	}
+	
+	history = {
+		my_country_tis_of_thee = {
+			1920 = {
+				diplomacy_state = { #Source: "Life Magazine", 1916.
+					country = germany
+					state = colony
+				}
+			}
+		}
+	}
+}

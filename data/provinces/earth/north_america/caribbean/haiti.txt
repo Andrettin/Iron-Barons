@@ -1,0 +1,16 @@
+haiti = {
+	name = "Haiti"
+	color = { 196 103 126 }
+	capital_settlement = port_au_prince
+	cultural_names = {
+		french = "Saint-Domingue"
+	}
+	
+	history = {
+		my_country_tis_of_thee = {
+			1920 = {
+				owner = vestindielandt #Source: "Life Magazine", 1916.
+			}
+		}
+	}
+}

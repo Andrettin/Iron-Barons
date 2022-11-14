@@ -1,0 +1,13 @@
+santo_domingo = {
+	name = "Santo Domingo"
+	color = { 74 221 63 }
+	capital_settlement = santo_domingo
+	
+	history = {
+		my_country_tis_of_thee = {
+			1920 = {
+				owner = vestindielandt #Source: "Life Magazine", 1916.
+			}
+		}
+	}
+}
