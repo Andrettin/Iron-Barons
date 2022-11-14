@@ -4,6 +4,7 @@ minsk = {
 	capital_settlement = minsk
 	regions = {
 		byelorussia
+		poland_lithuania
 	}
 	
 	history = {

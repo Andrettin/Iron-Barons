@@ -4,6 +4,7 @@ grodno = {
 	capital_settlement = grodno
 	regions = {
 		byelorussia
+		poland_lithuania
 	}
 	
 	history = {

@@ -5,6 +5,7 @@ west_galicia = {
 	regions = {
 		galicia
 		poland
+		poland_lithuania
 	}
 	
 	history = {

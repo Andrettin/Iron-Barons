@@ -3,6 +3,7 @@ rovno = {
 	color = { 113 224 160 }
 	capital_settlement = rovno
 	regions = {
+		poland_lithuania
 		ukraine
 	}
 	

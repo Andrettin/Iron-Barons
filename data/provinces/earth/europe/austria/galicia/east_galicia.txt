@@ -4,6 +4,7 @@ east_galicia = {
 	capital_settlement = lemberg
 	regions = {
 		galicia
+		poland_lithuania
 	}
 	
 	history = {

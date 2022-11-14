@@ -3,6 +3,7 @@ vinnitsa = {
 	color = { 240 224 33 }
 	capital_settlement = vinnitsa
 	regions = {
+		poland_lithuania
 		ukraine
 	}
 	

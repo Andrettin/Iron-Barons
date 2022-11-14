@@ -4,6 +4,7 @@ warsaw = {
 	capital_settlement = warsaw
 	regions = {
 		poland
+		poland_lithuania
 	}
 	
 	history = {

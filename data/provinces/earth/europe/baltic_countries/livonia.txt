@@ -4,6 +4,7 @@ livonia = {
 	capital_settlement = riga
 	regions = {
 		latvia
+		poland_lithuania
 	}
 	
 	history = {

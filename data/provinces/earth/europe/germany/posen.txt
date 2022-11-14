@@ -7,6 +7,7 @@ posen = {
 	}
 	regions = {
 		poland
+		poland_lithuania
 	}
 	
 	history = {

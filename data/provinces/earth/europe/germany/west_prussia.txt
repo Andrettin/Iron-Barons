@@ -4,6 +4,7 @@ west_prussia = {
 	capital_settlement = danzig
 	regions = {
 		poland
+		poland_lithuania
 	}
 	
 	history = {

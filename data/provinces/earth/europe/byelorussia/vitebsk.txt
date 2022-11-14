@@ -4,6 +4,7 @@ vitebsk = {
 	capital_settlement = vitebsk
 	regions = {
 		byelorussia
+		poland_lithuania
 	}
 	
 	history = {

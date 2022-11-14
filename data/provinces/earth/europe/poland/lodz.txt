@@ -4,6 +4,7 @@ lodz = {
 	capital_settlement = lodz
 	regions = {
 		poland
+		poland_lithuania
 	}
 	
 	history = {

@@ -4,6 +4,7 @@ lithuania = {
 	capital_settlement = vilnius
 	regions = {
 		lithuania
+		poland_lithuania
 	}
 	
 	history = {

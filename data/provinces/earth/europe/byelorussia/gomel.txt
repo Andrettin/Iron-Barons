@@ -4,6 +4,7 @@ gomel = {
 	capital_settlement = gomel
 	regions = {
 		byelorussia
+		poland_lithuania
 	}
 	
 	history = {

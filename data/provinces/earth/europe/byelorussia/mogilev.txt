@@ -4,6 +4,7 @@ mogilev = {
 	capital_settlement = mogilev
 	regions = {
 		byelorussia
+		poland_lithuania
 	}
 	
 	history = {

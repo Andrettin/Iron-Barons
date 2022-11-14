@@ -4,6 +4,7 @@ brest = {
 	capital_settlement = brest
 	regions = {
 		byelorussia
+		poland_lithuania
 	}
 	
 	history = {
