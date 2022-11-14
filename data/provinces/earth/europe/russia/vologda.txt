@@ -9,6 +9,10 @@ vologda = {
 	history = {
 		culture = russian
 		
+		1560 = {
+			owner = muscovy #part of the Muscovite Dominions c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
+		}
+		
 		1740 = {
 			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

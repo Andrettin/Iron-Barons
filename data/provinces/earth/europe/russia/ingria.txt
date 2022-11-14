@@ -12,6 +12,10 @@ ingria = {
 	history = {
 		culture = russian
 		
+		1560 = {
+			owner = muscovy #part of the Muscovite Dominions c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
+		}
+		
 		1721 = {
 			owner = russia #became part of the Russian Empire in 1721; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
