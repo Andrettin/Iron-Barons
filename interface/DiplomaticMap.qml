@@ -82,6 +82,34 @@ Flickable {
 	}
 	*/
 	
+	Repeater {
+		model: selected_country ? selected_country.game_data.consulates : []
+		
+		Image {
+			id: consulate_icon
+			x: other_country.capital_province.capital_settlement.game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - width / 2
+			y: other_country.capital_province.capital_settlement.game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - height / 2
+			source: "image://icon/" + consulate.icon.identifier
+			visible: !selected_country.game_data.anarchy && !other_country.game_data.anarchy && false
+			
+			readonly property var other_country: model.modelData.key
+			readonly property var consulate: model.modelData.value
+			
+			MaskedMouseArea {
+				anchors.fill: parent
+				alphaThreshold: 0.4
+				maskSource: parent.source
+				ToolTip.text: consulate.name
+				ToolTip.visible: containsMouse
+				ToolTip.delay: 1000
+				
+				onClicked: {
+					diplomatic_map.selected_country = other_country
+				}
+			}
+		}
+	}
+	
 	function center_on_tile_pos(tile_x, tile_y) {
 		var pixel_x = tile_x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.width / 2
 		var pixel_y = tile_y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.height / 2
