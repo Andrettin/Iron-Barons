@@ -42,7 +42,7 @@ Item {
 			+ (selected_country.game_data.overlord ? (
 				"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
 			) : "")
-			+ (selected_country.capital_province.game_data.owner !== selected_country ? "\nAnarchy" : "")
+			+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
 			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 			+ "\nPopulation: " + number_string(selected_country.game_data.population)
 			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")

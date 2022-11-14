@@ -57,7 +57,7 @@ MenuBase {
 			+ (selected_country.game_data.overlord ? (
 				"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
 			) : "")
-			+ (selected_country.capital_province.game_data.owner !== selected_country ? "\nAnarchy" : "")
+			+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
 			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 			+ "\nPopulation: " + number_string(selected_country.game_data.population)
 			+ (vassal_count > 0 ? (
@@ -169,7 +169,7 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 96 * scale_factor
 		height: 24 * scale_factor
-		allowed: selected_country !== null && selected_country.great_power && selected_country.capital_province.game_data.owner === selected_country
+		allowed: selected_country !== null && selected_country.great_power && !selected_country.game_data.anarchy
 		tooltip: allowed ? "" : small_text(
 			selected_country === null ? "You must select a country to play" : (
 				!selected_country.great_power ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You cannot play as a country under anarchy"
