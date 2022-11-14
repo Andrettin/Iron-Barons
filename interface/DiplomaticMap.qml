@@ -99,7 +99,7 @@ Flickable {
 				anchors.fill: parent
 				alphaThreshold: 0.4
 				maskSource: parent.source
-				ToolTip.text: consulate.name
+				ToolTip.text: small_text(consulate.name)
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
 				
