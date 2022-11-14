@@ -12,6 +12,10 @@ portugal = {
 			population = 600000 #Portugal had a population of 600,000 in 1000 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
 		
+		1415 = {
+			population = 1000000 #Portugal had barely a million people in 1415; Source: Henry Kamen, "Early Modern European Society", 2021, p. 3.
+		}
+		
 		1500 = {
 			population = 1000000 #Portugal had a population of 1,000,000 in 1500 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
