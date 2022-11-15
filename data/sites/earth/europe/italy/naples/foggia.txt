@@ -1,0 +1,7 @@
+foggia = {
+	name = "Foggia"
+	world = earth
+	geocoordinate = { 15.55996984730 41.46047833160 } #from Natural Earth
+	type = resource
+	resource = fish
+}

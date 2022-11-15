@@ -1,0 +1,8 @@
+reggio_di_calabria = {
+	name = "Reggio di Calabria"
+	world = earth
+	geocoordinate = { 15.64136022810 38.11499778140 } #from Natural Earth
+	pos_offset = { 1 0 }
+	type = resource
+	resource = fish
+}
