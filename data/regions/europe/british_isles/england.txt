@@ -1,5 +1,8 @@
 england = {
-	superregions = { great_britain }
+	superregions = {
+		england_and_wales
+		great_britain
+	}
 	
 	history = {
 		1301 = {

@@ -13,17 +13,26 @@ british_isles = {
 }
 
 great_britain = {
-	superregions = { british_isles }
+	superregions = {
+		british_isles
+	}
 }
 
 scotland = {
-	superregions = { great_britain }
+	superregions = {
+		great_britain
+	}
 }
 
 wales = {
-	superregions = { great_britain }
+	superregions = {
+		england_and_wales
+		great_britain
+	}
 }
 
 ireland = {
-	superregions = { british_isles }
+	superregions = {
+		british_isles
+	}
 }
