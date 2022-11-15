@@ -3,5 +3,4 @@ nassau = {
 	world = earth
 	geocoordinate = { -77.35004378430 25.08339011540 } #from Natural Earth
 	pos_offset = { -2 0 }
-	type = settlement
 }

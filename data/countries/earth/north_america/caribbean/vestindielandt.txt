@@ -5,7 +5,6 @@ vestindielandt = {
 	capital_province = cuba
 	provinces = {
 		cuba
-		bahamas
 		haiti
 		santo_domingo
 	}
