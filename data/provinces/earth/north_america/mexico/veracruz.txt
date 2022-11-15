@@ -1,0 +1,12 @@
+veracruz = {
+	name = "Veracruz"
+	color = { 177 187 154 }
+	capital_settlement = veracruz
+	
+	history = {
+		1600 = {
+			owner = new_spain #part of New Spain in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			culture = castillian
+		}
+	}
+}

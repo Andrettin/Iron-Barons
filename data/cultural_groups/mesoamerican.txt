@@ -1,0 +1,4 @@
+mesoamerican = {
+	name = "Mesoamerican"
+	default_phenotype = amerindian
+}

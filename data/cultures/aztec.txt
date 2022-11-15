@@ -1,0 +1,4 @@
+aztec = {
+	name = "Aztec"
+	group = mesoamerican
+}

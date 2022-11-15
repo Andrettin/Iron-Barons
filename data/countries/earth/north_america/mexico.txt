@@ -1,0 +1,6 @@
+mexico = {
+	name = "Mexico"
+	type = minor_nation
+	culture = castillian
+	capital_province = mexico
+}

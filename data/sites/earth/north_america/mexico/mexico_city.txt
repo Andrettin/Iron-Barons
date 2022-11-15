@@ -1,0 +1,9 @@
+mexico_city = {
+	name = "Mexico City"
+	world = earth
+	geocoordinate = { -99.13098820170 19.44244244280 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		aztec = "Tenochtitlan"
+	}
+}
