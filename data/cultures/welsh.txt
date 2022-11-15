@@ -1,4 +1,5 @@
 welsh = {
 	name = "Welsh"
 	group = brythonic
+	color = { 76 204 153 }
 }

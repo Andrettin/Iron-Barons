@@ -1,4 +1,5 @@
 tupi = {
 	name = "Tupi"
 	group = tupian
+	color = { 43 212 67 }
 }

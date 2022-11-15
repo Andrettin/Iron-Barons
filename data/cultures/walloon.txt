@@ -1,4 +1,5 @@
 walloon = {
 	name = "Walloon"
 	group = french
+	color = { 190 90 20 }
 }

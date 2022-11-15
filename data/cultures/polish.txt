@@ -1,4 +1,5 @@
 polish = {
 	name = "Polish"
 	group = west_slavic
+	color = { 255 120 120 }
 }

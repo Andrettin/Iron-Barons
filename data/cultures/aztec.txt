@@ -1,4 +1,5 @@
 aztec = {
 	name = "Aztec"
 	group = mesoamerican
+	color = { 88 175 160 }
 }

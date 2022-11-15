@@ -1,4 +1,5 @@
 finnish = {
 	name = "Finnish"
 	group = finnic
+	color = { 220 220 220 }
 }

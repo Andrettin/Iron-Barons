@@ -1,4 +1,5 @@
 serbian = {
 	name = "Serbian"
 	group = south_slavic
+	color = { 150 65 80 }
 }

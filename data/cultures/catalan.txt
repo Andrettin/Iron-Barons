@@ -1,4 +1,5 @@
 catalan = {
 	name = "Catalan"
 	group = iberian
+	color = { 220 110 30 }
 }

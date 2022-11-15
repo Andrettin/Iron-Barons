@@ -1,4 +1,5 @@
 sioux = {
 	name = "Sioux"
 	group = siouan
+	color = { 66 78 134 }
 }

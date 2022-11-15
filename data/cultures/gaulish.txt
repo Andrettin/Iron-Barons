@@ -1,4 +1,5 @@
 gaulish = {
 	name = "Gaulish"
 	group = celtic
+	color = { 102 66 30 }
 }

@@ -1,4 +1,5 @@
 ewe = {
 	name = "Ewe"
 	group = west_african
+	color = { 43 99 156 }
 }

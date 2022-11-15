@@ -1,4 +1,5 @@
 magyar = {
 	name = "Magyar"
 	group = magyar
+	color = { 180 255 120 }
 }

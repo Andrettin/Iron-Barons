@@ -1,4 +1,5 @@
 briton = {
 	name = "Briton"
 	group = celtic
+	color = { 102 98 30 }
 }

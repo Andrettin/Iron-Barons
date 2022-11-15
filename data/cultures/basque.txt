@@ -1,4 +1,5 @@
 basque = {
 	name = "Basque"
 	group = basque
+	color = { 220 170 30 }
 }

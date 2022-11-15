@@ -1,4 +1,5 @@
 suebi = {
 	name = "Suebi"
 	group = west_germanic
+	color = { 178 178 178 }
 }
