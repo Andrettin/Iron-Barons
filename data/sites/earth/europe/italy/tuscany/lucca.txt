@@ -1,0 +1,8 @@
+lucca = {
+	name = "Lucca"
+	world = earth
+	geocoordinate = { 10.516666666667 43.85 }
+	pos_offset = { 1 0 }
+	type = resource
+	resource = grain
+}

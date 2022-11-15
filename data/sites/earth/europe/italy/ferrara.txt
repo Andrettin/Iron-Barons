@@ -1,0 +1,7 @@
+ferrara = {
+	name = "Ferrara"
+	world = earth
+	geocoordinate = { 11.60992671580 44.85042645170 } #from Natural Earth
+	type = resource
+	resource = grain
+}

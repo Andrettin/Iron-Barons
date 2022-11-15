@@ -1,0 +1,7 @@
+alessandria = {
+	name = "Alessandria"
+	world = earth
+	geocoordinate = { 8.62 44.913330555556 }
+	type = resource
+	resource = fruit
+}
