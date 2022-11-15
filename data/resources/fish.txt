@@ -1,7 +1,8 @@
 fish = {
 	name = "Fish"
 	commodity = fish
+	coastal = true
 	terrain_types = {
-		ocean
+		plains
 	}
 }
