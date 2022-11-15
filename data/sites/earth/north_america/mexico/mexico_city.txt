@@ -6,4 +6,10 @@ mexico_city = {
 	cultural_names = {
 		aztec = "Tenochtitlan"
 	}
+	
+	history = {
+		1521 = {
+			population = 250000 #Tenochtitlan had a quarter of a million people in 1521; Source: Henry Kamen, "Early Modern European Society", 2021, pp. 4, 19.
+		}
+	}
 }
