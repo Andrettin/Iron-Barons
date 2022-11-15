@@ -4,4 +4,14 @@ venice = {
 	geocoordinate = { 12.33499873720 45.43865928050 } #from Natural Earth
 	pos_offset = { -1 0 }
 	type = settlement
+	
+	history = {
+		1500 = {
+			population = 100000 #Venice had a population of 100,000+ in 1500; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
+		}
+		
+		1600 = {
+			population = 100000 #Venice had a population of 100,000+ in 1600; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
+		}
+	}
 }

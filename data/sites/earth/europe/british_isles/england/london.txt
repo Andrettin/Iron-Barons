@@ -14,8 +14,16 @@ london = {
 			population = 60000 #London had a population of 60,000 in 1500; Source: Lawrence Stone, "As Causas da Revolução Inglesa: 1529-1642", pp. 134-135.
 		}
 		
+		1600 = {
+			population = 200000 #London had a population of 200,000+ in 1600; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
+		}
+		
 		1640 = {
 			population = 450000 #London had a population of 450,000 in 1640; Source: Lawrence Stone, "As Causas da Revolução Inglesa: 1529-1642", pp. 134-135.
+		}
+		
+		1700 = {
+			population = 500000 #London had a population of 500,000 in 1700; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
 		}
 		
 		1789 = {

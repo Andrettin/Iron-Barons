@@ -9,6 +9,10 @@ vienna = {
 	}
 	
 	history = {
+		1700 = {
+			population = 100000 #Vienna had a population of 100,000+ in 1700; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
+		}
+		
 		1815 = {
 			population = 237743 #Vienna had a population of 237,743 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p.
 		}
