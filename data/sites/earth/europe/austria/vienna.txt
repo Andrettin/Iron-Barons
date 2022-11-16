@@ -9,6 +9,12 @@ vienna = {
 	}
 	
 	history = {
+		1365 = {
+			buildings = {
+				university = university #University founded in Vienna in 1365; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+			}
+		}
+		
 		1700 = {
 			population = 100000 #Vienna had a population of 100,000+ in 1700; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
 		}
