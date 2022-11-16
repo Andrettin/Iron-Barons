@@ -11,6 +11,53 @@ Item {
 	property string interface_style: "dwarven"
 	property string status_text: ""
 	
+	Flickable {
+		id: building_slots_area
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: infopanel.right
+		anchors.right: right_bar.left
+		leftMargin: 0
+		rightMargin: 0
+		topMargin: 0
+		bottomMargin: 0
+		clip: true
+		
+		Repeater {
+			model: province_game_data.building_slots
+			
+			Item {
+				x: index % 16 * 48 * scale_factor
+				y: index / 16 * 48 * scale_factor
+				width: 48 * scale_factor
+				height: 48 * scale_factor
+					
+					readonly property var building_slot: model.modelData
+				
+				Image {
+					anchors.horizontalCenter: parent.horizontalCenter
+					anchors.verticalCenter: parent.verticalCenter
+					source: building_slot.building ? "image://icon/" + building_slot.building.identifier : "image://empty/"
+				}
+					
+				MouseArea {
+					anchors.fill: parent
+					hoverEnabled: true
+					
+					onEntered: {
+						if (building_slot.building !== null) {
+							status_text = building_slot.building.name
+						}
+					}
+					
+					onExited: {
+						status_text = ""
+					}
+				}
+			}
+		}
+	}
+	
 	Image {
 		id: right_bar
 		anchors.top: parent.top
