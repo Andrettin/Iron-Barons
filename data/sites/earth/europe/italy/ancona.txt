@@ -1,0 +1,7 @@
+ancona = {
+	name = "Ancona"
+	world = earth
+	geocoordinate = { 13.49994055040 43.60037355460 } #from Natural Earth
+	type = resource
+	resource = fruit
+}
