@@ -11,6 +11,12 @@ Item {
 	property string interface_style: "dwarven"
 	property string status_text: ""
 	
+	Rectangle {
+		id: building_slots_area_background
+		anchors.fill: building_slots_area
+		color: Qt.rgba(8.0 / 255.0, 54.0 / 255.0, 2.0 / 255.0, 1)
+	}
+	
 	Flickable {
 		id: building_slots_area
 		anchors.top: top_bar.bottom
