@@ -1,0 +1,3 @@
+university = {
+	name = "University"
+}

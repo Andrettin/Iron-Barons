@@ -1,0 +1,11 @@
+college = {
+	name = "college"
+	building_class = college
+	icon = university
+}
+
+university = {
+	name = "University"
+	building_class = university
+	icon = university
+}
