@@ -34,7 +34,7 @@ Item {
 			
 			Item {
 				x: index % 16 * 48 * scale_factor
-				y: index / 16 * 48 * scale_factor
+				y: Math.floor(index / 16) * 48 * scale_factor
 				width: 48 * scale_factor
 				height: 48 * scale_factor
 					
