@@ -14,5 +14,9 @@ zagreb = {
 		1815 = {
 			population = 18000 #Zagreb had a population of 18,000 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
 		}
+		
+		1874 = {
+			buildings += university #University founded in Zagreb in 1874; Source: A.J.P. Taylor, "The Habsburg Monarchy, 1809-1918", 1964,
+		}
 	}
 }
