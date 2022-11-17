@@ -14,7 +14,7 @@ Item {
 	Rectangle {
 		id: building_slots_area_background
 		anchors.fill: building_slots_area
-		color: Qt.rgba(8.0 / 255.0, 54.0 / 255.0, 2.0 / 255.0, 1)
+		color: Qt.rgba(221.0 / 255.0, 216.0 / 255.0, 181.0 / 255.0, 1)
 	}
 	
 	Flickable {
