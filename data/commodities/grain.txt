@@ -1,4 +1,5 @@
 grain = {
 	name = "Grain"
 	icon = grain
+	food_type = grain
 }

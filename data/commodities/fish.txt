@@ -1,4 +1,5 @@
 fish = {
 	name = "Fish"
 	icon = fish
+	food_type = meat
 }
