@@ -37,7 +37,7 @@ Item {
 			anchors.horizontalCenter: parent.horizontalCenter
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.verticalCenterOffset: -24 * scale_factor
-			text: improvement ? improvement.output_value : ""
+			text: improvement ? improvement.employment_capacity + "x" + improvement.output_multiplier : ""
 			visible: improvement !== null && improvement.resource !== null
 		}
 		
