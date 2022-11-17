@@ -113,13 +113,13 @@ Item {
 		anchors.topMargin: 8 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
-		text: selected_site && selected_site.settlement ? (
+		text: province_game_data ? (
 			"Population: " + number_string(province_game_data.population)
 			+ "\n\nStored Food: " + province_game_data.population_growth + "/" + metternich.defines.population_growth_threshold
 		) : ""
 		visible: selected_site && selected_site.settlement
 		
-		readonly property var province_game_data: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
+		readonly property var province_game_data: (selected_site && selected_site.settlement) ? selected_site.game_data.province.game_data : null
 	}
 	
 	TextButton {
