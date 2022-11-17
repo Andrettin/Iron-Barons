@@ -1,0 +1,10 @@
+grain_farming = {
+	name = "Grain Farming"
+	output_commodity = grain
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+	}
+}

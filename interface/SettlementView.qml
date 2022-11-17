@@ -38,7 +38,7 @@ Item {
 				width: 48 * scale_factor
 				height: 48 * scale_factor
 					
-					readonly property var building_slot: model.modelData
+				readonly property var building_slot: model.modelData
 				
 				Image {
 					anchors.horizontalCenter: parent.horizontalCenter

@@ -2,6 +2,6 @@ sheep_ranch = {
 	name = "Sheep Ranch"
 	resource = sheep
 	image_filepath = "tiles/improvements/grain_farm.png"
-	output_value = 1
+	output_multiplier = 1
 	variation_count = 4
 }

@@ -2,5 +2,5 @@ timber_lodge = {
 	name = "Timber Lodge"
 	resource = timber
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
-	output_value = 1
+	output_multiplier = 1
 }

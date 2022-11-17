@@ -1,0 +1,10 @@
+livestock_breeding = {
+	name = "Livestock Breeding"
+	output_commodity = livestock
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+	}
+}

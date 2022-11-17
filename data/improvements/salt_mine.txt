@@ -5,5 +5,5 @@ salt_mine = {
 	terrain_image_filepaths = {
 		#mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	output_value = 1
+	output_multiplier = 1
 }

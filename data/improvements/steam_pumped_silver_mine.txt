@@ -5,7 +5,7 @@ steam_pumped_silver_mine = {
 	terrain_image_filepaths = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	output_value = 2
+	output_multiplier = 2
 	required_improvement = silver_mine
 	required_technology = steam_in_mining
 }

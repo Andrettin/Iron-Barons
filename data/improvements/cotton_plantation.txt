@@ -2,6 +2,8 @@ cotton_plantation = {
 	name = "Cotton Plantation"
 	resource = cotton
 	image_filepath = "tiles/improvements/grain_farm.png"
-	output_value = 1
+	employment_type = cotton_planting
+	employment_capacity = 5
+	output_multiplier = 1
 	variation_count = 4
 }
