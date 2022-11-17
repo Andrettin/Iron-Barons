@@ -1,0 +1,8 @@
+setubal = {
+	name = "Setubal" #"Setúbal"
+	world = earth
+	geocoordinate = { -8.90001001122 38.52995953270 } #from Natural Earth
+	pos_offset = { 0 1 }
+	type = resource
+	resource = grain
+}
