@@ -2,5 +2,7 @@ timber_lodge = {
 	name = "Timber Lodge"
 	resource = timber
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	employment_type = timber_cutting
+	employment_capacity = 4
 	output_multiplier = 1
 }
