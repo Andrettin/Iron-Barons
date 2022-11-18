@@ -5,4 +5,12 @@ l_aquila = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	
+	history = {
+		1815 = {
+			population = 13615 #Aquila had a population of 13,615 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 82.
+			
+			improvement = sheep_ranch
+		}
+	}
 }
