@@ -115,7 +115,7 @@ Item {
 		anchors.leftMargin: 16 * scale_factor
 		text: province_game_data ? (
 			"Population: " + number_string(province_game_data.population)
-			+ "\n\nStored Food: " + province_game_data.population_growth + "/" + metternich.defines.population_growth_threshold
+			+ "\n\nPopulation Growth: " + province_game_data.population_growth + "/" + metternich.defines.population_growth_threshold
 		) : ""
 		visible: selected_site && selected_site.settlement
 		
