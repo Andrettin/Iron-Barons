@@ -9,6 +9,8 @@ messina = {
 	history = {
 		1600 = {
 			population = 100000 #Messina had a population of 100,000+ in 1600; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
+			
+			improvement = fishing_wharf
 		}
 	}
 }

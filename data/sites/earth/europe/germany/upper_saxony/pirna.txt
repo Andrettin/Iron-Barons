@@ -11,6 +11,8 @@ pirna = {
 			population_groups = {
 				czech = 2000 #over 2,000 Czechs; Source: Henry Kamen, "The Iron Century", p. 425.
 			}
+			
+			improvement = grain_farm
 		}
 	}
 }
