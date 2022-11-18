@@ -1,0 +1,7 @@
+siguenza = {
+	name = "Siguenza"
+	world = earth
+	geocoordinate = { -2.6391666666667 41.069166666667 }
+	type = resource
+	resource = grain
+}

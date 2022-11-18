@@ -1,0 +1,9 @@
+almeria = {
+	name = "Almeria" #"Almería"
+	world = earth
+	geocoordinate = { -2.42999149719 36.83034751290 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = resource
+	resource = iron_ore
+	terrain_type = barren_hills
+}

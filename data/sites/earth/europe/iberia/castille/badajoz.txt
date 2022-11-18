@@ -1,0 +1,8 @@
+badajoz = {
+	name = "Badajoz"
+	world = earth
+	geocoordinate = { -6.96997277976 38.88042909650 } #from Natural Earth
+	type = resource
+	resource = sheep
+	terrain_type = barren_hills
+}

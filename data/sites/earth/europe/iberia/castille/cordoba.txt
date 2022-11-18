@@ -1,0 +1,10 @@
+cordoba = {
+	name = "Cordoba" #"Córdoba"
+	world = earth
+	geocoordinate = { -4.77000370423 37.87999920560 } #from Natural Earth
+	type = resource
+	resource = grain
+	cultural_names = {
+		roman = "Corduba" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
+}

@@ -1,0 +1,11 @@
+cadiz = {
+	name = "Cadiz" #"Cádiz"
+	world = earth
+	geocoordinate = { -6.22500533184 36.53499086410 } #from Natural Earth
+	type = resource
+	resource = fish
+	cultural_names = {
+		phoenician = "Gades"
+		roman = "Gades"
+	}
+}

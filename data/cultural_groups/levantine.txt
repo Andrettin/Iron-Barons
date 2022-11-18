@@ -1,0 +1,4 @@
+levantine = {
+	name = "Levantine"
+	default_phenotype = middle_eastern
+}

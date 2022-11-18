@@ -1,0 +1,8 @@
+palma = {
+	name = "Palma"
+	world = earth
+	geocoordinate = { 2.65424597028 39.57426271470 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = resource
+	resource = cattle
+}

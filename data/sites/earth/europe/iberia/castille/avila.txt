@@ -1,0 +1,7 @@
+avila = {
+	name = "Avila"
+	world = earth
+	geocoordinate = { -4.6962222222222 40.654347222222 }
+	type = resource
+	resource = grain
+}

@@ -1,0 +1,8 @@
+santander = {
+	name = "Santander"
+	world = earth
+	geocoordinate = { -3.79998539368 43.38046449690 } #from Natural Earth
+	type = resource
+	resource = fish
+	terrain_type = plains
+}

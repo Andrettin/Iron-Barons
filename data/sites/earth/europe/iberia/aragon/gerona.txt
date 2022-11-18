@@ -1,0 +1,7 @@
+gerona = {
+	name = "Gerona"
+	world = earth
+	geocoordinate = { 2.8166666666667 41.983333333333 }
+	type = resource
+	resource = fruit
+}

@@ -1,0 +1,8 @@
+huesca = {
+	name = "Huesca"
+	world = earth
+	geocoordinate = { -0.40889722222222 42.1401 }
+	type = resource
+	resource = sheep
+	terrain_type = barren_hills
+}
