@@ -5,5 +5,7 @@ gold_mine = {
 	terrain_image_filepaths = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
+	employment_type = gold_mining
+	employment_capacity = 4
 	output_multiplier = 1
 }

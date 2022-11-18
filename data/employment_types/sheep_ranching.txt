@@ -1,0 +1,10 @@
+sheep_ranching = {
+	name = "Sheep Ranching"
+	output_commodity = wool
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+	}
+}

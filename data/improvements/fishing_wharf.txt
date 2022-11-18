@@ -3,6 +3,6 @@ fishing_wharf = {
 	resource = fish
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	employment_type = fishing
-	employment_capacity = 5
+	employment_capacity = 4
 	output_multiplier = 1
 }

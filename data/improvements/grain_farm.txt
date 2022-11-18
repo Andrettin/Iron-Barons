@@ -3,7 +3,7 @@ grain_farm = {
 	resource = grain
 	image_filepath = "tiles/improvements/grain_farm.png"
 	employment_type = grain_farming
-	employment_capacity = 5
+	employment_capacity = 4
 	output_multiplier = 1
 	variation_count = 4
 }

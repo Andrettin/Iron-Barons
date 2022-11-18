@@ -1,5 +1,5 @@
-livestock_breeding = {
-	name = "Livestock Breeding"
+livestock_ranching = {
+	name = "Livestock Ranching"
 	output_commodity = livestock
 	employees = {
 		slaves
