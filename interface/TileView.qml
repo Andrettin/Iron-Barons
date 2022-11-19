@@ -104,7 +104,7 @@ Item {
 			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site)) {
 				selected_civilian_unit = civilian_unit
 				selected_site = null
-			} else if (site !== null && site !== selected_site && (site.settlement || (resource && improvement))) {
+			} else if (site !== null && site !== selected_site && (site.settlement || resource)) {
 				selected_site = site
 				selected_civilian_unit = null
 			} else {
