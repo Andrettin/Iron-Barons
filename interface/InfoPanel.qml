@@ -179,6 +179,30 @@ Item {
 	}
 	
 	TextButton {
+		id: disband_button
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.bottom: end_turn_button_internal.top
+		anchors.bottomMargin: 8 * scale_factor
+		text: qsTr("Disband")
+		width: 64 * scale_factor
+		height: 24 * scale_factor
+		visible: selected_civilian_unit !== null
+		
+		onClicked: {
+			selected_civilian_unit.disband()
+			selected_civilian_unit = null
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Disband Civilian Unit"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	TextButton {
 		id: end_turn_button_internal
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.bottom: parent.bottom
