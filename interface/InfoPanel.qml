@@ -72,7 +72,7 @@ Item {
 	Image {
 		id: icon
 		anchors.top: title.bottom
-		anchors.topMargin: 8 * scale_factor
+		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		source: icon_identifier.length > 0 ? ("image://icon/" + icon_identifier) : "image://empty/"
 		
@@ -83,6 +83,36 @@ Item {
 				)
 			) : ""
 		)
+		
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true
+			
+			onEntered: {
+				status_text = title.text
+				if (subtitle.text.length > 0) {
+					status_text += " (" + subtitle.text + ")"
+				}
+			}
+			
+			onExited: {
+				status_text = ""
+			}
+		}
+	}
+	
+	SmallText {
+		id: subtitle
+		anchors.top: icon.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		text: selected_site ? (
+			selected_site.settlement ? "Settlement" : (
+				selected_site.game_data.improvement ? selected_site.game_data.improvement.name : (
+					selected_site.resource ? selected_site.resource.name : ""
+				)
+			)
+		) : ""
 	}
 	
 	PopulationTypeChart {
@@ -98,7 +128,7 @@ Item {
 	
 	CultureChart {
 		id: culture_chart
-		anchors.top: icon.bottom
+		anchors.top: subtitle.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		width: 48 * scale_factor
