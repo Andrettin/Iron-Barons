@@ -138,11 +138,11 @@ Item {
 	}
 	
 	SmallText {
-		id: info_text
+		id: settlement_info_text
 		anchors.top: culture_chart.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.left: parent.left
-		anchors.leftMargin: 16 * scale_factor
+		anchors.leftMargin: 12 * scale_factor
 		text: province_game_data ? (
 			"Population: " + number_string(province_game_data.population)
 			+ "\n\nPopulation Growth: " + province_game_data.population_growth + "/" + metternich.defines.population_growth_threshold
@@ -150,6 +150,16 @@ Item {
 		visible: selected_site && selected_site.settlement
 		
 		readonly property var province_game_data: (selected_site && selected_site.settlement) ? selected_site.game_data.province.game_data : null
+	}
+	
+	SmallText {
+		id: civilian_unit_info_text
+		anchors.top: icon.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 8 * scale_factor
+		text: selected_civilian_unit !== null ? ("Home Province: " + selected_civilian_unit.home_province.game_data.current_cultural_name) : ""
+		visible: selected_civilian_unit !== null
 	}
 	
 	TextButton {
