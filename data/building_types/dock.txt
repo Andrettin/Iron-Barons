@@ -1,0 +1,8 @@
+dock = {
+	name = "Dock"
+	building_class = dock
+	icon = anchor
+	employment_type = fishing
+	employment_capacity = 4
+	output_multiplier = 2
+}
