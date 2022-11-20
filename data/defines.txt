@@ -17,5 +17,109 @@ minimap_ocean_color = { 49 82 123 }
 conversible_country_palette = violet
 minor_nation_palette = gray
 default_settlement_image_filepath = "tiles/settlements/town.png"
+river_image_filepath = "tiles/interior_river.png"
 province_border_image_filepath = "tiles/borders/province_border.png"
 min_diplomatic_map_tile_scale = 2
+
+river_adjacency_tiles = {
+	0 = {
+		north = other
+		south = same
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	1 = {
+		north = other
+		south = other
+		west = same
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	2 = {
+		north = other
+		south = same
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	16 = {
+		north = same
+		south = same
+		west = other
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	32 = {
+		north = same
+		south = other
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	34 = {
+		north = same
+		south = other
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	49 = {
+		north = other
+		south = same
+		west = other
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	64 = {
+		north = other
+		south = other
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	66 = {
+		north = other
+		south = other
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	97 = {
+		north = same
+		south = other
+		west = other
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+}
