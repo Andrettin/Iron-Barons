@@ -43,7 +43,7 @@ Item {
 				Image {
 					anchors.horizontalCenter: parent.horizontalCenter
 					anchors.verticalCenter: parent.verticalCenter
-					source: building_slot.building ? "image://icon/" + building_slot.building.identifier : "image://empty/"
+					source: building_slot.building ? "image://icon/" + building_slot.building.icon.identifier : "image://empty/"
 				}
 					
 				MouseArea {
