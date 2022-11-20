@@ -9,5 +9,6 @@ earth = {
 	max_latitude = 71.675
 	geocoordinate_x_offset = -32 #shift all positions derived from geocoordinates by this offset
 	terrain_image_filepath = "earth/terrain.png"
+	river_image_filepath = "earth/rivers.png"
 	province_image_filepath = "earth/provinces.png"
 }
