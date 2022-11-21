@@ -6,5 +6,6 @@ fishing = {
 		tribesmen
 		untrained_workers
 		trained_workers
+		expert_fishermen
 	}
 }
