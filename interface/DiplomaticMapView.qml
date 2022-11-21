@@ -48,9 +48,17 @@ Item {
 			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
 		) : ""
 		anchors.left: diplomatic_map.left
-		anchors.leftMargin: 4 * scale_factor
+		anchors.leftMargin: 8 * scale_factor
 		anchors.top: diplomatic_map_background.bottom
 		anchors.topMargin: 16 * scale_factor
+	}
+	
+	SmallText {
+		id: population_type_chart_label
+		anchors.top: country_text.top
+		anchors.horizontalCenter: population_type_chart.horizontalCenter
+		text: "Population Type"
+		visible: population_type_chart.visible
 	}
 	
 	PopulationTypeChart {
@@ -62,11 +70,20 @@ Item {
 		data_source: selected_country ? selected_country.game_data : null
 	}
 	
+	SmallText {
+		id: culture_chart_label
+		anchors.top: country_text.top
+		anchors.horizontalCenter: culture_chart.horizontalCenter
+		text: "Culture"
+		visible: culture_chart.visible
+	}
+	
 	CultureChart {
 		id: culture_chart
-		anchors.top: country_text.top
+		anchors.top: culture_chart_label.bottom
+		anchors.topMargin: 4 * scale_factor
 		anchors.right: diplomatic_map_background.right
-		anchors.rightMargin: 4 * scale_factor
+		anchors.rightMargin: 8 * scale_factor
 		visible: selected_country !== null
 		data_source: selected_country ? selected_country.game_data : null
 	}

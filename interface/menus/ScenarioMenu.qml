@@ -90,6 +90,14 @@ MenuBase {
 		}
 	}
 	
+	SmallText {
+		id: population_type_chart_label
+		anchors.top: country_text.top
+		anchors.horizontalCenter: population_type_chart.horizontalCenter
+		text: "Population Type"
+		visible: population_type_chart.visible
+	}
+	
 	PopulationTypeChart {
 		id: population_type_chart
 		anchors.top: culture_chart.top
@@ -99,9 +107,18 @@ MenuBase {
 		data_source: selected_country ? selected_country.game_data : null
 	}
 	
+	SmallText {
+		id: culture_chart_label
+		anchors.top: country_text.top
+		anchors.horizontalCenter: culture_chart.horizontalCenter
+		text: "Culture"
+		visible: culture_chart.visible
+	}
+	
 	CultureChart {
 		id: culture_chart
-		anchors.top: country_text.top
+		anchors.top: culture_chart_label.bottom
+		anchors.topMargin: 4 * scale_factor
 		anchors.right: diplomatic_map_background.right
 		anchors.rightMargin: 4 * scale_factor
 		visible: selected_country !== null
