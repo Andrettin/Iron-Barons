@@ -4,5 +4,5 @@ dock = {
 	icon = anchor
 	employment_type = fishing
 	employment_capacity = 4
-	output_multiplier = 2
+	output_multiplier = 2 #needs to produce enough food to feed the fisherman, and a surplus
 }
