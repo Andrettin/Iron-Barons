@@ -7,4 +7,10 @@ bologna = {
 	cultural_names = {
 		roman = "Bononia" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 29.
 	}
+	
+	history = {
+		1250 = {
+			buildings += university #University existent in Bologna in 1250; Source: "Atlas de História Mundial", 2001, p. 144.
+		}
+	}
 }

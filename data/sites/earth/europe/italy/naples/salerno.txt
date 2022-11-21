@@ -5,4 +5,12 @@ salerno = {
 	pos_offset = { 0 -1 }
 	type = resource
 	resource = fruit
+	
+	history = {
+		1250 = {
+			buildings += university #University existent in Salerno in 1250; Source: "Atlas de História Mundial", 2001, p. 144.
+			
+			improvement = orchard
+		}
+	}
 }

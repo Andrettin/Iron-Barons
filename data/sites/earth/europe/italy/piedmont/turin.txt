@@ -4,4 +4,10 @@ turin = {
 	geocoordinate = { 7.66996048853 45.07038718570 } #from Natural Earth
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		1405 = {
+			buildings += university #University founded in Turin in 1405; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
 }

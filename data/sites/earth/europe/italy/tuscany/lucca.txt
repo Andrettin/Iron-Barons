@@ -5,4 +5,12 @@ lucca = {
 	pos_offset = { 1 0 }
 	type = resource
 	resource = grain
+	
+	history = {
+		1369 = {
+			buildings += university #University founded in Lucca in 1369; Source: "Atlas de História Mundial", 2001, p. 144.
+			
+			improvement = grain_farm
+		}
+	}
 }
