@@ -14,6 +14,15 @@ Item {
 		tile_image_source: "image://" + base_image_source
 	}
 	
+	Repeater {
+		model: underlay_image_sources
+		
+		TileImage {
+			id: underlay_image
+			tile_image_source: "image://" + modelData
+		}
+	}
+	
 	TileImage {
 		id: terrain_image
 		tile_image_source: "image://" + image_source
