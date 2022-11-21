@@ -112,7 +112,7 @@ river_adjacency_tiles = {
 		southwest = any
 		southeast = any
 	}
-	97 = {
+	81 = {
 		north = same
 		south = other
 		west = other
