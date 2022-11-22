@@ -1,11 +1,17 @@
 college = {
-	name = "college"
+	name = "College"
 	building_class = college
 	icon = university
+	employment_type = researching
+	employment_capacity = 2
+	output_multiplier = 1
 }
 
 university = {
 	name = "University"
 	building_class = university
 	icon = university
+	employment_type = researching
+	employment_capacity = 4
+	output_multiplier = 1
 }
