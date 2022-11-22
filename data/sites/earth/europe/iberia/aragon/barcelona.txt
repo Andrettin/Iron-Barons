@@ -4,4 +4,14 @@ barcelona = {
 	geocoordinate = { 2.18337031923 41.38329957990 } #from Natural Earth
 	pos_offset = { -1 0 }
 	type = settlement
+	
+	history = {
+		1430 = {
+			buildings += university #University founded in Barcelona in 1430; Source: "The Cambridge Modern History Atlas", 1912, p. 9; Source: "Atlas de História Mundial", 2001, p. 144.
+		}
+		
+		1717 = {
+			buildings -= university #University abolished in Barcelona in 1717; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+		}
+	}
 }

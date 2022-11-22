@@ -4,4 +4,11 @@ granada = {
 	geocoordinate = { -3.58501143535 37.16497825020 } #from Natural Earth
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		1526 = {
+			buildings += university #University founded in Granada in 1526, containing law studies; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+			#The Cambridge Modern History Atlas gives 1531 as the university's foundation date instead; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
 }

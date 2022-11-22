@@ -4,4 +4,10 @@ oporto = {
 	geocoordinate = { -8.62000126284 41.15000632640 } #from Natural Earth
 	pos_offset = { 0 -1 }
 	type = settlement
+	
+	history = {
+		1911 = {
+			buildings += university #University founded in Oporto in 1911; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+		}
+	}
 }

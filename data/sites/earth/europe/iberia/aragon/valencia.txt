@@ -6,4 +6,10 @@ valencia = {
 	cultural_names = {
 		roman = "Valentia" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 	}
+	
+	history = {
+		1500 = {
+			buildings += university #University founded in Valencia in 1500; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
 }
