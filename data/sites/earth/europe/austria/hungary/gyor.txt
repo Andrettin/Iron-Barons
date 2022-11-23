@@ -1,0 +1,7 @@
+gyor = {
+	name = "Gyor"
+	world = earth
+	geocoordinate = { 17.63002437200 47.70035585440 } #from Natural Earth
+	type = resource
+	resource = cattle
+}

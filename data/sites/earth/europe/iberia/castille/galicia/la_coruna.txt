@@ -1,5 +1,5 @@
 la_coruna = {
-	name = "La Coruña" #"La Coruna"
+	name = "La Coruna" #"La Coruña"
 	world = earth
 	geocoordinate = { -8.41998763166 43.32997662260 } #from Natural Earth
 	type = resource

@@ -1,0 +1,9 @@
+bregenz = {
+	name = "Bregenz"
+	world = earth
+	geocoordinate = { 9.76670158807 47.51669706580 } #from Natural Earth
+	pos_offset = { 1 0 }
+	type = resource
+	resource = timber
+	terrain_type = conifer_forest
+}

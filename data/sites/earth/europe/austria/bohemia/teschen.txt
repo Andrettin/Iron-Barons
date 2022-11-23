@@ -1,0 +1,10 @@
+teschen = {
+	name = "Teschen"
+	world = earth
+	geocoordinate = { 18.633333333333 49.75 }
+	type = resource
+	resource = coal
+	cultural_names = {
+		czech = "Tesin"
+	}
+}

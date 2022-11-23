@@ -1,0 +1,7 @@
+przemysl = {
+	name = "Przemysl"
+	world = earth
+	geocoordinate = { 22.78424 49.78345 }
+	type = resource
+	resource = coal
+}

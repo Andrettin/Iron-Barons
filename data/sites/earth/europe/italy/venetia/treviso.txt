@@ -1,0 +1,16 @@
+treviso = {
+	name = "Treviso"
+	world = earth
+	geocoordinate = { 12.24001745470 45.67001466780 } #from Natural Earth
+	type = resource
+	resource = iron_ore
+	terrain_type = barren_hills
+	
+	history = {
+		1318 = {
+			buildings += university #University founded in Treviso in 1318; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+			
+			improvement = iron_mine
+		}
+	}
+}

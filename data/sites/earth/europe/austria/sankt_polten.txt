@@ -1,0 +1,7 @@
+sankt_polten = {
+	name = "Sankt Polten" #"Sankt Pölten"
+	world = earth
+	geocoordinate = { 15.616666666667 48.2 }
+	type = resource
+	resource = coal
+}

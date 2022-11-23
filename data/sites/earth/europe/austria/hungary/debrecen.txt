@@ -1,0 +1,7 @@
+debrecen = {
+	name = "Debrecen"
+	world = earth
+	geocoordinate = { 21.63003861360 47.53046958320 } #from Natural Earth
+	type = resource
+	resource = fruit
+}

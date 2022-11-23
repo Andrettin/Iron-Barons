@@ -1,0 +1,8 @@
+lienz = {
+	name = "Lienz"
+	world = earth
+	geocoordinate = { 12.769722222222 46.829722222222 }
+	type = resource
+	resource = timber
+	terrain_type = conifer_forest
+}

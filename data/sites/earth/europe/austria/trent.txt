@@ -1,0 +1,11 @@
+trent = {
+	name = "Trent"
+	world = earth
+	geocoordinate = { 11.11998246120 46.08042889310 } #from Natural Earth
+	type = resource
+	resource = grain
+	terrain_type = plains
+	cultural_names = {
+		italian = "Trento"
+	}
+}

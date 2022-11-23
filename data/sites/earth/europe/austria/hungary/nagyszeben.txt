@@ -1,0 +1,11 @@
+nagyszeben = {
+	name = "Nagyszeben"
+	world = earth
+	geocoordinate = { 24.13712072620 45.79711285310 } #from Natural Earth
+	type = resource
+	resource = cattle
+	terrain_type = plains
+	cultural_names = {
+		romanian = "Sibiu"
+	}
+}

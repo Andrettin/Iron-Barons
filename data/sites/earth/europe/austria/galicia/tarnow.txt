@@ -1,0 +1,8 @@
+tarnow = {
+	name = "Tarnow"
+	world = earth
+	geocoordinate = { 20.988333333333 50.0125 }
+	type = resource
+	resource = grain
+	terrain_type = plains
+}

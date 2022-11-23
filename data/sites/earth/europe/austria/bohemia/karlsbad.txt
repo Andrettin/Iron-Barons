@@ -1,0 +1,8 @@
+karlsbad = {
+	name = "Karlsbad"
+	world = earth
+	geocoordinate = { 12.8725 50.230555555556 }
+	type = resource
+	resource = iron_ore
+	terrain_type = barren_hills
+}

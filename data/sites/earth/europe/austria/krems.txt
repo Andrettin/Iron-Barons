@@ -1,0 +1,7 @@
+krems = {
+	name = "Krems"
+	world = earth
+	geocoordinate = { 15.616666666667 48.416666666667 }
+	type = resource
+	resource = grain
+}

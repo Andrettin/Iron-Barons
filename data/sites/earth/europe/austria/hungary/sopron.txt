@@ -1,0 +1,7 @@
+sopron = {
+	name = "Sopron"
+	world = earth
+	geocoordinate = { 16.583333333333 47.683333333333 }
+	type = resource
+	resource = fruit
+}
