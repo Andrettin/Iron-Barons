@@ -6,6 +6,7 @@ unexplored_terrain = unexplored
 default_province_terrain = plains
 default_water_zone_terrain = ocean
 default_population_class = untrained_workers
+default_tribal_population_class = tribesmen
 default_literate_population_class = trained_workers
 population_per_unit = 10000
 population_growth_threshold = 100
