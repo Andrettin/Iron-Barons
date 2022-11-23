@@ -104,6 +104,7 @@
 /graphics/portraits/university.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/university_large.png (by Jinn) (licensed under the CC0) (reference: University of Vienna)
 /graphics/tiles/borders/province_border.png (by Jinn) (licensed under the CC0)
+/graphics/tiles/improvements/cattle_ranch.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/grain_farm.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/quarry.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/quarry_mountains.png (by Jinn) (licensed under the CC0)
