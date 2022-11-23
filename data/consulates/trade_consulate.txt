@@ -1,5 +1,5 @@
 trade_consulate = {
 	name = "Trade Consulate"
 	level = 1
-	icon = treaty
+	icon = trade_consulate
 }

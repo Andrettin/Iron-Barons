@@ -36,6 +36,8 @@
 /graphics/icons/commodities/tools.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/wine.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/wool.png (by Jinn) (licensed under the CC0)
+/graphics/icons/diplomacy/embassy.png (by Jinn) (licensed under the CC0)
+/graphics/icons/diplomacy/trade_consulate.png (by Jinn) (licensed under the CC0)
 /graphics/icons/pathways/gravel_road.png (by Jinn) (licensed under the CC0)
 /graphics/icons/pathways/paved_road.png (by Jinn) (licensed under the CC0)
 /graphics/icons/pathways/railroad.png (by Jinn) (licensed under the CC0)

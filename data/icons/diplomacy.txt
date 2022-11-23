@@ -1,0 +1,7 @@
+trade_consulate = {
+	filepath = "icons/diplomacy/trade_consulate.png"
+}
+
+embassy = {
+	filepath = "icons/diplomacy/embassy.png"
+}

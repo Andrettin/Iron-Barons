@@ -1,5 +1,5 @@
 embassy = {
 	name = "Embassy"
 	level = 2
-	icon = treaty
+	icon = embassy
 }
