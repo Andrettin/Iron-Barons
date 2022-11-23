@@ -77,6 +77,11 @@ ofanto_river = {
 	color = { 83 131 67 }
 }
 
+piave_river = {
+	name = "Piave River"
+	river = true
+}
+
 po_river = {
 	name = "Po River"
 	river = true

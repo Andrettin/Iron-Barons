@@ -2,6 +2,8 @@ udine = {
 	name = "Udine"
 	world = earth
 	geocoordinate = { 13.24000809600 46.07001609200 } #from Natural Earth
+	pos_offset = { -2 0 } #so that it is on a river tile
 	type = resource
 	resource = fish
+	terrain_type = plains
 }
