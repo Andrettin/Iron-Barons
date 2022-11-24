@@ -5,4 +5,5 @@ timber_lodge = {
 	employment_type = timber_cutting
 	employment_capacity = 4
 	output_multiplier = 1
+	housing = 4
 }

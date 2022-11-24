@@ -6,6 +6,7 @@ steam_pumped_copper_mine = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
 	output_multiplier = 2
+	housing = 4
 	required_improvement = copper_mine
 	required_technology = steam_in_mining
 }

@@ -6,4 +6,5 @@ copper_mine = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
 	output_multiplier = 1
+	housing = 4
 }

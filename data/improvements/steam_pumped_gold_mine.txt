@@ -8,6 +8,7 @@ steam_pumped_gold_mine = {
 	employment_type = gold_mining
 	employment_capacity = 4
 	output_multiplier = 2
+	housing = 4
 	required_improvement = gold_mine
 	required_technology = steam_in_mining
 }

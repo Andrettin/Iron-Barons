@@ -8,4 +8,5 @@ coal_mine = {
 	employment_type = coal_mining
 	employment_capacity = 4
 	output_multiplier = 1
+	housing = 4
 }
