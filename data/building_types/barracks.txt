@@ -1,0 +1,6 @@
+barracks = {
+	name = "Barracks"
+	building_class = barracks
+	icon = crossed_sabers
+	housing = 1
+}

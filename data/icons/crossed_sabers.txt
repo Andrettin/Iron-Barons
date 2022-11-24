@@ -1,0 +1,3 @@
+crossed_sabers = {
+	filepath = "icons/crossed_sabers.png"
+}
