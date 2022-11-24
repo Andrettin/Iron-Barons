@@ -11,6 +11,7 @@ default_tribal_population_class = tribesmen
 default_literate_population_class = trained_workers
 population_per_unit = 10000
 population_growth_threshold = 100
+base_housing = 10
 minor_nation_color = { 221 216 181 }
 country_border_color = { 0 0 0 }
 selected_country_color = { 255 255 0 }
