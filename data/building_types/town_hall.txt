@@ -1,0 +1,12 @@
+town_hall = {
+	name = "Town Hall"
+	building_class = town_hall
+	icon = flag
+}
+
+capitol = {
+	name = "Capitol"
+	building_class = capitol
+	icon = flag
+	housing = 1
+}
