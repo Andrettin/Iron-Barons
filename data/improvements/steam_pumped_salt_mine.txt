@@ -8,7 +8,6 @@ steam_pumped_salt_mine = {
 	employment_type = salt_mining
 	employment_capacity = 4
 	output_multiplier = 2
-	housing = 4
 	required_improvement = salt_mine
 	required_technology = steam_in_mining
 }

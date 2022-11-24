@@ -3,5 +3,5 @@ horse_ranch = {
 	resource = horses
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 1
-	housing = 4
+	housing = 1
 }

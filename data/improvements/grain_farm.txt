@@ -5,6 +5,6 @@ grain_farm = {
 	employment_type = grain_farming
 	employment_capacity = 4
 	output_multiplier = 1
-	housing = 4
+	housing = 1
 	variation_count = 4
 }
