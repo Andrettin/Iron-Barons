@@ -1,0 +1,8 @@
+pancevo = {
+	name = "Pancevo"
+	world = earth
+	geocoordinate = { 20.651944444444 44.873888888889 }
+	pos_offset = { 1 0 }
+	type = resource
+	resource = grain
+}

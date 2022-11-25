@@ -1,0 +1,8 @@
+varazdin = {
+	name = "Varazdin"
+	world = earth
+	geocoordinate = { 16.337777777777777 46.308055555555555 }
+	type = resource
+	resource = sheep
+	terrain_type = barren_hills
+}

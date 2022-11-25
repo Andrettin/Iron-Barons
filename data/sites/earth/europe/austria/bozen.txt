@@ -1,0 +1,11 @@
+bozen = {
+	name = "Bozen"
+	world = earth
+	geocoordinate = { 11.36001948920 46.50042909660 } #from Natural Earth
+	type = resource
+	resource = grain
+	terrain_type = plains
+	cultural_names = {
+		italian = "Bolzano"
+	}
+}

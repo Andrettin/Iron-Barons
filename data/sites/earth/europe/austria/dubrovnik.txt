@@ -1,0 +1,8 @@
+dubrovnik = {
+	name = "Dubrovnik"
+	world = earth
+	geocoordinate = { 18.09139155950 42.66094769190 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = resource
+	resource = fish
+}

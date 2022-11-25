@@ -1,0 +1,8 @@
+postojna = {
+	name = "Postojna"
+	world = earth
+	geocoordinate = { 14.21528 45.77435 }
+	pos_offset = { 1 0 }
+	type = resource
+	resource = grain
+}

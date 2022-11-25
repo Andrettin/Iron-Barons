@@ -1,0 +1,11 @@
+pola = {
+	name = "Pola"
+	world = earth
+	geocoordinate = { 13.84808467470 44.86871990870 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = resource
+	resource = grain
+	cultural_names = {
+		croatian = "Pula"
+	}
+}

@@ -1,0 +1,11 @@
+fiume = {
+	name = "Fiume"
+	world = earth
+	geocoordinate = { 14.45001175810 45.32998374340 } #from Natural Earth
+	pos_offset = { 1 -1 }
+	type = resource
+	resource = fruit
+	cultural_names = {
+		croatian = "Rijeka"
+	}
+}

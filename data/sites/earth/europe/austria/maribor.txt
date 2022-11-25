@@ -1,0 +1,11 @@
+maribor = {
+	name = "Maribor"
+	world = earth
+	geocoordinate = { 15.65004186880 46.54047833160 } #from Natural Earth
+	type = resource
+	resource = timber
+	terrain_type = conifer_forest
+	cultural_group_names = {
+		german = "Marburg"
+	}
+}
