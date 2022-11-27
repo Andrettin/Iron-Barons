@@ -45,6 +45,7 @@ Item {
 			+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
 			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 			+ "\nPopulation: " + number_string(selected_country.game_data.population)
+			+ "\nPopulation Growth: " + selected_country.game_data.population_growth + "/" + metternich.defines.population_growth_threshold
 			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
 		) : ""
 		anchors.left: diplomatic_map.left
