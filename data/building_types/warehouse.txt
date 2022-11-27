@@ -1,0 +1,5 @@
+warehouse = {
+	name = "Warehouse"
+	building_class = warehouse
+	icon = chest
+}

@@ -64,6 +64,7 @@
 /graphics/icons/units/troops/rifle_infantry_extra_1_small.png (by Jinn) (licensed under the CC0)
 /graphics/icons/anchor.png (by Jinn) (licensed under the CC0)
 /graphics/icons/cannon.png (by Jinn) (licensed under the CC0)
+/graphics/icons/chest.png (by Jinn) (licensed under the CC0)
 /graphics/icons/cog.png (by Jinn) (licensed under the CC0)
 /graphics/icons/crossed_sabers.png (by Jinn) (licensed under the CC0)
 /graphics/icons/flag.png (by Jinn) (licensed under the CC0)
