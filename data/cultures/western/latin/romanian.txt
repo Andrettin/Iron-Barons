@@ -1,0 +1,5 @@
+romanian = {
+	name = "Romanian"
+	group = latin
+	color = { 240 240 140 }
+}

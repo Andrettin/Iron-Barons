@@ -1,5 +1,0 @@
-magyar = {
-	name = "Magyar"
-	color = { 180 255 120 }
-	default_phenotype = european
-}

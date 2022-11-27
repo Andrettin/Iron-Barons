@@ -1,5 +1,0 @@
-east_germanic = {
-	name = "East Germanic"
-	rank = group
-	default_phenotype = european
-}

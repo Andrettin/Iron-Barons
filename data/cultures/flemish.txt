@@ -1,5 +1,0 @@
-flemish = {
-	name = "Flemish"
-	group = german
-	color = { 43 141 172 }
-}

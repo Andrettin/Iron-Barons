@@ -1,5 +1,0 @@
-french = {
-	name = "French"
-	rank = group
-	default_phenotype = european
-}

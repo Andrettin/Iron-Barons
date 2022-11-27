@@ -1,5 +1,0 @@
-siouan = {
-	name = "Siouan"
-	rank = group
-	default_phenotype = amerindian
-}

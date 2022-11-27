@@ -1,5 +1,0 @@
-malay = {
-	name = "Malay"
-	rank = group
-	default_phenotype = east_asian
-}

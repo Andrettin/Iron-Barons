@@ -1,0 +1,5 @@
+arabic = {
+	name = "Arabic"
+	group = semitic
+	color = { 24 103 22 }
+}

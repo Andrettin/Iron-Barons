@@ -1,5 +1,0 @@
-roman = {
-	name = "Roman"
-	group = italic
-	color = { 204 51 51 }
-}

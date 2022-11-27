@@ -1,5 +1,0 @@
-tupian = {
-	name = "Tupian"
-	rank = group
-	default_phenotype = amerindian
-}

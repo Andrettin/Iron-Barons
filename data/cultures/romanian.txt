@@ -1,5 +1,0 @@
-romanian = {
-	name = "Romanian"
-	group = romanian
-	color = { 240 240 140 }
-}

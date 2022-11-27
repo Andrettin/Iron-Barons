@@ -1,0 +1,5 @@
+german = {
+	name = "German"
+	rank = infragroup
+	upper_group = west_germanic
+}

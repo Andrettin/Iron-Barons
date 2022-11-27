@@ -1,0 +1,5 @@
+briton = {
+	name = "Briton"
+	group = brythonic
+	color = { 102 98 30 }
+}

@@ -1,5 +1,0 @@
-anglo_saxon = {
-	name = "Anglo-Saxon"
-	rank = group
-	default_phenotype = european
-}

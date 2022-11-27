@@ -1,0 +1,5 @@
+albanian = {
+	name = "Albanian"
+	group = western
+	color = { 140 0 0 }
+}

@@ -1,5 +1,0 @@
-arabic = {
-	name = "Arabic"
-	group = arabic
-	color = { 24 103 22 }
-}

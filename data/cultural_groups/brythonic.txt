@@ -1,5 +1,0 @@
-brythonic = {
-	name = "Brythonic"
-	rank = group
-	default_phenotype = european
-}
