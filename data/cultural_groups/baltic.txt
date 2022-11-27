@@ -1,4 +1,5 @@
 baltic = {
 	name = "Baltic"
+	rank = group
 	default_phenotype = european
 }

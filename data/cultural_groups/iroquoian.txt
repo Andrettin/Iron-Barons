@@ -1,4 +1,5 @@
 iroquoian = {
 	name = "Iroquoian"
+	rank = group
 	default_phenotype = amerindian
 }

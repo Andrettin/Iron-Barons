@@ -1,4 +1,5 @@
 west_slavic = {
 	name = "West Slavic"
+	rank = group
 	default_phenotype = european
 }

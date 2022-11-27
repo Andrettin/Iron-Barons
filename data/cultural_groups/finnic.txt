@@ -1,4 +1,5 @@
 finnic = {
 	name = "Finnic"
+	rank = group
 	default_phenotype = european
 }

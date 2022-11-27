@@ -1,5 +1,5 @@
 albanian = {
 	name = "Albanian"
-	group = albanian
 	color = { 140 0 0 }
+	default_phenotype = european
 }

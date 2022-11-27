@@ -1,4 +1,5 @@
 italic = {
 	name = "Italic"
+	rank = group
 	default_phenotype = european
 }

@@ -1,4 +1,5 @@
 mesoamerican = {
 	name = "Mesoamerican"
+	rank = group
 	default_phenotype = amerindian
 }

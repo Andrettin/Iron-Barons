@@ -1,4 +1,0 @@
-albanian = {
-	name = "Albanian"
-	default_phenotype = european
-}

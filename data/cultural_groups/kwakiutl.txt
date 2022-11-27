@@ -1,4 +1,5 @@
 kwakiutl = {
 	name = "Kwakiutl"
+	rank = group
 	default_phenotype = amerindian
 }

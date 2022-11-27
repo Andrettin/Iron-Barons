@@ -1,4 +1,0 @@
-magyar = {
-	name = "Magyar"
-	default_phenotype = european
-}

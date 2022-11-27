@@ -1,4 +1,5 @@
 hellenic = {
 	name = "Hellenic"
+	rank = group
 	default_phenotype = european
 }

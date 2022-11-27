@@ -1,4 +1,5 @@
 italian = {
 	name = "Italian"
+	rank = group
 	default_phenotype = european
 }

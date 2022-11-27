@@ -1,4 +1,5 @@
 west_african = {
 	name = "West African"
+	rank = group
 	default_phenotype = african
 }

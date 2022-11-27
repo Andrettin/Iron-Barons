@@ -1,5 +1,5 @@
 magyar = {
 	name = "Magyar"
-	group = magyar
 	color = { 180 255 120 }
+	default_phenotype = european
 }

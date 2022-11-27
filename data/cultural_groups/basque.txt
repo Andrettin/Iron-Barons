@@ -1,4 +1,5 @@
 basque = {
 	name = "Basque"
+	rank = group
 	default_phenotype = european
 }

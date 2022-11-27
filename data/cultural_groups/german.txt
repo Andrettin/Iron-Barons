@@ -1,4 +1,5 @@
 german = {
 	name = "German"
+	rank = group
 	default_phenotype = european
 }

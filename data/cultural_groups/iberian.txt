@@ -1,4 +1,5 @@
 iberian = {
 	name = "Iberian"
+	rank = group
 	default_phenotype = european
 }

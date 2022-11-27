@@ -1,4 +1,5 @@
 arabic = {
 	name = "Arabic"
+	rank = group
 	default_phenotype = middle_eastern
 }
