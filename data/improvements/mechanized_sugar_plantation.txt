@@ -3,7 +3,6 @@ mechanized_sugar_plantation = {
 	resource = sugar_cane
 	image_filepath = "tiles/improvements/grain_farm.png"
 	output_multiplier = 2
-	housing = 1
 	variation_count = 4
 	required_improvement = sugar_plantation
 	required_technology = sugar_industry

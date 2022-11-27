@@ -145,7 +145,6 @@ Item {
 		anchors.leftMargin: 12 * scale_factor
 		text: province_game_data ? (
 			"Population: " + number_string(province_game_data.population)
-			+ "\n\nHousing: " + province_game_data.population_unit_count + "/" + province_game_data.housing
 		) : ""
 		visible: selected_site && selected_site.settlement
 		

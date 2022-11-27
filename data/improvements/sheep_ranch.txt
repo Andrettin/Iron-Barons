@@ -5,5 +5,4 @@ sheep_ranch = {
 	employment_type = sheep_ranching
 	employment_capacity = 4
 	output_multiplier = 1
-	housing = 1
 }

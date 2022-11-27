@@ -5,6 +5,5 @@ orchard = {
 	employment_type = fruit_growing
 	employment_capacity = 4
 	output_multiplier = 1
-	housing = 1
 	variation_count = 4
 }
