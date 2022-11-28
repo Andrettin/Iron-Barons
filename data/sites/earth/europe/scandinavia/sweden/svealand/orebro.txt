@@ -1,0 +1,8 @@
+orebro = {
+	name = "Orebro" #"Örebro"
+	world = earth
+	geocoordinate = { 15.21999059920 59.28034669910 } #from Natural Earth
+	type = resource
+	resource = timber
+	terrain_type = conifer_forest
+}
