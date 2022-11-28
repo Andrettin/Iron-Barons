@@ -1,0 +1,5 @@
+kujalleq = {
+	name = "Kujalleq"
+	color = { 68 197 102 }
+	capital_settlement = qaqortoq
+}

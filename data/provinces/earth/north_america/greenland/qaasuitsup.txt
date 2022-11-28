@@ -1,0 +1,5 @@
+qaasuitsup = {
+	name = "Qaasuitsup"
+	color = { 144 97 236 }
+	capital_settlement = ilulissat
+}

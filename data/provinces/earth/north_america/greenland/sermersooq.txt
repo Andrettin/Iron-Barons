@@ -1,0 +1,5 @@
+sermersooq = {
+	name = "Sermersooq"
+	color = { 242 139 32 }
+	capital_settlement = nuuk
+}
