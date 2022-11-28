@@ -1,0 +1,8 @@
+falun = {
+	name = "Falun"
+	world = earth
+	geocoordinate = { 15.64700455370 60.61300203560 } #from Natural Earth
+	type = resource
+	resource = iron_ore
+	terrain_type = barren_hills
+}

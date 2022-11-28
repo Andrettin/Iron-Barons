@@ -1,0 +1,9 @@
+lulea = {
+	name = "Lulea" #"Luleå"
+	world = earth
+	geocoordinate = { 22.15837832940 65.59663477230 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = resource
+	resource = iron_ore
+	terrain_type = barren_hills
+}
