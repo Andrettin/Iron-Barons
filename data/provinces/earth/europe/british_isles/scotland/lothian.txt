@@ -1,0 +1,12 @@
+lothian = {
+	name = "Lothian"
+	color = { 141 37 63 }
+	capital_settlement = edinburgh
+	regions = {
+		scotland
+	}
+	
+	history = {
+		culture = scottish
+	}
+}

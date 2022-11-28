@@ -1,0 +1,12 @@
+ayrshire = {
+	name = "Ayrshire"
+	color = { 228 160 173 }
+	capital_settlement = ayr
+	regions = {
+		scotland
+	}
+	
+	history = {
+		culture = scottish
+	}
+}

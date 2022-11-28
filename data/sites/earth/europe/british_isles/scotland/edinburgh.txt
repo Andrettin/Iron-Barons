@@ -1,0 +1,12 @@
+edinburgh = {
+	name = "Edinburgh"
+	world = earth
+	geocoordinate = { -3.21909061829 55.94832785960 } #from Natural Earth
+	type = settlement
+	
+	history = {
+		1582 = {
+			buildings += university #University founded in Edinburgh in 1582; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
+}

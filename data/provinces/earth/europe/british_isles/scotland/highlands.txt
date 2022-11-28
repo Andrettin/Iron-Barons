@@ -1,0 +1,12 @@
+highlands = {
+	name = "Highlands"
+	color = { 245 141 27 }
+	capital_settlement = inverness
+	regions = {
+		scotland
+	}
+	
+	history = {
+		culture = scottish
+	}
+}
