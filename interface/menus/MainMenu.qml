@@ -7,11 +7,25 @@ MenuBase {
 	title: qsTr("Main Menu")
 	
 	TextButton {
+		id: play_random_map_button
+		anchors.horizontalCenter: play_scenario_button.horizontalCenter
+		anchors.bottom: play_scenario_button.top
+		anchors.bottomMargin: 8 * scale_factor
+		text: qsTr("Play Random Map")
+		width: 128 * scale_factor
+		height: 24 * scale_factor
+		
+		onClicked: {
+			menu_stack.push("RandomMapMenu.qml")
+		}
+	}
+	
+	TextButton {
 		id: play_scenario_button
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		text: qsTr("Play Scenario")
-		width: 96 * scale_factor
+		width: 128 * scale_factor
 		height: 24 * scale_factor
 		
 		onClicked: {
@@ -25,7 +39,7 @@ MenuBase {
 		anchors.top: play_scenario_button.bottom
 		anchors.topMargin: 8 * scale_factor
 		text: qsTr("Exit")
-		width: 96 * scale_factor
+		width: 128 * scale_factor
 		height: 24 * scale_factor
 		
 		onClicked: {
