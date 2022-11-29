@@ -9,4 +9,13 @@ sweden = {
 		renaissance
 		industrial
 	}
+	provinces = {
+		uppland
+		smaland
+		halland
+		vasterbotten
+		angermanland
+		jamtland
+		gotland
+	}
 }

@@ -8,4 +8,10 @@ sardinia = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		piedmont
+		savoy
+		genoa
+		sardinia
+	}
 }
