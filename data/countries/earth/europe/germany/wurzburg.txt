@@ -6,4 +6,7 @@ wurzburg = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		franconia
+	}
 }

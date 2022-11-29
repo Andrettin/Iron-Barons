@@ -6,4 +6,7 @@ cologne = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		rhineland
+	}
 }

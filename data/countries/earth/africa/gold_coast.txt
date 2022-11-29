@@ -3,6 +3,12 @@ gold_coast = {
 	type = minor_nation
 	culture = akan
 	capital_province = accra
+	provinces = {
+		accra
+		western_gold_coast
+		central_gold_coast
+		ashanti
+	}
 	
 	history = {
 		1884.11 = {

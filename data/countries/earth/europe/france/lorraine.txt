@@ -6,4 +6,8 @@ lorraine = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		lorraine
+		moselle
+	}
 }

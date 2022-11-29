@@ -6,4 +6,7 @@ milan = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		lombardy
+	}
 }

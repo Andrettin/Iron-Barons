@@ -6,4 +6,12 @@ hungary = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		pest
+		buda
+		pressburg
+		kesmark
+		banat
+		transylvania
+	}
 }

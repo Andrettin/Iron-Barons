@@ -3,4 +3,9 @@ naples = {
 	type = minor_nation
 	culture = italian
 	capital_province = naples
+	provinces = {
+		naples
+		cosenza
+		taranto
+	}
 }

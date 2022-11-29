@@ -3,4 +3,7 @@ granada = {
 	type = minor_nation
 	culture = arabic
 	capital_province = granada
+	provinces = {
+		granada
+	}
 }

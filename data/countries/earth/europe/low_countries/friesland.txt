@@ -6,4 +6,7 @@ friesland = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		friesland
+	}
 }

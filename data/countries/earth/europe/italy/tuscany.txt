@@ -6,4 +6,7 @@ tuscany = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		tuscany
+	}
 }

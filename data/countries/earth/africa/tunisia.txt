@@ -7,6 +7,9 @@ tunisia = {
 		renaissance
 		industrial
 	}
+	provinces = {
+		tunisia
+	}
 	
 	history = {
 		1575 = {

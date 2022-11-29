@@ -3,6 +3,31 @@ la_plata = {
 	type = minor_nation
 	culture = castillian
 	capital_province = buenos_aires
+	provinces = {
+		buenos_aires
+		cordoba_argentina
+		santa_fe
+		mendoza
+		tucuman
+		salta
+		entre_rios
+		misiones
+		chaco
+		corrientes
+		santiago_del_estero
+		san_juan
+		jujuy
+		rio_negro
+		neuquen
+		formosa
+		chubut
+		san_luis
+		catamarca
+		la_rioja
+		la_pampa
+		santa_cruz
+		tierra_del_fuego
+	}
 	
 	history = {
 		1600 = {

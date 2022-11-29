@@ -6,4 +6,7 @@ parma = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		parma
+	}
 }

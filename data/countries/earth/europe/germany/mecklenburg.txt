@@ -7,4 +7,7 @@ mecklenburg = {
 		renaissance
 		industrial
 	}
+	provinces = {
+		mecklenburg
+	}
 }

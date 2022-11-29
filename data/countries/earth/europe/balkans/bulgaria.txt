@@ -6,4 +6,8 @@ bulgaria = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		bulgaria
+		eastern_rumelia
+	}
 }

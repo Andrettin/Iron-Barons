@@ -3,4 +3,13 @@ mexico = {
 	type = minor_nation
 	culture = castillian
 	capital_province = mexico
+	provinces = {
+		mexico
+		veracruz
+		chiapas
+		oaxaca
+		baja_california
+		tabasco
+		yucatan
+	}
 }

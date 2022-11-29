@@ -8,4 +8,12 @@ netherlands = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		holland
+		utrecht
+		zeeland
+		overijssel
+		groningen
+		friesland
+	}
 }

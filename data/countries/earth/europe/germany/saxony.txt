@@ -7,4 +7,7 @@ saxony = {
 		renaissance
 		industrial
 	}
+	provinces = {
+		saxony
+	}
 }

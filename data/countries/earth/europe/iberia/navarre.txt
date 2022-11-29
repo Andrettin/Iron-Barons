@@ -3,4 +3,7 @@ navarre = {
 	type = minor_nation
 	culture = basque
 	capital_province = navarre
+	provinces = {
+		navarre
+	}
 }

@@ -3,6 +3,9 @@ california = {
 	type = minor_nation
 	culture = castillian
 	capital_province = california
+	provinces = {
+		california
+	}
 	
 	history = {
 		1585 = {

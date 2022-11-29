@@ -6,4 +6,7 @@ utrecht = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		utrecht
+	}
 }

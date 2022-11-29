@@ -6,4 +6,7 @@ oldenburg = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		oldenburg
+	}
 }

@@ -7,4 +7,9 @@ wallachia = {
 		renaissance
 		industrial
 	}
+	provinces = {
+		wallachia
+		oltenia
+		dobruja
+	}
 }

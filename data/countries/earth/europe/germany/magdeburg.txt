@@ -6,4 +6,7 @@ magdeburg = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		magdeburg
+	}
 }

@@ -3,4 +3,7 @@ thuringia = {
 	type = minor_nation
 	culture = german
 	capital_province = thuringia
+	provinces = {
+		thuringia
+	}
 }

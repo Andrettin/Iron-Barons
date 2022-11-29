@@ -6,4 +6,7 @@ palatinate = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		palatinate
+	}
 }

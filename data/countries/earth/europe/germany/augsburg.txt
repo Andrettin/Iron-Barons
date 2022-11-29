@@ -6,4 +6,7 @@ augsburg = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		augsburg
+	}
 }

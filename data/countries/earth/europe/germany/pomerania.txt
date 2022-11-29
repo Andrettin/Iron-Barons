@@ -6,4 +6,8 @@ pomerania = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		hither_pomerania
+		farther_pomerania
+	}
 }

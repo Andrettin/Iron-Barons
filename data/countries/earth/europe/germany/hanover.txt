@@ -6,4 +6,7 @@ hanover = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		hanover
+	}
 }

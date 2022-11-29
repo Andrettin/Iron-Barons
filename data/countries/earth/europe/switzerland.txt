@@ -7,4 +7,9 @@ switzerland = {
 		renaissance
 		industrial
 	}
+	provinces = {
+		bern
+		zurich
+		geneva
+	}
 }

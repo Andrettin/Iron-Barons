@@ -6,4 +6,7 @@ liege = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		liege
+	}
 }

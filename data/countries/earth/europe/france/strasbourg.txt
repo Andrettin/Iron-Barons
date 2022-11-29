@@ -6,4 +6,7 @@ strasbourg = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		alsace
+	}
 }

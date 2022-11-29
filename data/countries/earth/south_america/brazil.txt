@@ -3,6 +3,24 @@ brazil = {
 	type = minor_nation
 	culture = portuguese
 	capital_province = rio_de_janeiro
+	provinces = {
+		rio_de_janeiro
+		bahia
+		sao_paulo
+		pernambuco
+		minas_gerais
+		maranhao
+		rio_grande_do_sul
+		ceara
+		santa_catarina
+		alagoas
+		sergipe
+		paraiba
+		rio_grande_do_norte
+		parana
+		espirito_santo
+		piaui
+	}
 	
 	history = {
 		1567 = {

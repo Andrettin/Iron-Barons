@@ -6,4 +6,7 @@ bremen = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		bremen
+	}
 }

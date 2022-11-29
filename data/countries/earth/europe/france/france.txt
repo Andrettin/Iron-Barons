@@ -9,4 +9,20 @@ france = {
 		renaissance
 		industrial
 	}
+	provinces = {
+		ile_de_france
+		orleanais
+		anjou
+		champagne
+		picardy
+		poitou
+		burgundy
+		limousin
+		auvergne
+		dauphiny
+		guyenne
+		gascony
+		languedoc
+		provence
+	}
 }

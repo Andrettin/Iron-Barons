@@ -6,4 +6,7 @@ montenegro = {
 	eras = {
 		industrial
 	}
+	provinces = {
+		montenegro
+	}
 }

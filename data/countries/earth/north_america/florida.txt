@@ -3,6 +3,9 @@ florida = {
 	type = minor_nation
 	culture = castillian
 	capital_province = florida
+	provinces = {
+		florida
+	}
 	
 	history = {
 		1600 = {

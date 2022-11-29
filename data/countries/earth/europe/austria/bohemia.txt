@@ -6,4 +6,11 @@ bohemia = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		bohemia
+		budweis
+		pilsen
+		moravia
+		brunn
+	}
 }

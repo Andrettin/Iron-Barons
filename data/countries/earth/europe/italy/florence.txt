@@ -6,4 +6,7 @@ florence = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		tuscany
+	}
 }

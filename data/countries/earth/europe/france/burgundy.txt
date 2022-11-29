@@ -3,4 +3,7 @@ burgundy = {
 	type = minor_nation
 	culture = french
 	capital_province = burgundy
+	provinces = {
+		burgundy
+	}
 }

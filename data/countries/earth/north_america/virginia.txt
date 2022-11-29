@@ -3,6 +3,10 @@ virginia = {
 	type = minor_nation
 	culture = english
 	capital_province = virginia
+	provinces = {
+		virginia
+		west_virginia
+	}
 	
 	history = {
 		1585 = {

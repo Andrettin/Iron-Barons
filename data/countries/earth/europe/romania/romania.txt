@@ -3,4 +3,10 @@ romania = {
 	type = minor_nation
 	culture = romanian
 	capital_province = wallachia
+	provinces = {
+		wallachia
+		oltenia
+		moldavia
+		dobruja
+	}
 }

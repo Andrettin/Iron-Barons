@@ -3,4 +3,9 @@ belgium = {
 	type = minor_nation
 	culture = walloon
 	capital_province = brabant
+	provinces = {
+		brabant
+		liege
+		antwerp
+	}
 }

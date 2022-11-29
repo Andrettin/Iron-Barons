@@ -6,4 +6,7 @@ brunswick = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		hanover
+	}
 }

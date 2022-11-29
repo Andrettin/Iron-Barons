@@ -6,6 +6,9 @@ venice = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		venetia
+	}
 	
 	history = {
 		1471 = {

@@ -6,4 +6,7 @@ salzburg = {
 	eras = {
 		renaissance
 	}
+	provinces = {
+		salzburg
+	}
 }
