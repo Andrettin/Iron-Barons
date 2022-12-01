@@ -1,0 +1,44 @@
+andaman_sea = {
+	name = "Andaman Sea"
+	color = { 49 246 242 }
+	water_zone = true
+	regions = {
+		indian_ocean
+	}
+}
+
+arabian_sea = {
+	name = "Arabian Sea"
+	color = { 19 65 206 }
+	water_zone = true
+	regions = {
+		indian_ocean
+	}
+}
+
+indian_ocean = {
+	name = "Indian Ocean"
+	color = { 35 77 224 }
+	water_zone = true
+	regions = {
+		indian_ocean
+	}
+}
+
+laccadive_sea = {
+	name = "Laccadive Sea"
+	color = { 18 22 192 }
+	water_zone = true
+	regions = {
+		indian_ocean
+	}
+}
+
+red_sea = {
+	name = "Red Sea"
+	color = { 148 210 250 }
+	water_zone = true
+	regions = {
+		indian_ocean
+	}
+}

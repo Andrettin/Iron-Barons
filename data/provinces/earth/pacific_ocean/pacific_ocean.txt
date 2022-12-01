@@ -1,0 +1,26 @@
+bering_sea = {
+	name = "Bering Sea"
+	color = { 34 15 222 }
+	water_zone = true
+	regions = {
+		pacific_ocean
+	}
+}
+
+north_pacific_ocean = {
+	name = "North Pacific Ocean"
+	color = { 133 250 255 }
+	water_zone = true
+	regions = {
+		pacific_ocean
+	}
+}
+
+south_pacific_ocean = {
+	name = "South Pacific Ocean"
+	color = { 140 213 210 }
+	water_zone = true
+	regions = {
+		pacific_ocean
+	}
+}

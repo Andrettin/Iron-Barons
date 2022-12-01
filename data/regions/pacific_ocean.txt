@@ -1,0 +1,3 @@
+pacific_ocean = {
+	ocean = true
+}

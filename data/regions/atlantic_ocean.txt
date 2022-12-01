@@ -1,4 +1,5 @@
 atlantic_ocean = {
+	ocean = true
 }
 
 baltic_sea = {
