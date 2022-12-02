@@ -1,0 +1,6 @@
+scrub_forest = {
+	name = "Scrub Forest"
+	color = { 0 255 0 }
+	image_filepath = "tiles/terrain/scrub_forest.png"
+	tiles = { 0 1 2 3 }
+}
