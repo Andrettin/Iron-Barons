@@ -4,6 +4,6 @@ huron = {
 	culture = huron
 	capital_province = quebec
 	eras = {
-		renaissance
+		renaissance_era
 	}
 }

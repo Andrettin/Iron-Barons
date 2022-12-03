@@ -4,8 +4,8 @@ modena = {
 	culture = italian
 	capital_province = modena
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		modena

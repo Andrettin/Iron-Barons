@@ -4,7 +4,7 @@ tuscany = {
 	culture = italian
 	capital_province = tuscany
 	eras = {
-		industrial
+		industrial_era
 	}
 	provinces = {
 		tuscany

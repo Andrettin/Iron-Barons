@@ -4,8 +4,8 @@ baden = {
 	culture = german
 	capital_province = baden
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		baden

@@ -4,6 +4,6 @@ iroquois = {
 	culture = iroquois
 	capital_province = new_york
 	eras = {
-		renaissance
+		renaissance_era
 	}
 }

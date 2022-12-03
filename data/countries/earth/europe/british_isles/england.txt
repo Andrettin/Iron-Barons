@@ -6,7 +6,7 @@ england = {
 	culture = english
 	capital_province = middlesex
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	
 	history = {

@@ -4,7 +4,7 @@ magdeburg = {
 	culture = german
 	capital_province = magdeburg
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		magdeburg

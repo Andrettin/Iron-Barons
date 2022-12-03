@@ -6,6 +6,6 @@ muscovy = {
 	culture = russian
 	capital_province = moscow
 	eras = {
-		renaissance
+		renaissance_era
 	}
 }

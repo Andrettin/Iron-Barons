@@ -4,8 +4,8 @@ morocco = {
 	culture = arabic
 	capital_province = morocco
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		morocco

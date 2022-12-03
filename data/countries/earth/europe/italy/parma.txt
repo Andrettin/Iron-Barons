@@ -4,7 +4,7 @@ parma = {
 	culture = italian
 	capital_province = parma
 	eras = {
-		industrial
+		industrial_era
 	}
 	provinces = {
 		parma

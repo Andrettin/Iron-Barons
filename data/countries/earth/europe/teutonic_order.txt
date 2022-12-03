@@ -4,6 +4,6 @@ teutonic_order = {
 	culture = german
 	capital_province = east_prussia
 	eras = {
-		renaissance
+		renaissance_era
 	}
 }

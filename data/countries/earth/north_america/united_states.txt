@@ -6,6 +6,6 @@ united_states = {
 	culture = english
 	capital_province = maryland
 	eras = {
-		industrial
+		industrial_era
 	}
 }

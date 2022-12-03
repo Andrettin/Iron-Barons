@@ -4,6 +4,6 @@ kwakiutl = {
 	culture = kwakiutl
 	capital_province = british_columbia
 	eras = {
-		renaissance
+		renaissance_era
 	}
 }

@@ -4,7 +4,7 @@ utrecht = {
 	culture = dutch
 	capital_province = utrecht
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		utrecht

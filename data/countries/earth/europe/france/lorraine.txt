@@ -4,7 +4,7 @@ lorraine = {
 	culture = french
 	capital_province = lorraine
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		lorraine

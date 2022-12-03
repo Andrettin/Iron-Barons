@@ -6,8 +6,8 @@ portugal = {
 	culture = portuguese
 	capital_province = estremadura
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		estremadura

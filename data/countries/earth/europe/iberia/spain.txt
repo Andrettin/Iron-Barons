@@ -6,8 +6,8 @@ spain = {
 	culture = castillian
 	capital_province = castille
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		castille

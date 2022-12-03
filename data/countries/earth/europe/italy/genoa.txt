@@ -4,7 +4,7 @@ genoa = {
 	culture = italian
 	capital_province = genoa
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		genoa

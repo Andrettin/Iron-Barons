@@ -4,7 +4,7 @@ pomerania = {
 	culture = german
 	capital_province = hither_pomerania
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		hither_pomerania

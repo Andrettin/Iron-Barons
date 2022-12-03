@@ -4,7 +4,7 @@ sicily = {
 	culture = italian
 	capital_province = sicily
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 }

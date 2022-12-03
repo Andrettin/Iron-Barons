@@ -4,6 +4,6 @@ tupi = {
 	culture = tupi
 	capital_province = bahia
 	eras = {
-		renaissance
+		renaissance_era
 	}
 }

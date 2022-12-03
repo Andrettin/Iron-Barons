@@ -4,8 +4,8 @@ algeria = {
 	culture = arabic
 	capital_province = algeria
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		algeria

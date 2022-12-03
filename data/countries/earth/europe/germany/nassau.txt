@@ -4,8 +4,8 @@ nassau = {
 	culture = german
 	capital_province = nassau
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		nassau

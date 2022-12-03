@@ -4,7 +4,7 @@ wurzburg = {
 	culture = german
 	capital_province = franconia
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		franconia

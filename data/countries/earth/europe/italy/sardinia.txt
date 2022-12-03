@@ -6,7 +6,7 @@ sardinia = {
 	culture = italian
 	capital_province = piedmont
 	eras = {
-		industrial
+		industrial_era
 	}
 	provinces = {
 		piedmont

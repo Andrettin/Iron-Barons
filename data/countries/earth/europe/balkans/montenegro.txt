@@ -4,7 +4,7 @@ montenegro = {
 	culture = serbian
 	capital_province = montenegro
 	eras = {
-		industrial
+		industrial_era
 	}
 	provinces = {
 		montenegro

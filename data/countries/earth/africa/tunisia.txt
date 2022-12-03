@@ -4,8 +4,8 @@ tunisia = {
 	culture = arabic
 	capital_province = tunisia
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		tunisia

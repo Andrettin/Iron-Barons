@@ -4,7 +4,7 @@ friesland = {
 	culture = dutch
 	capital_province = friesland
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		friesland

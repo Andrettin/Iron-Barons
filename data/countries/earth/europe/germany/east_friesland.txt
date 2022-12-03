@@ -4,7 +4,7 @@ east_friesland = {
 	culture = german
 	capital_province = east_friesland
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		east_friesland

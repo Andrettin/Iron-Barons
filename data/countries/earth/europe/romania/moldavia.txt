@@ -4,8 +4,8 @@ moldavia = {
 	culture = romanian
 	capital_province = moldavia
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		moldavia

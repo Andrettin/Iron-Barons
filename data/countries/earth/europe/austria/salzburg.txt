@@ -4,7 +4,7 @@ salzburg = {
 	culture = austrian
 	capital_province = salzburg
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		salzburg

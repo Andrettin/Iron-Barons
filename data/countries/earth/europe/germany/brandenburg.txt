@@ -6,7 +6,7 @@ brandenburg = {
 	culture = german
 	capital_province = brandenburg
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		brandenburg

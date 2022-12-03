@@ -4,8 +4,8 @@ switzerland = {
 	culture = german
 	capital_province = bern
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		bern

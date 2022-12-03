@@ -4,7 +4,7 @@ milan = {
 	culture = italian
 	capital_province = lombardy
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		lombardy

@@ -7,6 +7,6 @@ great_britain = {
 	culture = english
 	capital_province = middlesex
 	eras = {
-		industrial
+		industrial_era
 	}
 }

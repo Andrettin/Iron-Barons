@@ -4,7 +4,7 @@ hungary = {
 	culture = magyar
 	capital_province = pest
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		pest

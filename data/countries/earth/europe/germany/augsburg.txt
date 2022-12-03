@@ -4,7 +4,7 @@ augsburg = {
 	culture = german
 	capital_province = augsburg
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		augsburg

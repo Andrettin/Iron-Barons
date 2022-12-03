@@ -6,7 +6,7 @@ ottoman_empire = {
 	culture = turkish
 	capital_province = thrace
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 }

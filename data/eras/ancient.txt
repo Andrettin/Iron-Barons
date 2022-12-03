@@ -1,4 +1,0 @@
-ancient = {
-	name = "Ancient"
-	start_date = -700
-}

@@ -4,7 +4,7 @@ venice = {
 	culture = italian
 	capital_province = venetia
 	eras = {
-		renaissance
+		renaissance_era
 	}
 	provinces = {
 		venetia

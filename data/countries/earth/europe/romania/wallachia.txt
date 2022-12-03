@@ -4,8 +4,8 @@ wallachia = {
 	culture = romanian
 	capital_province = wallachia
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		wallachia

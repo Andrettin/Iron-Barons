@@ -4,8 +4,8 @@ hesse = {
 	culture = german
 	capital_province = hesse
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		hesse

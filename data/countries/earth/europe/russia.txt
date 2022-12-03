@@ -6,6 +6,6 @@ russia = {
 	culture = russian
 	capital_province = moscow
 	eras = {
-		industrial
+		industrial_era
 	}
 }

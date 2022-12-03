@@ -6,6 +6,6 @@ savoy = {
 	culture = italian
 	capital_province = savoy
 	eras = {
-		renaissance
+		renaissance_era
 	}
 }

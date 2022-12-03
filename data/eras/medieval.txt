@@ -1,4 +1,0 @@
-medieval = {
-	name = "Medieval"
-	start_date = 476
-}

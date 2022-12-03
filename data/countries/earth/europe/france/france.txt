@@ -6,8 +6,8 @@ france = {
 	culture = french
 	capital_province = ile_de_france
 	eras = {
-		renaissance
-		industrial
+		renaissance_era
+		industrial_era
 	}
 	provinces = {
 		ile_de_france

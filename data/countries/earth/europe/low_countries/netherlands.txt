@@ -6,7 +6,7 @@ netherlands = {
 	culture = dutch
 	capital_province = holland
 	eras = {
-		industrial
+		industrial_era
 	}
 	provinces = {
 		holland
