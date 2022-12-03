@@ -6,7 +6,20 @@ england = {
 	culture = english
 	capital_province = middlesex
 	eras = {
+		medieval_era
 		renaissance_era
+	}
+	provinces = {
+		middlesex
+		somerset
+		devon
+		kent
+		east_anglia
+		warwickshire
+		lancashire
+		yorkshire
+		northumberland
+		cornwall
 	}
 	
 	history = {

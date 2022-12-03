@@ -4,6 +4,7 @@ hanover = {
 	culture = german
 	capital_province = hanover
 	eras = {
+		renaissance_era
 		industrial_era
 	}
 	provinces = {

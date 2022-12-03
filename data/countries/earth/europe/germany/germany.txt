@@ -5,4 +5,36 @@ germany = {
 	palette = black
 	culture = german
 	capital_province = brandenburg
+	eras = {
+		industrial_era
+	}
+	provinces = {
+		brandenburg
+		augsburg
+		baden
+		bavaria
+		bremen
+		east_friesland
+		east_prussia
+		farther_pomerania
+		franconia
+		hanover
+		hesse
+		hither_pomerania
+		holstein
+		lower_silesia
+		magdeburg
+		mecklenburg
+		nassau
+		oldenburg
+		palatinate
+		rhineland
+		saxony
+		schleswig
+		thuringia
+		upper_silesia
+		west_prussia
+		westphalia
+		wurtemberg
+	}
 }

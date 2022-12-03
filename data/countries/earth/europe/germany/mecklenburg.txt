@@ -4,6 +4,7 @@ mecklenburg = {
 	culture = german
 	capital_province = mecklenburg
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}

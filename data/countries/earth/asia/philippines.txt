@@ -3,6 +3,9 @@ philippines = {
 	type = minor_nation
 	culture = filipino
 	capital_province = luzon
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		luzon
 		mindanao

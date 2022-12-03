@@ -4,6 +4,8 @@ oldenburg = {
 	culture = german
 	capital_province = oldenburg
 	eras = {
+		medieval_era
+		renaissance_era
 		industrial_era
 	}
 	provinces = {

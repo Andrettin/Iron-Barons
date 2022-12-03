@@ -4,6 +4,7 @@ bulgaria = {
 	culture = bulgarian
 	capital_province = bulgaria
 	eras = {
+		medieval_era
 		industrial_era
 	}
 	provinces = {

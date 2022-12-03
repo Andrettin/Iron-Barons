@@ -4,6 +4,7 @@ saxony = {
 	culture = german
 	capital_province = saxony
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}

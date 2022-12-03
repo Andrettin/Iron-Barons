@@ -4,6 +4,7 @@ brunswick = {
 	culture = german
 	capital_province = hanover
 	eras = {
+		medieval_era
 		renaissance_era
 	}
 	provinces = {

@@ -3,6 +3,10 @@ gold_coast = {
 	type = minor_nation
 	culture = akan
 	capital_province = accra
+	eras = {
+		renaissance_era
+		industrial_era
+	}
 	provinces = {
 		accra
 		western_gold_coast

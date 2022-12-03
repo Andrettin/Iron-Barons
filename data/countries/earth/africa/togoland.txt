@@ -3,6 +3,9 @@ togoland = {
 	type = minor_nation
 	culture = ewe
 	capital_province = togo
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		togo
 	}
