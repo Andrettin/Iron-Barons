@@ -3,6 +3,9 @@ santo_domingo = {
 	type = minor_nation
 	culture = castillian
 	capital_province = santo_domingo
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		santo_domingo
 	}

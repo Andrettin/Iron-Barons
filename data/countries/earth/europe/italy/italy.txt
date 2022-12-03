@@ -5,4 +5,23 @@ italy = {
 	palette = lime
 	culture = italian
 	capital_province = latium
+	eras = {
+		industrial_era
+	}
+	provinces = {
+		latium
+		cosenza
+		genoa
+		lombardy
+		modena
+		naples
+		parma
+		piedmont
+		romagna
+		sardinia
+		sicily
+		taranto
+		tuscany
+		venetia
+	}
 }

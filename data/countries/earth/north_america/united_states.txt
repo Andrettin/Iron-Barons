@@ -8,4 +8,53 @@ united_states = {
 	eras = {
 		industrial_era
 	}
+	provinces = {
+		maryland
+		alabama
+		arizona
+		arkansas
+		california
+		colorado
+		connecticut
+		delaware
+		florida
+		georgia
+		idaho
+		illinois
+		indiana
+		iowa
+		kansas
+		kentucky
+		louisiana
+		maine
+		massachusetts
+		michigan
+		minnesota
+		mississippi
+		missouri
+		montana
+		nebraska
+		nevada
+		new_hampshire
+		new_jersey
+		new_mexico
+		new_york
+		north_carolina
+		north_dakota
+		ohio
+		oklahoma
+		oregon
+		pennsylvania
+		south_carolina
+		south_dakota
+		tennessee
+		texas
+		utah
+		vermont
+		virginia
+		washington
+		west_virginia
+		wisconsin
+		wyoming
+	}
 }

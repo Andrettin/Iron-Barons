@@ -4,6 +4,7 @@ papal_states = {
 	culture = italian
 	capital_province = latium
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}

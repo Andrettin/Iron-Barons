@@ -3,6 +3,9 @@ cuba = {
 	type = minor_nation
 	culture = castillian
 	capital_province = cuba
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		cuba
 	}

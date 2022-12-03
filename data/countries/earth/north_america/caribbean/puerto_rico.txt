@@ -3,6 +3,9 @@ puerto_rico = {
 	type = minor_nation
 	culture = castillian
 	capital_province = puerto_rico
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		puerto_rico
 	}

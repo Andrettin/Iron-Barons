@@ -3,6 +3,10 @@ naples = {
 	type = minor_nation
 	culture = italian
 	capital_province = naples
+	eras = {
+		medieval_era
+		renaissance_era
+	}
 	provinces = {
 		naples
 		cosenza
