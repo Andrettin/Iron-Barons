@@ -8,4 +8,8 @@ denmark = {
 		renaissance_era
 		industrial_era
 	}
+	provinces = {
+		zealand
+		jutland
+	}
 }

@@ -3,6 +3,9 @@ virginia = {
 	type = minor_nation
 	culture = english
 	capital_province = virginia
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		virginia
 		west_virginia

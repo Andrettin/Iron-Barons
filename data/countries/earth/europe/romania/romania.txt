@@ -3,6 +3,9 @@ romania = {
 	type = minor_nation
 	culture = romanian
 	capital_province = wallachia
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		wallachia
 		oltenia

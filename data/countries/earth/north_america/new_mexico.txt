@@ -3,6 +3,9 @@ new_mexico = {
 	type = minor_nation
 	culture = english
 	capital_province = new_mexico
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		new_mexico
 	}

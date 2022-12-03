@@ -3,6 +3,9 @@ belgium = {
 	type = minor_nation
 	culture = walloon
 	capital_province = brabant
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		brabant
 		liege

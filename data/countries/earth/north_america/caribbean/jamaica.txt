@@ -3,6 +3,9 @@ jamaica = {
 	type = minor_nation
 	culture = english
 	capital_province = jamaica
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		jamaica
 	}

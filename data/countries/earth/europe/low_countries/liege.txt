@@ -4,6 +4,7 @@ liege = {
 	culture = walloon
 	capital_province = liege
 	eras = {
+		medieval_era
 		renaissance_era
 	}
 	provinces = {
