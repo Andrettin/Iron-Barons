@@ -5,4 +5,5 @@ setubal = {
 	pos_offset = { 0 1 }
 	type = resource
 	resource = grain
+	province = alentejo #Estremadura in reality, but it works better in the game for it to be in Alentejo
 }

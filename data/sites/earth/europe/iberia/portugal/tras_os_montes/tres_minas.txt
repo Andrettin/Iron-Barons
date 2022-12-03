@@ -5,6 +5,7 @@ tres_minas = {
 	type = resource
 	resource = gold #gold present in Três Minas; Source: M. J. T. Lewis, "Railways in the Greek and Roman World", 2001, p. 15.
 	terrain_type = mountains
+	province = tras_os_montes
 	
 	history = {
 		1 = {

@@ -4,4 +4,5 @@ vila_real = {
 	geocoordinate = { -7.73700249014 41.29399814930 } #from Natural Earth
 	type = resource
 	resource = fruit
+	province = tras_os_montes
 }

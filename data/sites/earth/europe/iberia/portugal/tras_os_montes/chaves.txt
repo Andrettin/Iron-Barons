@@ -5,6 +5,7 @@ chaves = {
 	type = resource
 	resource = timber
 	terrain_type = conifer_forest
+	province = tras_os_montes
 	cultural_names = {
 		roman = "Aquae Flaviae"
 	}

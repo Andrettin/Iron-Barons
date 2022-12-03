@@ -5,6 +5,7 @@ gouveia = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	province = beira
 	title = {
 		max_tier = marquisate
 	}

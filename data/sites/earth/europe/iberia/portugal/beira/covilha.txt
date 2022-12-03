@@ -5,4 +5,5 @@ covilha = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	province = beira
 }

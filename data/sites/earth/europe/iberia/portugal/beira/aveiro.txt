@@ -4,6 +4,7 @@ aveiro = {
 	geocoordinate = { -8.65099753409 40.64100310520 } #from Natural Earth
 	type = resource
 	resource = salt
+	province = beira
 	title = {
 		max_tier = duchy
 	}
