@@ -6,4 +6,5 @@ bregenz = {
 	type = resource
 	resource = timber
 	terrain_type = conifer_forest
+	province = tyrol
 }

@@ -5,4 +5,5 @@ postojna = {
 	pos_offset = { 1 0 }
 	type = resource
 	resource = grain
+	province = carniola
 }

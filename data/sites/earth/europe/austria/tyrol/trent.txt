@@ -5,6 +5,7 @@ trent = {
 	type = resource
 	resource = grain
 	terrain_type = plains
+	province = tyrol
 	cultural_names = {
 		italian = "Trento"
 	}

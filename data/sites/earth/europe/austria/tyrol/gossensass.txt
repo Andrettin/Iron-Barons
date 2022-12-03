@@ -4,6 +4,7 @@ gossensass = {
 	geocoordinate = { 11.444825 46.938301 }
 	type = resource
 	resource = silver
+	province = tyrol
 	
 	history = {
 		1427 = {

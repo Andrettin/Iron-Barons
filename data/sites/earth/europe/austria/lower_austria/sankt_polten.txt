@@ -4,4 +4,5 @@ sankt_polten = {
 	geocoordinate = { 15.616666666667 48.2 }
 	type = resource
 	resource = coal
+	province = lower_austria
 }

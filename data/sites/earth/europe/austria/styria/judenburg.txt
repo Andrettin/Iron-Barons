@@ -4,4 +4,5 @@ judenburg = {
 	geocoordinate = { 14.660277777778 47.1725 }
 	type = resource
 	resource = iron_ore
+	province = styria
 }

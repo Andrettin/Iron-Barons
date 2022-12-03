@@ -5,6 +5,7 @@ pola = {
 	pos_offset = { 0 -1 }
 	type = resource
 	resource = grain
+	province = istria
 	cultural_names = {
 		croatian = "Pula"
 	}

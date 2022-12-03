@@ -5,4 +5,5 @@ vienna_woods = {
 	type = resource
 	terrain_type = conifer_forest
 	resource = timber
+	province = lower_austria
 }

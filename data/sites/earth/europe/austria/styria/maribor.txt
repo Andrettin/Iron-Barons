@@ -5,6 +5,7 @@ maribor = {
 	type = resource
 	resource = timber
 	terrain_type = conifer_forest
+	province = styria
 	cultural_group_names = {
 		german = "Marburg"
 	}

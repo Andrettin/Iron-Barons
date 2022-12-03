@@ -4,4 +4,5 @@ krems = {
 	geocoordinate = { 15.616666666667 48.416666666667 }
 	type = resource
 	resource = grain
+	province = lower_austria
 }
