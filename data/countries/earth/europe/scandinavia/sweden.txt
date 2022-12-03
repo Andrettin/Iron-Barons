@@ -6,6 +6,7 @@ sweden = {
 	culture = swedish
 	capital_province = uppland
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}

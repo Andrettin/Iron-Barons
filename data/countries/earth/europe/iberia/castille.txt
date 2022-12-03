@@ -5,6 +5,10 @@ castille = {
 	palette = yellow
 	culture = castillian
 	capital_province = castille
+	eras = {
+		medieval_era
+		renaissance_era
+	}
 	provinces = {
 		castille
 		leon

@@ -4,6 +4,7 @@ bohemia = {
 	culture = czech
 	capital_province = bohemia
 	eras = {
+		medieval_era
 		renaissance_era
 	}
 	provinces = {

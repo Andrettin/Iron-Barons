@@ -3,6 +3,9 @@ mexico = {
 	type = minor_nation
 	culture = castillian
 	capital_province = mexico
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		mexico
 		veracruz

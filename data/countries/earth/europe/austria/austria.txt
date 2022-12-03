@@ -6,6 +6,7 @@ austria = {
 	culture = austrian
 	capital_province = lower_austria
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}

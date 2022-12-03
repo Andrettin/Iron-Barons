@@ -3,6 +3,9 @@ argentina = {
 	type = minor_nation
 	culture = castillian
 	capital_province = buenos_aires
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		buenos_aires
 		cordoba_argentina

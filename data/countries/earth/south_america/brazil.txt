@@ -3,6 +3,9 @@ brazil = {
 	type = minor_nation
 	culture = portuguese
 	capital_province = rio_de_janeiro
+	eras = {
+		industrial_era
+	}
 	provinces = {
 		rio_de_janeiro
 		bahia

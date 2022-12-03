@@ -4,6 +4,7 @@ denmark = {
 	culture = danish
 	capital_province = zealand
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}
