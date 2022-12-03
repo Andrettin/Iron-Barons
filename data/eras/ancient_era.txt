@@ -1,4 +1,5 @@
 ancient_era = {
 	name = "Ancient Era"
 	start_date = -700
+	hidden = true
 }
