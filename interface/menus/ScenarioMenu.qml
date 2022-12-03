@@ -246,7 +246,14 @@ MenuBase {
 	}
 	
 	Component.onCompleted: {
-		selected_scenario = metternich.get_scenarios()[0]
+		//get the first non-hidden scenario
+		for (var scenario of metternich.get_scenarios()) {
+			if (!scenario.hidden) {
+				selected_scenario = scenario
+				break
+			}
+		}
+
 		metternich.game.setup_scenario(selected_scenario)
 		
 		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]

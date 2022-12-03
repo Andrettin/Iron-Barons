@@ -8,6 +8,7 @@ MenuBase {
 	title: qsTr("Random Map")
 	
 	property int generation_count: 0
+	property var selected_era: null
 	readonly property var selected_country: diplomatic_map.selected_country
 	
 	Rectangle {
@@ -23,7 +24,7 @@ MenuBase {
 	
 	DiplomaticMap {
 		id: diplomatic_map
-		anchors.left: random_map_settings.right
+		anchors.left: era_list.right
 		anchors.leftMargin: 16 * scale_factor
 		anchors.right: parent.right
 		anchors.rightMargin: 16 * scale_factor
@@ -129,31 +130,59 @@ MenuBase {
 	}
 	
 	Rectangle {
-		id: random_map_settings_border
-		anchors.horizontalCenter: random_map_settings.horizontalCenter
-		anchors.verticalCenter: random_map_settings.verticalCenter
-		width: random_map_settings.width + 2
-		height: random_map_settings.height + 2
+		id: era_list_border
+		anchors.horizontalCenter: era_list.horizontalCenter
+		anchors.verticalCenter: era_list.verticalCenter
+		width: era_list.width + 2
+		height: era_list.height + 2
 		color: "transparent"
 		border.color: "white"
 		border.width: 1
 	}
 	
-	Item {
-		id: random_map_settings
+	ListView {
+		id: era_list
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
-		anchors.bottom: start_game_button.top
-		anchors.bottomMargin: 16 * scale_factor
-		width: 256 * scale_factor
-		height: 128 * scale_factor
+		width: contentItem.childrenRect.width
+		height: contentItem.childrenRect.height
+		boundsBehavior: Flickable.StopAtBounds
+		clip: true
+		model: metternich.get_eras()
+		delegate: Rectangle {
+			width: 256 * scale_factor
+			height: visible ? 16 * scale_factor : 0
+			visible: !model.modelData.hidden
+			color: (selected_era == model.modelData) ? "olive" : "black"
+			border.color: "white"
+			border.width: 1
+			
+			SmallText {
+				text: model.modelData.name
+				anchors.horizontalCenter: parent.horizontalCenter
+				anchors.verticalCenter: parent.verticalCenter
+			}
+			
+			MouseArea {
+				anchors.fill: parent
+				
+				onClicked: {
+					if (selected_era === model.modelData) {
+						return
+					}
+					
+					selected_era = model.modelData
+					metternich.game.create_random_map(selected_era)
+				}
+			}
+		}
 	}
 	
 	TextButton {
 		id: start_game_button
-		anchors.horizontalCenter: random_map_settings.horizontalCenter
+		anchors.horizontalCenter: era_list.horizontalCenter
 		anchors.bottom: previous_menu_button.top
 		anchors.bottomMargin: 8 * scale_factor
 		text: qsTr("Start Game")
@@ -202,7 +231,15 @@ MenuBase {
 	}
 	
 	Component.onCompleted: {
-		metternich.game.create_random_map()
+		//get the first non-hidden era
+		for (var era of metternich.get_eras()) {
+			if (!era.hidden) {
+				selected_era = era
+				break
+			}
+		}
+		
+		metternich.game.create_random_map(selected_era)
 		
 		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
 		diplomatic_map.center_on_selected_country_capital()
