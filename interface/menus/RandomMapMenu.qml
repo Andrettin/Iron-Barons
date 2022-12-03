@@ -9,6 +9,7 @@ MenuBase {
 	
 	property int generation_count: 0
 	property var selected_era: null
+	property var selected_map_size: Qt.size(256, 128)
 	readonly property var selected_country: diplomatic_map.selected_country
 	
 	Rectangle {
@@ -174,7 +175,59 @@ MenuBase {
 					}
 					
 					selected_era = model.modelData
-					metternich.game.create_random_map(selected_era)
+					metternich.game.create_random_map(selected_map_size, selected_era)
+				}
+			}
+		}
+	}
+	
+	Rectangle {
+		id: map_size_list_border
+		anchors.horizontalCenter: map_size_list.horizontalCenter
+		anchors.verticalCenter: map_size_list.verticalCenter
+		width: map_size_list.width + 2
+		height: map_size_list.height + 2
+		color: "transparent"
+		border.color: "white"
+		border.width: 1
+		visible: map_size_list.visible
+	}
+	
+	ListView {
+		id: map_size_list
+		anchors.left: parent.left
+		anchors.leftMargin: 16 * scale_factor
+		anchors.top: era_list.bottom
+		anchors.topMargin: 32 * scale_factor
+		width: contentItem.childrenRect.width
+		height: contentItem.childrenRect.height
+		boundsBehavior: Flickable.StopAtBounds
+		clip: true
+		visible: false
+		model: [ Qt.size(256, 128), Qt.size(512, 256), Qt.size(1024, 512) ]
+		delegate: Rectangle {
+			width: 256 * scale_factor
+			height: visible ? 16 * scale_factor : 0
+			color: (selected_map_size == model.modelData) ? "olive" : "black"
+			border.color: "white"
+			border.width: 1
+			
+			SmallText {
+				text: model.modelData.width + "x" + model.modelData.height
+				anchors.horizontalCenter: parent.horizontalCenter
+				anchors.verticalCenter: parent.verticalCenter
+			}
+			
+			MouseArea {
+				anchors.fill: parent
+				
+				onClicked: {
+					if (selected_map_size === model.modelData) {
+						return
+					}
+					
+					selected_map_size = model.modelData
+					metternich.game.create_random_map(selected_map_size, selected_era)
 				}
 			}
 		}
@@ -239,7 +292,7 @@ MenuBase {
 			}
 		}
 		
-		metternich.game.create_random_map(selected_era)
+		metternich.game.create_random_map(selected_map_size, selected_era)
 		
 		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
 		diplomatic_map.center_on_selected_country_capital()
