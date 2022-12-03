@@ -5,4 +5,5 @@ grosseto = {
 	pos_offset = { 0 -1 }
 	type = resource
 	resource = cattle
+	province = tuscany
 }

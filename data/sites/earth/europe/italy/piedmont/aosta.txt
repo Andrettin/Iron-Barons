@@ -5,4 +5,5 @@ aosta = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	province = piedmont
 }

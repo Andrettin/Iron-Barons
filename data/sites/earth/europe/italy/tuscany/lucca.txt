@@ -5,6 +5,7 @@ lucca = {
 	pos_offset = { 1 0 }
 	type = resource
 	resource = grain
+	province = tuscany
 	
 	history = {
 		1369 = {

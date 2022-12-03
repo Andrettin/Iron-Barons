@@ -2,4 +2,5 @@ verona = {
 	name = "Verona"
 	world = earth
 	geocoordinate = { 10.99001623400 45.44039044100 } #from Natural Earth
+	province = venetia
 }

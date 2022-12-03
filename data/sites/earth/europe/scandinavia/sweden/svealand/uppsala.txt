@@ -5,6 +5,7 @@ uppsala = {
 	type = resource
 	resource = timber
 	terrain_type = conifer_forest
+	province = uppland
 	
 	history = {
 		1477 = {

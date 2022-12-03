@@ -4,6 +4,7 @@ alessandria = {
 	geocoordinate = { 8.62 44.913330555556 }
 	type = resource
 	resource = fruit
+	province = piedmont
 	
 	history = {
 		1815 = {

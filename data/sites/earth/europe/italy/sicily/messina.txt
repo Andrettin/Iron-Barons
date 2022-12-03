@@ -5,6 +5,7 @@ messina = {
 	pos_offset = { -1 0 }
 	type = resource
 	resource = fish
+	province = sicily
 	
 	history = {
 		1548 = {

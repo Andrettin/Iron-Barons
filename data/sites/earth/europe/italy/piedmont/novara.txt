@@ -4,4 +4,5 @@ novara = {
 	geocoordinate = { 8.61998001978 45.45000225740 } #from Natural Earth
 	type = resource
 	resource = cattle
+	province = piedmont
 }

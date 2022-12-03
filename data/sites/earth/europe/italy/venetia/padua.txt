@@ -4,6 +4,7 @@ padua = {
 	geocoordinate = { 11.877777777778 45.406388888889 }
 	type = resource
 	resource = fruit
+	province = venetia
 	
 	history = {
 		1222 = {
