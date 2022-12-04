@@ -1,4 +1,5 @@
 medieval_era = {
 	name = "Medieval Era"
 	start_date = 476
+	hidden = true
 }

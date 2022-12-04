@@ -8,21 +8,21 @@ brazil = {
 	}
 	provinces = {
 		rio_de_janeiro
-		bahia
-		sao_paulo
-		pernambuco
-		minas_gerais
-		maranhao
-		rio_grande_do_sul
-		ceara
-		santa_catarina
 		alagoas
-		sergipe
-		paraiba
-		rio_grande_do_norte
-		parana
+		bahia
+		ceara
 		espirito_santo
+		maranhao
+		minas_gerais
+		paraiba
+		parana
+		pernambuco
 		piaui
+		rio_grande_do_norte
+		rio_grande_do_sul
+		santa_catarina
+		sao_paulo
+		sergipe
 	}
 	
 	history = {

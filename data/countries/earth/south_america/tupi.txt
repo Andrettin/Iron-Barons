@@ -6,4 +6,22 @@ tupi = {
 	eras = {
 		renaissance_era
 	}
+	provinces = {
+		bahia
+		alagoas
+		ceara
+		espirito_santo
+		maranhao
+		minas_gerais
+		paraiba
+		parana
+		pernambuco
+		piaui
+		rio_de_janeiro
+		rio_grande_do_norte
+		rio_grande_do_sul
+		santa_catarina
+		sao_paulo
+		sergipe
+	}
 }
