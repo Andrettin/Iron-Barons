@@ -3,5 +3,6 @@ tobacco = {
 	commodity = tobacco
 	terrain_types = {
 		plains
+		savannah
 	}
 }
