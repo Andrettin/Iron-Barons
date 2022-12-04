@@ -4,5 +4,6 @@ fish = {
 	near_water = true
 	terrain_types = {
 		plains
+		savannah
 	}
 }

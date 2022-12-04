@@ -5,7 +5,8 @@ santos = {
 	pos_offset = { 0 -1 }
 	type = resource
 	resource = sugar_cane
-	terrain_type = plains
+	terrain_type = savannah
+	province = sao_paulo
 	title = {
 		max_tier = marquisate #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 433-434.
 	}

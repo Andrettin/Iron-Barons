@@ -3,5 +3,6 @@ fruit = {
 	commodity = fruit
 	terrain_types = {
 		plains
+		savannah
 	}
 }

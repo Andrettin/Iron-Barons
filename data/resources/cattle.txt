@@ -3,5 +3,6 @@ cattle = {
 	commodity = livestock
 	terrain_types = {
 		plains
+		savannah
 	}
 }

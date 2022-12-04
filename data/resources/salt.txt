@@ -3,5 +3,6 @@ salt = {
 	commodity = salt
 	terrain_types = {
 		plains
+		savannah
 	}
 }

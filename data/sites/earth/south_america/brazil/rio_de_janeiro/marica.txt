@@ -4,6 +4,7 @@ marica = {
 	geocoordinate = { -42.818888888889 -22.918888888889 }
 	type = resource
 	resource = fruit #bananas
+	province = rio_de_janeiro
 	title = {
 		max_tier = marquisate #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 277-278.
 	}

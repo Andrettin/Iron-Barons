@@ -3,6 +3,6 @@ sugar_cane = {
 	commodity = sugar_cane
 	discovery_technology = sugar_cane
 	terrain_types = {
-		plains
+		savannah
 	}
 }
