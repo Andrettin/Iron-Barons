@@ -9,9 +9,15 @@ Flickable {
 	boundsBehavior: Flickable.StopAtBounds
 	clip: true
 	
+	enum Mode {
+		Country,
+		Culture
+	}
+	
 	property string ocean_suffix: ""
 	property string country_suffix: "0"
 	property var selected_country: null
+	property int mode: DiplomaticMap.Mode.Country
 	
 	Image {
 		id: ocean_image
@@ -35,7 +41,9 @@ Flickable {
 			id: country_image
 			x: country.game_data.diplomatic_map_image_rect.x
 			y: country.game_data.diplomatic_map_image_rect.y
-			source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : "") + "/" + country_suffix
+			source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : (
+				diplomatic_map.mode === DiplomaticMap.Mode.Culture ? "/culture" : ""
+			)) + "/" + country_suffix
 			cache: false
 			
 			readonly property var country: model.modelData
@@ -45,9 +53,11 @@ Flickable {
 				anchors.fill: parent
 				alphaThreshold: 0.4
 				maskSource: parent.source
-				ToolTip.text: country.name
+				ToolTip.text: country.name + tooltip_suffix
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
+				
+				property string tooltip_suffix: ""
 				
 				onClicked: {
 					if (selected) {
@@ -55,6 +65,32 @@ Flickable {
 					} else {
 						diplomatic_map.selected_country = country
 					}
+				}
+				
+				onMousePosChanged: {
+					var new_tooltip_suffix = get_tooltip_suffix(mousePos.x, mousePos.y)
+					if (new_tooltip_suffix !== tooltip_suffix) {
+						tooltip_suffix = new_tooltip_suffix
+					}
+				}
+				
+				function get_tooltip_suffix(mouse_x, mouse_y) {
+					if (diplomatic_map.mode !== DiplomaticMap.Mode.Culture) {
+						return ""
+					}
+					
+					var relative_tile_x = Math.floor(mouse_x * country.game_data.territory_rect.width / country.game_data.diplomatic_map_image_rect.width)
+					var relative_tile_y = Math.floor(mouse_y * country.game_data.territory_rect.height / country.game_data.diplomatic_map_image_rect.height)
+					
+					var tile_x = country.game_data.territory_rect.x + relative_tile_x
+					var tile_y = country.game_data.territory_rect.y + relative_tile_y
+					
+					var tile_province = metternich.map.get_tile_province(tile_x, tile_y)
+					if (tile_province !== null && tile_province.game_data.culture !== null) {
+						return " (" + tile_province.game_data.culture.name + ")"
+					}
+					
+					return ""
 				}
 			}
 		}
