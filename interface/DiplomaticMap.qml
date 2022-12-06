@@ -4,8 +4,8 @@ import MaskedMouseArea 1.0
 
 Flickable {
 	id: diplomatic_map
-	contentWidth: metternich.game.diplomatic_map_image_size.width * scale_factor
-	contentHeight: metternich.game.diplomatic_map_image_size.height * scale_factor
+	contentWidth: metternich.map.diplomatic_map_image_size.width * scale_factor
+	contentHeight: metternich.map.diplomatic_map_image_size.height * scale_factor
 	boundsBehavior: Flickable.StopAtBounds
 	clip: true
 	
@@ -67,8 +67,8 @@ Flickable {
 		TinyText {
 			id: country_label
 			text: country.name
-			x: Math.floor(territory_rect.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_width / 2 - width / 2)
-			y: Math.floor(territory_rect.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_height / 2 - height / 2)
+			x: Math.floor(territory_rect.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_width / 2 - width / 2)
+			y: Math.floor(territory_rect.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_height / 2 - height / 2)
 			visible: width <= territory_rect_width
 			font.pixelSize: 8 * scale_factor
 			shadow_offset: 1 * scale_factor
@@ -76,8 +76,8 @@ Flickable {
 					
 			readonly property var country: model.modelData
 			readonly property var territory_rect: country.game_data.main_contiguous_territory_rect
-			readonly property int territory_rect_width: territory_rect.width * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
-			readonly property int territory_rect_height: territory_rect.height * metternich.game.diplomatic_map_tile_pixel_size * scale_factor
+			readonly property int territory_rect_width: territory_rect.width * metternich.map.diplomatic_map_tile_pixel_size * scale_factor
+			readonly property int territory_rect_height: territory_rect.height * metternich.map.diplomatic_map_tile_pixel_size * scale_factor
 		}
 	}
 	*/
@@ -87,8 +87,8 @@ Flickable {
 		
 		Image {
 			id: consulate_icon
-			x: other_country.capital_province.capital_settlement.game_data.tile_pos.x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - width / 2
-			y: other_country.capital_province.capital_settlement.game_data.tile_pos.y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - height / 2
+			x: other_country.capital_province.capital_settlement.game_data.tile_pos.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - width / 2
+			y: other_country.capital_province.capital_settlement.game_data.tile_pos.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - height / 2
 			source: "image://icon/" + consulate.icon.identifier
 			visible: !selected_country.game_data.anarchy && !other_country.game_data.anarchy
 			
@@ -111,8 +111,8 @@ Flickable {
 	}
 	
 	function center_on_tile_pos(tile_x, tile_y) {
-		var pixel_x = tile_x * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.width / 2
-		var pixel_y = tile_y * metternich.game.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.height / 2
+		var pixel_x = tile_x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.width / 2
+		var pixel_y = tile_y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.height / 2
 		
 		diplomatic_map.contentX = Math.min(Math.max(pixel_x, 0), diplomatic_map.contentWidth - diplomatic_map.width)
 		diplomatic_map.contentY = Math.min(Math.max(pixel_y, 0), diplomatic_map.contentHeight - diplomatic_map.height)
