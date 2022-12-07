@@ -50,14 +50,17 @@ Flickable {
 			readonly property var selected: selected_country === country
 			
 			MaskedMouseArea {
+				id: country_mouse_area
 				anchors.fill: parent
 				alphaThreshold: 0.4
 				maskSource: parent.source
-				ToolTip.text: country.name + tooltip_suffix
-				ToolTip.visible: containsMouse
+				ToolTip.text: country.name + country_mouse_area.tooltip_suffix
+				ToolTip.visible: country_mouse_area.containsMouse
 				ToolTip.delay: 1000
 				
-				property string tooltip_suffix: ""
+				property string tooltip_suffix: containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Culture ?
+					format_text("\n" + small_text(population_culture_counts_to_percent_strings(country.game_data.population_culture_counts)))
+				: "") : ""
 				
 				onClicked: {
 					if (selected) {
@@ -67,30 +70,60 @@ Flickable {
 					}
 				}
 				
-				onMousePosChanged: {
-					var new_tooltip_suffix = get_tooltip_suffix(mousePos.x, mousePos.y)
-					if (new_tooltip_suffix !== tooltip_suffix) {
-						tooltip_suffix = new_tooltip_suffix
-					}
-				}
-				
-				function get_tooltip_suffix(mouse_x, mouse_y) {
-					if (diplomatic_map.mode !== DiplomaticMap.Mode.Culture) {
-						return ""
-					}
+				function population_culture_counts_to_percent_strings(population_culture_counts) {
+					var str = ""
 					
-					var relative_tile_x = Math.floor(mouse_x * country.game_data.territory_rect.width / country.game_data.diplomatic_map_image_rect.width)
-					var relative_tile_y = Math.floor(mouse_y * country.game_data.territory_rect.height / country.game_data.diplomatic_map_image_rect.height)
+					var total_count = 0
+					var population_culture_count_array = []
 					
-					var tile_x = country.game_data.territory_rect.x + relative_tile_x
-					var tile_y = country.game_data.territory_rect.y + relative_tile_y
-					
-					var tile_province = metternich.map.get_tile_province(tile_x, tile_y)
-					if (tile_province !== null && tile_province.game_data.culture !== null) {
-						return " (" + tile_province.game_data.culture.name + ")"
+					for (const kv_pair of population_culture_counts) {
+						var count = kv_pair.value
+						total_count += count
 					}
 					
-					return ""
+					population_culture_counts.sort((a, b) => {
+						if (a.value > b.value) {
+							return -1
+						}
+						
+						if (a.value < b.value) {
+							return 1
+						}
+						
+						return 0
+					})
+					
+					var first = true
+					
+					for (const kv_pair of population_culture_counts) {
+						var culture = kv_pair.key
+						var count = kv_pair.value
+						
+						if (first) {
+							first = false
+						} else {
+							str += "\n"
+						}
+						
+						var color_hex_str = Math.floor(culture.color.r * 255).toString(16)
+						if (color_hex_str.length < 2) {
+							color_hex_str = "0" + color_hex_str
+						}
+						
+						color_hex_str += Math.floor(culture.color.g * 255).toString(16)
+						if (color_hex_str.length < 4) {
+							color_hex_str = "0" + color_hex_str
+						}
+						
+						color_hex_str += Math.floor(culture.color.b * 255).toString(16)
+						if (color_hex_str.length < 6) {
+							color_hex_str = "0" + color_hex_str
+						}
+						
+						str += "<font color=\"#" + color_hex_str + "\">⬤</font> " + (count * 100 / total_count).toFixed(2) + "% " + culture.name
+					}
+					
+					return str
 				}
 			}
 		}
