@@ -72,6 +72,7 @@
 /graphics/icons/hammer.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/hammer_extra_1.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/hammer_large.png (by Exidelo) (licensed under the CC0)
+/graphics/icons/mountains.png (by Jinn) (licensed under the CC0)
 /graphics/icons/music.png (by Jinn) (licensed under the CC0)
 /graphics/icons/research.png (by Jinn) (licensed under the CC0)
 /graphics/icons/settlement.png (by Jinn) (licensed under the CC0)
