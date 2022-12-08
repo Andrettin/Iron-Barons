@@ -14,23 +14,51 @@ Item {
 		anchors.bottom: back_button.top
 		anchors.bottomMargin: 128 * scale_factor
 		anchors.left: parent.left
-		anchors.right: parent.right
+		anchors.right: country_map_mode_button.left
 		color: Qt.rgba(0.0 / 255.0, 0.0 / 255.0, 0.0 / 255.0, 1)
 		border.color: "white"
-		border.width: 1
+		border.width: 1 * scale_factor
 	}
 	
 	DiplomaticMap {
 		id: diplomatic_map
 		anchors.top: diplomatic_map_background.top
-		anchors.topMargin: 1
+		anchors.topMargin: 1 * scale_factor
 		anchors.bottom: diplomatic_map_background.bottom
-		anchors.bottomMargin: 1
-		anchors.left: parent.left
-		anchors.leftMargin: 1
-		anchors.right: parent.right
-		anchors.rightMargin: 1
+		anchors.bottomMargin: 1 * scale_factor
+		anchors.left: diplomatic_map_background.left
+		anchors.leftMargin: 1 * scale_factor
+		anchors.right: diplomatic_map_background.right
+		anchors.rightMargin: 1 * scale_factor
 		ocean_suffix: "0"
+	}
+	
+	IconButton {
+		id: country_map_mode_button
+		anchors.top: diplomatic_map_background.top
+		anchors.right: parent.right
+		icon_identifier: "flag"
+		border_color: "white"
+		unrounded_left_corners: true
+		tooltip: "Political Map Mode"
+		
+		onReleased: {
+			diplomatic_map.mode = DiplomaticMap.Mode.Country
+		}
+	}
+	
+	IconButton {
+		id: culture_map_mode_button
+		anchors.top: country_map_mode_button.bottom
+		anchors.right: country_map_mode_button.right
+		icon_identifier: "music"
+		border_color: "white"
+		unrounded_left_corners: true
+		tooltip: "Cultural Map Mode"
+		
+		onReleased: {
+			diplomatic_map.mode = DiplomaticMap.Mode.Culture
+		}
 	}
 	
 	SmallText {

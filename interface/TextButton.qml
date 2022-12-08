@@ -1,17 +1,12 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 
-RoundButton {
+ButtonBase {
 	id: button
 	width: 96 * scale_factor
 	height: 24 * scale_factor
-	radius: 5 * scale_factor
-	ToolTip.text: tooltip
-	ToolTip.visible: hovered && tooltip.length > 0
-	ToolTip.delay: 1000
 	
 	property bool allowed: true
-	property string tooltip: ""
 	
 	signal clicked()
 	
