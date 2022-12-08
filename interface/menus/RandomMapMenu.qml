@@ -51,8 +51,22 @@ MenuBase {
 	}
 	
 	IconButton {
-		id: cultural_map_mode_button
+		id: terrain_map_mode_button
 		anchors.top: political_map_mode_button.bottom
+		anchors.right: political_map_mode_button.right
+		icon_identifier: "mountains"
+		border_color: "white"
+		unrounded_left_corners: true
+		tooltip: "Terrain Map Mode"
+		
+		onReleased: {
+			diplomatic_map.mode = DiplomaticMap.Mode.Terrain
+		}
+	}
+	
+	IconButton {
+		id: cultural_map_mode_button
+		anchors.top: terrain_map_mode_button.bottom
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "music"
 		border_color: "white"

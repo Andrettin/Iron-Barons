@@ -11,6 +11,7 @@ Flickable {
 	
 	enum Mode {
 		Political,
+		Terrain,
 		Cultural
 	}
 	
@@ -41,9 +42,7 @@ Flickable {
 			id: country_image
 			x: country.game_data.diplomatic_map_image_rect.x
 			y: country.game_data.diplomatic_map_image_rect.y
-			source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : (
-				diplomatic_map.mode === DiplomaticMap.Mode.Cultural ? "/culture" : ""
-			)) + "/" + country_suffix
+			source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : get_map_mode_suffix(diplomatic_map.mode)) + "/" + country_suffix
 			cache: false
 			
 			readonly property var country: model.modelData
@@ -58,9 +57,11 @@ Flickable {
 				ToolTip.visible: country_mouse_area.containsMouse
 				ToolTip.delay: 1000
 				
-				property string tooltip_suffix: containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Cultural ?
-					format_text("\n" + small_text(population_culture_counts_to_percent_strings(country.game_data.population_culture_counts)))
-				: "") : ""
+				property string tooltip_suffix: containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Terrain ?
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.tile_terrain_counts)))
+				: (diplomatic_map.mode === DiplomaticMap.Mode.Cultural ?
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population_culture_counts)))
+				: "")) : ""
 				
 				onClicked: {
 					if (selected) {
@@ -70,18 +71,17 @@ Flickable {
 					}
 				}
 				
-				function population_culture_counts_to_percent_strings(population_culture_counts) {
+				function counts_to_percent_strings(counts) {
 					var str = ""
 					
 					var total_count = 0
-					var population_culture_count_array = []
 					
-					for (const kv_pair of population_culture_counts) {
+					for (const kv_pair of counts) {
 						var count = kv_pair.value
 						total_count += count
 					}
 					
-					population_culture_counts.sort((a, b) => {
+					counts.sort((a, b) => {
 						if (a.value > b.value) {
 							return -1
 						}
@@ -95,8 +95,8 @@ Flickable {
 					
 					var first = true
 					
-					for (const kv_pair of population_culture_counts) {
-						var culture = kv_pair.key
+					for (const kv_pair of counts) {
+						var key = kv_pair.key
 						var count = kv_pair.value
 						
 						if (first) {
@@ -105,9 +105,9 @@ Flickable {
 							str += "\n"
 						}
 						
-						var color_hex_str = color_hex_string(culture.color)
+						var color_hex_str = color_hex_string(key.color)
 						
-						str += "<font color=\"#" + color_hex_str + "\">⬤</font> " + (count * 100 / total_count).toFixed(2) + "% " + culture.name
+						str += "<font color=\"#" + color_hex_str + "\">⬤</font> " + (count * 100 / total_count).toFixed(2) + "% " + key.name
 					}
 					
 					return str
@@ -179,5 +179,16 @@ Flickable {
 		var capital_x = capital_game_data.tile_pos.x
 		var capital_y = capital_game_data.tile_pos.y
 		center_on_tile_pos(capital_x, capital_y)
+	}
+	
+	function get_map_mode_suffix(mode) {
+		switch (mode) {
+			case DiplomaticMap.Mode.Terrain:
+				return "/terrain"
+			case DiplomaticMap.Mode.Cultural:
+				return "/culture"
+		}
+		
+		return ""
 	}
 }
