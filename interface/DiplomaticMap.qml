@@ -105,20 +105,7 @@ Flickable {
 							str += "\n"
 						}
 						
-						var color_hex_str = Math.floor(culture.color.r * 255).toString(16)
-						if (color_hex_str.length < 2) {
-							color_hex_str = "0" + color_hex_str
-						}
-						
-						color_hex_str += Math.floor(culture.color.g * 255).toString(16)
-						if (color_hex_str.length < 4) {
-							color_hex_str = "0" + color_hex_str
-						}
-						
-						color_hex_str += Math.floor(culture.color.b * 255).toString(16)
-						if (color_hex_str.length < 6) {
-							color_hex_str = "0" + color_hex_str
-						}
+						var color_hex_str = color_hex_string(culture.color)
 						
 						str += "<font color=\"#" + color_hex_str + "\">⬤</font> " + (count * 100 / total_count).toFixed(2) + "% " + culture.name
 					}

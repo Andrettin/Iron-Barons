@@ -200,4 +200,23 @@ Window {
 		
 		return "Invalid Season: " + season
 	}
+	
+	function color_hex_string(color) {
+		var red_hex_str = Math.floor(color.r * 255).toString(16)
+		if (red_hex_str.length < 2) {
+			red_hex_str = "0" + red_hex_str
+		}
+		
+		var green_hex_str = Math.floor(color.g * 255).toString(16)
+		if (green_hex_str.length < 2) {
+			green_hex_str = "0" + green_hex_str
+		}
+		
+		var blue_hex_str = Math.floor(color.b * 255).toString(16)
+		if (blue_hex_str.length < 2) {
+			blue_hex_str = "0" + blue_hex_str
+		}
+		
+		return red_hex_str + green_hex_str + blue_hex_str
+	}
 }
