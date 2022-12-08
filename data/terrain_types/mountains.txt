@@ -2,6 +2,7 @@ mountains = {
 	name = "Mountains"
 	color = { 128 64 0 }
 	image_filepath = "tiles/terrain/mountains.png"
+	elevation_type = mountains
 	tiles = { 129 }
 	adjacency_tiles = {
 		0 = {
