@@ -27,7 +27,7 @@ MenuBase {
 		id: diplomatic_map
 		anchors.left: era_list.right
 		anchors.leftMargin: 16 * scale_factor
-		anchors.right: country_map_mode_button.left
+		anchors.right: political_map_mode_button.left
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
 		anchors.bottom: country_text.top
@@ -36,7 +36,7 @@ MenuBase {
 	}
 	
 	IconButton {
-		id: country_map_mode_button
+		id: political_map_mode_button
 		anchors.top: diplomatic_map_background.top
 		anchors.right: parent.right
 		anchors.rightMargin: 16 * scale_factor
@@ -46,21 +46,21 @@ MenuBase {
 		tooltip: "Political Map Mode"
 		
 		onReleased: {
-			diplomatic_map.mode = DiplomaticMap.Mode.Country
+			diplomatic_map.mode = DiplomaticMap.Mode.Political
 		}
 	}
 	
 	IconButton {
-		id: culture_map_mode_button
-		anchors.top: country_map_mode_button.bottom
-		anchors.right: country_map_mode_button.right
+		id: cultural_map_mode_button
+		anchors.top: political_map_mode_button.bottom
+		anchors.right: political_map_mode_button.right
 		icon_identifier: "music"
 		border_color: "white"
 		unrounded_left_corners: true
 		tooltip: "Cultural Map Mode"
 		
 		onReleased: {
-			diplomatic_map.mode = DiplomaticMap.Mode.Culture
+			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
 		}
 	}
 	

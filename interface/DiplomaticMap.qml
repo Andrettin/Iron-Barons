@@ -10,14 +10,14 @@ Flickable {
 	clip: true
 	
 	enum Mode {
-		Country,
-		Culture
+		Political,
+		Cultural
 	}
 	
 	property string ocean_suffix: ""
 	property string country_suffix: "0"
 	property var selected_country: null
-	property int mode: DiplomaticMap.Mode.Country
+	property int mode: DiplomaticMap.Mode.Political
 	
 	Image {
 		id: ocean_image
@@ -42,7 +42,7 @@ Flickable {
 			x: country.game_data.diplomatic_map_image_rect.x
 			y: country.game_data.diplomatic_map_image_rect.y
 			source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : (
-				diplomatic_map.mode === DiplomaticMap.Mode.Culture ? "/culture" : ""
+				diplomatic_map.mode === DiplomaticMap.Mode.Cultural ? "/culture" : ""
 			)) + "/" + country_suffix
 			cache: false
 			
@@ -58,7 +58,7 @@ Flickable {
 				ToolTip.visible: country_mouse_area.containsMouse
 				ToolTip.delay: 1000
 				
-				property string tooltip_suffix: containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Culture ?
+				property string tooltip_suffix: containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Cultural ?
 					format_text("\n" + small_text(population_culture_counts_to_percent_strings(country.game_data.population_culture_counts)))
 				: "") : ""
 				
