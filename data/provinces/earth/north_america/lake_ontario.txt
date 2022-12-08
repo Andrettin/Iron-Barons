@@ -1,5 +1,5 @@
 lake_ontario = {
 	name = "Lake Ontario"
 	color = { 60 199 250 }
-	water_zone = true
+	lake = true
 }

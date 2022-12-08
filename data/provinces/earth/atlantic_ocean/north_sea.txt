@@ -1,7 +1,7 @@
 danish_waters = {
 	name = "Danish Waters"
 	color = { 247 251 87 }
-	water_zone = true
+	sea = true
 	regions = {
 		north_sea
 	}
@@ -10,7 +10,7 @@ danish_waters = {
 kattegat = {
 	name = "Kattegat"
 	color = { 16 144 120 }
-	water_zone = true
+	sea = true
 	regions = {
 		north_sea
 	}
@@ -19,7 +19,7 @@ kattegat = {
 north_sea = {
 	name = "North Sea"
 	color = { 0 144 120 }
-	water_zone = true
+	sea = true
 	cultural_names = {
 		gothic = "German Ocean"
 		roman = "German Ocean" #Source: "Ancient Warfare VII.6", 2013, p. 7.
@@ -33,7 +33,7 @@ north_sea = {
 skagerrak = {
 	name = "Skagerrak"
 	color = { 0 120 144 }
-	water_zone = true
+	sea = true
 	regions = {
 		north_sea
 	}
