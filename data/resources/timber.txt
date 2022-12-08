@@ -3,5 +3,6 @@ timber = {
 	commodity = timber
 	terrain_types = {
 		conifer_forest
+		scrub_forest
 	}
 }
