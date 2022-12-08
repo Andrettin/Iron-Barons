@@ -1,7 +1,7 @@
 bay_of_biscay = {
 	name = "Bay of Biscay"
 	color = { 28 250 250 }
-	sea = true
+	bay = true
 	regions = {
 		atlantic_ocean
 	}
@@ -10,7 +10,7 @@ bay_of_biscay = {
 bristol_channel = {
 	name = "Bristol Channel"
 	color = { 100 44 144 }
-	sea = true
+	bay = true
 	regions = {
 		atlantic_ocean
 	}
@@ -19,7 +19,7 @@ bristol_channel = {
 english_channel = {
 	name = "English Channel"
 	color = { 48 128 128 }
-	sea = true
+	bay = true
 	cultural_names = {
 		briton = "British Ocean"
 		roman = "British Ocean"

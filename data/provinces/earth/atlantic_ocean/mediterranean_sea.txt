@@ -58,7 +58,7 @@ eastern_mediterranean_sea = {
 gulf_of_gabes = {
 	name = "Gulf of Gabes" #"Gulf of Gabès"
 	color = { 71 246 83 }
-	sea = true
+	bay = true
 	regions = {
 		mediterranean_sea
 	}
@@ -67,7 +67,7 @@ gulf_of_gabes = {
 gulf_of_lion = {
 	name = "Gulf of Lion"
 	color = { 57 58 13 }
-	sea = true
+	bay = true
 	regions = {
 		mediterranean_sea
 	}
@@ -76,7 +76,7 @@ gulf_of_lion = {
 gulf_of_sidra = {
 	name = "Gulf of Sidra"
 	color = { 192 164 26 }
-	sea = true
+	bay = true
 	regions = {
 		mediterranean_sea
 	}
