@@ -1,0 +1,9 @@
+vaasa = {
+	name = "Vaasa"
+	world = earth
+	geocoordinate = { 21.60001460640 63.09998435380 } #from Natural Earth
+	pos_offset = { 1 0 }
+	type = resource
+	resource = timber
+	terrain_type = conifer_forest
+}

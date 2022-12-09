@@ -1,0 +1,8 @@
+ribe = {
+	name = "Ribe"
+	world = earth
+	geocoordinate = { 8.763056 55.327222 }
+	pos_offset = { 1 0 }
+	type = resource
+	resource = cattle
+}
