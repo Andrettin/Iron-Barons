@@ -1,0 +1,13 @@
+finland = {
+	name = "Finland"
+	type = minor_nation
+	culture = finnish
+	capital_province = finland
+	eras = {
+		industrial_era
+	}
+	provinces = {
+		finland
+		lapland
+	}
+}
