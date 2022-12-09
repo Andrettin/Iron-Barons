@@ -5,6 +5,7 @@ freiberg = {
 	type = resource
 	resource = silver
 	terrain_type = barren_hills
+	province = saxony
 	
 	history = {
 		1629 = {

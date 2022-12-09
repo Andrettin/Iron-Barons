@@ -5,6 +5,7 @@ gyulafehervar = {
 	type = resource
 	resource = grain
 	terrain_type = plains
+	province = transylvania
 	cultural_names = {
 		romanian = "Alba Iulia"
 	}

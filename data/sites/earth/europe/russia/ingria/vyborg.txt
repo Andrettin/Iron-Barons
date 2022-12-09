@@ -6,6 +6,7 @@ vyborg = {
 	type = resource
 	resource = timber
 	terrain_type = conifer_forest
+	province = ingria
 	cultural_names = {
 		finnish = "Viipuri"
 	}

@@ -4,4 +4,5 @@ szekesfehervar = {
 	geocoordinate = { 18.40806473660 47.19467612620 } #from Natural Earth
 	type = resource
 	resource = grain
+	province = buda
 }

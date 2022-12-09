@@ -4,4 +4,5 @@ aabenraa = {
 	geocoordinate = { 9.4180555555556 55.044444444444 }
 	type = resource
 	resource = cattle
+	province = schleswig
 }

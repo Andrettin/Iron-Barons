@@ -5,4 +5,5 @@ targu_mures = {
 	type = resource
 	resource = grain
 	terrain_type = plains
+	province = transylvania
 }

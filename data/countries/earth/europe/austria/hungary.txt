@@ -6,6 +6,7 @@ hungary = {
 	eras = {
 		medieval_era
 		renaissance_era
+		industrial_era #since after 1867 it had substantial autonomy
 	}
 	provinces = {
 		pest

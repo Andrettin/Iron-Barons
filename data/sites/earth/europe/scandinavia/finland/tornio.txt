@@ -6,4 +6,5 @@ tornio = {
 	type = resource
 	resource = iron_ore
 	terrain_type = barren_hills
+	province = lapland
 }

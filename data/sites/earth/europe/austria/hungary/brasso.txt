@@ -5,6 +5,7 @@ brasso = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	province = transylvania
 	cultural_names = {
 		romanian = "Brasov" #"Brașov"
 	}

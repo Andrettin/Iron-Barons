@@ -5,4 +5,5 @@ turku = {
 	pos_offset = { 0 -1 }
 	type = resource
 	resource = fish
+	province = finland
 }

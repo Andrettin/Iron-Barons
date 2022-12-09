@@ -4,4 +4,5 @@ eisenstadt = {
 	geocoordinate = { 16.53329746760 47.83329907870 } #from Natural Earth
 	type = resource
 	resource = grain
+	province = buda
 }

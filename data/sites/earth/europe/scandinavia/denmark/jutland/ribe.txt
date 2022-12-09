@@ -5,4 +5,5 @@ ribe = {
 	pos_offset = { 1 0 }
 	type = resource
 	resource = cattle
+	province = schleswig
 }
