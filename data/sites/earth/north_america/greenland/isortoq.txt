@@ -1,0 +1,8 @@
+isortoq = {
+	name = "Isortoq"
+	world = earth
+	geocoordinate = { -38.966666666667 65.533333333333 }
+	pos_offset = { 1 -1 }
+	type = resource
+	resource = fish
+}
