@@ -5,4 +5,5 @@ vigo = {
 	pos_offset = { -1 0 }
 	type = resource
 	resource = fish
+	province = galicia
 }

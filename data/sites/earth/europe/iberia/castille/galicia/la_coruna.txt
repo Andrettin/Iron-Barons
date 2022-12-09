@@ -4,4 +4,5 @@ la_coruna = {
 	geocoordinate = { -8.41998763166 43.32997662260 } #from Natural Earth
 	type = resource
 	resource = fish
+	province = galicia
 }
