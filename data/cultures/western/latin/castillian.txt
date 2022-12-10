@@ -2,4 +2,13 @@ castillian = {
 	name = "Castillian"
 	group = iberian
 	color = { 255 173 41 }
+	derivation_conditions = {
+		location = {
+			not = {
+				core = catalonia
+				core = valencia
+				core = galicia
+			}
+		}
+	}
 }
