@@ -7,7 +7,7 @@ aragon = {
 	}
 	
 	history = {
-		culture = castillian
+		culture = aragonese
 		
 		1360 = {
 			owner = aragon #part of Aragon in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.

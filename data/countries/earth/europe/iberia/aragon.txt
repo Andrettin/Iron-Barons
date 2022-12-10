@@ -1,7 +1,7 @@
 aragon = {
 	name = "Aragon"
 	type = minor_nation
-	culture = catalan
+	culture = aragonese
 	capital_province = aragon
 	eras = {
 		medieval_era
