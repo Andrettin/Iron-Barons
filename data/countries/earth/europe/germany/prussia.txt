@@ -9,7 +9,7 @@ prussia = {
 		renaissance_era
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		brandenburg
 		east_prussia
 		west_prussia

@@ -7,7 +7,7 @@ aragon = {
 		medieval_era
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		aragon
 		catalonia
 		valencia

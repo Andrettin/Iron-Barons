@@ -6,7 +6,7 @@ finland = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		finland
 		lapland
 	}

@@ -6,7 +6,7 @@ virginia = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		virginia
 		west_virginia
 	}

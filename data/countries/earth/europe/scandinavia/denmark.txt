@@ -8,7 +8,7 @@ denmark = {
 		renaissance_era
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		zealand
 		jutland
 	}

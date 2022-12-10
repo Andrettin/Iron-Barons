@@ -6,7 +6,7 @@ poland = {
 	eras = {
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		warsaw
 		lodz
 		czenstochowa

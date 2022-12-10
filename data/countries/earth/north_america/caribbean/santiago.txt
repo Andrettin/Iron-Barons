@@ -3,7 +3,7 @@ santiago = {
 	type = minor_nation
 	culture = castillian
 	capital_province = jamaica
-	provinces = {
+	core_provinces = {
 		jamaica
 	}
 	

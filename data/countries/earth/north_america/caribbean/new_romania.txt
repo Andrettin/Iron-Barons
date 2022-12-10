@@ -3,7 +3,7 @@ new_romania = {
 	type = minor_nation
 	culture = romanian
 	capital_province = jamaica
-	provinces = {
+	core_provinces = {
 		jamaica
 	}
 }

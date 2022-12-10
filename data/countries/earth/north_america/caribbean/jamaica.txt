@@ -6,7 +6,7 @@ jamaica = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		jamaica
 	}
 	

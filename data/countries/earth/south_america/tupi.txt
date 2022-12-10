@@ -6,7 +6,7 @@ tupi = {
 	eras = {
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		bahia
 		alagoas
 		ceara

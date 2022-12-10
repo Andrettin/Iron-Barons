@@ -9,7 +9,7 @@ england = {
 		medieval_era
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		middlesex
 		somerset
 		devon

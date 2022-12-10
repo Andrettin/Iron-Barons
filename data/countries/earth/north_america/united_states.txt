@@ -8,7 +8,7 @@ united_states = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		maryland
 		alabama
 		arizona

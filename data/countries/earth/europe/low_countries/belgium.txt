@@ -6,7 +6,7 @@ belgium = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		brabant
 		liege
 		antwerp

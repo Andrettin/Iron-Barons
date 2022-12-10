@@ -8,7 +8,7 @@ hungary = {
 		renaissance_era
 		industrial_era #since after 1867 it had substantial autonomy
 	}
-	provinces = {
+	core_provinces = {
 		pest
 		buda
 		pressburg

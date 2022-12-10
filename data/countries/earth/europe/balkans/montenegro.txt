@@ -6,7 +6,7 @@ montenegro = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		montenegro
 	}
 }

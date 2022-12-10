@@ -10,7 +10,7 @@ france = {
 		renaissance_era
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		ile_de_france
 		orleanais
 		anjou

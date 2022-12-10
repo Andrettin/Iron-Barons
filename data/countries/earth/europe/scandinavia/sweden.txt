@@ -10,7 +10,7 @@ sweden = {
 		renaissance_era
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		uppland
 		smaland
 		halland

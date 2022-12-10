@@ -9,7 +9,7 @@ castille = {
 		medieval_era
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		castille
 		leon
 		asturias

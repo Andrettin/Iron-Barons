@@ -7,7 +7,7 @@ bohemia = {
 		medieval_era
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		bohemia
 		budweis
 		pilsen

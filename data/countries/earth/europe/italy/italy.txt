@@ -8,7 +8,7 @@ italy = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		latium
 		cosenza
 		genoa

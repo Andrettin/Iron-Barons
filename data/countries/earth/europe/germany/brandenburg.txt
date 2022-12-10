@@ -9,7 +9,7 @@ brandenburg = {
 		medieval_era
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		brandenburg
 		magdeburg
 	}

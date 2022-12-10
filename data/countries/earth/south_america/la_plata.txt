@@ -3,7 +3,7 @@ la_plata = {
 	type = minor_nation
 	culture = castillian
 	capital_province = buenos_aires
-	provinces = {
+	core_provinces = {
 		buenos_aires
 		cordoba_argentina
 		santa_fe

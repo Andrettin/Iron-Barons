@@ -8,7 +8,7 @@ germany = {
 	eras = {
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		brandenburg
 		augsburg
 		baden

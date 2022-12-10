@@ -7,7 +7,7 @@ naples = {
 		medieval_era
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		naples
 		cosenza
 		taranto

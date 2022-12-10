@@ -9,7 +9,7 @@ spain = {
 		renaissance_era
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		castille
 		leon
 		asturias

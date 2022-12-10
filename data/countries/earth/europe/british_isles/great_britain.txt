@@ -10,7 +10,7 @@ great_britain = {
 		renaissance_era
 		industrial_era
 	}
-	provinces = {
+	core_provinces = {
 		middlesex
 		somerset
 		devon

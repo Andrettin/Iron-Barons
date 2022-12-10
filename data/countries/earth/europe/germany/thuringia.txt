@@ -6,7 +6,7 @@ thuringia = {
 	eras = {
 		medieval_era
 	}
-	provinces = {
+	core_provinces = {
 		thuringia
 	}
 }

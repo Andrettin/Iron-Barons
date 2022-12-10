@@ -3,7 +3,7 @@ vestindielandt = {
 	type = minor_nation
 	culture = german
 	capital_province = cuba
-	provinces = {
+	core_provinces = {
 		cuba
 		haiti
 		santo_domingo

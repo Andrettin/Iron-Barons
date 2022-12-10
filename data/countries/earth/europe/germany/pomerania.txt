@@ -7,7 +7,7 @@ pomerania = {
 		medieval_era
 		renaissance_era
 	}
-	provinces = {
+	core_provinces = {
 		hither_pomerania
 		farther_pomerania
 	}
