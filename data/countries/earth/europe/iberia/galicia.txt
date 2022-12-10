@@ -1,0 +1,14 @@
+galicia = {
+	name = "Galicia"
+	type = minor_nation
+	culture = galician
+	capital_province = galicia
+	eras = {
+		medieval_era
+		renaissance_era
+		industrial_era
+	}
+	core_provinces = {
+		galicia
+	}
+}
