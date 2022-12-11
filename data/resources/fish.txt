@@ -3,7 +3,10 @@ fish = {
 	commodity = fish
 	near_water = true
 	terrain_types = {
+		desert
 		plains
 		savannah
+		swamp
+		tundra
 	}
 }

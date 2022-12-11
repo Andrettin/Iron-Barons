@@ -1,0 +1,8 @@
+swamp = {
+	name = "Swamp"
+	color = { 0 128 128 }
+	image_filepath = "tiles/terrain/plains.png"
+	elevation_type = flatlands
+	moisture_type = wet
+	tiles = { 0 1 2 3 4 }
+}
