@@ -125,6 +125,46 @@ river_adjacency_tiles = {
 		southwest = any
 		southeast = any
 	}
+	96 = {
+		north = other
+		south = same
+		west = same
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	97 = {
+		north = same
+		south = same
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	112 = {
+		north = same
+		south = other
+		west = same
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	113 = {
+		north = same
+		south = same
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
 }
 
 rivermouth_adjacency_tiles = {
