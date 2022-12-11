@@ -1,0 +1,5 @@
+dinka = {
+	name = "Dinka"
+	group = east_african
+	color = { 59 91 247 }
+}

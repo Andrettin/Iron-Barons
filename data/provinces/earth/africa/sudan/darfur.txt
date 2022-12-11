@@ -1,0 +1,12 @@
+darfur = {
+	name = "Darfur"
+	color = { 107 48 96 }
+	capital_settlement = el_fasher
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = fur
+	}
+}

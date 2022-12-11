@@ -1,0 +1,12 @@
+kordofan = {
+	name = "Kordofan"
+	color = { 193 144 46 }
+	capital_settlement = el_obeid
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = nuba
+	}
+}
