@@ -1,0 +1,6 @@
+suez = {
+	name = "Suez"
+	world = earth
+	geocoordinate = { 32.54994055050 30.00497601220 } #from Natural Earth
+	type = settlement
+}

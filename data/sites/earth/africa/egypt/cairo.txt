@@ -1,0 +1,6 @@
+cairo = {
+	name = "Cairo"
+	world = earth
+	geocoordinate = { 31.24996821970 30.04996034650 } #from Natural Earth
+	type = settlement
+}

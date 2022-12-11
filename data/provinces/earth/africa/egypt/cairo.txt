@@ -1,0 +1,15 @@
+cairo = {
+	name = "Cairo"
+	color = { 66 184 92 }
+	capital_settlement = cairo
+	regions = {
+		africa
+	}
+	
+	history = {
+		-1450 = {
+			owner = egypt #part of Egypt c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+			culture = egyptian
+		}
+	}
+}
