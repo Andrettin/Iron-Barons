@@ -2,19 +2,16 @@ euphrates_river = {
 	name = "Euphrates River"
 	river = true
 	color = { 165 29 48 }
-	hidden = true
 }
 
 shatt_al_arab_river = {
 	name = "Shatt al-Arab River"
 	river = true
 	color = { 48 237 141 }
-	hidden = true
 }
 
 tigris_river = {
 	name = "Tigris River"
 	river = true
 	color = { 100 118 228 }
-	hidden = true
 }
