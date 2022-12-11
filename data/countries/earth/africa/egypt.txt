@@ -1,6 +1,7 @@
 egypt = {
 	name = "Egypt"
-	type = minor_nation
+	type = great_power
+	color = { 143 141 128 }
 	culture = egyptian
 	capital_province = cairo
 	eras = {
