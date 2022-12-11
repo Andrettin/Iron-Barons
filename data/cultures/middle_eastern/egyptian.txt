@@ -1,4 +1,5 @@
 egyptian = {
 	name = "Egyptian"
 	group = middle_eastern
+	color = { 178 160 0 }
 }
