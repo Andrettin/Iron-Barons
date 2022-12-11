@@ -2,7 +2,6 @@ united_states = {
 	name = "United States"
 	type = great_power
 	color = { 66 94 193 }
-	palette = purple
 	culture = english
 	capital_province = maryland
 	eras = {

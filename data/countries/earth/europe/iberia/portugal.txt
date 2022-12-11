@@ -2,7 +2,6 @@ portugal = {
 	name = "Portugal"
 	type = great_power
 	color = { 0 66 24 }
-	palette = green
 	culture = portuguese
 	capital_province = estremadura
 	eras = {

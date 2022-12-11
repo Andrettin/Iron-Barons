@@ -2,7 +2,6 @@ netherlands = {
 	name = "Netherlands"
 	type = great_power
 	color = { 255 90 8 }
-	palette = orange
 	culture = dutch
 	capital_province = holland
 	eras = {
