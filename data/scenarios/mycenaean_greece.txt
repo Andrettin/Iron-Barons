@@ -1,0 +1,5 @@
+mycenaean_greece = {
+	name = "Mycenaean Greece"
+	start_date = -1450
+	map_template = earth
+}
