@@ -1,0 +1,15 @@
+tanis = {
+	name = "Tanis"
+	world = earth
+	geocoordinate = { 31.88 30.976944444444 }
+	type = resource
+	resource = timber #papyrus
+	terrain_type = conifer_forest
+	province = cairo
+	
+	history = {
+		-1450 = {
+			improvement = timber_lodge #Tanis existed c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+		}
+	}
+}

@@ -1,0 +1,12 @@
+kush = {
+	name = "Kush"
+	type = minor_nation
+	culture = meroitic
+	capital_province = nubia
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		nubia
+	}
+}

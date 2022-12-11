@@ -2,6 +2,9 @@ cairo = {
 	name = "Cairo"
 	color = { 66 184 92 }
 	capital_settlement = cairo
+	cultural_names = {
+		egyptian = "Memphis"
+	}
 	regions = {
 		africa
 	}
