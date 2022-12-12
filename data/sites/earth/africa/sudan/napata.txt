@@ -1,0 +1,15 @@
+napata = {
+	name = "Napata"
+	world = earth
+	geocoordinate = { 31.81666667 18.53333333 }
+	type = resource
+	resource = cotton #linen
+	terrain_type = plains
+	province = nubia
+	
+	history = {
+		-1450 = {
+			improvement = cotton_plantation #Napata existed c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+		}
+	}
+}
