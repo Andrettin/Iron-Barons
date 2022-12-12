@@ -1,7 +1,7 @@
 strasbourg = {
 	name = "Strasbourg"
 	type = minor_nation
-	culture = german
+	culture = alsatian
 	capital_province = alsace
 	eras = {
 		medieval_era
