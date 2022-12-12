@@ -1,0 +1,12 @@
+mycenae = {
+	name = "Mycenae"
+	type = minor_nation
+	culture = greek
+	capital_province = peloponnese
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		peloponnese
+	}
+}
