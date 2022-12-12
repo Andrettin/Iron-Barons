@@ -1,0 +1,8 @@
+stone = {
+	name = "Stone"
+	commodity = stone
+	terrain_types = {
+		barren_hills
+		desert
+	}
+}
