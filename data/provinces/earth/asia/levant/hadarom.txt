@@ -1,15 +1,17 @@
-sinai = {
-	name = "Sinai"
-	color = { 88 149 3 }
-	capital_settlement = el_arish
+hadarom = {
+	name = "Hadarom"
+	color = { 210 162 55 }
+	capital_settlement = beersheba
 	regions = {
-		africa
+		asia
+		middle_east
 	}
 	
 	history = {
+		culture = aramaic
+		
 		-1450 = {
 			owner = egypt #subject to Egypt c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
-			culture = egyptian
 		}
 	}
 }

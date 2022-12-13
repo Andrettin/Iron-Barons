@@ -6,4 +6,10 @@ deir_ez_zor = {
 		asia
 		middle_east
 	}
+	
+	history = {
+		-1450 = {
+			culture = assyrian
+		}
+	}
 }

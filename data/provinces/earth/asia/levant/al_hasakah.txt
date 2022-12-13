@@ -6,4 +6,10 @@ al_hasakah = {
 		asia
 		middle_east
 	}
+	
+	history = {
+		-1450 = {
+			culture = assyrian
+		}
+	}
 }

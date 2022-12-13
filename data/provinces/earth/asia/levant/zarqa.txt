@@ -6,4 +6,8 @@ zarqa = {
 		asia
 		middle_east
 	}
+	
+	history = {
+		culture = arabic
+	}
 }
