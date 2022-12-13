@@ -1,0 +1,13 @@
+phoenicia = {
+	name = "Phoenicia"
+	type = great_power
+	color = { 204 161 197 }
+	culture = phoenician
+	capital_province = lebanon
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		lebanon
+	}
+}
