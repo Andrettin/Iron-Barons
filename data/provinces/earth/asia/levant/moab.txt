@@ -1,0 +1,9 @@
+moab = {
+	name = "Moab"
+	color = { 95 84 61 }
+	capital_settlement = karak
+	regions = {
+		asia
+		middle_east
+	}
+}

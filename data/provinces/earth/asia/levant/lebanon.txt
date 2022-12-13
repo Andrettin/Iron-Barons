@@ -1,0 +1,12 @@
+lebanon = {
+	name = "Lebanon"
+	color = { 245 81 77 }
+	capital_settlement = tyre
+	cultural_names = {
+		phoenician = "Phoenicia"
+	}
+	regions = {
+		asia
+		middle_east
+	}
+}

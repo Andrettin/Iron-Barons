@@ -1,0 +1,9 @@
+zarqa = {
+	name = "Zarqa"
+	color = { 242 117 181 }
+	capital_settlement = zarqa
+	regions = {
+		asia
+		middle_east
+	}
+}

@@ -1,0 +1,9 @@
+syria = {
+	name = "Syria"
+	color = { 67 141 108 }
+	capital_settlement = damascus
+	regions = {
+		asia
+		middle_east
+	}
+}

@@ -1,0 +1,9 @@
+palestine = {
+	name = "Palestine"
+	color = { 113 221 147 }
+	capital_settlement = jerusalem
+	regions = {
+		asia
+		middle_east
+	}
+}

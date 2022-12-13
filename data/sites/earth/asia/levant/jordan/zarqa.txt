@@ -1,0 +1,7 @@
+zarqa = {
+	name = "Zarqa"
+	world = earth
+	geocoordinate = { 36.10000809610 32.06999208480 } #from Natural Earth
+	pos_offset = { 1 -1 }
+	type = settlement
+}

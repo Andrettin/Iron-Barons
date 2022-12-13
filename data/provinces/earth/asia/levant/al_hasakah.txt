@@ -1,0 +1,9 @@
+al_hasakah = {
+	name = "Al-Hasakah"
+	color = { 158 170 74 }
+	capital_settlement = al_hasakah
+	regions = {
+		asia
+		middle_east
+	}
+}

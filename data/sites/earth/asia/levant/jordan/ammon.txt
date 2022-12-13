@@ -1,0 +1,9 @@
+ammon = {
+	name = "Ammon"
+	world = earth
+	geocoordinate = { 35.93329992550 31.95002524720 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		arabic = "Amman"
+	}
+}
