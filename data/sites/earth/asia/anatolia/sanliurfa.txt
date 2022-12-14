@@ -1,0 +1,6 @@
+sanliurfa = {
+	name = "Sanliurfa"
+	world = earth
+	geocoordinate = { 38.79498571650 37.16999086410 } #from Natural Earth
+	type = settlement
+}
