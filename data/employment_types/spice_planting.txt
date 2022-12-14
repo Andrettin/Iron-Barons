@@ -1,0 +1,10 @@
+spice_planting = {
+	name = "Spice Planting"
+	output_commodity = spices
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+	}
+}

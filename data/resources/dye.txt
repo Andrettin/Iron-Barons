@@ -1,0 +1,7 @@
+dye = {
+	name = "Dye"
+	commodity = dye
+	terrain_types = {
+		plains
+	}
+}

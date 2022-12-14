@@ -1,0 +1,10 @@
+dye_planting = {
+	name = "Dye Planting"
+	output_commodity = dye
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+	}
+}

@@ -1,0 +1,8 @@
+spice_plantation = {
+	name = "Spice Plantation"
+	resource = spices
+	image_filepath = "tiles/improvements/coffee_plantation.png"
+	employment_type = spice_planting
+	employment_capacity = 4
+	output_multiplier = 1
+}

@@ -1,0 +1,4 @@
+dye = {
+	name = "Dye"
+	icon = cotton
+}

@@ -1,0 +1,8 @@
+spices = {
+	name = "Spices"
+	commodity = spices
+	terrain_types = {
+		plains
+		savannah
+	}
+}
