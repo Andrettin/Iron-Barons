@@ -1,0 +1,4 @@
+sumerian = {
+	name = "Sumerian"
+	group = mesopotamian
+}

@@ -1,0 +1,13 @@
+babylonia = {
+	name = "Babylonia"
+	type = great_power
+	color = { 27 73 157 }
+	culture = babylonian
+	capital_province = babylon
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		babylon
+	}
+}

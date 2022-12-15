@@ -1,0 +1,10 @@
+ur = {
+	name = "Ur"
+	world = earth
+	geocoordinate = { 46.26755285520 31.04294883120 } #from Natural Earth (An Nasiriyah)
+	pos_offset = { 0 -1 }
+	type = settlement
+	cultural_names = {
+		arabic = "An Nasiriyah"
+	}
+}

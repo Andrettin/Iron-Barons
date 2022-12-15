@@ -1,7 +1,7 @@
-al_hasakah = {
-	name = "Al-Hasakah"
-	color = { 158 170 74 }
-	capital_settlement = al_hasakah
+saladin = {
+	name = "Saladin"
+	color = { 19 215 110 }
+	capital_settlement = assur
 	regions = {
 		asia
 		middle_east

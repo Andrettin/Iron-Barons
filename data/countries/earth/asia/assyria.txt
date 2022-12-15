@@ -1,0 +1,14 @@
+assyria = {
+	name = "Assyria"
+	type = great_power
+	color = { 31 198 35 }
+	culture = assyrian
+	capital_province = assyria
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		assyria
+		saladin
+	}
+}

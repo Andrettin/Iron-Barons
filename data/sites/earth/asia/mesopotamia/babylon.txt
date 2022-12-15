@@ -1,0 +1,10 @@
+babylon = {
+	name = "Babylon"
+	world = earth
+	geocoordinate = { 44.42172237020 32.47213808090 } #from Natural Earth (Al Hillah)
+	pos_offset = { 0 -1 }
+	type = settlement
+	cultural_names = {
+		arabic = "Al Hillah"
+	}
+}
