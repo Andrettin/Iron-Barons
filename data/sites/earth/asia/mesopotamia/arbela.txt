@@ -1,0 +1,8 @@
+arbela = {
+	name = "Arbela"
+	world = earth
+	geocoordinate = { 44.00862097040 36.17904359850 } #from Natural Earth
+	cultural_names = {
+		arabic = "Erbil"
+	}
+}
