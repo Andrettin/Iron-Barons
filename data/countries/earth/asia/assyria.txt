@@ -9,6 +9,9 @@ assyria = {
 	}
 	core_provinces = {
 		assyria
+		al_hasakah
+		amida
+		deir_ez_zor
 		saladin
 	}
 }
