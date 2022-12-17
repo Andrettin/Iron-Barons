@@ -4,5 +4,5 @@ desert = {
 	image_filepath = "tiles/terrain/plains.png"
 	elevation_type = flatlands
 	moisture_type = arid
-	tiles = { 0 1 2 3 4 }
+	tiles = { 0 }
 }

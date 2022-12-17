@@ -3,5 +3,5 @@ plains = {
 	color = { 224 224 128 }
 	image_filepath = "tiles/terrain/plains.png"
 	elevation_type = flatlands
-	tiles = { 0 1 2 3 4 }
+	tiles = { 0 }
 }

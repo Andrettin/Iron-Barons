@@ -1,8 +1,8 @@
 savannah = {
 	name = "Savannah"
 	color = { 0 224 128 }
-	image_filepath = "tiles/terrain/plains.png"
+	image_filepath = "tiles/terrain/grassland.png"
 	elevation_type = flatlands
 	temperature_type = tropical
-	tiles = { 0 1 2 3 4 }
+	tiles = { 0 }
 }
