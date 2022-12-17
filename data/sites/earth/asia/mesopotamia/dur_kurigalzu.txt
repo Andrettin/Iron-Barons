@@ -1,8 +1,7 @@
-damascus = {
-	name = "Damascus"
+dur_kurigalzu = {
+	name = "Dur-Kurigalzu"
 	world = earth
-	geocoordinate = { 36.29999588900 33.50003399560 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 44.20229 33.35372 }
 	
 	history = {
 		-1450 = {

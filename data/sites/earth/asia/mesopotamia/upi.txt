@@ -1,10 +1,9 @@
-nineveh = {
-	name = "Nineveh"
+upi = {
+	name = "Upi"
 	world = earth
-	geocoordinate = { 43.14500443400 36.34500246080 } #from Natural Earth (Mosul)
-	type = settlement
+	geocoordinate = { 44.6991 33.1815 }
 	cultural_names = {
-		arabic = "Mosul"
+		greek = "Opis"
 	}
 	
 	history = {

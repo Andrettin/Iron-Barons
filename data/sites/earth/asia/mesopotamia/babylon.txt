@@ -7,4 +7,10 @@ babylon = {
 	cultural_names = {
 		arabic = "Al Hillah"
 	}
+	
+	history = {
+		-1450 = {
+			#existed c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+		}
+	}
 }

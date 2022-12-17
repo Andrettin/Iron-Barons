@@ -1,8 +1,7 @@
-damascus = {
-	name = "Damascus"
+kutha = {
+	name = "Kutha"
 	world = earth
-	geocoordinate = { 36.29999588900 33.50003399560 } #from Natural Earth
-	type = settlement
+	#geocoordinate = { 44.61286111 32.76002778 }
 	
 	history = {
 		-1450 = {

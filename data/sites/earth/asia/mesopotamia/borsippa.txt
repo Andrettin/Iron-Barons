@@ -1,8 +1,7 @@
-damascus = {
-	name = "Damascus"
+borsippa = {
+	name = "Borsippa"
 	world = earth
-	geocoordinate = { 36.29999588900 33.50003399560 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 44.341688888889 32.391997222222 }
 	
 	history = {
 		-1450 = {
