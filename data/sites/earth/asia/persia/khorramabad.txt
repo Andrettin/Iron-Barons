@@ -1,0 +1,7 @@
+khorramabad = {
+	name = "Khorramabad"
+	world = earth
+	geocoordinate = { 48.35000972370 33.48042278950 } #from Natural Earth
+	type = settlement
+	terrain_type = plains
+}
