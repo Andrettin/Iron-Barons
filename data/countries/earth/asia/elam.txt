@@ -1,0 +1,13 @@
+elam = {
+	name = "Elam"
+	type = minor_nation
+	culture = elamite
+	capital_province = khuzestan
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		khuzestan
+		elam
+	}
+}
