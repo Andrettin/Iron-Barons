@@ -1,0 +1,4 @@
+elamite = {
+	name = "Elamite"
+	group = iranian
+}
