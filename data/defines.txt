@@ -40,8 +40,8 @@ river_adjacency_tiles = {
 		east = other
 		northwest = any
 		northeast = any
-		southwest = any
-		southeast = any
+		southwest = same
+		southeast = same
 	}
 	2 = {
 		north = other
@@ -59,18 +59,18 @@ river_adjacency_tiles = {
 		west = any
 		east = same
 		northwest = any
-		northeast = any
+		northeast = same
 		southwest = any
-		southeast = any
+		southeast = same
 	}
 	18 = {
 		north = other
 		south = other
 		west = same
 		east = any
-		northwest = any
+		northwest = same
 		northeast = any
-		southwest = any
+		southwest = same
 		southeast = any
 	}
 	32 = {
@@ -88,8 +88,8 @@ river_adjacency_tiles = {
 		south = any
 		west = other
 		east = other
-		northwest = any
-		northeast = any
+		northwest = same
+		northeast = same
 		southwest = any
 		southeast = any
 	}
@@ -101,6 +101,86 @@ river_adjacency_tiles = {
 		northwest = same
 		northeast = any
 		southwest = any
+		southeast = any
+	}
+	48 = {
+		north = any
+		south = same
+		west = any
+		east = any
+		northwest = any
+		northeast = any
+		southwest = other
+		southeast = same
+	}
+	49 = {
+		north = any
+		south = same
+		west = any
+		east = any
+		northwest = any
+		northeast = any
+		southwest = same
+		southeast = other
+	}
+	50 = {
+		north = any
+		south = any
+		west = any
+		east = same
+		northwest = any
+		northeast = other
+		southwest = any
+		southeast = same
+	}
+	51 = {
+		north = any
+		south = any
+		west = same
+		east = any
+		northwest = other
+		northeast = any
+		southwest = same
+		southeast = any
+	}
+	64 = {
+		north = same
+		south = any
+		west = any
+		east = any
+		northwest = other
+		northeast = same
+		southwest = any
+		southeast = any
+	}
+	65 = {
+		north = same
+		south = any
+		west = any
+		east = any
+		northwest = same
+		northeast = other
+		southwest = any
+		southeast = any
+	}
+	66 = {
+		north = any
+		south = any
+		west = any
+		east = same
+		northwest = any
+		northeast = same
+		southwest = any
+		southeast = other
+	}
+	67 = {
+		north = any
+		south = any
+		west = same
+		east = any
+		northwest = same
+		northeast = any
+		southwest = other
 		southeast = any
 	}
 	80 = {
