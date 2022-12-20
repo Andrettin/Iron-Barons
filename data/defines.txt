@@ -189,19 +189,39 @@ river_adjacency_tiles = {
 		west = any
 		east = same
 		northwest = any
-		northeast = any
+		northeast = same
 		southwest = any
-		southeast = any
+		southeast = same
 	}
 	81 = {
 		north = any
 		south = same
 		west = same
 		east = any
-		northwest = any
+		northwest = same
 		northeast = any
-		southwest = any
-		southeast = any
+		southwest = same
+		southeast = same
+	}
+	82 = {
+		north = any
+		south = same
+		west = any
+		east = same
+		northwest = any
+		northeast = other
+		southwest = same
+		southeast = same
+	}
+	83 = {
+		north = any
+		south = same
+		west = same
+		east = any
+		northwest = other
+		northeast = any
+		southwest = same
+		southeast = same
 	}
 	96 = {
 		north = same
@@ -209,18 +229,38 @@ river_adjacency_tiles = {
 		west = any
 		east = same
 		northwest = any
-		northeast = any
+		northeast = same
 		southwest = any
-		southeast = any
+		southeast = same
 	}
 	97 = {
 		north = same
 		south = any
 		west = same
 		east = any
-		northwest = any
+		northwest = same
 		northeast = any
+		southwest = same
+		southeast = any
+	}
+	98 = {
+		north = same
+		south = any
+		west = any
+		east = same
+		northwest = same
+		northeast = same
 		southwest = any
+		southeast = other
+	}
+	99 = {
+		north = same
+		south = any
+		west = same
+		east = any
+		northwest = same
+		northeast = same
+		southwest = other
 		southeast = any
 	}
 }
