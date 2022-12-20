@@ -276,6 +276,16 @@ river_adjacency_tiles = {
 }
 
 rivermouth_adjacency_tiles = {
+	0 = {
+		north = other
+		south = same
+		west = other
+		east = other
+		northwest = any
+		northeast = any
+		southwest = other
+		southeast = same
+	}
 	1 = {
 		north = other
 		south = same
@@ -283,37 +293,67 @@ rivermouth_adjacency_tiles = {
 		east = other
 		northwest = any
 		northeast = any
-		southwest = any
-		southeast = any
+		southwest = same
+		southeast = other
 	}
-	16 = {
+	2 = {
 		north = other
 		south = other
 		west = other
 		east = same
 		northwest = any
+		northeast = other
+		southwest = any
+		southeast = same
+	}
+	3 = {
+		north = other
+		south = other
+		west = same
+		east = other
+		northwest = other
 		northeast = any
+		southwest = same
+		southeast = any
+	}
+	16 = {
+		north = same
+		south = other
+		west = other
+		east = other
+		northwest = other
+		northeast = same
+		southwest = any
+		southeast = any
+	}
+	17 = {
+		north = same
+		south = other
+		west = other
+		east = other
+		northwest = same
+		northeast = other
 		southwest = any
 		southeast = any
 	}
 	18 = {
 		north = other
 		south = other
+		west = other
+		east = same
+		northwest = any
+		northeast = same
+		southwest = any
+		southeast = other
+	}
+	19 = {
+		north = other
+		south = other
 		west = same
 		east = other
-		northwest = any
+		northwest = same
 		northeast = any
-		southwest = any
-		southeast = any
-	}
-	33 = {
-		north = same
-		south = other
-		west = other
-		east = other
-		northwest = any
-		northeast = any
-		southwest = any
+		southwest = other
 		southeast = any
 	}
 }
