@@ -239,7 +239,7 @@ river_adjacency_tiles = {
 		west = same
 		east = any
 		northwest = same
-		northeast = any
+		northeast = same
 		southwest = same
 		southeast = any
 	}
@@ -261,6 +261,16 @@ river_adjacency_tiles = {
 		northwest = same
 		northeast = same
 		southwest = other
+		southeast = any
+	}
+	101 = {
+		north = same
+		south = any
+		west = same
+		east = any
+		northwest = same
+		northeast = other
+		southwest = same
 		southeast = any
 	}
 }
