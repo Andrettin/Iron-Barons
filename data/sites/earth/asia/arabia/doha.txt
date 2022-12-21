@@ -1,0 +1,6 @@
+doha = {
+	name = "Doha"
+	world = earth
+	geocoordinate = { 51.53296789430 25.28655600890 } #from Natural Earth
+	type = settlement
+}

@@ -1,0 +1,12 @@
+arabs = {
+	name = "Arabs"
+	type = tribe
+	culture = arabic
+	capital_province = arabia
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		arabia
+	}
+}

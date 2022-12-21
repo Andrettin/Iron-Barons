@@ -1,0 +1,12 @@
+incense_coast = {
+	name = "Incense Coast"
+	type = minor_nation
+	culture = arabic
+	capital_province = mecca
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		mecca
+	}
+}

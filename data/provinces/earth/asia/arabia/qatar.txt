@@ -1,7 +1,7 @@
-aqaba = {
-	name = "Aqaba"
-	color = { 211 20 110 }
-	capital_settlement = aqaba
+qatar = {
+	name = "Qatar"
+	color = { 92 12 156 }
+	capital_settlement = doha
 	regions = {
 		asia
 		middle_east
