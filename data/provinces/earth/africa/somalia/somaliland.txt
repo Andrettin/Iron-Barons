@@ -1,0 +1,12 @@
+somaliland = {
+	name = "Somaliland"
+	color = { 154 4 51 }
+	capital_settlement = hargeysa
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = somali
+	}
+}

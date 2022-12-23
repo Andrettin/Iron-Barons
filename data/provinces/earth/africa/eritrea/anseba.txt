@@ -1,0 +1,12 @@
+anseba = {
+	name = "Anseba"
+	color = { 155 40 204 }
+	capital_settlement = keren
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = tigray
+	}
+}

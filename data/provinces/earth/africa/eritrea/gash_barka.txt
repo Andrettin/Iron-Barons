@@ -1,0 +1,12 @@
+gash_barka = {
+	name = "Gash-Barka"
+	color = { 81 255 115 }
+	capital_settlement = asmara
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = tigray
+	}
+}

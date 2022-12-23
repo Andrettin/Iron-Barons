@@ -1,0 +1,5 @@
+tigray = {
+	name = "Tigray"
+	group = east_african
+	color = { 61 49 183 }
+}
