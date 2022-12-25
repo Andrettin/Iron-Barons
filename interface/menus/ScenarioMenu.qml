@@ -49,8 +49,22 @@ MenuBase {
 	}
 	
 	IconButton {
-		id: terrain_map_mode_button
+		id: diplomatic_map_mode_button
 		anchors.top: political_map_mode_button.bottom
+		anchors.right: political_map_mode_button.right
+		icon_identifier: "treaty"
+		border_color: "white"
+		unrounded_left_corners: true
+		tooltip: "Diplomatic Map Mode"
+		
+		onReleased: {
+			diplomatic_map.mode = DiplomaticMap.Mode.Diplomatic
+		}
+	}
+	
+	IconButton {
+		id: terrain_map_mode_button
+		anchors.top: diplomatic_map_mode_button.bottom
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "mountains"
 		border_color: "white"

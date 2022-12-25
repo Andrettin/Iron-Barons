@@ -11,6 +11,7 @@ Flickable {
 	
 	enum Mode {
 		Political,
+		Diplomatic,
 		Terrain,
 		Cultural
 	}
@@ -42,7 +43,7 @@ Flickable {
 			id: country_image
 			x: country.game_data.diplomatic_map_image_rect.x
 			y: country.game_data.diplomatic_map_image_rect.y
-			source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : get_map_mode_suffix(diplomatic_map.mode)) + "/" + country_suffix
+			source: "image://diplomatic_map/" + country.identifier + (selected ? "/selected" : get_map_mode_suffix(diplomatic_map.mode, country)) + "/" + country_suffix
 			cache: false
 			
 			readonly property var country: model.modelData
@@ -181,12 +182,18 @@ Flickable {
 		center_on_tile_pos(capital_x, capital_y)
 	}
 	
-	function get_map_mode_suffix(mode) {
+	function get_map_mode_suffix(mode, country) {
 		switch (mode) {
+			case DiplomaticMap.Mode.Diplomatic:
+				if (selected_country !== null || metternich.game.player_country !== null) {
+					var reference_country = selected_country !== null ? selected_country : metternich.game.player_country
+					return "/diplomatic/" + reference_country.game_data.get_diplomacy_state_diplomatic_map_suffix(country)
+				}
+				break
 			case DiplomaticMap.Mode.Terrain:
 				return "/terrain"
 			case DiplomaticMap.Mode.Cultural:
-				return "/culture"
+				return "/cultural"
 		}
 		
 		return ""
