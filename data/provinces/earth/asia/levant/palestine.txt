@@ -12,5 +12,10 @@ palestine = {
 			owner = phoenicia #part of Phoenician territory c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
 			culture = phoenician
 		}
+		
+		-953 = {
+			owner = israel #part of the Kingdom of Israel in the 953-722 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 6-7.
+			culture = hebrew
+		}
 	}
 }

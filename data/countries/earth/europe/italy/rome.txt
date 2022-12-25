@@ -1,0 +1,13 @@
+rome = {
+	name = "Rome"
+	type = great_power
+	color = { 139 16 13 }
+	culture = roman
+	capital_province = latium
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		latium
+	}
+}

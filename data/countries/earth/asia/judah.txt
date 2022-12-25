@@ -1,0 +1,12 @@
+judah = {
+	name = "Judah"
+	type = minor_nation
+	culture = hebrew
+	capital_province = hadarom
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		hadarom
+	}
+}

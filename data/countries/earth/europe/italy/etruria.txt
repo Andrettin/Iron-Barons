@@ -1,0 +1,26 @@
+etruria = {
+	name = "Etruria"
+	type = minor_nation
+	culture = etruscan
+	capital_province = tuscany
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		tuscany
+	}
+	
+	history = {
+		-100 = {
+			#Roman ally c. 100 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 29.
+			consulate = {
+				country = rome
+				consulate = embassy
+			}
+			diplomacy_state = {
+				country = rome
+				state = non_aggression_pact
+			}
+		}
+	}
+}

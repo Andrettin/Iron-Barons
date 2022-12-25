@@ -1,0 +1,12 @@
+etruscans = {
+	name = "Etruscans"
+	type = tribe
+	culture = etruscan
+	capital_province = tuscany
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		tuscany
+	}
+}
