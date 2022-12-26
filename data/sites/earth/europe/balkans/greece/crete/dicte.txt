@@ -1,8 +1,7 @@
-knossos = {
-	name = "Knossos"
+dicte = {
+	name = "Dicte"
 	world = earth
-	geocoordinate = { 25.163155555556 35.297961111111 }
-	type = settlement
+	geocoordinate = { 25.5 35.116667 }
 	
 	history = {
 		-1450 = {

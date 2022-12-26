@@ -1,8 +1,7 @@
-knossos = {
-	name = "Knossos"
+mycenae = {
+	name = "Mycenae"
 	world = earth
-	geocoordinate = { 25.163155555556 35.297961111111 }
-	type = settlement
+	geocoordinate = { 22.756111111111 37.730833333333 }
 	
 	history = {
 		-1450 = {
