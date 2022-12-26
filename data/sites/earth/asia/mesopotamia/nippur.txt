@@ -1,9 +1,7 @@
-ur = {
-	name = "Ur"
+nippur = {
+	name = "Nippur"
 	world = earth
-	geocoordinate = { 46.104444 30.962222 }
-	pos_offset = { 0 -1 }
-	type = settlement
+	geocoordinate = { 45.230833333333 32.126111111111 }
 	
 	history = {
 		-1450 = {

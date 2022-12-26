@@ -1,9 +1,7 @@
-ur = {
-	name = "Ur"
+lagash = {
+	name = "Lagash" #also known as Shirpurla
 	world = earth
-	geocoordinate = { 46.104444 30.962222 }
-	pos_offset = { 0 -1 }
-	type = settlement
+	geocoordinate = { 46.407222 31.411389 }
 	
 	history = {
 		-1450 = {
