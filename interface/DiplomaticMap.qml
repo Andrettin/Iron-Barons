@@ -124,17 +124,22 @@ Flickable {
 		TinyText {
 			id: country_label
 			text: country.name
-			x: Math.floor(territory_rect.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_width / 2 - width / 2)
-			y: Math.floor(territory_rect.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor + territory_rect_height / 2 - height / 2)
-			visible: width <= territory_rect_width
+			x: Math.floor(text_rect.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor)
+			y: Math.floor(text_rect.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor)
+			width: Math.floor(text_rect_width)
+			height: Math.floor(text_rect_height)
+			visible: contentWidth <= width
 			font.pixelSize: 8 * scale_factor
 			shadow_offset: 1 * scale_factor
 			font.bold: true
+			wrapMode: Text.WordWrap
+			horizontalAlignment: Text.AlignHCenter
+			verticalAlignment: Text.AlignVCenter
 					
 			readonly property var country: model.modelData
-			readonly property var territory_rect: country.game_data.main_contiguous_territory_rect
-			readonly property int territory_rect_width: territory_rect.width * metternich.map.diplomatic_map_tile_pixel_size * scale_factor
-			readonly property int territory_rect_height: territory_rect.height * metternich.map.diplomatic_map_tile_pixel_size * scale_factor
+			readonly property var text_rect: country.game_data.text_rect
+			readonly property int text_rect_width: text_rect.width * metternich.map.diplomatic_map_tile_pixel_size * scale_factor
+			readonly property int text_rect_height: text_rect.height * metternich.map.diplomatic_map_tile_pixel_size * scale_factor
 		}
 	}
 	*/
