@@ -1,0 +1,5 @@
+anatolian = {
+	name = "Anatolian"
+	rank = group
+	upper_group = middle_eastern
+}

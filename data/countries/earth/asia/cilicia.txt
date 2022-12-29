@@ -1,0 +1,14 @@
+cilicia = {
+	name = "Cilicia"
+	type = minor_nation
+	culture = cilician
+	capital_province = mersin
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		mersin
+		karaman
+		kayseri
+	}
+}
