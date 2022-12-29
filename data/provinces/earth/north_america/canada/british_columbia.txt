@@ -4,8 +4,12 @@ british_columbia = {
 	capital_settlement = victoria
 	
 	history = {
+		owner = kwakiutl
+		culture = kwakiutl
+		
 		1300 = {
 			owner = kwakiutl #Kwakiutl territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
+			culture = kwakiutl
 		}
 	}
 }

@@ -7,10 +7,12 @@ minas_gerais = {
 	}
 	
 	history = {
+		owner = tupi
 		culture = tupi
 		
 		1300 = {
 			owner = tupi
+			culture = tupi
 		}
 		
 		1716 = {
