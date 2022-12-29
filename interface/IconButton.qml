@@ -3,8 +3,8 @@ import QtQuick.Controls 2.12
 
 ButtonBase {
 	id: button
-	width: 38 * scale_factor
-	height: 38 * scale_factor
+	width: icon_image.width + 6 * scale_factor
+	height: icon_image.height + 6 * scale_factor
 	
 	property string icon_identifier: ""
 	property color background_color: "black"
@@ -39,6 +39,7 @@ ButtonBase {
     }
 	
 	Image {
+		id: icon_image
 		anchors.verticalCenter: parent.verticalCenter
 		anchors.verticalCenterOffset: button.down ? 1 * scale_factor : 0
 		anchors.horizontalCenter: parent.horizontalCenter
