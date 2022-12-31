@@ -1,0 +1,5 @@
+lydian = {
+	name = "Lydian"
+	group = anatolian
+	color = { 200 100 0 }
+}
