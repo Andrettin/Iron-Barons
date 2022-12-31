@@ -1,0 +1,12 @@
+thessaliotis = {
+	name = "Thessaliotis"
+	type = tribe
+	culture = greek
+	capital_province = thessaly
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		thessaly
+	}
+}
