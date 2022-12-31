@@ -1,0 +1,13 @@
+athens = {
+	name = "Athens"
+	type = great_power
+	color = { 19 139 244 }
+	culture = greek
+	capital_province = attica
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		attica
+	}
+}

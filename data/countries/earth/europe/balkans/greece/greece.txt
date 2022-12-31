@@ -1,0 +1,15 @@
+greece = {
+	name = "Greece"
+	type = great_power
+	color = { 122 180 210 }
+	culture = greek
+	capital_province = attica
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		attica
+		peloponnese
+		thessaly
+	}
+}
