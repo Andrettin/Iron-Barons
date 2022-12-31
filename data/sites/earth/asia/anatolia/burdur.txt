@@ -1,0 +1,6 @@
+burdur = {
+	name = "Burdur"
+	world = earth
+	geocoordinate = { 30.28333553850 37.71666011090 } #from Natural Earth
+	type = settlement
+}

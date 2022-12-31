@@ -1,0 +1,16 @@
+antalya = {
+	name = "Antalya"
+	color = { 157 119 6 }
+	capital_settlement = antalya
+	regions = {
+		anatolia
+	}
+	
+	history = {
+		culture = turkish
+		
+		1815 = {
+			culture = turkish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+		}
+	}
+}

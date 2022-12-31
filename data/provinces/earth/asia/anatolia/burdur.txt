@@ -1,0 +1,16 @@
+burdur = {
+	name = "Burdur"
+	color = { 174 135 64 }
+	capital_settlement = burdur
+	regions = {
+		anatolia
+	}
+	
+	history = {
+		culture = turkish
+		
+		1815 = {
+			culture = turkish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+		}
+	}
+}

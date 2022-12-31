@@ -1,0 +1,14 @@
+lydia = {
+	name = "Lydia"
+	type = minor_nation
+	culture = lydian
+	capital_province = saruhan
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		saruhan
+		denizli
+		karasi
+	}
+}

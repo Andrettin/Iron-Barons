@@ -1,17 +1,17 @@
-saruhan = {
-	name = "Saruhan"
-	color = { 175 27 216 }
-	capital_settlement = manisa
+mugla = {
+	name = "Mugla"
+	color = { 132 80 153 }
+	capital_settlement = mugla
 	regions = {
 		anatolia
 	}
 	
 	history = {
-		culture = lydian
+		culture = greek
 		
 		-750 = {
-			owner = lydia #part of Lydia in the 750-625 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
-			culture = lydian
+			owner = greece #Greek territory in the 750-625 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+			culture = greek
 		}
 		
 		1740 = {
