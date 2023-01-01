@@ -128,7 +128,7 @@ Flickable {
 			y: Math.floor(text_rect.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor)
 			width: Math.floor(text_rect_width)
 			height: Math.floor(text_rect_height)
-			visible: contentWidth <= width
+			visible: contentWidth <= width && (diplomatic_map.mode === DiplomaticMap.Mode.Political || diplomatic_map.mode === DiplomaticMap.Mode.Diplomatic)
 			font.pixelSize: 8 * scale_factor
 			shadow_offset: 1 * scale_factor
 			font.bold: true
