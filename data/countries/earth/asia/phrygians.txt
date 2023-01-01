@@ -1,0 +1,14 @@
+phrygians = {
+	name = "Phrygians"
+	type = tribe
+	culture = phrygian
+	capital_province = afyonkarahisar
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		afyonkarahisar
+		burdur
+		eskisehir
+	}
+}

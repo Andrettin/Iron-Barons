@@ -1,0 +1,6 @@
+eskisehir = {
+	name = "Eskisehir"
+	world = earth
+	geocoordinate = { 30.52996048860 39.79499859520 } #from Natural Earth
+	type = settlement
+}

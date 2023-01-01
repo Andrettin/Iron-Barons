@@ -1,0 +1,12 @@
+pamphylians = {
+	name = "Pamphylians"
+	type = tribe
+	culture = pamphylian
+	capital_province = antalya
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		antalya
+	}
+}

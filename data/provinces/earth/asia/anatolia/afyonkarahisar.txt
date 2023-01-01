@@ -1,7 +1,7 @@
-burdur = {
-	name = "Burdur"
-	color = { 174 135 64 }
-	capital_settlement = burdur
+afyonkarahisar = {
+	name = "Afyonkarahisar"
+	color = { 194 213 70 }
+	capital_settlement = afyon
 	regions = {
 		anatolia
 	}

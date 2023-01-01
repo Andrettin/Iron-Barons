@@ -9,6 +9,7 @@ lydia = {
 	core_provinces = {
 		saruhan
 		denizli
+		germiyan
 		karasi
 	}
 }

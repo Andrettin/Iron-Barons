@@ -1,7 +1,7 @@
-burdur = {
-	name = "Burdur"
-	color = { 174 135 64 }
-	capital_settlement = burdur
+eskisehir = {
+	name = "Eskisehir"
+	color = { 131 21 206 }
+	capital_settlement = eskisehir
 	regions = {
 		anatolia
 	}
@@ -13,6 +13,11 @@ burdur = {
 		-750 = {
 			owner = phrygians #Phrygian territory in the 750-625 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
 			culture = phrygian
+		}
+		
+		1740 = {
+			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = turkish
 		}
 		
 		1815 = {

@@ -1,0 +1,5 @@
+pamphylian = {
+	name = "Pamphylian"
+	group = anatolian
+	color = { 40 117 173 }
+}
