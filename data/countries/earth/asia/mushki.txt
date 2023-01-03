@@ -1,0 +1,13 @@
+mushki = {
+	name = "Mushki"
+	type = tribe
+	culture = phrygian
+	capital_province = sivas
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		sivas
+		kayseri
+	}
+}

@@ -12,6 +12,11 @@ kayseri = {
 			culture = cilician
 		}
 		
+		-750 = {
+			owner = mushki #Mushki territory in the 750-625 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+			culture = phrygian
+		}
+		
 		1815 = {
 			culture = turkish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 		}
