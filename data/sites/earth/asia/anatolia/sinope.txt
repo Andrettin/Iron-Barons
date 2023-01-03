@@ -1,0 +1,7 @@
+sinope = {
+	name = "Sinope"
+	world = earth
+	geocoordinate = { 35.15300149970 42.02299801770 } #from Natural Earth
+	type = settlement
+	terrain_type = plains
+}
