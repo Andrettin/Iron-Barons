@@ -1,0 +1,15 @@
+macedon = {
+	name = "Macedon"
+	type = great_power
+	color = { 16 41 202 }
+	culture = greek
+	capital_province = central_macedonia
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		central_macedonia
+		west_macedonia
+		east_macedonia
+	}
+}
