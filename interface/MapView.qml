@@ -18,6 +18,8 @@ Item {
 	
 	property bool tile_detail_mode: false
 	
+	readonly property var event_dialog_component: Qt.createComponent("dialogs/EventDialog.qml")
+	
 	Rectangle {
 		id: map_view_background
 		color: "black"
@@ -140,6 +142,24 @@ Item {
 			case Qt.Key_Shift:
 				tile_detail_mode = false
 				break
+		}
+	}
+	
+	Connections {
+		target: metternich
+		
+		function onEvent_fired(event_instance) {
+			if (event_dialog_component.status == Component.Error) {
+				console.error(event_dialog_component.errorString())
+				return
+			}
+			
+			var event_dialog = event_dialog_component.createObject(map_view, {
+				event_instance: event_instance,
+				interface_style: map_view.interface_style
+			})
+			
+			event_dialog.open()
 		}
 	}
 	
