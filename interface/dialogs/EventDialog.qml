@@ -8,8 +8,8 @@ DialogBase {
 	title: event_instance ? event_instance.name : ""
 	
 	property var event_instance: null
-	property var options: ["OK"]
-	property var option_tooltips: [""]
+	readonly property var options: event_instance ? event_instance.options : []
+	readonly property var option_tooltips: event_instance ? event_instance.option_tooltips : []
 	
 	property bool option_picked: false
 	
@@ -42,7 +42,14 @@ DialogBase {
 			TextButton {
 				id: option_button
 				text: model.modelData
-				tooltip: format_text(option_tooltips[index])
+				
+				onHoveredChanged: {
+					if (hovered) {
+						status_text = format_text(option_tooltips[index])
+					} else {
+						status_text = ""
+					}
+				}
 				
 				onClicked: {
 					if (option_picked) {
