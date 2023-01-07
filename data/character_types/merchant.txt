@@ -1,0 +1,4 @@
+merchant = {
+	name = "Merchant"
+	portrait = frankish_cleric
+}
