@@ -16,6 +16,25 @@ Item {
 	}
 	
 	IconButton {
+		id: characters_button
+		anchors.top: capital_settlement_button.top
+		anchors.right: capital_settlement_button.left
+		anchors.rightMargin: 8 * scale_factor
+		icon_identifier: "rifle_infantry_light_small"
+		
+		onReleased: {
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Characters"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
 		id: capital_settlement_button
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
