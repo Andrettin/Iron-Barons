@@ -23,6 +23,7 @@ Item {
 		icon_identifier: "rifle_infantry_light_small"
 		
 		onReleased: {
+			menu_stack.push("CharactersView.qml")
 		}
 		
 		onHoveredChanged: {
