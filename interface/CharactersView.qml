@@ -42,7 +42,7 @@ Item {
 				border.width: 1
 				
 				SmallText {
-					text: character.full_name
+					text: format_text(character.full_name + "\n\n" + character.type.name)
 					anchors.top: parent.top
 					anchors.topMargin: 8 * scale_factor
 					anchors.left: parent.left
