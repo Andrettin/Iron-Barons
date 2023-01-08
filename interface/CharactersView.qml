@@ -6,40 +6,81 @@ Item {
 	
 	property var selected_character: null
 	
+	MouseArea {
+		anchors.fill: parent
+		
+		onClicked: {
+			selected_character = null
+		}
+	}
+	
 	ListView {
 		id: character_list
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
 		anchors.top: parent.top
 		anchors.topMargin: 16 * scale_factor
-		anchors.bottom: back_button.top
-		anchors.bottomMargin: 16 * scale_factor
-		width: 256 * scale_factor
+		width: (64 / 2 + 256 + 1) * scale_factor
+		height: Math.min(contentHeight, parent.height - y - (parent.height - back_button.y) - 16 * scale_factor)
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		model: metternich.game.player_country.game_data.characters
-		delegate: Rectangle {
-			width: 256 * scale_factor
-			height: 16 * scale_factor
-			color: (selected_character == model.modelData) ? "olive" : "black"
-			border.color: "white"
-			border.width: 1
+		delegate: Item {
+			width: portrait.width / 2 + character_rectangle.width
+			height: portrait.height
 			
-			SmallText {
-				text: model.modelData.full_name + ", " + date_year_string(model.modelData.start_date)
-				anchors.horizontalCenter: parent.horizontalCenter
+			readonly property var character: model.modelData
+			
+			Rectangle {
+				id: character_rectangle
 				anchors.verticalCenter: parent.verticalCenter
+				anchors.left: portrait.horizontalCenter
+				width: 256 * scale_factor
+				height: portrait.height
+				color: (selected_character == character) ? "olive" : "black"
+				border.color: "gray"
+				border.width: 1
+				
+				SmallText {
+					text: character.full_name
+					anchors.top: parent.top
+					anchors.topMargin: 8 * scale_factor
+					anchors.left: parent.left
+					anchors.leftMargin: 8 * scale_factor + portrait.width / 2
+				}
+				
+				SmallText {
+					text: number_string(character.game_data.age)
+					anchors.top: parent.top
+					anchors.topMargin: 8 * scale_factor
+					anchors.right: parent.right
+					anchors.rightMargin: 8 * scale_factor
+				}
+				
+				MouseArea {
+					anchors.fill: parent
+					
+					onClicked: {
+						if (selected_character === character) {
+							selected_character = null
+						} else {
+							selected_character = character
+						}
+					}
+				}
 			}
 			
-			MouseArea {
-				anchors.fill: parent
+			PortraitButton {
+				id: portrait
+				portrait_identifier: character.portrait.identifier
+				tooltip: character.full_name
 				
-				onClicked: {
-					if (selected_character === model.modelData) {
-						return
+				onReleased: {
+					if (selected_character === character) {
+						selected_character = null
+					} else {
+						selected_character = character
 					}
-					
-					selected_character = model.modelData
 				}
 			}
 		}
