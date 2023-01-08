@@ -1,0 +1,4 @@
+navigator = {
+	name = "Navigator"
+	portrait = frankish_cleric
+}

@@ -1,0 +1,4 @@
+army_reformer = {
+	name = "Army Reformer"
+	portrait = frankish_cleric
+}
