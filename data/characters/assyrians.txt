@@ -1,0 +1,15 @@
+sargon_ii_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+	name = "Sargon"
+	type = army_organizer
+	culture = assyrian
+	home_province = assyria
+	start_date = -720 #ruled the Assyrian Empire in 720 BC
+}
+
+assurbanipal_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+	name = "Assurbanipal"
+	type = army_organizer
+	culture = assyrian
+	home_province = assyria
+	start_date = -640 #ruled the Assyrian Empire in 640 BC
+}
