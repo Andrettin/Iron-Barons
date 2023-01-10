@@ -4,6 +4,7 @@ karl_vi_of_the_holy_roman_empire = { #Emperor Karl VI of the Holy Roman Empire; 
 	type = treasurer
 	culture = austrian
 	home_province = lower_austria
+	gender = male
 	birth_date = 1685 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 	start_date = 1711
 	death_date = 1740 #Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
