@@ -1,0 +1,5 @@
+diplomat = {
+	name = "Diplomat"
+	portrait = frankish_cleric
+	primary_attribute = diplomacy
+}

@@ -1,0 +1,5 @@
+artist = {
+	name = "Artist"
+	portrait = frankish_cleric
+	primary_attribute = learning
+}

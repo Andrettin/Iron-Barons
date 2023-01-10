@@ -1,0 +1,5 @@
+high_judge = {
+	name = "High Judge"
+	portrait = frankish_cleric
+	primary_attribute = learning
+}

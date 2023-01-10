@@ -1,0 +1,5 @@
+natural_scientist = {
+	name = "Natural Scientist"
+	portrait = frankish_cleric
+	primary_attribute = learning
+}

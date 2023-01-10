@@ -1,0 +1,5 @@
+naval_reformer = {
+	name = "Naval Reformer"
+	portrait = frankish_cleric
+	primary_attribute = martial
+}
