@@ -1,4 +1,5 @@
 army_organizer = {
 	name = "Army Organizer"
 	portrait = frankish_cleric
+	primary_attribute = martial
 }

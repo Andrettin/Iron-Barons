@@ -1,4 +1,5 @@
 philosopher = {
 	name = "Philosopher"
 	portrait = frankish_cleric
+	primary_attribute = learning
 }
