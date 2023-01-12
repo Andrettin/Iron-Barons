@@ -1,6 +1,6 @@
 sargon_ii_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
 	name = "Sargon"
-	type = army_organizer
+	type = general
 	culture = assyrian
 	home_province = assyria
 	gender = male
@@ -9,7 +9,7 @@ sargon_ii_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911,
 
 assurbanipal_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
 	name = "Assurbanipal"
-	type = army_organizer
+	type = general
 	culture = assyrian
 	home_province = assyria
 	gender = male

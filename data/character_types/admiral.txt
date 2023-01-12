@@ -1,5 +1,5 @@
-army_organizer = {
-	name = "Army Organizer"
+admiral = {
+	name = "Admiral"
 	portrait = frankish_cleric
 	primary_attribute = martial
 }
