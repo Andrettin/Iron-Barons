@@ -42,7 +42,8 @@ Item {
 				border.width: 1
 				
 				SmallText {
-					text: format_text(character.full_name + "\n\n" + character.type.name)
+					id: character_name_label
+					text: character.full_name
 					anchors.top: parent.top
 					anchors.topMargin: 8 * scale_factor
 					anchors.left: parent.left
@@ -50,9 +51,33 @@ Item {
 				}
 				
 				SmallText {
+					id: character_type_label
+					text: character.type.name
+					anchors.top: character_name_label.bottom
+					anchors.topMargin: 4 * scale_factor
+					anchors.left: character_name_label.left
+				}
+				
+				SmallText {
+					id: character_age_label
 					text: number_string(character.game_data.age)
-					anchors.top: parent.top
-					anchors.topMargin: 8 * scale_factor
+					anchors.top: character_name_label.top
+					anchors.right: parent.right
+					anchors.rightMargin: 8 * scale_factor
+				}
+				
+				Image {
+					id: primary_attribute_icon
+					anchors.verticalCenter: character_primary_attribute_value_label.verticalCenter
+					anchors.left: parent.right
+					anchors.leftMargin: -64 * scale_factor
+					source: "image://icon/" + metternich.defines.get_attribute_icon_identifier(character.type.primary_attribute_index)
+				}
+				
+				SmallText {
+					id: character_primary_attribute_value_label
+					text: number_string(character.game_data.primary_attribute_value)
+					anchors.top: character_type_label.top
 					anchors.right: parent.right
 					anchors.rightMargin: 8 * scale_factor
 				}
