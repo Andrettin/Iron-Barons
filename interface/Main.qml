@@ -220,12 +220,12 @@ Window {
 		return red_hex_str + green_hex_str + blue_hex_str
 	}
 	
-	function string_list_to_string(str_list) {
+	function string_list_to_string(str_list, separator) {
 		var str = ""
 		
 		for (var i = 0; i < str_list.length; i++) {
 			if (i > 0) {
-				str += ", "
+				str += separator
 			}
 			
 			str += str_list[i]

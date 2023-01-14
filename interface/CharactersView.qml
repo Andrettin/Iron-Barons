@@ -30,6 +30,14 @@ Item {
 			height: portrait.height
 			
 			readonly property var character: model.modelData
+			readonly property var character_tooltip: character.full_name + format_text(small_text("\n"
+				+ "\nDiplomacy: " + character.game_data.diplomacy
+				+ "\nMartial: " + character.game_data.martial
+				+ "\nStewardship: " + character.game_data.stewardship
+				+ "\nIntrigue: " + character.game_data.intrigue
+				+ "\nLearning: " + character.game_data.learning
+				+ "\nTraits:\n" + string_list_to_string(object_list_to_name_list(character.game_data.traits), "\n")
+			))
 			
 			Rectangle {
 				id: character_rectangle
@@ -56,15 +64,6 @@ Item {
 					anchors.top: character_name_label.bottom
 					anchors.topMargin: 4 * scale_factor
 					anchors.left: character_name_label.left
-				}
-				
-				SmallText {
-					id: character_traits_label
-					text: string_list_to_string(object_list_to_name_list(character.game_data.traits))
-					anchors.bottom: parent.bottom
-					anchors.bottomMargin: 8 * scale_factor
-					anchors.left: character_name_label.left
-					anchors.right: character_age_label.right
 				}
 				
 				SmallText {
@@ -95,6 +94,10 @@ Item {
 				
 				MouseArea {
 					anchors.fill: parent
+					ToolTip.text: character_tooltip
+					ToolTip.visible: containsMouse
+					ToolTip.delay: 1000
+					hoverEnabled: true
 					
 					onClicked: {
 						if (selected_character === character) {
@@ -109,7 +112,7 @@ Item {
 			PortraitButton {
 				id: portrait
 				portrait_identifier: character.portrait.identifier
-				tooltip: character.full_name
+				tooltip: character_tooltip
 				
 				onReleased: {
 					if (selected_character === character) {
