@@ -219,4 +219,28 @@ Window {
 		
 		return red_hex_str + green_hex_str + blue_hex_str
 	}
+	
+	function string_list_to_string(str_list) {
+		var str = ""
+		
+		for (var i = 0; i < str_list.length; i++) {
+			if (i > 0) {
+				str += ", "
+			}
+			
+			str += str_list[i]
+		}
+		
+		return str
+	}
+	
+	function object_list_to_name_list(object_list) {
+		var name_list = []
+		
+		for (var object of object_list) {
+			name_list.push(object.name)
+		}
+		
+		return name_list
+	}
 }
