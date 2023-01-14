@@ -1,0 +1,9 @@
+clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 84-85.
+	name = "Clemens Wenceslaus" #"Clemens Wenceslaus Lothar"
+	surname = "von Metternich"
+	type = diplomat
+	culture = german #Rhenish
+	home_province = lower_austria
+	gender = male
+	birth_date = 1773.5.15
+}
