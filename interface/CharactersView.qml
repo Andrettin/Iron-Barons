@@ -59,6 +59,15 @@ Item {
 				}
 				
 				SmallText {
+					id: character_traits_label
+					text: string_list_to_string(object_list_to_name_list(character.game_data.traits))
+					anchors.bottom: parent.bottom
+					anchors.bottomMargin: 8 * scale_factor
+					anchors.left: character_name_label.left
+					anchors.right: character_age_label.right
+				}
+				
+				SmallText {
 					id: character_age_label
 					text: number_string(character.game_data.age)
 					anchors.top: character_name_label.top
@@ -66,6 +75,7 @@ Item {
 					anchors.rightMargin: 8 * scale_factor
 				}
 				
+				/*
 				Image {
 					id: primary_attribute_icon
 					anchors.verticalCenter: character_primary_attribute_value_label.verticalCenter
@@ -73,6 +83,7 @@ Item {
 					anchors.leftMargin: -64 * scale_factor
 					source: "image://icon/" + metternich.defines.get_attribute_icon_identifier(character.type.primary_attribute_index)
 				}
+				*/
 				
 				SmallText {
 					id: character_primary_attribute_value_label
