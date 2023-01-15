@@ -8,7 +8,6 @@ indulgent_wastrel = {
 		treasurer
 	}
 	modifier = {
-		diplomacy = -1
 		stewardship = 1
 	}
 }
@@ -23,8 +22,7 @@ thrifty_clerk = {
 		treasurer
 	}
 	modifier = {
-		diplomacy = -1
-		stewardship = 3
+		stewardship = 2
 	}
 }
 
@@ -38,10 +36,7 @@ fortune_builder = {
 		treasurer
 	}
 	modifier = {
-		diplomacy = -1
-		martial = 1
-		stewardship = 6
-		learning = 1
+		stewardship = 3
 	}
 }
 
@@ -55,9 +50,6 @@ midas_touched = {
 		treasurer
 	}
 	modifier = {
-		diplomacy = -1
-		martial = 2
-		stewardship = 9
-		learning = 2
+		stewardship = 4
 	}
 }

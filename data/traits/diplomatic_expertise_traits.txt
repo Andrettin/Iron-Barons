@@ -8,7 +8,6 @@ naive_appeaser = {
 	}
 	modifier = {
 		diplomacy = 1
-		martial = -1
 	}
 }
 
@@ -21,8 +20,7 @@ underhanded_rogue = {
 		statesman
 	}
 	modifier = {
-		diplomacy = 3
-		martial = -1
+		diplomacy = 2
 	}
 }
 
@@ -35,10 +33,7 @@ charismatic_negotiator = {
 		statesman
 	}
 	modifier = {
-		diplomacy = 6
-		martial = -1
-		intrigue = 1
-		learning = 1
+		diplomacy = 3
 	}
 }
 
@@ -51,9 +46,6 @@ grey_eminence = {
 		statesman
 	}
 	modifier = {
-		diplomacy = 8
-		martial = -1
-		intrigue = 2
-		learning = 2
+		diplomacy = 4
 	}
 }

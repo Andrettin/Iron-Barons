@@ -9,7 +9,6 @@ misguided_warrior = {
 	}
 	modifier = {
 		martial = 1
-		learning = -1
 	}
 }
 
@@ -23,8 +22,7 @@ tough_soldier = {
 		privateer
 	}
 	modifier = {
-		martial = 3
-		learning = -1
+		martial = 2
 	}
 }
 
@@ -38,10 +36,7 @@ skilled_tactician = {
 		privateer
 	}
 	modifier = {
-		martial = 6
-		stewardship = 1
-		intrigue = 1
-		learning = -1
+		martial = 3
 	}
 }
 
@@ -55,9 +50,6 @@ brilliant_strategist = {
 		privateer
 	}
 	modifier = {
-		martial = 9
-		stewardship = 2
-		intrigue = 2
-		learning = -1
+		martial = 4
 	}
 }
