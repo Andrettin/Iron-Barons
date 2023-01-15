@@ -31,6 +31,7 @@ Item {
 			
 			readonly property var character: model.modelData
 			readonly property var character_tooltip: character.full_name + format_text(small_text("\n"
+				+ "\nPrimary Attribute: " + character.type.primary_attribute_name
 				+ "\nDiplomacy: " + character.game_data.diplomacy
 				+ "\nMartial: " + character.game_data.martial
 				+ "\nStewardship: " + character.game_data.stewardship
@@ -74,16 +75,6 @@ Item {
 					anchors.rightMargin: 8 * scale_factor
 				}
 				
-				/*
-				Image {
-					id: primary_attribute_icon
-					anchors.verticalCenter: character_primary_attribute_value_label.verticalCenter
-					anchors.left: parent.right
-					anchors.leftMargin: -64 * scale_factor
-					source: "image://icon/" + metternich.defines.get_attribute_icon_identifier(character.type.primary_attribute_index)
-				}
-				*/
-				
 				SmallText {
 					id: character_primary_attribute_value_label
 					text: number_string(character.game_data.primary_attribute_value)
@@ -105,6 +96,22 @@ Item {
 						} else {
 							selected_character = character
 						}
+					}
+				}
+				
+				Image {
+					id: primary_attribute_icon
+					anchors.verticalCenter: character_primary_attribute_value_label.verticalCenter
+					anchors.left: character_primary_attribute_value_label.right
+					anchors.leftMargin: -40 * scale_factor
+					source: "image://icon/" + metternich.defines.get_attribute_icon_identifier(character.type.primary_attribute_index) + "/small"
+					
+					MouseArea {
+						anchors.fill: parent
+						ToolTip.text: character.type.primary_attribute_name
+						ToolTip.visible: containsMouse
+						ToolTip.delay: 1000
+						hoverEnabled: true
 					}
 				}
 			}
