@@ -31,6 +31,7 @@ Item {
 			
 			readonly property var character: model.modelData
 			readonly property var character_tooltip: character.full_name + format_text(small_text("\n"
+				+ "\nCulture: " + character.culture.name
 				+ "\nPrimary Attribute: " + character.type.primary_attribute_name
 				+ "\nDiplomacy: " + character.game_data.diplomacy
 				+ "\nMartial: " + character.game_data.martial
