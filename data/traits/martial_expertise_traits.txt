@@ -1,0 +1,63 @@
+misguided_warrior = {
+	name = "Misguided Warrior"
+	type = expertise
+	icon = crossed_sabers
+	character_types = {
+		admiral
+		general
+		privateer
+	}
+	modifier = {
+		martial = 1
+		learning = -1
+	}
+}
+
+tough_soldier = {
+	name = "Tough Soldier"
+	type = expertise
+	icon = crossed_sabers
+	character_types = {
+		admiral
+		general
+		privateer
+	}
+	modifier = {
+		martial = 3
+		learning = -1
+	}
+}
+
+skilled_tactician = {
+	name = "Skilled Tactician"
+	type = expertise
+	icon = crossed_sabers
+	character_types = {
+		admiral
+		general
+		privateer
+	}
+	modifier = {
+		martial = 6
+		stewardship = 1
+		intrigue = 1
+		learning = -1
+	}
+}
+
+brilliant_strategist = {
+	name = "Brilliant Strategist"
+	type = expertise
+	icon = crossed_sabers
+	character_types = {
+		admiral
+		general
+		privateer
+	}
+	modifier = {
+		martial = 9
+		stewardship = 2
+		intrigue = 2
+		learning = -1
+	}
+}

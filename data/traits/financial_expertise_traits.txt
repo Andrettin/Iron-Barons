@@ -1,0 +1,63 @@
+indulgent_wastrel = {
+	name = "Indulgent Wastrel"
+	type = expertise
+	icon = chest
+	character_types = {
+		banker
+		merchant
+		treasurer
+	}
+	modifier = {
+		diplomacy = -1
+		stewardship = 1
+	}
+}
+
+thrifty_clerk = {
+	name = "Thrifty Clerk"
+	type = expertise
+	icon = chest
+	character_types = {
+		banker
+		merchant
+		treasurer
+	}
+	modifier = {
+		diplomacy = -1
+		stewardship = 3
+	}
+}
+
+fortune_builder = {
+	name = "Fortune Builder"
+	type = expertise
+	icon = chest
+	character_types = {
+		banker
+		merchant
+		treasurer
+	}
+	modifier = {
+		diplomacy = -1
+		martial = 1
+		stewardship = 6
+		learning = 1
+	}
+}
+
+midas_touched = {
+	name = "Midas Touched"
+	type = expertise
+	icon = chest
+	character_types = {
+		banker
+		merchant
+		treasurer
+	}
+	modifier = {
+		diplomacy = -1
+		martial = 2
+		stewardship = 9
+		learning = 2
+	}
+}
