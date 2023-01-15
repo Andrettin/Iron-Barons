@@ -37,7 +37,6 @@ Item {
 				+ "\nStewardship: " + character.game_data.stewardship
 				+ "\nIntrigue: " + character.game_data.intrigue
 				+ "\nLearning: " + character.game_data.learning
-				+ "\nTraits:\n" + string_list_to_string(object_list_to_name_list(character.game_data.traits), "\n")
 			))
 			
 			Rectangle {
@@ -112,6 +111,33 @@ Item {
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 						hoverEnabled: true
+					}
+				}
+				
+				Grid {
+					id: traits_grid
+					anchors.bottom: parent.bottom
+					anchors.bottomMargin: 8 * metternich.scale_factor
+					anchors.left: character_name_label.left
+					columnSpacing: 2 * metternich.scale_factor
+					rows: 1
+					rowSpacing: 0
+					
+					Repeater {
+						model: character.game_data.traits
+						
+						Image {
+							id: trait_icon
+							source: "image://icon/" + model.modelData.icon.identifier + "/small"
+							
+							MouseArea {
+								anchors.fill: parent
+								ToolTip.text: model.modelData.name + (model.modelData.modifier_string.length > 0 ? format_text(small_text("\n\n" + model.modelData.modifier_string)) : "")
+								ToolTip.visible: containsMouse
+								ToolTip.delay: 1000
+								hoverEnabled: true
+							}
+						}
 					}
 				}
 			}
