@@ -178,7 +178,7 @@ Item {
 		var str_list = []
 		
 		for (var landed_title of landed_titles) {
-			str_list.push("Ruler of " + landed_title.name)
+			str_list.push(landed_title.game_data.ruler_title_name + " of " + landed_title.name)
 		}
 		
 		return str_list
