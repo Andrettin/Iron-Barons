@@ -1,0 +1,5 @@
+spymaster = {
+	name = "Spymaster"
+	portrait = sailor
+	primary_attribute = intrigue
+}
