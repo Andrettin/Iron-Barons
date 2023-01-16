@@ -1,5 +1,5 @@
 merchant = {
 	name = "Merchant"
-	portrait = frankish_cleric
+	portrait = sailor
 	primary_attribute = stewardship
 }

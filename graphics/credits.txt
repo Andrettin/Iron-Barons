@@ -102,6 +102,7 @@
 /graphics/portraits/frankish_cleric.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/hospital.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/hospital_large.png (by Jinn) (licensed under the CC0) (reference: The Cancer Hospital, Brompton)
+/graphics/portraits/sailor.png (by Exidelo) (licensed under the CC0)
 /graphics/portraits/slot.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/slot_large.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/temple.png (by Jinn) (licensed under the CC0)

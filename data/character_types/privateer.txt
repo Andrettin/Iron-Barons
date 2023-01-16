@@ -1,5 +1,5 @@
 privateer = {
 	name = "Privateer"
-	portrait = frankish_cleric
+	portrait = sailor
 	primary_attribute = martial
 }
