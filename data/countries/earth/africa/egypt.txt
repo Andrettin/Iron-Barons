@@ -7,6 +7,9 @@ egypt = {
 	eras = {
 		ancient_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		cairo
 		alexandria

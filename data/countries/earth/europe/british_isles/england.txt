@@ -8,6 +8,9 @@ england = {
 		medieval_era
 		renaissance_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		middlesex
 		somerset

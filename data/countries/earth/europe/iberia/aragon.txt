@@ -7,6 +7,9 @@ aragon = {
 		medieval_era
 		renaissance_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		aragon
 		catalonia

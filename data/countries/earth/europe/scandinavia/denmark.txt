@@ -8,6 +8,9 @@ denmark = {
 		renaissance_era
 		industrial_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		zealand
 		jutland

@@ -7,6 +7,9 @@ italy = {
 	eras = {
 		industrial_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		latium
 		cosenza

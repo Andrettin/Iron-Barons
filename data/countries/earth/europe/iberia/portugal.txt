@@ -9,6 +9,10 @@ portugal = {
 		renaissance_era
 		industrial_era
 	}
+	title = {
+		default_tier = kingdom
+		min_tier = county
+	}
 	core_provinces = {
 		estremadura
 		beira

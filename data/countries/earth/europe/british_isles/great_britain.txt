@@ -9,6 +9,9 @@ great_britain = {
 		renaissance_era
 		industrial_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		middlesex
 		somerset

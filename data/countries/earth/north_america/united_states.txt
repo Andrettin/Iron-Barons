@@ -7,6 +7,9 @@ united_states = {
 	eras = {
 		industrial_era
 	}
+	title = {
+		default_tier = empire
+	}
 	core_provinces = {
 		maryland
 		alabama

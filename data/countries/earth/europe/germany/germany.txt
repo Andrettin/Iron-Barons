@@ -7,6 +7,10 @@ germany = {
 	eras = {
 		industrial_era
 	}
+	title = {
+		default_tier = empire
+		min_tier = kingdom
+	}
 	core_provinces = {
 		brandenburg
 		augsburg

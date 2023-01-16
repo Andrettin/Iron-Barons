@@ -6,6 +6,10 @@ brazil = {
 	eras = {
 		industrial_era
 	}
+	title = {
+		default_tier = empire
+		min_tier = kingdom
+	}
 	core_provinces = {
 		rio_de_janeiro
 		alagoas

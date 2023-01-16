@@ -7,6 +7,9 @@ babylonia = {
 	eras = {
 		ancient_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		babylon
 	}

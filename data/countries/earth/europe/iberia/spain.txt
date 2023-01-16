@@ -8,6 +8,9 @@ spain = {
 		renaissance_era
 		industrial_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		castille
 		leon
