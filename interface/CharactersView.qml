@@ -31,6 +31,7 @@ Item {
 			
 			readonly property var character: model.modelData
 			readonly property var character_tooltip: character.full_name + format_text(small_text("\n"
+				+ get_character_landed_titles_tooltip(character.game_data.landed_titles)
 				+ "\nCulture: " + character.culture.name
 				+ "\nPrimary Attribute: " + character.type.primary_attribute_name
 				+ "\nDiplomacy: " + character.game_data.diplomacy
@@ -171,5 +172,15 @@ Item {
 		onClicked: {
 			menu_stack.pop()
 		}
+	}
+	
+	function get_character_landed_titles_tooltip(landed_titles) {
+		var str_list = []
+		
+		for (var landed_title of landed_titles) {
+			str_list.push("Ruler of " + landed_title.name)
+		}
+		
+		return str_list
 	}
 }
