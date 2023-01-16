@@ -1,0 +1,13 @@
+thug = {
+	name = "Thug"
+	type = expertise
+	icon = dagger
+	character_types = {
+		privateer
+		spymaster
+	}
+	modifier = {
+		martial = 1
+		intrigue = 1
+	}
+}
