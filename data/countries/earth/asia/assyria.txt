@@ -7,11 +7,24 @@ assyria = {
 	eras = {
 		ancient_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		assyria
 		al_hasakah
 		amida
 		deir_ez_zor
 		saladin
+	}
+	
+	history = {
+		-720 = {
+			ruler = sargon_ii_of_assyria #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+		}
+		
+		-640 = {
+			ruler = assurbanipal_of_assyria #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+		}
 	}
 }
