@@ -1,0 +1,14 @@
+silver_palm = {
+	name = "Silver Palm"
+	type = expertise
+	icon = chest
+	level = 1
+	character_types = {
+		banker
+		merchant
+		treasurer
+	}
+	modifier = {
+		stewardship = 1
+	}
+}

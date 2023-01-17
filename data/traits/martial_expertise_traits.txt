@@ -2,6 +2,7 @@ misguided_warrior = {
 	name = "Misguided Warrior"
 	type = expertise
 	icon = crossed_sabers
+	level = 1
 	character_types = {
 		admiral
 		general
@@ -16,6 +17,7 @@ tough_soldier = {
 	name = "Tough Soldier"
 	type = expertise
 	icon = crossed_sabers
+	level = 2
 	character_types = {
 		admiral
 		general
@@ -30,6 +32,7 @@ skilled_tactician = {
 	name = "Skilled Tactician"
 	type = expertise
 	icon = crossed_sabers
+	level = 3
 	character_types = {
 		admiral
 		general
@@ -44,6 +47,7 @@ brilliant_strategist = {
 	name = "Brilliant Strategist"
 	type = expertise
 	icon = crossed_sabers
+	level = 4
 	character_types = {
 		admiral
 		general

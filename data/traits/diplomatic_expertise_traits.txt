@@ -1,51 +1,33 @@
-naive_appeaser = {
-	name = "Naive Appeaser"
+negotiator = {
+	name = "Negotiator"
 	type = expertise
 	icon = treaty
+	level = 1
+	character_types = {
+		banker
+		diplomat
+		merchant
+		statesman
+		treasurer
+	}
+	modifier = {
+		diplomacy = 1
+		stewardship = 1
+	}
+}
+
+persuasive = {
+	name = "Persuasive"
+	type = expertise
+	icon = treaty
+	level = 1
 	character_types = {
 		diplomat
+		spymaster
 		statesman
 	}
 	modifier = {
 		diplomacy = 1
-	}
-}
-
-underhanded_rogue = {
-	name = "Underhanded Rogue"
-	type = expertise
-	icon = treaty
-	character_types = {
-		diplomat
-		statesman
-	}
-	modifier = {
-		diplomacy = 2
-	}
-}
-
-charismatic_negotiator = {
-	name = "Charismatic Negotiator"
-	type = expertise
-	icon = treaty
-	character_types = {
-		diplomat
-		statesman
-	}
-	modifier = {
-		diplomacy = 3
-	}
-}
-
-grey_eminence = {
-	name = "Grey Eminence"
-	type = expertise
-	icon = treaty
-	character_types = {
-		diplomat
-		statesman
-	}
-	modifier = {
-		diplomacy = 4
+		intrigue = 1
 	}
 }
