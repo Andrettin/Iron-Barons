@@ -1,0 +1,10 @@
+jean_de_brebeuf = {
+	name = "Jean"
+	surname = "de Brebeuf"
+	type = theologian
+	culture = french
+	home_province = normandy
+	gender = male
+	birth_date = 1593
+	death_date = 1649
+}
