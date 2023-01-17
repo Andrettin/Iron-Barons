@@ -1,0 +1,11 @@
+bartolome_de_las_casas = {
+	name = "Bartolome"
+	surname = "de las Casas"
+	type = theologian
+	culture = castillian
+	home_province = andalusia
+	gender = male
+	birth_date = 1484
+	death_date = 1566
+	level = 2
+}
