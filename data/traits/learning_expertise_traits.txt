@@ -1,0 +1,38 @@
+theologian = {
+	name = "Theologian"
+	type = expertise
+	icon = wooden_cross
+	level = 1
+	character_types = {
+		theologian
+	}
+	modifier = {
+		learning = 1
+	}
+}
+
+scholarly_theologian = {
+	name = "Scholarly Theologian"
+	type = expertise
+	icon = silver_cross
+	level = 2
+	character_types = {
+		theologian
+	}
+	modifier = {
+		learning = 2
+	}
+}
+
+mastermind_theologian = {
+	name = "Scholarly Theologian"
+	type = expertise
+	icon = golden_cross
+	level = 3
+	character_types = {
+		theologian
+	}
+	modifier = {
+		learning = 3
+	}
+}
