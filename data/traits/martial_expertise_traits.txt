@@ -1,5 +1,33 @@
-misguided_warrior = {
-	name = "Misguided Warrior"
+duelist = {
+	name = "Duelist"
+	type = expertise
+	icon = saber
+	level = 1
+	character_types = {
+		admiral
+		general
+		privateer
+	}
+	modifier = {
+		martial = 1
+	}
+}
+
+hunter = {
+	name = "Hunter"
+	type = expertise
+	icon = bow
+	level = 1
+	character_types = {
+		general
+	}
+	modifier = {
+		martial = 1
+	}
+}
+
+strategist = {
+	name = "Strategist"
 	type = expertise
 	icon = crossed_sabers
 	level = 1
@@ -13,8 +41,8 @@ misguided_warrior = {
 	}
 }
 
-tough_soldier = {
-	name = "Tough Soldier"
+brilliant_strategist = {
+	name = "Brilliant Strategist"
 	type = expertise
 	icon = crossed_sabers
 	level = 2
@@ -25,35 +53,5 @@ tough_soldier = {
 	}
 	modifier = {
 		martial = 2
-	}
-}
-
-skilled_tactician = {
-	name = "Skilled Tactician"
-	type = expertise
-	icon = crossed_sabers
-	level = 3
-	character_types = {
-		admiral
-		general
-		privateer
-	}
-	modifier = {
-		martial = 3
-	}
-}
-
-brilliant_strategist = {
-	name = "Brilliant Strategist"
-	type = expertise
-	icon = crossed_sabers
-	level = 4
-	character_types = {
-		admiral
-		general
-		privateer
-	}
-	modifier = {
-		martial = 4
 	}
 }
