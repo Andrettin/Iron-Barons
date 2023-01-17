@@ -9,3 +9,14 @@ bartolome_de_las_casas = {
 	death_date = 1566
 	level = 2
 }
+
+juan_de_sepulveda = {
+	name = "Juan"
+	surname = "de Sepulveda"
+	type = theologian
+	culture = castillian
+	home_province = andalusia
+	gender = male
+	birth_date = 1494
+	death_date = 1573
+}
