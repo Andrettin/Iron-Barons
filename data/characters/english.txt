@@ -1,0 +1,21 @@
+william_brewster = {
+	name = "William"
+	surname = "Brewster"
+	type = theologian
+	culture = english
+	home_province = warwickshire
+	gender = male
+	birth_date = 1567
+	death_date = 1644
+}
+
+william_penn = {
+	name = "William"
+	surname = "Penn"
+	type = theologian
+	culture = english
+	home_province = middlesex
+	gender = male
+	birth_date = 1644
+	death_date = 1718
+}
