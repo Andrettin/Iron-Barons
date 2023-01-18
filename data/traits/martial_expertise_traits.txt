@@ -3,10 +3,12 @@ duelist = {
 	type = expertise
 	icon = saber
 	level = 1
-	character_types = {
-		admiral
-		general
-		privateer
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = general
+			character_type = privateer
+		}
 	}
 	modifier = {
 		martial = 1
@@ -18,8 +20,8 @@ hunter = {
 	type = expertise
 	icon = bow
 	level = 1
-	character_types = {
-		general
+	conditions = {
+		character_type = general
 	}
 	modifier = {
 		martial = 1
@@ -31,10 +33,15 @@ strategist = {
 	type = expertise
 	icon = crossed_sabers
 	level = 1
-	character_types = {
-		admiral
-		general
-		privateer
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = general
+			character_type = privateer
+		}
+		not = {
+			trait = brilliant_strategist
+		}
 	}
 	modifier = {
 		martial = 1
@@ -46,10 +53,15 @@ brilliant_strategist = {
 	type = expertise
 	icon = crossed_sabers
 	level = 2
-	character_types = {
-		admiral
-		general
-		privateer
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = general
+			character_type = privateer
+		}
+		not = {
+			trait = strategist
+		}
 	}
 	modifier = {
 		martial = 2

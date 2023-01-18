@@ -3,10 +3,12 @@ silver_palm = {
 	type = expertise
 	icon = chest
 	level = 1
-	character_types = {
-		banker
-		merchant
-		treasurer
+	conditions = {
+		or = {
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
+		}
 	}
 	modifier = {
 		stewardship = 1

@@ -3,8 +3,12 @@ theologian = {
 	type = expertise
 	icon = wooden_cross
 	level = 1
-	character_types = {
-		theologian
+	conditions = {
+		character_type = theologian
+		not = {
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
 	}
 	modifier = {
 		learning = 1
@@ -16,8 +20,12 @@ scholarly_theologian = {
 	type = expertise
 	icon = silver_cross
 	level = 2
-	character_types = {
-		theologian
+	conditions = {
+		character_type = theologian
+		not = {
+			trait = theologian
+			trait = mastermind_theologian
+		}
 	}
 	modifier = {
 		learning = 2
@@ -29,8 +37,12 @@ mastermind_theologian = {
 	type = expertise
 	icon = golden_cross
 	level = 3
-	character_types = {
-		theologian
+	conditions = {
+		character_type = theologian
+		not = {
+			trait = theologian
+			trait = scholarly_theologian
+		}
 	}
 	modifier = {
 		learning = 3

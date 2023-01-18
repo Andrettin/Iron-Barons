@@ -3,12 +3,14 @@ negotiator = {
 	type = expertise
 	icon = treaty
 	level = 1
-	character_types = {
-		banker
-		diplomat
-		merchant
-		statesman
-		treasurer
+	conditions = {
+		or = {
+			character_type = banker
+			character_type = diplomat
+			character_type = merchant
+			character_type = statesman
+			character_type = treasurer
+		}
 	}
 	modifier = {
 		diplomacy = 1
@@ -21,10 +23,12 @@ persuasive = {
 	type = expertise
 	icon = treaty
 	level = 1
-	character_types = {
-		diplomat
-		spymaster
-		statesman
+	conditions = {
+		or = {
+			character_type = diplomat
+			character_type = spymaster
+			character_type = statesman
+		}
 	}
 	modifier = {
 		diplomacy = 1

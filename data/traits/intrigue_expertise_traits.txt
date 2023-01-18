@@ -3,8 +3,8 @@ investigator = {
 	type = expertise
 	icon = treaty
 	level = 1
-	character_types = {
-		spymaster
+	conditions = {
+		character_type = spymaster
 	}
 	modifier = {
 		intrigue = 1
@@ -16,8 +16,8 @@ stealthy = {
 	type = expertise
 	icon = dagger
 	level = 1
-	character_types = {
-		spymaster
+	conditions = {
+		character_type = spymaster
 	}
 	modifier = {
 		intrigue = 1
@@ -29,9 +29,11 @@ thug = {
 	type = expertise
 	icon = dagger
 	level = 1
-	character_types = {
-		privateer
-		spymaster
+	conditions = {
+		or = {
+			character_type = privateer
+			character_type = spymaster
+		}
 	}
 	modifier = {
 		martial = 1
