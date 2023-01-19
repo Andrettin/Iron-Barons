@@ -8,13 +8,16 @@ central_gold_coast = {
 	
 	history = {
 		culture = akan
+		religion = pagan
 		
 		1482 = {
 			owner = portugal #São Jorge da Mina founded by the Portuguese in 1482; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+			religion = catholic
 		}
 		
 		1637 = {
 			owner = netherlands #São Jorge da Mina (Elmina) became a Dutch possession in 1637; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			religion = protestant
 		}
 		
 		1884.11 = {

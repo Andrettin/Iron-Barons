@@ -8,5 +8,6 @@ gash_barka = {
 	
 	history = {
 		culture = tigray
+		religion = pagan
 	}
 }

@@ -8,5 +8,6 @@ somaliland = {
 	
 	history = {
 		culture = somali
+		religion = pagan
 	}
 }

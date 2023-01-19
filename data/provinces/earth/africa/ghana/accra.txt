@@ -8,13 +8,16 @@ accra = {
 	
 	history = {
 		culture = akan
+		religion = pagan
 		
 		1482 = {
 			owner = portugal #Portuguese possession in the 1340-1600 period; São Jorge da Minha founded by the Portuguese in 1482; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+			religion = catholic
 		}
 		
 		1648 = {
 			owner = sweden #Christiansborg became a Swedish possession c. 1648; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			religion = protestant
 		}
 		
 		1884.11 = {

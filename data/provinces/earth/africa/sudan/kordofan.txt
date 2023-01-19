@@ -8,5 +8,6 @@ kordofan = {
 	
 	history = {
 		culture = nuba
+		religion = pagan
 	}
 }
