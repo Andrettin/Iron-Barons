@@ -8,9 +8,11 @@ venetia = {
 	
 	history = {
 		culture = italian
+		religion = pagan
 		
 		1360 = {
 			owner = venice #part of Venice in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			religion = catholic
 		}
 		
 		1477 = {

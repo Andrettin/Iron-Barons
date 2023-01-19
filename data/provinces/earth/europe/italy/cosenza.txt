@@ -8,6 +8,7 @@ cosenza = {
 	
 	history = {
 		culture = greek
+		religion = pagan
 		
 		-750 = {
 			owner = greece #Greek territory in the 750-625 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
@@ -17,6 +18,7 @@ cosenza = {
 		1360 = {
 			owner = naples #part of the Kingdom of Naples in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = italian
+			religion = catholic
 		}
 		
 		1714 = {

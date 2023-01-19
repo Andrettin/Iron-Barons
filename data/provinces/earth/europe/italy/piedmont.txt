@@ -8,9 +8,11 @@ piedmont = {
 	
 	history = {
 		culture = italian
+		religion = pagan
 		
 		1280 = {
 			owner = savoy #part of the County of the Savoy c. 1280; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = catholic
 		}
 		
 		1477 = {

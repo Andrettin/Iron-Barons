@@ -8,9 +8,11 @@ modena = {
 	
 	history = {
 		culture = italian
+		religion = pagan
 		
 		1477 = {
 			owner = modena #part of the Duchy of Modena c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1740 = {
