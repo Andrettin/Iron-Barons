@@ -1,5 +1,0 @@
-army_reformer = {
-	name = "Army Reformer"
-	portrait = sailor
-	primary_attribute = martial
-}
