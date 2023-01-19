@@ -3,6 +3,7 @@ triangel_fuchs = { #Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs
 	surname = "Fuchs"
 	type = merchant
 	culture = german #Bavarian?
+	religion = catholic
 	home_province = lower_austria
 	gender = male
 	#German merchant, suffered failures in Vienna

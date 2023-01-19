@@ -3,6 +3,7 @@ karl_vi_of_the_holy_roman_empire = { #Emperor Karl VI of the Holy Roman Empire; 
 	surname = "von Habsburg"
 	type = treasurer
 	culture = austrian
+	religion = catholic
 	home_province = lower_austria
 	gender = male
 	birth_date = 1685 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.

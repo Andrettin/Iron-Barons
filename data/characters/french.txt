@@ -3,6 +3,7 @@ jean_de_brebeuf = {
 	surname = "de Brebeuf"
 	type = theologian
 	culture = french
+	religion = catholic
 	home_province = normandy
 	gender = male
 	birth_date = 1593

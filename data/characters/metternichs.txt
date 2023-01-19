@@ -3,6 +3,7 @@ clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutz
 	surname = "von Metternich"
 	type = diplomat
 	culture = german #Rhenish
+	religion = catholic
 	home_province = lower_austria
 	gender = male
 	birth_date = 1773.5.15
