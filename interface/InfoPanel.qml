@@ -157,6 +157,17 @@ Item {
 		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
 	}
 	
+	ReligionChart {
+		id: religion_chart
+		anchors.top: culture_chart.top
+		anchors.left: culture_chart.right
+		anchors.leftMargin: 8 * scale_factor
+		width: 48 * scale_factor
+		height: 48 * scale_factor
+		visible: selected_site && selected_site.settlement
+		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
+	}
+	
 	SmallText {
 		id: settlement_info_text
 		anchors.top: culture_chart.bottom

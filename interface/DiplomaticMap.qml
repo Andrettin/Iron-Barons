@@ -13,7 +13,8 @@ Flickable {
 		Political,
 		Diplomatic,
 		Terrain,
-		Cultural
+		Cultural,
+		Religious
 	}
 	
 	property string ocean_suffix: ""
@@ -62,7 +63,9 @@ Flickable {
 					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.tile_terrain_counts)))
 				: (diplomatic_map.mode === DiplomaticMap.Mode.Cultural ?
 					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population_culture_counts)))
-				: "")) : ""
+				: (diplomatic_map.mode === DiplomaticMap.Mode.Religious ?
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population_religion_counts)))
+				: ""))) : ""
 				
 				onClicked: {
 					if (selected) {
@@ -199,6 +202,8 @@ Flickable {
 				return "/terrain"
 			case DiplomaticMap.Mode.Cultural:
 				return "/cultural"
+			case DiplomaticMap.Mode.Religious:
+				return "/religious"
 		}
 		
 		return ""

@@ -89,6 +89,20 @@ Item {
 		}
 	}
 	
+	IconButton {
+		id: religious_map_mode_button
+		anchors.top: cultural_map_mode_button.bottom
+		anchors.right: political_map_mode_button.right
+		icon_identifier: "wooden_cross"
+		border_color: "white"
+		unrounded_left_corners: true
+		tooltip: "Religious Map Mode"
+		
+		onReleased: {
+			diplomatic_map.mode = DiplomaticMap.Mode.Religious
+		}
+	}
+	
 	SmallText {
 		id: country_text
 		text: selected_country ? (
@@ -139,6 +153,23 @@ Item {
 		id: culture_chart
 		anchors.top: culture_chart_label.bottom
 		anchors.topMargin: 4 * scale_factor
+		anchors.right: religion_chart.left
+		anchors.rightMargin: 16 * scale_factor
+		visible: selected_country !== null
+		data_source: selected_country ? selected_country.game_data : null
+	}
+	
+	SmallText {
+		id: religion_chart_label
+		anchors.top: country_text.top
+		anchors.horizontalCenter: religion_chart.horizontalCenter
+		text: "Religion"
+		visible: religion_chart.visible
+	}
+	
+	ReligionChart {
+		id: religion_chart
+		anchors.top: population_type_chart.top
 		anchors.right: phenotype_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null

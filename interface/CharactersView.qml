@@ -33,6 +33,7 @@ Item {
 			readonly property var character_tooltip: character.full_name + format_text(small_text("\n"
 				+ get_character_landed_titles_tooltip(character.game_data.landed_titles)
 				+ "\nCulture: " + character.culture.name
+				+ "\nReligion: " + character.religion.name
 				+ "\nPrimary Attribute: " + character.type.primary_attribute_name
 				+ "\nDiplomacy: " + character.game_data.diplomacy
 				+ "\nMartial: " + character.game_data.martial
