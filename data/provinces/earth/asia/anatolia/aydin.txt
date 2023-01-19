@@ -8,6 +8,7 @@ aydin = {
 	
 	history = {
 		culture = greek
+		religion = pagan
 		
 		-750 = {
 			owner = greece #Greek territory in the 750-625 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
@@ -16,6 +17,7 @@ aydin = {
 		
 		1740 = {
 			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = sunni
 		}
 		
 		1815 = {
