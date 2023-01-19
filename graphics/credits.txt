@@ -109,6 +109,8 @@
 /graphics/portraits/fort.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/fort_large.png (by Jinn) (licensed under the CC0) (reference: São João Fortress in Rio de Janeiro)
 /graphics/portraits/frankish_cleric.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/frankish_cleric_player_color.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/frankish_cleric_with_background.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/hospital.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/hospital_large.png (by Jinn) (licensed under the CC0) (reference: The Cancer Hospital, Brompton)
 /graphics/portraits/sailor.png (by Exidelo) (licensed under the CC0)
