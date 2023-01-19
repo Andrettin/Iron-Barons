@@ -8,6 +8,7 @@ Item {
 
 	property string title: ""
 	property string music_type: "menu"
+	readonly property var title_item: title_text
 	
 	LargeText {
 		id: title_text
