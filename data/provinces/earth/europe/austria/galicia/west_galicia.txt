@@ -10,9 +10,11 @@ west_galicia = {
 	
 	history = {
 		culture = polish
+		religion = pagan
 		
 		1740 = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = catholic
 		}
 		
 		1815 = {

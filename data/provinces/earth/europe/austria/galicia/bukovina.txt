@@ -8,9 +8,11 @@ bukovina = {
 	
 	history = {
 		culture = ukrainian
+		religion = pagan
 		
 		1740 = {
 			owner = moldavia #part of Moldavia c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = orthodox
 		}
 		
 		1815 = {

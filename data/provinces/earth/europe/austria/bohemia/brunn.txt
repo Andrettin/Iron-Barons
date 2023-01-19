@@ -11,9 +11,11 @@ brunn = {
 	
 	history = {
 		culture = czech
+		religion = pagan
 		
 		1477 = {
 			owner = hungary #Hungarian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1490 = {

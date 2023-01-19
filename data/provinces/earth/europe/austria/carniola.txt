@@ -9,9 +9,11 @@ carniola = {
 	
 	history = {
 		culture = slovene
+		religion = pagan
 		
 		1477 = {
 			owner = austria #Austrian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1740 = {
