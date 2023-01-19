@@ -13,6 +13,7 @@ cadiz = {
 		1616 = {
 			population_groups = {
 				slaves.african = 500 #500 black slaves lived in Cadiz in 1616; Source: Henry Kamen, "Early Modern European Society", 2021, p. 273.
+				slaves.sunni = 300 #300 Muslim slaves lived in Cadiz in 1616; Source: Henry Kamen, "Early Modern European Society", 2021, p. 273.
 			}
 		}
 	}
