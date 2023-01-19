@@ -1,7 +1,8 @@
 japonica = {
 	name = "Japonica"
 	type = minor_nation
-	culture = turkish
+	culture = japanese
+	default_religion = shinto
 	capital_province = california
 	
 	history = {

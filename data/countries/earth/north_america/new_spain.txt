@@ -2,6 +2,7 @@ new_spain = {
 	name = "New Spain"
 	type = minor_nation
 	culture = castillian
+	default_religion = catholic
 	capital_province = mexico
 	
 	history = {

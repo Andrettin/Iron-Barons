@@ -1,0 +1,4 @@
+orthodox = {
+	name = "Orthodox"
+	color = { 0 57 166 }
+}

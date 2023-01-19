@@ -3,6 +3,7 @@ russia = {
 	type = great_power
 	color = { 111 177 210 }
 	culture = russian
+	default_religion = orthodox
 	capital_province = moscow
 	eras = {
 		industrial_era

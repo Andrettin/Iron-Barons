@@ -1,0 +1,4 @@
+shiite = {
+	name = "Shiite"
+	color = { 148 116 108 }
+}

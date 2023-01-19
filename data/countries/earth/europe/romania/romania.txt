@@ -2,6 +2,7 @@ romania = {
 	name = "Romania"
 	type = minor_nation
 	culture = romanian
+	default_religion = orthodox
 	capital_province = wallachia
 	eras = {
 		industrial_era

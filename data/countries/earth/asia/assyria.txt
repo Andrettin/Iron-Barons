@@ -3,6 +3,7 @@ assyria = {
 	type = great_power
 	color = { 31 198 35 }
 	culture = assyrian
+	default_religion = pagan
 	capital_province = assyria
 	eras = {
 		ancient_era

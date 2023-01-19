@@ -2,6 +2,7 @@ midian = {
 	name = "Midian"
 	type = minor_nation
 	culture = arabic
+	default_religion = pagan
 	capital_province = tabuk
 	eras = {
 		ancient_era

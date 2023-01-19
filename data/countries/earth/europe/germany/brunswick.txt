@@ -2,6 +2,7 @@ brunswick = {
 	name = "Brunswick"
 	type = minor_nation
 	culture = german
+	default_religion = protestant
 	capital_province = hanover
 	eras = {
 		medieval_era

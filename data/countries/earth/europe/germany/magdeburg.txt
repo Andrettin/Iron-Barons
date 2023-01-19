@@ -2,6 +2,7 @@ magdeburg = {
 	name = "Magdeburg"
 	type = minor_nation
 	culture = german
+	default_religion = protestant
 	capital_province = magdeburg
 	eras = {
 		medieval_era

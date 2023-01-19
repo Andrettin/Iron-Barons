@@ -2,6 +2,7 @@ phrygians = {
 	name = "Phrygians"
 	type = tribe
 	culture = phrygian
+	default_religion = pagan
 	capital_province = afyonkarahisar
 	eras = {
 		ancient_era

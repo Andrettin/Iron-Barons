@@ -2,6 +2,7 @@ naples = {
 	name = "Naples"
 	type = minor_nation
 	culture = italian
+	default_religion = catholic
 	capital_province = naples
 	eras = {
 		medieval_era

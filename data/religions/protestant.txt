@@ -1,0 +1,4 @@
+protestant = {
+	name = "Protestant"
+	color = { 0 49 83 }
+}

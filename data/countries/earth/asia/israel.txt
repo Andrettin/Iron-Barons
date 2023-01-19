@@ -2,6 +2,7 @@ israel = {
 	name = "Israel"
 	type = minor_nation
 	culture = hebrew
+	default_religion = jewish
 	capital_province = palestine
 	eras = {
 		ancient_era

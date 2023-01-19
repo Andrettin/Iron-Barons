@@ -2,6 +2,7 @@ etruscans = {
 	name = "Etruscans"
 	type = tribe
 	culture = etruscan
+	default_religion = pagan
 	capital_province = tuscany
 	eras = {
 		ancient_era

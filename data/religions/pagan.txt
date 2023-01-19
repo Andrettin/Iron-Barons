@@ -1,0 +1,4 @@
+pagan = {
+	name = "Pagan"
+	color = { 112 194 49 }
+}

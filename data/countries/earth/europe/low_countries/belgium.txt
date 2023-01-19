@@ -2,6 +2,7 @@ belgium = {
 	name = "Belgium"
 	type = minor_nation
 	culture = walloon
+	default_religion = catholic
 	capital_province = brabant
 	eras = {
 		industrial_era

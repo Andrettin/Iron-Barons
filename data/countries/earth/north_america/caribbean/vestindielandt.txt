@@ -2,6 +2,7 @@ vestindielandt = {
 	name = "Vestindielandt"
 	type = minor_nation
 	culture = german
+	default_religion = protestant
 	capital_province = cuba
 	core_provinces = {
 		cuba

@@ -2,6 +2,7 @@ pamphylians = {
 	name = "Pamphylians"
 	type = tribe
 	culture = pamphylian
+	default_religion = pagan
 	capital_province = antalya
 	eras = {
 		ancient_era

@@ -2,6 +2,7 @@ sicily = {
 	name = "Sicily"
 	type = minor_nation
 	culture = italian
+	default_religion = catholic
 	capital_province = sicily
 	eras = {
 		medieval_era

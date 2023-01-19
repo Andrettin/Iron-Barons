@@ -3,6 +3,7 @@ babylonia = {
 	type = great_power
 	color = { 27 73 157 }
 	culture = babylonian
+	default_religion = pagan
 	capital_province = babylon
 	eras = {
 		ancient_era

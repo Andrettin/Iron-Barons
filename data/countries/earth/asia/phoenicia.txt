@@ -3,6 +3,7 @@ phoenicia = {
 	type = great_power
 	color = { 204 161 197 }
 	culture = phoenician
+	default_religion = pagan
 	capital_province = lebanon
 	eras = {
 		ancient_era

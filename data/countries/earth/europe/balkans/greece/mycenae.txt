@@ -2,6 +2,7 @@ mycenae = {
 	name = "Mycenae"
 	type = minor_nation
 	culture = greek
+	default_religion = pagan
 	capital_province = peloponnese
 	eras = {
 		ancient_era

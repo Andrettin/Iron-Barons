@@ -2,6 +2,7 @@ la_plata = {
 	name = "La Plata"
 	type = minor_nation
 	culture = castillian
+	default_religion = catholic
 	capital_province = buenos_aires
 	core_provinces = {
 		buenos_aires

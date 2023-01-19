@@ -1,0 +1,4 @@
+atheist = {
+	name = "Atheist"
+	color = { 204 159 247 }
+}

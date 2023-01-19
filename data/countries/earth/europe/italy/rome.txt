@@ -3,6 +3,7 @@ rome = {
 	type = great_power
 	color = { 139 16 13 }
 	culture = roman
+	default_religion = pagan
 	capital_province = latium
 	eras = {
 		ancient_era

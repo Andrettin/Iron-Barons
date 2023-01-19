@@ -2,6 +2,7 @@ mexico = {
 	name = "Mexico"
 	type = minor_nation
 	culture = castillian
+	default_religion = catholic
 	capital_province = mexico
 	eras = {
 		industrial_era

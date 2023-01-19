@@ -1,0 +1,4 @@
+shinto = {
+	name = "Shinto"
+	color = { 204 0 0 }
+}

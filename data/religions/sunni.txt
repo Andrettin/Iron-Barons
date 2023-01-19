@@ -1,0 +1,4 @@
+sunni = {
+	name = "Sunni"
+	color = { 36 149 51 }
+}

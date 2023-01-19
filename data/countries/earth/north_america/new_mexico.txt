@@ -2,6 +2,7 @@ new_mexico = {
 	name = "New Mexico"
 	type = minor_nation
 	culture = english
+	default_religion = protestant
 	capital_province = new_mexico
 	eras = {
 		industrial_era

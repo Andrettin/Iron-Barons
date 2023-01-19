@@ -2,6 +2,7 @@ etruria = {
 	name = "Etruria"
 	type = minor_nation
 	culture = etruscan
+	default_religion = pagan
 	capital_province = tuscany
 	eras = {
 		ancient_era

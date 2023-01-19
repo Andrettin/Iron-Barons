@@ -2,6 +2,7 @@ granada = {
 	name = "Granada"
 	type = minor_nation
 	culture = arabic
+	default_religion = sunni
 	capital_province = granada
 	eras = {
 		medieval_era

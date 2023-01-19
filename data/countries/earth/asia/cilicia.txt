@@ -2,6 +2,7 @@ cilicia = {
 	name = "Cilicia"
 	type = minor_nation
 	culture = cilician
+	default_religion = pagan
 	capital_province = mersin
 	eras = {
 		ancient_era

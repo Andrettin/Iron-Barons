@@ -2,6 +2,7 @@ tunisia = {
 	name = "Tunisia"
 	type = minor_nation
 	culture = arabic
+	default_religion = sunni
 	capital_province = tunisia
 	eras = {
 		medieval_era

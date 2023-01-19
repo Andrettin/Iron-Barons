@@ -1,0 +1,4 @@
+catholic = {
+	name = "Catholic"
+	color = { 173 197 189 }
+}

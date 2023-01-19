@@ -2,6 +2,7 @@ navarre = {
 	name = "Navarre"
 	type = minor_nation
 	culture = basque
+	default_religion = catholic
 	capital_province = navarre
 	eras = {
 		medieval_era

@@ -2,6 +2,7 @@ togoland = {
 	name = "Togoland"
 	type = minor_nation
 	culture = ewe
+	default_religion = pagan
 	capital_province = togo
 	eras = {
 		industrial_era

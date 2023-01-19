@@ -2,6 +2,7 @@ bavaria = {
 	name = "Bavaria"
 	type = minor_nation
 	culture = german
+	default_religion = catholic
 	capital_province = bavaria
 	eras = {
 		medieval_era

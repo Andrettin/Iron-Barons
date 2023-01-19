@@ -3,6 +3,7 @@ sweden = {
 	type = great_power
 	color = { 0 173 198 }
 	culture = swedish
+	default_religion = protestant
 	capital_province = uppland
 	eras = {
 		medieval_era

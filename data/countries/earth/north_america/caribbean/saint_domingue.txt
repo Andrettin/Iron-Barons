@@ -2,6 +2,7 @@ saint_domingue = {
 	name = "Saint-Domingue"
 	type = minor_nation
 	culture = french
+	default_religion = catholic
 	capital_province = haiti
 	core_provinces = {
 		haiti

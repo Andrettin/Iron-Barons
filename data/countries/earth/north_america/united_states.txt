@@ -3,6 +3,7 @@ united_states = {
 	type = great_power
 	color = { 66 94 193 }
 	culture = english
+	default_religion = protestant
 	capital_province = maryland
 	eras = {
 		industrial_era

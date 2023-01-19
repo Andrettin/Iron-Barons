@@ -2,6 +2,7 @@ florence = {
 	name = "Florence"
 	type = minor_nation
 	culture = italian
+	default_religion = catholic
 	capital_province = tuscany
 	eras = {
 		medieval_era

@@ -2,6 +2,7 @@ bulgaria = {
 	name = "Bulgaria"
 	type = minor_nation
 	culture = bulgarian
+	default_religion = orthodox
 	capital_province = bulgaria
 	eras = {
 		medieval_era

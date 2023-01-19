@@ -2,6 +2,7 @@ kush = {
 	name = "Kush"
 	type = minor_nation
 	culture = meroitic
+	default_religion = pagan
 	capital_province = nubia
 	eras = {
 		ancient_era

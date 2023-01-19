@@ -2,6 +2,7 @@ jamaica = {
 	name = "Jamaica"
 	type = minor_nation
 	culture = english
+	default_religion = protestant
 	capital_province = jamaica
 	eras = {
 		industrial_era

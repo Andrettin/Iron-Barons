@@ -2,6 +2,7 @@ montenegro = {
 	name = "Montenegro"
 	type = minor_nation
 	culture = serbian
+	default_religion = orthodox
 	capital_province = montenegro
 	eras = {
 		industrial_era

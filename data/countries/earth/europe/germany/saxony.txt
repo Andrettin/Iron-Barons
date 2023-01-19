@@ -2,6 +2,7 @@ saxony = {
 	name = "Saxony"
 	type = minor_nation
 	culture = german
+	default_religion = protestant
 	capital_province = saxony
 	eras = {
 		medieval_era

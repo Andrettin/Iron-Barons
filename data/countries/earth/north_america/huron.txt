@@ -2,6 +2,7 @@ huron = {
 	name = "Huron"
 	type = tribe
 	culture = huron
+	default_religion = pagan
 	capital_province = quebec
 	eras = {
 		renaissance_era

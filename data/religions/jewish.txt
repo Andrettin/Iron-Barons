@@ -1,0 +1,4 @@
+jewish = {
+	name = "Jewish"
+	color = { 88 212 234 }
+}

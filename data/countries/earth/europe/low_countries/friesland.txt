@@ -2,6 +2,7 @@ friesland = {
 	name = "Friesland"
 	type = minor_nation
 	culture = dutch
+	default_religion = protestant
 	capital_province = friesland
 	eras = {
 		medieval_era

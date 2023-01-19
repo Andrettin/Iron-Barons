@@ -3,6 +3,7 @@ brandenburg = {
 	type = great_power
 	color = { 245 167 97 }
 	culture = german
+	default_religion = protestant
 	capital_province = brandenburg
 	eras = {
 		medieval_era

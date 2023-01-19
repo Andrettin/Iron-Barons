@@ -2,6 +2,7 @@ hanover = {
 	name = "Hanover"
 	type = minor_nation
 	culture = german
+	default_religion = protestant
 	capital_province = hanover
 	eras = {
 		renaissance_era

@@ -3,6 +3,7 @@ france = {
 	type = great_power
 	color = { 87 139 166 }
 	culture = french
+	default_religion = catholic
 	capital_province = ile_de_france
 	eras = {
 		medieval_era

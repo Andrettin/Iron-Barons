@@ -2,6 +2,7 @@ bohemia = {
 	name = "Bohemia"
 	type = minor_nation
 	culture = czech
+	default_religion = catholic
 	capital_province = bohemia
 	eras = {
 		medieval_era

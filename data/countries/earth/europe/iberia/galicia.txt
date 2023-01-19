@@ -2,6 +2,7 @@ galicia = {
 	name = "Galicia"
 	type = minor_nation
 	culture = galician
+	default_religion = catholic
 	capital_province = galicia
 	eras = {
 		medieval_era

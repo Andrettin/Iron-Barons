@@ -2,6 +2,7 @@ turconia = {
 	name = "Turconia"
 	type = minor_nation
 	culture = turkish
+	default_religion = sunni
 	capital_province = florida
 	
 	history = {

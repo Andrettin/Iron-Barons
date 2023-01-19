@@ -3,6 +3,7 @@ portugal = {
 	type = great_power
 	color = { 0 66 24 }
 	culture = portuguese
+	default_religion = catholic
 	capital_province = estremadura
 	eras = {
 		medieval_era

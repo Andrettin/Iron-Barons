@@ -3,6 +3,7 @@ egypt = {
 	type = great_power
 	color = { 143 141 128 }
 	culture = egyptian
+	default_religion = pagan
 	capital_province = cairo
 	eras = {
 		ancient_era

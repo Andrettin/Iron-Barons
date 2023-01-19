@@ -2,6 +2,7 @@ arabs = {
 	name = "Arabs"
 	type = tribe
 	culture = arabic
+	default_religion = pagan
 	capital_province = arabia
 	eras = {
 		ancient_era

@@ -2,6 +2,7 @@ lydia = {
 	name = "Lydia"
 	type = minor_nation
 	culture = lydian
+	default_religion = pagan
 	capital_province = saruhan
 	eras = {
 		ancient_era

@@ -2,6 +2,7 @@ cuba = {
 	name = "Cuba"
 	type = minor_nation
 	culture = castillian
+	default_religion = catholic
 	capital_province = cuba
 	eras = {
 		industrial_era

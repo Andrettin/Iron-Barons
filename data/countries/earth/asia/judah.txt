@@ -2,6 +2,7 @@ judah = {
 	name = "Judah"
 	type = minor_nation
 	culture = hebrew
+	default_religion = jewish
 	capital_province = hadarom
 	eras = {
 		ancient_era

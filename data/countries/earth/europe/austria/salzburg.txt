@@ -2,6 +2,7 @@ salzburg = {
 	name = "Salzburg"
 	type = minor_nation
 	culture = austrian
+	default_religion = catholic
 	capital_province = salzburg
 	eras = {
 		medieval_era

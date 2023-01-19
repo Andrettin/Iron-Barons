@@ -2,6 +2,7 @@ iroquois = {
 	name = "Iroquois"
 	type = tribe
 	culture = iroquois
+	default_religion = pagan
 	capital_province = new_york
 	eras = {
 		renaissance_era
