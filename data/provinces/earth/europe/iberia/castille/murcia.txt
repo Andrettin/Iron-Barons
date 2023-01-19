@@ -8,9 +8,11 @@ murcia = {
 	
 	history = {
 		culture = castillian
+		religion = pagan
 		
 		1360 = {
 			owner = castille #part of Castille in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			religion = catholic
 		}
 		
 		1560 = {

@@ -8,5 +8,6 @@ canary_islands = {
 	
 	history = {
 		culture = castillian
+		religion = pagan
 	}
 }

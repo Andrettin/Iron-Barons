@@ -8,9 +8,11 @@ minho = {
 	
 	history = {
 		culture = portuguese
+		religion = pagan
 		
 		1140 = {
 			owner = portugal #became part of the Kingdom of Portugal in 1140; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 82-83.
+			religion = catholic
 		}
 		
 		1740 = {

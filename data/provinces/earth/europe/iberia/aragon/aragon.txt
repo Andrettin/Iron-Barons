@@ -8,9 +8,11 @@ aragon = {
 	
 	history = {
 		culture = aragonese
+		religion = pagan
 		
 		1360 = {
 			owner = aragon #part of Aragon in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			religion = catholic
 		}
 		
 		1560 = {
