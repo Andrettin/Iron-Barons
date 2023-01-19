@@ -1,3 +1,22 @@
+cartographer = {
+	name = "Cartographer"
+	type = expertise
+	icon = globe
+	level = 1
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = general
+			character_type = navigator
+			character_type = privateer
+		}
+	}
+	modifier = {
+		martial = 1
+		learning = 1
+	}
+}
+
 duelist = {
 	name = "Duelist"
 	type = expertise
