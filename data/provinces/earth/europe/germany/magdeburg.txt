@@ -8,13 +8,16 @@ magdeburg = {
 	
 	history = {
 		culture = german
+		religion = pagan
 		
 		1477 = {
 			owner = magdeburg #part of the Archbishopric of Magdeburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1740 = {
 			owner = prussia #Prussian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = protestant
 		}
 		
 		1815 = {

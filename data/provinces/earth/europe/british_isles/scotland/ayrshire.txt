@@ -8,5 +8,6 @@ ayrshire = {
 	
 	history = {
 		culture = scottish
+		religion = pagan
 	}
 }

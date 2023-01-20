@@ -8,5 +8,6 @@ northumberland = {
 	
 	history = {
 		culture = english
+		religion = pagan
 	}
 }

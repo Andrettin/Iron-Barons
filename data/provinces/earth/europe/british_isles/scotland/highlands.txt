@@ -8,5 +8,6 @@ highlands = {
 	
 	history = {
 		culture = scottish
+		religion = pagan
 	}
 }

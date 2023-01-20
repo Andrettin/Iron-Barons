@@ -8,5 +8,6 @@ lothian = {
 	
 	history = {
 		culture = scottish
+		religion = pagan
 	}
 }

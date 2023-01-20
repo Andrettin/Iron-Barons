@@ -8,9 +8,11 @@ karelia = {
 	
 	history = {
 		culture = russian
+		religion = pagan
 		
 		1721 = {
 			owner = russia #became part of the Russian Empire in 1721; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = orthodox
 		}
 		
 		germanys_future = {

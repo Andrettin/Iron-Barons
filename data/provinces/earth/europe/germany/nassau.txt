@@ -8,13 +8,16 @@ nassau = {
 	
 	history = {
 		culture = german
+		religion = pagan
 		
 		1477 = {
 			owner = nassau #part of the County of Nassau c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1815 = {
 			owner = nassau #part of the Duchy of Nassau in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			religion = protestant
 		}
 		
 		1866 = {

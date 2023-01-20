@@ -8,9 +8,11 @@ lower_silesia = {
 	
 	history = {
 		culture = german
+		religion = pagan
 		
 		1477 = {
 			owner = hungary #Hungarian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1490 = {
@@ -23,6 +25,7 @@ lower_silesia = {
 		
 		1742 = {
 			owner = prussia #became a Prussian possession in 1742; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = protestant
 		}
 		
 		1815 = {

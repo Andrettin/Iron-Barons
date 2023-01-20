@@ -8,13 +8,16 @@ saxony = {
 	
 	history = {
 		culture = german
+		religion = pagan
 		
 		1477 = {
 			owner = saxony #part of the Wettin Lands c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1740 = {
 			owner = saxony #part of Saxony c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = protestant
 		}
 		
 		1815 = {

@@ -8,6 +8,7 @@ murmansk = {
 	
 	history = {
 		culture = russian
+		religion = pagan
 		
 		germanys_future = {
 			1918 = {

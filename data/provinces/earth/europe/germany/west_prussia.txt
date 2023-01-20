@@ -9,9 +9,11 @@ west_prussia = {
 	
 	history = {
 		culture = polish
+		religion = pagan
 		
 		1466 = {
 			owner = poland #became part of the Kingdom of Poland in 1466; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1740 = {

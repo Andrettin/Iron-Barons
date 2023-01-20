@@ -8,9 +8,11 @@ palatinate = {
 	
 	history = {
 		culture = german
+		religion = pagan
 		
 		1477 = {
 			owner = palatinate #part of the Palatinate of the Rhine c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1815 = {

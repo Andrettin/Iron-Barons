@@ -8,5 +8,6 @@ lancashire = {
 	
 	history = {
 		culture = english
+		religion = pagan
 	}
 }

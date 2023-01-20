@@ -8,13 +8,16 @@ hesse = {
 	
 	history = {
 		culture = german
+		religion = pagan
 		
 		1477 = {
 			owner = hesse #part of the Landgraviate of Hesse c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			religion = catholic
 		}
 		
 		1815 = {
 			owner = hesse #part of Electoral Hesse in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			religion = protestant
 		}
 		
 		1866 = {
