@@ -9,18 +9,21 @@ rio_de_janeiro = {
 	history = {
 		owner = tupi
 		culture = tupi
+		religion = pagan
 		
 		1300 = {
 			owner = tupi #Tupinambá territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
 			culture = tupi
+			religion = pagan
 		}
 		
 		1555 = {
 			owner = france #Villegaignon Island became a French possession in 1555; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 			culture = french
+			religion = catholic
 			
 			population_groups = {
-				tribesmen.tupi = 500 #over 500 Tamoio Indians lived in France Antarctique in 1555; Source: Ronaldo Vainfas, "Dicionário do Brasil Colonial (1500-1808)", p. 584.
+				tribesmen.tupi.pagan = 500 #over 500 Tamoio Indians lived in France Antarctique in 1555; Source: Ronaldo Vainfas, "Dicionário do Brasil Colonial (1500-1808)", p. 584.
 			}
 		}
 		

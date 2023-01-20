@@ -8,13 +8,16 @@ geneva = {
 	
 	history = {
 		culture = french
+		religion = pagan
 		
 		1418 = {
 			owner = savoy #part of the Domain of the Duchy of Savoy in 1418; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = catholic
 		}
 		
 		1536 = {
 			owner = switzerland #lost by Savoy by 1536; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = protestant
 		}
 		
 		1740 = {

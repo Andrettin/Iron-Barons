@@ -8,5 +8,6 @@ finnmark = {
 	
 	history = {
 		culture = norwegian
+		religion = pagan
 	}
 }

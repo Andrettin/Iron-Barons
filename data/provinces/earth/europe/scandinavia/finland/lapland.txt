@@ -8,6 +8,7 @@ lapland = {
 	
 	history = {
 		culture = finnish
+		religion = pagan
 		
 		germanys_future = {
 			1918 = {

@@ -9,15 +9,18 @@ maranhao = {
 	history = {
 		owner = tupi
 		culture = tupi
+		religion = pagan
 		
 		1300 = {
 			owner = tupi #territory of the Tropical Forest cultural group (to which the Tupi belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
 			culture = tupi
+			religion = pagan
 		}
 		
 		1790 = {
 			owner = brazil #part of Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 			culture = portuguese
+			religion = catholic
 		}
 	}
 }

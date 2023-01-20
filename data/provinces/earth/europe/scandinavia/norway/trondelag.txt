@@ -8,5 +8,6 @@ trondelag = {
 	
 	history = {
 		culture = norwegian
+		religion = pagan
 	}
 }

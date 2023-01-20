@@ -8,6 +8,7 @@ courland = {
 	
 	history = {
 		culture = latvian
+		religion = pagan
 		
 		1740 = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
@@ -15,6 +16,7 @@ courland = {
 		
 		1815 = {
 			culture = latvian #Lettish; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+			religion = protestant
 		}
 		
 		germanys_future = {

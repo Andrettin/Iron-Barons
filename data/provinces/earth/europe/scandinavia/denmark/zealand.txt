@@ -8,9 +8,11 @@ zealand = {
 	
 	history = {
 		culture = danish
+		religion = pagan
 		
 		1740 = {
 			owner = denmark #part of the Kingdom of Denmark c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = protestant
 		}
 		
 		1815 = {

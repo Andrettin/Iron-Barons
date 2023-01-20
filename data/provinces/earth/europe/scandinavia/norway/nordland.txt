@@ -8,5 +8,6 @@ nordland = {
 	
 	history = {
 		culture = norwegian
+		religion = pagan
 	}
 }

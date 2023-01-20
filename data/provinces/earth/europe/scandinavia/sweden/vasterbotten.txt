@@ -8,5 +8,6 @@ vasterbotten = {
 	
 	history = {
 		culture = swedish
+		religion = pagan
 	}
 }

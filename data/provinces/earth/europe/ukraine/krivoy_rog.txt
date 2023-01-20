@@ -8,9 +8,11 @@ krivoy_rog = {
 	
 	history = {
 		culture = ukrainian
+		religion = pagan
 		
 		1740 = {
 			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = orthodox
 		}
 		
 		germanys_future = {
