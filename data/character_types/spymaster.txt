@@ -1,5 +1,5 @@
 spymaster = {
 	name = "Spymaster"
-	portrait = sailor
+	portrait = scholar
 	primary_attribute = intrigue
 }

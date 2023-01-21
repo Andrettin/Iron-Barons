@@ -1,5 +1,5 @@
 military_engineer = {
 	name = "Military Engineer"
-	portrait = sailor
+	portrait = soldier
 	primary_attribute = martial
 }

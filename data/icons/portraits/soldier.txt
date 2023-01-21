@@ -1,0 +1,7 @@
+soldier = {
+	filepath = "portraits/soldier.png"
+}
+
+soldier_chainmail = {
+	filepath = "portraits/soldier_chainmail.png"
+}
