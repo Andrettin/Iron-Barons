@@ -4,7 +4,10 @@ investigator = {
 	icon = treaty
 	level = 1
 	conditions = {
-		character_type = spymaster
+		or = {
+			character_type = inquisitor
+			character_type = spymaster
+		}
 	}
 	modifier = {
 		intrigue = 1
