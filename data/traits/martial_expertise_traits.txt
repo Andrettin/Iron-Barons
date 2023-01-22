@@ -34,6 +34,36 @@ duelist = {
 	}
 }
 
+falconer = {
+	name = "Falconer"
+	type = expertise
+	icon = bow
+	level = 1
+	conditions = {
+		character_type = general
+	}
+	modifier = {
+		martial = 1
+	}
+}
+
+game_master = {
+	name = "Game Master"
+	type = expertise
+	icon = globe
+	level = 1
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = general
+			character_type = privateer
+		}
+	}
+	modifier = {
+		martial = 1
+	}
+}
+
 hunter = {
 	name = "Hunter"
 	type = expertise

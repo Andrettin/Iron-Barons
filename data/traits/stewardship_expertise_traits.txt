@@ -1,3 +1,37 @@
+administrator = {
+	name = "Administrator"
+	type = expertise
+	icon = chest
+	level = 1
+	conditions = {
+		or = {
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
+		}
+	}
+	modifier = {
+		stewardship = 1
+	}
+}
+
+gardener = {
+	name = "Gardener"
+	type = expertise
+	icon = architecture
+	level = 1
+	conditions = {
+		or = {
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
+		}
+	}
+	modifier = {
+		stewardship = 1
+	}
+}
+
 silver_palm = {
 	name = "Silver Palm"
 	type = expertise

@@ -1,3 +1,33 @@
+poet = {
+	name = "Poet"
+	type = expertise
+	icon = music
+	level = 1
+	conditions = {
+		character_type = artist
+	}
+	modifier = {
+		diplomacy = 1
+		learning = 1
+	}
+}
+
+scholar = {
+	name = "Scholar"
+	type = expertise
+	icon = book
+	level = 1
+	conditions = {
+		or = {
+			character_type = natural_scientist
+			character_type = philosopher
+		}
+	}
+	modifier = {
+		learning = 1
+	}
+}
+
 theologian = {
 	name = "Theologian"
 	type = expertise

@@ -60,6 +60,8 @@
 /graphics/icons/population_units/slaves_light_small.png (by Jinn) (licensed under the CC0)
 /graphics/icons/population_units/slaves_medium.png (by Jinn) (licensed under the CC0)
 /graphics/icons/population_units/slaves_medium_small.png (by Jinn) (licensed under the CC0)
+/graphics/icons/technologies/architecture.png (by Jinn) (licensed under the CC0)
+/graphics/icons/technologies/philosophy.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/rifle_infantry_dark.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/rifle_infantry_dark_small.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/rifle_infantry_light.png (by Jinn) (licensed under the CC0) (reference: Brazilian 1865-1868 line infantry soldiers)
