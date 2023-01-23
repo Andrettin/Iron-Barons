@@ -55,11 +55,14 @@ game_master = {
 	conditions = {
 		or = {
 			character_type = admiral
+			character_type = diplomat
 			character_type = general
 			character_type = privateer
+			character_type = statesman
 		}
 	}
 	modifier = {
+		diplomacy = 1
 		martial = 1
 	}
 }
