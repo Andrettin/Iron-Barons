@@ -35,11 +35,7 @@ Item {
 				+ "\nCulture: " + character.culture.name
 				+ "\nReligion: " + character.religion.name
 				+ "\nPrimary Attribute: " + character.type.primary_attribute_name
-				+ "\nDiplomacy: " + character.game_data.diplomacy
-				+ "\nMartial: " + character.game_data.martial
-				+ "\nStewardship: " + character.game_data.stewardship
-				+ "\nIntrigue: " + character.game_data.intrigue
-				+ "\nLearning: " + character.game_data.learning
+				+ "\nSkill: " + character.game_data.skill
 			))
 			
 			Rectangle {

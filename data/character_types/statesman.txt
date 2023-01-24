@@ -1,5 +1,5 @@
 statesman = {
 	name = "Statesman"
 	portrait = scholar
-	primary_attribute = diplomacy
+	primary_attribute = skill
 }

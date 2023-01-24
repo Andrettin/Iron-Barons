@@ -1,5 +1,5 @@
 inquisitor = {
 	name = "Inquisitor"
 	portrait = frankish_cleric
-	primary_attribute = intrigue
+	primary_attribute = skill
 }

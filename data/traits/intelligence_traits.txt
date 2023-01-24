@@ -3,11 +3,7 @@ intelligent = {
 	type = personality
 	icon = research
 	modifier = {
-		diplomacy = 1
-		martial = 1
-		stewardship = 1
-		intrigue = 1
-		learning = 1
+		skill = 1
 	}
 }
 
@@ -16,11 +12,7 @@ genius = {
 	type = personality
 	icon = research
 	modifier = {
-		diplomacy = 2
-		martial = 2
-		stewardship = 2
-		intrigue = 2
-		learning = 2
+		skill = 2
 	}
 }
 
@@ -29,11 +21,7 @@ stupid = {
 	type = personality
 	icon = research
 	modifier = {
-		diplomacy = -1
-		martial = -1
-		stewardship = -1
-		intrigue = -1
-		learning = -1
+		skill = -1
 	}
 }
 
@@ -42,10 +30,6 @@ imbecile = {
 	type = personality
 	icon = research
 	modifier = {
-		diplomacy = -2
-		martial = -2
-		stewardship = -2
-		intrigue = -2
-		learning = -2
+		skill = -2
 	}
 }

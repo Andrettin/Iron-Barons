@@ -1,8 +1,7 @@
 cartographer = {
 	name = "Cartographer"
-	type = expertise
+	type = background
 	icon = globe
-	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -12,16 +11,14 @@ cartographer = {
 		}
 	}
 	modifier = {
-		martial = 1
-		learning = 1
+		skill = 1
 	}
 }
 
 duelist = {
 	name = "Duelist"
-	type = expertise
+	type = background
 	icon = saber
-	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -30,28 +27,27 @@ duelist = {
 		}
 	}
 	modifier = {
-		martial = 1
+		skill = 1
+		prowess = 1
 	}
 }
 
 falconer = {
 	name = "Falconer"
-	type = expertise
+	type = background
 	icon = bow
-	level = 1
 	conditions = {
 		character_type = general
 	}
 	modifier = {
-		martial = 1
+		skill = 1
 	}
 }
 
 game_master = {
 	name = "Game Master"
-	type = expertise
+	type = background
 	icon = globe
-	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -62,29 +58,26 @@ game_master = {
 		}
 	}
 	modifier = {
-		diplomacy = 1
-		martial = 1
+		skill = 1
 	}
 }
 
 hunter = {
 	name = "Hunter"
-	type = expertise
+	type = background
 	icon = bow
-	level = 1
 	conditions = {
 		character_type = general
 	}
 	modifier = {
-		martial = 1
+		skill = 1
 	}
 }
 
 strategist = {
 	name = "Strategist"
-	type = expertise
+	type = background
 	icon = crossed_sabers
-	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -96,15 +89,14 @@ strategist = {
 		}
 	}
 	modifier = {
-		martial = 1
+		skill = 1
 	}
 }
 
 brilliant_strategist = {
 	name = "Brilliant Strategist"
-	type = expertise
+	type = background
 	icon = crossed_sabers
-	level = 2
 	conditions = {
 		or = {
 			character_type = admiral
@@ -116,6 +108,6 @@ brilliant_strategist = {
 		}
 	}
 	modifier = {
-		martial = 2
+		skill = 2
 	}
 }

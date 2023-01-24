@@ -1,0 +1,31 @@
+administrator = {
+	name = "Administrator"
+	type = background
+	icon = chest
+	conditions = {
+		or = {
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
+		}
+	}
+	modifier = {
+		skill = 1
+	}
+}
+
+gardener = {
+	name = "Gardener"
+	type = background
+	icon = architecture
+	conditions = {
+		or = {
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
+		}
+	}
+	modifier = {
+		skill = 1
+	}
+}

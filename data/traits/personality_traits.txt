@@ -2,8 +2,10 @@ cynical = {
 	name = "Cynical"
 	type = personality
 	icon = blood
-	modifier = {
-		intrigue = 1
+	character_type_modifiers = {
+		spymaster = {
+			skill = 1
+		}
 	}
 }
 
@@ -12,11 +14,7 @@ diligent = {
 	type = personality
 	icon = hammer
 	modifier = {
-		diplomacy = 1
-		martial = 1
-		stewardship = 1
-		intrigue = 1
-		learning = 1
+		skill = 1
 	}
 }
 
@@ -24,9 +22,16 @@ kind = {
 	name = "Kind"
 	type = personality
 	icon = love
-	modifier = {
-		diplomacy = 1
-		intrigue = -1
+	character_type_modifiers = {
+		diplomat = {
+			skill = 1
+		}
+		statesman = {
+			skill = 1
+		}
+		spymaster = {
+			skill = -1
+		}
 	}
 }
 
@@ -34,9 +39,22 @@ proud = {
 	name = "Proud"
 	type = personality
 	icon = heater_shield
-	modifier = {
-		diplomacy = -1
-		martial = 1
+	character_type_modifiers = {
+		admiral = {
+			skill = 1
+		}
+		general = {
+			skill = 1
+		}
+		privateer = {
+			skill = 1
+		}
+		diplomat = {
+			skill = -1
+		}
+		statesman = {
+			skill = -1
+		}
 	}
 }
 
@@ -44,7 +62,12 @@ shy = {
 	name = "Shy"
 	type = personality
 	icon = wall
-	modifier = {
-		diplomacy = -1
+	character_type_modifiers = {
+		diplomat = {
+			skill = -1
+		}
+		statesman = {
+			skill = -1
+		}
 	}
 }

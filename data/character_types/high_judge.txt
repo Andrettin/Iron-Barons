@@ -1,5 +1,5 @@
 high_judge = {
 	name = "High Judge"
 	portrait = scholar
-	primary_attribute = learning
+	primary_attribute = skill
 }

@@ -1,5 +1,5 @@
 navigator = {
 	name = "Navigator"
 	portrait = sailor
-	primary_attribute = learning
+	primary_attribute = skill
 }
