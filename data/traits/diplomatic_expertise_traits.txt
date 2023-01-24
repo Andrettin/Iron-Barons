@@ -1,3 +1,54 @@
+diplomat = {
+	name = "Diplomat"
+	type = expertise
+	icon = treaty
+	level = 1
+	conditions = {
+		character_type = diplomat
+		not = {
+			trait = experienced_diplomat
+			trait = masterful_diplomat
+		}
+	}
+	modifier = {
+		diplomacy = 1
+	}
+}
+
+experienced_diplomat = {
+	name = "Experienced Diplomat"
+	type = expertise
+	icon = treaty
+	level = 2
+	conditions = {
+		character_type = diplomat
+		not = {
+			trait = diplomat
+			trait = masterful_diplomat
+		}
+	}
+	modifier = {
+		diplomacy = 2
+	}
+}
+
+masterful_diplomat = {
+	name = "Masterful Diplomat"
+	type = expertise
+	icon = treaty
+	level = 3
+	conditions = {
+		character_type = diplomat
+		not = {
+			trait = diplomat
+			trait = experienced_diplomat
+		}
+	}
+	modifier = {
+		diplomacy = 3
+	}
+}
+
 negotiator = {
 	name = "Negotiator"
 	type = expertise
