@@ -2,4 +2,7 @@ admiral = {
 	name = "Admiral"
 	portrait = sailor
 	primary_attribute = skill
+	country_modifier = {
+		naval_morale_loss_reduction = 5
+	}
 }

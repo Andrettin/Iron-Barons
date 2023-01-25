@@ -3,6 +3,6 @@ general = {
 	portrait = soldier
 	primary_attribute = skill
 	country_modifier = {
-		morale_loss_reduction = 5
+		land_morale_loss_reduction = 5
 	}
 }
