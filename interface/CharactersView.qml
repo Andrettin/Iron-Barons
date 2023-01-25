@@ -30,12 +30,12 @@ Item {
 			height: portrait.height
 			
 			readonly property var character: model.modelData
-			readonly property var character_tooltip: character.full_name + format_text(small_text("\n"
+			readonly property var character_tooltip: character.full_name + format_text(small_text("\n\n"
 				+ get_character_landed_titles_tooltip(character.game_data.landed_titles)
 				+ "\nCulture: " + character.culture.name
 				+ "\nReligion: " + character.religion.name
-				+ "\nPrimary Attribute: " + character.type.primary_attribute_name
 				+ "\nSkill: " + character.game_data.skill
+				+ (character.game_data.ruler ? "\nCountry Modifier:\n" + character.game_data.country_modifier_string : "")
 			))
 			
 			Rectangle {
