@@ -30,8 +30,10 @@ Item {
 			height: portrait.height
 			
 			readonly property var character: model.modelData
-			readonly property var character_tooltip: character.full_name + format_text(small_text("\n\n"
-				+ get_character_landed_titles_tooltip(character.game_data.landed_titles)
+			readonly property string character_landed_titles_tooltip: string_list_to_string(get_character_landed_titles_tooltip(character.game_data.landed_titles), "\n")
+			readonly property string character_tooltip: character.full_name + format_text(small_text("\n"
+				+ (character_landed_titles_tooltip.length > 0 ? ("\n" + character_landed_titles_tooltip) : "")
+				+ (character.game_data.office ? ("\n" + character.game_data.office.name) : "")
 				+ "\nCulture: " + character.culture.name
 				+ "\nReligion: " + character.religion.name
 				+ "\nSkill: " + character.game_data.skill
