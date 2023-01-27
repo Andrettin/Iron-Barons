@@ -1,0 +1,11 @@
+war_minister = {
+	name = "War Minister"
+	type = country
+	character_conditions = {
+		or = {
+			character_type = general
+			character_type = military_engineer
+		}
+		has_country_office = false
+	}
+}
