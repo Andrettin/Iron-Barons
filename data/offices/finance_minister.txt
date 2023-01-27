@@ -1,0 +1,12 @@
+finance_minister = {
+	name = "Finance Minister"
+	type = country
+	character_conditions = {
+		or = {
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
+		}
+		has_country_office = false
+	}
+}

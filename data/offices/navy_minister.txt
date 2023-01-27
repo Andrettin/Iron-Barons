@@ -1,0 +1,12 @@
+navy_minister = {
+	name = "Navy Minister"
+	type = country
+	character_conditions = {
+		or = {
+			character_type = admiral
+			character_type = navigator
+			character_type = privateer
+		}
+		has_country_office = false
+	}
+}
