@@ -8,7 +8,6 @@ interior_minister = {
 			character_type = inquisitor
 			character_type = natural_scientist
 			character_type = philosopher
-			character_type = spymaster
 			character_type = statesman
 			character_type = theologian
 		}
