@@ -3,6 +3,12 @@ compassionate = {
 	type = personality
 	icon = love
 	character_type_modifiers = {
+		diplomat = {
+			skill = 1
+		}
+		statesman = {
+			skill = 1
+		}
 		spymaster = {
 			skill = -1
 		}
@@ -46,6 +52,9 @@ kind = {
 		spymaster = {
 			skill = -1
 		}
+		theologian = {
+			skill = 1
+		}
 	}
 }
 
@@ -80,8 +89,17 @@ shy = {
 		diplomat = {
 			skill = -1
 		}
+		natural_scientist = {
+			skill = 1
+		}
+		philosopher = {
+			skill = 1
+		}
 		statesman = {
 			skill = -1
+		}
+		theologian = {
+			skill = 1
 		}
 	}
 }
