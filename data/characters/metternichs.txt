@@ -7,5 +7,5 @@ clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutz
 	home_province = lower_austria
 	gender = male
 	birth_date = 1773.5.15
-	level = 3
+	level_multiplier = 1
 }
