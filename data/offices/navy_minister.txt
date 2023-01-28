@@ -1,6 +1,9 @@
 navy_minister = {
 	name = "Navy Minister"
 	type = country
+	country_conditions = {
+		coastal = true
+	}
 	character_conditions = {
 		or = {
 			character_type = admiral
