@@ -1,3 +1,17 @@
+compassionate = {
+	name = "Compassionate"
+	type = personality
+	icon = love
+	character_type_modifiers = {
+		spymaster = {
+			skill = -1
+		}
+		theologian = {
+			skill = 1
+		}
+	}
+}
+
 cynical = {
 	name = "Cynical"
 	type = personality
