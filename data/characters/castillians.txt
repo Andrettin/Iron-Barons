@@ -9,6 +9,9 @@ bartolome_de_las_casas = {
 	birth_date = 1484
 	death_date = 1566
 	level_multiplier = 0.5
+	traits = {
+		compassionate
+	}
 }
 
 juan_de_sepulveda = {
