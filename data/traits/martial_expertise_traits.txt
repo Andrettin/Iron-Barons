@@ -1,7 +1,8 @@
 cartographer = {
 	name = "Cartographer"
-	type = background
+	type = expertise
 	icon = globe
+	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -17,8 +18,9 @@ cartographer = {
 
 duelist = {
 	name = "Duelist"
-	type = background
+	type = expertise
 	icon = saber
+	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -34,8 +36,9 @@ duelist = {
 
 falconer = {
 	name = "Falconer"
-	type = background
+	type = expertise
 	icon = bow
+	level = 1
 	conditions = {
 		character_type = general
 	}
@@ -46,8 +49,9 @@ falconer = {
 
 game_master = {
 	name = "Game Master"
-	type = background
+	type = expertise
 	icon = globe
+	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -64,8 +68,9 @@ game_master = {
 
 hunter = {
 	name = "Hunter"
-	type = background
+	type = expertise
 	icon = bow
+	level = 1
 	conditions = {
 		character_type = general
 	}
@@ -76,8 +81,9 @@ hunter = {
 
 strategist = {
 	name = "Strategist"
-	type = background
+	type = expertise
 	icon = crossed_sabers
+	level = 1
 	conditions = {
 		or = {
 			character_type = admiral
@@ -95,8 +101,9 @@ strategist = {
 
 brilliant_strategist = {
 	name = "Brilliant Strategist"
-	type = background
+	type = expertise
 	icon = crossed_sabers
+	level = 2
 	conditions = {
 		or = {
 			character_type = admiral
