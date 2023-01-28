@@ -23,8 +23,14 @@ cynical = {
 	type = personality
 	icon = blood
 	character_type_modifiers = {
+		inquisitor = {
+			skill = -1
+		}
 		spymaster = {
 			skill = 1
+		}
+		theologian = {
+			skill = -1
 		}
 	}
 }
@@ -87,6 +93,9 @@ shy = {
 	icon = wall
 	character_type_modifiers = {
 		diplomat = {
+			skill = -1
+		}
+		merchant = {
 			skill = -1
 		}
 		natural_scientist = {
