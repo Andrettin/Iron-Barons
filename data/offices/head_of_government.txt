@@ -1,5 +1,7 @@
 head_of_government = {
 	name = "Head of Government"
 	type = country
+	character_conditions = {
+		is_ruler = false
 	}
 }
