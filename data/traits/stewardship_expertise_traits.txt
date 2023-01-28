@@ -48,3 +48,29 @@ silver_palm = {
 		skill = 1
 	}
 }
+
+aspiring_trader = {
+	name = "Aspiring Trader"
+	type = expertise
+	icon = chest
+	level = 1
+	conditions = {
+		character_type = merchant
+	}
+	modifier = {
+		skill = 1
+	}
+}
+
+trader = {
+	name = "Trader"
+	type = expertise
+	icon = chest
+	level = 2
+	conditions = {
+		character_type = merchant
+	}
+	modifier = {
+		skill = 2
+	}
+}
