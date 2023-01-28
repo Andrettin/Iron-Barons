@@ -1,0 +1,5 @@
+head_of_government = {
+	name = "Head of Government"
+	type = country
+	}
+}

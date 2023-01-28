@@ -1,0 +1,3 @@
+no_character = {
+	filepath = "portraits/no_character.png"
+}
