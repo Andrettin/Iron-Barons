@@ -56,6 +56,9 @@ aspiring_trader = {
 	level = 1
 	conditions = {
 		character_type = merchant
+		not = {
+			trait = trader
+		}
 	}
 	modifier = {
 		skill = 1
@@ -69,6 +72,9 @@ trader = {
 	level = 2
 	conditions = {
 		character_type = merchant
+		not = {
+			trait = aspiring_trader
+		}
 	}
 	modifier = {
 		skill = 2
