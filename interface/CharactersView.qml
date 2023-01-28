@@ -124,9 +124,11 @@ Item {
 							id: trait_icon
 							source: "image://icon/" + model.modelData.icon.identifier + "/small"
 							
+							readonly property string modifier_string: model.modelData.get_modifier_string(character.type)
+							
 							MouseArea {
 								anchors.fill: parent
-								ToolTip.text: model.modelData.name + (model.modelData.modifier_string.length > 0 ? format_text(small_text("\n\n" + model.modelData.modifier_string)) : "")
+								ToolTip.text: model.modelData.name + (modifier_string.length > 0 ? format_text(small_text("\n\n" + modifier_string)) : "")
 								ToolTip.visible: containsMouse
 								ToolTip.delay: 1000
 								hoverEnabled: true
