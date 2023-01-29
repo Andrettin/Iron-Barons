@@ -1,6 +1,6 @@
 karl_vi_of_the_holy_roman_empire = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 	name = "Karl"
-	surname = "von Habsburg"
+	dynasty = habsburg
 	type = treasurer
 	culture = austrian
 	religion = catholic

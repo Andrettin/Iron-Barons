@@ -1,0 +1,11 @@
+habsburg = {
+	name = "Habsburg"
+	prefix = "von"
+	culture = german #Swabian/Swiss
+}
+
+metternich = {
+	name = "Metternich"
+	prefix = "von"
+	culture = german #Rhenish
+}
