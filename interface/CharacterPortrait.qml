@@ -8,6 +8,7 @@ PortraitButton {
 	tooltip: character ? (character.full_name + format_text(small_text("\n"
 		+ (character_landed_titles_tooltip.length > 0 ? ("\n" + character_landed_titles_tooltip) : "")
 		+ (character.game_data.office ? ("\n" + character.game_data.office.name) : "")
+		+ (character.dynasty ? ("\nDynasty: " + character.dynasty.name) : "")
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
 		+ "\nSkill: " + character.game_data.skill
