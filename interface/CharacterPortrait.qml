@@ -17,7 +17,7 @@ PortraitButton {
 	
 	property var character: null
 	readonly property string character_landed_titles_tooltip: character ? string_list_to_string(get_character_landed_titles_tooltip(character.game_data.landed_titles), "\n") : ""
-	readonly property string country_modifier_tooltip: character.game_data.country_modifier_string
+	readonly property string country_modifier_tooltip: character ? character.game_data.country_modifier_string : ""
 	
 	function get_character_landed_titles_tooltip(landed_titles) {
 		var str_list = []
