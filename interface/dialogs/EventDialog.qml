@@ -42,6 +42,7 @@ DialogBase {
 			TextButton {
 				id: option_button
 				text: model.modelData
+				width: event_dialog.width - 16 * scale_factor
 				
 				onHoveredChanged: {
 					if (hovered) {
