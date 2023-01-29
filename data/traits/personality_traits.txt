@@ -78,6 +78,58 @@ diligent = {
 	}
 }
 
+gluttonous = {
+	name = "Gluttonous"
+	type = personality
+	icon = cattle
+	character_type_modifiers = {
+		admiral = {
+			skill = -1
+		}
+		general = {
+			skill = -1
+		}
+		privateer = {
+			skill = -1
+		}
+		theologian = {
+			skill = -1
+		}
+		treasurer = {
+			skill = -1
+		}
+	}
+}
+
+greedy = {
+	name = "Greedy"
+	type = personality
+	icon = chest
+	character_type_modifiers = {
+		banker = {
+			skill = 1
+		}
+		diplomat = {
+			skill = -1
+		}
+		high_judge = {
+			skill = -1
+		}
+		merchant = {
+			skill = 1
+		}
+		statesman = {
+			skill = -1
+		}
+		theologian = {
+			skill = -1
+		}
+		treasurer = {
+			skill = -1
+		}
+	}
+}
+
 just = {
 	name = "Just"
 	type = personality
