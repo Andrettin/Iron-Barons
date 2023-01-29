@@ -34,6 +34,11 @@ austria = {
 			}
 		}
 		
+		1804.8.11 = {
+			tier = empire #Empire of Austria founded on 1804.8.11; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+			ruler = franz_i_of_austria
+		}
+		
 		1850 = {
 			literacy_rate = 60 #50-70% of adults; Source: Eric J. Hobsbawm, "A Era do Capital 1848-1875", 1977, p. 522.
 		}
