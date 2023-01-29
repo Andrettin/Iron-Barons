@@ -112,3 +112,26 @@ shy = {
 		}
 	}
 }
+
+zealous = {
+	name = "Zealous"
+	type = personality
+	icon = wooden_cross
+	character_type_modifiers = {
+		general = {
+			skill = 1
+		}
+		inquisitor = {
+			skill = 1
+		}
+		natural_scientist = {
+			skill = -1
+		}
+		philosopher = {
+			skill = -1
+		}
+		theologian = {
+			skill = 1
+		}
+	}
+}
