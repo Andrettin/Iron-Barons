@@ -13,3 +13,16 @@ karl_vi_of_the_holy_roman_empire = { #Emperor Karl VI of the Holy Roman Empire; 
 	
 	#became emperor of the HRE in 1711; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 }
+
+franz_i_of_austria = { #Franz von Habsburg, Emperor Franz II of the Holy Roman Empire and later Emperor Franz I of Austria; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	name = "Franz"
+	dynasty = habsburg
+	type = general #correct?
+	culture = austrian
+	religion = catholic
+	home_province = lower_austria
+	gender = male
+	birth_date = 1768.2.12
+	death_date = 1835.3.2
+	level = 2
+}
