@@ -1,3 +1,26 @@
+arbitrary = {
+	name = "Arbitrary"
+	type = personality
+	icon = blood
+	character_type_modifiers = {
+		diplomat = {
+			skill = -1
+		}
+		high_judge = {
+			skill = -1
+		}
+		statesman = {
+			skill = -1
+		}
+		theologian = {
+			skill = -1
+		}
+		treasurer = {
+			skill = -1
+		}
+	}
+}
+
 compassionate = {
 	name = "Compassionate"
 	type = personality
@@ -12,6 +35,17 @@ compassionate = {
 		spymaster = {
 			skill = -1
 		}
+		theologian = {
+			skill = 1
+		}
+	}
+}
+
+content = {
+	name = "Content"
+	type = personality
+	icon = anchor
+	character_type_modifiers = {
 		theologian = {
 			skill = 1
 		}
@@ -41,6 +75,29 @@ diligent = {
 	icon = hammer
 	modifier = {
 		skill = 1
+	}
+}
+
+just = {
+	name = "Just"
+	type = personality
+	icon = courthouse
+	character_type_modifiers = {
+		diplomat = {
+			skill = 1
+		}
+		high_judge = {
+			skill = 1
+		}
+		statesman = {
+			skill = 1
+		}
+		theologian = {
+			skill = 1
+		}
+		treasurer = {
+			skill = 1
+		}
 	}
 }
 
