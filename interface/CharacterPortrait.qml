@@ -12,11 +12,12 @@ PortraitButton {
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
 		+ "\nSkill: " + character.game_data.skill
-		+ (character.game_data.ruler ? "\nCountry Modifier:\n" + character.game_data.country_modifier_string : "")
+		+ (((character.game_data.ruler || character.game_data.office) && country_modifier_tooltip.length > 0) ? "\nCountry Modifier:\n" + country_modifier_tooltip : "")
 	))) : ""
 	
 	property var character: null
 	readonly property string character_landed_titles_tooltip: character ? string_list_to_string(get_character_landed_titles_tooltip(character.game_data.landed_titles), "\n") : ""
+	readonly property string country_modifier_tooltip: character.game_data.country_modifier_string
 	
 	function get_character_landed_titles_tooltip(landed_titles) {
 		var str_list = []
