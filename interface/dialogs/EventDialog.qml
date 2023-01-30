@@ -8,7 +8,7 @@ DialogBase {
 	title: event_instance ? event_instance.name : ""
 	
 	property var event_instance: null
-	readonly property var options: event_instance ? event_instance.options : []
+	readonly property var option_names: event_instance ? event_instance.option_names : []
 	readonly property var option_tooltips: event_instance ? event_instance.option_tooltips : []
 	
 	property bool option_picked: false
@@ -37,7 +37,7 @@ DialogBase {
 		rowSpacing: 8 * metternich.scale_factor
 		
 		Repeater {
-			model: options
+			model: option_names
 			
 			TextButton {
 				id: option_button
