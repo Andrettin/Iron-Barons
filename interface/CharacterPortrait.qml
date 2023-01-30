@@ -12,7 +12,7 @@ PortraitButton {
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
 		+ "\nSkill: " + character.game_data.skill
-		+ (character.game_data.wealth > 0 ? ("\nWealth: " + character.game_data.wealth) : "")
+		+ (character.game_data.wealth > 0 ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
 		+ (((character.game_data.ruler || character.game_data.office) && country_modifier_tooltip.length > 0) ? "\nCountry Modifier:\n" + country_modifier_tooltip : "")
 	))) : ""
 	
