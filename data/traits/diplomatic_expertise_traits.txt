@@ -11,7 +11,7 @@ diplomat = {
 		}
 	}
 	modifier = {
-		skill = 1
+		diplomacy = 1
 	}
 }
 
@@ -28,7 +28,7 @@ experienced_diplomat = {
 		}
 	}
 	modifier = {
-		skill = 2
+		diplomacy = 2
 	}
 }
 
@@ -45,7 +45,7 @@ masterful_diplomat = {
 		}
 	}
 	modifier = {
-		skill = 3
+		diplomacy = 3
 	}
 }
 
@@ -67,7 +67,8 @@ negotiator = {
 		}
 	}
 	modifier = {
-		skill = 1
+		diplomacy = 1
+		stewardship = 1
 	}
 }
 
@@ -89,7 +90,8 @@ charismatic_negotiator = {
 		}
 	}
 	modifier = {
-		skill = 2
+		diplomacy = 2
+		stewardship = 2
 	}
 }
 
@@ -106,6 +108,7 @@ persuasive = {
 		}
 	}
 	modifier = {
-		skill = 1
+		diplomacy = 1
+		intrigue = 1
 	}
 }

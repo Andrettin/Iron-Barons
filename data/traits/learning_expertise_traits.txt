@@ -1,13 +1,34 @@
-poet = {
-	name = "Poet"
+aspiring_poet = {
+	name = "Aspiring Poet"
 	type = expertise
 	icon = music
 	level = 1
 	conditions = {
 		character_type = artist
+		not = {
+			trait = poet
+		}
 	}
 	modifier = {
-		skill = 1
+		diplomacy = 1
+		learning = 1
+	}
+}
+
+poet = {
+	name = "Poet"
+	type = expertise
+	icon = music
+	level = 2
+	conditions = {
+		character_type = artist
+		not = {
+			trait = aspiring_poet
+		}
+	}
+	modifier = {
+		diplomacy = 2
+		learning = 2
 	}
 }
 
@@ -23,7 +44,7 @@ scholar = {
 		}
 	}
 	modifier = {
-		skill = 1
+		learning = 1
 	}
 }
 
@@ -40,7 +61,7 @@ theologian = {
 		}
 	}
 	modifier = {
-		skill = 1
+		learning = 1
 	}
 }
 
@@ -57,7 +78,7 @@ scholarly_theologian = {
 		}
 	}
 	modifier = {
-		skill = 2
+		learning = 2
 	}
 }
 
@@ -74,6 +95,6 @@ mastermind_theologian = {
 		}
 	}
 	modifier = {
-		skill = 3
+		learning = 3
 	}
 }

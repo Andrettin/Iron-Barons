@@ -1,5 +1,5 @@
 artist = {
 	name = "Artist"
 	portrait = scholar
-	primary_attribute = skill
+	primary_attribute = learning
 }

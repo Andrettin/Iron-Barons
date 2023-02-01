@@ -11,7 +11,12 @@ PortraitButton {
 		+ (character.dynasty ? ("\nDynasty: " + character.dynasty.name) : "")
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
-		+ "\nSkill: " + character.game_data.skill
+		+ "\nPrimary Attribute: " + character.type.primary_attribute_name
+		+ (character.game_data.diplomacy > 0 ? ("\nDiplomacy: " + character.game_data.diplomacy) : "")
+		+ (character.game_data.martial > 0 ? ("\nMartial: " + character.game_data.martial) : "")
+		+ (character.game_data.stewardship > 0 ? ("\nStewardship: " + character.game_data.stewardship) : "")
+		+ (character.game_data.intrigue > 0 ? ("\nIntrigue: " + character.game_data.intrigue) : "")
+		+ (character.game_data.learning > 0 ? ("\nLearning: " + character.game_data.learning) : "")
 		+ (character.game_data.wealth > 0 ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
 		+ (((character.game_data.ruler || character.game_data.office) && country_modifier_tooltip.length > 0) ? "\nCountry Modifier:\n" + country_modifier_tooltip : "")
 	))) : ""

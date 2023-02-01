@@ -37,7 +37,11 @@ event_trigger_none_random_weights = {
 }
 
 attribute_icons = { #these should be 16x16 icons instead, or we should have a separate map for attribute small icons
-	skill = university
+	diplomacy = treaty
+	martial = crossed_sabers
+	stewardship = chest
+	intrigue = dagger
+	learning = university
 	prowess = saber
 	vitality = heart
 }

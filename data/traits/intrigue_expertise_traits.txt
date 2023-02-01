@@ -10,7 +10,7 @@ investigator = {
 		}
 	}
 	modifier = {
-		skill = 1
+		intrigue = 1
 	}
 }
 
@@ -23,7 +23,7 @@ stealthy = {
 		character_type = spymaster
 	}
 	modifier = {
-		skill = 1
+		intrigue = 1
 	}
 }
 
@@ -39,6 +39,8 @@ thug = {
 		}
 	}
 	modifier = {
-		skill = 1
+		martial = 1
+		intrigue = 1
+		prowess = 1
 	}
 }

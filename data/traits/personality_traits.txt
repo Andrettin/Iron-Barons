@@ -2,22 +2,10 @@ arbitrary = {
 	name = "Arbitrary"
 	type = personality
 	icon = blood
-	character_type_modifiers = {
-		diplomat = {
-			skill = -1
-		}
-		high_judge = {
-			skill = -1
-		}
-		statesman = {
-			skill = -1
-		}
-		theologian = {
-			skill = -1
-		}
-		treasurer = {
-			skill = -1
-		}
+	modifier = {
+		stewardship = -1
+		intrigue = 1
+		learning = -1
 	}
 }
 
@@ -25,19 +13,9 @@ compassionate = {
 	name = "Compassionate"
 	type = personality
 	icon = love
-	character_type_modifiers = {
-		diplomat = {
-			skill = 1
-		}
-		statesman = {
-			skill = 1
-		}
-		spymaster = {
-			skill = -1
-		}
-		theologian = {
-			skill = 1
-		}
+	modifier = {
+		diplomacy = 1
+		intrigue = -1
 	}
 }
 
@@ -45,10 +23,8 @@ content = {
 	name = "Content"
 	type = personality
 	icon = anchor
-	character_type_modifiers = {
-		theologian = {
-			skill = 1
-		}
+	modifier = {
+		intrigue = -1
 	}
 }
 
@@ -56,16 +32,8 @@ cynical = {
 	name = "Cynical"
 	type = personality
 	icon = blood
-	character_type_modifiers = {
-		inquisitor = {
-			skill = -1
-		}
-		spymaster = {
-			skill = 1
-		}
-		theologian = {
-			skill = -1
-		}
+	modifier = {
+		intrigue = 1
 	}
 }
 
@@ -74,7 +42,11 @@ diligent = {
 	type = personality
 	icon = hammer
 	modifier = {
-		skill = 1
+		diplomacy = 1
+		martial = 1
+		stewardship = 1
+		intrigue = 1
+		learning = 1
 	}
 }
 
@@ -82,22 +54,8 @@ gluttonous = {
 	name = "Gluttonous"
 	type = personality
 	icon = cattle
-	character_type_modifiers = {
-		admiral = {
-			skill = -1
-		}
-		general = {
-			skill = -1
-		}
-		privateer = {
-			skill = -1
-		}
-		theologian = {
-			skill = -1
-		}
-		treasurer = {
-			skill = -1
-		}
+	modifier = {
+		stewardship = -1
 	}
 }
 
@@ -105,28 +63,9 @@ greedy = {
 	name = "Greedy"
 	type = personality
 	icon = chest
-	character_type_modifiers = {
-		banker = {
-			skill = 1
-		}
-		diplomat = {
-			skill = -1
-		}
-		high_judge = {
-			skill = -1
-		}
-		merchant = {
-			skill = 1
-		}
-		statesman = {
-			skill = -1
-		}
-		theologian = {
-			skill = -1
-		}
-		treasurer = {
-			skill = -1
-		}
+	modifier = {
+		diplomacy = -1
+		stewardship = 1
 	}
 }
 
@@ -134,22 +73,9 @@ just = {
 	name = "Just"
 	type = personality
 	icon = courthouse
-	character_type_modifiers = {
-		diplomat = {
-			skill = 1
-		}
-		high_judge = {
-			skill = 1
-		}
-		statesman = {
-			skill = 1
-		}
-		theologian = {
-			skill = 1
-		}
-		treasurer = {
-			skill = 1
-		}
+	modifier = {
+		diplomacy = 1
+		stewardship = 1
 	}
 }
 
@@ -157,19 +83,9 @@ kind = {
 	name = "Kind"
 	type = personality
 	icon = love
-	character_type_modifiers = {
-		diplomat = {
-			skill = 1
-		}
-		statesman = {
-			skill = 1
-		}
-		spymaster = {
-			skill = -1
-		}
-		theologian = {
-			skill = 1
-		}
+	modifier = {
+		diplomacy = 1
+		intrigue = -1
 	}
 }
 
@@ -177,22 +93,9 @@ proud = {
 	name = "Proud"
 	type = personality
 	icon = heater_shield
-	character_type_modifiers = {
-		admiral = {
-			skill = 1
-		}
-		general = {
-			skill = 1
-		}
-		privateer = {
-			skill = 1
-		}
-		diplomat = {
-			skill = -1
-		}
-		statesman = {
-			skill = -1
-		}
+	modifier = {
+		diplomacy = -1
+		martial = 1
 	}
 }
 
@@ -200,25 +103,9 @@ shy = {
 	name = "Shy"
 	type = personality
 	icon = wall
-	character_type_modifiers = {
-		diplomat = {
-			skill = -1
-		}
-		merchant = {
-			skill = -1
-		}
-		natural_scientist = {
-			skill = 1
-		}
-		philosopher = {
-			skill = 1
-		}
-		statesman = {
-			skill = -1
-		}
-		theologian = {
-			skill = 1
-		}
+	modifier = {
+		diplomacy = -1
+		learning = 1
 	}
 }
 
@@ -226,21 +113,7 @@ zealous = {
 	name = "Zealous"
 	type = personality
 	icon = wooden_cross
-	character_type_modifiers = {
-		general = {
-			skill = 1
-		}
-		inquisitor = {
-			skill = 1
-		}
-		natural_scientist = {
-			skill = -1
-		}
-		philosopher = {
-			skill = -1
-		}
-		theologian = {
-			skill = 1
-		}
+	modifier = {
+		martial = 1
 	}
 }

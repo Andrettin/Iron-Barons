@@ -124,7 +124,7 @@ Item {
 							id: trait_icon
 							source: "image://icon/" + model.modelData.icon.identifier + "/small"
 							
-							readonly property string modifier_string: model.modelData.get_modifier_string(character.type)
+							readonly property string modifier_string: model.modelData.modifier_string
 							
 							MouseArea {
 								anchors.fill: parent

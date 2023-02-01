@@ -11,7 +11,7 @@ administrator = {
 		}
 	}
 	modifier = {
-		skill = 1
+		stewardship = 1
 	}
 }
 
@@ -28,7 +28,8 @@ gardener = {
 		}
 	}
 	modifier = {
-		skill = 1
+		stewardship = 1
+		learning = 1
 	}
 }
 
@@ -45,7 +46,7 @@ silver_palm = {
 		}
 	}
 	modifier = {
-		skill = 1
+		stewardship = 1
 	}
 }
 
@@ -61,7 +62,7 @@ aspiring_trader = {
 		}
 	}
 	modifier = {
-		skill = 1
+		stewardship = 1
 	}
 }
 
@@ -77,6 +78,6 @@ trader = {
 		}
 	}
 	modifier = {
-		skill = 2
+		stewardship = 2
 	}
 }

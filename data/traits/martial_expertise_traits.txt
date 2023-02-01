@@ -12,7 +12,8 @@ cartographer = {
 		}
 	}
 	modifier = {
-		skill = 1
+		martial = 1
+		learning = 1
 	}
 }
 
@@ -29,7 +30,7 @@ duelist = {
 		}
 	}
 	modifier = {
-		skill = 1
+		martial = 1
 		prowess = 1
 	}
 }
@@ -43,7 +44,7 @@ falconer = {
 		character_type = general
 	}
 	modifier = {
-		skill = 1
+		martial = 1
 	}
 }
 
@@ -62,7 +63,8 @@ game_master = {
 		}
 	}
 	modifier = {
-		skill = 1
+		diplomacy = 1
+		martial = 1
 	}
 }
 
@@ -75,7 +77,8 @@ hunter = {
 		character_type = general
 	}
 	modifier = {
-		skill = 1
+		martial = 1
+		prowess = 1
 	}
 }
 
@@ -95,7 +98,7 @@ strategist = {
 		}
 	}
 	modifier = {
-		skill = 1
+		martial = 1
 	}
 }
 
@@ -115,6 +118,6 @@ brilliant_strategist = {
 		}
 	}
 	modifier = {
-		skill = 2
+		martial = 2
 	}
 }
