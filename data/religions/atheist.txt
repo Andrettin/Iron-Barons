@@ -1,4 +1,5 @@
 atheist = {
 	name = "Atheist"
+	group = atheist
 	color = { 204 159 247 }
 }

@@ -1,4 +1,5 @@
 orthodox = {
 	name = "Orthodox"
+	group = christian
 	color = { 0 57 166 }
 }

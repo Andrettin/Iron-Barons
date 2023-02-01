@@ -1,4 +1,5 @@
 sunni = {
 	name = "Sunni"
+	group = muslim
 	color = { 36 149 51 }
 }
