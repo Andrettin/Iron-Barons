@@ -1,0 +1,3 @@
+metternich = {
+	filepath = "portraits/metternich.png"
+}

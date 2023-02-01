@@ -1,5 +1,5 @@
 statesman = {
 	name = "Statesman"
-	portrait = scholar
+	portrait = metternich
 	primary_attribute = diplomacy
 }

@@ -1,5 +1,5 @@
 banker = {
 	name = "Banker"
-	portrait = scholar
+	portrait = jakob_fugger
 	primary_attribute = stewardship
 }
