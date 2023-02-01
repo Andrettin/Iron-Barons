@@ -9,9 +9,32 @@ administrator = {
 			character_type = merchant
 			character_type = treasurer
 		}
+		not = {
+			trait = gifted_administrator
+		}
 	}
 	modifier = {
 		stewardship = 1
+	}
+}
+
+gifted_administrator = {
+	name = "Gifted Administrator"
+	type = expertise
+	icon = chest
+	level = 2
+	conditions = {
+		or = {
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
+		}
+		not = {
+			trait = administrator
+		}
+	}
+	modifier = {
+		stewardship = 2
 	}
 }
 
