@@ -9,6 +9,24 @@ arbitrary = {
 	}
 }
 
+celibate = {
+	name = "Celibate"
+	type = personality
+	icon = wooden_cross
+	modifier = {
+		learning = 1
+	}
+}
+
+chaste = {
+	name = "Chaste"
+	type = personality
+	icon = wooden_cross
+	modifier = {
+		learning = 1
+	}
+}
+
 compassionate = {
 	name = "Compassionate"
 	type = personality
