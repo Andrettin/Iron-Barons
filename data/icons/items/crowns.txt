@@ -1,0 +1,3 @@
+crown_baronial = {
+	filepath = "icons/items/crown_baronial.png"
+}

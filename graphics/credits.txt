@@ -42,6 +42,7 @@
 /graphics/icons/diplomacy/embassy.png (by Jinn) (licensed under the CC0)
 /graphics/icons/diplomacy/trade_consulate.png (by Jinn) (licensed under the CC0)
 /graphics/icons/items/bow.png (by Jinn) (licensed under the CC0)
+/graphics/icons/items/crown_baronial.png (by Jinn) (licensed under the CC0)
 /graphics/icons/items/dagger.png (by Jinn) (licensed under the CC0)
 /graphics/icons/items/dagger_bloody.png (by Jinn) (licensed under the CC0)
 /graphics/icons/items/dagger_poison.png (by Jinn) (licensed under the CC0)
