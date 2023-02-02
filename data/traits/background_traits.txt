@@ -1,0 +1,94 @@
+adventurer = {
+	name = "Adventurer"
+	type = background
+	icon = saber
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = general
+			character_type = privateer
+		}
+	}
+	modifier = {
+		martial = 1
+	}
+}
+
+monk = {
+	name = "Monk"
+	type = background
+	icon = wooden_cross
+	conditions = {
+		or = {
+			character_type = inquisitor
+			character_type = theologian
+		}
+		gender = male
+	}
+	modifier = {
+		learning = 1
+	}
+}
+
+nun = {
+	name = "Nun"
+	type = background
+	icon = wooden_cross
+	conditions = {
+		or = {
+			character_type = inquisitor
+			character_type = theologian
+		}
+		gender = female
+	}
+	modifier = {
+		learning = 1
+	}
+}
+
+peasant_leader = {
+	name = "Peasant Leader"
+	type = background
+	icon = grain
+	conditions = {
+		or = {
+			character_type = general
+			character_type = statesman
+		}
+	}
+	modifier = {
+		intrigue = -1
+	}
+}
+
+pirate = {
+	name = "Pirate"
+	type = background
+	icon = skull
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = navigator
+			character_type = privateer
+		}
+	}
+	modifier = {
+		martial = 1
+	}
+}
+
+professor = {
+	name = "Professor"
+	type = background
+	icon = university
+	conditions = {
+		or = {
+			character_type = natural_scientist
+			character_type = philosopher
+			character_type = theologian
+		}
+	}
+	modifier = {
+		learning = 1
+	}
+}
