@@ -7,6 +7,7 @@ ButtonBase {
 	height: 24 * scale_factor
 	
 	property bool allowed: true
+	readonly property int text_content_width: text.contentWidth
 	
 	signal clicked()
 	
@@ -20,6 +21,7 @@ ButtonBase {
     }
 	
 	contentItem: SmallText {
+		id: text
 		anchors.verticalCenter: button.verticalCenter
 		anchors.verticalCenterOffset: button.down && allowed ? 1 * scale_factor : 0
 		anchors.horizontalCenter: button.horizontalCenter

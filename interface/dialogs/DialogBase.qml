@@ -6,8 +6,8 @@ Popup {
 	id: dialog
 	x: parent.width / 2 - (width / 2)
 	y: parent.height / 2 - (height / 2)
-	width: 256 * metternich.scale_factor
-	height: 256 * metternich.scale_factor
+	width: default_width
+	height: default_height
 	padding: 0
 	modal: true
 	dim: false
@@ -15,6 +15,8 @@ Popup {
 	closePolicy: Popup.NoAutoClose
 	clip: true
 	
+	readonly property int default_width: 256 * metternich.scale_factor
+	readonly property int default_height: 256 * metternich.scale_factor
 	property string interface_style: "default"
 	property int panel: 1
 	property string title: ""

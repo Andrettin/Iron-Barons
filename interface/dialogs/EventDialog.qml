@@ -5,7 +5,12 @@ import ".."
 DialogBase {
 	id: event_dialog
 	panel: 5
+	width: Math.max(content_width, default_width)
+	height: Math.max(content_height, default_height)
 	title: event_instance ? event_instance.name : ""
+	
+	readonly property int content_width: calculate_max_button_width(option_grid) + 8 * scale_factor * 2
+	readonly property int content_height: description.y + description.contentHeight + 8 * scale_factor + option_grid.height + 8 * metternich.scale_factor
 	
 	property var event_instance: null
 	readonly property var option_names: event_instance ? event_instance.option_names : []
@@ -13,9 +18,18 @@ DialogBase {
 	
 	property bool option_picked: false
 	
+	PortraitButton {
+		id: portrait
+		anchors.top: title_item.bottom
+		anchors.topMargin: 16 * metternich.scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		portrait_identifier: (event_instance && event_instance.event && event_instance.event.portrait) ? event_instance.event.portrait.identifier : ""
+		visible: portrait_identifier.length > 0
+	}
+	
 	SmallText {
 		id: description
-		anchors.top: title_item.bottom
+		anchors.top: portrait.visible ? portrait.bottom : title_item.bottom
 		anchors.topMargin: 16 * metternich.scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 8 * metternich.scale_factor
@@ -74,5 +88,21 @@ DialogBase {
 				event_dialog.destroy()
 			}
 		}
+	}
+	
+	function calculate_max_button_width(button_container) {
+		var max_button_width = 0
+		var button_margin_width = 4 * scale_factor * 2
+		
+		for (var i = 0; i < button_container.children.length; ++i) {
+			var child_item = button_container.children[i]
+			var button_text_content_width = child_item.text_content_width
+			
+			if (button_text_content_width !== undefined) {
+				max_button_width = Math.max(max_button_width, button_text_content_width + button_margin_width)
+			}
+		}
+		
+		return max_button_width
 	}
 }
