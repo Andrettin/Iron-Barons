@@ -19,6 +19,7 @@ PortraitButton {
 		+ (character.game_data.learning > 0 ? ("\nLearning: " + character.game_data.learning) : "")
 		+ (character.game_data.wealth !== 0 ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
 		+ (character.game_data.prestige !== 0 ? ("\nPrestige: " + number_string(character.game_data.prestige)) : "")
+		+ (character.game_data.piety !== 0 ? ("\nPiety: " + number_string(character.game_data.piety)) : "")
 		+ (((character.game_data.ruler || character.game_data.office) && country_modifier_tooltip.length > 0) ? "\nCountry Modifier:\n" + country_modifier_tooltip : "")
 	))) : ""
 	
