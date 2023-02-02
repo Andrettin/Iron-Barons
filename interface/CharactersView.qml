@@ -141,7 +141,7 @@ Item {
 						
 						Image {
 							id: modifier_icon
-							source: "image://icon/" + scripted_modifier.icon.identifier + "/small/green"
+							source: "image://icon/" + scripted_modifier.icon.identifier + "/small/" + (scripted_modifier.negative ? "red" : "green")
 							
 							readonly property var scripted_modifier: model.modelData.key
 							readonly property int duration: model.modelData.value
