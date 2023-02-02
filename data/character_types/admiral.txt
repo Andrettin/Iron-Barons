@@ -3,6 +3,6 @@ admiral = {
 	portrait = sailor
 	primary_attribute = martial
 	country_modifier = {
-		naval_morale_loss_reduction = 5
+		naval_morale_resistance = 5
 	}
 }
