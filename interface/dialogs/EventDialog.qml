@@ -9,7 +9,8 @@ DialogBase {
 	height: Math.max(content_height, default_height)
 	title: event_instance ? event_instance.name : ""
 	
-	readonly property int content_width: calculate_max_button_width(option_grid) + 8 * scale_factor * 2
+	readonly property int max_button_width: calculate_max_button_width(option_grid) + 8 * scale_factor * 2
+	readonly property int content_width: Math.max(max_button_width, title_item.contentWidth + 8 * scale_factor * 2)
 	readonly property int content_height: description.y + description.contentHeight + 8 * scale_factor + option_grid.height + 8 * metternich.scale_factor
 	
 	property var event_instance: null
