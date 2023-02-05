@@ -35,7 +35,6 @@ Window {
 		ToolTip.toolTip.font.pixelSize: 12 * scale_factor
 		ToolTip.toolTip.background: Rectangle {
 			color: "black"
-			opacity: 0.90
 			border.color: "gray"
 			border.width: 1
 			radius: 5 * scale_factor
