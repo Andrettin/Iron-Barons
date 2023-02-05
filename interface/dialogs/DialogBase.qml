@@ -4,8 +4,8 @@ import ".."
 
 Popup {
 	id: dialog
-	x: parent.width / 2 - (width / 2)
-	y: parent.height / 2 - (height / 2)
+	x: Math.floor(parent.width / 2 - (width / 2))
+	y: Math.floor(parent.height / 2 - (height / 2))
 	width: default_width
 	height: default_height
 	padding: 0
