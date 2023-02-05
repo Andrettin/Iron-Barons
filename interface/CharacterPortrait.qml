@@ -20,12 +20,12 @@ PortraitButton {
 		+ (character.game_data.wealth !== 0 ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
 		+ (character.game_data.prestige !== 0 ? ("\nPrestige: " + number_string(character.game_data.prestige)) : "")
 		+ (character.game_data.piety !== 0 ? ("\nPiety: " + number_string(character.game_data.piety)) : "")
-		+ (((character.game_data.ruler || character.game_data.office) && country_modifier_tooltip.length > 0) ? "\nCountry Modifier:\n" + country_modifier_tooltip : "")
+		+ (((character.game_data.ruler || character.game_data.office) && country_modifier_tooltip.length > 0) ? "\n\nCountry Modifier:\n" + country_modifier_tooltip : "")
 	))) : ""
 	
 	property var character: null
 	readonly property string character_landed_titles_tooltip: character ? string_list_to_string(get_character_landed_titles_tooltip(character.game_data.landed_titles), "\n") : ""
-	readonly property string country_modifier_tooltip: character ? character.game_data.country_modifier_string : ""
+	readonly property string country_modifier_tooltip: character ? character.game_data.get_country_modifier_string(0) : ""
 	
 	function get_character_landed_titles_tooltip(landed_titles) {
 		var str_list = []
