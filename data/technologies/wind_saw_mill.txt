@@ -1,0 +1,4 @@
+wind_saw_mill = {
+	name = "Wind Saw Mill"
+	icon = lumber
+}
