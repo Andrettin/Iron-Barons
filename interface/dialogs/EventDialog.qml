@@ -57,14 +57,7 @@ DialogBase {
 				id: option_button
 				text: model.modelData
 				width: event_dialog.width - 16 * scale_factor
-				
-				onHoveredChanged: {
-					if (hovered) {
-						status_text = format_text(option_tooltips[index])
-					} else {
-						status_text = ""
-					}
-				}
+				tooltip: format_text(small_text(option_tooltips[index]))
 				
 				onClicked: {
 					if (option_picked) {
