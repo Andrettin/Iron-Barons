@@ -176,6 +176,8 @@ Item {
 		anchors.leftMargin: 12 * scale_factor
 		text: province_game_data ? (
 			"Population: " + number_string(province_game_data.population)
+			 + "\nConsciousness: " + province_game_data.consciousness
+			 + "\nMilitancy: " + province_game_data.militancy
 		) : ""
 		visible: selected_site && selected_site.settlement
 		
