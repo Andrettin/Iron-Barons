@@ -2,4 +2,7 @@ artist = {
 	name = "Artist"
 	portrait = scholar
 	primary_attribute = learning
+	country_modifier = {
+		quarterly_prestige = 0.5
+	}
 }
