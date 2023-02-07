@@ -6,7 +6,8 @@ Item {
 	
 	enum Mode {
 		Researched,
-		Available
+		Available,
+		Future
 	}
 	
 	property int mode: TechnologyView.Mode.Available
@@ -37,6 +38,18 @@ Item {
 		}
 	}
 	
+	IconButton {
+		id: future_mode_button
+		anchors.top: available_mode_button.bottom
+		anchors.right: researched_mode_button.right
+		icon_identifier: "research"
+		tooltip: "Future Technologies"
+		
+		onReleased: {
+			technology_view.mode = TechnologyView.Mode.Future
+		}
+	}
+	
 	ListView {
 		id: technology_list
 		anchors.left: parent.left
@@ -47,7 +60,9 @@ Item {
 		height: Math.min(contentHeight, parent.height - y - (parent.height - back_button.y) - 16 * scale_factor)
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		model: technology_view.mode === TechnologyView.Mode.Researched ? metternich.game.player_country.game_data.technologies : metternich.game.player_country.game_data.available_technologies
+		model: technology_view.mode === TechnologyView.Mode.Researched ? metternich.game.player_country.game_data.technologies : (
+			technology_view.mode === TechnologyView.Mode.Available ? metternich.game.player_country.game_data.available_technologies : metternich.game.player_country.game_data.future_technologies
+		)
 		delegate: Item {
 			width: portrait.width / 2 + technology_rectangle.width
 			height: portrait.height
