@@ -2,4 +2,11 @@ etruscan = {
 	name = "Etruscan"
 	group = western
 	color = { 48 30 180 }
+	
+	history = {
+		-750 = {
+			#the usage of an arch in construction was first properly developed by the Etruscans c. 750 BC; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 93-94.
+			technologies += architecture
+		}
+	}
 }

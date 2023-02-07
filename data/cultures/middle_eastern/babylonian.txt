@@ -2,4 +2,11 @@ babylonian = {
 	name = "Babylonian"
 	group = mesopotamian
 	color = { 27 73 157 }
+	
+	history = {
+		-1800 = {
+			#the Sumerian/Babylonian numerical system was developed around 1800 BC; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 82.
+			technologies += mathematics
+		}
+	}
 }
