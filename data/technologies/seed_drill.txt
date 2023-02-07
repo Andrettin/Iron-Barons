@@ -1,4 +1,8 @@
 seed_drill = {
 	name = "Seed Drill"
 	icon = grain
+	prerequisites = {
+		iron_plow
+		mathematics
+	}
 }

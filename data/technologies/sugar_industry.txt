@@ -3,5 +3,6 @@ sugar_industry = {
 	icon = sugar_cane
 	prerequisites = {
 		sugar_cane
+		mathematics
 	}
 }

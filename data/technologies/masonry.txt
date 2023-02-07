@@ -1,0 +1,4 @@
+masonry = {
+	name = "Masonry"
+	icon = architecture
+}

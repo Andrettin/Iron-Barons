@@ -1,0 +1,9 @@
+architecture = {
+	name = "Architecture"
+	icon = architecture
+	prerequisites = {
+		masonry
+		mathematics
+		writing
+	}
+}

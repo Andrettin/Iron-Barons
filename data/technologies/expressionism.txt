@@ -1,4 +1,7 @@
 expressionism = {
 	name = "Expressionism"
 	icon = music
+	prerequisites = {
+		writing
+	}
 }

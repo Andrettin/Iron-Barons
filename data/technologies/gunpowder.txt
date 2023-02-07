@@ -1,0 +1,4 @@
+gunpowder = {
+	name = "Gunpowder"
+	icon = coal
+}

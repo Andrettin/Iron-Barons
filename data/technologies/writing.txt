@@ -1,0 +1,4 @@
+writing = {
+	name = "Writing"
+	icon = treaty
+}

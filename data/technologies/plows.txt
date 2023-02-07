@@ -1,0 +1,20 @@
+wood_plow = {
+	name = "Wood Plow"
+	icon = grain
+}
+
+iron_tipped_wood_plow = {
+	name = "Iron-Tipped Wood Plow"
+	icon = grain
+	prerequisites = {
+		wood_plow
+	}
+}
+
+iron_plow = {
+	name = "Iron Plow"
+	icon = grain
+	prerequisites = {
+		iron_tipped_wood_plow
+	}
+}

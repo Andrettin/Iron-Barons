@@ -1,0 +1,4 @@
+coinage = {
+	name = "Coinage"
+	icon = wealth
+}

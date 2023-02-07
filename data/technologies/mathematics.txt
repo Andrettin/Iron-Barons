@@ -1,0 +1,4 @@
+mathematics = {
+	name = "Mathematics"
+	icon = cog
+}
