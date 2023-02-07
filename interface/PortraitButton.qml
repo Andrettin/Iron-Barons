@@ -6,9 +6,10 @@ ButtonBase {
 	id: button
 	width: portrait_image.width + 2 * scale_factor
 	height: portrait_image.height + 2 * scale_factor
-	radius: width * 0.5
+	radius: circle ? (width * 0.5) : 5 * scale_factor
 	
 	property string portrait_identifier: ""
+	property bool circle: false
 	property color background_color: "black"
 	property color border_color: "gray"
 	
@@ -38,7 +39,7 @@ ButtonBase {
         anchors.fill: portrait_image
 		width: portrait_image.width
 		height: portrait_image.height
-		radius: width * 0.5
+		radius: button.radius
 		visible: false
 	}
 	
