@@ -42,7 +42,7 @@ Item {
 		id: future_mode_button
 		anchors.top: available_mode_button.bottom
 		anchors.right: researched_mode_button.right
-		icon_identifier: "research"
+		icon_identifier: "philosophy"
 		tooltip: "Future Technologies"
 		
 		onReleased: {
