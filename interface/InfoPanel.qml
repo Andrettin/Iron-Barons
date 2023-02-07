@@ -18,8 +18,8 @@ Item {
 	IconButton {
 		id: characters_button
 		anchors.top: capital_settlement_button.top
-		anchors.right: capital_settlement_button.left
-		anchors.rightMargin: 8 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "rifle_infantry_light_small"
 		
 		onReleased: {
@@ -39,7 +39,8 @@ Item {
 		id: capital_settlement_button
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.left: characters_button.right
+		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "settlement"
 		
 		onReleased: {
@@ -62,7 +63,7 @@ Item {
 		id: diplomatic_map_button
 		anchors.top: capital_settlement_button.top
 		anchors.left: capital_settlement_button.right
-		anchors.leftMargin: 8 * scale_factor
+		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "globe"
 		
 		onReleased: {
@@ -75,6 +76,26 @@ Item {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "View Diplomatic Map"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: technology_button
+		anchors.top: diplomatic_map_button.top
+		anchors.left: diplomatic_map_button.right
+		anchors.leftMargin: 4 * scale_factor
+		icon_identifier: "cog"
+		
+		onReleased: {
+			menu_stack.push("TechnologyView.qml")
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Technologies"
 			} else {
 				status_text = ""
 			}
