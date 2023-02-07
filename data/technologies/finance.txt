@@ -1,0 +1,39 @@
+moneylending = {
+	name = "Moneylending"
+	icon = wealth
+	prerequisites = {
+		coinage
+	}
+}
+
+banking = {
+	name = "Banking"
+	icon = wealth
+	prerequisites = {
+		moneylending
+	}
+}
+
+stock_exchange = {
+	name = "Stock Exchange"
+	icon = wealth
+	prerequisites = {
+		banking
+	}
+}
+
+business_banking = {
+	name = "Business Banking"
+	icon = wealth
+	prerequisites = {
+		stock_exchange
+	}
+}
+
+investment_banking = {
+	name = "Investment Banking"
+	icon = wealth
+	prerequisites = {
+		business_banking
+	}
+}
