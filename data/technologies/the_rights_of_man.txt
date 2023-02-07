@@ -2,6 +2,6 @@ the_rights_of_man = {
 	name = "The Rights of Man"
 	icon = treaty
 	prerequisites = {
-		writing
+		enlightenment_philosophy
 	}
 }

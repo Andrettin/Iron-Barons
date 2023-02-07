@@ -3,6 +3,7 @@ cotton_gin = {
 	icon = cotton
 	prerequisites = {
 		cotton
-		mathematics
+		engineering
+		scientific_method
 	}
 }

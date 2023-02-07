@@ -1,0 +1,3 @@
+iron = {
+	filepath = "icons/commodities/iron.png"
+}

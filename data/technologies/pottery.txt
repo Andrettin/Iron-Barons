@@ -1,0 +1,4 @@
+pottery = {
+	name = "Pottery"
+	icon = cog
+}

@@ -1,0 +1,42 @@
+philosophy = {
+	name = "Philosophy"
+	icon = philosophy
+	prerequisites = {
+		writing
+	}
+}
+
+logics = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 111.
+	name = "Logics"
+	icon = philosophy
+	prerequisites = {
+		philosophy
+	}
+}
+
+natural_philosophy = {
+	name = "Natural Philosophy"
+	icon = philosophy
+	prerequisites = {
+		philosophy
+		mathematics
+		alchemy
+		logics
+	}
+}
+
+scientific_method = {
+	name = "Scientific Method"
+	icon = research
+	prerequisites = {
+		natural_philosophy
+	}
+}
+
+enlightenment_philosophy = {
+	name = "Enlightenment Philosophy"
+	icon = philosophy
+	prerequisites = {
+		scientific_method
+	}
+}

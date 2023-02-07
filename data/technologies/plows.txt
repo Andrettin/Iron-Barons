@@ -8,6 +8,7 @@ iron_tipped_wood_plow = {
 	icon = grain
 	prerequisites = {
 		wood_plow
+		ironworking
 	}
 }
 

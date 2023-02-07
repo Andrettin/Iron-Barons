@@ -1,0 +1,34 @@
+alchemy = {
+	name = "Alchemy"
+	icon = cog
+	prerequisites = {
+		philosophy
+		mathematics
+		ironworking
+	}
+}
+
+medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 85-86.
+	name = "Medicine"
+	icon = heart
+	prerequisites = {
+		philosophy
+	}
+}
+
+chemistry = {
+	name = "Chemistry"
+	icon = cog
+	prerequisites = {
+		alchemy
+		scientific_method
+	}
+}
+
+gunpowder = {
+	name = "Gunpowder"
+	icon = coal
+	prerequisites = {
+		chemistry
+	}
+}

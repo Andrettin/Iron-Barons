@@ -3,6 +3,7 @@ seed_drill = {
 	icon = grain
 	prerequisites = {
 		iron_plow
-		mathematics
+		engineering
+		scientific_method
 	}
 }

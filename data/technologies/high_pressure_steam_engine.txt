@@ -3,6 +3,7 @@ high_pressure_steam_engine = {
 	icon = railroad
 	#required for railroads
 	prerequisites = {
-		mathematics
+		engineering
+		scientific_method
 	}
 }

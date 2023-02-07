@@ -1,0 +1,23 @@
+bronzeworking = {
+	name = "Bronzeworking"
+	icon = copper
+	prerequisites = {
+		pottery #because of ceramic casting molds
+	}
+}
+
+ironworking = {
+	name = "Ironworking"
+	icon = iron
+	prerequisites = {
+		bronzeworking
+	}
+}
+
+amalgamation_process = {
+	name = "Amalgamation Process"
+	icon = silver
+	prerequisites = {
+		chemistry
+	}
+}

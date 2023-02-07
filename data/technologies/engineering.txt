@@ -1,0 +1,10 @@
+engineering = {
+	name = "Engineering"
+	icon = cog
+	prerequisites = {
+		wheel
+		mathematics
+		masonry
+		ironworking
+	}
+}

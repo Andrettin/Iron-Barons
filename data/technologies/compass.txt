@@ -2,6 +2,6 @@ compass = {
 	name = "Compass"
 	icon = compass
 	prerequisites = {
-		mathematics
+		engineering
 	}
 }

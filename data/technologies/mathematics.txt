@@ -1,4 +1,15 @@
 mathematics = {
 	name = "Mathematics"
-	icon = cog
+	icon = research
+	prerequisites = {
+		writing
+	}
+}
+
+ballistics = {
+	name = "Ballistics"
+	icon = research
+	prerequisites = {
+		mathematics
+	}
 }
