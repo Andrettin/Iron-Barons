@@ -3,10 +3,14 @@ beautiful_statuette = {
 	description = "One of our master bronzesmiths has made a beautiful statuette! The striking masterpiece has caught the eyes of many, and will fetch a good price."
 	trigger = quarterly_pulse
 	random = true
+	conditions = {
+		technology = bronzeworking
+	}
 	option = {
 		name = "Marvelous!"
 		effects = {
 			wealth += 500
+			prestige += 1
 		}
 	}
 }
