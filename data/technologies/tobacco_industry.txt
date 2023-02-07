@@ -1,0 +1,9 @@
+tobacco_industry = {
+	name = "Tobacco Industry"
+	icon = tobacco
+	prerequisites = {
+		tobacco
+		engineering
+		scientific_method
+	}
+}

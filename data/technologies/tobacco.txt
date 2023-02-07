@@ -1,0 +1,4 @@
+tobacco = {
+	name = "Tobacco"
+	icon = tobacco
+}
