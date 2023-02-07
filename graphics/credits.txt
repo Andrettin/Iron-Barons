@@ -126,6 +126,7 @@
 /graphics/portraits/jakob_fugger.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/metternich.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/sailor.png (by Exidelo) (licensed under the CC0)
+/graphics/portraits/sailor_player_color.png (by Exidelo) (licensed under the CC0)
 /graphics/portraits/scholar.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/slot.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/slot_large.png (by Jinn) (licensed under the CC0)
