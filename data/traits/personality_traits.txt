@@ -18,6 +18,15 @@ celibate = {
 	}
 }
 
+charitable = {
+	name = "Charitable"
+	type = personality
+	icon = golden_cross
+	modifier = {
+		diplomacy = 1
+	}
+}
+
 chaste = {
 	name = "Chaste"
 	type = personality
@@ -87,6 +96,15 @@ greedy = {
 	}
 }
 
+gregarious = {
+	name = "Gregarious"
+	type = personality
+	icon = music
+	modifier = {
+		diplomacy = 1
+	}
+}
+
 just = {
 	name = "Just"
 	type = personality
@@ -124,6 +142,26 @@ shy = {
 	modifier = {
 		diplomacy = -1
 		learning = 1
+	}
+}
+
+temperate = {
+	name = "Temperate"
+	type = personality
+	icon = philosophy
+	modifier = {
+		stewardship = 1
+	}
+}
+
+wroth = {
+	name = "Wroth"
+	type = personality
+	icon = blood
+	modifier = {
+		diplomacy = -1
+		martial = 1
+		intrigue = -1
 	}
 }
 
