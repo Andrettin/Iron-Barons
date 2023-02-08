@@ -4,7 +4,7 @@ import QtGraphicalEffects 1.12
 
 PortraitButton {
 	id: portrait
-	portrait_identifier: character ? character.portrait.identifier : "no_character"
+	portrait_identifier: character ? character.game_data.portrait.identifier : "no_character"
 	circle: true
 	tooltip: character ? (character.full_name + format_text(small_text("\n"
 		+ (character_landed_titles_tooltip.length > 0 ? ("\n" + character_landed_titles_tooltip) : "")
