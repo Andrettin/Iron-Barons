@@ -17,6 +17,7 @@ clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutz
 	type = diplomat
 	culture = german #Rhenish
 	religion = catholic
+	portrait = metternich
 	home_province = lower_austria
 	gender = male
 	father = franz_georg_von_metternich

@@ -142,6 +142,8 @@
 /graphics/portraits/trading_post_large.png (by Jinn) (licensed under the CC0) (reference: Oostershuis, the Hanseatic kontor in Antwerp)
 /graphics/portraits/university.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/university_large.png (by Jinn) (licensed under the CC0) (reference: University of Vienna)
+/graphics/portraits/wilhelmine_von_sagan.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/wilhelmine_von_sagan_no_makeup.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/borders/province_border.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/cattle_ranch.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/improvements/coffee_plantation.png (by Jinn) (licensed under the CC0)

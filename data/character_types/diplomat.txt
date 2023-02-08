@@ -1,5 +1,13 @@
 diplomat = {
 	name = "Diplomat"
 	portrait = metternich
+	conditional_portraits = {
+		metternich = {
+			gender = male
+		}
+		wilhelmine_von_sagan = {
+			gender = female
+		}
+	}
 	primary_attribute = diplomacy
 }

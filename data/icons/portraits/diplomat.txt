@@ -1,3 +1,7 @@
 metternich = {
 	filepath = "portraits/metternich.png"
 }
+
+wilhelmine_von_sagan = {
+	filepath = "portraits/wilhelmine_von_sagan.png"
+}
