@@ -1,3 +1,23 @@
+has_terrible_stewardship = {
+	stewardship >= 1
+}
+
+has_poor_stewardship = {
+	stewardship >= 2
+}
+
+has_average_stewardship = {
+	stewardship >= 3
+}
+
+has_good_stewardship = {
+	stewardship >= 4
+}
+
+has_excellent_stewardship = {
+	stewardship >= 5
+}
+
 has_terrible_learning = {
 	learning >= 1
 }
