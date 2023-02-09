@@ -18,6 +18,7 @@ PortraitButton {
 		+ (character.game_data.stewardship > 0 ? ("\nStewardship: " + character.game_data.stewardship) : "")
 		+ (character.game_data.intrigue > 0 ? ("\nIntrigue: " + character.game_data.intrigue) : "")
 		+ (character.game_data.learning > 0 ? ("\nLearning: " + character.game_data.learning) : "")
+		+ (!character.game_data.ruler ? ("\nLoyalty: " + character.game_data.loyalty + "%") : "")
 		+ (character.game_data.wealth !== 0 && !character.game_data.ruler ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
 		+ (character.game_data.prestige !== 0 && !character.game_data.ruler ? ("\nPrestige: " + number_string(character.game_data.prestige)) : "")
 		+ (character.game_data.piety !== 0 && !character.game_data.ruler ? ("\nPiety: " + number_string(character.game_data.piety)) : "")
