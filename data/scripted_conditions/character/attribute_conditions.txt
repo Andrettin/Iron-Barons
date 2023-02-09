@@ -1,0 +1,19 @@
+has_terrible_learning = {
+	learning >= 1
+}
+
+has_poor_learning = {
+	learning >= 2
+}
+
+has_average_learning = {
+	learning >= 3
+}
+
+has_good_learning = {
+	learning >= 4
+}
+
+has_excellent_learning = {
+	learning >= 5
+}
