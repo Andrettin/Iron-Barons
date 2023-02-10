@@ -1,3 +1,23 @@
+has_terrible_diplomacy = {
+	diplomacy >= 1
+}
+
+has_poor_diplomacy = {
+	diplomacy >= 2
+}
+
+has_average_diplomacy = {
+	diplomacy >= 3
+}
+
+has_good_diplomacy = {
+	diplomacy >= 4
+}
+
+has_excellent_diplomacy = {
+	diplomacy >= 5
+}
+
 has_terrible_stewardship = {
 	stewardship >= 1
 }
