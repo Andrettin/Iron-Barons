@@ -11,6 +11,7 @@ adventurer = {
 	}
 	modifier = {
 		martial = 1
+		prowess = 1
 	}
 }
 
@@ -74,6 +75,7 @@ pirate = {
 	}
 	modifier = {
 		martial = 1
+		prowess = 1
 	}
 }
 
