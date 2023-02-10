@@ -1,0 +1,164 @@
+dagger = {
+	name = "Dagger"
+	type = weapon
+	icon = dagger
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = artist
+			character_type = banker
+			character_type = diplomat
+			character_type = general
+			character_type = high_judge
+			character_type = merchant
+			character_type = military_engineer
+			character_type = natural_scientist
+			character_type = navigator
+			character_type = philosopher
+			character_type = privateer
+			character_type = spymaster
+			character_type = statesman
+			character_type = treasurer
+		}
+	}
+	generation_conditions = {
+		technology = bronzeworking
+	}
+	modifier = {
+		prowess = 1
+	}
+}
+
+short_sword = {
+	name = "Short Sword"
+	type = weapon
+	icon = saber
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = artist
+			character_type = banker
+			character_type = diplomat
+			character_type = general
+			character_type = high_judge
+			character_type = merchant
+			character_type = military_engineer
+			character_type = natural_scientist
+			character_type = navigator
+			character_type = philosopher
+			character_type = privateer
+			character_type = spymaster
+			character_type = statesman
+			character_type = treasurer
+		}
+	}
+	generation_conditions = {
+		technology = bronzeworking
+		not = {
+			technology = gunpowder
+		}
+	}
+	modifier = {
+		prowess = 2
+	}
+}
+
+longsword = {
+	name = "Longsword"
+	type = weapon
+	icon = saber
+	conditions = {
+		or = {
+			character_type = admiral
+			character_type = artist
+			character_type = banker
+			character_type = diplomat
+			character_type = general
+			character_type = high_judge
+			character_type = merchant
+			character_type = military_engineer
+			character_type = natural_scientist
+			character_type = navigator
+			character_type = philosopher
+			character_type = privateer
+			character_type = spymaster
+			character_type = statesman
+			character_type = treasurer
+		}
+	}
+	generation_conditions = {
+		technology = ironworking
+		not = {
+			technology = gunpowder
+		}
+	}
+	modifier = {
+		prowess = 3
+	}
+}
+
+battle_axe = {
+	name = "Battle Axe"
+	type = weapon
+	icon = hammer
+	conditions = {
+		character_type = general
+	}
+	generation_conditions = {
+		technology = bronzeworking
+		not = {
+			technology = gunpowder
+		}
+	}
+	modifier = {
+		prowess = 2
+	}
+}
+
+mace = {
+	name = "Mace"
+	type = weapon
+	icon = saber
+	conditions = {
+		or = {
+			character_type = inquisitor
+			character_type = theologian
+		}
+	}
+	generation_conditions = {
+		technology = bronzeworking
+		not = {
+			technology = gunpowder
+		}
+	}
+	modifier = {
+		prowess = 2
+	}
+}
+
+quarterstaff = {
+	name = "Quarterstaff"
+	type = weapon
+	icon = hammer
+	conditions = {
+		or = {
+			character_type = natural_scientist
+			character_type = philosopher
+		}
+	}
+	modifier = {
+		prowess = 1
+	}
+}
+
+bow = {
+	name = "Bow"
+	type = weapon
+	icon = bow
+	conditions = {
+		character_type = general
+	}
+	modifier = {
+		prowess = 2
+	}
+}
