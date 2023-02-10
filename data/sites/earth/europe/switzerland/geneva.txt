@@ -4,4 +4,10 @@ geneva = {
 	geocoordinate = { 6.14002803409 46.21000754710 } #from Natural Earth
 	pos_offset = { 1 -2 }
 	type = settlement
+	
+	history = {
+		1559 = {
+			buildings += university #Calvin's Academy (the University of Geneva) was founded in 1559; Source: Henry Kamen, "Early Modern European Society", 2021, p. 296.
+		}
+	}
 }

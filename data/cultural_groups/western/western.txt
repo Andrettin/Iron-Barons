@@ -13,5 +13,10 @@ western = {
 			#the Englishman Roger Bacon wrote about gunpowder in 1249; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 169-170.
 			technologies += gunpowder
 		}
+		
+		1480 = {
+			#by 1480 there were printing presses in 100+ European towns; Source: Henry Kamen, "Early Modern European Society", 2021, p. 286.
+			technologies += printing_press
+		}
 	}
 }
