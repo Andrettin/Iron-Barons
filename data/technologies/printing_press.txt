@@ -1,0 +1,8 @@
+printing_press = {
+	name = "Printing Press"
+	icon = newspaper
+	prerequisites = {
+		engineering
+		scientific_method
+	}
+}

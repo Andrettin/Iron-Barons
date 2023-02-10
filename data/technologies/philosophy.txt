@@ -38,5 +38,6 @@ enlightenment_philosophy = {
 	icon = philosophy
 	prerequisites = {
 		scientific_method
+		printing_press
 	}
 }
