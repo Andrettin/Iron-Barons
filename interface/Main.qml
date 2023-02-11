@@ -233,11 +233,11 @@ Window {
 		return str
 	}
 	
-	function object_list_to_name_list(object_list) {
+	function object_list_to_name_list(object_list, prefix = "") {
 		var name_list = []
 		
 		for (var object of object_list) {
-			name_list.push(object.name)
+			name_list.push(prefix + object.name)
 		}
 		
 		return name_list

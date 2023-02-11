@@ -100,7 +100,13 @@ Item {
 			IconButton {
 				id: portrait
 				icon_identifier: technology.icon.identifier
-				tooltip: technology.name
+				tooltip: technology.name + ((modifier_string.length + enabled_improvements_string.length) > 0 ? format_text(small_text("\n"
+					+ (modifier_string.length > 0 ? ("\n" + modifier_string) : "")
+					+ (enabled_improvements_string.length > 0 ? ("\n" + enabled_improvements_string) : "")
+				)) : "")
+				
+				readonly property string modifier_string: technology.modifier_string
+				readonly property string enabled_improvements_string: technology.enabled_improvements.length > 0 ? string_list_to_string(object_list_to_name_list(technology.enabled_improvements, "Enables "), "\n") : ""
 			}
 		}
 	}
