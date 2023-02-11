@@ -3,4 +3,5 @@ sugar_plantation = {
 	resource = sugar_cane
 	image_filepath = "tiles/improvements/sugar_plantation.png"
 	output_multiplier = 1
+	required_technology = sugar_cane
 }
