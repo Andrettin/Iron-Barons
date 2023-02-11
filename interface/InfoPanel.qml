@@ -149,7 +149,10 @@ Item {
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: selected_site ? (
 			selected_site.settlement ? "Settlement" : (
-				selected_site.game_data.improvement ? selected_site.game_data.improvement.name : (
+				selected_site.game_data.improvement ? (
+					selected_site.game_data.improvement.name
+					+ (selected_site.game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site.game_data.production_modifier) + "%") : "")
+				) : (
 					selected_site.resource ? selected_site.resource.name : ""
 				)
 			)

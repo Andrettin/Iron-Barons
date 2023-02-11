@@ -143,6 +143,13 @@ Window {
 		return str
 	}
 	
+	function signed_number_string(n) {
+		if (n < 0) {
+			return 0
+		}
+		return "+" + n
+	}
+	
 	function date_string(date) {
 		var year_str = date_year_string(date)
 		var season_str = date_season_string(date)
