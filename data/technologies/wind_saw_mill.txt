@@ -4,4 +4,7 @@ wind_saw_mill = {
 	prerequisites = {
 		engineering
 	}
+	modifier = {
+		lumber_production = 100
+	}
 }
