@@ -151,7 +151,6 @@ Item {
 			selected_site.settlement ? "Settlement" : (
 				selected_site.game_data.improvement ? (
 					selected_site.game_data.improvement.name
-					+ (selected_site.game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site.game_data.production_modifier) + "%") : "")
 				) : (
 					selected_site.resource ? selected_site.resource.name : ""
 				)
@@ -193,19 +192,23 @@ Item {
 	}
 	
 	SmallText {
-		id: settlement_info_text
-		anchors.top: culture_chart.bottom
-		anchors.topMargin: 8 * scale_factor
+		id: site_info_text
+		anchors.top: province_game_data ? culture_chart.bottom : subtitle.bottom
+		anchors.topMargin: (province_game_data ? 8 : 16) * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 12 * scale_factor
 		text: province_game_data ? (
 			"Population: " + number_string(province_game_data.population)
 			 + "\nConsciousness: " + province_game_data.consciousness
 			 + "\nMilitancy: " + province_game_data.militancy
-		) : ""
-		visible: selected_site && selected_site.settlement
+		) : (selected_site_game_data ? (
+			(selected_site_game_data.employment_capacity > 0 ? ("Employees: " + selected_site_game_data.employee_count + "/" + selected_site_game_data.employment_capacity) : "")
+			+ (selected_site_game_data.employment_capacity > 0 && selected_site_game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site_game_data.production_modifier) + "%") : "")
+		) : "")
+		visible: selected_site
 		
-		readonly property var province_game_data: (selected_site && selected_site.settlement) ? selected_site.game_data.province.game_data : null
+		readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
+		readonly property var province_game_data: (selected_site && selected_site.settlement) ? selected_site_game_data.province.game_data : null
 	}
 	
 	SmallText {
