@@ -1,0 +1,10 @@
+scientific_cattle_breeding = {
+	name = "Scientific Cattle Breeding"
+	icon = cattle
+	prerequisites = {
+		scientific_method
+	}
+	modifier = {
+		livestock_production = 100
+	}
+}

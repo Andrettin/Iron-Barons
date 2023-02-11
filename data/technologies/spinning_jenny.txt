@@ -5,4 +5,7 @@ spinning_jenny = {
 		engineering
 		scientific_method
 	}
+	modifier = {
+		fabric_production = 100
+	}
 }

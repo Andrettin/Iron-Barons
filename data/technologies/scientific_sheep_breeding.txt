@@ -1,0 +1,10 @@
+scientific_sheep_breeding = {
+	name = "Scientific Sheep Breeding"
+	icon = wool
+	prerequisites = {
+		scientific_method
+	}
+	modifier = {
+		wool_production = 100
+	}
+}
