@@ -20,4 +20,8 @@ amalgamation_process = {
 	prerequisites = {
 		chemistry
 	}
+	modifier = {
+		silver_production = 100
+		gold_production = 100
+	}
 }
