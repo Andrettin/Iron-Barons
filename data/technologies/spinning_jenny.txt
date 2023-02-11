@@ -1,0 +1,8 @@
+spinning_jenny = {
+	name = "Spinning Jenny"
+	icon = fabric
+	prerequisites = {
+		engineering
+		scientific_method
+	}
+}

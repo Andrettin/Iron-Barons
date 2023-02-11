@@ -7,3 +7,11 @@ high_pressure_steam_engine = {
 		scientific_method
 	}
 }
+
+compound_steam_engine = {
+	name = "Compound Steam Engine"
+	icon = railroad
+	prerequisites = {
+		high_pressure_steam_engine
+	}
+}

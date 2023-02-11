@@ -1,3 +1,11 @@
+masonry = {
+	name = "Masonry"
+	icon = architecture
+	prerequisites = {
+		pottery
+	}
+}
+
 architecture = {
 	name = "Architecture"
 	icon = architecture

@@ -100,7 +100,7 @@ Item {
 			IconButton {
 				id: portrait
 				icon_identifier: technology.icon.identifier
-				tooltip: technology.name + ((modifier_string.length + enabled_buildings_string.length > 0 + enabled_improvements_string.length) > 0 ? format_text(small_text("\n"
+				tooltip: technology.name + ((modifier_string.length + enabled_buildings_string.length + enabled_improvements_string.length) > 0 ? format_text(small_text("\n"
 					+ (modifier_string.length > 0 ? ("\n" + modifier_string) : "")
 					+ (enabled_buildings_string.length > 0 ? ("\n" + enabled_buildings_string) : "")
 					+ (enabled_improvements_string.length > 0 ? ("\n" + enabled_improvements_string) : "")
