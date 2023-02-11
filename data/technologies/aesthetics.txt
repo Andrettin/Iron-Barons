@@ -1,0 +1,7 @@
+music_notation_system = {
+	name = "Music Notation System"
+	icon = music
+	prerequisites = {
+		writing
+	}
+}
