@@ -1,0 +1,11 @@
+minutemen = {
+	name = "Minutemen"
+	unit_class = minutemen
+	icon = rifle_infantry_light
+	melee = 5
+	firepower = 5
+	range = 5
+	defense = 4
+	movement = 4
+	entrench = true
+}

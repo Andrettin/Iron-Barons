@@ -1,0 +1,26 @@
+general_napoleonic = {
+	name = "General"
+	unit_class = general_napoleonic
+	icon = rifle_infantry_light
+	range = 1
+	defense = 5
+	movement = 7
+}
+
+general_victorian = {
+	name = "General"
+	unit_class = general_victorian
+	icon = rifle_infantry_light
+	range = 1
+	defense = 7
+	movement = 9
+}
+
+general_modern = {
+	name = "General"
+	unit_class = general_modern
+	icon = rifle_infantry_light
+	range = 1
+	defense = 20
+	movement = 11
+}
