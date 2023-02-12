@@ -25,3 +25,22 @@ amalgamation_process = {
 		gold_production = 100
 	}
 }
+
+crucible_process = {
+	name = "Crucible Process"
+	icon = iron
+	prerequisites = {
+		ironworking
+	}
+}
+
+bessemer_converter = {
+	name = "Bessemer Converter"
+	icon = iron
+	prerequisites = {
+		crucible_process
+	}
+	modifier = {
+		steel_production = 100
+	}
+}

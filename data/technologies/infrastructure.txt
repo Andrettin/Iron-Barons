@@ -1,0 +1,4 @@
+iron_railroad_bridge = {
+	name = "Iron Railroad Bridge"
+	icon = railroad
+}

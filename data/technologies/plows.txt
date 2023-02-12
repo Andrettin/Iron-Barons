@@ -19,3 +19,12 @@ iron_plow = {
 		iron_tipped_wood_plow
 	}
 }
+
+moldboard_plow = {
+	name = "Moldboard Plow"
+	icon = grain
+	prerequisites = {
+		iron_plow
+		crucible_process
+	}
+}

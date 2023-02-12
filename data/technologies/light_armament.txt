@@ -1,0 +1,12 @@
+breech_loading_rifle = {
+	name = "Breech-Loading Rifle"
+	icon = rifle
+}
+
+machine_gun = {
+	name = "Machine Gun"
+	icon = rifle
+	prerequisites = {
+		breech_loading_rifle
+	}
+}

@@ -1,0 +1,13 @@
+square_set_timbering = {
+	name = "Square-Set Timbering"
+	icon = cog
+	prerequisites = {
+		engineering
+	}
+	modifier = {
+		coal_production = 100
+		iron_ore_production = 100
+		gold_production = 100
+		gems_production = 100
+	}
+}

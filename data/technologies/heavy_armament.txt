@@ -1,0 +1,4 @@
+rifled_artillery = {
+	name = "Rifled Artillery"
+	icon = cannon
+}

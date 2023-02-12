@@ -1,0 +1,9 @@
+streamlined_hulls = {
+	name = "Streamlined Hulls"
+	icon = anchor
+}
+
+paddlewheels = {
+	name = "Paddlewheels"
+	icon = anchor
+}
