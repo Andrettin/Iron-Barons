@@ -1,3 +1,15 @@
+arquebusiers = {
+	name = "Arquebusiers"
+	domain = land
+	category = heavy_infantry
+}
+
+musketeers = {
+	name = "Musketeers"
+	domain = land
+	category = heavy_infantry
+}
+
 grenadiers = {
 	name = "Grenadiers"
 	domain = land

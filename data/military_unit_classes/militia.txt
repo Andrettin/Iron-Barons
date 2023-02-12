@@ -1,3 +1,9 @@
+peasant_levies = {
+	name = "Peasant Levies"
+	domain = land
+	category = militia
+}
+
 minutemen = {
 	name = "Minutemen"
 	domain = land

@@ -1,3 +1,9 @@
+clubmen = {
+	name = "Clubmen"
+	domain = land
+	category = light_infantry
+}
+
 calivermen = {
 	name = "Calivermen"
 	domain = land

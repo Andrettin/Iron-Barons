@@ -1,9 +1,29 @@
+squires = {
+	name = "Squires"
+	unit_class = squires
+	icon = rifle_infantry_light
+	melee = 4
+	range = 1
+	defense = 4
+	movement = 6
+}
+
+cossacks = {
+	name = "Cossacks"
+	unit_class = cossacks
+	icon = rifle_infantry_light
+	melee = 5
+	range = 1
+	defense = 5
+	movement = 8
+}
+
 hussars = {
 	name = "Hussars"
 	unit_class = hussars
 	icon = rifle_infantry_light
-	melee = 10
 	firepower = 7
+	melee = 10
 	range = 3
 	defense = 7
 	movement = 11
@@ -13,8 +33,8 @@ scouts = {
 	name = "Scouts"
 	unit_class = scouts
 	icon = rifle_infantry_light
-	melee = 13
 	firepower = 10
+	melee = 13
 	range = 5
 	defense = 7
 	movement = 11

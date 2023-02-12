@@ -1,0 +1,19 @@
+knights = {
+	name = "Knights"
+	unit_class = knights
+	icon = rifle_infantry_light
+	melee = 6
+	range = 1
+	defense = 6
+	movement = 4
+}
+
+lancers = {
+	name = "Lancers"
+	unit_class = lancers
+	icon = rifle_infantry_light
+	melee = 8
+	range = 1
+	defense = 5
+	movement = 6
+}

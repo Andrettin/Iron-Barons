@@ -1,0 +1,23 @@
+archers = {
+	name = "Archers"
+	unit_class = archers
+	icon = rifle_infantry_light
+	firepower = 5
+	melee = 1
+	range = 3
+	defense = 3
+	movement = 2
+	entrench = true
+}
+
+crossbowmen = {
+	name = "Crossbowmen"
+	unit_class = crossbowmen
+	icon = rifle_infantry_light
+	firepower = 3
+	melee = 1
+	range = 4
+	defense = 2
+	movement = 3
+	entrench = true
+}

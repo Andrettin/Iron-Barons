@@ -1,3 +1,9 @@
+horse_artillery = {
+	name = "Horse Artillery"
+	domain = land
+	category = light_artillery
+}
+
 light_artillery = {
 	name = "Light Artillery"
 	domain = land

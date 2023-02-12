@@ -1,9 +1,20 @@
+harquebusiers = {
+	name = "Harquebusiers"
+	unit_class = harquebusiers
+	icon = rifle_infantry_light
+	firepower = 2
+	melee = 6
+	range = 3
+	defense = 5
+	movement = 6
+}
+
 cuirassiers = {
 	name = "Cuirassiers"
 	unit_class = cuirassiers
 	icon = rifle_infantry_light
-	melee = 19
 	firepower = 15
+	melee = 19
 	range = 3
 	defense = 5
 	movement = 9
@@ -13,8 +24,8 @@ carbine_cavalry = {
 	name = "Carbine Cavalry"
 	unit_class = carbine_cavalry
 	icon = rifle_infantry_light
-	melee = 26
 	firepower = 20
+	melee = 26
 	range = 5
 	defense = 5
 	movement = 9

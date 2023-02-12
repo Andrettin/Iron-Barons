@@ -1,3 +1,15 @@
+culverin = {
+	name = "Culverin"
+	domain = land
+	category = heavy_artillery
+}
+
+royal_artillery = {
+	name = "Royal Artillery"
+	domain = land
+	category = heavy_artillery
+}
+
 artillery = {
 	name = "Artillery"
 	domain = land

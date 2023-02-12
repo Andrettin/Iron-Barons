@@ -1,9 +1,33 @@
+arquebusiers = {
+	name = "Arquebusiers"
+	unit_class = arquebusiers
+	icon = rifle_infantry_light
+	firepower = 5
+	melee = 1
+	range = 3
+	defense = 3
+	movement = 2
+	entrench = true
+}
+
+musketeers = {
+	name = "Musketeers"
+	unit_class = musketeers
+	icon = rifle_infantry_light
+	firepower = 7
+	melee = 2
+	range = 4
+	defense = 4
+	movement = 3
+	entrench = true
+}
+
 grenadiers = {
 	name = "Grenadiers"
 	unit_class = grenadiers
 	icon = rifle_infantry_light
-	melee = 12
 	firepower = 12
+	melee = 12
 	range = 5
 	defense = 5
 	movement = 4
@@ -14,8 +38,8 @@ guards = {
 	name = "Guards"
 	unit_class = guards
 	icon = rifle_infantry_light
-	melee = 17
 	firepower = 17
+	melee = 17
 	range = 8
 	defense = 7
 	movement = 4

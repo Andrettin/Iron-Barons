@@ -1,3 +1,15 @@
+squires = {
+	name = "Squires"
+	domain = land
+	category = light_cavalry
+}
+
+cossacks = {
+	name = "Cossacks"
+	domain = land
+	category = light_cavalry
+}
+
 hussars = {
 	name = "Hussars"
 	domain = land

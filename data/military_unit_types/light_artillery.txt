@@ -1,9 +1,20 @@
+horse_artillery = {
+	name = "Horse Artillery"
+	unit_class = horse_artillery
+	icon = rifle_infantry_light
+	firepower = 5
+	melee = 2
+	range = 7
+	defense = 2
+	movement = 3
+}
+
 light_artillery = {
 	name = "Light Artillery"
 	unit_class = light_artillery
 	icon = rifle_infantry_light
-	melee = 3
 	firepower = 10
+	melee = 3
 	range = 9
 	defense = 3
 	movement = 5
@@ -13,8 +24,8 @@ field_artillery = {
 	name = "Field Artillery"
 	unit_class = field_artillery
 	icon = rifle_infantry_light
-	melee = 5
 	firepower = 17
+	melee = 5
 	range = 12
 	defense = 3
 	movement = 6

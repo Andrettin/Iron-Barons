@@ -1,9 +1,20 @@
+peasant_levies = {
+	name = "Peasant Levies"
+	unit_class = peasant_levies
+	icon = rifle_infantry_light
+	melee = 3
+	range = 1
+	defense = 3
+	movement = 3
+	entrench = true
+}
+
 minutemen = {
 	name = "Minutemen"
 	unit_class = minutemen
 	icon = rifle_infantry_light
-	melee = 5
 	firepower = 5
+	melee = 5
 	range = 5
 	defense = 4
 	movement = 4
@@ -14,8 +25,8 @@ militia = {
 	name = "Militia"
 	unit_class = militia
 	icon = rifle_infantry_light
-	melee = 7
 	firepower = 7
+	melee = 7
 	range = 8
 	defense = 4
 	movement = 4

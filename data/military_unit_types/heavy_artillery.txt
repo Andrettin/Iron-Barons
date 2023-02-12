@@ -1,9 +1,31 @@
+culverin = {
+	name = "Culverin"
+	unit_class = culverin
+	icon = rifle_infantry_light
+	firepower = 8
+	melee = 1
+	range = 5
+	defense = 2
+	movement = 2
+}
+
+royal_artillery = {
+	name = "Royal Artillery"
+	unit_class = royal_artillery
+	icon = rifle_infantry_light
+	firepower = 9
+	melee = 2
+	range = 8
+	defense = 2
+	movement = 2
+}
+
 artillery = {
 	name = "Artillery"
 	unit_class = artillery
 	icon = rifle_infantry_light
-	melee = 4
 	firepower = 16
+	melee = 4
 	range = 11
 	defense = 2
 	movement = 3
@@ -13,8 +35,8 @@ siege_artillery = {
 	name = "Siege Artillery"
 	unit_class = siege_artillery
 	icon = rifle_infantry_light
-	melee = 8
 	firepower = 30
+	melee = 8
 	range = 14
 	defense = 3
 	movement = 3

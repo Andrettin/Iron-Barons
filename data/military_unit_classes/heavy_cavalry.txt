@@ -1,3 +1,9 @@
+harquebusiers = {
+	name = "Harquebusiers"
+	domain = land
+	category = heavy_cavalry
+}
+
 cuirassiers = {
 	name = "Cuirassiers"
 	domain = land
