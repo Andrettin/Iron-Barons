@@ -100,16 +100,19 @@ Item {
 			IconButton {
 				id: portrait
 				icon_identifier: technology.icon.identifier
-				tooltip: technology.name + ((modifier_string.length + enabled_buildings_string.length + enabled_improvements_string.length) > 0 ? format_text(small_text("\n"
+				tooltip: technology.name + ((modifier_string.length + enabled_buildings_string.length + enabled_improvements_string.length + enabled_military_units_string.length) > 0 ? format_text(small_text("\n"
 					+ (modifier_string.length > 0 ? ("\n" + modifier_string) : "")
 					+ (enabled_buildings_string.length > 0 ? ("\n" + enabled_buildings_string) : "")
 					+ (enabled_improvements_string.length > 0 ? ("\n" + enabled_improvements_string) : "")
+					+ (enabled_military_units_string.length > 0 ? ("\n" + enabled_military_units_string) : "")
 				)) : "")
 				
 				readonly property string modifier_string: technology.modifier_string
 				readonly property var enabled_buildings: technology.get_enabled_buildings_for_culture(metternich.game.player_country.culture)
 				readonly property string enabled_buildings_string: enabled_buildings.length > 0 ? string_list_to_string(object_list_to_name_list(enabled_buildings, "Enables "), "\n") : ""
 				readonly property string enabled_improvements_string: technology.enabled_improvements.length > 0 ? string_list_to_string(object_list_to_name_list(technology.enabled_improvements, "Enables "), "\n") : ""
+				readonly property var enabled_military_units: technology.get_enabled_military_units_for_culture(metternich.game.player_country.culture)
+				readonly property string enabled_military_units_string: enabled_military_units.length > 0 ? string_list_to_string(object_list_to_name_list(enabled_military_units, "Enables "), "\n") : ""
 			}
 		}
 	}
