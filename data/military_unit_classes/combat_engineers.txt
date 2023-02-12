@@ -1,0 +1,5 @@
+sappers = {
+	name = "Sappers"
+	domain = land
+	category = combat_engineers
+}

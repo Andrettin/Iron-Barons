@@ -1,0 +1,11 @@
+grenadiers = {
+	name = "Grenadiers"
+	unit_class = grenadiers
+	icon = rifle_infantry_light
+	melee = 12
+	firepower = 12
+	range = 5
+	defense = 5
+	movement = 4
+	entrench = true
+}

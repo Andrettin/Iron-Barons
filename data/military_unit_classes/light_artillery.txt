@@ -1,0 +1,5 @@
+light_artillery = {
+	name = "Light Artillery"
+	domain = land
+	category = light_artillery
+}

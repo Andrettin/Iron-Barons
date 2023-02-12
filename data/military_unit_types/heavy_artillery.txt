@@ -1,0 +1,10 @@
+artillery = {
+	name = "Artillery"
+	unit_class = artillery
+	icon = rifle_infantry_light
+	melee = 4
+	firepower = 16
+	range = 11
+	defense = 2
+	movement = 3
+}

@@ -1,0 +1,5 @@
+artillery = {
+	name = "Artillery"
+	domain = land
+	category = heavy_artillery
+}

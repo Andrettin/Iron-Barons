@@ -1,0 +1,5 @@
+grenadiers = {
+	name = "Grenadiers"
+	domain = land
+	category = heavy_infantry
+}

@@ -1,0 +1,8 @@
+sappers = {
+	name = "Sappers"
+	unit_class = sappers
+	icon = rifle_infantry_light
+	range = 5
+	defense = 3
+	movement = 4
+}
