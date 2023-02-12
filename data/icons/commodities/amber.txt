@@ -1,0 +1,3 @@
+amber = {
+	filepath = "icons/commodities/amber.png"
+}

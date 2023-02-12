@@ -1,0 +1,11 @@
+gem_mine = {
+	name = "Gem Mine"
+	resource = gems
+	image_filepath = "tiles/improvements/quarry.png"
+	terrain_image_filepaths = {
+		mountains = "tiles/improvements/quarry_mountains.png"
+	}
+	employment_type = gem_mining
+	employment_capacity = 4
+	output_multiplier = 1
+}

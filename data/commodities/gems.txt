@@ -1,0 +1,4 @@
+gems = {
+	name = "Gems"
+	icon = amber
+}
