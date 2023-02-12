@@ -37,6 +37,16 @@ Item {
 		}
 	}
 	
+	Image {
+		id: garrison_icon
+		anchors.left: parent.left
+		anchors.leftMargin: 8 * scale_factor
+		anchors.top: parent.top
+		anchors.topMargin: 8 * scale_factor
+		source: "image://icon/embassy"
+		visible: site !== null && site.settlement && province !== null && province.game_data.military_unit_category_counts.length > 0
+	}
+	
 	Item {
 		id: tile_detail_item
 		anchors.fill: parent

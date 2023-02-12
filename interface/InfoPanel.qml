@@ -208,7 +208,7 @@ Item {
 		visible: selected_site
 		
 		readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
-		readonly property var province_game_data: (selected_site && selected_site.settlement) ? selected_site_game_data.province.game_data : null
+		readonly property var province_game_data: (selected_site && selected_site_game_data && selected_site.settlement) ? selected_site_game_data.province.game_data : null
 	}
 	
 	SmallText {
