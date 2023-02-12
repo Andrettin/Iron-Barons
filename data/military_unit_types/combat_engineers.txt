@@ -5,4 +5,15 @@ sappers = {
 	range = 5
 	defense = 3
 	movement = 4
+	entrench = true
+}
+
+combat_engineers = {
+	name = "Combat Engineers"
+	unit_class = combat_engineers
+	icon = rifle_infantry_light
+	range = 8
+	defense = 4
+	movement = 4
+	entrench = true
 }

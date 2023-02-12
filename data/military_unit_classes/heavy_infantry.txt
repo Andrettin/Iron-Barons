@@ -3,3 +3,9 @@ grenadiers = {
 	domain = land
 	category = heavy_infantry
 }
+
+guards = {
+	name = "Guards"
+	domain = land
+	category = heavy_infantry
+}

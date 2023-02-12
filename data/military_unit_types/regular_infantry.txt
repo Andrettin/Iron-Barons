@@ -9,3 +9,15 @@ regulars = {
 	movement = 4
 	entrench = true
 }
+
+rifle_infantry = {
+	name = "Rifle Infantry"
+	unit_class = rifle_infantry
+	icon = rifle_infantry_light
+	melee = 15
+	firepower = 15
+	range = 8
+	defense = 7
+	movement = 4
+	entrench = true
+}

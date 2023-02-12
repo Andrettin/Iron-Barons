@@ -3,3 +3,9 @@ cuirassiers = {
 	domain = land
 	category = heavy_cavalry
 }
+
+carbine_cavalry = {
+	name = "Carbine Cavalry"
+	domain = land
+	category = heavy_cavalry
+}

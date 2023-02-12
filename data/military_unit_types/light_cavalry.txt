@@ -8,3 +8,14 @@ hussars = {
 	defense = 7
 	movement = 11
 }
+
+scouts = {
+	name = "Scouts"
+	unit_class = scouts
+	icon = rifle_infantry_light
+	melee = 13
+	firepower = 10
+	range = 5
+	defense = 7
+	movement = 11
+}

@@ -3,3 +3,9 @@ minutemen = {
 	domain = land
 	category = militia
 }
+
+militia = {
+	name = "Militia"
+	domain = land
+	category = militia
+}

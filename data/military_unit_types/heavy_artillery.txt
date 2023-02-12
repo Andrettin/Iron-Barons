@@ -8,3 +8,14 @@ artillery = {
 	defense = 2
 	movement = 3
 }
+
+siege_artillery = {
+	name = "Siege Artillery"
+	unit_class = siege_artillery
+	icon = rifle_infantry_light
+	melee = 8
+	firepower = 30
+	range = 14
+	defense = 3
+	movement = 3
+}

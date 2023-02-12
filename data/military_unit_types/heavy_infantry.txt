@@ -9,3 +9,15 @@ grenadiers = {
 	movement = 4
 	entrench = true
 }
+
+guards = {
+	name = "Guards"
+	unit_class = guards
+	icon = rifle_infantry_light
+	melee = 17
+	firepower = 17
+	range = 8
+	defense = 7
+	movement = 4
+	entrench = true
+}

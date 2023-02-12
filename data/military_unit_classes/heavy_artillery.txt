@@ -3,3 +3,9 @@ artillery = {
 	domain = land
 	category = heavy_artillery
 }
+
+siege_artillery = {
+	name = "Siege Artillery"
+	domain = land
+	category = heavy_artillery
+}

@@ -3,3 +3,9 @@ hussars = {
 	domain = land
 	category = light_cavalry
 }
+
+scouts = {
+	name = "Scouts"
+	domain = land
+	category = light_cavalry
+}

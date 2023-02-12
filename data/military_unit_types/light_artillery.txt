@@ -8,3 +8,14 @@ light_artillery = {
 	defense = 3
 	movement = 5
 }
+
+field_artillery = {
+	name = "Field Artillery"
+	unit_class = field_artillery
+	icon = rifle_infantry_light
+	melee = 5
+	firepower = 17
+	range = 12
+	defense = 3
+	movement = 6
+}

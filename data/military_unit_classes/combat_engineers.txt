@@ -3,3 +3,9 @@ sappers = {
 	domain = land
 	category = combat_engineers
 }
+
+combat_engineers = {
+	name = "Combat Engineers"
+	domain = land
+	category = combat_engineers
+}

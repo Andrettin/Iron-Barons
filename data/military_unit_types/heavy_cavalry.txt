@@ -8,3 +8,14 @@ cuirassiers = {
 	defense = 5
 	movement = 9
 }
+
+carbine_cavalry = {
+	name = "Carbine Cavalry"
+	unit_class = carbine_cavalry
+	icon = rifle_infantry_light
+	melee = 26
+	firepower = 20
+	range = 5
+	defense = 5
+	movement = 9
+}

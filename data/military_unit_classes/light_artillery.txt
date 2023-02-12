@@ -3,3 +3,9 @@ light_artillery = {
 	domain = land
 	category = light_artillery
 }
+
+field_artillery = {
+	name = "Field Artillery"
+	domain = land
+	category = light_artillery
+}
