@@ -1,9 +1,0 @@
-seed_drill = {
-	name = "Seed Drill"
-	icon = grain
-	prerequisites = {
-		iron_plow
-		engineering
-		scientific_method
-	}
-}

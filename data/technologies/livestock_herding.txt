@@ -1,0 +1,33 @@
+scientific_cattle_breeding = {
+	name = "Scientific Cattle Breeding"
+	icon = cattle
+	prerequisites = {
+		scientific_method
+	}
+	modifier = {
+		livestock_production = 100
+	}
+}
+
+scientific_sheep_breeding = {
+	name = "Scientific Sheep Breeding"
+	icon = wool
+	prerequisites = {
+		scientific_method
+	}
+	modifier = {
+		wool_production = 100
+	}
+}
+
+feed_grasses = {
+	name = "Feed Grasses"
+	icon = cattle
+	prerequisites = {
+		scientific_method
+	}
+	modifier = {
+		livestock_production = 100
+		wool_production = 100
+	}
+}

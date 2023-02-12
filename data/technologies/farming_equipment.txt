@@ -20,11 +20,23 @@ iron_plow = {
 	}
 }
 
+seed_drill = {
+	name = "Seed Drill"
+	icon = grain
+	prerequisites = {
+		iron_plow
+		engineering
+		scientific_method
+	}
+}
+
 moldboard_plow = {
 	name = "Moldboard Plow"
 	icon = grain
 	prerequisites = {
 		iron_plow
 		crucible_process
+		engineering
+		scientific_method
 	}
 }
