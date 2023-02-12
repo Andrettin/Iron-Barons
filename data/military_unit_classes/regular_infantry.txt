@@ -1,0 +1,5 @@
+regulars = {
+	name = "Regulars"
+	domain = land
+	category = regular_infantry
+}

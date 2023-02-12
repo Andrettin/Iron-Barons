@@ -1,0 +1,11 @@
+regulars = {
+	name = "Regulars"
+	unit_class = regulars
+	icon = rifle_infantry_light
+	melee = 10
+	firepower = 10
+	range = 5
+	defense = 5
+	movement = 4
+	entrench = true
+}

@@ -1,0 +1,10 @@
+cuirassiers = {
+	name = "Cuirassiers"
+	unit_class = cuirassiers
+	icon = rifle_infantry_light
+	melee = 19
+	firepower = 15
+	range = 3
+	defense = 5
+	movement = 9
+}

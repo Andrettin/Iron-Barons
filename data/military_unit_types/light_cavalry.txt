@@ -1,0 +1,10 @@
+hussars = {
+	name = "Hussars"
+	unit_class = hussars
+	icon = rifle_infantry_light
+	melee = 10
+	firepower = 7
+	range = 3
+	defense = 7
+	movement = 11
+}

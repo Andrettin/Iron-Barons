@@ -1,0 +1,5 @@
+hussars = {
+	name = "Hussars"
+	domain = land
+	category = light_cavalry
+}

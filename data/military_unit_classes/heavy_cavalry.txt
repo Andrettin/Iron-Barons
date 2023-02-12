@@ -1,0 +1,5 @@
+cuirassiers = {
+	name = "Cuirassiers"
+	domain = land
+	category = heavy_cavalry
+}
