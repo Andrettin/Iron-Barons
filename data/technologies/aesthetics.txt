@@ -5,3 +5,11 @@ music_notation_system = {
 		writing
 	}
 }
+
+expressionism = {
+	name = "Expressionism"
+	icon = music
+	prerequisites = {
+		writing
+	}
+}
