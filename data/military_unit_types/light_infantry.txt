@@ -1,0 +1,50 @@
+calivermen = {
+	name = "Calivermen"
+	unit_class = calivermen
+	icon = rifle_infantry_light
+	melee = 2
+	firepower = 3
+	range = 5
+	defense = 5
+	movement = 4
+	entrench = true
+}
+
+skirmishers = {
+	name = "Skirmishers"
+	unit_class = skirmishers
+	icon = rifle_infantry_light
+	melee = 5
+	firepower = 5
+	range = 5
+	defense = 7
+	movement = 6
+	entrench = true
+}
+
+sharpshooters = {
+	name = "Sharpshooters"
+	unit_class = sharpshooters
+	icon = rifle_infantry_light
+	melee = 10
+	firepower = 10
+	range = 8
+	defense = 7
+	movement = 6
+	entrench = true
+	required_technology = bessemer_converter
+}
+
+rangers = {
+	name = "Rangers"
+	unit_class = rangers
+	icon = rifle_infantry_light
+	melee = 15
+	firepower = 15
+	range = 10
+	defense = 20
+	movement = 7
+	entrench = true
+	entrench_bonus = 5
+	required_technology = machine_gun
+}
