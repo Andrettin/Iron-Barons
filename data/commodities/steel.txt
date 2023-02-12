@@ -1,0 +1,4 @@
+steel = {
+	name = "Steel"
+	icon = iron
+}
