@@ -18,4 +18,5 @@ siege_artillery = {
 	range = 14
 	defense = 3
 	movement = 3
+	required_technology = rifled_artillery
 }

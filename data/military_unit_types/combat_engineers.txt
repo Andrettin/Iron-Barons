@@ -16,4 +16,5 @@ combat_engineers = {
 	defense = 4
 	movement = 4
 	entrench = true
+	required_technology = bessemer_converter
 }

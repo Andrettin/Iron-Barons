@@ -18,4 +18,5 @@ carbine_cavalry = {
 	range = 5
 	defense = 5
 	movement = 9
+	required_technology = breech_loading_rifle
 }

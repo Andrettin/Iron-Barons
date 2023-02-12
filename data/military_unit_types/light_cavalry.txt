@@ -18,4 +18,5 @@ scouts = {
 	range = 5
 	defense = 7
 	movement = 11
+	required_technology = bessemer_converter
 }
