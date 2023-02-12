@@ -1,0 +1,23 @@
+galleon = {
+	name = "Galleon"
+	unit_class = galleon
+	icon = anchor
+	firepower = 7
+	melee = 7
+	range = 4
+	resistance = 15
+	hit_points = 50
+	movement = 2
+}
+
+ship_of_the_line = {
+	name = "Ship-of-the-Line"
+	unit_class = ship_of_the_line
+	icon = anchor
+	firepower = 6
+	melee = 6
+	range = 6
+	resistance = 20
+	hit_points = 65
+	movement = 3
+}

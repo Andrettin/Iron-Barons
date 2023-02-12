@@ -1,0 +1,23 @@
+sloop = {
+	name = "Sloop"
+	unit_class = sloop
+	icon = anchor
+	firepower = 4
+	melee = 4
+	range = 4
+	resistance = 5
+	hit_points = 25
+	movement = 4
+}
+
+frigate = {
+	name = "Frigate"
+	unit_class = frigate
+	icon = anchor
+	firepower = 3
+	melee = 3
+	range = 5
+	resistance = 10
+	hit_points = 35
+	movement = 4
+}

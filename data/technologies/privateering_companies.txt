@@ -1,0 +1,4 @@
+privateering_companies = {
+	name = "Privateering Companies"
+	icon = skull
+}

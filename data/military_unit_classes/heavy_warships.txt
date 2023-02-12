@@ -1,0 +1,11 @@
+galleon = {
+	name = "Galleon"
+	domain = land
+	category = heavy_warship
+}
+
+ship_of_the_line = {
+	name = "Ship-of-the-Line"
+	domain = land
+	category = heavy_warship
+}
