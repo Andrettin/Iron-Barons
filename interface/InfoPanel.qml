@@ -118,10 +118,11 @@ Item {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		source: icon_identifier.length > 0 ? ("image://icon/" + icon_identifier) : "image://empty/"
+		visible: !selected_garrison
 		
 		readonly property string icon_identifier: selected_civilian_unit ? selected_civilian_unit.icon.identifier : (
 			selected_site ? (
-				selected_site.settlement ? (selected_garrison ? "crossed_sabers" : "settlement") : (
+				selected_site.settlement ? "settlement" : (
 					selected_site.resource.icon ? selected_site.resource.icon.identifier : selected_site.resource.commodity.icon.identifier
 				)
 			) : ""
@@ -221,6 +222,58 @@ Item {
 		anchors.leftMargin: 8 * scale_factor
 		text: selected_civilian_unit !== null ? ("Home Province: " + selected_civilian_unit.home_province.game_data.current_cultural_name) : ""
 		visible: selected_civilian_unit !== null
+	}
+	
+	Grid {
+		id: military_unit_grid
+		anchors.top: title.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.bottom: end_turn_button_internal.top
+		anchors.bottomMargin: 16 * scale_factor
+		anchors.left: parent.left
+		anchors.right: parent.right
+		columns: 2
+		visible: selected_site !== null && selected_garrison
+		
+		Repeater {
+			model: (selected_site !== null && selected_garrison) ? selected_site.game_data.province.game_data.military_unit_category_counts : []
+			
+			Item {
+				width: 72 * scale_factor
+				height: 72 * scale_factor
+				
+				readonly property var military_unit_category: model.modelData.key
+				readonly property int military_unit_count: model.modelData.value
+				
+				Image {
+					id: military_unit_icon
+					anchors.verticalCenter: parent.verticalCenter
+					anchors.left: parent.left
+					anchors.leftMargin: 4 * scale_factor + (64 * scale_factor - military_unit_icon.width) / 2
+					source: "image://icon/" + selected_site.game_data.province.game_data.get_military_unit_category_icon(military_unit_category).identifier
+				}
+				
+				SmallText {
+					text: number_string(military_unit_count)
+					anchors.bottom: parent.bottom
+					anchors.right: parent.right
+					anchors.rightMargin: 4 * scale_factor
+				}
+				
+				MouseArea {
+					anchors.fill: parent
+					hoverEnabled: true
+					
+					onEntered: {
+						status_text = selected_site.game_data.province.game_data.get_military_unit_category_name(military_unit_category)
+					}
+					
+					onExited: {
+						status_text = ""
+					}
+				}
+			}
+		}
 	}
 	
 	TextButton {
