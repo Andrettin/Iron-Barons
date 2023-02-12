@@ -15,6 +15,7 @@ Item {
 	
 	property var selected_civilian_unit: null
 	property var selected_site: null
+	property bool selected_garrison: false
 	
 	property bool tile_detail_mode: false
 	

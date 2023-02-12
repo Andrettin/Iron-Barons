@@ -107,7 +107,9 @@ Item {
 		anchors.top: capital_settlement_button.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: selected_site ? (selected_site.game_data.current_cultural_name) : (selected_civilian_unit ? selected_civilian_unit.type.name : "")
+		text: selected_site ? (
+			selected_garrison ? "Garrison" : selected_site.game_data.current_cultural_name
+		) : (selected_civilian_unit ? selected_civilian_unit.type.name : "")
 	}
 	
 	Image {
@@ -119,7 +121,7 @@ Item {
 		
 		readonly property string icon_identifier: selected_civilian_unit ? selected_civilian_unit.icon.identifier : (
 			selected_site ? (
-				selected_site.settlement ? "settlement" : (
+				selected_site.settlement ? (selected_garrison ? "crossed_sabers" : "settlement") : (
 					selected_site.resource.icon ? selected_site.resource.icon.identifier : selected_site.resource.commodity.icon.identifier
 				)
 			) : ""
@@ -147,7 +149,7 @@ Item {
 		anchors.top: icon.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: selected_site ? (
+		text: (selected_site && !selected_garrison) ? (
 			selected_site.settlement ? "Settlement" : (
 				selected_site.game_data.improvement ? (
 					selected_site.game_data.improvement.name
@@ -165,7 +167,7 @@ Item {
 		anchors.rightMargin: 8 * scale_factor
 		width: 48 * scale_factor
 		height: 48 * scale_factor
-		visible: selected_site && selected_site.settlement
+		visible: selected_site && selected_site.settlement && !selected_garrison
 		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
 	}
 	
@@ -176,7 +178,7 @@ Item {
 		anchors.horizontalCenter: parent.horizontalCenter
 		width: 48 * scale_factor
 		height: 48 * scale_factor
-		visible: selected_site && selected_site.settlement
+		visible: selected_site && selected_site.settlement && !selected_garrison
 		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
 	}
 	
@@ -187,7 +189,7 @@ Item {
 		anchors.leftMargin: 8 * scale_factor
 		width: 48 * scale_factor
 		height: 48 * scale_factor
-		visible: selected_site && selected_site.settlement
+		visible: selected_site && selected_site.settlement && !selected_garrison
 		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
 	}
 	
@@ -205,7 +207,7 @@ Item {
 			(selected_site_game_data.employment_capacity > 0 ? ("Employees: " + selected_site_game_data.employee_count + "/" + selected_site_game_data.employment_capacity) : "")
 			+ (selected_site_game_data.employment_capacity > 0 && selected_site_game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site_game_data.production_modifier) + "%") : "")
 		) : "")
-		visible: selected_site
+		visible: selected_site && !selected_garrison
 		
 		readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
 		readonly property var province_game_data: (selected_site && selected_site_game_data && selected_site.settlement) ? selected_site_game_data.province.game_data : null
@@ -229,7 +231,7 @@ Item {
 		text: qsTr("Settlement")
 		width: 64 * scale_factor
 		height: 24 * scale_factor
-		visible: selected_site !== null && selected_site.settlement
+		visible: selected_site !== null && selected_site.settlement && !selected_garrison
 		
 		onClicked: {
 			menu_stack.push("SettlementView.qml", {

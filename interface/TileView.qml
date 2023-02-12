@@ -6,7 +6,7 @@ Item {
 	implicitWidth: tile_size
 	implicitHeight: tile_size
 	
-	readonly property bool tile_selected: site !== null && selected_site === site
+	readonly property bool tile_selected: site !== null && selected_site === site && !selected_garrison
 	readonly property bool civilian_unit_interactable: civilian_unit !== null && civilian_unit.owner === metternich.game.player_country
 	
 	TileImage {
@@ -43,8 +43,10 @@ Item {
 		anchors.leftMargin: 8 * scale_factor
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
-		source: "image://icon/embassy"
+		source: "image://icon/embassy" + (selected ? "/selected" : "")
 		visible: site !== null && site.settlement && province !== null && province.game_data.military_unit_category_counts.length > 0
+		
+		readonly property bool selected: visible && selected_site === site && selected_garrison
 	}
 	
 	Item {
@@ -117,19 +119,22 @@ Item {
 				selected_civilian_unit.move_to(tile_pos)
 				selected_civilian_unit = null
 				selected_site = null
+				selected_garrison = false
 				return
 			}
 			
-			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site)) {
+			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site || selected_garrison)) {
 				selected_civilian_unit = civilian_unit
 				selected_site = null
-			} else if (site !== null && site !== selected_site && (site.settlement || resource)) {
+			} else if (site !== null && (site !== selected_site || selected_garrison) && (site.settlement || resource)) {
 				selected_site = site
 				selected_civilian_unit = null
 			} else {
 				selected_civilian_unit = null
 				selected_site = null
 			}
+			
+			selected_garrison = false
 		}
 		
 		onDoubleClicked: {
@@ -173,6 +178,31 @@ Item {
 			}
 			
 			status_text = text
+		}
+		onExited: {
+			status_text = ""
+		}
+	}
+	
+	MouseArea {
+		anchors.fill: garrison_icon
+		hoverEnabled: true
+		enabled: garrison_icon.visible
+		
+		onReleased: {
+			selected_civilian_unit = null
+			
+			if (garrison_icon.selected) {
+				selected_site = null
+				selected_garrison = false
+			} else {
+				selected_site = site
+				selected_garrison = true
+			}
+		}
+		
+		onEntered: {
+			status_text = "Garrison"
 		}
 		onExited: {
 			status_text = ""
