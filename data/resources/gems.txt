@@ -1,0 +1,7 @@
+gems = {
+	name = "Gems"
+	commodity = gems
+	terrain_types = {
+		mountains
+	}
+}
