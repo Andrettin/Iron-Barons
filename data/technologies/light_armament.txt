@@ -1,6 +1,43 @@
+bayonet = {
+	name = "Bayonet"
+	icon = musket
+	prerequisites = {
+		gunpowder
+		engineering
+	}
+}
+
+long_range_rifle = {
+	name = "Long Range Rifle"
+	icon = rifle
+	prerequisites = {
+		bessemer_converter
+		bayonet
+	}
+}
+
 breech_loading_rifle = {
 	name = "Breech-Loading Rifle"
 	icon = rifle
+	prerequisites = {
+		bayonet
+	}
+}
+
+needle_gun = {
+	name = "Needle Gun"
+	icon = rifle
+	prerequisites = {
+		breech_loading_rifle
+	}
+}
+
+repeating_cavalry_carbine = {
+	name = "Repeating Cavalry Carbine"
+	icon = rifle
+	prerequisites = {
+		breech_loading_rifle
+	}
 }
 
 machine_gun = {
