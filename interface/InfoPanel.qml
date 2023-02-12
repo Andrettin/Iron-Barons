@@ -231,20 +231,16 @@ Item {
 		anchors.bottom: end_turn_button_internal.top
 		anchors.bottomMargin: 16 * scale_factor
 		anchors.left: parent.left
-		anchors.leftMargin: 4 * scale_factor
 		anchors.right: parent.right
-		anchors.rightMargin: 4 * scale_factor
 		columns: 2
-		columnSpacing: 4 * metternich.scale_factor
-		rowSpacing: 4 * metternich.scale_factor
 		visible: selected_site !== null && selected_garrison
 		
 		Repeater {
 			model: (selected_site !== null && selected_garrison) ? selected_site.game_data.province.game_data.military_unit_category_counts : []
 			
 			Item {
-				width: military_unit_icon.width + 12 * scale_factor
-				height: military_unit_icon.height
+				width: 72 * scale_factor
+				height: 72 * scale_factor
 				
 				readonly property var military_unit_category: model.modelData.key
 				readonly property int military_unit_count: model.modelData.value
@@ -253,6 +249,7 @@ Item {
 					id: military_unit_icon
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: parent.left
+					anchors.leftMargin: 4 * scale_factor + (64 * scale_factor - military_unit_icon.width) / 2
 					source: "image://icon/" + selected_site.game_data.province.game_data.get_military_unit_category_icon(military_unit_category).identifier
 				}
 				
