@@ -187,7 +187,7 @@ Item {
 	MouseArea {
 		anchors.fill: garrison_icon
 		hoverEnabled: true
-		enabled: garrison_icon.visible && province !== null && province.game_data.owner === metternich.game.player_country
+		enabled: garrison_icon.visible && province !== null && province.game_data.owner === metternich.game.player_country //FIXME: should also allow seeing the player's own units stationed in vassal countries
 		
 		onReleased: {
 			selected_civilian_unit = null
