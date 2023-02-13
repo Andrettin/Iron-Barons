@@ -177,7 +177,6 @@ Item {
 		return 0
 	}
 	
-	
 	function change_selected_military_units(category, change) {
 		var total_count = selected_site.game_data.province.game_data.get_military_unit_category_count(category)
 		
@@ -198,6 +197,14 @@ Item {
 			category: category,
 			count: change
 		})
+	}
+	
+	function clear_selected_military_units() {
+		map_view.selected_military_units = []
+	}
+	
+	onSelected_garrisonChanged: {
+		clear_selected_military_units()
 	}
 	
 	Component.onCompleted: {
