@@ -253,13 +253,6 @@ Item {
 					source: "image://icon/" + selected_site.game_data.province.game_data.get_military_unit_category_icon(military_unit_category).identifier
 				}
 				
-				SmallText {
-					text: number_string(military_unit_count)
-					anchors.bottom: parent.bottom
-					anchors.right: parent.right
-					anchors.rightMargin: 4 * scale_factor
-				}
-				
 				MouseArea {
 					anchors.fill: parent
 					hoverEnabled: true
@@ -271,6 +264,59 @@ Item {
 					onExited: {
 						status_text = ""
 					}
+				}
+				
+				Image {
+					id: military_unit_up_arrow_icon
+					anchors.right: parent.right
+					anchors.rightMargin: 4 * scale_factor
+					anchors.bottom: military_unit_selected_count_label.top
+					anchors.bottomMargin: 4 * scale_factor
+					source: "image://icon/embassy"
+					
+					MouseArea {
+						anchors.fill: parent
+						
+						onReleased: {
+							change_selected_military_units(military_unit_category, 1)
+							military_unit_selected_count_label.text = number_string(get_selected_military_unit_category_count(military_unit_category))
+						}
+					}
+				}
+				
+				SmallText {
+					id: military_unit_selected_count_label
+					text: number_string(get_selected_military_unit_category_count(military_unit_category))
+					anchors.right: parent.right
+					anchors.rightMargin: 4 * scale_factor
+					anchors.bottom: military_unit_down_arrow_icon.top
+					anchors.bottomMargin: 4 * scale_factor
+				}
+				
+				Image {
+					id: military_unit_down_arrow_icon
+					anchors.right: parent.right
+					anchors.rightMargin: 4 * scale_factor
+					anchors.bottom: military_unit_count_label.top
+					anchors.bottomMargin: 4 * scale_factor
+					source: "image://icon/embassy"
+					
+					MouseArea {
+						anchors.fill: parent
+						
+						onReleased: {
+							change_selected_military_units(military_unit_category, -1)
+							military_unit_selected_count_label.text = number_string(get_selected_military_unit_category_count(military_unit_category))
+						}
+					}
+				}
+				
+				SmallText {
+					id: military_unit_count_label
+					text: number_string(military_unit_count)
+					anchors.bottom: parent.bottom
+					anchors.right: parent.right
+					anchors.rightMargin: 4 * scale_factor
 				}
 			}
 		}
