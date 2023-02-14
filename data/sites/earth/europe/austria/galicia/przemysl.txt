@@ -4,4 +4,5 @@ przemysl = {
 	geocoordinate = { 22.78424 49.78345 }
 	type = resource
 	resource = coal
+	province = west_galicia
 }
