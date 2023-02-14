@@ -123,6 +123,14 @@ Item {
 				return
 			}
 			
+			if (metternich.selected_military_units.length > 0) {
+				metternich.move_selected_military_units_to(tile_pos)
+				selected_civilian_unit = null
+				selected_site = null
+				selected_garrison = false
+				return
+			}
+			
 			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site || selected_garrison)) {
 				selected_civilian_unit = civilian_unit
 				selected_site = null
