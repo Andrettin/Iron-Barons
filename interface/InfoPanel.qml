@@ -278,15 +278,15 @@ Item {
 						anchors.fill: parent
 						
 						onReleased: {
-							change_selected_military_units(military_unit_category, 1)
-							military_unit_selected_count_label.text = number_string(get_selected_military_unit_category_count(military_unit_category))
+							metternich.change_selected_military_unit_category_count(military_unit_category, 1, selected_site.game_data.province)
+							military_unit_selected_count_label.text = number_string(metternich.get_selected_military_unit_category_count(military_unit_category))
 						}
 					}
 				}
 				
 				SmallText {
 					id: military_unit_selected_count_label
-					text: number_string(get_selected_military_unit_category_count(military_unit_category))
+					text: number_string(metternich.get_selected_military_unit_category_count(military_unit_category))
 					anchors.right: parent.right
 					anchors.rightMargin: 4 * scale_factor
 					anchors.bottom: military_unit_down_arrow_icon.top
@@ -305,8 +305,8 @@ Item {
 						anchors.fill: parent
 						
 						onReleased: {
-							change_selected_military_units(military_unit_category, -1)
-							military_unit_selected_count_label.text = number_string(get_selected_military_unit_category_count(military_unit_category))
+							metternich.change_selected_military_unit_category_count(military_unit_category, -1, selected_site.game_data.province)
+							military_unit_selected_count_label.text = number_string(metternich.get_selected_military_unit_category_count(military_unit_category))
 						}
 					}
 				}

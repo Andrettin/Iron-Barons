@@ -16,7 +16,6 @@ Item {
 	property var selected_civilian_unit: null
 	property var selected_site: null
 	property bool selected_garrison: false
-	property var selected_military_units: []
 	
 	property bool tile_detail_mode: false
 	
@@ -165,46 +164,8 @@ Item {
 		}
 	}
 	
-	function get_selected_military_unit_category_count(category) {
-		for (var entry of map_view.selected_military_units) {
-			if (entry.category !== category) {
-				continue
-			}
-			
-			return entry.count
-		}
-		
-		return 0
-	}
-	
-	function change_selected_military_units(category, change) {
-		var total_count = selected_site.game_data.province.game_data.get_military_unit_category_count(category)
-		
-		for (var entry of map_view.selected_military_units) {
-			if (entry.category !== category) {
-				continue
-			}
-			
-			entry.count = Math.max(0, Math.min(entry.count + change, total_count))
-			return
-		}
-		
-		if (change <= 0 || change > total_count) {
-			return
-		}
-		
-		map_view.selected_military_units.push({
-			category: category,
-			count: change
-		})
-	}
-	
-	function clear_selected_military_units() {
-		map_view.selected_military_units = []
-	}
-	
 	onSelected_garrisonChanged: {
-		clear_selected_military_units()
+		metternich.clear_selected_military_units()
 	}
 	
 	Component.onCompleted: {
