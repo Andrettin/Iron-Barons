@@ -244,6 +244,7 @@ Item {
 				
 				readonly property var military_unit_category: model.modelData.key
 				readonly property int military_unit_count: model.modelData.value
+				readonly property int country_military_unit_count: selected_site.game_data.province.game_data.get_country_military_unit_category_count(military_unit_category, metternich.game.player_country)
 				
 				Image {
 					id: military_unit_icon
@@ -313,7 +314,7 @@ Item {
 				
 				SmallText {
 					id: military_unit_count_label
-					text: number_string(military_unit_count)
+					text: military_unit_count === country_military_unit_count ? number_string(military_unit_count) : (number_string(country_military_unit_count) + " (" + number_string(military_unit_count) + ")")
 					anchors.bottom: parent.bottom
 					anchors.right: parent.right
 					anchors.rightMargin: 4 * scale_factor
