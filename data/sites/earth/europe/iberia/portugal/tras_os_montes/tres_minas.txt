@@ -14,7 +14,7 @@ tres_minas = {
 		}
 		
 		100 = {
-			improvement = none
+			improvement = ruins
 		}
 	}
 }
