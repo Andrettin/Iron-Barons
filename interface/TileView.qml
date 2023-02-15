@@ -134,7 +134,7 @@ Item {
 			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site || selected_garrison)) {
 				selected_civilian_unit = civilian_unit
 				selected_site = null
-			} else if (site !== null && (site !== selected_site || selected_garrison) && (site.settlement || resource)) {
+			} else if (site !== null && (site !== selected_site || selected_garrison) && (site.settlement || resource || improvement)) {
 				selected_site = site
 				selected_civilian_unit = null
 			} else {
@@ -169,7 +169,7 @@ Item {
 			
 			text += ") "
 			
-			if (site !== null) {
+			if (site !== null && (improvement !== null || resource !== null)) {
 				text += site.game_data.current_cultural_name
 			}
 			
