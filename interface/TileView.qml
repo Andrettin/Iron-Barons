@@ -174,7 +174,7 @@ Item {
 			}
 			
 			if (province !== null) {
-				if (site !== null) {
+				if (site !== null && (improvement !== null || resource !== null)) {
 					text += ", "
 				}
 				
