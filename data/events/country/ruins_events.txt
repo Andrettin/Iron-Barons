@@ -1,0 +1,12 @@
+ruins_explored = {
+	name = "Ruins Explored!"
+	description = "We have explored the ruins of a lost civilization, and found valuable artifacts and precious metals."
+	trigger = ruins_explored
+	random = true
+	option = {
+		name = "Gold and glory!"
+		effects = {
+			wealth += 500
+		}
+	}
+}
