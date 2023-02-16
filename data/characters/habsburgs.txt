@@ -25,4 +25,22 @@ franz_i_of_austria = { #Franz von Habsburg, Emperor Franz II of the Holy Roman E
 	birth_date = 1768.2.12
 	death_date = 1835.3.2
 	level_multiplier = 0.67
+
+karl_von_habsburg = { #Archduke Karl; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Karl"
+	dynasty = habsburg
+	type = general
+	culture = austrian
+	religion = catholic
+	home_province = lower_austria
+	gender = male
+	birth_date = 1771.9.5
+	
+	history = {
+		1847 = {
+			#field marshal-general and proprietary of the 3rd infantry regiment and of the 3rd ulans regiment as of 1847
+			country = austria
+			deployment_province = lower_austria
+		}
+	}
 }
