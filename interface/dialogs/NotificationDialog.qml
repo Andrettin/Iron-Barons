@@ -9,11 +9,26 @@ DialogBase {
 	
 	readonly property int content_height: text_label.y + text_label.contentHeight + 16 * scale_factor + ok_button.height + 8 * scale_factor
 	
+	property var portrait_object: null
+	readonly property string portrait_identifier: portrait_object !== null ? (portrait_object.class_name === "metternich::character" ? portrait_object.game_data.portrait.identifier : portrait_object.identifier) : ""
 	property string text: ""
+	
+	PortraitButton {
+		id: portrait
+		anchors.top: title_item.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		portrait_identifier: notification_dialog.portrait_identifier
+		visible: portrait_identifier.length > 0
+		circle: is_character
+		tooltip: is_character ? portrait_object.full_name : ""
+		
+		readonly property bool is_character: portrait_object !== null && portrait_object.class_name === "metternich::character"
+	}
 	
 	SmallText {
 		id: text_label
-		anchors.top: title_item.bottom
+		anchors.top: portrait.visible ? portrait.bottom : title_item.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 8 * scale_factor

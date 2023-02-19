@@ -150,7 +150,7 @@ Item {
 	Connections {
 		target: metternich
 		
-		function onNotification_added(title, text) {
+		function onNotification_added(title, portrait_object, text) {
 			if (notification_dialog_component.status == Component.Error) {
 				console.error(notification_dialog_component.errorString())
 				return
@@ -158,6 +158,7 @@ Item {
 			
 			var dialog = notification_dialog_component.createObject(map_view, {
 				title: title,
+				portrait_object: portrait_object,
 				text: text
 			})
 			
