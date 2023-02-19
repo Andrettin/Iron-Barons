@@ -11,7 +11,7 @@ DialogBase {
 	
 	readonly property int max_button_width: calculate_max_button_width(option_grid) + 8 * scale_factor * 2
 	readonly property int content_width: Math.max(max_button_width, title_item.contentWidth + 8 * scale_factor * 2)
-	readonly property int content_height: description.y + description.contentHeight + 8 * scale_factor + option_grid.height + 8 * metternich.scale_factor
+	readonly property int content_height: description.y + description.contentHeight + 16 * scale_factor + option_grid.height + 8 * scale_factor
 	
 	property var event_instance: null
 	readonly property var option_names: event_instance ? event_instance.option_names : []
@@ -22,7 +22,7 @@ DialogBase {
 	PortraitButton {
 		id: portrait
 		anchors.top: title_item.bottom
-		anchors.topMargin: 16 * metternich.scale_factor
+		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		portrait_identifier: (event_instance && event_instance.event && event_instance.event.portrait) ? event_instance.event.portrait.identifier : ""
 		visible: portrait_identifier.length > 0
@@ -31,13 +31,13 @@ DialogBase {
 	SmallText {
 		id: description
 		anchors.top: portrait.visible ? portrait.bottom : title_item.bottom
-		anchors.topMargin: 16 * metternich.scale_factor
+		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
-		anchors.leftMargin: 8 * metternich.scale_factor
+		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
-		anchors.rightMargin: 8 * metternich.scale_factor
+		anchors.rightMargin: 8 * scale_factor
 		anchors.bottom: option_grid.top
-		anchors.bottomMargin: 8 * metternich.scale_factor
+		anchors.bottomMargin: 16 * scale_factor
 		text: event_instance.description
 		wrapMode: Text.WordWrap
 	}
@@ -45,11 +45,11 @@ DialogBase {
 	Grid {
 		id: option_grid
 		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8 * metternich.scale_factor
+		anchors.bottomMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		columns: 1
 		columnSpacing: 0
-		rowSpacing: 8 * metternich.scale_factor
+		rowSpacing: 8 * scale_factor
 		
 		Repeater {
 			model: option_names

@@ -111,9 +111,9 @@ Item {
 				Grid {
 					id: traits_grid
 					anchors.bottom: parent.bottom
-					anchors.bottomMargin: 8 * metternich.scale_factor
+					anchors.bottomMargin: 8 * scale_factor
 					anchors.left: character_name_label.left
-					columnSpacing: 2 * metternich.scale_factor
+					columnSpacing: 2 * scale_factor
 					rows: 1
 					rowSpacing: 0
 					

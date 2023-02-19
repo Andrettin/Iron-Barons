@@ -15,8 +15,8 @@ Popup {
 	closePolicy: Popup.NoAutoClose
 	clip: true
 	
-	readonly property int default_width: 256 * metternich.scale_factor
-	readonly property int default_height: 256 * metternich.scale_factor
+	readonly property int default_width: 256 * scale_factor
+	readonly property int default_height: 256 * scale_factor
 	property string interface_style: "default"
 	property int panel: 1
 	property string title: ""
@@ -50,7 +50,7 @@ Popup {
 		text: dialog.title
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
-		anchors.topMargin: 16 * metternich.scale_factor
+		anchors.topMargin: 16 * scale_factor
 	}
 	
 	onOpened: {

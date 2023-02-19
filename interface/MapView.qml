@@ -20,6 +20,7 @@ Item {
 	property bool tile_detail_mode: false
 	
 	readonly property var event_dialog_component: Qt.createComponent("dialogs/EventDialog.qml")
+	readonly property var notification_dialog_component: Qt.createComponent("dialogs/NotificationDialog.qml")
 	
 	Rectangle {
 		id: map_view_background
@@ -148,6 +149,20 @@ Item {
 	
 	Connections {
 		target: metternich
+		
+		function onNotification_added(title, text) {
+			if (notification_dialog_component.status == Component.Error) {
+				console.error(notification_dialog_component.errorString())
+				return
+			}
+			
+			var dialog = notification_dialog_component.createObject(map_view, {
+				title: title,
+				text: text
+			})
+			
+			dialog.open()
+		}
 		
 		function onEvent_fired(event_instance) {
 			if (event_dialog_component.status == Component.Error) {
