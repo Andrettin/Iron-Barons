@@ -4,4 +4,10 @@ pozega = {
 	geocoordinate = { 17.674444444444 45.331388888889 }
 	type = resource
 	resource = fruit
+	
+	history = {
+		1815 = {
+			improvement = orchard #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }

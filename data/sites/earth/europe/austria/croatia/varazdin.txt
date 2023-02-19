@@ -5,4 +5,10 @@ varazdin = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	
+	history = {
+		1815 = {
+			improvement = sheep_ranch #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }

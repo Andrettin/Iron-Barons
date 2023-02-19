@@ -5,4 +5,10 @@ bergamo = {
 	type = resource
 	resource = cattle
 	province = lombardy
+	
+	history = {
+		1815 = {
+			improvement = cattle_ranch #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }
