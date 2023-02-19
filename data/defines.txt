@@ -12,6 +12,7 @@ default_literate_population_class = trained_workers
 population_per_unit = 10000
 population_growth_threshold = 100
 head_of_government_office = head_of_government
+interior_minister_office = interior_minister
 
 minor_nation_color = { 221 216 181 }
 country_border_color = { 0 0 0 }
