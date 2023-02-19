@@ -56,7 +56,7 @@ DialogBase {
 			
 			TextButton {
 				id: option_button
-				text: model.modelData
+				text: format_text(model.modelData)
 				width: event_dialog.width - 16 * scale_factor
 				tooltip: format_text(small_text(option_tooltips[index]))
 				
