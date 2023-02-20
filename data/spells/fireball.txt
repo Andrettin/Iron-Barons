@@ -1,0 +1,21 @@
+fireball = {
+	name = "Fireball"
+	target = enemy
+	icon = research
+	mana_cost = 15
+	range = 5
+	character_types = {
+		natural_scientist
+		philosopher
+	}
+	effects = {
+		damage = {
+			value = 15
+			
+			scaled = {
+				attribute = learning
+				value = 1
+			}
+		}
+	}
+}

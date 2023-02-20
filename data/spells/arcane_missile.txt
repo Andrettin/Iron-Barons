@@ -1,0 +1,21 @@
+arcane_missile = {
+	name = "Arcane Missile"
+	target = enemy
+	icon = research
+	mana_cost = 5
+	range = 5
+	character_types = {
+		natural_scientist
+		philosopher
+	}
+	effects = {
+		damage = {
+			value = 5
+			
+			scaled = {
+				attribute = learning
+				value = 1
+			}
+		}
+	}
+}
