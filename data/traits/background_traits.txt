@@ -58,7 +58,7 @@ peasant_leader = {
 		}
 	}
 	modifier = {
-		intrigue = -1
+		martial = 1
 	}
 }
 
