@@ -2,6 +2,7 @@ admiral = {
 	name = "Admiral"
 	portrait = sailor
 	primary_attribute = martial
+	commander = true
 	country_modifier = {
 		naval_morale_resistance = 5
 	}

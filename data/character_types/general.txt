@@ -3,6 +3,7 @@ general = {
 	portrait = soldier
 	primary_attribute = martial
 	military_unit_category = general
+	commander = true
 	country_modifier = {
 		land_morale_resistance = 5
 	}
