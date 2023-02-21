@@ -4,7 +4,10 @@ dagger_1 = {
 	icon = dagger
 	level = 1
 	conditions = {
-		character_type = general
+		or = {
+			character_type = inquisitor
+			character_type = theologian
+		}
 	}
 	military_unit_modifier = {
 		melee = 1
