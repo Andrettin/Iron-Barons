@@ -131,7 +131,7 @@ Item {
 							MouseArea {
 								anchors.fill: parent
 								ToolTip.text: trait.name
-									+ ((modifier_string.length > 0 || military_unit_modifier_string.length > 0) ? small_text("\n") : "")
+									+ ((modifier_string.length > 0 || military_unit_modifier_string.length > 0) ? format_text(small_text("\n")) : "")
 									+ (modifier_string.length > 0 ? format_text(small_text("\n" + modifier_string)) : "")
 									+ (military_unit_modifier_string.length > 0 ? format_text(small_text("\n" + military_unit_modifier_string)) : "")
 								ToolTip.visible: containsMouse
