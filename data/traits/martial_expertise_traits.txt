@@ -31,7 +31,10 @@ duelist = {
 	}
 	modifier = {
 		martial = 1
-		prowess = 1
+	}
+	military_unit_modifier = {
+		melee = 1
+		defense = 1
 	}
 }
 

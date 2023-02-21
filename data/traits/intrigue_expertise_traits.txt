@@ -41,6 +41,8 @@ thug = {
 	modifier = {
 		martial = 1
 		intrigue = 1
-		prowess = 1
+	}
+	military_unit_modifier = {
+		melee = 1
 	}
 }
