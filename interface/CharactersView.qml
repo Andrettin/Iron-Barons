@@ -124,11 +124,16 @@ Item {
 							id: trait_icon
 							source: "image://icon/" + model.modelData.icon.identifier + "/small"
 							
-							readonly property string modifier_string: model.modelData.modifier_string
+							readonly property var trait: model.modelData
+							readonly property string modifier_string: trait.modifier_string
+							readonly property string military_unit_modifier_string: character.game_data.deployable ? trait.military_unit_modifier_string : ""
 							
 							MouseArea {
 								anchors.fill: parent
-								ToolTip.text: model.modelData.name + (modifier_string.length > 0 ? format_text(small_text("\n\n" + modifier_string)) : "")
+								ToolTip.text: trait.name
+									+ ((modifier_string.length > 0 || military_unit_modifier_string.length > 0) ? small_text("\n") : "")
+									+ (modifier_string.length > 0 ? format_text(small_text("\n" + modifier_string)) : "")
+									+ (military_unit_modifier_string.length > 0 ? format_text(small_text("\n" + military_unit_modifier_string)) : "")
 								ToolTip.visible: containsMouse
 								ToolTip.delay: 1000
 								hoverEnabled: true
