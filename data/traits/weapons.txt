@@ -40,37 +40,16 @@ short_sword_2 = {
 	}
 }
 
-longsword = {
-	name = "Longsword"
+longsword_1 = {
+	name = "Longsword +1"
 	type = weapon
 	icon = saber
+	level = 1
 	conditions = {
-		or = {
-			character_type = admiral
-			character_type = artist
-			character_type = banker
-			character_type = diplomat
-			character_type = general
-			character_type = high_judge
-			character_type = merchant
-			character_type = military_engineer
-			character_type = natural_scientist
-			character_type = navigator
-			character_type = philosopher
-			character_type = privateer
-			character_type = spymaster
-			character_type = statesman
-			character_type = treasurer
-		}
+		character_type = general
 	}
-	generation_conditions = {
-		technology = ironworking
-		not = {
-			technology = gunpowder
-		}
-	}
-	modifier = {
-		prowess = 3
+	military_unit_modifier = {
+		melee = 1
 	}
 }
 

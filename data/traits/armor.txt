@@ -33,20 +33,28 @@ leather_armor = {
 	}
 }
 
-chainmail = {
-	name = "Chainmail"
+chainmail_1 = {
+	name = "Chainmail +1"
 	type = armor
 	icon = heater_shield
+	level = 1
 	conditions = {
 		character_type = general
 	}
-	generation_conditions = {
-		technology = ironworking
-		not = {
-			technology = gunpowder
-		}
+	military_unit_modifier = {
+		defense = 1
 	}
-	modifier = {
-		prowess = 2
+}
+
+chainmail_2 = {
+	name = "Chainmail +2"
+	type = armor
+	icon = heater_shield
+	level = 2
+	conditions = {
+		character_type = general
+	}
+	military_unit_modifier = {
+		defense = 2
 	}
 }
