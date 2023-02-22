@@ -1,0 +1,15 @@
+pike = {
+	name = "Pike"
+	icon = saber
+	prerequisites = {
+		ironworking
+	}
+}
+
+halberd = {
+	name = "Halberd"
+	icon = saber
+	prerequisites = {
+		pike
+	}
+}

@@ -18,6 +18,7 @@ pikemen = {
 	defense = 5
 	movement = 3
 	entrench = true
+	required_technology = pike
 }
 
 halberdiers = {
@@ -29,6 +30,7 @@ halberdiers = {
 	defense = 6
 	movement = 4
 	entrench = true
+	required_technology = halberd
 }
 
 regulars = {
