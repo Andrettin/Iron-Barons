@@ -118,6 +118,7 @@
 /graphics/portraits/city_large.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/city_coastal.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/city_coastal_large.png (by Jinn) (licensed under the CC0) (reference: the Terreiro do Paço in Lisbon)
+/graphics/portraits/dock.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/factory.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/factory_large.png (by Jinn) (licensed under the CC0) (reference: Industrial Revolution British textile factories)
 /graphics/portraits/fort.png (by Jinn) (licensed under the CC0)
