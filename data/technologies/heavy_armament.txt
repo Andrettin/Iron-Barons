@@ -1,4 +1,7 @@
 rifled_artillery = {
 	name = "Rifled Artillery"
 	icon = cannon
+	prerequisites = {
+		crucible_process
+	}
 }

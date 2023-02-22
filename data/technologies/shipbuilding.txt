@@ -6,4 +6,7 @@ streamlined_hulls = {
 paddlewheels = {
 	name = "Paddlewheels"
 	icon = anchor
+	prerequisites = {
+		high_pressure_steam_engine
+	}
 }
