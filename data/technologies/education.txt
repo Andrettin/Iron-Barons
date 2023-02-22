@@ -1,0 +1,7 @@
+university = {
+	name = "University"
+	icon = university
+	prerequisites = {
+		philosophy
+	}
+}

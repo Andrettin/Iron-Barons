@@ -5,6 +5,7 @@ college = {
 	employment_type = researching
 	employment_capacity = 2
 	output_multiplier = 1
+	required_technology = university
 }
 
 university = {
@@ -14,4 +15,5 @@ university = {
 	employment_type = researching
 	employment_capacity = 4
 	output_multiplier = 1
+	required_technology = university
 }
