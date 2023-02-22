@@ -96,6 +96,7 @@
 /graphics/icons/mountains.png (by Jinn) (licensed under the CC0)
 /graphics/icons/music.png (by Jinn) (licensed under the CC0)
 /graphics/icons/newspaper.png (by Jinn) (licensed under the CC0)
+/graphics/icons/painting.png (by Jinn) (licensed under the CC0)
 /graphics/icons/research.png (by Jinn) (licensed under the CC0)
 /graphics/icons/settlement.png (by Jinn) (licensed under the CC0)
 /graphics/icons/silver_cross.png (by Jinn) (licensed under the CC0)
