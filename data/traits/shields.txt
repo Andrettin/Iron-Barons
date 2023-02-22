@@ -1,0 +1,12 @@
+shield_1 = {
+	name = "Shield +1"
+	type = trinket
+	icon = heater_shield
+	level = 1
+	conditions = {
+		character_type = general
+	}
+	military_unit_modifier = {
+		defense = 1
+	}
+}
