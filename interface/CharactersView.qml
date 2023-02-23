@@ -131,9 +131,10 @@ Item {
 							MouseArea {
 								anchors.fill: parent
 								ToolTip.text: trait.name
-									+ ((modifier_string.length > 0 || military_unit_modifier_string.length > 0) ? format_text(small_text("\n")) : "")
+									+ ((modifier_string.length > 0 || military_unit_modifier_string.length > 0 || trait.spell) ? format_text(small_text("\n")) : "")
 									+ (modifier_string.length > 0 ? format_text(small_text("\n" + modifier_string)) : "")
 									+ (military_unit_modifier_string.length > 0 ? format_text(small_text("\n" + military_unit_modifier_string)) : "")
+									+ (trait.spell ? format_text(small_text("\n" + trait.spell.name + " Spell")) : "")
 								ToolTip.visible: containsMouse
 								ToolTip.delay: 1000
 								hoverEnabled: true
