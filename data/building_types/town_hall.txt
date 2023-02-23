@@ -1,17 +1,20 @@
 town_hall = {
 	name = "Town Hall"
 	building_class = town_hall
+	portrait = town
 	icon = flag
 }
 
 city_hall = {
 	name = "City Hall"
 	building_class = city_hall
+	portrait = city
 	icon = flag
 }
 
 capitol = {
 	name = "Capitol"
 	building_class = capitol
+	portrait = city
 	icon = flag
 }

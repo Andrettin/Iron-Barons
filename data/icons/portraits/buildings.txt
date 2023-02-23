@@ -1,0 +1,27 @@
+building_slot = {
+	filepath = "portraits/building_slot.png"
+}
+
+city = {
+	filepath = "portraits/city.png"
+}
+
+dock = {
+	filepath = "portraits/dock.png"
+}
+
+fort = {
+	filepath = "portraits/fort.png"
+}
+
+town = {
+	filepath = "portraits/town.png"
+}
+
+trading_post = {
+	filepath = "portraits/trading_post.png"
+}
+
+university_portrait = {
+	filepath = "portraits/university.png"
+}

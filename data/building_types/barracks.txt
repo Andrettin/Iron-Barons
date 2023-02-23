@@ -1,5 +1,6 @@
 barracks = {
 	name = "Barracks"
 	building_class = barracks
+	portrait = fort
 	icon = crossed_sabers
 }

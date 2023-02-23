@@ -1,5 +1,6 @@
 warehouse = {
 	name = "Warehouse"
 	building_class = warehouse
+	portrait = trading_post
 	icon = chest
 }

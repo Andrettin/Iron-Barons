@@ -1,6 +1,7 @@
 college = {
 	name = "College"
 	building_class = college
+	portrait = university_portrait
 	icon = university
 	employment_type = researching
 	employment_capacity = 2
@@ -11,6 +12,7 @@ college = {
 university = {
 	name = "University"
 	building_class = university
+	portrait = university_portrait
 	icon = university
 	employment_type = researching
 	employment_capacity = 4

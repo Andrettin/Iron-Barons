@@ -1,6 +1,7 @@
 dock = {
 	name = "Dock"
 	building_class = dock
+	portrait = dock
 	icon = anchor
 	employment_type = fishing
 	employment_capacity = 4
