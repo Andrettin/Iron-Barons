@@ -1,0 +1,5 @@
+is_civilized = {
+	not = {
+		country_type = tribe
+	}
+}
