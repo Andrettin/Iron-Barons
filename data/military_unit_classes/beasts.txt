@@ -6,7 +6,7 @@ beasts = {
 
 flying_beasts = {
 	name = "Flying Beasts"
-	domain = land
+	domain = air
 	category = flying_beasts
 }
 
@@ -18,6 +18,6 @@ colossal_beasts = {
 
 colossal_flying_beasts = {
 	name = "Colossal Flying Beasts"
-	domain = land
+	domain = air
 	category = colossal_flying_beasts
 }
