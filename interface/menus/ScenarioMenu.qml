@@ -8,6 +8,7 @@ MenuBase {
 	
 	property var selected_scenario: null
 	readonly property var selected_country: diplomatic_map.selected_country
+	property int setup_count: 0
 	
 	Rectangle {
 		id: diplomatic_map_background
@@ -284,7 +285,7 @@ MenuBase {
 	TextButton {
 		id: start_game_button
 		anchors.horizontalCenter: scenario_list.horizontalCenter
-		anchors.bottom: previous_menu_button.top
+		anchors.bottom: game_rules_button.top
 		anchors.bottomMargin: 8 * scale_factor
 		text: qsTr("Start Game")
 		width: 96 * scale_factor
@@ -299,6 +300,22 @@ MenuBase {
 		onClicked: {
 			metternich.game.player_country = selected_country
 			metternich.game.start()
+		}
+	}
+	
+	TextButton {
+		id: game_rules_button
+		anchors.horizontalCenter: start_game_button.horizontalCenter
+		anchors.bottom: previous_menu_button.top
+		anchors.bottomMargin: 8 * scale_factor
+		text: qsTr("Game Rules")
+		width: 96 * scale_factor
+		height: 24 * scale_factor
+		
+		onClicked: {
+			menu_stack.push("GameRulesMenu.qml", {
+				selected_scenario: scenario_menu.selected_scenario
+			})
 		}
 	}
 	
@@ -327,7 +344,9 @@ MenuBase {
 				diplomatic_map.selected_country = null
 			}
 			
-			diplomatic_map.country_suffix = selected_scenario.start_date.getUTCFullYear() + "." + selected_scenario.start_date.getUTCMonth() + "." + selected_scenario.start_date.getUTCDay()
+			diplomatic_map.country_suffix = scenario_menu.setup_count
+			
+			scenario_menu.setup_count += 1
 		}
 	}
 	

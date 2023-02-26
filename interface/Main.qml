@@ -82,9 +82,13 @@ Window {
 		}
 	}
 	
+	function colored_text(text, color) {
+		return "<font color=\"" + color + "\">" + text + "</font>"
+	}
+	
 	function highlight(text) {
 		//highlight text
-		return "<font color=\"gold\">" + text + "</font>"
+		return colored_text(text, "gold")
 	}
 	
 	function format_text(text) {
