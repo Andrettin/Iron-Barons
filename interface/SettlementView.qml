@@ -14,10 +14,10 @@ Item {
 	Rectangle {
 		id: building_slots_area_background
 		anchors.fill: building_slots_area
-		color: Qt.rgba(221.0 / 255.0, 216.0 / 255.0, 181.0 / 255.0, 1)
+		color: "black"
 	}
 	
-	Flickable {
+	GridView {
 		id: building_slots_area
 		anchors.top: top_bar.bottom
 		anchors.bottom: status_bar.top
@@ -27,32 +27,40 @@ Item {
 		rightMargin: 0
 		topMargin: 0
 		bottomMargin: 0
+		cellWidth: 80 * scale_factor
+		cellHeight: 80 * scale_factor
+		boundsBehavior: Flickable.StopAtBounds
 		clip: true
+		model: province_game_data.building_slots
 		
-		Repeater {
-			model: province_game_data.building_slots
+		delegate: Item {
+			width: building_slots_area.cellWidth
+			height: building_slots_area.cellHeight
 			
-			Item {
-				x: index % 16 * 48 * scale_factor
-				y: Math.floor(index / 16) * 48 * scale_factor
-				width: 48 * scale_factor
-				height: 48 * scale_factor
-					
-				readonly property var building_slot: model.modelData
+			Rectangle {
+				anchors.horizontalCenter: parent.horizontalCenter
+				anchors.verticalCenter: parent.verticalCenter
+				width: building_portrait.width + 2 * scale_factor
+				height: building_portrait.height + 2 * scale_factor
+				border.color: "gray"
+				border.width: 1 * scale_factor
 				
 				Image {
+					id: building_portrait
 					anchors.horizontalCenter: parent.horizontalCenter
 					anchors.verticalCenter: parent.verticalCenter
-					source: building_slot.building ? "image://icon/" + building_slot.building.icon.identifier : "image://empty/"
+					source: "image://icon/" + (model.modelData.building ? model.modelData.building.portrait.identifier : "building_slot")
 				}
-					
+				
 				MouseArea {
 					anchors.fill: parent
 					hoverEnabled: true
 					
 					onEntered: {
-						if (building_slot.building !== null) {
-							status_text = building_slot.building.name
+						if (model.modelData.building !== null) {
+							status_text = model.modelData.building.name
+						} else {
+							status_text = model.modelData.type.name + " Slot"
 						}
 					}
 					
