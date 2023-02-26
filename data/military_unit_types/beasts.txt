@@ -1,6 +1,6 @@
 wolves = {
 	name = "Wolves"
-	unit_class = predators
+	unit_class = beasts
 	icon = lion
 	melee = 2
 	range = 1

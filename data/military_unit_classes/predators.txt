@@ -1,5 +1,0 @@
-predators = {
-	name = "Predators"
-	domain = land
-	category = predators
-}
