@@ -5,6 +5,7 @@ import ".."
 MenuBase {
 	id: main_menu
 	title: qsTr("Main Menu")
+	//background: metternich.defines.default_menu_background_file
 	
 	TextButton {
 		id: play_random_map_button

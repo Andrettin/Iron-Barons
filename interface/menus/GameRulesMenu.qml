@@ -5,6 +5,7 @@ import ".."
 MenuBase {
 	id: game_rules_menu
 	title: qsTr("Game Rules")
+	//background: metternich.defines.default_menu_background_file
 	
 	property var selected_scenario: null
 	

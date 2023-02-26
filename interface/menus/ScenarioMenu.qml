@@ -5,6 +5,7 @@ import ".."
 MenuBase {
 	id: scenario_menu
 	title: qsTr("Scenario")
+	//background: metternich.defines.default_menu_background_file
 	
 	property var selected_scenario: null
 	readonly property var selected_country: diplomatic_map.selected_country

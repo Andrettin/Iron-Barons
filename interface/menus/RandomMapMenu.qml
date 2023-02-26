@@ -5,6 +5,7 @@ import ".."
 MenuBase {
 	id: random_map_menu
 	title: qsTr("Random Map")
+	//background: metternich.defines.default_menu_background_file
 	
 	property int generation_count: 0
 	property var selected_era: null
