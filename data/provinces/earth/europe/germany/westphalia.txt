@@ -10,8 +10,23 @@ westphalia = {
 		culture = german
 		religion = pagan
 		
+		myths_enabled = {
+			-3000 = {
+				owner = goldemarland
+				culture = dwarven
+				religion = pagan
+			}
+			
+			450 = {
+				owner = goldemarland
+				culture = dwarven
+				religion = pagan
+			}
+		}
+		
 		1477 = {
 			owner = cologne #part of the Archbishopric of Cologne c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = german
 			religion = catholic
 		}
 		
