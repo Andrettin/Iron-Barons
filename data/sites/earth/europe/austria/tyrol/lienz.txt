@@ -6,4 +6,10 @@ lienz = {
 	resource = timber
 	terrain_type = conifer_forest
 	province = tyrol
+	
+	history = {
+		610 = {
+			improvement = ruins #Aguntum
+		}
+	}
 }
