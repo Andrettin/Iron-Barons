@@ -55,13 +55,40 @@ Popup {
 	
 	onOpened: {
 		dialog.receive_focus()
+		
+		if (parent.dialogs) {
+			parent.dialogs.push(this)
+		}
 	}
 	
 	onClosed: {
 		dialog.give_up_focus()
+		
+		if (parent.dialogs) {
+			const dialog_index = parent.dialogs.indexOf(this)
+			if (dialog_index != -1) {
+				parent.dialogs.splice(dialog_index, 1)
+			}
+		}
 	}
 	
 	function give_up_focus() {
+		//give focus to a different open dialog, if any
+		if (parent.dialogs) {
+			for (var i = 0; i < parent.dialogs.length; ++i) {
+				var child_item = parent.dialogs[i]
+				
+				if (child_item == this) {
+					continue
+				}
+				
+				if (child_item instanceof DialogBase) {
+					child_item.receive_focus()
+					return
+				}
+			}
+		}
+		
 		parent.forceActiveFocus()
 	}
 	
