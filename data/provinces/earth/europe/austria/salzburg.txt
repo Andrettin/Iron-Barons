@@ -13,8 +13,23 @@ salzburg = {
 		culture = austrian
 		religion = pagan
 		
+		myths_enabled = {
+			-3000 = {
+				owner = untersberg
+				culture = gnomish
+				religion = pagan
+			}
+			
+			450 = {
+				owner = untersberg
+				culture = gnomish
+				religion = pagan
+			}
+		}
+		
 		1477 = {
 			owner = salzburg #part of the Archbishopric of Salzburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = austrian
 			religion = catholic
 		}
 		
