@@ -1,0 +1,4 @@
+dwarven = {
+	name = "Dwarven"
+	default_phenotype = dwarven
+}

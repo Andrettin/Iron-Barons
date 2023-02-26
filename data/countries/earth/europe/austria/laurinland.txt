@@ -1,0 +1,17 @@
+laurinland = {
+	name = "Laurinland"
+	type = minor_nation
+	culture = dwarven
+	default_religion = pagan
+	capital_province = tyrol
+	eras = {
+		ancient_era
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+	}
+	core_provinces = {
+		tyrol
+	}
+}
