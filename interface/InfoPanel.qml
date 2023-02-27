@@ -205,6 +205,7 @@ Item {
 		columnSpacing: 2 * scale_factor
 		rows: 1
 		rowSpacing: 0
+		visible: selected_site && !selected_garrison
 		
 		Repeater {
 			model: province_game_data ? province_game_data.scripted_modifiers : []
