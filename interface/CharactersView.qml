@@ -145,23 +145,8 @@ Item {
 					Repeater {
 						model: character.game_data.scripted_modifiers
 						
-						Image {
-							id: modifier_icon
-							source: "image://icon/" + scripted_modifier.icon.identifier + "/small/" + (scripted_modifier.negative ? "red" : "green")
-							
-							readonly property var scripted_modifier: model.modelData.key
-							readonly property int duration: model.modelData.value
-							readonly property string modifier_string: scripted_modifier.modifier_string
-							
-							MouseArea {
-								anchors.fill: parent
-								ToolTip.text: scripted_modifier.name + (modifier_string.length > 0 ? format_text(small_text("\n"
-								+ "\nDuration: " + (duration * metternich.defines.months_per_turn) + " Months"
-								+ "\n" + modifier_string)) : "")
-								ToolTip.visible: containsMouse
-								ToolTip.delay: 1000
-								hoverEnabled: true
-							}
+						ScriptedModifierImage {
+							scripted_modifier_pair: model.modelData
 						}
 					}
 				}

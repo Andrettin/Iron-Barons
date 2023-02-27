@@ -6,6 +6,8 @@ Item {
 	width: infopanel_image.width
 	
 	readonly property var end_turn_button: end_turn_button_internal
+	readonly property var province_game_data: (selected_site && selected_site_game_data && selected_site.settlement) ? selected_site_game_data.province.game_data : null
+	readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
 	
 	Image {
 		id: infopanel_image
@@ -194,10 +196,29 @@ Item {
 		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
 	}
 	
+	Grid {
+		id: scripted_modifiers_grid
+		anchors.top: culture_chart.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		height: 16 * scale_factor
+		columnSpacing: 2 * scale_factor
+		rows: 1
+		rowSpacing: 0
+		
+		Repeater {
+			model: province_game_data ? province_game_data.scripted_modifiers : []
+			
+			ScriptedModifierImage {
+				scripted_modifier_pair: model.modelData
+			}
+		}
+	}
+	
 	SmallText {
 		id: site_info_text
-		anchors.top: province_game_data ? culture_chart.bottom : subtitle.bottom
-		anchors.topMargin: (province_game_data ? 8 : 16) * scale_factor
+		anchors.top: province_game_data ? scripted_modifiers_grid.bottom : subtitle.bottom
+		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 12 * scale_factor
 		text: province_game_data ? (
@@ -209,9 +230,6 @@ Item {
 			+ (selected_site_game_data.employment_capacity > 0 && selected_site_game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site_game_data.production_modifier) + "%") : "")
 		) : "")
 		visible: selected_site && !selected_garrison
-		
-		readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
-		readonly property var province_game_data: (selected_site && selected_site_game_data && selected_site.settlement) ? selected_site_game_data.province.game_data : null
 	}
 	
 	SmallText {
