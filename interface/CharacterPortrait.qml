@@ -12,6 +12,7 @@ PortraitButton {
 		+ (character.dynasty ? ("\nDynasty: " + character.dynasty.name) : "")
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
+		+ (character.game_data.spouse ? ("\nSpouse: " + character.game_data.spouse.full_name) : "")
 		+ "\nPrimary Attribute: " + character.type.primary_attribute_name
 		+ (character.game_data.diplomacy > 0 ? ("\nDiplomacy: " + character.game_data.diplomacy) : "")
 		+ (character.game_data.martial > 0 ? ("\nMartial: " + character.game_data.martial) : "")
