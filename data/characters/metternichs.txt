@@ -9,6 +9,12 @@ franz_georg_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutzen und 
 	birth_date = 1746.3.9
 	
 	#became imperial prince ("Reichfürst") of Metternich-Winneburg on 1803.6
+	
+	history = {
+		1771.1.9 = { #married on 1771.1.9 to Marie Beatrix von Kageneck
+			spouse = marie_beatrix_von_kageneck
+		}
+	}
 }
 
 clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 84-85.
