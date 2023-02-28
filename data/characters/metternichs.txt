@@ -7,6 +7,7 @@ franz_georg_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutzen und 
 	home_province = lower_austria #correct?
 	gender = male
 	birth_date = 1746.3.9
+	start_date = 1771.1.9 #married
 	
 	#became imperial prince ("Reichfürst") of Metternich-Winneburg on 1803.6
 	
