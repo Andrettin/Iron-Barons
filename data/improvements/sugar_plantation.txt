@@ -5,3 +5,12 @@ sugar_plantation = {
 	output_multiplier = 1
 	required_technology = sugar_cane
 }
+
+mechanized_sugar_plantation = {
+	name = "Mechanized Sugar Plantation"
+	resource = sugar_cane
+	image_filepath = "tiles/improvements/sugar_plantation.png"
+	output_multiplier = 2
+	required_improvement = sugar_plantation
+	required_technology = sugar_industry
+}
