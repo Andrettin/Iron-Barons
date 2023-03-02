@@ -1,0 +1,10 @@
+sugar_planting = {
+	name = "Sugar Planting"
+	output_commodity = sugar_cane
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+	}
+}
