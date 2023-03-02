@@ -196,6 +196,7 @@ Item {
 		anchors.fill: garrison_icon
 		hoverEnabled: true
 		enabled: garrison_icon.visible && province !== null && province.game_data.owner !== null && (province.game_data.owner === metternich.game.player_country || province.game_data.owner.game_data.is_any_vassal_of(metternich.game.player_country))
+		visible: enabled
 		
 		onReleased: {
 			selected_civilian_unit = null
