@@ -22,6 +22,12 @@ metternich = {
 	culture = german #Rhenish
 }
 
+wittelsbach = {
+	name = "Wittelsbach"
+	prefix = "von"
+	culture = german #Swabian
+}
+
 wurtemberg = {
 	name = "Wurtemberg"
 	prefix = "von"
