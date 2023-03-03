@@ -1,0 +1,13 @@
+plouneventer = {
+	name = "Plouneventer" #"Plounéventer"
+	world = earth
+	geocoordinate = { -4.2125 48.514722222222 }
+	#pos_offset = { 1 0 }
+	type = resource
+	resource = amber
+	terrain_type = conifer_forest
+	province = brittany
+	cultural_names = {
+		roman = "Vorganium"
+	}
+}

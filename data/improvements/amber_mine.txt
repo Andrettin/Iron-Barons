@@ -1,7 +1,7 @@
 amber_mine = {
 	name = "Amber Mine"
 	resource = amber
-	image_filepath = "tiles/improvements/quarry.png"
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	employment_type = amber_mining
 	employment_capacity = 4
 	output_multiplier = 1
