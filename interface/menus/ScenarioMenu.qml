@@ -29,7 +29,7 @@ MenuBase {
 		anchors.right: political_map_mode_button.left
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
-		anchors.bottom: country_text.top
+		anchors.bottom: country_text_area.top
 		anchors.bottomMargin: 16 * scale_factor
 		width: 512 * scale_factor
 	}
@@ -115,55 +115,64 @@ MenuBase {
 		anchors.leftMargin: 4 * scale_factor
 		anchors.right: scenario_list.right
 		anchors.rightMargin: 4 * scale_factor
-		anchors.top: country_text.top
+		anchors.top: country_text_area.top
 		wrapMode: Text.WordWrap
 	}
 	
-	SmallText {
-		id: country_text
-		text: selected_country ? (
-			selected_country.name
-			+ "\n"
-			+ "\n" + selected_country.game_data.type_name
-			+ (selected_country.game_data.overlord ? (
-				"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
-			) : "")
-			+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
-			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
-			+ "\nPopulation: " + number_string(selected_country.game_data.population)
-			+ (vassal_count > 0 ? (
-				"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
-			) : "")
-			+ (selected_country.game_data.colonies.length > 0 ? (
-				"\n" + selected_country.game_data.colonies.length + " " + (selected_country.game_data.colonies.length > 1 ? "Colonies" : "Colony")
-			) : "")
-			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
-			+ get_resource_counts_string(selected_country.game_data.resource_counts)
-		) : ""
+	Flickable {
+		id: country_text_area
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 16 * scale_factor
+		width: 128 * scale_factor
 		height: 128 * scale_factor
+		contentWidth: contentItem.childrenRect.width
+		contentHeight: contentItem.childrenRect.height
+		boundsBehavior: Flickable.StopAtBounds
+		clip: true
 		
-		readonly property int vassal_count: selected_country ? (selected_country.game_data.vassals.length - selected_country.game_data.colonies.length) : 0
-		
-		function get_resource_counts_string(resource_counts) {
-			var str = "";
+		SmallText {
+			id: country_text
+			text: selected_country ? (
+				selected_country.name
+				+ "\n"
+				+ "\n" + selected_country.game_data.type_name
+				+ (selected_country.game_data.overlord ? (
+					"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
+				) : "")
+				+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
+				+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
+				+ "\nPopulation: " + number_string(selected_country.game_data.population)
+				+ (vassal_count > 0 ? (
+					"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
+				) : "")
+				+ (selected_country.game_data.colonies.length > 0 ? (
+					"\n" + selected_country.game_data.colonies.length + " " + (selected_country.game_data.colonies.length > 1 ? "Colonies" : "Colony")
+				) : "")
+				+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
+				+ get_resource_counts_string(selected_country.game_data.resource_counts)
+			) : ""
 			
-			for (const kv_pair of resource_counts) {
-				var resource = kv_pair.key
-				var count = kv_pair.value
-				str += "\n" + count + " " + resource.name
+			readonly property int vassal_count: selected_country ? (selected_country.game_data.vassals.length - selected_country.game_data.colonies.length) : 0
+			
+			function get_resource_counts_string(resource_counts) {
+				var str = "";
+				
+				for (const kv_pair of resource_counts) {
+					var resource = kv_pair.key
+					var count = kv_pair.value
+					str += "\n" + count + " " + resource.name
+				}
+				
+				return str
 			}
-			
-			return str
 		}
 	}
 	
 	SmallText {
 		id: population_type_chart_label
-		anchors.top: country_text.top
+		anchors.top: country_text_area.top
 		anchors.horizontalCenter: population_type_chart.horizontalCenter
 		text: "Population Type"
 		visible: population_type_chart.visible
@@ -180,7 +189,7 @@ MenuBase {
 	
 	SmallText {
 		id: culture_chart_label
-		anchors.top: country_text.top
+		anchors.top: country_text_area.top
 		anchors.horizontalCenter: culture_chart.horizontalCenter
 		text: "Culture"
 		visible: culture_chart.visible
@@ -198,7 +207,7 @@ MenuBase {
 	
 	SmallText {
 		id: religion_chart_label
-		anchors.top: country_text.top
+		anchors.top: country_text_area.top
 		anchors.horizontalCenter: religion_chart.horizontalCenter
 		text: "Religion"
 		visible: religion_chart.visible
@@ -215,7 +224,7 @@ MenuBase {
 	
 	SmallText {
 		id: phenotype_chart_label
-		anchors.top: country_text.top
+		anchors.top: country_text_area.top
 		anchors.horizontalCenter: phenotype_chart.horizontalCenter
 		text: "Phenotype"
 		visible: phenotype_chart.visible
