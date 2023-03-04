@@ -8,14 +8,25 @@ grain_farm = {
 	variation_count = 4
 }
 
-mechanized_grain_farm = {
-	name = "Mechanized Grain Farm"
+grain_estate = {
+	name = "Grain Estate"
 	resource = grain
 	image_filepath = "tiles/improvements/grain_farm.png"
 	employment_type = grain_farming
-	employment_capacity = 4
-	output_multiplier = 2
+	employment_capacity = 8
+	output_multiplier = 1
 	variation_count = 4
 	required_improvement = grain_farm
+}
+
+mechanized_grain_estate = {
+	name = "Mechanized Grain Estate"
+	resource = grain
+	image_filepath = "tiles/improvements/grain_farm.png"
+	employment_type = grain_farming
+	employment_capacity = 8
+	output_multiplier = 2
+	variation_count = 4
+	required_improvement = grain_estate
 	required_technology = seed_drill
 }
