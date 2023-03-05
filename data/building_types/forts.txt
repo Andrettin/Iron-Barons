@@ -1,0 +1,20 @@
+stockade = {
+	name = "Stockade"
+	building_class = stockade
+	portrait = fort
+	icon = wall
+}
+
+fort = {
+	name = "Fort"
+	building_class = fort
+	portrait = fort
+	icon = wall
+}
+
+fortress = {
+	name = "Fortress"
+	building_class = fortress
+	portrait = fort
+	icon = wall
+}
