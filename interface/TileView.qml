@@ -169,12 +169,12 @@ Item {
 			
 			text += ") "
 			
-			if (site !== null && (improvement !== null || resource !== null)) {
+			if (site !== null && (improvement !== null || resource !== null || site.settlement)) {
 				text += site.game_data.current_cultural_name
 			}
 			
 			if (province !== null) {
-				if (site !== null && (improvement !== null || resource !== null)) {
+				if (site !== null && (improvement !== null || resource !== null || site.settlement)) {
 					text += ", "
 				}
 				
