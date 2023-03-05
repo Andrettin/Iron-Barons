@@ -30,7 +30,7 @@ DialogBase {
 					id: commodity_icon
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.horizontalCenter: parent.horizontalCenter
-					anchors.horizontalCenterOffset: -4 * scale_factor
+					anchors.horizontalCenterOffset: -8 * scale_factor
 					source: "image://icon/" + commodity.icon.identifier
 				}
 				
