@@ -3,4 +3,8 @@ warehouse = {
 	building_class = warehouse
 	portrait = trading_post
 	icon = chest
+	warehouse = true
+	country_modifier = {
+		storage_capacity = 100
+	}
 }
