@@ -1,4 +1,5 @@
 silver = {
 	name = "Silver"
 	icon = silver
+	wealth_value = 100
 }
