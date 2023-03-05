@@ -1,0 +1,12 @@
+cilli = {
+	name = "Cilli"
+	world = earth
+	geocoordinate = { 15.264128741 46.22909194 }
+	province = styria
+	
+	history = {
+		1815 = {
+			#existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
+}
