@@ -1,3 +1,4 @@
 dock = {
 	name = "Dock"
+	near_water = true
 }
