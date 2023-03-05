@@ -9,9 +9,17 @@ DialogBase {
 	width: 256 * scale_factor + 8 * scale_factor * 2
 	height: ok_button.y + ok_button.height + 8 * scale_factor
 	
+	SmallText {
+		id: storage_capacity_label
+		anchors.top: title_item.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		text: "Storage Capacity: " + (province_game_data.owner ? province_game_data.owner.game_data.storage_capacity : 0)
+	}
+	
 	Grid {
 		id: commodities_grid
-		anchors.top: title_item.bottom
+		anchors.top: storage_capacity_label.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		columns: 4
@@ -60,7 +68,7 @@ DialogBase {
 	
 	TextButton {
 		id: ok_button
-		anchors.top: commodities_grid.bottom
+		anchors.top: commodities_grid.height > 0 ? commodities_grid.bottom : storage_capacity_label.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "OK"

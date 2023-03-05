@@ -62,7 +62,7 @@ Item {
 					hoverEnabled: true
 					
 					onClicked: {
-						if (building_slot.type.identifier === "warehouse") {
+						if (building !== null && building.warehouse) {
 							warehouse_dialog.open()
 						}
 					}
