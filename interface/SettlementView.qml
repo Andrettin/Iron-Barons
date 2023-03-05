@@ -1,5 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
+import "./dialogs"
 
 Item {
 	id: settlement_view
@@ -37,30 +38,40 @@ Item {
 			width: building_slots_area.cellWidth
 			height: building_slots_area.cellHeight
 			
+			readonly property var building_slot: model.modelData
+			readonly property var building: building_slot.building
+			
 			Rectangle {
 				anchors.horizontalCenter: parent.horizontalCenter
 				anchors.verticalCenter: parent.verticalCenter
 				width: building_portrait.width + 2 * scale_factor
 				height: building_portrait.height + 2 * scale_factor
-				border.color: "gray"
+				border.color: building_mouse_area.containsMouse ? "white" : "gray"
 				border.width: 1 * scale_factor
 				
 				Image {
 					id: building_portrait
 					anchors.horizontalCenter: parent.horizontalCenter
 					anchors.verticalCenter: parent.verticalCenter
-					source: "image://icon/" + (model.modelData.building ? model.modelData.building.portrait.identifier : "building_slot")
+					source: "image://icon/" + (building ? building.portrait.identifier : "building_slot")
 				}
 				
 				MouseArea {
+					id: building_mouse_area
 					anchors.fill: parent
 					hoverEnabled: true
 					
+					onClicked: {
+						if (building_slot.type.identifier === "warehouse") {
+							warehouse_dialog.open()
+						}
+					}
+					
 					onEntered: {
-						if (model.modelData.building !== null) {
-							status_text = model.modelData.building.name
+						if (building !== null) {
+							status_text = building.name
 						} else {
-							status_text = model.modelData.type.name + " Slot"
+							status_text = building_slot.type.name + " Slot"
 						}
 					}
 					
@@ -98,5 +109,9 @@ Item {
 		anchors.top: parent.top
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
+	}
+	
+	WarehouseDialog {
+		id: warehouse_dialog
 	}
 }
