@@ -1,3 +1,4 @@
 warehouse = {
 	name = "Warehouse"
+	capital = true
 }
