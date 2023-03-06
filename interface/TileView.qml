@@ -193,7 +193,10 @@ Item {
 	}
 	
 	MouseArea {
-		anchors.fill: garrison_icon
+		anchors.horizontalCenter: garrison_icon.horizontalCenter
+		anchors.verticalCenter: garrison_icon.verticalCenter
+		width: garrison_icon.width + 8 * scale_factor
+		height: garrison_icon.height + 8 * scale_factor
 		hoverEnabled: true
 		enabled: garrison_icon.visible && province !== null && province.game_data.owner !== null && (province.game_data.owner === metternich.game.player_country || province.game_data.owner.game_data.is_any_vassal_of(metternich.game.player_country))
 		visible: enabled
