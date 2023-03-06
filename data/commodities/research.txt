@@ -1,4 +1,5 @@
 research = {
 	name = "Research"
 	icon = research
+	abstract = true
 }
