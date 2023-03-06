@@ -10,6 +10,7 @@ city_hall = {
 	building_class = city_hall
 	portrait = city
 	icon = flag
+	required_building = town_hall
 }
 
 capitol = {

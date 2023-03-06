@@ -10,6 +10,7 @@ fort = {
 	building_class = fort
 	portrait = fort
 	icon = wall
+	required_building = stockade
 }
 
 fortress = {
@@ -17,4 +18,5 @@ fortress = {
 	building_class = fortress
 	portrait = fort
 	icon = wall
+	required_building = fort
 }

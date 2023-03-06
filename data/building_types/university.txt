@@ -17,5 +17,6 @@ university = {
 	employment_type = researching
 	employment_capacity = 4
 	output_multiplier = 1
+	required_building = college
 	required_technology = university
 }
