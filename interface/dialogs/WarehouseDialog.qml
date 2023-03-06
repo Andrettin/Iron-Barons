@@ -30,6 +30,7 @@ DialogBase {
 			Item {
 				width: 64 * scale_factor
 				height: 64 * scale_factor
+				visible: !commodity.abstract
 				
 				readonly property var commodity: model.modelData.key
 				readonly property int stored: model.modelData.value
