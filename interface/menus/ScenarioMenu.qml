@@ -123,9 +123,9 @@ MenuBase {
 		id: country_text_area
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
+		anchors.right: population_type_chart_label.left
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 16 * scale_factor
-		width: 128 * scale_factor
 		height: 128 * scale_factor
 		contentWidth: contentItem.childrenRect.width
 		contentHeight: contentItem.childrenRect.height
