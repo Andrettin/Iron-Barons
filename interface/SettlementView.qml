@@ -32,7 +32,7 @@ Item {
 		cellHeight: 80 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		model: province_game_data.building_slots
+		model: get_available_building_slots(province_game_data.building_slots)
 		
 		delegate: Item {
 			width: building_slots_area.cellWidth
@@ -113,5 +113,17 @@ Item {
 	
 	WarehouseDialog {
 		id: warehouse_dialog
+	}
+	
+	function get_available_building_slots(building_slots) {
+		var available_building_slots = []
+		
+		for (var building_slot of building_slots) {
+			if (building_slot.available) {
+				available_building_slots.push(building_slot)
+			}
+		}
+		
+		return available_building_slots
 	}
 }
