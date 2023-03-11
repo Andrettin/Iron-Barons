@@ -4,6 +4,7 @@ cadiz = {
 	geocoordinate = { -6.22500533184 36.53499086410 } #from Natural Earth
 	type = resource
 	resource = fish
+	province = andalusia
 	cultural_names = {
 		phoenician = "Gades"
 		roman = "Gades"
