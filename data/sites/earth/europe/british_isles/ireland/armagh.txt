@@ -1,0 +1,8 @@
+armagh = {
+	name = "Armagh"
+	world = earth
+	geocoordinate = { -6.654444 54.349444 }
+	type = resource
+	resource = cattle
+	province = ulster
+}

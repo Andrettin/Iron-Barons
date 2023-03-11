@@ -1,0 +1,9 @@
+southampton = {
+	name = "Southampton"
+	world = earth
+	geocoordinate = { -1.39997684875 50.90003135080 } #from Natural Earth
+	pos_offset = { 0 -1 }
+	type = resource
+	resource = fish
+	province = somerset
+}

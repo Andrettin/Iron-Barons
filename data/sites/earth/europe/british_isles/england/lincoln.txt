@@ -1,0 +1,9 @@
+lincoln_england = {
+	name = "Lincoln"
+	world = earth
+	geocoordinate = { -0.55 53.25 }
+	type = resource
+	resource = iron_ore
+	terrain_type = barren_hills
+	province = warwickshire
+}

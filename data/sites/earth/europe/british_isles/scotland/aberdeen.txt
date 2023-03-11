@@ -1,0 +1,16 @@
+aberdeen = {
+	name = "Aberdeen"
+	world = earth
+	geocoordinate = { -2.07998702128 57.17039796870 } #from Natural Earth
+	pos_offset = { -1 0 }
+	type = resource
+	resource = sheep
+	terrain_type = barren_hills
+	province = highlands
+	
+	history = {
+		1494 = {
+			buildings += university #University founded in Aberdeen in 1494; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

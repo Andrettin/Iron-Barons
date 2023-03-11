@@ -1,0 +1,8 @@
+limerick = {
+	name = "Limerick"
+	world = earth
+	geocoordinate = { -8.62305017235 52.66470399890 } #from Natural Earth
+	type = resource
+	resource = fish
+	province = munster
+}

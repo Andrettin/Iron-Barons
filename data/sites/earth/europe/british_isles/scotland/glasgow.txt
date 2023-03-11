@@ -1,0 +1,15 @@
+glasgow = {
+	name = "Glasgow"
+	world = earth
+	geocoordinate = { -4.25070723613 55.87440472320 } #from Natural Earth
+	type = resource
+	resource = coal
+	terrain_type = barren_hills
+	province = ayrshire
+	
+	history = {
+		1450 = {
+			buildings += university #University founded in Glasgow in 1450; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

@@ -1,0 +1,9 @@
+douglas = {
+	name = "Douglas"
+	world = earth
+	geocoordinate = { -4.48002140443 54.15042726550 } #from Natural Earth
+	pos_offset = { -1 -1 }
+	type = resource
+	resource = fish
+	province = northumberland
+}

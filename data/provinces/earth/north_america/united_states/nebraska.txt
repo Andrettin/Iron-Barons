@@ -1,7 +1,7 @@
 nebraska = {
 	name = "Nebraska"
 	color = { 50 207 38 }
-	capital_settlement = lincoln
+	capital_settlement = lincoln_usa
 	
 	history = {
 		1803 = {
