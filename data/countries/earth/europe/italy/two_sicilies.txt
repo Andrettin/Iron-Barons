@@ -1,18 +1,19 @@
-sicily = {
-	name = "Sicily"
+two_sicilies = {
+	name = "Two Sicilies"
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	capital_province = sicily
+	capital_province = naples
 	eras = {
-		medieval_era
-		renaissance_era
 		industrial_era
 	}
 	title = {
 		default_tier = kingdom
 	}
 	core_provinces = {
+		naples
+		cosenza
+		taranto
 		sicily
 	}
 }

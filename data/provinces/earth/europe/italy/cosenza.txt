@@ -26,7 +26,7 @@ cosenza = {
 		}
 		
 		1735 = {
-			owner = sicily #became part of the Kingdom of the Two Sicilies under the Spanish Bourbons in 1735; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			owner = two_sicilies #became part of the Kingdom of the Two Sicilies under the Spanish Bourbons in 1735; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 		
 		1815 = {
