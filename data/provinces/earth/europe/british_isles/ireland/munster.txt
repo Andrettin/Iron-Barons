@@ -1,0 +1,13 @@
+munster = {
+	name = "Munster"
+	color = { 242 217 247 }
+	capital_settlement = cork
+	regions = {
+		ireland
+	}
+	
+	history = {
+		culture = irish
+		religion = pagan
+	}
+}

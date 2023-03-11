@@ -1,0 +1,13 @@
+leinster = {
+	name = "Leinster"
+	color = { 243 211 122 }
+	capital_settlement = dublin
+	regions = {
+		ireland
+	}
+	
+	history = {
+		culture = irish
+		religion = pagan
+	}
+}

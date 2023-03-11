@@ -1,0 +1,13 @@
+ulster = {
+	name = "Ulster"
+	color = { 29 185 114 }
+	capital_settlement = belfast
+	regions = {
+		ireland
+	}
+	
+	history = {
+		culture = irish
+		religion = pagan
+	}
+}
