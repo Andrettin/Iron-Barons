@@ -1,0 +1,5 @@
+viking_age = {
+	name = "Viking Age"
+	start_date = 802
+	map_template = earth
+}
