@@ -15,5 +15,9 @@ lancashire = {
 			culture = anglo_saxon
 			religion = catholic
 		}
+		
+		886 = {
+			owner = danelaw #part of the Danelaw in 886; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
 	}
 }

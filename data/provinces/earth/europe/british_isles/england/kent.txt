@@ -16,6 +16,10 @@ kent = {
 			religion = catholic
 		}
 		
+		886 = {
+			owner = wessex #part of Wessex and its dependencies in 886; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
+		
 		1740 = {
 			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 			culture = english

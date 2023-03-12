@@ -14,5 +14,11 @@ highlands = {
 			owner = pictland #part of Pictland c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
 			culture = pictish
 		}
+		
+		843 = {
+			owner = scotland_gaelic #became part of Scotland in 843; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+			culture = highlander
+			religion = catholic
+		}
 	}
 }

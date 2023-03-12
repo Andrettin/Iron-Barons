@@ -1,0 +1,29 @@
+scotland_gaelic = {
+	name = "Scotland"
+	type = minor_nation
+	culture = highlander
+	default_religion = catholic
+	capital_province = highlands
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		highlands
+	}
+}
+
+scotland_anglo_saxon = {
+	name = "Scotland"
+	type = minor_nation
+	culture = scottish
+	default_religion = protestant
+	capital_province = lothian
+	eras = {
+		renaissance_era
+	}
+	core_provinces = {
+		lothian
+		highlands
+		ayrshire
+	}
+}

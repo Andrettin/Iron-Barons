@@ -1,0 +1,16 @@
+bernicia = {
+	name = "Bernicia"
+	type = minor_nation
+	culture = anglo_saxon
+	default_religion = catholic
+	capital_province = northumberland
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+	}
+	core_provinces = {
+		northumberland
+	}
+}

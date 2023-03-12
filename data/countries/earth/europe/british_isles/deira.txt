@@ -1,0 +1,16 @@
+deira = {
+	name = "Deira"
+	type = minor_nation
+	culture = anglo_saxon
+	default_religion = catholic
+	capital_province = yorkshire
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+	}
+	core_provinces = {
+		yorkshire
+	}
+}

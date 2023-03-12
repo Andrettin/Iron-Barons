@@ -15,5 +15,9 @@ lothian = {
 			culture = anglo_saxon
 			religion = catholic
 		}
+		
+		886 = {
+			owner = bernicia
+		}
 	}
 }

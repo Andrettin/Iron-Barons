@@ -15,5 +15,9 @@ northumberland = {
 			culture = anglo_saxon
 			religion = catholic
 		}
+		
+		886 = {
+			owner = bernicia #part of English Northumbria (which excluded Deira) in 886; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
 	}
 }

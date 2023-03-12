@@ -1,0 +1,5 @@
+norse = {
+	name = "Norse"
+	group = scandinavian
+	color = { 76 140 204 }
+}
