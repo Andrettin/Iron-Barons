@@ -5,5 +5,5 @@ douglas = {
 	pos_offset = { -1 -1 }
 	type = resource
 	resource = fish
-	province = northumberland
+	province = cumberland
 }

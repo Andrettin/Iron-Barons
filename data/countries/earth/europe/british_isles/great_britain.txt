@@ -23,6 +23,7 @@ great_britain = {
 		lancashire
 		yorkshire
 		northumberland
+		cumberland
 		cornwall
 		wales
 		lothian

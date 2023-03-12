@@ -1,0 +1,13 @@
+cumberland = {
+	name = "Cumberland"
+	color = { 176 45 29 }
+	capital_settlement = carlisle
+	regions = {
+		england
+	}
+	
+	history = {
+		culture = cumbrian
+		religion = pagan
+	}
+}
