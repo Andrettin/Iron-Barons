@@ -19,6 +19,7 @@ england = {
 		kent
 		east_anglia
 		warwickshire
+		derbyshire
 		lancashire
 		yorkshire
 		northumberland

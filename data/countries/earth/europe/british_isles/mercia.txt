@@ -12,6 +12,7 @@ mercia = {
 	}
 	core_provinces = {
 		warwickshire
+		derbyshire
 		lancashire
 	}
 }

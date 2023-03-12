@@ -5,5 +5,5 @@ nottingham = {
 	type = resource
 	resource = coal
 	terrain_type = barren_hills
-	province = warwickshire
+	province = derbyshire
 }
