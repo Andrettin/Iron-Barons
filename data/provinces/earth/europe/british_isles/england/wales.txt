@@ -10,6 +10,12 @@ wales = {
 		culture = welsh
 		religion = pagan
 		
+		802 = {
+			owner = wales #part of (North) Wales c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+			culture = welsh
+			religion = catholic
+		}
+		
 		1740 = {
 			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 			religion = protestant

@@ -7,7 +7,13 @@ lothian = {
 	}
 	
 	history = {
-		culture = scottish
+		culture = anglo_saxon
 		religion = pagan
+		
+		802 = {
+			owner = northumbria #part of Northumbria c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+			culture = anglo_saxon
+			religion = catholic
+		}
 	}
 }

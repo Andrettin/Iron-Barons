@@ -1,0 +1,16 @@
+wales = {
+	name = "Wales"
+	type = minor_nation
+	culture = welsh
+	default_religion = protestant
+	capital_province = wales
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = duchy #principality
+	}
+	core_provinces = {
+		wales
+	}
+}

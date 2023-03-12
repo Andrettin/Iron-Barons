@@ -7,11 +7,18 @@ middlesex = {
 	}
 	
 	history = {
-		culture = english
+		culture = anglo_saxon
 		religion = pagan
+		
+		802 = {
+			owner = middlesex #part of Middlesex c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+			culture = anglo_saxon
+			religion = catholic
+		}
 		
 		1740 = {
 			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = english
 			religion = protestant
 		}
 	}

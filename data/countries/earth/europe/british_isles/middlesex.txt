@@ -1,0 +1,16 @@
+middlesex = {
+	name = "Middlesex"
+	type = minor_nation
+	culture = anglo_saxon
+	default_religion = catholic
+	capital_province = middlesex
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = county
+	}
+	core_provinces = {
+		middlesex
+	}
+}

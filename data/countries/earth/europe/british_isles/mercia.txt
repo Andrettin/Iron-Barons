@@ -1,9 +1,9 @@
-ireland = {
-	name = "Ireland"
+mercia = {
+	name = "Mercia"
 	type = minor_nation
-	culture = irish
+	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = leinster
+	capital_province = warwickshire
 	eras = {
 		medieval_era
 	}
@@ -11,9 +11,7 @@ ireland = {
 		default_tier = kingdom
 	}
 	core_provinces = {
-		leinster
-		munster
-		connaught
-		ulster
+		warwickshire
+		lancashire
 	}
 }

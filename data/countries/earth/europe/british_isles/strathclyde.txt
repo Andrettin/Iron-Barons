@@ -7,6 +7,9 @@ strathclyde = {
 	eras = {
 		medieval_era
 	}
+	title = {
+		default_tier = kingdom
+	}
 	core_provinces = {
 		ayrshire
 	}

@@ -1,9 +1,9 @@
-ireland = {
-	name = "Ireland"
+east_anglia = {
+	name = "East Anglia"
 	type = minor_nation
-	culture = irish
+	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = leinster
+	capital_province = east_anglia
 	eras = {
 		medieval_era
 	}
@@ -11,9 +11,6 @@ ireland = {
 		default_tier = kingdom
 	}
 	core_provinces = {
-		leinster
-		munster
-		connaught
-		ulster
+		east_anglia
 	}
 }
