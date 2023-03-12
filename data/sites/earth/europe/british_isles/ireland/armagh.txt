@@ -5,4 +5,10 @@ armagh = {
 	type = resource
 	resource = cattle
 	province = ulster
+	
+	history = {
+		802 = {
+			improvement = cattle_ranch #existed c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
+	}
 }

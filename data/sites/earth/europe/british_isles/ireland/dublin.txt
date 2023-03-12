@@ -7,6 +7,10 @@ dublin = {
 	province = leinster
 	
 	history = {
+		802 = {
+			#existed c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
+		
 		1312 = {
 			buildings += university #University founded in Dublin in 1312; Source: "Atlas de História Mundial", p. 144.
 		}

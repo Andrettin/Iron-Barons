@@ -9,5 +9,10 @@ cumberland = {
 	history = {
 		culture = cumbrian
 		religion = pagan
+		
+		802 = {
+			owner = strathclyde #part of Strathclyde c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+			culture = cumbrian
+		}
 	}
 }

@@ -1,0 +1,13 @@
+strathclyde = {
+	name = "Strathclyde"
+	type = minor_nation
+	culture = cumbrian
+	default_religion = pagan
+	capital_province = ayrshire
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		ayrshire
+	}
+}

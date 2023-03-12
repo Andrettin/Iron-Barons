@@ -6,4 +6,10 @@ waterford = {
 	type = resource
 	resource = fish
 	province = munster
+	
+	history = {
+		802 = {
+			improvement = fishing_wharf #existed c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
+	}
 }
