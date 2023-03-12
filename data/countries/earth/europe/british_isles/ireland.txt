@@ -1,0 +1,16 @@
+ireland = {
+	name = "Ireland"
+	type = minor_nation
+	culture = irish
+	default_religion = catholic
+	capital_province = leinster
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		leinster
+		munster
+		connaught
+		ulster
+	}
+}

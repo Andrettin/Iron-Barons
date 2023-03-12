@@ -1,0 +1,13 @@
+scots = {
+	name = "Scots"
+	type = tribe
+	culture = irish
+	default_religion = pagan
+	capital_province = ulster
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		ulster
+	}
+}

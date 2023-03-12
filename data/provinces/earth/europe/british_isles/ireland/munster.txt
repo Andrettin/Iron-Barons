@@ -9,5 +9,9 @@ munster = {
 	history = {
 		culture = irish
 		religion = pagan
+		
+		802 = {
+			owner = ireland #part of Ireland c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
 	}
 }

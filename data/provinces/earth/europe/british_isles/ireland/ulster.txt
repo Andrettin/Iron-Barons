@@ -9,5 +9,9 @@ ulster = {
 	history = {
 		culture = irish
 		religion = pagan
+		
+		802 = {
+			owner = scots #part of the territory of the Scots c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		}
 	}
 }
