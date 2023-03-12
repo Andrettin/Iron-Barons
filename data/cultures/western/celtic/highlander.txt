@@ -1,0 +1,5 @@
+highlander = {
+	name = "Highlander"
+	group = celtic
+	color = { 76 178 178 }
+}
