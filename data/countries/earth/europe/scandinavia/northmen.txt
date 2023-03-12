@@ -1,0 +1,18 @@
+northmen = {
+	name = "Northmen"
+	type = tribe
+	culture = norse
+	default_religion = pagan
+	capital_province = akershus
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+	}
+	core_provinces = {
+		akershus
+		rogaland
+		hordaland
+	}
+}

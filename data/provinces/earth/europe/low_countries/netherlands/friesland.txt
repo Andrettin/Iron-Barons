@@ -7,11 +7,17 @@ friesland = {
 	}
 	
 	history = {
-		culture = dutch
+		culture = frisian
 		religion = pagan
+		
+		526 = {
+			owner = frisians #territory of the Frisians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = frisian
+		}
 		
 		1477 = {
 			owner = friesland #part of Friesland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = dutch
 			religion = catholic
 		}
 		

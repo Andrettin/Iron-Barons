@@ -7,11 +7,17 @@ rogaland = {
 	}
 	
 	history = {
-		culture = norwegian
+		culture = norse
 		religion = pagan
+		
+		526 = {
+			owner = northmen #territory of the Northmen in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = norse
+		}
 		
 		1740 = {
 			owner = denmark #Danish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = norwegian
 			religion = protestant
 		}
 	}

@@ -1,0 +1,8 @@
+anglian = {
+	name = "Anglian"
+	group = west_germanic
+	derived_cultures = {
+		anglo_saxon
+		german
+	}
+}

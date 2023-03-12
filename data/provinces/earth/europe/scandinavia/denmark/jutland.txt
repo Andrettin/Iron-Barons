@@ -7,11 +7,17 @@ jutland = {
 	}
 	
 	history = {
-		culture = danish
+		culture = anglian
 		religion = pagan
+		
+		526 = {
+			owner = jutes #territory of the Jutes in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = anglian
+		}
 		
 		1740 = {
 			owner = denmark #part of the Kingdom of Denmark c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = danish
 			religion = protestant
 		}
 	}

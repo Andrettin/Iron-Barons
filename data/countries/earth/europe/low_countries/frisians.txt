@@ -1,0 +1,13 @@
+frisians = {
+	name = "Frisians"
+	type = tribe
+	culture = frisian
+	default_religion = pagan
+	capital_province = friesland
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		friesland
+	}
+}

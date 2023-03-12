@@ -7,11 +7,17 @@ holstein = {
 	}
 	
 	history = {
-		culture = german
+		culture = anglian
 		religion = pagan
+		
+		526 = {
+			owner = jutes #territory of the Jutes in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = anglian
+		}
 		
 		1460 = {
 			owner = denmark #became a Danish royal possession in 1460; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = german
 			religion = catholic
 		}
 		

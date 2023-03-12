@@ -7,11 +7,17 @@ east_friesland = {
 	}
 	
 	history = {
-		culture = german
+		culture = saxon
 		religion = pagan
+		
+		526 = {
+			owner = saxons #territory of the Saxons in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = saxon
+		}
 		
 		1477 = {
 			owner = east_friesland #part of East Friesland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = german
 			religion = catholic
 		}
 		

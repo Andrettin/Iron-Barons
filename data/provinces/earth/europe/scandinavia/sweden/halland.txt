@@ -10,6 +10,11 @@ halland = {
 		culture = swedish
 		religion = pagan
 		
+		526 = {
+			owner = danes #territory of the Danes in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = norse
+		}
+		
 		1740 = {
 			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 			religion = protestant

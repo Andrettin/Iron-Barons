@@ -1,0 +1,13 @@
+jutes = {
+	name = "Jutes"
+	type = tribe
+	culture = anglian
+	default_religion = pagan
+	capital_province = jutland
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		jutland
+	}
+}
