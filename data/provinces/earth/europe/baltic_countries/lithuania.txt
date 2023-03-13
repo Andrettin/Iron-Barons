@@ -8,6 +8,7 @@ lithuania = {
 	}
 	
 	history = {
+		owner = estonians
 		culture = estonian
 		religion = pagan
 		

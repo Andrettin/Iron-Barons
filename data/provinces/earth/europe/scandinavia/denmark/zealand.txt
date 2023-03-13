@@ -7,6 +7,7 @@ zealand = {
 	}
 	
 	history = {
+		owner = danes
 		culture = norse
 		religion = pagan
 		

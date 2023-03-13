@@ -7,7 +7,8 @@ smaland = {
 	}
 	
 	history = {
-		culture = swedish
+		owner = danes
+		culture = norse
 		religion = pagan
 		
 		526 = {
@@ -17,6 +18,7 @@ smaland = {
 		
 		1740 = {
 			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = swedish
 			religion = protestant
 		}
 	}

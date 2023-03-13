@@ -7,6 +7,7 @@ alsace = {
 	}
 	
 	history = {
+		owner = alamanni
 		culture = suebi
 		religion = pagan
 		

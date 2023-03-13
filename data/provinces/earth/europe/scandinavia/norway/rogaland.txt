@@ -7,6 +7,7 @@ rogaland = {
 	}
 	
 	history = {
+		owner = northmen
 		culture = norse
 		religion = pagan
 		

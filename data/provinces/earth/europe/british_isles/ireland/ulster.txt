@@ -7,6 +7,7 @@ ulster = {
 	}
 	
 	history = {
+		owner = scots
 		culture = irish
 		religion = pagan
 		

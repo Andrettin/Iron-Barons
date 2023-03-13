@@ -7,6 +7,7 @@ hanover = {
 	}
 	
 	history = {
+		owner = saxons
 		culture = saxon
 		religion = pagan
 		

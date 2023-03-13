@@ -7,6 +7,7 @@ east_friesland = {
 	}
 	
 	history = {
+		owner = saxons
 		culture = saxon
 		religion = pagan
 		
