@@ -1,0 +1,13 @@
+estonians = {
+	name = "Estonians"
+	type = tribe
+	culture = estonian
+	default_religion = pagan
+	capital_province = lithuania
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		lithuania
+	}
+}

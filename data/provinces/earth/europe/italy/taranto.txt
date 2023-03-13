@@ -19,6 +19,10 @@ taranto = {
 			culture = greek
 		}
 		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+		}
+		
 		1360 = {
 			owner = naples #part of the Kingdom of Naples in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = italian

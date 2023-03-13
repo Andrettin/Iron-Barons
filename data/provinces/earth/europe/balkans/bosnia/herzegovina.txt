@@ -7,11 +7,17 @@ herzegovina = {
 	}
 	
 	history = {
-		culture = bosnian
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1740 = {
 			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = bosnian
 			religion = sunni
 		}
 		

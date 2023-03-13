@@ -7,11 +7,17 @@ piedmont = {
 	}
 	
 	history = {
-		culture = italian
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1280 = {
 			owner = savoy #part of the County of the Savoy c. 1280; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = italian
 			religion = catholic
 		}
 		

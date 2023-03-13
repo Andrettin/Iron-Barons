@@ -4,6 +4,7 @@ frisian = {
 	color = { 178 76 0 }
 	derived_cultures = {
 		dutch
+		flemish
 		german
 	}
 }

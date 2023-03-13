@@ -7,11 +7,17 @@ sardinia = {
 	}
 	
 	history = {
-		culture = italian
+		culture = vandal
 		religion = pagan
+		
+		526 = {
+			owner = vandalia #part of the Kingdom of the Vandals in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = vandal
+		}
 		
 		1360 = {
 			owner = aragon #Aragonese possession in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = italian
 			religion = catholic
 		}
 		

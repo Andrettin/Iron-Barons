@@ -6,11 +6,17 @@ provence = {
 	}
 	
 	history = {
-		culture = french
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1481 = {
 			owner = france #became part of the Kingdom of France in 1481; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = french
 			religion = catholic
 		}
 		

@@ -7,11 +7,17 @@ baden = {
 	}
 	
 	history = {
-		culture = german
+		culture = suebi
 		religion = pagan
+		
+		526 = {
+			owner = alamanni #territory of the Alamanni in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = suebi
+		}
 		
 		1477 = {
 			owner = baden #part of the Margraviate of Baden c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = german
 			religion = catholic
 		}
 		

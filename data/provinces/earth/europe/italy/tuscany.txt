@@ -20,6 +20,10 @@ tuscany = {
 			owner = etruria #part of Etruria in the 500-100 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 29.
 		}
 		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+		}
+		
 		1477 = {
 			owner = florence #part of the Republic of Florence c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 			culture = italian

@@ -20,6 +20,10 @@ latium = {
 			owner = rome #part of Rome c. 500 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 29.
 		}
 		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+		}
+		
 		1360 = {
 			owner = papal_states #part of the Papal States in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = italian

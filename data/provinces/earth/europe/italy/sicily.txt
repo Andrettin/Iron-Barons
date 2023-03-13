@@ -7,11 +7,17 @@ sicily = {
 	}
 	
 	history = {
-		culture = italian
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1360 = {
 			owner = sicily #part of the Kingdom of Sicily in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = italian
 			religion = catholic
 		}
 		

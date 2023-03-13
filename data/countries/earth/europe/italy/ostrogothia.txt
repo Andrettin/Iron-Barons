@@ -1,0 +1,27 @@
+ostrogothia = {
+	name = "Ostrogothia"
+	type = great_power
+	color = { 76 100 219 }
+	culture = gothic
+	default_religion = catholic #Arianism
+	capital_province = romagna #Ravenna
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+	}
+	core_provinces = {
+		romagna
+		cosenza
+		genoa
+		latium
+		lombardy
+		naples
+		piedmont
+		sicily
+		taranto
+		tuscany
+		venetia
+	}
+}

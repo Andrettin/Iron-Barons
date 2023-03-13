@@ -7,11 +7,17 @@ zurich = {
 	}
 	
 	history = {
-		culture = german
+		culture = suebi
 		religion = pagan
+		
+		526 = {
+			owner = alamanni #territory of the Alamanni in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = suebi
+		}
 		
 		1740 = {
 			owner = switzerland #part of Switzerland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = german
 			religion = protestant
 		}
 	}

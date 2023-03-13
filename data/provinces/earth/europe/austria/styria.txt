@@ -7,11 +7,17 @@ styria = {
 	}
 	
 	history = {
-		culture = austrian
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1477 = {
 			owner = austria #Austrian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = austrian
 			religion = catholic
 		}
 		

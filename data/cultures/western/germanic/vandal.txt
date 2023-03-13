@@ -1,0 +1,5 @@
+vandal = {
+	name = "Vandal"
+	group = east_germanic
+	color = { 21 190 219 }
+}

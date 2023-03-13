@@ -68,6 +68,22 @@ west_and_central_europe = { #non-CIS Europe
 			population = 25900000 #Non-CIS Europe had a population of around 25.9 millions in 500 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 		}
 		
+		600 = {
+			population = 21858703 #Non-CIS Europe had a population of c. 21,858,703 in 1000 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
+		}
+		
+		700 = {
+			population = 23913399 #Non-CIS Europe had a population of c. 23,913,399 in 1000 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
+		}
+		
+		800 = {
+			population = 26149986 #Non-CIS Europe had a population of c. 26,149,986 in 1000 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
+		}
+		
+		900 = {
+			population = 29196781 #Non-CIS Europe had a population of c. 29,196,781 in 1000 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
+		}
+		
 		1000 = {
 			population = 32259889 #Non-CIS Europe had a population of c. 32,259,889 in 1000 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 		}

@@ -8,11 +8,17 @@ lithuania = {
 	}
 	
 	history = {
-		culture = lithuanian
+		culture = estonian
 		religion = pagan
+		
+		526 = {
+			owner = estonians #territory of the Alamanni in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = estonian
+		}
 		
 		1740 = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = lithuanian
 			religion = catholic
 		}
 		
