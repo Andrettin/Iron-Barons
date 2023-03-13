@@ -1,0 +1,18 @@
+francia = {
+	name = "Francia"
+	type = great_power
+	color = { 87 139 166 }
+	culture = frankish
+	default_religion = catholic
+	capital_province = rhineland #Aachen
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+		max_tier = empire
+	}
+	core_provinces = {
+		rhineland
+	}
+}

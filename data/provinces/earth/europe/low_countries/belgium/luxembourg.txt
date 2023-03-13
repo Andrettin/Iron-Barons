@@ -7,11 +7,18 @@ luxembourg = {
 	}
 	
 	history = {
-		culture = german
+		culture = frankish
 		religion = pagan
+		
+		526 = {
+			owner = francia #part of the Kingdom of the Franks in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = frankish
+			religion = catholic
+		}
 		
 		1477 = {
 			owner = burgundy #Burgundian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = german
 			religion = catholic
 		}
 		
