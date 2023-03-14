@@ -1,0 +1,28 @@
+visigothia = {
+	name = "Visigothia"
+	type = great_power
+	color = { 116 135 65 }
+	culture = gothic
+	default_religion = catholic #Arianism
+	capital_province = castille
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+	}
+	core_provinces = {
+		castille
+		alentejo
+		algarve
+		andalusia
+		aragon
+		catalonia
+		estremadura
+		extremadura
+		granada
+		leon
+		murcia
+		valencia
+	}
+}
