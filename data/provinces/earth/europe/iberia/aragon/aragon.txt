@@ -7,11 +7,17 @@ aragon = {
 	}
 	
 	history = {
-		culture = aragonese
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = visigothia #part of the Kingdom of the West Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1360 = {
 			owner = aragon #part of Aragon in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = aragonese
 			religion = catholic
 		}
 		
