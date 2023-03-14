@@ -361,7 +361,7 @@ MenuBase {
 	}
 	
 	Component.onCompleted: {
-		//get the first non-hidden scenario
+		//get a random non-hidden scenario
 		var potential_scenarios = []
 		
 		for (var scenario of metternich.get_scenarios()) {
@@ -380,7 +380,11 @@ MenuBase {
 		
 		metternich.game.setup_scenario(selected_scenario)
 		
-		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+		if (selected_scenario.default_countries.length > 0) {
+			diplomatic_map.selected_country = selected_scenario.default_countries[random(selected_scenario.default_countries.length)]
+		} else {
+			diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+		}
 		diplomatic_map.center_on_selected_country_capital()
 	}
 }
