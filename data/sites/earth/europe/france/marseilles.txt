@@ -1,0 +1,13 @@
+marseilles = {
+	name = "Marseilles"
+	world = earth
+	geocoordinate = { 5.37501013044 43.28997906400 } #from Natural Earth
+	pos_offset = { 1 -1 }
+	type = settlement
+	cultural_names = {
+		frankish = "Massilia"
+		gaulish = "Massilia"
+		greek = "Massilia"
+		roman = "Massilia" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
+}
