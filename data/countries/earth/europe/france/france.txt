@@ -27,7 +27,8 @@ france = {
 		dauphiny
 		guyenne
 		gascony
-		languedoc
+		upper_languedoc
+		lower_languedoc
 		provence
 	}
 }

@@ -22,6 +22,7 @@ visigothia = {
 		extremadura
 		granada
 		leon
+		lower_languedoc
 		murcia
 		valencia
 	}
