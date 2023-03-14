@@ -2,4 +2,7 @@ thirty_years_war = {
 	name = "Thirty Years' War"
 	start_date = 1618
 	map_template = earth
+	default_countries = {
+		austria
+	}
 }

@@ -2,4 +2,8 @@ austro_prussian_war = {
 	name = "Austro-Prussian War"
 	start_date = 1866
 	map_template = earth
+	default_countries = {
+		austria
+		prussia
+	}
 }

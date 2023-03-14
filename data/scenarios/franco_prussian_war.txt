@@ -2,4 +2,8 @@ franco_prussian_war = {
 	name = "Franco-Prussian War"
 	start_date = 1870
 	map_template = earth
+	default_countries = {
+		france
+		prussia
+	}
 }

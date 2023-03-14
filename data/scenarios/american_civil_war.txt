@@ -2,4 +2,7 @@ american_civil_war = {
 	name = "American Civil War"
 	start_date = 1861
 	map_template = earth
+	default_countries = {
+		united_states
+	}
 }

@@ -2,4 +2,8 @@ war_of_the_austrian_succession = {
 	name = "War of the Austrian Succession"
 	start_date = 1740
 	map_template = earth
+	default_countries = {
+		austria
+		prussia
+	}
 }

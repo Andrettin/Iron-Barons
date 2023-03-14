@@ -2,4 +2,7 @@ second_punic_war = {
 	name = "Second Punic War"
 	start_date = -218
 	map_template = earth
+	default_countries = {
+		rome
+	}
 }
