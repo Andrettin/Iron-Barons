@@ -7,12 +7,17 @@ highlands = {
 	}
 	
 	history = {
+		owner = picts
 		culture = pictish
 		religion = pagan
 		
+		526 = {
+			owner = picts #territory of the Picts in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = pictish
+		}
+		
 		802 = {
 			owner = pictland #part of Pictland c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
-			culture = pictish
 		}
 		
 		843 = {

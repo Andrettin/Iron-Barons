@@ -9,5 +9,8 @@ scots = {
 	}
 	core_provinces = {
 		ulster
+		leinster
+		munster
+		connaught
 	}
 }

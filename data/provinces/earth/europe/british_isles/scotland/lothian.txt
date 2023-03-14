@@ -7,8 +7,14 @@ lothian = {
 	}
 	
 	history = {
-		culture = anglo_saxon
+		owner = picts
+		culture = pictish
 		religion = pagan
+		
+		526 = {
+			owner = picts #territory of the Picts in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = pictish
+		}
 		
 		802 = {
 			owner = northumbria #part of Northumbria c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.

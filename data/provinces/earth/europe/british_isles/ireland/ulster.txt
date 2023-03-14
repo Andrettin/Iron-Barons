@@ -11,8 +11,13 @@ ulster = {
 		culture = irish
 		religion = pagan
 		
+		526 = {
+			owner = scots #territory of the Scots in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = irish
+		}
+		
 		802 = {
-			owner = scots #part of the territory of the Scots c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+			owner = scots #territory of the Scots c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
 		}
 	}
 }

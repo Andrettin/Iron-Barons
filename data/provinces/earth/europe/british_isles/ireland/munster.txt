@@ -7,11 +7,13 @@ munster = {
 	}
 	
 	history = {
+		owner = scots
 		culture = irish
 		religion = pagan
 		
-		802 = {
-			owner = ireland #part of Ireland c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
+		526 = {
+			owner = scots #territory of the Scots in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = irish
 		}
 	}
 }
