@@ -4,7 +4,7 @@ francia = {
 	color = { 87 139 166 }
 	culture = frankish
 	default_religion = catholic
-	capital_province = rhineland #Aachen
+	capital_province = ile_de_france
 	eras = {
 		medieval_era
 	}
@@ -13,6 +13,7 @@ francia = {
 		max_tier = empire
 	}
 	core_provinces = {
+		ile_de_france
 		rhineland
 	}
 }
