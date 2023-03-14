@@ -1,0 +1,17 @@
+bordeaux = {
+	name = "Bordeaux"
+	world = earth
+	geocoordinate = { -0.59501306294 44.85001304020 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		frankish = "Burdegala"
+		gaulish = "Burdigala"
+		roman = "Burdigala" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
+	
+	history = {
+		1441 = {
+			buildings += university #University founded in Bordeaux in 1441; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

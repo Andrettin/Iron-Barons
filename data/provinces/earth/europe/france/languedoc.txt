@@ -1,6 +1,7 @@
 languedoc = {
 	name = "Languedoc"
 	color = { 48 96 128 }
+	capital_settlement = toulouse
 	regions = {
 		france
 	}

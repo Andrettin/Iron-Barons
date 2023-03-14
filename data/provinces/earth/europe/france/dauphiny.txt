@@ -1,6 +1,7 @@
 dauphiny = {
 	name = "Dauphiny"
 	color = { 48 192 96 }
+	capital_settlement = grenoble
 	regions = {
 		france
 	}

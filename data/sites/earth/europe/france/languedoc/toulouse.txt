@@ -1,0 +1,17 @@
+toulouse = {
+	name = "Toulouse"
+	world = earth
+	geocoordinate = { 1.44992671571 43.61995892240 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		frankish = "Tolosa"
+		gaulish = "Tolosa"
+		roman = "Tolosa" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
+	
+	history = {
+		1230 = {
+			buildings += university #University founded in Toulouse in 1230; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

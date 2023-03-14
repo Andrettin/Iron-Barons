@@ -1,6 +1,7 @@
 gascony = {
 	name = "Gascony"
 	color = { 24 124 255 }
+	capital_settlement = auch
 	regions = {
 		france
 	}
