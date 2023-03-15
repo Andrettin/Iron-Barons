@@ -8,6 +8,7 @@ MenuBase {
 	//background: metternich.defines.default_menu_background_file
 	
 	property var selected_scenario: null
+	property bool rules_changed: false
 	
 	CustomCheckBox {
 		id: myths_enabled_checkbox
@@ -20,7 +21,10 @@ MenuBase {
 		checkable: true
 		tooltip: small_text("Enable mythical elements in the game")
 		onCheckedChanged: {
-			metternich.preferences.game_rules.myths_enabled = checked
+			if (metternich.preferences.game_rules.myths_enabled !== checked) {
+				metternich.preferences.game_rules.myths_enabled = checked
+				rules_changed = true
+			}
 		}
 	}
 	
@@ -34,7 +38,10 @@ MenuBase {
 		height: 24 * scale_factor
 		
 		onClicked: {
-			metternich.game.setup_scenario(selected_scenario)
+			if (rules_changed) {
+				metternich.preferences.save()
+				metternich.game.setup_scenario(selected_scenario)
+			}
 			menu_stack.pop()
 		}
 	}
