@@ -1,5 +1,5 @@
 gems = {
 	name = "Gems"
-	icon = amber
+	icon = gems
 	wealth_value = 300
 }
