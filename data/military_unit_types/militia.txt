@@ -1,7 +1,7 @@
 peasant_levies = {
 	name = "Peasant Levies"
 	unit_class = peasant_levies
-	icon = rifle_infantry_light
+	icon = whitecoats
 	melee = 3
 	range = 1
 	defense = 3
@@ -12,7 +12,7 @@ peasant_levies = {
 minutemen = {
 	name = "Minutemen"
 	unit_class = minutemen
-	icon = rifle_infantry_light
+	icon = whitecoats
 	firepower = 5
 	melee = 5
 	range = 5

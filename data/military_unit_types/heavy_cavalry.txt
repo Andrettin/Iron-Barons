@@ -1,7 +1,7 @@
 harquebusiers = {
 	name = "Harquebusiers"
 	unit_class = harquebusiers
-	icon = rifle_infantry_light
+	icon = whitecoats
 	firepower = 2
 	melee = 6
 	range = 3
@@ -12,7 +12,7 @@ harquebusiers = {
 cuirassiers = {
 	name = "Cuirassiers"
 	unit_class = cuirassiers
-	icon = rifle_infantry_light
+	icon = whitecoats
 	firepower = 15
 	melee = 19
 	range = 3

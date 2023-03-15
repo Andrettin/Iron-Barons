@@ -1,7 +1,7 @@
 general_napoleonic = {
 	name = "General"
 	unit_class = general_napoleonic
-	icon = rifle_infantry_light
+	icon = whitecoats
 	range = 1
 	defense = 5
 	movement = 7
