@@ -1,0 +1,14 @@
+suebi = {
+	name = "Suebi"
+	type = tribe
+	culture = suebi
+	default_religion = pagan
+	capital_province = brandenburg
+	eras = {
+		ancient_era
+		medieval_era
+	}
+	core_provinces = {
+		brandenburg
+	}
+}

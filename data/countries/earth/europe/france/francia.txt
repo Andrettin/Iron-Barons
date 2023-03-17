@@ -14,6 +14,22 @@ francia = {
 	}
 	core_provinces = {
 		ile_de_france
+		anjou
+		antwerp
+		brabant
+		champagne
+		hesse
+		liege
+		lorraine
+		luxembourg
+		moselle
+		nassau
+		normandy
+		orleanais
+		overijssel
+		palatinate
+		picardy
 		rhineland
+		utrecht
 	}
 }

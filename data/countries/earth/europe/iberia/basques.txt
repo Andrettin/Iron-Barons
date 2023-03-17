@@ -1,0 +1,13 @@
+basques = {
+	name = "Basques"
+	type = tribe
+	culture = basque
+	default_religion = pagan
+	capital_province = navarre
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		navarre
+	}
+}

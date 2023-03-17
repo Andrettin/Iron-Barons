@@ -7,11 +7,17 @@ beira = {
 	}
 	
 	history = {
-		culture = portuguese
+		culture = suebi
 		religion = pagan
+		
+		526 = {
+			owner = suebi #territory of the Suebi in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = suebi
+		}
 		
 		1140 = {
 			owner = portugal #became part of the Kingdom of Portugal in 1140; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 82-83.
+			culture = portuguese
 			religion = catholic
 		}
 		
