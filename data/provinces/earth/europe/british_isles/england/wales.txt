@@ -7,8 +7,14 @@ wales = {
 	}
 	
 	history = {
-		culture = welsh
+		owner = britons
+		culture = briton
 		religion = pagan
+		
+		526 = {
+			owner = britons #territory of the Britons in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = briton
+		}
 		
 		802 = {
 			owner = wales #part of (North) Wales c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.

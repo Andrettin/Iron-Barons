@@ -7,12 +7,17 @@ east_anglia = {
 	}
 	
 	history = {
+		owner = anglo_saxons
 		culture = anglo_saxon
 		religion = pagan
 		
+		526 = {
+			owner = anglo_saxons #territory of the Anglo-Saxons in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = anglo_saxon
+		}
+		
 		802 = {
 			owner = east_anglia #part of East Anglia c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
-			culture = anglo_saxon
 			religion = catholic
 		}
 		

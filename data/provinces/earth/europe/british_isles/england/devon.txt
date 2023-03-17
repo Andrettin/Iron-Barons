@@ -7,8 +7,14 @@ devon = {
 	}
 	
 	history = {
-		culture = anglo_saxon
+		owner = britons
+		culture = briton
 		religion = pagan
+		
+		526 = {
+			owner = britons #territory of the Britons in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = briton
+		}
 		
 		802 = {
 			owner = wessex #part of Wessex c. 802 AD; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.

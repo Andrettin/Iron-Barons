@@ -1,0 +1,13 @@
+anglo_saxons = {
+	name = "Anglo-Saxons"
+	type = tribe
+	culture = anglo_saxon
+	default_religion = pagan
+	capital_province = middlesex
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		middlesex
+	}
+}

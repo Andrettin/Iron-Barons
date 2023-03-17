@@ -1,0 +1,14 @@
+britons = {
+	name = "Britons"
+	type = tribe
+	culture = briton
+	default_religion = pagan
+	capital_province = wales
+	eras = {
+		ancient_era
+		medieval_era
+	}
+	core_provinces = {
+		wales
+	}
+}

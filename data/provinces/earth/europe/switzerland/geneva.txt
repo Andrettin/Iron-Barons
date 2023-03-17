@@ -7,11 +7,18 @@ geneva = {
 	}
 	
 	history = {
-		culture = french
+		owner = burgundians
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = burgundians #territory of the Burgundians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1418 = {
 			owner = savoy #part of the Domain of the Duchy of Savoy in 1418; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = french
 			religion = catholic
 		}
 		
