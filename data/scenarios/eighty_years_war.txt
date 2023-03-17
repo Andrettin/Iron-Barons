@@ -2,4 +2,8 @@ eighty_years_war = {
 	name = "Eighty Years' War"
 	start_date = 1568
 	map_template = earth
+	default_countries = {
+		netherlands
+		spain
+	}
 }
