@@ -7,11 +7,18 @@ bursa = {
 	}
 	
 	history = {
-		culture = turkish
+		culture = greek
 		religion = sunni
+		
+		526 = {
+			owner = eastern_rome #part of the East Roman Empire in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = greek
+			religion = orthodox
+		}
 		
 		1740 = {
 			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = turkish
 			religion = sunni
 		}
 		

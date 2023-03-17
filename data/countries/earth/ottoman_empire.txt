@@ -9,4 +9,7 @@ ottoman_empire = {
 		renaissance_era
 		industrial_era
 	}
+	core_provinces = {
+		thrace
+	}
 }

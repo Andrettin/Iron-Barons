@@ -10,6 +10,11 @@ serbia = {
 		culture = serbian
 		religion = pagan
 		
+		526 = {
+			owner = eastern_rome #part of the East Roman Empire in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			religion = orthodox
+		}
+		
 		1718 = {
 			owner = austria #became an Austrian possession in 1718; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

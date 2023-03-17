@@ -21,6 +21,11 @@ peloponnese = {
 			owner = sparta #part of Sparta in the 700-600 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 8.
 		}
 		
+		526 = {
+			owner = eastern_rome #part of the East Roman Empire in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			religion = orthodox
+		}
+		
 		1699 = {
 			owner = venice #became a Venetian possession in 1699; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

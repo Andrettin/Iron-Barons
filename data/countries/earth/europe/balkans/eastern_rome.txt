@@ -1,0 +1,48 @@
+eastern_rome = {
+	name = "Eastern Rome"
+	type = great_power
+	color = { 170 148 214 }
+	culture = roman
+	default_religion = orthodox
+	capital_province = thrace
+	eras = {
+		medieval_era
+		industrial_era
+	}
+	core_provinces = {
+		thrace
+		afyonkarahisar
+		albania
+		ankara
+		antalya
+		attica
+		aydin
+		bulgaria
+		burdur
+		bursa
+		central_macedonia
+		crete
+		denizli
+		dobruja
+		east_macedonia
+		eastern_rumelia
+		epirus
+		eskisehir
+		germiyan
+		karasi
+		kastamonu
+		kosovo
+		montenegro
+		mugla
+		nis
+		north_macedonia
+		novi_pazar
+		peloponnese
+		saruhan
+		serbia
+		smyrna
+		thessaly
+		troad
+		west_macedonia
+	}
+}
