@@ -10,11 +10,17 @@ budweis = {
 	}
 	
 	history = {
-		culture = czech
+		culture = suebi
 		religion = pagan
+		
+		526 = {
+			owner = bavarians #territory of the Bavarians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = suebi
+		}
 		
 		1477 = {
 			owner = bohemia #part of the Kingdom of Bohemia c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = czech
 			religion = catholic
 		}
 		

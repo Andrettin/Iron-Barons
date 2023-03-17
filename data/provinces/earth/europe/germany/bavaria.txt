@@ -7,11 +7,17 @@ bavaria = {
 	}
 	
 	history = {
-		culture = german
+		culture = suebi
 		religion = pagan
+		
+		526 = {
+			owner = bavarians #territory of the Bavarians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = suebi
+		}
 		
 		1477 = {
 			owner = bavaria #part of the Duchy of Bavaria-Munich c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = german
 			religion = catholic
 		}
 		

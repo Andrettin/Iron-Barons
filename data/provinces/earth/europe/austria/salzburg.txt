@@ -10,7 +10,7 @@ salzburg = {
 	}
 	
 	history = {
-		culture = austrian
+		culture = suebi
 		religion = pagan
 		
 		myths_enabled = {
@@ -24,6 +24,13 @@ salzburg = {
 				owner = untersberg
 				culture = gnomish
 				religion = pagan
+			}
+		}
+		
+		!myths_enabled = {
+			526 = {
+				owner = bavarians #territory of the Bavarians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+				culture = suebi
 			}
 		}
 		
