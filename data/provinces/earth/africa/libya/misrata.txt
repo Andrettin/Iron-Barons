@@ -1,0 +1,13 @@
+misrata = {
+	name = "Misrata"
+	color = { 144 67 111 }
+	capital_settlement = misrata
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

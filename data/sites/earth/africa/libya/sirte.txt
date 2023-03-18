@@ -1,0 +1,6 @@
+sirte = {
+	name = "Sirte"
+	world = earth
+	geocoordinate = { 16.59003617220 31.20999289860 } #from Natural Earth
+	type = settlement
+}

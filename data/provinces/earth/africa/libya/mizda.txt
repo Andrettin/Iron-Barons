@@ -1,0 +1,13 @@
+mizda = {
+	name = "Mizda"
+	color = { 253 63 236 }
+	capital_settlement = mizda
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

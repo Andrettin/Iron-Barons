@@ -1,0 +1,13 @@
+sirte = {
+	name = "Sirte"
+	color = { 97 208 94 }
+	capital_settlement = sirte
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

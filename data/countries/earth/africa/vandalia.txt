@@ -14,7 +14,8 @@ vandalia = {
 	core_provinces = {
 		tunisia
 		algeria
-		sardinia
 		corsica
+		sardinia
+		tripolitania
 	}
 }
