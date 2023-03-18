@@ -1,0 +1,13 @@
+tripolitania = {
+	name = "Tripolitania"
+	color = { 18 186 8 }
+	capital_settlement = tripoli
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

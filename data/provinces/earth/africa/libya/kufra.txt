@@ -1,0 +1,13 @@
+kufra = {
+	name = "Kufra"
+	color = { 253 208 165 }
+	capital_settlement = al_jawf
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

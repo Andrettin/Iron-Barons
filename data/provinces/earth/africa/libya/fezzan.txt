@@ -1,0 +1,13 @@
+fezzan = {
+	name = "Fezzan"
+	color = { 150 253 100 }
+	capital_settlement = sabha
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

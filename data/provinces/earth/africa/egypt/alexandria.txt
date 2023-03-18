@@ -12,5 +12,10 @@ alexandria = {
 			culture = egyptian
 			religion = pagan
 		}
+		
+		526 = {
+			owner = eastern_rome #part of the East Roman Empire in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			religion = orthodox
+		}
 	}
 }

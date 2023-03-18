@@ -1,0 +1,13 @@
+ajdabiya = {
+	name = "Ajdabiya"
+	color = { 213 152 88 }
+	capital_settlement = ajdabiya
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

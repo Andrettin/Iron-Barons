@@ -12,15 +12,18 @@ eastern_rome = {
 		thrace
 		afyonkarahisar
 		albania
+		alexandria
 		ankara
 		antalya
 		attica
 		aydin
+		benghazi
 		bulgaria
 		burdur
 		bursa
 		central_macedonia
 		crete
+		cyrenaica
 		denizli
 		dobruja
 		east_macedonia
@@ -41,6 +44,7 @@ eastern_rome = {
 		serbia
 		smyrna
 		thessaly
+		tobruk
 		troad
 		west_macedonia
 	}
