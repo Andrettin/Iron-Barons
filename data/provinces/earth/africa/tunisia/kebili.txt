@@ -1,0 +1,13 @@
+kebili = {
+	name = "Kebili"
+	color = { 60 184 70 }
+	capital_settlement = kebili
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

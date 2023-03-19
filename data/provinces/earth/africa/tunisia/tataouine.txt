@@ -1,0 +1,13 @@
+tataouine = {
+	name = "Tataouine"
+	color = { 153 119 104 }
+	capital_settlement = tataouine
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

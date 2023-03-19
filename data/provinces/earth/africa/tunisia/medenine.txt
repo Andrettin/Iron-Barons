@@ -1,0 +1,18 @@
+medenine = {
+	name = "Medenine"
+	color = { 247 205 101 }
+	capital_settlement = medenine
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = vandal
+		religion = pagan
+		
+		526 = {
+			owner = vandalia #part of the Kingdom of the Vandals in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = vandal
+		}
+	}
+}

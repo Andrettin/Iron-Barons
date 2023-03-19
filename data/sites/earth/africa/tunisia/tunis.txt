@@ -3,4 +3,9 @@ tunis = {
 	world = earth
 	geocoordinate = { 10.17967809920 36.80277813620 } #from Natural Earth
 	type = settlement
+	cultural_names = {
+		phoenician = "Carthage"
+		roman = "Carthage" #"Carthago" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+		vandal = "Carthage"
+	}
 }
