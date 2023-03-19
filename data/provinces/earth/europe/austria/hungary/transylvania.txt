@@ -7,11 +7,18 @@ transylvania = {
 	}
 	
 	history = {
-		culture = romanian
+		owner = gepids
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = gepids #territory of the Gepids in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1740 = {
 			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = romanian
 		}
 		
 		1815 = {

@@ -1,0 +1,13 @@
+gepids = {
+	name = "Gepids"
+	type = tribe
+	culture = gothic
+	default_religion = pagan
+	capital_province = transylvania
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		transylvania
+	}
+}

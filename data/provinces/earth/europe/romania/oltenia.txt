@@ -7,11 +7,18 @@ oltenia = {
 	}
 	
 	history = {
-		culture = romanian
+		owner = gepids
+		culture = gothic
 		religion = pagan
+		
+		526 = {
+			owner = gepids #territory of the Gepids in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = gothic
+		}
 		
 		1718 = {
 			owner = austria #became an Austrian possession in 1718; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = romanian
 		}
 		
 		1739 = {
