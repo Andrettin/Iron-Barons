@@ -1,0 +1,5 @@
+lombard = {
+	name = "Lombard"
+	group = west_germanic
+	color = { 153 153 204 }
+}

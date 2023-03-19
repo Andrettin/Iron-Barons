@@ -1,0 +1,13 @@
+lombards = {
+	name = "Lombards"
+	type = tribe
+	culture = lombard
+	default_religion = pagan
+	capital_province = hanover
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		hanover
+	}
+}

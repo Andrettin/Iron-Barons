@@ -10,11 +10,18 @@ pressburg = {
 	}
 	
 	history = {
-		culture = slovak
+		owner = lombards
+		culture = lombard
 		religion = pagan
+		
+		526 = {
+			owner = lombards #territory of the Lombards in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = lombard
+		}
 		
 		1477 = {
 			owner = hungary #part of the Kingdom of Hungary c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = slovak
 			religion = catholic
 		}
 		

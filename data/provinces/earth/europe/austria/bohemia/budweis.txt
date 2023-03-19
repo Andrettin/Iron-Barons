@@ -10,6 +10,7 @@ budweis = {
 	}
 	
 	history = {
+		owner = bavarians
 		culture = suebi
 		religion = pagan
 		

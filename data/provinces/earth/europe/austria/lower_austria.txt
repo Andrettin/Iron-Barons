@@ -7,11 +7,18 @@ lower_austria = {
 	}
 	
 	history = {
-		culture = austrian
+		owner = bavarians
+		culture = suebi
 		religion = pagan
+		
+		526 = {
+			owner = bavarians #territory of the Bavarians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = suebi
+		}
 		
 		1477 = {
 			owner = austria #part of the Archduchy of Austria c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = austrian
 			religion = catholic
 		}
 		

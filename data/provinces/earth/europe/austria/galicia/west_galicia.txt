@@ -9,11 +9,18 @@ west_galicia = {
 	}
 	
 	history = {
-		culture = polish
+		owner = lombards
+		culture = lombard
 		religion = pagan
+		
+		526 = {
+			owner = lombards #territory of the Lombards in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = lombard
+		}
 		
 		1740 = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = polish
 			religion = catholic
 		}
 		

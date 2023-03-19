@@ -10,6 +10,7 @@ brunn = {
 	}
 	
 	history = {
+		owner = bavarians
 		culture = suebi
 		religion = pagan
 		
