@@ -1,7 +1,7 @@
 greek = {
 	name = "Greek"
 	group = hellenic
-	color = { 200 50 100 }
+	color = { 122 180 210 }
 	
 	history = {
 		-1700 = {
