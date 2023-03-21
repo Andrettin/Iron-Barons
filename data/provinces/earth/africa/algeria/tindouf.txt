@@ -1,0 +1,13 @@
+tindouf = {
+	name = "Tindouf"
+	color = { 106 244 126 }
+	capital_settlement = tindouf
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

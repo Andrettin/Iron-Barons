@@ -1,7 +1,7 @@
-biskra = {
-	name = "Biskra"
-	color = { 188 220 25 }
-	capital_settlement = biskra
+naama = {
+	name = "Naama"
+	color = { 108 9 31 }
+	capital_settlement = sefra
 	regions = {
 		africa
 	}
@@ -14,12 +14,6 @@ biskra = {
 		526 = {
 			owner = mauretanians #territory of the Mauretanians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
 			culture = maurian
-		}
-		
-		1740 = {
-			owner = algeria #part of Algeria c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			culture = arabic
-			religion = sunni
 		}
 	}
 }

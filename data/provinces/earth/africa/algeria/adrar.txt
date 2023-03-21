@@ -1,0 +1,13 @@
+adrar = {
+	name = "Adrar"
+	color = { 215 249 33 }
+	capital_settlement = adrar
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

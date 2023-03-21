@@ -1,0 +1,13 @@
+bechar = {
+	name = "Bechar"
+	color = { 128 90 169 }
+	capital_settlement = bechar
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

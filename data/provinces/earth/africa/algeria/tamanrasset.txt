@@ -1,0 +1,13 @@
+tamanrasset = {
+	name = "Tamanrasset"
+	color = { 181 163 124 }
+	capital_settlement = tamanrasset
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

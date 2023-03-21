@@ -1,0 +1,7 @@
+tiaret = {
+	name = "Tiaret"
+	world = earth
+	geocoordinate = { 1.31996048850 35.38043601380 } #from Natural Earth
+	type = settlement
+	terrain_type = plains
+}

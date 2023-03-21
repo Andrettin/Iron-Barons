@@ -1,7 +1,7 @@
-biskra = {
-	name = "Biskra"
-	color = { 188 220 25 }
-	capital_settlement = biskra
+djelfa = {
+	name = "Djelfa"
+	color = { 163 214 3 }
+	capital_settlement = djelfa
 	regions = {
 		africa
 	}

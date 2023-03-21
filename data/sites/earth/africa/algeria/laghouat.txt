@@ -1,0 +1,6 @@
+laghouat = {
+	name = "Laghouat"
+	world = earth
+	geocoordinate = { 2.88002030296 33.80998923650 } #from Natural Earth
+	type = settlement
+}

@@ -1,0 +1,13 @@
+mauretanians = {
+	name = "Mauretanians"
+	type = tribe
+	culture = maurian
+	default_religion = pagan
+	capital_province = oran
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		oran
+	}
+}
