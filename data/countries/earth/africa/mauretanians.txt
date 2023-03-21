@@ -3,11 +3,18 @@ mauretanians = {
 	type = tribe
 	culture = maurian
 	default_religion = pagan
-	capital_province = oran
+	capital_province = biskra
 	eras = {
 		medieval_era
 	}
 	core_provinces = {
+		biskra
+		djelfa
+		el_bayadh
+		laghouat
+		msila
+		naama
 		oran
+		tiaret
 	}
 }
