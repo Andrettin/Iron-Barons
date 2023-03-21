@@ -1,7 +1,7 @@
-morocco = {
-	name = "Morocco"
-	color = { 144 24 184 }
-	capital_settlement = rabat
+tangier = {
+	name = "Tangier"
+	color = { 210 21 71 }
+	capital_settlement = tangier
 	regions = {
 		africa
 	}

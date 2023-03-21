@@ -1,0 +1,25 @@
+fez = {
+	name = "Fez"
+	color = { 56 243 51 }
+	capital_settlement = fez
+	regions = {
+		africa
+	}
+	
+	history = {
+		owner = mauretanians
+		culture = maurian
+		religion = pagan
+		
+		526 = {
+			owner = mauretanians #territory of the Mauretanians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = maurian
+		}
+		
+		1740 = {
+			owner = morocco #part of Fez and Morocco c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = arabic
+			religion = sunni
+		}
+	}
+}

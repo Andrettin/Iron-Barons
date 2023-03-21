@@ -1,0 +1,13 @@
+guelmim = {
+	name = "Guelmim"
+	color = { 236 245 80 }
+	capital_settlement = guelmim
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

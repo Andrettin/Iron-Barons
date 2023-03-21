@@ -1,0 +1,7 @@
+tangier = {
+	name = "Tangier"
+	world = earth
+	geocoordinate = { -5.83270369610 35.74728700670 } #from Natural Earth
+	type = settlement
+	terrain_type = plains
+}

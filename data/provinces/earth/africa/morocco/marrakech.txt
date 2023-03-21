@@ -1,0 +1,13 @@
+marrakech = {
+	name = "Marrakech"
+	color = { 237 89 2 }
+	capital_settlement = marrakech
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+	}
+}

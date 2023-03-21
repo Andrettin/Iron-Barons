@@ -1,0 +1,18 @@
+rabat = {
+	name = "Rabat"
+	color = { 144 24 184 }
+	capital_settlement = rabat
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = arabic
+		religion = pagan
+		
+		1740 = {
+			owner = morocco #part of Fez and Morocco c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			religion = sunni
+		}
+	}
+}

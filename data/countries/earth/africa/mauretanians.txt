@@ -11,6 +11,7 @@ mauretanians = {
 		biskra
 		djelfa
 		el_bayadh
+		fez
 		laghouat
 		msila
 		naama
