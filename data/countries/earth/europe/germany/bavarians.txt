@@ -9,5 +9,15 @@ bavarians = {
 	}
 	core_provinces = {
 		bavaria
+		bohemia
+		brunn
+		buda
+		budweis
+		lower_austria
+		lower_silesia
+		moravia
+		pilsen
+		salzburg
+		upper_austria
 	}
 }

@@ -1,0 +1,15 @@
+thuringians = {
+	name = "Thuringians"
+	type = tribe
+	culture = suebi
+	default_religion = pagan
+	capital_province = thuringia
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		thuringia
+		franconia
+		magdeburg
+	}
+}

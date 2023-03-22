@@ -7,11 +7,18 @@ franconia = {
 	}
 	
 	history = {
-		culture = german
+		owner = thuringians
+		culture = suebi
 		religion = pagan
+		
+		526 = {
+			owner = thuringians #territory of the Thuringians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = suebi
+		}
 		
 		1477 = {
 			owner = wurzburg #part of the Bishopric of Würzburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = german
 			religion = catholic
 		}
 		
