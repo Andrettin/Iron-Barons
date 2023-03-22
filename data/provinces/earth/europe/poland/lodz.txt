@@ -8,11 +8,18 @@ lodz = {
 	}
 	
 	history = {
-		culture = polish
+		owner = slavs
+		culture = slavic
 		religion = pagan
+		
+		526 = {
+			owner = slavs #territory of Slavic peoples in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = slavic
+		}
 		
 		1477 = {
 			owner = poland #part of the Kingdom of Poland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+			culture = polish
 			religion = catholic
 		}
 		
