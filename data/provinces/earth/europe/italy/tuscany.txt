@@ -24,6 +24,10 @@ tuscany = {
 			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
 		}
 		
+		568 = {
+			owner = langobardia #became part of the Kingdom of the Lombards in 568; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+		}
+		
 		1477 = {
 			owner = florence #part of the Republic of Florence c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 			culture = italian

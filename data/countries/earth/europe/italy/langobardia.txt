@@ -1,0 +1,21 @@
+langobardia = {
+	name = "Langobardia"
+	type = great_power
+	color = { 234 217 110 }
+	culture = lombard
+	default_religion = catholic
+	capital_province = lombardy
+	eras = {
+		medieval_era
+	}
+	title = {
+		default_tier = kingdom
+	}
+	core_provinces = {
+		lombardy
+		modena
+		parma
+		piedmont
+		tuscany
+	}
+}

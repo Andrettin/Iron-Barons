@@ -15,6 +15,11 @@ modena = {
 			culture = gothic
 		}
 		
+		568 = {
+			owner = langobardia #became part of the Kingdom of the Lombards in 568; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			culture = lombard
+		}
+		
 		1477 = {
 			owner = modena #part of the Duchy of Modena c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 			culture = italian
