@@ -30,8 +30,8 @@ piedmont = {
 			owner = savoy #part of the Duchy of Savoy c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
-		1740 = {
-			owner = savoy #part of Savoy c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		1720 = {
+			owner = sardinia #became part of the Kingdom of Sardinia in 1720; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 		
 		1815 = {
