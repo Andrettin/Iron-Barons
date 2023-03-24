@@ -22,6 +22,10 @@ dalmatia = {
 			religion = catholic
 		}
 		
+		1494 = {
+			owner = venice #part of the Venetian Republic c. 1494; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 90-91.
+		}
+		
 		1740 = {
 			owner = venice #Venetian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
