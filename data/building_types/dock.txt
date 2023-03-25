@@ -7,3 +7,25 @@ dock = {
 	employment_capacity = 4
 	output_multiplier = 2 #needs to produce enough food to feed the fisherman, and a surplus
 }
+
+drydock = {
+	name = "Drydock"
+	building_class = drydock
+	portrait = dock
+	icon = anchor
+	employment_type = fishing
+	employment_capacity = 4
+	output_multiplier = 2
+	required_building = dock
+}
+
+shipyard = {
+	name = "Shipyard"
+	building_class = shipyard
+	portrait = dock
+	icon = anchor
+	employment_type = fishing
+	employment_capacity = 4
+	output_multiplier = 2
+	required_building = drydock
+}

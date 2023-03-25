@@ -1,0 +1,17 @@
+fabric_weaving = {
+	name = "Fabric Weaving"
+	input_commodities = {
+		#cotton = 1
+		wool = 1
+		#silk = 1
+	}
+	output_commodity = fabric
+	output_multiplier = 0.5
+	employees = {
+		untrained_workers
+		trained_workers
+		apprentice_weavers
+		journeyman_weavers
+		master_weavers
+	}
+}

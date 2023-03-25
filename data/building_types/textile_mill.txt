@@ -1,0 +1,31 @@
+weavers_house = {
+	name = "Weaver's House"
+	building_class = weavers_house
+	portrait = trading_post
+	icon = fabric
+	employment_type = fabric_weaving
+	employment_capacity = 1
+	output_multiplier = 1
+}
+
+weavers_shop = {
+	name = "Weaver's Shop"
+	building_class = weavers_shop
+	portrait = trading_post
+	icon = fabric
+	employment_type = fabric_weaving
+	employment_capacity = 2
+	output_multiplier = 1
+	required_building = weavers_house
+}
+
+textile_mill = {
+	name = "Textile Mill"
+	building_class = textile_mill
+	portrait = trading_post
+	icon = fabric
+	employment_type = fabric_weaving
+	employment_capacity = 4
+	output_multiplier = 1
+	required_building = weavers_shop
+}
