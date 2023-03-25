@@ -224,8 +224,6 @@ Item {
 		anchors.leftMargin: 12 * scale_factor
 		text: province_game_data ? (
 			"Population: " + number_string(province_game_data.population)
-			 + "\nConsciousness: " + province_game_data.consciousness
-			 + "\nMilitancy: " + province_game_data.militancy
 		) : (selected_site_game_data ? (
 			(selected_site_game_data.employment_capacity > 0 ? ("Employees: " + selected_site_game_data.employee_count + "/" + selected_site_game_data.employment_capacity) : "")
 			+ (selected_site_game_data.employment_capacity > 0 && selected_site_game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site_game_data.production_modifier) + "%") : "")
