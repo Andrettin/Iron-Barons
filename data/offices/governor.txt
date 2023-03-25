@@ -1,0 +1,14 @@
+governor = {
+	name = "Governor"
+	type = province
+	character_conditions = {
+		not = {
+			character_type = admiral
+			character_type = general
+			character_type = navigator
+			character_type = privateer
+		}
+		has_country_office = false
+		has_province_office = false
+	}
+}
