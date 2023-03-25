@@ -5,11 +5,9 @@ italy = {
 	culture = italian
 	default_religion = catholic
 	capital_province = latium
+	#default_tier = kingdom
 	eras = {
 		industrial_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		latium

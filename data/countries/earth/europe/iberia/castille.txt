@@ -5,12 +5,10 @@ castille = {
 	culture = castillian
 	default_religion = catholic
 	capital_province = castille
+	#default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		castille

@@ -4,11 +4,9 @@ northmen = {
 	culture = norse
 	default_religion = pagan
 	capital_province = akershus
+	#default_tier = kingdom
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		akershus

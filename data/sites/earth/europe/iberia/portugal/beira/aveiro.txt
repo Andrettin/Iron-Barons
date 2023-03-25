@@ -5,7 +5,5 @@ aveiro = {
 	type = resource
 	resource = salt
 	province = beira
-	title = {
-		max_tier = duchy
-	}
+	#max_tier = duchy
 }

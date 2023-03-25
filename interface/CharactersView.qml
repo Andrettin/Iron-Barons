@@ -169,7 +169,7 @@ Item {
 	
 	SmallText {
 		id: ruler_label
-		text: metternich.game.player_country.title.game_data.ruler_title_name
+		text: "Ruler"
 		anchors.top: character_list.top
 		anchors.horizontalCenter: ruler_portrait.horizontalCenter
 	}

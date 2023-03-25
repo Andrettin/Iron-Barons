@@ -4,11 +4,9 @@ east_anglia = {
 	culture = anglo_saxon
 	default_religion = catholic
 	capital_province = east_anglia
+	#default_tier = kingdom
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		east_anglia

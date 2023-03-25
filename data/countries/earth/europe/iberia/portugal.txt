@@ -5,14 +5,12 @@ portugal = {
 	culture = portuguese
 	default_religion = catholic
 	capital_province = estremadura
+	#default_tier = kingdom
+	#min_tier = county
 	eras = {
 		medieval_era
 		renaissance_era
 		industrial_era
-	}
-	title = {
-		default_tier = kingdom
-		min_tier = county
 	}
 	core_provinces = {
 		estremadura

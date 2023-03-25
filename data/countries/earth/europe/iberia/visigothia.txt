@@ -5,11 +5,9 @@ visigothia = {
 	culture = gothic
 	default_religion = catholic #Arianism
 	capital_province = castille
+	#default_tier = kingdom
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		castille

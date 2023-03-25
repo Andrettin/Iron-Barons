@@ -5,11 +5,9 @@ babylonia = {
 	culture = babylonian
 	default_religion = pagan
 	capital_province = babylon
+	#default_tier = kingdom
 	eras = {
 		ancient_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		babylon

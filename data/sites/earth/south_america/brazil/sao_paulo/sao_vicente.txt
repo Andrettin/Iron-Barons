@@ -7,7 +7,5 @@ sao_vicente = {
 	resource = sugar_cane
 	terrain_type = savannah
 	province = sao_paulo
-	title = {
-		max_tier = marquisate #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 468-469.
-	}
+	#max_tier = marquisate #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 468-469.
 }

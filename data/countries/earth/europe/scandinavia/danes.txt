@@ -4,11 +4,9 @@ danes = {
 	culture = norse
 	default_religion = pagan
 	capital_province = zealand
+	#default_tier = kingdom
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		zealand

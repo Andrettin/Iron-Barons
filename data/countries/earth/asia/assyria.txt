@@ -5,11 +5,9 @@ assyria = {
 	culture = assyrian
 	default_religion = pagan
 	capital_province = assyria
+	#default_tier = kingdom
 	eras = {
 		ancient_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		assyria

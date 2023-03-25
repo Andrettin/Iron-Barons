@@ -6,9 +6,7 @@ paty_do_alferes = {
 	resource = coffee
 	terrain_type = savannah
 	province = rio_de_janeiro
-	title = {
-		max_tier = barony #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 343-344.
-	}
+	#max_tier = barony #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 343-344.
 	
 	history = {
 		1825.10.12 = {

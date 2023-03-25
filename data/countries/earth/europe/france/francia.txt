@@ -5,12 +5,10 @@ francia = {
 	culture = frankish
 	default_religion = catholic
 	capital_province = ile_de_france
+	#default_tier = kingdom
+	#max_tier = empire
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
-		max_tier = empire
 	}
 	core_provinces = {
 		ile_de_france

@@ -4,12 +4,10 @@ goldemarland = {
 	culture = dwarven
 	default_religion = pagan
 	capital_province = westphalia
+	#default_tier = kingdom
 	eras = {
 		ancient_era
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		westphalia

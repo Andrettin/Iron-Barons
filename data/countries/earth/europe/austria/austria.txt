@@ -5,15 +5,13 @@ austria = {
 	culture = austrian
 	default_religion = catholic
 	capital_province = lower_austria
+	#default_tier = duchy
+	#min_tier = marquisate
+	#max_tier = empire
 	eras = {
 		medieval_era
 		renaissance_era
 		industrial_era
-	}
-	title = {
-		default_tier = duchy
-		min_tier = marquisate
-		max_tier = empire
 	}
 	core_provinces = {
 		lower_austria

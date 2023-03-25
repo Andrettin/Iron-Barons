@@ -5,11 +5,9 @@ langobardia = {
 	culture = lombard
 	default_religion = catholic
 	capital_province = lombardy
+	#default_tier = kingdom
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		lombardy

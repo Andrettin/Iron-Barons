@@ -7,7 +7,6 @@ PortraitButton {
 	portrait_identifier: character ? character.game_data.portrait.identifier : "no_character"
 	circle: true
 	tooltip: character ? (character.full_name + format_text(small_text("\n"
-		+ (character_landed_titles_tooltip.length > 0 ? ("\n" + character_landed_titles_tooltip) : "")
 		+ (character.game_data.office ? ("\n" + character.game_data.office.name) : "")
 		+ (character.dynasty ? ("\nDynasty: " + character.dynasty.name) : "")
 		+ "\nCulture: " + character.culture.name
@@ -28,16 +27,5 @@ PortraitButton {
 	))) : ""
 	
 	property var character: null
-	readonly property string character_landed_titles_tooltip: character ? string_list_to_string(get_character_landed_titles_tooltip(character.game_data.landed_titles), "\n") : ""
 	readonly property string country_modifier_tooltip: character ? character.game_data.get_country_modifier_string(0) : ""
-	
-	function get_character_landed_titles_tooltip(landed_titles) {
-		var str_list = []
-		
-		for (var landed_title of landed_titles) {
-			str_list.push(landed_title.game_data.ruler_title_name + " of " + landed_title.name)
-		}
-		
-		return str_list
-	}
 }

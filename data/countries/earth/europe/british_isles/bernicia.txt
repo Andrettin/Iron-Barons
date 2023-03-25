@@ -4,11 +4,9 @@ bernicia = {
 	culture = anglo_saxon
 	default_religion = catholic
 	capital_province = northumberland
+	#default_tier = kingdom
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		northumberland

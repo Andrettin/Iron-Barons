@@ -6,9 +6,7 @@ vassouras = {
 	resource = coffee
 	terrain_type = savannah
 	province = rio_de_janeiro
-	title = {
-		max_tier = barony #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
-	}
+	#max_tier = barony #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
 	
 	history = {
 		1871.5.17 = {

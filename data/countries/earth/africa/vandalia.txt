@@ -5,11 +5,9 @@ vandalia = {
 	culture = vandal
 	default_religion = catholic #Arianism
 	capital_province = tunisia #Carthage
+	#default_tier = kingdom
 	eras = {
 		medieval_era
-	}
-	title = {
-		default_tier = kingdom
 	}
 	core_provinces = {
 		tunisia
