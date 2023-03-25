@@ -2,6 +2,7 @@ leather_armor = {
 	name = "Leather Armor"
 	type = armor
 	icon = heater_shield
+	level = 1
 	conditions = {
 		or = {
 			character_type = admiral

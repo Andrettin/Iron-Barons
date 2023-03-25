@@ -1,3 +1,18 @@
+ring_of_invisibility = {
+	name = "Ring of Invisibility"
+	type = trinket
+	icon = crown_baronial
+	level = 1
+	generation_conditions = {
+		technology = bronzeworking
+		#FIXME: add some requirement here related to magic
+	}
+	modifier = {
+		intrigue = 2
+		prowess = 2
+	}
+}
+
 ring_of_protection_1 = {
 	name = "Ring of Protection +1"
 	type = trinket

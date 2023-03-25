@@ -88,8 +88,14 @@ karl_von_habsburg = { #Archduke Karl; Source: "Almanach de Gotha pour l'année 1
 	birth_date = 1771.9.5
 	
 	history = {
+		#resigned as Grand Master of the Teutonic Order on 1804.6.30
+		#1815.9.17 = {
+		#	spouse = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+		#}
+		
 		1847 = {
 			#field marshal-general and proprietary of the 3rd infantry regiment and of the 3rd ulans regiment as of 1847
+			#traits += cavalry_leader
 			country = austria
 			deployment_province = lower_austria
 		}
