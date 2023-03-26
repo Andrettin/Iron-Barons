@@ -5,7 +5,6 @@ Item {
 	id: characters_view
 	
 	property var selected_character: null
-	readonly property var head_of_government_office: metternich.defines.head_of_government_office
 	
 	MouseArea {
 		anchors.fill: parent
@@ -163,73 +162,6 @@ Item {
 						selected_character = character
 					}
 				}
-			}
-		}
-	}
-	
-	SmallText {
-		id: ruler_label
-		text: "Ruler"
-		anchors.top: character_list.top
-		anchors.horizontalCenter: ruler_portrait.horizontalCenter
-	}
-	
-	CharacterPortrait {
-		id: ruler_portrait
-		character: metternich.game.player_country.game_data.ruler
-		anchors.top: ruler_label.bottom
-		anchors.topMargin: 8 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: character_list.width / 2
-	}
-	
-	SmallText {
-		id: head_of_government_label
-		text: head_of_government_office.name
-		anchors.top: ruler_portrait.bottom
-		anchors.topMargin: 16 * scale_factor
-		anchors.horizontalCenter: ruler_portrait.horizontalCenter
-	}
-	
-	CharacterPortrait {
-		id: head_of_government_portrait
-		character: metternich.game.player_country.game_data.get_office_character(head_of_government_office)
-		anchors.top: head_of_government_label.bottom
-		anchors.topMargin: 8 * scale_factor
-		anchors.horizontalCenter: ruler_portrait.horizontalCenter
-	}
-	
-	ListView {
-		id: office_list
-		anchors.horizontalCenter: ruler_portrait.horizontalCenter
-		anchors.top: head_of_government_portrait.bottom
-		anchors.topMargin: 16 * scale_factor
-		width: contentWidth
-		height: contentHeight
-		orientation: ListView.Horizontal
-		boundsBehavior: Flickable.StopAtBounds
-		spacing: 64 * scale_factor
-		model: metternich.game.player_country.game_data.offices
-		delegate: Item {
-			width: portrait.width
-			height: portrait.height + office_label.height + 8 * scale_factor
-			
-			readonly property var office: model.modelData
-			readonly property string character_tooltip: portrait.tooltip
-			
-			SmallText {
-				id: office_label
-				text: office.name
-				anchors.top: parent.top
-				anchors.horizontalCenter: parent.horizontalCenter
-			}
-			
-			CharacterPortrait {
-				id: portrait
-				anchors.top: office_label.bottom
-				anchors.topMargin: 8 * scale_factor
-				anchors.horizontalCenter: parent.horizontalCenter
-				character: metternich.game.player_country.game_data.get_office_character(office)
 			}
 		}
 	}

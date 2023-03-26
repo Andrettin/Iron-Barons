@@ -7,7 +7,6 @@ PortraitButton {
 	portrait_identifier: character ? character.game_data.portrait.identifier : "no_character"
 	circle: true
 	tooltip: character ? (character.full_name + format_text(small_text("\n"
-		+ (character.game_data.office ? ("\n" + character.game_data.office.name) : "")
 		+ (character.dynasty ? ("\nDynasty: " + character.dynasty.name) : "")
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
@@ -19,11 +18,10 @@ PortraitButton {
 		+ (character.game_data.intrigue > 0 ? ("\nIntrigue: " + character.game_data.intrigue) : "")
 		+ (character.game_data.learning > 0 ? ("\nLearning: " + character.game_data.learning) : "")
 		+ (character.game_data.prowess > 0 ? ("\nProwess: " + character.game_data.prowess) : "")
-		+ (!character.game_data.ruler ? ("\nLoyalty: " + character.game_data.loyalty + "%") : "")
-		+ (character.game_data.wealth !== 0 && !character.game_data.ruler ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
-		+ (character.game_data.prestige !== 0 && !character.game_data.ruler ? ("\nPrestige: " + number_string(character.game_data.prestige)) : "")
-		+ (character.game_data.piety !== 0 && !character.game_data.ruler ? ("\nPiety: " + number_string(character.game_data.piety)) : "")
-		+ (((character.game_data.ruler || character.game_data.office) && country_modifier_tooltip.length > 0) ? "\n\nCountry Modifier:\n" + country_modifier_tooltip : "")
+		+ ("\nLoyalty: " + character.game_data.loyalty + "%")
+		+ (character.game_data.wealth !== 0 ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
+		+ (character.game_data.prestige !== 0 ? ("\nPrestige: " + number_string(character.game_data.prestige)) : "")
+		+ (character.game_data.piety !== 0 ? ("\nPiety: " + number_string(character.game_data.piety)) : "")
 	))) : ""
 	
 	property var character: null
