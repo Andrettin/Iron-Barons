@@ -25,7 +25,7 @@ Item {
 		boundsBehavior: Flickable.StopAtBounds
 		spacing: 8 * scale_factor
 		clip: true
-		model: sort_model(province_game_data.population_type_counts)
+		model: sort_model(country_game_data.population_type_counts)
 		delegate: Item {
 			width: population_unit_list.width
 			height: 48 * scale_factor
@@ -37,7 +37,7 @@ Item {
 				id: population_type_icon
 				anchors.top: parent.top
 				anchors.horizontalCenter: parent.horizontalCenter
-				source: "image://icon/" + province_game_data.get_population_type_small_icon(population_type).identifier
+				source: "image://icon/" + country_game_data.get_population_type_small_icon(population_type).identifier
 			}
 			
 			SmallText {

@@ -9,6 +9,8 @@ Item {
 	readonly property var settlement_game_data: settlement.game_data
 	readonly property var province: settlement_game_data.province
 	readonly property var province_game_data: province.game_data
+	readonly property var country: province_game_data.owner
+	readonly property var country_game_data: country ? country.game_data : null
 	property string interface_style: "dwarven"
 	property string status_text: ""
 	

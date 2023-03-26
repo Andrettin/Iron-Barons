@@ -2,12 +2,4 @@ aragonese = {
 	name = "Aragonese"
 	group = iberian
 	color = { 204 170 61 }
-	derivation_conditions = {
-		location = {
-			not = {
-				core = catalonia
-				core = valencia
-			}
-		}
-	}
 }

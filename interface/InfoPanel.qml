@@ -223,22 +223,12 @@ Item {
 		anchors.left: parent.left
 		anchors.leftMargin: 12 * scale_factor
 		text: province_game_data ? (
-			"Population: " + number_string(province_game_data.population)
+			""
 		) : (selected_site_game_data ? (
 			(selected_site_game_data.employment_capacity > 0 ? ("Employees: " + selected_site_game_data.employee_count + "/" + selected_site_game_data.employment_capacity) : "")
 			+ (selected_site_game_data.employment_capacity > 0 && selected_site_game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site_game_data.production_modifier) + "%") : "")
 		) : "")
 		visible: selected_site && !selected_garrison
-	}
-	
-	SmallText {
-		id: civilian_unit_info_text
-		anchors.top: icon.bottom
-		anchors.topMargin: 16 * scale_factor
-		anchors.left: parent.left
-		anchors.leftMargin: 8 * scale_factor
-		text: selected_civilian_unit !== null ? ("Home Province: " + selected_civilian_unit.home_province.game_data.current_cultural_name) : ""
-		visible: selected_civilian_unit !== null
 	}
 	
 	Grid {
