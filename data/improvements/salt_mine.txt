@@ -5,7 +5,17 @@ salt_mine = {
 	terrain_image_filepaths = {
 		#mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	employment_type = salt_mining
-	employment_capacity = 4
 	output_multiplier = 1
+}
+
+steam_pumped_salt_mine = {
+	name = "Steam-Pumped Salt Mine"
+	resource = salt
+	image_filepath = "tiles/improvements/quarry.png"
+	terrain_image_filepaths = {
+		#mountains = "tiles/improvements/quarry_mountains.png"
+	}
+	output_multiplier = 2
+	required_improvement = salt_mine
+	required_technology = steam_in_mining
 }

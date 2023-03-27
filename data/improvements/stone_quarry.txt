@@ -5,7 +5,5 @@ stone_quarry = {
 	terrain_image_filepaths = {
 		#mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	employment_type = stone_quarrying
-	employment_capacity = 4
 	output_multiplier = 1
 }

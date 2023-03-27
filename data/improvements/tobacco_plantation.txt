@@ -2,8 +2,6 @@ small_tobacco_plantation = {
 	name = "Small Tobacco Plantation"
 	resource = tobacco
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = tobacco_planting
-	employment_capacity = 2
 	output_multiplier = 1
 	required_technology = tobacco
 }
@@ -12,9 +10,7 @@ tobacco_plantation = {
 	name = "Tobacco Plantation"
 	resource = tobacco
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = tobacco_planting
-	employment_capacity = 4
-	output_multiplier = 1
+	output_multiplier = 2
 	required_improvement = small_tobacco_plantation
 	required_technology = tobacco
 }
@@ -23,9 +19,7 @@ large_tobacco_plantation = {
 	name = "Large Tobacco Plantation"
 	resource = tobacco
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = tobacco_planting
-	employment_capacity = 8
-	output_multiplier = 1
+	output_multiplier = 3
 	required_improvement = tobacco_plantation
 	required_technology = tobacco
 }
@@ -34,9 +28,7 @@ mechanized_tobacco_plantation = {
 	name = "Mechanized Tobacco Plantation"
 	resource = tobacco
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = tobacco_planting
-	employment_capacity = 8
-	output_multiplier = 2
+	output_multiplier = 4
 	required_improvement = large_tobacco_plantation
 	required_technology = tobacco_industry
 }

@@ -2,8 +2,6 @@ orchard = {
 	name = "Orchard"
 	resource = fruit
 	image_filepath = "tiles/improvements/orchard.png"
-	employment_type = fruit_growing
-	employment_capacity = 4
 	output_multiplier = 1
 }
 
@@ -11,8 +9,6 @@ mechanized_orchard = {
 	name = "Mechanized Orchard"
 	resource = fruit
 	image_filepath = "tiles/improvements/orchard.png"
-	employment_type = fruit_growing
-	employment_capacity = 4
 	output_multiplier = 2
 	required_improvement = orchard
 	required_technology = seed_drill

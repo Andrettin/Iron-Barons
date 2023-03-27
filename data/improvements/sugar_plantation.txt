@@ -2,8 +2,6 @@ small_sugar_plantation = {
 	name = "Small Sugar Plantation"
 	resource = sugar_cane
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = sugar_planting
-	employment_capacity = 2
 	output_multiplier = 1
 	required_technology = sugar_cane
 }
@@ -12,9 +10,7 @@ sugar_plantation = {
 	name = "Sugar Plantation"
 	resource = sugar_cane
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = sugar_planting
-	employment_capacity = 4
-	output_multiplier = 1
+	output_multiplier = 2
 	required_improvement = small_sugar_plantation
 	required_technology = sugar_cane
 }
@@ -23,9 +19,7 @@ large_sugar_plantation = {
 	name = "Large Sugar Plantation"
 	resource = sugar_cane
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = sugar_planting
-	employment_capacity = 8
-	output_multiplier = 1
+	output_multiplier = 3
 	required_improvement = sugar_plantation
 	required_technology = sugar_cane
 }
@@ -34,9 +28,7 @@ mechanized_sugar_plantation = {
 	name = "Mechanized Sugar Plantation"
 	resource = sugar_cane
 	image_filepath = "tiles/improvements/sugar_plantation.png"
-	employment_type = sugar_planting
-	employment_capacity = 8
-	output_multiplier = 2
+	output_multiplier = 4
 	required_improvement = large_sugar_plantation
 	required_technology = sugar_industry
 }

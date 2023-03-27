@@ -225,8 +225,7 @@ Item {
 		text: province_game_data ? (
 			""
 		) : (selected_site_game_data ? (
-			(selected_site_game_data.employment_capacity > 0 ? ("Employees: " + selected_site_game_data.employee_count + "/" + selected_site_game_data.employment_capacity) : "")
-			+ (selected_site_game_data.employment_capacity > 0 && selected_site_game_data.production_modifier !== 0 ? ("\nProduction Modifier: " + signed_number_string(selected_site_game_data.production_modifier) + "%") : "")
+			(selected_site_game_data.output > 0 ? ("Output: " + selected_site_game_data.output) : "")
 		) : "")
 		visible: selected_site && !selected_garrison
 	}

@@ -2,7 +2,5 @@ cattle_ranch = {
 	name = "Cattle Ranch"
 	resource = cattle
 	image_filepath = "tiles/improvements/cattle_ranch.png"
-	employment_type = livestock_ranching
-	employment_capacity = 4
 	output_multiplier = 1
 }

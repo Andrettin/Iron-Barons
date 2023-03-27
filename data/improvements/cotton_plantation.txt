@@ -2,8 +2,6 @@ small_cotton_plantation = {
 	name = "Small Cotton Plantation"
 	resource = cotton
 	image_filepath = "tiles/improvements/cotton_plantation.png"
-	employment_type = cotton_planting
-	employment_capacity = 2
 	output_multiplier = 1
 	required_technology = cotton
 }
@@ -12,9 +10,7 @@ cotton_plantation = {
 	name = "Cotton Plantation"
 	resource = cotton
 	image_filepath = "tiles/improvements/cotton_plantation.png"
-	employment_type = cotton_planting
-	employment_capacity = 4
-	output_multiplier = 1
+	output_multiplier = 2
 	required_improvement = small_cotton_plantation
 	required_technology = cotton
 }
@@ -23,9 +19,7 @@ large_cotton_plantation = {
 	name = "Large Cotton Plantation"
 	resource = cotton
 	image_filepath = "tiles/improvements/cotton_plantation.png"
-	employment_type = cotton_planting
-	employment_capacity = 8
-	output_multiplier = 1
+	output_multiplier = 3
 	required_improvement = cotton_plantation
 	required_technology = cotton
 }
@@ -34,9 +28,7 @@ mechanized_cotton_plantation = {
 	name = "Mechanized Cotton Plantation"
 	resource = cotton
 	image_filepath = "tiles/improvements/cotton_plantation.png"
-	employment_type = cotton_planting
-	employment_capacity = 8
-	output_multiplier = 2
+	output_multiplier = 4
 	required_improvement = large_cotton_plantation
 	required_technology = cotton_gin
 }

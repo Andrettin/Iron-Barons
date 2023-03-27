@@ -2,7 +2,5 @@ dye_plantation = {
 	name = "Dye Plantation"
 	resource = dye
 	image_filepath = "tiles/improvements/cotton_plantation.png"
-	employment_type = dye_planting
-	employment_capacity = 4
 	output_multiplier = 1
 }

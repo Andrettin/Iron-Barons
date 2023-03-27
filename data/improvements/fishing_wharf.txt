@@ -2,7 +2,5 @@ fishing_wharf = {
 	name = "Fishing Wharf"
 	resource = fish
 	image_filepath = "tiles/improvements/fishing_wharf.png"
-	employment_type = fishing
-	employment_capacity = 4
 	output_multiplier = 1
 }

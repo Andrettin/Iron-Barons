@@ -2,8 +2,6 @@ small_coffee_plantation = {
 	name = "Small Coffee Plantation"
 	resource = coffee
 	image_filepath = "tiles/improvements/coffee_plantation.png"
-	employment_type = coffee_planting
-	employment_capacity = 2
 	output_multiplier = 1
 }
 
@@ -11,9 +9,7 @@ coffee_plantation = {
 	name = "Coffee Plantation"
 	resource = coffee
 	image_filepath = "tiles/improvements/coffee_plantation.png"
-	employment_type = coffee_planting
-	employment_capacity = 4
-	output_multiplier = 1
+	output_multiplier = 2
 	required_improvement = small_coffee_plantation
 }
 
@@ -21,8 +17,6 @@ large_coffee_plantation = {
 	name = "Large Coffee Plantation"
 	resource = coffee
 	image_filepath = "tiles/improvements/coffee_plantation.png"
-	employment_type = coffee_planting
-	employment_capacity = 8
-	output_multiplier = 1
+	output_multiplier = 3
 	required_improvement = coffee_plantation
 }
