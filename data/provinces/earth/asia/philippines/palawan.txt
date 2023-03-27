@@ -4,8 +4,12 @@ palawan = {
 	capital_settlement = puerto_princesa
 	
 	history = {
+		culture = filipino
+		religion = pagan
+		
 		1898 = {
 			owner = philippines #part of the Philippines in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
+			culture = filipino
 			religion = catholic
 		}
 	}
