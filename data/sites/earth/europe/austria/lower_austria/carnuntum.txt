@@ -6,7 +6,7 @@ carnuntum = {
 	
 	history = {
 		374 = {
-			improvement = ruins
+			#improvement = ruins
 		}
 	}
 }
