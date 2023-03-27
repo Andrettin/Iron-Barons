@@ -163,43 +163,10 @@ Item {
 		) : ""
 	}
 	
-	PopulationTypeChart {
-		id: population_type_chart
-		anchors.top: culture_chart.top
-		anchors.right: culture_chart.left
-		anchors.rightMargin: 8 * scale_factor
-		width: 48 * scale_factor
-		height: 48 * scale_factor
-		visible: selected_site && selected_site.settlement && !selected_garrison
-		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
-	}
-	
-	CultureChart {
-		id: culture_chart
-		anchors.top: subtitle.bottom
-		anchors.topMargin: 8 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		width: 48 * scale_factor
-		height: 48 * scale_factor
-		visible: selected_site && selected_site.settlement && !selected_garrison
-		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
-	}
-	
-	ReligionChart {
-		id: religion_chart
-		anchors.top: culture_chart.top
-		anchors.left: culture_chart.right
-		anchors.leftMargin: 8 * scale_factor
-		width: 48 * scale_factor
-		height: 48 * scale_factor
-		visible: selected_site && selected_site.settlement && !selected_garrison
-		data_source: selected_site && selected_site.settlement ? selected_site.game_data.province.game_data : null
-	}
-	
 	Grid {
 		id: scripted_modifiers_grid
-		anchors.top: culture_chart.bottom
-		anchors.topMargin: 8 * scale_factor
+		anchors.top: subtitle.bottom
+		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		height: 16 * scale_factor
 		columnSpacing: 2 * scale_factor
