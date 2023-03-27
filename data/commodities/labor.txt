@@ -1,5 +1,6 @@
 labor = {
 	name = "Labor"
 	icon = cog
-	#storable = false
+	abstract = true
+	storable = false
 }

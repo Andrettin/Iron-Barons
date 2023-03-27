@@ -14,51 +14,35 @@ Item {
 		fillMode: Image.PreserveAspectCrop
 	}
 	
+	IndustryCounter {
+		id: labor_counter
+		anchors.left: parent.left
+		anchors.top: parent.top
+		anchors.topMargin: 96 * scale_factor
+		name: "Labor"
+		icon_identifier: "cog"
+		count: country_game_data.get_commodity_output("labor")
+	}
+	
 	ListView {
 		id: population_unit_list
 		anchors.left: parent.left
 		anchors.right: parent.right
-		anchors.top: parent.top
-		anchors.topMargin: 96 * scale_factor
+		anchors.top: labor_counter.bottom
+		anchors.topMargin: 8 * scale_factor
 		anchors.bottom: back_button.top
 		anchors.bottomMargin: 8 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		spacing: 8 * scale_factor
 		clip: true
 		model: sort_model(country_game_data.population_type_counts)
-		delegate: Item {
-			width: population_unit_list.width
-			height: 48 * scale_factor
+		delegate: IndustryCounter {
+			name: population_type.name
+			icon_identifier: country_game_data.get_population_type_small_icon(population_type).identifier
+			count: population_count
 			
 			readonly property var population_type: model.modelData.key
 			readonly property int population_count: model.modelData.value
-			
-			Image {
-				id: population_type_icon
-				anchors.top: parent.top
-				anchors.horizontalCenter: parent.horizontalCenter
-				source: "image://icon/" + country_game_data.get_population_type_small_icon(population_type).identifier
-			}
-			
-			SmallText {
-				text: number_string(population_count)
-				anchors.top: population_type_icon.bottom
-				anchors.topMargin: 4 * scale_factor
-				anchors.horizontalCenter: parent.horizontalCenter
-			}
-			
-			MouseArea {
-				anchors.fill: parent
-				hoverEnabled: true
-				
-				onEntered: {
-					status_text = population_type.name
-				}
-				
-				onExited: {
-					status_text = ""
-				}
-			}
 		}
 		
 		function sort_model(population_type_counts) {
