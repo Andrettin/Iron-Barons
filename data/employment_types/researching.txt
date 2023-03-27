@@ -1,8 +1,0 @@
-researching = {
-	name = "Researching"
-	output_commodity = research
-	employees = {
-		untrained_workers
-		trained_workers
-	}
-}

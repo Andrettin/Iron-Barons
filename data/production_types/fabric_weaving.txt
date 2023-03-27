@@ -1,0 +1,29 @@
+cotton_fabric_weaving = {
+	name = "Cotton Fabric Weaving"
+	input_commodities = {
+		labor = 2
+		cotton = 2
+	}
+	output_commodity = fabric
+	output_value = 1
+}
+
+silk_fabric_weaving = {
+	name = "Silk Fabric Weaving"
+	input_commodities = {
+		labor = 2
+		silk = 2
+	}
+	output_commodity = fabric
+	output_value = 1
+}
+
+wool_fabric_weaving = {
+	name = "Wool Fabric Weaving"
+	input_commodities = {
+		labor = 2
+		cotton = 2
+	}
+	output_commodity = fabric
+	output_value = 1
+}

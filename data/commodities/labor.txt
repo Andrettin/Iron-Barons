@@ -1,0 +1,5 @@
+labor = {
+	name = "Labor"
+	icon = cog
+	#storable = false
+}

@@ -5,6 +5,8 @@ trained_workers = {
 	literate = true
 	icon = craftsmen_light
 	small_icon = craftsmen_light_small
+	output_commodity = labor
+	output_value = 2
 	phenotype_icons = {
 		afro_european = craftsmen_medium
 		amerindian = craftsmen_medium
@@ -16,14 +18,5 @@ trained_workers = {
 		amerindian = craftsmen_medium_small
 		south_asian = craftsmen_medium_small
 		african = craftsmen_dark_small
-	}
-	production_multipliers = {
-		fabric = 2
-		lumber = 2
-		paper = 2
-		armament = 2
-		clothing = 2
-		furniture = 2
-		tools = 2
 	}
 }

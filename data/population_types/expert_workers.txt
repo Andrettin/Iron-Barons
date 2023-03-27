@@ -1,9 +1,11 @@
-expert_fishermen = {
-	name = "Expert Fishermen"
-	population_class = expert_fishermen
+expert_workers = {
+	name = "Expert Workers"
+	population_class = expert_workers
 	literate = true
 	icon = craftsmen_light
 	small_icon = craftsmen_light_small
+	output_commodity = labor
+	output_value = 4
 	phenotype_icons = {
 		afro_european = craftsmen_medium
 		amerindian = craftsmen_medium
@@ -15,8 +17,5 @@ expert_fishermen = {
 		amerindian = craftsmen_medium_small
 		south_asian = craftsmen_medium_small
 		african = craftsmen_dark_small
-	}
-	production_multipliers = {
-		fish = 2
 	}
 }

@@ -1,0 +1,7 @@
+silk = {
+	name = "Silk"
+	commodity = silk
+	terrain_types = {
+		conifer_forest
+	}
+}

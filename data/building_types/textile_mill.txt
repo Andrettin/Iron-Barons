@@ -3,9 +3,8 @@ weavers_house = {
 	building_class = weavers_house
 	portrait = trading_post
 	icon = fabric
-	employment_type = fabric_weaving
-	employment_capacity = 1
-	output_multiplier = 1
+	production_type = cotton_fabric_weaving
+	base_capacity = 1
 }
 
 weavers_shop = {
@@ -13,9 +12,8 @@ weavers_shop = {
 	building_class = weavers_shop
 	portrait = trading_post
 	icon = fabric
-	employment_type = fabric_weaving
-	employment_capacity = 2
-	output_multiplier = 1
+	production_type = cotton_fabric_weaving
+	base_capacity = 2
 	required_building = weavers_house
 }
 
@@ -24,8 +22,7 @@ textile_mill = {
 	building_class = textile_mill
 	portrait = trading_post
 	icon = fabric
-	employment_type = fabric_weaving
-	employment_capacity = 4
-	output_multiplier = 1
+	production_type = cotton_fabric_weaving
+	base_capacity = 4
 	required_building = weavers_shop
 }

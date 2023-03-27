@@ -1,0 +1,4 @@
+silk = {
+	name = "Silk"
+	icon = wool
+}
