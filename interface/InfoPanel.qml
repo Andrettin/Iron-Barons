@@ -38,7 +38,7 @@ Item {
 	}
 	
 	IconButton {
-		id: capital_settlement_button
+		id: industry_button
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
 		anchors.left: characters_button.right
@@ -46,15 +46,15 @@ Item {
 		icon_identifier: "settlement"
 		
 		onReleased: {
-			menu_stack.push("SettlementView.qml", {
-				settlement: metternich.game.player_country.capital_province.capital_settlement,
+			menu_stack.push("IndustryView.qml", {
+				country: metternich.game.player_country,
 				interface_style: map_view.interface_style
 			})
 		}
 		
 		onHoveredChanged: {
 			if (hovered) {
-				status_text = "View Capital Settlement"
+				status_text = "View Industry"
 			} else {
 				status_text = ""
 			}
@@ -292,32 +292,6 @@ Item {
 					anchors.right: parent.right
 					anchors.rightMargin: 4 * scale_factor
 				}
-			}
-		}
-	}
-	
-	TextButton {
-		id: settlement_button
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.bottom: end_turn_button_internal.top
-		anchors.bottomMargin: 8 * scale_factor
-		text: qsTr("Settlement")
-		width: 64 * scale_factor
-		height: 24 * scale_factor
-		visible: selected_site !== null && selected_site.settlement && !selected_garrison
-		
-		onClicked: {
-			menu_stack.push("SettlementView.qml", {
-				settlement: selected_site,
-				interface_style: map_view.interface_style
-			})
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "View Settlement"
-			} else {
-				status_text = ""
 			}
 		}
 	}

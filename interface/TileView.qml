@@ -138,13 +138,6 @@ Item {
 				selected_site = site
 				selected_civilian_unit = null
 			} else {
-				if (site !== null && site === selected_site && site.settlement && civilian_unit === null) {
-					menu_stack.push("SettlementView.qml", {
-						settlement: site,
-						interface_style: map_view.interface_style
-					})
-				}
-				
 				selected_civilian_unit = null
 				selected_site = null
 			}

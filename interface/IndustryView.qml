@@ -3,13 +3,9 @@ import QtQuick.Controls 2.12
 import "./dialogs"
 
 Item {
-	id: settlement_view
+	id: industry_view
 	
-	property var settlement: null
-	readonly property var settlement_game_data: settlement.game_data
-	readonly property var province: settlement_game_data.province
-	readonly property var province_game_data: province.game_data
-	readonly property var country: province_game_data.owner
+	property var country: null
 	readonly property var country_game_data: country ? country.game_data : null
 	property string interface_style: "dwarven"
 	property string status_text: ""
@@ -34,7 +30,7 @@ Item {
 		cellHeight: 80 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		model: get_available_building_slots(province_game_data.building_slots)
+		model: country_game_data.building_slots
 		
 		delegate: Item {
 			width: building_slots_area.cellWidth
@@ -106,7 +102,7 @@ Item {
 		anchors.left: infopanel.right
 	}
 	
-	SettlementInfoPanel {
+	IndustryInfoPanel {
 		id: infopanel
 		anchors.top: parent.top
 		anchors.bottom: parent.bottom
@@ -115,17 +111,5 @@ Item {
 	
 	WarehouseDialog {
 		id: warehouse_dialog
-	}
-	
-	function get_available_building_slots(building_slots) {
-		var available_building_slots = []
-		
-		for (var building_slot of building_slots) {
-			if (building_slot.available) {
-				available_building_slots.push(building_slot)
-			}
-		}
-		
-		return available_building_slots
 	}
 }
