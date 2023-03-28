@@ -5,6 +5,6 @@ warehouse = {
 	icon = chest
 	warehouse = true
 	country_modifier = {
-		storage_capacity = 100
+		storage_capacity = 1000
 	}
 }
