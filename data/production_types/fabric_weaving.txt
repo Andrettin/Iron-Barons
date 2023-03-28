@@ -22,7 +22,7 @@ wool_fabric_weaving = {
 	name = "Wool Fabric Weaving"
 	input_commodities = {
 		labor = 2
-		cotton = 2
+		wool = 2
 	}
 	output_commodity = fabric
 	output_value = 1
