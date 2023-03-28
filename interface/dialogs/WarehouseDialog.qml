@@ -14,7 +14,7 @@ DialogBase {
 		anchors.top: title_item.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: "Storage Capacity: " + (province_game_data.owner ? province_game_data.owner.game_data.storage_capacity : 0)
+		text: "Storage Capacity: " + country_game_data.storage_capacity
 	}
 	
 	Grid {
@@ -25,7 +25,7 @@ DialogBase {
 		columns: 4
 		
 		Repeater {
-			model: province_game_data.owner ? province_game_data.owner.game_data.stored_commodities : []
+			model: country_game_data.stored_commodities
 			
 			Item {
 				width: 64 * scale_factor

@@ -19,7 +19,7 @@ Item {
 	
 	IconButton {
 		id: characters_button
-		anchors.top: capital_settlement_button.top
+		anchors.top: industry_button.top
 		anchors.left: parent.left
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "rifle_infantry_light_small"
@@ -63,8 +63,8 @@ Item {
 	
 	IconButton {
 		id: diplomatic_map_button
-		anchors.top: capital_settlement_button.top
-		anchors.left: capital_settlement_button.right
+		anchors.top: industry_button.top
+		anchors.left: industry_button.right
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "globe"
 		
@@ -106,7 +106,7 @@ Item {
 	
 	NormalText {
 		id: title
-		anchors.top: capital_settlement_button.bottom
+		anchors.top: industry_button.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: selected_site ? (
