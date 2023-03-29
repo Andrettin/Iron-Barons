@@ -2,6 +2,7 @@ mycenaean_greece_and_the_orient = {
 	name = "Mycenaean Greece and the Orient"
 	start_date = -1450
 	map_template = earth
+	hidden = true
 	default_countries = {
 		assyria
 		babylonia

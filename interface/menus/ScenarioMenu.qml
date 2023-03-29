@@ -10,6 +10,7 @@ MenuBase {
 	property var selected_scenario: null
 	readonly property var selected_country: diplomatic_map.selected_country
 	property int setup_count: 0
+	readonly property var scenarios: metternich.get_scenarios()
 	
 	Rectangle {
 		id: diplomatic_map_background
@@ -262,11 +263,10 @@ MenuBase {
 		height: 128 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		model: metternich.get_scenarios()
+		model: scenarios
 		delegate: Rectangle {
 			width: 256 * scale_factor
 			height: 16 * scale_factor
-			visible: !model.modelData.hidden
 			color: (selected_scenario == model.modelData) ? "olive" : "black"
 			border.color: "white"
 			border.width: 1
@@ -361,17 +361,9 @@ MenuBase {
 	}
 	
 	Component.onCompleted: {
-		//get a random non-hidden scenario
-		var potential_scenarios = []
-		
-		for (var scenario of metternich.get_scenarios()) {
-			if (!scenario.hidden) {
-				potential_scenarios.push(scenario)
-			}
-		}
-
-		var scenario_index = random(potential_scenarios.length)
-		selected_scenario = potential_scenarios[scenario_index]
+		//get a random scenario
+		var scenario_index = random(scenarios.length)
+		selected_scenario = scenarios[scenario_index]
 		
 		var scenario_rect_bottom = (scenario_index + 1) * 16 * scale_factor - 1
 		if (scenario_rect_bottom > scenario_list.contentY) {
