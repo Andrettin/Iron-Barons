@@ -63,7 +63,7 @@ Item {
 						if (building !== null) {
 							if (building.warehouse) {
 								warehouse_dialog.open()
-							} else if (building.base_capacity > 0) {
+							} else if (building.production_types.length > 0) {
 								factory_dialog.building_slot = building_slot
 								factory_dialog.open()
 							}

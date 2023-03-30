@@ -11,13 +11,14 @@ DialogBase {
 	
 	property var building_slot: null
 	readonly property var building: building_slot ? building_slot.building : null
+	readonly property int capacity: building_slot ? building_slot.capacity : 0
 	
 	SmallText {
 		id: capacity_label
 		anchors.top: title_item.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: "Capacity: " + (building ? building.base_capacity : "")
+		text: "Capacity: " + capacity
 	}
 	
 	Column {
@@ -61,6 +62,17 @@ DialogBase {
 						color: "transparent"
 						border.color: "gray"
 						border.width: 1 * scale_factor
+						
+						Rectangle {
+							anchors.top: parent.top
+							anchors.topMargin: 1 * scale_factor
+							anchors.bottom: parent.bottom
+							anchors.bottomMargin: 1 * scale_factor
+							anchors.left: parent.left
+							anchors.leftMargin: 1 * scale_factor
+							width: Math.floor((parent.width - 2 * scale_factor) * output_value / capacity)
+							color: "dimGray"
+						}
 						
 						SmallText {
 							id: stored_label
