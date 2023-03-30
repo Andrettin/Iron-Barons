@@ -60,8 +60,13 @@ Item {
 					hoverEnabled: true
 					
 					onClicked: {
-						if (building !== null && building.warehouse) {
-							warehouse_dialog.open()
+						if (building !== null) {
+							if (building.warehouse) {
+								warehouse_dialog.open()
+							} else if (building.base_capacity > 0) {
+								factory_dialog.building_slot = building_slot
+								factory_dialog.open()
+							}
 						}
 					}
 					
@@ -111,5 +116,9 @@ Item {
 	
 	WarehouseDialog {
 		id: warehouse_dialog
+	}
+	
+	FactoryDialog {
+		id: factory_dialog
 	}
 }
