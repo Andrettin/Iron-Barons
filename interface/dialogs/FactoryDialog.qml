@@ -43,6 +43,19 @@ DialogBase {
 					anchors.top: parent.top
 					anchors.left: parent.left
 					source: "image://icon/" + output_commodity.icon.identifier
+					
+					MouseArea {
+						anchors.fill: parent
+						hoverEnabled: true
+						
+						onEntered: {
+							status_text = get_production_string(production_type)
+						}
+						
+						onExited: {
+							status_text = ""
+						}
+					}
 				}
 				
 				Item {
@@ -125,5 +138,26 @@ DialogBase {
 		onClicked: {
 			factory_dialog.close()
 		}
+	}
+	
+	function get_production_string(production_type) {
+		var str = ""
+		
+		var input_commodities = production_type.input_commodities
+		
+		for (var kv_pair of input_commodities) {
+			var commodity = kv_pair.key
+			var quantity = kv_pair.value
+			
+			if (str.length > 0) {
+				str += " + "
+			}
+			
+			str += quantity + " " + commodity.name
+		}
+		
+		str += " makes " + production_type.output_value + " " + production_type.output_commodity.name
+		
+		return str
 	}
 }
