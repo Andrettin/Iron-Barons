@@ -6,7 +6,7 @@ DialogBase {
 	id: factory_dialog
 	title: building ? building.name : ""
 	panel: 5
-	width: 256 * scale_factor + 8 * scale_factor * 2
+	width: production_types_column.width + 8 * scale_factor * 2
 	height: ok_button.y + ok_button.height + 8 * scale_factor
 	
 	property var building_slot: null
@@ -26,41 +26,87 @@ DialogBase {
 		anchors.top: capacity_label.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		spacing: 16 * scale_factor
 		
 		Repeater {
 			model: building ? building.production_types : []
 			
 			Item {
-				width: 176 * scale_factor + 16 * scale_factor + commodity_icon.width
-				height: 32 * scale_factor + 16 * scale_factor
+				width: production_slider.width + 16 * scale_factor + production_formula_row.width
+				height: production_formula_row.height
 				
 				readonly property var production_type: model.modelData
 				readonly property var output_commodity: production_type.output_commodity
 				property int output_value: building_slot.get_production_type_employed_capacity(production_type)
 				
-				Image {
-					id: commodity_icon
-					anchors.top: parent.top
+				Row {
+					id: production_formula_row
+					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: parent.left
-					source: "image://icon/" + output_commodity.icon.identifier
 					
-					MouseArea {
-						anchors.fill: parent
-						hoverEnabled: true
+					Repeater {
+						model: production_type.input_commodities
 						
-						onEntered: {
-							status_text = get_production_string(production_type)
+						Row {
+							readonly property var input_commodity: model.modelData.key
+							readonly property int input_value: model.modelData.value
+							
+							Item {
+								width: 32 * scale_factor
+								height: 32 * scale_factor
+								visible: index > 0
+								
+								NormalText {
+									text: "+"
+									anchors.verticalCenter: parent.verticalCenter
+									anchors.horizontalCenter: parent.horizontalCenter
+								}
+							}
+							
+							Repeater {
+								model: input_value
+								
+								Image {
+									id: output_commodity_icon
+									source: "image://icon/" + input_commodity.icon.identifier
+								}
+							}
 						}
+					}
+					
+					Item {
+						width: 32 * scale_factor
+						height: 32 * scale_factor
 						
-						onExited: {
-							status_text = ""
+						NormalText {
+							text: "→"
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.horizontalCenter: parent.horizontalCenter
 						}
+					}
+					
+					Image {
+						id: output_commodity_icon
+						source: "image://icon/" + output_commodity.icon.identifier
+					}
+				}
+				
+				MouseArea {
+					anchors.fill: production_formula_row
+					hoverEnabled: true
+					
+					onEntered: {
+						status_text = get_production_string(production_type)
+					}
+					
+					onExited: {
+						status_text = ""
 					}
 				}
 				
 				Item {
 					id: production_slider
-					anchors.verticalCenter: commodity_icon.verticalCenter
+					anchors.verticalCenter: production_formula_row.verticalCenter
 					anchors.right: parent.right
 					width: 176 * scale_factor
 					height: 16 * scale_factor
