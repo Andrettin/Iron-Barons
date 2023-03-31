@@ -1,7 +1,7 @@
 knights = {
 	name = "Knights"
 	unit_class = knights
-	icon = whitecoats
+	icon = cuirassiers
 	melee = 6
 	range = 1
 	defense = 6
@@ -11,7 +11,7 @@ knights = {
 lancers = {
 	name = "Lancers"
 	unit_class = lancers
-	icon = whitecoats
+	icon = cuirassiers
 	melee = 8
 	range = 1
 	defense = 5
