@@ -9,10 +9,6 @@ adventurer = {
 			character_type = privateer
 		}
 	}
-	modifier = {
-		martial = 1
-		prowess = 1
-	}
 }
 
 monk = {
@@ -25,9 +21,6 @@ monk = {
 			character_type = theologian
 		}
 		gender = male
-	}
-	modifier = {
-		learning = 1
 	}
 }
 
@@ -42,9 +35,6 @@ nun = {
 		}
 		gender = female
 	}
-	modifier = {
-		learning = 1
-	}
 }
 
 peasant_leader = {
@@ -56,9 +46,6 @@ peasant_leader = {
 			character_type = general
 			character_type = statesman
 		}
-	}
-	modifier = {
-		martial = 1
 	}
 }
 
@@ -72,10 +59,6 @@ pirate = {
 			character_type = navigator
 			character_type = privateer
 		}
-	}
-	modifier = {
-		martial = 1
-		prowess = 1
 	}
 }
 
@@ -91,8 +74,5 @@ professor = {
 			character_type = philosopher
 			character_type = theologian
 		}
-	}
-	modifier = {
-		learning = 1
 	}
 }

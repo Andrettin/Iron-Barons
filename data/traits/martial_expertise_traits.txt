@@ -11,10 +11,6 @@ cartographer = {
 			character_type = privateer
 		}
 	}
-	modifier = {
-		martial = 1
-		learning = 1
-	}
 }
 
 duelist = {
@@ -29,9 +25,6 @@ duelist = {
 			character_type = privateer
 		}
 	}
-	modifier = {
-		martial = 1
-	}
 	military_unit_modifier = {
 		melee = 1
 		defense = 1
@@ -45,9 +38,6 @@ falconer = {
 	level = 1
 	conditions = {
 		character_type = general
-	}
-	modifier = {
-		martial = 1
 	}
 }
 
@@ -65,10 +55,6 @@ game_master = {
 			character_type = statesman
 		}
 	}
-	modifier = {
-		diplomacy = 1
-		martial = 1
-	}
 }
 
 hunter = {
@@ -78,10 +64,6 @@ hunter = {
 	level = 1
 	conditions = {
 		character_type = general
-	}
-	modifier = {
-		martial = 1
-		prowess = 1
 	}
 }
 
@@ -100,9 +82,6 @@ strategist = {
 			trait = brilliant_strategist
 		}
 	}
-	modifier = {
-		martial = 1
-	}
 }
 
 brilliant_strategist = {
@@ -119,8 +98,5 @@ brilliant_strategist = {
 		not = {
 			trait = strategist
 		}
-	}
-	modifier = {
-		martial = 2
 	}
 }

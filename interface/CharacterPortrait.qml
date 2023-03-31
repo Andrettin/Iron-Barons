@@ -11,14 +11,6 @@ PortraitButton {
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
 		+ (character.game_data.spouse ? ("\nSpouse: " + character.game_data.spouse.full_name) : "")
-		+ "\nPrimary Attribute: " + character.type.primary_attribute_name
-		+ (character.game_data.diplomacy > 0 ? ("\nDiplomacy: " + character.game_data.diplomacy) : "")
-		+ (character.game_data.martial > 0 ? ("\nMartial: " + character.game_data.martial) : "")
-		+ (character.game_data.stewardship > 0 ? ("\nStewardship: " + character.game_data.stewardship) : "")
-		+ (character.game_data.intrigue > 0 ? ("\nIntrigue: " + character.game_data.intrigue) : "")
-		+ (character.game_data.learning > 0 ? ("\nLearning: " + character.game_data.learning) : "")
-		+ (character.game_data.prowess > 0 ? ("\nProwess: " + character.game_data.prowess) : "")
-		+ ("\nLoyalty: " + character.game_data.loyalty + "%")
 		+ (character.game_data.wealth !== 0 ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
 		+ (character.game_data.prestige !== 0 ? ("\nPrestige: " + number_string(character.game_data.prestige)) : "")
 		+ (character.game_data.piety !== 0 ? ("\nPiety: " + number_string(character.game_data.piety)) : "")

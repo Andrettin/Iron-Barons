@@ -9,9 +9,6 @@ investigator = {
 			character_type = spymaster
 		}
 	}
-	modifier = {
-		intrigue = 1
-	}
 }
 
 stealthy = {
@@ -21,9 +18,6 @@ stealthy = {
 	level = 1
 	conditions = {
 		character_type = spymaster
-	}
-	modifier = {
-		intrigue = 1
 	}
 }
 
@@ -37,10 +31,6 @@ thug = {
 			character_type = privateer
 			character_type = spymaster
 		}
-	}
-	modifier = {
-		martial = 1
-		intrigue = 1
 	}
 	military_unit_modifier = {
 		melee = 1

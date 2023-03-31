@@ -67,9 +67,6 @@ battle_axe = {
 			technology = gunpowder
 		}
 	}
-	modifier = {
-		prowess = 2
-	}
 }
 
 mace = {
@@ -89,9 +86,6 @@ mace = {
 			technology = gunpowder
 		}
 	}
-	modifier = {
-		prowess = 2
-	}
 }
 
 quarterstaff = {
@@ -105,9 +99,6 @@ quarterstaff = {
 			character_type = philosopher
 		}
 	}
-	modifier = {
-		prowess = 1
-	}
 }
 
 bow = {
@@ -117,8 +108,5 @@ bow = {
 	level = 1
 	conditions = {
 		character_type = general
-	}
-	modifier = {
-		prowess = 2
 	}
 }

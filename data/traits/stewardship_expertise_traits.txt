@@ -13,9 +13,6 @@ administrator = {
 			trait = gifted_administrator
 		}
 	}
-	modifier = {
-		stewardship = 1
-	}
 }
 
 gifted_administrator = {
@@ -33,9 +30,6 @@ gifted_administrator = {
 			trait = administrator
 		}
 	}
-	modifier = {
-		stewardship = 2
-	}
 }
 
 gardener = {
@@ -49,10 +43,6 @@ gardener = {
 			character_type = merchant
 			character_type = treasurer
 		}
-	}
-	modifier = {
-		stewardship = 1
-		learning = 1
 	}
 }
 
@@ -68,9 +58,6 @@ silver_palm = {
 			character_type = treasurer
 		}
 	}
-	modifier = {
-		stewardship = 1
-	}
 }
 
 aspiring_trader = {
@@ -84,9 +71,6 @@ aspiring_trader = {
 			trait = trader
 		}
 	}
-	modifier = {
-		stewardship = 1
-	}
 }
 
 trader = {
@@ -99,8 +83,5 @@ trader = {
 		not = {
 			trait = aspiring_trader
 		}
-	}
-	modifier = {
-		stewardship = 2
 	}
 }

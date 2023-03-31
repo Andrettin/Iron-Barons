@@ -1,5 +1,4 @@
 merchant = {
 	name = "Merchant"
 	portrait = jakob_fugger
-	primary_attribute = stewardship
 }

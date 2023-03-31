@@ -1,7 +1,6 @@
 theologian = {
 	name = "Theologian"
 	portrait = frankish_cleric
-	primary_attribute = learning
 	country_modifier = {
 		quarterly_piety = 0.5
 	}

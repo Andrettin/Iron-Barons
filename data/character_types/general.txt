@@ -1,7 +1,6 @@
 general = {
 	name = "General"
 	portrait = soldier
-	primary_attribute = martial
 	military_unit_category = general
 	commander = true
 	country_modifier = {

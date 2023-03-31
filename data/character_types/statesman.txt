@@ -9,5 +9,4 @@ statesman = {
 			gender = female
 		}
 	}
-	primary_attribute = diplomacy
 }

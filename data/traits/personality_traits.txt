@@ -2,174 +2,106 @@ arbitrary = {
 	name = "Arbitrary"
 	type = personality
 	icon = blood
-	modifier = {
-		stewardship = -1
-		intrigue = 1
-		learning = -1
-	}
 }
 
 celibate = {
 	name = "Celibate"
 	type = personality
 	icon = wooden_cross
-	modifier = {
-		learning = 1
-	}
 }
 
 charitable = {
 	name = "Charitable"
 	type = personality
 	icon = golden_cross
-	modifier = {
-		diplomacy = 1
-	}
 }
 
 chaste = {
 	name = "Chaste"
 	type = personality
 	icon = wooden_cross
-	modifier = {
-		learning = 1
-	}
 }
 
 compassionate = {
 	name = "Compassionate"
 	type = personality
 	icon = love
-	modifier = {
-		diplomacy = 1
-		intrigue = -1
-	}
 }
 
 content = {
 	name = "Content"
 	type = personality
 	icon = anchor
-	modifier = {
-		intrigue = -1
-	}
 }
 
 cynical = {
 	name = "Cynical"
 	type = personality
 	icon = blood
-	modifier = {
-		intrigue = 1
-	}
 }
 
 diligent = {
 	name = "Diligent"
 	type = personality
 	icon = hammer
-	modifier = {
-		diplomacy = 1
-		martial = 1
-		stewardship = 1
-		intrigue = 1
-		learning = 1
-	}
 }
 
 gluttonous = {
 	name = "Gluttonous"
 	type = personality
 	icon = cattle
-	modifier = {
-		stewardship = -1
-	}
 }
 
 greedy = {
 	name = "Greedy"
 	type = personality
 	icon = chest
-	modifier = {
-		diplomacy = -1
-		stewardship = 1
-	}
 }
 
 gregarious = {
 	name = "Gregarious"
 	type = personality
 	icon = music
-	modifier = {
-		diplomacy = 1
-	}
 }
 
 just = {
 	name = "Just"
 	type = personality
 	icon = courthouse
-	modifier = {
-		diplomacy = 1
-		stewardship = 1
-	}
 }
 
 kind = {
 	name = "Kind"
 	type = personality
 	icon = love
-	modifier = {
-		diplomacy = 1
-		intrigue = -1
-	}
 }
 
 proud = {
 	name = "Proud"
 	type = personality
 	icon = heater_shield
-	modifier = {
-		diplomacy = -1
-		martial = 1
-	}
 }
 
 shy = {
 	name = "Shy"
 	type = personality
 	icon = wall
-	modifier = {
-		diplomacy = -1
-		learning = 1
-	}
 }
 
 temperate = {
 	name = "Temperate"
 	type = personality
 	icon = philosophy
-	modifier = {
-		stewardship = 1
-	}
 }
 
 wroth = {
 	name = "Wroth"
 	type = personality
 	icon = blood
-	modifier = {
-		diplomacy = -1
-		martial = 1
-		intrigue = -1
-	}
 }
 
 zealous = {
 	name = "Zealous"
 	type = personality
 	icon = wooden_cross
-	modifier = {
-		martial = 1
-	}
 }

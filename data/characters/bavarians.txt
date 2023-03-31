@@ -8,5 +8,5 @@ triangel_fuchs = { #Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs
 	gender = male
 	#German merchant, suffered failures in Vienna
 	start_date = 1664 #was one of the two directors of Austria's oriental company, which was founded in 1664
-	level = 1 #since he suffered failures in Vienna, and was the director of an important, but short-lived company
+	skill = 1 #since he suffered failures in Vienna, and was the director of an important, but short-lived company
 }

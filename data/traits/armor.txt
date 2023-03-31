@@ -29,9 +29,6 @@ leather_armor = {
 			technology = gunpowder
 		}
 	}
-	modifier = {
-		prowess = 1
-	}
 }
 
 chainmail_1 = {

@@ -1,5 +1,4 @@
 natural_scientist = {
 	name = "Natural Scientist"
 	portrait = alchemist
-	primary_attribute = learning
 }

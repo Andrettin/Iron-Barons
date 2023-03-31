@@ -20,5 +20,5 @@ william_penn = {
 	gender = male
 	birth_date = 1644
 	death_date = 1718
-	level_multiplier = 0.67
+	skill_multiplier = 0.67
 }

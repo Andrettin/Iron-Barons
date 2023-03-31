@@ -11,11 +11,6 @@ shocking_grasp = {
 	effects = {
 		damage = {
 			value = 10
-			
-			scaled = {
-				attribute = learning
-				value = 1
-			}
 		}
 	}
 }

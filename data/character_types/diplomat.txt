@@ -9,5 +9,4 @@ diplomat = {
 			gender = female
 		}
 	}
-	primary_attribute = diplomacy
 }

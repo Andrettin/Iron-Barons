@@ -3,7 +3,4 @@ boots_of_elvenkind = {
 	type = trinket
 	icon = heater_shield
 	level = 1
-	modifier = {
-		intrigue = 1
-	}
 }

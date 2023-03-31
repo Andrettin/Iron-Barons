@@ -11,11 +11,6 @@ arcane_missile = {
 	effects = {
 		damage = {
 			value = 5
-			
-			scaled = {
-				attribute = learning
-				value = 1
-			}
 		}
 	}
 }

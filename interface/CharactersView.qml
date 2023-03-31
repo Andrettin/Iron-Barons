@@ -67,14 +67,6 @@ Item {
 					anchors.rightMargin: 8 * scale_factor
 				}
 				
-				SmallText {
-					id: character_primary_attribute_value_label
-					text: number_string(character.game_data.primary_attribute_value)
-					anchors.top: character_type_label.top
-					anchors.right: parent.right
-					anchors.rightMargin: 8 * scale_factor
-				}
-				
 				MouseArea {
 					anchors.fill: parent
 					ToolTip.text: character_tooltip
@@ -88,22 +80,6 @@ Item {
 						} else {
 							selected_character = character
 						}
-					}
-				}
-				
-				Image {
-					id: primary_attribute_icon
-					anchors.verticalCenter: character_primary_attribute_value_label.verticalCenter
-					anchors.left: character_primary_attribute_value_label.right
-					anchors.leftMargin: -40 * scale_factor
-					source: "image://icon/" + metternich.defines.get_attribute_icon_identifier(character.type.primary_attribute_index) + "/small"
-					
-					MouseArea {
-						anchors.fill: parent
-						ToolTip.text: character.type.primary_attribute_name
-						ToolTip.visible: containsMouse
-						ToolTip.delay: 1000
-						hoverEnabled: true
 					}
 				}
 				

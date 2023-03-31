@@ -1,5 +1,4 @@
 spymaster = {
 	name = "Spymaster"
 	portrait = metternich
-	primary_attribute = intrigue
 }

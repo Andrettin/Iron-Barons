@@ -9,10 +9,6 @@ aspiring_poet = {
 			trait = poet
 		}
 	}
-	modifier = {
-		diplomacy = 1
-		learning = 1
-	}
 }
 
 poet = {
@@ -26,10 +22,6 @@ poet = {
 			trait = aspiring_poet
 		}
 	}
-	modifier = {
-		diplomacy = 2
-		learning = 2
-	}
 }
 
 scholar = {
@@ -42,9 +34,6 @@ scholar = {
 			character_type = natural_scientist
 			character_type = philosopher
 		}
-	}
-	modifier = {
-		learning = 1
 	}
 }
 
@@ -60,9 +49,6 @@ theologian = {
 			trait = mastermind_theologian
 		}
 	}
-	modifier = {
-		learning = 1
-	}
 }
 
 scholarly_theologian = {
@@ -77,9 +63,6 @@ scholarly_theologian = {
 			trait = mastermind_theologian
 		}
 	}
-	modifier = {
-		learning = 2
-	}
 }
 
 mastermind_theologian = {
@@ -93,8 +76,5 @@ mastermind_theologian = {
 			trait = theologian
 			trait = scholarly_theologian
 		}
-	}
-	modifier = {
-		learning = 3
 	}
 }

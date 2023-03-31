@@ -10,9 +10,6 @@ diplomat = {
 			trait = masterful_diplomat
 		}
 	}
-	modifier = {
-		diplomacy = 1
-	}
 }
 
 experienced_diplomat = {
@@ -27,9 +24,6 @@ experienced_diplomat = {
 			trait = masterful_diplomat
 		}
 	}
-	modifier = {
-		diplomacy = 2
-	}
 }
 
 masterful_diplomat = {
@@ -43,9 +37,6 @@ masterful_diplomat = {
 			trait = diplomat
 			trait = experienced_diplomat
 		}
-	}
-	modifier = {
-		diplomacy = 3
 	}
 }
 
@@ -66,10 +57,6 @@ negotiator = {
 			trait = charismatic_negotiator
 		}
 	}
-	modifier = {
-		diplomacy = 1
-		stewardship = 1
-	}
 }
 
 charismatic_negotiator = {
@@ -89,10 +76,6 @@ charismatic_negotiator = {
 			trait = negotiator
 		}
 	}
-	modifier = {
-		diplomacy = 2
-		stewardship = 2
-	}
 }
 
 persuasive = {
@@ -106,9 +89,5 @@ persuasive = {
 			character_type = spymaster
 			character_type = statesman
 		}
-	}
-	modifier = {
-		diplomacy = 1
-		intrigue = 1
 	}
 }

@@ -7,10 +7,6 @@ ring_of_invisibility = {
 		technology = bronzeworking
 		#FIXME: add some requirement here related to magic
 	}
-	modifier = {
-		intrigue = 2
-		prowess = 2
-	}
 }
 
 ring_of_protection_1 = {
