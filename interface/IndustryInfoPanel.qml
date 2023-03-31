@@ -47,6 +47,33 @@ Item {
 		
 		function sort_model(population_type_counts) {
 			population_type_counts.sort((a, b) => {
+				var a_type = a.key
+				var b_type = b.key
+				
+				if (a_type.output_commodity !== b_type.output_commodity) {
+					if (a_type.output_commodity.storable !== b_type.output_commodity.storable) {
+						if (a_type.output_commodity.storable) {
+							return -1
+						} else {
+							return 1
+						}
+					}
+					
+					if (a_type.output_commodity.identifier < b_type.output_commodity.identifier) {
+						return -1
+					} else {
+						return 1
+					}
+				}
+				
+				if (a_type.output_value < b_type.output_value) {
+					return -1
+				}
+				
+				if (a_type.output_value > b_type.output_value) {
+					return 1
+				}
+				
 				if (a.value > b.value) {
 					return -1
 				}
