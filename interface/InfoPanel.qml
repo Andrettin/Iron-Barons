@@ -246,7 +246,7 @@ Item {
 					anchors.rightMargin: 4 * scale_factor
 					anchors.bottom: military_unit_selected_count_label.top
 					anchors.bottomMargin: 4 * scale_factor
-					source: "image://icon/embassy"
+					source: "image://icon/arrow_up"
 					
 					MouseArea {
 						anchors.fill: parent
@@ -273,7 +273,7 @@ Item {
 					anchors.rightMargin: 4 * scale_factor
 					anchors.bottom: military_unit_count_label.top
 					anchors.bottomMargin: 4 * scale_factor
-					source: "image://icon/embassy"
+					source: "image://icon/arrow_down"
 					
 					MouseArea {
 						anchors.fill: parent
