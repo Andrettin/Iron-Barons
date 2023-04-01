@@ -11,9 +11,6 @@ PortraitButton {
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
 		+ (character.game_data.spouse ? ("\nSpouse: " + character.game_data.spouse.full_name) : "")
-		+ (character.game_data.wealth !== 0 ? ("\nWealth: " + number_string(character.game_data.wealth)) : "")
-		+ (character.game_data.prestige !== 0 ? ("\nPrestige: " + number_string(character.game_data.prestige)) : "")
-		+ (character.game_data.piety !== 0 ? ("\nPiety: " + number_string(character.game_data.piety)) : "")
 	))) : ""
 	
 	property var character: null

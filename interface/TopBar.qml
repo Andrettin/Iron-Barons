@@ -49,72 +49,10 @@ Image {
 	}
 	
 	Image {
-		id: prestige_icon
-		source: "image://icon/heater_shield/small"
-		anchors.top: parent.top
-		anchors.left: wealth_label.left
-		anchors.leftMargin: 96 * scale_factor
-	}
-	
-	SmallText {
-		id: prestige_label
-		text: number_string(metternich.game.player_country.game_data.prestige)
-		anchors.top: parent.top
-		anchors.topMargin: 1 * scale_factor
-		anchors.left: prestige_icon.right
-		anchors.leftMargin: 2 * scale_factor
-	}
-	
-	MouseArea {
-		anchors.top: prestige_icon.top
-		anchors.bottom: prestige_icon.bottom
-		anchors.left: prestige_icon.left
-		anchors.right: prestige_label.right
-		hoverEnabled: true
-		onEntered: {
-			status_text = "Prestige"
-		}
-		onExited: {
-			status_text = ""
-		}
-	}
-	
-	Image {
-		id: piety_icon
-		source: "image://icon/wooden_cross/small"
-		anchors.top: parent.top
-		anchors.left: prestige_icon.left
-		anchors.leftMargin: 96 * scale_factor
-	}
-	
-	SmallText {
-		id: piety_label
-		text: number_string(metternich.game.player_country.game_data.piety)
-		anchors.top: parent.top
-		anchors.topMargin: 1 * scale_factor
-		anchors.left: piety_icon.right
-		anchors.leftMargin: 2 * scale_factor
-	}
-	
-	MouseArea {
-		anchors.top: piety_icon.top
-		anchors.bottom: piety_icon.bottom
-		anchors.left: piety_icon.left
-		anchors.right: piety_label.right
-		hoverEnabled: true
-		onEntered: {
-			status_text = "Piety"
-		}
-		onExited: {
-			status_text = ""
-		}
-	}
-	
-	Image {
 		id: research_icon
 		source: "image://icon/research/small"
 		anchors.top: parent.top
-		anchors.left: piety_icon.left
+		anchors.left: wealth_label.left
 		anchors.leftMargin: 96 * scale_factor
 	}
 	

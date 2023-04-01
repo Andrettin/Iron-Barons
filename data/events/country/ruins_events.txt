@@ -12,7 +12,7 @@ ruins_explored = {
 		name = "Gold and glory!"
 		effects = {
 			wealth += 500
-			prestige += 1
+			#prestige += 1
 		}
 	}
 }
