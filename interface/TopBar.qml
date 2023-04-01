@@ -13,6 +13,7 @@ Rectangle {
 		anchors.rightMargin: 15 * scale_factor
 		anchors.bottom: parent.bottom
 		height: 1 * scale_factor
+		z: 1 //draw on top of everything else
 	}
 	
 	readonly property var stored_commodities: metternich.game.player_country.game_data.stored_commodities
