@@ -10,7 +10,6 @@ PortraitButton {
 		+ (character.dynasty ? ("\nDynasty: " + character.dynasty.name) : "")
 		+ "\nCulture: " + character.culture.name
 		+ "\nReligion: " + character.religion.name
-		+ (character.game_data.spouse ? ("\nSpouse: " + character.game_data.spouse.full_name) : "")
 	))) : ""
 	
 	property var character: null
