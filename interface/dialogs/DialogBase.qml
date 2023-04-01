@@ -26,7 +26,7 @@ Popup {
 	background: Rectangle {
 		width: dialog.width
 		height: dialog.height
-		color: "black"
+		color: interface_background_color
 		radius: 5 * scale_factor
         border.color: "gray"
         border.width: 1 * scale_factor
