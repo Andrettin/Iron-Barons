@@ -1,17 +1,18 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 
-Item {
-	id: infopanel
+Rectangle {
+	id: status_bar
+	color: interface_background_color
+	height: 16 * scale_factor
 	
-	height: status_bar_image.height
-	
-	Image {
-		id: status_bar_image
-		anchors.bottom: parent.bottom
+	Rectangle {
+		color: "gray"
 		anchors.left: parent.left
-		source: "image://interface/" + interface_style + "/status_bar"
-		fillMode: Image.PreserveAspectCrop
+		anchors.right: parent.right
+		anchors.rightMargin: 15 * scale_factor
+		anchors.top: parent.top
+		height: 1 * scale_factor
 	}
 	
 	SmallText {

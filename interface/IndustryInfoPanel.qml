@@ -1,17 +1,19 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 
-Item {
+Rectangle {
 	id: infopanel
-	width: infopanel_image.width - 112 * scale_factor
+	color: interface_background_color
+	width: 64 * scale_factor
 	
-	Image {
-		id: infopanel_image
+	Rectangle {
+		color: "gray"
 		anchors.top: parent.top
-		anchors.left: parent.left
-		anchors.leftMargin: -112 * scale_factor
-		source: "image://interface/" + interface_style + "/infopanel"
-		fillMode: Image.PreserveAspectCrop
+		anchors.topMargin: 15 * scale_factor
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 15 * scale_factor
+		anchors.right: parent.right
+		width: 1 * scale_factor
 	}
 	
 	IndustryCounter {

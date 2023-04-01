@@ -70,12 +70,11 @@ Item {
 		}
 	}
 	
-	Image {
+	RightBar {
 		id: right_bar
 		anchors.top: parent.top
+		anchors.bottom: parent.bottom
 		anchors.right: parent.right
-		source: "image://interface/" + interface_style + "/right_bar"
-		fillMode: Image.PreserveAspectCrop
 	}
 	
 	StatusBar {
@@ -89,22 +88,55 @@ Item {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.left: menu_button_bar.right
+		anchors.right: parent.right
 	}
 	
-	Image {
+	Rectangle {
 		id: menu_button_bar
 		anchors.top: parent.top
 		anchors.left: parent.left
-		source: "image://interface/" + interface_style + "/menu_button_bar"
-		fillMode: Image.PreserveAspectCrop
+		color: interface_background_color
+		width: 176 * scale_factor
+		height: 24 * scale_factor
+		
+		Rectangle {
+			color: "gray"
+			anchors.top: parent.top
+			anchors.topMargin: 15 * scale_factor
+			anchors.bottom: parent.bottom
+			anchors.right: parent.right
+			width: 1 * scale_factor
+		}
 	}
 	
-	Image {
+	Rectangle {
 		id: minimap_area
 		anchors.top: menu_button_bar.bottom
 		anchors.left: parent.left
-		source: "image://interface/" + interface_style + "/minimap"
-		fillMode: Image.PreserveAspectCrop
+		color: interface_background_color
+		width: 176 * scale_factor
+		height: 136 * scale_factor
+		
+		Rectangle {
+			color: "gray"
+			anchors.top: parent.top
+			anchors.bottom: parent.bottom
+			anchors.right: parent.right
+			width: 1 * scale_factor
+		}
+		
+		Rectangle {
+			id: minimap_borders
+			anchors.top: minimap.top
+			anchors.topMargin: -1 * scale_factor
+			anchors.bottom: minimap.bottom
+			anchors.bottomMargin: -1 * scale_factor
+			anchors.left: minimap.left
+			anchors.leftMargin: -1 * scale_factor
+			anchors.right: minimap.right
+			anchors.rightMargin: -1 * scale_factor
+			color: "gray"
+		}
 		
 		Minimap {
 			id: minimap

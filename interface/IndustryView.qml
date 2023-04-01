@@ -86,12 +86,11 @@ Item {
 		}
 	}
 	
-	Image {
+	RightBar {
 		id: right_bar
 		anchors.top: parent.top
+		anchors.bottom: parent.bottom
 		anchors.right: parent.right
-		source: "image://interface/" + interface_style + "/right_bar"
-		fillMode: Image.PreserveAspectCrop
 	}
 	
 	StatusBar {
@@ -105,6 +104,7 @@ Item {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.left: infopanel.right
+		anchors.right: parent.right
 	}
 	
 	IndustryInfoPanel {

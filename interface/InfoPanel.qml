@@ -1,20 +1,22 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 
-Item {
+Rectangle {
 	id: infopanel
-	width: infopanel_image.width
+	color: interface_background_color
+	width: 176 * scale_factor
 	
 	readonly property var end_turn_button: end_turn_button_internal
 	readonly property var province_game_data: (selected_site && selected_site_game_data && selected_site.settlement) ? selected_site_game_data.province.game_data : null
 	readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
 	
-	Image {
-		id: infopanel_image
+	Rectangle {
+		color: "gray"
 		anchors.top: parent.top
-		anchors.left: parent.left
-		source: "image://interface/" + interface_style + "/infopanel"
-		fillMode: Image.PreserveAspectCrop
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 15 * scale_factor
+		anchors.right: parent.right
+		width: 1 * scale_factor
 	}
 	
 	IconButton {

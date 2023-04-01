@@ -1,10 +1,19 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 
-Image {
+Rectangle {
 	id: top_bar
-	source: "image://interface/" + interface_style + "/top_bar"
-	fillMode: Image.PreserveAspectCrop
+	color: interface_background_color
+	height: 16 * scale_factor
+	
+	Rectangle {
+		color: "gray"
+		anchors.left: parent.left
+		anchors.right: parent.right
+		anchors.rightMargin: 15 * scale_factor
+		anchors.bottom: parent.bottom
+		height: 1 * scale_factor
+	}
 	
 	readonly property var stored_commodities: metternich.game.player_country.game_data.stored_commodities
 	
