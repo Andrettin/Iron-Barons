@@ -133,7 +133,7 @@ Flickable {
 			height: Math.floor(text_rect_height)
 			visible: contentWidth <= width && (diplomatic_map.mode === DiplomaticMap.Mode.Political || diplomatic_map.mode === DiplomaticMap.Mode.Diplomatic)
 			font.pixelSize: 8 * scale_factor
-			shadow_offset: 1 * scale_factor
+			shadow_offset: 1
 			font.bold: true
 			wrapMode: Text.WordWrap
 			horizontalAlignment: Text.AlignHCenter

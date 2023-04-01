@@ -8,14 +8,22 @@ Text {
 	font.family: berenika_font.name
 	
 	property int shadow_offset: 0
-	property var shadow_color: "#FF000000"
+	property var shadow_color: "black"
 	
-	layer.enabled: true
-	layer.effect: DropShadow {
-		horizontalOffset: label.shadow_offset
-		verticalOffset: label.shadow_offset
+	Text {
+		id: text_shadow
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: shadow_offset
+		anchors.verticalCenter: parent.verticalCenter
+		anchors.verticalCenterOffset: shadow_offset
+		width: parent.width
+		height: parent.height
+		text: parent.text
 		color: shadow_color
-		radius: 1
-		samples: 3
+		font: parent.font
+		wrapMode: parent.wrapMode
+		horizontalAlignment: parent.horizontalAlignment
+		verticalAlignment: parent.verticalAlignment
+		z: -1 //draw below parent
 	}
 }
