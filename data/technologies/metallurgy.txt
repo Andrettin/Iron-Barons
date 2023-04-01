@@ -28,7 +28,7 @@ amalgamation_process = {
 
 crucible_process = {
 	name = "Crucible Process"
-	icon = iron
+	icon = steel
 	prerequisites = {
 		ironworking
 	}
@@ -36,7 +36,7 @@ crucible_process = {
 
 bessemer_converter = {
 	name = "Bessemer Converter"
-	icon = iron
+	icon = steel
 	prerequisites = {
 		crucible_process
 	}
