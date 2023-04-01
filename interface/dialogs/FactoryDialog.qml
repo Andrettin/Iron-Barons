@@ -118,7 +118,7 @@ DialogBase {
 						anchors.right: parent.right
 						anchors.rightMargin: 8 * scale_factor
 						height: 16 * scale_factor
-						color: "transparent"
+						color: "black"
 						border.color: "gray"
 						border.width: 1 * scale_factor
 						
