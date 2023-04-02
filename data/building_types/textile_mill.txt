@@ -1,7 +1,7 @@
 weavers_house = {
 	name = "Weaver's House"
 	building_class = weavers_house
-	portrait = trading_post
+	portrait = factory
 	icon = fabric
 	production_types = {
 		cotton_fabric_weaving
@@ -14,7 +14,7 @@ weavers_house = {
 weavers_shop = {
 	name = "Weaver's Shop"
 	building_class = weavers_shop
-	portrait = trading_post
+	portrait = factory
 	icon = fabric
 	production_types = {
 		cotton_fabric_weaving
@@ -28,7 +28,7 @@ weavers_shop = {
 textile_mill = {
 	name = "Textile Mill"
 	building_class = textile_mill
-	portrait = trading_post
+	portrait = factory
 	icon = fabric
 	production_types = {
 		cotton_fabric_weaving
