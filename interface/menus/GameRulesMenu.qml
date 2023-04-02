@@ -28,6 +28,23 @@ MenuBase {
 		}
 	}
 	
+	CustomCheckBox {
+		id: advisors_enabled_checkbox
+		anchors.left: myths_enabled_checkbox.left
+		anchors.top: myths_enabled_checkbox.bottom
+		anchors.topMargin: 16 * scale_factor
+		text: colored_text(qsTr("Advisors Enabled"), "white")
+		checked: metternich.preferences.game_rules.advisors_enabled
+		checkable: true
+		tooltip: small_text("Enable advisors")
+		onCheckedChanged: {
+			if (metternich.preferences.game_rules.advisors_enabled !== checked) {
+				metternich.preferences.game_rules.advisors_enabled = checked
+				rules_changed = true
+			}
+		}
+	}
+	
 	TextButton {
 		id: previous_menu_button
 		anchors.horizontalCenter: parent.horizontalCenter
