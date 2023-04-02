@@ -13,7 +13,7 @@ Window {
 	color: "black"
 	
 	readonly property real scale_factor: metternich.scale_factor
-	readonly property color interface_background_color: Qt.rgba(32.0 / 255.0, 32.0 / 255.0, 32.0 / 255.0, 1)
+	readonly property color interface_background_color: Qt.rgba(48.0 / 255.0, 48.0 / 255.0, 48.0 / 255.0, 1)
 	
 	FontLoader {
 		id: berenika_font
