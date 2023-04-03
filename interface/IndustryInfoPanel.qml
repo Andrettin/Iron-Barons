@@ -94,7 +94,7 @@ Rectangle {
 		id: back_button
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8 * scale_factor
+		anchors.bottomMargin: 16 * scale_factor
 		text: qsTr("Back")
 		width: 48 * scale_factor
 		height: 24 * scale_factor

@@ -20,19 +20,22 @@ Rectangle {
 	}
 	
 	IconButton {
-		id: characters_button
+		id: advisors_button
 		anchors.top: industry_button.top
 		anchors.left: parent.left
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "rifle_infantry_light_small"
+		visible: metternich.game.rules.advisors_enabled
 		
 		onReleased: {
-			menu_stack.push("CharactersView.qml")
+			menu_stack.push("AdvisorsView.qml", {
+				country: metternich.game.player_country
+			})
 		}
 		
 		onHoveredChanged: {
 			if (hovered) {
-				status_text = "View Characters"
+				status_text = "View Advisors"
 			} else {
 				status_text = ""
 			}
@@ -43,7 +46,7 @@ Rectangle {
 		id: industry_button
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
-		anchors.left: characters_button.right
+		anchors.left: advisors_button.right
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "settlement"
 		

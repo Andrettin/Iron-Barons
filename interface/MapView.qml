@@ -1,6 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import map_grid_model 1.0
+import "./dialogs"
 
 Item {
 	id: map_view
@@ -153,6 +154,10 @@ Item {
 		anchors.left: parent.left
 	}
 	
+	AdvisorChoiceDialog {
+		id: advisor_choice_dialog
+	}
+	
 	Keys.onPressed: {
 		switch (event.key) {
 			case Qt.Key_E:
@@ -210,6 +215,11 @@ Item {
 			})
 			
 			event_dialog.open()
+		}
+		
+		function onNext_advisor_choosable(potential_advisors) {
+			advisor_choice_dialog.potential_advisors = potential_advisors
+			advisor_choice_dialog.open()
 		}
 	}
 	

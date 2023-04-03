@@ -3,11 +3,10 @@ import QtQuick.Controls 2.12
 import "./dialogs"
 
 Item {
-	id: industry_view
+	id: advisors_view
 	
 	property var country: null
 	readonly property var country_game_data: country ? country.game_data : null
-	property string interface_style: "dwarven"
 	property string status_text: ""
 	
 	Rectangle {
@@ -30,31 +29,18 @@ Item {
 		cellHeight: 80 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		model: country_game_data.building_slots
+		model: country_game_data.advisors
 		
 		delegate: PortraitGridItem {
-			icon_identifier: building ? building.portrait.identifier : "building_slot"
+			icon_identifier: advisor.game_data.portrait.identifier
 			
-			readonly property var building_slot: model.modelData
-			readonly property var building: building_slot.building
+			readonly property var advisor: model.modelData
 			
 			onClicked: {
-				if (building !== null) {
-					if (building.warehouse) {
-						warehouse_dialog.open()
-					} else if (building.production_types.length > 0) {
-						factory_dialog.building_slot = building_slot
-						factory_dialog.open()
-					}
-				}
 			}
 			
 			onEntered: {
-				if (building !== null) {
-					status_text = building.name
-				} else {
-					status_text = building_slot.type.name + " Slot"
-				}
+				status_text = advisor.full_name
 			}
 			
 			onExited: {
@@ -70,6 +56,13 @@ Item {
 		anchors.right: parent.right
 	}
 	
+	AdvisorsInfoPanel {
+		id: infopanel
+		anchors.top: parent.top
+		anchors.bottom: parent.bottom
+		anchors.left: parent.left
+	}
+	
 	StatusBar {
 		id: status_bar
 		anchors.bottom: parent.bottom
@@ -82,20 +75,5 @@ Item {
 		anchors.top: parent.top
 		anchors.left: infopanel.right
 		anchors.right: parent.right
-	}
-	
-	IndustryInfoPanel {
-		id: infopanel
-		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.left: parent.left
-	}
-	
-	WarehouseDialog {
-		id: warehouse_dialog
-	}
-	
-	FactoryDialog {
-		id: factory_dialog
 	}
 }

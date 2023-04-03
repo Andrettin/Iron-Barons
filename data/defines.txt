@@ -11,6 +11,8 @@ default_tribal_population_class = tribesmen
 default_literate_population_class = trained_workers
 population_per_unit = 10000
 population_growth_threshold = 100
+
+advisor_commodity = civics
 interior_minister_portrait = metternich
 
 minor_nation_color = { 221 216 181 }
