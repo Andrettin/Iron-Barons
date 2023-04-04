@@ -29,7 +29,7 @@ DialogBase {
 		spacing: 16 * scale_factor
 		
 		Repeater {
-			model: building ? building.production_types : []
+			model: building_slot ? building_slot.available_production_types : []
 			
 			Item {
 				width: production_slider.width + 16 * scale_factor + production_formula_row.width
