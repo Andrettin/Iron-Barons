@@ -1,0 +1,14 @@
+thomas_jefferson = {
+	name = "Thomas"
+	surname = "Jefferson"
+	type = statesman
+	culture = english
+	religion = protestant
+	home_province = virginia
+	gender = male
+	birth_date = 1743
+	death_date = 1826
+	advisor_modifier = {
+		civics_production = 50
+	}
+}
