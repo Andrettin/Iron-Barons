@@ -84,7 +84,10 @@ Window {
 	}
 	
 	function colored_text(text, color) {
-		return "<font color=\"" + color + "\">" + text + "</font>"
+		var font_color_str = "<font color=\"" + color + "\">"
+		
+		text = text.replace("<font color=\"gold\">", font_color_str)
+		return font_color_str + text + "</font>"
 	}
 	
 	function highlight(text) {
