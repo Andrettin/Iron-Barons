@@ -5,8 +5,12 @@ Item {
 	id: portrait_grid_item
 	width: portrait_grid_view.cellWidth
 	height: portrait_grid_view.cellHeight
+	ToolTip.text: tooltip
+	ToolTip.visible: portrait_mouse_area.containsMouse && tooltip.length > 0
+	ToolTip.delay: 1000
 	
 	property string icon_identifier: ""
+	property string tooltip: ""
 	
 	signal clicked()
 	signal entered()

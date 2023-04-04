@@ -33,6 +33,7 @@ Item {
 		
 		delegate: PortraitGridItem {
 			icon_identifier: advisor.game_data.portrait.identifier
+			tooltip: advisor.full_name + format_text(small_text("\n\n" + advisor.advisor_modifier_string))
 			
 			readonly property var advisor: model.modelData
 			
