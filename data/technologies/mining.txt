@@ -13,9 +13,9 @@ square_set_timbering = {
 		engineering
 	}
 	modifier = {
-		coal_production = 100
-		iron_ore_production = 100
-		gold_production = 100
-		gems_production = 100
+		coal_output_modifier = 100
+		iron_ore_output_modifier = 100
+		gold_output_modifier = 100
+		gems_output_modifier = 100
 	}
 }

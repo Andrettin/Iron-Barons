@@ -5,7 +5,7 @@ scientific_cattle_breeding = {
 		scientific_method
 	}
 	modifier = {
-		livestock_production = 100
+		livestock_output_modifier = 100
 	}
 }
 
@@ -16,7 +16,7 @@ scientific_sheep_breeding = {
 		scientific_method
 	}
 	modifier = {
-		wool_production = 100
+		wool_output_modifier = 100
 	}
 }
 
@@ -27,7 +27,7 @@ feed_grasses = {
 		scientific_method
 	}
 	modifier = {
-		livestock_production = 100
-		wool_production = 100
+		livestock_output_modifier = 100
+		wool_output_modifier = 100
 	}
 }

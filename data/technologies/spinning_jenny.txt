@@ -6,6 +6,6 @@ spinning_jenny = {
 		scientific_method
 	}
 	modifier = {
-		fabric_production = 100
+		fabric_output_modifier = 100
 	}
 }

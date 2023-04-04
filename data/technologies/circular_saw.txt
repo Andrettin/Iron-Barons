@@ -5,6 +5,6 @@ circular_saw = {
 		wind_saw_mill
 	}
 	modifier = {
-		lumber_production = 100
+		lumber_output_modifier = 100
 	}
 }

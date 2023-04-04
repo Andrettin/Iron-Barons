@@ -9,6 +9,6 @@ thomas_jefferson = {
 	birth_date = 1743
 	death_date = 1826
 	advisor_modifier = {
-		civics_production = 50
+		civics_output_modifier = 50
 	}
 }
