@@ -134,10 +134,48 @@ DialogBase {
 						}
 						
 						SmallText {
-							id: stored_label
+							id: output_label
 							text: number_string(output_value)
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.horizontalCenter: parent.horizontalCenter
+						}
+						
+						MouseArea {
+							anchors.top: parent.top
+							anchors.bottom: parent.bottom
+							anchors.left: parent.left
+							anchors.leftMargin: 8 * scale_factor
+							anchors.right: parent.right
+							anchors.rightMargin: 8 * scale_factor
+		
+							onClicked: {
+								var current_output = output_value
+								var target_output = Math.round(mouse.x * capacity / width)
+								
+								if (target_output > current_output) {
+									while (target_output > current_output) {
+										if (!building_slot.can_increase_production(production_type)) {
+											break
+										}
+										
+										building_slot.increase_production(production_type)
+										current_output = building_slot.get_production_type_employed_capacity(production_type)
+									}
+								} else if (target_output < current_output) {
+									while (target_output < current_output) {
+										if (!building_slot.can_decrease_production(production_type)) {
+											break
+										}
+										
+										building_slot.decrease_production(production_type)
+										current_output = building_slot.get_production_type_employed_capacity(production_type)
+									}
+								} else {
+									return
+								}
+								
+								output_value = current_output
+							}
 						}
 					}
 					
