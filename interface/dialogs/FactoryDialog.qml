@@ -136,7 +136,7 @@ DialogBase {
 						
 						SmallText {
 							id: output_label
-							text: number_string(employed_capacity) + (output_value != employed_capacity ? (" (" + number_string(output_value) + ")") : "")
+							text: number_string(employed_capacity) + (output_value !== employed_capacity ? (" (" + number_string(output_value) + ")") : "")
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.horizontalCenter: parent.horizontalCenter
 						}
@@ -148,6 +148,7 @@ DialogBase {
 							anchors.leftMargin: 8 * scale_factor
 							anchors.right: parent.right
 							anchors.rightMargin: 8 * scale_factor
+							hoverEnabled: true
 		
 							onClicked: {
 								var current_employed_capacity = employed_capacity
@@ -177,6 +178,26 @@ DialogBase {
 								
 								employed_capacity = current_employed_capacity
 								output_value = building_slot.get_production_type_output(production_type)
+								update_status_text()
+							}
+							
+							onEntered: {
+								update_status_text()
+							}
+							
+							onExited: {
+								status_text = ""
+							}
+							
+							function update_status_text() {
+								var text = employed_capacity + " " + output_commodity.name
+								
+								if (output_value !== employed_capacity) {
+									var modifier = country_game_data.output_modifier + country_game_data.get_commodity_output_modifier(output_commodity)
+									text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + output_value + " " + output_commodity.name
+								}
+								
+								status_text = text
 							}
 						}
 					}
