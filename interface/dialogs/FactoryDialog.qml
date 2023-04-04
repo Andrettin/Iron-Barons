@@ -37,7 +37,8 @@ DialogBase {
 				
 				readonly property var production_type: model.modelData
 				readonly property var output_commodity: production_type.output_commodity
-				property int output_value: building_slot.get_production_type_employed_capacity(production_type)
+				property int employed_capacity: building_slot.get_production_type_employed_capacity(production_type)
+				property int output_value: building_slot.get_production_type_output(production_type)
 				
 				Row {
 					id: production_formula_row
@@ -129,13 +130,13 @@ DialogBase {
 							anchors.bottomMargin: 1 * scale_factor
 							anchors.left: parent.left
 							anchors.leftMargin: 1 * scale_factor
-							width: Math.floor((parent.width - 2 * scale_factor) * output_value / capacity)
+							width: Math.floor((parent.width - 2 * scale_factor) * employed_capacity / capacity)
 							color: "dimGray"
 						}
 						
 						SmallText {
 							id: output_label
-							text: number_string(output_value)
+							text: number_string(employed_capacity) + (output_value != employed_capacity ? (" (" + number_string(output_value) + ")") : "")
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.horizontalCenter: parent.horizontalCenter
 						}
@@ -149,32 +150,33 @@ DialogBase {
 							anchors.rightMargin: 8 * scale_factor
 		
 							onClicked: {
-								var current_output = output_value
-								var target_output = Math.round(mouse.x * capacity / width)
+								var current_employed_capacity = employed_capacity
+								var target_employed_capacity = Math.round(mouse.x * capacity / width)
 								
-								if (target_output > current_output) {
-									while (target_output > current_output) {
+								if (target_employed_capacity > current_employed_capacity) {
+									while (target_employed_capacity > current_employed_capacity) {
 										if (!building_slot.can_increase_production(production_type)) {
 											break
 										}
 										
 										building_slot.increase_production(production_type)
-										current_output = building_slot.get_production_type_employed_capacity(production_type)
+										current_employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
 									}
-								} else if (target_output < current_output) {
-									while (target_output < current_output) {
+								} else if (target_employed_capacity < current_employed_capacity) {
+									while (target_employed_capacity < current_employed_capacity) {
 										if (!building_slot.can_decrease_production(production_type)) {
 											break
 										}
 										
 										building_slot.decrease_production(production_type)
-										current_output = building_slot.get_production_type_employed_capacity(production_type)
+										current_employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
 									}
 								} else {
 									return
 								}
 								
-								output_value = current_output
+								employed_capacity = current_employed_capacity
+								output_value = building_slot.get_production_type_output(production_type)
 							}
 						}
 					}
@@ -189,7 +191,8 @@ DialogBase {
 						onReleased: {
 							if (building_slot.can_decrease_production(production_type)) {
 								building_slot.decrease_production(production_type)
-								output_value = building_slot.get_production_type_employed_capacity(production_type)
+								employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
+								output_value = building_slot.get_production_type_output(production_type)
 							}
 						}
 					}
@@ -204,7 +207,8 @@ DialogBase {
 						onReleased: {
 							if (building_slot.can_increase_production(production_type)) {
 								building_slot.increase_production(production_type)
-								output_value = building_slot.get_production_type_employed_capacity(production_type)
+								employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
+								output_value = building_slot.get_production_type_output(production_type)
 							}
 						}
 					}
