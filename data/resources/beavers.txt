@@ -1,0 +1,7 @@
+beavers = {
+	name = "Beavers"
+	commodity = furs
+	terrain_types = {
+		conifer_forest
+	}
+}

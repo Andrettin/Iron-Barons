@@ -1,0 +1,13 @@
+beaver_camp = {
+	name = "Beaver Camp"
+	resource = beavers
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 1
+}
+
+deer_camp = {
+	name = "Deer Camp"
+	resource = deer
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 1
+}

@@ -1,0 +1,7 @@
+deer = {
+	name = "Deer"
+	commodity = furs
+	terrain_types = {
+		conifer_forest
+	}
+}

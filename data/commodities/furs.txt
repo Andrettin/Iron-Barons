@@ -1,0 +1,4 @@
+furs = {
+	name = "Furs"
+	icon = leather
+}
