@@ -28,6 +28,24 @@ john_jay = {
 	}
 }
 
+john_jacob_astor = {
+	name = "John Jacob"
+	surname = "Astor"
+	type = merchant
+	culture = german
+	religion = protestant
+	home_province = new_york
+	gender = male
+	birth_date = 1763
+	death_date = 1848
+	conditions = {
+		produces_commodity = furs
+	}
+	advisor_modifier = {
+		furs_output_modifier = 50
+	}
+}
+
 eli_whitney = {
 	name = "Eli"
 	surname = "Whitney"

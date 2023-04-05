@@ -1,3 +1,21 @@
+henry_hudson = {
+	name = "Henry"
+	surname = "Hudson"
+	type = navigator
+	culture = english
+	religion = protestant
+	home_province = middlesex
+	gender = male
+	birth_date = 1565
+	death_date = 1611
+	conditions = {
+		produces_commodity = furs
+	}
+	advisor_modifier = {
+		furs_output_modifier = 100
+	}
+}
+
 william_brewster = {
 	name = "William"
 	surname = "Brewster"
