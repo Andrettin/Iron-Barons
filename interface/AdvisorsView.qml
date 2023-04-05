@@ -33,11 +33,13 @@ Item {
 		
 		delegate: PortraitGridItem {
 			icon_identifier: advisor.game_data.portrait.identifier
-			tooltip: advisor.full_name + format_text(small_text("\n\n" + advisor.advisor_modifier_string))
 			
 			readonly property var advisor: model.modelData
 			
 			onClicked: {
+				advisor_dialog.title = advisor.full_name
+				advisor_dialog.modifier_string = advisor.advisor_modifier_string
+				advisor_dialog.open()
 			}
 			
 			onEntered: {
@@ -76,5 +78,9 @@ Item {
 		anchors.top: parent.top
 		anchors.left: infopanel.right
 		anchors.right: parent.right
+	}
+	
+	ModifierDialog {
+		id: advisor_dialog
 	}
 }

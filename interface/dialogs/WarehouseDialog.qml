@@ -14,7 +14,7 @@ DialogBase {
 		anchors.top: title_item.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: "Storage Capacity: " + country_game_data.storage_capacity
+		text: "Storage Capacity: " + number_string(country_game_data.storage_capacity)
 	}
 	
 	Grid {

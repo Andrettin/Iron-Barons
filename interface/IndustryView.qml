@@ -45,6 +45,10 @@ Item {
 					} else if (building_slot.available_production_types.length > 0) {
 						factory_dialog.building_slot = building_slot
 						factory_dialog.open()
+					} else if (building.country_modifier_string.length > 0) {
+						building_modifier_dialog.title = building.name
+						building_modifier_dialog.modifier_string = building.country_modifier_string
+						building_modifier_dialog.open()
 					}
 				}
 			}
@@ -97,5 +101,9 @@ Item {
 	
 	FactoryDialog {
 		id: factory_dialog
+	}
+	
+	ModifierDialog {
+		id: building_modifier_dialog
 	}
 }
