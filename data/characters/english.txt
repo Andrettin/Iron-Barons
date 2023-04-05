@@ -10,6 +10,24 @@ william_brewster = {
 	death_date = 1644
 }
 
+john_rolfe = {
+	name = "John"
+	surname = "Rolfe"
+	type = merchant
+	culture = english
+	religion = protestant
+	home_province = virginia
+	gender = male
+	birth_date = 1585
+	death_date = 1622
+	conditions = {
+		produces_commodity = tobacco
+	}
+	advisor_modifier = {
+		tobacco_output_modifier = 25
+	}
+}
+
 william_penn = {
 	name = "William"
 	surname = "Penn"

@@ -12,3 +12,36 @@ thomas_jefferson = {
 		civics_output_modifier = 50
 	}
 }
+
+john_jay = {
+	name = "John"
+	surname = "Jay"
+	type = statesman
+	culture = english
+	religion = protestant
+	home_province = new_york
+	gender = male
+	birth_date = 1745
+	death_date = 1829
+	advisor_modifier = {
+		civics_output_modifier = 25
+	}
+}
+
+eli_whitney = {
+	name = "Eli"
+	surname = "Whitney"
+	type = natural_scientist
+	culture = english
+	religion = protestant
+	home_province = massachusetts
+	gender = male
+	birth_date = 1765
+	death_date = 1825
+	conditions = {
+		produces_commodity = cotton
+	}
+	advisor_modifier = {
+		cotton_output_modifier = 50
+	}
+}
