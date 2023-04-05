@@ -3,6 +3,9 @@ printing_press = {
 	building_class = printing_press
 	portrait = trading_post
 	icon = newspaper
+	conditions = {
+		game_rule = advisors_enabled
+	}
 	country_modifier = {
 		civics_output_modifier = 50
 	}
@@ -13,6 +16,9 @@ newspaper = {
 	building_class = newspaper
 	portrait = trading_post
 	icon = newspaper
+	conditions = {
+		game_rule = advisors_enabled
+	}
 	country_modifier = {
 		civics_output_modifier = 100
 	}
