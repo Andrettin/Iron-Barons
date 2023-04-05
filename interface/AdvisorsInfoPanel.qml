@@ -32,6 +32,20 @@ Rectangle {
 		anchors.top: civics_counter.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		visible: next_advisor_portrait.visible
+		
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true
+			
+			onEntered: {
+				status_text = "Civics required for the next advisor"
+			}
+			
+			onExited: {
+				status_text = ""
+			}
+		}
 	}
 	
 	SmallText {
