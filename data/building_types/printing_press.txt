@@ -1,0 +1,19 @@
+printing_press = {
+	name = "Printing Press"
+	building_class = printing_press
+	portrait = trading_post
+	icon = newspaper
+	country_modifier = {
+		civics_output_modifier = 50
+	}
+}
+
+newspaper = {
+	name = "Newspaper"
+	building_class = newspaper
+	portrait = trading_post
+	icon = newspaper
+	country_modifier = {
+		civics_output_modifier = 100
+	}
+}
