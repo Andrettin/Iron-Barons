@@ -3,6 +3,7 @@ printing_press = {
 	building_class = printing_press
 	portrait = trading_post
 	icon = newspaper
+	required_technology = printing_press
 	conditions = {
 		game_rule = advisors_enabled
 	}
@@ -16,6 +17,7 @@ newspaper = {
 	building_class = newspaper
 	portrait = trading_post
 	icon = newspaper
+	required_technology = printing_press
 	conditions = {
 		game_rule = advisors_enabled
 	}
