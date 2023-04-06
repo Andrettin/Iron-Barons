@@ -1,6 +1,0 @@
-is_priest = {
-	or = {
-		character_type = inquisitor
-		character_type = theologian
-	}
-}

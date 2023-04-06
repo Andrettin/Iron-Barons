@@ -5,10 +5,10 @@ cartographer = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = admiral
-			character_type = general
-			character_type = navigator
-			character_type = privateer
+			advisor_type = admiral
+			advisor_type = general
+			advisor_type = navigator
+			advisor_type = privateer
 		}
 	}
 }
@@ -20,9 +20,9 @@ duelist = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = admiral
-			character_type = general
-			character_type = privateer
+			advisor_type = admiral
+			advisor_type = general
+			advisor_type = privateer
 		}
 	}
 	military_unit_modifier = {
@@ -37,7 +37,7 @@ falconer = {
 	icon = bow
 	level = 1
 	conditions = {
-		character_type = general
+		advisor_type = general
 	}
 }
 
@@ -48,11 +48,11 @@ game_master = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = admiral
-			character_type = diplomat
-			character_type = general
-			character_type = privateer
-			character_type = statesman
+			advisor_type = admiral
+			advisor_type = diplomat
+			advisor_type = general
+			advisor_type = privateer
+			advisor_type = statesman
 		}
 	}
 }
@@ -63,7 +63,7 @@ hunter = {
 	icon = bow
 	level = 1
 	conditions = {
-		character_type = general
+		advisor_type = general
 	}
 }
 
@@ -74,9 +74,9 @@ strategist = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = admiral
-			character_type = general
-			character_type = privateer
+			advisor_type = admiral
+			advisor_type = general
+			advisor_type = privateer
 		}
 		not = {
 			trait = brilliant_strategist
@@ -91,9 +91,9 @@ brilliant_strategist = {
 	level = 2
 	conditions = {
 		or = {
-			character_type = admiral
-			character_type = general
-			character_type = privateer
+			advisor_type = admiral
+			advisor_type = general
+			advisor_type = privateer
 		}
 		not = {
 			trait = strategist

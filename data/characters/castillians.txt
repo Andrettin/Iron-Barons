@@ -1,7 +1,7 @@
 bartolome_de_las_casas = {
 	name = "Bartolome"
 	surname = "de las Casas"
-	type = theologian
+	#advisor_type = theologian
 	culture = castillian
 	religion = catholic
 	home_province = andalusia
@@ -17,7 +17,7 @@ bartolome_de_las_casas = {
 juan_de_sepulveda = {
 	name = "Juan"
 	surname = "de Sepulveda"
-	type = theologian
+	#advisor_type = theologian
 	culture = castillian
 	religion = catholic
 	home_province = andalusia

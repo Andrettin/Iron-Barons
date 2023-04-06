@@ -4,8 +4,7 @@ cause_light_wounds = {
 	icon = wooden_cross
 	mana_cost = 5
 	range = 1
-	character_types = {
-		inquisitor
+	military_unit_categories = {
 	}
 	effects = {
 		damage = 10

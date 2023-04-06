@@ -1,7 +1,6 @@
 friederich_von_kageneck = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 84.
 	name = "Friederich"
 	dynasty = kageneck
-	type = diplomat #correct?
 	culture = german #Rhenish
 	religion = catholic
 	home_province = rhineland #correct?
@@ -14,7 +13,6 @@ friederich_von_kageneck = { #Source: "Gothaischer Hofkalender zum Nutzen und Ver
 marie_beatrix_von_kageneck = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 84.
 	name = "Marie Beatrix"
 	dynasty = kageneck
-	type = diplomat #correct?
 	culture = german #Rhenish
 	religion = catholic
 	home_province = rhineland #correct?

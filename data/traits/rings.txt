@@ -16,9 +16,9 @@ ring_of_protection_1 = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = general
-			character_type = inquisitor
-			character_type = theologian
+			advisor_type = general
+			advisor_type = inquisitor
+			advisor_type = theologian
 		}
 	}
 	military_unit_modifier = {
@@ -34,9 +34,9 @@ ring_of_shocking_grasp = {
 	spell = shocking_grasp
 	conditions = {
 		or = {
-			character_type = general
-			character_type = inquisitor
-			character_type = theologian
+			advisor_type = general
+			advisor_type = inquisitor
+			advisor_type = theologian
 		}
 	}
 }

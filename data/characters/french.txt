@@ -1,7 +1,7 @@
 jean_de_brebeuf = {
 	name = "Jean"
 	surname = "de Brebeuf"
-	type = theologian
+	#advisor_type = theologian
 	culture = french
 	religion = catholic
 	home_province = normandy

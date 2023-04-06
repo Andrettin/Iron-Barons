@@ -1,7 +1,7 @@
 bartolomeu_dias = {
 	name = "Bartolomeu"
 	surname = "Dias"
-	type = navigator
+	#advisor_type = navigator
 	culture = portuguese
 	religion = catholic
 	home_province = estremadura #correct?
@@ -13,7 +13,7 @@ bartolomeu_dias = {
 vasco_da_gama = {
 	name = "Vasco"
 	surname = "da Gama"
-	type = navigator
+	#advisor_type = navigator
 	culture = portuguese
 	religion = catholic
 	home_province = estremadura #correct?

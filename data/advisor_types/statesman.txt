@@ -9,4 +9,7 @@ statesman = {
 			gender = female
 		}
 	}
+	modifier = {
+		civics_output_modifier = 5
+	}
 }

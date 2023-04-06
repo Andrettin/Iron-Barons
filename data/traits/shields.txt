@@ -4,7 +4,7 @@ shield_1 = {
 	icon = heater_shield
 	level = 1
 	conditions = {
-		character_type = general
+		advisor_type = general
 	}
 	military_unit_modifier = {
 		defense = 1

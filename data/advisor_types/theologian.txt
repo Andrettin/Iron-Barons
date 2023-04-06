@@ -1,7 +1,7 @@
 theologian = {
 	name = "Theologian"
 	portrait = frankish_cleric
-	country_modifier = {
+	modifier = {
 		#quarterly_piety = 0.5
 	}
 }

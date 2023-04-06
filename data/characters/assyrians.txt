@@ -1,6 +1,5 @@
 sargon_ii_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
 	name = "Sargon"
-	type = general
 	culture = assyrian
 	religion = pagan
 	home_province = assyria
@@ -10,7 +9,6 @@ sargon_ii_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911,
 
 assurbanipal_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
 	name = "Assurbanipal"
-	type = general
 	culture = assyrian
 	religion = pagan
 	home_province = assyria

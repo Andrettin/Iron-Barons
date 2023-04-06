@@ -1,7 +1,7 @@
 artist = {
 	name = "Artist"
 	portrait = scholar
-	country_modifier = {
+	modifier = {
 		#quarterly_prestige = 0.5
 	}
 }

@@ -1,9 +1,7 @@
 general = {
 	name = "General"
 	portrait = soldier
-	military_unit_category = general
-	commander = true
-	country_modifier = {
+	modifier = {
 		land_morale_resistance = 5
 	}
 }

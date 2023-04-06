@@ -1,7 +1,6 @@
 ernst_von_kaunitz = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
 	name = "Ernst"
 	dynasty = kaunitz
-	type = diplomat #correct?
 	culture = german #Saxon/Westphalian
 	religion = catholic
 	home_province = westphalia #Rietberg
@@ -14,7 +13,6 @@ ernst_von_kaunitz = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnüge
 marie_eleonore_von_kaunitz = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
 	name = "Marie Eleonore"
 	dynasty = kaunitz
-	type = diplomat #correct?
 	culture = german #Saxon/Westphalian
 	religion = catholic
 	home_province = rhineland #correct?

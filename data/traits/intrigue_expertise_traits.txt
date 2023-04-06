@@ -5,8 +5,8 @@ investigator = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = inquisitor
-			character_type = spymaster
+			advisor_type = inquisitor
+			advisor_type = spymaster
 		}
 	}
 }
@@ -17,7 +17,7 @@ stealthy = {
 	icon = dagger
 	level = 1
 	conditions = {
-		character_type = spymaster
+		advisor_type = spymaster
 	}
 }
 
@@ -28,8 +28,8 @@ thug = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = privateer
-			character_type = spymaster
+			advisor_type = privateer
+			advisor_type = spymaster
 		}
 	}
 	military_unit_modifier = {

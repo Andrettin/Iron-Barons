@@ -4,7 +4,7 @@ aspiring_poet = {
 	icon = music
 	level = 1
 	conditions = {
-		character_type = artist
+		advisor_type = artist
 		not = {
 			trait = poet
 		}
@@ -17,7 +17,7 @@ poet = {
 	icon = music
 	level = 2
 	conditions = {
-		character_type = artist
+		advisor_type = artist
 		not = {
 			trait = aspiring_poet
 		}
@@ -31,8 +31,8 @@ scholar = {
 	level = 1
 	conditions = {
 		or = {
-			character_type = natural_scientist
-			character_type = philosopher
+			advisor_type = natural_scientist
+			advisor_type = philosopher
 		}
 	}
 }
@@ -43,7 +43,7 @@ theologian = {
 	icon = wooden_cross
 	level = 1
 	conditions = {
-		character_type = theologian
+		advisor_type = theologian
 		not = {
 			trait = scholarly_theologian
 			trait = mastermind_theologian
@@ -57,7 +57,7 @@ scholarly_theologian = {
 	icon = silver_cross
 	level = 2
 	conditions = {
-		character_type = theologian
+		advisor_type = theologian
 		not = {
 			trait = theologian
 			trait = mastermind_theologian
@@ -71,7 +71,7 @@ mastermind_theologian = {
 	icon = golden_cross
 	level = 3
 	conditions = {
-		character_type = theologian
+		advisor_type = theologian
 		not = {
 			trait = theologian
 			trait = scholarly_theologian
