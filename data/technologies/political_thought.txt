@@ -1,5 +1,5 @@
-the_rights_of_man = {
-	name = "The Rights of Man"
+rights_of_man = {
+	name = "Rights of Man"
 	category = industry
 	portrait = engineering
 	prerequisites = {

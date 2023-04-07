@@ -8,6 +8,7 @@ henry_hudson = {
 	gender = male
 	birth_date = 1565
 	death_date = 1611
+	required_technology = compass
 	conditions = {
 		produces_commodity = furs
 	}
@@ -38,6 +39,7 @@ john_rolfe = {
 	gender = male
 	birth_date = 1585
 	death_date = 1622
+	required_technology = tobacco
 	conditions = {
 		produces_commodity = tobacco
 	}

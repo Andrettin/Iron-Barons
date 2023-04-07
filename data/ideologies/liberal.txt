@@ -1,7 +1,7 @@
 liberal = {
 	name = "Liberal"
 	conditions = {
-		technology = the_rights_of_man
+		technology = rights_of_man
 	}
 	weight_factor = {
 		base_value = 100
