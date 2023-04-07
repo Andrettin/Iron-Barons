@@ -12,6 +12,7 @@ default_literate_population_class = trained_workers
 population_per_unit = 10000
 population_growth_threshold = 100
 
+research_commodity = research
 advisor_commodity = civics
 interior_minister_portrait = metternich
 
