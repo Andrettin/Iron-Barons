@@ -2,4 +2,5 @@ cotton = {
 	name = "Cotton"
 	category = gathering
 	portrait = engineering
+	discovery = true
 }
