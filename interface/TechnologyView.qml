@@ -93,6 +93,7 @@ Item {
 					anchors.bottom: parent.bottom
 					anchors.left: technology_label.right
 					anchors.right: technology_effects_label.left
+					visible: technology_view.mode === TechnologyView.Mode.Available
 					
 					Image {
 						id: research_cost_icon
