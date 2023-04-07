@@ -10,7 +10,6 @@ Rectangle {
 		color: "gray"
 		anchors.left: parent.left
 		anchors.right: parent.right
-		anchors.rightMargin: 15 * scale_factor
 		anchors.top: parent.top
 		height: 1 * scale_factor
 	}

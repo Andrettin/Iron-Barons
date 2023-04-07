@@ -17,29 +17,30 @@ Rectangle {
 	}
 	
 	IndustryCounter {
-		id: civics_counter
+		id: research_counter
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
 		anchors.topMargin: 96 * scale_factor
-		name: "Civics"
-		icon_identifier: "flag"
-		count: country_game_data.get_stored_commodity("civics")
+		name: "Research"
+		icon_identifier: "research"
+		count: country_game_data.get_stored_commodity("research")
+		visible: current_research_portrait.visible
 	}
 	
 	SmallText {
-		id: advisor_cost_label
-		text: "(" + number_string(country_game_data.advisor_cost) + ")"
-		anchors.top: civics_counter.bottom
+		id: research_cost_label
+		text: "(" + number_string(country_game_data.current_research ? country_game_data.current_research.cost : 0) + ")"
+		anchors.top: research_counter.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		visible: next_advisor_portrait.visible
+		visible: current_research_portrait.visible
 		
 		MouseArea {
 			anchors.fill: parent
 			hoverEnabled: true
 			
 			onEntered: {
-				status_text = "Civics required for the next advisor"
+				status_text = "Research required to discover the technology"
 			}
 			
 			onExited: {
@@ -49,26 +50,31 @@ Rectangle {
 	}
 	
 	SmallText {
-		id: next_advisor_label
-		text: "Next Advisor"
-		anchors.top: advisor_cost_label.bottom
+		id: current_research_label
+		text: "Current Research"
+		anchors.top: research_cost_label.bottom
 		anchors.topMargin: 32 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		visible: next_advisor_portrait.visible
+		anchors.left: parent.left
+		anchors.leftMargin: 4 * scale_factor * 2
+		anchors.right: parent.right
+		anchors.rightMargin: 4 * scale_factor * 2
+		visible: current_research_portrait.visible
+		wrapMode: Text.WordWrap
+		horizontalAlignment: Text.AlignHCenter
 	}
 	
 	PortraitButton {
-		id: next_advisor_portrait
-		anchors.top: next_advisor_label.bottom
+		id: current_research_portrait
+		anchors.top: current_research_label.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		portrait_identifier: country_game_data.next_advisor ? country_game_data.next_advisor.game_data.portrait.identifier : ""
-		visible: country_game_data.next_advisor !== null
+		portrait_identifier: country_game_data.current_research ? country_game_data.current_research.portrait.identifier : ""
+		visible: country_game_data.current_research !== null
 		radius: 0
 		
 		onHoveredChanged: {
-			if (hovered && country_game_data.next_advisor) {
-				status_text = country_game_data.next_advisor.full_name
+			if (hovered && country_game_data.current_research) {
+				status_text = country_game_data.current_research.name
 			} else {
 				status_text = ""
 			}

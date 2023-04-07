@@ -78,14 +78,14 @@ Item {
 		id: status_bar
 		anchors.bottom: parent.bottom
 		anchors.left: infopanel.right
-		anchors.right: parent.right
+		anchors.right: right_bar.left
 	}
 	
 	TopBar {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.left: infopanel.right
-		anchors.right: parent.right
+		anchors.right: right_bar.left
 	}
 	
 	IndustryInfoPanel {

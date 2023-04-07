@@ -10,7 +10,6 @@ Rectangle {
 		color: "gray"
 		anchors.left: parent.left
 		anchors.right: parent.right
-		anchors.rightMargin: 15 * scale_factor
 		anchors.bottom: parent.bottom
 		height: 1 * scale_factor
 		z: 1 //draw on top of everything else
@@ -56,47 +55,5 @@ Rectangle {
 				status_text = ""
 			}
 		}
-	}
-	
-	Image {
-		id: research_icon
-		source: "image://icon/research/small"
-		anchors.top: parent.top
-		anchors.left: wealth_label.left
-		anchors.leftMargin: 96 * scale_factor
-	}
-	
-	SmallText {
-		id: research_label
-		text: number_string(get_stored_commodity("research", stored_commodities))
-		anchors.top: parent.top
-		anchors.topMargin: 1 * scale_factor
-		anchors.left: research_icon.right
-		anchors.leftMargin: 2 * scale_factor
-	}
-	
-	MouseArea {
-		anchors.top: research_icon.top
-		anchors.bottom: research_icon.bottom
-		anchors.left: research_icon.left
-		anchors.right: research_label.right
-		hoverEnabled: true
-		onEntered: {
-			status_text = "Research"
-		}
-		onExited: {
-			status_text = ""
-		}
-	}
-	
-	function get_stored_commodity(commodity_identifier, stored_commodities) {
-		for (var kv_pair of stored_commodities) {
-			var commodity = kv_pair.key
-			if (commodity.identifier === commodity_identifier) {
-				return kv_pair.value
-			}
-		}
-		
-		return 0
 	}
 }

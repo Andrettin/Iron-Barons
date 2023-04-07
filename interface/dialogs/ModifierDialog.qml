@@ -17,7 +17,7 @@ DialogBase {
 		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
 		anchors.rightMargin: 8 * scale_factor
-		text: modifier_string
+		text: format_text(modifier_string)
 		horizontalAlignment: Text.AlignHCenter
 	}
 	

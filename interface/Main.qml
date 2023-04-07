@@ -15,6 +15,8 @@ Window {
 	readonly property real scale_factor: metternich.scale_factor
 	readonly property color interface_background_color: Qt.rgba(48.0 / 255.0, 48.0 / 255.0, 48.0 / 255.0, 1)
 	
+	property int displayed_technology_category: 0
+	
 	FontLoader {
 		id: berenika_font
 		source: "../fonts/berenika.ttf"
@@ -86,7 +88,7 @@ Window {
 	function colored_text(text, color) {
 		var font_color_str = "<font color=\"" + color + "\">"
 		
-		text = text.replace("<font color=\"gold\">", font_color_str)
+		text = text.replace(/<font color=\"gold\">/g, font_color_str)
 		return font_color_str + text + "</font>"
 	}
 	
@@ -234,11 +236,18 @@ Window {
 		return red_hex_str + green_hex_str + blue_hex_str
 	}
 	
-	function string_list_to_string(str_list, separator) {
+	function string_list_to_string(str_list, separator, ignore_empty_strings = false) {
 		var str = ""
+		var first = true
 		
 		for (var i = 0; i < str_list.length; i++) {
-			if (i > 0) {
+			if (ignore_empty_strings && str_list[i].length == 0) {
+				continue
+			}
+			
+			if (first) {
+				first = false
+			} else {
 				str += separator
 			}
 			
@@ -248,11 +257,21 @@ Window {
 		return str
 	}
 	
-	function object_list_to_name_list(object_list, prefix = "") {
+	function object_list_to_name_list(object_list, prefix = "", suffix = "") {
 		var name_list = []
 		
 		for (var object of object_list) {
-			name_list.push(prefix + object.name)
+			name_list.push(prefix + object.name + suffix)
+		}
+		
+		return name_list
+	}
+	
+	function object_list_to_full_name_list(object_list, prefix = "", suffix = "") {
+		var name_list = []
+		
+		for (var object of object_list) {
+			name_list.push(prefix + object.full_name + suffix)
 		}
 		
 		return name_list
