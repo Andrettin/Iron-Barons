@@ -1,4 +1,5 @@
 philosopher = {
 	name = "Philosopher"
+	category = political #not very fitting
 	portrait = scholar
 }

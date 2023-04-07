@@ -1,4 +1,5 @@
 inquisitor = {
 	name = "Inquisitor"
+	category = religious
 	portrait = frankish_cleric
 }

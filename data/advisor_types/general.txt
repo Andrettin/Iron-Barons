@@ -1,5 +1,6 @@
 general = {
 	name = "General"
+	category = military
 	portrait = soldier
 	modifier = {
 		land_morale_resistance = 5

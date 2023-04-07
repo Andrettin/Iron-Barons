@@ -1,4 +1,5 @@
 high_judge = {
 	name = "High Judge"
+	category = political
 	portrait = scholar
 }

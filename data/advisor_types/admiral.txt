@@ -1,5 +1,6 @@
 admiral = {
 	name = "Admiral"
+	category = military
 	portrait = sailor
 	modifier = {
 		naval_morale_resistance = 5

@@ -1,4 +1,5 @@
 natural_scientist = {
 	name = "Natural Scientist"
+	category = trade #not very fitting
 	portrait = alchemist
 }

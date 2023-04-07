@@ -1,4 +1,5 @@
 treasurer = {
 	name = "Treasurer"
+	category = trade
 	portrait = jakob_fugger
 }

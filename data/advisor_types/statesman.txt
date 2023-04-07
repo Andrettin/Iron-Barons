@@ -1,5 +1,6 @@
 statesman = {
 	name = "Statesman"
+	category = political
 	portrait = metternich
 	conditional_portraits = {
 		metternich = {

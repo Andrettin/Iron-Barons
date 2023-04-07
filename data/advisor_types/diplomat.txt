@@ -1,5 +1,6 @@
 diplomat = {
 	name = "Diplomat"
+	category = political
 	portrait = metternich
 	conditional_portraits = {
 		metternich = {

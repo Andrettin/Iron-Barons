@@ -1,5 +1,6 @@
 artist = {
 	name = "Artist"
+	category = political #not very fitting
 	portrait = scholar
 	modifier = {
 		#quarterly_prestige = 0.5

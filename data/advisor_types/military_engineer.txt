@@ -1,4 +1,5 @@
 military_engineer = {
 	name = "Military Engineer"
+	category = military
 	portrait = soldier
 }
