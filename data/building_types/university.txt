@@ -4,6 +4,10 @@ college = {
 	portrait = university_portrait
 	icon = university
 	required_technology = university
+	production_types = {
+		researching
+	}
+	base_capacity = 4
 }
 
 university = {
@@ -13,4 +17,8 @@ university = {
 	icon = university
 	required_building = college
 	required_technology = university
+	production_types = {
+		researching
+	}
+	base_capacity = 8
 }
