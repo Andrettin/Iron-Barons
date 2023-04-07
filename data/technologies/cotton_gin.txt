@@ -1,6 +1,7 @@
 cotton_gin = {
 	name = "Cotton Gin"
-	icon = cotton
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		cotton
 		engineering

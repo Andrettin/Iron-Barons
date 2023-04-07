@@ -1,6 +1,7 @@
 moneylending = {
 	name = "Moneylending"
-	icon = wealth
+	category = finance
+	portrait = coinage
 	prerequisites = {
 		coinage
 	}
@@ -8,7 +9,8 @@ moneylending = {
 
 banking = {
 	name = "Banking"
-	icon = wealth
+	category = finance
+	portrait = coinage
 	prerequisites = {
 		moneylending
 	}
@@ -16,7 +18,8 @@ banking = {
 
 stock_exchange = {
 	name = "Stock Exchange"
-	icon = wealth
+	category = finance
+	portrait = coinage
 	prerequisites = {
 		banking
 	}
@@ -24,7 +27,8 @@ stock_exchange = {
 
 business_banking = {
 	name = "Business Banking"
-	icon = wealth
+	category = finance
+	portrait = coinage
 	prerequisites = {
 		stock_exchange
 	}
@@ -32,7 +36,8 @@ business_banking = {
 
 investment_banking = {
 	name = "Investment Banking"
-	icon = wealth
+	category = finance
+	portrait = coinage
 	prerequisites = {
 		business_banking
 	}

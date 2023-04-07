@@ -1,4 +1,5 @@
 wheel = {
 	name = "Wheel"
-	icon = cog
+	category = industry
+	portrait = engineering
 }

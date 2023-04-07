@@ -1,6 +1,7 @@
 high_pressure_steam_engine = {
 	name = "High Pressure Steam Engine"
-	icon = railroad
+	category = industry
+	portrait = engineering
 	#required for railroads
 	prerequisites = {
 		engineering
@@ -10,7 +11,8 @@ high_pressure_steam_engine = {
 
 compound_steam_engine = {
 	name = "Compound Steam Engine"
-	icon = railroad
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		high_pressure_steam_engine
 	}

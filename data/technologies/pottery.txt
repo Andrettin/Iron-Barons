@@ -1,4 +1,5 @@
 pottery = {
 	name = "Pottery"
-	icon = cog
+	category = industry
+	portrait = engineering
 }

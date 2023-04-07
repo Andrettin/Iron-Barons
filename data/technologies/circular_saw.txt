@@ -1,6 +1,7 @@
 circular_saw = {
 	name = "Circular Saw"
-	icon = lumber
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		wind_saw_mill
 	}

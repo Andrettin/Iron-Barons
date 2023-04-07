@@ -1,6 +1,7 @@
 university = {
 	name = "University"
-	icon = university
+	category = industry
+	portrait = university_portrait
 	prerequisites = {
 		philosophy
 	}

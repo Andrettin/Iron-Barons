@@ -1,0 +1,11 @@
+coinage = {
+	filepath = "portraits/suebi_coinage.png"
+}
+
+engineering = {
+	filepath = "portraits/engineering.png"
+}
+
+unload = {
+	filepath = "portraits/unload.png"
+}

@@ -146,6 +146,7 @@
 /graphics/portraits/scholar.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/soldier.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/soldier_chainmail.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/suebi_coinage.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/temple.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/temple_large.png (by Jinn) (licensed under the CC0) (reference: the Hagia Sophia)
 /graphics/portraits/temple_muslim.png (by Jinn) (licensed under the CC0)

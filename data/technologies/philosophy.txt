@@ -1,6 +1,7 @@
 philosophy = {
 	name = "Philosophy"
-	icon = philosophy
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		writing
 	}
@@ -8,7 +9,8 @@ philosophy = {
 
 logics = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 111.
 	name = "Logics"
-	icon = philosophy
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		philosophy
 	}
@@ -16,7 +18,8 @@ logics = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 
 
 natural_philosophy = {
 	name = "Natural Philosophy"
-	icon = philosophy
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		philosophy
 		mathematics
@@ -27,7 +30,8 @@ natural_philosophy = {
 
 scientific_method = {
 	name = "Scientific Method"
-	icon = research
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		natural_philosophy
 	}
@@ -35,7 +39,8 @@ scientific_method = {
 
 enlightenment_philosophy = {
 	name = "Enlightenment Philosophy"
-	icon = philosophy
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		scientific_method
 		printing_press

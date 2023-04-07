@@ -1,4 +1,5 @@
 sugar_cane = {
 	name = "Sugar Cane"
-	icon = sugar_cane
+	category = gathering
+	portrait = engineering
 }

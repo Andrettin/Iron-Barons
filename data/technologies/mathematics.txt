@@ -1,6 +1,7 @@
 mathematics = {
 	name = "Mathematics"
-	icon = research
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		writing
 	}
@@ -8,7 +9,8 @@ mathematics = {
 
 ballistics = {
 	name = "Ballistics"
-	icon = research
+	category = army
+	portrait = engineering
 	prerequisites = {
 		mathematics
 	}

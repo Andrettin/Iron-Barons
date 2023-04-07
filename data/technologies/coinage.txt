@@ -1,4 +1,5 @@
 coinage = {
 	name = "Coinage"
-	icon = wealth
+	category = finance
+	portrait = coinage
 }

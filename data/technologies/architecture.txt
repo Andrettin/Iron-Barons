@@ -1,6 +1,7 @@
 masonry = {
 	name = "Masonry"
-	icon = architecture
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		pottery
 	}
@@ -8,7 +9,8 @@ masonry = {
 
 architecture = {
 	name = "Architecture"
-	icon = architecture
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		masonry
 		mathematics

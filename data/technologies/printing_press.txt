@@ -1,6 +1,7 @@
 printing_press = {
 	name = "Printing Press"
-	icon = newspaper
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		engineering
 		scientific_method

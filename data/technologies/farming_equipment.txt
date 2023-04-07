@@ -1,11 +1,13 @@
 wood_plow = {
 	name = "Wood Plow"
-	icon = grain
+	category = gathering
+	portrait = engineering
 }
 
 iron_tipped_wood_plow = {
 	name = "Iron-Tipped Wood Plow"
-	icon = grain
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		wood_plow
 		ironworking
@@ -14,7 +16,8 @@ iron_tipped_wood_plow = {
 
 iron_plow = {
 	name = "Iron Plow"
-	icon = grain
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		iron_tipped_wood_plow
 	}
@@ -22,7 +25,8 @@ iron_plow = {
 
 seed_drill = {
 	name = "Seed Drill"
-	icon = grain
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		iron_plow
 		engineering
@@ -32,7 +36,8 @@ seed_drill = {
 
 moldboard_plow = {
 	name = "Moldboard Plow"
-	icon = grain
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		iron_plow
 		crucible_process

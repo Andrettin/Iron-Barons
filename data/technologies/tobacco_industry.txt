@@ -1,6 +1,7 @@
 tobacco_industry = {
 	name = "Tobacco Industry"
-	icon = tobacco
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		tobacco
 		engineering

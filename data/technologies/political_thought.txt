@@ -1,6 +1,7 @@
 the_rights_of_man = {
 	name = "The Rights of Man"
-	icon = treaty
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		enlightenment_philosophy
 	}

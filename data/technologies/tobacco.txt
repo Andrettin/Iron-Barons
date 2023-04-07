@@ -1,4 +1,5 @@
 tobacco = {
 	name = "Tobacco"
-	icon = tobacco
+	category = gathering
+	portrait = engineering
 }

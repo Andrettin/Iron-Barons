@@ -1,6 +1,7 @@
 bronzeworking = {
 	name = "Bronzeworking"
-	icon = copper
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		pottery #because of ceramic casting molds
 	}
@@ -8,7 +9,8 @@ bronzeworking = {
 
 ironworking = {
 	name = "Ironworking"
-	icon = iron
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		bronzeworking
 	}
@@ -16,7 +18,8 @@ ironworking = {
 
 amalgamation_process = {
 	name = "Amalgamation Process"
-	icon = silver
+	category = gathering
+	portrait = coinage
 	prerequisites = {
 		chemistry
 	}
@@ -28,7 +31,8 @@ amalgamation_process = {
 
 crucible_process = {
 	name = "Crucible Process"
-	icon = steel
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		ironworking
 	}
@@ -36,7 +40,8 @@ crucible_process = {
 
 bessemer_converter = {
 	name = "Bessemer Converter"
-	icon = steel
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		crucible_process
 	}

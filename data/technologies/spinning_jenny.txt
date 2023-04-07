@@ -1,6 +1,7 @@
 spinning_jenny = {
 	name = "Spinning Jenny"
-	icon = fabric
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		engineering
 		scientific_method

@@ -1,6 +1,7 @@
 wind_saw_mill = {
 	name = "Wind Saw Mill"
-	icon = lumber
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		engineering
 	}

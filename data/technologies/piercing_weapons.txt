@@ -1,6 +1,7 @@
 pike = {
 	name = "Pike"
-	icon = saber
+	category = army
+	portrait = engineering
 	prerequisites = {
 		ironworking
 	}
@@ -8,7 +9,8 @@ pike = {
 
 halberd = {
 	name = "Halberd"
-	icon = saber
+	category = army
+	portrait = engineering
 	prerequisites = {
 		pike
 	}

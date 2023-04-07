@@ -1,6 +1,7 @@
 compass = {
 	name = "Compass"
-	icon = compass
+	category = navy
+	portrait = unload
 	prerequisites = {
 		engineering
 	}

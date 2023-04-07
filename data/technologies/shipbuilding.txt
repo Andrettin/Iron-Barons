@@ -1,11 +1,13 @@
 streamlined_hulls = {
 	name = "Streamlined Hulls"
-	icon = anchor
+	category = navy
+	portrait = unload
 }
 
 paddlewheels = {
 	name = "Paddlewheels"
-	icon = anchor
+	category = navy
+	portrait = unload
 	prerequisites = {
 		high_pressure_steam_engine
 	}

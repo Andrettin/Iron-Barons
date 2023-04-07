@@ -1,6 +1,7 @@
 steam_in_mining = {
 	name = "Steam in Mining"
-	icon = cog
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		high_pressure_steam_engine
 	}
@@ -8,7 +9,8 @@ steam_in_mining = {
 
 square_set_timbering = {
 	name = "Square-Set Timbering"
-	icon = cog
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		engineering
 	}

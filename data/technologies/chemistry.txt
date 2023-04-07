@@ -1,6 +1,7 @@
 alchemy = {
 	name = "Alchemy"
-	icon = cog
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		philosophy
 		mathematics
@@ -10,7 +11,8 @@ alchemy = {
 
 medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 85-86.
 	name = "Medicine"
-	icon = heart
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		philosophy
 	}
@@ -18,7 +20,8 @@ medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas"
 
 chemistry = {
 	name = "Chemistry"
-	icon = cog
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		alchemy
 		scientific_method
@@ -27,7 +30,8 @@ chemistry = {
 
 gunpowder = {
 	name = "Gunpowder"
-	icon = coal
+	category = army
+	portrait = engineering
 	prerequisites = {
 		chemistry
 	}

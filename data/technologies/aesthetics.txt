@@ -1,6 +1,7 @@
 music_notation_system = {
 	name = "Music Notation System"
-	icon = music
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		writing
 	}
@@ -8,7 +9,8 @@ music_notation_system = {
 
 expressionism = {
 	name = "Expressionism"
-	icon = music
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		writing
 	}

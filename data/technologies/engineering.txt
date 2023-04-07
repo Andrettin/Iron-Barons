@@ -1,6 +1,7 @@
 engineering = {
 	name = "Engineering"
-	icon = cog
+	category = industry
+	portrait = engineering
 	prerequisites = {
 		wheel
 		mathematics

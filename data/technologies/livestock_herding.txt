@@ -1,6 +1,7 @@
 scientific_cattle_breeding = {
 	name = "Scientific Cattle Breeding"
-	icon = cattle
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		scientific_method
 	}
@@ -11,7 +12,8 @@ scientific_cattle_breeding = {
 
 scientific_sheep_breeding = {
 	name = "Scientific Sheep Breeding"
-	icon = wool
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		scientific_method
 	}
@@ -22,7 +24,8 @@ scientific_sheep_breeding = {
 
 feed_grasses = {
 	name = "Feed Grasses"
-	icon = cattle
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		scientific_method
 	}

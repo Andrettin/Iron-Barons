@@ -1,6 +1,7 @@
 sugar_industry = {
 	name = "Sugar Industry"
-	icon = sugar_cane
+	category = gathering
+	portrait = engineering
 	prerequisites = {
 		sugar_cane
 		engineering

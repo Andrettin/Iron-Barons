@@ -1,4 +1,5 @@
 writing = {
 	name = "Writing"
-	icon = treaty
+	category = industry
+	portrait = engineering
 }

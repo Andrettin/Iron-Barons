@@ -1,6 +1,7 @@
 bayonet = {
 	name = "Bayonet"
-	icon = musket
+	category = army
+	portrait = engineering
 	prerequisites = {
 		gunpowder
 		engineering
@@ -9,7 +10,8 @@ bayonet = {
 
 long_range_rifle = {
 	name = "Long Range Rifle"
-	icon = rifle
+	category = army
+	portrait = engineering
 	prerequisites = {
 		bessemer_converter
 		bayonet
@@ -18,7 +20,8 @@ long_range_rifle = {
 
 breech_loading_rifle = {
 	name = "Breech-Loading Rifle"
-	icon = rifle
+	category = army
+	portrait = engineering
 	prerequisites = {
 		bayonet
 	}
@@ -26,7 +29,8 @@ breech_loading_rifle = {
 
 needle_gun = {
 	name = "Needle Gun"
-	icon = rifle
+	category = army
+	portrait = engineering
 	prerequisites = {
 		breech_loading_rifle
 	}
@@ -34,7 +38,8 @@ needle_gun = {
 
 repeating_cavalry_carbine = {
 	name = "Repeating Cavalry Carbine"
-	icon = rifle
+	category = army
+	portrait = engineering
 	prerequisites = {
 		breech_loading_rifle
 	}
@@ -42,7 +47,8 @@ repeating_cavalry_carbine = {
 
 machine_gun = {
 	name = "Machine Gun"
-	icon = rifle
+	category = army
+	portrait = engineering
 	prerequisites = {
 		breech_loading_rifle
 	}

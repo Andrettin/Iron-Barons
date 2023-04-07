@@ -1,6 +1,7 @@
 rifled_artillery = {
 	name = "Rifled Artillery"
-	icon = cannon
+	category = army
+	portrait = engineering
 	prerequisites = {
 		crucible_process
 	}
