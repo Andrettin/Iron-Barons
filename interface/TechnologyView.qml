@@ -88,6 +88,29 @@ Item {
 					wrapMode: Text.WordWrap
 				}
 				
+				Item {
+					anchors.top: parent.top
+					anchors.bottom: parent.bottom
+					anchors.left: technology_label.right
+					anchors.right: technology_effects_label.left
+					
+					Image {
+						id: research_cost_icon
+						anchors.verticalCenter: parent.verticalCenter
+						anchors.right: parent.horizontalCenter
+						anchors.rightMargin: 32 * scale_factor
+						source: "image://icon/" + metternich.defines.research_commodity.icon.identifier
+					}
+					
+					SmallText {
+						id: research_cost_label
+						text: number_string(technology.cost)
+						anchors.left: research_cost_icon.right
+						anchors.leftMargin: 4 * scale_factor
+						anchors.verticalCenter: research_cost_icon.verticalCenter
+					}
+				}
+				
 				SmallText {
 					id: technology_effects_label
 					text: format_text(effects_string)
