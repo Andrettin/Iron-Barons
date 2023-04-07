@@ -1,6 +1,0 @@
-boots_of_elvenkind = {
-	name = "Boots of Elvenkind"
-	type = trinket
-	icon = heater_shield
-	level = 1
-}

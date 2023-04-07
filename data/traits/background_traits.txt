@@ -3,11 +3,7 @@ adventurer = {
 	type = background
 	icon = saber
 	conditions = {
-		or = {
-			advisor_type = admiral
-			advisor_type = general
-			advisor_type = privateer
-		}
+		advisor_type = privateer
 	}
 }
 
@@ -42,10 +38,7 @@ peasant_leader = {
 	type = background
 	icon = grain
 	conditions = {
-		or = {
-			advisor_type = general
-			advisor_type = statesman
-		}
+		advisor_type = statesman
 	}
 }
 
@@ -55,7 +48,6 @@ pirate = {
 	icon = skull
 	conditions = {
 		or = {
-			advisor_type = admiral
 			advisor_type = navigator
 			advisor_type = privateer
 		}

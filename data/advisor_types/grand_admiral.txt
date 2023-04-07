@@ -1,5 +1,5 @@
-admiral = {
-	name = "Admiral"
+grand_admiral = {
+	name = "Grand Admiral"
 	category = military
 	portrait = sailor
 	modifier = {

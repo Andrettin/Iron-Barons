@@ -1,0 +1,8 @@
+army_reformer = {
+	name = "Army Reformer"
+	category = military
+	portrait = soldier
+	modifier = {
+		army_research_modifier = 5
+	}
+}

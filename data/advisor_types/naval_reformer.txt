@@ -1,0 +1,8 @@
+naval_reformer = {
+	name = "Naval Reformer"
+	category = military
+	portrait = sailor
+	modifier = {
+		navy_research_modifier = 5
+	}
+}
