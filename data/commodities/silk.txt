@@ -1,4 +1,4 @@
 silk = {
 	name = "Silk"
-	icon = wool
+	icon = silk
 }
