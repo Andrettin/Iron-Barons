@@ -223,6 +223,30 @@ Item {
 		}
 	}
 	
+	Connections {
+		target: metternich.game.player_country.game_data
+		
+		function onAdvisor_recruited(advisor) {
+			if (notification_dialog_component.status == Component.Error) {
+				console.error(notification_dialog_component.errorString())
+				return
+			}
+			
+			var dialog = notification_dialog_component.createObject(map_view, {
+				title: "Advisor Recruited",
+				portrait_object: metternich.defines.interior_minister_portrait,
+				text: "Your Excellency, " + advisor.full_name  + " has joined our nation as an advisor!",
+				on_closed: () => {
+					menu_stack.push("AdvisorsView.qml", {
+						country: metternich.game.player_country
+					})
+				}
+			})
+			
+			dialog.open()
+		}
+	}
+	
 	onSelected_garrisonChanged: {
 		metternich.clear_selected_military_units()
 	}

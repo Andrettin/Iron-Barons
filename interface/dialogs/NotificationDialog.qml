@@ -12,6 +12,7 @@ DialogBase {
 	property var portrait_object: null
 	readonly property string portrait_identifier: portrait_object !== null ? (portrait_object.class_name === "metternich::character" ? portrait_object.game_data.portrait.identifier : portrait_object.identifier) : ""
 	property string text: ""
+	property var on_closed: null
 	
 	PortraitButton {
 		id: portrait
@@ -49,6 +50,10 @@ DialogBase {
 		onClicked: {
 			notification_dialog.close()
 			notification_dialog.destroy()
+			
+			if (on_closed) {
+				on_closed()
+			}
 		}
 	}
 }
