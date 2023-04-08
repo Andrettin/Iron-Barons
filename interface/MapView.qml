@@ -226,6 +226,24 @@ Item {
 	Connections {
 		target: metternich.game.player_country.game_data
 		
+		function onTechnology_researched(technology) {
+			if (notification_dialog_component.status == Component.Error) {
+				console.error(notification_dialog_component.errorString())
+				return
+			}
+			
+			var dialog = notification_dialog_component.createObject(map_view, {
+				title: "Technology Researched",
+				portrait_object: metternich.defines.interior_minister_portrait,
+				text: "Your Excellency, our scholars have made a breakthrough in the research of the " + technology.name + " technology!",
+				on_closed: () => {
+					menu_stack.push("TechnologyView.qml")
+				}
+			})
+			
+			dialog.open()
+		}
+		
 		function onAdvisor_recruited(advisor) {
 			if (notification_dialog_component.status == Component.Error) {
 				console.error(notification_dialog_component.errorString())
