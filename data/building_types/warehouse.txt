@@ -4,7 +4,9 @@ warehouse = {
 	portrait = trading_post
 	icon = chest
 	warehouse = true
+	expandable = true
+	max_level = 10
 	country_modifier = {
-		storage_capacity = 1000
+		storage_capacity = 100
 	}
 }

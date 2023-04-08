@@ -8,7 +8,7 @@ weavers_house = {
 		silk_fabric_weaving
 		wool_fabric_weaving
 	}
-	base_capacity = 1
+	base_capacity = 2
 }
 
 weavers_shop = {
@@ -21,7 +21,7 @@ weavers_shop = {
 		silk_fabric_weaving
 		wool_fabric_weaving
 	}
-	base_capacity = 2
+	base_capacity = 4
 	required_building = weavers_house
 }
 
@@ -35,6 +35,7 @@ textile_mill = {
 		silk_fabric_weaving
 		wool_fabric_weaving
 	}
-	base_capacity = 4
+	base_capacity = 8
+	expandable = true
 	required_building = weavers_shop
 }

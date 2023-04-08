@@ -2,10 +2,8 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import ".."
 
-DialogBase {
+BuildingDialog {
 	id: warehouse_dialog
-	title: "Warehouse"
-	panel: 5
 	width: 256 * scale_factor + 8 * scale_factor * 2
 	height: ok_button.y + ok_button.height + 8 * scale_factor
 	
@@ -15,6 +13,14 @@ DialogBase {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "Storage Capacity: " + number_string(country_game_data.storage_capacity)
+	}
+	
+	ExpandBuildingButton {
+		id: expand_building_button
+		anchors.top: parent.top
+		anchors.topMargin: 16 * scale_factor
+		anchors.right: parent.right
+		anchors.rightMargin: 16 * scale_factor
 	}
 	
 	Grid {

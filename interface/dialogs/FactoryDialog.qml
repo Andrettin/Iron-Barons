@@ -2,15 +2,11 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import ".."
 
-DialogBase {
+BuildingDialog {
 	id: factory_dialog
-	title: building ? building.name : ""
-	panel: 5
 	width: production_types_column.width + 8 * scale_factor * 2
 	height: ok_button.y + ok_button.height + 8 * scale_factor
 	
-	property var building_slot: null
-	readonly property var building: building_slot ? building_slot.building : null
 	readonly property int capacity: building_slot ? building_slot.capacity : 0
 	
 	SmallText {
@@ -19,6 +15,14 @@ DialogBase {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "Capacity: " + capacity
+	}
+	
+	ExpandBuildingButton {
+		id: expand_building_button
+		anchors.top: parent.top
+		anchors.topMargin: 16 * scale_factor
+		anchors.right: parent.right
+		anchors.rightMargin: 16 * scale_factor
 	}
 	
 	Column {
