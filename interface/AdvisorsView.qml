@@ -39,6 +39,7 @@ Item {
 			onClicked: {
 				advisor_dialog.title = advisor.full_name
 				advisor_dialog.modifier_string = advisor.advisor_modifier_string
+				advisor_dialog.description = advisor.description
 				advisor_dialog.open()
 			}
 			
