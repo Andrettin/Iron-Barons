@@ -256,7 +256,8 @@ Item {
 				text: "Your Excellency, " + advisor.full_name  + " has joined our nation as an advisor!",
 				on_closed: () => {
 					menu_stack.push("AdvisorsView.qml", {
-						country: metternich.game.player_country
+						country: metternich.game.player_country,
+						new_advisor: advisor
 					})
 				}
 			})

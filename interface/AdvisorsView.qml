@@ -7,6 +7,7 @@ Item {
 	
 	property var country: null
 	readonly property var country_game_data: country ? country.game_data : null
+	property var new_advisor: null
 	property string status_text: ""
 	
 	Rectangle {
@@ -49,6 +50,55 @@ Item {
 			
 			onExited: {
 				status_text = ""
+			}
+			
+			Grid {
+				id: new_advisor_cover
+				anchors.horizontalCenter: parent.horizontalCenter
+				anchors.verticalCenter: parent.verticalCenter
+				width: 64 * scale_factor
+				height: 64 * scale_factor
+				columns: 64 * scale_factor
+				rows: 64 * scale_factor
+				visible: advisor === new_advisor
+				
+				property var cover_pixels: []
+				
+				Repeater {
+					model: (advisor === new_advisor) ? (new_advisor_cover.width * new_advisor_cover.height) : 0
+					
+					Rectangle {
+						color: "black"
+						width: 1
+						height: 1
+						
+						Component.onCompleted: {
+							new_advisor_cover.cover_pixels.push(this)
+						}
+					}
+				}
+				
+				Timer {
+					id: new_advisor_timer
+					running: new_advisor_cover.visible
+					repeat: true
+					interval: 1
+					onTriggered: {
+						var pixel_change_count = Math.floor(2 * scale_factor * scale_factor)
+						for (var i = 0; i < pixel_change_count; i++) {
+							if (new_advisor_cover.cover_pixels.length === 0) {
+								running = false
+								repeat = false
+								return
+							}
+							
+							var pixel_index = random(new_advisor_cover.cover_pixels.length)
+							var pixel_item = new_advisor_cover.cover_pixels[pixel_index]
+							pixel_item.color = "transparent"
+							new_advisor_cover.cover_pixels.splice(pixel_index, 1)
+						}
+					}
+				}
 			}
 		}
 	}
