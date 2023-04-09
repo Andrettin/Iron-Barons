@@ -22,6 +22,15 @@ metternich = {
 	culture = german #Rhenish
 }
 
+schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p. 390.
+	name = "Schwarzenberg"
+	prefix = "zu"
+	culture = german #Franconian
+	
+	#carries its name since 1437
+	#raised to princely rank in 1670
+}
+
 wittelsbach = {
 	name = "Wittelsbach"
 	prefix = "von"
