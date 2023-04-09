@@ -1,0 +1,12 @@
+erkinger = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p. 390.
+	name = "Erkinger"
+	surname = "von Seinsheim"
+	culture = german #Franconian
+	religion = catholic
+	home_province = franconia
+	gender = male
+	birth_date = 1362
+	#founder of the Schwarzenberg dynasty
+	#soldier under emperor Sigismund
+	#bought the lordship of Schwarzenberg in Franconia in 1420
+}
