@@ -6,3 +6,12 @@ rights_of_man = {
 		enlightenment_philosophy
 	}
 }
+
+nationalism = {
+	name = "Nationalism"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		rights_of_man
+	}
+}
