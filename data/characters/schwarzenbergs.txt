@@ -1,3 +1,17 @@
+johann_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p. 390.
+	name = "Johann"
+	dynasty = schwarzenberg
+	culture = german #Franconian
+	religion = catholic
+	home_province = franconia
+	gender = male
+	birth_date = 1463
+	death_date = 1528
+	
+	#text based on that of the Encyclopædia Britannica, in the public domain
+	description = "Moralist and reformer who, as judge of the episcopal court at Bamberg, introduced a new code of evidence which amended the procedure then prevalent in Europe by securing for the accused a more impartial hearing."
+}
+
 felix_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p. 390.
 	name = "Felix"
 	dynasty = schwarzenberg
