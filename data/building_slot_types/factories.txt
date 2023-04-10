@@ -29,3 +29,7 @@ sugar_refinery = {
 cigar_factory = {
 	name = "Cigar Factory"
 }
+
+fur_factory = {
+	name = "Fur Factory"
+}
