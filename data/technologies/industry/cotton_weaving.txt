@@ -1,0 +1,8 @@
+cotton_weaving = {
+	name = "Cotton Weaving"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		cotton
+	}
+}
