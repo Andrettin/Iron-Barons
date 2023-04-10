@@ -1,7 +1,7 @@
 nationalism = {
 	name = "Nationalism"
 	category = army
-	portrait = engineering
+	portrait = grand_ducal_crown
 	prerequisites = {
 		propaganda
 		master_artisans

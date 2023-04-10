@@ -1,7 +1,7 @@
 crucible_process = {
 	name = "Crucible Process"
 	category = industry
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		steam_in_mining
 		large_coal_mines

@@ -1,7 +1,7 @@
 merchant_companies = {
 	name = "Merchant Companies"
 	category = finance
-	portrait = coinage
+	portrait = trading_post
 }
 
 trade_fairs = {

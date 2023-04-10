@@ -1,7 +1,7 @@
 industrial_machinery = {
 	name = "Industrial Machinery"
 	category = finance
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		university
 		trained_journeymen

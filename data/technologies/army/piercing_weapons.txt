@@ -1,7 +1,7 @@
 pike = {
 	name = "Pike"
 	category = army
-	portrait = engineering
+	portrait = helmet
 	prerequisites = {
 		#ironworking
 	}
@@ -10,7 +10,7 @@ pike = {
 halberd = {
 	name = "Halberd"
 	category = army
-	portrait = engineering
+	portrait = helmet
 	prerequisites = {
 		pike
 		organized_regiments

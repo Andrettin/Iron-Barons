@@ -7,7 +7,7 @@ mine_engineering = {
 modern_fortifications = {
 	name = "Modern Fortifications"
 	category = army
-	portrait = engineering
+	portrait = fort
 	prerequisites = {
 		siege_engineering
 		university

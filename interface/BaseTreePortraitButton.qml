@@ -23,6 +23,7 @@ Item {
 	property bool transparent: false
 	property bool disabled: false
 	property color border_color: "gray"
+	readonly property bool hovered: portrait_button.hovered
 	
 	signal clicked()
 	

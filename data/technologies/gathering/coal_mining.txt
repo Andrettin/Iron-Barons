@@ -1,7 +1,7 @@
 coal_mining = {
 	name = "Coal Mining"
 	category = gathering
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		mine_engineering
 	}
@@ -10,7 +10,7 @@ coal_mining = {
 large_coal_mines = {
 	name = "Large Coal Mines"
 	category = gathering
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		coal_mining
 		steam_in_mining
@@ -20,7 +20,7 @@ large_coal_mines = {
 square_set_timbering = {
 	name = "Square-Set Timbering"
 	category = gathering
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		large_coal_mines
 		high_pressure_steam_engine

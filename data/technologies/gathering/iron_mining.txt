@@ -1,7 +1,7 @@
 iron_mining = {
 	name = "Iron Mining"
 	category = gathering
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		mine_engineering
 	}
@@ -10,7 +10,7 @@ iron_mining = {
 steam_in_mining = {
 	name = "Steam in Mining"
 	category = gathering
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		iron_mining
 	}
@@ -19,7 +19,7 @@ steam_in_mining = {
 industrial_iron_mining = {
 	name = "Industrial Iron Mining"
 	category = gathering
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		steam_in_mining
 		dynamite

@@ -1,7 +1,7 @@
 national_bureaucracy = {
 	name = "National Bureaucracy"
 	category = industry
-	portrait = engineering
+	portrait = grand_ducal_crown
 	prerequisites = {
 		diplomatic_expertise
 		moneylending

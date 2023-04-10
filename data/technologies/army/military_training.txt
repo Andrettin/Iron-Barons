@@ -1,7 +1,7 @@
 elite_military_training = {
 	name = "Elite Military Training"
 	category = army
-	portrait = engineering
+	portrait = helmet
 	prerequisites = {
 		explosives
 		modern_military_funding
