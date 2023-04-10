@@ -1,0 +1,4 @@
+refined_sugar = {
+	name = "Refined Sugar"
+	icon = refined_sugar
+}

@@ -21,3 +21,7 @@ furniture_factory = {
 metalworks = {
 	name = "Metalworks"
 }
+
+sugar_refinery = {
+	name = "Sugar Refinery"
+}
