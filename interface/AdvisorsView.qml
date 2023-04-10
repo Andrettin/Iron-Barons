@@ -33,7 +33,7 @@ Item {
 		model: country_game_data.advisors
 		
 		delegate: PortraitGridItem {
-			icon_identifier: advisor.game_data.portrait.identifier
+			portrait_identifier: advisor.game_data.portrait.identifier
 			
 			readonly property var advisor: model.modelData
 			

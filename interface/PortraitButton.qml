@@ -29,7 +29,7 @@ ButtonBase {
 		//anchors.verticalCenterOffset: button.down ? 1 * scale_factor : 0
 		anchors.horizontalCenter: parent.horizontalCenter
 		//anchors.horizontalCenterOffset: button.down ? 1 * scale_factor : 0
-		source: portrait_identifier.length > 0 ? ("image://icon/" + portrait_identifier) : "image://empty/"
+		source: portrait_identifier.length > 0 ? ("image://portrait/" + portrait_identifier) : "image://empty/"
 		fillMode: Image.Pad
 		visible: false
 	}

@@ -1,7 +1,7 @@
 university = {
 	name = "University"
 	category = finance
-	portrait = university_portrait
+	portrait = university
 	prerequisites = {
 		printing_press
 		apprentice_workers

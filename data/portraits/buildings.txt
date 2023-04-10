@@ -26,6 +26,6 @@ trading_post = {
 	filepath = "portraits/trading_post.png"
 }
 
-university_portrait = {
+university = {
 	filepath = "portraits/university.png"
 }

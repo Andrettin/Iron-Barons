@@ -9,7 +9,7 @@ Item {
 	ToolTip.visible: portrait_mouse_area.containsMouse && tooltip.length > 0
 	ToolTip.delay: 1000
 	
-	property string icon_identifier: ""
+	property string portrait_identifier: ""
 	property string tooltip: ""
 	
 	signal clicked()
@@ -31,7 +31,7 @@ Item {
 			id: portrait
 			anchors.horizontalCenter: parent.horizontalCenter
 			anchors.verticalCenter: parent.verticalCenter
-			source: "image://icon/" + icon_identifier
+			source: "image://portrait/" + portrait_identifier
 		}
 		
 		MouseArea {

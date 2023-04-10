@@ -33,7 +33,7 @@ Item {
 		model: country_game_data.building_slots
 		
 		delegate: PortraitGridItem {
-			icon_identifier: building ? building.portrait.identifier : "building_slot"
+			portrait_identifier: building ? building.portrait.identifier : "building_slot"
 			
 			readonly property var building_slot: model.modelData
 			readonly property var building: building_slot.building

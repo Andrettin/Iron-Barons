@@ -6,6 +6,10 @@ engineering = {
 	filepath = "portraits/engineering.png"
 }
 
+oil_lamp = {
+	filepath = "portraits/oil_lamp.png"
+}
+
 unload = {
 	filepath = "portraits/unload.png"
 }
