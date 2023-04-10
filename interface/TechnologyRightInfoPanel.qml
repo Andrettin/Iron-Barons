@@ -23,6 +23,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "grain"
 		border_color: technology_view.category === TechnologyView.Category.Gathering ? "white" : "gray"
+		visible: technology_view.mode !== TechnologyView.Mode.TechTree
 		
 		onReleased: {
 			technology_view.category = TechnologyView.Category.Gathering
@@ -44,6 +45,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "tools"
 		border_color: technology_view.category === TechnologyView.Category.Industry ? "white" : "gray"
+		visible: technology_view.mode !== TechnologyView.Mode.TechTree
 		
 		onReleased: {
 			technology_view.category = TechnologyView.Category.Industry
@@ -65,6 +67,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "crossed_sabers"
 		border_color: technology_view.category === TechnologyView.Category.Army ? "white" : "gray"
+		visible: technology_view.mode !== TechnologyView.Mode.TechTree
 		
 		onReleased: {
 			technology_view.category = TechnologyView.Category.Army
@@ -86,6 +89,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "anchor"
 		border_color: technology_view.category === TechnologyView.Category.Navy ? "white" : "gray"
+		visible: technology_view.mode !== TechnologyView.Mode.TechTree
 		
 		onReleased: {
 			technology_view.category = TechnologyView.Category.Navy
@@ -107,6 +111,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "wealth"
 		border_color: technology_view.category === TechnologyView.Category.Finance ? "white" : "gray"
+		visible: technology_view.mode !== TechnologyView.Mode.TechTree
 		
 		onReleased: {
 			technology_view.category = TechnologyView.Category.Finance
@@ -128,6 +133,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "university"
 		border_color: technology_view.category === TechnologyView.Category.None ? "white" : "gray"
+		visible: technology_view.mode !== TechnologyView.Mode.TechTree
 		
 		onReleased: {
 			technology_view.category = TechnologyView.Category.None
@@ -147,7 +153,7 @@ Rectangle {
 		anchors.bottom: available_mode_button.top
 		anchors.bottomMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		icon_identifier: "cog"
+		icon_identifier: "architecture"
 		border_color: technology_view.mode === TechnologyView.Mode.Researched ? "white" : "gray"
 		
 		onReleased: {
@@ -186,8 +192,8 @@ Rectangle {
 	
 	IconButton {
 		id: future_mode_button
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 16 * scale_factor
+		anchors.bottom: tech_tree_mode_button.top
+		anchors.bottomMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "philosophy"
 		border_color: technology_view.mode === TechnologyView.Mode.Future ? "white" : "gray"
@@ -199,6 +205,27 @@ Rectangle {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "Future Technologies"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: tech_tree_mode_button
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "cog"
+		border_color: technology_view.mode === TechnologyView.Mode.TechTree ? "white" : "gray"
+		
+		onReleased: {
+			technology_view.mode = TechnologyView.Mode.TechTree
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Technology Tree"
 			} else {
 				status_text = ""
 			}

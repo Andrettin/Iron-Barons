@@ -4,7 +4,7 @@ import ".."
 
 DialogBase {
 	id: modifier_dialog
-	width: 256 * scale_factor
+	width: Math.max(256 * scale_factor, modifier_text.contentWidth + 16 * scale_factor)
 	height: ok_button.y + ok_button.height + 8 * scale_factor
 	
 	property string modifier_string: ""
@@ -14,12 +14,8 @@ DialogBase {
 		id: modifier_text
 		anchors.top: title_item.bottom
 		anchors.topMargin: 16 * scale_factor
-		anchors.left: parent.left
-		anchors.leftMargin: 8 * scale_factor
-		anchors.right: parent.right
-		anchors.rightMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
 		text: format_text(modifier_string)
-		horizontalAlignment: Text.AlignHCenter
 	}
 	
 	SmallText {

@@ -1,5 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
+import "./dialogs"
 
 Item {
 	id: technology_view
@@ -7,7 +8,8 @@ Item {
 	enum Mode {
 		Researched,
 		Available,
-		Future
+		Future,
+		TechTree
 	}
 	
 	enum Category {
@@ -42,30 +44,8 @@ Item {
 			height: technology_rectangle.height
 			
 			readonly property var technology: model.modelData
-			readonly property string technology_tooltip: portrait.tooltip
 			
-			readonly property string effects_string: string_list_to_string([
-				modifier_string,
-				enabled_buildings_string,
-				enabled_improvements_string,
-				enabled_military_units_string,
-				enabled_advisors_string,
-				retired_advisors_string
-			], "\n", true)
-			
-			readonly property string modifier_string: technology.modifier_string
-			readonly property var enabled_buildings: technology.get_enabled_buildings_for_culture(metternich.game.player_country.culture)
-			readonly property string enabled_buildings_string: enabled_buildings.length > 0 ? string_list_to_string(object_list_to_name_list(enabled_buildings, "Enables ", " building"), "\n") : ""
-			readonly property string enabled_improvements_string: technology.enabled_improvements.length > 0 ? string_list_to_string(object_list_to_name_list(technology.enabled_improvements, "Enables ", " improvement"), "\n") : ""
-			
-			readonly property var enabled_military_units: technology.get_enabled_military_units_for_culture(metternich.game.player_country.culture)
-			readonly property string enabled_military_units_string: enabled_military_units.length > 0 ? string_list_to_string(object_list_to_name_list(enabled_military_units, "Enables ", " regiment"), "\n") : ""
-			
-			readonly property var enabled_advisors: technology.get_enabled_advisors_for_country(metternich.game.player_country)
-			readonly property string enabled_advisors_string: enabled_advisors.length > 0 ? string_list_to_string(object_list_to_full_name_list(enabled_advisors, "Enables ", " advisor"), "\n") : ""
-			readonly property var retired_advisors: technology.get_retired_advisors_for_country(metternich.game.player_country)
-			readonly property string retired_advisors_string: retired_advisors.length > 0 ? string_list_to_string(object_list_to_full_name_list(retired_advisors, "Retires ", " advisor"), "\n") : ""
-
+			readonly property string effects_string: technology.get_effects_string(metternich.game.player_country)
 			
 			Rectangle {
 				id: technology_rectangle
@@ -136,6 +116,29 @@ Item {
 		}
 	}
 	
+	Rectangle {
+		id: tech_tree_background
+		anchors.fill: tech_tree
+		color: "black"
+		visible: tech_tree.visible
+	}
+	
+	PortraitButtonTree {
+		id: tech_tree
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: left_infopanel.right
+		anchors.right: right_infopanel.left
+		entries: metternich.get_technologies()
+		visible: technology_view.mode === TechnologyView.Mode.TechTree
+		
+		function on_entry_clicked(technology) {
+			technology_dialog.title = technology.name
+			technology_dialog.modifier_string = technology.get_effects_string(metternich.game.player_country)
+			technology_dialog.open()
+		}
+	}
+	
 	TechnologyRightInfoPanel {
 		id: right_infopanel
 		anchors.top: parent.top
@@ -162,6 +165,10 @@ Item {
 		anchors.top: parent.top
 		anchors.left: left_infopanel.right
 		anchors.right: right_infopanel.left
+	}
+	
+	ModifierDialog {
+		id: technology_dialog
 	}
 	
 	function get_category_technologies(technologies, category) {
