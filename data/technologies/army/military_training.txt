@@ -1,0 +1,10 @@
+elite_military_training = {
+	name = "Elite Military Training"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		explosives
+		modern_military_funding
+		needle_gun
+	}
+}

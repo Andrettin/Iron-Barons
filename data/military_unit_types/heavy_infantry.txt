@@ -46,5 +46,5 @@ guards = {
 	defense = 7
 	movement = 4
 	entrench = true
-	required_technology = breech_loading_rifle
+	required_technology = elite_military_training
 }
