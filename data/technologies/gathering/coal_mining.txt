@@ -30,7 +30,7 @@ square_set_timbering = {
 safety_lamp = {
 	name = "Safety Lamp"
 	category = gathering
-	portrait = engineering
+	portrait = oil_lamp
 	prerequisites = {
 		square_set_timbering
 		dynamite

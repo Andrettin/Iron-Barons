@@ -7,7 +7,7 @@ engineering = {
 }
 
 oil_lamp = {
-	filepath = "portraits/oil_lamp.png"
+	filepath = "portraits/roman_oil_lamp.png"
 }
 
 unload = {
