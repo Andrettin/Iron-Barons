@@ -1,0 +1,16 @@
+merchant_companies = {
+	name = "Merchant Companies"
+	category = finance
+	portrait = coinage
+}
+
+trade_fairs = {
+	name = "Trade Fairs"
+	category = finance
+	portrait = coinage
+	prerequisites = {
+		merchant_companies
+		sugar_refining
+		sugar_planting
+	}
+}

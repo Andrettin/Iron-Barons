@@ -1,0 +1,9 @@
+national_bureaucracy = {
+	name = "National Bureaucracy"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		moneylending
+		printing_press
+	}
+}

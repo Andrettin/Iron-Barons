@@ -1,6 +1,0 @@
-sugar_cane = {
-	name = "Sugar Cane"
-	category = gathering
-	portrait = engineering
-	discovery = true
-}

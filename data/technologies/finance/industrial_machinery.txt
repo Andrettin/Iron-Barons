@@ -1,0 +1,10 @@
+industrial_machinery = {
+	name = "Industrial Machinery"
+	category = finance
+	portrait = engineering
+	prerequisites = {
+		university
+		trained_journeymen
+		steam_in_mining
+	}
+}

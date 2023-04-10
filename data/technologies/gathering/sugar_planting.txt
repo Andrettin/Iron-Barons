@@ -1,0 +1,35 @@
+sugar_cane = {
+	name = "Sugar Cane"
+	category = gathering
+	portrait = engineering
+	discovery = true
+}
+
+sugar_planting = {
+	name = "Sugar Planting"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		sugar_cane
+	}
+}
+
+large_sugar_plantations = {
+	name = "Large Sugar Plantations"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		sugar_planting
+	}
+}
+
+sugar_industry = {
+	name = "Sugar Industry"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		large_sugar_plantations
+		#engineering
+		#scientific_method
+	}
+}

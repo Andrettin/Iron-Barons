@@ -1,0 +1,21 @@
+moneylending = {
+	name = "Moneylending"
+	category = finance
+	portrait = coinage
+	prerequisites = {
+		merchant_companies
+		land_enclosure
+		#coinage
+	}
+}
+
+banking = {
+	name = "Banking"
+	category = finance
+	portrait = coinage
+	prerequisites = {
+		national_bureaucracy
+		trade_fairs
+		master_artisans
+	}
+}

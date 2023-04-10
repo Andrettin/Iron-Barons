@@ -1,0 +1,8 @@
+organized_regiments = {
+	name = "Organized Regiments"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		land_enclosure
+	}
+}

@@ -1,0 +1,25 @@
+crop_rotation = {
+	name = "Crop Rotation"
+	category = gathering
+	portrait = engineering
+}
+
+animal_husbandry = {
+	name = "Animal Husbandry"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		crop_rotation
+	}
+}
+
+scientific_cattle_breeding = {
+	name = "Scientific Cattle Breeding"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		animal_husbandry
+		university
+		#scientific_method
+	}
+}

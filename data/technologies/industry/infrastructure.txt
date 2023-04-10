@@ -1,0 +1,54 @@
+road_construction = {
+	name = "Road Construction"
+	category = industry
+	portrait = engineering
+	#required for roads
+	prerequisites = {
+		saw_mill
+		iron_mining
+		land_enclosure
+	}
+}
+
+high_pressure_steam_engine = {
+	name = "High Pressure Steam Engine"
+	category = industry
+	portrait = engineering
+	#required for railroads
+	prerequisites = {
+		road_construction
+		steam_in_mining
+		#engineering
+		#scientific_method
+	}
+}
+
+iron_railroad_bridge = {
+	name = "Iron Railroad Bridge"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		high_pressure_steam_engine
+	}
+}
+
+compound_steam_engine = {
+	name = "Compound Steam Engine"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		iron_railroad_bridge
+	}
+}
+
+dynamite = {
+	name = "Dynamite"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		compound_steam_engine
+		square_set_timbering
+		banking
+		explosives
+	}
+}

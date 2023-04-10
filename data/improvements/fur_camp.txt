@@ -3,6 +3,34 @@ beaver_camp = {
 	resource = beavers
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	output_multiplier = 1
+	required_technology = furs
+}
+
+improved_beaver_camp = {
+	name = "Improved Beaver Camp"
+	resource = beavers
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 2
+	required_improvement = beaver_camp
+	required_technology = improved_trapping_techniques
+}
+
+advanced_beaver_camp = {
+	name = "Advanced Beaver Camp"
+	resource = beavers
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 3
+	required_improvement = improved_beaver_camp
+	required_technology = riverboats
+}
+
+industrial_beaver_camp = {
+	name = "Industrial Beaver Camp"
+	resource = beavers
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 4
+	required_improvement = advanced_beaver_camp
+	required_technology = excessive_fur_harvesting
 }
 
 deer_camp = {
@@ -10,4 +38,32 @@ deer_camp = {
 	resource = deer
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	output_multiplier = 1
+	required_technology = furs
+}
+
+improved_deer_camp = {
+	name = "Improved Deer Camp"
+	resource = deer
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 2
+	required_improvement = deer_camp
+	required_technology = improved_trapping_techniques
+}
+
+advanced_deer_camp = {
+	name = "Advanced Deer Camp"
+	resource = deer
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 3
+	required_improvement = improved_deer_camp
+	required_technology = riverboats
+}
+
+industrial_deer_camp = {
+	name = "Industrial Deer Camp"
+	resource = deer
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 4
+	required_improvement = advanced_deer_camp
+	required_technology = excessive_fur_harvesting
 }

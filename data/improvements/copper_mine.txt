@@ -6,7 +6,19 @@ copper_mine = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
 	output_multiplier = 1
-	required_technology = bronzeworking
+	required_technology = copper_and_tin_mining
+}
+
+large_copper_mine = {
+	name = "Large Copper Mine"
+	resource = copper
+	image_filepath = "tiles/improvements/quarry.png"
+	terrain_image_filepaths = {
+		mountains = "tiles/improvements/quarry_mountains.png"
+	}
+	output_multiplier = 2
+	required_improvement = copper_mine
+	required_technology = large_copper_and_tin_mines
 }
 
 steam_pumped_copper_mine = {
@@ -16,7 +28,19 @@ steam_pumped_copper_mine = {
 	terrain_image_filepaths = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	output_multiplier = 2
-	required_improvement = copper_mine
-	required_technology = steam_in_mining
+	output_multiplier = 3
+	required_improvement = large_copper_mine
+	required_technology = efficient_extraction_of_copper_and_tin
+}
+
+industrial_copper_mine = {
+	name = "Industrial Copper Mine"
+	resource = copper
+	image_filepath = "tiles/improvements/quarry.png"
+	terrain_image_filepaths = {
+		mountains = "tiles/improvements/quarry_mountains.png"
+	}
+	output_multiplier = 4
+	required_improvement = steam_pumped_copper_mine
+	required_technology = efficient_extraction_of_copper_and_tin
 }

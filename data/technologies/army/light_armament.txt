@@ -1,0 +1,19 @@
+weapon_craftsmanship = {
+	name = "Weapon Craftsmanship"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		organized_regiments
+		copper_and_tin_mining
+	}
+}
+
+explosives = {
+	name = "Explosives"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		weapon_craftsmanship
+		industrial_machinery
+	}
+}

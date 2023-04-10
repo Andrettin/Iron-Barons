@@ -1,0 +1,5 @@
+mine_engineering = {
+	name = "Mine Engineering"
+	category = army
+	portrait = engineering
+}

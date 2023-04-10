@@ -1,0 +1,35 @@
+furs = {
+	name = "Furs"
+	category = gathering
+	portrait = engineering
+	discovery = true
+}
+
+improved_trapping_techniques = {
+	name = "Improved Trapping Techniques"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		furs
+	}
+}
+
+riverboats = {
+	name = "Riverboats"
+	category = gathering
+	portrait = unload
+	prerequisites = {
+		improved_trapping_techniques
+		high_pressure_steam_engine
+	}
+}
+
+excessive_fur_harvesting = {
+	name = "Excessive Fur Harvesting"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		riverboats
+		compound_steam_engine
+	}
+}

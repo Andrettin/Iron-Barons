@@ -1,0 +1,8 @@
+cigar_production = {
+	name = "Cigar Production"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		tobacco
+	}
+}

@@ -1,8 +1,11 @@
 university = {
 	name = "University"
-	category = industry
+	category = finance
 	portrait = university_portrait
 	prerequisites = {
-		philosophy
+		printing_press
+		apprentice_workers
+		moneylending
+		#philosophy
 	}
 }

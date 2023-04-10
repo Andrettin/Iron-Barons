@@ -1,21 +1,3 @@
-moneylending = {
-	name = "Moneylending"
-	category = finance
-	portrait = coinage
-	prerequisites = {
-		coinage
-	}
-}
-
-banking = {
-	name = "Banking"
-	category = finance
-	portrait = coinage
-	prerequisites = {
-		moneylending
-	}
-}
-
 stock_exchange = {
 	name = "Stock Exchange"
 	category = finance

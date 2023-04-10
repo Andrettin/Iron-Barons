@@ -1,0 +1,8 @@
+sugar_refining = {
+	name = "Sugar Refining"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		sugar_cane
+	}
+}

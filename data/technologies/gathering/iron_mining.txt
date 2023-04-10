@@ -1,0 +1,27 @@
+iron_mining = {
+	name = "Iron Mining"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		mine_engineering
+	}
+}
+
+steam_in_mining = {
+	name = "Steam in Mining"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		iron_mining
+	}
+}
+
+industrial_iron_mining = {
+	name = "Industrial Iron Mining"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		steam_in_mining
+		dynamite
+	}
+}

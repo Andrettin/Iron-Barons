@@ -1,0 +1,38 @@
+coal_mining = {
+	name = "Coal Mining"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		mine_engineering
+	}
+}
+
+large_coal_mines = {
+	name = "Large Coal Mines"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		coal_mining
+		steam_in_mining
+	}
+}
+
+square_set_timbering = {
+	name = "Square-Set Timbering"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		large_coal_mines
+		high_pressure_steam_engine
+	}
+}
+
+safety_lamp = {
+	name = "Safety Lamp"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		square_set_timbering
+		dynamite
+	}
+}

@@ -1,0 +1,31 @@
+apprentice_workers = {
+	name = "Apprentice Workers"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		sugar_refining
+		land_enclosure
+	}
+}
+
+trained_journeymen = {
+	name = "Trained Journeymen"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		apprentice_workers
+		cigar_production
+		printing_press
+	}
+}
+
+master_artisans = {
+	name = "Master Artisans"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		trained_journeymen
+		fur_hat_production
+		university
+	}
+}

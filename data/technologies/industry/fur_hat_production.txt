@@ -1,0 +1,8 @@
+fur_hat_production = {
+	name = "Fur Hat Production"
+	category = industry
+	portrait = engineering
+	prerequisites = {
+		furs
+	}
+}

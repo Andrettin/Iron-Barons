@@ -1,0 +1,4 @@
+fur_hats = {
+	name = "Fut Hats"
+	icon = clothing
+}

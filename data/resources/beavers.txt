@@ -1,6 +1,7 @@
 beavers = {
 	name = "Beavers"
 	commodity = furs
+	discovery_technology = furs
 	terrain_types = {
 		conifer_forest
 	}
