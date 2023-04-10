@@ -28,24 +28,3 @@ amalgamation_process = {
 		gold_output_modifier = 100
 	}
 }
-
-crucible_process = {
-	name = "Crucible Process"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		ironworking
-	}
-}
-
-bessemer_converter = {
-	name = "Bessemer Converter"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		crucible_process
-	}
-	modifier = {
-		steel_output_modifier = 100
-	}
-}

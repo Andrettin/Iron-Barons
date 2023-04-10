@@ -1,0 +1,9 @@
+siege_engineering = {
+	name = "Siege Engineering"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		copper_and_tin_mining
+		printing_press
+	}
+}

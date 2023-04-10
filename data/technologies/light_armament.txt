@@ -8,16 +8,6 @@ bayonet = {
 	}
 }
 
-long_range_rifle = {
-	name = "Long Range Rifle"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		bessemer_converter
-		bayonet
-	}
-}
-
 breech_loading_rifle = {
 	name = "Breech-Loading Rifle"
 	category = army

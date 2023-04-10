@@ -1,0 +1,9 @@
+improved_infantry_tactics = {
+	name = "Improved Infantry Tactics"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		organized_regiments
+		printing_press
+	}
+}

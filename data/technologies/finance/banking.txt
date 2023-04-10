@@ -19,3 +19,14 @@ banking = {
 		master_artisans
 	}
 }
+
+modern_military_funding = {
+	name = "Modern Military Funding"
+	category = finance
+	portrait = coinage
+	prerequisites = {
+		banking
+		large_precious_stone_mines
+		modern_fortifications
+	}
+}

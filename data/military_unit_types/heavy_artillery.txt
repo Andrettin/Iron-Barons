@@ -18,6 +18,7 @@ royal_artillery = {
 	range = 8
 	defense = 2
 	movement = 2
+	required_technology = siege_engineering
 }
 
 artillery = {

@@ -3,3 +3,13 @@ mine_engineering = {
 	category = army
 	portrait = engineering
 }
+
+modern_fortifications = {
+	name = "Modern Fortifications"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		siege_engineering
+		university
+	}
+}

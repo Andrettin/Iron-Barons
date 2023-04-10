@@ -8,6 +8,16 @@ weapon_craftsmanship = {
 	}
 }
 
+flintlock_rifle = {
+	name = "Flintlock Rifle"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		improved_infantry_tactics
+		crucible_process
+	}
+}
+
 explosives = {
 	name = "Explosives"
 	category = army
@@ -15,5 +25,25 @@ explosives = {
 	prerequisites = {
 		weapon_craftsmanship
 		industrial_machinery
+	}
+}
+
+bessemer_converter = {
+	name = "Bessemer Converter"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		crucible_process
+	}
+}
+
+long_range_rifle = {
+	name = "Long Range Rifle"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		flintlock_rifle
+		modern_military_funding
+		bessemer_converter
 	}
 }
