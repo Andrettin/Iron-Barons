@@ -1,0 +1,36 @@
+cotton = {
+	name = "Cotton"
+	category = gathering
+	portrait = engineering
+	discovery = true
+}
+
+cotton_planting = {
+	name = "Cotton Planting"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		cotton
+	}
+}
+
+large_cotton_plantations = {
+	name = "Large Cotton Plantations"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		cotton_planting
+	}
+}
+
+cotton_gin = {
+	name = "Cotton Gin"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		large_cotton_plantations
+		trained_journeymen
+		#engineering
+		#scientific_method
+	}
+}
