@@ -22,26 +22,3 @@ iron_plow = {
 		iron_tipped_wood_plow
 	}
 }
-
-seed_drill = {
-	name = "Seed Drill"
-	category = gathering
-	portrait = engineering
-	prerequisites = {
-		iron_plow
-		engineering
-		scientific_method
-	}
-}
-
-moldboard_plow = {
-	name = "Moldboard Plow"
-	category = gathering
-	portrait = engineering
-	prerequisites = {
-		iron_plow
-		crucible_process
-		engineering
-		scientific_method
-	}
-}

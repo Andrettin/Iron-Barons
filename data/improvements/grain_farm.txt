@@ -13,6 +13,7 @@ grain_estate = {
 	output_multiplier = 2
 	variation_count = 4
 	required_improvement = grain_farm
+	required_technology = land_enclosure
 }
 
 mechanized_grain_estate = {
@@ -23,4 +24,14 @@ mechanized_grain_estate = {
 	variation_count = 4
 	required_improvement = grain_estate
 	required_technology = seed_drill
+}
+
+industrial_grain_estate = {
+	name = "Industrial Grain Estate"
+	resource = grain
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_multiplier = 4
+	variation_count = 4
+	required_improvement = grain_estate
+	required_technology = moldboard_plow
 }

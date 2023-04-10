@@ -1,0 +1,30 @@
+land_enclosure = {
+	name = "Land Enclosure"
+	category = gathering
+	portrait = engineering
+}
+
+seed_drill = {
+	name = "Seed Drill"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		land_enclosure
+		#iron_plow
+		#engineering
+		#scientific_method
+	}
+}
+
+moldboard_plow = {
+	name = "Moldboard Plow"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		seed_drill
+		#iron_plow
+		#crucible_process
+		#engineering
+		#scientific_method
+	}
+}
