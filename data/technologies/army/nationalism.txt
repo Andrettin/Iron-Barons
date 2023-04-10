@@ -1,0 +1,13 @@
+nationalism = {
+	name = "Nationalism"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		propaganda
+		master_artisans
+		modern_fortifications
+	}
+	modifier = {
+		deployment_limit = 2
+	}
+}

@@ -6,15 +6,3 @@ rights_of_man = {
 		enlightenment_philosophy
 	}
 }
-
-nationalism = {
-	name = "Nationalism"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		rights_of_man
-	}
-	modifier = {
-		deployment_limit = 2
-	}
-}

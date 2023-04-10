@@ -1,0 +1,25 @@
+diplomatic_expertise = {
+	name = "Diplomatic Expertise"
+	category = finance
+	portrait = engineering
+}
+
+propaganda = {
+	name = "Propaganda"
+	category = finance
+	portrait = engineering
+	prerequisites = {
+		national_bureaucracy
+		university
+	}
+}
+
+empire_building = {
+	name = "Empire Building"
+	category = finance
+	portrait = engineering
+	prerequisites = {
+		nationalism
+		banking
+	}
+}

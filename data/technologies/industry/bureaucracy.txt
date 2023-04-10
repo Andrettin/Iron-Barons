@@ -3,7 +3,9 @@ national_bureaucracy = {
 	category = industry
 	portrait = engineering
 	prerequisites = {
+		diplomatic_expertise
 		moneylending
+		trade_fairs
 		printing_press
 	}
 }
