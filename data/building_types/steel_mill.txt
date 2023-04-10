@@ -1,0 +1,12 @@
+steel_mill = {
+	name = "Steel Mill"
+	building_class = steel_mill
+	portrait = factory
+	icon = steel
+	production_types = {
+		steel_making
+	}
+	base_capacity = 8
+	expandable = true
+	required_technology = crucible_process
+}
