@@ -1,4 +1,5 @@
 furs = {
 	name = "Furs"
 	icon = leather
+	required_technology = furs
 }

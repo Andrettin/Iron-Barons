@@ -1,4 +1,5 @@
 cotton = {
 	name = "Cotton"
 	icon = cotton
+	required_technology = cotton
 }
