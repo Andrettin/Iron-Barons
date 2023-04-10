@@ -16,15 +16,10 @@ Flickable {
 	}
 	
 	property var entries: []
+	property Component delegate
 	
 	Repeater {
 		model: portrait_button_tree.entries
-		delegate: TreePortraitButton {
-			onClicked: {
-				if (portrait_button_tree.on_entry_clicked) {
-					portrait_button_tree.on_entry_clicked(model.modelData)
-				}
-			}
-		}
+		delegate: portrait_button_tree.delegate
 	}
 }

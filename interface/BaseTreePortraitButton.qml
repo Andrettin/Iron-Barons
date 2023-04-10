@@ -22,6 +22,7 @@ Item {
 	property bool grayscale: false
 	property bool transparent: false
 	property bool disabled: false
+	property color border_color: "gray"
 	
 	signal clicked()
 	
@@ -36,6 +37,7 @@ Item {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		portrait_identifier: entry.portrait.identifier
+		border_color: parent.border_color
 		//grayscale: parent.grayscale
 		//transparent: parent.transparent
 		//disabled: parent.disabled

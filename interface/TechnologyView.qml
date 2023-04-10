@@ -131,11 +131,17 @@ Item {
 		anchors.right: right_infopanel.left
 		entries: metternich.get_technologies()
 		visible: technology_view.mode === TechnologyView.Mode.TechTree
-		
-		function on_entry_clicked(technology) {
-			technology_dialog.title = technology.name
-			technology_dialog.modifier_string = technology.get_effects_string(metternich.game.player_country)
-			technology_dialog.open()
+		delegate: TreePortraitButton {
+			border_color: country_game_data.current_research === technology ? "white" : "gray"
+			
+			readonly property var technology: model.modelData
+			
+			onClicked: {
+				technology_dialog.title = technology.name
+				technology_dialog.modifier_string = technology.get_effects_string(metternich.game.player_country)
+				technology_dialog.description = technology.description
+				technology_dialog.open()
+			}
 		}
 	}
 	
