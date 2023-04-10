@@ -1,28 +1,9 @@
-bayonet = {
-	name = "Bayonet"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		gunpowder
-		engineering
-	}
-}
-
 breech_loading_rifle = {
 	name = "Breech-Loading Rifle"
 	category = army
 	portrait = engineering
 	prerequisites = {
 		bayonet
-	}
-}
-
-needle_gun = {
-	name = "Needle Gun"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		breech_loading_rifle
 	}
 }
 

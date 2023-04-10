@@ -18,6 +18,18 @@ flintlock_rifle = {
 	}
 }
 
+bayonet = {
+	name = "Bayonet"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		halberd
+		crucible_process
+		#gunpowder
+		#engineering
+	}
+}
+
 explosives = {
 	name = "Explosives"
 	category = army
@@ -45,5 +57,16 @@ long_range_rifle = {
 		flintlock_rifle
 		modern_military_funding
 		bessemer_converter
+	}
+}
+
+needle_gun = {
+	name = "Needle Gun"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		bayonet
+		flintlock_rifle
+		industrial_funding_of_research
 	}
 }

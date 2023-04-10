@@ -3,7 +3,7 @@ pike = {
 	category = army
 	portrait = engineering
 	prerequisites = {
-		ironworking
+		#ironworking
 	}
 }
 
@@ -13,5 +13,7 @@ halberd = {
 	portrait = engineering
 	prerequisites = {
 		pike
+		organized_regiments
+		iron_mining
 	}
 }
