@@ -3,4 +3,32 @@ amber_mine = {
 	resource = amber
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	output_multiplier = 1
+	required_technology = precious_stone_mining
+}
+
+large_amber_mine = {
+	name = "Large Amber Mine"
+	resource = amber
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 2
+	required_improvement = amber_mine
+	required_technology = large_precious_stone_mines
+}
+
+mechanized_amber_mine = {
+	name = "Mechanized Amber Mine"
+	resource = amber
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 3
+	required_improvement = large_amber_mine
+	required_technology = geological_prospecting
+}
+
+industrial_amber_mine = {
+	name = "Industrial Amber Mine"
+	resource = amber
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 4
+	required_improvement = mechanized_amber_mine
+	required_technology = geological_prospecting
 }

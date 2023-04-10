@@ -1,6 +1,7 @@
 gems = {
 	name = "Gems"
 	commodity = gems
+	discovery_technology = precious_stones
 	terrain_types = {
 		mountains
 	}

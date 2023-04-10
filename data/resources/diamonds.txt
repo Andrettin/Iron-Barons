@@ -1,8 +1,8 @@
-amber = {
-	name = "Amber"
-	commodity = amber
+diamonds = {
+	name = "Diamonds"
+	commodity = diamonds
 	discovery_technology = precious_stones
 	terrain_types = {
-		conifer_forest
+		desert
 	}
 }

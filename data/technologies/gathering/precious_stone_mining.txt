@@ -1,0 +1,36 @@
+precious_stones = {
+	name = "Precious Stones"
+	category = gathering
+	portrait = engineering
+	discovery = true
+}
+
+precious_stone_mining = {
+	name = "Precious Stone Mining"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		precious_stones
+		mine_engineering
+	}
+}
+
+large_precious_stone_mines = {
+	name = "Large Precious Stone Mines"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		precious_stone_mining
+		university
+	}
+}
+
+geological_prospecting = {
+	name = "Geological Prospecting"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		large_precious_stone_mines
+		dynamite
+	}
+}

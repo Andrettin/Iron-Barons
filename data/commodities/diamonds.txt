@@ -1,0 +1,5 @@
+diamonds = {
+	name = "Diamonds"
+	icon = amber
+	wealth_value = 400
+}

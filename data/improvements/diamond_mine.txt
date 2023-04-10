@@ -1,0 +1,34 @@
+diamond_mine = {
+	name = "Diamond Mine"
+	resource = diamonds
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 1
+	required_technology = precious_stone_mining
+}
+
+large_diamond_mine = {
+	name = "Large Diamond Mine"
+	resource = diamonds
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 2
+	required_improvement = diamond_mine
+	required_technology = large_precious_stone_mines
+}
+
+steam_pumped_diamond_mine = {
+	name = "Steam-Pumped Diamond Mine"
+	resource = diamonds
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 3
+	required_improvement = large_diamond_mine
+	required_technology = geological_prospecting
+}
+
+industrial_diamond_mine = {
+	name = "Industrial Diamond Mine"
+	resource = diamonds
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 4
+	required_improvement = steam_pumped_diamond_mine
+	required_technology = geological_prospecting
+}
