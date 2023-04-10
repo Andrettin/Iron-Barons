@@ -7,6 +7,7 @@ harquebusiers = {
 	range = 3
 	defense = 5
 	movement = 6
+	required_technology = improved_cavalry_tactics
 }
 
 cuirassiers = {
@@ -18,6 +19,7 @@ cuirassiers = {
 	range = 3
 	defense = 5
 	movement = 9
+	required_technology = improved_cavalry_weapons
 }
 
 carbine_cavalry = {

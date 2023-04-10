@@ -3,4 +3,32 @@ sheep_ranch = {
 	resource = sheep
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 1
+	required_technology = sheep_ranching
+}
+
+improved_sheep_ranch = {
+	name = "Improved Sheep Ranch"
+	resource = sheep
+	image_filepath = "tiles/improvements/cattle_ranch.png"
+	output_multiplier = 2
+	required_improvement = sheep_ranch
+	required_technology = scientific_sheep_breeding
+}
+
+advanced_sheep_ranch = {
+	name = "Advanced Sheep Ranch"
+	resource = sheep
+	image_filepath = "tiles/improvements/cattle_ranch.png"
+	output_multiplier = 3
+	required_improvement = improved_sheep_ranch
+	required_technology = spinning_jenny
+}
+
+industrial_sheep_ranch = {
+	name = "Industrial Sheep Ranch"
+	resource = sheep
+	image_filepath = "tiles/improvements/cattle_ranch.png"
+	output_multiplier = 4
+	required_improvement = advanced_sheep_ranch
+	required_technology = spinning_jenny
 }

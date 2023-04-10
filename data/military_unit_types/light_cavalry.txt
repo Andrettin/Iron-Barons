@@ -16,6 +16,7 @@ cossacks = {
 	range = 1
 	defense = 5
 	movement = 8
+	required_technology = recruit_steppe_horsemen
 }
 
 hussars = {
@@ -27,6 +28,7 @@ hussars = {
 	range = 3
 	defense = 7
 	movement = 11
+	required_technology = hussars
 }
 
 scouts = {
@@ -38,5 +40,5 @@ scouts = {
 	range = 5
 	defense = 7
 	movement = 11
-	required_technology = bessemer_converter
+	required_technology = scouting
 }

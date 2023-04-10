@@ -7,6 +7,7 @@ horse_artillery = {
 	range = 7
 	defense = 2
 	movement = 3
+	required_technology = horse_artillery
 }
 
 light_artillery = {
@@ -18,6 +19,7 @@ light_artillery = {
 	range = 9
 	defense = 3
 	movement = 5
+	required_technology = light_artillery_tactics
 }
 
 field_artillery = {
@@ -29,5 +31,5 @@ field_artillery = {
 	range = 12
 	defense = 3
 	movement = 6
-	required_technology = rifled_artillery
+	required_technology = field_artillery_tactics
 }

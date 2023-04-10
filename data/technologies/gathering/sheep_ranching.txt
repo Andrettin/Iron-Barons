@@ -1,0 +1,31 @@
+sheep_ranching = {
+	name = "Sheep Ranching"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		crop_rotation
+	}
+}
+
+scientific_sheep_breeding = {
+	name = "Scientific Sheep Breeding"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		sheep_ranching
+		university
+		#scientific_method
+	}
+}
+
+spinning_jenny = {
+	name = "Spinning Jenny"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		scientific_sheep_breeding
+		industrial_machinery
+		#engineering
+		#scientific_method
+	}
+}

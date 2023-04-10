@@ -7,15 +7,6 @@ breech_loading_rifle = {
 	}
 }
 
-repeating_cavalry_carbine = {
-	name = "Repeating Cavalry Carbine"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		breech_loading_rifle
-	}
-}
-
 machine_gun = {
 	name = "Machine Gun"
 	category = army

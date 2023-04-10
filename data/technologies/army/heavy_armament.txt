@@ -7,3 +7,34 @@ siege_engineering = {
 		printing_press
 	}
 }
+
+horse_artillery = {
+	name = "Horse Artillery"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		animal_husbandry
+		copper_and_tin_mining
+	}
+}
+
+light_artillery_tactics = {
+	name = "Light Artillery Tactics"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		horse_artillery
+		crucible_process
+		university
+	}
+}
+
+field_artillery_tactics = {
+	name = "Field Artillery Tactics"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		light_artillery_tactics
+		modern_military_funding
+	}
+}

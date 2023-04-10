@@ -7,3 +7,13 @@ improved_infantry_tactics = {
 		printing_press
 	}
 }
+
+improved_cavalry_tactics = {
+	name = "Improved Cavalry Tactics"
+	category = army
+	portrait = helmet
+	prerequisites = {
+		animal_husbandry
+		printing_press
+	}
+}

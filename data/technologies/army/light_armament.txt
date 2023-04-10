@@ -40,10 +40,21 @@ explosives = {
 	}
 }
 
+improved_cavalry_weapons = {
+	name = "Improved Cavalry Weapons"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		improved_cavalry_tactics
+		crucible_process
+		industrial_machinery
+	}
+}
+
 bessemer_converter = {
 	name = "Bessemer Converter"
 	category = army
-	portrait = engineering
+	portrait = factory
 	prerequisites = {
 		crucible_process
 	}
@@ -67,6 +78,16 @@ needle_gun = {
 	prerequisites = {
 		bayonet
 		flintlock_rifle
+		industrial_funding_of_research
+	}
+}
+
+repeating_cavalry_carbine = {
+	name = "Repeating Cavalry Carbine"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		improved_cavalry_weapons
 		industrial_funding_of_research
 	}
 }

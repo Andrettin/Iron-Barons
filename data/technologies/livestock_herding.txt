@@ -1,15 +1,3 @@
-scientific_sheep_breeding = {
-	name = "Scientific Sheep Breeding"
-	category = gathering
-	portrait = engineering
-	prerequisites = {
-		scientific_method
-	}
-	modifier = {
-		wool_output_modifier = 100
-	}
-}
-
 feed_grasses = {
 	name = "Feed Grasses"
 	category = gathering
