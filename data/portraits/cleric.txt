@@ -1,7 +1,7 @@
 frankish_cleric = {
-	filepath = "portraits/frankish_cleric.png"
+	filepath = "portraits/characters/frankish_cleric.png"
 }
 
 frankish_cleric_with_background = {
-	filepath = "portraits/frankish_cleric_with_background.png"
+	filepath = "portraits/characters/frankish_cleric_with_background.png"
 }

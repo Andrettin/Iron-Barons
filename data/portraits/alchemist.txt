@@ -1,3 +1,3 @@
 alchemist = {
-	filepath = "portraits/alchemist.png"
+	filepath = "portraits/characters/alchemist.png"
 }

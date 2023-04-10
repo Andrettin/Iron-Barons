@@ -1,31 +1,31 @@
 building_slot = {
-	filepath = "portraits/building_slot.png"
+	filepath = "portraits/buildings/building_slot.png"
 }
 
 city = {
-	filepath = "portraits/city.png"
+	filepath = "portraits/buildings/city.png"
 }
 
 dock = {
-	filepath = "portraits/dock.png"
+	filepath = "portraits/buildings/dock.png"
 }
 
 factory = {
-	filepath = "portraits/factory.png"
+	filepath = "portraits/buildings/factory.png"
 }
 
 fort = {
-	filepath = "portraits/fort.png"
+	filepath = "portraits/buildings/fort.png"
 }
 
 town = {
-	filepath = "portraits/town.png"
+	filepath = "portraits/buildings/town.png"
 }
 
 trading_post = {
-	filepath = "portraits/trading_post.png"
+	filepath = "portraits/buildings/trading_post.png"
 }
 
 university = {
-	filepath = "portraits/university.png"
+	filepath = "portraits/buildings/university.png"
 }
