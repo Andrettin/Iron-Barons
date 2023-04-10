@@ -1,0 +1,4 @@
+cigars = {
+	name = "Cigars"
+	icon = tobacco
+}
