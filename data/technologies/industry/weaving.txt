@@ -6,3 +6,16 @@ cotton_weaving = {
 		cotton
 	}
 }
+
+spinning_jenny = {
+	name = "Spinning Jenny"
+	category = gathering
+	portrait = factory
+	prerequisites = {
+		scientific_sheep_breeding
+		industrial_machinery
+	}
+	modifier = {
+		fabric_throughput_modifier = 5
+	}
+}

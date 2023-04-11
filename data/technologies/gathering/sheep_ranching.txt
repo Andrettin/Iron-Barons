@@ -17,15 +17,3 @@ scientific_sheep_breeding = {
 		#scientific_method
 	}
 }
-
-spinning_jenny = {
-	name = "Spinning Jenny"
-	category = gathering
-	portrait = engineering
-	prerequisites = {
-		scientific_sheep_breeding
-		industrial_machinery
-		#engineering
-		#scientific_method
-	}
-}

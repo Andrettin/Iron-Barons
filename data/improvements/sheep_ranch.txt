@@ -21,7 +21,7 @@ advanced_sheep_ranch = {
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 3
 	required_improvement = improved_sheep_ranch
-	required_technology = spinning_jenny
+	required_technology = feed_grasses
 }
 
 industrial_sheep_ranch = {
@@ -30,5 +30,5 @@ industrial_sheep_ranch = {
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 4
 	required_improvement = advanced_sheep_ranch
-	required_technology = spinning_jenny
+	required_technology = feed_grasses
 }

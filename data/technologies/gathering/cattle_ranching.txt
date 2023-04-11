@@ -23,3 +23,13 @@ scientific_cattle_breeding = {
 		#scientific_method
 	}
 }
+
+feed_grasses = {
+	name = "Feed Grasses"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		scientific_cattle_breeding
+		scientific_sheep_breeding
+	}
+}
