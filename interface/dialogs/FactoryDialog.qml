@@ -101,7 +101,7 @@ BuildingDialog {
 					hoverEnabled: true
 					
 					onEntered: {
-						status_text = get_production_string(production_type)
+						status_text = get_production_formula_string(production_type)
 					}
 					
 					onExited: {
@@ -194,7 +194,34 @@ BuildingDialog {
 							}
 							
 							function update_status_text() {
-								var text = employed_capacity + " " + output_commodity.name
+								var text = ""
+								
+								var base_input_commodities = production_type.input_commodities
+								var input_commodities = building_slot.get_production_type_inputs(production_type)
+								
+								for (var i = 0; i < input_commodities.length; i++) {
+									var commodity = input_commodities[i].key
+									var quantity = input_commodities[i].value
+									var base_quantity = base_input_commodities[i].value * employed_capacity
+									
+									if (text.length > 0) {
+										text += " + "
+									}
+									
+									if (quantity !== base_quantity) {
+										text += "("
+									}
+									
+									text += base_quantity + " " + commodity.name
+									
+									if (quantity !== base_quantity) {
+										var modifier = Math.floor(100 * 100 / (100 + country_game_data.get_commodity_throughput_modifier(output_commodity)) - 100)
+										text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + quantity + " " + commodity.name 										
+										text += ")"
+									}
+								}
+								
+								text += " → " + employed_capacity + " " + output_commodity.name
 								
 								if (output_value !== employed_capacity) {
 									var modifier = country_game_data.output_modifier + country_game_data.get_commodity_output_modifier(output_commodity)
@@ -253,7 +280,7 @@ BuildingDialog {
 		}
 	}
 	
-	function get_production_string(production_type) {
+	function get_production_formula_string(production_type) {
 		var str = ""
 		
 		var input_commodities = production_type.input_commodities

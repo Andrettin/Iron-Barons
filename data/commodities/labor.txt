@@ -3,4 +3,5 @@ labor = {
 	icon = cog
 	abstract = true
 	storable = false
+	labor = true
 }
