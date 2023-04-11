@@ -9,6 +9,7 @@ Item {
 	readonly property var country_game_data: country ? country.game_data : null
 	property var new_advisor: null
 	property string status_text: ""
+	property string middle_status_text: ""
 	
 	Rectangle {
 		id: portrait_grid_view_background

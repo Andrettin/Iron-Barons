@@ -9,6 +9,7 @@ Item {
 	readonly property var country_game_data: country ? country.game_data : null
 	property string interface_style: "dwarven"
 	property string status_text: ""
+	property string middle_status_text: ""
 	
 	Rectangle {
 		id: portrait_grid_view_background
@@ -57,13 +58,19 @@ Item {
 			onEntered: {
 				if (building !== null) {
 					status_text = building.name
+					
+					if (building_slot.available_production_types.length > 0) {
+						middle_status_text = "Employed Capacity: " + building_slot.employed_capacity + "/" + building_slot.capacity
+					}
 				} else {
 					status_text = building_slot.type.name + " Slot"
+					middle_status_text = ""
 				}
 			}
 			
 			onExited: {
 				status_text = ""
+				middle_status_text = ""
 			}
 		}
 	}

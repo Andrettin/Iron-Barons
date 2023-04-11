@@ -7,6 +7,7 @@ Item {
 	id: map_view
 	
 	property string status_text: ""
+	property string middle_status_text: ""
 	property string interface_style: "dwarven"
 	readonly property int tile_size: metternich.defines.tile_size.width * scale_factor
 	readonly property real map_area_start_x: map.contentX / tile_size

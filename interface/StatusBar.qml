@@ -22,4 +22,12 @@ Rectangle {
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
 	}
+	
+	SmallText {
+		id: middle_status_label
+		text: middle_status_text
+		anchors.bottom: left_status_label.bottom
+		anchors.left: left_status_label.left
+		anchors.leftMargin: 192 * scale_factor
+	}
 }
