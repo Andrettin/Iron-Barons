@@ -1,0 +1,29 @@
+convoying = {
+	name = "Convoying"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		merchant_companies
+		improved_sea_routes
+	}
+}
+
+navigation = {
+	name = "Navigation"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		superior_hull_design
+		improved_sea_routes
+	}
+}
+
+privateering_companies = {
+	name = "Privateering Companies"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		navigation
+		diplomatic_expertise
+	}
+}

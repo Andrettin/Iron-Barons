@@ -1,16 +1,18 @@
-small_spice_plantation = {
-	name = "Small Spice Plantation"
-	resource = spices
-	image_filepath = "tiles/improvements/coffee_plantation.png"
-	output_multiplier = 1
-}
-
 spice_plantation = {
 	name = "Spice Plantation"
 	resource = spices
 	image_filepath = "tiles/improvements/coffee_plantation.png"
+	output_multiplier = 1
+	required_technology = spices
+}
+
+improved_spice_plantation = {
+	name = "Improved Spice Plantation"
+	resource = spices
+	image_filepath = "tiles/improvements/coffee_plantation.png"
 	output_multiplier = 2
-	required_improvement = small_spice_plantation
+	required_improvement = spice_plantation
+	required_technology = improved_sea_routes
 }
 
 large_spice_plantation = {
@@ -18,5 +20,15 @@ large_spice_plantation = {
 	resource = spices
 	image_filepath = "tiles/improvements/coffee_plantation.png"
 	output_multiplier = 3
-	required_improvement = spice_plantation
+	required_improvement = improved_spice_plantation
+	required_technology = large_spice_plantations
+}
+
+mechanized_spice_plantation = {
+	name = "Mechanized Spice Plantation"
+	resource = spices
+	image_filepath = "tiles/improvements/coffee_plantation.png"
+	output_multiplier = 4
+	required_improvement = large_spice_plantation
+	required_technology = improved_food_preservation
 }

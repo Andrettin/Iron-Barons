@@ -1,4 +1,5 @@
 spices = {
 	name = "Spices"
 	icon = coffee
+	required_technology = spices
 }

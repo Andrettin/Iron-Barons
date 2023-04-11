@@ -1,5 +1,0 @@
-privateering_companies = {
-	name = "Privateering Companies"
-	category = navy
-	portrait = unload
-}

@@ -18,6 +18,16 @@ horse_artillery = {
 	}
 }
 
+heavy_artillery = {
+	name = "Heavy Artillery"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		modern_fortifications
+		crucible_process
+	}
+}
+
 light_artillery_tactics = {
 	name = "Light Artillery Tactics"
 	category = army
@@ -29,6 +39,39 @@ light_artillery_tactics = {
 	}
 }
 
+heavy_emplaced_artillery = {
+	name = "Heavy Emplaced Artillery"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		siege_engineering
+		national_bureaucracy
+		road_construction
+	}
+}
+
+high_grade_steel = {
+	name = "High Grade Steel"
+	category = army
+	portrait = factory
+	prerequisites = {
+		heavy_artillery
+		modern_military_funding
+		industrial_funding_of_research
+	}
+}
+
+rifled_artillery = {
+	name = "Rifled Artillery"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		heavy_artillery
+		modern_military_funding
+		industrial_funding_of_research
+	}
+}
+
 field_artillery_tactics = {
 	name = "Field Artillery Tactics"
 	category = army
@@ -36,5 +79,15 @@ field_artillery_tactics = {
 	prerequisites = {
 		light_artillery_tactics
 		modern_military_funding
+	}
+}
+
+emplaced_siege_guns = {
+	name = "Emplaced Siege Guns"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		heavy_emplaced_artillery
+		heavy_artillery
 	}
 }

@@ -8,6 +8,7 @@ sloop = {
 	resistance = 5
 	hit_points = 25
 	movement = 4
+	required_technology = navigation
 }
 
 frigate = {
@@ -20,4 +21,18 @@ frigate = {
 	resistance = 10
 	hit_points = 35
 	movement = 4
+	required_technology = advanced_hull_design
+}
+
+raider = {
+	name = "Raider"
+	unit_class = raider
+	icon = anchor
+	firepower = 3
+	melee = 3
+	range = 7
+	resistance = 20
+	hit_points = 30
+	movement = 7
+	required_technology = paddlewheels
 }

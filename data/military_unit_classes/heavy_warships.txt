@@ -1,11 +1,17 @@
 galleon = {
 	name = "Galleon"
-	domain = land
+	domain = water
 	category = heavy_warship
 }
 
 ship_of_the_line = {
 	name = "Ship-of-the-Line"
-	domain = land
+	domain = water
+	category = heavy_warship
+}
+
+ironclad = {
+	name = "Ironclad"
+	domain = water
 	category = heavy_warship
 }

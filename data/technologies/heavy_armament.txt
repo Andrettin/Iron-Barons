@@ -1,8 +1,0 @@
-rifled_artillery = {
-	name = "Rifled Artillery"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		crucible_process
-	}
-}

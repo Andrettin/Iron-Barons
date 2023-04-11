@@ -1,6 +1,0 @@
-tobacco = {
-	name = "Tobacco"
-	category = gathering
-	portrait = engineering
-	discovery = true
-}

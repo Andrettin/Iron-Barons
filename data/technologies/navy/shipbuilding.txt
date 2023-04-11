@@ -1,0 +1,88 @@
+superior_hull_design = {
+	name = "Superior Hull Design"
+	category = navy
+	portrait = unload
+}
+
+improved_sail_design = {
+	name = "Improved Sail Design"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		superior_hull_design
+		wind_saw_mill
+	}
+}
+
+large_hulls = {
+	name = "Large Hulls"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		navigation
+		convoying
+		wind_saw_mill
+	}
+}
+
+advanced_hull_design = {
+	name = "Advanced Hull Design"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		improved_sail_design
+		privateering_companies
+		university
+	}
+}
+
+ship_of_the_line = {
+	name = "Ship-of-the-Line"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		large_hulls
+		large_copper_and_tin_mines
+	}
+}
+
+streamlined_hulls = {
+	name = "Streamlined Hulls"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		advanced_hull_design
+		circular_saw
+	}
+}
+
+paddlewheels = {
+	name = "Paddlewheels"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		advanced_hull_design
+		high_pressure_steam_engine
+	}
+}
+
+merchant_steamships = {
+	name = "Merchant Steamships"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		paddlewheels
+		riverboats
+	}
+}
+
+advanced_iron_working = {
+	name = "Advanced Iron Working"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		ship_of_the_line
+		paddlewheels
+		industrial_funding_of_research
+	}
+}

@@ -1,6 +1,7 @@
 spices = {
 	name = "Spices"
 	commodity = spices
+	discovery_technology = spices
 	terrain_types = {
 		plains
 		savannah

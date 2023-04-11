@@ -30,6 +30,7 @@ artillery = {
 	range = 11
 	defense = 2
 	movement = 3
+	required_technology = heavy_artillery
 }
 
 siege_artillery = {

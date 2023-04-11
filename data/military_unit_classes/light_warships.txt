@@ -1,11 +1,17 @@
 sloop = {
 	name = "Sloop"
-	domain = land
+	domain = water
 	category = light_warship
 }
 
 frigate = {
 	name = "Frigate"
-	domain = land
+	domain = water
+	category = light_warship
+}
+
+raider = {
+	name = "Raider"
+	domain = water
 	category = light_warship
 }

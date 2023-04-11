@@ -8,6 +8,7 @@ galleon = {
 	resistance = 15
 	hit_points = 50
 	movement = 2
+	required_technology = convoying
 }
 
 ship_of_the_line = {
@@ -20,4 +21,18 @@ ship_of_the_line = {
 	resistance = 20
 	hit_points = 65
 	movement = 3
+	required_technology = ship_of_the_line
+}
+
+ironclad = {
+	name = "Ironclad"
+	unit_class = ironclad
+	icon = anchor
+	firepower = 5
+	melee = 5
+	range = 8
+	resistance = 55
+	hit_points = 50
+	movement = 5
+	required_technology = advanced_iron_working
 }

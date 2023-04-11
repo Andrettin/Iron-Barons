@@ -1,0 +1,35 @@
+spices = {
+	name = "Spices"
+	category = gathering
+	portrait = engineering
+	discovery = true
+}
+
+improved_sea_routes = {
+	name = "Improved Sea Routes"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		spices
+	}
+}
+
+large_spice_plantations = {
+	name = "Large Spice Plantations"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		improved_sea_routes
+		seed_drill
+	}
+}
+
+improved_food_preservation = {
+	name = "Improved Food Preservation"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		large_spice_plantations
+		industrial_machinery
+	}
+}
