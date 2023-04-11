@@ -2,4 +2,5 @@ gems = {
 	name = "Gems"
 	icon = gems
 	wealth_value = 300
+	required_technology = precious_stones
 }

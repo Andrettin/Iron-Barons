@@ -15,16 +15,3 @@ ironworking = {
 		bronzeworking
 	}
 }
-
-amalgamation_process = {
-	name = "Amalgamation Process"
-	category = gathering
-	portrait = coinage
-	prerequisites = {
-		chemistry
-	}
-	modifier = {
-		silver_output_modifier = 100
-		gold_output_modifier = 100
-	}
-}

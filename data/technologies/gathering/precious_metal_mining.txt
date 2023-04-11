@@ -1,0 +1,37 @@
+precious_metals = {
+	name = "Precious Metals"
+	category = gathering
+	portrait = coinage
+	discovery = true
+}
+
+precious_metal_mining = {
+	name = "Precious Metal Mining"
+	category = gathering
+	portrait = coinage
+	prerequisites = {
+		precious_metals
+		mine_engineering
+	}
+}
+
+extraction_of_precious_metals = {
+	name = "Extraction of Precious Metals"
+	category = gathering
+	portrait = coinage
+	prerequisites = {
+		precious_metal_mining
+		university
+	}
+}
+
+amalgamation_process = {
+	name = "Amalgamation Process"
+	category = gathering
+	portrait = coinage
+	prerequisites = {
+		extraction_of_precious_metals
+		dynamite
+		#chemistry
+	}
+}

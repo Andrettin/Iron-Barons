@@ -1,6 +1,7 @@
 silver = {
 	name = "Silver"
 	commodity = silver
+	discovery_technology = precious_metals
 	terrain_types = {
 		barren_hills
 		mountains
