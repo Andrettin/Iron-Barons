@@ -3,6 +3,7 @@ tobacco = {
 	category = gathering
 	portrait = engineering
 	discovery = true
+	year = 1000
 }
 
 tobacco_planting = {

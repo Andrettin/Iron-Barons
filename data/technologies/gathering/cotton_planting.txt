@@ -3,6 +3,7 @@ cotton = {
 	category = gathering
 	portrait = engineering
 	discovery = true
+	year = 1000
 }
 
 cotton_planting = {

@@ -3,6 +3,7 @@ precious_stones = {
 	category = gathering
 	portrait = factory
 	discovery = true
+	year = 1000
 }
 
 precious_stone_mining = {

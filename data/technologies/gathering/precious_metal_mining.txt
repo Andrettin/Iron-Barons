@@ -3,6 +3,7 @@ precious_metals = {
 	category = gathering
 	portrait = coinage
 	discovery = true
+	year = 1000
 }
 
 precious_metal_mining = {

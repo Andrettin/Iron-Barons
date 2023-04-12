@@ -3,6 +3,7 @@ sugar_cane = {
 	category = gathering
 	portrait = engineering
 	discovery = true
+	year = 1000
 }
 
 sugar_planting = {
