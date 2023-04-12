@@ -1,9 +1,17 @@
+woodworking = {
+	name = "Woodworking"
+	category = gathering
+	portrait = engineering
+	year = 1000
+}
+
 saw_mill = {
 	name = "Saw Mill"
 	category = gathering
 	portrait = engineering
 	year = 1500
 	prerequisites = {
+		woodworking
 		#engineering
 	}
 }

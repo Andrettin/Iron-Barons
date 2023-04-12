@@ -3,6 +3,9 @@ mine_engineering = {
 	category = army
 	portrait = engineering
 	year = 1500
+	prerequisites = {
+		woodworking
+	}
 }
 
 modern_fortifications = {
