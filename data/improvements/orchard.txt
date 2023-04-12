@@ -3,6 +3,7 @@ orchard = {
 	resource = fruit
 	image_filepath = "tiles/improvements/orchard.png"
 	output_multiplier = 1
+	required_technology = plow
 }
 
 improved_orchard = {

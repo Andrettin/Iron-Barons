@@ -1,8 +1,18 @@
+plow = {
+	name = "Plow"
+	category = gathering
+	portrait = engineering
+	year = 1000
+}
+
 land_enclosure = {
 	name = "Land Enclosure"
 	category = gathering
 	portrait = engineering
 	year = 1500
+	prerequisites = {
+		plow
+	}
 }
 
 seed_drill = {
