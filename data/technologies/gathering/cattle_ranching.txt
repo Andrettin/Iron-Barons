@@ -1,8 +1,18 @@
+domestication = {
+	name = "Domestication"
+	category = gathering
+	portrait = engineering
+	year = 1000
+}
+
 crop_rotation = {
 	name = "Crop Rotation"
 	category = gathering
 	portrait = engineering
 	year = 1500
+	prerequisites = {
+		domestication
+	}
 }
 
 animal_husbandry = {
