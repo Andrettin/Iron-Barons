@@ -2,6 +2,7 @@ moneylending = {
 	name = "Moneylending"
 	category = finance
 	portrait = coinage
+	year = 1550
 	prerequisites = {
 		merchant_companies
 		land_enclosure
@@ -13,6 +14,7 @@ banking = {
 	name = "Banking"
 	category = finance
 	portrait = coinage
+	year = 1700
 	prerequisites = {
 		national_bureaucracy
 		trade_fairs
@@ -24,6 +26,7 @@ modern_military_funding = {
 	name = "Modern Military Funding"
 	category = finance
 	portrait = coinage
+	year = 1750
 	prerequisites = {
 		banking
 		large_precious_stone_mines
@@ -35,6 +38,7 @@ industrial_funding_of_research = {
 	name = "Industrial Funding of Research"
 	category = finance
 	portrait = coinage
+	year = 1700
 	prerequisites = {
 		industrial_machinery
 		crucible_process

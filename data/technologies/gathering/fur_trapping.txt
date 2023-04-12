@@ -9,6 +9,7 @@ improved_trapping_techniques = {
 	name = "Improved Trapping Techniques"
 	category = gathering
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		furs
 	}
@@ -18,6 +19,7 @@ riverboats = {
 	name = "Riverboats"
 	category = gathering
 	portrait = unload
+	year = 1700
 	prerequisites = {
 		improved_trapping_techniques
 		high_pressure_steam_engine
@@ -28,6 +30,7 @@ excessive_fur_harvesting = {
 	name = "Excessive Fur Harvesting"
 	category = gathering
 	portrait = engineering
+	year = 1750
 	prerequisites = {
 		riverboats
 		compound_steam_engine

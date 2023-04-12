@@ -2,6 +2,7 @@ cigar_production = {
 	name = "Cigar Production"
 	category = industry
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		tobacco
 	}

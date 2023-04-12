@@ -2,6 +2,7 @@ organized_regiments = {
 	name = "Organized Regiments"
 	category = army
 	portrait = helmet
+	year = 1550
 	prerequisites = {
 		land_enclosure
 	}

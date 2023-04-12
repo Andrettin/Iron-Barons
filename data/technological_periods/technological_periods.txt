@@ -1,0 +1,34 @@
+1500_1550 = {
+	start_year = 1500
+	end_year = 1550
+}
+
+1550_1600 = {
+	start_year = 1550
+	end_year = 1600
+}
+
+1600_1650 = {
+	start_year = 1600
+	end_year = 1650
+}
+
+1650_1700 = {
+	start_year = 1650
+	end_year = 1700
+}
+
+1700_1750 = {
+	start_year = 1700
+	end_year = 1750
+}
+
+1750_1800 = {
+	start_year = 1750
+	end_year = 1800
+}
+
+1800_1850 = {
+	start_year = 1800
+	end_year = 1850
+}

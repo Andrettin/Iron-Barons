@@ -2,6 +2,7 @@ copper_and_tin_mining = {
 	name = "Copper and Tin Mining"
 	category = gathering
 	portrait = factory
+	year = 1550
 	prerequisites = {
 		mine_engineering
 	}
@@ -11,6 +12,7 @@ large_copper_and_tin_mines = {
 	name = "Large Copper and Tin Mines"
 	category = gathering
 	portrait = factory
+	year = 1600
 	prerequisites = {
 		copper_and_tin_mining
 	}
@@ -20,6 +22,7 @@ efficient_extraction_of_copper_and_tin = {
 	name = "Efficient Extraction of Copper and Tin"
 	category = gathering
 	portrait = factory
+	year = 1700
 	prerequisites = {
 		large_copper_and_tin_mines
 		large_coal_mines

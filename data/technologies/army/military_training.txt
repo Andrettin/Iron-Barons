@@ -2,6 +2,7 @@ recruit_steppe_horsemen = {
 	name = "Recruit Steppe Horsemen"
 	category = army
 	portrait = helmet
+	year = 1550
 	prerequisites = {
 		crop_rotation
 	}
@@ -11,6 +12,7 @@ hussars = {
 	name = "Hussars"
 	category = army
 	portrait = helmet
+	year = 1650
 	prerequisites = {
 		recruit_steppe_horsemen
 		improved_cavalry_tactics
@@ -21,6 +23,7 @@ elite_military_training = {
 	name = "Elite Military Training"
 	category = army
 	portrait = helmet
+	year = 1800
 	prerequisites = {
 		explosives
 		modern_military_funding
@@ -32,6 +35,7 @@ scouting = {
 	name = "Scouting"
 	category = army
 	portrait = helmet
+	year = 1750
 	prerequisites = {
 		flintlock_rifle
 		bessemer_converter

@@ -2,6 +2,7 @@ convoying = {
 	name = "Convoying"
 	category = navy
 	portrait = unload
+	year = 1550
 	prerequisites = {
 		merchant_companies
 		improved_sea_routes
@@ -12,6 +13,7 @@ navigation = {
 	name = "Navigation"
 	category = navy
 	portrait = unload
+	year = 1550
 	prerequisites = {
 		superior_hull_design
 		improved_sea_routes
@@ -22,6 +24,7 @@ privateering_companies = {
 	name = "Privateering Companies"
 	category = navy
 	portrait = unload
+	year = 1600
 	prerequisites = {
 		navigation
 		diplomatic_expertise

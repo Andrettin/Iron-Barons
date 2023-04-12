@@ -2,6 +2,7 @@ cotton_weaving = {
 	name = "Cotton Weaving"
 	category = industry
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		cotton
 	}
@@ -11,6 +12,7 @@ spinning_jenny = {
 	name = "Spinning Jenny"
 	category = gathering
 	portrait = factory
+	year = 1700
 	prerequisites = {
 		scientific_sheep_breeding
 		industrial_machinery

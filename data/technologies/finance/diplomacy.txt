@@ -2,12 +2,14 @@ diplomatic_expertise = {
 	name = "Diplomatic Expertise"
 	category = finance
 	portrait = grand_ducal_crown
+	year = 1500
 }
 
 propaganda = {
 	name = "Propaganda"
 	category = finance
 	portrait = grand_ducal_crown
+	year = 1650
 	prerequisites = {
 		national_bureaucracy
 		university
@@ -18,6 +20,7 @@ empire_building = {
 	name = "Empire Building"
 	category = finance
 	portrait = grand_ducal_crown
+	year = 1750
 	prerequisites = {
 		nationalism
 		banking

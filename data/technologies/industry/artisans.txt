@@ -2,6 +2,7 @@ apprentice_workers = {
 	name = "Apprentice Workers"
 	category = industry
 	portrait = engineering
+	year = 1550
 	prerequisites = {
 		sugar_refining
 		land_enclosure
@@ -12,6 +13,7 @@ trained_journeymen = {
 	name = "Trained Journeymen"
 	category = industry
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		apprentice_workers
 		cigar_production
@@ -23,6 +25,7 @@ master_artisans = {
 	name = "Master Artisans"
 	category = industry
 	portrait = engineering
+	year = 1650
 	prerequisites = {
 		trained_journeymen
 		fur_hat_production

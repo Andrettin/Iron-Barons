@@ -2,12 +2,14 @@ crop_rotation = {
 	name = "Crop Rotation"
 	category = gathering
 	portrait = engineering
+	year = 1500
 }
 
 animal_husbandry = {
 	name = "Animal Husbandry"
 	category = gathering
 	portrait = engineering
+	year = 1550
 	prerequisites = {
 		crop_rotation
 	}
@@ -17,6 +19,7 @@ scientific_cattle_breeding = {
 	name = "Scientific Cattle Breeding"
 	category = gathering
 	portrait = engineering
+	year = 1650
 	prerequisites = {
 		animal_husbandry
 		university

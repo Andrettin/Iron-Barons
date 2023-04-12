@@ -2,6 +2,7 @@ university = {
 	name = "University"
 	category = finance
 	portrait = university
+	year = 1600
 	prerequisites = {
 		printing_press
 		apprentice_workers

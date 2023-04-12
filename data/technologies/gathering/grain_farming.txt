@@ -2,12 +2,14 @@ land_enclosure = {
 	name = "Land Enclosure"
 	category = gathering
 	portrait = engineering
+	year = 1500
 }
 
 seed_drill = {
 	name = "Seed Drill"
 	category = gathering
 	portrait = engineering
+	year = 1550
 	prerequisites = {
 		land_enclosure
 		#iron_plow
@@ -20,12 +22,11 @@ moldboard_plow = {
 	name = "Moldboard Plow"
 	category = gathering
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		seed_drill
 		#iron_plow
 		#crucible_process
-		#engineering
-		#scientific_method
 	}
 }
 

@@ -2,6 +2,7 @@ saw_mill = {
 	name = "Saw Mill"
 	category = gathering
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		#engineering
 	}
@@ -11,6 +12,7 @@ wind_saw_mill = {
 	name = "Wind Saw Mill"
 	category = gathering
 	portrait = engineering
+	year = 1550
 	prerequisites = {
 		saw_mill
 	}
@@ -20,6 +22,7 @@ circular_saw = {
 	name = "Circular Saw"
 	category = gathering
 	portrait = engineering
+	year = 1650
 	prerequisites = {
 		wind_saw_mill
 		university

@@ -2,12 +2,14 @@ merchant_companies = {
 	name = "Merchant Companies"
 	category = finance
 	portrait = trading_post
+	year = 1500
 }
 
 trade_fairs = {
 	name = "Trade Fairs"
 	category = finance
 	portrait = coinage
+	year = 1550
 	prerequisites = {
 		merchant_companies
 		sugar_refining

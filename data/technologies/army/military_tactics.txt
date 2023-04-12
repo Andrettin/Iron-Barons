@@ -2,6 +2,7 @@ improved_infantry_tactics = {
 	name = "Improved Infantry Tactics"
 	category = army
 	portrait = helmet
+	year = 1600
 	prerequisites = {
 		organized_regiments
 		printing_press
@@ -12,6 +13,7 @@ improved_cavalry_tactics = {
 	name = "Improved Cavalry Tactics"
 	category = army
 	portrait = helmet
+	year = 1600
 	prerequisites = {
 		animal_husbandry
 		printing_press

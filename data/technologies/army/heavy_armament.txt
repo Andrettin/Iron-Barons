@@ -2,6 +2,7 @@ siege_engineering = {
 	name = "Siege Engineering"
 	category = army
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		copper_and_tin_mining
 		printing_press
@@ -12,6 +13,7 @@ horse_artillery = {
 	name = "Horse Artillery"
 	category = army
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		animal_husbandry
 		copper_and_tin_mining
@@ -22,6 +24,7 @@ heavy_artillery = {
 	name = "Heavy Artillery"
 	category = army
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		modern_fortifications
 		crucible_process
@@ -32,6 +35,7 @@ light_artillery_tactics = {
 	name = "Light Artillery Tactics"
 	category = army
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		horse_artillery
 		crucible_process
@@ -43,6 +47,7 @@ heavy_emplaced_artillery = {
 	name = "Heavy Emplaced Artillery"
 	category = army
 	portrait = engineering
+	year = 1650
 	prerequisites = {
 		siege_engineering
 		national_bureaucracy
@@ -54,6 +59,7 @@ high_grade_steel = {
 	name = "High Grade Steel"
 	category = army
 	portrait = factory
+	year = 1800
 	prerequisites = {
 		heavy_artillery
 		modern_military_funding
@@ -65,6 +71,7 @@ rifled_artillery = {
 	name = "Rifled Artillery"
 	category = army
 	portrait = engineering
+	year = 1800
 	prerequisites = {
 		heavy_artillery
 		modern_military_funding
@@ -76,6 +83,7 @@ field_artillery_tactics = {
 	name = "Field Artillery Tactics"
 	category = army
 	portrait = engineering
+	year = 1800
 	prerequisites = {
 		light_artillery_tactics
 		modern_military_funding
@@ -86,6 +94,7 @@ emplaced_siege_guns = {
 	name = "Emplaced Siege Guns"
 	category = army
 	portrait = engineering
+	year = 1750
 	prerequisites = {
 		heavy_emplaced_artillery
 		heavy_artillery

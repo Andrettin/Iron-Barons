@@ -9,6 +9,7 @@ sugar_planting = {
 	name = "Sugar Planting"
 	category = gathering
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		sugar_cane
 	}
@@ -18,6 +19,7 @@ large_sugar_plantations = {
 	name = "Large Sugar Plantations"
 	category = gathering
 	portrait = engineering
+	year = 1550
 	prerequisites = {
 		sugar_planting
 	}
@@ -27,6 +29,7 @@ sugar_industry = {
 	name = "Sugar Industry"
 	category = gathering
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		large_sugar_plantations
 		#engineering

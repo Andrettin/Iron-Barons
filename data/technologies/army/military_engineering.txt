@@ -2,12 +2,14 @@ mine_engineering = {
 	name = "Mine Engineering"
 	category = army
 	portrait = engineering
+	year = 1500
 }
 
 modern_fortifications = {
 	name = "Modern Fortifications"
 	category = army
 	portrait = fort
+	year = 1650
 	prerequisites = {
 		siege_engineering
 		university

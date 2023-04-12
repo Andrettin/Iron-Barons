@@ -9,6 +9,7 @@ precious_metal_mining = {
 	name = "Precious Metal Mining"
 	category = gathering
 	portrait = coinage
+	year = 1550
 	prerequisites = {
 		precious_metals
 		mine_engineering
@@ -19,6 +20,7 @@ extraction_of_precious_metals = {
 	name = "Extraction of Precious Metals"
 	category = gathering
 	portrait = coinage
+	year = 1650
 	prerequisites = {
 		precious_metal_mining
 		university
@@ -29,6 +31,7 @@ amalgamation_process = {
 	name = "Amalgamation Process"
 	category = gathering
 	portrait = coinage
+	year = 1800
 	prerequisites = {
 		extraction_of_precious_metals
 		dynamite

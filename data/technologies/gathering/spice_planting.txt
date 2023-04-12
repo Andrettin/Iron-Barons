@@ -9,6 +9,7 @@ improved_sea_routes = {
 	name = "Improved Sea Routes"
 	category = gathering
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		spices
 	}
@@ -18,6 +19,7 @@ large_spice_plantations = {
 	name = "Large Spice Plantations"
 	category = gathering
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		improved_sea_routes
 		seed_drill
@@ -28,6 +30,7 @@ improved_food_preservation = {
 	name = "Improved Food Preservation"
 	category = gathering
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		large_spice_plantations
 		industrial_machinery

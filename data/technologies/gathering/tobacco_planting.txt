@@ -9,6 +9,7 @@ tobacco_planting = {
 	name = "Tobacco Planting"
 	category = gathering
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		tobacco
 	}
@@ -18,6 +19,7 @@ large_tobacco_plantations = {
 	name = "Large Tobacco Plantations"
 	category = gathering
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		tobacco_planting
 		seed_drill
@@ -28,6 +30,7 @@ tobacco_industry = {
 	name = "Tobacco Industry"
 	category = gathering
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		large_tobacco_plantations
 		high_pressure_steam_engine

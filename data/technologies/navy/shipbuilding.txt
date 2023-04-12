@@ -2,12 +2,14 @@ superior_hull_design = {
 	name = "Superior Hull Design"
 	category = navy
 	portrait = unload
+	year = 1500
 }
 
 improved_sail_design = {
 	name = "Improved Sail Design"
 	category = navy
 	portrait = unload
+	year = 1600
 	prerequisites = {
 		superior_hull_design
 		wind_saw_mill
@@ -18,6 +20,7 @@ large_hulls = {
 	name = "Large Hulls"
 	category = navy
 	portrait = unload
+	year = 1600
 	prerequisites = {
 		navigation
 		convoying
@@ -29,6 +32,7 @@ advanced_hull_design = {
 	name = "Advanced Hull Design"
 	category = navy
 	portrait = unload
+	year = 1650
 	prerequisites = {
 		improved_sail_design
 		privateering_companies
@@ -40,6 +44,7 @@ ship_of_the_line = {
 	name = "Ship-of-the-Line"
 	category = navy
 	portrait = unload
+	year = 1650
 	prerequisites = {
 		large_hulls
 		large_copper_and_tin_mines
@@ -50,6 +55,7 @@ streamlined_hulls = {
 	name = "Streamlined Hulls"
 	category = navy
 	portrait = unload
+	year = 1700
 	prerequisites = {
 		advanced_hull_design
 		circular_saw
@@ -60,6 +66,7 @@ paddlewheels = {
 	name = "Paddlewheels"
 	category = navy
 	portrait = unload
+	year = 1700
 	prerequisites = {
 		advanced_hull_design
 		high_pressure_steam_engine
@@ -70,6 +77,7 @@ merchant_steamships = {
 	name = "Merchant Steamships"
 	category = navy
 	portrait = unload
+	year = 1750
 	prerequisites = {
 		paddlewheels
 		riverboats
@@ -80,6 +88,7 @@ advanced_iron_working = {
 	name = "Advanced Iron Working"
 	category = navy
 	portrait = unload
+	year = 1750
 	prerequisites = {
 		ship_of_the_line
 		paddlewheels

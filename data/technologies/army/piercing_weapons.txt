@@ -11,6 +11,7 @@ halberd = {
 	name = "Halberd"
 	category = army
 	portrait = helmet
+	year = 1600
 	prerequisites = {
 		pike
 		organized_regiments

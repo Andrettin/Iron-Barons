@@ -2,6 +2,7 @@ sugar_refining = {
 	name = "Sugar Refining"
 	category = industry
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		sugar_cane
 	}

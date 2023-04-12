@@ -9,6 +9,7 @@ precious_stone_mining = {
 	name = "Precious Stone Mining"
 	category = gathering
 	portrait = factory
+	year = 1550
 	prerequisites = {
 		precious_stones
 		mine_engineering
@@ -19,6 +20,7 @@ large_precious_stone_mines = {
 	name = "Large Precious Stone Mines"
 	category = gathering
 	portrait = factory
+	year = 1650
 	prerequisites = {
 		precious_stone_mining
 		university
@@ -29,6 +31,7 @@ geological_prospecting = {
 	name = "Geological Prospecting"
 	category = gathering
 	portrait = factory
+	year = 1800
 	prerequisites = {
 		large_precious_stone_mines
 		dynamite

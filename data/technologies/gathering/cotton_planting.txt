@@ -9,6 +9,7 @@ cotton_planting = {
 	name = "Cotton Planting"
 	category = gathering
 	portrait = engineering
+	year = 1500
 	prerequisites = {
 		cotton
 	}
@@ -18,6 +19,7 @@ large_cotton_plantations = {
 	name = "Large Cotton Plantations"
 	category = gathering
 	portrait = engineering
+	year = 1550
 	prerequisites = {
 		cotton_planting
 	}
@@ -27,6 +29,7 @@ cotton_gin = {
 	name = "Cotton Gin"
 	category = gathering
 	portrait = engineering
+	year = 1650
 	prerequisites = {
 		large_cotton_plantations
 		trained_journeymen

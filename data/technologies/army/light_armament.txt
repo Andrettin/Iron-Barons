@@ -2,6 +2,7 @@ weapon_craftsmanship = {
 	name = "Weapon Craftsmanship"
 	category = army
 	portrait = engineering
+	year = 1600
 	prerequisites = {
 		organized_regiments
 		copper_and_tin_mining
@@ -12,6 +13,7 @@ flintlock_rifle = {
 	name = "Flintlock Rifle"
 	category = army
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		improved_infantry_tactics
 		crucible_process
@@ -22,6 +24,7 @@ bayonet = {
 	name = "Bayonet"
 	category = army
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		halberd
 		crucible_process
@@ -34,6 +37,7 @@ explosives = {
 	name = "Explosives"
 	category = army
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		weapon_craftsmanship
 		industrial_machinery
@@ -44,6 +48,7 @@ improved_cavalry_weapons = {
 	name = "Improved Cavalry Weapons"
 	category = army
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		improved_cavalry_tactics
 		crucible_process
@@ -64,6 +69,7 @@ long_range_rifle = {
 	name = "Long Range Rifle"
 	category = army
 	portrait = engineering
+	year = 1800
 	prerequisites = {
 		flintlock_rifle
 		modern_military_funding
@@ -86,6 +92,7 @@ repeating_cavalry_carbine = {
 	name = "Repeating Cavalry Carbine"
 	category = army
 	portrait = engineering
+	year = 1750
 	prerequisites = {
 		improved_cavalry_weapons
 		industrial_funding_of_research

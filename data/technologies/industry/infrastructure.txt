@@ -2,6 +2,7 @@ road_construction = {
 	name = "Road Construction"
 	category = industry
 	portrait = engineering
+	year = 1600
 	#required for roads
 	prerequisites = {
 		saw_mill
@@ -14,6 +15,7 @@ high_pressure_steam_engine = {
 	name = "High Pressure Steam Engine"
 	category = industry
 	portrait = engineering
+	year = 1650
 	#required for railroads
 	prerequisites = {
 		road_construction
@@ -34,6 +36,7 @@ compound_steam_engine = {
 	name = "Compound Steam Engine"
 	category = industry
 	portrait = engineering
+	year = 1700
 	prerequisites = {
 		iron_railroad_bridge
 		crucible_process
@@ -44,6 +47,7 @@ dynamite = {
 	name = "Dynamite"
 	category = industry
 	portrait = engineering
+	year = 1750
 	prerequisites = {
 		compound_steam_engine
 		square_set_timbering
