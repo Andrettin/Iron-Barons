@@ -33,3 +33,15 @@ carbine_cavalry = {
 	movement = 9
 	required_technology = repeating_cavalry_carbine
 }
+
+armor = {
+	name = "Armor"
+	unit_class = armor
+	icon = cuirassiers
+	firepower = 45
+	melee = 60
+	range = 12
+	defense = 20
+	movement = 9
+	required_technology = internal_combustion
+}

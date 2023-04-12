@@ -1,0 +1,34 @@
+oil_rig = {
+	name = "Oil Rig"
+	resource = oil
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 1
+	required_technology = oil_drilling
+}
+
+improved_oil_rig = {
+	name = "Improved Oil Rig"
+	resource = oil
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 2
+	required_improvement = oil_rig
+	required_technology = oil_drilling
+}
+
+advanced_oil_rig = {
+	name = "Advanced Oil Rig"
+	resource = oil
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 3
+	required_improvement = improved_oil_rig
+	required_technology = chemistry
+}
+
+industrial_oil_rig = {
+	name = "Industrial Oil Rig"
+	resource = oil
+	image_filepath = "tiles/improvements/quarry.png"
+	output_multiplier = 4
+	required_improvement = advanced_oil_rig
+	required_technology = internal_combustion
+}

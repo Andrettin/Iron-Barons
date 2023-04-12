@@ -44,3 +44,15 @@ siege_artillery = {
 	movement = 3
 	required_technology = rifled_artillery
 }
+
+railroad_guns = {
+	name = "Railroad Guns"
+	unit_class = railroad_guns
+	icon = rifle_infantry_light
+	firepower = 50
+	melee = 12
+	range = 17
+	defense = 20
+	movement = 3
+	required_technology = large_artillery
+}

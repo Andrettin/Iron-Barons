@@ -15,3 +15,15 @@ ironclad = {
 	domain = water
 	category = heavy_warship
 }
+
+advanced_ironclad = {
+	name = "Advanced Ironclad"
+	domain = water
+	category = heavy_warship
+}
+
+dreadnought = {
+	name = "Dreadnought"
+	domain = water
+	category = heavy_warship
+}

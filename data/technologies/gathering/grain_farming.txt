@@ -28,3 +28,12 @@ moldboard_plow = {
 		#scientific_method
 	}
 }
+
+mechanical_reaper = {
+	name = "Mechanical Reaper"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		moldboard_plow
+	}
+}

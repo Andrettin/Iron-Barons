@@ -21,3 +21,9 @@ siege_artillery = {
 	domain = land
 	category = heavy_artillery
 }
+
+railroad_guns = {
+	name = "Railroad Guns"
+	domain = land
+	category = heavy_artillery
+}

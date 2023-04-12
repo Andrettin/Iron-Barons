@@ -18,3 +18,15 @@ combat_engineers = {
 	entrench = true
 	required_technology = bessemer_converter
 }
+
+saboteurs = {
+	name = "Saboteurs"
+	unit_class = saboteurs
+	icon = rifle_infantry_light
+	range = 10
+	defense = 10
+	movement = 5
+	entrench = true
+	entrench_bonus = 2
+	required_technology = machine_gun
+}

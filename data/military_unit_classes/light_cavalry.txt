@@ -21,3 +21,9 @@ scouts = {
 	domain = land
 	category = light_cavalry
 }
+
+mechanized_infantry = {
+	name = "Mechanized Infantry"
+	domain = land
+	category = light_cavalry
+}

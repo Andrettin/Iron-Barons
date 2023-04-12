@@ -1,0 +1,8 @@
+commercial_fertilizer = {
+	name = "Commercial Fertilizer"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		moldboard_plow
+	}
+}

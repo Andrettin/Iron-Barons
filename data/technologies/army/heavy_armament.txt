@@ -91,3 +91,12 @@ emplaced_siege_guns = {
 		heavy_artillery
 	}
 }
+
+large_artillery = {
+	name = "Large Artillery"
+	category = army
+	portrait = engineering
+	prerequisites = {
+		rifled_artillery
+	}
+}

@@ -31,5 +31,19 @@ militia = {
 	defense = 4
 	movement = 4
 	entrench = true
-	required_technology = breech_loading_rifle
+	required_technology = needle_gun
+}
+
+conscripts = {
+	name = "Conscripts"
+	unit_class = conscripts
+	icon = rifle_infantry_light
+	firepower = 10
+	melee = 10
+	range = 10
+	defense = 10
+	movement = 5
+	entrench = true
+	entrench_bonus = 2
+	required_technology = machine_gun
 }

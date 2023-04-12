@@ -18,21 +18,11 @@ medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas"
 	}
 }
 
-chemistry = {
-	name = "Chemistry"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		alchemy
-		scientific_method
-	}
-}
-
 gunpowder = {
 	name = "Gunpowder"
 	category = army
 	portrait = engineering
 	prerequisites = {
-		chemistry
+		#chemistry
 	}
 }

@@ -86,3 +86,30 @@ advanced_iron_working = {
 		industrial_funding_of_research
 	}
 }
+
+steel_armor_plate = {
+	name = "Steel Armor Plate"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		advanced_iron_working
+	}
+}
+
+marine_engineering = {
+	name = "Marine Engineering"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		steel_armor_plate
+	}
+}
+
+improved_range_finding = {
+	name = "Improved Range-Finding"
+	category = navy
+	portrait = unload
+	prerequisites = {
+		marine_engineering
+	}
+}

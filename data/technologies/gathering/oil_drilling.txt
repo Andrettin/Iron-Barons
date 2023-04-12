@@ -1,0 +1,24 @@
+oil_drilling = {
+	name = "Oil Drilling"
+	category = gathering
+	portrait = factory
+}
+
+chemistry = {
+	name = "Chemistry"
+	category = gathering
+	portrait = factory
+	prerequisites = {
+		oil_drilling
+		barbed_wire
+	}
+}
+
+internal_combustion = {
+	name = "Internal Combustion"
+	category = gathering
+	portrait = factory
+	prerequisites = {
+		chemistry
+	}
+}

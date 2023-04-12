@@ -33,3 +33,15 @@ field_artillery = {
 	movement = 6
 	required_technology = field_artillery_tactics
 }
+
+mobile_artillery = {
+	name = "Mobile Artillery"
+	unit_class = mobile_artillery
+	icon = rifle_infantry_light
+	firepower = 25
+	melee = 8
+	range = 15
+	defense = 20
+	movement = 8
+	required_technology = large_artillery
+}

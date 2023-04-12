@@ -5,11 +5,29 @@ orchard = {
 	output_multiplier = 1
 }
 
-mechanized_orchard = {
-	name = "Mechanized Orchard"
+improved_orchard = {
+	name = "Improved Orchard"
 	resource = fruit
 	image_filepath = "tiles/improvements/orchard.png"
 	output_multiplier = 2
 	required_improvement = orchard
 	required_technology = seed_drill
+}
+
+mechanized_orchard = {
+	name = "Mechanized Orchard"
+	resource = fruit
+	image_filepath = "tiles/improvements/orchard.png"
+	output_multiplier = 3
+	required_improvement = improved_orchard
+	required_technology = moldboard_plow
+}
+
+industrial_orchard = {
+	name = "Industrial Orchard"
+	resource = fruit
+	image_filepath = "tiles/improvements/orchard.png"
+	output_multiplier = 4
+	required_improvement = mechanized_orchard
+	required_technology = commercial_fertilizer
 }

@@ -18,8 +18,6 @@ high_pressure_steam_engine = {
 	prerequisites = {
 		road_construction
 		steam_in_mining
-		#engineering
-		#scientific_method
 	}
 }
 
@@ -38,6 +36,7 @@ compound_steam_engine = {
 	portrait = engineering
 	prerequisites = {
 		iron_railroad_bridge
+		crucible_process
 	}
 }
 

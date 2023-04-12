@@ -36,3 +36,29 @@ ironclad = {
 	movement = 5
 	required_technology = advanced_iron_working
 }
+
+advanced_ironclad = {
+	name = "Advanced Ironclad"
+	unit_class = advanced_ironclad
+	icon = anchor
+	firepower = 10
+	melee = 10
+	range = 10
+	resistance = 60
+	hit_points = 70
+	movement = 6
+	required_technology = steel_armor_plate
+}
+
+dreadnought = {
+	name = "Dreadnought"
+	unit_class = dreadnought
+	icon = anchor
+	firepower = 20
+	melee = 20
+	range = 13
+	resistance = 70
+	hit_points = 115
+	movement = 7
+	required_technology = improved_range_finding
+}

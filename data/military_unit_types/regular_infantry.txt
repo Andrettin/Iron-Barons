@@ -58,3 +58,17 @@ rifle_infantry = {
 	entrench = true
 	required_technology = needle_gun
 }
+
+infantry = {
+	name = "Infantry"
+	unit_class = infantry
+	icon = rifle_infantry_light
+	firepower = 22
+	melee = 22
+	range = 10
+	defense = 20
+	movement = 5
+	entrench = true
+	entrench_bonus = 5
+	required_technology = machine_gun
+}

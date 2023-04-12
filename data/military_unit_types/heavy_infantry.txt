@@ -48,3 +48,17 @@ guards = {
 	entrench = true
 	required_technology = elite_military_training
 }
+
+machine_gunners = {
+	name = "Machine Gunners"
+	unit_class = machine_gunners
+	icon = rifle_infantry_light
+	firepower = 25
+	melee = 25
+	range = 10
+	defense = 20
+	movement = 4
+	entrench = true
+	entrench_bonus = 5
+	required_technology = machine_gun
+}

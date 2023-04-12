@@ -36,3 +36,29 @@ raider = {
 	movement = 7
 	required_technology = paddlewheels
 }
+
+armored_cruiser = {
+	name = "Armored Cruiser"
+	unit_class = armored_cruiser
+	icon = anchor
+	firepower = 6
+	melee = 6
+	range = 9
+	resistance = 50
+	hit_points = 40
+	movement = 8
+	required_technology = marine_engineering
+}
+
+battlecruiser = {
+	name = "Battlecruiser"
+	unit_class = battlecruiser
+	icon = anchor
+	firepower = 18
+	melee = 18
+	range = 13
+	resistance = 55
+	hit_points = 90
+	movement = 9
+	required_technology = improved_range_finding
+}

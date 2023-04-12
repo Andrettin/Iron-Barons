@@ -15,3 +15,15 @@ raider = {
 	domain = water
 	category = light_warship
 }
+
+armored_cruiser = {
+	name = "Armored Cruiser"
+	domain = water
+	category = light_warship
+}
+
+battlecruiser = {
+	name = "Battlecruiser"
+	domain = water
+	category = light_warship
+}

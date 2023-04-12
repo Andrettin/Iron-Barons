@@ -33,3 +33,12 @@ feed_grasses = {
 		scientific_sheep_breeding
 	}
 }
+
+barbed_wire = {
+	name = "Barbed Wire"
+	category = gathering
+	portrait = engineering
+	prerequisites = {
+		feed_grasses
+	}
+}

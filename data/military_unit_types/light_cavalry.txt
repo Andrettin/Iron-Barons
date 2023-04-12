@@ -42,3 +42,17 @@ scouts = {
 	movement = 11
 	required_technology = scouting
 }
+
+mechanized_infantry = {
+	name = "Mechanized Infantry"
+	unit_class = mechanized_infantry
+	icon = cuirassiers
+	firepower = 22
+	melee = 28
+	range = 10
+	defense = 10
+	movement = 11
+	entrench = true
+	entrench_bonus = 2
+	required_technology = internal_combustion
+}

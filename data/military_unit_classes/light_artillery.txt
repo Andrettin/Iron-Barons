@@ -15,3 +15,9 @@ field_artillery = {
 	domain = land
 	category = light_artillery
 }
+
+mobile_artillery = {
+	name = "Mobile Artillery"
+	domain = land
+	category = light_artillery
+}

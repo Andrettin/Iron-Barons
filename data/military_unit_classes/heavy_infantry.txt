@@ -21,3 +21,9 @@ guards = {
 	domain = land
 	category = heavy_infantry
 }
+
+machine_gunners = {
+	name = "Machine Gunners"
+	domain = land
+	category = heavy_infantry
+}

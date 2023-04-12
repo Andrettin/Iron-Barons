@@ -1,0 +1,4 @@
+oil = {
+	name = "Oil"
+	icon = coal
+}

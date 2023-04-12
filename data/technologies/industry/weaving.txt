@@ -14,6 +14,19 @@ spinning_jenny = {
 	prerequisites = {
 		scientific_sheep_breeding
 		industrial_machinery
+		feed_grasses
+	}
+	modifier = {
+		fabric_throughput_modifier = 5
+	}
+}
+
+power_loom = {
+	name = "Power Loom"
+	category = gathering
+	portrait = factory
+	prerequisites = {
+		spinning_jenny
 	}
 	modifier = {
 		fabric_throughput_modifier = 5

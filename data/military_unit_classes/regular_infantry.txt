@@ -27,3 +27,9 @@ rifle_infantry = {
 	domain = land
 	category = regular_infantry
 }
+
+infantry = {
+	name = "Infantry"
+	domain = land
+	category = regular_infantry
+}
