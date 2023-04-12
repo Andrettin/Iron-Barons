@@ -3,6 +3,9 @@ diplomatic_expertise = {
 	category = finance
 	portrait = grand_ducal_crown
 	year = 1500
+	prerequisites = {
+		woodworking
+	}
 }
 
 propaganda = {

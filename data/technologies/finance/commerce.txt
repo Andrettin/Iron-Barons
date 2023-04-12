@@ -3,6 +3,9 @@ merchant_companies = {
 	category = finance
 	portrait = trading_post
 	year = 1500
+	prerequisites = {
+		woodworking
+	}
 }
 
 trade_fairs = {

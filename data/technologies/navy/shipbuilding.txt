@@ -3,6 +3,9 @@ superior_hull_design = {
 	category = navy
 	portrait = unload
 	year = 1500
+	prerequisites = {
+		woodworking
+	}
 }
 
 improved_sail_design = {
