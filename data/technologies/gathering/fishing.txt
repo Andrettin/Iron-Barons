@@ -1,6 +1,0 @@
-fishing = {
-	name = "Fishing"
-	category = gathering
-	portrait = dock
-	year = 1000
-}
