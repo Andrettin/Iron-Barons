@@ -5,7 +5,6 @@ mine_engineering = {
 	year = 1500
 	prerequisites = {
 		woodworking
-		scientific_method
 	}
 }
 

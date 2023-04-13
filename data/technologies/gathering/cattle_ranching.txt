@@ -12,7 +12,6 @@ crop_rotation = {
 	year = 1500
 	prerequisites = {
 		domestication
-		rooting_out
 	}
 }
 

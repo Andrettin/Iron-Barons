@@ -3,11 +3,7 @@ cotton = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1400
-	prerequisites = {
-		pitchforks_and_harrows
-		soil_amelioration
-	}
+	year = 1000
 }
 
 cotton_planting = {
@@ -17,8 +13,6 @@ cotton_planting = {
 	year = 1500
 	prerequisites = {
 		cotton
-		padded_horse_collar
-		rooting_out
 	}
 }
 

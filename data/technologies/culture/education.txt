@@ -1,40 +1,3 @@
-seven_liberal_arts = {
-	name = "Seven Liberal Arts"
-	category = culture
-	portrait = university
-	year = 1000
-	modifier = {
-		research_output_modifier = 5
-	}
-}
-
-monastic_schools = {
-	name = "Monastic Schools"
-	category = culture
-	portrait = university
-	year = 1100
-	prerequisites = {
-		seven_liberal_arts
-	}
-	modifier = {
-		research_output_modifier = 5
-	}
-}
-
-cathedral_schools = {
-	name = "Cathedral Schools"
-	category = culture
-	portrait = university
-	year = 1200
-	prerequisites = {
-		monastic_schools
-		chronicle_writing
-	}
-	modifier = {
-		research_output_modifier = 5
-	}
-}
-
 university = {
 	name = "University"
 	category = culture
@@ -45,20 +8,5 @@ university = {
 		apprentice_workers
 		moneylending
 		#philosophy
-	}
-}
-
-academic_disciplines = {
-	name = "Academic Disciplines"
-	category = culture
-	portrait = university
-	year = 1400
-	prerequisites = {
-		cathedral_schools
-		#university
-		natural_philosophy
-	}
-	modifier = {
-		research_output_modifier = 5
 	}
 }

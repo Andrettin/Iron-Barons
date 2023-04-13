@@ -1,28 +1,10 @@
-longspear = {
-	name = "Longspear"
-	category = army
-	portrait = helmet
-	year = 1000
-}
-
 pike = {
 	name = "Pike"
 	category = army
 	portrait = helmet
-	year = 1100
+	year = 1000
 	prerequisites = {
-		longspear
 		#ironworking
-	}
-}
-
-lance = {
-	name = "Lance"
-	category = army
-	portrait = helmet
-	year = 1200
-	prerequisites = {
-		pike
 	}
 }
 

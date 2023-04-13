@@ -5,6 +5,5 @@ organized_regiments = {
 	year = 1550
 	prerequisites = {
 		land_enclosure
-		lance
 	}
 }

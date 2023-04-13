@@ -1,0 +1,11 @@
+printing_press = {
+	name = "Printing Press"
+	category = culture
+	portrait = engineering
+	year = 1550
+	prerequisites = {
+		saw_mill
+		#engineering
+		#scientific_method
+	}
+}

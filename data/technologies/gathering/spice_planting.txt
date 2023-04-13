@@ -3,11 +3,7 @@ spices = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1400
-	prerequisites = {
-		pitchforks_and_harrows
-		soil_amelioration
-	}
+	year = 1000
 }
 
 improved_sea_routes = {
@@ -17,8 +13,6 @@ improved_sea_routes = {
 	year = 1500
 	prerequisites = {
 		spices
-		padded_horse_collar
-		rooting_out
 	}
 }
 

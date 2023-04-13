@@ -12,7 +12,7 @@ saw_mill = {
 	year = 1500
 	prerequisites = {
 		woodworking
-		scientific_method
+		#engineering
 	}
 }
 

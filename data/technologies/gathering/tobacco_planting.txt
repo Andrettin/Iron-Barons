@@ -3,11 +3,7 @@ tobacco = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1400
-	prerequisites = {
-		pitchforks_and_harrows
-		soil_amelioration
-	}
+	year = 1000
 }
 
 tobacco_planting = {
@@ -17,8 +13,6 @@ tobacco_planting = {
 	year = 1500
 	prerequisites = {
 		tobacco
-		padded_horse_collar
-		rooting_out
 	}
 }
 

@@ -3,10 +3,7 @@ furs = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1400
-	prerequisites = {
-		natural_philosophy
-	}
+	year = 1000
 }
 
 improved_trapping_techniques = {
@@ -16,7 +13,6 @@ improved_trapping_techniques = {
 	year = 1500
 	prerequisites = {
 		furs
-		scientific_method
 	}
 }
 
