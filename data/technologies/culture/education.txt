@@ -1,6 +1,6 @@
 university = {
 	name = "University"
-	category = finance
+	category = culture
 	portrait = university
 	year = 1600
 	prerequisites = {

@@ -127,8 +127,30 @@ Rectangle {
 	}
 	
 	IconButton {
-		id: no_category_button
+		id: culture_category_button
 		anchors.top: finance_category_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "music"
+		border_color: technology_view.category === TechnologyView.Category.Culture ? "white" : "gray"
+		visible: technology_view.mode !== TechnologyView.Mode.TechTree
+		
+		onReleased: {
+			technology_view.category = TechnologyView.Category.Culture
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Culture"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: no_category_button
+		anchors.top: culture_category_button.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "university"

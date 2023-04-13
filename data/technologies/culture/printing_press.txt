@@ -1,6 +1,6 @@
 printing_press = {
 	name = "Printing Press"
-	category = finance
+	category = culture
 	portrait = engineering
 	year = 1550
 	prerequisites = {

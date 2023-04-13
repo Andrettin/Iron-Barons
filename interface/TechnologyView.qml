@@ -18,7 +18,8 @@ Item {
 		Industry,
 		Army,
 		Navy,
-		Finance
+		Finance,
+		Culture
 	}
 	
 	property int mode: TechnologyView.Mode.Available
