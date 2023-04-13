@@ -10,7 +10,7 @@ austrian_3rd_infantry_regiment = { #Source: "Almanach de Gotha pour l'année 184
 }
 
 austrian_4th_infantry_regiment = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
-	type = regulars
+	type = artillery
 	owner = austria
 	
 	history = {

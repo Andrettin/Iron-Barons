@@ -1,0 +1,3 @@
+artillery = {
+	filepath = "icons/units/troops/artillery.png"
+}
