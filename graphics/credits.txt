@@ -77,6 +77,7 @@
 /graphics/icons/units/troops/artillery.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/artillery_cannon.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/cuirassiers.png (by Jinn) (licensed under the CC0)
+/graphics/icons/units/troops/cuirassiers_ranged.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/rifle_infantry_dark.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/rifle_infantry_dark_small.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/rifle_infantry_light.png (by Jinn) (licensed under the CC0) (reference: Brazilian 1865-1868 line infantry soldiers)
