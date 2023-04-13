@@ -16,33 +16,12 @@ logics = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 
 	}
 }
 
-natural_philosophy = {
-	name = "Natural Philosophy"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		philosophy
-		mathematics
-		alchemy
-		logics
-	}
-}
-
-scientific_method = {
-	name = "Scientific Method"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		natural_philosophy
-	}
-}
-
 enlightenment_philosophy = {
 	name = "Enlightenment Philosophy"
 	category = industry
 	portrait = engineering
 	prerequisites = {
-		scientific_method
-		printing_press
+		#scientific_method
+		#printing_press
 	}
 }

@@ -1,0 +1,16 @@
+shortbow = {
+	name = "Shortbow"
+	category = army
+	portrait = helmet
+	year = 1000
+}
+
+crossbow = {
+	name = "Crossbow"
+	category = army
+	portrait = helmet
+	year = 1100
+	prerequisites = {
+		shortbow
+	}
+}

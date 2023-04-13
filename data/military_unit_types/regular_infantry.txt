@@ -7,6 +7,7 @@ spearmen = {
 	defense = 5
 	movement = 4
 	entrench = true
+	required_technology = longspear
 }
 
 pikemen = {

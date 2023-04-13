@@ -6,6 +6,7 @@ knights = {
 	range = 1
 	defense = 6
 	movement = 4
+	required_technology = lance
 }
 
 lancers = {

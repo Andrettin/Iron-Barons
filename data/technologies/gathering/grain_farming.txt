@@ -1,8 +1,114 @@
-plow = {
-	name = "Plow"
+wood_plow = {
+	name = "Wood Plow"
 	category = gathering
 	portrait = engineering
 	year = 1000
+}
+
+iron_tipped_wood_plow = {
+	name = "Iron-Tipped Wood Plow"
+	category = gathering
+	portrait = engineering
+	year = 1100
+	prerequisites = {
+		wood_plow
+		#ironworking
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
+}
+
+three_field_system = {
+	name = "Three Field System"
+	category = gathering
+	portrait = engineering
+	year = 1100
+	prerequisites = {
+		wood_plow
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
+}
+
+iron_plow = {
+	name = "Iron Plow"
+	category = gathering
+	portrait = engineering
+	year = 1200
+	prerequisites = {
+		iron_tipped_wood_plow
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
+}
+
+stripe_plowing = {
+	name = "Stripe Plowing"
+	category = gathering
+	portrait = engineering
+	year = 1200
+	prerequisites = {
+		three_field_system
+		iron_tipped_wood_plow
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
+}
+
+pitchforks_and_harrows = {
+	name = "Pitchforks and Harrows"
+	category = gathering
+	portrait = engineering
+	year = 1300
+	prerequisites = {
+		iron_plow
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
+}
+
+soil_amelioration = {
+	name = "Soil Amelioration"
+	category = gathering
+	portrait = engineering
+	year = 1300
+	prerequisites = {
+		stripe_plowing
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
+}
+
+padded_horse_collar = {
+	name = "Padded Horse Collar"
+	category = gathering
+	portrait = engineering
+	year = 1400
+	prerequisites = {
+		pitchforks_and_harrows
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
+}
+
+rooting_out = {
+	name = "Rooting Out"
+	category = gathering
+	portrait = engineering
+	year = 1400
+	prerequisites = {
+		soil_amelioration
+	}
+	modifier = {
+		grain_output_modifier = 5
+	}
 }
 
 land_enclosure = {
@@ -11,7 +117,7 @@ land_enclosure = {
 	portrait = engineering
 	year = 1500
 	prerequisites = {
-		plow
+		padded_horse_collar
 	}
 }
 

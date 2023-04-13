@@ -3,7 +3,11 @@ sugar_cane = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1000
+	year = 1400
+	prerequisites = {
+		pitchforks_and_harrows
+		soil_amelioration
+	}
 }
 
 sugar_planting = {
@@ -13,6 +17,8 @@ sugar_planting = {
 	year = 1500
 	prerequisites = {
 		sugar_cane
+		padded_horse_collar
+		rooting_out
 	}
 }
 
