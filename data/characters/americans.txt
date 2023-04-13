@@ -8,7 +8,7 @@ thomas_jefferson = {
 	gender = male
 	birth_date = 1743
 	death_date = 1826
-	required_technology = rights_of_man
+	required_technology = constitutionalism
 	advisor_modifier = {
 		civics_output_modifier = 50
 	}
@@ -24,7 +24,7 @@ john_jay = {
 	gender = male
 	birth_date = 1745
 	death_date = 1829
-	required_technology = rights_of_man
+	required_technology = constitutionalism
 	advisor_modifier = {
 		civics_output_modifier = 25
 	}

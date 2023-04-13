@@ -1,8 +1,0 @@
-rights_of_man = {
-	name = "Rights of Man"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		enlightenment_philosophy
-	}
-}
