@@ -217,7 +217,7 @@ Rectangle {
 			model: (selected_site !== null && selected_garrison) ? selected_site.game_data.province.game_data.military_unit_category_counts : []
 			
 			Item {
-				width: 80 * scale_factor
+				width: 84 * scale_factor
 				height: 72 * scale_factor
 				
 				readonly property var military_unit_category: model.modelData.key
