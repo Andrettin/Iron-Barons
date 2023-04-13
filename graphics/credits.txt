@@ -26,6 +26,8 @@
 /graphics/icons/commodities/horses_extra_2_large.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/commodities/iron.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/iron_ore.png (by Jinn) (licensed under the CC0)
+/graphics/icons/commodities/labor.png (by Jinn) (licensed under the CC0)
+/graphics/icons/commodities/labor_hammer.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/leather.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/lumber.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/paper.png (by Jinn) (licensed under the CC0)
