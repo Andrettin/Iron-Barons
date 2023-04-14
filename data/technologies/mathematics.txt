@@ -1,17 +1,8 @@
-mathematics = {
-	name = "Mathematics"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		writing
-	}
-}
-
 ballistics = {
 	name = "Ballistics"
 	category = army
 	portrait = engineering
 	prerequisites = {
-		mathematics
+		#mathematics
 	}
 }

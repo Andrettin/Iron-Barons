@@ -1,0 +1,27 @@
+niccolo_tartaglia = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
+	name = "Niccolo" #"Niccolò"
+	surname = "Tartaglia"
+	advisor_type = philosopher #mathematician
+	culture = italian
+	religion = catholic
+	home_province = lombardy
+	gender = male
+	birth_date = 1499
+	death_date = 1557
+	required_technology = cubic_equations #inventor of method to solve cubic equations
+	skill = 2
+}
+
+geronimo_cardano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
+	name = "Geronimo"
+	surname = "Cardano"
+	advisor_type = philosopher #mathematician
+	culture = italian
+	religion = catholic
+	home_province = lombardy
+	gender = male
+	birth_date = 1501
+	death_date = 1576
+	required_technology = cubic_equations #published Niccolò Tartaglia's method to solve cubic equations
+	skill = 4
+}

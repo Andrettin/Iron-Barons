@@ -2,4 +2,11 @@ italian = {
 	name = "Italian"
 	group = italian
 	color = { 142 167 80 }
+	
+	history = {
+		1535 = {
+			#method to solve cubic equations invented by the Italian Niccolò Tartaglia in 1535; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
+			technologies += cubic_equations
+		}
+	}
 }
