@@ -8,7 +8,6 @@ sawyers_house = {
 		paper_making
 	}
 	base_capacity = 2
-	required_technology = woodworking
 }
 
 sawyers_shop = {
@@ -22,7 +21,6 @@ sawyers_shop = {
 	}
 	base_capacity = 4
 	required_building = sawyers_house
-	required_technology = woodworking
 }
 
 lumber_mill = {

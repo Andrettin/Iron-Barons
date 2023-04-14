@@ -4,7 +4,7 @@ mine_engineering = {
 	portrait = engineering
 	year = 1500
 	prerequisites = {
-		woodworking
+		double_bit_axe
 	}
 }
 

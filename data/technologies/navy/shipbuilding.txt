@@ -4,8 +4,8 @@ superior_hull_design = {
 	portrait = unload
 	year = 1500
 	prerequisites = {
-		woodworking
 		gillnets
+		double_bit_axe
 	}
 }
 

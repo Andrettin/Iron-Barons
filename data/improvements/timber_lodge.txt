@@ -3,7 +3,6 @@ timber_lodge = {
 	resource = timber
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	output_multiplier = 1
-	required_technology = woodworking
 }
 
 improved_timber_lodge = {

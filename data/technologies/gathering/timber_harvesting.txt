@@ -1,8 +1,11 @@
-woodworking = {
-	name = "Woodworking"
+double_bit_axe = {
+	name = "Double-Bit Axe"
 	category = gathering
 	portrait = engineering
 	year = 1000
+	modifier = {
+		timber_output_modifier = 5
+	}
 }
 
 saw_mill = {
@@ -11,7 +14,7 @@ saw_mill = {
 	portrait = engineering
 	year = 1500
 	prerequisites = {
-		woodworking
+		double_bit_axe
 		#engineering
 	}
 }
