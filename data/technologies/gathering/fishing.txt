@@ -1,0 +1,5 @@
+gillnets = {
+	name = "Gillnets"
+	category = gathering
+	portrait = dock
+}

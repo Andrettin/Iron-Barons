@@ -5,6 +5,7 @@ superior_hull_design = {
 	year = 1500
 	prerequisites = {
 		woodworking
+		gillnets
 	}
 }
 

@@ -4,3 +4,30 @@ fishing_wharf = {
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	output_multiplier = 1
 }
+
+improved_fishing_wharf = {
+	name = "Improved Fishing Wharf"
+	resource = fish
+	image_filepath = "tiles/improvements/fishing_wharf.png"
+	output_multiplier = 2
+	required_improvement = fishing_wharf
+	required_technology = gillnets
+}
+
+advanced_fishing_wharf = {
+	name = "Advanced Fishing Wharf"
+	resource = fish
+	image_filepath = "tiles/improvements/fishing_wharf.png"
+	output_multiplier = 3
+	required_improvement = improved_fishing_wharf
+	required_technology = gillnets
+}
+
+industrial_fishing_wharf = {
+	name = "Industrial Fishing Wharf"
+	resource = fish
+	image_filepath = "tiles/improvements/fishing_wharf.png"
+	output_multiplier = 4
+	required_improvement = advanced_fishing_wharf
+	required_technology = gillnets
+}
