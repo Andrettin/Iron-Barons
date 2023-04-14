@@ -3,7 +3,6 @@ cattle_ranch = {
 	resource = cattle
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 1
-	required_technology = domestication
 }
 
 improved_cattle_ranch = {
