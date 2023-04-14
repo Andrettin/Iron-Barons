@@ -39,3 +39,14 @@ circular_saw = {
 		university
 	}
 }
+
+mechanical_saw = {
+	name = "Mechanical Saw"
+	category = gathering
+	portrait = engineering
+	year = 1800
+	prerequisites = {
+		circular_saw
+		dynamite
+	}
+}

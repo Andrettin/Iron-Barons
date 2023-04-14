@@ -11,7 +11,7 @@ improved_timber_lodge = {
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	output_multiplier = 2
 	required_improvement = timber_lodge
-	required_technology = saw_mill
+	required_technology = wind_saw_mill
 }
 
 advanced_timber_lodge = {
@@ -20,14 +20,14 @@ advanced_timber_lodge = {
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	output_multiplier = 3
 	required_improvement = improved_timber_lodge
-	required_technology = wind_saw_mill
+	required_technology = circular_saw
 }
 
-industrial_timber_lodge = {
-	name = "Industrial Timber Lodge"
+mechanized_timber_lodge = {
+	name = "Mechanized Timber Lodge"
 	resource = timber
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	output_multiplier = 4
 	required_improvement = advanced_timber_lodge
-	required_technology = circular_saw
+	required_technology = mechanical_saw
 }
