@@ -4,7 +4,6 @@ grain_farm = {
 	image_filepath = "tiles/improvements/grain_farm.png"
 	output_multiplier = 1
 	variation_count = 4
-	required_technology = plow
 }
 
 grain_estate = {

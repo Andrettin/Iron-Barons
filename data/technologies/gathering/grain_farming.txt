@@ -3,6 +3,9 @@ plow = {
 	category = gathering
 	portrait = engineering
 	year = 1000
+	modifier = {
+		grain_output_modifier = 5
+	}
 }
 
 land_enclosure = {
