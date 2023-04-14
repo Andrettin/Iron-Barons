@@ -15,7 +15,6 @@ scientific_sheep_breeding = {
 	year = 1650
 	prerequisites = {
 		sheep_ranching
-		university
-		#scientific_method
+		scientific_method
 	}
 }

@@ -29,6 +29,6 @@ master_artisans = {
 	prerequisites = {
 		trained_journeymen
 		fur_hat_production
-		university
+		scientific_method
 	}
 }

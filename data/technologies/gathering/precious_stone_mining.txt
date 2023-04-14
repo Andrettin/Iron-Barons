@@ -24,7 +24,7 @@ large_precious_stone_mines = {
 	year = 1650
 	prerequisites = {
 		precious_stone_mining
-		university
+		scientific_method
 	}
 }
 

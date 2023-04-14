@@ -15,7 +15,7 @@ propaganda = {
 	year = 1650
 	prerequisites = {
 		national_bureaucracy
-		university
+		scientific_method
 	}
 }
 

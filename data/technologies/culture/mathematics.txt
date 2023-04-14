@@ -15,6 +15,7 @@ cubic_equations = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desco
 	year = 1535
 	prerequisites = {
 		mathematics
+		university
 	}
 	modifier = {
 		research_output_modifier = 5

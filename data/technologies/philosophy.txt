@@ -28,21 +28,12 @@ natural_philosophy = {
 	}
 }
 
-scientific_method = {
-	name = "Scientific Method"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		natural_philosophy
-	}
-}
-
 enlightenment_philosophy = {
 	name = "Enlightenment Philosophy"
 	category = industry
 	portrait = engineering
 	prerequisites = {
-		scientific_method
+		#scientific_method
 		printing_press
 	}
 }

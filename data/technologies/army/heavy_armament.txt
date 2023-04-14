@@ -39,7 +39,7 @@ light_artillery_tactics = {
 	prerequisites = {
 		horse_artillery
 		crucible_process
-		university
+		scientific_method
 	}
 }
 

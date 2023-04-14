@@ -39,7 +39,7 @@ circular_saw = {
 	year = 1650
 	prerequisites = {
 		wind_saw_mill
-		university
+		scientific_method
 	}
 }
 

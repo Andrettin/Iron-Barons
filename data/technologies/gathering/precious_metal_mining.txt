@@ -24,7 +24,7 @@ extraction_of_precious_metals = {
 	year = 1650
 	prerequisites = {
 		precious_metal_mining
-		university
+		scientific_method
 	}
 }
 

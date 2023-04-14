@@ -1,3 +1,17 @@
+francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
+	name = "Francis"
+	surname = "Bacon"
+	advisor_type = philosopher
+	culture = english
+	religion = protestant
+	home_province = middlesex
+	gender = male
+	birth_date = 1561
+	death_date = 1626
+	required_technology = scientific_method #developed the scientific method
+	skill = 5
+}
+
 henry_hudson = {
 	name = "Henry"
 	surname = "Hudson"

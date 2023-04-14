@@ -25,8 +25,7 @@ scientific_cattle_breeding = {
 	year = 1650
 	prerequisites = {
 		animal_husbandry
-		university
-		#scientific_method
+		scientific_method
 	}
 }
 

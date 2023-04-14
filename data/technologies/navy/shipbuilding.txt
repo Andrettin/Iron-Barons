@@ -40,7 +40,7 @@ advanced_hull_design = {
 	prerequisites = {
 		improved_sail_design
 		privateering_companies
-		university
+		scientific_method
 	}
 }
 

@@ -2,11 +2,10 @@ university = {
 	name = "University"
 	category = culture
 	portrait = university
-	year = 1600
+	year = 1000
 	prerequisites = {
-		printing_press
-		apprentice_workers
-		moneylending
-		#philosophy
+		#printing_press
+		#apprentice_workers
+		#moneylending
 	}
 }

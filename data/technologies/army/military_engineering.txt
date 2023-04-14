@@ -15,6 +15,6 @@ modern_fortifications = {
 	year = 1650
 	prerequisites = {
 		siege_engineering
-		university
+		scientific_method
 	}
 }

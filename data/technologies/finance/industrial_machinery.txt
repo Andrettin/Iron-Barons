@@ -4,7 +4,7 @@ industrial_machinery = {
 	portrait = factory
 	year = 1650
 	prerequisites = {
-		university
+		scientific_method
 		trained_journeymen
 		steam_in_mining
 	}
