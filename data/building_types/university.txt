@@ -3,7 +3,6 @@ college = {
 	building_class = college
 	portrait = university
 	icon = university
-	required_technology = university
 	production_types = {
 		researching
 	}
