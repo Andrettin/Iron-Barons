@@ -25,6 +25,14 @@ BuildingDialog {
 		anchors.rightMargin: 16 * scale_factor
 	}
 	
+	UpgradeBuildingButton {
+		id: upgrade_building_button
+		anchors.top: parent.top
+		anchors.topMargin: 16 * scale_factor
+		anchors.right: parent.right
+		anchors.rightMargin: 16 * scale_factor
+	}
+	
 	Column {
 		id: production_types_column
 		anchors.top: capacity_label.bottom
