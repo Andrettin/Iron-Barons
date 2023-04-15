@@ -39,18 +39,41 @@ Item {
 			readonly property var building_slot: model.modelData
 			readonly property var building: building_slot.building
 			
+			Image {
+				id: under_construction_icon
+				anchors.horizontalCenter: parent.horizontalCenter
+				anchors.verticalCenter: parent.verticalCenter
+				source: "image://icon/cog"
+				visible: building_slot.under_construction_building !== null
+			}
+			
 			onClicked: {
 				if (building !== null) {
 					if (building.warehouse) {
 						warehouse_dialog.building_slot = building_slot
 						warehouse_dialog.open()
-					} else if (building_slot.available_production_types.length > 0) {
+						return
+					}
+					
+					if (building_slot.available_production_types.length > 0) {
 						factory_dialog.building_slot = building_slot
 						factory_dialog.open()
-					} else if (building.country_modifier_string.length > 0) {
+						return
+					}
+					
+					if (building.country_modifier_string.length > 0) {
 						building_modifier_dialog.title = building.name
 						building_modifier_dialog.modifier_string = building.country_modifier_string
 						building_modifier_dialog.open()
+						return
+					}
+				} else {
+					var buildable_building = building_slot.get_buildable_building()
+					if (buildable_building !== null) {
+						build_building_dialog.title = buildable_building.name
+						build_building_dialog.building_slot = building_slot
+						build_building_dialog.building = buildable_building
+						build_building_dialog.open()
 					}
 				}
 			}
@@ -113,5 +136,9 @@ Item {
 	
 	ModifierDialog {
 		id: building_modifier_dialog
+	}
+	
+	BuildBuildingDialog {
+		id: build_building_dialog
 	}
 }
