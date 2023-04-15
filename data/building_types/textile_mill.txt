@@ -36,6 +36,7 @@ textile_mill = {
 		wool_fabric_weaving
 	}
 	base_capacity = 8
+	capacity_increment = 8
 	expandable = true
 	required_building = weavers_shop
 }

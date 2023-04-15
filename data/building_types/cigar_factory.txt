@@ -32,6 +32,7 @@ cigar_factory = {
 		cigar_production
 	}
 	base_capacity = 8
+	capacity_increment = 8
 	expandable = true
 	required_building = tobacconists_shop
 	required_technology = cigar_production

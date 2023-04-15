@@ -32,6 +32,7 @@ fur_factory = {
 		fur_hat_production
 	}
 	base_capacity = 8
+	capacity_increment = 8
 	expandable = true
 	required_building = furriers_shop
 	required_technology = fur_hat_production

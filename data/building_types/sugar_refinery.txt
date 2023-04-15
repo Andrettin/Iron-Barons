@@ -7,6 +7,7 @@ sugar_refinery = {
 		sugar_refining
 	}
 	base_capacity = 8
+	capacity_increment = 8
 	expandable = true
 	required_technology = sugar_refining
 }
