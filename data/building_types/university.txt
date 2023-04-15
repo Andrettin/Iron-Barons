@@ -14,10 +14,12 @@ university = {
 	building_class = university
 	portrait = university
 	icon = university
-	required_building = college
-	required_technology = university
 	production_types = {
 		researching
 	}
 	base_capacity = 8
+	capacity_increment = 8
+	expandable = true
+	required_building = college
+	required_technology = university
 }

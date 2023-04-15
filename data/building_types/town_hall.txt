@@ -14,11 +14,11 @@ city_hall = {
 	building_class = city_hall
 	portrait = city
 	icon = flag
-	required_building = town_hall
 	production_types = {
 		civics_production
 	}
 	base_capacity = 8
+	required_building = town_hall
 }
 
 capitol = {
@@ -30,4 +30,7 @@ capitol = {
 		civics_production
 	}
 	base_capacity = 16
+	capacity_increment = 8
+	expandable = true
+	required_building = city_hall
 }
