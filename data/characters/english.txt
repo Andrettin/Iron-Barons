@@ -10,6 +10,12 @@ francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	death_date = 1626
 	required_technology = scientific_method #developed the scientific method
 	skill = 5
+	
+	history = {
+		1620 = {
+			country = england #published his "Novum Organum" in 1620
+		}
+	}
 }
 
 henry_hudson = {
