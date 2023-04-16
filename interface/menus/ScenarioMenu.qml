@@ -310,7 +310,6 @@ MenuBase {
 		onClicked: {
 			metternich.game.player_country = selected_country
 			metternich.game.start()
-			menu_stack.pop()
 		}
 	}
 	

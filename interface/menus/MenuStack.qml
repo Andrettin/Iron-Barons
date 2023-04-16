@@ -9,4 +9,6 @@ StackView {
 	pushExit: null
 	popEnter: null
 	popExit: null
+	replaceEnter: null
+	replaceExit: null
 }

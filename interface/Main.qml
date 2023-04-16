@@ -80,7 +80,8 @@ Window {
 		target: metternich.game
 		function onRunningChanged() {
 			if (metternich.game.running) {
-				menu_stack.push("MapView.qml")
+				//replace the scenario menu or the random map menu with the map view
+				menu_stack.replace("MapView.qml")
 			}
 		}
 	}
