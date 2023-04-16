@@ -2,6 +2,9 @@ palawan = {
 	name = "Palawan"
 	color = { 34 77 16 }
 	capital_settlement = puerto_princesa
+	regions = {
+		asia
+	}
 	
 	history = {
 		culture = filipino

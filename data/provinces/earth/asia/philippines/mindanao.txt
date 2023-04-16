@@ -2,6 +2,9 @@ mindanao = {
 	name = "Mindanao"
 	color = { 187 114 32 }
 	capital_settlement = davao
+	regions = {
+		asia
+	}
 	
 	history = {
 		culture = filipino
