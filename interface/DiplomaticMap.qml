@@ -147,6 +147,23 @@ Flickable {
 	}
 	*/
 	
+	Image {
+		id: exploration_image
+		source: metternich.game.running ? "image://diplomatic_map/exploration" : "image://empty/"
+		cache: false
+		
+		MaskedMouseArea {
+			id: exploration_mouse_area
+			anchors.fill: parent
+			alphaThreshold: 0.4
+			maskSource: parent.source
+			
+			onClicked: {
+				diplomatic_map.selected_country = null
+			}
+		}
+	}
+	
 	Repeater {
 		model: selected_country ? selected_country.game_data.consulates : []
 		

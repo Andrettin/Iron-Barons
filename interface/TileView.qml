@@ -8,6 +8,7 @@ Item {
 	
 	readonly property bool tile_selected: site !== null && selected_site === site && !selected_garrison
 	readonly property bool civilian_unit_interactable: civilian_unit !== null && civilian_unit.owner === metternich.game.player_country
+	readonly property point tile_pos: Qt.point(column, row)
 	
 	TileImage {
 		id: base_terrain_image
@@ -114,7 +115,12 @@ Item {
 		hoverEnabled: true
 		
 		onReleased: {
-			var tile_pos = Qt.point(column, row)
+			var explored = metternich.game.player_country.game_data.is_tile_explored(tile_pos)
+			
+			if (!explored) {
+				return
+			}
+			
 			if (selected_civilian_unit !== null && civilian_unit === null && selected_civilian_unit.can_move_to(tile_pos)) {
 				selected_civilian_unit.move_to(tile_pos)
 				selected_civilian_unit = null
@@ -157,7 +163,11 @@ Item {
 			
 			text += "("
 			
-			if (site !== null && site.settlement) {
+			var explored = metternich.game.player_country.game_data.is_tile_explored(tile_pos)
+			
+			if (!explored) {
+				text += "Unexplored"
+			} else if (site !== null && site.settlement) {
 				text += "Settlement"
 			} else if (improvement !== null) {
 				text += improvement.name
@@ -169,19 +179,21 @@ Item {
 			
 			text += ") "
 			
-			if (site !== null && (improvement !== null || resource !== null || site.settlement)) {
-				text += site.game_data.current_cultural_name
-			}
-			
-			if (province !== null) {
+			if (explored) {
 				if (site !== null && (improvement !== null || resource !== null || site.settlement)) {
-					text += ", "
+					text += site.game_data.current_cultural_name
 				}
 				
-				text += province.game_data.current_cultural_name
-				
-				if (province.game_data.owner !== null) {
-					text += ", " + province.game_data.owner.name
+				if (province !== null) {
+					if (site !== null && (improvement !== null || resource !== null || site.settlement)) {
+						text += ", "
+					}
+					
+					text += province.game_data.current_cultural_name
+					
+					if (province.game_data.owner !== null) {
+						text += ", " + province.game_data.owner.name
+					}
 				}
 			}
 			
