@@ -1,3 +1,17 @@
+amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.
+	name = "Amerigo"
+	surname = "Vespucci"
+	#advisor_type = navigator
+	culture = italian
+	religion = catholic
+	home_province = tuscany
+	gender = male
+	birth_date = 1454
+	death_date = 1512
+	
+	#went on an expedition to explore the coast of South America in 1497
+}
+
 niccolo_tartaglia = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
 	name = "Niccolo" #"Niccolò"
 	surname = "Tartaglia"

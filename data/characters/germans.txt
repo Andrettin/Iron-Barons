@@ -1,0 +1,13 @@
+martin_waldseemuller = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.
+	name = "Martin"
+	surname = "Waldseemuller" #"Waldseemüller"
+	#advisor_type = navigator #geographer
+	culture = german
+	religion = catholic
+	home_province = baden
+	gender = male
+	birth_date = 1470
+	death_date = 1518
+	
+	#published a map in 1507 depicting the Americas as a new continent for the first time
+}

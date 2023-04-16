@@ -34,5 +34,31 @@ western = {
 			#by 1480 there were printing presses in 100+ European towns; Source: Henry Kamen, "Early Modern European Society", 2021, p. 286.
 			technologies += printing_press
 		}
+		
+		1497 = {
+			#Amerigo Vespucci went on an expedition to explore the coast of South America in 1497; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.
+			explored_provinces += south_atlantic_ocean
+			explored_provinces += alagoas
+			explored_provinces += bahia
+			explored_provinces += ceara
+			explored_provinces += espirito_santo
+			explored_provinces += maranhao
+			explored_provinces += paraiba
+			explored_provinces += parana
+			explored_provinces += pernambuco
+			explored_provinces += piaui
+			explored_provinces += rio_de_janeiro
+			explored_provinces += rio_grande_do_norte
+			explored_provinces += rio_grande_do_sul
+			explored_provinces += santa_catarina
+			explored_provinces += sergipe
+			explored_provinces += sao_paulo
+			explored_provinces += buenos_aires
+			explored_provinces += chubut
+			explored_provinces += falkland_islands
+			explored_provinces += rio_negro
+			explored_provinces += santa_cruz
+			explored_provinces += tierra_del_fuego
+		}
 	}
 }
