@@ -4,6 +4,22 @@ western = {
 	default_phenotype = european
 	
 	history = {
+		explored_regions += europe
+		explored_regions += middle_east
+		explored_regions += north_africa
+		explored_regions += baltic_sea
+		explored_regions += mediterranean_sea
+		explored_regions += north_sea
+		explored_provinces += lake_ladoga
+		explored_provinces += lake_onega
+		explored_provinces += lake_vanern
+		explored_provinces += bay_of_biscay
+		explored_provinces += bristol_channel
+		explored_provinces += english_channel
+		explored_provinces += inner_seas
+		explored_provinces += irish_sea
+		explored_provinces += north_atlantic_ocean
+		
 		1180 = {
 			#the English scholar Alexander Neckam (1157-1217) wrote about the uses of magnetism for ascertaining the north/south direction in 1180; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 164-165.
 			technologies += compass
