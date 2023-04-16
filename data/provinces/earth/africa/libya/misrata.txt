@@ -3,7 +3,7 @@ misrata = {
 	color = { 144 67 111 }
 	capital_settlement = misrata
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

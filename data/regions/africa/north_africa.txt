@@ -1,0 +1,35 @@
+north_africa = {
+	superregions = {
+		africa
+	}
+}
+
+algeria = {
+	superregions = {
+		north_africa
+	}
+}
+
+egypt = {
+	superregions = {
+		north_africa
+	}
+}
+
+libya = {
+	superregions = {
+		north_africa
+	}
+}
+
+morocco = {
+	superregions = {
+		north_africa
+	}
+}
+
+tunisia = {
+	superregions = {
+		north_africa
+	}
+}

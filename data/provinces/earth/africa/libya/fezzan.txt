@@ -3,7 +3,7 @@ fezzan = {
 	color = { 150 253 100 }
 	capital_settlement = sabha
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

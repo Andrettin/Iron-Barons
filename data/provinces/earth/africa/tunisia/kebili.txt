@@ -3,7 +3,7 @@ kebili = {
 	color = { 60 184 70 }
 	capital_settlement = kebili
 	regions = {
-		africa
+		tunisia
 	}
 	
 	history = {

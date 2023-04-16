@@ -3,7 +3,7 @@ constantine = {
 	color = { 215 207 203 }
 	capital_settlement = constantine
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

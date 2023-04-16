@@ -3,7 +3,7 @@ benghazi = {
 	color = { 51 26 49 }
 	capital_settlement = benghazi
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ tataouine = {
 	color = { 153 119 104 }
 	capital_settlement = tataouine
 	regions = {
-		africa
+		tunisia
 	}
 	
 	history = {

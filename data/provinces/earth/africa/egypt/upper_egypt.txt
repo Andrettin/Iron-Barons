@@ -3,7 +3,7 @@ upper_egypt = {
 	color = { 146 51 56 }
 	capital_settlement = luxor
 	regions = {
-		africa
+		egypt
 	}
 	
 	history = {

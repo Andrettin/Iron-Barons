@@ -3,7 +3,7 @@ tindouf = {
 	color = { 106 244 126 }
 	capital_settlement = tindouf
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

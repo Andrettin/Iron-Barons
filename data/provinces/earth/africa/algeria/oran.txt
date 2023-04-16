@@ -3,7 +3,7 @@ oran = {
 	color = { 238 7 180 }
 	capital_settlement = oran
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ sirte = {
 	color = { 97 208 94 }
 	capital_settlement = sirte
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

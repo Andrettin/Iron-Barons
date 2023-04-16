@@ -3,7 +3,7 @@ naama = {
 	color = { 108 9 31 }
 	capital_settlement = sefra
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

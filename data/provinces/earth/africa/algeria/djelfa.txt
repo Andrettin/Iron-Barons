@@ -3,7 +3,7 @@ djelfa = {
 	color = { 163 214 3 }
 	capital_settlement = djelfa
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

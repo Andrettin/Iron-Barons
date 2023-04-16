@@ -3,7 +3,7 @@ ajdabiya = {
 	color = { 213 152 88 }
 	capital_settlement = ajdabiya
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

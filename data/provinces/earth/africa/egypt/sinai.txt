@@ -3,7 +3,7 @@ sinai = {
 	color = { 88 149 3 }
 	capital_settlement = el_arish
 	regions = {
-		africa
+		egypt
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ fez = {
 	color = { 56 243 51 }
 	capital_settlement = fez
 	regions = {
-		africa
+		morocco
 	}
 	
 	history = {

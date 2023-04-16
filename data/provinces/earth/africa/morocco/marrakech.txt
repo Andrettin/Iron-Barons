@@ -3,7 +3,7 @@ marrakech = {
 	color = { 237 89 2 }
 	capital_settlement = marrakech
 	regions = {
-		africa
+		morocco
 	}
 	
 	history = {

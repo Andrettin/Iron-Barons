@@ -3,7 +3,7 @@ alexandria = {
 	color = { 249 44 41 }
 	capital_settlement = alexandria
 	regions = {
-		africa
+		egypt
 	}
 	
 	history = {

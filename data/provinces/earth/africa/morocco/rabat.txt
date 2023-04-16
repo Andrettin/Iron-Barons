@@ -3,7 +3,7 @@ rabat = {
 	color = { 144 24 184 }
 	capital_settlement = rabat
 	regions = {
-		africa
+		morocco
 	}
 	
 	history = {

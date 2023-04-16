@@ -3,7 +3,7 @@ kufra = {
 	color = { 253 208 165 }
 	capital_settlement = al_jawf
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ tamanrasset = {
 	color = { 181 163 124 }
 	capital_settlement = tamanrasset
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ bechar = {
 	color = { 128 90 169 }
 	capital_settlement = bechar
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

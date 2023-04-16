@@ -3,7 +3,7 @@ ghadamis = {
 	color = { 0 213 8 }
 	capital_settlement = ghadamis
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

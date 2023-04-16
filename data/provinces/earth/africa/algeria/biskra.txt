@@ -3,7 +3,7 @@ biskra = {
 	color = { 188 220 25 }
 	capital_settlement = biskra
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

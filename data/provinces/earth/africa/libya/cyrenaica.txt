@@ -3,7 +3,7 @@ cyrenaica = {
 	color = { 51 112 67 }
 	capital_settlement = cyrene
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

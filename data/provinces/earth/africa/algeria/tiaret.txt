@@ -3,7 +3,7 @@ tiaret = {
 	color = { 40 163 89 }
 	capital_settlement = tiaret
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

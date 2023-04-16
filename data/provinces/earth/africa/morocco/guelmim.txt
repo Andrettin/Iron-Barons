@@ -3,7 +3,7 @@ guelmim = {
 	color = { 236 245 80 }
 	capital_settlement = guelmim
 	regions = {
-		africa
+		morocco
 	}
 	
 	history = {

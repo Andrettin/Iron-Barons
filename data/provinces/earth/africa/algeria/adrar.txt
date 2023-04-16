@@ -3,7 +3,7 @@ adrar = {
 	color = { 215 249 33 }
 	capital_settlement = adrar
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ medenine = {
 	color = { 247 205 101 }
 	capital_settlement = medenine
 	regions = {
-		africa
+		tunisia
 	}
 	
 	history = {

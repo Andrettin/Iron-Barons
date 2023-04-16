@@ -3,7 +3,7 @@ tunisia = {
 	color = { 168 87 58 }
 	capital_settlement = tunis
 	regions = {
-		africa
+		tunisia
 	}
 	
 	history = {

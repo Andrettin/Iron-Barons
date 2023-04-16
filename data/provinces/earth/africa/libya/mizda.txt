@@ -3,7 +3,7 @@ mizda = {
 	color = { 253 63 236 }
 	capital_settlement = mizda
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {

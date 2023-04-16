@@ -3,7 +3,7 @@ algeria = {
 	color = { 136 222 8 }
 	capital_settlement = algiers
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

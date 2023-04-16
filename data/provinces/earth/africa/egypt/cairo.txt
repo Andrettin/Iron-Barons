@@ -6,7 +6,7 @@ cairo = {
 		egyptian = "Memphis"
 	}
 	regions = {
-		africa
+		egypt
 	}
 	
 	history = {

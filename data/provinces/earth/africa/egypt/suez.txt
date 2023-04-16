@@ -3,7 +3,7 @@ suez = {
 	color = { 176 56 21 }
 	capital_settlement = suez
 	regions = {
-		africa
+		egypt
 	}
 	
 	history = {

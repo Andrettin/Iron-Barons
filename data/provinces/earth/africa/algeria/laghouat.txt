@@ -3,7 +3,7 @@ laghouat = {
 	color = { 193 55 57 }
 	capital_settlement = laghouat
 	regions = {
-		africa
+		algeria
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ tobruk = {
 	color = { 79 232 82 }
 	capital_settlement = tobruk
 	regions = {
-		africa
+		libya
 	}
 	
 	history = {
