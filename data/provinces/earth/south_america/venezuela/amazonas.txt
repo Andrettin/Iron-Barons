@@ -1,0 +1,8 @@
+amazonas_venezuela = {
+	name = "Amazonas"
+	color = { 177 17 21 }
+	capital_settlement = puerto_ayacucho
+	regions = {
+		venezuela
+	}
+}

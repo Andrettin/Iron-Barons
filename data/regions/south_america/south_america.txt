@@ -9,3 +9,9 @@ argentina = {
 		south_america
 	}
 }
+
+venezuela = {
+	superregions = {
+		south_america
+	}
+}

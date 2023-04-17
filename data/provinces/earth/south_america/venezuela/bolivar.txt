@@ -1,0 +1,8 @@
+bolivar = {
+	name = "Bolivar" #"Bolívar"
+	color = { 110 84 136 }
+	capital_settlement = ciudad_bolivar
+	regions = {
+		venezuela
+	}
+}

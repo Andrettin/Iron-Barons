@@ -60,5 +60,10 @@ western = {
 			explored_provinces += santa_cruz
 			explored_provinces += tierra_del_fuego
 		}
+		
+		1498 = {
+			#Christopher Columbus went on an expedition to the mouth of the Orinoco River in 1498; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
+			explored_provinces += venezuela
+		}
 	}
 }

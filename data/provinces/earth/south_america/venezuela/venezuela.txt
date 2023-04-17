@@ -1,0 +1,8 @@
+venezuela = {
+	name = "Venezuela"
+	color = { 187 163 101 }
+	capital_settlement = caracas
+	regions = {
+		venezuela
+	}
+}
