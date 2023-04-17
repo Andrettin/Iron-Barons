@@ -1,0 +1,5 @@
+panama = {
+	name = "Panama"
+	color = { 133 100 159 }
+	capital_settlement = panama_city
+}

@@ -1,0 +1,5 @@
+el_salvador = {
+	name = "El Salvador"
+	color = { 23 219 53 }
+	capital_settlement = san_salvador
+}

@@ -65,5 +65,19 @@ western = {
 			#Christopher Columbus went on an expedition to the mouth of the Orinoco River in 1498; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
 			explored_provinces += venezuela
 		}
+		
+		1500.3 = {
+			#the Portuguese explorer Pedro Álvares Cabral arrived in the Brazilian coast in 1500.3; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
+		}
+		
+		1502 = {
+			#Christopher Columbus arrived in Central American coasts in 1502; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
+			explored_provinces += belize
+			explored_provinces += guatemala
+			explored_provinces += honduras
+			explored_provinces += nicaragua
+			explored_provinces += costa_rica
+			explored_provinces += panama
+		}
 	}
 }

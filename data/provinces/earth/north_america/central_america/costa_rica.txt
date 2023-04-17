@@ -1,0 +1,5 @@
+costa_rica = {
+	name = "Costa Rica"
+	color = { 126 28 7 }
+	capital_settlement = san_jose
+}
