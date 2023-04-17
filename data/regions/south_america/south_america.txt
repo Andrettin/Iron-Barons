@@ -3,3 +3,9 @@ south_america = {
 		america
 	}
 }
+
+argentina = {
+	superregions = {
+		south_america
+	}
+}

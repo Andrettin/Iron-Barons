@@ -2,6 +2,9 @@ la_rioja = {
 	name = "La Rioja"
 	color = { 111 0 25 }
 	capital_settlement = la_rioja
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1600 = {

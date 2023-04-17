@@ -2,6 +2,9 @@ salta = {
 	name = "Salta"
 	color = { 93 219 8 }
 	capital_settlement = salta
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1600 = {

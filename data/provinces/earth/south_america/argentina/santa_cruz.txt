@@ -2,6 +2,9 @@ santa_cruz = {
 	name = "Santa Cruz"
 	color = { 239 160 16 }
 	capital_settlement = rio_gallegos
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1911 = {

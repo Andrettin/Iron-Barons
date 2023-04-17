@@ -2,6 +2,9 @@ rio_negro = {
 	name = "Rio Negro" #"Río Negro"
 	color = { 176 128 144 }
 	capital_settlement = viedma
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1911 = {

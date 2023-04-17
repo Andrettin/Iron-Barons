@@ -2,6 +2,9 @@ tierra_del_fuego = {
 	name = "Tierra del Fuego"
 	color = { 239 96 144 }
 	capital_settlement = ushuaia
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1911 = {

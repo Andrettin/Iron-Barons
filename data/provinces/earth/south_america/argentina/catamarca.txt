@@ -2,6 +2,9 @@ catamarca = {
 	name = "Catamarca"
 	color = { 193 45 68 }
 	capital_settlement = catamarca
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1600 = {

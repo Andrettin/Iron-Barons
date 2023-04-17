@@ -2,6 +2,9 @@ corrientes = {
 	name = "Corrientes"
 	color = { 172 63 112 }
 	capital_settlement = corrientes
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1600 = {

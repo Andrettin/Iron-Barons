@@ -2,6 +2,9 @@ san_juan = {
 	name = "San Juan"
 	color = { 178 46 130 }
 	capital_settlement = san_juan_argentina
+	regions = {
+		argentina
+	}
 	
 	history = {
 		1600 = {
