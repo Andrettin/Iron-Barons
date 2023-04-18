@@ -9,9 +9,9 @@ DialogBase {
 	height: Math.max(content_height, default_height)
 	title: event_instance ? event_instance.name : ""
 	
-	readonly property int max_button_width: calculate_max_button_width(option_grid) + 8 * scale_factor * 2
+	readonly property int max_button_width: calculate_max_button_width(option_column) + 8 * scale_factor * 2
 	readonly property int content_width: Math.max(max_button_width, title_item.contentWidth + 8 * scale_factor * 2)
-	readonly property int content_height: description.y + description.contentHeight + 16 * scale_factor + option_grid.height + 8 * scale_factor
+	readonly property int content_height: description.y + description.contentHeight + 16 * scale_factor + option_column.height + 8 * scale_factor
 	
 	property var event_instance: null
 	readonly property var option_names: event_instance ? event_instance.option_names : []
@@ -37,20 +37,18 @@ DialogBase {
 		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
 		anchors.rightMargin: 8 * scale_factor
-		anchors.bottom: option_grid.top
+		anchors.bottom: option_column.top
 		anchors.bottomMargin: 16 * scale_factor
 		text: format_text(event_instance.description)
 		wrapMode: Text.WordWrap
 	}
 	
-	Grid {
-		id: option_grid
+	Column {
+		id: option_column
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		columns: 1
-		columnSpacing: 0
-		rowSpacing: 8 * scale_factor
+		spacing: 8 * scale_factor
 		
 		Repeater {
 			model: option_names
