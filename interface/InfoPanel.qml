@@ -7,7 +7,7 @@ Rectangle {
 	width: 176 * scale_factor
 	
 	readonly property var end_turn_button: end_turn_button_internal
-	readonly property var province_game_data: (selected_site && selected_site_game_data && selected_site.settlement) ? selected_site_game_data.province.game_data : null
+	readonly property var province_game_data: selected_province ? selected_province.game_data : null
 	readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
 	
 	Rectangle {
@@ -114,9 +114,10 @@ Rectangle {
 		anchors.top: industry_button.bottom
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: selected_site ? (
-			selected_garrison ? "Garrison" : selected_site.game_data.current_cultural_name
-		) : (selected_civilian_unit ? selected_civilian_unit.type.name : "")
+		text: selected_garrison ? "Garrison" : (
+			selected_site ? selected_site.game_data.current_cultural_name
+				: (selected_civilian_unit ? selected_civilian_unit.type.name : "")
+		)
 	}
 	
 	Image {
@@ -211,10 +212,10 @@ Rectangle {
 		anchors.left: parent.left
 		anchors.right: parent.right
 		columns: 2
-		visible: selected_site !== null && selected_garrison
+		visible: selected_province !== null && selected_garrison
 		
 		Repeater {
-			model: (selected_site !== null && selected_garrison) ? selected_site.game_data.province.game_data.military_unit_category_counts : []
+			model: (selected_province !== null && selected_garrison) ? selected_province.game_data.military_unit_category_counts : []
 			
 			Item {
 				width: 84 * scale_factor
@@ -222,14 +223,14 @@ Rectangle {
 				
 				readonly property var military_unit_category: model.modelData.key
 				readonly property int military_unit_count: model.modelData.value
-				readonly property int country_military_unit_count: selected_site.game_data.province.game_data.get_country_military_unit_category_count(military_unit_category, metternich.game.player_country)
+				readonly property int country_military_unit_count: selected_province.game_data.get_country_military_unit_category_count(military_unit_category, metternich.game.player_country)
 				
 				Image {
 					id: military_unit_icon
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: parent.left
 					anchors.leftMargin: 4 * scale_factor + (64 * scale_factor - military_unit_icon.width) / 2
-					source: "image://icon/" + selected_site.game_data.province.game_data.get_military_unit_category_icon(military_unit_category).identifier
+					source: "image://icon/" + selected_province.game_data.get_military_unit_category_icon(military_unit_category).identifier
 				}
 				
 				MouseArea {
@@ -237,7 +238,7 @@ Rectangle {
 					hoverEnabled: true
 					
 					onEntered: {
-						status_text = selected_site.game_data.province.game_data.get_military_unit_category_name(military_unit_category)
+						status_text = selected_province.game_data.get_military_unit_category_name(military_unit_category)
 					}
 					
 					onExited: {
@@ -257,7 +258,7 @@ Rectangle {
 						anchors.fill: parent
 						
 						onReleased: {
-							metternich.change_selected_military_unit_category_count(military_unit_category, 1, selected_site.game_data.province)
+							metternich.change_selected_military_unit_category_count(military_unit_category, 1, selected_province)
 							military_unit_selected_count_label.text = number_string(metternich.get_selected_military_unit_category_count(military_unit_category))
 						}
 					}
@@ -284,7 +285,7 @@ Rectangle {
 						anchors.fill: parent
 						
 						onReleased: {
-							metternich.change_selected_military_unit_category_count(military_unit_category, -1, selected_site.game_data.province)
+							metternich.change_selected_military_unit_category_count(military_unit_category, -1, selected_province)
 							military_unit_selected_count_label.text = number_string(metternich.get_selected_military_unit_category_count(military_unit_category))
 						}
 					}

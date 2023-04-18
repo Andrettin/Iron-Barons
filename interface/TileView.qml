@@ -9,6 +9,7 @@ Item {
 	readonly property bool tile_selected: site !== null && selected_site === site && !selected_garrison
 	readonly property bool civilian_unit_interactable: civilian_unit !== null && civilian_unit.owner === metternich.game.player_country
 	readonly property point tile_pos: Qt.point(column, row)
+	readonly property bool is_center_tile: province !== null && province.game_data.center_tile_pos === tile_pos
 	
 	TileImage {
 		id: base_terrain_image
@@ -41,13 +42,14 @@ Item {
 	Image {
 		id: garrison_icon
 		anchors.left: parent.left
-		anchors.leftMargin: 8 * scale_factor
+		anchors.leftMargin: is_fleet ? (Math.floor(tile_size / 2) - Math.floor(width / 2)) : (8 * scale_factor)
 		anchors.top: parent.top
-		anchors.topMargin: 8 * scale_factor
-		source: "image://icon/embassy" + (selected ? "/selected" : "")
-		visible: site !== null && site.settlement && province !== null && province.game_data.military_unit_category_counts.length > 0
+		anchors.topMargin: is_fleet ? (Math.floor(tile_size / 2) - Math.floor(height / 2)) : (8 * scale_factor)
+		source: "image://icon/" + (is_fleet ? "anchor" : "embassy") + (selected ? "/selected" : "")
+		visible: province !== null && is_center_tile && province.game_data.military_unit_category_counts.length > 0
 		
-		readonly property bool selected: visible && selected_site === site && selected_garrison
+		readonly property bool is_fleet: visible && province.water_zone
+		readonly property bool selected: visible && selected_province === province && selected_garrison
 	}
 	
 	Item {
@@ -125,6 +127,7 @@ Item {
 				selected_civilian_unit.move_to(tile_pos)
 				selected_civilian_unit = null
 				selected_site = null
+				selected_province = null
 				selected_garrison = false
 				return
 			}
@@ -133,6 +136,7 @@ Item {
 				metternich.move_selected_military_units_to(tile_pos)
 				selected_civilian_unit = null
 				selected_site = null
+				selected_province = null
 				selected_garrison = false
 				return
 			}
@@ -140,12 +144,15 @@ Item {
 			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site || selected_garrison)) {
 				selected_civilian_unit = civilian_unit
 				selected_site = null
+				selected_province = null
 			} else if (site !== null && (site !== selected_site || selected_garrison) && (site.settlement || resource || improvement)) {
 				selected_site = site
+				selected_province = province
 				selected_civilian_unit = null
 			} else {
 				selected_civilian_unit = null
 				selected_site = null
+				selected_province = null
 			}
 			
 			selected_garrison = false
@@ -207,10 +214,10 @@ Item {
 	MouseArea {
 		anchors.horizontalCenter: garrison_icon.horizontalCenter
 		anchors.verticalCenter: garrison_icon.verticalCenter
-		width: garrison_icon.width + 8 * scale_factor
-		height: garrison_icon.height + 8 * scale_factor
+		width: Math.min(garrison_icon.width + 8 * scale_factor, tile_size)
+		height: Math.min(garrison_icon.height + 8 * scale_factor, tile_size)
 		hoverEnabled: true
-		enabled: garrison_icon.visible && province !== null && province.game_data.owner !== null && (province.game_data.owner === metternich.game.player_country || province.game_data.owner.game_data.is_any_vassal_of(metternich.game.player_country))
+		enabled: garrison_icon.visible && province !== null && (province.water_zone || (province.game_data.owner !== null && (province.game_data.owner === metternich.game.player_country || province.game_data.owner.game_data.is_any_vassal_of(metternich.game.player_country))))
 		visible: enabled
 		
 		onReleased: {
@@ -218,9 +225,11 @@ Item {
 			
 			if (garrison_icon.selected) {
 				selected_site = null
+				selected_province = null
 				selected_garrison = false
 			} else {
 				selected_site = site
+				selected_province = province
 				selected_garrison = true
 			}
 		}
