@@ -26,6 +26,7 @@ heavy_artillery = {
 	portrait = engineering
 	year = 1700
 	prerequisites = {
+		heavy_emplaced_artillery
 		modern_fortifications
 		crucible_process
 	}
