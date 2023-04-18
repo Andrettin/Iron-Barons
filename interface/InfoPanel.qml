@@ -179,6 +179,17 @@ Rectangle {
 		visible: selected_site && !selected_garrison
 	}
 	
+	CivilianUnitInfoArea {
+		id: civilian_unit_info_area
+		anchors.top: icon.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.bottom: disband_button.top
+		anchors.bottomMargin: 16 * scale_factor
+		anchors.left: parent.left
+		anchors.right: parent.right
+		visible: selected_civilian_unit !== null
+	}
+	
 	MilitaryUnitGrid {
 		id: military_unit_grid
 		anchors.top: title.bottom
