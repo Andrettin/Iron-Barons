@@ -94,22 +94,10 @@ Item {
 		anchors.right: right_bar.left
 	}
 	
-	Rectangle {
+	MenuButtonBar {
 		id: menu_button_bar
 		anchors.top: parent.top
 		anchors.left: parent.left
-		color: interface_background_color
-		width: 176 * scale_factor
-		height: 24 * scale_factor
-		
-		Rectangle {
-			color: "gray"
-			anchors.top: parent.top
-			anchors.topMargin: 15 * scale_factor
-			anchors.bottom: parent.bottom
-			anchors.right: parent.right
-			width: 1 * scale_factor
-		}
 	}
 	
 	Rectangle {
@@ -118,7 +106,7 @@ Item {
 		anchors.left: parent.left
 		color: interface_background_color
 		width: 176 * scale_factor
-		height: 136 * scale_factor
+		height: minimap_borders.height
 		
 		Rectangle {
 			color: "gray"
@@ -145,7 +133,6 @@ Item {
 			id: minimap
 			anchors.horizontalCenter: parent.horizontalCenter
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -2 * scale_factor
 		}
 	}
 	

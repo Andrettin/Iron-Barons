@@ -20,22 +20,18 @@ Rectangle {
 	}
 	
 	IconButton {
-		id: advisors_button
+		id: transport_button
 		anchors.top: industry_button.top
 		anchors.left: parent.left
-		anchors.leftMargin: 4 * scale_factor
-		icon_identifier: "rifle_infantry_light_small"
-		visible: metternich.game.rules.advisors_enabled
+		anchors.leftMargin: 6 * scale_factor
+		icon_identifier: "railroad"
 		
 		onReleased: {
-			menu_stack.push("AdvisorsView.qml", {
-				country: metternich.game.player_country
-			})
 		}
 		
 		onHoveredChanged: {
 			if (hovered) {
-				status_text = "View Advisors"
+				status_text = "View Transport"
 			} else {
 				status_text = ""
 			}
@@ -45,8 +41,8 @@ Rectangle {
 	IconButton {
 		id: industry_button
 		anchors.top: parent.top
-		anchors.topMargin: 8 * scale_factor
-		anchors.left: advisors_button.right
+		anchors.topMargin: 6 * scale_factor
+		anchors.left: transport_button.right
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "settlement"
 		
@@ -83,26 +79,6 @@ Rectangle {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "View Diplomatic Map"
-			} else {
-				status_text = ""
-			}
-		}
-	}
-	
-	IconButton {
-		id: technology_button
-		anchors.top: diplomatic_map_button.top
-		anchors.left: diplomatic_map_button.right
-		anchors.leftMargin: 4 * scale_factor
-		icon_identifier: "cog"
-		
-		onReleased: {
-			menu_stack.push("TechnologyView.qml")
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "View Technologies"
 			} else {
 				status_text = ""
 			}
