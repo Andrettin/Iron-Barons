@@ -3,9 +3,6 @@ import QtQuick.Controls 2.12
 
 Flickable {
 	id: minimap
-	anchors.horizontalCenter: parent.horizontalCenter
-	anchors.verticalCenter: parent.verticalCenter
-	anchors.verticalCenterOffset: -2 * scale_factor
 	width: 128 * scale_factor
 	height: 128 * scale_factor
 	contentX: Math.min(Math.max(Math.round(map_area_start_x) / tiles_per_pixel - minimap.width / 2, 0), minimap.contentWidth - minimap.width)
