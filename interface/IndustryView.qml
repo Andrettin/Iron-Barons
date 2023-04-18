@@ -49,15 +49,9 @@ Item {
 			
 			onClicked: {
 				if (building !== null) {
-					if (building.warehouse) {
-						warehouse_dialog.building_slot = building_slot
-						warehouse_dialog.open()
-						return
-					}
-					
-					if (building_slot.available_production_types.length > 0) {
-						factory_dialog.building_slot = building_slot
-						factory_dialog.open()
+					if (building.warehouse || building_slot.available_production_types.length > 0) {
+						building_dialog.building_slot = building_slot
+						building_dialog.open()
 						return
 					}
 					
@@ -126,12 +120,8 @@ Item {
 		anchors.left: parent.left
 	}
 	
-	WarehouseDialog {
-		id: warehouse_dialog
-	}
-	
-	FactoryDialog {
-		id: factory_dialog
+	BuildingDialog {
+		id: building_dialog
 	}
 	
 	ModifierDialog {
