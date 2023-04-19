@@ -123,13 +123,24 @@ Item {
 				return
 			}
 			
-			if (selected_civilian_unit !== null && civilian_unit === null && selected_civilian_unit.can_move_to(tile_pos)) {
-				selected_civilian_unit.move_to(tile_pos)
-				selected_civilian_unit = null
-				selected_site = null
-				selected_province = null
-				selected_garrison = false
-				return
+			if (selected_civilian_unit !== null && !selected_civilian_unit.moving && !selected_civilian_unit.working) {
+				if (tile_pos === selected_civilian_unit.tile_pos) {
+					if (selected_civilian_unit.can_build_on_tile()) {
+						selected_civilian_unit.build_on_tile()
+						selected_civilian_unit = null
+						selected_site = null
+						selected_province = null
+						selected_garrison = false
+						return
+					}
+				} else if (civilian_unit === null && selected_civilian_unit.can_move_to(tile_pos)) {
+					selected_civilian_unit.move_to(tile_pos)
+					selected_civilian_unit = null
+					selected_site = null
+					selected_province = null
+					selected_garrison = false
+					return
+				}
 			}
 			
 			if (metternich.selected_military_units.length > 0) {
@@ -141,7 +152,7 @@ Item {
 				return
 			}
 			
-			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && (selected_site === null || site !== selected_site || selected_garrison)) {
+			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit !== selected_civilian_unit && !civilian_unit.moving && !civilian_unit.working && (selected_site === null || site !== selected_site || selected_garrison)) {
 				selected_civilian_unit = civilian_unit
 				selected_site = null
 				selected_province = null
@@ -160,8 +171,12 @@ Item {
 		
 		onDoubleClicked: {
 			//maybe move cancellations should be done by a cancel dialog when left-clicking the civilian unit instead
-			if (civilian_unit !== null && civilian_unit_interactable && civilian_unit.moving) {
-				civilian_unit.cancel_move()
+			if (civilian_unit !== null && civilian_unit_interactable) {
+				if (civilian_unit.moving) {
+					civilian_unit.cancel_move()
+				} else if (civilian_unit.working) {
+					civilian_unit.cancel_work()
+				}
 			}
 		}
 		
