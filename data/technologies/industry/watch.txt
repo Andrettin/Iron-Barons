@@ -1,0 +1,13 @@
+watch = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
+	name = "Watch"
+	category = industry
+	portrait = engineering
+	year = 1504
+	prerequisites = {
+		saw_mill #invented by Peter Henlein, a German sawmiller
+		#based on the mainspring
+	}
+	modifier = {
+		throughput_modifier = 5
+	}
+}

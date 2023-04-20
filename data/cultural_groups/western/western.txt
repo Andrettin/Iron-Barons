@@ -79,5 +79,10 @@ western = {
 			explored_provinces += costa_rica
 			explored_provinces += panama
 		}
+		
+		1504 = {
+			#watch invented by the German sawmiller Peter Henlein in 1504; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
+			technologies += watch
+		}
 	}
 }
