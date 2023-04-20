@@ -5,54 +5,54 @@ import ".."
 DialogBase {
 	id: notification_dialog
 	panel: 5
-	height: Math.max(content_height, default_height)
-	
-	readonly property int content_height: text_label.y + text_label.contentHeight + 16 * scale_factor + ok_button.height + 8 * scale_factor
+	height: column.y + column.height + 8 * scale_factor
 	
 	property var portrait_object: null
 	readonly property string portrait_identifier: portrait_object !== null ? (portrait_object.class_name === "metternich::character" ? portrait_object.game_data.portrait.identifier : portrait_object.identifier) : ""
 	property string text: ""
 	property var on_closed: null
 	
-	PortraitButton {
-		id: portrait
+	Column {
+		id: column
 		anchors.top: title_item.bottom
-		anchors.topMargin: 16 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		portrait_identifier: notification_dialog.portrait_identifier
-		visible: portrait_identifier.length > 0
-		circle: is_character
-		tooltip: is_character ? portrait_object.full_name : ""
-		
-		readonly property bool is_character: portrait_object !== null && portrait_object.class_name === "metternich::character"
-	}
-	
-	SmallText {
-		id: text_label
-		anchors.top: portrait.visible ? portrait.bottom : title_item.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
 		anchors.rightMargin: 8 * scale_factor
-		anchors.bottom: ok_button.top
-		anchors.bottomMargin: 16 * scale_factor
-		text: notification_dialog.text
-		wrapMode: Text.WordWrap
-	}
-	
-	TextButton {
-		id: ok_button
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		text: "OK"
-		onClicked: {
-			notification_dialog.close()
-			notification_dialog.destroy()
+		spacing: 16 * scale_factor
+		
+		PortraitButton {
+			id: portrait
+			anchors.horizontalCenter: parent.horizontalCenter
+			portrait_identifier: notification_dialog.portrait_identifier
+			visible: portrait_identifier.length > 0
+			circle: is_character
+			tooltip: is_character ? portrait_object.full_name : ""
 			
-			if (on_closed) {
-				on_closed()
+			readonly property bool is_character: portrait_object !== null && portrait_object.class_name === "metternich::character"
+		}
+		
+		SmallText {
+			id: text_label
+			anchors.horizontalCenter: parent.horizontalCenter
+			text: format_text(notification_dialog.text)
+			wrapMode: Text.WordWrap
+			width: Math.min(contentWidth, parent.width)
+			visible: notification_dialog.text.length > 0
+		}
+		
+		TextButton {
+			id: ok_button
+			anchors.horizontalCenter: parent.horizontalCenter
+			text: "OK"
+			onClicked: {
+				notification_dialog.close()
+				notification_dialog.destroy()
+				
+				if (on_closed) {
+					on_closed()
+				}
 			}
 		}
 	}
