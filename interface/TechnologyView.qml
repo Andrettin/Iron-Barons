@@ -43,21 +43,46 @@ Item {
 		model: category_technologies
 		delegate: Item {
 			width: technology_list.width
-			height: technology_rectangle.height
+			height: technology_rectangle.height + entry_border.height
 			
 			readonly property var technology: model.modelData
 			
 			readonly property string effects_string: technology.get_effects_string(metternich.game.player_country)
 			
+			Image {
+				id: portrait
+				anchors.top: parent.top
+				anchors.left: parent.left
+				source: "image://portrait/" + technology.portrait.identifier
+				fillMode: Image.Pad
+				
+				MouseArea {
+					anchors.fill: parent
+					
+					onReleased: {
+						if (technology_view.mode === TechnologyView.Mode.Available) {
+							country_game_data.current_research = technology
+						}
+					}
+				}
+			}
+			
+			Rectangle {
+				id: portrait_border
+				color: "gray"
+				anchors.left: portrait.right
+				anchors.top: parent.top
+				anchors.bottom: parent.bottom
+				width: 1 * scale_factor
+			}
+			
 			Rectangle {
 				id: technology_rectangle
-				anchors.verticalCenter: parent.verticalCenter
-				anchors.left: portrait.right
+				anchors.top: parent.top
+				anchors.left: portrait_border.right
 				anchors.right: parent.right
 				height: portrait.height
 				color: "black"
-				border.color: "gray"
-				border.width: 1
 				clip: true
 				
 				SmallText {
@@ -104,16 +129,13 @@ Item {
 				}
 			}
 			
-			PortraitButton {
-				id: portrait
-				portrait_identifier: technology.portrait.identifier
-				radius: 0
-				
-				onReleased: {
-					if (technology_view.mode === TechnologyView.Mode.Available) {
-						country_game_data.current_research = technology
-					}
-				}
+			Rectangle {
+				id: entry_border
+				color: "gray"
+				anchors.top: technology_rectangle.bottom
+				anchors.left: parent.left
+				anchors.right: parent.right
+				height: 1 * scale_factor
 			}
 		}
 	}
