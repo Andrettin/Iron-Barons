@@ -29,7 +29,7 @@ Item {
 	property string status_text: ""
 	property string middle_status_text: ""
 	
-	readonly property var technologies: technology_view.mode === TechnologyView.Mode.Researched ? metternich.game.player_country.game_data.technologies : (technology_view.mode === TechnologyView.Mode.Available ? metternich.game.player_country.game_data.available_technologies : metternich.game.player_country.game_data.future_technologies)
+	readonly property var technologies: technology_view.mode === TechnologyView.Mode.Researched ? country_game_data.technologies : (technology_view.mode === TechnologyView.Mode.Available ? country_game_data.available_technologies : country_game_data.future_technologies)
 	readonly property var category_technologies: get_category_technologies(technologies, category)
 	
 	ListView {

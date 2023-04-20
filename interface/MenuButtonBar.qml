@@ -59,4 +59,24 @@ Rectangle {
 			}
 		}
 	}
+	
+	IconButton {
+		id: journal_button
+		anchors.top: advisors_button.top
+		anchors.left: technology_button.right
+		anchors.leftMargin: 4 * scale_factor
+		icon_identifier: "newspaper"
+		
+		onReleased: {
+			menu_stack.push("JournalView.qml")
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Journal"
+			} else {
+				status_text = ""
+			}
+		}
+	}
 }
