@@ -1,4 +1,5 @@
 atlantic_ocean = {
+	name = "Atlantic Ocean"
 	ocean = true
 }
 

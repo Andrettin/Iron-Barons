@@ -1,0 +1,21 @@
+discovery_of_america = {
+	name = "Discovery of America"
+	portrait = unload
+	completion_conditions = {
+		discovered_region = america
+	}
+	completion_effects = {
+		research += 5
+	}
+}
+
+discovery_of_the_pacific_ocean = {
+	name = "Discovery of the Pacific Ocean"
+	portrait = unload
+	completion_conditions = {
+		discovered_region = pacific_ocean
+	}
+	completion_effects = {
+		research += 5
+	}
+}
