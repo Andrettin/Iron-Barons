@@ -281,7 +281,7 @@ DialogBase {
 									text += base_quantity + " " + commodity.name
 									
 									if (quantity !== base_quantity) {
-										var modifier = Math.floor(100 * 100 / (100 + country_game_data.get_commodity_throughput_modifier(output_commodity)) - 100)
+										var modifier = Math.floor(100 * 100 / (100 + country_game_data.throughput_modifier + country_game_data.get_commodity_throughput_modifier(output_commodity)) - 100)
 										text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + quantity + " " + commodity.name 										
 										text += ")"
 									}
