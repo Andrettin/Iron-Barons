@@ -33,6 +33,7 @@ Window {
 		property int tooltip_y_override: 0
 		
 		//set the shared properties for tooltips
+		ToolTip.toolTip.z: 100
 		ToolTip.toolTip.palette.toolTipText: "white"
 		ToolTip.toolTip.font.family: berenika_font.name
 		ToolTip.toolTip.font.pixelSize: 12 * scale_factor

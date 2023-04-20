@@ -14,6 +14,7 @@ Popup {
 	focus: false
 	closePolicy: Popup.NoAutoClose
 	clip: true
+	opacity: activeFocus ? 1 : 0
 	
 	readonly property int default_width: 256 * scale_factor
 	readonly property int default_height: 256 * scale_factor
@@ -94,5 +95,6 @@ Popup {
 	
 	function receive_focus() {
 		pane.forceActiveFocus()
+		dialog.z = 1 + (parent.dialogs ? parent.dialogs.length : 0)
 	}
 }
