@@ -38,8 +38,15 @@ DialogBase {
 			anchors.horizontalCenter: parent.horizontalCenter
 			text: format_text(notification_dialog.text)
 			wrapMode: Text.WordWrap
-			width: Math.min(contentWidth, parent.width)
+			width: Math.min(text_label_proxy.contentWidth, parent.width)
 			visible: notification_dialog.text.length > 0
+			
+			SmallText { //used to measure text, avoiding the binding loop of using the main text label's content width directly, given the wrap mode
+				id: text_label_proxy
+				anchors.horizontalCenter: parent.horizontalCenter
+				text: text_label.text
+				opacity: 0
+			}
 		}
 		
 		TextButton {
