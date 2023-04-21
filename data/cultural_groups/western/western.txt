@@ -35,6 +35,11 @@ western = {
 			technologies += printing_press
 		}
 		
+		1492 = {
+			#Puerto Rico was discovered in 1492 by Columbus; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+			explored_provinces += puerto_rico
+		}
+		
 		1497 = {
 			#Amerigo Vespucci went on an expedition to explore the coast of South America in 1497; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.
 			explored_provinces += south_atlantic_ocean
@@ -83,6 +88,11 @@ western = {
 		1504 = {
 			#watch invented by the German sawmiller Peter Henlein in 1504; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
 			technologies += watch
+		}
+		
+		1513.3.3 = {
+			#Juan Ponce de León discovered Florida in 1513.3.3; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+			explored_provinces += florida
 		}
 		
 		1513.9.25 = {

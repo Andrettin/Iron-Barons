@@ -12,6 +12,14 @@ puerto_rico = {
 	}
 	
 	history = {
+		1513 = {
+			#the Spanish were established in Puerto Rico by 1513; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+			diplomacy_state = {
+				country = spain
+				state = colony
+			}
+		}
+		
 		1600 = {
 			#Spanish possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {

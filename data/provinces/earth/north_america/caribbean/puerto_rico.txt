@@ -4,6 +4,11 @@ puerto_rico = {
 	capital_settlement = san_juan
 	
 	history = {
+		1513 = {
+			owner = puerto_rico #the Spanish were established in Puerto Rico by 1513; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+			culture = castillian
+		}
+		
 		1600 = {
 			owner = puerto_rico #part of Spanish Puerto Rico in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = castillian
