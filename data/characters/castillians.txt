@@ -1,3 +1,15 @@
+vasco_nunez_de_balboa = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+	name = "Vasco Nunez" #"Vasco Nuñez"
+	surname = "de Balboa"
+	#advisor_type = navigator
+	culture = castillian
+	religion = catholic
+	home_province = extremadura
+	gender = male
+	birth_date = 1475
+	death_date = 1519
+}
+
 bartolome_de_las_casas = {
 	name = "Bartolome"
 	surname = "de las Casas"

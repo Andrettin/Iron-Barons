@@ -84,5 +84,10 @@ western = {
 			#watch invented by the German sawmiller Peter Henlein in 1504; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
 			technologies += watch
 		}
+		
+		1513.9.25 = {
+			#Vasco Nuñez de Balboa discovered the Pacific Ocean, at Panamanian coast, in 1513.9.25; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+			explored_regions += pacific_ocean
+		}
 	}
 }

@@ -7,6 +7,24 @@ bering_sea = {
 	}
 }
 
+gulf_of_alaska = {
+	name = "Gulf of Alaska"
+	color = { 67 148 209 }
+	bay = true
+	regions = {
+		pacific_ocean
+	}
+}
+
+gulf_of_california = {
+	name = "Gulf of California"
+	color = { 53 37 186 }
+	bay = true
+	regions = {
+		pacific_ocean
+	}
+}
+
 north_pacific_ocean = {
 	name = "North Pacific Ocean"
 	color = { 133 250 255 }
