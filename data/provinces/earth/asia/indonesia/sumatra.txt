@@ -4,6 +4,7 @@ sumatra = {
 	capital_settlement = bencoolen
 	regions = {
 		asia
+		indonesia
 	}
 	
 	history = {

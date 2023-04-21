@@ -1,3 +1,16 @@
+juan_ponce_de_leon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+	name = "Juan Ponce"
+	surname = "de Leon" #"de León"
+	#conquistador
+	culture = castillian
+	religion = catholic
+	home_province = leon
+	gender = male
+	birth_date = 1460
+	death_date = 1521
+	#slave trader
+}
+
 vasco_nunez_de_balboa = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
 	name = "Vasco Nunez" #"Vasco Nuñez"
 	surname = "de Balboa"

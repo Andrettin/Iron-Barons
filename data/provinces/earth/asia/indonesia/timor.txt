@@ -4,6 +4,7 @@ timor = {
 	capital_settlement = dili
 	regions = {
 		asia
+		indonesia
 	}
 	
 	history = {

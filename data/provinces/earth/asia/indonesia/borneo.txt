@@ -4,6 +4,7 @@ borneo = {
 	capital_settlement = brunei
 	regions = {
 		asia
+		indonesia
 	}
 	
 	history = {

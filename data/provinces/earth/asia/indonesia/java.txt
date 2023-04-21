@@ -4,6 +4,7 @@ java = {
 	capital_settlement = jakarta
 	regions = {
 		asia
+		indonesia
 	}
 	
 	history = {

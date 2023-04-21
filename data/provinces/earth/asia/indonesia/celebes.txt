@@ -4,6 +4,7 @@ celebes = {
 	capital_settlement = makassar
 	regions = {
 		asia
+		indonesia
 	}
 	
 	history = {

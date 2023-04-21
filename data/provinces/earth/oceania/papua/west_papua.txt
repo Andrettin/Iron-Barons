@@ -3,6 +3,7 @@ west_papua = {
 	color = { 148 54 75 }
 	capital_settlement = jayapura
 	regions = {
+		indonesia
 		oceania
 	}
 	
