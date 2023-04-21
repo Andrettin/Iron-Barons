@@ -1,0 +1,13 @@
+celebes = {
+	name = "Celebes"
+	color = { 158 21 22 }
+	capital_settlement = makassar
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = moluccan
+		religion = pagan
+	}
+}

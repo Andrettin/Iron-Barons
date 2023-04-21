@@ -1,0 +1,13 @@
+sumatra = {
+	name = "Sumatra"
+	color = { 205 219 61 }
+	capital_settlement = bencoolen
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = malay
+		religion = pagan
+	}
+}

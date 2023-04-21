@@ -1,0 +1,5 @@
+moluccan = {
+	name = "Moluccan"
+	group = malay
+	color = { 90 132 76 }
+}

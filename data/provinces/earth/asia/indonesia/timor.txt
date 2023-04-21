@@ -1,0 +1,13 @@
+timor = {
+	name = "Timor"
+	color = { 194 5 86 }
+	capital_settlement = dili
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = javanese
+		religion = pagan
+	}
+}

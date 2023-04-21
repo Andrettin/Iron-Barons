@@ -1,0 +1,13 @@
+java = {
+	name = "Java"
+	color = { 178 155 146 }
+	capital_settlement = jakarta
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = javanese
+		religion = pagan
+	}
+}

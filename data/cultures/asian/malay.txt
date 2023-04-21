@@ -1,0 +1,5 @@
+malay = {
+	name = "Malay"
+	group = malay
+	color = { 85 78 89 }
+}
