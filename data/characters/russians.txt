@@ -1,0 +1,11 @@
+basil_iii_of_russia = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+	name = "Basil"
+	culture = russian
+	religion = orthodox
+	home_province = moscow
+	gender = male
+	birth_date = 1479
+	death_date = 1533
+	#son of Ivan III of Russia
+	#became Czar of Russia in 1505
+}
