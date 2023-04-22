@@ -1,3 +1,0 @@
-gems = {
-	filepath = "icons/commodities/gems.png"
-}

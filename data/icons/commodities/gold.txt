@@ -1,3 +1,0 @@
-gold = {
-	filepath = "icons/commodities/gold.png"
-}
