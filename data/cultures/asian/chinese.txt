@@ -1,0 +1,6 @@
+chinese = {
+	name = "Chinese"
+	group = asian
+	default_phenotype = east_asian
+	color = { 145 30 30 }
+}
