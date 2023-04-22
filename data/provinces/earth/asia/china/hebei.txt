@@ -1,0 +1,13 @@
+hebei = {
+	name = "Hebei"
+	color = { 25 112 17 }
+	capital_settlement = beijing
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

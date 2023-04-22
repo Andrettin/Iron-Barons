@@ -1,0 +1,13 @@
+yunnan = {
+	name = "Yunnan"
+	color = { 249 192 40 }
+	capital_settlement = kunming
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

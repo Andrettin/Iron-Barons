@@ -1,0 +1,13 @@
+hainan = {
+	name = "Hainan"
+	color = { 210 89 72 }
+	capital_settlement = haikou
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

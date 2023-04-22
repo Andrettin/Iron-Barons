@@ -1,0 +1,13 @@
+zhejiang = {
+	name = "Zhejiang"
+	color = { 220 58 60 }
+	capital_settlement = hangzhou
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

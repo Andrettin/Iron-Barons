@@ -1,0 +1,13 @@
+fujian = {
+	name = "Fujian"
+	color = { 222 119 2 }
+	capital_settlement = fuzhou
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

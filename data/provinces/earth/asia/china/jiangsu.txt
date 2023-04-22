@@ -1,0 +1,13 @@
+jiangsu = {
+	name = "Jiangsu"
+	color = { 32 139 5 }
+	capital_settlement = nanjing
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

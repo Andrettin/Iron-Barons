@@ -1,0 +1,13 @@
+henan = {
+	name = "Henan"
+	color = { 218 15 113 }
+	capital_settlement = zhengzhou
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

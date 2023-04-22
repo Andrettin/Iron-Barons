@@ -1,0 +1,13 @@
+gansu = {
+	name = "Gansu"
+	color = { 213 170 202 }
+	capital_settlement = lanzhou
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

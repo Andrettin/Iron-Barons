@@ -1,0 +1,13 @@
+taiwan = {
+	name = "Taiwan"
+	color = { 225 193 35 }
+	capital_settlement = taipei
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

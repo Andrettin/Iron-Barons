@@ -1,0 +1,13 @@
+canton = {
+	name = "Canton"
+	color = { 179 192 48 }
+	capital_settlement = canton
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}

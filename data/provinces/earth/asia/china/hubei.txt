@@ -1,0 +1,13 @@
+hubei = {
+	name = "Hubei"
+	color = { 38 217 95 }
+	capital_settlement = wuhan
+	regions = {
+		asia
+	}
+	
+	history = {
+		culture = chinese
+		religion = pagan
+	}
+}
