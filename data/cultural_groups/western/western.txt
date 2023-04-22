@@ -95,6 +95,11 @@ western = {
 			technologies += watch
 		}
 		
+		1512 = {
+			#the Portuguese reached Canton, in China, in 1512; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+			explored_provinces += canton
+		}
+		
 		1513.3.3 = {
 			#Juan Ponce de León discovered Florida in 1513.3.3; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
 			explored_provinces += florida
