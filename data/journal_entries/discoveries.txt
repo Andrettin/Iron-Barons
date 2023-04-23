@@ -16,6 +16,28 @@ discovery_of_the_pacific_ocean = {
 		discovered_region = pacific_ocean
 	}
 	completion_effects = {
-		research += 5
+		research += 4
+	}
+}
+
+discovery_of_florida = {
+	name = "Discovery of Florida"
+	portrait = unload
+	completion_conditions = {
+		discovered_province = florida
+	}
+	completion_effects = {
+		research += 1
+	}
+}
+
+discovery_of_mexico = {
+	name = "Discovery of Mexico"
+	portrait = unload
+	completion_conditions = {
+		discovered_region = mexico
+	}
+	completion_effects = {
+		research += 2
 	}
 }
