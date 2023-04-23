@@ -101,13 +101,13 @@ western = {
 		}
 		
 		1513.3.3 = {
-			#Juan Ponce de León discovered Florida in 1513.3.3; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
+			#Juan Ponce de León discovered Florida on 1513.3.3; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
 			explored_provinces += florida
 		}
 		
 		1513.9.25 = {
 			#Vasco Nuñez de Balboa discovered the Pacific Ocean, at the Panamanian coast, in 1513.9.25; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
-			explored_regions += pacific_ocean
+			explored_provinces += north_pacific_ocean
 		}
 		
 		1517 = {
@@ -121,10 +121,15 @@ western = {
 		}
 		
 		1519.10.21 = {
-			#Ferdinand Magellan reached the southern tip of South America in 1519.10.21; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+			#Ferdinand Magellan reached the southern tip of South America on 1519.10.21; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
 			explored_provinces += santa_cruz
 			explored_provinces += tierra_del_fuego
 			explored_provinces += magallanes
+		}
+		
+		1519.11.28 = {
+			#Ferdinand Magellan crossed the Strait of Magellan into open ocean on 1519.11.28; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+			explored_provinces += south_pacific_ocean
 		}
 	}
 }
