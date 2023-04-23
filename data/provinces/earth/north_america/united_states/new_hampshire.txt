@@ -2,6 +2,9 @@ new_hampshire = {
 	name = "New Hampshire"
 	color = { 48 192 64 }
 	capital_settlement = concord
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

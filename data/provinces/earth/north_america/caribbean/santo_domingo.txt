@@ -2,6 +2,9 @@ santo_domingo = {
 	name = "Santo Domingo"
 	color = { 74 221 63 }
 	capital_settlement = santo_domingo
+	regions = {
+		caribbean
+	}
 	
 	history = {
 		1600 = {

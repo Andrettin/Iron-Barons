@@ -2,6 +2,9 @@ oregon = {
 	name = "Oregon"
 	color = { 128 160 0 }
 	capital_settlement = portland
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = kwakiutl

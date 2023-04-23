@@ -2,6 +2,9 @@ veracruz = {
 	name = "Veracruz"
 	color = { 177 187 154 }
 	capital_settlement = veracruz
+	regions = {
+		mexico
+	}
 	
 	history = {
 		1600 = {

@@ -2,6 +2,9 @@ illinois = {
 	name = "Illinois"
 	color = { 144 128 64 }
 	capital_settlement = chicago
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

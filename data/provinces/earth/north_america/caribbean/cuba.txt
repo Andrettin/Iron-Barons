@@ -2,6 +2,9 @@ cuba = {
 	name = "Cuba"
 	color = { 143 89 118 }
 	capital_settlement = havana
+	regions = {
+		caribbean
+	}
 	
 	history = {
 		1600 = {

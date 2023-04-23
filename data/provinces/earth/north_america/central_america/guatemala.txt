@@ -2,4 +2,7 @@ guatemala = {
 	name = "Guatemala"
 	color = { 171 41 192 }
 	capital_settlement = guatemala
+	regions = {
+		central_america
+	}
 }

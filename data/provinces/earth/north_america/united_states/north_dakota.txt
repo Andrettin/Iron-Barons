@@ -2,6 +2,9 @@ north_dakota = {
 	name = "North Dakota"
 	color = { 133 70 165 }
 	capital_settlement = bismarck
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1803 = {

@@ -2,6 +2,9 @@ louisiana = {
 	name = "Louisiana"
 	color = { 79 163 196 }
 	capital_settlement = new_orleans
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

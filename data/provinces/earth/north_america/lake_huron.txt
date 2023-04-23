@@ -2,4 +2,7 @@ lake_huron = {
 	name = "Lake Huron"
 	color = { 144 236 230 }
 	lake = true
+	regions = {
+		north_america
+	}
 }

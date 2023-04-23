@@ -2,4 +2,7 @@ labrador = {
 	name = "Labrador"
 	color = { 84 51 136 }
 	capital_settlement = happy_valley
+	regions = {
+		canada
+	}
 }

@@ -2,6 +2,9 @@ massachusetts = {
 	name = "Massachusetts"
 	color = { 165 142 210 }
 	capital_settlement = boston
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

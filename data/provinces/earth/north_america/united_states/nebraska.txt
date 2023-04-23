@@ -2,6 +2,9 @@ nebraska = {
 	name = "Nebraska"
 	color = { 50 207 38 }
 	capital_settlement = lincoln_usa
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1803 = {

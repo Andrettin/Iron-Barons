@@ -2,6 +2,9 @@ vermont = {
 	name = "Vermont"
 	color = { 176 192 64 }
 	capital_settlement = burlington
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

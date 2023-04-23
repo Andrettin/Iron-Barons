@@ -2,6 +2,9 @@ florida = {
 	name = "Florida"
 	color = { 160 48 0 }
 	capital_settlement = tallahassee
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

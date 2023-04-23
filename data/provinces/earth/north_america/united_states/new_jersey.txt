@@ -2,6 +2,9 @@ new_jersey = {
 	name = "New Jersey"
 	color = { 74 74 176 }
 	capital_settlement = trenton
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

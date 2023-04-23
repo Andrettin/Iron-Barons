@@ -2,4 +2,7 @@ nicaragua = {
 	name = "Nicaragua"
 	color = { 80 25 46 }
 	capital_settlement = managua
+	regions = {
+		central_america
+	}
 }

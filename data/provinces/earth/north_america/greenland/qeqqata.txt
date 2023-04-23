@@ -2,4 +2,7 @@ qeqqata = {
 	name = "Qeqqata"
 	color = { 193 16 80 }
 	capital_settlement = sisimiut
+	regions = {
+		greenland
+	}
 }

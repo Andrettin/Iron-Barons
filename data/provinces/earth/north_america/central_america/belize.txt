@@ -2,4 +2,7 @@ belize = {
 	name = "Belize"
 	color = { 253 125 139 }
 	capital_settlement = belmopan
+	regions = {
+		central_america
+	}
 }

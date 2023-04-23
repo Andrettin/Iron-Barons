@@ -2,6 +2,9 @@ tabasco = {
 	name = "Tabasco"
 	color = { 183 127 51 }
 	capital_settlement = villahermosa
+	regions = {
+		mexico
+	}
 	
 	history = {
 		1600 = {

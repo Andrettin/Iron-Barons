@@ -2,6 +2,9 @@ baja_california = {
 	name = "Baja California"
 	color = { 75 247 180 }
 	capital_settlement = mexicali
+	regions = {
+		mexico
+	}
 	
 	history = {
 		1600 = {

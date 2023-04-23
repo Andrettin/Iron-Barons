@@ -2,6 +2,9 @@ kansas = {
 	name = "Kansas"
 	color = { 9 176 91 }
 	capital_settlement = topeka
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1803 = {

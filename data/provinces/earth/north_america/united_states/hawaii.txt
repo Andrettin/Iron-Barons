@@ -2,6 +2,9 @@ hawaii = {
 	name = "Hawaii"
 	color = { 120 216 115 }
 	capital_settlement = honolulu
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1898 = {

@@ -2,6 +2,9 @@ west_virginia = {
 	name = "West Virginia"
 	color = { 226 240 64 }
 	capital_settlement = charleston
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

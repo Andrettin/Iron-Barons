@@ -2,6 +2,9 @@ maine = {
 	name = "Maine"
 	color = { 110 117 123 }
 	capital_settlement = augusta
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

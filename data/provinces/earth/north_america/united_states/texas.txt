@@ -2,6 +2,9 @@ texas = {
 	name = "Texas"
 	color = { 0 176 64 }
 	capital_settlement = austin
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1600 = {

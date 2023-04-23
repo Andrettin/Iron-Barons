@@ -2,6 +2,9 @@ pennsylvania = {
 	name = "Pennsylvania"
 	color = { 176 0 0 }
 	capital_settlement = philadelphia
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

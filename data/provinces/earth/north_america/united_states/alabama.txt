@@ -2,6 +2,9 @@ alabama = {
 	name = "Alabama"
 	color = { 32 176 0 }
 	capital_settlement = montgomery
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

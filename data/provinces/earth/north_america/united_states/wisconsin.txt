@@ -2,6 +2,9 @@ wisconsin = {
 	name = "Wisconsin"
 	color = { 144 0 64 }
 	capital_settlement = madison
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

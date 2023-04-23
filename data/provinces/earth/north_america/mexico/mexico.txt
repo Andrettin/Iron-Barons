@@ -2,6 +2,9 @@ mexico = {
 	name = "Mexico"
 	color = { 215 42 255 }
 	capital_settlement = mexico_city
+	regions = {
+		mexico
+	}
 	
 	history = {
 		culture = aztec

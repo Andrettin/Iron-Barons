@@ -2,6 +2,9 @@ kentucky = {
 	name = "Kentucky"
 	color = { 240 0 64 }
 	capital_settlement = frankfort
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

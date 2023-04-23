@@ -2,6 +2,9 @@ missouri = {
 	name = "Missouri"
 	color = { 22 48 17 }
 	capital_settlement = jefferson_city
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1803 = {

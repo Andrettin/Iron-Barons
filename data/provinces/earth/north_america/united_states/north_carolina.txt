@@ -2,6 +2,9 @@ north_carolina = {
 	name = "North Carolina"
 	color = { 0 112 64 }
 	capital_settlement = raleigh
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

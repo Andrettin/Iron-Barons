@@ -2,6 +2,9 @@ virginia = {
 	name = "Virginia"
 	color = { 192 176 192 }
 	capital_settlement = richmond
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

@@ -2,6 +2,9 @@ michigan = {
 	name = "Michigan"
 	color = { 148 215 186 }
 	capital_settlement = lansing
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

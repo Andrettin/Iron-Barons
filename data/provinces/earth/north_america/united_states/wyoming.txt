@@ -2,6 +2,9 @@ wyoming = {
 	name = "Wyoming"
 	color = { 239 244 162 }
 	capital_settlement = cheyenne
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1803 = {

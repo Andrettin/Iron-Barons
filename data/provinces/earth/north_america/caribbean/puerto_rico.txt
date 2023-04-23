@@ -2,6 +2,9 @@ puerto_rico = {
 	name = "Puerto Rico"
 	color = { 180 106 222 }
 	capital_settlement = san_juan
+	regions = {
+		caribbean
+	}
 	
 	history = {
 		1513 = {

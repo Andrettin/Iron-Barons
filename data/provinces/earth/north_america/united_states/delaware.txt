@@ -2,6 +2,9 @@ delaware = {
 	name = "Delaware"
 	color = { 112 128 0 }
 	capital_settlement = dover_delaware
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = iroquois

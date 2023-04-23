@@ -2,6 +2,9 @@ south_carolina = {
 	name = "South Carolina"
 	color = { 0 112 192 }
 	capital_settlement = columbia
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

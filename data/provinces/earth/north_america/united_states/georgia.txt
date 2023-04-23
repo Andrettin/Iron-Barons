@@ -2,6 +2,9 @@ georgia = {
 	name = "Georgia"
 	color = { 64 112 64 }
 	capital_settlement = atlanta
+	regions = {
+		united_states
+	}
 	
 	history = {
 		owner = cherokee

@@ -2,6 +2,9 @@ iowa = {
 	name = "Iowa"
 	color = { 231 195 68 }
 	capital_settlement = des_moines
+	regions = {
+		united_states
+	}
 	
 	history = {
 		1803 = {

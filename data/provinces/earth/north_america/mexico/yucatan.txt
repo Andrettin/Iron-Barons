@@ -2,6 +2,9 @@ yucatan = {
 	name = "Yucatan"
 	color = { 217 197 109 }
 	capital_settlement = merida_yucatan
+	regions = {
+		mexico
+	}
 	
 	history = {
 		1600 = {

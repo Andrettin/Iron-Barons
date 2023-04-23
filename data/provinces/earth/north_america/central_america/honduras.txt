@@ -2,4 +2,7 @@ honduras = {
 	name = "Honduras"
 	color = { 241 234 90 }
 	capital_settlement = tegucigalpa
+	regions = {
+		central_america
+	}
 }

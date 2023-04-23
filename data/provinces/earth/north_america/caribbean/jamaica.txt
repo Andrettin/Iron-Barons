@@ -5,6 +5,9 @@ jamaica = {
 	cultural_names = {
 		castillian = "Santiago"
 	}
+	regions = {
+		caribbean
+	}
 	
 	history = {
 		1600 = {
