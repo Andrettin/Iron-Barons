@@ -1,0 +1,4 @@
+fuel = {
+	name = "Fuel"
+	icon = fuel
+}

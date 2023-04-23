@@ -1,4 +1,4 @@
 oil = {
 	name = "Oil"
-	icon = coal
+	icon = oil
 }
