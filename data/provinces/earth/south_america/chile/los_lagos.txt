@@ -1,0 +1,8 @@
+los_lagos = {
+	name = "Los Lagos"
+	color = { 223 217 97 }
+	capital_settlement = puerto_montt
+	regions = {
+		chile
+	}
+}

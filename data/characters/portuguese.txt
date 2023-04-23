@@ -10,6 +10,24 @@ pedro_alvares_cabral = { #Source: Isaac Asimov, "Cronologia das Ciências e das 
 	death_date = 1520
 }
 
+ferdinand_magellan = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 203.
+	name = "Ferdinand"
+	surname = "Magellan"
+	#advisor_type = navigator
+	culture = portuguese
+	religion = catholic
+	home_province = tras_os_montes
+	gender = male
+	birth_date = 1480
+	death_date = 1521
+	
+	history = {
+		1519.9.20 = {
+			#went on an expedition financed by Spain in 1519.9.20; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 203.
+		}
+	}
+}
+
 bartolomeu_dias = {
 	name = "Bartolomeu"
 	surname = "Dias"

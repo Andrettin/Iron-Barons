@@ -1,0 +1,8 @@
+aisen = {
+	name = "Aisen" #"Aisén"
+	color = { 92 253 87 }
+	capital_settlement = puerto_aisen
+	regions = {
+		chile
+	}
+}

@@ -1,0 +1,8 @@
+magallanes = {
+	name = "Magallanes"
+	color = { 110 49 187 }
+	capital_settlement = punta_arenas
+	regions = {
+		chile
+	}
+}

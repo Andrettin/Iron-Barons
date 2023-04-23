@@ -10,6 +10,12 @@ argentina = {
 	}
 }
 
+chile = {
+	superregions = {
+		south_america
+	}
+}
+
 venezuela = {
 	superregions = {
 		south_america

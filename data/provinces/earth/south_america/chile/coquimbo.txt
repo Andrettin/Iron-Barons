@@ -1,0 +1,8 @@
+coquimbo = {
+	name = "Coquimbo"
+	color = { 224 64 203 }
+	capital_settlement = la_serena
+	regions = {
+		chile
+	}
+}

@@ -1,0 +1,8 @@
+antofagasta = {
+	name = "Antofagasta"
+	color = { 141 122 160 }
+	capital_settlement = antofagasta
+	regions = {
+		chile
+	}
+}

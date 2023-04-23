@@ -1,0 +1,8 @@
+araucania = {
+	name = "Araucania" #"Araucanía"
+	color = { 177 118 209 }
+	capital_settlement = temuco
+	regions = {
+		chile
+	}
+}

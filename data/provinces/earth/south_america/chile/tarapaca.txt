@@ -1,0 +1,8 @@
+tarapaca = {
+	name = "Tarapaca" #"Tarapacá"
+	color = { 10 202 83 }
+	capital_settlement = iquique
+	regions = {
+		chile
+	}
+}

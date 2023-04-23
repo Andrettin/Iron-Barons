@@ -1,0 +1,8 @@
+atacama = {
+	name = "Atacama"
+	color = { 123 112 64 }
+	capital_settlement = copiapo
+	regions = {
+		chile
+	}
+}
