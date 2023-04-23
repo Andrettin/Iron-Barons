@@ -1,40 +1,47 @@
 north_america = {
+	name = "North America"
 	superregions = {
 		america
 	}
 }
 
 canada = {
+	name = "Canada"
 	superregions = {
 		north_america
 	}
 }
 
 caribbean = {
+	name = "Caribbean"
 	superregions = {
 		north_america
 	}
 }
 
 central_america = {
+	name = "Central America"
 	superregions = {
 		north_america
 	}
 }
 
 greenland = {
+	name = "Greenland"
 	superregions = {
 		north_america
 	}
 }
 
 mexico = {
+	name = "Mexico"
 	superregions = {
 		north_america
 	}
 }
 
 united_states = {
+	name = "United States"
 	superregions = {
 		north_america
 	}
