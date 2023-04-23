@@ -23,6 +23,18 @@ vasco_nunez_de_balboa = { #Source: Isaac Asimov, "Cronologia das Ciências e das
 	death_date = 1519
 }
 
+francisco_fernandez_de_cordoba = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+	name = "Francisco Fernandez" #"Francisco Fernández"
+	surname = "de Cordoba" #"de Córdoba"
+	#advisor_type = navigator
+	culture = castillian
+	religion = catholic
+	home_province = andalusia
+	gender = male
+	birth_date = 1475
+	death_date = 1526
+}
+
 bartolome_de_las_casas = {
 	name = "Bartolome"
 	surname = "de las Casas"
@@ -37,6 +49,18 @@ bartolome_de_las_casas = {
 	traits = {
 		compassionate
 	}
+}
+
+hernan_cortes = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+	name = "Hernan" #"Hernán"
+	surname = "Cortes" #"Cortés"
+	#conquistador
+	culture = castillian
+	religion = catholic
+	home_province = extremadura
+	gender = male
+	birth_date = 1485
+	death_date = 1547
 }
 
 juan_de_sepulveda = {

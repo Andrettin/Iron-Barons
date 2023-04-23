@@ -1,0 +1,10 @@
+montezuma_ii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+	name = "Montezuma"
+	culture = aztec
+	religion = catholic
+	home_province = mexico
+	gender = male
+	birth_date = 1466
+	death_date = 1520
+	#emperor of the Aztecs
+}

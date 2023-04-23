@@ -109,5 +109,15 @@ western = {
 			#Vasco Nuñez de Balboa discovered the Pacific Ocean, at Panamanian coast, in 1513.9.25; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
 			explored_regions += pacific_ocean
 		}
+		
+		1517 = {
+			#Francisco Fernández de Córdoba discovered the Yucatan peninsula in 1517; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+			explored_provinces += yucatan
+		}
+		
+		1519 = {
+			#Hernán Cortés reached Mexico in 1519; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
+			explored_regions += mexico
+		}
 	}
 }
