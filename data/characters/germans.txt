@@ -11,3 +11,20 @@ martin_waldseemuller = { #Source: Isaac Asimov, "Cronologia das Ciências e das 
 	
 	#published a map in 1507 depicting the Americas as a new continent for the first time
 }
+
+martin_luther = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 204.
+	name = "Martin"
+	surname = "Luther"
+	#advisor_type = theologian
+	culture = german
+	religion = protestant
+	home_province = saxony #Wittenberg, where he presented his 95 theses
+	gender = male
+	birth_date = 1483
+	death_date = 1546
+	#required_technology = printing_press
+	skill = 6
+	#monk
+	
+	#presented his 95 theses in Wittenberg, in Saxony, on 1517.10.31, starting the protestant reformation
+}

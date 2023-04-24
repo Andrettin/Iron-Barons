@@ -1,0 +1,10 @@
+selim_i_of_the_ottoman_empire = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 204.
+	name = "Selim"
+	culture = turkish
+	religion = sunni
+	home_province = corum
+	gender = male
+	birth_date = 1467
+	death_date = 1520
+	#became Sultan of the Ottoman Empire in 1512
+}
