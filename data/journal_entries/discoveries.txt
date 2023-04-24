@@ -58,3 +58,14 @@ discovery_of_the_pacific_ocean = {
 		research += 4
 	}
 }
+
+discovery_of_peru = {
+	name = "Discovery of Peru"
+	portrait = unload
+	completion_conditions = {
+		discovered_region = peru
+	}
+	completion_effects = {
+		research += 2
+	}
+}

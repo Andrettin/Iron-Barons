@@ -1,28 +1,33 @@
 south_america = {
+	name = "South America"
 	superregions = {
 		america
 	}
 }
 
 argentina = {
+	name = "Argentina"
 	superregions = {
 		south_america
 	}
 }
 
 chile = {
+	name = "Chile"
 	superregions = {
 		south_america
 	}
 }
 
 peru = {
+	name = "Peru"
 	superregions = {
 		south_america
 	}
 }
 
 venezuela = {
+	name = "Venezuela"
 	superregions = {
 		south_america
 	}
