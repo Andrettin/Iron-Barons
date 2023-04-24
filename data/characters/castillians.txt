@@ -35,6 +35,18 @@ francisco_fernandez_de_cordoba = { #Source: Isaac Asimov, "Cronologia das Ciênc
 	death_date = 1526
 }
 
+juan_sebastian_de_elcano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 203.
+	name = "Juan Sebastian" #"Juan Sebastián"
+	surname = "de Elcano"
+	#advisor_type = navigator
+	culture = castillian
+	religion = catholic
+	home_province = navarre
+	gender = male
+	birth_date = 1476
+	death_date = 1526
+}
+
 bartolome_de_las_casas = {
 	name = "Bartolome"
 	surname = "de las Casas"
