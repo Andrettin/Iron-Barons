@@ -35,6 +35,18 @@ francisco_fernandez_de_cordoba = { #Source: Isaac Asimov, "Cronologia das Ciênc
 	death_date = 1526
 }
 
+francisco_pizarro = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
+	name = "Francisco"
+	surname = "Pizarro"
+	#conquistador
+	culture = castillian
+	religion = catholic
+	home_province = extremadura
+	gender = male
+	birth_date = 1475
+	death_date = 1541
+}
+
 juan_sebastian_de_elcano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 203.
 	name = "Juan Sebastian" #"Juan Sebastián"
 	surname = "de Elcano"

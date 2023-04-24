@@ -1,0 +1,10 @@
+atahualpa = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
+	name = "Atahualpa"
+	culture = inca
+	religion = pagan
+	home_province = cuzco
+	gender = male
+	birth_date = 1502
+	death_date = 1533
+	#became emperor of the Incas in 1530
+}

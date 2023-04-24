@@ -1,7 +1,7 @@
 montezuma_ii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
 	name = "Montezuma"
 	culture = aztec
-	religion = catholic
+	religion = pagan
 	home_province = mexico
 	gender = male
 	birth_date = 1466
