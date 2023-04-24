@@ -1,0 +1,8 @@
+loreto = {
+	name = "Loreto"
+	color = { 52 246 68 }
+	capital_settlement = iquitos
+	regions = {
+		peru
+	}
+}

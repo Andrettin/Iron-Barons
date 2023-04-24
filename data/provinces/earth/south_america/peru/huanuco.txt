@@ -1,0 +1,8 @@
+huanuco = {
+	name = "Huanuco" #"Huánuco"
+	color = { 211 7 21 }
+	capital_settlement = huanuco
+	regions = {
+		peru
+	}
+}

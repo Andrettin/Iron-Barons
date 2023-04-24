@@ -1,0 +1,8 @@
+ayacucho = {
+	name = "Ayacucho"
+	color = { 176 151 34 }
+	capital_settlement = ayacucho
+	regions = {
+		peru
+	}
+}

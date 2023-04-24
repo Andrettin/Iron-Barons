@@ -1,0 +1,8 @@
+cajamarca = {
+	name = "Cajamarca"
+	color = { 211 156 202 }
+	capital_settlement = cajamarca
+	regions = {
+		peru
+	}
+}

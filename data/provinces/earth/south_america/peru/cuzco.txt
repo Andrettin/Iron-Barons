@@ -1,0 +1,8 @@
+cuzco = {
+	name = "Cuzco"
+	color = { 231 106 125 }
+	capital_settlement = cuzco
+	regions = {
+		peru
+	}
+}

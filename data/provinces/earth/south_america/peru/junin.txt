@@ -1,0 +1,8 @@
+junin = {
+	name = "Junin" #"Junín"
+	color = { 89 60 12 }
+	capital_settlement = huancayo
+	regions = {
+		peru
+	}
+}

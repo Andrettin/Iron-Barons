@@ -1,0 +1,8 @@
+lima = {
+	name = "Lima"
+	color = { 99 169 92 }
+	capital_settlement = lima
+	regions = {
+		peru
+	}
+}
