@@ -1,3 +1,20 @@
+circumnavigation_of_the_earth = {
+	name = "Circumnavigation of the Earth"
+	portrait = unload
+	completion_conditions = {
+		tooltip = {
+			text = "Discovered the Atlantic, Indian and Pacific Oceans"
+			
+			discovered_region = atlantic_ocean
+			discovered_region = pacific_ocean
+			discovered_region = indian_ocean
+		}
+	}
+	completion_effects = {
+		research += 5
+	}
+}
+
 discovery_of_america = {
 	name = "Discovery of America"
 	portrait = unload
@@ -6,17 +23,6 @@ discovery_of_america = {
 	}
 	completion_effects = {
 		research += 5
-	}
-}
-
-discovery_of_the_pacific_ocean = {
-	name = "Discovery of the Pacific Ocean"
-	portrait = unload
-	completion_conditions = {
-		discovered_region = pacific_ocean
-	}
-	completion_effects = {
-		research += 4
 	}
 }
 
@@ -39,5 +45,16 @@ discovery_of_mexico = {
 	}
 	completion_effects = {
 		research += 2
+	}
+}
+
+discovery_of_the_pacific_ocean = {
+	name = "Discovery of the Pacific Ocean"
+	portrait = unload
+	completion_conditions = {
+		discovered_region = pacific_ocean
+	}
+	completion_effects = {
+		research += 4
 	}
 }
