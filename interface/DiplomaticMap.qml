@@ -11,7 +11,7 @@ Flickable {
 	
 	enum Mode {
 		Political,
-		Diplomatic,
+		Treaty,
 		Terrain,
 		Cultural,
 		Religious
@@ -21,6 +21,7 @@ Flickable {
 	property string country_suffix: "0"
 	property var selected_country: null
 	property int mode: DiplomaticMap.Mode.Political
+	readonly property var reference_country: selected_country ? selected_country : (metternich.game.player_country ? metternich.game.player_country : null)
 	
 	Image {
 		id: ocean_image
@@ -165,14 +166,14 @@ Flickable {
 	}
 	
 	Repeater {
-		model: selected_country ? selected_country.game_data.consulates : []
+		model: reference_country ? reference_country.game_data.consulates : []
 		
 		Image {
 			id: consulate_icon
 			x: other_country.capital_province.capital_settlement.game_data.tile_pos.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - width / 2
 			y: other_country.capital_province.capital_settlement.game_data.tile_pos.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - height / 2
 			source: "image://icon/" + consulate.icon.identifier
-			visible: !selected_country.game_data.anarchy && !other_country.game_data.anarchy
+			visible: !reference_country.game_data.anarchy && !other_country.game_data.anarchy
 			
 			readonly property var other_country: model.modelData.key
 			readonly property var consulate: model.modelData.value
@@ -209,9 +210,8 @@ Flickable {
 	
 	function get_map_mode_suffix(mode, country) {
 		switch (mode) {
-			case DiplomaticMap.Mode.Diplomatic:
-				if (selected_country !== null || metternich.game.player_country !== null) {
-					var reference_country = selected_country !== null ? selected_country : metternich.game.player_country
+			case DiplomaticMap.Mode.Treaty:
+				if (reference_country !== null) {
 					return "/diplomatic/" + reference_country.game_data.get_diplomacy_state_diplomatic_map_suffix(country)
 				}
 				break

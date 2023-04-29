@@ -43,7 +43,7 @@ MenuBase {
 		icon_identifier: "flag"
 		border_color: "white"
 		unrounded_left_corners: true
-		tooltip: "Political Map Mode"
+		tooltip: "Political Map"
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Political
@@ -57,10 +57,10 @@ MenuBase {
 		icon_identifier: "treaty"
 		border_color: "white"
 		unrounded_left_corners: true
-		tooltip: "Diplomatic Map Mode"
+		tooltip: "Treaty Map"
 		
 		onReleased: {
-			diplomatic_map.mode = DiplomaticMap.Mode.Diplomatic
+			diplomatic_map.mode = DiplomaticMap.Mode.Treaty
 		}
 	}
 	
@@ -71,7 +71,7 @@ MenuBase {
 		icon_identifier: "mountains"
 		border_color: "white"
 		unrounded_left_corners: true
-		tooltip: "Terrain Map Mode"
+		tooltip: "Terrain Map"
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Terrain
@@ -85,7 +85,7 @@ MenuBase {
 		icon_identifier: "music"
 		border_color: "white"
 		unrounded_left_corners: true
-		tooltip: "Cultural Map Mode"
+		tooltip: "Cultural Map"
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
@@ -99,7 +99,7 @@ MenuBase {
 		icon_identifier: "wooden_cross"
 		border_color: "white"
 		unrounded_left_corners: true
-		tooltip: "Religious Map Mode"
+		tooltip: "Religious Map"
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Religious

@@ -64,7 +64,6 @@ Window {
 		initialItem: "menus/MainMenu.qml"
 		visible: metternich.running
 	}
-
 	
 	Connections {
 		target: metternich
