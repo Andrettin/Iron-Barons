@@ -1,0 +1,11 @@
+gustav_i_of_sweden = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
+	name = "Gustav"
+	dynasty = vasa
+	culture = swedish
+	religion = protestant
+	home_province = uppland
+	gender = male
+	birth_date = 1496
+	death_date = 1560
+	#became king of Sweden in 1523
+}

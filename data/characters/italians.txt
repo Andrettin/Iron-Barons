@@ -12,6 +12,20 @@ amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	#went on an expedition to explore the coast of South America in 1497
 }
 
+giovanni_da_verrazano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
+	name = "Giovanni"
+	surname = "da Verrazano"
+	#advisor_type = navigator
+	culture = italian
+	religion = catholic
+	home_province = tuscany
+	gender = male
+	birth_date = 1485
+	death_date = 1528
+	
+	#explored the North American eastern coast in 1524, and discovered New York Bay
+}
+
 niccolo_tartaglia = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
 	name = "Niccolo" #"Niccolò"
 	surname = "Tartaglia"

@@ -132,6 +132,16 @@ western = {
 			explored_provinces += south_pacific_ocean
 		}
 		
+		1524 = {
+			#Giovanni da Verrazano discovered New York Bay in 1524; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
+			explored_provinces += new_york
+		}
+		
+		1530 = {
+			#Potatoes discovered by Spanish explorer Gonzalo Jiménez de Quesada in 1530; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 205-206.
+			technologies += potatoes
+		}
+		
 		1531 = {
 			#Francisco Pizarro reached Peru in 1531; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
 			explored_regions += peru
