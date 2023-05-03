@@ -222,11 +222,13 @@ Item {
 			}
 			
 			var dialog = notification_dialog_component.createObject(map_view, {
-				title: "Technology Researched",
+				title: technology.discovery ? "Discovery" : "Technology Researched",
 				portrait_object: metternich.defines.interior_minister_portrait,
-				text: "Your Excellency, our scholars have made a breakthrough in the research of the " + technology.name + " technology!",
+				text: technology.discovery ? ("Your Excellency, we have discovered " + technology.name + "!") : ("Your Excellency, our scholars have made a breakthrough in the research of the " + technology.name + " technology!"),
 				on_closed: () => {
-					menu_stack.push("TechnologyView.qml")
+					if (!technology.discovery) {
+						menu_stack.push("TechnologyView.qml")
+					}
 				}
 			})
 			
