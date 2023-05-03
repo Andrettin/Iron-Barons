@@ -42,13 +42,13 @@ Item {
 	Image {
 		id: garrison_icon
 		anchors.left: parent.left
-		anchors.leftMargin: is_fleet ? (Math.floor(tile_size / 2) - Math.floor(width / 2)) : (8 * scale_factor)
+		anchors.leftMargin: is_on_water ? (Math.floor(tile_size / 2) - Math.floor(width / 2)) : (8 * scale_factor)
 		anchors.top: parent.top
-		anchors.topMargin: is_fleet ? (Math.floor(tile_size / 2) - Math.floor(height / 2)) : (8 * scale_factor)
-		source: "image://icon/" + (is_fleet ? "anchor" : "embassy") + (selected ? "/selected" : "")
+		anchors.topMargin: is_on_water ? (Math.floor(tile_size / 2) - Math.floor(height / 2)) : (8 * scale_factor)
+		source: "image://icon/" + (is_on_water ? "carrack" : "embassy") + (selected ? "/selected" : "")
 		visible: province !== null && is_center_tile && province.game_data.military_unit_category_counts.length > 0
 		
-		readonly property bool is_fleet: visible && province.water_zone
+		readonly property bool is_on_water: visible && province.water_zone
 		readonly property bool selected: visible && selected_province === province && selected_garrison
 	}
 	
