@@ -1,0 +1,5 @@
+uzbek = {
+	name = "Uzbek"
+	group = turkic
+	color = { 152 67 56 }
+}

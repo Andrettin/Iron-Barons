@@ -1,0 +1,5 @@
+kyrgyz = {
+	name = "Kyrgyz"
+	group = turkic
+	color = { 62 73 41 }
+}
