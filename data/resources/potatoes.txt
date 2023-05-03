@@ -1,0 +1,9 @@
+potatoes = {
+	name = "Potatoes"
+	commodity = potatoes
+	discovery_technology = potatoes
+	required_technology = potatoes
+	terrain_types = {
+		plains
+	}
+}

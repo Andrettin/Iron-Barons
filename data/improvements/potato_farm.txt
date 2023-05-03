@@ -1,0 +1,38 @@
+potato_farm = {
+	name = "Potato Farm"
+	resource = potatoes
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_multiplier = 1
+	variation_count = 4
+	required_technology = potatoes
+}
+
+potato_estate = {
+	name = "Potato Estate"
+	resource = potatoes
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_multiplier = 2
+	variation_count = 4
+	required_improvement = potato_farm
+	required_technology = land_enclosure
+}
+
+mechanized_potato_estate = {
+	name = "Mechanized Potato Estate"
+	resource = potatoes
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_multiplier = 3
+	variation_count = 4
+	required_improvement = potato_estate
+	required_technology = seed_drill
+}
+
+industrial_potato_estate = {
+	name = "Industrial Potato Estate"
+	resource = potatoes
+	image_filepath = "tiles/improvements/grain_farm.png"
+	output_multiplier = 4
+	variation_count = 4
+	required_improvement = potato_estate
+	required_technology = moldboard_plow
+}

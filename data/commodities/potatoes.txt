@@ -1,0 +1,5 @@
+potatoes = {
+	name = "Potatoes"
+	icon = grain
+	food_type = starch
+}
