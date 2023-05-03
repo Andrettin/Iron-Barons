@@ -4,7 +4,8 @@ watch = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1
 	portrait = engineering
 	year = 1504
 	prerequisites = {
-		saw_mill #invented by Peter Henlein, a German sawmiller
+		#saw_mill #invented by Peter Henlein, a German sawmiller
+		double_bit_axe
 		#based on the mainspring
 	}
 	modifier = {
