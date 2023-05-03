@@ -1,0 +1,6 @@
+nukus = {
+	name = "Nukus"
+	world = earth
+	geocoordinate = { 59.61500687550 42.47000327460 } #from Natural Earth
+	type = settlement
+}

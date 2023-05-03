@@ -1,0 +1,8 @@
+kashkadarya = {
+	name = "Kashkadarya"
+	color = { 31 108 88 }
+	capital_settlement = qarshi
+	regions = {
+		asia
+	}
+}

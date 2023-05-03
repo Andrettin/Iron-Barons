@@ -1,0 +1,8 @@
+jizzakh = {
+	name = "Jizzakh"
+	color = { 3 39 46 }
+	capital_settlement = jizzakh
+	regions = {
+		asia
+	}
+}

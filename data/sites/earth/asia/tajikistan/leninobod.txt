@@ -1,0 +1,6 @@
+leninobod = {
+	name = "Leninobod"
+	world = earth
+	geocoordinate = { 69.00000365160 39.75000300860 } #from Natural Earth
+	type = settlement
+}

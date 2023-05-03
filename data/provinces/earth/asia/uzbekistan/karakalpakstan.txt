@@ -1,0 +1,8 @@
+karakalpakstan = {
+	name = "Karakalpakstan"
+	color = { 85 240 7 }
+	capital_settlement = nukus
+	regions = {
+		asia
+	}
+}
