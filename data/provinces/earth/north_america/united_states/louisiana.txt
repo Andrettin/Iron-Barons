@@ -3,6 +3,7 @@ louisiana = {
 	color = { 79 163 196 }
 	capital_settlement = new_orleans
 	regions = {
+		mississippi_basin
 		united_states
 	}
 	

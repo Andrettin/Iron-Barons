@@ -3,6 +3,7 @@ kentucky = {
 	color = { 240 0 64 }
 	capital_settlement = frankfort
 	regions = {
+		mississippi_basin
 		united_states
 	}
 	

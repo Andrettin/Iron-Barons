@@ -3,6 +3,7 @@ tennessee = {
 	color = { 94 107 77 }
 	capital_settlement = nashville
 	regions = {
+		mississippi_basin
 		united_states
 	}
 	

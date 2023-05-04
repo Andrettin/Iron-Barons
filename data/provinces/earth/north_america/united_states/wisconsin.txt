@@ -3,6 +3,7 @@ wisconsin = {
 	color = { 144 0 64 }
 	capital_settlement = madison
 	regions = {
+		mississippi_basin
 		united_states
 	}
 	

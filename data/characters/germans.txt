@@ -28,3 +28,17 @@ martin_luther = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	
 	#presented his 95 theses in Wittenberg, in Saxony, on 1517.10.31, starting the protestant reformation
 }
+
+peter_bennewitz = { #also known as Petrus Apianus; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
+	name = "Peter"
+	surname = "Bennewitz"
+	#advisor_type = natural_scientist #astronomer
+	culture = german
+	religion = protestant
+	home_province = saxony
+	gender = male
+	birth_date = 1501
+	death_date = 1552
+	
+	#published a book in 1540 in which he stated that comet tails are always in the opposite direction to the sun
+}

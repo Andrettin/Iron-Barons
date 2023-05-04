@@ -155,5 +155,15 @@ western = {
 			#Jacques Cartier discovered the Gulf of Saint Lawrence on 1534.8.10; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
 			explored_provinces += gulf_of_saint_lawrence
 		}
+		
+		1536 = {
+			#Hernán Cortés discovered Baja California in 1536; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
+			explored_provinces += baja_california
+		}
+		
+		1541 = {
+			#Hernando de Soto discovered the Mississippi River in 1541; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
+			explored_regions += mississippi_basin
+		}
 	}
 }

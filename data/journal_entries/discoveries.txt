@@ -48,6 +48,17 @@ discovery_of_mexico = {
 	}
 }
 
+discovery_of_the_mississippi_river = {
+	name = "Discovery of the Mississippi River"
+	portrait = unload
+	completion_conditions = {
+		discovered_region = mississippi_basin
+	}
+	completion_effects = {
+		research += 1
+	}
+}
+
 discovery_of_the_pacific_ocean = {
 	name = "Discovery of the Pacific Ocean"
 	portrait = unload

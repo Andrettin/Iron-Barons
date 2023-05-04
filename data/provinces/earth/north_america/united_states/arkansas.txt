@@ -3,6 +3,7 @@ arkansas = {
 	color = { 87 66 136 }
 	capital_settlement = little_rock
 	regions = {
+		mississippi_basin
 		united_states
 	}
 	

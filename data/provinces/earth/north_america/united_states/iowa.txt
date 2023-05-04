@@ -3,6 +3,7 @@ iowa = {
 	color = { 231 195 68 }
 	capital_settlement = des_moines
 	regions = {
+		mississippi_basin
 		united_states
 	}
 	

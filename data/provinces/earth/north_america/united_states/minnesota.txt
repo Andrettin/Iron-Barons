@@ -3,6 +3,7 @@ minnesota = {
 	color = { 37 178 12 }
 	capital_settlement = minneapolis
 	regions = {
+		mississippi_basin
 		united_states
 	}
 	

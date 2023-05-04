@@ -114,3 +114,18 @@ gonzalo_jimenez_de_quesada = { #Source: Isaac Asimov, "Cronologia das Ciências 
 	#discovered potatoes in 1530
 	#founded the city of Bogotá
 }
+
+hernando_de_soto = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
+	name = "Hernando"
+	surname = "de Soto"
+	#explorer
+	culture = castillian
+	religion = catholic
+	home_province = extremadura
+	gender = male
+	birth_date = 1500
+	death_date = 1542
+	
+	#hired by Charles V in 1539 to acquire Florida for Spain
+	#discovered the Mississippi River in 1541
+}

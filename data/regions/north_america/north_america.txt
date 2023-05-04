@@ -40,6 +40,13 @@ mexico = {
 	}
 }
 
+mississippi_basin = {
+	name = "Mississippi Basin"
+	superregions = {
+		north_america
+	}
+}
+
 united_states = {
 	name = "United States"
 	superregions = {

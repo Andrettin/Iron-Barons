@@ -13,6 +13,18 @@ jacques_cartier = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desco
 	#discovered the Gulf of Saint Lawrence on 1534.8.10
 }
 
+jean_calvin = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
+	name = "Jean"
+	surname = "Calvin"
+	#advisor_type = theologian
+	culture = french
+	religion = protestant
+	home_province = geneva
+	gender = male
+	birth_date = 1509
+	death_date = 1564
+}
+
 jean_de_brebeuf = {
 	name = "Jean"
 	surname = "de Brebeuf"

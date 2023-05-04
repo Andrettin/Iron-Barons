@@ -10,6 +10,7 @@ henry_viii_of_england = { #Source: Isaac Asimov, "Cronologia das Ciências e das
 	#became king of England in 1509
 	#had his marriage with Catherine of Aragon dissolved in 1531, and subsequently married Anne Boleyn
 	#started a process in 1534 that resulted in the establishment of Anglicanism in England
+	#executed Anne Boleyn in 1536 and subsequently married Jane Seymour
 }
 
 anne_boleyn = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
@@ -22,6 +23,18 @@ anne_boleyn = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobert
 	birth_date = 1507
 	start_date = 1531 #marriage
 	death_date = 1536
+}
+
+jane_seymour = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
+	name = "Jane"
+	surname = "Seymour"
+	culture = english
+	religion = protestant
+	home_province = middlesex
+	gender = female
+	birth_date = 1509
+	start_date = 1536 #marriage?
+	death_date = 1537
 }
 
 francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
