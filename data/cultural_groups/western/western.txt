@@ -146,5 +146,14 @@ western = {
 			#Francisco Pizarro reached Peru in 1531; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
 			explored_regions += peru
 		}
+		
+		1534 = {
+			#Jacques Cartier discovered the Strait of Belle Isle in 1534; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
+		}
+		
+		1534.8.10 = {
+			#Jacques Cartier discovered the Gulf of Saint Lawrence on 1534.8.10; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
+			explored_provinces += gulf_of_saint_lawrence
+		}
 	}
 }

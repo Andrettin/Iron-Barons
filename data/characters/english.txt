@@ -1,3 +1,29 @@
+henry_viii_of_england = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
+	name = "Henry"
+	culture = english
+	religion = protestant
+	home_province = middlesex
+	gender = male
+	birth_date = 1491
+	death_date = 1547
+	
+	#became king of England in 1509
+	#had his marriage with Catherine of Aragon dissolved in 1531, and subsequently married Anne Boleyn
+	#started a process in 1534 that resulted in the establishment of Anglicanism in England
+}
+
+anne_boleyn = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
+	name = "Anne"
+	surname = "Boleyn"
+	culture = english
+	religion = protestant
+	home_province = middlesex
+	gender = female
+	birth_date = 1507
+	start_date = 1531 #marriage
+	death_date = 1536
+}
+
 francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 	name = "Francis"
 	surname = "Bacon"

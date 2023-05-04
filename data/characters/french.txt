@@ -1,3 +1,18 @@
+jacques_cartier = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
+	name = "Jacques"
+	surname = "Cartier"
+	#advisor_type = navigator
+	culture = french
+	religion = catholic
+	home_province = ile_de_france
+	gender = male
+	birth_date = 1491
+	death_date = 1557
+	
+	#discovered the Strait of Belle Isle in 1534
+	#discovered the Gulf of Saint Lawrence on 1534.8.10
+}
+
 jean_de_brebeuf = {
 	name = "Jean"
 	surname = "de Brebeuf"
