@@ -7,10 +7,46 @@ bay_of_biscay = {
 	}
 }
 
+bay_of_campeche = {
+	name = "Bay of Campeche"
+	color = { 145 224 246 }
+	bay = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
 bristol_channel = {
 	name = "Bristol Channel"
 	color = { 100 44 144 }
 	bay = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
+caribbean_sea = {
+	name = "Caribbean Sea"
+	color = { 41 137 162 }
+	sea = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
+cumberland_sound = {
+	name = "Cumberland Sound"
+	color = { 2 61 163 }
+	sea = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
+davis_strait = {
+	name = "Davis Strait"
+	color = { 3 31 140 }
+	sea = true
 	regions = {
 		atlantic_ocean
 	}
@@ -24,6 +60,33 @@ english_channel = {
 		briton = "British Ocean"
 		roman = "British Ocean"
 	}
+	regions = {
+		atlantic_ocean
+	}
+}
+
+gulf_of_maine = {
+	name = "Gulf of Maine"
+	color = { 73 176 214 }
+	bay = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
+gulf_of_mexico = {
+	name = "Gulf of Mexico"
+	color = { 107 166 253 }
+	bay = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
+gulf_of_saint_lawrence = {
+	name = "Gulf of Saint Lawrence"
+	color = { 51 77 236 }
+	bay = true
 	regions = {
 		atlantic_ocean
 	}
@@ -51,6 +114,15 @@ irish_sea = {
 	}
 }
 
+labrador_sea = {
+	name = "Labrador Sea"
+	color = { 141 185 243 }
+	sea = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
 north_atlantic_ocean = {
 	name = "North Atlantic Ocean"
 	color = { 135 11 136 }
@@ -72,6 +144,15 @@ sargasso_sea = {
 south_atlantic_ocean = {
 	name = "South Atlantic Ocean"
 	color = { 153 220 205 }
+	sea = true
+	regions = {
+		atlantic_ocean
+	}
+}
+
+straits_of_florida = {
+	name = "Straits of Florida"
+	color = { 208 222 251 }
 	sea = true
 	regions = {
 		atlantic_ocean
