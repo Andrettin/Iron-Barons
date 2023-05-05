@@ -1,0 +1,14 @@
+amazonas = {
+	name = "Amazonas"
+	color = { 90 26 161 }
+	capital_settlement = manaus
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

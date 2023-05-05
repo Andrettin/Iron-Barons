@@ -1,0 +1,14 @@
+goias = {
+	name = "Goias" #"Goiás"
+	color = { 174 212 82 }
+	capital_settlement = goiania
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

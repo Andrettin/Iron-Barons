@@ -1,0 +1,14 @@
+amapa = {
+	name = "Amapa" #"Amapá"
+	color = { 165 138 216 }
+	capital_settlement = macapa
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

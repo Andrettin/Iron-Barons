@@ -1,0 +1,14 @@
+tocantins = {
+	name = "Tocantins"
+	color = { 188 31 76 }
+	capital_settlement = palmas
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

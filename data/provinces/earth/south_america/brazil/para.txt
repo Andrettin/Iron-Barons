@@ -1,0 +1,14 @@
+para = {
+	name = "Para" #"Pará"
+	color = { 218 188 202 }
+	capital_settlement = belem
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

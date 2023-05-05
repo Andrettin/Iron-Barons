@@ -1,0 +1,14 @@
+acre = {
+	name = "Acre"
+	color = { 222 110 202 }
+	capital_settlement = rio_branco
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

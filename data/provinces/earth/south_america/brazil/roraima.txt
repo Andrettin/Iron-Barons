@@ -1,0 +1,14 @@
+roraima = {
+	name = "Roraima"
+	color = { 110 75 109 }
+	capital_settlement = boa_vista
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

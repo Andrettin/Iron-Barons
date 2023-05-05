@@ -1,0 +1,14 @@
+mato_grosso_do_sul = {
+	name = "Mato Grosso do Sul"
+	color = { 242 4 215 }
+	capital_settlement = campo_grande
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

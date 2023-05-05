@@ -1,0 +1,14 @@
+mato_grosso = {
+	name = "Mato Grosso"
+	color = { 12 169 0 }
+	capital_settlement = cuiaba
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

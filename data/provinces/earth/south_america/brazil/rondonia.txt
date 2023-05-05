@@ -1,0 +1,14 @@
+rondonia = {
+	name = "Rondonia" #"Rondônia"
+	color = { 253 209 179 }
+	capital_settlement = porto_velho
+	regions = {
+		brazil
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}
