@@ -11,21 +11,31 @@ brazil = {
 	}
 	core_provinces = {
 		rio_de_janeiro
+		acre
 		alagoas
+		amapa
+		amazonas
 		bahia
 		ceara
 		espirito_santo
+		goias
 		maranhao
+		mato_grosso
+		mato_grosso_do_sul
 		minas_gerais
+		para
 		paraiba
 		parana
 		pernambuco
 		piaui
 		rio_grande_do_norte
 		rio_grande_do_sul
+		rondonia
+		roraima
 		santa_catarina
 		sao_paulo
 		sergipe
+		tocantins
 	}
 	
 	history = {

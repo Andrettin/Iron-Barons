@@ -7,6 +7,10 @@ misiones = {
 	}
 	
 	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+		
 		1790 = {
 			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 		}

@@ -7,9 +7,14 @@ cuba = {
 	}
 	
 	history = {
+		owner = arawaks
+		culture = arawak
+		religion = pagan
+		
 		1600 = {
 			owner = cuba #part of Spanish Cuba in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = castillian
+			religion = catholic
 		}
 		
 		my_country_tis_of_thee = {

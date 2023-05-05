@@ -7,8 +7,8 @@ acre = {
 	}
 	
 	history = {
-		owner = tupi
-		culture = tupi
+		owner = incas
+		culture = inca
 		religion = pagan
 	}
 }

@@ -7,8 +7,8 @@ roraima = {
 	}
 	
 	history = {
-		owner = tupi
-		culture = tupi
+		owner = arawaks
+		culture = arawak
 		religion = pagan
 	}
 }

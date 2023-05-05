@@ -1,0 +1,13 @@
+incas = {
+	name = "Incas"
+	type = tribe
+	culture = inca
+	default_religion = pagan
+	capital_province = cuzco
+	eras = {
+		renaissance_era
+	}
+	core_provinces = {
+		cuzco
+	}
+}

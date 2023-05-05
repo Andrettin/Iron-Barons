@@ -10,14 +10,20 @@ jamaica = {
 	}
 	
 	history = {
+		owner = arawaks
+		culture = arawak
+		religion = pagan
+		
 		1600 = {
 			owner = santiago #part of Spanish Jamaica in 1600; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = castillian
+			religion = catholic
 		}
 		
 		1635 = {
 			owner = jamaica #became part of English Jamaica in 1635; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = english
+			religion = protestant
 		}
 		
 		my_country_tis_of_thee = {

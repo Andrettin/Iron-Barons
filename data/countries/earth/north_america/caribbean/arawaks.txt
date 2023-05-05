@@ -1,0 +1,14 @@
+arawaks = {
+	name = "Arawaks"
+	type = tribe
+	culture = arawak
+	default_religion = pagan
+	capital_province = santo_domingo
+	eras = {
+		renaissance_era
+	}
+	core_provinces = {
+		santo_domingo
+		haiti
+	}
+}

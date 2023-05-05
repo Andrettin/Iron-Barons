@@ -5,4 +5,10 @@ caqueta = {
 	regions = {
 		colombia
 	}
+	
+	history = {
+		owner = arawaks
+		culture = arawak
+		religion = pagan
+	}
 }

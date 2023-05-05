@@ -5,4 +5,10 @@ ayacucho = {
 	regions = {
 		peru
 	}
+	
+	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+	}
 }

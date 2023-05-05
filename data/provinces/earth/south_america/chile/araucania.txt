@@ -5,4 +5,10 @@ araucania = {
 	regions = {
 		chile
 	}
+	
+	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+	}
 }
