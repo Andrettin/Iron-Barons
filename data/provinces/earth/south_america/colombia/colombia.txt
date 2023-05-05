@@ -1,0 +1,8 @@
+colombia = {
+	name = "Colombia"
+	color = { 228 215 255 }
+	capital_settlement = bogota
+	regions = {
+		colombia
+	}
+}

@@ -1,0 +1,8 @@
+vichada = {
+	name = "Vichada"
+	color = { 193 196 122 }
+	capital_settlement = puerto_carreno
+	regions = {
+		colombia
+	}
+}

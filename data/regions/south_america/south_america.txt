@@ -19,6 +19,13 @@ chile = {
 	}
 }
 
+colombia = {
+	name = "Colombia"
+	superregions = {
+		south_america
+	}
+}
+
 peru = {
 	name = "Peru"
 	superregions = {
