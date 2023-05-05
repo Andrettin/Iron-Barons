@@ -1,0 +1,14 @@
+boqueron = {
+	name = "Boqueron" #"Boquerón"
+	color = { 232 131 19 }
+	capital_settlement = mariscal_estigarribia
+	regions = {
+		paraguay
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

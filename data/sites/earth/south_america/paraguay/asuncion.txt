@@ -2,4 +2,5 @@ asuncion = {
 	name = "Asuncion" #"Asunción"
 	world = earth
 	geocoordinate = { -57.64150516930 -25.29640297570 } #from Natural Earth
+	type = settlement
 }

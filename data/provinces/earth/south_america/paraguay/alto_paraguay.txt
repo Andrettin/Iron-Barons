@@ -1,0 +1,14 @@
+alto_paraguay = {
+	name = "Alto Paraguay"
+	color = { 170 36 134 }
+	capital_settlement = capitan_pablo_lagerenza
+	regions = {
+		paraguay
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

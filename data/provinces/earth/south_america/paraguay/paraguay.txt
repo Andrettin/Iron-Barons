@@ -1,0 +1,14 @@
+paraguay = {
+	name = "Paraguay"
+	color = { 220 191 190 }
+	capital_settlement = asuncion
+	regions = {
+		paraguay
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

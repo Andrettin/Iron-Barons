@@ -1,0 +1,14 @@
+presidente_hayes = {
+	name = "Presidente Hayes"
+	color = { 137 91 166 }
+	capital_settlement = pozo_colorado
+	regions = {
+		paraguay
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

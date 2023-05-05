@@ -1,0 +1,14 @@
+uruguay = {
+	name = "Uruguay"
+	color = { 187 199 73 }
+	capital_settlement = montevideo
+	regions = {
+		south_america
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}
