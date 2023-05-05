@@ -1,0 +1,14 @@
+santa_cruz_bolivia = {
+	name = "Santa Cruz"
+	color = { 156 115 21 }
+	capital_settlement = santa_cruz_de_la_sierra
+	regions = {
+		bolivia
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

@@ -1,4 +1,4 @@
-santa_cruz = {
+santa_cruz_argentina = {
 	name = "Santa Cruz"
 	color = { 239 160 16 }
 	capital_settlement = rio_gallegos

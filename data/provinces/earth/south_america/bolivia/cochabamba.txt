@@ -1,0 +1,14 @@
+cochabamba = {
+	name = "Cochabamba"
+	color = { 1 157 11 }
+	capital_settlement = cochabamba
+	regions = {
+		bolivia
+	}
+	
+	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+	}
+}

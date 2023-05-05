@@ -29,7 +29,7 @@ argentina = {
 		catamarca
 		la_rioja
 		la_pampa
-		santa_cruz
+		santa_cruz_argentina
 		tierra_del_fuego
 	}
 }

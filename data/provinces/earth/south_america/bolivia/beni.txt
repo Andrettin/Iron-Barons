@@ -1,0 +1,14 @@
+beni = {
+	name = "Beni"
+	color = { 67 247 41 }
+	capital_settlement = trinidad
+	regions = {
+		bolivia
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

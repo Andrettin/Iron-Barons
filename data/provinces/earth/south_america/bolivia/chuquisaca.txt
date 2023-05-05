@@ -1,0 +1,14 @@
+chuquisaca = {
+	name = "Chuquisaca"
+	color = { 212 37 241 }
+	capital_settlement = sucre
+	regions = {
+		bolivia
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

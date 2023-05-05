@@ -1,0 +1,14 @@
+potosi = {
+	name = "Potosi" #"Potosí"
+	color = { 205 193 152 }
+	capital_settlement = potosi
+	regions = {
+		bolivia
+	}
+	
+	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+	}
+}

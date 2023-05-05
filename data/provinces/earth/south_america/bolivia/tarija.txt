@@ -1,0 +1,14 @@
+tarija = {
+	name = "Tarija"
+	color = { 133 62 4 }
+	capital_settlement = tarija
+	regions = {
+		bolivia
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}

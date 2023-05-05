@@ -1,0 +1,14 @@
+pando = {
+	name = "Pando"
+	color = { 170 27 92 }
+	capital_settlement = cobija
+	regions = {
+		bolivia
+	}
+	
+	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+	}
+}
