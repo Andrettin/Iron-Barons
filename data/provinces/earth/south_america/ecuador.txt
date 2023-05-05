@@ -1,0 +1,14 @@
+ecuador = {
+	name = "Ecuador"
+	color = { 69 239 113 }
+	capital_settlement = quito
+	regions = {
+		south_america
+	}
+	
+	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+	}
+}
