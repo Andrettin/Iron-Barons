@@ -5,4 +5,10 @@ belize = {
 	regions = {
 		central_america
 	}
+	
+	history = {
+		owner = mayas
+		culture = maya
+		religion = pagan
+	}
 }

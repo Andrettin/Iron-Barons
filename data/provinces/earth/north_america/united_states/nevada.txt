@@ -7,6 +7,10 @@ nevada = {
 	}
 	
 	history = {
+		owner = apache
+		culture = apache
+		religion = pagan
+		
 		1848 = {
 			owner = united_states #became part of the United States in 1848; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
 		}

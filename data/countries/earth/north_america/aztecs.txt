@@ -1,0 +1,13 @@
+aztecs = {
+	name = "Aztecs"
+	type = tribe
+	culture = aztec
+	default_religion = pagan
+	capital_province = mexico
+	eras = {
+		renaissance_era
+	}
+	core_provinces = {
+		mexico
+	}
+}

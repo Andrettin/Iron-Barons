@@ -5,4 +5,10 @@ honduras = {
 	regions = {
 		central_america
 	}
+	
+	history = {
+		owner = arawaks
+		culture = arawak
+		religion = pagan
+	}
 }

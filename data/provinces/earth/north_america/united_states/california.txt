@@ -7,6 +7,10 @@ california = {
 	}
 	
 	history = {
+		owner = apache
+		culture = apache
+		religion = pagan
+		
 		1542 = {
 			owner = california #became part of the Spanish colony of California in 1542; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 			culture = castillian

@@ -1,0 +1,13 @@
+mayas = {
+	name = "Mayas"
+	type = tribe
+	culture = maya
+	default_religion = pagan
+	capital_province = yucatan
+	eras = {
+		renaissance_era
+	}
+	core_provinces = {
+		yucatan
+	}
+}

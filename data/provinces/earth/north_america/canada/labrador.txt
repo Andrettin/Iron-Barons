@@ -5,4 +5,10 @@ labrador = {
 	regions = {
 		canada
 	}
+	
+	history = {
+		owner = huron
+		culture = huron
+		religion = pagan
+	}
 }
