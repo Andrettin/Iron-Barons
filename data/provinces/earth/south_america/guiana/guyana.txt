@@ -1,0 +1,14 @@
+guyana = {
+	name = "Guyana"
+	color = { 161 0 200 }
+	capital_settlement = georgetown
+	regions = {
+		south_america
+	}
+	
+	history = {
+		owner = arawaks
+		culture = arawak
+		religion = pagan
+	}
+}

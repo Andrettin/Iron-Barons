@@ -1,0 +1,14 @@
+suriname = {
+	name = "Suriname"
+	color = { 143 235 35 }
+	capital_settlement = paramaribo
+	regions = {
+		south_america
+	}
+	
+	history = {
+		owner = arawaks
+		culture = arawak
+		religion = pagan
+	}
+}

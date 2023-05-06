@@ -1,0 +1,14 @@
+cayenne = {
+	name = "Cayenne"
+	color = { 131 74 133 }
+	capital_settlement = cayenne
+	regions = {
+		south_america
+	}
+	
+	history = {
+		owner = tupi
+		culture = tupi
+		religion = pagan
+	}
+}
