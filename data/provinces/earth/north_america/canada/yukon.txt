@@ -1,0 +1,14 @@
+yukon = {
+	name = "Yukon"
+	color = { 127 194 58 }
+	capital_settlement = whitehorse
+	regions = {
+		canada
+	}
+	
+	history = {
+		owner = kwakiutl
+		culture = kwakiutl
+		religion = pagan
+	}
+}

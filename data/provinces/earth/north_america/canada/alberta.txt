@@ -1,0 +1,14 @@
+alberta = {
+	name = "Alberta"
+	color = { 204 179 161 }
+	capital_settlement = edmonton
+	regions = {
+		canada
+	}
+	
+	history = {
+		owner = sioux
+		culture = sioux
+		religion = pagan
+	}
+}

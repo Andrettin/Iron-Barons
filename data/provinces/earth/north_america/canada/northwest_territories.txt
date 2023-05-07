@@ -1,0 +1,14 @@
+northwest_territories = {
+	name = "Northwest Territories"
+	color = { 161 101 115 }
+	capital_settlement = yellowknife
+	regions = {
+		canada
+	}
+	
+	history = {
+		owner = sioux
+		culture = sioux
+		religion = pagan
+	}
+}

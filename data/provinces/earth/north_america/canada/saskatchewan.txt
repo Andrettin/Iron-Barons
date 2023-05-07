@@ -1,0 +1,14 @@
+saskatchewan = {
+	name = "Saskatchewan"
+	color = { 127 57 86 }
+	capital_settlement = regina
+	regions = {
+		canada
+	}
+	
+	history = {
+		owner = sioux
+		culture = sioux
+		religion = pagan
+	}
+}

@@ -1,0 +1,14 @@
+manitoba = {
+	name = "Manitoba"
+	color = { 110 240 100 }
+	capital_settlement = winnipeg
+	regions = {
+		canada
+	}
+	
+	history = {
+		owner = sioux
+		culture = sioux
+		religion = pagan
+	}
+}
