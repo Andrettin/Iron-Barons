@@ -1,0 +1,4 @@
+rio_grande = {
+	name = "Rio Grande"
+	river = true
+}
