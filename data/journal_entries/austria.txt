@@ -1,0 +1,13 @@
+linzer_wollzeugfabrik = {
+	name = "Linzer Wollzeugfabrik"
+	portrait = factory
+	preconditions = {
+		owns_province = upper_austria
+	}
+	built_buildings = {
+		textile_mill
+	}
+	completion_effects = {
+		wealth += 1000
+	}
+}
