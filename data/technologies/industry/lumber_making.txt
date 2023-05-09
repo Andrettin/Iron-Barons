@@ -7,4 +7,7 @@ mechanical_precision_saw = {
 		circular_saw
 		dynamite
 	}
+	modifier = {
+		lumber_throughput_modifier = 5
+	}
 }
