@@ -1,3 +1,33 @@
+austrian_netherlands = {
+	name = "Austrian Netherlands"
+	portrait = dock
+	preconditions = {
+		country = austria
+	}
+	owned_provinces = {
+		antwerp
+		brabant
+		luxembourg
+	}
+	completion_effects = {
+		wealth += 1000
+	}
+}
+
+duchy_of_milan = {
+	name = "Duchy of Milan"
+	portrait = ducal_crown
+	preconditions = {
+		country = austria
+	}
+	owned_provinces = {
+		lombardy
+	}
+	completion_effects = {
+		wealth += 1000
+	}
+}
+
 linzer_wollzeugfabrik = {
 	name = "Linzer Wollzeugfabrik"
 	portrait = factory
