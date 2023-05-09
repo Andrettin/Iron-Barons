@@ -31,7 +31,7 @@ duchy_of_milan = {
 linzer_wollzeugfabrik = { #Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs nach dem Oriente und nach Ostindien in der ersten Hälfte des 18. Jahrhunderts", 1900, p. 57.
 	name = "Linzer Wollzeugfabrik"
 	portrait = factory
-	description = "The Linzer Wollzeugfabrik was a wool textile mill founded by Christian Sind in 1672, in Linz."
+	description = "The Linzer Wollzeugfabrik was a wool textile mill located in Linz, which was founded by Christian Sind in 1672."
 	preconditions = {
 		owns_province = upper_austria
 	}
