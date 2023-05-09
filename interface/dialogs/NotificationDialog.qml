@@ -9,6 +9,7 @@ DialogBase {
 	
 	property var portrait_object: null
 	readonly property string portrait_identifier: portrait_object !== null ? (portrait_object.class_name === "metternich::character" ? portrait_object.game_data.portrait.identifier : portrait_object.identifier) : ""
+	property string effects_text: ""
 	property string text: ""
 	property var on_closed: null
 	
@@ -31,6 +32,22 @@ DialogBase {
 			tooltip: is_character ? portrait_object.full_name : ""
 			
 			readonly property bool is_character: portrait_object !== null && portrait_object.class_name === "metternich::character"
+		}
+		
+		SmallText {
+			id: effects_text_label
+			anchors.horizontalCenter: parent.horizontalCenter
+			text: format_text(notification_dialog.effects_text)
+			wrapMode: Text.WordWrap
+			width: Math.min(effects_text_label_proxy.contentWidth, parent.width)
+			visible: notification_dialog.effects_text.length > 0
+			
+			SmallText { //used to measure text, avoiding the binding loop of using the main text label's content width directly, given the wrap mode
+				id: effects_text_label_proxy
+				anchors.horizontalCenter: parent.horizontalCenter
+				text: effects_text_label.text
+				opacity: 0
+			}
 		}
 		
 		SmallText {
