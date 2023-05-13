@@ -1,4 +1,4 @@
-ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 25, p. 366.
+ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 6, p. 366.
 	name = "Ulrich"
 	surname = "von Cilli"
 	advisor_type = statesman
@@ -8,7 +8,7 @@ ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 25, p. 366.
 	gender = male
 	#son of Frederick II, count of Cilli, and Elizabeth Frangepan
 	birth_date = 1406
-	death_date = 1456.11.9 #died at Belgrade in 1456.11.9
+	death_date = 1456.11.9 #died at Belgrade on 1456.11.9
 	skill = 3
 	#count of Cilli
 	
@@ -25,5 +25,31 @@ ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 25, p. 366.
 		}
 	
 		#succeeded his father in 1454
+	}
+}
+
+georg_peurbach = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
+	name = "Georg"
+	surname = "Peurbach"
+	advisor_type = natural_scientist
+	culture = austrian
+	religion = catholic
+	home_province = upper_austria #Peuerbach
+	gender = male
+	birth_date = 1423
+	death_date = 1461
+	skill = 2
+	
+	#text based on that of the Encyclopædia Britannica, in the public domain
+	description = "Austrian astronomer, Regiomontanus was his pupil at Vienna from 1452, and they jointly undertook a reform of astronomy rendered necessary by the errors they detected in the Alphonsine Tables."
+	
+	history = {
+		1452 = {
+			#lived in Vienna as of 1452
+			country = austria
+		}
+		
+		#his "Epitome in Cl. Ptolemaei magnam compositionem" was completed by Regiomontanus at Venice in 1463, and the work was printed at Venice in 1496
+		#published "Theoricae planetarum novae" in 1472 or 1473
 	}
 }
