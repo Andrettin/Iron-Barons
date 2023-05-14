@@ -170,5 +170,13 @@ western = {
 			#Francisco de Orellana fully explored the Amazon River from 1541.4 to 1542.8; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 209.
 			explored_regions += amazon_basin
 		}
+		
+		1800 = {
+			explored_regions += america
+			explored_regions += asia
+			explored_regions += atlantic_ocean
+			explored_regions += indian_ocean
+			explored_regions += pacific_ocean
+		}
 	}
 }
