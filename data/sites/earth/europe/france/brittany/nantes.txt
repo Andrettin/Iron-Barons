@@ -3,6 +3,7 @@ nantes = {
 	world = earth
 	geocoordinate = { -1.59001692850 47.21038576160 } #from Natural Earth
 	type = settlement
+	#resource = cattle #Grassland and crops; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
 	cultural_names = {
 		frankish = "Namnetes"
 	}

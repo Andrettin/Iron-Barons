@@ -1,7 +1,7 @@
 brest = {
 	name = "Brest"
 	color = { 191 223 32 }
-	capital_settlement = brest
+	capital_settlement = brest_litovsk
 	regions = {
 		byelorussia
 		poland_lithuania

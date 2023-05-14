@@ -1,0 +1,12 @@
+brest = {
+	name = "Brest"
+	world = earth
+	geocoordinate = { -4.49500756979 48.39044293120 } #from Natural Earth
+	type = resource
+	resource = cattle #Grassland and crops; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
+	province = brittany
+	cultural_names = {
+		gaulish = "Gesocribate"
+		roman = "Gesocribate" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
+}

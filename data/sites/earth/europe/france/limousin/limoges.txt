@@ -3,4 +3,5 @@ limoges = {
 	world = earth
 	geocoordinate = { 1.24999059918 45.82997906400 } #from Natural Earth
 	type = settlement
+	#resource = cattle #Grassland and crops; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
 }
