@@ -3,6 +3,7 @@ amsterdam = {
 	world = earth
 	geocoordinate = { 4.91664017601 52.34996868810 } #from Natural Earth
 	type = settlement
+	#resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
 	
 	history = {
 		1600 = {
@@ -11,6 +12,14 @@ amsterdam = {
 		
 		1815 = {
 			population = 201628 #Amsterdam had a population of 201,628 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
+		}
+		
+		1877 = {
+			buildings += university #State university founded in Amsterdam in 1877; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+		}
+		
+		1905 = {
+			#Calvinist university founded in Amsterdam in 1905; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
 		}
 	}
 }

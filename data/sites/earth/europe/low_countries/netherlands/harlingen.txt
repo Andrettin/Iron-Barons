@@ -1,0 +1,9 @@
+harlingen = {
+	name = "Harlingen"
+	world = earth
+	geocoordinate = { 5.4272 53.1736 }
+	pos_offset = { 0 1 }
+	type = resource
+	resource = grain #Agriculture (horticulture and cereals); Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
+	province = friesland
+}
