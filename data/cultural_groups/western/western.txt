@@ -165,5 +165,10 @@ western = {
 			#Hernando de Soto discovered the Mississippi River in 1541; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
 			explored_regions += mississippi_basin
 		}
+		
+		1542.8 = {
+			#Francisco de Orellana fully explored the Amazon River from 1541.4 to 1542.8; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 209.
+			explored_regions += amazon_basin
+		}
 	}
 }

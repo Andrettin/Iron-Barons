@@ -87,6 +87,18 @@ hernan_cortes = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	death_date = 1547
 }
 
+francisco_de_orellana = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 209.
+	name = "Francisco"
+	surname = "de Orellana"
+	#conquistador
+	culture = castillian
+	religion = catholic
+	home_province = extremadura
+	gender = male
+	birth_date = 1490
+	death_date = 1546
+}
+
 juan_de_sepulveda = {
 	name = "Juan"
 	surname = "de Sepulveda"

@@ -15,6 +15,17 @@ circumnavigation_of_the_earth = {
 	}
 }
 
+discovery_of_the_amazon_river = {
+	name = "Discovery of the Amazon River"
+	portrait = unload
+	completion_conditions = {
+		discovered_region = amazon_basin
+	}
+	completion_effects = {
+		research += 1
+	}
+}
+
 discovery_of_america = {
 	name = "Discovery of America"
 	portrait = unload
