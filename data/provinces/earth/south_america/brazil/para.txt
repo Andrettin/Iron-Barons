@@ -3,6 +3,7 @@ para = {
 	color = { 218 188 202 }
 	capital_settlement = belem
 	regions = {
+		amazon_basin
 		brazil
 	}
 	

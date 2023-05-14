@@ -3,6 +3,7 @@ caqueta = {
 	color = { 35 222 120 }
 	capital_settlement = florencia
 	regions = {
+		amazon_basin
 		colombia
 	}
 	

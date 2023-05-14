@@ -3,6 +3,7 @@ loreto = {
 	color = { 52 246 68 }
 	capital_settlement = iquitos
 	regions = {
+		amazon_basin
 		peru
 	}
 	

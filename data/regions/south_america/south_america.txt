@@ -5,6 +5,13 @@ south_america = {
 	}
 }
 
+amazon_basin = {
+	name = "Amazon Basin"
+	superregions = {
+		south_america
+	}
+}
+
 argentina = {
 	name = "Argentina"
 	superregions = {

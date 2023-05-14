@@ -3,6 +3,7 @@ amazonas = {
 	color = { 90 26 161 }
 	capital_settlement = manaus
 	regions = {
+		amazon_basin
 		brazil
 	}
 	
