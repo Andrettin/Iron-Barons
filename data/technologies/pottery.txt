@@ -1,5 +1,5 @@
-pottery = {
-	name = "Pottery"
-	category = industry
-	portrait = engineering
-}
+#pottery = {
+#	name = "Pottery"
+#	category = industry
+#	portrait = engineering
+#}

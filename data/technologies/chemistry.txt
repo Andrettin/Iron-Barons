@@ -1,28 +1,28 @@
-alchemy = {
-	name = "Alchemy"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		philosophy
-		mathematics
-		ironworking
-	}
-}
+#alchemy = {
+#	name = "Alchemy"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		philosophy
+#		mathematics
+#		ironworking
+#	}
+#}
 
-medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 85-86.
-	name = "Medicine"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		philosophy
-	}
-}
+#medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 85-86.
+#	name = "Medicine"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		philosophy
+#	}
+#}
 
-gunpowder = {
-	name = "Gunpowder"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		#chemistry
-	}
-}
+#gunpowder = {
+#	name = "Gunpowder"
+#	category = army
+#	portrait = engineering
+#	prerequisites = {
+#		#chemistry
+#	}
+#}

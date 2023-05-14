@@ -1,19 +1,19 @@
-masonry = {
-	name = "Masonry"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		pottery
-	}
-}
+#masonry = {
+#	name = "Masonry"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		pottery
+#	}
+#}
 
-architecture = {
-	name = "Architecture"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		masonry
-		mathematics
-		writing
-	}
-}
+#architecture = {
+#	name = "Architecture"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		masonry
+#		mathematics
+#		writing
+#	}
+#}

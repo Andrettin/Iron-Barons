@@ -1,17 +1,17 @@
-music_notation_system = {
-	name = "Music Notation System"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		writing
-	}
-}
+#music_notation_system = {
+#	name = "Music Notation System"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		writing
+#	}
+#}
 
-expressionism = {
-	name = "Expressionism"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		writing
-	}
-}
+#expressionism = {
+#	name = "Expressionism"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		writing
+#	}
+#}

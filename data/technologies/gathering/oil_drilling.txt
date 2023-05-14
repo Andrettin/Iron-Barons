@@ -2,6 +2,9 @@ oil_drilling = {
 	name = "Oil Drilling"
 	category = gathering
 	portrait = factory
+	prerequisites = {
+		geological_prospecting #to place it later in the tech tree
+	}
 }
 
 chemistry = {

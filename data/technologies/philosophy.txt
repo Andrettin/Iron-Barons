@@ -1,39 +1,39 @@
-philosophy = {
-	name = "Philosophy"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		writing
-	}
-}
+#philosophy = {
+#	name = "Philosophy"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		writing
+#	}
+#}
 
-logics = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 111.
-	name = "Logics"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		philosophy
-	}
-}
+#logics = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 111.
+#	name = "Logics"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		philosophy
+#	}
+#}
 
-natural_philosophy = {
-	name = "Natural Philosophy"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		philosophy
-		mathematics
-		alchemy
-		logics
-	}
-}
+#natural_philosophy = {
+#	name = "Natural Philosophy"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		philosophy
+#		mathematics
+#		alchemy
+#		logics
+#	}
+#}
 
-enlightenment_philosophy = {
-	name = "Enlightenment Philosophy"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		#scientific_method
-		printing_press
-	}
-}
+#enlightenment_philosophy = {
+#	name = "Enlightenment Philosophy"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		#scientific_method
+#		printing_press
+#	}
+#}

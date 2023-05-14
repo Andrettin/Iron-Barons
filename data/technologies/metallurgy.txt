@@ -1,17 +1,17 @@
-bronzeworking = {
-	name = "Bronzeworking"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		pottery #because of ceramic casting molds
-	}
-}
+#bronzeworking = {
+#	name = "Bronzeworking"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		pottery #because of ceramic casting molds
+#	}
+#}
 
-ironworking = {
-	name = "Ironworking"
-	category = industry
-	portrait = engineering
-	prerequisites = {
-		bronzeworking
-	}
-}
+#ironworking = {
+#	name = "Ironworking"
+#	category = industry
+#	portrait = engineering
+#	prerequisites = {
+#		bronzeworking
+#	}
+#}

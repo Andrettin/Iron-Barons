@@ -1,5 +1,5 @@
-writing = {
-	name = "Writing"
-	category = industry
-	portrait = engineering
-}
+#writing = {
+#	name = "Writing"
+#	category = industry
+#	portrait = engineering
+#}

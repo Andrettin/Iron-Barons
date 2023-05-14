@@ -1,5 +1,5 @@
-coinage = {
-	name = "Coinage"
-	category = finance
-	portrait = coinage
-}
+#coinage = {
+#	name = "Coinage"
+#	category = finance
+#	portrait = coinage
+#}

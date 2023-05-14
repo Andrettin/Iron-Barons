@@ -81,7 +81,7 @@ henry_hudson = {
 	gender = male
 	birth_date = 1565
 	death_date = 1611
-	required_technology = compass
+	required_technology = navigation
 	conditions = {
 		produces_commodity = furs
 	}

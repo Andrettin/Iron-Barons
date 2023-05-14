@@ -1,8 +1,8 @@
-ballistics = {
-	name = "Ballistics"
-	category = army
-	portrait = engineering
-	prerequisites = {
-		#mathematics
-	}
-}
+#ballistics = {
+#	name = "Ballistics"
+#	category = army
+#	portrait = engineering
+#	prerequisites = {
+#		#mathematics
+#	}
+#}
