@@ -1,0 +1,15 @@
+poitiers = {
+	name = "Poitiers"
+	world = earth
+	geocoordinate = { 0.33327652854 46.58329225570 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		frankish = "Pictavis"
+	}
+	
+	history = {
+		1431 = {
+			buildings += university #University founded in Poitiers in 1431; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

@@ -1,0 +1,9 @@
+rouen = {
+	name = "Rouen"
+	world = earth
+	geocoordinate = { 1.07997513694 49.43040529290 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		frankish = "Rotomagus"
+	}
+}

@@ -1,0 +1,15 @@
+bourges = {
+	name = "Bourges"
+	world = earth
+	geocoordinate = { 2.39999792340 47.08372682610 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		frankish = "Bituricae"
+	}
+	
+	history = {
+		1464 = {
+			buildings += university #University founded in Bourges in 1464; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

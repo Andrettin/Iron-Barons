@@ -1,6 +1,7 @@
 anjou = {
 	name = "Anjou"
 	color = { 80 160 64 }
+	capital_settlement = angers
 	regions = {
 		france
 	}

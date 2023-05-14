@@ -1,6 +1,7 @@
 limousin = {
 	name = "Limousin"
 	color = { 48 96 0 }
+	capital_settlement = limoges
 	regions = {
 		france
 	}

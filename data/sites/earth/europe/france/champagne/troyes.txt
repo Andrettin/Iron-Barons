@@ -1,0 +1,9 @@
+troyes = {
+	name = "Troyes"
+	world = earth
+	geocoordinate = { 4.08335770531 48.34039430650 } #from Natural Earth
+	type = settlement
+	cultural_names = {
+		frankish = "Trecae"
+	}
+}

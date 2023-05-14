@@ -1,6 +1,7 @@
 picardy = {
 	name = "Picardy"
 	color = { 16 160 192 }
+	capital_settlement = amiens
 	regions = {
 		france
 	}
