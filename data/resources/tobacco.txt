@@ -1,6 +1,7 @@
 tobacco = {
 	name = "Tobacco"
 	commodity = tobacco
+	discovery_technology = tobacco
 	terrain_types = {
 		plains
 		savannah
