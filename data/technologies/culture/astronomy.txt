@@ -1,0 +1,13 @@
+heliocentric_model = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 209-211.
+	name = "Heliocentric Model"
+	category = culture
+	portrait = engineering
+	year = 1543
+	prerequisites = {
+		mathematics
+		university
+	}
+	modifier = {
+		research_output_modifier = 5
+	}
+}

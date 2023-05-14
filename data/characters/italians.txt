@@ -12,6 +12,18 @@ amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	#went on an expedition to explore the coast of South America in 1497
 }
 
+pope_paul_iii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 210.
+	name = "Paul"
+	culture = italian
+	religion = catholic
+	home_province = latium
+	gender = male
+	birth_date = 1468
+	death_date = 1549
+	
+	#pope
+}
+
 giovanni_da_verrazano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
 	name = "Giovanni"
 	surname = "da Verrazano"

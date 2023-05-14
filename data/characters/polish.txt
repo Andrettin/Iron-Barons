@@ -1,0 +1,17 @@
+nicolaus_copernicus = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 209-211.
+	name = "Nicolaus"
+	surname = "Copernicus"
+	advisor_type = natural_scientist #astronomer
+	culture = polish
+	religion = catholic
+	home_province = west_prussia
+	gender = male
+	birth_date = 1473
+	death_date = 1543
+	required_technology = heliocentric_model
+	skill = 5
+	
+	history = {
+		country = austria
+	}
+}

@@ -1,3 +1,21 @@
+de_revolutionibus_orbium_coelestium = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 210.
+	name = "De Revolutionibus Orbium Coelestium"
+	portrait = alchemist
+	description = "Our advisor Nicolaus Copernicus has published a book called \"De Revolutionibus Orbium Coelestium\", in which he describes a new model for planetary movement, with the Sun, rather than the Earth, at the center."
+	trigger = quarterly_pulse
+	only_once = true
+	random_weight = 1000
+	conditions = {
+		advisor = nicolaus_copernicus
+		technology = heliocentric_model
+	}
+	option = {
+		effects = {
+			research += 5
+		}
+	}
+}
+
 novum_organum = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 	name = "Novum Organum"
 	portrait = scholar

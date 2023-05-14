@@ -156,6 +156,11 @@ western = {
 			explored_provinces += gulf_of_saint_lawrence
 		}
 		
+		1535 = {
+			#method to solve cubic equations invented by the Italian Niccolò Tartaglia in 1535; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
+			technologies += cubic_equations
+		}
+		
 		1536 = {
 			#Hernán Cortés discovered Baja California in 1536; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
 			explored_provinces += baja_california
@@ -169,6 +174,16 @@ western = {
 		1542.8 = {
 			#Francisco de Orellana fully explored the Amazon River from 1541.4 to 1542.8; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 209.
 			explored_regions += amazon_basin
+		}
+		
+		1543 = {
+			#the Polish astronomer Nicolaus Copernicus published his "De Revolutionibus Orbium Coelestium" in 1543, in which he described the heliocentric model; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 209-211.
+			technologies += heliocentric_model
+		}
+		
+		1620 = {
+			#the Englishman Francis Bacon published his "Novum Organum" in 1620, in which he described the scientific method; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
+			technologies += scientific_method
 		}
 		
 		1800 = {
