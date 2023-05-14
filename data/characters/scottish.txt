@@ -9,7 +9,7 @@ robert_stevenson = { #Source: "Encyclopædia Britannica", 1911, vol. 25, p. 907.
 	#son of Alan Stevenson
 	birth_date = 1772.6.8
 	death_date = 1850.7.12
-	required_technology = compass
+	required_technology = navigation
 	skill = 1
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain

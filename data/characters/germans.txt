@@ -101,3 +101,14 @@ peter_bennewitz = { #also known as Petrus Apianus; Source: Isaac Asimov, "Cronol
 	
 	#published a book in 1540 in which he stated that comet tails are always in the opposite direction to the sun
 }
+
+anne_of_cleves = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 209.
+	name = "Anne"
+	surname = "of Cleves"
+	culture = german
+	religion = protestant
+	home_province = rhineland #Cleves
+	gender = female
+	birth_date = 1515
+	death_date = 1577
+}
