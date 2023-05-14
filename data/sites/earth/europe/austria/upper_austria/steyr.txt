@@ -1,9 +1,9 @@
-sankt_polten = {
-	name = "Sankt Polten" #"Sankt Pölten"
+steyr = {
+	name = "Steyr"
 	world = earth
-	geocoordinate = { 15.616666666667 48.2 }
+	geocoordinate = { 14.416666666667 48.05 }
 	type = resource
 	resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
 	terrain_type = plains
-	province = lower_austria
+	province = upper_austria
 }
