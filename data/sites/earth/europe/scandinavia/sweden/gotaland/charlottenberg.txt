@@ -1,7 +1,7 @@
-orebro = {
-	name = "Orebro" #"Örebro"
+charlottenberg = {
+	name = "Charlottenberg"
 	world = earth
-	geocoordinate = { 15.21999059920 59.28034669910 } #from Natural Earth
+	geocoordinate = { 12.302007920447 59.884790030722 }
 	type = resource
 	resource = cattle #Dairying predominant; Source: Map No. 500866 of the Perry-Castañeda Library Map Collection, 1973.
 }

@@ -1,8 +1,7 @@
-lulea = {
-	name = "Lulea" #"Luleå"
+hudiksvall = {
+	name = "Hudiksvall"
 	world = earth
-	geocoordinate = { 22.15837832940 65.59663477230 } #from Natural Earth
-	pos_offset = { 0 -1 }
+	geocoordinate = { 17.11209243158 61.72895153855 }
 	type = resource
 	resource = cattle #Principally meadow and pasture; Source: Map No. 500866 of the Perry-Castañeda Library Map Collection, 1973.
 }

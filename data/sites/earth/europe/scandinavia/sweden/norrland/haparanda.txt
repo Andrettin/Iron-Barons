@@ -1,8 +1,7 @@
-lulea = {
-	name = "Lulea" #"Luleå"
+haparanda = {
+	name = "Haparanda"
 	world = earth
-	geocoordinate = { 22.15837832940 65.59663477230 } #from Natural Earth
-	pos_offset = { 0 -1 }
+	geocoordinate = { 24.117032965922 65.834178177938 }
 	type = resource
 	resource = cattle #Principally meadow and pasture; Source: Map No. 500866 of the Perry-Castañeda Library Map Collection, 1973.
 }
