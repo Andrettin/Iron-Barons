@@ -8,6 +8,10 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 		apprentice_workers
 		moneylending
 		
-		university
+		heliocentric_model
+		cubic_equations
+	}
+	modifier = {
+		research_output_modifier = 5
 	}
 }
