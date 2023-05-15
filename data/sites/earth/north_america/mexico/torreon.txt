@@ -4,5 +4,5 @@ torreon = {
 	geocoordinate = { -103.42000289100 25.57005291650 } #from Natural Earth
 	type = resource
 	resource = cotton #Source: Map No. 503497 of the Perry-Castañeda Library Map Collection, 1978.
-	province = mexico
+	province = coahuila
 }
