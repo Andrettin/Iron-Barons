@@ -4,5 +4,5 @@ mazatlan = {
 	geocoordinate = { -106.42000065300 23.22110068660 } #from Natural Earth
 	type = resource
 	resource = fish #Shrimp fishing; Source: Map No. 503497 of the Perry-Castañeda Library Map Collection, 1978.
-	province = mexico
+	province = sinaloa
 }
