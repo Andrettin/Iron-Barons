@@ -1,0 +1,6 @@
+erzurum = {
+	name = "Erzurum"
+	world = earth
+	geocoordinate = { 41.29002722040 39.92039145820 } #from Natural Earth
+	type = settlement
+}

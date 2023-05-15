@@ -1,0 +1,13 @@
+van = {
+	name = "Van"
+	color = { 181 25 183 }
+	capital_settlement = van
+	regions = {
+		anatolia
+	}
+	
+	history = {
+		culture = turkish
+		religion = sunni
+	}
+}

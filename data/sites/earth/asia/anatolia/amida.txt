@@ -1,7 +1,7 @@
 amida = {
 	name = "Amida"
 	world = earth
-	geocoordinate = { 40.23004024130 37.92043601380 } #from Natural Earth
+	geocoordinate = { 40.23004024130 37.92043601380 } #from Natural Earth (Diyarbakir)
 	type = settlement
 	cultural_names = {
 		turkish = "Diyarbakir" #"Diyarbakır"

@@ -1,0 +1,13 @@
+erzincan = {
+	name = "Erzincan"
+	color = { 214 141 117 }
+	capital_settlement = erzincan
+	regions = {
+		anatolia
+	}
+	
+	history = {
+		culture = turkish
+		religion = sunni
+	}
+}

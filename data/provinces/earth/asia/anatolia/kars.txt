@@ -1,0 +1,13 @@
+kars = {
+	name = "Kars"
+	color = { 53 113 51 }
+	capital_settlement = kars
+	regions = {
+		anatolia
+	}
+	
+	history = {
+		culture = turkish
+		religion = sunni
+	}
+}

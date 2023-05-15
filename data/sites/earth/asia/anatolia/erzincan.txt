@@ -1,0 +1,6 @@
+erzincan = {
+	name = "Erzincan"
+	world = earth
+	geocoordinate = { 39.49277258180 39.75264975900 } #from Natural Earth
+	type = settlement
+}
