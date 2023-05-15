@@ -1,0 +1,8 @@
+konya = {
+	name = "Konya"
+	world = earth
+	geocoordinate = { 32.47500972370 37.87501242990 } #from Natural Earth
+	type = resource
+	resource = grain #Wheat; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
+	province = karaman
+}

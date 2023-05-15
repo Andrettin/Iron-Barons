@@ -3,6 +3,8 @@ smyrna = {
 	world = earth
 	geocoordinate = { 27.15179401050 38.43614968230 } #from Natural Earth
 	type = settlement
+	#resource = fruit #Olives; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
+	#resource = tobacco #Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 	cultural_names = {
 		turkish = "Izmir" #"İzmir"
 	}

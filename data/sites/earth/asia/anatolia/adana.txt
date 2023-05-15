@@ -3,4 +3,6 @@ adana = {
 	world = earth
 	geocoordinate = { 35.32000402700 36.99498862610 } #from Natural Earth
 	type = settlement
+	#resource = cotton #Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
+	#resource = fruit #Citrus fruits; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 }
