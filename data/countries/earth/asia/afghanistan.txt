@@ -1,0 +1,13 @@
+afghanistan = {
+	name = "Afghanistan"
+	type = minor_nation
+	culture = pashtun
+	default_religion = sunni
+	capital_province = afghanistan
+	eras = {
+		industrial_era
+	}
+	core_provinces = {
+		afghanistan
+	}
+}
