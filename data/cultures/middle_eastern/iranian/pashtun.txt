@@ -1,0 +1,5 @@
+pashtun = {
+	name = "Pashtun"
+	group = iranian
+	color = { 199 151 230 }
+}
