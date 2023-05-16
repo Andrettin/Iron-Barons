@@ -1,0 +1,27 @@
+persia = {
+	name = "Persia"
+	type = minor_nation
+	culture = persian
+	default_religion = shiite
+	capital_province = persia
+	eras = {
+		industrial_era
+	}
+	core_provinces = {
+		persia
+		elam
+		fars
+		hamadan
+		hormozgan
+		isfahan
+		kerman
+		kermanshah
+		khuzestan
+		lorestan
+		north_khorasan
+		razavi_khorasan
+		south_khorasan
+		west_baluchistan
+		yazd
+	}
+}

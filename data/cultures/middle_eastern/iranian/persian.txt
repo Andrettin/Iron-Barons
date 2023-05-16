@@ -1,0 +1,5 @@
+persian = {
+	name = "Persian"
+	group = iranian
+	color = { 144 88 81 }
+}

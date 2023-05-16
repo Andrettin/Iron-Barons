@@ -1,0 +1,19 @@
+hormozgan = {
+	name = "Hormozgan"
+	color = { 178 13 67 }
+	capital_settlement = bandar_e_abbas
+	regions = {
+		persia
+	}
+	
+	history = {
+		culture = persian
+		religion = pagan
+		
+		1801 = {
+			owner = persia #part of Persia in 1801; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 170-171.
+			culture = persian
+			religion = shiite
+		}
+	}
+}

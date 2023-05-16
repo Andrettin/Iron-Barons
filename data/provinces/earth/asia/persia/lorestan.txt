@@ -3,8 +3,7 @@ lorestan = {
 	color = { 213 66 191 }
 	capital_settlement = khorramabad
 	regions = {
-		asia
-		middle_east
+		persia
 	}
 	
 	history = {
@@ -12,6 +11,12 @@ lorestan = {
 			owner = babylonia #part of Babylonia c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
 			culture = elamite #part of the region of Elam c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
 			religion = pagan
+		}
+		
+		1801 = {
+			owner = persia #part of Persia in 1801; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 170-171.
+			culture = persian
+			religion = shiite
 		}
 	}
 }

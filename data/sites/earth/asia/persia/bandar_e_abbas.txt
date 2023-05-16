@@ -1,0 +1,6 @@
+bandar_e_abbas = {
+	name = "Bandar-e-Abbas"
+	world = earth
+	geocoordinate = { 56.27213554360 27.20405978220 } #from Natural Earth
+	type = settlement
+}
