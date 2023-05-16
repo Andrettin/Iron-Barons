@@ -1,0 +1,12 @@
+courthouse = {
+	name = "Courthouse"
+	building_class = courthouse
+	portrait = trading_post
+	icon = courthouse
+	conditions = {
+		game_rule = advisors_enabled
+	}
+	country_modifier = {
+		civics_output_modifier = 50
+	}
+}
