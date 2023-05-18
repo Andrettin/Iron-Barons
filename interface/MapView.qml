@@ -147,6 +147,10 @@ Item {
 		id: advisor_choice_dialog
 	}
 	
+	ModifierDialog {
+		id: modifier_dialog
+	}
+	
 	Keys.onPressed: {
 		switch (event.key) {
 			case Qt.Key_E:

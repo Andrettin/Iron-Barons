@@ -117,10 +117,6 @@ Item {
 		id: building_dialog
 	}
 	
-	ModifierDialog {
-		id: building_modifier_dialog
-	}
-	
 	BuildBuildingDialog {
 		id: build_building_dialog
 	}
