@@ -37,17 +37,17 @@ DialogBase {
 		spacing: 16 * scale_factor
 		
 		SmallText {
-			id: modifier_label
-			anchors.horizontalCenter: parent.horizontalCenter
-			text: format_text(modifier_string)
-			visible: building && modifier_string.length > 0 && !building.warehouse
-		}
-		
-		SmallText {
 			id: built_label
 			anchors.horizontalCenter: parent.horizontalCenter
 			text: building && building.provincial ? ("Built: " + country_game_data.get_provincial_building_count(building) + "/" + country_game_data.provinces.length) : ""
 			visible: building && building.provincial
+		}
+		
+		SmallText {
+			id: modifier_label
+			anchors.horizontalCenter: parent.horizontalCenter
+			text: format_text(modifier_string)
+			visible: building && modifier_string.length > 0 && !building.warehouse && building_slot.available_production_types.length === 0
 		}
 		
 		SmallText {
