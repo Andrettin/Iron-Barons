@@ -1,0 +1,12 @@
+tours = {
+	name = "Tours"
+	world = earth
+	geocoordinate = { 0.69994665386 47.38037538560 } #from Natural Earth
+	province = anjou
+	
+	history = {
+		1789 = {
+			buildings += courthouse #Chief court of the salt tax existent in Tours in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+		}
+	}
+}

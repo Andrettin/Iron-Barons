@@ -9,6 +9,10 @@ nantes = {
 	}
 	
 	history = {
+		1460 = {
+			buildings += university #University founded in Nantes in 1460; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+		
 		1789 = {
 			buildings += courthouse #Chambre des comptes existent in Nantes in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 		}

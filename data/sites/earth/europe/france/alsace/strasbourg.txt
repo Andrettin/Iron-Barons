@@ -11,4 +11,12 @@ strasbourg = {
 	cultural_group_names = {
 		german = "Strassburg"
 	}
+	
+	history = {
+		1789 = {
+			#Bureau de finance and chambre du domaine existent in Strasbourg in 1789. Source: William R. Shepherd, Historical Atlas, 1911, p. 147.
+			#Prévôt des maréchaux existent in Strasbourg in 1789. Source: William R. Shepherd, Historical Atlas, 1911, p. 147.
+			buildings += courthouse
+		}
+	}
 }
