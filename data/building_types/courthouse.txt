@@ -3,6 +3,7 @@ courthouse = {
 	building_class = courthouse
 	portrait = trading_post
 	icon = courthouse
+	provincial = true
 	conditions = {
 		game_rule = advisors_enabled
 	}
