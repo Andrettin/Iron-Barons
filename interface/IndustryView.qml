@@ -49,16 +49,9 @@ Item {
 			
 			onClicked: {
 				if (building !== null) {
-					if (building.warehouse || building_slot.available_production_types.length > 0) {
+					if (building.warehouse || building_slot.available_production_types.length > 0 || building.country_modifier_string.length > 0) {
 						building_dialog.building_slot = building_slot
 						building_dialog.open()
-						return
-					}
-					
-					if (building.country_modifier_string.length > 0) {
-						building_modifier_dialog.title = building.name
-						building_modifier_dialog.modifier_string = building.country_modifier_string
-						building_modifier_dialog.open()
 						return
 					}
 				} else {

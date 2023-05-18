@@ -11,6 +11,7 @@ DialogBase {
 	property var building_slot: null
 	readonly property var building: building_slot ? building_slot.building : null
 	readonly property int capacity: building_slot ? building_slot.capacity : 0
+	readonly property string modifier_string: building_slot ? building_slot.country_modifier_string : 0
 	
 	ExpandBuildingButton {
 		id: expand_building_button
@@ -34,6 +35,20 @@ DialogBase {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		spacing: 16 * scale_factor
+		
+		SmallText {
+			id: modifier_label
+			anchors.horizontalCenter: parent.horizontalCenter
+			text: format_text(modifier_string)
+			visible: modifier_string.length > 0 && !building.warehouse
+		}
+		
+		SmallText {
+			id: built_label
+			anchors.horizontalCenter: parent.horizontalCenter
+			text: building && building.provincial ? ("Built: " + country_game_data.get_provincial_building_count(building) + "/" + country_game_data.provinces.length) : ""
+			visible: building && building.provincial
+		}
 		
 		SmallText {
 			id: storage_capacity_label
