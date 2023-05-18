@@ -165,6 +165,60 @@ Rectangle {
 		}
 	}
 	
+	GridView {
+		id: portrait_grid_view
+		anchors.top: scripted_modifiers_grid.visible && province_game_data && province_game_data.scripted_modifiers.length > 0 ? scripted_modifiers_grid.bottom : subtitle.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.bottom: end_turn_button_internal.top
+		anchors.bottomMargin: 16 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 8 * scale_factor
+		anchors.right: parent.right
+		anchors.rightMargin: 8 * scale_factor
+		leftMargin: 0
+		rightMargin: 0
+		topMargin: 0
+		bottomMargin: 0
+		cellWidth: 80 * scale_factor
+		cellHeight: 80 * scale_factor
+		boundsBehavior: Flickable.StopAtBounds
+		clip: true
+		visible: selected_province !== null
+		model: province_game_data ? province_game_data.building_slots : []
+		
+		delegate: PortraitGridItem {
+			portrait_identifier: building ? building.portrait.identifier : "building_slot"
+			
+			readonly property var building_slot: model.modelData
+			readonly property var building: building_slot.building
+			
+			Image {
+				id: under_construction_icon
+				anchors.horizontalCenter: parent.horizontalCenter
+				anchors.verticalCenter: parent.verticalCenter
+				source: "image://icon/cog"
+				visible: building_slot.under_construction_building !== null
+			}
+			
+			onClicked: {
+			}
+			
+			onEntered: {
+				if (building !== null) {
+					status_text = building.name
+				} else {
+					status_text = building_slot.type.name + " Slot"
+					middle_status_text = ""
+				}
+			}
+			
+			onExited: {
+				status_text = ""
+				middle_status_text = ""
+			}
+		}
+	}
+	
 	SmallText {
 		id: site_info_text
 		anchors.top: province_game_data ? scripted_modifiers_grid.bottom : subtitle.bottom
