@@ -183,7 +183,7 @@ Rectangle {
 		cellHeight: 80 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		visible: selected_province !== null
+		visible: selected_site !== null && selected_site.settlement
 		model: province_game_data ? province_game_data.building_slots : []
 		
 		delegate: PortraitGridItem {
