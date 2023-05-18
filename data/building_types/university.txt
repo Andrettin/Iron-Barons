@@ -3,10 +3,13 @@ college = {
 	building_class = college
 	portrait = university
 	icon = university
+	provincial = true
 	production_types = {
 		researching
 	}
-	base_capacity = 4
+	stackable_country_modifier = {
+		university_capacity = 2
+	}
 }
 
 university = {
@@ -14,12 +17,13 @@ university = {
 	building_class = university
 	portrait = university
 	icon = university
+	provincial = true
+	required_building = college
+	required_technology = university
 	production_types = {
 		researching
 	}
-	base_capacity = 8
-	capacity_increment = 8
-	expandable = true
-	required_building = college
-	required_technology = university
+	stackable_country_modifier = {
+		university_capacity = 4
+	}
 }
