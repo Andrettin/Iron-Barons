@@ -20,6 +20,7 @@ newspaper = {
 	portrait = trading_post
 	icon = newspaper
 	provincial = true
+	required_building = printing_press
 	required_technology = printing_press
 	conditions = {
 		game_rule = advisors_enabled
