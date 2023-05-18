@@ -40,7 +40,7 @@ DialogBase {
 			id: modifier_label
 			anchors.horizontalCenter: parent.horizontalCenter
 			text: format_text(modifier_string)
-			visible: modifier_string.length > 0 && !building.warehouse
+			visible: building && modifier_string.length > 0 && !building.warehouse
 		}
 		
 		SmallText {
