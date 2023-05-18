@@ -11,5 +11,9 @@ poitiers = {
 		1431 = {
 			buildings += university #University founded in Poitiers in 1431; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 		}
+		
+		1789 = {
+			buildings += courthouse #Prévôt des maréchaux existent in Poitiers in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+		}
 	}
 }

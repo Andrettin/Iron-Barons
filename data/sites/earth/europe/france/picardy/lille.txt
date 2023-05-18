@@ -5,4 +5,11 @@ lille = {
 	type = resource
 	resource = grain #Cropland (primarily wheat, sugar beets, corn); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
 	province = picardy
+	
+	history = {
+		1789 = {
+			buildings += courthouse #Prévôt des maréchaux existent in Lille in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+			improvement = grain_farm
+		}
+	}
 }

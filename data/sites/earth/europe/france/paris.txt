@@ -29,6 +29,8 @@ paris = {
 		
 		1789 = {
 			population = 500000 #Paris had a population of 500,000 in 1789; Source: Eric J. Hobsbawm, "The Age of Revolution, Europe 1789-1848", p. 28.
+			
+			buildings += courthouse #Parlement or conseil souverain, cour des aides, cambre des comptes, court of admiralty, cour des monnaies, prévôt des maréchaux and chief court of the salt tax existent in Paris in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 		}
 		
 		1815 = {

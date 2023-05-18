@@ -5,4 +5,11 @@ le_mans = {
 	type = resource
 	resource = cattle #Grassland; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
 	province = anjou
+	
+	history = {
+		1789 = {
+			buildings += courthouse #Chief court of the salt tax existent in Le Mans in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+			improvement = cattle_ranch
+		}
+	}
 }

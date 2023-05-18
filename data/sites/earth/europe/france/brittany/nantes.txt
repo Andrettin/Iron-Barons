@@ -7,4 +7,10 @@ nantes = {
 	cultural_names = {
 		frankish = "Namnetes"
 	}
+	
+	history = {
+		1789 = {
+			buildings += courthouse #Chambre des comptes existent in Nantes in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+		}
+	}
 }
