@@ -3,6 +3,7 @@ researching = {
 	input_commodities = {
 		labor = 2
 	}
+	input_wealth = 100
 	output_commodity = research
 	output_value = 1
 }
