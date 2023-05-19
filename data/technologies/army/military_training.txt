@@ -37,6 +37,7 @@ scouting = {
 	portrait = helmet
 	year = 1750
 	prerequisites = {
+		hussars
 		flintlock_rifle
 		bessemer_converter
 	}
