@@ -3,10 +3,13 @@ town_hall = {
 	building_class = town_hall
 	portrait = town
 	icon = flag
+	provincial = true
 	production_types = {
 		civics_production
 	}
-	base_capacity = 4
+	stackable_country_modifier = {
+		town_hall_capacity = 2
+	}
 }
 
 city_hall = {
@@ -14,11 +17,14 @@ city_hall = {
 	building_class = city_hall
 	portrait = city
 	icon = flag
+	provincial = true
+	required_building = town_hall
 	production_types = {
 		civics_production
 	}
-	base_capacity = 8
-	required_building = town_hall
+	stackable_country_modifier = {
+		town_hall_capacity = 4
+	}
 }
 
 capitol = {
@@ -26,11 +32,12 @@ capitol = {
 	building_class = capitol
 	portrait = city
 	icon = flag
+	provincial = true
+	required_building = city_hall
 	production_types = {
 		civics_production
 	}
-	base_capacity = 16
-	capacity_increment = 8
-	expandable = true
-	required_building = city_hall
+	stackable_country_modifier = {
+		town_hall_capacity = 8
+	}
 }
