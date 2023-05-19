@@ -6,4 +6,10 @@ konigsberg = {
 	cultural_names = {
 		russian = "Kaliningrad"
 	}
+	
+	history = {
+		1544 = {
+			buildings += university #University founded in Königsberg in 1544; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
 }

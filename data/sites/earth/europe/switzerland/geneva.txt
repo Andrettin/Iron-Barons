@@ -6,8 +6,12 @@ geneva = {
 	type = settlement
 	
 	history = {
+		1365 = {
+			buildings += university #University founded in Geneva in 1365; Source: "Atlas de História Mundial", p. 144.
+		}
+	
 		1559 = {
-			buildings += university #Calvin's Academy (the University of Geneva) was founded in 1559; Source: Henry Kamen, "Early Modern European Society", 2021, p. 296.
+			#Calvin's Academy (the University of Geneva) was founded in 1559; Source: Henry Kamen, "Early Modern European Society", 2021, p. 296.
 		}
 	}
 }

@@ -2,7 +2,12 @@ cracow = {
 	name = "Cracow"
 	world = earth
 	geocoordinate = { 19.96001135120 50.05997926750 } #from Natural Earth
-	pos_offset = { 0 1 }
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		1364 = {
+			buildings += university #University founded in Krakow in 1364; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
 }

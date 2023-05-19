@@ -7,4 +7,10 @@ klausenburg = {
 	cultural_names = {
 		romanian = "Cluj"
 	}
+	
+	history = {
+		1580 = {
+			buildings += university #University founded in Klausenburg in 1580; Source: "The Cambridge Modern History Atlas", p. 9.
+		}
+	}
 }

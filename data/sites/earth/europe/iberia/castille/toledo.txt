@@ -5,7 +5,19 @@ toledo = {
 	type = resource
 	resource = iron_ore
 	terrain_type = barren_hills
+	province = castille
 	cultural_names = {
 		roman = "Toletum" #Source: "Ancient Warfare VII.6", 2013, p. 7.
+	}
+	
+	history = {
+		1474 = {
+			buildings += university #Minor university founded in Toledo in 1474; Source: "The Cambridge Modern History Atlas", 1912, p. 9; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+			improvement = iron_mine
+		}
+		
+		1807 = {
+			buildings -= university #Minor university abolished in Toledo in 1807; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+		}
 	}
 }

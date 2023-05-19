@@ -4,4 +4,10 @@ zurich = {
 	geocoordinate = { 8.55001013046 47.37998781240 } #from Natural Earth
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		1521 = {
+			buildings += university #University founded in Zurich in 1521; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
 }

@@ -8,6 +8,10 @@ seville = {
 	}
 	
 	history = {
+		1504 = {
+			buildings += university #Major university founded in Seville in 1504; Source: "The Cambridge Modern History Atlas", 1912, p. 9; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+		}
+		
 		1565 = {
 			population_groups = {
 				slaves.african = 6327 #6,327 slaves lived in Seville in 1565 (most of whom were black), comprising 7.4% of the population; Source: Henry Kamen, "Early Modern European Society", 2021, p. 273.

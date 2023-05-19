@@ -3,4 +3,10 @@ erfurt = {
 	world = earth
 	geocoordinate = { 11.02996211610 50.97005291660 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1379 = {
+			buildings += university #University founded in Erfurt in 1379; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
 }
