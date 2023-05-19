@@ -1,6 +1,0 @@
-ouro_preto = {
-	name = "Ouro Preto"
-	world = earth
-	geocoordinate = { -43.503611111111 -20.385277777778 }
-	type = settlement
-}

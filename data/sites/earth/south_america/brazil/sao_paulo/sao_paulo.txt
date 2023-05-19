@@ -4,4 +4,10 @@ sao_paulo = {
 	geocoordinate = { -46.62501998040 -23.55867958700 } #from Natural Earth
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		1827 = {
+			buildings += college #Law college existent in São Paulo in 1827; Source: Otávio Tarquínio de Sousa, "Bernardo Pereira de Vasconcelos", p. 66.
+		}
+	}
 }

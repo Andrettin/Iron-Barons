@@ -3,4 +3,10 @@ havana = {
 	world = earth
 	geocoordinate = { -82.36418217130 23.13195884090 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1721 = {
+			buildings += college #College or seminary founded in Havana in 1721 or 1728; Source: Enrique Martínez Ruiz; Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 226.
+		}
+	}
 }

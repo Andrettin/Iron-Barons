@@ -4,4 +4,10 @@ buenos_aires = {
 	geocoordinate = { -58.39753137370 -34.60250160850 } #from Natural Earth
 	pos_offset = { 0 1 }
 	type = settlement
+	
+	history = {
+		1784 = {
+			buildings += college #College or seminary founded in Buenos Aires in 1784; Source: Enrique Martínez Ruiz; Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 226.
+		}
+	}
 }
