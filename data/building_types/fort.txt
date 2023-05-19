@@ -3,6 +3,8 @@ stockade = {
 	building_class = stockade
 	portrait = fort
 	icon = wall
+	provincial = true
+	fort_level = 1
 }
 
 fort = {
@@ -10,7 +12,10 @@ fort = {
 	building_class = fort
 	portrait = fort
 	icon = wall
+	provincial = true
+	fort_level = 2
 	required_building = stockade
+	required_technology = mine_engineering
 }
 
 fortress = {
@@ -18,5 +23,8 @@ fortress = {
 	building_class = fortress
 	portrait = fort
 	icon = wall
+	provincial = true
+	fort_level = 3
 	required_building = fort
+	required_technology = modern_fortifications
 }
