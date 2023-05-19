@@ -1,3 +1,8 @@
+village_hall = {
+	name = "Village Hall"
+	slot_type = town_hall
+}
+
 town_hall = {
 	name = "Town Hall"
 	slot_type = town_hall

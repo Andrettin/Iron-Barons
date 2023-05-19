@@ -1,3 +1,17 @@
+village_hall = {
+	name = "Village Hall"
+	building_class = village_hall
+	portrait = town
+	icon = flag
+	provincial = true
+	production_types = {
+		civics_production
+	}
+	stackable_country_modifier = {
+		town_hall_capacity = 1
+	}
+}
+
 town_hall = {
 	name = "Town Hall"
 	building_class = town_hall
@@ -33,6 +47,7 @@ capitol = {
 	portrait = city
 	icon = flag
 	provincial = true
+	capital_only = true
 	required_building = city_hall
 	production_types = {
 		civics_production
