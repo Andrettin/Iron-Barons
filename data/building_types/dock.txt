@@ -3,14 +3,13 @@ dock = {
 	building_class = dock
 	portrait = dock
 	icon = anchor
-}
-
-drydock = {
-	name = "Drydock"
-	building_class = drydock
-	portrait = dock
-	icon = anchor
-	required_building = dock
+	provincial = true
+	province_conditions = {
+		or = {
+			coastal = true #should also be available if a river runs through the province's settlement
+			capital = true
+		}
+	}
 }
 
 shipyard = {
@@ -18,5 +17,7 @@ shipyard = {
 	building_class = shipyard
 	portrait = dock
 	icon = anchor
-	required_building = drydock
+	provincial = true
+	capital_only = true
+	required_building = dock
 }
