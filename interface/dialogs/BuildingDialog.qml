@@ -39,7 +39,7 @@ DialogBase {
 		SmallText {
 			id: built_label
 			anchors.horizontalCenter: parent.horizontalCenter
-			text: building && building.provincial ? ("Built: " + country_game_data.get_provincial_building_count(building) + "/" + country_game_data.provinces.length) : ""
+			text: building && building.provincial ? ("Built: " + get_provincial_building_count(building) + "/" + country_game_data.provinces.length) : ""
 			visible: building && building.provincial
 		}
 		
@@ -393,6 +393,18 @@ DialogBase {
 				building_dialog.close()
 			}
 		}
+	}
+	
+	function get_provincial_building_count(building) {
+		var count = country_game_data.get_provincial_building_count(building)
+		
+		//also count the best non-capital building immediately below the capital-specific one
+		while (building && building.capital_only) {
+			building = building.required_building
+			count += country_game_data.get_provincial_building_count(building)
+		}
+		
+		return count
 	}
 	
 	function get_production_formula_string(production_type) {
