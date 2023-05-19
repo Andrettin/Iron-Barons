@@ -9,6 +9,10 @@ trieste = {
 	}
 	
 	history = {
+		1719 = {
+			buildings += dock #Karl VI of the Holy Roman Empire made Trieste a free port ("Freihafen") in 1719; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464.
+		}
+		
 		1758 = {
 			population = 6424 #Trieste's population was 6,424 in 1758; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 466.
 		}
