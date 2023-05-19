@@ -3,8 +3,8 @@ import QtQuick.Controls 2.12
 
 Item {
 	id: portrait_grid_item
-	width: portrait_grid_view.cellWidth
-	height: portrait_grid_view.cellHeight
+	width: portrait_grid_view.cellWidth ? portrait_grid_view.cellWidth : portrait_rectangle.width
+	height: portrait_grid_view.cellHeight ? portrait_grid_view.cellHeight : portrait_rectangle.height
 	ToolTip.text: tooltip
 	ToolTip.visible: portrait_mouse_area.containsMouse && tooltip.length > 0
 	ToolTip.delay: 1000
@@ -20,6 +20,7 @@ Item {
 	readonly property var building: building_slot.building
 	
 	Rectangle {
+		id: portrait_rectangle
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		width: portrait.width + 2 * scale_factor

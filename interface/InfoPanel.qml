@@ -106,7 +106,7 @@ Rectangle {
 		
 		readonly property string icon_identifier: selected_civilian_unit ? selected_civilian_unit.icon.identifier : (
 			selected_site ? (
-				selected_site.settlement ? "settlement" : (
+				selected_site.settlement ? "" : (
 					(selected_site.game_data.improvement && selected_site.game_data.improvement.ruins) ? "skull" : (selected_site.resource.icon ? selected_site.resource.icon.identifier : selected_site.resource.commodity.icon.identifier)
 				)
 			) : ""
@@ -135,7 +135,7 @@ Rectangle {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: (selected_site && !selected_garrison) ? (
-			selected_site.settlement ? "Settlement" : (
+			selected_site.settlement ? "" : (
 				selected_site.game_data.improvement ? (
 					selected_site.game_data.improvement.name
 				) : (
@@ -165,9 +165,9 @@ Rectangle {
 		}
 	}
 	
-	GridView {
-		id: portrait_grid_view
-		anchors.top: scripted_modifiers_grid.visible && province_game_data && province_game_data.scripted_modifiers.length > 0 ? scripted_modifiers_grid.bottom : subtitle.bottom
+	Flickable {
+		id: portrait_grid_flickable
+		anchors.top: scripted_modifiers_grid.visible && province_game_data && province_game_data.scripted_modifiers.length > 0 ? scripted_modifiers_grid.bottom : title.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.bottom: end_turn_button_internal.top
 		anchors.bottomMargin: 16 * scale_factor
@@ -175,51 +175,56 @@ Rectangle {
 		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
 		anchors.rightMargin: 8 * scale_factor
-		leftMargin: 0
-		rightMargin: 0
-		topMargin: 0
-		bottomMargin: 0
-		cellWidth: 80 * scale_factor
-		cellHeight: 80 * scale_factor
+		contentHeight: contentItem.childrenRect.height
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		visible: selected_site !== null && selected_site.settlement
-		model: province_game_data ? province_game_data.building_slots : []
 		
-		delegate: PortraitGridItem {
-			portrait_identifier: building ? building.portrait.identifier : "building_slot"
+		Grid {
+			id: portrait_grid_view
+			anchors.horizontalCenter: parent.horizontalCenter
+			columns: 2
+			spacing: 16 * scale_factor
 			
-			readonly property var building_slot: model.modelData
-			readonly property var building: building_slot.building
-			
-			Image {
-				id: under_construction_icon
-				anchors.horizontalCenter: parent.horizontalCenter
-				anchors.verticalCenter: parent.verticalCenter
-				source: "image://icon/cog"
-				visible: building_slot.under_construction_building !== null
-			}
-			
-			onClicked: {
-				if (building !== null && building.country_modifier_string.length > 0) {
-					modifier_dialog.title = building.name
-					modifier_dialog.modifier_string = building.country_modifier_string
-					modifier_dialog.open()
+			Repeater {
+				model: province_game_data ? province_game_data.building_slots : []
+				
+				PortraitGridItem {
+					portrait_identifier: building ? building.portrait.identifier : "building_slot"
+					
+					readonly property var building_slot: model.modelData
+					readonly property var building: building_slot.building
+					
+					Image {
+						id: under_construction_icon
+						anchors.horizontalCenter: parent.horizontalCenter
+						anchors.verticalCenter: parent.verticalCenter
+						source: "image://icon/cog"
+						visible: building_slot.under_construction_building !== null
+					}
+					
+					onClicked: {
+						if (building !== null && building.country_modifier_string.length > 0) {
+							modifier_dialog.title = building.name
+							modifier_dialog.modifier_string = building.country_modifier_string
+							modifier_dialog.open()
+						}
+					}
+					
+					onEntered: {
+						if (building !== null) {
+							status_text = building.name
+						} else {
+							status_text = building_slot.type.name + " Slot"
+							middle_status_text = ""
+						}
+					}
+					
+					onExited: {
+						status_text = ""
+						middle_status_text = ""
+					}
 				}
-			}
-			
-			onEntered: {
-				if (building !== null) {
-					status_text = building.name
-				} else {
-					status_text = building_slot.type.name + " Slot"
-					middle_status_text = ""
-				}
-			}
-			
-			onExited: {
-				status_text = ""
-				middle_status_text = ""
 			}
 		}
 	}
