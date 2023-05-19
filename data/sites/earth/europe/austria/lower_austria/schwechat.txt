@@ -8,5 +8,9 @@ schwechat = {
 		1815 = {
 			#existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
+		
+		1900 = {
+			population = 8241 #Schwechat had a population of 8241 in 1900; Source: "Encyclopædia Britannica", 1911, vol. 3, p. 2.
+		}
 	}
 }

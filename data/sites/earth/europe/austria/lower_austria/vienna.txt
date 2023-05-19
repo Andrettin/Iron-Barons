@@ -12,6 +12,7 @@ vienna = {
 	history = {
 		1365 = {
 			buildings += university #University founded in Vienna in 1365; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+			buildings += capitol
 		}
 		
 		1700 = {
@@ -28,6 +29,12 @@ vienna = {
 
 		1844 = {
 			population = 374378 #the Austrian Kreis of "Haupt- und Residenstadt Wien" had 374,378 inhabitants in 1844 (excluding military personnel); Source: "Tafeln zur Statistik der österreichischen Monarchie für das Jahr 1844", 1848, Tafel 50.
+		}
+		
+		1900 = {
+			population = 1662269 #Vienna had a population of 1,662,269 in 1900; Source: "Encyclopædia Britannica", 1911, vol. 3, p. 2.
+			
+			#Floridsdorf had a population of 36,599 in 1900; Source: "Encyclopædia Britannica", 1911, vol. 3, p. 2.
 		}
 	}
 }

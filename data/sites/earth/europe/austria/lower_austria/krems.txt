@@ -10,5 +10,9 @@ krems = {
 		1815 = {
 			improvement = grain_farm #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
+		
+		1900 = {
+			population = 12657 #Krems had a population of 12,657 in 1900; Source: "Encyclopædia Britannica", 1911, vol. 3, p. 2.
+		}
 	}
 }
