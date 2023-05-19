@@ -49,11 +49,8 @@ Item {
 			
 			onClicked: {
 				if (building !== null) {
-					if (building.warehouse || building_slot.available_production_types.length > 0 || building.country_modifier_string.length > 0) {
-						building_dialog.building_slot = building_slot
-						building_dialog.open()
-						return
-					}
+					building_dialog.building_slot = building_slot
+					building_dialog.open()
 				} else {
 					var buildable_building = building_slot.get_buildable_building()
 					if (buildable_building !== null) {
