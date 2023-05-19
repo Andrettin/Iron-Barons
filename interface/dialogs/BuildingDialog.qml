@@ -153,9 +153,36 @@ DialogBase {
 								model: input_value
 								
 								Image {
-									id: output_commodity_icon
+									id: input_commodity_icon
 									source: "image://icon/" + input_commodity.icon.identifier
 								}
+							}
+						}
+					}
+					
+					Row {
+						visible: production_type.input_wealth !== 0
+						
+						Item {
+							width: 32 * scale_factor
+							height: 32 * scale_factor
+							
+							NormalText {
+								text: "+"
+								anchors.verticalCenter: parent.verticalCenter
+								anchors.horizontalCenter: parent.horizontalCenter
+							}
+						}
+						
+						Item {
+							width: input_wealth_label.width
+							height: 32 * scale_factor
+							
+							NormalText {
+								id: input_wealth_label
+								text: "$" + number_string(production_type.input_wealth)
+								anchors.verticalCenter: parent.verticalCenter
+								anchors.horizontalCenter: parent.horizontalCenter
 							}
 						}
 					}
@@ -302,6 +329,15 @@ DialogBase {
 									}
 								}
 								
+								if (production_type.input_wealth !== 0) {
+									var total_input_wealth = building_slot.get_production_type_input_wealth(production_type)
+									if (text.length > 0) {
+										text += " + "
+									}
+									
+									text += "$" + number_string(total_input_wealth)
+								}
+								
 								text += " → " + employed_capacity + " " + output_commodity.name
 								
 								if (output_value !== employed_capacity) {
@@ -373,6 +409,14 @@ DialogBase {
 			}
 			
 			str += quantity + " " + commodity.name
+		}
+		
+		if (production_type.input_wealth !== 0) {
+			if (str.length > 0) {
+				str += " + "
+			}
+			
+			str += "$" + number_string(production_type.input_wealth)
 		}
 		
 		str += " makes " + production_type.output_value + " " + production_type.output_commodity.name
