@@ -2,7 +2,6 @@ cabo_frio = {
 	name = "Cabo Frio"
 	world = earth
 	geocoordinate = { -42.03997684890 -22.88998655310 }
-	pos_offset = { -1 0 }
 	type = resource
 	resource = salt #also brazilwood
 	province = rio_de_janeiro

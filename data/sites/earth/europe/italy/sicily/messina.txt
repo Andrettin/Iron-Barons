@@ -2,7 +2,6 @@ messina = {
 	name = "Messina"
 	world = earth
 	geocoordinate = { 15.54999629580 38.20047060040 } #from Natural Earth
-	pos_offset = { -1 0 }
 	type = resource
 	resource = fish
 	province = sicily

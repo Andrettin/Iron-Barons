@@ -2,7 +2,6 @@ carchemish = {
 	name = "Carchemish"
 	world = earth
 	geocoordinate = { 37.9983 36.83452 }
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = grain
 	province = gaziantep

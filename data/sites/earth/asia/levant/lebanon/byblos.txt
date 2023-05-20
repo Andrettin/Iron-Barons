@@ -2,7 +2,6 @@ byblos = {
 	name = "Byblos"
 	world = earth
 	geocoordinate = { 35.65 34.116666666667 }
-	pos_offset = { 1 0 }
 	type = resource
 	resource = fruit #fruit-producing area; Source: https://maps.lib.utexas.edu/maps/atlas_middle_east/lebanon_land.jpg
 	terrain_type = plains

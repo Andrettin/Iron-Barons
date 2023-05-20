@@ -2,7 +2,6 @@ aracati = {
 	name = "Aracati"
 	world = earth
 	geocoordinate = { -37.77003076330 -4.55999428418 } #from Natural Earth
-	pos_offset = { -1 1 }
 	type = resource
 	resource = cattle
 	province = ceara

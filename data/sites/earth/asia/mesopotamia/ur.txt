@@ -2,7 +2,6 @@ ur = {
 	name = "Ur"
 	world = earth
 	geocoordinate = { 46.104444 30.962222 }
-	pos_offset = { 0 -1 }
 	type = settlement
 	
 	history = {

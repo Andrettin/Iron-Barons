@@ -2,7 +2,6 @@ helsinki = {
 	name = "Helsinki"
 	world = earth
 	geocoordinate = { 24.93412634150 60.17556337400 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = settlement
 	cultural_names = {
 		swedish = "Helsingfors"

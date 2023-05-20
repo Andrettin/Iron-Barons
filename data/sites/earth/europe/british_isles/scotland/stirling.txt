@@ -2,7 +2,6 @@ stirling = {
 	name = "Stirling"
 	world = earth
 	geocoordinate = { -3.9369 56.1166 }
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = coal
 	terrain_type = barren_hills

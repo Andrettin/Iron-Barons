@@ -2,7 +2,6 @@ turku = {
 	name = "Turku"
 	world = earth
 	geocoordinate = { 22.25496170930 60.45386680010 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = fish
 	province = finland

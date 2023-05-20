@@ -2,6 +2,5 @@ bencoolen = {
 	name = "Bencoolen"
 	world = earth
 	geocoordinate = { 102.26997432400 -3.80004067090 } #from Natural Earth (Bengkulu)
-	pos_offset = { 1 0 }
 	type = settlement
 }

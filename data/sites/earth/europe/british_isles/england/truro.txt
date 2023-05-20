@@ -2,6 +2,5 @@ truro = {
 	name = "Truro"
 	world = earth
 	geocoordinate = { -5.051 50.26 }
-	pos_offset = { 0 -1 }
 	type = settlement
 }

@@ -2,6 +2,5 @@ sekondi = {
 	name = "Sekondi"
 	world = earth
 	geocoordinate = { -1.70401513814 4.94327577608 } #from Natural Earth
-	pos_offset = { -1 0 }
 	type = settlement
 }

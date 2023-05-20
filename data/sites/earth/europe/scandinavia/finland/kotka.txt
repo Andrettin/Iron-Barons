@@ -2,7 +2,6 @@ kotka = {
 	name = "Kotka"
 	world = earth
 	geocoordinate = { 26.945833333333 60.466666666667 }
-	pos_offset = { -1 0 }
 	type = resource
 	resource = timber
 	terrain_type = conifer_forest

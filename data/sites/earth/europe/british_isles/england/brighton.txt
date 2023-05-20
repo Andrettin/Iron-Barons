@@ -2,7 +2,6 @@ brighton = {
 	name = "Brighton"
 	world = earth
 	geocoordinate = { -0.16997440734 50.83034568190 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = fish
 	province = kent #Sussex

@@ -2,7 +2,6 @@ sais = {
 	name = "Sais"
 	world = earth
 	geocoordinate = { 30.768333333333 30.964722222222 }
-	pos_offset = { 1 0 }
 	type = resource
 	resource = fruit
 	province = cairo

@@ -2,7 +2,6 @@ aberdeen = {
 	name = "Aberdeen"
 	world = earth
 	geocoordinate = { -2.07998702128 57.17039796870 } #from Natural Earth
-	pos_offset = { -1 0 }
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills

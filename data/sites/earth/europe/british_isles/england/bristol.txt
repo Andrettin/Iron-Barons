@@ -2,7 +2,6 @@ bristol = {
 	name = "Bristol"
 	world = earth
 	geocoordinate = { -2.58331547180 51.44999778150 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = iron_ore
 	terrain_type = barren_hills

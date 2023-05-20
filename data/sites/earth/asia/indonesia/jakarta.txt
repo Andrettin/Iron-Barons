@@ -2,6 +2,5 @@ jakarta = {
 	name = "Jakarta"
 	world = earth
 	geocoordinate = { 106.82943762100 -6.17441770541 } #from Natural Earth
-	pos_offset = { 0 1 }
 	type = settlement
 }

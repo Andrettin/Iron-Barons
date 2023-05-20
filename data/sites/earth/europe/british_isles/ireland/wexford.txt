@@ -2,7 +2,6 @@ wexford = {
 	name = "Wexford"
 	world = earth
 	geocoordinate = { -6.4575 52.3342 }
-	pos_offset = { -1 0 }
 	type = resource
 	resource = fish
 	province = leinster

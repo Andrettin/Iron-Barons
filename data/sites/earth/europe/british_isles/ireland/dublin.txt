@@ -2,7 +2,6 @@ dublin = {
 	name = "Dublin"
 	world = earth
 	geocoordinate = { -6.24890568178 53.33306113600 } #from Natural Earth
-	pos_offset = { -1 0 }
 	type = settlement
 	province = leinster
 	

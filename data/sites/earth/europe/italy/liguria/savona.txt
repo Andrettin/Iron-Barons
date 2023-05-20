@@ -2,7 +2,6 @@ savona = {
 	name = "Savona"
 	world = earth
 	geocoordinate = { 8.4810166666667 44.307975 }
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = fish
 	province = genoa

@@ -2,7 +2,6 @@ sidon = {
 	name = "Sidon"
 	world = earth
 	geocoordinate = { 35.36878657910 33.56302756660 } #from Natural Earth
-	pos_offset = { 1 0 }
 	type = resource
 	resource = fruit #citrus-producing area; Source: https://maps.lib.utexas.edu/maps/atlas_middle_east/lebanon_land.jpg
 	terrain_type = plains

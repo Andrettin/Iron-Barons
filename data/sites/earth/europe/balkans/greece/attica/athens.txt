@@ -2,7 +2,6 @@ athens = {
 	name = "Athens"
 	world = earth
 	geocoordinate = { 23.73332108430 37.98332623190 } #from Natural Earth
-	pos_offset = { 1 -1 }
 	type = settlement
 	
 	history = {

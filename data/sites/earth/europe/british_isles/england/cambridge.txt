@@ -2,7 +2,6 @@ cambridge = {
 	name = "Cambridge"
 	world = earth
 	geocoordinate = { 0.11662308615 52.20039125480 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = grain
 	province = east_anglia

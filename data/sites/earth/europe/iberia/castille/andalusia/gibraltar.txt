@@ -2,7 +2,6 @@ gibraltar = {
 	name = "Gibraltar"
 	world = earth
 	geocoordinate = { -5.37807482973 36.13243494600 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = fish
 	province = andalusia

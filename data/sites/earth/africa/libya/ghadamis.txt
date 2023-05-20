@@ -2,6 +2,5 @@ ghadamis = {
 	name = "Ghadamis"
 	world = earth
 	geocoordinate = { 9.50002966171 30.13328859360 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = settlement
 }
