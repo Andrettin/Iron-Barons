@@ -8,8 +8,6 @@ ferrara = {
 	history = {
 		1391 = {
 			buildings += university #University founded in Ferrara in 1391; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
-			
-			improvement = grain_farm
 		}
 	}
 }

@@ -12,8 +12,6 @@ pecs = {
 	history = {
 		1367 = {
 			buildings += university #University founded in Pécs/Fünfkirchen in 1367; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
-			
-			improvement = cattle_ranch
 		}
 	}
 }

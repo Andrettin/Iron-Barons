@@ -12,8 +12,6 @@ freiberg = {
 			population_groups = {
 				czech = 528 #Source: Henry Kamen, "The Iron Century", p. 425.
 			}
-			
-			improvement = silver_mine
 		}
 	}
 }

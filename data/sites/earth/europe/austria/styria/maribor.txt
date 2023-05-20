@@ -12,7 +12,7 @@ maribor = {
 	
 	history = {
 		1815 = {
-			improvement = timber_lodge #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			developed = true #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
 	}
 }

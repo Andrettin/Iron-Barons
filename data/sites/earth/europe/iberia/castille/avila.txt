@@ -9,7 +9,6 @@ avila = {
 	history = {
 		1550 = {
 			buildings += university #Minor university founded in Avila in 1550; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
-			improvement = grain_farm
 		}
 		
 		1787 = {

@@ -13,7 +13,6 @@ toledo = {
 	history = {
 		1474 = {
 			buildings += university #Minor university founded in Toledo in 1474; Source: "The Cambridge Modern History Atlas", 1912, p. 9; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
-			improvement = iron_mine
 		}
 		
 		1807 = {

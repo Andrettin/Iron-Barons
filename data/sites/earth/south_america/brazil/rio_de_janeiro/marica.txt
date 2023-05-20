@@ -9,7 +9,7 @@ marica = {
 	
 	history = {
 		1824.10.12 = {
-			improvement = orchard  #created as viscounty on 1824.10.12; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 278.
+			developed = true #created as viscounty on 1824.10.12; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 278.
 		}
 	}
 }

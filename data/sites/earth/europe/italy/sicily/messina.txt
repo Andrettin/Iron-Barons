@@ -10,8 +10,6 @@ messina = {
 	history = {
 		1548 = {
 			buildings += university #University founded in Messina in 1548; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
-			
-			improvement = fishing_wharf
 		}
 		
 		1600 = {

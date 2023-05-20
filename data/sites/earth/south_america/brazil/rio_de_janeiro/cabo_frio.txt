@@ -10,7 +10,7 @@ cabo_frio = {
 	
 	history = {
 		1874.5.2 = {
-			improvement = salt_mine  #created as barony on 1874.5.2; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 278.
+			developed = true #created as barony on 1874.5.2; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 278.
 		}
 	}
 }

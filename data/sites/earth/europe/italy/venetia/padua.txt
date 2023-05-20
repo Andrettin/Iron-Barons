@@ -9,8 +9,6 @@ padua = {
 	history = {
 		1222 = {
 			buildings += university #University founded in Padua in 1222; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
-			
-			improvement = orchard
 		}
 	}
 }

@@ -14,7 +14,6 @@ reims = {
 	history = {
 		1547 = {
 			buildings += university #University founded in Reims in 1547; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
-			improvement = grain_farm
 		}
 	}
 }

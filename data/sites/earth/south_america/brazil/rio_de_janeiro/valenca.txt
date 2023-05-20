@@ -11,7 +11,7 @@ valenca = {
 	
 	history = {
 		1825.10.12 = {
-			improvement = coffee_plantation #created as barony on 1825.10.12; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 525.
+			developed = true #created as barony on 1825.10.12; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 525.
 		}
 	}
 }
