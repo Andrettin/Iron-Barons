@@ -5,4 +5,11 @@ huesca = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	
+	history = {
+		1354 = {
+			buildings += university #Major university founded in Huesca in 1354; Source: "The Cambridge Modern History Atlas", 1912, p. 9, Atlas de História Mundial, 2001, p. 144; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+			improvement = sheep_ranch
+		}
+	}
 }

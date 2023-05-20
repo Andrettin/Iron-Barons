@@ -5,4 +5,5 @@ ciudad_real = {
 	type = resource
 	resource = grain
 	terrain_type = plains
+	province = castille
 }

@@ -3,4 +3,10 @@ verona = {
 	world = earth
 	geocoordinate = { 10.99001623400 45.44039044100 } #from Natural Earth
 	province = venetia
+	
+	history = {
+		1815 = {
+			buildings += fortress #Verona had a fortress in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+		}
+	}
 }
