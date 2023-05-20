@@ -7,4 +7,10 @@ salamanca = {
 	cultural_names = {
 		roman = "Salmantica"
 	}
+	
+	history = {
+		1230 = {
+			buildings += university #University founded in Salamanca in 1230; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
 }

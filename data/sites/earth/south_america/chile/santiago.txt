@@ -3,4 +3,10 @@ santiago_de_chile = {
 	world = earth
 	geocoordinate = { -70.66704085460 -33.45001381550 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1738 = {
+			buildings += university #University founded in Santiago in 1738; Source: Enrique Martínez Ruiz; Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 226.
+		}
+	}
 }

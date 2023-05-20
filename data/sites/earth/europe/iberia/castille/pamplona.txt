@@ -4,4 +4,14 @@ pamplona = {
 	geocoordinate = { -1.64998742818 42.82000775050 } #from Natural Earth
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		1628 = {
+			buildings += university #Major university founded in Pamplona in 1628; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+		}
+		
+		1725 = {
+			buildings -= university #Major university abolished in Pamplona in 1725; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+		}
+	}
 }

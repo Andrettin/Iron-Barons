@@ -1,0 +1,12 @@
+dillingen = {
+	name = "Dillingen"
+	world = earth
+	geocoordinate = { 10.42 48.58 }
+	province = augsburg
+	
+	history = {
+		1549 = {
+			buildings += university #University founded in Dillingen in 1549; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
+}
