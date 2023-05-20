@@ -5,6 +5,7 @@ ciudad_rodrigo = {
 	type = resource
 	resource = gold
 	terrain_type = mountains
+	province = leon
 	cultural_names = {
 		roman = "Mirobriga"
 	}

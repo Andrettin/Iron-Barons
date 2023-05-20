@@ -5,6 +5,7 @@ trujillo = {
 	type = resource
 	resource = gold
 	terrain_type = mountains
+	province = extremadura
 	cultural_names = {
 		roman = "Turgalium"
 	}

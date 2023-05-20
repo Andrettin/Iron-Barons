@@ -5,6 +5,7 @@ burgos = {
 	type = resource
 	resource = iron_ore
 	terrain_type = barren_hills
+	province = castille
 	cultural_names = {
 		roman = "Burgiorum" #Source: T. C. Donkin, "An Etymological Dictionary of the Romance Languages", 1864, p. 84.
 	}

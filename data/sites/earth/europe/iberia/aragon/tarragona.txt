@@ -2,9 +2,9 @@ tarragona = {
 	name = "Tarragona"
 	world = earth
 	geocoordinate = { 1.24999059918 41.12036989240 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = grain
+	province = catalonia
 	cultural_names = {
 		roman = "Tarraco" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 	}

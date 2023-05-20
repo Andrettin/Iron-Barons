@@ -4,6 +4,7 @@ zamora = {
 	geocoordinate = { -5.7555555555556 41.503333333333 }
 	type = resource
 	resource = fruit
+	province = leon
 	cultural_names = {
 		roman = "Ocelum Duri"
 	}

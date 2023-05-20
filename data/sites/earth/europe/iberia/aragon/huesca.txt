@@ -5,6 +5,7 @@ huesca = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	province = aragon
 	
 	history = {
 		1354 = {
