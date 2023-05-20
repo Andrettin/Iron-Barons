@@ -5,4 +5,5 @@ potenza = {
 	type = resource
 	resource = fruit
 	terrain_type = plains
+	province = naples
 }

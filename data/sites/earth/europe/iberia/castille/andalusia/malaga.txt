@@ -2,10 +2,10 @@ malaga = {
 	name = "Malaga" #"Málaga"
 	world = earth
 	geocoordinate = { -4.41999922832 36.72040590320 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = coal
 	terrain_type = barren_hills
+	province = granada
 	cultural_names = {
 		roman = "Malaca" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 	}

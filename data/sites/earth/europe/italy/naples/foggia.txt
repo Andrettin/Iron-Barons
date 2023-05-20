@@ -6,4 +6,5 @@ foggia = {
 	type = resource
 	resource = fish
 	terrain_type = plains
+	province = naples
 }

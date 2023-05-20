@@ -4,6 +4,7 @@ brindisi = {
 	geocoordinate = { 17.93000606150 40.64034751290 } #from Natural Earth
 	type = resource
 	resource = fish
+	province = taranto
 	cultural_names = {
 		roman = "Brundisium" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 	}

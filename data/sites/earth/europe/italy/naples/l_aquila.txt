@@ -5,6 +5,7 @@ l_aquila = {
 	type = resource
 	resource = sheep
 	terrain_type = barren_hills
+	province = naples
 	
 	history = {
 		1815 = {
