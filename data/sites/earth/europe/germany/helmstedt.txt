@@ -1,0 +1,12 @@
+helmstedt = {
+	name = "Helmstedt"
+	world = earth
+	geocoordinate = { 11.010555555556 52.228055555556 }
+	province = hanover
+	
+	history = {
+		1576 = {
+			buildings += university #University founded in Helmstadt in 1576; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
+}
