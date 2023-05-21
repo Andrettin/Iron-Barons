@@ -1,7 +1,12 @@
 buda = {
 	name = "Buda"
 	world = earth
-	#geocoordinate = { 19.05 47.466666666667 }
-	geocoordinate = { 18.93 47.466666666667 } #Budakeszi's longitude; Buda's actual location led to it being in the same tile as Pest
+	geocoordinate = { 19.05 47.466666666667 }
 	type = settlement
+	
+	history = {
+		1389 = {
+			buildings += university #University founded in Buda in 1389; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
 }
