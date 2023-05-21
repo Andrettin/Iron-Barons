@@ -4,6 +4,7 @@ gorizia = {
 	geocoordinate = { 13.6193 45.9352 }
 	type = resource
 	resource = grain
+	province = istria
 	cultural_group_names = {
 		german = "Gorz" #"Görz"
 	}
