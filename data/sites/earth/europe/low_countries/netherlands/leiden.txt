@@ -6,4 +6,10 @@ leiden = {
 	type = resource
 	resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
 	province = holland
+	
+	history = {
+		1575 = {
+			buildings += university #University founded in Leyden in 1575; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
 }
