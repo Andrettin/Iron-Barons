@@ -1,7 +1,7 @@
 tiryns = {
 	name = "Tiryns"
 	world = earth
-	geocoordinate = { 22.799722222222 37.599444444444 }
+	#geocoordinate = { 22.799722222222 37.599444444444 }
 	
 	history = {
 		-1450 = {

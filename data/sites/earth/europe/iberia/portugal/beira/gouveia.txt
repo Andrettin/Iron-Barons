@@ -1,10 +1,7 @@
 gouveia = {
 	name = "Gouveia"
 	world = earth
-	geocoordinate = { -7.6 40.5 }
-	type = resource
-	resource = sheep
-	terrain_type = barren_hills
+	#geocoordinate = { -7.6 40.5 }
 	province = beira
 	#max_tier = marquisate
 }

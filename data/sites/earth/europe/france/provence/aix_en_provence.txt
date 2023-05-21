@@ -1,7 +1,7 @@
 aix_en_provence = {
 	name = "Aix-en-Provence"
 	world = earth
-	geocoordinate = { 5.44999263370 43.51999086410 } #from Natural Earth
+	#geocoordinate = { 5.44999263370 43.51999086410 } #from Natural Earth
 	province = provence
 	
 	history = {

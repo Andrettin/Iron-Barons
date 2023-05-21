@@ -1,7 +1,7 @@
 morfe_forest = {
 	name = "Morfe Forest"
 	world = earth
-	geocoordinate = { -2.346 52.523 }
+	#geocoordinate = { -2.346 52.523 }
 	type = resource
 	terrain_type = conifer_forest
 	resource = timber

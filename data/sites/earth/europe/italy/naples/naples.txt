@@ -2,7 +2,6 @@ naples = {
 	name = "Naples"
 	world = earth
 	geocoordinate = { 14.24501135120 40.84002524730 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = settlement
 	cultural_names = {
 		greek = "Neapolis"

@@ -1,7 +1,7 @@
 amyclae = {
 	name = "Amyclae"
 	world = earth
-	geocoordinate = { 22.4502 37.0363 }
+	#geocoordinate = { 22.4502 37.0363 }
 	
 	history = {
 		-1450 = {
