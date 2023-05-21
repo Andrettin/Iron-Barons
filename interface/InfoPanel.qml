@@ -178,7 +178,7 @@ Rectangle {
 		contentHeight: contentItem.childrenRect.height
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		visible: selected_site !== null && selected_site.settlement
+		visible: selected_site !== null && selected_site.settlement && !selected_garrison
 		
 		Grid {
 			id: portrait_grid_view
