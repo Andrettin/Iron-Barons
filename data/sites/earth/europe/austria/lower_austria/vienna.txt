@@ -4,6 +4,7 @@ vienna = {
 	geocoordinate = { 16.36663895540 48.20001527820 } #from Natural Earth
 	type = settlement
 	#resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
+	terrain_type = plains
 	cultural_names = {
 		gaulish = "Vindobona"
 		roman = "Vindobona" #Source: "Ancient Warfare VII.6", 2013, p. 7.
