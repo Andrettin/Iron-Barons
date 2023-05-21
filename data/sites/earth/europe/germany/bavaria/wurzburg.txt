@@ -1,0 +1,12 @@
+wurzburg = {
+	name = "Wurzburg" #"Würzburg"
+	world = earth
+	geocoordinate = { 9.95002803411 49.80043438630 } #from Natural Earth
+	province = franconia
+	
+	history = {
+		1402 = {
+			buildings += university #University founded in Wurzburg in 1402; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

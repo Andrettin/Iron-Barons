@@ -1,0 +1,12 @@
+freiburg = {
+	name = "Freiburg"
+	world = earth
+	geocoordinate = { 7.86994828149 48.00041505850 } #from Natural Earth
+	province = baden
+	
+	history = {
+		1455 = {
+			buildings += university #University founded in Freiburg in 1455; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

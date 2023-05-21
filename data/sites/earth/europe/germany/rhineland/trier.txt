@@ -1,0 +1,16 @@
+trier = {
+	name = "Trier"
+	world = earth
+	geocoordinate = { 6.6413888888889 49.756666666667 }
+	province = rhineland
+	cultural_names = {
+		frankish = "Treveri"
+		french = "Treves" #"Trèves"
+	}
+	
+	history = {
+		1454 = {
+			buildings += university #University founded in Trier in 1454; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+		}
+	}
+}

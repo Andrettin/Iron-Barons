@@ -1,0 +1,12 @@
+jena = {
+	name = "Jena"
+	world = earth
+	geocoordinate = { 11.58000606150 50.93044293120 } #from Natural Earth
+	province = thuringia
+	
+	history = {
+		1557 = {
+			buildings += university #University founded in Jena in 1557; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
+}

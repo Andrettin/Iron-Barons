@@ -1,0 +1,12 @@
+paderborn = {
+	name = "Paderborn"
+	world = earth
+	geocoordinate = { 8.766666666666667 51.71666666666667 }
+	province = westphalia
+	
+	history = {
+		1614 = {
+			buildings += university #University founded in Paderborn in 1614; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		}
+	}
+}
