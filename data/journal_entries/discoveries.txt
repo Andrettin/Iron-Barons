@@ -22,7 +22,7 @@ discovery_of_the_amazon_river = {
 		discovered_region = amazon_basin
 	}
 	completion_effects = {
-		research += 1
+		research += 5
 	}
 }
 
@@ -44,7 +44,7 @@ discovery_of_florida = {
 		discovered_province = florida
 	}
 	completion_effects = {
-		research += 1
+		research += 5
 	}
 }
 
@@ -55,7 +55,7 @@ discovery_of_mexico = {
 		discovered_region = mexico
 	}
 	completion_effects = {
-		research += 2
+		research += 5
 	}
 }
 
@@ -66,7 +66,7 @@ discovery_of_the_mississippi_river = {
 		discovered_region = mississippi_basin
 	}
 	completion_effects = {
-		research += 1
+		research += 5
 	}
 }
 
@@ -77,7 +77,7 @@ discovery_of_the_pacific_ocean = {
 		discovered_region = pacific_ocean
 	}
 	completion_effects = {
-		research += 4
+		research += 5
 	}
 }
 
@@ -88,6 +88,6 @@ discovery_of_peru = {
 		discovered_region = peru
 	}
 	completion_effects = {
-		research += 2
+		research += 5
 	}
 }
