@@ -10,6 +10,16 @@ amsterdam = {
 			population = 100000 #Amsterdam had a population of 100,000+ in 1600; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
 		}
 		
+		1620 = {
+			buildings += newspaper #the English newspaper "Corrant out of Italy, Germany etc." was founded in Amsterdam in 1620; Source: Henry Kamen, "Early Modern European Society", 2021, p. 309.
+			
+			#French newspaper founded in Amsterdam in 1620; Source: Henry Kamen, "Early Modern European Society", 2021, p. 309.
+		}
+		
+		1649 = {
+			#Weekly gazette founded by the States General of the Dutch Republic in 1649; Source: Henry Kamen, "Early Modern European Society", 2021, p. 309.
+		}
+		
 		1815 = {
 			population = 201628 #Amsterdam had a population of 201,628 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
 		}

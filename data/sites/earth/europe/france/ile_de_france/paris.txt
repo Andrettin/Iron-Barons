@@ -23,6 +23,10 @@ paris = {
 			population = 200000 #Paris had a population of 200,000+ in 1600; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
 		}
 		
+		1631 = {
+			buildings += newspaper #the newspaper "Gazette de France" was founded in 1631; Source: Henry Kamen, "Early Modern European Society", 2021, p. 309.
+		}
+		
 		1700 = {
 			population = 500000 #Paris had a population of 500,000 in 1700; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
 		}

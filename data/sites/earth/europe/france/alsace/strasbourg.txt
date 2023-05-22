@@ -13,6 +13,10 @@ strasbourg = {
 	}
 	
 	history = {
+		1609 = {
+			buildings += newspaper #the newspaper "Relation" was founded in Strasbourg in 1609; Source: Henry Kamen, "Early Modern European Society", 2021, p. 308.
+		}
+		
 		1789 = {
 			#Bureau de finance and chambre du domaine existent in Strasbourg in 1789. Source: William R. Shepherd, Historical Atlas, 1911, p. 147.
 			#Prévôt des maréchaux existent in Strasbourg in 1789. Source: William R. Shepherd, Historical Atlas, 1911, p. 147.
