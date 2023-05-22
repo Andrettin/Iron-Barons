@@ -14,6 +14,10 @@ london = {
 			population = 60000 #London had a population of 60,000 in 1500; Source: Lawrence Stone, "As Causas da Revolução Inglesa: 1529-1642", pp. 134-135.
 		}
 		
+		1596 = {
+			buildings += college #Gresham College founded in London in 1596; Source: Henry Kamen, "Early Modern European Society", 2021, p. 294.
+		}
+		
 		1600 = {
 			population = 200000 #London had a population of 200,000+ in 1600; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
 		}
