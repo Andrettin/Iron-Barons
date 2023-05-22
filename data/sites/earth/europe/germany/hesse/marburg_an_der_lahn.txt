@@ -6,7 +6,7 @@ marburg_an_der_lahn = {
 	
 	history = {
 		1527 = {
-			buildings += university #University founded in Marburg in 1527; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+			buildings += university #University founded in Marburg in 1527; Source: Henry Kamen, "Early Modern European Society", 2021, p. 295; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
 		}
 	}
 }

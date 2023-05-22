@@ -5,8 +5,9 @@ helmstedt = {
 	province = hanover
 	
 	history = {
-		1576 = {
-			buildings += university #University founded in Helmstadt in 1576; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		1569 = {
+			buildings += university #University founded in Helmstedt in 1569; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291.
+			#The Cambridge Modern History Atlas gives the year as 1576 instead; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
 		}
 		
 		1609 = {

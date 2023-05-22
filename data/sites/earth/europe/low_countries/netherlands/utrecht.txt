@@ -4,4 +4,10 @@ utrecht = {
 	geocoordinate = { 5.12003861351 52.10034568190 } #from Natural Earth
 	type = settlement
 	#resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
+	
+	history = {
+		1636 = {
+			buildings += university #University founded in Utrecht in 1636; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291.
+		}
+	}
 }

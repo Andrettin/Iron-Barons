@@ -13,5 +13,9 @@ dublin = {
 		1312 = {
 			buildings += university #University founded in Dublin in 1312; Source: "Atlas de História Mundial", p. 144.
 		}
+		
+		1591 = {
+			#Trinity College Dublin founded in 1591; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291.
+		}
 	}
 }

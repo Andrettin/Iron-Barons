@@ -4,4 +4,10 @@ groningen = {
 	geocoordinate = { 6.58000117862 53.22040651360 } #from Natural Earth
 	type = settlement
 	#resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
+	
+	history = {
+		1614 = {
+			buildings += university #University founded in Groningen in 1614; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291.
+		}
+	}
 }

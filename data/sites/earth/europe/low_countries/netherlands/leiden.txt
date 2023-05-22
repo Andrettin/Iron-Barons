@@ -9,7 +9,7 @@ leiden = {
 	
 	history = {
 		1575 = {
-			buildings += university #University founded in Leyden in 1575; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+			buildings += university #University founded in Leiden in 1575; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
 		}
 	}
 }

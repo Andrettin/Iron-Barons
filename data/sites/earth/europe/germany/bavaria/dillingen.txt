@@ -5,8 +5,9 @@ dillingen = {
 	province = augsburg
 	
 	history = {
-		1549 = {
-			buildings += university #University founded in Dillingen in 1549; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+		1554 = {
+			buildings += university #University founded in Dillingen in 1554; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291.
+			#The Cambridge Modern History Atlas gives the year as 1549 instead; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
 		}
 	}
 }

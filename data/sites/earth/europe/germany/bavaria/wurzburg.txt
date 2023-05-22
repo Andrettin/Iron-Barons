@@ -8,5 +8,9 @@ wurzburg = {
 		1402 = {
 			buildings += university #University founded in Wurzburg in 1402; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 		}
+		
+		1582 = {
+			#University founded in Würzburg in 1582; Source: Henry Kamen, "Early Modern European Society", 2021, pp. 291-292.
+		}
 	}
 }
