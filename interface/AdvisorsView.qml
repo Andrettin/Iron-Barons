@@ -24,7 +24,7 @@ Item {
 	PortraitGridItem {
 		id: ruler_portrait
 		anchors.top: top_bar.bottom
-		anchors.topMargin: 8 * scale_factor
+		anchors.topMargin: portrait_grid.spacing
 		anchors.horizontalCenter: portrait_grid_view_background.horizontalCenter
 		portrait_identifier: ruler ? ruler.game_data.portrait.identifier : ""
 		visible: ruler !== null
@@ -48,14 +48,15 @@ Item {
 	Grid {
 		id: portrait_grid
 		anchors.top: ruler_portrait.visible ? ruler_portrait.bottom : top_bar.bottom
-		anchors.topMargin: ruler_portrait.visible ? spacing : 8 * scale_factor
+		anchors.topMargin: spacing
 		anchors.bottom: status_bar.top
 		anchors.horizontalCenter: portrait_grid_view_background.horizontalCenter
 		width: columns * (portrait_width + spacing) - spacing
-		columns: Math.floor(portrait_grid_view_background.width / (portrait_width + spacing))
-		spacing: 16 * scale_factor
+		columns: Math.floor((portrait_grid_view_background.width - min_spacing) / (portrait_width + min_spacing))
+		spacing: Math.max(min_spacing, Math.floor((portrait_grid_view_background.width - columns * portrait_width) / (columns + 1)))
 		
 		readonly property int portrait_width: 64 * scale_factor + 2 * scale_factor
+		readonly property int min_spacing: 16 * scale_factor
 		
 		Repeater {
 			model: country_game_data.advisors
