@@ -35,6 +35,8 @@ Item {
 		
 		delegate: PortraitGridItem {
 			portrait_identifier: building ? building.portrait.identifier : "building_slot"
+			width: portrait_grid_view.cellWidth
+			height: portrait_grid_view.cellHeight
 			
 			readonly property var building_slot: model.modelData
 			readonly property var building: building_slot.building

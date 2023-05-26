@@ -7,6 +7,7 @@ Item {
 	
 	property var country: null
 	readonly property var country_game_data: country ? country.game_data : null
+	readonly property var ruler: country_game_data ? country_game_data.ruler : null
 	property var new_advisor: null
 	property string status_text: ""
 	property string middle_status_text: ""
@@ -17,9 +18,34 @@ Item {
 		color: "black"
 	}
 	
+	PortraitGridItem {
+		id: ruler_portrait
+		anchors.top: top_bar.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: portrait_grid_view_background.horizontalCenter
+		portrait_identifier: ruler ? ruler.game_data.portrait.identifier : ""
+		visible: ruler !== null
+		
+		onClicked: {
+			character_dialog.title = ruler.full_name
+			character_dialog.modifier_string = ruler.ruler_modifier_string
+			character_dialog.description = ruler.description
+			character_dialog.open()
+		}
+		
+		onEntered: {
+			status_text = ruler.full_name
+		}
+		
+		onExited: {
+			status_text = ""
+		}
+	}
+	
 	GridView {
 		id: portrait_grid_view
-		anchors.top: top_bar.bottom
+		anchors.top: ruler_portrait.visible ? ruler_portrait.bottom : top_bar.bottom
+		anchors.topMargin: ruler_portrait.visible ? 8 * scale_factor : 0
 		anchors.bottom: status_bar.top
 		anchors.left: infopanel.right
 		anchors.right: right_bar.left
@@ -35,14 +61,16 @@ Item {
 		
 		delegate: PortraitGridItem {
 			portrait_identifier: advisor.game_data.portrait.identifier
+			width: portrait_grid_view.cellWidth
+			height: portrait_grid_view.cellHeight
 			
 			readonly property var advisor: model.modelData
 			
 			onClicked: {
-				advisor_dialog.title = advisor.full_name
-				advisor_dialog.modifier_string = advisor.advisor_modifier_string
-				advisor_dialog.description = advisor.description
-				advisor_dialog.open()
+				character_dialog.title = advisor.full_name
+				character_dialog.modifier_string = advisor.advisor_modifier_string
+				character_dialog.description = advisor.description
+				character_dialog.open()
 			}
 			
 			onEntered: {
@@ -133,6 +161,6 @@ Item {
 	}
 	
 	ModifierDialog {
-		id: advisor_dialog
+		id: character_dialog
 	}
 }

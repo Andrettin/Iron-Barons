@@ -3,8 +3,8 @@ import QtQuick.Controls 2.12
 
 Item {
 	id: portrait_grid_item
-	width: portrait_grid_view.cellWidth ? portrait_grid_view.cellWidth : portrait_rectangle.width
-	height: portrait_grid_view.cellHeight ? portrait_grid_view.cellHeight : portrait_rectangle.height
+	width: portrait_rectangle.width
+	height: portrait_rectangle.height
 	ToolTip.text: tooltip
 	ToolTip.visible: portrait_mouse_area.containsMouse && tooltip.length > 0
 	ToolTip.delay: 1000
@@ -15,9 +15,6 @@ Item {
 	signal clicked()
 	signal entered()
 	signal exited()
-	
-	readonly property var building_slot: model.modelData
-	readonly property var building: building_slot.building
 	
 	Rectangle {
 		id: portrait_rectangle
@@ -32,7 +29,7 @@ Item {
 			id: portrait
 			anchors.horizontalCenter: parent.horizontalCenter
 			anchors.verticalCenter: parent.verticalCenter
-			source: "image://portrait/" + portrait_identifier
+			source: portrait_identifier.length > 0 ? ("image://portrait/" + portrait_identifier) : "image://empty/"
 		}
 		
 		MouseArea {

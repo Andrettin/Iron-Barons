@@ -181,7 +181,7 @@ Rectangle {
 		visible: selected_site !== null && selected_site.settlement && !selected_garrison
 		
 		Grid {
-			id: portrait_grid_view
+			id: portrait_grid
 			anchors.horizontalCenter: parent.horizontalCenter
 			columns: 2
 			spacing: 16 * scale_factor
