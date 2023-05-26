@@ -1,0 +1,17 @@
+industrious = {
+	name = "Industrious"
+	type = personality
+	icon = cog
+	ruler_modifier = {
+		throughput_modifier = 10
+	}
+}
+
+libertarian = {
+	name = "Libertarian"
+	type = background
+	icon = courthouse
+	ruler_modifier = {
+		civics_output_modifier = 25
+	}
+}

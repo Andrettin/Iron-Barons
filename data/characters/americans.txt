@@ -1,3 +1,21 @@
+john_adams = {
+	name = "John"
+	surname = "Adams"
+	culture = english
+	religion = protestant
+	portrait = metternich
+	home_province = massachusetts
+	gender = male
+	birth_date = 1735
+	death_date = 1826
+	rulable_countries = {
+		united_states
+	}
+	traits = {
+		libertarian
+	}
+}
+
 thomas_jefferson = {
 	name = "Thomas"
 	surname = "Jefferson"
