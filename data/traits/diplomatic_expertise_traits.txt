@@ -1,8 +1,7 @@
 diplomat = {
 	name = "Diplomat"
-	type = expertise
+	type = background
 	icon = treaty
-	level = 1
 	conditions = {
 		advisor_type = diplomat
 		not = {
@@ -14,9 +13,8 @@ diplomat = {
 
 experienced_diplomat = {
 	name = "Experienced Diplomat"
-	type = expertise
+	type = background
 	icon = treaty
-	level = 2
 	conditions = {
 		advisor_type = diplomat
 		not = {
@@ -28,9 +26,8 @@ experienced_diplomat = {
 
 masterful_diplomat = {
 	name = "Masterful Diplomat"
-	type = expertise
+	type = background
 	icon = treaty
-	level = 3
 	conditions = {
 		advisor_type = diplomat
 		not = {
@@ -42,9 +39,8 @@ masterful_diplomat = {
 
 negotiator = {
 	name = "Negotiator"
-	type = expertise
+	type = background
 	icon = treaty
-	level = 1
 	conditions = {
 		or = {
 			advisor_type = banker
@@ -61,9 +57,8 @@ negotiator = {
 
 charismatic_negotiator = {
 	name = "Charismatic Negotiator"
-	type = expertise
+	type = background
 	icon = treaty
-	level = 2
 	conditions = {
 		or = {
 			advisor_type = banker
@@ -80,9 +75,8 @@ charismatic_negotiator = {
 
 persuasive = {
 	name = "Persuasive"
-	type = expertise
+	type = background
 	icon = treaty
-	level = 1
 	conditions = {
 		or = {
 			advisor_type = diplomat

@@ -1,8 +1,7 @@
 investigator = {
 	name = "Investigator"
-	type = expertise
+	type = background
 	icon = treaty
-	level = 1
 	conditions = {
 		or = {
 			advisor_type = inquisitor
@@ -13,9 +12,8 @@ investigator = {
 
 stealthy = {
 	name = "Stealthy"
-	type = expertise
+	type = background
 	icon = dagger
-	level = 1
 	conditions = {
 		advisor_type = spymaster
 	}
@@ -23,9 +21,8 @@ stealthy = {
 
 thug = {
 	name = "Thug"
-	type = expertise
+	type = background
 	icon = dagger
-	level = 1
 	conditions = {
 		or = {
 			advisor_type = privateer

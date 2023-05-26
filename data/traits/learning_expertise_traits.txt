@@ -1,8 +1,7 @@
 aspiring_poet = {
 	name = "Aspiring Poet"
-	type = expertise
+	type = background
 	icon = music
-	level = 1
 	conditions = {
 		advisor_type = artist
 		not = {
@@ -13,9 +12,8 @@ aspiring_poet = {
 
 poet = {
 	name = "Poet"
-	type = expertise
+	type = background
 	icon = music
-	level = 2
 	conditions = {
 		advisor_type = artist
 		not = {
@@ -24,24 +22,10 @@ poet = {
 	}
 }
 
-scholar = {
-	name = "Scholar"
-	type = expertise
-	icon = book
-	level = 1
-	conditions = {
-		or = {
-			advisor_type = natural_scientist
-			advisor_type = philosopher
-		}
-	}
-}
-
 theologian = {
 	name = "Theologian"
-	type = expertise
+	type = background
 	icon = wooden_cross
-	level = 1
 	conditions = {
 		advisor_type = theologian
 		not = {
@@ -53,9 +37,8 @@ theologian = {
 
 scholarly_theologian = {
 	name = "Scholarly Theologian"
-	type = expertise
+	type = background
 	icon = silver_cross
-	level = 2
 	conditions = {
 		advisor_type = theologian
 		not = {
@@ -67,9 +50,8 @@ scholarly_theologian = {
 
 mastermind_theologian = {
 	name = "Mastermind Theologian"
-	type = expertise
+	type = background
 	icon = golden_cross
-	level = 3
 	conditions = {
 		advisor_type = theologian
 		not = {

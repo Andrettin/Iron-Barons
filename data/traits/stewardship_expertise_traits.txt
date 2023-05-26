@@ -1,8 +1,7 @@
 administrator = {
 	name = "Administrator"
-	type = expertise
+	type = background
 	icon = chest
-	level = 1
 	conditions = {
 		or = {
 			advisor_type = banker
@@ -17,9 +16,8 @@ administrator = {
 
 gifted_administrator = {
 	name = "Gifted Administrator"
-	type = expertise
+	type = background
 	icon = chest
-	level = 2
 	conditions = {
 		or = {
 			advisor_type = banker
@@ -34,9 +32,8 @@ gifted_administrator = {
 
 gardener = {
 	name = "Gardener"
-	type = expertise
+	type = background
 	icon = architecture
-	level = 1
 	conditions = {
 		or = {
 			advisor_type = banker
@@ -48,9 +45,8 @@ gardener = {
 
 silver_palm = {
 	name = "Silver Palm"
-	type = expertise
+	type = background
 	icon = chest
-	level = 1
 	conditions = {
 		or = {
 			advisor_type = banker
@@ -62,9 +58,8 @@ silver_palm = {
 
 aspiring_trader = {
 	name = "Aspiring Trader"
-	type = expertise
+	type = background
 	icon = chest
-	level = 1
 	conditions = {
 		advisor_type = merchant
 		not = {
@@ -75,9 +70,8 @@ aspiring_trader = {
 
 trader = {
 	name = "Trader"
-	type = expertise
+	type = background
 	icon = chest
-	level = 2
 	conditions = {
 		advisor_type = merchant
 		not = {
