@@ -14,7 +14,10 @@ Item {
 	
 	Rectangle {
 		id: portrait_grid_view_background
-		anchors.fill: portrait_grid_view
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: infopanel.right
+		anchors.right: right_bar.left
 		color: "black"
 	}
 	
@@ -42,89 +45,86 @@ Item {
 		}
 	}
 	
-	GridView {
-		id: portrait_grid_view
+	Grid {
+		id: portrait_grid
 		anchors.top: ruler_portrait.visible ? ruler_portrait.bottom : top_bar.bottom
-		anchors.topMargin: ruler_portrait.visible ? 8 * scale_factor : 0
+		anchors.topMargin: ruler_portrait.visible ? spacing : 8 * scale_factor
 		anchors.bottom: status_bar.top
-		anchors.left: infopanel.right
-		anchors.right: right_bar.left
-		leftMargin: 0
-		rightMargin: 0
-		topMargin: 0
-		bottomMargin: 0
-		cellWidth: 80 * scale_factor
-		cellHeight: 80 * scale_factor
-		boundsBehavior: Flickable.StopAtBounds
-		clip: true
-		model: country_game_data.advisors
+		anchors.horizontalCenter: portrait_grid_view_background.horizontalCenter
+		width: columns * (portrait_width + spacing) - spacing
+		columns: Math.floor(portrait_grid_view_background.width / (portrait_width + spacing))
+		spacing: 16 * scale_factor
 		
-		delegate: PortraitGridItem {
-			portrait_identifier: advisor.game_data.portrait.identifier
-			width: portrait_grid_view.cellWidth
-			height: portrait_grid_view.cellHeight
+		readonly property int portrait_width: 64 * scale_factor + 2 * scale_factor
+		
+		Repeater {
+			model: country_game_data.advisors
 			
-			readonly property var advisor: model.modelData
-			
-			onClicked: {
-				character_dialog.title = advisor.full_name
-				character_dialog.modifier_string = advisor.advisor_modifier_string
-				character_dialog.description = advisor.description
-				character_dialog.open()
-			}
-			
-			onEntered: {
-				status_text = advisor.full_name
-			}
-			
-			onExited: {
-				status_text = ""
-			}
-			
-			Grid {
-				id: new_advisor_cover
-				anchors.horizontalCenter: parent.horizontalCenter
-				anchors.verticalCenter: parent.verticalCenter
-				width: 64 * scale_factor
-				height: 64 * scale_factor
-				columns: 64 * scale_factor
-				rows: 64 * scale_factor
-				visible: advisor === new_advisor
+			PortraitGridItem {
+				portrait_identifier: advisor.game_data.portrait.identifier
 				
-				property var cover_pixels: []
+				readonly property var advisor: model.modelData
 				
-				Repeater {
-					model: (advisor === new_advisor) ? (new_advisor_cover.width * new_advisor_cover.height) : 0
-					
-					Rectangle {
-						color: "black"
-						width: 1
-						height: 1
-						
-						Component.onCompleted: {
-							new_advisor_cover.cover_pixels.push(this)
-						}
-					}
+				onClicked: {
+					character_dialog.title = advisor.full_name
+					character_dialog.modifier_string = advisor.advisor_modifier_string
+					character_dialog.description = advisor.description
+					character_dialog.open()
 				}
 				
-				Timer {
-					id: new_advisor_timer
-					running: new_advisor_cover.visible
-					repeat: true
-					interval: 1
-					onTriggered: {
-						var pixel_change_count = Math.floor(2 * scale_factor * scale_factor)
-						for (var i = 0; i < pixel_change_count; i++) {
-							if (new_advisor_cover.cover_pixels.length === 0) {
-								running = false
-								repeat = false
-								return
-							}
+				onEntered: {
+					status_text = advisor.full_name
+				}
+				
+				onExited: {
+					status_text = ""
+				}
+				
+				Grid {
+					id: new_advisor_cover
+					anchors.horizontalCenter: parent.horizontalCenter
+					anchors.verticalCenter: parent.verticalCenter
+					width: 64 * scale_factor
+					height: 64 * scale_factor
+					columns: 64 * scale_factor
+					rows: 64 * scale_factor
+					visible: advisor === new_advisor
+					
+					property var cover_pixels: []
+					
+					Repeater {
+						model: (advisor === new_advisor) ? (new_advisor_cover.width * new_advisor_cover.height) : 0
+						
+						Rectangle {
+							color: "black"
+							width: 1
+							height: 1
 							
-							var pixel_index = random(new_advisor_cover.cover_pixels.length)
-							var pixel_item = new_advisor_cover.cover_pixels[pixel_index]
-							pixel_item.color = "transparent"
-							new_advisor_cover.cover_pixels.splice(pixel_index, 1)
+							Component.onCompleted: {
+								new_advisor_cover.cover_pixels.push(this)
+							}
+						}
+					}
+					
+					Timer {
+						id: new_advisor_timer
+						running: new_advisor_cover.visible
+						repeat: true
+						interval: 1
+						onTriggered: {
+							var pixel_change_count = Math.floor(2 * scale_factor * scale_factor)
+							for (var i = 0; i < pixel_change_count; i++) {
+								if (new_advisor_cover.cover_pixels.length === 0) {
+									running = false
+									repeat = false
+									return
+								}
+								
+								var pixel_index = random(new_advisor_cover.cover_pixels.length)
+								var pixel_item = new_advisor_cover.cover_pixels[pixel_index]
+								pixel_item.color = "transparent"
+								new_advisor_cover.cover_pixels.splice(pixel_index, 1)
+							}
 						}
 					}
 				}
