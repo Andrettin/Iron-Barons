@@ -1,3 +1,11 @@
 fluyte = {
 	filepath = "icons/units/ships/fluyte.png"
 }
+
+indiaman = {
+	filepath = "icons/units/ships/indiaman.png"
+}
+
+paddlewheeler = {
+	filepath = "icons/units/ships/paddlewheeler.png"
+}
