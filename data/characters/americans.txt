@@ -1,3 +1,22 @@
+george_washington = {
+	name = "George"
+	surname = "Washington"
+	culture = english
+	religion = protestant
+	portrait = metternich
+	home_province = virginia
+	gender = male
+	birth_date = 1732
+	death_date = 1799
+	obsolescence_technology = individualism
+	rulable_countries = {
+		united_states
+	}
+	traits = {
+		disciplined
+	}
+}
+
 john_adams = {
 	name = "John"
 	surname = "Adams"
@@ -8,6 +27,7 @@ john_adams = {
 	gender = male
 	birth_date = 1735
 	death_date = 1826
+	required_technology = constitutionalism
 	rulable_countries = {
 		united_states
 	}
