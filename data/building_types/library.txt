@@ -1,0 +1,10 @@
+library = {
+	name = "Library"
+	building_class = library
+	portrait = university
+	icon = book
+	provincial = true
+	country_modifier = {
+		research_output_modifier = 50
+	}
+}
