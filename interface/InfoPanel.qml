@@ -204,9 +204,9 @@ Rectangle {
 					}
 					
 					onClicked: {
-						if (building !== null && building.country_modifier_string.length > 0) {
+						if (building !== null && building_slot.country_modifier_string.length > 0) {
 							modifier_dialog.title = building.name
-							modifier_dialog.modifier_string = building.country_modifier_string
+							modifier_dialog.modifier_string = building_slot.country_modifier_string
 							modifier_dialog.open()
 						}
 					}
