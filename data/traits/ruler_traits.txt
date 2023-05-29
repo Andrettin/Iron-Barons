@@ -24,3 +24,12 @@ libertarian = {
 		civics_output_modifier = 25
 	}
 }
+
+narrow_minded = {
+	name = "Narrow-Minded"
+	type = background
+	icon = cattle
+	ruler_modifier = {
+		research_output_modifier = -10
+	}
+}
