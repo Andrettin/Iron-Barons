@@ -42,3 +42,12 @@ scholar = {
 		research_output_modifier = 5
 	}
 }
+
+well_connected = {
+	name = "Well-Connected"
+	type = personality
+	icon = music
+	ruler_modifier = {
+		advisor_cost_modifier = -20
+	}
+}
