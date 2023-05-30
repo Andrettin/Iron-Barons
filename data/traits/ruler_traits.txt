@@ -33,3 +33,12 @@ narrow_minded = {
 		research_output_modifier = -10
 	}
 }
+
+scholar = {
+	name = "Scholar"
+	type = background
+	icon = university
+	ruler_modifier = {
+		research_output_modifier = 5
+	}
+}
