@@ -43,6 +43,15 @@ scholar = {
 	}
 }
 
+strict = {
+	name = "Strict"
+	type = personality
+	icon = saber
+	ruler_modifier = {
+		land_damage_modifier = 5
+	}
+}
+
 well_connected = {
 	name = "Well-Connected"
 	type = personality
