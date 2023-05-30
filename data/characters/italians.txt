@@ -14,6 +14,7 @@ amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 
 pope_paul_iii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 210.
 	name = "Paul"
+	epithet = "II"
 	culture = italian
 	religion = catholic
 	home_province = latium

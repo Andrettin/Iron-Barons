@@ -1,5 +1,6 @@
 ferdinand_i_of_the_two_sicilies = { #King Ferdinand I (IV) of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 27.
 	name = "Ferdinando"
+	epithet = "I"
 	dynasty = bourbon
 	culture = italian
 	religion = catholic

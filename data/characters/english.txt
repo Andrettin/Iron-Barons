@@ -1,5 +1,6 @@
 henry_viii_of_england = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 207-209.
 	name = "Henry"
+	epithet = "VIII"
 	culture = english
 	religion = protestant
 	home_province = middlesex

@@ -1,5 +1,6 @@
 sargon_ii_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
 	name = "Sargon"
+	epithet = "II"
 	culture = assyrian
 	religion = pagan
 	home_province = assyria

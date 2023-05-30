@@ -1,5 +1,6 @@
 montezuma_ii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 202.
 	name = "Montezuma"
+	epithet = "II"
 	culture = aztec
 	religion = pagan
 	home_province = mexico
