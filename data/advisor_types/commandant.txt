@@ -1,0 +1,8 @@
+commandant = {
+	name = "Commandant"
+	category = military
+	portrait = soldier
+	modifier = {
+		land_damage_modifier = 2
+	}
+}
