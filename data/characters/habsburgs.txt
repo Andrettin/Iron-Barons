@@ -52,6 +52,12 @@ friedrich_iii_of_the_holy_roman_empire = { #Source: Eva Demmerle, "Das Haus Habs
 	mother = cymburgis_of_masovia #Cymburgis of Masovia; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
 	birth_date = 1415.9.21 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 47, 245.
 	death_date = 1493 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	rulable_countries = {
+		austria
+	}
+	traits = {
+		careful
+	}
 	
 	history = {
 		1459 = { #married Leonor of Portugal, and had his son Maximilian with her in 1459; Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 245-246.
