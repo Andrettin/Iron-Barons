@@ -1,7 +1,6 @@
 theologian = {
 	name = "Theologian"
 	category = religious
-	portrait = frankish_cleric
 	modifier = {
 		#quarterly_piety = 0.5
 	}

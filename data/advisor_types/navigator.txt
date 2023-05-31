@@ -1,5 +1,4 @@
 navigator = {
 	name = "Navigator"
 	category = exploration
-	portrait = sailor
 }

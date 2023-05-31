@@ -1,7 +1,6 @@
 treasurer = {
 	name = "Treasurer"
 	category = trade
-	portrait = jakob_fugger
 	modifier = {
 		finance_research_modifier = 5
 	}

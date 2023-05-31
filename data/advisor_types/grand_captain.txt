@@ -1,7 +1,6 @@
 grand_captain = {
 	name = "Grand Captain"
 	category = military
-	portrait = soldier
 	modifier = {
 		land_morale_resistance = 5
 	}

@@ -1,5 +1,4 @@
 privateer = {
 	name = "Privateer"
 	category = military
-	portrait = sailor
 }

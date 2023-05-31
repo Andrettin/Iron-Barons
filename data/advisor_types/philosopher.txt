@@ -1,7 +1,6 @@
 philosopher = {
 	name = "Philosopher"
 	category = political #not very fitting
-	portrait = scholar
 	modifier = {
 		research_output_modifier = 3
 	}

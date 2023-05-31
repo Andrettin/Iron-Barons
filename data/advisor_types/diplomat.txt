@@ -1,13 +1,4 @@
 diplomat = {
 	name = "Diplomat"
 	category = political
-	portrait = metternich
-	conditional_portraits = {
-		metternich = {
-			gender = male
-		}
-		wilhelmine_von_sagan = {
-			gender = female
-		}
-	}
 }

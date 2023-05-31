@@ -1,5 +1,4 @@
 banker = {
 	name = "Banker"
 	category = trade
-	portrait = jakob_fugger
 }

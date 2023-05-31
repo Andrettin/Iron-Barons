@@ -1,15 +1,6 @@
 statesman = {
 	name = "Statesman"
 	category = political
-	portrait = metternich
-	conditional_portraits = {
-		metternich = {
-			gender = male
-		}
-		wilhelmine_von_sagan = {
-			gender = female
-		}
-	}
 	modifier = {
 		civics_output_modifier = 5
 	}

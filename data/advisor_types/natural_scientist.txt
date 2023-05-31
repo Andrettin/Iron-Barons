@@ -1,7 +1,6 @@
 natural_scientist = {
 	name = "Natural Scientist"
 	category = trade
-	portrait = alchemist
 	modifier = {
 		gathering_research_modifier = 5
 		industry_research_modifier = 5
