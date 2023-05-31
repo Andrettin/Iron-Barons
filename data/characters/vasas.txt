@@ -8,5 +8,10 @@ gustav_i_of_sweden = { #Source: Isaac Asimov, "Cronologia das Ciências e das De
 	gender = male
 	birth_date = 1496
 	death_date = 1560
-	#became king of Sweden in 1523
+	rulable_countries = {
+		sweden
+	}
+	traits = {
+		industrious
+	}
 }
