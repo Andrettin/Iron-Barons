@@ -168,13 +168,18 @@ Window {
 		return season_str + ", " + year_str
 	}
 	
-	function date_year_string(date) {
+	function date_year(date) {
 		var year = date.getUTCFullYear()
 		
 		if (year < 0) {
-			year = year - 1 //-1 is needed, as otherwise negative dates are off by one
+			year -= 1 //-1 is needed, as otherwise negative dates are off by one
 		}
 		
+		return year
+	}
+	
+	function date_year_string(date) {
+		var year = date_year(date)
 		return year_string(year)
 	}
 	
@@ -194,6 +199,14 @@ Window {
 		}
 		
 		return year_str + year_suffix
+	}
+	
+	function date_year_range_string(date1, date2) {
+		return year_range_string(date_year(date1), date_year(date2))
+	}
+	
+	function year_range_string(year1, year2) {
+		return Math.abs(year1) + "-" + year_string(year2)
 	}
 	
 	function date_season_string(date) {
