@@ -1,3 +1,13 @@
+viridis_visconti = { #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	name = "Viridis"
+	dynasty = visconti
+	culture = italian
+	religion = catholic
+	home_province = lombardy #correct?
+	gender = female
+	start_date = 1377 #married Leopold III of Austria, and had her son Ernst with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+}
+
 amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.
 	name = "Amerigo"
 	surname = "Vespucci"

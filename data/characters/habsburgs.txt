@@ -1,3 +1,65 @@
+leopold_iii_of_austria = { #Leopold III of Austria; Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 244-245.
+	name = "Leopold"
+	epithet = "III"
+	dynasty = habsburg
+	culture = austrian
+	religion = catholic
+	home_province = lower_austria
+	gender = male
+	#father = albrecht_ii_the_wise_of_austria #Albrecht II 'the Wise' of Austria; Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 244-245.
+	#mother = johanna_von_pfirt #Johanna von Pfirt; Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 244-245.
+	birth_date = 1351 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	death_date = 1386 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	
+	history = {
+		1377 = { #married Viridis Visconti, and had his son Ernst with her in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+			#spouse = viridis_visconti #Viridis Visconti
+		}
+	}
+}
+
+ernst_the_iron_of_austria = { #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	name = "Ernst"
+	epithet = "the Iron"
+	dynasty = habsburg
+	culture = austrian
+	religion = catholic
+	home_province = lower_austria
+	gender = male
+	father = leopold_iii_of_austria #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	mother = viridis_visconti #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	birth_date = 1377 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	death_date = 1424 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	
+	history = {
+		#married Margarete von Pommern; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+		
+		1415 = { #married a second time to Cymburgis of Masovia, and had his son Friedrich with her in 1415; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+			#spouse = cymburgis_of_masovia #Cymburgis of Masovia
+		}
+	}
+}
+
+friedrich_iii_of_the_holy_roman_empire = { #Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 245-246.
+	name = "Friedrich"
+	epithet = "III"
+	dynasty = habsburg
+	culture = austrian
+	religion = catholic
+	home_province = lower_austria
+	gender = male
+	father = ernst_the_iron_of_austria #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	mother = cymburgis_of_masovia #Cymburgis of Masovia; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	birth_date = 1415.9.21 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 47, 245.
+	death_date = 1493 #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	
+	history = {
+		1459 = { #married Leonor of Portugal, and had his son Maximilian with her in 1459; Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 245-246.
+			#spouse = 10000407 #Leonor of Portugal
+		}
+	}
+}
+
 karl_vi_of_the_holy_roman_empire = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 	name = "Karl"
 	epithet = "VI"
