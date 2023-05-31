@@ -1,3 +1,12 @@
+careful = {
+	name = "Careful"
+	type = personality
+	icon = treaty
+	ruler_modifier = {
+		diplomatic_penalty_for_expansion_modifier = -10
+	}
+}
+
 disciplined = {
 	name = "Disciplined"
 	type = personality
