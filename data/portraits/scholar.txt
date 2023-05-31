@@ -1,3 +1,11 @@
 scholar = {
 	filepath = "portraits/characters/scholar.png"
+	character_conditions = {
+		gender = male
+		or = {
+			advisor_type = artist
+			advisor_type = high_judge
+			advisor_type = philosopher
+		}
+	}
 }

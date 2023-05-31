@@ -1,7 +1,19 @@
 metternich = {
 	filepath = "portraits/characters/metternich.png"
+	character_conditions = {
+		gender = male
+		or = {
+			advisor_type = diplomat
+			advisor_type = statesman
+			advisor_type = spymaster
+			is_ruler = true
+		}
+	}
 }
 
 wilhelmine_von_sagan = {
 	filepath = "portraits/characters/wilhelmine_von_sagan.png"
+	character_conditions = {
+		gender = female
+	}
 }

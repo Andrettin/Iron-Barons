@@ -1,3 +1,7 @@
 alchemist = {
 	filepath = "portraits/characters/alchemist.png"
+	character_conditions = {
+		gender = male
+		advisor_type = natural_scientist
+	}
 }

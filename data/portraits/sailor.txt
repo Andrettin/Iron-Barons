@@ -1,3 +1,12 @@
 sailor = {
 	filepath = "portraits/characters/sailor.png"
+	character_conditions = {
+		gender = male
+		or = {
+			advisor_type = grand_admiral
+			advisor_type = naval_reformer
+			advisor_type = navigator
+			advisor_type = privateer
+		}
+	}
 }

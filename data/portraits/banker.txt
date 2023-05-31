@@ -1,3 +1,11 @@
 jakob_fugger = {
 	filepath = "portraits/characters/jakob_fugger.png"
+	character_conditions = {
+		gender = male
+		or = {
+			advisor_type = banker
+			advisor_type = merchant
+			advisor_type = treasurer
+		}
+	}
 }
