@@ -20,8 +20,4 @@ nicolaus_copernicus = { #Source: Isaac Asimov, "Cronologia das Ciências e das D
 	death_date = 1543
 	required_technology = heliocentric_model
 	skill = 5
-	
-	history = {
-		country = austria
-	}
 }
