@@ -1,3 +1,6 @@
+green_text_color = { 0 159 3 }
+red_text_color = { 255 50 50 }
+
 tile_size = { 64 64 }
 months_per_turn = 3
 default_start_date = 1815.11.20
