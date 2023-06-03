@@ -90,6 +90,7 @@ Window {
 		var font_color_str = "<font color=\"" + color + "\">"
 		
 		text = text.replace(/<font color=\"gold\">/g, font_color_str)
+		text = text.replace(/(?:<font color=\"#)(.{6})(?:\">)/g, font_color_str)
 		return font_color_str + text + "</font>"
 	}
 	
