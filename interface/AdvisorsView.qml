@@ -30,9 +30,8 @@ Item {
 		visible: ruler !== null
 		
 		onClicked: {
-			character_dialog.title = ruler.full_name
+			character_dialog.character = ruler
 			character_dialog.modifier_string = ruler.ruler_modifier_string
-			character_dialog.description = ruler.description
 			character_dialog.open()
 		}
 		
@@ -67,9 +66,8 @@ Item {
 				readonly property var advisor: model.modelData
 				
 				onClicked: {
-					character_dialog.title = advisor.full_name
+					character_dialog.character = advisor
 					character_dialog.modifier_string = advisor.advisor_modifier_string
-					character_dialog.description = advisor.description
 					character_dialog.open()
 				}
 				
@@ -161,7 +159,7 @@ Item {
 		anchors.right: right_bar.left
 	}
 	
-	ModifierDialog {
+	CharacterDialog {
 		id: character_dialog
 	}
 }
