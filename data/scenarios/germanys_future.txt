@@ -3,6 +3,7 @@ germanys_future = {
 	start_date = 1918
 	timeline = germanys_future
 	map_template = earth
+	hidden = true
 	default_countries = {
 		germany
 	}
