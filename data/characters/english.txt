@@ -1,4 +1,4 @@
-henry_viii_of_england = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 207-209.
+henry_viii_of_england = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 207-209, 211.
 	name = "Henry"
 	epithet = "VIII"
 	culture = english
@@ -14,6 +14,7 @@ henry_viii_of_england = { #Source: Isaac Asimov, "Cronologia das Ciências e das
 	#executed Anne Boleyn in 1536 and subsequently married Jane Seymour
 	#married Anne of Cleves and divorced her in 1540, subsequently marrying Catherine Howard
 	#had Catherine Howard executed in 1542 for committing adultery
+	#married Catherine Parr in 1543
 }
 
 anne_boleyn = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
@@ -38,6 +39,17 @@ jane_seymour = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descober
 	birth_date = 1509
 	start_date = 1536 #marriage?
 	death_date = 1537
+}
+
+catherine_parr = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 211.
+	name = "Catherine"
+	surname = "Parr"
+	culture = english
+	religion = protestant
+	home_province = middlesex
+	gender = female
+	birth_date = 1512
+	death_date = 1548
 }
 
 catherine_howard = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 209.
