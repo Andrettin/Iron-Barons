@@ -1,0 +1,13 @@
+honshu = {
+	name = "Honshu"
+	color = { 139 215 107 }
+	capital_settlement = tokyo
+	regions = {
+		japan
+	}
+	
+	history = {
+		culture = japanese
+		religion = pagan
+	}
+}

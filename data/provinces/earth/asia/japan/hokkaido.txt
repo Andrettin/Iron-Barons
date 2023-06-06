@@ -1,0 +1,13 @@
+hokkaido = {
+	name = "Hokkaido"
+	color = { 69 196 85 }
+	capital_settlement = sapporo
+	regions = {
+		japan
+	}
+	
+	history = {
+		culture = japanese
+		religion = pagan
+	}
+}
