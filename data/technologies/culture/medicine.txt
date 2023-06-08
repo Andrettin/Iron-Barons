@@ -20,6 +20,6 @@ surgery = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas",
 		university
 	}
 	modifier = {
-		research_output_modifier = 5
+		land_recovery_modifier = 5
 	}
 }
