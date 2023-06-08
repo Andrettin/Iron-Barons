@@ -9,3 +9,7 @@ indiaman = {
 paddlewheeler = {
 	filepath = "icons/units/ships/paddlewheeler.png"
 }
+
+freighter = {
+	filepath = "icons/units/ships/freighter.png"
+}
