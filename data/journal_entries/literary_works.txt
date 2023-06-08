@@ -1,9 +1,11 @@
 de_corporis_humani_fabrica = {
 	name = "De Corporis Humani Fabrica"
 	portrait = engineering
-	completion_conditions = {
-		advisor = andreas_vesalius
-		technology = anatomy
+	recruited_advisors = {
+		andreas_vesalius
+	}
+	researched_technologies = {
+		anatomy
 	}
 	completion_effects = {
 		research += 1
