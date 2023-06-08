@@ -1,0 +1,4 @@
+bronze = {
+	name = "Bronze"
+	icon = bronze
+}

@@ -1,0 +1,4 @@
+tin = {
+	name = "Tin"
+	icon = tin
+}

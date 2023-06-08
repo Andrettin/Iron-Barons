@@ -1,0 +1,7 @@
+tin = {
+	name = "Tin"
+	commodity = tin
+	terrain_types = {
+		swamp
+	}
+}
