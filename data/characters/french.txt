@@ -25,6 +25,34 @@ jean_calvin = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobert
 	death_date = 1564
 }
 
+ambroise_pare = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 212-213.
+	name = "Ambroise"
+	surname = "Pare" #"Paré"
+	advisor_type = natural_scientist #barber-surgeon
+	culture = french
+	religion = catholic
+	home_province = ile_de_france
+	gender = male
+	birth_date = 1510
+	death_date = 1590
+	required_technology = surgery
+	skill = 4
+	
+	#considered the father of rational surgery
+	#wrote a report about his findings regarding surgery in 1545
+}
+
+henri_ii_of_france = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 212.
+	name = "Henri"
+	epithet = "II"
+	culture = french
+	religion = catholic
+	home_province = ile_de_france
+	gender = male
+	birth_date = 1519
+	death_date = 1559
+}
+
 jean_de_brebeuf = {
 	name = "Jean"
 	surname = "de Brebeuf"
