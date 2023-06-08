@@ -187,6 +187,11 @@ western = {
 			explored_regions += japan
 		}
 		
+		1545 = {
+			#the concept of negative numbers was developed by Cardano in 1545; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
+			technologies += negative_numbers
+		}
+		
 		1620 = {
 			#the Englishman Francis Bacon published his "Novum Organum" in 1620, in which he described the scientific method; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 			technologies += scientific_method

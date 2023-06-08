@@ -21,3 +21,17 @@ cubic_equations = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desco
 		research_output_modifier = 5
 	}
 }
+
+negative_numbers = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 212.
+	name = "Negative Numbers"
+	category = culture
+	portrait = engineering
+	year = 1545
+	prerequisites = {
+		mathematics
+		university
+	}
+	modifier = {
+		research_output_modifier = 5
+	}
+}

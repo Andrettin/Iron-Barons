@@ -63,7 +63,7 @@ niccolo_tartaglia = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 	skill = 2
 }
 
-geronimo_cardano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
+geronimo_cardano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 206, 212.
 	name = "Geronimo"
 	surname = "Cardano"
 	advisor_type = philosopher #mathematician
@@ -73,6 +73,8 @@ geronimo_cardano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	gender = male
 	birth_date = 1501
 	death_date = 1576
-	required_technology = cubic_equations #published Niccolò Tartaglia's method to solve cubic equations
+	required_technology = negative_numbers #developed the concept of negative numbers
 	skill = 4
+	
+	#published Niccolò Tartaglia's method to solve cubic equations
 }
