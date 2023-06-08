@@ -1,3 +1,7 @@
+bronze_foundry = {
+	name = "Bronze Foundry"
+}
+
 lumber_mill = {
 	name = "Lumber Mill"
 }
