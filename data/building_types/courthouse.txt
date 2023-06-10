@@ -4,6 +4,7 @@ courthouse = {
 	portrait = trading_post
 	icon = courthouse
 	provincial = true
+	required_technology = code_of_laws
 	conditions = {
 		game_rule = advisors_enabled
 	}

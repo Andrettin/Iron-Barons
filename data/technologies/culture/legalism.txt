@@ -1,0 +1,8 @@
+code_of_laws = {
+	name = "Code of Laws"
+	category = culture
+	portrait = grand_ducal_crown
+	prerequisites = {
+		#writing
+	}
+}
