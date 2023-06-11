@@ -4,6 +4,8 @@ organized_regiments = {
 	portrait = helmet
 	year = 1550
 	prerequisites = {
+		chivalry
+		
 		land_enclosure
 	}
 }

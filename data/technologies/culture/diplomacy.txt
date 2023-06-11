@@ -4,7 +4,7 @@ diplomatic_expertise = {
 	portrait = grand_ducal_crown
 	year = 1500
 	prerequisites = {
-		gillnets
+		code_of_laws
 	}
 }
 

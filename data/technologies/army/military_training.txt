@@ -1,3 +1,10 @@
+chivalry = {
+	name = "Chivalry"
+	category = army
+	portrait = helmet
+	year = 1000
+}
+
 recruit_steppe_horsemen = {
 	name = "Recruit Steppe Horsemen"
 	category = army
