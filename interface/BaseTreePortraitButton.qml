@@ -80,21 +80,22 @@ Item {
 	
 	Rectangle {
 		id: child_line
+		anchors.top: parent_line.bottom
+		anchors.topMargin: parent.x == parent.parent_x && parent_line.height < 0 ? -parent_line.height : 0
+		anchors.bottom: portrait_button.top
 		width: 2 * scale_factor
-		height: vertical_padding + (parent.x == parent.parent_x && parent_line.height < 0 ? parent_line.height : 0)
 		color: "gray"
 		x: parent.width / 2 - (width / 2)
-		y: 0 - (parent.x == parent.parent_x && parent_line.height < 0 ? parent_line.height : 0)
 		visible: parent.has_tree_parent && parent.tree_line_visible
 	}
 	
 	Rectangle {
 		id: horizontal_line
+		anchors.top: parent_line.bottom
 		width: get_base_width() + 2 * scale_factor
 		height: 2 * scale_factor
 		color: "gray"
 		x: parent.width / 2 - (child_line.width / 2) - (parent.x > parent.parent_x ? get_base_width() : 0)
-		y: 0
 		visible: parent.has_tree_parent && parent.x != parent.parent_x && parent.tree_line_visible
 		
 		function get_base_width() {
