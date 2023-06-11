@@ -1,3 +1,9 @@
+catapult = {
+	name = "Catapult"
+	domain = land
+	category = heavy_artillery
+}
+
 culverin = {
 	name = "Culverin"
 	domain = land

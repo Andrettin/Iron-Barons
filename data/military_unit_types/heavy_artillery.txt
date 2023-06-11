@@ -1,3 +1,15 @@
+catapult = {
+	name = "Catapult"
+	unit_class = catapult
+	icon = artillery
+	firepower = 6
+	melee = 1
+	range = 5
+	defense = 2
+	movement = 2
+	required_technology = mathematics
+}
+
 culverin = {
 	name = "Culverin"
 	unit_class = culverin

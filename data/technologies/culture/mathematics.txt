@@ -3,9 +3,6 @@ mathematics = {
 	category = culture
 	portrait = engineering
 	year = 1000
-	modifier = {
-		research_output_modifier = 5
-	}
 }
 
 cubic_equations = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
