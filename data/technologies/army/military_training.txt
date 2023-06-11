@@ -4,6 +4,7 @@ chivalry = {
 	portrait = helmet
 	year = 1000
 	prerequisites = {
+		wheel #since this technology enables knights, which upgrade from chariots
 		code_of_laws
 	}
 }

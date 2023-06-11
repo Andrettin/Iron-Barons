@@ -1,3 +1,14 @@
+chariots = {
+	name = "Chariots"
+	unit_class = chariots
+	icon = cuirassiers
+	melee = 5
+	range = 1
+	defense = 5
+	movement = 4
+	required_technology = wheel
+}
+
 knights = {
 	name = "Knights"
 	unit_class = knights

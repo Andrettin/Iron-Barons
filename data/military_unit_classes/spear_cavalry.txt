@@ -1,3 +1,9 @@
+chariots = {
+	name = "Chariots"
+	domain = land
+	category = spear_cavalry
+}
+
 knights = {
 	name = "Knights"
 	domain = land

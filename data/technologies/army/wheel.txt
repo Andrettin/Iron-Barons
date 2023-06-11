@@ -1,0 +1,6 @@
+wheel = {
+	name = "Wheel"
+	category = army
+	portrait = engineering
+	year = -4000
+}

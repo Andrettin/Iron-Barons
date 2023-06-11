@@ -18,6 +18,7 @@ saw_mill = {
 		#engineering
 		
 		university
+		wheel
 	}
 }
 

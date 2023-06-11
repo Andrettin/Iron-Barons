@@ -1,5 +1,0 @@
-#wheel = {
-#	name = "Wheel"
-#	category = industry
-#	portrait = engineering
-#}
