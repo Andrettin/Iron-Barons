@@ -1,3 +1,10 @@
+writing = {
+	name = "Writing"
+	category = culture
+	portrait = engineering
+	year = 1000
+}
+
 printing_press = {
 	name = "Printing Press"
 	category = culture

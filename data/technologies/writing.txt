@@ -1,5 +1,0 @@
-#writing = {
-#	name = "Writing"
-#	category = industry
-#	portrait = engineering
-#}
