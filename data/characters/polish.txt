@@ -18,6 +18,6 @@ nicolaus_copernicus = { #Source: Isaac Asimov, "Cronologia das Ciências e das D
 	gender = male
 	birth_date = 1473
 	death_date = 1543
-	required_technology = heliocentric_model
+	required_technology = astronomy
 	skill = 5
 }

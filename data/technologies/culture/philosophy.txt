@@ -8,7 +8,7 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 		apprentice_workers
 		moneylending
 		
-		heliocentric_model
+		astronomy
 		cubic_equations
 	}
 	modifier = {

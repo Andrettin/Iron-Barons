@@ -11,3 +11,18 @@ de_corporis_humani_fabrica = {
 		research += 1
 	}
 }
+
+de_revolutionibus_orbium_coelestium = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 210.
+	name = "De Revolutionibus Orbium Coelestium"
+	portrait = engineering
+	description = "In 1543 Nicolaus Copernicus published a book called \"De Revolutionibus Orbium Coelestium\", in which he described a new model for planetary movement, with the Sun, rather than the Earth, at the center."
+	recruited_advisors = {
+		nicolaus_copernicus
+	}
+	researched_technologies = {
+		astronomy
+	}
+	completion_effects = {
+		research += 5
+	}
+}
