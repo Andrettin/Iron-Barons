@@ -19,6 +19,7 @@ culverin = {
 	range = 5
 	defense = 2
 	movement = 2
+	required_technology = gunpowder
 }
 
 royal_artillery = {

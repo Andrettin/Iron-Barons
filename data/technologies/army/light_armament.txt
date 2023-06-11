@@ -1,9 +1,17 @@
+gunpowder = {
+	name = "Gunpowder"
+	category = army
+	portrait = engineering
+	year = 1000
+}
+
 weapon_craftsmanship = {
 	name = "Weapon Craftsmanship"
 	category = army
 	portrait = engineering
 	year = 1600
 	prerequisites = {
+		gunpowder
 		organized_regiments
 		copper_and_tin_mining
 	}
