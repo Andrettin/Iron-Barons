@@ -16,6 +16,7 @@ banking = {
 	portrait = coinage
 	year = 1700
 	prerequisites = {
+		moneylending
 		national_bureaucracy
 		trade_fairs
 		master_artisans
