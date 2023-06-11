@@ -17,6 +17,7 @@ navigation = {
 	prerequisites = {
 		superior_hull_design
 		improved_sea_routes
+		astronomy
 	}
 }
 
