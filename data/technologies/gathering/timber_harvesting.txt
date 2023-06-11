@@ -2,7 +2,7 @@ double_bit_axe = {
 	name = "Double-Bit Axe"
 	category = gathering
 	portrait = engineering
-	year = 1000
+	year = -4000
 	modifier = {
 		timber_output_modifier = 5
 	}
@@ -16,6 +16,8 @@ saw_mill = {
 	prerequisites = {
 		double_bit_axe
 		#engineering
+		
+		university
 	}
 }
 

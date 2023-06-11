@@ -6,6 +6,8 @@ superior_hull_design = {
 	prerequisites = {
 		gillnets
 		double_bit_axe
+		
+		university
 	}
 }
 

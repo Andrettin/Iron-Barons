@@ -5,5 +5,7 @@ cigar_production = {
 	year = 1500
 	prerequisites = {
 		tobacco
+		
+		university
 	}
 }

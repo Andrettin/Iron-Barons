@@ -5,6 +5,8 @@ crop_rotation = {
 	year = 1500
 	prerequisites = {
 		plow
+		
+		chivalry
 	}
 }
 

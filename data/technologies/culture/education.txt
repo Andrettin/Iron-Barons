@@ -4,6 +4,8 @@ university = {
 	portrait = university
 	year = 1000
 	prerequisites = {
+		mathematics
+		
 		#printing_press
 		#apprentice_workers
 		#moneylending

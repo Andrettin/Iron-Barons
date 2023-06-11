@@ -3,6 +3,9 @@ gunpowder = {
 	category = army
 	portrait = engineering
 	year = 1000
+	prerequisites = {
+		mathematics
+	}
 }
 
 weapon_craftsmanship = {

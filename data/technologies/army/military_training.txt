@@ -3,6 +3,9 @@ chivalry = {
 	category = army
 	portrait = helmet
 	year = 1000
+	prerequisites = {
+		code_of_laws
+	}
 }
 
 recruit_steppe_horsemen = {

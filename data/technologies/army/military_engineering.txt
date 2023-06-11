@@ -4,7 +4,8 @@ mine_engineering = {
 	portrait = engineering
 	year = 1500
 	prerequisites = {
-		double_bit_axe
+		gunpowder
+		university
 	}
 }
 

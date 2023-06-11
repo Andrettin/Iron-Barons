@@ -5,6 +5,8 @@ merchant_companies = {
 	year = 1500
 	prerequisites = {
 		gillnets
+		
+		university
 	}
 }
 

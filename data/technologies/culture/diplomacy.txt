@@ -5,6 +5,7 @@ diplomatic_expertise = {
 	year = 1500
 	prerequisites = {
 		code_of_laws
+		university
 	}
 }
 

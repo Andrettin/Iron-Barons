@@ -2,7 +2,10 @@ mathematics = {
 	name = "Mathematics"
 	category = culture
 	portrait = engineering
-	year = 1000
+	year = -1000
+	prerequisites = {
+		writing
+	}
 }
 
 cubic_equations = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.

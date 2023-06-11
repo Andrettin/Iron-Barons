@@ -5,5 +5,7 @@ sugar_refining = {
 	year = 1500
 	prerequisites = {
 		sugar_cane
+		
+		university
 	}
 }

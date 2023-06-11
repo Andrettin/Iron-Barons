@@ -5,6 +5,8 @@ pike = {
 	year = 1000
 	prerequisites = {
 		#ironworking
+		
+		code_of_laws
 	}
 }
 

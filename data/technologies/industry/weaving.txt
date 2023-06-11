@@ -5,6 +5,8 @@ cotton_weaving = {
 	year = 1500
 	prerequisites = {
 		cotton
+		
+		university
 	}
 }
 

@@ -5,5 +5,7 @@ fur_hat_production = {
 	year = 1500
 	prerequisites = {
 		furs
+		
+		university
 	}
 }

@@ -3,7 +3,7 @@ cotton = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1000
+	year = -4000
 }
 
 cotton_planting = {
@@ -13,6 +13,8 @@ cotton_planting = {
 	year = 1500
 	prerequisites = {
 		cotton
+		
+		chivalry
 	}
 }
 

@@ -3,5 +3,5 @@ potatoes = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1000
+	year = -4000
 }

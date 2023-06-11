@@ -1,5 +1,15 @@
-1000_1500 = {
-	start_year = 1000
+4000_bc_1000_bc = {
+	start_year = -4000
+	end_year = -1000
+}
+
+1000_bc_500 = {
+	start_year = -1000
+	end_year = 500
+}
+
+500_1500 = {
+	start_year = 500
 	end_year = 1500
 }
 

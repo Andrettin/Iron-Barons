@@ -3,7 +3,7 @@ tobacco = {
 	category = gathering
 	portrait = engineering
 	discovery = true
-	year = 1000
+	year = -4000
 }
 
 tobacco_planting = {
@@ -13,6 +13,8 @@ tobacco_planting = {
 	year = 1500
 	prerequisites = {
 		tobacco
+		
+		chivalry
 	}
 }
 
