@@ -2,4 +2,8 @@ gillnets = {
 	name = "Gillnets"
 	category = gathering
 	portrait = dock
+	year = 500
+	prerequisites = {
+		cartography
+	}
 }

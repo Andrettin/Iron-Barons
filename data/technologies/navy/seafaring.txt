@@ -1,9 +1,17 @@
+seafaring = {
+	name = "Seafaring"
+	category = navy
+	portrait = unload
+	year = -4000
+}
+
 cartography = {
 	name = "Cartography"
 	category = navy
 	portrait = unload
 	year = -1000
 	prerequisites = {
+		seafaring
 		writing
 	}
 }

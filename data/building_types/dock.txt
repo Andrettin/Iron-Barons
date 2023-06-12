@@ -4,6 +4,7 @@ dock = {
 	portrait = dock
 	icon = anchor
 	provincial = true
+	required_technology = seafaring
 	province_conditions = {
 		or = {
 			coastal = true #should also be available if a river runs through the province's settlement
@@ -20,4 +21,5 @@ shipyard = {
 	provincial = true
 	capital_only = true
 	required_building = dock
+	required_technology = seafaring
 }
