@@ -1,3 +1,16 @@
+trireme = {
+	name = "Trireme"
+	unit_class = trireme
+	icon = carrack
+	firepower = 2
+	melee = 3
+	range = 3
+	resistance = 5
+	hit_points = 25
+	movement = 4
+	required_technology = cartography
+}
+
 sloop = {
 	name = "Sloop"
 	unit_class = sloop

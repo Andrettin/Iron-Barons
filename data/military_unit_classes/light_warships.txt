@@ -1,3 +1,9 @@
+trireme = {
+	name = "Trireme"
+	domain = water
+	category = light_warship
+}
+
 sloop = {
 	name = "Sloop"
 	domain = water

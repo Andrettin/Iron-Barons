@@ -1,3 +1,13 @@
+cartography = {
+	name = "Cartography"
+	category = navy
+	portrait = unload
+	year = -1000
+	prerequisites = {
+		writing
+	}
+}
+
 convoying = {
 	name = "Convoying"
 	category = navy
