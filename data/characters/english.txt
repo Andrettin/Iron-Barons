@@ -146,3 +146,20 @@ william_penn = {
 	death_date = 1718
 	skill_multiplier = 0.67
 }
+
+isaac_newton = {
+	name = "Isaac"
+	surname = "Newton"
+	advisor_type = natural_scientist
+	culture = english
+	religion = protestant
+	home_province = derbyshire
+	gender = male
+	birth_date = 1669
+	death_date = 1727.3.31
+	required_technology = theory_of_gravity
+	skill = 6
+	advisor_modifier = {
+		research_output_modifier = 50
+	}
+}
