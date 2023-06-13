@@ -1,0 +1,31 @@
+carrack = {
+	name = "Carrack"
+	transporter_class = carrack
+	icon = carrack
+	resistance = 5
+	hit_points = 25
+	speed = 3
+	cargo = 3
+}
+
+trader = {
+	name = "Trader"
+	transporter_class = trader
+	icon = indiaman
+	resistance = 10
+	hit_points = 30
+	speed = 4
+	cargo = 4
+	required_technology = improved_sail_design
+}
+
+clipper = {
+	name = "Clipper"
+	transporter_class = clipper
+	icon = indiaman
+	resistance = 10
+	hit_points = 35
+	speed = 7
+	cargo = 6
+	required_technology = streamlined_hulls
+}
