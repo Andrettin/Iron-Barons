@@ -2,6 +2,7 @@ siege_engineering = {
 	name = "Siege Engineering"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1600
 	prerequisites = {
 		copper_and_tin_mining
@@ -13,6 +14,7 @@ horse_artillery = {
 	name = "Horse Artillery"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1600
 	prerequisites = {
 		animal_husbandry
@@ -24,6 +26,7 @@ heavy_artillery = {
 	name = "Heavy Artillery"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1700
 	prerequisites = {
 		heavy_emplaced_artillery
@@ -36,6 +39,7 @@ light_artillery_tactics = {
 	name = "Light Artillery Tactics"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1700
 	prerequisites = {
 		horse_artillery
@@ -48,6 +52,7 @@ heavy_emplaced_artillery = {
 	name = "Heavy Emplaced Artillery"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1650
 	prerequisites = {
 		siege_engineering
@@ -60,6 +65,7 @@ high_grade_steel = {
 	name = "High Grade Steel"
 	category = army
 	portrait = factory
+	icon = steel
 	year = 1800
 	prerequisites = {
 		heavy_artillery
@@ -72,6 +78,7 @@ rifled_artillery = {
 	name = "Rifled Artillery"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1800
 	prerequisites = {
 		heavy_artillery
@@ -84,6 +91,7 @@ field_artillery_tactics = {
 	name = "Field Artillery Tactics"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1800
 	prerequisites = {
 		light_artillery_tactics
@@ -95,6 +103,7 @@ emplaced_siege_guns = {
 	name = "Emplaced Siege Guns"
 	category = army
 	portrait = engineering
+	icon = cannon
 	year = 1750
 	prerequisites = {
 		heavy_emplaced_artillery
@@ -106,6 +115,7 @@ large_artillery = {
 	name = "Large Artillery"
 	category = army
 	portrait = engineering
+	icon = cannon
 	prerequisites = {
 		rifled_artillery
 	}

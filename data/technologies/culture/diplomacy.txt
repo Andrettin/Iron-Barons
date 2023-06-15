@@ -2,6 +2,7 @@ diplomatic_expertise = {
 	name = "Diplomatic Expertise"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = treaty
 	year = 1500
 	prerequisites = {
 		code_of_laws
@@ -13,6 +14,7 @@ propaganda = {
 	name = "Propaganda"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = newspaper
 	year = 1650
 	prerequisites = {
 		national_bureaucracy
@@ -24,6 +26,7 @@ empire_building = {
 	name = "Empire Building"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = crown_imperial
 	year = 1750
 	prerequisites = {
 		nationalism

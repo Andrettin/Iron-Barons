@@ -2,6 +2,7 @@ sheep_ranching = {
 	name = "Sheep Ranching"
 	category = gathering
 	portrait = engineering
+	icon = wool
 	year = 1550
 	prerequisites = {
 		crop_rotation
@@ -12,6 +13,7 @@ scientific_sheep_breeding = {
 	name = "Scientific Sheep Breeding"
 	category = gathering
 	portrait = engineering
+	icon = wool
 	year = 1650
 	prerequisites = {
 		sheep_ranching

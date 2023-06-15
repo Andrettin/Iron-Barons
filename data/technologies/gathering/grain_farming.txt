@@ -2,6 +2,7 @@ plow = {
 	name = "Plow"
 	category = gathering
 	portrait = engineering
+	icon = grain
 	year = -4000
 	modifier = {
 		grain_output_modifier = 5
@@ -12,6 +13,7 @@ land_enclosure = {
 	name = "Land Enclosure"
 	category = gathering
 	portrait = engineering
+	icon = grain
 	year = 1500
 	prerequisites = {
 		plow
@@ -24,6 +26,7 @@ seed_drill = {
 	name = "Seed Drill"
 	category = gathering
 	portrait = engineering
+	icon = grain
 	year = 1550
 	prerequisites = {
 		land_enclosure
@@ -37,6 +40,7 @@ moldboard_plow = {
 	name = "Moldboard Plow"
 	category = gathering
 	portrait = engineering
+	icon = grain
 	year = 1600
 	prerequisites = {
 		seed_drill
@@ -49,6 +53,7 @@ mechanical_reaper = {
 	name = "Mechanical Reaper"
 	category = gathering
 	portrait = engineering
+	icon = grain
 	prerequisites = {
 		moldboard_plow
 	}

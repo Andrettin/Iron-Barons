@@ -2,6 +2,7 @@ tobacco = {
 	name = "Tobacco"
 	category = gathering
 	portrait = engineering
+	icon = tobacco
 	discovery = true
 	year = -4000
 }
@@ -10,6 +11,7 @@ tobacco_planting = {
 	name = "Tobacco Planting"
 	category = gathering
 	portrait = engineering
+	icon = tobacco
 	year = 1500
 	prerequisites = {
 		tobacco
@@ -22,6 +24,7 @@ large_tobacco_plantations = {
 	name = "Large Tobacco Plantations"
 	category = gathering
 	portrait = engineering
+	icon = tobacco
 	year = 1600
 	prerequisites = {
 		tobacco_planting
@@ -33,6 +36,7 @@ tobacco_industry = {
 	name = "Tobacco Industry"
 	category = gathering
 	portrait = engineering
+	icon = tobacco
 	year = 1700
 	prerequisites = {
 		large_tobacco_plantations

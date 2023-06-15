@@ -2,6 +2,7 @@ university = {
 	name = "University"
 	category = culture
 	portrait = university
+	icon = university
 	year = 1000
 	prerequisites = {
 		mathematics

@@ -2,6 +2,7 @@ rights_of_man = {
 	name = "Rights of Man"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = treaty
 	year = 1750
 	prerequisites = {
 		nationalism
@@ -15,6 +16,7 @@ constitutionalism = {
 	name = "Constitutionalism"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = treaty
 	year = 1750
 	prerequisites = {
 		nationalism
@@ -28,6 +30,7 @@ egalitarianism = {
 	name = "Egalitarianism"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = treaty
 	year = 1750
 	prerequisites = {
 		nationalism
@@ -41,6 +44,7 @@ collectivism = {
 	name = "Collectivism"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = treaty
 	year = 1800
 	prerequisites = {
 		egalitarianism
@@ -54,6 +58,7 @@ individualism = {
 	name = "Individualism"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = treaty
 	year = 1800
 	prerequisites = {
 		rights_of_man

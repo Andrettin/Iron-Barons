@@ -2,6 +2,7 @@ seafaring = {
 	name = "Seafaring"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = -4000
 }
 
@@ -9,6 +10,7 @@ cartography = {
 	name = "Cartography"
 	category = navy
 	portrait = unload
+	icon = globe
 	year = -1000
 	prerequisites = {
 		seafaring
@@ -20,6 +22,7 @@ convoying = {
 	name = "Convoying"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1550
 	prerequisites = {
 		merchant_companies
@@ -31,6 +34,7 @@ navigation = {
 	name = "Navigation"
 	category = navy
 	portrait = unload
+	icon = compass
 	year = 1550
 	prerequisites = {
 		superior_hull_design
@@ -43,6 +47,7 @@ privateering_companies = {
 	name = "Privateering Companies"
 	category = navy
 	portrait = unload
+	icon = skull
 	year = 1600
 	prerequisites = {
 		navigation

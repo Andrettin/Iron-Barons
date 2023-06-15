@@ -2,6 +2,7 @@ iron_mining = {
 	name = "Iron Mining"
 	category = gathering
 	portrait = factory
+	icon = iron_ore
 	year = 1550
 	prerequisites = {
 		mine_engineering
@@ -12,6 +13,7 @@ steam_in_mining = {
 	name = "Steam in Mining"
 	category = gathering
 	portrait = factory
+	icon = iron_ore
 	year = 1600
 	prerequisites = {
 		iron_mining
@@ -22,6 +24,7 @@ industrial_iron_mining = {
 	name = "Industrial Iron Mining"
 	category = gathering
 	portrait = factory
+	icon = iron_ore
 	year = 1800
 	prerequisites = {
 		steam_in_mining

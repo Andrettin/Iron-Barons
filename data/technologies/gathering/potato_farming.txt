@@ -2,6 +2,7 @@ potatoes = {
 	name = "Potatoes"
 	category = gathering
 	portrait = engineering
+	icon = grain
 	discovery = true
 	year = -4000
 }

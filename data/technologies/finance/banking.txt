@@ -2,6 +2,7 @@ moneylending = {
 	name = "Moneylending"
 	category = finance
 	portrait = coinage
+	icon = chest
 	year = 1550
 	prerequisites = {
 		merchant_companies
@@ -14,6 +15,7 @@ banking = {
 	name = "Banking"
 	category = finance
 	portrait = coinage
+	icon = chest
 	year = 1700
 	prerequisites = {
 		moneylending
@@ -27,6 +29,7 @@ modern_military_funding = {
 	name = "Modern Military Funding"
 	category = finance
 	portrait = coinage
+	icon = chest
 	year = 1750
 	prerequisites = {
 		banking
@@ -39,6 +42,7 @@ industrial_funding_of_research = {
 	name = "Industrial Funding of Research"
 	category = finance
 	portrait = coinage
+	icon = chest
 	year = 1700
 	prerequisites = {
 		industrial_machinery

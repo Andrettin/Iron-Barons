@@ -2,6 +2,7 @@ double_bit_axe = {
 	name = "Double-Bit Axe"
 	category = gathering
 	portrait = engineering
+	icon = timber
 	year = -4000
 	modifier = {
 		timber_output_modifier = 5
@@ -12,6 +13,7 @@ saw_mill = {
 	name = "Saw Mill"
 	category = gathering
 	portrait = engineering
+	icon = lumber
 	year = 1500
 	prerequisites = {
 		double_bit_axe
@@ -26,6 +28,7 @@ wind_saw_mill = {
 	name = "Wind Saw Mill"
 	category = gathering
 	portrait = engineering
+	icon = lumber
 	year = 1550
 	prerequisites = {
 		saw_mill
@@ -39,6 +42,7 @@ circular_saw = {
 	name = "Circular Saw"
 	category = gathering
 	portrait = engineering
+	icon = timber
 	year = 1650
 	prerequisites = {
 		wind_saw_mill
@@ -50,6 +54,7 @@ mechanical_saw = {
 	name = "Mechanical Saw"
 	category = gathering
 	portrait = engineering
+	icon = timber
 	year = 1800
 	prerequisites = {
 		circular_saw

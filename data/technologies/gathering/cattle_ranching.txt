@@ -2,6 +2,7 @@ crop_rotation = {
 	name = "Crop Rotation"
 	category = gathering
 	portrait = engineering
+	icon = cattle
 	year = 1500
 	prerequisites = {
 		plow
@@ -14,6 +15,7 @@ animal_husbandry = {
 	name = "Animal Husbandry"
 	category = gathering
 	portrait = engineering
+	icon = cattle
 	year = 1550
 	prerequisites = {
 		crop_rotation
@@ -24,6 +26,7 @@ scientific_cattle_breeding = {
 	name = "Scientific Cattle Breeding"
 	category = gathering
 	portrait = engineering
+	icon = cattle
 	year = 1650
 	prerequisites = {
 		animal_husbandry
@@ -35,6 +38,7 @@ feed_grasses = {
 	name = "Feed Grasses"
 	category = gathering
 	portrait = engineering
+	icon = cattle
 	prerequisites = {
 		scientific_cattle_breeding
 		scientific_sheep_breeding
@@ -45,6 +49,7 @@ barbed_wire = {
 	name = "Barbed Wire"
 	category = gathering
 	portrait = engineering
+	icon = cattle
 	prerequisites = {
 		feed_grasses
 	}

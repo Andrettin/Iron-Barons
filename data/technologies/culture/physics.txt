@@ -2,6 +2,7 @@ theory_of_gravity = {
 	name = "Theory of Gravity"
 	category = culture
 	portrait = engineering
+	icon = research
 	year = 1650
 	prerequisites = {
 		astronomy

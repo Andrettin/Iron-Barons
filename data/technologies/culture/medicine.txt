@@ -2,6 +2,7 @@ anatomy = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas",
 	name = "Anatomy"
 	category = culture
 	portrait = engineering
+	icon = heart
 	year = 1543
 	prerequisites = {
 		university
@@ -15,6 +16,7 @@ surgery = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas",
 	name = "Surgery"
 	category = culture
 	portrait = engineering
+	icon = heart
 	year = 1545
 	prerequisites = {
 		university

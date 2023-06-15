@@ -2,6 +2,7 @@ oil_drilling = {
 	name = "Oil Drilling"
 	category = gathering
 	portrait = factory
+	icon = oil
 	prerequisites = {
 		geological_prospecting #to place it later in the tech tree
 	}
@@ -11,6 +12,7 @@ chemistry = {
 	name = "Chemistry"
 	category = gathering
 	portrait = factory
+	icon = fuel
 	prerequisites = {
 		oil_drilling
 		barbed_wire
@@ -21,6 +23,7 @@ internal_combustion = {
 	name = "Internal Combustion"
 	category = gathering
 	portrait = factory
+	icon = fuel
 	prerequisites = {
 		chemistry
 	}

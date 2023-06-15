@@ -2,6 +2,7 @@ coal_mining = {
 	name = "Coal Mining"
 	category = gathering
 	portrait = factory
+	icon = coal
 	year = 1550
 	prerequisites = {
 		mine_engineering
@@ -12,6 +13,7 @@ large_coal_mines = {
 	name = "Large Coal Mines"
 	category = gathering
 	portrait = factory
+	icon = coal
 	year = 1600
 	prerequisites = {
 		coal_mining
@@ -23,6 +25,7 @@ square_set_timbering = {
 	name = "Square-Set Timbering"
 	category = gathering
 	portrait = factory
+	icon = coal
 	year = 1650
 	prerequisites = {
 		large_coal_mines
@@ -34,6 +37,7 @@ safety_lamp = {
 	name = "Safety Lamp"
 	category = gathering
 	portrait = oil_lamp
+	icon = coal
 	year = 1800
 	prerequisites = {
 		square_set_timbering

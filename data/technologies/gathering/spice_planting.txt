@@ -2,6 +2,7 @@ spices = {
 	name = "Spices"
 	category = gathering
 	portrait = engineering
+	icon = coffee
 	discovery = true
 	year = -4000
 }
@@ -10,6 +11,7 @@ improved_sea_routes = {
 	name = "Improved Sea Routes"
 	category = gathering
 	portrait = engineering
+	icon = coffee
 	year = 1500
 	prerequisites = {
 		spices
@@ -22,6 +24,7 @@ large_spice_plantations = {
 	name = "Large Spice Plantations"
 	category = gathering
 	portrait = engineering
+	icon = coffee
 	year = 1600
 	prerequisites = {
 		improved_sea_routes
@@ -33,6 +36,7 @@ improved_food_preservation = {
 	name = "Improved Food Preservation"
 	category = gathering
 	portrait = engineering
+	icon = coffee
 	year = 1700
 	prerequisites = {
 		large_spice_plantations

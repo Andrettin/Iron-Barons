@@ -2,6 +2,7 @@ mathematics = {
 	name = "Mathematics"
 	category = culture
 	portrait = engineering
+	icon = research
 	year = -1000
 	prerequisites = {
 		writing
@@ -12,6 +13,7 @@ cubic_equations = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desco
 	name = "Cubic Equations"
 	category = culture
 	portrait = engineering
+	icon = research
 	year = 1535
 	prerequisites = {
 		mathematics
@@ -26,6 +28,7 @@ negative_numbers = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	name = "Negative Numbers"
 	category = culture
 	portrait = engineering
+	icon = research
 	year = 1545
 	prerequisites = {
 		mathematics

@@ -2,6 +2,7 @@ nationalism = {
 	name = "Nationalism"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = flag
 	year = 1700
 	prerequisites = {
 		propaganda

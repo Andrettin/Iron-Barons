@@ -2,5 +2,6 @@ wheel = {
 	name = "Wheel"
 	category = army
 	portrait = engineering
+	icon = cog
 	year = -4000
 }

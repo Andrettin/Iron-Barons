@@ -2,6 +2,7 @@ merchant_companies = {
 	name = "Merchant Companies"
 	category = finance
 	portrait = trading_post
+	icon = wealth
 	year = 1500
 	prerequisites = {
 		gillnets
@@ -14,6 +15,7 @@ trade_fairs = {
 	name = "Trade Fairs"
 	category = finance
 	portrait = coinage
+	icon = wealth
 	year = 1550
 	prerequisites = {
 		merchant_companies

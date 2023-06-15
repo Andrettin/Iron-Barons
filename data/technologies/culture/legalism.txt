@@ -2,6 +2,7 @@ code_of_laws = {
 	name = "Code of Laws"
 	category = culture
 	portrait = grand_ducal_crown
+	icon = treaty
 	year = -1000
 	prerequisites = {
 		writing

@@ -2,6 +2,7 @@ gillnets = {
 	name = "Gillnets"
 	category = gathering
 	portrait = dock
+	icon = fish
 	year = 500
 	prerequisites = {
 		cartography

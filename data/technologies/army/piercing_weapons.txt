@@ -2,6 +2,7 @@ pike = {
 	name = "Pike"
 	category = army
 	portrait = helmet
+	icon = saber
 	year = 1000
 	prerequisites = {
 		#ironworking
@@ -14,6 +15,7 @@ halberd = {
 	name = "Halberd"
 	category = army
 	portrait = helmet
+	icon = saber
 	year = 1600
 	prerequisites = {
 		pike

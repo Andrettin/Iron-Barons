@@ -2,6 +2,7 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 	name = "Scientific Method"
 	category = culture
 	portrait = engineering
+	icon = research
 	year = 1620
 	prerequisites = {
 		printing_press

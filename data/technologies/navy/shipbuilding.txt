@@ -2,6 +2,7 @@ superior_hull_design = {
 	name = "Superior Hull Design"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1500
 	prerequisites = {
 		gillnets
@@ -15,6 +16,7 @@ improved_sail_design = {
 	name = "Improved Sail Design"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1600
 	prerequisites = {
 		superior_hull_design
@@ -26,6 +28,7 @@ large_hulls = {
 	name = "Large Hulls"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1600
 	prerequisites = {
 		navigation
@@ -38,6 +41,7 @@ advanced_hull_design = {
 	name = "Advanced Hull Design"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1650
 	prerequisites = {
 		improved_sail_design
@@ -50,6 +54,7 @@ ship_of_the_line = {
 	name = "Ship-of-the-Line"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1650
 	prerequisites = {
 		large_hulls
@@ -61,6 +66,7 @@ streamlined_hulls = {
 	name = "Streamlined Hulls"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1700
 	prerequisites = {
 		advanced_hull_design
@@ -72,6 +78,7 @@ paddlewheels = {
 	name = "Paddlewheels"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1700
 	prerequisites = {
 		advanced_hull_design
@@ -83,6 +90,7 @@ merchant_steamships = {
 	name = "Merchant Steamships"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1750
 	prerequisites = {
 		paddlewheels
@@ -94,6 +102,7 @@ advanced_iron_working = {
 	name = "Advanced Iron Working"
 	category = navy
 	portrait = unload
+	icon = anchor
 	year = 1750
 	prerequisites = {
 		ship_of_the_line
@@ -106,6 +115,7 @@ steel_armor_plate = {
 	name = "Steel Armor Plate"
 	category = navy
 	portrait = unload
+	icon = anchor
 	prerequisites = {
 		advanced_iron_working
 	}
@@ -115,6 +125,7 @@ marine_engineering = {
 	name = "Marine Engineering"
 	category = navy
 	portrait = unload
+	icon = anchor
 	prerequisites = {
 		steel_armor_plate
 	}
@@ -124,6 +135,7 @@ improved_range_finding = {
 	name = "Improved Range-Finding"
 	category = navy
 	portrait = unload
+	icon = anchor
 	prerequisites = {
 		marine_engineering
 	}

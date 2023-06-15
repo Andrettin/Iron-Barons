@@ -2,6 +2,7 @@ mechanical_precision_saw = {
 	name = "Mechanical Precision Saw"
 	category = industry
 	portrait = engineering
+	icon = lumber
 	year = 1800
 	prerequisites = {
 		circular_saw

@@ -2,6 +2,7 @@ furs = {
 	name = "Furs"
 	category = gathering
 	portrait = engineering
+	icon = leather
 	discovery = true
 	year = -4000
 }
@@ -10,6 +11,7 @@ improved_trapping_techniques = {
 	name = "Improved Trapping Techniques"
 	category = gathering
 	portrait = engineering
+	icon = leather
 	year = 1500
 	prerequisites = {
 		furs
@@ -22,6 +24,7 @@ riverboats = {
 	name = "Riverboats"
 	category = gathering
 	portrait = unload
+	icon = leather
 	year = 1700
 	prerequisites = {
 		improved_trapping_techniques
@@ -33,6 +36,7 @@ excessive_fur_harvesting = {
 	name = "Excessive Fur Harvesting"
 	category = gathering
 	portrait = engineering
+	icon = leather
 	year = 1750
 	prerequisites = {
 		riverboats

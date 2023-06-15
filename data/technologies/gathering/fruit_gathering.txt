@@ -2,6 +2,7 @@ commercial_fertilizer = {
 	name = "Commercial Fertilizer"
 	category = gathering
 	portrait = engineering
+	icon = fruit
 	prerequisites = {
 		moldboard_plow
 	}

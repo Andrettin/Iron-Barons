@@ -2,6 +2,7 @@ crucible_process = {
 	name = "Crucible Process"
 	category = industry
 	portrait = factory
+	icon = steel
 	year = 1650
 	prerequisites = {
 		steam_in_mining
