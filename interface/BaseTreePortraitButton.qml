@@ -145,7 +145,7 @@ Item {
 						hoverEnabled: true
 						
 						onEntered: {
-							status_text = secondary_parent.name
+							status_text = "Prerequisite: " + secondary_parent.name
 						}
 						
 						onExited: {
