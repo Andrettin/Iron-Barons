@@ -143,6 +143,10 @@ Item {
 		anchors.left: parent.left
 	}
 	
+	ResearchChoiceDialog {
+		id: research_choice_dialog
+	}
+	
 	AdvisorChoiceDialog {
 		id: advisor_choice_dialog
 	}
@@ -208,6 +212,11 @@ Item {
 			})
 			
 			event_dialog.open()
+		}
+		
+		function onCurrent_research_choosable(potential_technologies) {
+			research_choice_dialog.potential_technologies = potential_technologies
+			research_choice_dialog.open()
 		}
 		
 		function onNext_advisor_choosable(potential_advisors) {
