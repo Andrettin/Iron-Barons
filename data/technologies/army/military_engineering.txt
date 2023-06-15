@@ -5,7 +5,7 @@ mine_engineering = {
 	icon = architecture
 	year = 1500
 	prerequisites = {
-		gunpowder
+		invention
 		university
 	}
 }

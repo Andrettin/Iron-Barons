@@ -8,6 +8,23 @@ viridis_visconti = { #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
 	start_date = 1377 #married Leopold III of Austria, and had her son Ernst with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
 }
 
+leonardo_da_vinci = {
+	name = "Leonardo"
+	surname = "da Vinci"
+	advisor_type = natural_scientist
+	culture = italian
+	religion = catholic
+	home_province = tuscany
+	gender = male
+	birth_date = 1450.4.15
+	death_date = 1519.5.2
+	required_technology = invention
+	skill = 6
+	advisor_modifier = {
+		unit_upgrade_cost_modifier = -100
+	}
+}
+
 amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.
 	name = "Amerigo"
 	surname = "Vespucci"

@@ -7,6 +7,6 @@ sugar_refining = {
 	prerequisites = {
 		sugar_cane
 		
-		university
+		invention
 	}
 }

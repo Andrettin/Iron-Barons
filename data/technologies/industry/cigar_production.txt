@@ -7,6 +7,6 @@ cigar_production = {
 	prerequisites = {
 		tobacco
 		
-		university
+		invention
 	}
 }

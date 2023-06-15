@@ -7,6 +7,6 @@ fur_hat_production = {
 	prerequisites = {
 		furs
 		
-		university
+		invention
 	}
 }

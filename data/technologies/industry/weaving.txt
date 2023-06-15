@@ -7,7 +7,7 @@ cotton_weaving = {
 	prerequisites = {
 		cotton
 		
-		university
+		invention
 	}
 }
 

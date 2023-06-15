@@ -1,3 +1,17 @@
+invention = {
+	name = "Invention"
+	category = culture
+	portrait = engineering
+	icon = cog
+	year = 1450
+	prerequisites = {
+		wheel
+		writing
+		
+		mathematics
+	}
+}
+
 scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 	name = "Scientific Method"
 	category = culture

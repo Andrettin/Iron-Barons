@@ -17,10 +17,7 @@ saw_mill = {
 	year = 1500
 	prerequisites = {
 		double_bit_axe
-		#engineering
-		
-		university
-		wheel
+		invention
 	}
 }
 
