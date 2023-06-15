@@ -1,14 +1,17 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
+import QtGraphicalEffects 1.12
 
 ButtonBase {
 	id: button
 	width: icon_image.width + 6 * scale_factor
 	height: icon_image.height + 6 * scale_factor
+	radius: circle ? (width * 0.5) : 5 * scale_factor
 	
 	property string icon_identifier: ""
 	property color background_color: "black"
 	property color border_color: "gray"
+	property bool circle: false
 	property bool unrounded_left_corners: false
 	
     background: Rectangle {
@@ -38,13 +41,37 @@ ButtonBase {
 		}
     }
 	
-	Image {
-		id: icon_image
+	Item {
+		id: icon_image_area
 		anchors.verticalCenter: parent.verticalCenter
-		anchors.verticalCenterOffset: button.down ? 1 * scale_factor : 0
 		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: button.down ? 1 * scale_factor : 0
-		source: "image://icon/" + icon_identifier
-		fillMode: Image.Pad
+		width: parent.width - 1 * scale_factor * 2 //width inside the border
+		height: parent.height - 1 * scale_factor * 2
+		visible: false
+		
+		Image {
+			id: icon_image
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.verticalCenterOffset: button.down ? 1 * scale_factor : 0
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.horizontalCenterOffset: button.down ? 1 * scale_factor : 0
+			source: "image://icon/" + icon_identifier
+			fillMode: Image.Pad
+		}
 	}
+	
+	Rectangle {
+		id: opacity_mask_rectangle
+        anchors.fill: icon_image_area
+		width: icon_image_area.width
+		height: icon_image_area.height
+		radius: circle ? (width * 0.5) : 5 * scale_factor
+		visible: false
+	}
+	
+    OpacityMask {
+        anchors.fill: icon_image_area
+        source: icon_image_area
+        maskSource: opacity_mask_rectangle
+    }
 }

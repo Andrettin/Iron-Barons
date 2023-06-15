@@ -6,7 +6,7 @@ Item {
 	readonly property var entry: model.modelData
 	readonly property string name: entry.full_name ? entry.full_name : entry.name
 	readonly property int horizontal_padding: 8 * scale_factor
-	readonly property int vertical_padding: 16 * scale_factor
+	readonly property int vertical_padding: 32 * scale_factor
 	property int button_x: 0
 	property int button_y: 0
 	property int button_width: 1 //the width in buttons
@@ -113,6 +113,47 @@ Item {
 			}
 			
 			return base_width
+		}
+	}
+	
+	Item {
+		anchors.top: parent_line.top
+		anchors.bottom: child_line.bottom
+		anchors.horizontalCenter: child_line.horizontalCenter
+		width: secondary_parents_icon_grid.width
+		
+		Grid {
+			id: secondary_parents_icon_grid
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+			columns: (button_y - parent_button_y === 1) ? entry.secondary_tree_parents.length : 1
+			rowSpacing: 0
+			columnSpacing: 0
+			
+			Repeater {
+				model: entry.secondary_tree_parents
+				
+				IconButton {
+					id: secondary_parent_icon_button
+					icon_identifier: secondary_parent.icon.identifier
+					circle: true
+					
+					readonly property var secondary_parent: model.modelData
+					
+					MouseArea {
+						anchors.fill: parent
+						hoverEnabled: true
+						
+						onEntered: {
+							status_text = secondary_parent.name
+						}
+						
+						onExited: {
+							status_text = ""
+						}
+					}
+				}
+			}
 		}
 	}
 }
