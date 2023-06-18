@@ -1,0 +1,33 @@
+bison_camp = {
+	name = "Bison Camp"
+	resource = bison
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 1
+}
+
+improved_bison_camp = {
+	name = "Improved Bison Camp"
+	resource = bison
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 2
+	required_improvement = bison_camp
+	required_technology = improved_trapping_techniques
+}
+
+advanced_bison_camp = {
+	name = "Advanced Bison Camp"
+	resource = bison
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 3
+	required_improvement = improved_bison_camp
+	required_technology = riverboats
+}
+
+industrial_bison_camp = {
+	name = "Industrial Bison Camp"
+	resource = bison
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 4
+	required_improvement = advanced_bison_camp
+	required_technology = excessive_fur_harvesting
+}

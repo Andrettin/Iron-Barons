@@ -1,0 +1,11 @@
+ivory = {
+	name = "Ivory"
+	commodity = ivory
+	terrain_types = {
+		barren_hills
+		conifer_forest
+		desert
+		#glacier
+		plains
+	}
+}

@@ -1,0 +1,33 @@
+ivory_camp = {
+	name = "Ivory Camp"
+	resource = ivory
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 1
+}
+
+improved_ivory_camp = {
+	name = "Improved Ivory Camp"
+	resource = ivory
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 2
+	required_improvement = ivory_camp
+	required_technology = improved_trapping_techniques
+}
+
+advanced_ivory_camp = {
+	name = "Advanced Ivory Camp"
+	resource = ivory
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 3
+	required_improvement = improved_ivory_camp
+	required_technology = riverboats
+}
+
+industrial_ivory_camp = {
+	name = "Industrial Ivory Camp"
+	resource = ivory
+	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
+	output_multiplier = 4
+	required_improvement = advanced_ivory_camp
+	required_technology = excessive_fur_harvesting
+}

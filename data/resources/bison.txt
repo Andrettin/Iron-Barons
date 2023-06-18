@@ -1,0 +1,8 @@
+bison = {
+	name = "Bison"
+	commodity = livestock
+	terrain_types = {
+		plains
+		#grassland
+	}
+}
