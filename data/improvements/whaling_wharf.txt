@@ -1,0 +1,33 @@
+whaling_wharf = {
+	name = "Whaling Wharf"
+	resource = whales
+	image_filepath = "tiles/improvements/fishing_wharf.png"
+	output_multiplier = 1
+}
+
+improved_whaling_wharf = {
+	name = "Improved Whaling Wharf"
+	resource = whales
+	image_filepath = "tiles/improvements/fishing_wharf.png"
+	output_multiplier = 2
+	required_improvement = whaling_wharf
+	required_technology = gillnets
+}
+
+advanced_whaling_wharf = {
+	name = "Advanced Whaling Wharf"
+	resource = whales
+	image_filepath = "tiles/improvements/fishing_wharf.png"
+	output_multiplier = 3
+	required_improvement = improved_whaling_wharf
+	required_technology = gillnets
+}
+
+industrial_whaling_wharf = {
+	name = "Industrial Whaling Wharf"
+	resource = whales
+	image_filepath = "tiles/improvements/fishing_wharf.png"
+	output_multiplier = 4
+	required_improvement = advanced_whaling_wharf
+	required_technology = gillnets
+}
