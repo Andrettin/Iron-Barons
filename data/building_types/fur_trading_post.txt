@@ -4,6 +4,7 @@ fur_trading_post = {
 	portrait = trading_post
 	icon = leather
 	provincial = true
+	required_technology = furs
 	province_conditions = {
 		or = {
 			has_resource = beavers
