@@ -1,0 +1,33 @@
+market = {
+	name = "Market"
+	building_class = market
+	portrait = trading_post
+	icon = wealth
+	provincial = true
+	province_conditions = {
+		or = {
+			has_resource = amber
+			has_resource = diamonds
+			has_resource = fish
+			has_resource = fruit
+			has_resource = gems
+			has_resource = gold
+			has_resource = ivory
+			has_resource = silk
+			has_resource = spices
+			has_resource = whales
+		}
+	}
+	province_modifier = {
+		trade_per_improved_amber = 1
+		trade_per_improved_diamonds = 1
+		trade_per_improved_fish = 1
+		trade_per_improved_fruit = 1
+		trade_per_improved_gems = 1
+		trade_per_improved_gold = 1
+		trade_per_improved_ivory = 1
+		trade_per_improved_silk = 1
+		trade_per_improved_spices = 1
+		trade_per_improved_whales = 1
+	}
+}
