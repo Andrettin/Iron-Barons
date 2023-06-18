@@ -1,0 +1,3 @@
+fur_trading_post = {
+	name = "Fur Trading Post"
+}
