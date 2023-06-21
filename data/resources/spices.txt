@@ -1,6 +1,7 @@
 spices = {
 	name = "Spices"
 	commodity = spices
+	wealth_value = 25
 	discovery_technology = spices
 	terrain_types = {
 		plains
