@@ -177,6 +177,8 @@
 /graphics/portraits/characters/frankish_cleric.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/frankish_cleric_player_color.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/frankish_cleric_with_background.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/characters/gustav_adolf_of_sweden.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/characters/henry_the_navigator.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/jakob_fugger.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/metternich.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/sailor.png (by Exidelo) (licensed under the CC0)
