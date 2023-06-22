@@ -34,6 +34,7 @@ diplomacy_state_colors = {
 default_settlement_image_filepath = "tiles/settlements/town.png"
 river_image_filepath = "tiles/river.png"
 rivermouth_image_filepath = "tiles/rivermouth.png"
+route_image_filepath = "tiles/road.png"
 province_border_image_filepath = "tiles/borders/province_border.png"
 min_diplomatic_map_tile_scale = 2
 
@@ -374,6 +375,159 @@ rivermouth_adjacency_tiles = {
 		northwest = same
 		northeast = any
 		southwest = other
+		southeast = any
+	}
+}
+
+route_adjacency_tiles = {
+	1 = {
+		north = other
+		south = same
+		west = other
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	3 = {
+		north = other
+		south = same
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	4 = {
+		north = other
+		south = other
+		west = same
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	5 = {
+		north = other
+		south = same
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	6 = {
+		north = other
+		south = same
+		west = same
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	7 = {
+		north = same
+		south = same
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	16 = {
+		north = other
+		south = other
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	17 = {
+		north = same
+		south = same
+		west = same
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	18 = {
+		north = other
+		south = other
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	19 = {
+		north = same
+		south = same
+		west = other
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	22 = {
+		north = same
+		south = other
+		west = same
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	23 = {
+		north = same
+		south = same
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	33 = {
+		north = same
+		south = other
+		west = other
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	35 = {
+		north = same
+		south = other
+		west = other
+		east = same
+		northwest = any
+		northeast = any
+		southwest = any
+		southeast = any
+	}
+	37 = {
+		north = same
+		south = other
+		west = same
+		east = other
+		northwest = any
+		northeast = any
+		southwest = any
 		southeast = any
 	}
 }
