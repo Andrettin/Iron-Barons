@@ -8,6 +8,7 @@ default_base_terrain = plains
 unexplored_terrain = unexplored
 default_province_terrain = plains
 default_water_zone_terrain = ocean
+route_pathway = route
 capitol_building_class = capitol
 default_population_class = untrained_workers
 default_tribal_population_class = tribesmen
@@ -34,7 +35,6 @@ diplomacy_state_colors = {
 default_settlement_image_filepath = "tiles/settlements/town.png"
 river_image_filepath = "tiles/river.png"
 rivermouth_image_filepath = "tiles/rivermouth.png"
-route_image_filepath = "tiles/road.png"
 province_border_image_filepath = "tiles/borders/province_border.png"
 min_diplomatic_map_tile_scale = 2
 
