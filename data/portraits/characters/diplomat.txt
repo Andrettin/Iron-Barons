@@ -6,13 +6,6 @@ metternich = {
 			advisor_type = diplomat
 			advisor_type = statesman
 			advisor_type = spymaster
-			and = {
-				not = {
-					culture = portuguese
-					culture = swedish
-				}
-				is_ruler = true
-			}
 		}
 	}
 }
