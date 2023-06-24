@@ -5,9 +5,7 @@ pike = {
 	icon = saber
 	year = 1000
 	prerequisites = {
-		#ironworking
-		
-		code_of_laws
+		ironworking
 	}
 }
 

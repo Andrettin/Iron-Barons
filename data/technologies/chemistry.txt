@@ -17,12 +17,3 @@
 #		philosophy
 #	}
 #}
-
-#gunpowder = {
-#	name = "Gunpowder"
-#	category = army
-#	portrait = engineering
-#	prerequisites = {
-#		#chemistry
-#	}
-#}
