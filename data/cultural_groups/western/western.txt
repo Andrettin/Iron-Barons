@@ -157,7 +157,6 @@ western = {
 		
 		1535 = {
 			#method to solve cubic equations invented by the Italian Niccolò Tartaglia in 1535; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
-			technologies += cubic_equations
 		}
 		
 		1536 = {
@@ -188,7 +187,6 @@ western = {
 		
 		1545 = {
 			#the concept of negative numbers was developed by Cardano in 1545; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 212.
-			technologies += negative_numbers
 			
 			#Ambroise Paré wrote a report about his findings regarding surgery in 1545; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 212-213.
 		}

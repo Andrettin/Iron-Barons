@@ -4,37 +4,9 @@ mathematics = {
 	portrait = engineering
 	icon = research
 	year = -1000
+	#year = 1535 #cubic equations; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
+	#year = 1545 #negative numbers; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 212.
 	prerequisites = {
 		writing
-	}
-}
-
-cubic_equations = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 206.
-	name = "Cubic Equations"
-	category = culture
-	portrait = engineering
-	icon = research
-	year = 1535
-	prerequisites = {
-		mathematics
-		university
-	}
-	modifier = {
-		research_output_modifier = 5
-	}
-}
-
-negative_numbers = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 212.
-	name = "Negative Numbers"
-	category = culture
-	portrait = engineering
-	icon = research
-	year = 1545
-	prerequisites = {
-		mathematics
-		university
-	}
-	modifier = {
-		research_output_modifier = 5
 	}
 }

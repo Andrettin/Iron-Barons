@@ -24,7 +24,6 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 		moneylending
 		
 		astronomy
-		cubic_equations
 	}
 	modifier = {
 		research_output_modifier = 5
