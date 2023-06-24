@@ -11,6 +11,17 @@ road_construction = {
 	}
 }
 
+bridge_building = {
+	name = "Bridge Building"
+	category = industry
+	portrait = engineering
+	icon = road
+	year = -1000
+	prerequisites = {
+		road_construction
+	}
+}
+
 high_pressure_steam_engine = {
 	name = "High Pressure Steam Engine"
 	category = industry
@@ -29,6 +40,7 @@ iron_railroad_bridge = {
 	portrait = engineering
 	icon = railroad
 	prerequisites = {
+		bridge_building
 		high_pressure_steam_engine
 	}
 }
