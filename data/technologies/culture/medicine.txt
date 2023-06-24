@@ -1,27 +1,11 @@
-anatomy = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 211.
-	name = "Anatomy"
+medicine = {
+	name = "Medicine"
 	category = culture
 	portrait = engineering
 	icon = heart
-	year = 1543
+	year = 1543 #modern anatomy; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 211.
+	#year = 1545 #surgery; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 212-213.
 	prerequisites = {
 		university
-	}
-	modifier = {
-		research_output_modifier = 5
-	}
-}
-
-surgery = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 212-213.
-	name = "Surgery"
-	category = culture
-	portrait = engineering
-	icon = heart
-	year = 1545
-	prerequisites = {
-		university
-	}
-	modifier = {
-		land_recovery_modifier = 5
 	}
 }

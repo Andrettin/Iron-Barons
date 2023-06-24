@@ -25,7 +25,7 @@ andreas_vesalius = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	gender = male
 	birth_date = 1514
 	death_date = 1564
-	required_technology = anatomy #revolutionized the understanding of anatomy
+	required_technology = medicine #revolutionized the understanding of anatomy
 	skill = 5
 	
 	history = {

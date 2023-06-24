@@ -35,7 +35,7 @@ ambroise_pare = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	gender = male
 	birth_date = 1510
 	death_date = 1590
-	required_technology = surgery
+	required_technology = medicine
 	skill = 4
 	
 	#considered the father of rational surgery

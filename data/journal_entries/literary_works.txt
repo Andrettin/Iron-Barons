@@ -5,7 +5,7 @@ de_corporis_humani_fabrica = {
 		andreas_vesalius
 	}
 	researched_technologies = {
-		anatomy
+		medicine
 	}
 	completion_effects = {
 		research += 1
