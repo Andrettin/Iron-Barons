@@ -201,6 +201,10 @@ Item {
 			
 			text += ") "
 			
+			if (pathway !== null) {
+				text += "(" + pathway.name + ") "
+			}
+			
 			if (explored) {
 				if (site !== null && (improvement !== null || resource !== null || site.settlement)) {
 					text += site.game_data.current_cultural_name
