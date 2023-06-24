@@ -9,4 +9,5 @@ bronze_foundry = {
 	base_capacity = 8
 	capacity_increment = 8
 	expandable = true
+	required_technology = bronzeworking
 }

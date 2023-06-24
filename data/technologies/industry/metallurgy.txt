@@ -1,3 +1,22 @@
+bronzeworking = {
+	name = "Bronzeworking"
+	category = industry
+	portrait = engineering
+	icon = bronze
+	year = -4000
+}
+
+ironworking = {
+	name = "Ironworking"
+	category = industry
+	portrait = engineering
+	icon = iron
+	year = -1000
+	prerequisites = {
+		bronzeworking
+	}
+}
+
 crucible_process = {
 	name = "Crucible Process"
 	category = industry
@@ -5,6 +24,7 @@ crucible_process = {
 	icon = steel
 	year = 1650
 	prerequisites = {
+		ironworking
 		steam_in_mining
 		large_coal_mines
 	}
