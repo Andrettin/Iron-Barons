@@ -2,3 +2,8 @@ iron_ore = {
 	name = "Iron Ore"
 	icon = iron_ore
 }
+
+cast_iron = {
+	name = "Cast Iron"
+	icon = iron
+}
