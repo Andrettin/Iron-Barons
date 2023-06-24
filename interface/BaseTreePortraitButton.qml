@@ -43,8 +43,21 @@ Item {
 		//transparent: parent.transparent
 		//disabled: parent.disabled
 		
-		onClicked: {
-			parent.clicked()
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true
+			
+			onEntered: {
+				status_text = name
+			}
+			
+			onExited: {
+				status_text = ""
+			}
+			
+			onReleased: {
+				parent.parent.clicked()
+			}
 		}
 	}
 	
