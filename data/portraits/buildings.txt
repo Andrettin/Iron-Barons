@@ -1,3 +1,7 @@
+aristocratic_palace = {
+	filepath = "portraits/buildings/aristocratic_palace.png"
+}
+
 building_slot = {
 	filepath = "portraits/buildings/building_slot.png"
 }
@@ -16,6 +20,10 @@ factory = {
 
 fort = {
 	filepath = "portraits/buildings/fort.png"
+}
+
+temple = {
+	filepath = "portraits/buildings/temple.png"
 }
 
 town = {
