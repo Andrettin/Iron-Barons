@@ -1,3 +1,14 @@
+coinage = {
+	name = "Coinage"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = -1000
+	prerequisites = {
+		bronzeworking
+	}
+}
+
 merchant_companies = {
 	name = "Merchant Companies"
 	category = finance
@@ -5,6 +16,7 @@ merchant_companies = {
 	icon = wealth
 	year = 1500
 	prerequisites = {
+		coinage
 		cartography
 		
 		university

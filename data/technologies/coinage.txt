@@ -1,5 +1,0 @@
-#coinage = {
-#	name = "Coinage"
-#	category = finance
-#	portrait = coinage
-#}

@@ -4,6 +4,7 @@ market = {
 	portrait = trading_post
 	icon = wealth
 	provincial = true
+	required_technology = coinage
 	province_modifier = {
 		trade_output_modifier = 50
 	}
