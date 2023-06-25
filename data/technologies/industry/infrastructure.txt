@@ -18,7 +18,9 @@ bridge_building = {
 	icon = road
 	year = -1000
 	prerequisites = {
-		road_construction
+		ironworking
+		
+		#road_construction
 	}
 }
 
