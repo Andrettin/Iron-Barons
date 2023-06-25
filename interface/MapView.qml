@@ -216,6 +216,13 @@ Item {
 		
 		function onCurrent_research_choosable(potential_technologies) {
 			research_choice_dialog.potential_technologies = potential_technologies
+			research_choice_dialog.free_technology = false
+			research_choice_dialog.open()
+		}
+		
+		function onFree_technology_choosable(potential_technologies) {
+			research_choice_dialog.potential_technologies = potential_technologies
+			research_choice_dialog.free_technology = true
 			research_choice_dialog.open()
 		}
 		
@@ -239,7 +246,7 @@ Item {
 				portrait_object: metternich.defines.interior_minister_portrait,
 				text: technology.discovery ? ("Your Excellency, we have discovered " + technology.name + "!") : ("Your Excellency, our scholars have made a breakthrough in the research of the " + technology.name + " technology!"),
 				on_closed: () => {
-					if (!technology.discovery) {
+					if (!technology.discovery && !(menu_stack.currentItem instanceof TechnologyView)) {
 						menu_stack.push("TechnologyView.qml")
 					}
 				}
