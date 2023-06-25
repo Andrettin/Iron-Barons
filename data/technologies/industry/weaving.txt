@@ -20,7 +20,7 @@ spinning_jenny = {
 	prerequisites = {
 		scientific_sheep_breeding
 		industrial_machinery
-		feed_grasses
+		#feed_grasses
 	}
 	modifier = {
 		fabric_throughput_modifier = 5

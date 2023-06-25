@@ -28,6 +28,8 @@ efficient_extraction_of_copper_and_tin = {
 	year = 1700
 	prerequisites = {
 		large_copper_and_tin_mines
-		large_coal_mines
+		#large_coal_mines
+		
+		square_set_timbering
 	}
 }

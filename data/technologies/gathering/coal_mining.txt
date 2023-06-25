@@ -17,7 +17,7 @@ large_coal_mines = {
 	year = 1600
 	prerequisites = {
 		coal_mining
-		steam_in_mining
+		#steam_in_mining
 	}
 }
 
@@ -29,7 +29,7 @@ square_set_timbering = {
 	year = 1650
 	prerequisites = {
 		large_coal_mines
-		high_pressure_steam_engine
+		#high_pressure_steam_engine
 	}
 }
 
