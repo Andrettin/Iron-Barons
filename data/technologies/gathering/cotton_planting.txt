@@ -40,7 +40,5 @@ cotton_gin = {
 	prerequisites = {
 		large_cotton_plantations
 		trained_journeymen
-		#engineering
-		#scientific_method
 	}
 }

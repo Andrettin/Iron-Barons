@@ -7,7 +7,6 @@ moneylending = {
 	prerequisites = {
 		merchant_companies
 		land_enclosure
-		#coinage
 	}
 }
 

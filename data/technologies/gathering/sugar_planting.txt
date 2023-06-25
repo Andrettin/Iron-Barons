@@ -39,7 +39,5 @@ sugar_industry = {
 	year = 1600
 	prerequisites = {
 		large_sugar_plantations
-		#engineering
-		#scientific_method
 	}
 }

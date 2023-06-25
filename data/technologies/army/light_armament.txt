@@ -43,8 +43,6 @@ bayonet = {
 	prerequisites = {
 		halberd
 		crucible_process
-		#gunpowder
-		#engineering
 	}
 }
 

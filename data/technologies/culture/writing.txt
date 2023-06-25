@@ -14,7 +14,5 @@ printing_press = {
 	year = 1550
 	prerequisites = {
 		saw_mill
-		#engineering
-		#scientific_method
 	}
 }

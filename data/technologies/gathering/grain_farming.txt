@@ -30,9 +30,6 @@ seed_drill = {
 	year = 1550
 	prerequisites = {
 		land_enclosure
-		#iron_plow
-		#engineering
-		#scientific_method
 	}
 }
 
@@ -44,8 +41,6 @@ moldboard_plow = {
 	year = 1600
 	prerequisites = {
 		seed_drill
-		#iron_plow
-		#crucible_process
 	}
 }
 

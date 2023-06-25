@@ -40,6 +40,5 @@ amalgamation_process = {
 	prerequisites = {
 		extraction_of_precious_metals
 		dynamite
-		#chemistry
 	}
 }
