@@ -5,7 +5,7 @@ university = {
 	icon = university
 	year = 1000
 	prerequisites = {
-		mathematics
+		philosophy
 		
 		#printing_press
 		#apprentice_workers

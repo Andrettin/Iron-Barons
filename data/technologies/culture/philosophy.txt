@@ -1,3 +1,15 @@
+philosophy = {
+	name = "Philosophy"
+	category = culture
+	portrait = scholar
+	icon = philosophy
+	year = -1000
+	free_technology = true
+	prerequisites = {
+		writing
+	}
+}
+
 invention = {
 	name = "Invention"
 	category = culture
