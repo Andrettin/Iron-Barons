@@ -11,7 +11,7 @@ improved_whaling_wharf = {
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	output_multiplier = 2
 	required_improvement = whaling_wharf
-	required_technology = gillnets
+	required_technology = seafaring
 }
 
 advanced_whaling_wharf = {
@@ -20,7 +20,7 @@ advanced_whaling_wharf = {
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	output_multiplier = 3
 	required_improvement = improved_whaling_wharf
-	required_technology = gillnets
+	required_technology = cartography
 }
 
 industrial_whaling_wharf = {
@@ -29,5 +29,5 @@ industrial_whaling_wharf = {
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	output_multiplier = 4
 	required_improvement = advanced_whaling_wharf
-	required_technology = gillnets
+	required_technology = cartography
 }

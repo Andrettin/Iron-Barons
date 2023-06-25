@@ -1,14 +1,3 @@
-plow = {
-	name = "Plow"
-	category = gathering
-	portrait = engineering
-	icon = grain
-	year = -4000
-	modifier = {
-		grain_output_modifier = 5
-	}
-}
-
 land_enclosure = {
 	name = "Land Enclosure"
 	category = gathering
@@ -16,8 +5,6 @@ land_enclosure = {
 	icon = grain
 	year = 1500
 	prerequisites = {
-		plow
-		
 		chivalry
 	}
 }

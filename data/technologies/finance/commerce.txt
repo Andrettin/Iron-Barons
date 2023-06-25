@@ -5,7 +5,7 @@ merchant_companies = {
 	icon = wealth
 	year = 1500
 	prerequisites = {
-		gillnets
+		cartography
 		
 		university
 	}

@@ -5,8 +5,6 @@ crop_rotation = {
 	icon = cattle
 	year = 1500
 	prerequisites = {
-		plow
-		
 		chivalry
 	}
 }

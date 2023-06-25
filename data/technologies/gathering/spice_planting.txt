@@ -16,7 +16,8 @@ improved_sea_routes = {
 	prerequisites = {
 		spices
 		
-		chivalry
+		cartography
+		university
 	}
 }
 

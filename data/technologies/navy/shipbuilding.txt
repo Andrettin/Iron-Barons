@@ -5,8 +5,7 @@ superior_hull_design = {
 	icon = anchor
 	year = 1500
 	prerequisites = {
-		gillnets
-		double_bit_axe
+		cartography
 		invention
 	}
 }
