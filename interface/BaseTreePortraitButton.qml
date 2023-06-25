@@ -7,6 +7,7 @@ Item {
 	readonly property string name: entry.full_name ? entry.full_name : entry.name
 	readonly property int horizontal_padding: 8 * scale_factor
 	readonly property int vertical_padding: 32 * scale_factor
+	readonly property int top_offset: -vertical_padding
 	property int button_x: 0
 	property int button_y: 0
 	property int button_width: 1 //the width in buttons
@@ -15,7 +16,7 @@ Item {
 	property int parent_button_y: 0
 	property int parent_button_width: 1
 	readonly property int parent_x: parent_button_x * width + (parent_button_width - 1) * width / 2 + horizontal_padding
-	readonly property int parent_y: parent_button_y * height + vertical_padding
+	readonly property int parent_y: parent_button_y * height + vertical_padding + top_offset
 	property string parent_name: ""
 	readonly property int parent_text_height: parent_text_height_reference.contentHeight + 2 * scale_factor * 2
 	property bool tree_line_visible: true
@@ -30,7 +31,7 @@ Item {
 	width: portrait_button.width + horizontal_padding * 2
 	height: portrait_button.height + vertical_padding * 2
 	x: button_x * width + (button_width - 1) * width / 2 + horizontal_padding
-	y: button_y * height + vertical_padding
+	y: button_y * height + vertical_padding + top_offset
 	z: -button_y //make it so buttons farther below are on a lower Z level, so that their lines aren't drawn over upper buttons' text
 	
 	PortraitButton {
