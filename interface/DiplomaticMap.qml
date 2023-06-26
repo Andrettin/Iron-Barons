@@ -173,7 +173,7 @@ Flickable {
 			x: other_country.capital_province.capital_settlement.game_data.tile_pos.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - width / 2
 			y: other_country.capital_province.capital_settlement.game_data.tile_pos.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - height / 2
 			source: "image://icon/" + consulate.icon.identifier
-			visible: !reference_country.game_data.anarchy && !other_country.game_data.anarchy
+			visible: !reference_country.game_data.anarchy && !other_country.game_data.anarchy && diplomatic_map.mode === DiplomaticMap.Mode.Treaty
 			
 			readonly property var other_country: model.modelData.key
 			readonly property var consulate: model.modelData.value
