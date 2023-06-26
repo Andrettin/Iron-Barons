@@ -7,7 +7,7 @@ diplomatic_expertise = {
 	prerequisites = {
 		code_of_laws
 		cartography
-		university
+		trade
 	}
 }
 

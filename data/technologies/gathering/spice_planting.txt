@@ -17,7 +17,7 @@ improved_sea_routes = {
 		spices
 		
 		cartography
-		university
+		trade
 	}
 }
 

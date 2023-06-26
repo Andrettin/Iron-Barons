@@ -9,6 +9,18 @@ coinage = {
 	}
 }
 
+trade = {
+	name = "Trade"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 500
+	prerequisites = {
+		coinage
+		code_of_laws
+	}
+}
+
 merchant_companies = {
 	name = "Merchant Companies"
 	category = finance
@@ -16,10 +28,8 @@ merchant_companies = {
 	icon = wealth
 	year = 1500
 	prerequisites = {
-		coinage
+		trade
 		cartography
-		
-		university
 	}
 }
 

@@ -1,3 +1,19 @@
+marco_polo = {
+	name = "Marco"
+	surname = "Polo"
+	advisor_type = diplomat
+	culture = italian
+	religion = catholic
+	home_province = venetia
+	gender = male
+	birth_date = 1254.9.15
+	death_date = 1324.1.9
+	required_technology = trade
+	advisor_modifier = {
+		free_consulate = embassy
+	}
+}
+
 viridis_visconti = { #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
 	name = "Viridis"
 	dynasty = visconti
