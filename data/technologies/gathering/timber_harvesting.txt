@@ -6,6 +6,8 @@ saw_mill = {
 	year = 1500
 	prerequisites = {
 		invention
+		
+		university
 	}
 }
 

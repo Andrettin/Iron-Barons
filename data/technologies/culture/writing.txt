@@ -6,6 +6,18 @@ writing = {
 	year = -4000
 }
 
+literacy = {
+	name = "Literacy"
+	category = culture
+	portrait = engineering
+	icon = treaty
+	year = -1000
+	prerequisites = {
+		writing
+		code_of_laws
+	}
+}
+
 printing_press = {
 	name = "Printing Press"
 	category = culture

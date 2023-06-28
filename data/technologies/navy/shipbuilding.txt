@@ -7,6 +7,8 @@ superior_hull_design = {
 	prerequisites = {
 		cartography
 		invention
+		
+		university
 	}
 }
 

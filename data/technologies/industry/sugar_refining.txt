@@ -8,5 +8,7 @@ sugar_refining = {
 		sugar_cane
 		
 		invention
+		
+		university
 	}
 }

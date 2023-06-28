@@ -3,10 +3,10 @@ philosophy = {
 	category = culture
 	portrait = scholar
 	icon = philosophy
-	year = -1000
+	year = 1
 	free_technology = true
 	prerequisites = {
-		writing
+		literacy
 	}
 }
 
@@ -15,10 +15,11 @@ invention = {
 	category = culture
 	portrait = engineering
 	icon = cog
-	year = 1450
+	#year = 1450
+	year = 1
 	prerequisites = {
 		wheel
-		writing
+		literacy
 		
 		ironworking
 	}

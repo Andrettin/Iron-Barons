@@ -8,6 +8,8 @@ diplomatic_expertise = {
 		code_of_laws
 		cartography
 		trade
+		
+		university
 	}
 }
 

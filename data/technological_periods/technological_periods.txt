@@ -1,14 +1,28 @@
-4000_bc_1000_bc = {
+#Ancient Era
+
+4000_bc_2000_bc = {
 	start_year = -4000
+	end_year = -2000
+}
+
+2000_bc_1000_bc = {
+	start_year = -2000
 	end_year = -1000
 }
 
-1000_bc_500 = {
+#Classical Era
+
+1000_bc_1 = {
 	start_year = -1000
+	end_year = 1
+}
+
+1_500 = {
+	start_year = 1
 	end_year = 500
 }
 
-500_1500 = {
+500_1500 = { #Medieval Era
 	start_year = 500
 	end_year = 1500
 }

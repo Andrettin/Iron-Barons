@@ -3,7 +3,7 @@ coinage = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = -1000
+	year = -2000
 	prerequisites = {
 		bronzeworking
 	}
@@ -14,7 +14,7 @@ trade = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 500
+	year = -1000
 	prerequisites = {
 		coinage
 		code_of_laws
@@ -30,6 +30,8 @@ merchant_companies = {
 	prerequisites = {
 		trade
 		cartography
+		
+		university
 	}
 }
 

@@ -16,7 +16,7 @@ cotton_planting = {
 	prerequisites = {
 		cotton
 		
-		chivalry
+		university
 	}
 }
 

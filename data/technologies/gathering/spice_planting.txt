@@ -18,6 +18,7 @@ improved_sea_routes = {
 		
 		cartography
 		trade
+		university
 	}
 }
 

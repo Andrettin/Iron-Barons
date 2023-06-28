@@ -16,7 +16,7 @@ sugar_planting = {
 	prerequisites = {
 		sugar_cane
 		
-		chivalry
+		university
 	}
 }
 

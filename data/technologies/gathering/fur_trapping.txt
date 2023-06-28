@@ -16,7 +16,7 @@ improved_trapping_techniques = {
 	prerequisites = {
 		furs
 		
-		chivalry
+		university
 	}
 }
 

@@ -11,7 +11,7 @@ cartography = {
 	category = navy
 	portrait = unload
 	icon = globe
-	year = -1000
+	year = -2000
 	prerequisites = {
 		seafaring
 		writing

@@ -3,7 +3,7 @@ chivalry = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1000
+	year = -1000
 	prerequisites = {
 		wheel #since this technology enables knights, which upgrade from chariots
 		code_of_laws

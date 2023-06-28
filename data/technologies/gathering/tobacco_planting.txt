@@ -16,7 +16,7 @@ tobacco_planting = {
 	prerequisites = {
 		tobacco
 		
-		chivalry
+		university
 	}
 }
 

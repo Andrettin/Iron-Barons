@@ -3,7 +3,7 @@ code_of_laws = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = -1000
+	year = -2000
 	prerequisites = {
 		writing
 	}

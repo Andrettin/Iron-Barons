@@ -8,6 +8,8 @@ cotton_weaving = {
 		cotton
 		
 		invention
+		
+		university
 	}
 }
 

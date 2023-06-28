@@ -8,5 +8,7 @@ cigar_production = {
 		tobacco
 		
 		invention
+		
+		university
 	}
 }

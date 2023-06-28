@@ -1,0 +1,9 @@
+great_library = {
+	name = "Great Library"
+	portrait = university
+	building = library
+	required_technology = literacy
+	country_modifier = {
+		gain_technologies_known_by_others = true
+	}
+}

@@ -8,5 +8,7 @@ fur_hat_production = {
 		furs
 		
 		invention
+		
+		university
 	}
 }
