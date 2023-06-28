@@ -190,17 +190,18 @@ Rectangle {
 				model: province_game_data ? province_game_data.building_slots : []
 				
 				PortraitGridItem {
-					portrait_identifier: building ? building.portrait.identifier : "building_slot"
+					portrait_identifier: wonder ? wonder.portrait.identifier : (building ? building.portrait.identifier : "building_slot")
 					
 					readonly property var building_slot: model.modelData
 					readonly property var building: building_slot.building
+					readonly property var wonder: building_slot.wonder
 					
 					Image {
 						id: under_construction_icon
 						anchors.horizontalCenter: parent.horizontalCenter
 						anchors.verticalCenter: parent.verticalCenter
 						source: "image://icon/cog"
-						visible: building_slot.under_construction_building !== null
+						visible: building_slot.under_construction_building !== null || building_slot.under_construction_wonder !== null
 					}
 					
 					onClicked: {
@@ -212,7 +213,9 @@ Rectangle {
 					}
 					
 					onEntered: {
-						if (building !== null) {
+						if (wonder !== null) {
+							status_text = wonder.name
+						} else if (building !== null) {
 							status_text = building.name
 						} else {
 							status_text = building_slot.type.name + " Slot"
