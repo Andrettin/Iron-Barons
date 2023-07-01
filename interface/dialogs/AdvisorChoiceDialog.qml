@@ -38,7 +38,7 @@ DialogBase {
 				id: advisor_button
 				text: format_text(advisor.full_name)
 				width: advisor_choice_dialog.width - 16 * scale_factor
-				tooltip: format_text(small_text(advisor.advisor_modifier_string))
+				tooltip: format_text(small_text(advisor.get_advisor_effects_string(metternich.game.player_country)))
 				
 				readonly property var advisor: model.modelData
 				
