@@ -163,3 +163,19 @@ isaac_newton = {
 		research_output_modifier = 50
 	}
 }
+
+charles_darwin = {
+	name = "Charles"
+	surname = "Darwin"
+	advisor_type = natural_scientist
+	culture = english
+	religion = protestant
+	home_province = warwickshire
+	gender = male
+	birth_date = 1809
+	death_date = 1882
+	required_technology = merchant_steamships
+	advisor_effects = {
+		free_technologies = 2
+	}
+}
