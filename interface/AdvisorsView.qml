@@ -67,7 +67,7 @@ Item {
 				
 				onClicked: {
 					character_dialog.character = advisor
-					character_dialog.modifier_string = advisor.advisor_modifier_string
+					character_dialog.modifier_string = advisor.get_advisor_effects_string(country)
 					character_dialog.open()
 				}
 				
