@@ -5,6 +5,7 @@ gustav_adolf_of_sweden = {
 		or = {
 			culture = swedish
 			culture = english
+			culture = german
 		}
 		is_ruler = true
 	}
