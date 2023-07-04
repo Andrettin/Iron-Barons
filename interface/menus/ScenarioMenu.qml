@@ -143,7 +143,6 @@ MenuBase {
 					"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
 				) : "")
 				+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
-				+ (selected_country.game_data.ruler ? ("\nRuler: " + selected_country.game_data.ruler.full_name) : "")
 				+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 				+ "\nPopulation: " + number_string(selected_country.game_data.population)
 				+ (vassal_count > 0 ? (
@@ -170,6 +169,26 @@ MenuBase {
 				return str
 			}
 		}
+	}
+	
+	SmallText {
+		id: ruler_label
+		anchors.top: population_type_chart_label.top
+		anchors.horizontalCenter: ruler_portrait.horizontalCenter
+		text: "Ruler"
+		visible: ruler_portrait.visible
+	}
+	
+	PortraitButton {
+		id: ruler_portrait
+		anchors.top: population_type_chart.top
+		anchors.topMargin: 8 * scale_factor
+		anchors.right: population_type_chart.left
+		anchors.rightMargin: 32 * scale_factor
+		portrait_identifier: selected_country && selected_country.game_data.ruler ? selected_country.game_data.ruler.game_data.portrait.identifier : ""
+		visible: selected_country && selected_country.game_data.ruler
+		tooltip: selected_country && selected_country.game_data.ruler ? selected_country.game_data.ruler.full_name : ""
+		circle: true
 	}
 	
 	SmallText {
