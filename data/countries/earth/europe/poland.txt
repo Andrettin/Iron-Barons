@@ -15,6 +15,14 @@ poland = {
 	}
 	
 	history = {
+		1548.4.2 = {
+			ruler = zygmunt_ii_of_poland
+		}
+		
+		1733.10.5 = {
+			ruler = august_iii_of_poland
+		}
+		
 		1815 = {
 			#subject to the Russian Empire in 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 			diplomacy_state = {

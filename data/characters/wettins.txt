@@ -17,9 +17,9 @@ friedrich_ii_of_saxony = {
 	}
 }
 
-friedrich_august_ii_of_saxony = {
-	name = "Friedrich August"
-	epithet = "II"
+august_iii_of_poland = {
+	name = "August"
+	epithet = "III"
 	dynasty = wettin
 	culture = german #Thuringian
 	religion = catholic
@@ -29,6 +29,7 @@ friedrich_august_ii_of_saxony = {
 	death_date = 1763.10.5
 	required_technology = nationalism
 	rulable_countries = {
+		poland
 		saxony
 	}
 	traits = {

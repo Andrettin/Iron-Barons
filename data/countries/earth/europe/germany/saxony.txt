@@ -19,7 +19,11 @@ saxony = {
 		}
 		
 		1733.2.1 = {
-			ruler = friedrich_august_ii_of_saxony
+			ruler = august_iii_of_poland
+		}
+		
+		1733.10.5 = {
+			ruler = none #August III became king of Poland
 		}
 	}
 }
