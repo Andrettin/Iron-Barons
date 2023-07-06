@@ -234,16 +234,32 @@ Rectangle {
 	
 	SmallText {
 		id: site_info_text
-		anchors.top: province_game_data ? scripted_modifiers_grid.bottom : subtitle.bottom
+		anchors.top: subtitle.bottom
 		anchors.topMargin: 16 * scale_factor
-		anchors.left: parent.left
-		anchors.leftMargin: 12 * scale_factor
-		text: province_game_data ? (
-			""
-		) : (selected_site_game_data ? (
-			(selected_site_game_data.output > 0 ? ("Output: " + selected_site_game_data.output) : "")
-		) : "")
-		visible: selected_site && !selected_garrison
+		anchors.horizontalCenter: parent.horizontalCenter
+		text: format_text(
+			selected_site_game_data ? (
+				(selected_site_game_data.commodity_outputs.length > 0 ? get_commodity_outputs_string(selected_site_game_data.commodity_outputs) : "")
+			) : ""
+		)
+		visible: selected_site && !selected_garrison && !selected_site.settlement
+		
+		function get_commodity_outputs_string(commodity_outputs) {
+			var str = ""
+			
+			for (var kv_pair of commodity_outputs) {
+				var commodity = kv_pair.key
+				var output = kv_pair.value
+				
+				if (str.length > 0) {
+					str += "\n"
+				}
+				
+				str += commodity.name + " Output: " + output
+			}
+			
+			return str
+		}
 	}
 	
 	CivilianUnitInfoArea {
