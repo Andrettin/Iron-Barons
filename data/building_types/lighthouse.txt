@@ -1,0 +1,15 @@
+lighthouse = {
+	name = "Lighthouse"
+	building_class = lighthouse
+	portrait = dock
+	icon = anchor
+	provincial = true
+	required_technology = cartography
+	province_conditions = {
+		coastal = true
+	}
+	province_modifier = {
+		fish_per_improved_fish = 1
+		fish_per_improved_whales = 1
+	}
+}
