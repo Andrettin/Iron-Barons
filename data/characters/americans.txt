@@ -76,6 +76,7 @@ john_jacob_astor = {
 	gender = male
 	birth_date = 1763
 	death_date = 1848
+	required_technology = excessive_fur_harvesting
 	conditions = {
 		produces_commodity = furs
 	}
@@ -94,10 +95,30 @@ eli_whitney = {
 	gender = male
 	birth_date = 1765
 	death_date = 1825
+	required_technology = cotton_gin
 	conditions = {
 		produces_commodity = cotton
 	}
 	advisor_modifier = {
 		cotton_output_modifier = 50
+	}
+}
+
+cyrus_mccormick = {
+	name = "Cyrus"
+	surname = "McCormick"
+	advisor_type = natural_scientist
+	culture = english
+	religion = protestant
+	home_province = illinois
+	gender = male
+	birth_date = 1809
+	death_date = 1884
+	required_technology = mechanical_reaper
+	advisor_modifier = {
+		grain_bonus_for_tile_threshold = 2
+		potatoes_bonus_for_tile_threshold = 2
+		fruit_bonus_for_tile_threshold = 2
+		sugar_cane_output_modifier = 50
 	}
 }
