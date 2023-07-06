@@ -125,7 +125,7 @@ john_rolfe = {
 	gender = male
 	birth_date = 1585
 	death_date = 1622
-	required_technology = tobacco
+	required_technology = large_tobacco_plantations
 	conditions = {
 		produces_commodity = tobacco
 	}
