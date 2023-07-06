@@ -9,7 +9,6 @@ lighthouse = {
 		coastal = true
 	}
 	province_modifier = {
-		fish_per_improved_fish = 1
-		fish_per_improved_whales = 1
+		fish_bonus_for_tile_threshold = 1
 	}
 }
