@@ -1,7 +1,7 @@
 ialysus = {
 	name = "Ialysus"
 	world = earth
-	geocoordinate = { 28.143 36.399 }
+	#geocoordinate = { 28.143 36.399 }
 	
 	history = {
 		-1450 = {

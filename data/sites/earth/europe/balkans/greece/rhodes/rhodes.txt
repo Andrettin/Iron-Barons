@@ -1,0 +1,11 @@
+rhodes = {
+	name = "Rhodes"
+	world = earth
+	geocoordinate = { 28.22250443390 36.44122397770 } #from Natural Earth
+	
+	history = {
+		-280 = {
+			wonders += colossus
+		}
+	}
+}
