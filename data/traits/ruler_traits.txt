@@ -16,6 +16,15 @@ disciplined = {
 	}
 }
 
+financial = {
+	name = "Financial"
+	type = background
+	icon = chest
+	ruler_modifier = {
+		trade_bonus_for_tile_threshold = 2
+	}
+}
+
 industrious = {
 	name = "Industrious"
 	type = personality
