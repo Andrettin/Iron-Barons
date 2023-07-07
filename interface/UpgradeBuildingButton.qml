@@ -8,9 +8,9 @@ IconButton {
 	
 	onReleased: {
 		if (building_slot.under_construction_building) {
-			building_slot.under_construction_building = null
+			building_slot.cancel_construction()
 		} else {
-			building_slot.under_construction_building = building_slot.get_buildable_building()
+			building_slot.build_building(building_slot.get_buildable_building())
 		}
 		
 		update_status_text()

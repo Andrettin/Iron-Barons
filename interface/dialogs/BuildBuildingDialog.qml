@@ -25,7 +25,7 @@ DialogBase {
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "Yes"
 		onClicked: {
-			building_slot.under_construction_building = building
+			building_slot.build_building(building)
 			build_building_dialog.close()
 		}
 	}
@@ -37,7 +37,7 @@ DialogBase {
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "No"
 		onClicked: {
-			building_slot.under_construction_building = null
+			building_slot.cancel_construction()
 			build_building_dialog.close()
 		}
 	}
