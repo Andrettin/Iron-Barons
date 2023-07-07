@@ -1,0 +1,11 @@
+bank = {
+	name = "Bank"
+	building_class = bank
+	portrait = trading_post
+	icon = wealth
+	provincial = true
+	required_technology = banking
+	province_modifier = {
+		trade_output_modifier = 50
+	}
+}
