@@ -5,6 +5,14 @@ bank = {
 	icon = wealth
 	provincial = true
 	required_technology = banking
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = financial
+			}
+		}
+	}
 	province_modifier = {
 		trade_output_modifier = 50
 	}
