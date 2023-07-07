@@ -194,8 +194,8 @@ Flickable {
 	}
 	
 	function center_on_tile_pos(tile_x, tile_y) {
-		var pixel_x = tile_x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.width / 2
-		var pixel_y = tile_y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.height / 2
+		var pixel_x = Math.round(tile_x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.width / 2)
+		var pixel_y = Math.round(tile_y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - diplomatic_map.height / 2)
 		
 		diplomatic_map.contentX = Math.min(Math.max(pixel_x, 0), diplomatic_map.contentWidth - diplomatic_map.width)
 		diplomatic_map.contentY = Math.min(Math.max(pixel_y, 0), diplomatic_map.contentHeight - diplomatic_map.height)
