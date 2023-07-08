@@ -1,0 +1,9 @@
+armament_production = {
+	name = "Armament Production"
+	input_commodities = {
+		labor = 2
+		steel = 2
+	}
+	output_commodity = armament
+	output_value = 1
+}
