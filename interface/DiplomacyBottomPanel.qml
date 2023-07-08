@@ -6,6 +6,8 @@ Rectangle {
 	color: interface_background_color
 	height: 192 * scale_factor
 	
+	readonly property var selected_country_ruler: selected_country_game_data ? selected_country_game_data.ruler : null
+	
 	Rectangle {
 		color: "gray"
 		anchors.left: parent.left
@@ -61,24 +63,43 @@ Rectangle {
 	
 	SmallText {
 		id: country_text
-		text: format_text(selected_country ? (
+		text: format_text(selected_country && selected_country_game_data ? (
 			selected_country.name
 			+ "\n"
-			+ "\n" + selected_country.game_data.type_name
-			+ (selected_country.game_data.overlord ? (
-				"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
+			+ "\n" + selected_country_game_data.type_name
+			+ (selected_country_game_data.overlord ? (
+				"\n" + selected_country_game_data.vassalage_type_name + " of " + selected_country_game_data.overlord.name
 			) : "")
-			+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
-			+ (selected_country.game_data.ruler ? ("\nRuler: " + selected_country.game_data.ruler.full_name) : "")
-			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
-			+ "\nPopulation: " + number_string(selected_country.game_data.population)
-			+ "\nPopulation Growth: " + selected_country.game_data.population_growth + "/" + metternich.defines.population_growth_threshold
-			+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
+			+ (selected_country_game_data.anarchy ? "\nAnarchy" : "")
+			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country_game_data.score) + " (#" + (selected_country_game_data.rank + 1) + ")") : "")
+			+ "\nPopulation: " + number_string(selected_country_game_data.population)
+			+ "\nPopulation Growth: " + selected_country_game_data.population_growth + "/" + metternich.defines.population_growth_threshold
+			+ "\n" + selected_country_game_data.provinces.length + " " + (selected_country_game_data.provinces.length > 1 ? "Provinces" : "Province")
 		) : "")
 		anchors.left: bottom_panel.left
 		anchors.leftMargin: 16 * scale_factor
 		anchors.top: bottom_panel.top
 		anchors.topMargin: 16 * scale_factor
+	}
+	
+	SmallText {
+		id: ruler_label
+		anchors.top: population_type_chart_label.top
+		anchors.horizontalCenter: ruler_portrait.horizontalCenter
+		text: "Ruler"
+		visible: ruler_portrait.visible
+	}
+	
+	PortraitButton {
+		id: ruler_portrait
+		anchors.top: population_type_chart.top
+		anchors.topMargin: 8 * scale_factor
+		anchors.right: population_type_chart.left
+		anchors.rightMargin: 32 * scale_factor
+		portrait_identifier: selected_country_ruler && selected_country_ruler.game_data.portrait ? selected_country_ruler.game_data.portrait.identifier : ""
+		visible: selected_country_ruler !== null
+		tooltip: selected_country_ruler ? selected_country_ruler.full_name : ""
+		circle: true
 	}
 	
 	SmallText {
@@ -95,7 +116,7 @@ Rectangle {
 		anchors.right: culture_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country ? selected_country.game_data : null
+		data_source: selected_country_game_data
 	}
 	
 	SmallText {
@@ -113,7 +134,7 @@ Rectangle {
 		anchors.right: religion_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country ? selected_country.game_data : null
+		data_source: selected_country_game_data
 	}
 	
 	SmallText {
@@ -130,7 +151,7 @@ Rectangle {
 		anchors.right: phenotype_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country ? selected_country.game_data : null
+		data_source: selected_country_game_data
 	}
 	
 	SmallText {
@@ -147,7 +168,7 @@ Rectangle {
 		anchors.right: political_map_mode_button.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country ? selected_country.game_data : null
+		data_source: selected_country_game_data
 	}
 	
 	Row {
