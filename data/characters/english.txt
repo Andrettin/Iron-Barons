@@ -74,6 +74,7 @@ elizabeth_i_of_england = {
 	gender = female
 	birth_date = 1533
 	death_date = 1603
+	obsolescence_technology = individualism
 	rulable_countries = {
 		england
 		great_britain
@@ -197,5 +198,24 @@ charles_darwin = {
 	required_technology = merchant_steamships
 	advisor_effects = {
 		free_technologies = 2
+	}
+}
+
+victoria_i_of_great_britain = {
+	name = "Victoria"
+	epithet = "I"
+	culture = english
+	religion = protestant
+	home_province = middlesex
+	gender = female
+	birth_date = 1819
+	death_date = 1901
+	required_technology = individualism
+	rulable_countries = {
+		england
+		great_britain
+	}
+	traits = {
+		financial
 	}
 }
