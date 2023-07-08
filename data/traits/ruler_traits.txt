@@ -52,6 +52,15 @@ narrow_minded = {
 	}
 }
 
+philosophical = {
+	name = "Philosophical"
+	type = personality
+	icon = philosophy
+	ruler_modifier = {
+		civics_output_modifier = 25
+	}
+}
+
 scholar = {
 	name = "Scholar"
 	type = background

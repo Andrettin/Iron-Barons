@@ -20,6 +20,14 @@ university = {
 	provincial = true
 	required_building = college
 	required_technology = university
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = philosophical
+			}
+		}
+	}
 	production_types = {
 		researching
 	}
