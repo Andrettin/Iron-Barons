@@ -104,6 +104,24 @@ eli_whitney = {
 	}
 }
 
+abraham_lincoln = {
+	name = "Abraham"
+	surname = "Lincoln"
+	culture = english
+	religion = protestant
+	home_province = kentucky
+	gender = male
+	birth_date = 1809
+	death_date = 1865
+	required_technology = individualism
+	rulable_countries = {
+		united_states
+	}
+	traits = {
+		philosophical
+	}
+}
+
 cyrus_mccormick = {
 	name = "Cyrus"
 	surname = "McCormick"

@@ -10,3 +10,21 @@ basil_iii_of_russia = { #Source: Isaac Asimov, "Cronologia das Ciências e das D
 	#son of Ivan III of Russia
 	#became Czar of Russia in 1505
 }
+
+peter_the_great_of_russia = {
+	name = "Peter"
+	epithet = "the Great"
+	culture = russian
+	religion = orthodox
+	home_province = moscow
+	gender = male
+	birth_date = 1672
+	death_date = 1725
+	rulable_countries = {
+		russia
+		muscovy
+	}
+	traits = {
+		philosophical
+	}
+}

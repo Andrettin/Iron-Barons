@@ -64,3 +64,20 @@ jean_de_brebeuf = {
 	birth_date = 1593
 	death_date = 1649
 }
+
+louis_xiv_of_france = {
+	name = "Louis"
+	epithet = "XIV"
+	culture = french
+	religion = catholic
+	home_province = ile_de_france
+	gender = male
+	birth_date = 1638
+	death_date = 1715
+	rulable_countries = {
+		france
+	}
+	traits = {
+		industrious
+	}
+}

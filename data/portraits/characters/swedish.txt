@@ -4,9 +4,11 @@ gustav_adolf_of_sweden = {
 		gender = male
 		or = {
 			culture = swedish
+			culture = dutch
 			culture = english
 			culture = german
 			culture = polish
+			culture = russian
 		}
 		is_ruler = true
 	}

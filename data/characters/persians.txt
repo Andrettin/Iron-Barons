@@ -1,0 +1,16 @@
+darius_i_of_persia = {
+	name = "Darius"
+	epithet = "I"
+	culture = persian
+	religion = pagan
+	home_province = persia
+	gender = male
+	birth_date = -550
+	death_date = -486
+	rulable_countries = {
+		persia
+	}
+	traits = {
+		financial
+	}
+}
