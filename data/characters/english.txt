@@ -64,6 +64,26 @@ catherine_howard = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	death_date = 1542
 }
 
+elizabeth_i_of_england = {
+	name = "Elizabeth"
+	epithet = "I"
+	culture = english
+	religion = protestant
+	portrait = elizabeth_i_of_england
+	home_province = middlesex
+	gender = female
+	birth_date = 1533
+	death_date = 1603
+	rulable_countries = {
+		england
+		great_britain
+	}
+	traits = {
+		financial
+		philosophical
+	}
+}
+
 francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 	name = "Francis"
 	surname = "Bacon"
