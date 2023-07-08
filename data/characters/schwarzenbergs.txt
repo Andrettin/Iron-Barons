@@ -118,7 +118,7 @@ felix_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p
 	gender = male
 	birth_date = 1800
 	death_date = 1852
-	required_technology = nationalism
+	required_technology = paternalism
 	skill = 3
 	#nephew of Karl Philipp zu Schwarzenberg
 	
