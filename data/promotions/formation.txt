@@ -1,0 +1,10 @@
+formation = {
+	name = "Formation"
+	icon = crossed_sabers
+	conditions = {
+		promotion = veteran_2
+	}
+	modifier = {
+		bonus_vs_cavalry = 25
+	}
+}
