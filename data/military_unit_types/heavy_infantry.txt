@@ -35,6 +35,9 @@ grenadiers = {
 	movement = 4
 	entrench = true
 	required_technology = explosives
+	free_promotions = {
+		grenadier_1
+	}
 }
 
 guards = {

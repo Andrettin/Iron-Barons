@@ -1,7 +1,8 @@
 formation = {
 	name = "Formation"
-	icon = crossed_sabers
+	icon = saber
 	conditions = {
+		infantry = true
 		promotion = veteran_2
 	}
 	modifier = {

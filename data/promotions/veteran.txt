@@ -1,6 +1,6 @@
 veteran_1 = {
 	name = "Veteran I"
-	icon = crossed_sabers
+	icon = saber
 	modifier = {
 		damage_bonus = 10
 	}
@@ -8,7 +8,7 @@ veteran_1 = {
 
 veteran_2 = {
 	name = "Veteran II"
-	icon = crossed_sabers
+	icon = saber
 	conditions = {
 		promotion = veteran_1
 	}
@@ -19,7 +19,7 @@ veteran_2 = {
 
 veteran_3 = {
 	name = "Veteran III"
-	icon = crossed_sabers
+	icon = saber
 	conditions = {
 		promotion = veteran_2
 	}
