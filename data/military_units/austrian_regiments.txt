@@ -1,6 +1,6 @@
 austrian_3rd_infantry_regiment = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	type = regulars
-	owner = austria
+	country = austria
 	
 	history = {
 		1847 = { #existed as of 1847
@@ -11,7 +11,7 @@ austrian_3rd_infantry_regiment = { #Source: "Almanach de Gotha pour l'année 184
 
 austrian_4th_infantry_regiment = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
 	type = regulars
-	owner = austria
+	country = austria
 	
 	history = {
 		1847 = { #existed as of 1847
@@ -22,7 +22,7 @@ austrian_4th_infantry_regiment = { #Source: "Almanach de Gotha pour l'année 184
 
 austrian_3rd_dragoons_regiment = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	type = cuirassiers
-	owner = austria
+	country = austria
 	
 	history = {
 		1847 = { #existed as of 1847
@@ -33,7 +33,7 @@ austrian_3rd_dragoons_regiment = { #Source: "Almanach de Gotha pour l'année 184
 
 austrian_3rd_ulans_regiment = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	type = hussars
-	owner = austria
+	country = austria
 	
 	history = {
 		1847 = { #existed as of 1847
