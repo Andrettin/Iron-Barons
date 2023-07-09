@@ -43,5 +43,5 @@ armor = {
 	range = 12
 	defense = 20
 	movement = 9
-	required_technology = internal_combustion
+	required_technology = mobile_warfare
 }
