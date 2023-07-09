@@ -1,3 +1,12 @@
+aggressive = {
+	name = "Aggressive"
+	type = personality
+	icon = crossed_sabers
+	ruler_modifier = {
+		free_infantry_promotion = veteran_1
+	}
+}
+
 careful = {
 	name = "Careful"
 	type = personality
@@ -40,6 +49,15 @@ libertarian = {
 	icon = courthouse
 	ruler_modifier = {
 		civics_output_modifier = 25
+	}
+}
+
+militaristic = {
+	name = "Militaristic"
+	type = personality
+	icon = crossed_sabers
+	ruler_modifier = {
+		free_infantry_promotion = grenadier_1
 	}
 }
 
