@@ -1,3 +1,14 @@
+feudalism = {
+	name = "Feudalism"
+	category = culture
+	portrait = ducal_crown
+	icon = crown_ducal
+	year = -1000
+	prerequisites = {
+		code_of_laws
+	}
+}
+
 rights_of_man = {
 	name = "Rights of Man"
 	category = culture

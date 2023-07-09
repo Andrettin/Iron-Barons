@@ -8,5 +8,7 @@ national_bureaucracy = {
 		diplomatic_expertise
 		moneylending
 		printing_press
+		
+		feudalism
 	}
 }

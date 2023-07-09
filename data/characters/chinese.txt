@@ -1,0 +1,16 @@
+sun_tzu = {
+	name = "Sun Tzu"
+	advisor_type = army_reformer
+	culture = chinese
+	religion = pagan
+	home_province = shandong
+	gender = male
+	birth_date = -771
+	death_date = -256
+	required_technology = feudalism
+	advisor_modifier = {
+		free_infantry_promotion = veteran_1
+		free_cavalry_promotion = veteran_1
+		free_artillery_promotion = veteran_1
+	}
+}

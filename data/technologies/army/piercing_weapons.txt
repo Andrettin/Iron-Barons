@@ -3,9 +3,10 @@ pike = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = -1000
+	year = 1
 	prerequisites = {
 		ironworking
+		feudalism
 	}
 }
 
