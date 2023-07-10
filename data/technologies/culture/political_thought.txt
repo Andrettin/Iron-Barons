@@ -1,3 +1,15 @@
+republic = {
+	name = "Republic"
+	category = culture
+	portrait = grand_ducal_crown
+	icon = philosophy
+	year = 1
+	prerequisites = {
+		code_of_laws
+		literacy
+	}
+}
+
 feudalism = {
 	name = "Feudalism"
 	category = culture
