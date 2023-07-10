@@ -19,6 +19,9 @@ minutemen = {
 	defense = 4
 	movement = 4
 	entrench = true
+	free_promotions = {
+		minuteman_1
+	}
 }
 
 militia = {

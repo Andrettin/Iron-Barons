@@ -1,6 +1,6 @@
 grenadier_1 = {
 	name = "Grenadier I"
-	icon = saber
+	icon = musket
 	conditions = {
 		infantry = true
 	}
@@ -11,7 +11,7 @@ grenadier_1 = {
 
 grenadier_2 = {
 	name = "Grenadier II"
-	icon = cannon
+	icon = musket
 	conditions = {
 		infantry = true
 		promotion = grenadier_1
@@ -23,9 +23,9 @@ grenadier_2 = {
 
 grenadier_3 = {
 	name = "Grenadier III"
-	icon = cannon
+	icon = musket
 	conditions = {
-		artillery = true
+		infantry = true
 		promotion = grenadier_2
 	}
 	modifier = {
