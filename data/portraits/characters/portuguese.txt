@@ -4,7 +4,9 @@ henry_the_navigator = {
 		gender = male
 		or = {
 			culture = portuguese
+			culture = apache
 			culture = aztec
+			culture = tupi
 			culture = turkish
 		}
 		is_ruler = true

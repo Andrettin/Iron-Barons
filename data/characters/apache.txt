@@ -1,0 +1,16 @@
+mangas_coloradas = {
+	name = "Mangas Coloradas"
+	culture = apache
+	religion = pagan
+	home_province = new_mexico
+	gender = male
+	birth_date = 1793
+	death_date = 1863
+	rulable_countries = {
+		apache
+	}
+	traits = {
+		impressionable
+		indulgent
+	}
+}

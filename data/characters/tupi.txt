@@ -1,0 +1,15 @@
+cunhambebe = {
+	name = "Cunhambebe"
+	culture = tupi
+	religion = pagan
+	home_province = sao_paulo
+	gender = male
+	death_date = 1555
+	rulable_countries = {
+		tupi
+	}
+	traits = {
+		prosperous
+		indulgent
+	}
+}

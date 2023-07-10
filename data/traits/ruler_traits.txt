@@ -34,6 +34,24 @@ financial = {
 	}
 }
 
+impressionable = {
+	name = "Impressionable"
+	type = personality
+	icon = painting
+	ruler_modifier = {
+		free_infantry_promotion = grenadier_1
+	}
+}
+
+indulgent = {
+	name = "Indulgent"
+	type = personality
+	icon = treaty
+	ruler_modifier = {
+		free_infantry_promotion = formation
+	}
+}
+
 industrious = {
 	name = "Industrious"
 	type = personality
@@ -76,6 +94,15 @@ philosophical = {
 	icon = philosophy
 	ruler_modifier = {
 		civics_output_modifier = 25
+	}
+}
+
+prosperous = {
+	name = "Prosperous"
+	type = background
+	icon = wealth
+	ruler_modifier = {
+		free_infantry_promotion = minuteman_1
 	}
 }
 
