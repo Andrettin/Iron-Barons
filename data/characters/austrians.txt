@@ -10,6 +10,8 @@ ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 6, p. 366.
 	birth_date = 1406
 	death_date = 1456.11.9 #died at Belgrade on 1456.11.9
 	skill = 3
+	required_technology = feudalism
+	
 	#count of Cilli
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain
@@ -39,6 +41,7 @@ georg_peurbach = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 	birth_date = 1423
 	death_date = 1461
 	skill = 2
+	required_technology = astronomy
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain
 	description = "Austrian astronomer, Regiomontanus was his pupil at Vienna from 1452, and they jointly undertook a reform of astronomy rendered necessary by the errors they detected in the Alphonsine Tables."
@@ -65,6 +68,7 @@ andreas_stoberl = {
 	birth_date = 1465
 	death_date = 1515
 	skill = 2
+	required_technology = astronomy
 }
 
 johannes_cuspinianus = {
@@ -78,6 +82,7 @@ johannes_cuspinianus = {
 	birth_date = 1473
 	death_date = 1529
 	skill = 2
+	required_technology = medicine
 }
 
 georg_tannstetter = {
@@ -91,6 +96,7 @@ georg_tannstetter = {
 	birth_date = 1482
 	death_date = 1535.3.26
 	skill = 2
+	required_technology = mathematics
 }
 
 gerard_van_swieten = {
@@ -104,6 +110,7 @@ gerard_van_swieten = {
 	birth_date = 1700.5.7
 	death_date = 1772.6.18
 	skill = 2
+	required_technology = medicine
 }
 
 leopold_auenbrugger = {
@@ -117,6 +124,7 @@ leopold_auenbrugger = {
 	birth_date = 1722.11.19
 	death_date = 1809.5.17
 	skill = 3
+	required_technology = medicine
 }
 
 franz_mesmer = {
@@ -130,4 +138,5 @@ franz_mesmer = {
 	birth_date = 1734.5.23
 	death_date = 1815.3.5
 	skill = 3
+	required_technology = medicine
 }

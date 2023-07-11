@@ -10,6 +10,7 @@ nikolaus_von_kues = { #Source: "Encyclopædia Britannica", 1911, vol. 7, pp. 665
 	birth_date = 1401
 	death_date = 1464.8.11 #died at Lodi in Umbria on 1464.8.11
 	skill = 5
+	required_technology = astronomy
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain
 	description = "Cardinal, theologian and scholar, he was a member of the council of Basel, and was entrusted with various missions in the interests of Catholic unity. In 1448, in recognition of his services, Nicholas V. raised him to the cardinalate; and in 1450 he was appointed bishop of Brixen.\n\nAlthough one of the great leaders in the reform movement of the 15th century, Nikolaus von Kues' interest for later times lies in his philosophical much more than in his political or ecclesiastical activity. In mathematical and physical science Kues was much in advance of his age. He proposed the reform of the calendar after a method resembling that adopted by Gregory. Most noteworthy, however, in this connexion is the fact that he anticipated Copernicus by maintaining the theory of the rotation of the earth."
@@ -109,6 +110,7 @@ maximilian_hell = {
 	birth_date = 1720.5.15
 	death_date = 1792.4.14
 	skill = 3
+	required_technology = astronomy
 }
 
 franz_joseph_gall = {
@@ -121,6 +123,7 @@ franz_joseph_gall = {
 	gender = male
 	death_date = 1828.8.22
 	skill = 4
+	required_technology = medicine
 }
 
 johann_spurzheim = {
@@ -134,4 +137,5 @@ johann_spurzheim = {
 	birth_date = 1776.12.3
 	death_date = 1832
 	skill = 2
+	required_technology = medicine
 }
