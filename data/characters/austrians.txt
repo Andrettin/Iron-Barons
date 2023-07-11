@@ -53,3 +53,81 @@ georg_peurbach = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 		#published "Theoricae planetarum novae" in 1472 or 1473
 	}
 }
+
+andreas_stoberl = {
+	name = "Andreas"
+	surname = "Stoberl"
+	advisor_type = natural_scientist
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1465
+	death_date = 1515
+	skill = 2
+}
+
+johannes_cuspinianus = {
+	name = "Johannes"
+	surname = "Cuspinianus"
+	advisor_type = natural_scientist
+	culture = austrian
+	religion = catholic
+	home_site = linz
+	gender = male
+	birth_date = 1473
+	death_date = 1529
+	skill = 2
+}
+
+georg_tannstetter = {
+	name = "Georg"
+	surname = "Tannstetter"
+	advisor_type = natural_scientist
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1482
+	death_date = 1535.3.26
+	skill = 2
+}
+
+gerard_van_swieten = {
+	name = "Gerard"
+	surname = "van Swieten"
+	advisor_type = natural_scientist
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1700.5.7
+	death_date = 1772.6.18
+	skill = 2
+}
+
+leopold_auenbrugger = {
+	name = "Leopold"
+	surname = "Auenbrugger"
+	advisor_type = natural_scientist
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1722.11.19
+	death_date = 1809.5.17
+	skill = 3
+}
+
+franz_mesmer = {
+	name = "Franz"
+	surname = "Mesmer"
+	advisor_type = natural_scientist
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1734.5.23
+	death_date = 1815.3.5
+	skill = 3
+}

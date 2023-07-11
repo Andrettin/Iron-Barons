@@ -66,6 +66,19 @@ friedrich_iii_of_the_holy_roman_empire = { #Source: Eva Demmerle, "Das Haus Habs
 	}
 }
 
+sigismund_von_habsburg = {
+	name = "Sigismund"
+	dynasty = habsburg
+	advisor_type = statesman
+	culture = austrian
+	religion = catholic
+	home_province = tyrol
+	gender = male
+	birth_date = 1427.10.26
+	death_date = 1496.3.4
+	skill = 4
+}
+
 karl_vi_of_the_holy_roman_empire = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 	name = "Karl"
 	epithet = "VI"

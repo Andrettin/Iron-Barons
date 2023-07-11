@@ -21,6 +21,7 @@ banking = {
 		national_bureaucracy
 		trade_fairs
 		master_artisans
+		
 		republic
 	}
 }
