@@ -1,0 +1,40 @@
+karel_starsi = {
+	name = "Karel"
+	epithet = "Starsi" #"starsí"
+	advisor_type = statesman
+	culture = czech
+	religion = catholic
+	home_province = moravia
+	gender = male
+	birth_date = 1564.9.15
+	death_date = 1636.11.9
+	skill = 2
+	required_technology = feudalism
+}
+
+zdenko_adalbert = {
+	name = "Zdenko Adalbert"
+	advisor_type = statesman
+	culture = czech
+	religion = catholic
+	home_province = bohemia
+	gender = male
+	birth_date = 1568
+	death_date = 1628.7.16
+	skill = 1
+	required_technology = national_bureaucracy
+}
+
+francis_kinsky = {
+	name = "Francis"
+	surname = "Kinsky"
+	advisor_type = statesman
+	culture = czech
+	religion = catholic
+	home_province = bohemia
+	gender = male
+	birth_date = 1678
+	death_date = 1741
+	skill = 3
+	required_technology = national_bureaucracy
+}

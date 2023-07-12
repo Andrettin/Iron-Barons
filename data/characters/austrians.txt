@@ -99,6 +99,48 @@ georg_tannstetter = {
 	required_technology = mathematics
 }
 
+wolfgang_von_rumpf = {
+	name = "Wolfgang"
+	surname = "von Rumpf"
+	advisor_type = statesman
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1550.11.30
+	death_date = 1607
+	skill = 2
+	required_technology = national_bureaucracy
+}
+
+hans_von_eggenberg = {
+	name = "Hans"
+	surname = "von Eggenberg"
+	advisor_type = statesman
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1568
+	death_date = 1634
+	skill = 2
+	required_technology = national_bureaucracy
+}
+
+joseph_harrach = {
+	name = "Joseph"
+	surname = "Harrach"
+	advisor_type = statesman
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1678
+	death_date = 1764.8.8
+	skill = 2
+	required_technology = national_bureaucracy
+}
+
 gerard_van_swieten = {
 	name = "Gerard"
 	surname = "van Swieten"
@@ -111,6 +153,20 @@ gerard_van_swieten = {
 	death_date = 1772.6.18
 	skill = 2
 	required_technology = medicine
+}
+
+wenzel_anton_kaunitz = {
+	name = "Wenzel Anton"
+	surname = "Kaunitz"
+	advisor_type = statesman
+	culture = austrian
+	religion = catholic
+	home_province = brunn
+	gender = male
+	birth_date = 1711.2.2
+	death_date = 1794.6.27
+	skill = 5
+	required_technology = national_bureaucracy
 }
 
 leopold_auenbrugger = {

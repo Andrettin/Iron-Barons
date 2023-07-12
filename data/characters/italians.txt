@@ -55,6 +55,20 @@ amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	#went on an expedition to explore the coast of South America in 1497
 }
 
+mercurino_gattinara = {
+	name = "Mercurino"
+	surname = "Gattinara"
+	advisor_type = statesman
+	culture = italian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1465
+	death_date = 1530
+	skill = 5
+	required_technology = feudalism
+}
+
 pope_paul_iii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 210.
 	name = "Paul"
 	epithet = "II"
