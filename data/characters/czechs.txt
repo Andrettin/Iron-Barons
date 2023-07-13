@@ -1,3 +1,17 @@
+vilem_rozmberk = {
+	name = "Vilem"
+	surname = "Rozmberk" #"Rožmberk"
+	advisor_type = treasurer
+	culture = czech
+	religion = catholic
+	home_province = bohemia
+	gender = male
+	birth_date = 1545
+	death_date = 1592
+	skill = 1
+	required_technology = feudalism
+}
+
 karel_starsi = {
 	name = "Karel"
 	epithet = "Starsi" #"starsí"
@@ -21,6 +35,20 @@ zdenko_adalbert = {
 	gender = male
 	birth_date = 1568
 	death_date = 1628.7.16
+	skill = 1
+	required_technology = national_bureaucracy
+}
+
+jaroslav_borsita = {
+	name = "Jaroslav"
+	surname = "Borsita"
+	advisor_type = treasurer
+	culture = czech
+	religion = catholic
+	home_province = bohemia
+	gender = male
+	birth_date = 1582
+	death_date = 1649.11.21
 	skill = 1
 	required_technology = national_bureaucracy
 }

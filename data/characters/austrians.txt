@@ -127,6 +127,20 @@ hans_von_eggenberg = {
 	required_technology = national_bureaucracy
 }
 
+philipp_von_hornigk = {
+	name = "Philipp"
+	surname = "von Hornigk" #"von Hörnigk"
+	advisor_type = treasurer
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1640
+	death_date = 1714.10.23
+	skill = 2
+	required_technology = propaganda
+}
+
 joseph_harrach = {
 	name = "Joseph"
 	surname = "Harrach"
@@ -195,4 +209,18 @@ franz_mesmer = {
 	death_date = 1815.3.5
 	skill = 3
 	required_technology = medicine
+}
+
+joseph_eckhel = {
+	name = "Joseph"
+	surname = "Eckhel"
+	advisor_type = treasurer
+	culture = austrian
+	religion = catholic
+	home_province = styria
+	gender = male
+	birth_date = 1735
+	death_date = 1798.5.16
+	skill = 1
+	required_technology = banking
 }

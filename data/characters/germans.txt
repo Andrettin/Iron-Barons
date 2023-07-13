@@ -74,6 +74,20 @@ martin_luther = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	#presented his 95 theses in Wittenberg, in Saxony, on 1517.10.31, starting the protestant reformation
 }
 
+anton_fugger = {
+	name = "Anton"
+	surname = "Fugger"
+	advisor_type = treasurer
+	culture = german
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1493
+	death_date = 1560.9.14
+	skill = 4
+	required_technology = banking
+}
+
 peter_bennewitz = { #also known as Petrus Apianus; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
 	name = "Peter"
 	surname = "Bennewitz"
@@ -97,6 +111,20 @@ anne_of_cleves = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descob
 	gender = female
 	birth_date = 1515
 	death_date = 1577
+}
+
+franz_dietrichstein = {
+	name = "Franz"
+	surname = "Dietrichstein"
+	advisor_type = treasurer
+	culture = german
+	religion = catholic
+	home_site = olmutz
+	gender = male
+	birth_date = 1570
+	death_date = 1636.9.19
+	skill = 2
+	required_technology = national_bureaucracy
 }
 
 maximilian_hell = {
