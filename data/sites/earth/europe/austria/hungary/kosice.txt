@@ -4,4 +4,5 @@ kosice = {
 	geocoordinate = { 21.25001013050 48.73044801750 } #from Natural Earth
 	type = resource
 	resource = coal
+	province = kesmark
 }

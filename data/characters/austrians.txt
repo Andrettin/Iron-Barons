@@ -113,6 +113,19 @@ conrad_haas = {
 	required_technology = mine_engineering
 }
 
+rheticus = {
+	name = "Rheticus"
+	advisor_type = naval_reformer
+	culture = austrian
+	religion = catholic
+	home_site = kosice
+	gender = male
+	birth_date = 1514
+	death_date = 1574
+	skill = 1
+	required_technology = navigation
+}
+
 wolfgang_von_rumpf = {
 	name = "Wolfgang"
 	surname = "von Rumpf"
