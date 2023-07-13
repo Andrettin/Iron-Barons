@@ -146,7 +146,7 @@ hans_von_eggenberg = {
 	advisor_type = statesman
 	culture = austrian
 	religion = catholic
-	home_site = vienna
+	home_site = salzburg
 	gender = male
 	birth_date = 1568
 	death_date = 1634
@@ -166,6 +166,20 @@ philipp_von_hornigk = {
 	death_date = 1714.10.23
 	skill = 2
 	required_technology = propaganda
+}
+
+johann_von_eggenberg = {
+	name = "Johann"
+	surname = "von Eggenberg"
+	advisor_type = merchant
+	culture = austrian
+	religion = catholic
+	home_site = salzburg
+	gender = male
+	birth_date = 1641
+	death_date = 1710.12.14
+	skill = 2
+	required_technology = merchant_companies
 }
 
 joseph_harrach = {

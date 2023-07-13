@@ -85,6 +85,20 @@ elizabeth_i_of_england = {
 	}
 }
 
+edward_kelley = {
+	name = "Edward"
+	surname = "Kelley"
+	advisor_type = merchant
+	culture = english
+	religion = protestant
+	home_province = bohemia
+	gender = male
+	birth_date = 1552
+	death_date = 1597
+	skill = 1
+	required_technology = merchant_companies
+}
+
 francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 	name = "Francis"
 	surname = "Bacon"

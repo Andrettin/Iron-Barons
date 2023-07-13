@@ -1,4 +1,7 @@
 merchant = {
 	name = "Merchant"
 	category = trade
+	modifier = {
+		trade_output_modifier = 2
+	}
 }
