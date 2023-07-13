@@ -99,6 +99,20 @@ georg_tannstetter = {
 	required_technology = mathematics
 }
 
+conrad_haas = {
+	name = "Conrad"
+	surname = "Haas"
+	advisor_type = army_reformer
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1509
+	death_date = 1576
+	skill = 4
+	required_technology = mine_engineering
+}
+
 wolfgang_von_rumpf = {
 	name = "Wolfgang"
 	surname = "von Rumpf"
@@ -153,6 +167,20 @@ joseph_harrach = {
 	death_date = 1764.8.8
 	skill = 2
 	required_technology = national_bureaucracy
+}
+
+josef_wenzel = {
+	name = "Josef"
+	surname = "Wenzel"
+	advisor_type = army_reformer
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1696.8.9
+	death_date = 1772.2.10
+	skill = 3
+	required_technology = heavy_artillery
 }
 
 gerard_van_swieten = {
