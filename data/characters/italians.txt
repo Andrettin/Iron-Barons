@@ -24,6 +24,20 @@ viridis_visconti = { #Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
 	start_date = 1377 #married Leopold III of Austria, and had her son Ernst with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
 }
 
+antonio_bonfini = {
+	name = "Antonio"
+	surname = "Bonfini"
+	advisor_type = philosopher
+	culture = italian
+	religion = catholic
+	home_site = pecs
+	gender = male
+	birth_date = 1428
+	death_date = 1503.6.6
+	skill = 3
+	required_technology = philosophy
+}
+
 leonardo_da_vinci = {
 	name = "Leonardo"
 	surname = "da Vinci"

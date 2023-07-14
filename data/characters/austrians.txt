@@ -154,6 +154,20 @@ hans_von_eggenberg = {
 	required_technology = national_bureaucracy
 }
 
+katharina_galler = {
+	name = "Katharina"
+	surname = "Galler"
+	advisor_type = treasurer
+	culture = austrian
+	religion = catholic
+	home_province = styria
+	gender = female
+	birth_date = 1607
+	death_date = 1672.2.12
+	skill = 2
+	required_technology = feudalism
+}
+
 philipp_von_hornigk = {
 	name = "Philipp"
 	surname = "von Hornigk" #"von Hörnigk"
@@ -180,6 +194,20 @@ johann_von_eggenberg = {
 	death_date = 1710.12.14
 	skill = 2
 	required_technology = merchant_companies
+}
+
+franz_ferdinand_von_rummel = {
+	name = "Franz Ferdinand"
+	surname = "von Rummel"
+	advisor_type = philosopher
+	culture = austrian
+	religion = catholic
+	home_site = vienna
+	gender = male
+	birth_date = 1644
+	death_date = 1716.3.15
+	skill = 2
+	required_technology = philosophy
 }
 
 joseph_harrach = {

@@ -53,6 +53,21 @@ jaroslav_borsita = {
 	required_technology = national_bureaucracy
 }
 
+
+jan_amos_komensky = {
+	name = "Jan Amos"
+	surname = "Komensky"
+	advisor_type = philosopher
+	culture = czech
+	religion = catholic
+	home_site = brunn
+	gender = male
+	birth_date = 1592.3.28
+	death_date = 1670.11.15
+	skill = 1
+	required_technology = philosophy
+}
+
 francis_kinsky = {
 	name = "Francis"
 	surname = "Kinsky"
