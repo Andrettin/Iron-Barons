@@ -66,6 +66,22 @@ john_jay = {
 	}
 }
 
+john_paul_jones = {
+	name = "John Paul"
+	surname = "Jones"
+	advisor_type = grand_admiral
+	culture = scottish
+	religion = protestant
+	home_province = virginia
+	gender = male
+	birth_date = 1747
+	death_date = 1792
+	required_technology = advanced_hull_design
+	advisor_effects = {
+		create_military_unit = frigate
+	}
+}
+
 john_jacob_astor = {
 	name = "John Jacob"
 	surname = "Astor"
