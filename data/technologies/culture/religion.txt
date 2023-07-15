@@ -24,8 +24,7 @@ polytheism = {
 	icon = wooden_cross
 	year = -1000
 	prerequisites = {
-		ceremonial_burial
-		horseback_riding
+		mysticism
 	}
 }
 

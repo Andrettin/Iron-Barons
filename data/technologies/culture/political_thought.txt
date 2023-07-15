@@ -3,10 +3,11 @@ monarchy = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = crown_royal
-	year = -1000
+	year = 1
 	prerequisites = {
 		code_of_laws
-		ceremonial_burial
+		warrior_code
+		polytheism
 	}
 }
 
@@ -27,7 +28,7 @@ feudalism = {
 	category = culture
 	portrait = ducal_crown
 	icon = crown_ducal
-	year = 1
+	year = 500
 	prerequisites = {
 		monarchy
 		warrior_code

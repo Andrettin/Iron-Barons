@@ -14,6 +14,7 @@ horseback_riding = {
 	year = -2000
 	prerequisites = {
 		wheel
+		warrior_code
 	}
 }
 
@@ -22,7 +23,7 @@ chivalry = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1000
+	year = 1500
 	prerequisites = {
 		horseback_riding
 		feudalism
