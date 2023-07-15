@@ -1,0 +1,4 @@
+pioneer = {
+	name = "Pioneer"
+	category = exploration
+}

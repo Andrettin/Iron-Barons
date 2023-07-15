@@ -65,6 +65,21 @@ jean_de_brebeuf = {
 	death_date = 1649
 }
 
+sieur_de_la_salle = {
+	name = "Sieur"
+	surname = "de La Salle"
+	advisor_type = pioneer
+	culture = french
+	religion = catholic
+	home_province = normandy
+	gender = male
+	birth_date = 1643
+	death_date = 1687
+	advisor_modifier = {
+		free_building_class = stockade
+	}
+}
+
 louis_xiv_of_france = {
 	name = "Louis"
 	epithet = "XIV"
