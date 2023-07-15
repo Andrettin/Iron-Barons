@@ -6,7 +6,7 @@ philosophy = {
 	year = 1
 	free_technology = true
 	prerequisites = {
-		literacy
+		literature
 		mysticism
 	}
 }
@@ -19,7 +19,7 @@ invention = {
 	year = 1450
 	prerequisites = {
 		engineering
-		literacy
+		literature
 		
 		ironworking
 	}

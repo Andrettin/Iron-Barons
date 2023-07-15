@@ -17,8 +17,8 @@ alphabet = {
 	}
 }
 
-literacy = {
-	name = "Literacy"
+literature = {
+	name = "Literature"
 	category = culture
 	portrait = engineering
 	icon = treaty
