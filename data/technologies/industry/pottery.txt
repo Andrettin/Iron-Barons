@@ -1,0 +1,7 @@
+pottery = {
+	name = "Pottery"
+	category = industry
+	portrait = engineering
+	icon = cog
+	year = -4000
+}

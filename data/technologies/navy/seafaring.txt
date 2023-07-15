@@ -3,7 +3,10 @@ seafaring = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = -4000
+	year = -2000
+	prerequisites = {
+		pottery
+	}
 }
 
 cartography = {
@@ -11,7 +14,7 @@ cartography = {
 	category = navy
 	portrait = unload
 	icon = globe
-	year = -2000
+	year = -1000
 	prerequisites = {
 		seafaring
 		writing

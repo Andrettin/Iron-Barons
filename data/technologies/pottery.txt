@@ -1,5 +1,0 @@
-#pottery = {
-#	name = "Pottery"
-#	category = industry
-#	portrait = engineering
-#}
