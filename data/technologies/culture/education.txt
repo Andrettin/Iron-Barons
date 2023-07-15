@@ -6,6 +6,7 @@ university = {
 	year = 1000
 	prerequisites = {
 		philosophy
+		mathematics
 		
 		#printing_press
 		#apprentice_workers

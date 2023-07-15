@@ -1,3 +1,17 @@
+physics = {
+	name = "Physics"
+	category = culture
+	portrait = engineering
+	icon = research
+	year = 1600
+	prerequisites = {
+		astronomy
+		
+		literacy
+		navigation
+	}
+}
+
 theory_of_gravity = {
 	name = "Theory of Gravity"
 	category = culture
@@ -6,6 +20,7 @@ theory_of_gravity = {
 	year = 1650
 	prerequisites = {
 		astronomy
+		university
 		
 		scientific_method
 	}

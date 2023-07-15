@@ -6,6 +6,17 @@ writing = {
 	year = -4000
 }
 
+alphabet = {
+	name = "Alphabet"
+	category = culture
+	portrait = engineering
+	icon = treaty
+	year = -2000
+	prerequisites = {
+		writing
+	}
+}
+
 literacy = {
 	name = "Literacy"
 	category = culture
@@ -25,6 +36,7 @@ printing_press = {
 	icon = newspaper
 	year = 1550
 	prerequisites = {
+		alphabet
 		saw_mill
 	}
 }

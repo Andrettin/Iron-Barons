@@ -46,6 +46,18 @@ navigation = {
 	}
 }
 
+magnetism = {
+	name = "Magnetism"
+	category = navy
+	portrait = engineering
+	icon = compass
+	year = 1650
+	prerequisites = {
+		physics
+		ironworking
+	}
+}
+
 privateering_companies = {
 	name = "Privateering Companies"
 	category = navy
