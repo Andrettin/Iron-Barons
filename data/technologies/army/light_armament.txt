@@ -3,11 +3,9 @@ gunpowder = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1000
+	year = 1500
 	prerequisites = {
-		engineering
-	
-		#invention
+		invention
 		ironworking
 	}
 }

@@ -1,14 +1,31 @@
+warrior_code = {
+	name = "Warrior Code"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = -4000
+}
+
+horseback_riding = {
+	name = "Horseback Riding"
+	category = army
+	portrait = helmet
+	icon = horses
+	year = -2000
+	prerequisites = {
+		wheel
+	}
+}
+
 chivalry = {
 	name = "Chivalry"
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1
+	year = 1000
 	prerequisites = {
-		wheel #since this technology enables knights, which upgrade from chariots
+		horseback_riding
 		feudalism
-		
-		ironworking
 	}
 }
 
@@ -16,7 +33,7 @@ recruit_steppe_horsemen = {
 	name = "Recruit Steppe Horsemen"
 	category = army
 	portrait = helmet
-	icon = saber
+	icon = horses
 	year = 1550
 	prerequisites = {
 		crop_rotation

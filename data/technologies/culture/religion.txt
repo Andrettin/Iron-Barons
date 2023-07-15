@@ -1,0 +1,54 @@
+ceremonial_burial = {
+	name = "Ceremonial Burial"
+	category = culture
+	portrait = temple
+	icon = wooden_cross
+	year = -4000
+}
+
+mysticism = {
+	name = "Mysticism"
+	category = culture
+	portrait = temple
+	icon = wooden_cross
+	year = -2000
+	prerequisites = {
+		ceremonial_burial
+	}
+}
+
+polytheism = {
+	name = "Polytheism"
+	category = culture
+	portrait = temple
+	icon = wooden_cross
+	year = -1000
+	prerequisites = {
+		ceremonial_burial
+		horseback_riding
+	}
+}
+
+monotheism = {
+	name = "Monotheism"
+	category = culture
+	portrait = temple
+	icon = wooden_cross
+	year = 500
+	prerequisites = {
+		polytheism
+		philosophy
+	}
+}
+
+theology = {
+	name = "Theology"
+	category = culture
+	portrait = temple
+	icon = wooden_cross
+	year = 1500
+	prerequisites = {
+		monotheism
+		feudalism
+	}
+}

@@ -8,6 +8,7 @@ archers = {
 	defense = 2
 	movement = 4
 	entrench = true
+	required_technology = warrior_code
 }
 
 crossbowmen = {
