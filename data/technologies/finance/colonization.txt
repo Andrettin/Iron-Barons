@@ -1,0 +1,15 @@
+colonization = {
+	name = "Colonization"
+	category = finance
+	portrait = trading_post
+	icon = anchor
+	year = 1500
+	prerequisites = {
+		#banking
+		#printing_press
+		
+		trade
+		cartography
+		gunpowder
+	}
+}
