@@ -27,6 +27,7 @@ chivalry = {
 	prerequisites = {
 		horseback_riding
 		feudalism
+		monotheism
 	}
 }
 

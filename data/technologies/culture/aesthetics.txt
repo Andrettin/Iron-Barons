@@ -1,0 +1,10 @@
+music_theory = {
+	name = "Music Theory"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1500
+	prerequisites = {
+		university
+	}
+}
