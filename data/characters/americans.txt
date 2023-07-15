@@ -93,9 +93,6 @@ john_jacob_astor = {
 	birth_date = 1763
 	death_date = 1848
 	required_technology = excessive_fur_harvesting
-	conditions = {
-		produces_commodity = furs
-	}
 	advisor_modifier = {
 		furs_output_modifier = 50
 	}
@@ -112,9 +109,6 @@ eli_whitney = {
 	birth_date = 1765
 	death_date = 1825
 	required_technology = cotton_gin
-	conditions = {
-		produces_commodity = cotton
-	}
 	advisor_modifier = {
 		cotton_output_modifier = 50
 	}

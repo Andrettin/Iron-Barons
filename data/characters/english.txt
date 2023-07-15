@@ -130,9 +130,6 @@ henry_hudson = {
 	birth_date = 1565
 	death_date = 1611
 	required_technology = navigation
-	conditions = {
-		produces_commodity = furs
-	}
 	advisor_modifier = {
 		furs_output_modifier = 100
 	}
@@ -161,9 +158,6 @@ john_rolfe = {
 	birth_date = 1585
 	death_date = 1622
 	required_technology = large_tobacco_plantations
-	conditions = {
-		produces_commodity = tobacco
-	}
 	advisor_modifier = {
 		tobacco_output_modifier = 25
 	}
