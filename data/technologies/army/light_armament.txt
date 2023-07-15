@@ -5,7 +5,9 @@ gunpowder = {
 	icon = musket
 	year = 1000
 	prerequisites = {
-		invention
+		engineering
+	
+		#invention
 		ironworking
 	}
 }

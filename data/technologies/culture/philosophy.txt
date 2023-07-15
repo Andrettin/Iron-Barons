@@ -15,10 +15,9 @@ invention = {
 	category = culture
 	portrait = engineering
 	icon = cog
-	#year = 1450
-	year = 1
+	year = 1450
 	prerequisites = {
-		wheel
+		engineering
 		literacy
 		
 		ironworking

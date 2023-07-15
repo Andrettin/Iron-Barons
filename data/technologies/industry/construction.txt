@@ -1,0 +1,19 @@
+masonry = {
+	name = "Masonry"
+	category = industry
+	portrait = engineering
+	icon = wall
+	year = -4000
+}
+
+architecture = {
+	name = "Architecture"
+	category = industry
+	portrait = engineering
+	icon = architecture
+	year = -1000
+	prerequisites = {
+		masonry
+		coinage
+	}
+}
