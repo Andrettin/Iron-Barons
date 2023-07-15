@@ -1,0 +1,11 @@
+economics = {
+	name = "Economics"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1750
+	prerequisites = {
+		banking
+		university
+	}
+}

@@ -1,0 +1,11 @@
+corporation = {
+	name = "Corporation"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1800
+	prerequisites = {
+		economics
+		industrial_machinery
+	}
+}

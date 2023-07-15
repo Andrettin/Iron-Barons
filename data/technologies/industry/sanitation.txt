@@ -1,0 +1,11 @@
+sanitation = {
+	name = "Sanitation"
+	category = culture
+	portrait = engineering
+	icon = architecture
+	year = 1550
+	prerequisites = {
+		medicine
+		engineering
+	}
+}

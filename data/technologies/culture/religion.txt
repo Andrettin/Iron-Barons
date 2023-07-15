@@ -52,3 +52,15 @@ theology = {
 		feudalism
 	}
 }
+
+fundamentalism = {
+	name = "Fundamentalism"
+	category = culture
+	portrait = temple
+	icon = wooden_cross
+	year = 1800
+	prerequisites = {
+		monotheism
+		conscription
+	}
+}

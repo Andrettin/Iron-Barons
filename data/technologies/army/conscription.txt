@@ -1,0 +1,11 @@
+conscription = {
+	name = "Conscription"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1750
+	prerequisites = {
+		nationalism
+		weapon_craftsmanship
+	}
+}

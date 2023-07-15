@@ -34,6 +34,8 @@ high_pressure_steam_engine = {
 	prerequisites = {
 		road_construction
 		steam_in_mining
+		
+		physics
 	}
 }
 

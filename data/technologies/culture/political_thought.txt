@@ -118,3 +118,17 @@ individualism = {
 		civics_output_modifier = 5
 	}
 }
+
+communism = {
+	name = "Communism"
+	category = culture
+	portrait = grand_ducal_crown
+	icon = treaty
+	year = 1825
+	prerequisites = {
+		collectivism
+		
+		philosophy
+		industrial_machinery
+	}
+}

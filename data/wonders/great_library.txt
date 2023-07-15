@@ -3,6 +3,7 @@ great_library = {
 	portrait = university
 	building = library
 	required_technology = literacy
+	obsolescence_technology = electricity
 	country_modifier = {
 		gain_technologies_known_by_others = true
 	}

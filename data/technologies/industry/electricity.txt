@@ -1,0 +1,11 @@
+electricity = {
+	name = "Electricity"
+	category = culture
+	portrait = engineering
+	icon = research
+	year = 1850
+	prerequisites = {
+		magnetism
+		oil_drilling
+	}
+}

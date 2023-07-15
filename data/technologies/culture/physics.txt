@@ -25,3 +25,15 @@ theory_of_gravity = {
 		scientific_method
 	}
 }
+
+atomic_theory = {
+	name = "Atomic Theory"
+	category = culture
+	portrait = engineering
+	icon = research
+	year = 1700
+	prerequisites = {
+		physics
+		theory_of_gravity
+	}
+}

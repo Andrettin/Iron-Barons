@@ -19,6 +19,7 @@ minutemen = {
 	defense = 4
 	movement = 4
 	entrench = true
+	required_technology = conscription
 	free_promotions = {
 		minuteman_1
 	}
