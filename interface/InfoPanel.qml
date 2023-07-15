@@ -161,6 +161,7 @@ Rectangle {
 			
 			ScriptedModifierImage {
 				scripted_modifier_pair: model.modelData
+				scope: selected_province
 			}
 		}
 	}

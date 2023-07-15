@@ -31,7 +31,7 @@ Item {
 		
 		onClicked: {
 			character_dialog.character = ruler
-			character_dialog.modifier_string = ruler.ruler_modifier_string
+			character_dialog.modifier_string = ruler.get_ruler_modifier_qstring(country)
 			character_dialog.open()
 		}
 		

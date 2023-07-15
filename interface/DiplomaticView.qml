@@ -7,6 +7,7 @@ Item {
 	property int start_tile_x: 0
 	property int start_tile_y: 0
 	readonly property var selected_country: diplomatic_map.selected_country
+	readonly property var selected_country_game_data: selected_country ? selected_country.game_data : null
 	
 	Rectangle {
 		id: diplomatic_map_background
