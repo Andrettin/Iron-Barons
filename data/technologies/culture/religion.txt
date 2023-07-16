@@ -45,7 +45,7 @@ theology = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = 1500
+	year = 1000
 	prerequisites = {
 		monotheism
 		feudalism

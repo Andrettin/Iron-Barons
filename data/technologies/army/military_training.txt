@@ -23,7 +23,7 @@ chivalry = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1500
+	year = 1000
 	prerequisites = {
 		horseback_riding
 		feudalism

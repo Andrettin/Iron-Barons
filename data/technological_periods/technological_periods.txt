@@ -22,10 +22,19 @@
 	end_year = 500
 }
 
-500_1500 = { #Medieval Era
+#Medieval Era
+
+500_1000 = {
 	start_year = 500
+	end_year = 1000
+}
+
+1000_1500 = {
+	start_year = 1000
 	end_year = 1500
 }
+
+#Age of Discovery
 
 1500_1550 = {
 	start_year = 1500
