@@ -12,11 +12,9 @@ tobacco_planting = {
 	category = gathering
 	portrait = engineering
 	icon = tobacco
-	year = 1500
+	year = -2000
 	prerequisites = {
 		tobacco
-		
-		university
 	}
 }
 

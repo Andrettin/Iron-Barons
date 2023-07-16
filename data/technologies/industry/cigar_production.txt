@@ -3,12 +3,8 @@ cigar_production = {
 	category = industry
 	portrait = engineering
 	icon = tobacco
-	year = 1500
+	year = -2000
 	prerequisites = {
 		tobacco
-		
-		invention
-		
-		university
 	}
 }
