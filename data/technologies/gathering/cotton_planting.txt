@@ -12,11 +12,9 @@ cotton_planting = {
 	category = gathering
 	portrait = engineering
 	icon = cotton
-	year = 1500
+	year = -2000
 	prerequisites = {
 		cotton
-		
-		university
 	}
 }
 
@@ -28,6 +26,8 @@ large_cotton_plantations = {
 	year = 1550
 	prerequisites = {
 		cotton_planting
+		
+		colonization
 	}
 }
 

@@ -3,13 +3,9 @@ cotton_weaving = {
 	category = industry
 	portrait = engineering
 	icon = fabric
-	year = 1500
+	year = -2000
 	prerequisites = {
 		cotton
-		
-		invention
-		
-		university
 	}
 }
 

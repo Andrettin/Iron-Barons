@@ -2,7 +2,7 @@ colonization = {
 	name = "Colonization"
 	category = finance
 	portrait = trading_post
-	icon = anchor
+	icon = settlement
 	year = 1500
 	prerequisites = {
 		#banking
