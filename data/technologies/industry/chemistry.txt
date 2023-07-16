@@ -1,0 +1,11 @@
+alchemy = {
+	name = "Alchemy"
+	category = industry
+	portrait = engineering
+	icon = philosophy
+	year = 500
+	prerequisites = {
+		philosophy
+		ironworking
+	}
+}

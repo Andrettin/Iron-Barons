@@ -5,8 +5,8 @@ gunpowder = {
 	icon = musket
 	year = 1000
 	prerequisites = {
+		alchemy
 		invention
-		ironworking
 	}
 }
 
