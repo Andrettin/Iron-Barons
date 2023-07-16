@@ -6,7 +6,6 @@ physics = {
 	year = 1600
 	prerequisites = {
 		astronomy
-		
 		literature
 		navigation
 	}
@@ -19,8 +18,7 @@ theory_of_gravity = {
 	icon = research
 	year = 1650
 	prerequisites = {
-		astronomy
-		university
+		physics
 		
 		scientific_method
 	}
@@ -33,7 +31,6 @@ atomic_theory = {
 	icon = research
 	year = 1700
 	prerequisites = {
-		physics
 		theory_of_gravity
 	}
 }
