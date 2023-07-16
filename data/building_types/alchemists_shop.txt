@@ -1,0 +1,15 @@
+alchemists_shop = {
+	name = "Alchemist's Shop"
+	building_class = alchemists_shop
+	portrait = university
+	icon = research
+	provincial = true
+	required_technology = alchemy
+	commodity_costs = {
+		lumber = 4
+		cast_iron = 4
+	}
+	stackable_country_modifier = {
+		university_capacity = 2
+	}
+}
