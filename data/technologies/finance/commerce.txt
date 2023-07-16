@@ -5,6 +5,7 @@ coinage = {
 	icon = wealth
 	year = -2000
 	prerequisites = {
+		precious_metals
 		bronzeworking
 	}
 }
