@@ -3,12 +3,8 @@ fur_hat_production = {
 	category = industry
 	portrait = engineering
 	icon = clothing
-	year = 1500
+	year = -2000
 	prerequisites = {
 		furs
-		
-		invention
-		
-		university
 	}
 }
