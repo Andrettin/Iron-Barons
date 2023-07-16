@@ -16,6 +16,8 @@ chemistry = {
 	prerequisites = {
 		oil_drilling
 		barbed_wire
+		
+		alchemy
 	}
 }
 
