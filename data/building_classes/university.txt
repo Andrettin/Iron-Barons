@@ -1,3 +1,8 @@
+school = {
+	name = "School"
+	slot_type = university
+}
+
 college = {
 	name = "College"
 	slot_type = university

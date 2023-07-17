@@ -1,9 +1,25 @@
+school = {
+	name = "School"
+	building_class = school
+	portrait = university
+	icon = university
+	free_in_capital = true
+	provincial = true
+	production_types = {
+		researching
+	}
+	stackable_country_modifier = {
+		university_capacity = 1
+	}
+}
+
 college = {
 	name = "College"
 	building_class = college
 	portrait = university
 	icon = university
 	provincial = true
+	required_building = school
 	production_types = {
 		researching
 	}
