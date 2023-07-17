@@ -3,6 +3,7 @@ village_hall = {
 	building_class = village_hall
 	portrait = town
 	icon = flag
+	free_in_capital = true
 	provincial = true
 	production_types = {
 		civics_production
