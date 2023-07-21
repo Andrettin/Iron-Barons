@@ -1,0 +1,13 @@
+william_the_silent = {
+	filepath = "portraits/characters/william_the_silent.png"
+	character_conditions = {
+		gender = male
+		or = {
+			culture = dutch
+			culture = english
+			culture = german
+			culture = polish
+		}
+		is_ruler = true
+	}
+}
