@@ -1,0 +1,10 @@
+cardinal_richelieu = {
+	filepath = "portraits/characters/cardinal_richelieu.png"
+	character_conditions = {
+		gender = male
+		or = {
+			advisor_type = inquisitor
+			advisor_type = theologian
+		}
+	}
+}
