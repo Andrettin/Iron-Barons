@@ -1,0 +1,6 @@
+happiness = {
+	name = "Happiness"
+	icon = music
+	abstract = true
+	storable = false
+}

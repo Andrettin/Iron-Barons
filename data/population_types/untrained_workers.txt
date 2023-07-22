@@ -6,6 +6,9 @@ untrained_workers = {
 	small_icon = craftsmen_light_small
 	output_commodity = labor
 	output_value = 1
+	consumed_commodities = {
+		happiness = 1
+	}
 	phenotype_icons = {
 		afro_european = craftsmen_medium
 		amerindian = craftsmen_medium
