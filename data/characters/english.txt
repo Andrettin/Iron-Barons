@@ -163,6 +163,22 @@ john_rolfe = {
 	}
 }
 
+john_harvard = {
+	name = "John"
+	surname = "Harvard"
+	advisor_type = theologian
+	culture = english
+	religion = protestant
+	home_province = massachusetts
+	gender = male
+	birth_date = 1607
+	death_date = 1638
+	required_technology = university
+	advisor_modifier = {
+		free_building_class = school
+	}
+}
+
 william_penn = {
 	name = "William"
 	surname = "Penn"
