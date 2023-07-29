@@ -3,4 +3,5 @@ happiness = {
 	icon = music
 	abstract = true
 	storable = false
+	happiness = true
 }

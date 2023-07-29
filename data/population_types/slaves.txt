@@ -6,6 +6,9 @@ slaves = {
 	small_icon = slaves_light_small
 	output_commodity = labor
 	output_value = 1
+	consumed_commodities = {
+		happiness = 1
+	}
 	phenotype_icons = {
 		afro_european = slaves_medium
 		amerindian = slaves_medium
