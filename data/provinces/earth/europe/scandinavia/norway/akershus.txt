@@ -7,8 +7,14 @@ akershus = {
 	}
 	
 	history = {
-		culture = norwegian
+		culture = norse
 		religion = pagan
+		
+		1360 = {
+			owner = norway #part of Norway in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = norwegian
+			religion = catholic
+		}
 		
 		1740 = {
 			owner = denmark #Danish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.

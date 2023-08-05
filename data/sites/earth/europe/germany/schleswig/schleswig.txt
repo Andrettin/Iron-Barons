@@ -1,8 +1,8 @@
-stavanger = {
-	name = "Stavanger"
+schleswig = {
+	name = "Schleswig"
 	world = earth
-	geocoordinate = { 5.68000443383 58.97000388500 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 9.5697222222222 54.515277777778 }
+	province = schleswig
 	
 	history = {
 		1360 = {
