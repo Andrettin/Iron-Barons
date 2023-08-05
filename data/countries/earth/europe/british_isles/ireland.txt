@@ -7,6 +7,7 @@ ireland = {
 	#default_tier = kingdom
 	eras = {
 		medieval_era
+		renaissance_era
 	}
 	core_provinces = {
 		leinster
