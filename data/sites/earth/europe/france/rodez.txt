@@ -1,0 +1,12 @@
+rodez = {
+	name = "Rodez"
+	world = earth
+	geocoordinate = { 2.5741666666667 44.35 }
+	province = guyenne
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

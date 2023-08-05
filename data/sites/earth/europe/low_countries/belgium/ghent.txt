@@ -1,0 +1,12 @@
+ghent = {
+	name = "Ghent"
+	world = earth
+	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
+	province = antwerp
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

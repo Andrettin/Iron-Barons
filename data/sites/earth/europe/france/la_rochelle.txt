@@ -1,0 +1,12 @@
+la_rochelle = {
+	name = "La Rochelle"
+	world = earth
+	geocoordinate = { -1.14999210754 46.16665102040 } #from Natural Earth
+	province = poitou
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}
