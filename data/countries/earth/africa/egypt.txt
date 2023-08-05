@@ -17,3 +17,24 @@ egypt = {
 		sinai
 	}
 }
+
+egypt_arabic = {
+	name = "Egypt"
+	type = minor_nation
+	culture = arabic
+	default_religion = sunni
+	capital_province = cairo
+	#default_tier = kingdom
+	eras = {
+		medieval_era
+		renaissance_era
+		industrial_era
+	}
+	core_provinces = {
+		cairo
+		alexandria
+		suez
+		upper_egypt
+		sinai
+	}
+}
