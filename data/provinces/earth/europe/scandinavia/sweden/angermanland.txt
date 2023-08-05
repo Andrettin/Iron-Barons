@@ -7,7 +7,7 @@ angermanland = {
 	}
 	
 	history = {
-		culture = swedish
+		culture = norse
 		religion = pagan
 		
 		1740 = {

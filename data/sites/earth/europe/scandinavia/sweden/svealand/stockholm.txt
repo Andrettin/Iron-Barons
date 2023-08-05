@@ -4,4 +4,10 @@ stockholm = {
 	geocoordinate = { 18.09733473280 59.35075995430 } #from Natural Earth
 	type = settlement
 	#resource = cattle #Dairying predominant; Source: Map No. 500866 of the Perry-Castañeda Library Map Collection, 1973.
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

@@ -1,7 +1,7 @@
-finland = {
-	name = "Finland"
-	color = { 44 80 36 }
-	capital_settlement = turku
+tavastia = {
+	name = "Tavastia"
+	color = { 151 180 107 }
+	capital_settlement = hameenlinna
 	regions = {
 		finland
 	}
@@ -9,11 +9,6 @@ finland = {
 	history = {
 		culture = finnish
 		religion = pagan
-		
-		1360 = {
-			owner = sweden #part of Sweden in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
-			religion = catholic
-		}
 		
 		1740 = {
 			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
