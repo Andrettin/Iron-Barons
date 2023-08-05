@@ -10,4 +10,10 @@ carlisle = {
 		briton = "Luguvallium"
 		roman = "Luguvallium" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
 	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

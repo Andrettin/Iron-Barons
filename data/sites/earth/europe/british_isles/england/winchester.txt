@@ -1,0 +1,16 @@
+winchester = {
+	name = "Winchester"
+	world = earth
+	geocoordinate = { -1.3086111111111 51.063333333333 }
+	cultural_names = {
+		anglo_saxon = "Wintanceaster" #Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 734.
+		briton = "Verita Belgarum"
+		roman = "Verita Belgarum" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

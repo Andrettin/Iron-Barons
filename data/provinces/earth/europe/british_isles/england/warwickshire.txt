@@ -25,9 +25,13 @@ warwickshire = {
 			owner = wessex #part of Wessex and its dependencies in 886; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
 		}
 		
+		1360 = {
+			owner = england #part of England in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = english
+		}
+		
 		1740 = {
 			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			culture = english
 			religion = protestant
 		}
 	}

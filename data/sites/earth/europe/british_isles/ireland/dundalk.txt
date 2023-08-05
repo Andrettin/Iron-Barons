@@ -1,8 +1,7 @@
-norwich = {
-	name = "Norwich"
+dundalk = {
+	name = "Dundalk"
 	world = earth
-	geocoordinate = { 1.30001338563 52.63036500970 } #from Natural Earth
-	type = settlement
+	geocoordinate = { -6.41667321921 54.00041058260 } #from Natural Earth
 	
 	history = {
 		1360 = {

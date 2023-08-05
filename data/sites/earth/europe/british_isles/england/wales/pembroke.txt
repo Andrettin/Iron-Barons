@@ -1,8 +1,8 @@
-norwich = {
-	name = "Norwich"
+pembroke = {
+	name = "Pembroke"
 	world = earth
-	geocoordinate = { 1.30001338563 52.63036500970 } #from Natural Earth
-	type = settlement
+	geocoordinate = { -4.9158 51.676038888889 }
+	province = wales
 	
 	history = {
 		1360 = {

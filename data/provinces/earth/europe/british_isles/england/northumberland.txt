@@ -24,5 +24,10 @@ northumberland = {
 		886 = {
 			owner = bernicia #part of English Northumbria (which excluded Deira) in 886; Source: William R. Shepherd, "Historical Atlas", 1911, p. 60.
 		}
+		
+		1360 = {
+			owner = england #part of England in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = english
+		}
 	}
 }
