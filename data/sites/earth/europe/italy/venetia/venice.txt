@@ -5,6 +5,10 @@ venice = {
 	type = settlement
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1500 = {
 			population = 100000 #Venice had a population of 100,000+ in 1500; Source: Henry Kamen, "Early Modern European Society", 2021, p. 34.
 		}

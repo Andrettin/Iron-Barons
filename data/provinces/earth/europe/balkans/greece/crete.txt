@@ -22,6 +22,10 @@ crete = {
 			religion = orthodox
 		}
 		
+		1360 = {
+			owner = venice #Venetian possession in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1740 = {
 			owner = ottoman_empire #part of the Ottoman Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
