@@ -7,7 +7,7 @@ guelmim = {
 	}
 	
 	history = {
-		culture = arabic
+		culture = maurian
 		religion = pagan
 	}
 }

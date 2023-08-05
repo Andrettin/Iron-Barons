@@ -1,8 +1,8 @@
-tripoli = {
-	name = "Tripoli"
+damietta = {
+	name = "Damietta"
 	world = earth
-	geocoordinate = { 13.18001175810 32.89250001940 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 31.82001094440 31.42039349270 } #from Natural Earth
+	province = cairo
 	
 	history = {
 		1360 = {

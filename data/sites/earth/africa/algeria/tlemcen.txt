@@ -1,8 +1,8 @@
-tripoli = {
-	name = "Tripoli"
+tlemcen = {
+	name = "Tlemcen"
 	world = earth
-	geocoordinate = { 13.18001175810 32.89250001940 } #from Natural Earth
-	type = settlement
+	geocoordinate = { -1.32000756978 34.89041424460 } #from Natural Earth
+	province = oran
 	
 	history = {
 		1360 = {

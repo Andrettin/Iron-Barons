@@ -17,5 +17,11 @@ alexandria = {
 			owner = eastern_rome #part of the East Roman Empire in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
 			religion = orthodox
 		}
+		
+		1360 = {
+			owner = egypt_arabic #part of the Mameluke Sultanates in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = arabic
+			religion = sunni
+		}
 	}
 }

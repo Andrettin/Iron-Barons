@@ -1,8 +1,8 @@
-tripoli = {
-	name = "Tripoli"
+mansura = {
+	name = "Mansura"
 	world = earth
-	geocoordinate = { 13.18001175810 32.89250001940 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 31.38003779980 31.05044191390 } #from Natural Earth
+	province = cairo
 	
 	history = {
 		1360 = {

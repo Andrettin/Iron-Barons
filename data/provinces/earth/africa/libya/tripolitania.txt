@@ -14,5 +14,11 @@ tripolitania = {
 			owner = vandalia #part of the Kingdom of the Vandals in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
 			culture = vandal
 		}
+		
+		1360 = {
+			owner = tunisia #part of Tunis in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = arabic
+			religion = sunni
+		}
 	}
 }

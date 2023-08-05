@@ -1,8 +1,8 @@
-tripoli = {
-	name = "Tripoli"
+tetuan = {
+	name = "Tetuan"
 	world = earth
-	geocoordinate = { 13.18001175810 32.89250001940 } #from Natural Earth
-	type = settlement
+	geocoordinate = { -5.3666666666667 35.566666666667 }
+	province = tangier
 	
 	history = {
 		1360 = {

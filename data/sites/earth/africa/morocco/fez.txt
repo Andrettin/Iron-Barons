@@ -3,4 +3,11 @@ fez = {
 	world = earth
 	geocoordinate = { -5.00037723939 34.05459962870 } #from Natural Earth
 	type = settlement
+	terrain_type = plains
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

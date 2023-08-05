@@ -16,10 +16,14 @@ fez = {
 			culture = maurian
 		}
 		
-		1740 = {
-			owner = morocco #part of Fez and Morocco c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		1360 = {
+			owner = morocco #part of Morocco in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = arabic
 			religion = sunni
+		}
+		
+		1740 = {
+			owner = morocco #part of Fez and Morocco c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 	}
 }
