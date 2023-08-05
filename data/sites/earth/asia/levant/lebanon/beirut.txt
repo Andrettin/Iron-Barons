@@ -1,8 +1,8 @@
-jerusalem = {
-	name = "Jerusalem"
+beirut = {
+	name = "Beirut"
 	world = earth
-	geocoordinate = { 35.20662593460 31.77840781560 } #from Natural Earth
-	type = settlement
+	#geocoordinate = { 35.50970821000 33.87197511700 } #from Natural Earth
+	province = lebanon
 	
 	history = {
 		1360 = {

@@ -1,8 +1,8 @@
-jerusalem = {
-	name = "Jerusalem"
+aleppo = {
+	name = "Aleppo"
 	world = earth
-	geocoordinate = { 35.20662593460 31.77840781560 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 37.17002030310 36.22997072250 } #from Natural Earth
+	province = syria
 	
 	history = {
 		1360 = {

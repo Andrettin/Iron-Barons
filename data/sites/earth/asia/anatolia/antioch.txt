@@ -6,4 +6,10 @@ antioch = {
 	#resource = cotton #Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 	#resource = fruit #Olives; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 	#resource = fruit #Citrus fruits; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

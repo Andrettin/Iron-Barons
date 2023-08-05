@@ -1,8 +1,8 @@
-jerusalem = {
-	name = "Jerusalem"
+latakia = {
+	name = "Latakia"
 	world = earth
-	geocoordinate = { 35.20662593460 31.77840781560 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 35.77997595090 35.53998699850 } #from Natural Earth
+	province = syria
 	
 	history = {
 		1360 = {
