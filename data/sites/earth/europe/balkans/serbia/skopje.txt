@@ -5,5 +5,12 @@ skopje = {
 	type = settlement
 	cultural_names = {
 		roman = "Scupi" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 38-39.
+		turkish = "Uskub"
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
 	}
 }

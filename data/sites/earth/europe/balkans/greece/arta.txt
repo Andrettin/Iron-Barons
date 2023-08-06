@@ -1,8 +1,8 @@
-nis = {
-	name = "Nis" #"Niš"
+arta = {
+	name = "Arta"
 	world = earth
-	geocoordinate = { 21.89999629590 43.33041587230 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 20.9875 39.165 }
+	province = epirus
 	
 	history = {
 		1360 = {

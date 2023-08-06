@@ -1,8 +1,8 @@
-nis = {
-	name = "Nis" #"Niš"
+prizren = {
+	name = "Prizren"
 	world = earth
-	geocoordinate = { 21.89999629590 43.33041587230 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 20.75009232450 42.22932029120 } #from Natural Earth
+	province = kosovo
 	
 	history = {
 		1360 = {

@@ -6,4 +6,10 @@ belgrade = {
 	cultural_names = {
 		roman = "Singidunum" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 38-39.
 	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

@@ -1,8 +1,8 @@
-nis = {
-	name = "Nis" #"Niš"
+seres = {
+	name = "Seres"
 	world = earth
-	geocoordinate = { 21.89999629590 43.33041587230 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 23.54971472040 41.08597922670 } #from Natural Earth
+	province = central_macedonia
 	
 	history = {
 		1360 = {
