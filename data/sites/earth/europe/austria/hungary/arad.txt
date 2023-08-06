@@ -1,8 +1,8 @@
-pest = {
-	name = "Pest"
+arad = {
+	name = "Arad"
 	world = earth
-	geocoordinate = { 19.1 47.5 }
-	type = settlement
+	geocoordinate = { 21.31998001980 46.17000998850 } #from Natural Earth
+	province = pest
 	
 	history = {
 		1360 = {

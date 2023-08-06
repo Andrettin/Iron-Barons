@@ -16,9 +16,14 @@ transylvania = {
 			culture = gothic
 		}
 		
+		1360 = {
+			owner = hungary #part of Hungary in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = romanian
+			religion = orthodox
+		}
+		
 		1740 = {
 			owner = austria #Austrian possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			culture = romanian
 		}
 		
 		1815 = {

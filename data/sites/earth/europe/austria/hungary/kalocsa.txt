@@ -1,8 +1,8 @@
-pest = {
-	name = "Pest"
+kalocsa = {
+	name = "Kalocsa"
 	world = earth
-	geocoordinate = { 19.1 47.5 }
-	type = settlement
+	geocoordinate = { 18.985555555556 46.533333333333 }
+	province = pest
 	
 	history = {
 		1360 = {

@@ -1,8 +1,8 @@
-pest = {
-	name = "Pest"
+orsova = {
+	name = "Orsova"
 	world = earth
-	geocoordinate = { 19.1 47.5 }
-	type = settlement
+	geocoordinate = { 22.396111111111 44.725277777778 }
+	province = banat
 	
 	history = {
 		1360 = {

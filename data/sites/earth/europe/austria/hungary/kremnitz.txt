@@ -1,10 +1,10 @@
-esseg = {
-	name = "Esseg"
+kremnitz = {
+	name = "Kremnitz"
 	world = earth
-	geocoordinate = { 18.68003779980 45.55038372710 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 18.918333333333 48.704444444444 }
+	province = pressburg
 	cultural_names = {
-		croatian = "Osijek"
+		slovak = "Kremnica"
 	}
 	
 	history = {

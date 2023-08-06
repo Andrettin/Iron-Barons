@@ -16,10 +16,14 @@ dalmatia = {
 			culture = gothic
 		}
 		
-		1477 = {
-			owner = hungary #part of the Kingdom of Hungary c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		1360 = {
+			owner = hungary #part of Hungary in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = croatian
 			religion = catholic
+		}
+		
+		1477 = {
+			owner = hungary #part of the Kingdom of Hungary c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1494 = {
