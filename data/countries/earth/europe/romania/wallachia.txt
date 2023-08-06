@@ -5,6 +5,7 @@ wallachia = {
 	default_religion = orthodox
 	capital_province = wallachia
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}

@@ -1,8 +1,8 @@
-craiova = {
-	name = "Craiova"
+severin = {
+	name = "Severin"
 	world = earth
-	geocoordinate = { 23.82587357450 44.32627239900 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 22.66589269890 44.64589113270 } #from Natural Earth
+	province = oltenia
 	
 	history = {
 		1360 = {

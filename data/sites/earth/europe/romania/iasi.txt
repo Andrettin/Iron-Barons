@@ -1,6 +1,12 @@
 iasi = {
-	name = "Iasi" #Iași
+	name = "Iasi" #"Iași"
 	world = earth
 	geocoordinate = { 27.57494706090 47.16834698390 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

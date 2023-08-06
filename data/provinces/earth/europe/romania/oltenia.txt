@@ -16,14 +16,18 @@ oltenia = {
 			culture = gothic
 		}
 		
+		1360 = {
+			owner = wallachia #part of Wallachia in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = romanian
+			religion = orthodox
+		}
+		
 		1718 = {
 			owner = austria #became an Austrian possession in 1718; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			culture = romanian
 		}
 		
 		1739 = {
 			owner = wallachia #became part of Wallachia in 1739; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			religion = orthodox
 		}
 		
 		germanys_future = {

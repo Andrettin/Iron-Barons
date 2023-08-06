@@ -5,6 +5,7 @@ moldavia = {
 	default_religion = orthodox
 	capital_province = moldavia
 	eras = {
+		medieval_era
 		renaissance_era
 		industrial_era
 	}
