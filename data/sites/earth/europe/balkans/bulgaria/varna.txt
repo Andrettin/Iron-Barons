@@ -1,8 +1,8 @@
-sofia = {
-	name = "Sofia"
+varna = {
+	name = "Varna"
 	world = earth
-	geocoordinate = { 23.31665401070 42.68334942530 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 27.89528926460 43.21564251610 } #from Natural Earth
+	province = bulgaria
 	
 	history = {
 		1360 = {

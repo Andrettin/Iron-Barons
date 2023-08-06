@@ -1,8 +1,8 @@
-sofia = {
-	name = "Sofia"
+silistra = {
+	name = "Silistra"
 	world = earth
-	geocoordinate = { 23.31665401070 42.68334942530 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 27.265381 44.109238 }
+	province = bulgaria
 	
 	history = {
 		1360 = {

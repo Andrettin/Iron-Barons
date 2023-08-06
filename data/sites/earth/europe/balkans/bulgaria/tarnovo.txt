@@ -1,10 +1,10 @@
-philippopolis = {
-	name = "Philippopolis"
+tarnovo = {
+	name = "Tarnovo"
 	world = earth
-	geocoordinate = { 24.75398229850 42.15397605290 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 25.65552933630 43.08624472970 } #from Natural Earth
+	province = bulgaria
 	cultural_names = {
-		bulgarian = "Plovdiv"
+		turkish = "Tirnova"
 	}
 	
 	history = {

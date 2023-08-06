@@ -1,8 +1,8 @@
-sofia = {
-	name = "Sofia"
+vidin = {
+	name = "Vidin"
 	world = earth
-	geocoordinate = { 23.31665401070 42.68334942530 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 22.874058 43.98869 }
+	province = bulgaria
 	
 	history = {
 		1360 = {
