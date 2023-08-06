@@ -1,0 +1,23 @@
+byzantium = {
+	name = "Byzantium"
+	type = great_power
+	color = { 170 148 214 }
+	culture = greek
+	default_religion = orthodox
+	capital_province = thrace
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		thrace
+		attica
+		central_macedonia
+		crete
+		east_macedonia
+		eastern_rumelia
+		epirus
+		peloponnese
+		thessaly
+		west_macedonia
+	}
+}
