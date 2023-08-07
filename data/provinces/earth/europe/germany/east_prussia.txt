@@ -16,10 +16,14 @@ east_prussia = {
 			culture = slavic
 		}
 		
-		1477 = {
-			owner = teutonic_order #part of the Domain of the Teutonic Order c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		1360 = {
+			owner = teutonic_order #territory of the Teutonic Order in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = german
 			religion = catholic
+		}
+		
+		1477 = {
+			owner = teutonic_order #part of the Domain of the Teutonic Order c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1740 = {

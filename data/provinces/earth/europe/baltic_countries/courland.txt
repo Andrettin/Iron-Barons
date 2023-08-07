@@ -10,6 +10,11 @@ courland = {
 		culture = latvian
 		religion = pagan
 		
+		1360 = {
+			owner = teutonic_order #territory of the Teutonic Order in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			religion = catholic
+		}
+		
 		1740 = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

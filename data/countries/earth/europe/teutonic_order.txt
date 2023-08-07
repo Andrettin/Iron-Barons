@@ -5,6 +5,11 @@ teutonic_order = {
 	default_religion = catholic
 	capital_province = east_prussia
 	eras = {
+		medieval_era
 		renaissance_era
+	}
+	core_provinces = {
+		east_prussia
+		west_prussia
 	}
 }

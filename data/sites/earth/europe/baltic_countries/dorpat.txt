@@ -1,0 +1,15 @@
+dorpat = {
+	name = "Dorpat"
+	world = earth
+	geocoordinate = { 26.70988358430 58.38394146640 } #from Natural Earth
+	province = estonia
+	cultural_names = {
+		estonian = "Tartu"
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

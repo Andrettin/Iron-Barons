@@ -1,0 +1,15 @@
+thorn = {
+	name = "Thorn"
+	world = earth
+	geocoordinate = { 18.616666666667 53.016666666667 }
+	province = west_prussia
+	cultural_names = {
+		polish = "Torun" #"Toruń"
+	}
+	
+	history = {
+		1366 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

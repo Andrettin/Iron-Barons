@@ -3,4 +3,10 @@ riga = {
 	world = earth
 	geocoordinate = { 24.09996537140 56.95002382320 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }
