@@ -1,8 +1,8 @@
-vilnius = {
-	name = "Vilnius"
+kamianets = {
+	name = "Kamianets"
 	world = earth
-	geocoordinate = { 25.31663529330 54.68336631180 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 26.58089920930 48.68430096340 } #from Natural Earth
+	province = vinnitsa
 	
 	history = {
 		1360 = {

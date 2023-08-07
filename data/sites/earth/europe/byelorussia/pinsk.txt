@@ -1,8 +1,8 @@
-vilnius = {
-	name = "Vilnius"
+pinsk = {
+	name = "Pinsk"
 	world = earth
-	geocoordinate = { 25.31663529330 54.68336631180 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 26.09405554070 52.12786338210 } #from Natural Earth
+	province = brest
 	
 	history = {
 		1360 = {

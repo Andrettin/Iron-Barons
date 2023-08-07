@@ -1,8 +1,8 @@
-vilnius = {
-	name = "Vilnius"
+bialystok = {
+	name = "Bialystok"
 	world = earth
-	geocoordinate = { 25.31663529330 54.68336631180 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 23.16999629590 53.15035910960 } #from Natural Earth
+	province = warsaw
 	
 	history = {
 		1360 = {

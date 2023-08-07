@@ -1,8 +1,8 @@
-vilnius = {
-	name = "Vilnius"
+novgorod_sieversk = {
+	name = "Novgorod Sieversk"
 	world = earth
-	geocoordinate = { 25.31663529330 54.68336631180 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 33.266666666666666 51.99722222222222 }
+	province = chernigov
 	
 	history = {
 		1360 = {

@@ -17,9 +17,14 @@ minsk = {
 			culture = slavic
 		}
 		
+		1360 = {
+			owner = lithuania #part of Lithuania in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = byelorussian
+			religion = orthodox
+		}
+		
 		1740 = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			culture = byelorussian
 		}
 		
 		germanys_future = {

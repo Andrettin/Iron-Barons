@@ -1,0 +1,13 @@
+lithuania = {
+	name = "Lithuania"
+	type = minor_nation
+	culture = lithuanian
+	default_religion = catholic
+	capital_province = lithuania
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		lithuania
+	}
+}

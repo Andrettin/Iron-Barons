@@ -1,0 +1,15 @@
+kaunas = {
+	name = "Kaunas"
+	world = earth
+	geocoordinate = { 23.88003047560 54.95040427560 } #from Natural Earth
+	province = lithuania
+	cultural_names = {
+		russian = "Kovno"
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}
