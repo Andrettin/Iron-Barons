@@ -6,6 +6,10 @@ cracow = {
 	terrain_type = plains
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1364 = {
 			buildings += university #University founded in Krakow in 1364; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 		}

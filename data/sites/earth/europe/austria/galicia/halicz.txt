@@ -1,8 +1,8 @@
-warsaw = {
-	name = "Warsaw"
+halicz = {
+	name = "Halicz"
 	world = earth
-	geocoordinate = { 20.99999955110 52.25000062980 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 24.721666666667 49.112777777778 }
+	province = east_galicia
 	
 	history = {
 		1360 = {

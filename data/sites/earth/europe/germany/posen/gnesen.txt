@@ -1,8 +1,11 @@
-warsaw = {
-	name = "Warsaw"
+gnesen = {
+	name = "Gnesen"
 	world = earth
-	geocoordinate = { 20.99999955110 52.25000062980 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 17.6 52.533333333333 }
+	province = posen
+	cultural_names = {
+		polish = "Gniezno"
+	}
 	
 	history = {
 		1360 = {
