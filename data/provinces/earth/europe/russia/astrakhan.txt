@@ -1,0 +1,13 @@
+astrakhan = {
+	name = "Astrakhan"
+	color = { 196 47 116 }
+	capital_settlement = sarai
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}

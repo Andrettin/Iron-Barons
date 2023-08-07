@@ -1,0 +1,13 @@
+volgograd = {
+	name = "Volgograd"
+	color = { 146 138 131 }
+	capital_settlement = volgograd
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}

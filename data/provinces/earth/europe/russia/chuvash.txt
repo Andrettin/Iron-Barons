@@ -1,0 +1,13 @@
+chuvash = {
+	name = "Chuvash"
+	color = { 143 236 113 }
+	capital_settlement = cheboksary
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}

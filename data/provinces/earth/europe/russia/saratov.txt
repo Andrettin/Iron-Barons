@@ -1,0 +1,13 @@
+saratov = {
+	name = "Saratov"
+	color = { 248 104 38 }
+	capital_settlement = saratov
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}

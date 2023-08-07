@@ -1,0 +1,13 @@
+penza = {
+	name = "Penza"
+	color = { 210 107 181 }
+	capital_settlement = penza
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}

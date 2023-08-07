@@ -1,0 +1,13 @@
+stavropol = {
+	name = "Stavropol"
+	color = { 57 176 15 }
+	capital_settlement = stavropol
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}

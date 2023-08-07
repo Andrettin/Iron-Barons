@@ -1,0 +1,13 @@
+ulyanovsk = {
+	name = "Ulyanovsk"
+	color = { 167 156 49 }
+	capital_settlement = ulyanovsk
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}

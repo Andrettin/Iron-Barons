@@ -1,0 +1,13 @@
+kalmykia = {
+	name = "Kalmykia"
+	color = { 81 216 100 }
+	capital_settlement = elista
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = russian
+		religion = pagan
+	}
+}
