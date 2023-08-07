@@ -3,4 +3,5 @@ donetsk = {
 	world = earth
 	geocoordinate = { 37.82998001990 48.00000164700 } #from Natural Earth
 	type = settlement
+	terrain_type = plains
 }
