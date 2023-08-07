@@ -1,0 +1,25 @@
+golden_horde = {
+	name = "Golden Horde"
+	type = tribe
+	culture = mongol
+	default_religion = pagan
+	capital_province = astrakhan
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		astrakhan
+		crimea
+		donetsk
+		kalmykia
+		kharkov
+		kherson
+		krasnodar
+		krivoy_rog
+		luhansk
+		mordovia
+		rostov
+		stavropol
+		volgograd
+	}
+}
