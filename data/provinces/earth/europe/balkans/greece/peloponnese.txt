@@ -26,6 +26,10 @@ peloponnese = {
 			religion = orthodox
 		}
 		
+		1360 = {
+			owner = byzantium #part of the Byzantine Empire in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1699 = {
 			owner = venice #became a Venetian possession in 1699; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

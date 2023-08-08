@@ -1,8 +1,11 @@
-mistra = {
-	name = "Mistra"
+methoni = {
+	name = "Methoni"
 	world = earth
-	#geocoordinate = { 22.3673 37.074 }
+	geocoordinate = { 21.706944444444 36.821666666667 }
 	province = peloponnese
+	cultural_names = {
+		italian = "Modon"
+	}
 	
 	history = {
 		1360 = {

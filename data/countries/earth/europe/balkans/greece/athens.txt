@@ -12,3 +12,31 @@ athens = {
 		attica
 	}
 }
+
+athenes = { #the French Duchy of Athens
+	name = "Athenes"
+	type = minor_nation
+	culture = french
+	default_religion = catholic
+	capital_province = attica
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		attica
+	}
+}
+
+atenes = { #the Catalan Duchy of Athens
+	name = "Atenes"
+	type = minor_nation
+	culture = catalan
+	default_religion = catholic
+	capital_province = attica
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		attica
+	}
+}
