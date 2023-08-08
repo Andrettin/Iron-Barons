@@ -3,6 +3,6 @@ surkhandarya = {
 	color = { 163 99 28 }
 	capital_settlement = termiz
 	regions = {
-		asia
+		uzbekistan
 	}
 }

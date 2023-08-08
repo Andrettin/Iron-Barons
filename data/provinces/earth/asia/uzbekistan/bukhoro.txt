@@ -3,6 +3,6 @@ bukhoro = {
 	color = { 180 203 183 }
 	capital_settlement = bukhara
 	regions = {
-		asia
+		uzbekistan
 	}
 }

@@ -3,6 +3,6 @@ navoi = {
 	color = { 226 0 67 }
 	capital_settlement = navoi
 	regions = {
-		asia
+		uzbekistan
 	}
 }

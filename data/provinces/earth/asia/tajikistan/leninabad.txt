@@ -3,6 +3,6 @@ leninabad = {
 	color = { 224 149 125 }
 	capital_settlement = leninobod
 	regions = {
-		asia
+		tajikistan
 	}
 }

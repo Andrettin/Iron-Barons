@@ -7,9 +7,33 @@ japan = {
 	}
 }
 
+kyrgyzstan = {
+	superregions = {
+		asia
+		commonwealth_of_independent_states
+		soviet_union
+	}
+}
+
 persia = {
 	superregions = {
 		asia
 		middle_east
+	}
+}
+
+tajikistan = {
+	superregions = {
+		asia
+		commonwealth_of_independent_states
+		soviet_union
+	}
+}
+
+uzbekistan = {
+	superregions = {
+		asia
+		commonwealth_of_independent_states
+		soviet_union
 	}
 }

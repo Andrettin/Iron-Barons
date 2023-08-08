@@ -3,6 +3,6 @@ samarkand = {
 	color = { 140 150 17 }
 	capital_settlement = samarkand
 	regions = {
-		asia
+		uzbekistan
 	}
 }

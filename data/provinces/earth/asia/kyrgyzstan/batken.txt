@@ -3,6 +3,6 @@ batken = {
 	color = { 161 114 101 }
 	capital_settlement = batken
 	regions = {
-		asia
+		kyrgyzstan
 	}
 }
