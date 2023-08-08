@@ -1,8 +1,8 @@
-pskov = {
-	name = "Pskov"
+kolomna = {
+	name = "Kolomna"
 	world = earth
-	geocoordinate = { 28.32993973670 57.82999595040 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 38.78496048860 55.07998292960 } #from Natural Earth
+	province = moscow
 	
 	history = {
 		1360 = {

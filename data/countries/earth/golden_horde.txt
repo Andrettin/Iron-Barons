@@ -21,5 +21,6 @@ golden_horde = {
 		rostov
 		stavropol
 		volgograd
+		voronezh
 	}
 }

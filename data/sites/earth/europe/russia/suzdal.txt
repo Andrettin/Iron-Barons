@@ -1,8 +1,8 @@
-pskov = {
-	name = "Pskov"
+suzdal = {
+	name = "Suzdal"
 	world = earth
-	geocoordinate = { 28.32993973670 57.82999595040 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 40.448888888889 56.421111111111 }
+	province = vladimir
 	
 	history = {
 		1360 = {

@@ -7,12 +7,17 @@ nizhegorod = {
 	}
 	
 	history = {
-		culture = russian
+		culture = slavic
 		religion = pagan
+		
+		1360 = {
+			owner = russia #part of the Russian States in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = russian
+			religion = orthodox
+		}
 		
 		1740 = {
 			owner = russia #part of the Russian Empire c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			religion = orthodox
 		}
 	}
 }
