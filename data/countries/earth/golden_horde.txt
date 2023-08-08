@@ -9,18 +9,23 @@ golden_horde = {
 	}
 	core_provinces = {
 		astrakhan
+		atyrau
+		bashkortostan
 		crimea
 		donetsk
 		kalmykia
+		karachay_cherkess
 		kharkov
 		kherson
 		krasnodar
 		krivoy_rog
 		luhansk
 		mordovia
+		orenburg
 		rostov
 		stavropol
 		volgograd
 		voronezh
+		west_kazakhstan
 	}
 }

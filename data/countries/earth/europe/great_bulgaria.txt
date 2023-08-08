@@ -10,6 +10,7 @@ great_bulgaria = {
 	core_provinces = {
 		tatarstan
 		penza
+		samara
 		saratov
 		ulyanovsk
 	}

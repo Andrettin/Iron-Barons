@@ -1,0 +1,18 @@
+orenburg = {
+	name = "Orenburg"
+	color = { 133 87 164 }
+	capital_settlement = orenburg
+	regions = {
+		european_russia
+	}
+	
+	history = {
+		culture = mongol
+		religion = pagan
+		
+		1360 = {
+			owner = golden_horde #part of the Khanate of the Golden Horde in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = mongol
+		}
+	}
+}

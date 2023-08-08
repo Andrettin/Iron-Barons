@@ -7,6 +7,14 @@ japan = {
 	}
 }
 
+kazakhstan = {
+	superregions = {
+		asia
+		commonwealth_of_independent_states
+		soviet_union
+	}
+}
+
 kyrgyzstan = {
 	superregions = {
 		asia
