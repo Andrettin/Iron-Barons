@@ -1,0 +1,13 @@
+georgia = {
+	name = "Georgia"
+	type = minor_nation
+	culture = georgian
+	default_religion = orthodox
+	capital_province = georgia_caucasus
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		georgia_caucasus
+	}
+}
