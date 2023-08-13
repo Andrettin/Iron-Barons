@@ -1,0 +1,19 @@
+azerbaijan = {
+	name = "Azerbaijan"
+	color = { 170 72 127 }
+	capital_settlement = baku
+	regions = {
+		azerbaijan
+	}
+	
+	history = {
+		culture = azerbaijani
+		religion = pagan
+		
+		germanys_future = {
+			1918 = {
+				owner = germany #Source: "The British Dominions Year Book 1918", 1918, Map 11.
+			}
+		}
+	}
+}

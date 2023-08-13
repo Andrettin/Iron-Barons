@@ -1,3 +1,19 @@
+armenia = {
+	superregions = {
+		europe
+		commonwealth_of_independent_states
+		soviet_union
+	}
+}
+
+azerbaijan = {
+	superregions = {
+		europe
+		commonwealth_of_independent_states
+		soviet_union
+	}
+}
+
 georgia = {
 	superregions = {
 		europe
