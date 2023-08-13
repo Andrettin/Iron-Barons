@@ -9,5 +9,11 @@ kars = {
 	history = {
 		culture = turkish
 		religion = sunni
+		
+		1360 = {
+			owner = erzincan #part of the Dominions of Mohammed Artin in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = turkish
+			religion = sunni
+		}
 	}
 }

@@ -4,4 +4,13 @@ sanliurfa = {
 	geocoordinate = { 38.79498571650 37.16999086410 } #from Natural Earth
 	type = settlement
 	#resource = grain #Arable land; Source: "CIA Atlas of the Middle East", 1993.
+	cultural_names = {
+		arabic = "Ruha"
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

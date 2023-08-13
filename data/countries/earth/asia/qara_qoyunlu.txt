@@ -1,0 +1,17 @@
+qara_qoyunlu = {
+	name = "Qara Qoyunlu"
+	type = tribe
+	culture = azerbaijani
+	default_religion = shiite
+	capital_province = van
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		van
+		al_hasakah
+		amida
+		assyria
+		sanliurfa
+	}
+}
