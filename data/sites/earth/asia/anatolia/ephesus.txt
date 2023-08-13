@@ -1,8 +1,8 @@
-kastamonu = {
-	name = "Kastamonu"
+ephesus = {
+	name = "Ephesus"
 	world = earth
-	geocoordinate = { 33.78300349050 41.38900215260 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 27.348611 37.939722 }
+	province = smyrna
 	
 	history = {
 		1360 = {

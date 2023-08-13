@@ -1,0 +1,27 @@
+seljuk_turks = {
+	name = "Seljuk Turks"
+	type = tribe
+	culture = turkish
+	default_religion = sunni
+	capital_province = karaman
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		karaman
+		afyonkarahisar
+		antalya
+		aydin
+		burdur
+		corum
+		denizli
+		kastamonu
+		mersin
+		mugla
+		samsun
+		saruhan
+		sinope
+		sivas
+		smyrna
+	}
+}

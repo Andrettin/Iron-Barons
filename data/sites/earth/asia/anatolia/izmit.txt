@@ -1,8 +1,8 @@
-kastamonu = {
-	name = "Kastamonu"
+izmit = {
+	name = "Izmit"
 	world = earth
-	geocoordinate = { 33.78300349050 41.38900215260 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 29.93061722690 40.77602398590 } #from Natural Earth
+	province = bursa
 	
 	history = {
 		1360 = {

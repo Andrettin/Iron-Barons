@@ -1,0 +1,13 @@
+erzincan = {
+	name = "Erzincan"
+	type = minor_nation
+	culture = turkish
+	default_religion = sunni
+	capital_province = erzincan
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		erzincan
+	}
+}

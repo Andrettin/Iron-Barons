@@ -14,5 +14,10 @@ trebizond = {
 			owner = greece #Greek territory in the 750-625 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
 			culture = greek
 		}
+		
+		1360 = {
+			owner = trebizond #part of the Empire of Trebizond in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			religion = orthodox
+		}
 	}
 }

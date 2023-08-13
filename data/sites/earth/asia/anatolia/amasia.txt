@@ -1,0 +1,15 @@
+amasia = {
+	name = "Amasia"
+	world = earth
+	geocoordinate = { 35.83304764680 40.65368003240 } #from Natural Earth
+	province = corum
+	cultural_names = {
+		turkish = "Amasya"
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

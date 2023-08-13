@@ -1,8 +1,8 @@
-kastamonu = {
-	name = "Kastamonu"
+biga = {
+	name = "Biga"
 	world = earth
-	geocoordinate = { 33.78300349050 41.38900215260 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 27.24222 40.22806 }
+	province = troad
 	
 	history = {
 		1360 = {

@@ -3,4 +3,10 @@ tarsus = {
 	world = earth
 	geocoordinate = { 34.87997920610 36.92039369610 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }
