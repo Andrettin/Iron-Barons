@@ -3,4 +3,10 @@ basra = {
 	world = earth
 	geocoordinate = { 47.81355668010 30.51352378240 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

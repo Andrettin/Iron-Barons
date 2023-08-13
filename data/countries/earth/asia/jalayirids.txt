@@ -1,0 +1,26 @@
+jalayirids = {
+	name = "Jalayirids"
+	type = tribe
+	culture = mongol
+	default_religion = shiite
+	capital_province = diyala
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		diyala
+		al_anbar
+		babylon
+		chaldea
+		elam
+		hamadan
+		karbala
+		kermanshah
+		khuzestan
+		lorestan
+		najaf
+		persia
+		saladin
+		sumer
+	}
+}
