@@ -13,6 +13,7 @@ qara_qoyunlu = {
 		amida
 		armenia
 		assyria
+		kars
 		nakhchivan
 		sanliurfa
 	}
