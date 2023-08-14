@@ -11,7 +11,9 @@ qara_qoyunlu = {
 		van
 		al_hasakah
 		amida
+		armenia
 		assyria
+		nakhchivan
 		sanliurfa
 	}
 }

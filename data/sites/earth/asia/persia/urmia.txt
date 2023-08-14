@@ -1,0 +1,6 @@
+urmia = {
+	name = "Urmia"
+	world = earth
+	geocoordinate = { 44.99998164750 37.52999472970 } #from Natural Earth
+	type = settlement
+}

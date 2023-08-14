@@ -12,15 +12,18 @@ jalayirids = {
 		al_anbar
 		babylon
 		chaldea
+		east_azarbaijan
 		elam
 		hamadan
 		karbala
 		kermanshah
+		kordestan
 		khuzestan
 		lorestan
 		najaf
 		persia
 		saladin
 		sumer
+		west_azarbaijan
 	}
 }
