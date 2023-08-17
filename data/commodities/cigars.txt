@@ -1,4 +1,4 @@
 cigars = {
 	name = "Cigars"
-	icon = tobacco
+	icon = cigars
 }

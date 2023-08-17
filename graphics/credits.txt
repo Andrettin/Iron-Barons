@@ -6,6 +6,7 @@
 /graphics/icons/commodities/amber.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/bronze.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/cattle.png (by Jinn) (licensed under the CC0)
+/graphics/icons/commodities/cigars.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/clothing.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/coal.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/copper.png (by Jinn) (licensed under the CC0)
