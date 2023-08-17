@@ -184,6 +184,7 @@
 /graphics/portraits/characters/henry_the_navigator.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/jakob_fugger.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/metternich.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/characters/otto_von_bismarck.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/philip_ii_of_spain.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/sailor.png (by Exidelo) (licensed under the CC0)
 /graphics/portraits/characters/sailor_player_color.png (by Exidelo) (licensed under the CC0)
