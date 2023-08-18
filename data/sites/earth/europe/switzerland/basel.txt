@@ -5,6 +5,10 @@ basel = {
 	province = bern
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1459 = {
 			buildings += university #University founded in Basel in 1459; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 		}

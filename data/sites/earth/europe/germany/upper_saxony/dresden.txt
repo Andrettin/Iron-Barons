@@ -3,4 +3,10 @@ dresden = {
 	world = earth
 	geocoordinate = { 13.75000280630 51.04997051910 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
 }

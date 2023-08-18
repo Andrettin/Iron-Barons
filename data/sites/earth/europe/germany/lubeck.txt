@@ -1,8 +1,8 @@
-liege = {
-	name = "Liege" #"Liège"
+lubeck = {
+	name = "Lubeck" #"Lübeck"
 	world = earth
-	geocoordinate = { 5.58001053734 50.62999615390 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 10.66998408880 53.87039267890 } #from Natural Earth
+	province = holstein
 	
 	history = {
 		1360 = {

@@ -5,6 +5,10 @@ geneva = {
 	type = settlement
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1365 = {
 			buildings += university #University founded in Geneva in 1365; Source: "Atlas de História Mundial", p. 144.
 		}

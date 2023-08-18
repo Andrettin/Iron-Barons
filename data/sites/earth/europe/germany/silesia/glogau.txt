@@ -1,10 +1,10 @@
-pilsen = {
-	name = "Pilsen"
+glogau = {
+	name = "Glogau"
 	world = earth
-	geocoordinate = { 13.36000077180 49.74043804840 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 16.080277777778 51.658888888889 }
+	province = lower_silesia
 	cultural_names = {
-		czech = "Plzen"
+		polish = "Glogow" #"Głogów"
 	}
 	
 	history = {

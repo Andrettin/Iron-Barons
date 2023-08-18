@@ -1,0 +1,15 @@
+constance = {
+	name = "Constance" #"Konstanz"
+	world = earth
+	geocoordinate = { 9.1752777777778 47.663333333333 }
+	province = baden
+	cultural_group_names = {
+		#german = "Konstanz"
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

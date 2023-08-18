@@ -5,6 +5,10 @@ frankfurt = {
 	type = settlement
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1561 = {
 			population = 15000 #Frankfurt had a population of 15,000 in 1561; Source: Henry Kamen, "The Iron Century", p. 421.
 		}

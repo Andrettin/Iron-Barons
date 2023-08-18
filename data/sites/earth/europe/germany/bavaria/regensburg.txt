@@ -1,0 +1,15 @@
+regensburg = {
+	name = "Regensburg" #also known as Ratisbon
+	world = earth
+	geocoordinate = { 12.12002477890 49.02040447910 } #from Natural Earth
+	province = bavaria
+	cultural_names = {
+		roman = "Regina Castra"
+	}
+	
+	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+	}
+}

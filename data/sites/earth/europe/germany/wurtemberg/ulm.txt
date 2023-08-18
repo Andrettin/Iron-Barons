@@ -1,8 +1,8 @@
-liege = {
-	name = "Liege" #"Liège"
+ulm = {
+	name = "Ulm"
 	world = earth
-	geocoordinate = { 5.58001053734 50.62999615390 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 9.99999914413 48.40039064440 } #from Natural Earth
+	province = wurtemberg
 	
 	history = {
 		1360 = {
