@@ -5,6 +5,10 @@ oporto = {
 	type = settlement
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1911 = {
 			buildings += university #University founded in Oporto in 1911; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
 		}

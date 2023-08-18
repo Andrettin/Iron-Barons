@@ -6,6 +6,10 @@ murcia = {
 	type = settlement
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1614 = {
 			buildings += university #Minor university founded in Murcia in 1614; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
 		}

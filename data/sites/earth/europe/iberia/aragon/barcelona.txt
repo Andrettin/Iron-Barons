@@ -5,6 +5,10 @@ barcelona = {
 	type = settlement
 	
 	history = {
+		1360 = {
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1430 = {
 			buildings += university #University founded in Barcelona in 1430; Source: "The Cambridge Modern History Atlas", 1912, p. 9; Source: "Atlas de História Mundial", 2001, p. 144.
 		}
