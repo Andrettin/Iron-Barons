@@ -16,10 +16,14 @@ bavaria = {
 			culture = suebi
 		}
 		
-		1477 = {
-			owner = bavaria #part of the Duchy of Bavaria-Munich c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		1360 = {
+			owner = bavaria #part of Bavaria in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = german
 			religion = catholic
+		}
+		
+		1477 = {
+			owner = bavaria #part of the Duchy of Bavaria-Munich c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1740 = {
