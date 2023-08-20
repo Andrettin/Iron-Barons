@@ -3,6 +3,7 @@ liege = {
 	world = earth
 	geocoordinate = { 5.58001053734 50.62999615390 } #from Natural Earth
 	type = settlement
+	terrain_type = plains
 	
 	history = {
 		1360 = {

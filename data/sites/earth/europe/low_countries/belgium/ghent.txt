@@ -2,7 +2,7 @@ ghent = {
 	name = "Ghent"
 	world = earth
 	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	province = antwerp
+	type = settlement
 	
 	history = {
 		1360 = {

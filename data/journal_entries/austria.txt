@@ -5,8 +5,8 @@ austrian_netherlands = {
 		country = austria
 	}
 	owned_provinces = {
-		antwerp
 		brabant
+		flanders
 		luxembourg
 	}
 	completion_effects = {

@@ -16,10 +16,13 @@ brabant = {
 			religion = catholic
 		}
 		
+		1360 = {
+			owner = brabant #part of Brabant in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			culture = flemish
+		}
+		
 		1477 = {
 			owner = burgundy #Burgundian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
-			culture = flemish
-			religion = catholic
 		}
 		
 		1740 = {

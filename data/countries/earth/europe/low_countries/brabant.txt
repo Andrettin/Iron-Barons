@@ -1,15 +1,13 @@
-belgium = {
-	name = "Belgium"
+brabant = {
+	name = "Brabant"
 	type = minor_nation
-	culture = walloon
+	culture = flemish
 	default_religion = catholic
 	capital_province = brabant
 	eras = {
-		industrial_era
+		medieval_era
 	}
 	core_provinces = {
 		brabant
-		flanders
-		liege
 	}
 }

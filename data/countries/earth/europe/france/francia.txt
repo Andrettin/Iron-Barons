@@ -13,9 +13,9 @@ francia = {
 	core_provinces = {
 		ile_de_france
 		anjou
-		antwerp
 		brabant
 		champagne
+		flanders
 		hesse
 		liege
 		lorraine
