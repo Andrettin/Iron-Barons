@@ -10,7 +10,7 @@ friedrich_ii_of_saxony = {
 	death_date = 1464.9.7
 	obsolescence_technology = nationalism
 	rulable_countries = {
-		saxony
+		saxe_wittenberg
 	}
 	traits = {
 		industrious
@@ -30,7 +30,7 @@ august_iii_of_poland = {
 	required_technology = nationalism
 	rulable_countries = {
 		poland
-		saxony
+		saxe_wittenberg
 	}
 	traits = {
 		industrious

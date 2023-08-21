@@ -1,5 +1,5 @@
-saxony = {
-	name = "Saxony"
+saxe_wittenberg = {
+	name = "Saxe-Wittenberg"
 	type = minor_nation
 	culture = german
 	default_religion = protestant
