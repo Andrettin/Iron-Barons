@@ -16,10 +16,14 @@ groningen = {
 			culture = frisian
 		}
 		
-		1477 = {
-			owner = friesland #part of Friesland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		919 = {
+			owner = friesland #part of Friesland in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			culture = dutch
 			religion = catholic
+		}
+		
+		1477 = {
+			owner = friesland #part of Friesland c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1740 = {

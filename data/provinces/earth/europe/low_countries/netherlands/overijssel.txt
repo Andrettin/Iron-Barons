@@ -16,10 +16,13 @@ overijssel = {
 			religion = catholic
 		}
 		
+		919 = {
+			owner = friesland #part of Friesland in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = dutch
+		}
+		
 		1477 = {
 			owner = utrecht #part of the Bishopric of Utrecht c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
-			culture = dutch
-			religion = catholic
 		}
 		
 		1740 = {
