@@ -1,5 +1,5 @@
-saxony = {
-	name = "Saxony"
+upper_saxony = {
+	name = "Upper Saxony"
 	color = { 121 83 104 }
 	capital_settlement = dresden
 	regions = {

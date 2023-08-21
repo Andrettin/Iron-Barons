@@ -63,7 +63,7 @@ martin_luther = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	#advisor_type = theologian
 	culture = german
 	religion = protestant
-	home_province = saxony #Wittenberg, where he presented his 95 theses
+	home_site = wittenberg #where he presented his 95 theses
 	gender = male
 	birth_date = 1483
 	death_date = 1546
@@ -71,7 +71,7 @@ martin_luther = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	skill = 6
 	#monk
 	
-	#presented his 95 theses in Wittenberg, in Saxony, on 1517.10.31, starting the protestant reformation
+	#presented his 95 theses in Wittenberg on 1517.10.31, starting the protestant reformation
 }
 
 anton_fugger = {
@@ -94,7 +94,7 @@ peter_bennewitz = { #also known as Petrus Apianus; Source: Isaac Asimov, "Cronol
 	#advisor_type = natural_scientist #astronomer
 	culture = german
 	religion = protestant
-	home_province = saxony
+	home_province = upper_saxony
 	gender = male
 	birth_date = 1501
 	death_date = 1552

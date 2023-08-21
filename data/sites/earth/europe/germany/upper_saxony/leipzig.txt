@@ -2,7 +2,7 @@ leipzig = {
 	name = "Leipzig"
 	world = earth
 	geocoordinate = { 12.40998124050 51.33540529290 } #from Natural Earth
-	province = saxony
+	province = upper_saxony
 	
 	history = {
 		1409 = {

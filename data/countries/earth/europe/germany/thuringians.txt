@@ -11,6 +11,6 @@ thuringians = {
 		thuringia
 		franconia
 		magdeburg
-		saxony
+		upper_saxony
 	}
 }

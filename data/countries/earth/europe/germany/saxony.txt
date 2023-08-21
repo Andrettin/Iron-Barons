@@ -3,14 +3,14 @@ saxony = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = saxony
+	capital_province = upper_saxony
 	eras = {
 		medieval_era
 		renaissance_era
 		industrial_era
 	}
 	core_provinces = {
-		saxony
+		upper_saxony
 	}
 	
 	history = {

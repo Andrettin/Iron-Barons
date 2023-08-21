@@ -5,7 +5,7 @@ pirna = {
 	pos_offset = { 1 0 }
 	type = resource
 	resource = grain
-	province = saxony
+	province = upper_saxony
 	
 	history = {
 		1629 = {

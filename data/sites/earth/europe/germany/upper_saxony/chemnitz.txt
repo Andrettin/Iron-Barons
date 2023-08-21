@@ -2,7 +2,7 @@ chemnitz = {
 	name = "Chemnitz"
 	world = earth
 	geocoordinate = { 12.91997595080 50.82998394680 } #from Natural Earth
-	province = saxony
+	province = upper_saxony
 	
 	history = {
 		1846 = {

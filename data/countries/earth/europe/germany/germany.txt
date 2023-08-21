@@ -31,9 +31,9 @@ germany = {
 		oldenburg
 		palatinate
 		rhineland
-		saxony
 		schleswig
 		thuringia
+		upper_saxony
 		upper_silesia
 		west_prussia
 		westphalia
