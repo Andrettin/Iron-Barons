@@ -6,6 +6,8 @@ Rectangle {
 	color: interface_background_color
 	width: 64 * scale_factor + 8 * scale_factor * 2
 	
+	readonly property var advisor_commodity: metternich.defines.advisor_commodity
+	
 	Rectangle {
 		color: "gray"
 		anchors.top: parent.top
@@ -17,19 +19,19 @@ Rectangle {
 	}
 	
 	IndustryCounter {
-		id: civics_counter
+		id: advisor_commodity_counter
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
 		anchors.topMargin: 96 * scale_factor
-		name: "Civics"
+		name: advisor_commodity.name
 		icon_identifier: "flag"
-		count: country_game_data.get_stored_commodity("civics")
+		count: country_game_data.get_stored_commodity(advisor_commodity.identifier)
 	}
 	
 	SmallText {
 		id: advisor_cost_label
 		text: "(" + number_string(country_game_data.advisor_cost) + ")"
-		anchors.top: civics_counter.bottom
+		anchors.top: advisor_commodity_counter.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		visible: next_advisor_portrait.visible
@@ -39,7 +41,7 @@ Rectangle {
 			hoverEnabled: true
 			
 			onEntered: {
-				status_text = "Civics required for the next advisor"
+				status_text = advisor_commodity.name + " required for the next advisor"
 			}
 			
 			onExited: {
