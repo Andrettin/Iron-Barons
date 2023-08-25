@@ -1,8 +1,8 @@
-hamburg = {
-	name = "Hamburg"
+schalksburg = {
+	name = "Schalksburg"
 	world = earth
-	geocoordinate = { 9.99999914413 53.55002463690 } #from Natural Earth
-	province = holstein
+	geocoordinate = { 8.92108 52.2396 }
+	province = westphalia
 	
 	history = {
 		919 = {

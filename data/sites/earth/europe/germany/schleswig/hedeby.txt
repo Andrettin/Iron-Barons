@@ -1,8 +1,11 @@
-schleswig = {
-	name = "Schleswig"
+hedeby = {
+	name = "Hedeby"
 	world = earth
-	geocoordinate = { 9.5697222222222 54.515277777778 }
+	#geocoordinate = { 9.5652777777778 54.491111111111 }
 	province = schleswig
+	cultural_group_names = {
+		german = "Haddeby"
+	}
 	
 	history = {
 		919 = {

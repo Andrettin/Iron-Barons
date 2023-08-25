@@ -1,8 +1,8 @@
-hamburg = {
-	name = "Hamburg"
+warnstedt = {
+	name = "Warnstedt"
 	world = earth
-	geocoordinate = { 9.99999914413 53.55002463690 } #from Natural Earth
-	province = holstein
+	#geocoordinate = { 11.0575 51.77444 }
+	province = magdeburg
 	
 	history = {
 		919 = {

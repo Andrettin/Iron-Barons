@@ -1,8 +1,8 @@
-hamburg = {
-	name = "Hamburg"
+bardowiek = {
+	name = "Bardowiek" #also known as Bardowick
 	world = earth
-	geocoordinate = { 9.99999914413 53.55002463690 } #from Natural Earth
-	province = holstein
+	#geocoordinate = { 10.3921 53.2877 }
+	province = hanover
 	
 	history = {
 		919 = {
