@@ -6,7 +6,7 @@ village_hall = {
 	free_in_capital = true
 	provincial = true
 	production_types = {
-		civics_production
+		statesmanship_production
 	}
 	stackable_country_modifier = {
 		town_hall_capacity = 1
@@ -20,7 +20,7 @@ town_hall = {
 	icon = flag
 	provincial = true
 	production_types = {
-		civics_production
+		statesmanship_production
 	}
 	stackable_country_modifier = {
 		town_hall_capacity = 2
@@ -35,7 +35,7 @@ city_hall = {
 	provincial = true
 	required_building = town_hall
 	production_types = {
-		civics_production
+		statesmanship_production
 	}
 	stackable_country_modifier = {
 		town_hall_capacity = 4
@@ -51,7 +51,7 @@ capitol = {
 	capital_only = true
 	required_building = city_hall
 	production_types = {
-		civics_production
+		statesmanship_production
 	}
 	stackable_country_modifier = {
 		town_hall_capacity = 8

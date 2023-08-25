@@ -9,7 +9,7 @@ printing_press = {
 		game_rule = advisors_enabled
 	}
 	country_modifier = {
-		civics_output_modifier = 50
+		statesmanship_output_modifier = 50
 		research_output_modifier = 22
 	}
 }
@@ -26,7 +26,7 @@ newspaper = {
 		game_rule = advisors_enabled
 	}
 	country_modifier = {
-		civics_output_modifier = 100
+		statesmanship_output_modifier = 100
 		research_output_modifier = 22
 	}
 }

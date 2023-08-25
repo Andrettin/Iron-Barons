@@ -1,0 +1,5 @@
+statesmanship = {
+	name = "Statesmanship"
+	icon = flag
+	abstract = true
+}

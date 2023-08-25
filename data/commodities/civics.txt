@@ -1,5 +1,0 @@
-civics = {
-	name = "Civics"
-	icon = flag
-	abstract = true
-}

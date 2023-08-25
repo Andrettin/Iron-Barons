@@ -46,7 +46,7 @@ thomas_jefferson = {
 	death_date = 1826
 	required_technology = constitutionalism
 	advisor_modifier = {
-		civics_output_modifier = 50
+		statesmanship_output_modifier = 50
 	}
 }
 
@@ -62,7 +62,7 @@ john_jay = {
 	death_date = 1829
 	required_technology = constitutionalism
 	advisor_modifier = {
-		civics_output_modifier = 25
+		statesmanship_output_modifier = 25
 	}
 }
 

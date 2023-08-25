@@ -9,7 +9,7 @@ relation = { #Source: Henry Kamen, "Early Modern European Society", 2021, p. 308
 		alsace = newspaper
 	}
 	completion_effects = {
-		civics += 5
+		statesmanship += 5
 	}
 }
 
@@ -25,6 +25,6 @@ gazette_de_france = { #Source: Henry Kamen, "Early Modern European Society", 202
 		ile_de_france = newspaper
 	}
 	completion_effects = {
-		civics += 5
+		statesmanship += 5
 	}
 }

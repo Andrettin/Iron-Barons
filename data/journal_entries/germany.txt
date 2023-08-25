@@ -9,7 +9,7 @@ avisa_relation_oder_zeitung = { #Source: Henry Kamen, "Early Modern European Soc
 		hanover = newspaper
 	}
 	completion_effects = {
-		civics += 5
+		statesmanship += 5
 	}
 }
 
@@ -24,6 +24,6 @@ frankfurter_zeitung = { #Source: Henry Kamen, "Early Modern European Society", 2
 		hesse = newspaper
 	}
 	completion_effects = {
-		civics += 5
+		statesmanship += 5
 	}
 }

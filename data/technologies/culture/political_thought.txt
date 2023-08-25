@@ -45,7 +45,7 @@ rights_of_man = {
 		nationalism
 	}
 	modifier = {
-		civics_output_modifier = 5
+		statesmanship_output_modifier = 5
 	}
 }
 
@@ -59,7 +59,7 @@ constitutionalism = {
 		nationalism
 	}
 	modifier = {
-		civics_output_modifier = 5
+		statesmanship_output_modifier = 5
 	}
 }
 
@@ -73,7 +73,7 @@ egalitarianism = {
 		nationalism
 	}
 	modifier = {
-		civics_output_modifier = 5
+		statesmanship_output_modifier = 5
 	}
 }
 
@@ -101,7 +101,7 @@ collectivism = {
 		egalitarianism
 	}
 	modifier = {
-		civics_output_modifier = 5
+		statesmanship_output_modifier = 5
 	}
 }
 
@@ -116,7 +116,7 @@ individualism = {
 		constitutionalism
 	}
 	modifier = {
-		civics_output_modifier = 5
+		statesmanship_output_modifier = 5
 	}
 }
 

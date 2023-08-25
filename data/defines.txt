@@ -17,7 +17,7 @@ population_per_unit = 10000
 population_growth_threshold = 100
 
 research_commodity = research
-advisor_commodity = civics
+advisor_commodity = statesmanship
 interior_minister_portrait = metternich
 
 minor_nation_color = { 221 216 181 }

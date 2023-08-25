@@ -9,6 +9,6 @@ courthouse = {
 		game_rule = advisors_enabled
 	}
 	country_modifier = {
-		civics_output_modifier = 50
+		statesmanship_output_modifier = 50
 	}
 }
