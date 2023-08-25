@@ -1,0 +1,13 @@
+war_college = {
+	name = "War College"
+	building_class = war_college
+	portrait = fort
+	icon = wall
+	provincial = true
+	production_types = {
+		leadership_production
+	}
+	stackable_country_modifier = {
+		war_college_capacity = 4
+	}
+}
