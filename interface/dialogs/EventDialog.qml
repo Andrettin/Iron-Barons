@@ -82,20 +82,4 @@ DialogBase {
 			}
 		}
 	}
-	
-	function calculate_max_button_width(button_container) {
-		var max_button_width = 0
-		var button_margin_width = 4 * scale_factor * 2
-		
-		for (var i = 0; i < button_container.children.length; ++i) {
-			var child_item = button_container.children[i]
-			var button_text_content_width = child_item.text_content_width
-			
-			if (button_text_content_width !== undefined) {
-				max_button_width = Math.max(max_button_width, button_text_content_width + button_margin_width)
-			}
-		}
-		
-		return max_button_width
-	}
 }

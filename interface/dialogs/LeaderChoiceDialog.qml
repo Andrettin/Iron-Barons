@@ -5,9 +5,11 @@ import ".."
 DialogBase {
 	id: leader_choice_dialog
 	title: "Choose Leader"
-	width: 256 * scale_factor
+	width: Math.max(content_width, default_width)
 	height: content_height
 	
+	readonly property int max_button_width: calculate_max_button_width(leader_button_column) + 8 * scale_factor * 2
+	readonly property int content_width: max_button_width
 	readonly property int content_height: leader_button_column.y + leader_button_column.height + 8 * scale_factor
 	
 	property var potential_leaders: []
