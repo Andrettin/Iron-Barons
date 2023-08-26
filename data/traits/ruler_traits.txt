@@ -34,6 +34,15 @@ financial = {
 	}
 }
 
+imperialistic = {
+	name = "Imperialistic"
+	type = background
+	icon = globe
+	ruler_modifier = {
+		leadership_output_modifier = 25
+	}
+}
+
 impressionable = {
 	name = "Impressionable"
 	type = personality
