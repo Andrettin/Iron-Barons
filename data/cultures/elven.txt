@@ -1,0 +1,4 @@
+elven = {
+	name = "Elven"
+	default_phenotype = elven
+}
