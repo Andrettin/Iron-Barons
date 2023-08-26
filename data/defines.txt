@@ -18,7 +18,9 @@ population_growth_threshold = 100
 
 research_commodity = research
 advisor_commodity = statesmanship
+leader_commodity = leadership
 interior_minister_portrait = metternich
+war_minister_portrait = otto_von_bismarck
 
 minor_nation_color = { 221 216 181 }
 country_border_color = { 0 0 0 }

@@ -6,7 +6,9 @@ DialogBase {
 	id: advisor_choice_dialog
 	title: "Choose Advisor"
 	width: 256 * scale_factor
-	height: 256 * scale_factor
+	height: content_height
+	
+	readonly property int content_height: advisor_button_column.y + advisor_button_column.height + 8 * scale_factor
 	
 	property var potential_advisors: []
 	
@@ -18,16 +20,14 @@ DialogBase {
 		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
 		anchors.rightMargin: 8 * scale_factor
-		anchors.bottom: advisor_button_column.top
-		anchors.bottomMargin: 16 * scale_factor
 		text: "Which advisor shall we recruit next?"
 		wrapMode: Text.WordWrap
 	}
 	
 	Column {
 		id: advisor_button_column
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8 * scale_factor
+		anchors.top: text_label.bottom
+		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		spacing: 8 * scale_factor
 		
