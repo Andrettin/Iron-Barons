@@ -1,0 +1,9 @@
+mage = {
+	name = "Mage"
+	unit_class = mage
+	icon = artillerist
+	range = 5
+	defense = 3
+	movement = 4
+	entrench = true
+}

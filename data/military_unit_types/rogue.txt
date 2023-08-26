@@ -1,0 +1,10 @@
+rogue = {
+	name = "Rogue"
+	unit_class = rogue
+	icon = whitecoats
+	melee = 10
+	range = 1
+	defense = 4
+	movement = 5
+	entrench = true
+}
