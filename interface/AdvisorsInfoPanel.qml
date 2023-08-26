@@ -7,6 +7,7 @@ Rectangle {
 	width: 64 * scale_factor + 8 * scale_factor * 2
 	
 	readonly property var advisor_commodity: metternich.defines.advisor_commodity
+	readonly property var leader_commodity: metternich.defines.leader_commodity
 	
 	Rectangle {
 		color: "gray"
@@ -22,9 +23,9 @@ Rectangle {
 		id: advisor_commodity_counter
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
-		anchors.topMargin: 96 * scale_factor
+		anchors.topMargin: 64 * scale_factor
 		name: advisor_commodity.name
-		icon_identifier: "flag"
+		icon_identifier: advisor_commodity.icon.identifier
 		count: country_game_data.get_stored_commodity(advisor_commodity.identifier)
 	}
 	
@@ -72,6 +73,73 @@ Rectangle {
 			if (hovered && country_game_data.next_advisor) {
 				status_text = country_game_data.next_advisor.full_name
 			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IndustryCounter {
+		id: leader_commodity_counter
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.top: next_advisor_portrait.visible ? next_advisor_portrait.bottom : advisor_commodity_counter.bottom
+		anchors.topMargin: next_advisor_portrait.visible ? 32 * scale_factor : 166 * scale_factor
+		name: leader_commodity.name
+		icon_identifier: leader_commodity.icon.identifier
+		count: country_game_data.get_stored_commodity(leader_commodity.identifier)
+	}
+	
+	SmallText {
+		id: leader_cost_label
+		text: "(" + number_string(country_game_data.leader_cost) + ")"
+		anchors.top: leader_commodity_counter.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		visible: next_leader_icon.visible
+		
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true
+			
+			onEntered: {
+				status_text = leader_commodity.name + " required for the next leader"
+			}
+			
+			onExited: {
+				status_text = ""
+			}
+		}
+	}
+	
+	SmallText {
+		id: next_leader_label
+		text: "Next Leader"
+		anchors.top: leader_cost_label.bottom
+		anchors.topMargin: 32 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		visible: next_leader_icon.visible
+	}
+	
+	Image {
+		id: next_leader_icon
+		anchors.top: next_leader_label.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		source: country_game_data.next_leader_military_unit_type ? ("image://icon/" + country_game_data.next_leader_military_unit_type.icon.identifier) : "image://empty/"
+		visible: country_game_data.next_leader !== null
+		
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true
+			
+			onEntered: {
+				if (country_game_data.next_leader) {
+					status_text = country_game_data.next_leader.full_name + " (" + country_game_data.next_leader.leader_type_name + ")"
+				} else {
+					status_text = ""
+				}
+			}
+			
+			onExited: {
 				status_text = ""
 			}
 		}
