@@ -1,8 +1,8 @@
-speyer = {
-	name = "Speyer" #also known as Spires
+cassel = {
+	name = "Cassel" #also known as Kassel
 	world = earth
-	geocoordinate = { 8.4311111111111 49.319444444444 }
-	province = palatinate
+	geocoordinate = { 9.50002966171 51.30000693670 } #from Natural Earth
+	province = hesse
 	
 	history = {
 		919 = {

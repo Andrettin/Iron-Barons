@@ -1,8 +1,8 @@
-speyer = {
-	name = "Speyer" #also known as Spires
+fritzlar = {
+	name = "Fritzlar"
 	world = earth
-	geocoordinate = { 8.4311111111111 49.319444444444 }
-	province = palatinate
+	geocoordinate = { 9.266666666666667 51.13333333333333 }
+	province = hesse
 	
 	history = {
 		919 = {

@@ -1,7 +1,7 @@
-speyer = {
-	name = "Speyer" #also known as Spires
+bingen = {
+	name = "Bingen"
 	world = earth
-	geocoordinate = { 8.4311111111111 49.319444444444 }
+	#geocoordinate = { 7.895 49.966944444444 }
 	province = palatinate
 	
 	history = {

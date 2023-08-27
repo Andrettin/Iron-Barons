@@ -1,8 +1,8 @@
-speyer = {
-	name = "Speyer" #also known as Spires
+trebur = {
+	name = "Trebur" #also known as Tribur
 	world = earth
-	geocoordinate = { 8.4311111111111 49.319444444444 }
-	province = palatinate
+	#geocoordinate = { 8.4091666666667 49.924166666667 }
+	province = hesse
 	
 	history = {
 		919 = {

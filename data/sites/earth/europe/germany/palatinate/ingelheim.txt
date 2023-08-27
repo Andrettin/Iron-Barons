@@ -1,7 +1,7 @@
-speyer = {
-	name = "Speyer" #also known as Spires
+ingelheim = {
+	name = "Ingelheim"
 	world = earth
-	geocoordinate = { 8.4311111111111 49.319444444444 }
+	#geocoordinate = { 8.0563888888889 49.974722222222 }
 	province = palatinate
 	
 	history = {

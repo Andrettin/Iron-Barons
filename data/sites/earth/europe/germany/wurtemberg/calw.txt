@@ -1,8 +1,8 @@
-speyer = {
-	name = "Speyer" #also known as Spires
+calw = {
+	name = "Calw" #also known as Kalw
 	world = earth
-	geocoordinate = { 8.4311111111111 49.319444444444 }
-	province = palatinate
+	geocoordinate = { 8.7375 48.714444444444 }
+	province = wurtemberg
 	
 	history = {
 		919 = {
