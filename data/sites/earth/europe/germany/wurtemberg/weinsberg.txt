@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+weinsberg = {
+	name = "Weinsberg"
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 9.2858333333333 49.151944444444 }
+	province = wurtemberg
 	
 	history = {
 		919 = {

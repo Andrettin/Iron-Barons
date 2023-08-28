@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+bleichfeld = {
+	name = "Bleichfeld"
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	#geocoordinate = { 10.05 49.866666666667 } #Unterpleichfeld
+	province = franconia
 	
 	history = {
 		919 = {

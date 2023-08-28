@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+fladungen = {
+	name = "Fladungen"
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	#geocoordinate = { 10.145277777778 50.521111111111 }
+	province = franconia
 	
 	history = {
 		919 = {

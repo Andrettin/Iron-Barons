@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+bamberg = {
+	name = "Bamberg" #also known as Babenberg
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 10.891666666667 49.891666666667 }
+	province = franconia
 	
 	history = {
 		919 = {

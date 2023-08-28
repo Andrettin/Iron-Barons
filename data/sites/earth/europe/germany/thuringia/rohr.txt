@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+rohr = {
+	name = "Rohr" #also known as Rara
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 10.5 50.583333333333 }
+	province = thuringia
 	
 	history = {
 		919 = {

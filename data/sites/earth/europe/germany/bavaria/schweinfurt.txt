@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+schweinfurt = {
+	name = "Schweinfurt"
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 10.233333333333333 50.05 }
+	province = franconia
 	
 	history = {
 		919 = {

@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+forchheim = {
+	name = "Forchheim"
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 11.058055555556 49.719722222222 }
+	province = franconia
 	
 	history = {
 		919 = {

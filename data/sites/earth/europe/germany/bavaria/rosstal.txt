@@ -1,8 +1,8 @@
-nuremberg = {
-	name = "Nuremberg"
+rosstal = {
+	name = "Rosstal" #"Roßtal"; also known as Rossstall
 	world = earth
-	geocoordinate = { 11.07998490260 49.44999066070 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 10.88848 49.39567 }
+	province = franconia
 	
 	history = {
 		919 = {
