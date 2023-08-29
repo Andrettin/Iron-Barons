@@ -1,9 +1,15 @@
 steyr = {
-	name = "Steyr"
+	name = "Steyr" #also known as Steier
 	world = earth
 	geocoordinate = { 14.416666666667 48.05 }
 	type = resource
 	resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
 	terrain_type = plains
 	province = upper_austria
+	
+	history = {
+		919 = {
+			buildings += fort #castle or stronghold existent in Steyr in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+	}
 }
