@@ -16,10 +16,23 @@ lower_austria = {
 			culture = suebi
 		}
 		
+		907 = {
+			owner = hungary #became part of Hungary in 907; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			religion = catholic
+		}
+		
+		955 = {
+			owner = bavaria #became the Bavarian East March in 955; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = german
+		}
+		
+		1156 = {
+			owner = austria #became part of the Duchy of Austria in 1156; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = austrian
+		}
+		
 		1477 = {
 			owner = austria #part of the Archduchy of Austria c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
-			culture = austrian
-			religion = catholic
 		}
 		
 		1740 = {
