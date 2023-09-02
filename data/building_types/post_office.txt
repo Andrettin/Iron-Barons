@@ -1,0 +1,11 @@
+post_office = {
+	name = "Post Office"
+	building_class = post_office
+	portrait = trading_post
+	icon = treaty
+	provincial = true
+	required_technology = national_bureaucracy
+	province_modifier = {
+		trade_output_modifier = 10
+	}
+}
