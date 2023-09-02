@@ -1,5 +1,5 @@
 constance = {
-	name = "Constance" #"Konstanz"
+	name = "Constance" #also known as Konstanz
 	world = earth
 	geocoordinate = { 9.1752777777778 47.663333333333 }
 	province = baden
@@ -8,8 +8,8 @@ constance = {
 	}
 	
 	history = {
-		1360 = {
-			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		919 = {
+			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 	}
 }

@@ -1,0 +1,16 @@
+swabia = {
+	name = "Swabia"
+	type = minor_nation
+	culture = german
+	default_religion = catholic
+	capital_province = wurtemberg
+	#default_tier = duchy
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		wurtemberg
+		baden
+		augsburg
+	}
+}

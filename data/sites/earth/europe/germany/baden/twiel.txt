@@ -1,0 +1,12 @@
+twiel = {
+	name = "Twiel" #also known as Hohentwiel
+	world = earth
+	#geocoordinate = { 8.81888889 47.76472222 }
+	province = baden
+	
+	history = {
+		919 = {
+			buildings += fort #castle or stronghold existent in Twiel in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+	}
+}

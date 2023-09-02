@@ -1,8 +1,8 @@
-ulm = {
-	name = "Ulm"
+bodman = {
+	name = "Bodman" #also known as Bodmann
 	world = earth
-	geocoordinate = { 9.99999914413 48.40039064440 } #from Natural Earth
-	province = wurtemberg
+	#geocoordinate = { 9.0461 47.7954 }
+	province = baden
 	
 	history = {
 		919 = {

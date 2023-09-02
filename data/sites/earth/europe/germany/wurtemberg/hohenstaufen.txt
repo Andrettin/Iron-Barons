@@ -1,0 +1,12 @@
+hohenstaufen = {
+	name = "Hohenstaufen" #also known as Staufen
+	world = earth
+	geocoordinate = { 9.71944 48.7394 }
+	province = wurtemberg
+	
+	history = {
+		919 = {
+			buildings += fort #castle or stronghold existent in Staufen in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+	}
+}

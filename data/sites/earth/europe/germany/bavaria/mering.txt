@@ -1,8 +1,8 @@
-ulm = {
-	name = "Ulm"
+mering = {
+	name = "Mering"
 	world = earth
-	geocoordinate = { 9.99999914413 48.40039064440 } #from Natural Earth
-	province = wurtemberg
+	#geocoordinate = { 10.984444444444 48.2625 }
+	province = augsburg
 	
 	history = {
 		919 = {

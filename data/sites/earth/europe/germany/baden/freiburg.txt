@@ -5,6 +5,10 @@ freiburg = {
 	province = baden
 	
 	history = {
+		919 = {
+			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1455 = {
 			buildings += university #University founded in Freiburg in 1455; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 		}

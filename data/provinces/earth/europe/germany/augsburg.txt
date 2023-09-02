@@ -16,10 +16,14 @@ augsburg = {
 			culture = suebi
 		}
 		
-		1477 = {
-			owner = augsburg #part of the Bishopric of Augsburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		919 = {
+			owner = swabia #part of the Duchy of Swabia in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			culture = german
 			religion = catholic
+		}
+		
+		1477 = {
+			owner = augsburg #part of the Bishopric of Augsburg c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1815 = {

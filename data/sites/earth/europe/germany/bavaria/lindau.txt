@@ -1,8 +1,8 @@
-ulm = {
-	name = "Ulm"
+lindau = {
+	name = "Lindau"
 	world = earth
-	geocoordinate = { 9.99999914413 48.40039064440 } #from Natural Earth
-	province = wurtemberg
+	geocoordinate = { 9.6838888888889 47.545833333333 }
+	province = augsburg
 	
 	history = {
 		919 = {
