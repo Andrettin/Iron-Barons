@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+saint_quentin = {
+	name = "Saint-Quentin"
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 3.2855555555556 49.847777777778 }
+	province = ile_de_france
 	
 	history = {
 		919 = {

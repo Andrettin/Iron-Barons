@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+chalons = {
+	name = "Chalons" #"Châlons"
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 4.3644444444444 48.956666666667 }
+	province = champagne
 	
 	history = {
 		919 = {

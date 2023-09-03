@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+autun = {
+	name = "Autun"
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 4.2986111111111 46.951111111111 }
+	province = burgundy
 	
 	history = {
 		919 = {

@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+sens = {
+	name = "Sens"
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 3.2833333333333 48.197222222222 }
+	province = champagne
 	
 	history = {
 		919 = {

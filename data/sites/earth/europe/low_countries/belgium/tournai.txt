@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+tournai = {
+	name = "Tournai"
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 3.388055555555556 50.605555555555554 }
+	province = brabant
 	
 	history = {
 		919 = {

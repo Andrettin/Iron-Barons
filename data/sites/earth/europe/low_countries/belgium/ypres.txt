@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+ypres = {
+	name = "Ypres"
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 2.885 50.850833333333334 }
+	province = flanders
 	
 	history = {
 		919 = {

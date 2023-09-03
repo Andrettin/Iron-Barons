@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+bruges = {
+	name = "Bruges" #also known as Brugge
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 3.23002477887 51.22037355460 } #from Natural Earth
+	province = flanders
 	
 	history = {
 		919 = {

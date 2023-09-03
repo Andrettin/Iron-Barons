@@ -1,8 +1,8 @@
-ghent = {
-	name = "Ghent"
+laon = {
+	name = "Laon"
 	world = earth
-	geocoordinate = { 3.70002193057 51.02999757800 } #from Natural Earth
-	type = settlement
+	geocoordinate = { 3.6236111111111 49.563333333333 }
+	province = ile_de_france
 	
 	history = {
 		919 = {
