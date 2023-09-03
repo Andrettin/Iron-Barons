@@ -1,0 +1,15 @@
+upper_lotharingia = {
+	name = "Upper Lotharingia"
+	type = minor_nation
+	culture = frankish
+	default_religion = catholic
+	capital_province = lorraine
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		lorraine
+		luxembourg
+		moselle
+	}
+}

@@ -1,6 +1,12 @@
 luxembourg = {
-	name = "Luxembourg"
+	name = "Luxembourg" #also known as Lützelburg
 	world = earth
 	geocoordinate = { 6.13000280623 49.61166037910 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		919 = {
+			buildings += fort #castle or stronghold existent in Lützelburg in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+	}
 }
