@@ -1,0 +1,15 @@
+lower_lotharingia = {
+	name = "Lower Lotharingia"
+	type = minor_nation
+	culture = frankish
+	default_religion = catholic
+	capital_province = rhineland #Aachen
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		rhineland
+		brabant
+		liege
+	}
+}

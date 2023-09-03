@@ -16,6 +16,18 @@ rhineland = {
 			religion = catholic
 		}
 		
+		911 = {
+			owner = france #became part of France in 911; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
+		925 = {
+			owner = lotharingia #became part of the Duchy of Lotharingia in 925; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
+		959 = {
+			owner = lower_lotharingia #became part of the Duchy of Lower Lotharingia in 959; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1477 = {
 			owner = cologne #part of the Archbishopric of Cologne c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 			culture = german

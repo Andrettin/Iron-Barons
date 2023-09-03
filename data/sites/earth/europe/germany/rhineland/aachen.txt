@@ -1,9 +1,11 @@
-liege = {
-	name = "Liege" #"Liège"
+aachen = {
+	name = "Aachen"
 	world = earth
-	geocoordinate = { 5.58001053734 50.62999615390 } #from Natural Earth
-	type = settlement
-	terrain_type = plains
+	geocoordinate = { 6.083788 50.776207 }
+	province = rhineland
+	cultural_names = {
+		french = "Aix-la-Chapelle"
+	}
 	
 	history = {
 		919 = {

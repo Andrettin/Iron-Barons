@@ -1,9 +1,8 @@
-liege = {
-	name = "Liege" #"Liège"
+cambrai = {
+	name = "Cambrai"
 	world = earth
-	geocoordinate = { 5.58001053734 50.62999615390 } #from Natural Earth
-	type = settlement
-	terrain_type = plains
+	geocoordinate = { 3.2347222222222 50.175833333333 }
+	province = picardy
 	
 	history = {
 		919 = {

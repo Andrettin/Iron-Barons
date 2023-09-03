@@ -1,9 +1,8 @@
-liege = {
-	name = "Liege" #"Liège"
+zulpich = {
+	name = "Zulpich" #"Zülpich"
 	world = earth
-	geocoordinate = { 5.58001053734 50.62999615390 } #from Natural Earth
-	type = settlement
-	terrain_type = plains
+	#geocoordinate = { 6.65 50.7 }
+	province = rhineland
 	
 	history = {
 		919 = {
