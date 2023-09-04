@@ -1,0 +1,33 @@
+hamlet = {
+	name = "Hamlet"
+}
+
+village = {
+	name = "Village"
+	base_settlement_types = {
+		hamlet
+	}
+}
+
+town = {
+	name = "Town"
+	base_settlement_types = {
+		village
+	}
+}
+
+city = {
+	name = "City"
+	base_settlement_types = {
+		castle
+		monastery
+		town
+	}
+}
+
+metropolis = {
+	name = "Metropolis"
+	base_settlement_types = {
+		city
+	}
+}

@@ -1,0 +1,6 @@
+monastery = {
+	name = "Monastery"
+	base_settlement_types = {
+		village
+	}
+}
