@@ -6,6 +6,15 @@ warehouse = {
 	warehouse = true
 	free_in_capital = true
 	provincial = true
+	settlement_types = {
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
 	stackable_country_modifier = {
 		storage_capacity = 100
 	}

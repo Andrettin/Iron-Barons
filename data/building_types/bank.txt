@@ -5,6 +5,10 @@ bank = {
 	icon = wealth
 	provincial = true
 	required_technology = banking
+	settlement_types = {
+		city
+		metropolis
+	}
 	cost_factor = {
 		modifier = {
 			factor = 0.5

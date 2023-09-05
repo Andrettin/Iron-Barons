@@ -5,6 +5,10 @@ post_office = {
 	icon = treaty
 	provincial = true
 	required_technology = national_bureaucracy
+	settlement_types = {
+		city
+		metropolis
+	}
 	province_modifier = {
 		trade_output_modifier = 10
 	}

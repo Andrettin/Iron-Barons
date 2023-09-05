@@ -4,6 +4,11 @@ war_college = {
 	portrait = fort
 	icon = wall
 	provincial = true
+	settlement_types = {
+		city
+		metropolis
+		castle
+	}
 	production_types = {
 		leadership_production
 	}

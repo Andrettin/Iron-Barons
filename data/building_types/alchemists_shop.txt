@@ -5,6 +5,10 @@ alchemists_shop = {
 	icon = research
 	provincial = true
 	required_technology = alchemy
+	settlement_types = {
+		city
+		metropolis
+	}
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4

@@ -5,6 +5,10 @@ observatory = {
 	icon = research
 	provincial = true
 	required_technology = astronomy
+	settlement_types = {
+		city
+		metropolis
+	}
 	province_conditions = {
 		has_terrain = mountains
 	}

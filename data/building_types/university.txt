@@ -5,6 +5,15 @@ school = {
 	icon = university
 	free_in_capital = true
 	provincial = true
+	settlement_types = {
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
 	production_types = {
 		researching
 	}
@@ -20,6 +29,12 @@ college = {
 	icon = university
 	provincial = true
 	required_building = school
+	settlement_types = {
+		town
+		city
+		metropolis
+		monastery
+	}
 	production_types = {
 		researching
 	}
@@ -36,6 +51,10 @@ university = {
 	provincial = true
 	required_building = college
 	required_technology = university
+	settlement_types = {
+		city
+		metropolis
+	}
 	cost_factor = {
 		modifier = {
 			factor = 0.5

@@ -5,6 +5,11 @@ market = {
 	icon = wealth
 	provincial = true
 	required_technology = coinage
+	settlement_types = {
+		town
+		city
+		metropolis
+	}
 	province_modifier = {
 		trade_output_modifier = 50
 	}

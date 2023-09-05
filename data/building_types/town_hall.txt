@@ -5,6 +5,12 @@ village_hall = {
 	icon = flag
 	free_in_capital = true
 	provincial = true
+	settlement_types = {
+		village
+		town
+		city
+		metropolis
+	}
 	production_types = {
 		statesmanship_production
 	}
@@ -19,6 +25,11 @@ town_hall = {
 	portrait = town
 	icon = flag
 	provincial = true
+	settlement_types = {
+		town
+		city
+		metropolis
+	}
 	production_types = {
 		statesmanship_production
 	}
@@ -34,6 +45,10 @@ city_hall = {
 	icon = flag
 	provincial = true
 	required_building = town_hall
+	settlement_types = {
+		city
+		metropolis
+	}
 	production_types = {
 		statesmanship_production
 	}
@@ -50,6 +65,10 @@ capitol = {
 	provincial = true
 	capital_only = true
 	required_building = city_hall
+	settlement_types = {
+		city
+		metropolis
+	}
 	production_types = {
 		statesmanship_production
 	}

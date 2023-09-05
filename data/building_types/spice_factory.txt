@@ -5,6 +5,11 @@ spice_factory = {
 	icon = spices
 	provincial = true
 	required_technology = colonization
+	settlement_types = {
+		town
+		city
+		metropolis
+	}
 	province_conditions = {
 		has_resource = spices
 	}

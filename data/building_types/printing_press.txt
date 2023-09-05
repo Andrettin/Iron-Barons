@@ -5,6 +5,11 @@ printing_press = {
 	icon = newspaper
 	provincial = true
 	required_technology = printing_press
+	settlement_types = {
+		town
+		city
+		metropolis
+	}
 	conditions = {
 		game_rule = advisors_enabled
 	}
@@ -22,6 +27,10 @@ newspaper = {
 	provincial = true
 	required_building = printing_press
 	required_technology = printing_press
+	settlement_types = {
+		city
+		metropolis
+	}
 	conditions = {
 		game_rule = advisors_enabled
 	}

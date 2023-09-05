@@ -5,6 +5,14 @@ stockade = {
 	icon = wall
 	provincial = true
 	fort_level = 1
+	settlement_types = {
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
 }
 
 fort = {
@@ -16,6 +24,12 @@ fort = {
 	fort_level = 2
 	required_building = stockade
 	required_technology = mine_engineering
+	settlement_types = {
+		town
+		city
+		metropolis
+		castle
+	}
 }
 
 fortress = {
@@ -27,4 +41,9 @@ fortress = {
 	fort_level = 3
 	required_building = fort
 	required_technology = modern_fortifications
+	settlement_types = {
+		city
+		metropolis
+		castle
+	}
 }
