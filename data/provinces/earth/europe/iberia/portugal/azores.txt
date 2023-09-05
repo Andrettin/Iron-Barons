@@ -1,6 +1,7 @@
 azores = {
 	name = "Azores"
 	color = { 144 160 128 }
+	capital_settlement = ponta_delgada
 	regions = {
 		portugal
 	}
