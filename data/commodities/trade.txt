@@ -1,6 +1,5 @@
 trade = {
 	name = "Trade"
 	icon = wealth
-	abstract = true
 	wealth_value = 5
 }
