@@ -13,6 +13,10 @@ orleans = {
 			buildings += university #University founded in Orléans in 1305; Source: "Atlas de História Mundial", 2001, p. 144.
 		}
 		
+		1360 = {
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
+		
 		1789 = {
 			buildings += courthouse #Prévôt des maréchaux and chief court of the salt tax existent in Orléans in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 		}

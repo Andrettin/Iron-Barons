@@ -11,5 +11,9 @@ prague = {
 		1347 = {
 			buildings += university #University founded in Prague in 1347; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 		}
+		
+		1360 = {
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
 	}
 }
