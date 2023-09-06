@@ -1,0 +1,33 @@
+jakob_fugger = {
+	filepath = "portraits/characters/jakob_fugger.png"
+	character_conditions = {
+		gender = male
+		or = {
+			advisor_type = banker
+			advisor_type = merchant
+			advisor_type = treasurer
+		}
+		birth_year < 1800
+	}
+}
+
+wilhelmine_von_sagan = {
+	filepath = "portraits/characters/wilhelmine_von_sagan.png"
+	character_conditions = {
+		gender = female
+		is_ruler = false
+	}
+}
+
+otto_von_bismarck = {
+	filepath = "portraits/characters/otto_von_bismarck.png"
+	character_conditions = {
+		gender = male
+		or = {
+			advisor_type = army_reformer
+			advisor_type = diplomat
+			advisor_type = statesman
+			advisor_type = spymaster
+		}
+	}
+}

@@ -1,5 +1,5 @@
-jakob_fugger = {
-	filepath = "portraits/characters/jakob_fugger.png"
+jp_morgan = {
+	filepath = "portraits/characters/jp_morgan.png"
 	character_conditions = {
 		gender = male
 		or = {
@@ -7,5 +7,6 @@ jakob_fugger = {
 			advisor_type = merchant
 			advisor_type = treasurer
 		}
+		birth_year >= 1800
 	}
 }

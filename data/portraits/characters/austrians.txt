@@ -9,10 +9,3 @@ metternich = {
 		}
 	}
 }
-
-wilhelmine_von_sagan = {
-	filepath = "portraits/characters/wilhelmine_von_sagan.png"
-	character_conditions = {
-		gender = female
-	}
-}
