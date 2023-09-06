@@ -9,5 +9,9 @@ tyre = {
 			#Tyre existed c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
 			buildings += dock
 		}
+		
+		1360 = {
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		}
 	}
 }
