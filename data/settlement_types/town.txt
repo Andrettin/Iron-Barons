@@ -1,9 +1,11 @@
 hamlet = {
 	name = "Hamlet"
+	image_filepath = "tiles/settlements/town.png"
 }
 
 village = {
 	name = "Village"
+	image_filepath = "tiles/settlements/town.png"
 	base_settlement_types = {
 		hamlet
 	}
@@ -11,6 +13,7 @@ village = {
 
 town = {
 	name = "Town"
+	image_filepath = "tiles/settlements/town.png"
 	base_settlement_types = {
 		village
 	}
@@ -18,6 +21,7 @@ town = {
 
 city = {
 	name = "City"
+	image_filepath = "tiles/settlements/town.png"
 	base_settlement_types = {
 		castle
 		monastery
@@ -27,6 +31,7 @@ city = {
 
 metropolis = {
 	name = "Metropolis"
+	image_filepath = "tiles/settlements/town.png"
 	base_settlement_types = {
 		city
 	}

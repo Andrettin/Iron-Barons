@@ -1,5 +1,6 @@
 monastery = {
 	name = "Monastery"
+	image_filepath = "tiles/settlements/town.png"
 	base_settlement_types = {
 		village
 	}
