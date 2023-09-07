@@ -16,6 +16,7 @@ utrecht = {
 		
 		1636 = {
 			buildings += university #University founded in Utrecht in 1636; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291.
+			settlement_type = city
 		}
 	}
 }

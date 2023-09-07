@@ -10,6 +10,7 @@ madrid = {
 	history = {
 		1661 = {
 			buildings += newspaper #the newspaper "Gaceta de Madrid" was founded in 1661; Source: Henry Kamen, "Early Modern European Society", 2021, p. 309.
+			settlement_type = city
 		}
 		
 		1700 = {

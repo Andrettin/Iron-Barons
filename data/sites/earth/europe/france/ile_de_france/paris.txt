@@ -17,6 +17,7 @@ paris = {
 		
 		1250 = {
 			buildings += university #University existent in Paris in 1250; Source: "Atlas de História Mundial", 2001, p. 144.
+			settlement_type = city
 		}
 		
 		1360 = {

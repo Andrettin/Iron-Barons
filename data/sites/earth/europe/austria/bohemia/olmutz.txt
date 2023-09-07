@@ -10,6 +10,7 @@ olmutz = {
 	history = {
 		1581 = {
 			buildings += university #University founded in Olmütz in 1581; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+			settlement_type = city
 		}
 		
 		1815 = {

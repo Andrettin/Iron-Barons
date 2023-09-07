@@ -18,6 +18,7 @@ cologne = {
 		
 		1388 = {
 			buildings += university #University founded in Cologne in 1388; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+			settlement_type = city
 		}
 	}
 }

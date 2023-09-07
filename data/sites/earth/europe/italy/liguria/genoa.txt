@@ -14,6 +14,7 @@ genoa = {
 		
 		1642 = {
 			buildings += newspaper #Weekly gazette founded in Genoa in 1642; Source: Henry Kamen, "Early Modern European Society", 2021, p. 309.
+			settlement_type = city
 		}
 	}
 }

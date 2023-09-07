@@ -14,6 +14,7 @@ florence = {
 		
 		1636 = {
 			buildings += newspaper #Weekly gazette founded in Florence in 1636; Source: Henry Kamen, "Early Modern European Society", 2021, p. 309.
+			settlement_type = city
 		}
 	}
 }

@@ -11,6 +11,7 @@ geneva = {
 		
 		1365 = {
 			buildings += university #University founded in Geneva in 1365; Source: "Atlas de História Mundial", p. 144.
+			settlement_type = city
 		}
 	
 		1559 = {

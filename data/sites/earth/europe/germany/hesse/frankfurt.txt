@@ -19,6 +19,7 @@ frankfurt = {
 		
 		1615 = {
 			buildings += newspaper #the newspaper "Frankfurter Zeitung" was founded in 1615; Source: Henry Kamen, "Early Modern European Society", 2021, p. 308.
+			settlement_type = city
 		}
 		
 		1815 = {
