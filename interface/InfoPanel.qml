@@ -188,7 +188,7 @@ Rectangle {
 			spacing: 16 * scale_factor
 			
 			Repeater {
-				model: province_game_data ? province_game_data.building_slots : []
+				model: selected_site !== null && selected_site.settlement ? selected_site_game_data.building_slots : []
 				
 				PortraitGridItem {
 					portrait_identifier: wonder ? wonder.portrait.identifier : (building ? building.portrait.identifier : "building_slot")
