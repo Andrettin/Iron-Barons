@@ -3,10 +3,10 @@ avisa_relation_oder_zeitung = { #Source: Henry Kamen, "Early Modern European Soc
 	portrait = trading_post
 	description = "The ~<Avisa Relation oder Zeitung~> was a newspaper founded in Helmstedt in 1609."
 	preconditions = {
-		owns_province = hanover
+		owns_site = brunswick #Helmstedt
 	}
-	built_provincial_buildings = {
-		hanover = newspaper
+	built_settlement_buildings = {
+		brunswick = newspaper
 	}
 	completion_effects = {
 		statesmanship += 5
@@ -18,10 +18,10 @@ frankfurter_zeitung = { #Source: Henry Kamen, "Early Modern European Society", 2
 	portrait = trading_post
 	description = "The ~<Frankfurter Zeitung~> was a weekly newspaper founded by Egenolf Emmel in 1615."
 	preconditions = {
-		owns_province = hesse
+		owns_site = frankfurt
 	}
-	built_provincial_buildings = {
-		hesse = newspaper
+	built_settlement_buildings = {
+		frankfurt = newspaper
 	}
 	completion_effects = {
 		statesmanship += 5

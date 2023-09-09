@@ -3,10 +3,10 @@ corrant_out_of_italy_germany_etc = { #Source: Henry Kamen, "Early Modern Europea
 	portrait = trading_post
 	description = "The ~<Corrant out of Italy, Germany etc.~> was an English newspaper founded in Amsterdam in 1620."
 	preconditions = {
-		owns_province = holland
+		owns_site = amsterdam
 	}
-	built_provincial_buildings = {
-		holland = newspaper
+	built_settlement_buildings = {
+		amsterdam = newspaper
 	}
 	completion_effects = {
 		statesmanship += 5

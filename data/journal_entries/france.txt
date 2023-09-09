@@ -3,10 +3,10 @@ relation = { #Source: Henry Kamen, "Early Modern European Society", 2021, p. 308
 	portrait = trading_post
 	description = "The ~<Relation~> was a monthly newspaper founded by the printer Johann Carolus in 1609, in Strasbourg."
 	preconditions = {
-		owns_province = alsace
+		owns_site = strasbourg
 	}
-	built_provincial_buildings = {
-		alsace = newspaper
+	built_settlement_buildings = {
+		strasbourg = newspaper
 	}
 	completion_effects = {
 		statesmanship += 5
@@ -19,10 +19,10 @@ gazette_de_france = { #Source: Henry Kamen, "Early Modern European Society", 202
 	description = "The ~<Gazette de France~> was a weekly newspaper founded by Theophraste Renaudot in 1631, intended to reflect official views."
 	preconditions = {
 		country = france
-		owns_province = ile_de_france
+		owns_site = paris
 	}
-	built_provincial_buildings = {
-		ile_de_france = newspaper
+	built_settlement_buildings = {
+		paris = newspaper
 	}
 	completion_effects = {
 		statesmanship += 5
