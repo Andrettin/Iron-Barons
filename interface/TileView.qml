@@ -189,8 +189,8 @@ Item {
 			
 			if (!explored) {
 				text += "Unexplored"
-			} else if (site !== null && site.settlement) {
-				text += "Settlement"
+			} else if (site !== null && site.settlement && site.game_data.settlement_type) {
+				text += site.game_data.settlement_type.name
 			} else if (improvement !== null) {
 				text += improvement.name
 			} else if (resource !== null) {
