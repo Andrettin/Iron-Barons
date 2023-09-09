@@ -2,6 +2,7 @@ eleusis = {
 	name = "Eleusis"
 	world = earth
 	geocoordinate = { 23.54527778 38.04138889 }
+	province = attica
 	
 	history = {
 		-1450 = {
