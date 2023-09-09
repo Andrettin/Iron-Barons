@@ -2,11 +2,13 @@ aschaffenburg = {
 	name = "Aschaffenburg"
 	world = earth
 	geocoordinate = { 9.1478 49.97575 }
+	type = resource
+	resource = grain
 	province = franconia
 	
 	history = {
 		919 = {
-			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			developed = true #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 	}
 }
