@@ -3,6 +3,7 @@ tripoli = {
 	world = earth
 	geocoordinate = { 13.18001175810 32.89250001940 } #from Natural Earth
 	type = settlement
+	resource = fruit
 	
 	history = {
 		1360 = {
