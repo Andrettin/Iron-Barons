@@ -3,5 +3,5 @@ middelburg = {
 	world = earth
 	geocoordinate = { 3.60999954067 51.50199617730 } #from Natural Earth
 	type = settlement
-	#resource = grain #Agriculture (horticulture and cereals); Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
+	resource = grain #Agriculture (horticulture and cereals); Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
 }

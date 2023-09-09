@@ -3,6 +3,6 @@ kuopio = {
 	world = earth
 	geocoordinate = { 27.69493973670 62.89428631500 } #from Natural Earth
 	type = settlement
-	#resource = iron_ore
+	resource = iron_ore
 	province = savonia
 }

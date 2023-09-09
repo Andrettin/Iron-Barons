@@ -3,6 +3,6 @@ hameenlinna = {
 	world = earth
 	geocoordinate = { 24.47199954270 60.99699611030 } #from Natural Earth
 	type = settlement
-	#resource = timber
+	resource = timber
 	province = tavastia
 }

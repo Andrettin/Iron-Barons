@@ -3,7 +3,7 @@ utrecht = {
 	world = earth
 	geocoordinate = { 5.12003861351 52.10034568190 } #from Natural Earth
 	type = settlement
-	#resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
+	resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
 	
 	history = {
 		919 = {

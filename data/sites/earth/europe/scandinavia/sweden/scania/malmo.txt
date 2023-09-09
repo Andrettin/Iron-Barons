@@ -3,5 +3,5 @@ malmo = {
 	world = earth
 	geocoordinate = { 13.03330236680 55.58333721830 } #from Natural Earth
 	type = settlement
-	#resource = grain #Intensive farming; Source: Map No. 500866 of the Perry-Castañeda Library Map Collection, 1973.
+	resource = grain #Intensive farming; Source: Map No. 500866 of the Perry-Castañeda Library Map Collection, 1973.
 }

@@ -3,7 +3,7 @@ amsterdam = {
 	world = earth
 	geocoordinate = { 4.91664017601 52.34996868810 } #from Natural Earth
 	type = settlement
-	#resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
+	resource = cattle #Cattle raising or mixed use with pasture dominant; Source: Map No. 76863 of the Perry-Castañeda Library Map Collection, 1970.
 	
 	history = {
 		1600 = {

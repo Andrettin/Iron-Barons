@@ -3,7 +3,7 @@ dijon = {
 	world = earth
 	geocoordinate = { 5.03001826846 47.33040427560 } #from Natural Earth
 	type = settlement
-	#resource = fruit #Market gardening (fruits, vegetables, flowers); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
+	resource = fruit #Market gardening (fruits, vegetables, flowers); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
 	cultural_names = {
 		frankish = "Divio"
 	}
