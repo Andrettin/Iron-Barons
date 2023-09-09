@@ -4,5 +4,6 @@ montreal = {
 	geocoordinate = { -73.58329695810 45.49999920560 } #from Natural Earth
 	type = resource
 	resource = cattle
+	terrain_type = plains
 	province = quebec
 }

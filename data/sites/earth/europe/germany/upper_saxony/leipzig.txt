@@ -4,6 +4,7 @@ leipzig = {
 	geocoordinate = { 12.40998124050 51.33540529290 } #from Natural Earth
 	type = resource
 	resource = coal
+	terrain_type = barren_hills
 	province = upper_saxony
 	
 	history = {
