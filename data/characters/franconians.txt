@@ -3,7 +3,7 @@ erkinger = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p. 390.
 	surname = "von Seinsheim"
 	culture = german #Franconian
 	religion = catholic
-	home_province = franconia
+	home_settlement = aschaffenburg #Seinsheim
 	gender = male
 	birth_date = 1362
 	#founder of the Schwarzenberg dynasty
@@ -18,7 +18,7 @@ regiomontanus = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 	advisor_type = natural_scientist #astronomer
 	culture = german
 	religion = catholic
-	home_province = franconia #born in Königsberg, in Franconia
+	home_settlement = aschaffenburg #born in Königsberg, in Franconia
 	gender = male
 	birth_date = 1436.6.6
 	death_date = 1476.7.6 #died in Rome on 1476.7.6

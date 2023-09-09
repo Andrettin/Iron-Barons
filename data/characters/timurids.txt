@@ -3,7 +3,7 @@ babur = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1
 	#descendant of Tamerlane (i.e. Timurid)
 	culture = uzbek
 	religion = sunni
-	home_province = ferghana
+	home_settlement = fergana
 	gender = male
 	birth_date = 1483
 	death_date = 1530

@@ -3,7 +3,7 @@ sargon_ii_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 1911,
 	epithet = "II"
 	culture = assyrian
 	religion = pagan
-	home_province = assyria
+	home_settlement = nineveh
 	gender = male
 	start_date = -720 #ruled the Assyrian Empire in 720 BC
 }
@@ -12,7 +12,7 @@ assurbanipal_of_assyria = { #Source: William R. Shepherd, "Historical Atlas", 19
 	name = "Assurbanipal"
 	culture = assyrian
 	religion = pagan
-	home_province = assyria
+	home_settlement = nineveh
 	gender = male
 	start_date = -640 #ruled the Assyrian Empire in 640 BC
 }
