@@ -3,4 +3,10 @@ brussels = {
 	world = earth
 	geocoordinate = { 4.33331660830 50.83331707670 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1831 = {
+			settlement_type = village
+		}
+	}
 }
