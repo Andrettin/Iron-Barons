@@ -3,4 +3,10 @@ stuttgart = {
 	world = earth
 	geocoordinate = { 9.19999629582 48.77997987780 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		919 = {
+			settlement_type = village
+		}
+	}
 }

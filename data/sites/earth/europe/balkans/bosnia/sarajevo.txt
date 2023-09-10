@@ -3,4 +3,10 @@ sarajevo = {
 	world = earth
 	geocoordinate = { 18.38300166700 43.85002239900 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		1360 = {
+			settlement_type = village
+		}
+	}
 }
