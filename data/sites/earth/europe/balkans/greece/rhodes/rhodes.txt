@@ -2,10 +2,14 @@ rhodes = {
 	name = "Rhodes"
 	world = earth
 	geocoordinate = { 28.22250443390 36.44122397770 } #from Natural Earth
+	type = settlement
+	resource = grain
+	province = attica
 	
 	history = {
 		-280 = {
 			wonders += colossus
+			settlement_type = city
 		}
 		
 		1360 = {

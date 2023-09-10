@@ -3,4 +3,8 @@ quebec = {
 	world = earth
 	geocoordinate = { -71.24561019050 46.83996909490 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		settlement_type = village
+	}
 }

@@ -3,4 +3,14 @@ salvador = {
 	world = earth
 	geocoordinate = { -38.47998742830 -12.96997190470 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		settlement_type = village
+		
+		1549 = {
+			settlement_type = village #Salvador founded by the Portuguese in 1549; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+			culture = portuguese
+			religion = catholic
+		}
+	}
 }

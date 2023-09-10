@@ -4,4 +4,8 @@ riyadh = {
 	geocoordinate = { 46.77274165730 24.64083314920 } #from Natural Earth
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		settlement_type = hamlet
+	}
 }

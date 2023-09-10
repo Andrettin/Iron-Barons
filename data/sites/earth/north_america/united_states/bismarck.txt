@@ -3,4 +3,8 @@ bismarck = {
 	world = earth
 	geocoordinate = { -100.78331628600 46.80831728020 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		settlement_type = village
+	}
 }

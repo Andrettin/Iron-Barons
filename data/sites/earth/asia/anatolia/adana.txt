@@ -5,4 +5,10 @@ adana = {
 	type = settlement
 	resource = cotton #Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 	#resource = fruit #Citrus fruits; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
+	
+	history = {
+		1481 = {
+			settlement_type = town #existed in the 1481-1683 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 124.
+		}
+	}
 }

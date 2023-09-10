@@ -3,4 +3,8 @@ santa_fe = {
 	world = earth
 	geocoordinate = { -105.93723942200 35.68692893380 } #from Natural Earth
 	type = settlement
+	
+	history = {
+		settlement_type = village
+	}
 }

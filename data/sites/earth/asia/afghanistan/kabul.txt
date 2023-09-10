@@ -4,4 +4,10 @@ kabul = {
 	geocoordinate = { 69.18326004930 34.51669028630 } #from Natural Earth
 	type = settlement
 	resource = grain #Irrigated cultivation; Source: Map No. 504958 of the Perry-Castañeda Library Map Collection, 1971.
+	
+	history = {
+		1801 = {
+			settlement_type = city #important settlement in the 1801-1911 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 170-171.
+		}
+	}
 }

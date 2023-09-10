@@ -4,4 +4,10 @@ chambery = {
 	geocoordinate = { 5.9208333333333 45.566388888889 }
 	type = settlement
 	terrain_type = plains
+	
+	history = {
+		1280 = {
+			settlement_type = town #existed in the 1280-1748 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 130.
+		}
+	}
 }
