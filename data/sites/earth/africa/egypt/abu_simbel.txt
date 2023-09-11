@@ -4,7 +4,6 @@ abu_simbel = {
 	geocoordinate = { 31.625555555556 22.336944444444 }
 	type = resource
 	resource = cattle
-	terrain_type = plains
 	province = upper_egypt
 	
 	history = {

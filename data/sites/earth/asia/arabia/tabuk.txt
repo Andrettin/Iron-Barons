@@ -3,7 +3,6 @@ tabuk = {
 	world = earth
 	geocoordinate = { 36.55496740600 28.38383465480 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 	
 	history = {
 		settlement_type = hamlet

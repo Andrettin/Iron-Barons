@@ -1,11 +1,9 @@
 valenca = {
 	name = "Valenca" #"Valença"
 	world = earth
-	geocoordinate = { -43.7 -22.245833333333 }
-	pos_offset = { -1 1 }
+	#geocoordinate = { -43.7 -22.245833333333 }
 	type = resource
 	resource = coffee
-	terrain_type = savannah
 	province = rio_de_janeiro
 	#max_tier = marquisate #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 524-525.
 	

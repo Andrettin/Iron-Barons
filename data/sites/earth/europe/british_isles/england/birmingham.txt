@@ -4,7 +4,6 @@ birmingham = {
 	geocoordinate = { -1.91999678690 52.47497397780 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = warwickshire
 	
 	history = {

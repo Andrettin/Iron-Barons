@@ -4,6 +4,5 @@ tornio = {
 	geocoordinate = { 24.1440916 65.8497302 }
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = lapland
 }

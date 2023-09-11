@@ -4,7 +4,6 @@ perpignan = {
 	geocoordinate = { 2.89996740582 42.69998923650 } #from Natural Earth
 	type = resource
 	resource = fruit #Market gardening (fruits, vegetables, flowers); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
-	terrain_type = plains
 	province = lower_languedoc
 	
 	history = {

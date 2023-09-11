@@ -3,5 +3,4 @@ msila = {
 	world = earth
 	geocoordinate = { 4.54500058388 35.70000309600 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 }

@@ -4,7 +4,6 @@ trier = {
 	geocoordinate = { 6.6413888888889 49.756666666667 }
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = rhineland
 	cultural_names = {
 		frankish = "Treveri"

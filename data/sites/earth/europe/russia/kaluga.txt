@@ -3,7 +3,6 @@ kaluga = {
 	world = earth
 	geocoordinate = { 36.27002355830 54.52037884430 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 	
 	history = {
 		1360 = {

@@ -4,7 +4,6 @@ plouneventer = {
 	geocoordinate = { -4.2125 48.514722222222 }
 	type = resource
 	resource = amber
-	terrain_type = conifer_forest
 	province = brittany
 	cultural_names = {
 		roman = "Vorganium"

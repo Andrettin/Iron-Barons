@@ -4,7 +4,6 @@ glasgow = {
 	geocoordinate = { -4.25070723613 55.87440472320 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = ayrshire
 	
 	history = {

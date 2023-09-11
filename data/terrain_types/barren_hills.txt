@@ -7,6 +7,7 @@ barren_hills = {
 	fallback_terrains = {
 		mountains
 		plains
+		savannah
 	}
 	adjacency_tiles = {
 		0 = {

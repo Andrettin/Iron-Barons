@@ -4,7 +4,6 @@ petsamo = {
 	geocoordinate = { 31.226666666667 69.553888888889 }
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	cultural_names = {
 		russian = "Pechenga"
 	}

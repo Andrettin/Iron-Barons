@@ -4,6 +4,5 @@ oradea = {
 	geocoordinate = { 21.91999507520 47.04998211580 } #from Natural Earth
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = pest
 }

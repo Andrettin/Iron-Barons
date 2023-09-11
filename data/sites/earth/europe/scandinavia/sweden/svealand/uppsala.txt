@@ -4,7 +4,6 @@ uppsala = {
 	geocoordinate = { 17.63999792350 59.86005291660 } #from Natural Earth
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = uppland
 	
 	history = {

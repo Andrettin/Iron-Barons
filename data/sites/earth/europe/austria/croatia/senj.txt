@@ -2,8 +2,7 @@ senj = {
 	name = "Senj"
 	world = earth
 	geocoordinate = { 14.901388888889 44.990277777778 }
-	pos_offset = { 1 0 }
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
+	province = croatia
 }

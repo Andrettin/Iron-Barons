@@ -4,7 +4,6 @@ abydos = {
 	geocoordinate = { 31.918889 26.185167 }
 	type = resource
 	resource = grain
-	terrain_type = plains
 	province = upper_egypt
 	
 	history = {

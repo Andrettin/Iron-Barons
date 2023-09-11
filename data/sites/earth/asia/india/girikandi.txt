@@ -4,5 +4,4 @@ girikandi = {
 	geocoordinate = { 81.00727778 8.87038889 }
 	type = resource
 	resource = amber
-	terrain_type = conifer_forest
 }

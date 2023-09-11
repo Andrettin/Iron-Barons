@@ -4,6 +4,5 @@ covilha = {
 	geocoordinate = { -7.49999210756 40.28334088040 } #from Natural Earth
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = beira
 }

@@ -4,6 +4,5 @@ almendralejo = {
 	geocoordinate = { -6.409166666666667 38.683055555555555 }
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = extremadura
 }

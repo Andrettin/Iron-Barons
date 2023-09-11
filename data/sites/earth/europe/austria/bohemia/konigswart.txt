@@ -5,7 +5,6 @@ konigswart = { #estate
 	pos_offset = { 1 0 }
 	type = resource
 	resource = sheep #the estate possessed sheep farms, as well as a plethora of other economic activities; Source: Wolfram Siemann, "Metternich: Strategist and Visionary", 2019, p. 29.
-	terrain_type = barren_hills
 	
 	history = {
 		1630.4.10 = {

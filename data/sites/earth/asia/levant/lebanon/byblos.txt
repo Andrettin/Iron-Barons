@@ -4,7 +4,6 @@ byblos = {
 	geocoordinate = { 35.65 34.116666666667 }
 	type = resource
 	resource = fruit #fruit-producing area; Source: https://maps.lib.utexas.edu/maps/atlas_middle_east/lebanon_land.jpg
-	terrain_type = plains
 	province = lebanon
 	cultural_names = {
 		arabic = "Jubayl"

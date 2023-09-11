@@ -4,7 +4,6 @@ l_aquila = {
 	geocoordinate = { 13.39002477890 42.35039817210 } #from Natural Earth
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = naples
 	
 	history = {

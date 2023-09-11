@@ -4,6 +4,5 @@ caceres = {
 	geocoordinate = { -6.3711111111111 39.473055555556 }
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = extremadura
 }

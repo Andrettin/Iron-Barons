@@ -4,7 +4,6 @@ freiberg = {
 	geocoordinate = { 13.34277777777 50.911944444444 }
 	type = resource
 	resource = silver
-	terrain_type = barren_hills
 	province = upper_saxony
 	
 	history = {

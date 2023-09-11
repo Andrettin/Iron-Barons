@@ -4,6 +4,5 @@ logrono = {
 	geocoordinate = { -2.42999149719 42.47036500960 } #from Natural Earth
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = castille
 }

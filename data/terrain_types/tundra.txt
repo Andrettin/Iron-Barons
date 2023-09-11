@@ -5,4 +5,7 @@ tundra = {
 	elevation_type = flatlands
 	temperature_type = cold
 	tiles = { 0 }
+	fallback_terrains = {
+		plains
+	}
 }

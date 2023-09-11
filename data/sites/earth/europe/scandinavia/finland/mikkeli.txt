@@ -4,6 +4,5 @@ mikkeli = {
 	geocoordinate = { 27.28500347630 61.68999616710 } #from Natural Earth
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = savonia
 }

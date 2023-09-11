@@ -4,6 +4,5 @@ beja = {
 	geocoordinate = { -7.86300241019 38.01400214270 } #from Natural Earth
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = alentejo
 }

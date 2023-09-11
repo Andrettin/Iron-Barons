@@ -4,7 +4,6 @@ bristol = {
 	geocoordinate = { -2.58331547180 51.44999778150 } #from Natural Earth
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = warwickshire
 	cultural_names = {
 		anglo_saxon = "Brycgstow" #Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 731.

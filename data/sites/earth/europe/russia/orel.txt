@@ -3,7 +3,6 @@ orel = {
 	world = earth
 	geocoordinate = { 36.06998408890 52.96995668450 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 	
 	history = {
 		1360 = {

@@ -4,7 +4,6 @@ chaves = {
 	geocoordinate = { -7.4706805555556 41.739869444444 }
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = tras_os_montes
 	cultural_names = {
 		roman = "Aquae Flaviae"

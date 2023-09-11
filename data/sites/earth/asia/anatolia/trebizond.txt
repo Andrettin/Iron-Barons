@@ -4,7 +4,6 @@ trebizond = {
 	geocoordinate = { 39.71999385450 40.97999086410 } #from Natural Earth
 	type = settlement
 	resource = tobacco #Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
-	terrain_type = plains
 	cultural_names = {
 		turkish = "Trabzon"
 	}

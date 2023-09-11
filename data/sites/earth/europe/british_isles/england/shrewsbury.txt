@@ -4,6 +4,5 @@ shrewsbury = {
 	geocoordinate = { -2.7544444444444 52.708055555556 }
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = warwickshire
 }

@@ -4,7 +4,6 @@ heliopolis = {
 	geocoordinate = { 31.288888888889 30.129527777778 }
 	type = resource
 	resource = cotton #linen
-	terrain_type = plains
 	province = cairo
 	cultural_names = {
 		#egyptian = "On" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.

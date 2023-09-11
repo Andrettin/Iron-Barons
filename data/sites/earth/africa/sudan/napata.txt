@@ -4,7 +4,6 @@ napata = {
 	geocoordinate = { 31.81666667 18.53333333 }
 	type = resource
 	resource = cotton #linen
-	terrain_type = plains
 	province = nubia
 	
 	history = {

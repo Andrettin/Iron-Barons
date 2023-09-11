@@ -4,7 +4,6 @@ maribor = {
 	geocoordinate = { 15.65004186880 46.54047833160 } #from Natural Earth
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = styria
 	cultural_group_names = {
 		german = "Marburg"

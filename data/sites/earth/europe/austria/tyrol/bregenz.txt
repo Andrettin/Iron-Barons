@@ -4,7 +4,6 @@ bregenz = {
 	geocoordinate = { 9.76670158807 47.51669706580 } #from Natural Earth
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = tyrol
 	
 	history = {

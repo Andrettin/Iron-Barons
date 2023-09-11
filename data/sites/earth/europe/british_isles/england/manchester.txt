@@ -4,7 +4,6 @@ manchester = {
 	geocoordinate = { -2.24798710266 53.50041526190 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = lancashire
 	
 	history = {

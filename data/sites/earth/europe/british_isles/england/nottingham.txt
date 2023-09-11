@@ -4,6 +4,5 @@ nottingham = {
 	geocoordinate = { -1.17001672505 52.97034425770 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = derbyshire
 }

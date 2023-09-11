@@ -4,7 +4,6 @@ pamplona = {
 	geocoordinate = { -1.64998742818 42.82000775050 } #from Natural Earth
 	type = settlement
 	resource = fruit
-	terrain_type = plains
 	
 	history = {
 		1360 = {

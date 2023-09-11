@@ -4,6 +4,5 @@ chelmsford = {
 	geocoordinate = { 0.4798 51.7361 }
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = east_anglia
 }

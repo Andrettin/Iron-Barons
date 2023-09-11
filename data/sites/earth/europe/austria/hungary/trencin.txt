@@ -4,5 +4,4 @@ trencin = {
 	geocoordinate = { 18.040555555556 48.894166666667 }
 	type = resource
 	resource = grain
-	terrain_type = plains
 }

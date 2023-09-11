@@ -4,5 +4,4 @@ kolkoi = {
 	geocoordinate = { 78.066666666667 8.6333333333333 }
 	type = resource
 	resource = amber
-	terrain_type = conifer_forest
 }

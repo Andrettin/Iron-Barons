@@ -4,6 +4,5 @@ jaen = {
 	geocoordinate = { -3.79998539368 37.77039349270 } #from Natural Earth
 	type = resource
 	resource = grain
-	terrain_type = plains
 	province = andalusia
 }

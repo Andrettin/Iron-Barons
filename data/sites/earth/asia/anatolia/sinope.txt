@@ -4,7 +4,6 @@ sinope = {
 	geocoordinate = { 35.15300149970 42.02299801770 } #from Natural Earth
 	type = settlement
 	resource = grain #Arable land; Source: "CIA Atlas of the Middle East", 1993.
-	terrain_type = plains
 	
 	history = {
 		1360 = {

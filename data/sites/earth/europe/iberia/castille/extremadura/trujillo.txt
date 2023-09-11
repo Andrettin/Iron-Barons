@@ -4,7 +4,6 @@ trujillo = {
 	geocoordinate = { -5.8788888888889 39.465277777778 }
 	type = resource
 	resource = gold
-	terrain_type = mountains
 	province = extremadura
 	cultural_names = {
 		roman = "Turgalium"

@@ -4,5 +4,4 @@ uzhgorod = {
 	geocoordinate = { 22.25000077180 48.62998903310 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 }

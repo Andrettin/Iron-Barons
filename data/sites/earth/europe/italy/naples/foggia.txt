@@ -5,6 +5,5 @@ foggia = {
 	pos_offset = { 1 0 } #so that it is on a river tile
 	type = resource
 	resource = fish
-	terrain_type = plains
 	province = naples
 }

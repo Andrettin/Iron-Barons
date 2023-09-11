@@ -4,6 +4,5 @@ aosta = {
 	geocoordinate = { 7.31500259571 45.73700106710 } #from Natural Earth
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = piedmont
 }

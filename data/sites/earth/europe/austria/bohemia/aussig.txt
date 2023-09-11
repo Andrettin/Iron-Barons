@@ -4,7 +4,6 @@ aussig = {
 	geocoordinate = { 14.08100455440 50.66299816220 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	cultural_names = {
 		czech = "Usti Nad Labem"
 	}

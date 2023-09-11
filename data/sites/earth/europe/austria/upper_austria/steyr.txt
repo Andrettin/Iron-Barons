@@ -4,7 +4,6 @@ steyr = {
 	geocoordinate = { 14.416666666667 48.05 }
 	type = resource
 	resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
-	terrain_type = plains
 	province = upper_austria
 	
 	history = {

@@ -3,5 +3,4 @@ kermanshah = {
 	world = earth
 	geocoordinate = { 47.06001094440 34.38000612290 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 }

@@ -4,7 +4,6 @@ leeds = {
 	geocoordinate = { -1.58001753886 53.83000754710 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = yorkshire
 	cultural_names = {
 		anglo_saxon = "Loidis" #Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 732.

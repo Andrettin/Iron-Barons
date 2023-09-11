@@ -2,8 +2,7 @@ karlstad = {
 	name = "Karlstad"
 	world = earth
 	geocoordinate = { 13.49994055040 59.36713726720 } #from Natural Earth
-	pos_offset = { 0 -1 }
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
+	province = uppland
 }

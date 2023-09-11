@@ -3,5 +3,4 @@ belgorod = {
 	world = earth
 	geocoordinate = { 36.59992590210 50.62999615390 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 }

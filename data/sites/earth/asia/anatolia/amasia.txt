@@ -4,7 +4,6 @@ amasia = {
 	geocoordinate = { 35.83304764680 40.65368003240 } #from Natural Earth
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = corum
 	cultural_names = {
 		turkish = "Amasya"

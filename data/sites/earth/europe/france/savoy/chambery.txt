@@ -3,7 +3,6 @@ chambery = {
 	world = earth
 	geocoordinate = { 5.9208333333333 45.566388888889 }
 	type = settlement
-	terrain_type = plains
 	
 	history = {
 		1280 = {

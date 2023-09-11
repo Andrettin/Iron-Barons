@@ -3,7 +3,6 @@ bern = {
 	world = earth
 	geocoordinate = { 7.46697546248 46.91668275870 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 	
 	history = {
 		1740 = {

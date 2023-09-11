@@ -4,6 +4,5 @@ giresun = {
 	geocoordinate = { 38.39000452070 40.91300114910 } #from Natural Earth
 	type = resource
 	resource = fruit #Permanent crops; Source: "CIA Atlas of the Middle East", 1993.
-	terrain_type = plains
 	province = trebizond
 }

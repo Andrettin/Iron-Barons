@@ -4,6 +4,5 @@ dumfries = {
 	geocoordinate = { -3.55000065247 55.06708965970 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = ayrshire
 }

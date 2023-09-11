@@ -4,7 +4,6 @@ troppau = {
 	geocoordinate = { 17.904444444444 49.938055555556 }
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	cultural_names = {
 		czech = "Opava"
 	}

@@ -4,7 +4,6 @@ tanis = {
 	geocoordinate = { 31.88 30.976944444444 }
 	type = resource
 	resource = timber #papyrus
-	terrain_type = conifer_forest
 	province = cairo
 	
 	history = {

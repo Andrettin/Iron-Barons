@@ -4,7 +4,6 @@ cartagena = {
 	geocoordinate = { -0.98002832173 37.60042970690 } #from Natural Earth
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = murcia
 	cultural_names = {
 		phoenician = "New Carthage"

@@ -5,7 +5,6 @@ udine = {
 	pos_offset = { -2 0 } #so that it is on a river tile
 	type = resource
 	resource = fish
-	terrain_type = plains
 	province = venetia
 	
 	history = {

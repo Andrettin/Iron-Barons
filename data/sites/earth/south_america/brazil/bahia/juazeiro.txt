@@ -4,6 +4,5 @@ juazeiro = {
 	geocoordinate = { -40.49996749020 -9.42000771194 } #from Natural Earth
 	type = resource
 	resource = tobacco
-	terrain_type = savannah
 	province = bahia
 }

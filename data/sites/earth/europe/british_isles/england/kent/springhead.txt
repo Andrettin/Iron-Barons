@@ -4,7 +4,6 @@ springhead = {
 	geocoordinate = { 0.328333 51.4306 }
 	type = resource
 	resource = amber
-	terrain_type = conifer_forest
 	province = kent
 	cultural_names = {
 		roman = "Vagniacis"

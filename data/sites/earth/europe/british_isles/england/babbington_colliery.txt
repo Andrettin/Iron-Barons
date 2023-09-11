@@ -4,5 +4,4 @@
 #	geocoordinate = { -1.206683 52.988841 }
 #	type = resource
 #	resource = coal #Babbington Colliery
-#	terrain_type = barren_hills
 #}

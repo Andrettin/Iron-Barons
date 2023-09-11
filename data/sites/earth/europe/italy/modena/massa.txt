@@ -4,6 +4,5 @@ massa = {
 	geocoordinate = { 10.133333333333 44.033333333333 }
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = modena
 }

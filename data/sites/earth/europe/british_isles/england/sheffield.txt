@@ -4,7 +4,6 @@ sheffield = {
 	geocoordinate = { -1.49999658345 53.36667665520 } #from Natural Earth
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = yorkshire
 	
 	history = {

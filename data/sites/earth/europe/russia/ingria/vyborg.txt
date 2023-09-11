@@ -4,7 +4,6 @@ vyborg = {
 	geocoordinate = { 28.75492671580 60.70387737950 } #from Natural Earth
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = ingria
 	cultural_names = {
 		finnish = "Viipuri"

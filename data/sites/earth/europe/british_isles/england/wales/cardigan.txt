@@ -4,6 +4,5 @@ cardigan = {
 	geocoordinate = { -4.6579194444444 52.084169444444 }
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = wales
 }

@@ -4,7 +4,6 @@ almeria = {
 	geocoordinate = { -2.42999149719 36.83034751290 } #from Natural Earth
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = granada
 	
 	history = {

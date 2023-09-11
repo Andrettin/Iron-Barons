@@ -4,6 +4,5 @@ ciudad_real = {
 	geocoordinate = { -3.9166666666667 38.983333333333 }
 	type = resource
 	resource = grain
-	terrain_type = plains
 	province = castille
 }

@@ -4,6 +4,5 @@ stirling = {
 	geocoordinate = { -3.9369 56.1166 }
 	type = resource
 	resource = coal
-	terrain_type = barren_hills
 	province = highlands
 }

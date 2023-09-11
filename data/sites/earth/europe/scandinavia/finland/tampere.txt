@@ -4,6 +4,5 @@ tampere = {
 	geocoordinate = { 23.75001257190 61.50000449540 } #from Natural Earth
 	type = resource
 	resource = timber
-	terrain_type = conifer_forest
 	province = satakunta
 }

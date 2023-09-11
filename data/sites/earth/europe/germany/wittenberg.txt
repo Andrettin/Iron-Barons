@@ -4,7 +4,6 @@ wittenberg = {
 	geocoordinate = { 12.6484 51.8671 }
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = magdeburg
 	
 	history = {

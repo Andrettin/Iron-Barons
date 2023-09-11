@@ -4,6 +4,5 @@ gaeta = {
 	geocoordinate = { 13.566666666667 41.216666666667 }
 	type = resource
 	resource = fish
-	terrain_type = plains
 	province = naples
 }

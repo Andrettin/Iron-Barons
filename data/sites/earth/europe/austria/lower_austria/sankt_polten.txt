@@ -4,7 +4,6 @@ sankt_polten = {
 	geocoordinate = { 15.616666666667 48.2 }
 	type = resource
 	resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
-	terrain_type = plains
 	province = lower_austria
 	
 	history = {

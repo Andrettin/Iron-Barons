@@ -4,7 +4,6 @@ brasso = {
 	geocoordinate = { 25.60716019560 45.64753541980 } #from Natural Earth
 	type = resource
 	resource = sheep
-	terrain_type = barren_hills
 	province = transylvania
 	cultural_names = {
 		romanian = "Brasov" #"Brașov"

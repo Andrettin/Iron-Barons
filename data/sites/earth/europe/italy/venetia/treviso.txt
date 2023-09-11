@@ -4,7 +4,6 @@ treviso = {
 	geocoordinate = { 12.24001745470 45.67001466780 } #from Natural Earth
 	type = resource
 	resource = iron_ore
-	terrain_type = barren_hills
 	province = venetia
 	
 	history = {

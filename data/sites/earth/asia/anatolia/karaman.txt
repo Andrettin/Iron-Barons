@@ -3,7 +3,6 @@ karaman = {
 	world = earth
 	geocoordinate = { 33.21501623410 37.18154054670 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 	
 	history = {
 		1360 = {

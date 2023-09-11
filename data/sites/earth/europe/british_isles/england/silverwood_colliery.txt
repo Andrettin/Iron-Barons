@@ -4,5 +4,4 @@ silverwood_colliery = {
 	geocoordinate = { -1.28388889 53.44055556 }
 	type = resource
 	resource = coal #Silverwood Colliery
-	terrain_type = barren_hills
 }

@@ -6,6 +6,7 @@ mountains = {
 	tiles = { 129 }
 	fallback_terrains = {
 		barren_hills
+		conifer_forest
 		plains
 	}
 	adjacency_tiles = {

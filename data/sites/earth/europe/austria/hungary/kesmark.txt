@@ -3,5 +3,4 @@ kesmark = {
 	world = earth
 	geocoordinate = { 20.429166666667 49.138333333333 }
 	type = settlement
-	terrain_type = plains
 }

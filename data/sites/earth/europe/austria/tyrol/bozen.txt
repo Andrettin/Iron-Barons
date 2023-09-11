@@ -4,7 +4,6 @@ bozen = {
 	geocoordinate = { 11.36001948920 46.50042909660 } #from Natural Earth
 	type = resource
 	resource = grain
-	terrain_type = plains
 	province = tyrol
 	cultural_names = {
 		italian = "Bolzano"

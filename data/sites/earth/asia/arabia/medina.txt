@@ -3,5 +3,4 @@ medina = {
 	world = earth
 	geocoordinate = { 39.58000239950 24.49998903300 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 }

@@ -3,5 +3,4 @@ burlington = {
 	world = earth
 	geocoordinate = { -73.21246688000 44.47579815580 } #from Natural Earth
 	type = settlement
-	terrain_type = plains
 }

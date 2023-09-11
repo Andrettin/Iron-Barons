@@ -4,7 +4,6 @@ brescia = {
 	geocoordinate = { 10.220280555556 45.538888888889 }
 	type = resource
 	resource = silk
-	terrain_type = conifer_forest
 	province = lombardy
 	
 	history = {
