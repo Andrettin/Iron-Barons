@@ -4,6 +4,10 @@ mountains = {
 	image_filepath = "tiles/terrain/mountains.png"
 	elevation_type = mountains
 	tiles = { 129 }
+	fallback_terrains = {
+		barren_hills
+		plains
+	}
 	adjacency_tiles = {
 		0 = {
 			north = other

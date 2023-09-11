@@ -5,4 +5,9 @@ desert = {
 	elevation_type = flatlands
 	moisture_type = arid
 	tiles = { 0 }
+	fallback_terrains = {
+		plains
+		barren_hills
+		mountains
+	}
 }

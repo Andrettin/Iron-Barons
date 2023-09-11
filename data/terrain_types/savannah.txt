@@ -5,4 +5,7 @@ savannah = {
 	elevation_type = flatlands
 	temperature_type = tropical
 	tiles = { 0 }
+	fallback_terrains = {
+		plains
+	}
 }

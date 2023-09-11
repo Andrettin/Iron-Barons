@@ -4,4 +4,9 @@ plains = {
 	image_filepath = "tiles/terrain/plains.png"
 	elevation_type = flatlands
 	tiles = { 0 }
+	fallback_terrains = {
+		conifer_forest
+		barren_hills
+		mountains
+	}
 }
