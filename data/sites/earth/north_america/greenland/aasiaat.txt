@@ -4,4 +4,5 @@ aasiaat = {
 	geocoordinate = { -52.869444444444 68.709722222222 }
 	type = resource
 	resource = fish
+	province = qaasuitsup
 }
