@@ -3,6 +3,7 @@ naples = {
 	world = earth
 	geocoordinate = { 14.24501135120 40.84002524730 } #from Natural Earth
 	type = settlement
+	resource = fish
 	cultural_names = {
 		greek = "Neapolis"
 		roman = "Neapolis" #Source: "Ancient Warfare VII.6", 2013, p. 7.

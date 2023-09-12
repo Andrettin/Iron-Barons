@@ -3,6 +3,7 @@ klausenburg = {
 	world = earth
 	geocoordinate = { 23.59844559600 46.78842185370 } #from Natural Earth
 	type = settlement
+	resource = grain
 	cultural_names = {
 		romanian = "Cluj"
 	}

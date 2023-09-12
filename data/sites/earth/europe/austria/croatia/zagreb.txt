@@ -3,6 +3,7 @@ zagreb = {
 	world = earth
 	geocoordinate = { 15.99999466820 45.80000673330 } #from Natural Earth
 	type = settlement
+	resource = timber
 	cultural_names = {
 		roman = "Celeta" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 38-39.
 	}

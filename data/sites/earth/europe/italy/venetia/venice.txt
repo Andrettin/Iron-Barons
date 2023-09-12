@@ -3,6 +3,7 @@ venice = {
 	world = earth
 	geocoordinate = { 12.33499873720 45.43865928050 } #from Natural Earth
 	type = settlement
+	resource = fish
 	
 	history = {
 		1360 = {
