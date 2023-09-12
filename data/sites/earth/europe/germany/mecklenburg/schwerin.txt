@@ -3,10 +3,4 @@ schwerin = {
 	world = earth
 	geocoordinate = { 11.41669861050 53.63330407740 } #from Natural Earth
 	type = settlement
-	
-	history = {
-		1477 = {
-			settlement_type = village
-		}
-	}
 }

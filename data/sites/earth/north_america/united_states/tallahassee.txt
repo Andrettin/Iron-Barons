@@ -4,10 +4,4 @@ tallahassee = {
 	geocoordinate = { -84.28003422210 30.44998760890 } #from Natural Earth
 	type = settlement
 	resource = cotton
-	
-	history = {
-		1600 = {
-			settlement_type = village
-		}
-	}
 }

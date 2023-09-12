@@ -3,10 +3,4 @@ podgorica = {
 	world = earth
 	geocoordinate = { 19.26630692410 42.46597251290 } #from Natural Earth
 	type = settlement
-	
-	history = {
-		1740 = {
-			settlement_type = village
-		}
-	}
 }

@@ -4,10 +4,4 @@ parma = {
 	geocoordinate = { 10.32003128930 44.81042889310 } #from Natural Earth
 	type = settlement
 	resource = iron_ore
-	
-	history = {
-		1815 = {
-			settlement_type = village
-		}
-	}
 }

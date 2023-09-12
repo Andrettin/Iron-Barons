@@ -3,10 +3,4 @@ san_juan = {
 	world = earth
 	geocoordinate = { -66.12997929040 18.44002300920 } #from Natural Earth
 	type = settlement
-	
-	history = {
-		1513 = {
-			settlement_type = village
-		}
-	}
 }

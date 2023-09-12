@@ -4,10 +4,4 @@ baltimore = {
 	geocoordinate = { -76.61998498710 39.29999005030 } #from Natural Earth
 	type = settlement
 	resource = tobacco
-	
-	history = {
-		1783 = {
-			settlement_type = village
-		}
-	}
 }

@@ -5,8 +5,6 @@ cuzco = {
 	type = settlement
 	
 	history = {
-		settlement_type = city
-		
 		1692 = {
 			buildings += college #College or seminary founded in Cuzco in 1692; Source: Enrique Martínez Ruiz; Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 226.
 			settlement_type = town

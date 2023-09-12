@@ -3,10 +3,4 @@ tirana = {
 	world = earth
 	geocoordinate = { 19.81888301460 41.32754070950 } #from Natural Earth
 	type = settlement
-	
-	history = {
-		1360 = {
-			settlement_type = village
-		}
-	}
 }
