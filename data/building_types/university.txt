@@ -6,6 +6,7 @@ school = {
 	free_in_capital = true
 	provincial = true
 	settlement_types = {
+		camp
 		hamlet
 		village
 		town

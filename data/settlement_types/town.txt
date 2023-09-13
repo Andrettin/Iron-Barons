@@ -1,12 +1,20 @@
 hamlet = {
 	name = "Hamlet"
 	image_filepath = "tiles/settlements/town.png"
+	build_conditions = {
+		country = {
+			not = {
+				country_type = tribe
+			}
+		}
+	}
 }
 
 village = {
 	name = "Village"
 	image_filepath = "tiles/settlements/town.png"
 	base_settlement_types = {
+		camp
 		hamlet
 	}
 }

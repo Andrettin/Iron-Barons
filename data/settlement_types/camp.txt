@@ -1,0 +1,9 @@
+camp = {
+	name = "Camp"
+	image_filepath = "tiles/settlements/town.png"
+	build_conditions = {
+		country = {
+			country_type = tribe
+		}
+	}
+}

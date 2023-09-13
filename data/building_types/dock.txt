@@ -6,6 +6,7 @@ dock = {
 	provincial = true
 	required_technology = seafaring
 	settlement_types = {
+		camp
 		hamlet
 		village
 		town
