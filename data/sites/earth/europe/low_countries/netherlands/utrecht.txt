@@ -7,16 +7,15 @@ utrecht = {
 	
 	history = {
 		919 = {
-			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			settlement_type = city #important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			#settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1636 = {
 			buildings += university #University founded in Utrecht in 1636; Source: Henry Kamen, "Early Modern European Society", 2021, p. 291.
-			settlement_type = city
 		}
 	}
 }

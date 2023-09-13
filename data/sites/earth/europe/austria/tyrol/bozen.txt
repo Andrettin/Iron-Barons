@@ -2,7 +2,7 @@ bozen = {
 	name = "Bozen"
 	world = earth
 	geocoordinate = { 11.36001948920 46.50042909660 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = grain
 	province = tyrol
 	cultural_names = {
@@ -11,7 +11,7 @@ bozen = {
 	
 	history = {
 		919 = {
-			developed = true #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 	}
 }

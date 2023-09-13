@@ -14,11 +14,11 @@ strasbourg = {
 	
 	history = {
 		919 = {
-			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			settlement_type = city #important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			#settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1538 = {
@@ -27,12 +27,10 @@ strasbourg = {
 		
 		1609 = {
 			buildings += newspaper #the newspaper "Relation" was founded in Strasbourg in 1609; Source: Henry Kamen, "Early Modern European Society", 2021, p. 308.
-			settlement_type = city
 		}
 		
 		1621 = {
 			buildings += university #Education establishment in Strasbourg elevated to a university in 1621; Source: Henry Kamen, "Early Modern European Society", 2021, p. 292.
-			settlement_type = city
 		}
 		
 		1789 = {

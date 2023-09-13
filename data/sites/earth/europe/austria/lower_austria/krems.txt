@@ -2,13 +2,13 @@ krems = {
 	name = "Krems"
 	world = earth
 	geocoordinate = { 15.616666666667 48.416666666667 }
-	type = resource
+	type = settlement
 	resource = grain
 	province = lower_austria
 	
 	history = {
 		919 = {
-			developed = true #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1900 = {
