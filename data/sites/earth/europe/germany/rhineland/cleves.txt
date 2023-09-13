@@ -2,7 +2,7 @@ cleves = {
 	name = "Cleves"
 	world = earth
 	geocoordinate = { 6.14 51.79 }
-	type = resource
+	type = settlement
 	resource = coal
 	province = rhineland
 }

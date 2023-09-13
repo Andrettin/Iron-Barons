@@ -2,13 +2,13 @@ brescia = {
 	name = "Brescia"
 	world = earth
 	geocoordinate = { 10.220280555556 45.538888888889 }
-	type = resource
+	type = settlement
 	resource = silk
 	province = lombardy
 	
 	history = {
 		1815 = {
-			developed = true #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			settlement_type = city #important settlement in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
 	}
 }

@@ -2,7 +2,7 @@ louisville = {
 	name = "Louisville"
 	world = earth
 	geocoordinate = { -85.74870426610 38.22501690580 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = tobacco
 	province = kentucky
 }

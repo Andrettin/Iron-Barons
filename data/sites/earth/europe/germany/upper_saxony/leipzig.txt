@@ -2,13 +2,14 @@ leipzig = {
 	name = "Leipzig"
 	world = earth
 	geocoordinate = { 12.40998124050 51.33540529290 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = coal
 	province = upper_saxony
 	
 	history = {
 		1409 = {
 			buildings += university #University founded in Leipzig in 1409; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+			settlement_type = city
 		}
 	}
 }
