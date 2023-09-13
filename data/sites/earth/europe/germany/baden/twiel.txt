@@ -6,7 +6,8 @@ twiel = {
 	
 	history = {
 		919 = {
-			buildings += fort #castle or stronghold existent in Twiel in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			#settlement_type = castle #had a castle or stronghold in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			buildings += fort
 		}
 	}
 }
