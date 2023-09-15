@@ -2,7 +2,7 @@ potenza = {
 	name = "Potenza"
 	world = earth
 	geocoordinate = { 15.79899649560 40.64200213010 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = fruit
 	province = naples
 }

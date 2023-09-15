@@ -2,6 +2,6 @@ lillehammer = {
 	name = "Lillehammer"
 	world = earth
 	geocoordinate = { 10.50002030300 61.13328269360 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = timber
 }

@@ -2,13 +2,13 @@ bergamo = {
 	name = "Bergamo"
 	world = earth
 	geocoordinate = { 9.66999344752 45.70040041000 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = cattle
 	province = lombardy
 	
 	history = {
 		1815 = {
-			developed = true #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			settlement_type = city #important settlement in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
 	}
 }

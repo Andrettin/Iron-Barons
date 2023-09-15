@@ -2,7 +2,7 @@ ravenna = {
 	name = "Ravenna"
 	world = earth
 	geocoordinate = { 12.22001867540 44.42037518220 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = sheep
 	province = romagna
 }

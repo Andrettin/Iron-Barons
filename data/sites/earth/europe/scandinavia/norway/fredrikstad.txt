@@ -3,6 +3,6 @@ fredrikstad = {
 	world = earth
 	geocoordinate = { 10.95 59.216667 }
 	pos_offset = { 0 -1 }
-	type = resource
+	type = settlement
 	resource = grain
 }

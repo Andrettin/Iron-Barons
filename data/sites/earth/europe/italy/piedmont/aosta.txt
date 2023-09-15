@@ -2,7 +2,7 @@ aosta = {
 	name = "Aosta"
 	world = earth
 	geocoordinate = { 7.31500259571 45.73700106710 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = sheep
 	province = piedmont
 }

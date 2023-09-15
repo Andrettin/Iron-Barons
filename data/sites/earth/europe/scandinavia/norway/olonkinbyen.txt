@@ -2,7 +2,7 @@ olonkinbyen = {
 	name = "Olonkinbyen"
 	world = earth
 	geocoordinate = { -8.715 70.922 }
-	type = resource
+	type = settlement
 	resource = fish
 	province = nordland
 }

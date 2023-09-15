@@ -2,7 +2,7 @@ mazatlan = {
 	name = "Mazatlan" #"Mazatlán"
 	world = earth
 	geocoordinate = { -106.42000065300 23.22110068660 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = fish #Shrimp fishing; Source: Map No. 503497 of the Perry-Castañeda Library Map Collection, 1978.
 	province = sinaloa
 }

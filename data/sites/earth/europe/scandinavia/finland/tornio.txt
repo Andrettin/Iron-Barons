@@ -2,7 +2,7 @@ tornio = {
 	name = "Tornio"
 	world = earth
 	geocoordinate = { 24.1440916 65.8497302 }
-	type = resource
+	type = settlement
 	resource = iron_ore
 	province = lapland
 }
