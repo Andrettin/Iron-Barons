@@ -2,7 +2,7 @@ sopron = {
 	name = "Sopron"
 	world = earth
 	geocoordinate = { 16.583333333333 47.683333333333 }
-	type = resource
+	type = settlement
 	resource = fruit
 	province = buda
 }

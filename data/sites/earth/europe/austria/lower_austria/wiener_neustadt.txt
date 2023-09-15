@@ -2,13 +2,14 @@ wiener_neustadt = {
 	name = "Wiener Neustadt"
 	world = earth
 	geocoordinate = { 16.24995357120 47.81598187160 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = cattle #Meadow and pasture; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
 	province = lower_austria
 	
 	history = {
 		1900 = {
 			population = 28438 #Wiener-Neustadt had a population of 28,438 in 1900; Source: "Encyclopædia Britannica", 1911, vol. 3, p. 2.
+			settlement_type = town
 		}
 	}
 }

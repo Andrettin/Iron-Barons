@@ -2,7 +2,7 @@ maribor = {
 	name = "Maribor"
 	world = earth
 	geocoordinate = { 15.65004186880 46.54047833160 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = timber
 	province = styria
 	cultural_group_names = {
@@ -11,7 +11,7 @@ maribor = {
 	
 	history = {
 		1815 = {
-			developed = true #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			settlement_type = town #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
 	}
 }

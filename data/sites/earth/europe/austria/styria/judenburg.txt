@@ -2,7 +2,7 @@ judenburg = {
 	name = "Judenburg"
 	world = earth
 	geocoordinate = { 14.660277777778 47.1725 }
-	type = resource
+	type = settlement
 	resource = iron_ore
 	province = styria
 }

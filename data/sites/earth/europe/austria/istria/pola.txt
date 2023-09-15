@@ -2,7 +2,7 @@ pola = {
 	name = "Pola"
 	world = earth
 	geocoordinate = { 13.84808467470 44.86871990870 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = grain
 	province = istria
 	cultural_names = {
@@ -12,6 +12,7 @@ pola = {
 	history = {
 		1815 = {
 			buildings += fortress #had a fortress in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			settlement_type = castle
 		}
 	}
 }

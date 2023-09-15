@@ -2,13 +2,13 @@ debrecen = {
 	name = "Debrecen"
 	world = earth
 	geocoordinate = { 21.63003861360 47.53046958320 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = fruit
 	province = pest
 	
 	history = {
 		1815 = {
-			developed = true #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			settlement_type = town #existed in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
 	}
 }

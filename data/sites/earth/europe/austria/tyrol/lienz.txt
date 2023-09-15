@@ -2,7 +2,7 @@ lienz = {
 	name = "Lienz"
 	world = earth
 	geocoordinate = { 12.769722222222 46.829722222222 }
-	type = resource
+	type = settlement
 	resource = timber
 	province = tyrol
 	
