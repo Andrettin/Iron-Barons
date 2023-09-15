@@ -1,6 +1,7 @@
 camp = {
 	name = "Camp"
 	image_filepath = "tiles/settlements/town.png"
+	free_resource_building_level = 1
 	build_conditions = {
 		country = {
 			country_type = tribe

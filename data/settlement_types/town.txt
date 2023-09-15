@@ -1,6 +1,7 @@
 hamlet = {
 	name = "Hamlet"
 	image_filepath = "tiles/settlements/town.png"
+	free_resource_building_level = 1
 	build_conditions = {
 		country = {
 			not = {
@@ -13,6 +14,7 @@ hamlet = {
 village = {
 	name = "Village"
 	image_filepath = "tiles/settlements/town.png"
+	free_resource_building_level = 2
 	base_settlement_types = {
 		camp
 		hamlet
@@ -22,6 +24,7 @@ village = {
 town = {
 	name = "Town"
 	image_filepath = "tiles/settlements/town.png"
+	free_resource_building_level = 3
 	base_settlement_types = {
 		village
 	}
@@ -30,6 +33,7 @@ town = {
 city = {
 	name = "City"
 	image_filepath = "tiles/settlements/town.png"
+	free_resource_building_level = 4
 	base_settlement_types = {
 		castle
 		monastery
@@ -40,6 +44,7 @@ city = {
 metropolis = {
 	name = "Metropolis"
 	image_filepath = "tiles/settlements/town.png"
+	free_resource_building_level = 5
 	base_settlement_types = {
 		city
 	}
