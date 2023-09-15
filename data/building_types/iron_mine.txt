@@ -19,4 +19,91 @@ iron_mine = {
 		castle
 		monastery
 	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
+}
+
+improved_iron_mine = {
+	name = "Improved Iron Mine"
+	building_class = improved_iron_mine
+	portrait = factory
+	icon = iron_ore
+	provincial = true
+	required_building = iron_mine
+	required_technology = iron_mining
+	resource_level = 2
+	resources = {
+		iron_ore
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 4
+		cast_iron = 4
+	}
+}
+
+steam_pumped_iron_mine = {
+	name = "Steam-Pumped Iron Mine"
+	building_class = steam_pumped_iron_mine
+	portrait = factory
+	icon = iron_ore
+	provincial = true
+	required_building = improved_iron_mine
+	required_technology = steam_in_mining
+	resource_level = 3
+	resources = {
+		iron_ore
+	}
+	settlement_types = {
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 1000
+	commodity_costs = {
+		lumber = 8
+		cast_iron = 8
+	}
+}
+
+industrial_iron_mine = {
+	name = "Industrial Iron Mine"
+	building_class = industrial_iron_mine
+	portrait = factory
+	icon = iron_ore
+	provincial = true
+	required_building = steam_pumped_iron_mine
+	required_technology = industrial_iron_mining
+	resource_level = 4
+	resources = {
+		iron_ore
+	}
+	settlement_types = {
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 5000
+	commodity_costs = {
+		lumber = 16
+		cast_iron = 16
+	}
 }

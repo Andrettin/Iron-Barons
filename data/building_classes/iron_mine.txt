@@ -2,3 +2,18 @@ iron_mine = {
 	name = "Iron Mine"
 	slot_type = resource
 }
+
+improved_iron_mine = {
+	name = "Improved Iron Mine"
+	slot_type = resource
+}
+
+steam_pumped_iron_mine = {
+	name = "Improved Iron Mine"
+	slot_type = resource
+}
+
+industrial_iron_mine = {
+	name = "Improved Iron Mine"
+	slot_type = resource
+}
