@@ -1,0 +1,4 @@
+iron_mine = {
+	name = "Iron Mine"
+	slot_type = resource
+}

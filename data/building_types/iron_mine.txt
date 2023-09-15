@@ -1,0 +1,22 @@
+iron_mine = {
+	name = "Iron Mine"
+	building_class = iron_mine
+	portrait = factory
+	icon = iron_ore
+	provincial = true
+	required_technology = iron_mining
+	resource_level = 1
+	resources = {
+		iron_ore
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+}
