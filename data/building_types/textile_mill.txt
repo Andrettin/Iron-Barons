@@ -6,7 +6,7 @@ weavers_house = {
 	base_capacity = 2
 	commodity_costs = {
 		lumber = 2
-		steel = 2
+		cast_iron = 2
 	}
 	production_types = {
 		cotton_fabric_weaving
@@ -24,7 +24,7 @@ weavers_shop = {
 	required_building = weavers_house
 	commodity_costs = {
 		lumber = 4
-		steel = 4
+		cast_iron = 4
 	}
 	production_types = {
 		cotton_fabric_weaving

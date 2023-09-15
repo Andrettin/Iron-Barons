@@ -6,7 +6,7 @@ tailors_house = {
 	base_capacity = 2
 	commodity_costs = {
 		lumber = 2
-		steel = 2
+		cast_iron = 2
 	}
 	production_types = {
 		clothing_making
@@ -22,7 +22,7 @@ tailors_shop = {
 	required_building = tailors_house
 	commodity_costs = {
 		lumber = 4
-		steel = 4
+		cast_iron = 4
 	}
 	production_types = {
 		clothing_making
