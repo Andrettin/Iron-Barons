@@ -2,7 +2,7 @@ castello = {
 	name = "Castello"
 	world = earth
 	geocoordinate = { -0.05000756977 39.97041424460 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = fruit
 	province = valencia
 }

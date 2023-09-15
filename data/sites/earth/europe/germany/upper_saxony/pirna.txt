@@ -1,9 +1,8 @@
 pirna = {
 	name = "Pirna"
 	world = earth
-	geocoordinate = { 13.940277777778 50.962222222222 }
-	pos_offset = { 1 0 }
-	type = resource
+	#geocoordinate = { 13.940277777778 50.962222222222 }
+	type = settlement
 	resource = grain
 	province = upper_saxony
 	
@@ -12,6 +11,8 @@ pirna = {
 			population_groups = {
 				czech = 2000 #over 2,000 Czechs; Source: Henry Kamen, "The Iron Century", p. 425.
 			}
+			
+			settlement_type = village
 		}
 	}
 }

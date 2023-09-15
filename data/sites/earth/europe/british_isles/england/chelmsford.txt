@@ -2,7 +2,7 @@ chelmsford = {
 	name = "Chelmsford"
 	world = earth
 	geocoordinate = { 0.4798 51.7361 }
-	type = resource
+	type = settlement
 	resource = coal
 	province = east_anglia
 }

@@ -2,7 +2,7 @@ farah = {
 	name = "Farah"
 	world = earth
 	geocoordinate = { 62.09681921270 32.39172955220 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = grain #Irrigated cultivation; Source: Map No. 504958 of the Perry-Castañeda Library Map Collection, 1971.
 	province = afghanistan
 }

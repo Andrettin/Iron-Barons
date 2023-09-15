@@ -2,7 +2,7 @@ cadiz = {
 	name = "Cadiz" #"Cádiz"
 	world = earth
 	geocoordinate = { -6.22500533184 36.53499086410 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = fish
 	province = andalusia
 	cultural_names = {
@@ -12,7 +12,7 @@ cadiz = {
 	
 	history = {
 		1360 = {
-			developed = true #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1616 = {

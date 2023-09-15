@@ -2,7 +2,7 @@ dundee = {
 	name = "Dundee"
 	world = earth
 	geocoordinate = { -3.00000838359 56.47038901680 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = fish
 	province = highlands
 }

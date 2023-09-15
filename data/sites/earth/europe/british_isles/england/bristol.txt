@@ -2,7 +2,7 @@ bristol = {
 	name = "Bristol"
 	world = earth
 	geocoordinate = { -2.58331547180 51.44999778150 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = iron_ore
 	province = warwickshire
 	cultural_names = {
@@ -12,6 +12,7 @@ bristol = {
 	history = {
 		1909 = {
 			buildings += university #University founded in Bristol in 1909; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+			settlement_type = city
 		}
 	}
 }

@@ -2,7 +2,7 @@ leeds = {
 	name = "Leeds"
 	world = earth
 	geocoordinate = { -1.58001753886 53.83000754710 } #from Natural Earth
-	type = resource
+	type = settlement
 	resource = coal
 	province = yorkshire
 	cultural_names = {
@@ -12,6 +12,7 @@ leeds = {
 	history = {
 		1904 = {
 			buildings += university #University founded in Leeds in 1904; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+			settlement_type = city
 		}
 	}
 }

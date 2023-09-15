@@ -2,7 +2,7 @@ kildare = {
 	name = "Kildare"
 	world = earth
 	geocoordinate = { -6.909027 53.156859 }
-	type = resource
+	type = settlement
 	resource = cattle
 	province = leinster
 }

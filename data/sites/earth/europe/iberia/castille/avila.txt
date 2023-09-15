@@ -2,17 +2,19 @@ avila = {
 	name = "Avila"
 	world = earth
 	geocoordinate = { -4.6962222222222 40.654347222222 }
-	type = resource
+	type = settlement
 	resource = grain
 	province = castille
 	
 	history = {
 		1550 = {
 			buildings += university #Minor university founded in Avila in 1550; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+			settlement_type = city
 		}
 		
 		1787 = {
 			buildings -= university #Minor university abolished in Avila in 1787; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+			settlement_type = none
 		}
 	}
 }
