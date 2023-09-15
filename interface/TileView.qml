@@ -52,29 +52,6 @@ Item {
 		readonly property bool selected: visible && selected_province === province && selected_garrison
 	}
 	
-	Item {
-		id: tile_detail_item
-		anchors.fill: parent
-		visible: improvement !== null && tile_detail_mode
-		
-		LargeText {
-			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -24 * scale_factor
-			text: improvement ? improvement.employment_capacity + "x" + improvement.output_multiplier : ""
-			visible: improvement !== null && improvement.resource !== null
-		}
-		
-		Image {
-			id: tile_detail_resource_icon
-			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.verticalCenter: parent.verticalCenter
-			source: improvement && improvement.resource ? ("image://icon/" + improvement.resource.commodity.icon.identifier) : "image://empty/"
-			fillMode: Image.Pad
-			visible: improvement !== null && improvement.resource !== null
-		}
-	}
-	
 	Rectangle {
 		id: selection_rectangle
 		anchors.fill: parent
@@ -110,6 +87,29 @@ Item {
 		wrapMode: Text.WordWrap
 		horizontalAlignment: Text.AlignHCenter
 		verticalAlignment: Text.AlignTop
+	}
+	
+	Item {
+		id: tile_detail_item
+		anchors.fill: parent
+		visible: (improvement !== null || site.game_data.settlement_type !== null) && resource !== null && tile_detail_mode
+		
+		LargeText {
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.verticalCenterOffset: -24 * scale_factor
+			text: resource ? site.game_data.get_commodity_output(resource.commodity) : ""
+			visible: tile_detail_resource_icon.visible
+		}
+		
+		Image {
+			id: tile_detail_resource_icon
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+			source: resource ? ("image://icon/" + resource.commodity.icon.identifier) : "image://empty/"
+			fillMode: Image.Pad
+			visible: (improvement !== null || site.game_data.settlement_type !== null) && resource !== null
+		}
 	}
 	
 	MouseArea {
