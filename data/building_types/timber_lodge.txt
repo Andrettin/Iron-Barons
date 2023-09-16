@@ -1,0 +1,108 @@
+timber_lodge = {
+	name = "Timber Lodge"
+	building_class = timber_lodge
+	portrait = aristocratic_palace
+	icon = timber
+	provincial = true
+	resource_level = 1
+	resources = {
+		timber
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
+}
+
+improved_timber_lodge = {
+	name = "Improved Orchard"
+	building_class = improved_timber_lodge
+	portrait = aristocratic_palace
+	icon = timber
+	provincial = true
+	required_building = timber_lodge
+	required_technology = wind_saw_mill
+	resource_level = 2
+	resources = {
+		timber
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 4
+		cast_iron = 4
+	}
+}
+
+advanced_timber_lodge = {
+	name = "Mechanized Orchard"
+	building_class = advanced_timber_lodge
+	portrait = aristocratic_palace
+	icon = timber
+	provincial = true
+	required_building = improved_timber_lodge
+	required_technology = circular_saw
+	resource_level = 3
+	resources = {
+		timber
+	}
+	settlement_types = {
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 1000
+	commodity_costs = {
+		lumber = 8
+		cast_iron = 8
+	}
+}
+
+mechanized_timber_lodge = {
+	name = "Industrial Orchard"
+	building_class = mechanized_timber_lodge
+	portrait = aristocratic_palace
+	icon = timber
+	provincial = true
+	required_building = advanced_timber_lodge
+	required_technology = mechanical_saw
+	resource_level = 4
+	resources = {
+		timber
+	}
+	settlement_types = {
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 5000
+	commodity_costs = {
+		lumber = 16
+		cast_iron = 16
+	}
+}
