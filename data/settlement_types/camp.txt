@@ -1,6 +1,6 @@
 camp = {
 	name = "Camp"
-	image_filepath = "tiles/settlements/town.png"
+	image_filepath = "tiles/settlements/hamlet.png"
 	free_resource_building_level = 1
 	build_conditions = {
 		country = {
