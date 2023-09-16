@@ -3,6 +3,7 @@ tula = {
 	world = earth
 	geocoordinate = { 37.62994055050 54.19995912590 } #from Natural Earth
 	type = settlement
+	resource = grain
 	
 	history = {
 		1360 = {

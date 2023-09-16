@@ -3,6 +3,7 @@ tver = {
 	world = earth
 	geocoordinate = { 35.88999507520 56.85997763990 } #from Natural Earth
 	type = settlement
+	resource = timber
 	
 	history = {
 		1360 = {

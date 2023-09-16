@@ -2,6 +2,8 @@ azov = {
 	name = "Azov"
 	world = earth
 	geocoordinate = { 39.416666666667 47.1 }
+	type = settlement
+	resource = cattle
 	province = rostov
 	cultural_names = {
 		italian = "Tana" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
@@ -9,7 +11,7 @@ azov = {
 	
 	history = {
 		1360 = {
-			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }

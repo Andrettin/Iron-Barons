@@ -3,6 +3,7 @@ pskov = {
 	world = earth
 	geocoordinate = { 28.32993973670 57.82999595040 } #from Natural Earth
 	type = settlement
+	resource = cattle
 	
 	history = {
 		1360 = {

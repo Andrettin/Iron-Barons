@@ -3,6 +3,7 @@ kazan = {
 	world = earth
 	geocoordinate = { 49.12634476600 55.74994203600 } #from Natural Earth
 	type = settlement
+	resource = grain
 	
 	history = {
 		1360 = {
