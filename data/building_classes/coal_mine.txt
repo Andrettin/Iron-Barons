@@ -9,11 +9,11 @@ large_coal_mine = {
 }
 
 steam_pumped_coal_mine = {
-	name = "Improved Coal Mine"
+	name = "Steam-Pumped Coal Mine"
 	slot_type = resource
 }
 
 industrial_coal_mine = {
-	name = "Improved Coal Mine"
+	name = "Industrial Coal Mine"
 	slot_type = resource
 }
