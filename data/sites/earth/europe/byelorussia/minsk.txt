@@ -3,6 +3,7 @@ minsk = {
 	world = earth
 	geocoordinate = { 27.56662715530 53.89997743640 } #from Natural Earth
 	type = settlement
+	resource = timber
 	
 	history = {
 		1360 = {

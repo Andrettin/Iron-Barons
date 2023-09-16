@@ -3,6 +3,7 @@ iasi = {
 	world = earth
 	geocoordinate = { 27.57494706090 47.16834698390 } #from Natural Earth
 	type = settlement
+	resource = fruit
 	
 	history = {
 		1360 = {

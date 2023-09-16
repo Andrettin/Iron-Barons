@@ -2,11 +2,13 @@ bialystok = {
 	name = "Bialystok"
 	world = earth
 	geocoordinate = { 23.16999629590 53.15035910960 } #from Natural Earth
+	type = settlement
+	resource = grain
 	province = warsaw
 	
 	history = {
 		1360 = {
-			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }

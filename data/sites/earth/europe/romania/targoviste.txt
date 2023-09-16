@@ -2,11 +2,13 @@ targoviste = {
 	name = "Targoviste" #"Târgoviște"
 	world = earth
 	geocoordinate = { 25.45900250200 44.93799912850 } #from Natural Earth
+	type = settlement
+	resource = sheep
 	province = wallachia
 	
 	history = {
 		1360 = {
-			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }
