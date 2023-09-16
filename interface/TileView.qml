@@ -92,7 +92,7 @@ Item {
 	Item {
 		id: tile_detail_item
 		anchors.fill: parent
-		visible: (improvement !== null || site.game_data.settlement_type !== null) && resource !== null && tile_detail_mode
+		visible: (improvement !== null || (site && site.game_data.settlement_type !== null)) && resource !== null && tile_detail_mode
 		
 		LargeText {
 			anchors.horizontalCenter: parent.horizontalCenter
@@ -108,7 +108,7 @@ Item {
 			anchors.verticalCenter: parent.verticalCenter
 			source: resource ? ("image://icon/" + resource.commodity.icon.identifier) : "image://empty/"
 			fillMode: Image.Pad
-			visible: (improvement !== null || site.game_data.settlement_type !== null) && resource !== null
+			visible: (improvement !== null || (site && site.game_data.settlement_type !== null)) && resource !== null
 		}
 	}
 	
