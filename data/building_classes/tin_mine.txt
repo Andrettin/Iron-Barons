@@ -1,0 +1,19 @@
+tin_mine = {
+	name = "Tin Mine"
+	slot_type = resource
+}
+
+large_tin_mine = {
+	name = "Large Tin Mine"
+	slot_type = resource
+}
+
+steam_pumped_tin_mine = {
+	name = "Steam-Pumped Tin Mine"
+	slot_type = resource
+}
+
+industrial_tin_mine = {
+	name = "Industrial Tin Mine"
+	slot_type = resource
+}
