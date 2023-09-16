@@ -1,0 +1,26 @@
+horse_ranch = {
+	name = "Horse Ranch"
+	building_class = horse_ranch
+	portrait = aristocratic_palace
+	icon = horses
+	provincial = true
+	resource_level = 1
+	resources = {
+		horses
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
+}

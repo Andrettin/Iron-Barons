@@ -1,0 +1,19 @@
+potato_farm = {
+	name = "Potato Farm"
+	slot_type = resource
+}
+
+potato_estate = {
+	name = "Potato Estate"
+	slot_type = resource
+}
+
+mechanized_potato_estate = {
+	name = "Mechanized Potato Estate"
+	slot_type = resource
+}
+
+industrial_potato_estate = {
+	name = "Industrial Potato Estate"
+	slot_type = resource
+}

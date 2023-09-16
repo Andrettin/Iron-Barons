@@ -1,0 +1,4 @@
+horse_ranch = {
+	name = "Horse Ranch"
+	slot_type = resource
+}

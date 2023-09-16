@@ -1,0 +1,4 @@
+stone_quarry = {
+	name = "Stone Quarry"
+	slot_type = resource
+}
