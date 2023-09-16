@@ -66,7 +66,7 @@ Item {
 		tile_image_source: civilian_unit ? (
 			"image://icon/" + civilian_unit.icon.identifier + (unit_selected ? "/selected" : (civilian_unit.moving && !civilian_unit.working ? "/grayscale" : ""))
 		) : "image://empty/"
-		visible: civilian_unit !== null
+		visible: civilian_unit !== null && tile_detail_mode === false
 		
 		readonly property bool unit_selected: selected_civilian_unit === civilian_unit
 		
