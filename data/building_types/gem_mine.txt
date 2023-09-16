@@ -1,13 +1,13 @@
-fishing_wharf = {
-	name = "Fishing Wharf"
-	building_class = fishing_wharf
-	portrait = dock
-	icon = fish
+gem_mine = {
+	name = "Gem Mine"
+	building_class = gem_mine
+	portrait = factory
+	icon = gems
 	provincial = true
+	required_technology = precious_stone_mining
 	resource_level = 1
 	resources = {
-		fish
-		whales
+		gems
 	}
 	settlement_types = {
 		camp
@@ -26,18 +26,17 @@ fishing_wharf = {
 	}
 }
 
-improved_fishing_wharf = {
-	name = "Improved Fishing Wharf"
-	building_class = improved_fishing_wharf
-	portrait = dock
-	icon = fish
+large_gem_mine = {
+	name = "Large Gem Mine"
+	building_class = large_gem_mine
+	portrait = factory
+	icon = gems
 	provincial = true
-	required_building = fishing_wharf
-	required_technology = seafaring
+	required_building = gem_mine
+	required_technology = large_precious_stone_mines
 	resource_level = 2
 	resources = {
-		fish
-		whales
+		gems
 	}
 	settlement_types = {
 		camp
@@ -56,18 +55,17 @@ improved_fishing_wharf = {
 	}
 }
 
-advanced_fishing_wharf = {
-	name = "Advanced Fishing Wharf"
-	building_class = advanced_fishing_wharf
-	portrait = dock
-	icon = fish
+steam_pumped_gem_mine = {
+	name = "Steam-Pumped Gem Mine"
+	building_class = steam_pumped_gem_mine
+	portrait = factory
+	icon = gems
 	provincial = true
-	required_building = improved_fishing_wharf
-	required_technology = cartography
+	required_building = large_gem_mine
+	required_technology = geological_prospecting
 	resource_level = 3
 	resources = {
-		fish
-		whales
+		gems
 	}
 	settlement_types = {
 		village
@@ -84,18 +82,17 @@ advanced_fishing_wharf = {
 	}
 }
 
-industrial_fishing_wharf = {
-	name = "Industrial Fishing Wharf"
-	building_class = industrial_fishing_wharf
-	portrait = dock
-	icon = fish
+industrial_gem_mine = {
+	name = "Industrial Gem Mine"
+	building_class = industrial_gem_mine
+	portrait = factory
+	icon = gems
 	provincial = true
-	required_building = advanced_fishing_wharf
-	required_technology = cartography
+	required_building = steam_pumped_gem_mine
+	required_technology = geological_prospecting
 	resource_level = 4
 	resources = {
-		fish
-		whales
+		gems
 	}
 	settlement_types = {
 		town

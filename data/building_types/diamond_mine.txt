@@ -1,13 +1,13 @@
-fishing_wharf = {
-	name = "Fishing Wharf"
-	building_class = fishing_wharf
-	portrait = dock
-	icon = fish
+diamond_mine = {
+	name = "Diamond Mine"
+	building_class = diamond_mine
+	portrait = factory
+	icon = amber
 	provincial = true
+	required_technology = precious_stone_mining
 	resource_level = 1
 	resources = {
-		fish
-		whales
+		diamonds
 	}
 	settlement_types = {
 		camp
@@ -26,18 +26,17 @@ fishing_wharf = {
 	}
 }
 
-improved_fishing_wharf = {
-	name = "Improved Fishing Wharf"
-	building_class = improved_fishing_wharf
-	portrait = dock
-	icon = fish
+large_diamond_mine = {
+	name = "Large Diamond Mine"
+	building_class = large_diamond_mine
+	portrait = factory
+	icon = amber
 	provincial = true
-	required_building = fishing_wharf
-	required_technology = seafaring
+	required_building = diamond_mine
+	required_technology = large_precious_stone_mines
 	resource_level = 2
 	resources = {
-		fish
-		whales
+		diamonds
 	}
 	settlement_types = {
 		camp
@@ -56,18 +55,17 @@ improved_fishing_wharf = {
 	}
 }
 
-advanced_fishing_wharf = {
-	name = "Advanced Fishing Wharf"
-	building_class = advanced_fishing_wharf
-	portrait = dock
-	icon = fish
+steam_pumped_diamond_mine = {
+	name = "Steam-Pumped Diamond Mine"
+	building_class = steam_pumped_diamond_mine
+	portrait = factory
+	icon = amber
 	provincial = true
-	required_building = improved_fishing_wharf
-	required_technology = cartography
+	required_building = large_diamond_mine
+	required_technology = geological_prospecting
 	resource_level = 3
 	resources = {
-		fish
-		whales
+		diamonds
 	}
 	settlement_types = {
 		village
@@ -84,18 +82,17 @@ advanced_fishing_wharf = {
 	}
 }
 
-industrial_fishing_wharf = {
-	name = "Industrial Fishing Wharf"
-	building_class = industrial_fishing_wharf
-	portrait = dock
-	icon = fish
+industrial_diamond_mine = {
+	name = "Industrial Diamond Mine"
+	building_class = industrial_diamond_mine
+	portrait = factory
+	icon = amber
 	provincial = true
-	required_building = advanced_fishing_wharf
-	required_technology = cartography
+	required_building = steam_pumped_diamond_mine
+	required_technology = geological_prospecting
 	resource_level = 4
 	resources = {
-		fish
-		whales
+		diamonds
 	}
 	settlement_types = {
 		town

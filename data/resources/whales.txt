@@ -1,7 +1,7 @@
 whales = {
 	name = "Whales"
 	commodity = fish
-	near_water = true
+	coastal = true
 	terrain_types = {
 		desert
 		plains

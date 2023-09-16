@@ -1,13 +1,14 @@
-fishing_wharf = {
-	name = "Fishing Wharf"
-	building_class = fishing_wharf
-	portrait = dock
-	icon = fish
+fur_camp = {
+	name = "Fur Camp"
+	building_class = fur_camp
+	portrait = aristocratic_palace
+	icon = leather
 	provincial = true
+	required_technology = furs
 	resource_level = 1
 	resources = {
-		fish
-		whales
+		beavers
+		deer
 	}
 	settlement_types = {
 		camp
@@ -26,18 +27,18 @@ fishing_wharf = {
 	}
 }
 
-improved_fishing_wharf = {
-	name = "Improved Fishing Wharf"
-	building_class = improved_fishing_wharf
-	portrait = dock
-	icon = fish
+improved_fur_camp = {
+	name = "Improved Fur Camp"
+	building_class = improved_fur_camp
+	portrait = aristocratic_palace
+	icon = leather
 	provincial = true
-	required_building = fishing_wharf
-	required_technology = seafaring
+	required_building = fur_camp
+	required_technology = improved_trapping_techniques
 	resource_level = 2
 	resources = {
-		fish
-		whales
+		beavers
+		deer
 	}
 	settlement_types = {
 		camp
@@ -56,18 +57,18 @@ improved_fishing_wharf = {
 	}
 }
 
-advanced_fishing_wharf = {
-	name = "Advanced Fishing Wharf"
-	building_class = advanced_fishing_wharf
-	portrait = dock
-	icon = fish
+advanced_fur_camp = {
+	name = "Advanced Fur Camp"
+	building_class = advanced_fur_camp
+	portrait = aristocratic_palace
+	icon = leather
 	provincial = true
-	required_building = improved_fishing_wharf
-	required_technology = cartography
+	required_building = improved_fur_camp
+	required_technology = riverboats
 	resource_level = 3
 	resources = {
-		fish
-		whales
+		beavers
+		deer
 	}
 	settlement_types = {
 		village
@@ -84,18 +85,18 @@ advanced_fishing_wharf = {
 	}
 }
 
-industrial_fishing_wharf = {
-	name = "Industrial Fishing Wharf"
-	building_class = industrial_fishing_wharf
-	portrait = dock
-	icon = fish
+industrial_fur_camp = {
+	name = "Industrial Fur Camp"
+	building_class = industrial_fur_camp
+	portrait = aristocratic_palace
+	icon = leather
 	provincial = true
-	required_building = advanced_fishing_wharf
-	required_technology = cartography
+	required_building = advanced_fur_camp
+	required_technology = excessive_fur_harvesting
 	resource_level = 4
 	resources = {
-		fish
-		whales
+		beavers
+		deer
 	}
 	settlement_types = {
 		town

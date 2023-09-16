@@ -1,0 +1,19 @@
+diamond_mine = {
+	name = "Diamond Mine"
+	slot_type = resource
+}
+
+large_diamond_mine = {
+	name = "Large Diamond Mine"
+	slot_type = resource
+}
+
+steam_pumped_diamond_mine = {
+	name = "Steam-Pumped Diamond Mine"
+	slot_type = resource
+}
+
+industrial_diamond_mine = {
+	name = "Industrial Diamond Mine"
+	slot_type = resource
+}
