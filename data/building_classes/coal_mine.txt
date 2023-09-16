@@ -1,0 +1,19 @@
+coal_mine = {
+	name = "Coal Mine"
+	slot_type = resource
+}
+
+large_coal_mine = {
+	name = "Large Coal Mine"
+	slot_type = resource
+}
+
+steam_pumped_coal_mine = {
+	name = "Improved Coal Mine"
+	slot_type = resource
+}
+
+industrial_coal_mine = {
+	name = "Improved Coal Mine"
+	slot_type = resource
+}
