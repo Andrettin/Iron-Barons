@@ -1,0 +1,109 @@
+cotton_plantation = {
+	name = "Cotton Plantation"
+	building_class = cotton_plantation
+	portrait = aristocratic_palace
+	icon = cotton
+	provincial = true
+	required_technology = cotton_planting
+	resource_level = 1
+	resources = {
+		cotton
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
+}
+
+large_cotton_plantation = {
+	name = "Large Cotton Plantation"
+	building_class = large_cotton_plantation
+	portrait = aristocratic_palace
+	icon = cotton
+	provincial = true
+	required_building = cotton_plantation
+	required_technology = large_cotton_plantations
+	resource_level = 2
+	resources = {
+		cotton
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 4
+		cast_iron = 4
+	}
+}
+
+mechanized_cotton_plantation = {
+	name = "Mechanized Cotton Plantation"
+	building_class = mechanized_cotton_plantation
+	portrait = aristocratic_palace
+	icon = cotton
+	provincial = true
+	required_building = large_cotton_plantation
+	required_technology = cotton_gin
+	resource_level = 3
+	resources = {
+		cotton
+	}
+	settlement_types = {
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 1000
+	commodity_costs = {
+		lumber = 8
+		cast_iron = 8
+	}
+}
+
+industrial_cotton_plantation = {
+	name = "Industrial Cotton Plantation"
+	building_class = industrial_cotton_plantation
+	portrait = aristocratic_palace
+	icon = cotton
+	provincial = true
+	required_building = mechanized_cotton_plantation
+	required_technology = cotton_gin
+	resource_level = 4
+	resources = {
+		cotton
+	}
+	settlement_types = {
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 5000
+	commodity_costs = {
+		lumber = 16
+		cast_iron = 16
+	}
+}

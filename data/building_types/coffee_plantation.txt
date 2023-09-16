@@ -1,0 +1,80 @@
+small_coffee_plantation = {
+	name = "Small Coffee Plantation"
+	building_class = small_coffee_plantation
+	portrait = aristocratic_palace
+	icon = coffee
+	provincial = true
+	resource_level = 1
+	resources = {
+		coffee
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
+}
+
+coffee_plantation = {
+	name = "Coffee Plantation"
+	building_class = coffee_plantation
+	portrait = aristocratic_palace
+	icon = coffee
+	provincial = true
+	required_building = small_coffee_plantation
+	resource_level = 2
+	resources = {
+		coffee
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 4
+		cast_iron = 4
+	}
+}
+
+large_coffee_plantation = {
+	name = "Large Coffee Plantation"
+	building_class = large_coffee_plantation
+	portrait = aristocratic_palace
+	icon = coffee
+	provincial = true
+	required_building = coffee_plantation
+	resource_level = 3
+	resources = {
+		coffee
+	}
+	settlement_types = {
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 1000
+	commodity_costs = {
+		lumber = 8
+		cast_iron = 8
+	}
+}

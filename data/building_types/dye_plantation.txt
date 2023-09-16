@@ -1,0 +1,26 @@
+dye_plantation = {
+	name = "Dye Plantation"
+	building_class = dye_plantation
+	portrait = aristocratic_palace
+	icon = cotton
+	provincial = true
+	resource_level = 1
+	resources = {
+		dye
+	}
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
+}

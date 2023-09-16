@@ -1,0 +1,4 @@
+dye_plantation = {
+	name = "Dye Plantation"
+	slot_type = resource
+}

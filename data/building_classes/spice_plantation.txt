@@ -1,0 +1,19 @@
+spice_plantation = {
+	name = "Spice Plantation"
+	slot_type = resource
+}
+
+improved_spice_plantation = {
+	name = "Improved Spice Plantation"
+	slot_type = resource
+}
+
+large_spice_plantation = {
+	name = "Large Spice Plantation"
+	slot_type = resource
+}
+
+mechanized_spice_plantation = {
+	name = "Mechanized Spice Plantation"
+	slot_type = resource
+}
