@@ -20,10 +20,14 @@ piedmont = {
 			culture = lombard
 		}
 		
-		1280 = {
-			owner = savoy #part of the County of the Savoy c. 1280; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		919 = {
+			owner = italy #part of Italy in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			culture = italian
 			religion = catholic
+		}		
+		
+		1280 = {
+			owner = savoy #part of the County of the Savoy c. 1280; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 		
 		1477 = {
