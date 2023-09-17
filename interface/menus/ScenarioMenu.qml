@@ -207,7 +207,7 @@ MenuBase {
 		anchors.right: culture_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -225,7 +225,7 @@ MenuBase {
 		anchors.right: religion_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -242,7 +242,7 @@ MenuBase {
 		anchors.right: phenotype_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -259,7 +259,7 @@ MenuBase {
 		anchors.right: diplomatic_map_background.right
 		anchors.rightMargin: 4 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	Rectangle {
