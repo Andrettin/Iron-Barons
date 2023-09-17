@@ -16,6 +16,16 @@ franche_comte = {
 			culture = gothic
 		}
 		
+		919 = {
+			owner = upper_burgundy #part of Upper Burgundy in 919; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = french
+			religion = catholic
+		}
+		
+		933 = {
+			owner = arles #became part of the Kingdom of Burgundy in 933; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1477 = {
 			owner = burgundy #Burgundian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 			culture = french

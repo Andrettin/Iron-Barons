@@ -16,6 +16,16 @@ geneva = {
 			culture = gothic
 		}
 		
+		919 = {
+			owner = upper_burgundy #part of Upper Burgundy in 919; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = french
+			religion = catholic
+		}
+		
+		933 = {
+			owner = arles #became part of the Kingdom of Burgundy in 933; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1418 = {
 			owner = savoy #part of the Domain of the Duchy of Savoy in 1418; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 			culture = french

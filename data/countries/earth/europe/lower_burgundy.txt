@@ -1,0 +1,14 @@
+lower_burgundy = {
+	name = "Lower Burgundy"
+	type = minor_nation
+	culture = french
+	default_religion = catholic
+	capital_province = provence #Arles
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		provence
+		savoy
+	}
+}

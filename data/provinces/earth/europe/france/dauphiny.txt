@@ -16,10 +16,18 @@ dauphiny = {
 			culture = gothic
 		}
 		
-		1360 = {
-			owner = france #part of France in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		919 = {
+			owner = lower_burgundy #part of Lower Burgundy in 919; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			culture = french
 			religion = catholic
+		}
+		
+		933 = {
+			owner = arles #became part of the Kingdom of Burgundy in 933; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
+		1360 = {
+			owner = france #part of France in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1477 = {

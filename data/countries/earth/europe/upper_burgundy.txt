@@ -1,0 +1,15 @@
+upper_burgundy = {
+	name = "Upper Burgundy"
+	type = minor_nation
+	culture = french
+	default_religion = catholic
+	capital_province = geneva
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		geneva
+		bern
+		franche_comte
+	}
+}
