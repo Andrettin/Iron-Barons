@@ -116,7 +116,7 @@ Rectangle {
 		anchors.right: culture_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -134,7 +134,7 @@ Rectangle {
 		anchors.right: religion_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -151,7 +151,7 @@ Rectangle {
 		anchors.right: phenotype_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -168,7 +168,7 @@ Rectangle {
 		anchors.right: political_map_mode_button.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data.population
+		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	Row {
