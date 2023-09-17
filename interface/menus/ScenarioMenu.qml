@@ -146,7 +146,7 @@ MenuBase {
 				) : "")
 				+ (selected_country_game_data.anarchy ? "\nAnarchy" : "")
 				+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country_game_data.score) + " (#" + (selected_country_game_data.rank + 1) + ")") : "")
-				+ "\nPopulation: " + number_string(selected_country_game_data.population)
+				+ "\nPopulation: " + number_string(selected_country_game_data.population.size)
 				+ (vassal_count > 0 ? (
 					"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
 				) : "")
@@ -207,7 +207,7 @@ MenuBase {
 		anchors.right: culture_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	SmallText {
@@ -225,7 +225,7 @@ MenuBase {
 		anchors.right: religion_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	SmallText {
@@ -242,7 +242,7 @@ MenuBase {
 		anchors.right: phenotype_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	SmallText {
@@ -259,7 +259,7 @@ MenuBase {
 		anchors.right: diplomatic_map_background.right
 		anchors.rightMargin: 4 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	Rectangle {

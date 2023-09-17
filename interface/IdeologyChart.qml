@@ -9,7 +9,7 @@ PopulationChart {
 		target: chart.data_source
 		ignoreUnknownSignals: true //as there may be no selected data source
 		
-		function onPopulation_ideology_counts_changed() {
+		function onIdeology_counts_changed() {
 			chart.update_chart()
 		}
 	}
@@ -21,7 +21,7 @@ PopulationChart {
 			return
 		}
 
-		var population_per_ideology = chart.data_source.population_ideology_counts
+		var population_per_ideology = chart.data_source.ideology_counts
 		for (var i = 0; i < population_per_ideology.length; i++) {
 			var ideology = population_per_ideology[i].key
 			var count = population_per_ideology[i].value

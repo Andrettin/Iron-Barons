@@ -72,7 +72,7 @@ Rectangle {
 			) : "")
 			+ (selected_country_game_data.anarchy ? "\nAnarchy" : "")
 			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country_game_data.score) + " (#" + (selected_country_game_data.rank + 1) + ")") : "")
-			+ "\nPopulation: " + number_string(selected_country_game_data.population)
+			+ "\nPopulation: " + number_string(selected_country_game_data.population.size)
 			+ "\nPopulation Growth: " + selected_country_game_data.population_growth + "/" + metternich.defines.population_growth_threshold
 			+ "\n" + selected_country_game_data.provinces.length + " " + (selected_country_game_data.provinces.length > 1 ? "Provinces" : "Province")
 		) : "")
@@ -116,7 +116,7 @@ Rectangle {
 		anchors.right: culture_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	SmallText {
@@ -134,7 +134,7 @@ Rectangle {
 		anchors.right: religion_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	SmallText {
@@ -151,7 +151,7 @@ Rectangle {
 		anchors.right: phenotype_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	SmallText {
@@ -168,7 +168,7 @@ Rectangle {
 		anchors.right: political_map_mode_button.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data
+		data_source: selected_country_game_data.population
 	}
 	
 	Row {

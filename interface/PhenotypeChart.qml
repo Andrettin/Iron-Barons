@@ -9,7 +9,7 @@ PopulationChart {
 		target: chart.data_source
 		ignoreUnknownSignals: true //as there may be no selected data source
 		
-		function onPopulation_phenotype_counts_changed() {
+		function onPhenotype_counts_changed() {
 			chart.update_chart()
 		}
 	}
@@ -21,7 +21,7 @@ PopulationChart {
 			return
 		}
 
-		var population_per_phenotype = chart.data_source.population_phenotype_counts
+		var population_per_phenotype = chart.data_source.phenotype_counts
 		for (var i = 0; i < population_per_phenotype.length; i++) {
 			var phenotype = population_per_phenotype[i].key
 			var count = population_per_phenotype[i].value

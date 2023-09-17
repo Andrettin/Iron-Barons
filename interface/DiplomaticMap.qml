@@ -63,9 +63,9 @@ Flickable {
 				property string tooltip_suffix: containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Terrain ?
 					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.tile_terrain_counts)))
 				: (diplomatic_map.mode === DiplomaticMap.Mode.Cultural ?
-					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population_culture_counts)))
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population.culture_counts)))
 				: (diplomatic_map.mode === DiplomaticMap.Mode.Religious ?
-					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population_religion_counts)))
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population.religion_counts)))
 				: ""))) : ""
 				
 				onClicked: {
