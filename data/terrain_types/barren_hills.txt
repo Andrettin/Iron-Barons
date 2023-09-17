@@ -8,6 +8,7 @@ barren_hills = {
 		mountains
 		plains
 		savannah
+		conifer_forest
 	}
 	adjacency_tiles = {
 		0 = {
