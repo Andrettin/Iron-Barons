@@ -61,6 +61,20 @@ Rectangle {
 		}
 	}
 	
+	IconButton {
+		id: cultural_map_mode_button
+		anchors.top: terrain_map_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.right: political_map_mode_button.right
+		icon_identifier: "music"
+		border_color: diplomatic_map.mode === DiplomaticMap.Mode.Cultural ? "white" : "gray"
+		tooltip: "Cultural Map"
+		
+		onReleased: {
+			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
+		}
+	}
+	
 	SmallText {
 		id: country_text
 		text: format_text(selected_country && selected_country_game_data ? (
