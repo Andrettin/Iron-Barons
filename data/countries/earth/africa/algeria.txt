@@ -3,7 +3,7 @@ algeria = {
 	type = minor_nation
 	culture = arabic
 	default_religion = sunni
-	capital_province = algeria
+	default_capital = algiers
 	eras = {
 		medieval_era
 		renaissance_era

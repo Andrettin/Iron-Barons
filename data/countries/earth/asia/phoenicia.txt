@@ -4,7 +4,7 @@ phoenicia = {
 	color = { 204 161 197 }
 	culture = phoenician
 	default_religion = pagan
-	capital_province = lebanon
+	default_capital = tyre
 	eras = {
 		ancient_era
 	}

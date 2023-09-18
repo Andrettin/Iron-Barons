@@ -3,7 +3,7 @@ britons = {
 	type = tribe
 	culture = briton
 	default_religion = pagan
-	capital_province = wales
+	default_capital = london
 	eras = {
 		ancient_era
 		medieval_era

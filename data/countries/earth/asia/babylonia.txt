@@ -4,7 +4,7 @@ babylonia = {
 	color = { 27 73 157 }
 	culture = babylonian
 	default_religion = pagan
-	capital_province = babylon
+	default_capital = babylon
 	#default_tier = kingdom
 	eras = {
 		ancient_era

@@ -3,7 +3,7 @@ erzincan = {
 	type = minor_nation
 	culture = turkish
 	default_religion = sunni
-	capital_province = erzincan
+	default_capital = erzincan
 	eras = {
 		ancient_era
 	}

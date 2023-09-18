@@ -3,7 +3,7 @@ georgia = {
 	type = minor_nation
 	culture = georgian
 	default_religion = orthodox
-	capital_province = georgia_caucasus
+	default_capital = tbilisi
 	eras = {
 		medieval_era
 	}

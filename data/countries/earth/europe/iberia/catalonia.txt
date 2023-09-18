@@ -3,7 +3,7 @@ catalonia = {
 	type = minor_nation
 	culture = catalan
 	default_religion = catholic
-	capital_province = catalonia
+	default_capital = barcelona
 	eras = {
 		medieval_era
 		renaissance_era

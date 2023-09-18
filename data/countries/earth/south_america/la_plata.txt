@@ -3,7 +3,7 @@ la_plata = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	capital_province = buenos_aires
+	default_capital = buenos_aires
 	core_provinces = {
 		buenos_aires
 		cordoba_argentina

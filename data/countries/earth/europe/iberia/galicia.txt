@@ -3,7 +3,7 @@ galicia = {
 	type = minor_nation
 	culture = galician
 	default_religion = catholic
-	capital_province = galicia
+	default_capital = santiago_de_compostela
 	eras = {
 		medieval_era
 		renaissance_era

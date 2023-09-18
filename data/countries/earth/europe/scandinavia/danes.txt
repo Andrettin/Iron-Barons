@@ -3,7 +3,7 @@ danes = {
 	type = tribe
 	culture = norse
 	default_religion = pagan
-	capital_province = zealand
+	default_capital = copenhagen
 	#default_tier = kingdom
 	eras = {
 		medieval_era

@@ -3,7 +3,7 @@ incas = {
 	type = tribe
 	culture = inca
 	default_religion = pagan
-	capital_province = cuzco
+	default_capital = cuzco
 	eras = {
 		renaissance_era
 	}

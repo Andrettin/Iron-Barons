@@ -3,7 +3,7 @@ lower_burgundy = {
 	type = minor_nation
 	culture = french
 	default_religion = catholic
-	capital_province = provence #Arles
+	default_capital = marseilles #Arles
 	eras = {
 		medieval_era
 	}

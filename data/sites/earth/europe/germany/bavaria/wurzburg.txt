@@ -2,11 +2,13 @@ wurzburg = {
 	name = "Wurzburg" #"Würzburg"
 	world = earth
 	geocoordinate = { 9.95002803411 49.80043438630 } #from Natural Earth
+	type = settlement
+	resource = fruit
 	province = franconia
 	
 	history = {
 		919 = {
-			#important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			settlement_type = city #important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1402 = {

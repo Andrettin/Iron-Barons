@@ -1,7 +1,7 @@
 corrientes = {
 	name = "Corrientes"
 	color = { 172 63 112 }
-	capital_settlement = corrientes
+	default_provincial_capital = corrientes
 	regions = {
 		argentina
 	}

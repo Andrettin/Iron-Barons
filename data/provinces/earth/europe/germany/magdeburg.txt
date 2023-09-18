@@ -1,7 +1,7 @@
 magdeburg = {
 	name = "Magdeburg"
 	color = { 160 128 224 }
-	capital_settlement = magdeburg
+	default_provincial_capital = magdeburg
 	regions = {
 		germany
 	}

@@ -1,7 +1,7 @@
 west_kazakhstan = {
 	name = "West Kazakhstan"
 	color = { 56 6 17 }
-	capital_settlement = oral
+	default_provincial_capital = oral
 	regions = {
 		kazakhstan
 	}

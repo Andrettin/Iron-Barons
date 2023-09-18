@@ -3,7 +3,7 @@ puerto_rico = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	capital_province = puerto_rico
+	default_capital = san_juan
 	eras = {
 		industrial_era
 	}

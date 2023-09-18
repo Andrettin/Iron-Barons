@@ -4,7 +4,7 @@ greece = {
 	color = { 122 180 210 }
 	culture = greek
 	default_religion = orthodox
-	capital_province = attica
+	default_capital = athens
 	eras = {
 		ancient_era
 	}

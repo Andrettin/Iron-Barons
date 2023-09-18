@@ -3,7 +3,7 @@ aragon = {
 	type = minor_nation
 	culture = aragonese
 	default_religion = catholic
-	capital_province = aragon
+	default_capital = zaragoza
 	#default_tier = kingdom
 	eras = {
 		medieval_era

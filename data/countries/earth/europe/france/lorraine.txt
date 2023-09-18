@@ -3,7 +3,7 @@ lorraine = {
 	type = minor_nation
 	culture = french
 	default_religion = catholic
-	capital_province = lorraine
+	default_capital = nancy
 	eras = {
 		medieval_era
 		renaissance_era

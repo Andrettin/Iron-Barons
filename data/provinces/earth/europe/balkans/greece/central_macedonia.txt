@@ -1,7 +1,7 @@
 central_macedonia = {
 	name = "Central Macedonia"
 	color = { 249 252 131 }
-	capital_settlement = thessalonica
+	default_provincial_capital = thessalonica
 	regions = {
 		greece
 	}

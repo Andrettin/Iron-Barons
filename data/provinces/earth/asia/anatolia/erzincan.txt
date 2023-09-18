@@ -1,7 +1,7 @@
 erzincan = {
 	name = "Erzincan"
 	color = { 214 141 117 }
-	capital_settlement = erzincan
+	default_provincial_capital = erzincan
 	regions = {
 		anatolia
 	}

@@ -3,7 +3,7 @@ liege = {
 	type = minor_nation
 	culture = walloon
 	default_religion = catholic
-	capital_province = liege
+	default_capital = liege
 	eras = {
 		medieval_era
 		renaissance_era

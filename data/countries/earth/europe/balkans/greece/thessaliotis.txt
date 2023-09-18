@@ -3,7 +3,7 @@ thessaliotis = {
 	type = tribe
 	culture = greek
 	default_religion = pagan
-	capital_province = thessaly
+	default_capital = larissa
 	eras = {
 		ancient_era
 	}

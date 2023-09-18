@@ -1,7 +1,7 @@
 sonora = {
 	name = "Sonora"
 	color = { 106 238 44 }
-	capital_settlement = hermosillo
+	default_provincial_capital = hermosillo
 	regions = {
 		mexico
 	}

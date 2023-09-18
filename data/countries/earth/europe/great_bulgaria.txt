@@ -3,7 +3,7 @@ great_bulgaria = {
 	type = tribe
 	culture = bolghar
 	default_religion = pagan
-	capital_province = tatarstan
+	default_capital = kazan
 	eras = {
 		medieval_era
 	}

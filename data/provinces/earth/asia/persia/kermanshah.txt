@@ -1,7 +1,7 @@
 kermanshah = {
 	name = "Kermanshah"
 	color = { 240 191 102 }
-	capital_settlement = kermanshah
+	default_provincial_capital = kermanshah
 	regions = {
 		persia
 	}

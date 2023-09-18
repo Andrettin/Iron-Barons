@@ -1,7 +1,7 @@
 lima = {
 	name = "Lima"
 	color = { 99 169 92 }
-	capital_settlement = lima
+	default_provincial_capital = lima
 	regions = {
 		peru
 	}

@@ -3,7 +3,7 @@ florida = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	capital_province = florida
+	default_capital = tallahassee
 	eras = {
 		industrial_era
 	}

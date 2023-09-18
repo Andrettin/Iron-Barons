@@ -1,7 +1,7 @@
 ulster = {
 	name = "Ulster"
 	color = { 29 185 114 }
-	capital_settlement = belfast
+	default_provincial_capital = belfast
 	regions = {
 		ireland
 	}

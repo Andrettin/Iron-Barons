@@ -1,7 +1,7 @@
 courland = {
 	name = "Courland"
 	color = { 1 224 33 }
-	capital_settlement = mitau
+	default_provincial_capital = mitau
 	regions = {
 		latvia
 	}

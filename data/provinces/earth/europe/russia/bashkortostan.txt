@@ -1,7 +1,7 @@
 bashkortostan = {
 	name = "Bashkortostan"
 	color = { 181 181 28 }
-	capital_settlement = ufa
+	default_provincial_capital = ufa
 	regions = {
 		european_russia
 	}

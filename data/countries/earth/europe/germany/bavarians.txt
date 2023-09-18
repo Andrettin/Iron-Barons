@@ -3,7 +3,7 @@ bavarians = {
 	type = tribe
 	culture = suebi
 	default_religion = pagan
-	capital_province = bavaria
+	default_capital = regensburg
 	eras = {
 		medieval_era
 	}

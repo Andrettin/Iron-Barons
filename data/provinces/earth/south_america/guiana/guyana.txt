@@ -1,7 +1,7 @@
 guyana = {
 	name = "Guyana"
 	color = { 161 0 200 }
-	capital_settlement = georgetown
+	default_provincial_capital = georgetown
 	regions = {
 		south_america
 	}

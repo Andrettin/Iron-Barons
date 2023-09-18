@@ -1,7 +1,7 @@
 tashkent = {
 	name = "Tashkent"
 	color = { 188 24 213 }
-	capital_settlement = tashkent
+	default_provincial_capital = tashkent
 	regions = {
 		uzbekistan
 	}

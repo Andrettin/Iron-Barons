@@ -1,7 +1,7 @@
 debubawi_keyih_bahri = {
 	name = "Debubawi Keyih Bahri"
 	color = { 223 10 128 }
-	capital_settlement = assab
+	default_provincial_capital = assab
 	regions = {
 		africa
 	}

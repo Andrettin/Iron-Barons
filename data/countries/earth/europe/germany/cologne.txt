@@ -3,7 +3,7 @@ cologne = {
 	type = minor_nation
 	culture = german
 	default_religion = catholic
-	capital_province = rhineland
+	default_capital = cologne
 	eras = {
 		medieval_era
 		renaissance_era

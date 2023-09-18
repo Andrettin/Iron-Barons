@@ -3,7 +3,7 @@ denmark = {
 	type = minor_nation
 	culture = danish
 	default_religion = protestant
-	capital_province = zealand
+	default_capital = copenhagen
 	#default_tier = kingdom
 	eras = {
 		medieval_era

@@ -4,7 +4,7 @@ assyria = {
 	color = { 31 198 35 }
 	culture = assyrian
 	default_religion = pagan
-	capital_province = assyria
+	default_capital = nineveh
 	#default_tier = kingdom
 	eras = {
 		ancient_era

@@ -3,7 +3,7 @@ togoland = {
 	type = minor_nation
 	culture = ewe
 	default_religion = pagan
-	capital_province = togo
+	default_capital = lome
 	eras = {
 		industrial_era
 	}

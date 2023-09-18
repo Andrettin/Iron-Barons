@@ -3,7 +3,7 @@ cuba = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	capital_province = cuba
+	default_capital = havana
 	eras = {
 		industrial_era
 	}

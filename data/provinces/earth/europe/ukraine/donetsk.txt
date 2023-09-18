@@ -1,7 +1,7 @@
 donetsk = {
 	name = "Donetsk"
 	color = { 173 210 62 }
-	capital_settlement = donetsk
+	default_provincial_capital = donetsk
 	regions = {
 		ukraine
 	}

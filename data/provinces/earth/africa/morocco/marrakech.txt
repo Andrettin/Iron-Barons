@@ -1,7 +1,7 @@
 marrakech = {
 	name = "Marrakech"
 	color = { 237 89 2 }
-	capital_settlement = marrakech
+	default_provincial_capital = marrakech
 	regions = {
 		morocco
 	}

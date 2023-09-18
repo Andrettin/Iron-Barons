@@ -3,7 +3,7 @@ scotland_gaelic = {
 	type = minor_nation
 	culture = highlander
 	default_religion = catholic
-	capital_province = highlands
+	default_capital = edinburgh
 	eras = {
 		medieval_era
 	}
@@ -17,7 +17,7 @@ scotland_anglo_saxon = {
 	type = minor_nation
 	culture = scottish
 	default_religion = protestant
-	capital_province = lothian
+	default_capital = edinburgh
 	eras = {
 		renaissance_era
 	}

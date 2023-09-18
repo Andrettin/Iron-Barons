@@ -1,7 +1,7 @@
 guangxi = {
 	name = "Guangxi"
 	color = { 174 252 28 }
-	capital_settlement = nanning
+	default_provincial_capital = nanning
 	regions = {
 		asia
 	}

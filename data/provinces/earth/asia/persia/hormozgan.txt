@@ -1,7 +1,7 @@
 hormozgan = {
 	name = "Hormozgan"
 	color = { 178 13 67 }
-	capital_settlement = bandar_e_abbas
+	default_provincial_capital = bandar_e_abbas
 	regions = {
 		persia
 	}

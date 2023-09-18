@@ -1,7 +1,7 @@
 gotland = {
 	name = "Gotland"
 	color = { 33 192 224 }
-	capital_settlement = visby
+	default_provincial_capital = visby
 	regions = {
 		sweden
 	}

@@ -3,7 +3,7 @@ upper_burgundy = {
 	type = minor_nation
 	culture = french
 	default_religion = catholic
-	capital_province = geneva
+	default_capital = geneva
 	eras = {
 		medieval_era
 	}

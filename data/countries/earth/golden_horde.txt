@@ -3,7 +3,7 @@ golden_horde = {
 	type = tribe
 	culture = mongol
 	default_religion = pagan
-	capital_province = astrakhan
+	default_capital = sarai
 	eras = {
 		medieval_era
 	}

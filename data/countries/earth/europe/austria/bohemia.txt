@@ -3,7 +3,7 @@ bohemia = {
 	type = minor_nation
 	culture = czech
 	default_religion = catholic
-	capital_province = bohemia
+	default_capital = prague
 	eras = {
 		medieval_era
 		renaissance_era

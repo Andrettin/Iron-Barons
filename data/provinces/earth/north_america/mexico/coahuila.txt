@@ -1,7 +1,7 @@
 coahuila = {
 	name = "Coahuila"
 	color = { 153 57 138 }
-	capital_settlement = saltillo
+	default_provincial_capital = saltillo
 	regions = {
 		mexico
 	}

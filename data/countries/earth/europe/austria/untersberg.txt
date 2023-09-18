@@ -3,7 +3,7 @@ untersberg = {
 	type = minor_nation
 	culture = gnomish
 	default_religion = pagan
-	capital_province = salzburg
+	default_capital = salzburg
 	#default_tier = kingdom
 	eras = {
 		ancient_era

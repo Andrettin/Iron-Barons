@@ -3,7 +3,7 @@ thuringians = {
 	type = tribe
 	culture = suebi
 	default_religion = pagan
-	capital_province = thuringia
+	default_capital = erfurt
 	eras = {
 		medieval_era
 	}

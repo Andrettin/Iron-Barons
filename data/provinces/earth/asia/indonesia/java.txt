@@ -1,7 +1,7 @@
 java = {
 	name = "Java"
 	color = { 178 155 146 }
-	capital_settlement = jakarta
+	default_provincial_capital = jakarta
 	regions = {
 		asia
 		indonesia

@@ -3,7 +3,7 @@ danelaw = {
 	type = minor_nation
 	culture = norse
 	default_religion = pagan
-	capital_province = yorkshire
+	default_capital = york
 	#default_tier = kingdom
 	eras = {
 		medieval_era

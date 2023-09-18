@@ -4,7 +4,7 @@ prussia = {
 	color = { 245 167 97 }
 	culture = german
 	default_religion = protestant
-	capital_province = brandenburg
+	default_capital = berlin
 	eras = {
 		renaissance_era
 		industrial_era

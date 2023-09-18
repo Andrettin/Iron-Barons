@@ -3,7 +3,7 @@ arabs = {
 	type = tribe
 	culture = arabic
 	default_religion = pagan
-	capital_province = arabia
+	default_capital = mecca
 	eras = {
 		ancient_era
 	}

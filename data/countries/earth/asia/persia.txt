@@ -3,7 +3,7 @@ persia = {
 	type = minor_nation
 	culture = persian
 	default_religion = shiite
-	capital_province = persia
+	default_capital = teheran
 	eras = {
 		industrial_era
 	}

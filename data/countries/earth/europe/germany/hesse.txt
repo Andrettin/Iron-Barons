@@ -3,7 +3,7 @@ hesse = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = hesse
+	default_capital = cassel
 	eras = {
 		medieval_era
 		renaissance_era

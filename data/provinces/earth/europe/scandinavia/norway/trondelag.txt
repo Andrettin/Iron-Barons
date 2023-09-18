@@ -1,7 +1,7 @@
 trondelag = {
 	name = "Trondelag" #"Trøndelag"
 	color = { 192 64 192 }
-	capital_settlement = trondheim
+	default_provincial_capital = trondheim
 	regions = {
 		norway
 	}

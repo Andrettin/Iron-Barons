@@ -1,7 +1,7 @@
 corum = {
 	name = "Corum" #"Çorum"
 	color = { 37 188 33 }
-	capital_settlement = corum
+	default_provincial_capital = corum
 	regions = {
 		anatolia
 	}

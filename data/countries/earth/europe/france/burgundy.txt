@@ -3,7 +3,7 @@ burgundy = {
 	type = minor_nation
 	culture = french
 	default_religion = catholic
-	capital_province = burgundy
+	default_capital = dijon
 	eras = {
 		medieval_era
 		renaissance_era

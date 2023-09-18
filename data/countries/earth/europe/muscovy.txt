@@ -4,7 +4,7 @@ muscovy = {
 	color = { 111 177 210 }
 	culture = russian
 	default_religion = orthodox
-	capital_province = moscow
+	default_capital = moscow
 	eras = {
 		renaissance_era
 	}

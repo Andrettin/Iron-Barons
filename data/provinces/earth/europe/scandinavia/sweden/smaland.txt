@@ -1,7 +1,7 @@
 smaland = {
 	name = "Smaland"
 	color = { 64 64 223 }
-	capital_settlement = kalmar
+	default_provincial_capital = kalmar
 	regions = {
 		sweden
 	}

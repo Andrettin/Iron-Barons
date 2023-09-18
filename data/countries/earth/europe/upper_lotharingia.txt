@@ -3,7 +3,7 @@ upper_lotharingia = {
 	type = minor_nation
 	culture = frankish
 	default_religion = catholic
-	capital_province = lorraine
+	default_capital = nancy
 	eras = {
 		medieval_era
 	}

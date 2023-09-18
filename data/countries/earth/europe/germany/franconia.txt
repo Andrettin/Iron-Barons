@@ -3,7 +3,7 @@ franconia = {
 	type = minor_nation
 	culture = german
 	default_religion = catholic
-	capital_province = hesse
+	default_capital = frankfurt
 	#default_tier = duchy
 	eras = {
 		medieval_era

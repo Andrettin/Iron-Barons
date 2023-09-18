@@ -1,7 +1,7 @@
 mississippi = {
 	name = "Mississippi"
 	color = { 0 240 128 }
-	capital_settlement = jackson
+	default_provincial_capital = jackson
 	regions = {
 		mississippi_basin
 		united_states

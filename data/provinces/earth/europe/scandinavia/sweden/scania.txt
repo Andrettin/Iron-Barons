@@ -1,7 +1,7 @@
 scania = {
 	name = "Scania"
 	color = { 192 65 97 }
-	capital_settlement = malmo
+	default_provincial_capital = malmo
 	regions = {
 		sweden
 	}

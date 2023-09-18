@@ -3,7 +3,7 @@ albania = {
 	type = minor_nation
 	culture = albanian
 	default_religion = orthodox
-	capital_province = albania
+	default_capital = tirana
 	eras = {
 		medieval_era
 		industrial_era

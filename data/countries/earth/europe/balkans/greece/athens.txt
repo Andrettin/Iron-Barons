@@ -4,7 +4,7 @@ athens = {
 	color = { 19 139 244 }
 	culture = greek
 	default_religion = pagan
-	capital_province = attica
+	default_capital = athens
 	eras = {
 		ancient_era
 	}
@@ -18,7 +18,7 @@ athenes = { #the French Duchy of Athens
 	type = minor_nation
 	culture = french
 	default_religion = catholic
-	capital_province = attica
+	default_capital = athens
 	eras = {
 		medieval_era
 	}
@@ -32,7 +32,7 @@ atenes = { #the Catalan Duchy of Athens
 	type = minor_nation
 	culture = catalan
 	default_religion = catholic
-	capital_province = attica
+	default_capital = athens
 	eras = {
 		medieval_era
 	}

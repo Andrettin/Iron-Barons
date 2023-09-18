@@ -3,7 +3,7 @@ tuscany = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	capital_province = tuscany
+	default_capital = florence
 	eras = {
 		medieval_era
 		industrial_era

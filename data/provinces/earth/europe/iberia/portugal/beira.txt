@@ -1,7 +1,7 @@
 beira = {
 	name = "Beira"
 	color = { 76 222 162 }
-	capital_settlement = coimbra
+	default_provincial_capital = coimbra
 	regions = {
 		portugal
 	}

@@ -1,7 +1,7 @@
 tyrol = {
 	name = "Tyrol"
 	color = { 81 192 224 }
-	capital_settlement = innsbruck
+	default_provincial_capital = innsbruck
 	regions = {
 		austria
 	}

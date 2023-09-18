@@ -3,7 +3,7 @@ middlesex = {
 	type = minor_nation
 	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = middlesex
+	default_capital = london
 	#default_tier = county
 	eras = {
 		medieval_era

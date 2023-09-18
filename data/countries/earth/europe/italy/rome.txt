@@ -4,7 +4,7 @@ rome = {
 	color = { 139 16 13 }
 	culture = roman
 	default_religion = pagan
-	capital_province = latium
+	default_capital = rome
 	eras = {
 		ancient_era
 	}

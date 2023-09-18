@@ -3,7 +3,7 @@ ottoman_turks = {
 	type = tribe
 	culture = turkish
 	default_religion = sunni
-	capital_province = bursa
+	default_capital = bursa
 	eras = {
 		medieval_era
 	}

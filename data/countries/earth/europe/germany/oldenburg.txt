@@ -3,7 +3,7 @@ oldenburg = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = oldenburg
+	default_capital = oldenburg
 	eras = {
 		medieval_era
 		renaissance_era

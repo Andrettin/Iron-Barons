@@ -3,7 +3,7 @@ brabant = {
 	type = minor_nation
 	culture = flemish
 	default_religion = catholic
-	capital_province = brabant
+	default_capital = brussels
 	eras = {
 		medieval_era
 	}

@@ -1,7 +1,7 @@
 south_sudan = {
 	name = "South Sudan"
 	color = { 87 9 43 }
-	capital_settlement = juba
+	default_provincial_capital = juba
 	regions = {
 		africa
 	}

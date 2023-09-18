@@ -1,7 +1,7 @@
 gash_barka = {
 	name = "Gash-Barka"
 	color = { 81 255 115 }
-	capital_settlement = asmara
+	default_provincial_capital = asmara
 	regions = {
 		africa
 	}

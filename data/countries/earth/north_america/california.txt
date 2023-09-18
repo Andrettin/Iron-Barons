@@ -3,7 +3,7 @@ california = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	capital_province = california
+	default_capital = sacramento
 	eras = {
 		industrial_era
 	}

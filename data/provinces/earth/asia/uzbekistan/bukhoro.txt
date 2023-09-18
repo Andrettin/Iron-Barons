@@ -1,7 +1,7 @@
 bukhoro = {
 	name = "Bukhoro"
 	color = { 180 203 183 }
-	capital_settlement = bukhara
+	default_provincial_capital = bukhara
 	regions = {
 		uzbekistan
 	}

@@ -1,7 +1,7 @@
 munster = {
 	name = "Munster"
 	color = { 242 217 247 }
-	capital_settlement = cork
+	default_provincial_capital = cork
 	regions = {
 		ireland
 	}

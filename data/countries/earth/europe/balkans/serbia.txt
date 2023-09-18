@@ -3,7 +3,7 @@ serbia = {
 	type = minor_nation
 	culture = serbian
 	default_religion = orthodox
-	capital_province = serbia
+	default_capital = belgrade
 	eras = {
 		medieval_era
 		industrial_era

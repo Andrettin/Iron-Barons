@@ -3,7 +3,7 @@ mercia = {
 	type = minor_nation
 	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = warwickshire
+	default_capital = coventry #Tamworth
 	#default_tier = kingdom
 	eras = {
 		medieval_era

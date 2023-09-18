@@ -1,7 +1,7 @@
 lipetsk = {
 	name = "Lipetsk"
 	color = { 128 96 20 }
-	capital_settlement = lipetsk
+	default_provincial_capital = lipetsk
 	regions = {
 		european_russia
 	}

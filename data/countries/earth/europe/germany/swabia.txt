@@ -3,7 +3,7 @@ swabia = {
 	type = minor_nation
 	culture = german
 	default_religion = catholic
-	capital_province = wurtemberg
+	default_capital = stuttgart
 	#default_tier = duchy
 	eras = {
 		medieval_era

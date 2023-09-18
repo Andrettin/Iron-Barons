@@ -1,7 +1,7 @@
 lorestan = {
 	name = "Lorestan"
 	color = { 213 66 191 }
-	capital_settlement = khorramabad
+	default_provincial_capital = khorramabad
 	regions = {
 		persia
 	}

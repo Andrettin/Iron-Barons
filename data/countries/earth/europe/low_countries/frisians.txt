@@ -3,7 +3,7 @@ frisians = {
 	type = tribe
 	culture = frisian
 	default_religion = pagan
-	capital_province = friesland
+	default_capital = leeuwarden
 	eras = {
 		medieval_era
 	}

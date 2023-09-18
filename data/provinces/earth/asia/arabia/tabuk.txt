@@ -1,7 +1,7 @@
 tabuk = {
 	name = "Tabuk"
 	color = { 238 169 174 }
-	capital_settlement = tabuk
+	default_provincial_capital = tabuk
 	regions = {
 		asia
 		middle_east

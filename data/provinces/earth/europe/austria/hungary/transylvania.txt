@@ -1,7 +1,7 @@
 transylvania = {
 	name = "Transylvania"
 	color = { 108 208 7 }
-	capital_settlement = klausenburg
+	default_provincial_capital = klausenburg
 	regions = {
 		romania
 	}

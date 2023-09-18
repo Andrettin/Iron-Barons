@@ -3,7 +3,7 @@ arawaks = {
 	type = tribe
 	culture = arawak
 	default_religion = pagan
-	capital_province = santo_domingo
+	default_capital = santo_domingo
 	eras = {
 		renaissance_era
 	}

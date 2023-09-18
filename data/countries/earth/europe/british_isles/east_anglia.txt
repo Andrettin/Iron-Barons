@@ -3,7 +3,7 @@ east_anglia = {
 	type = minor_nation
 	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = east_anglia
+	default_capital = norwich
 	#default_tier = kingdom
 	eras = {
 		medieval_era

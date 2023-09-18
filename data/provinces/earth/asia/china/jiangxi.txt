@@ -1,7 +1,7 @@
 jiangxi = {
 	name = "Jiangxi"
 	color = { 92 52 181 }
-	capital_settlement = nanchang
+	default_provincial_capital = nanchang
 	regions = {
 		asia
 	}

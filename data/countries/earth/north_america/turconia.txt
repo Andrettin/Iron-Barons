@@ -3,7 +3,7 @@ turconia = {
 	type = minor_nation
 	culture = turkish
 	default_religion = sunni
-	capital_province = florida
+	default_capital = tallahassee
 	
 	history = {
 		my_country_tis_of_thee = {

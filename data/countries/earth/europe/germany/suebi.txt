@@ -3,7 +3,7 @@ suebi = {
 	type = tribe
 	culture = suebi
 	default_religion = pagan
-	capital_province = brandenburg
+	default_capital = berlin
 	eras = {
 		ancient_era
 		medieval_era

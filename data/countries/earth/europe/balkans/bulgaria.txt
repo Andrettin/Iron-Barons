@@ -3,7 +3,7 @@ bulgaria = {
 	type = minor_nation
 	culture = bulgarian
 	default_religion = orthodox
-	capital_province = bulgaria
+	default_capital = sofia
 	eras = {
 		medieval_era
 		industrial_era

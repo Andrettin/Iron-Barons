@@ -3,7 +3,7 @@ laurinland = {
 	type = minor_nation
 	culture = dwarven
 	default_religion = pagan
-	capital_province = tyrol
+	default_capital = innsbruck
 	#default_tier = kingdom
 	eras = {
 		ancient_era

@@ -3,7 +3,7 @@ two_sicilies = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	capital_province = naples
+	default_capital = naples
 	#default_tier = kingdom
 	eras = {
 		industrial_era

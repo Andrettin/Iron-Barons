@@ -1,7 +1,7 @@
 cornwall = {
 	name = "Cornwall"
 	color = { 166 203 93 }
-	capital_settlement = truro
+	default_provincial_capital = truro
 	regions = {
 		england
 	}

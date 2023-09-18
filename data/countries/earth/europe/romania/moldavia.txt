@@ -3,7 +3,7 @@ moldavia = {
 	type = minor_nation
 	culture = romanian
 	default_religion = orthodox
-	capital_province = moldavia
+	default_capital = iasi
 	eras = {
 		medieval_era
 		renaissance_era

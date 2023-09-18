@@ -3,7 +3,7 @@ east_friesland = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = east_friesland
+	default_capital = emden
 	eras = {
 		renaissance_era
 	}

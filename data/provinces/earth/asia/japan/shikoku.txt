@@ -1,7 +1,7 @@
 shikoku = {
 	name = "Shikoku"
 	color = { 219 104 24 }
-	capital_settlement = matsuyama
+	default_provincial_capital = matsuyama
 	regions = {
 		japan
 	}

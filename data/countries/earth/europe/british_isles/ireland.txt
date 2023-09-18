@@ -3,7 +3,7 @@ ireland = {
 	type = minor_nation
 	culture = irish
 	default_religion = catholic
-	capital_province = leinster
+	default_capital = dublin
 	#default_tier = kingdom
 	eras = {
 		medieval_era

@@ -4,7 +4,7 @@ visigothia = {
 	color = { 116 135 65 }
 	culture = gothic
 	default_religion = catholic #Arianism
-	capital_province = castille
+	default_capital = toledo
 	#default_tier = kingdom
 	eras = {
 		medieval_era

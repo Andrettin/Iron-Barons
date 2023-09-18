@@ -1,7 +1,7 @@
 attica = {
 	name = "Attica"
 	color = { 241 47 230 }
-	capital_settlement = athens
+	default_provincial_capital = athens
 	regions = {
 		greece
 	}

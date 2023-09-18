@@ -1,7 +1,7 @@
 lombardy = {
 	name = "Lombardy"
 	color = { 208 64 96 }
-	capital_settlement = milan
+	default_provincial_capital = milan
 	regions = {
 		italy
 	}

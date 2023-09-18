@@ -3,7 +3,7 @@ incense_coast = {
 	type = minor_nation
 	culture = arabic
 	default_religion = pagan
-	capital_province = mecca
+	default_capital = mecca
 	eras = {
 		ancient_era
 	}

@@ -3,7 +3,7 @@ apache = {
 	type = tribe
 	culture = apache
 	default_religion = pagan
-	capital_province = new_mexico
+	default_capital = albuquerque
 	eras = {
 		renaissance_era
 	}

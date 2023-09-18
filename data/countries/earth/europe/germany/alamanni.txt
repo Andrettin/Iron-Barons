@@ -3,7 +3,7 @@ alamanni = {
 	type = tribe
 	culture = suebi
 	default_religion = pagan
-	capital_province = baden
+	default_capital = karlsruhe
 	eras = {
 		medieval_era
 	}

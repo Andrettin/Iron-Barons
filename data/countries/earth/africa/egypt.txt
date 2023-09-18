@@ -4,7 +4,7 @@ egypt = {
 	color = { 143 141 128 }
 	culture = egyptian
 	default_religion = pagan
-	capital_province = cairo
+	default_capital = cairo
 	#default_tier = kingdom
 	eras = {
 		ancient_era
@@ -23,7 +23,7 @@ egypt_arabic = {
 	type = minor_nation
 	culture = arabic
 	default_religion = sunni
-	capital_province = cairo
+	default_capital = cairo
 	#default_tier = kingdom
 	eras = {
 		medieval_era

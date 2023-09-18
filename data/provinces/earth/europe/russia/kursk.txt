@@ -1,7 +1,7 @@
 kursk = {
 	name = "Kursk"
 	color = { 61 10 107 }
-	capital_settlement = kursk
+	default_provincial_capital = kursk
 	regions = {
 		european_russia
 	}

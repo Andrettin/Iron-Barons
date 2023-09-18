@@ -1,7 +1,7 @@
 cajamarca = {
 	name = "Cajamarca"
 	color = { 211 156 202 }
-	capital_settlement = cajamarca
+	default_provincial_capital = cajamarca
 	regions = {
 		peru
 	}

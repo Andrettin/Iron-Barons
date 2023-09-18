@@ -3,7 +3,7 @@ seljuk_turks = {
 	type = tribe
 	culture = turkish
 	default_religion = sunni
-	capital_province = karaman
+	default_capital = konya
 	eras = {
 		medieval_era
 	}

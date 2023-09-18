@@ -3,7 +3,7 @@ navarre = {
 	type = minor_nation
 	culture = basque
 	default_religion = catholic
-	capital_province = navarre
+	default_capital = pamplona
 	eras = {
 		medieval_era
 		renaissance_era

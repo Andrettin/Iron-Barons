@@ -3,7 +3,7 @@ gold_coast = {
 	type = minor_nation
 	culture = akan
 	default_religion = pagan
-	capital_province = accra
+	default_capital = accra
 	eras = {
 		renaissance_era
 		industrial_era

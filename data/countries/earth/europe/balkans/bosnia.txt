@@ -3,7 +3,7 @@ bosnia = {
 	type = minor_nation
 	culture = bosnian
 	default_religion = orthodox
-	capital_province = bosnia
+	default_capital = sarajevo
 	eras = {
 		medieval_era
 		industrial_era

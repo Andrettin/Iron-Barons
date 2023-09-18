@@ -3,7 +3,7 @@ mycenae = {
 	type = minor_nation
 	culture = greek
 	default_religion = pagan
-	capital_province = peloponnese
+	default_capital = sparta
 	eras = {
 		ancient_era
 	}

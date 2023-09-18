@@ -3,7 +3,7 @@ friesland = {
 	type = minor_nation
 	culture = dutch
 	default_religion = protestant
-	capital_province = friesland
+	default_capital = leeuwarden
 	eras = {
 		medieval_era
 		renaissance_era

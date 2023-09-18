@@ -3,7 +3,7 @@ vestindielandt = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = cuba
+	default_capital = havana
 	core_provinces = {
 		cuba
 		haiti

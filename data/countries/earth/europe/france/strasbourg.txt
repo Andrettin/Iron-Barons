@@ -3,7 +3,7 @@ strasbourg = {
 	type = minor_nation
 	culture = alsatian
 	default_religion = catholic
-	capital_province = alsace
+	default_capital = strasbourg
 	eras = {
 		medieval_era
 		renaissance_era

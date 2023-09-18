@@ -1,7 +1,7 @@
 bahr_el_ghazal = {
 	name = "Bahr el Ghazal"
 	color = { 239 227 211 }
-	capital_settlement = wau
+	default_provincial_capital = wau
 	regions = {
 		africa
 	}

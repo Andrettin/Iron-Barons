@@ -3,7 +3,7 @@ israel = {
 	type = minor_nation
 	culture = hebrew
 	default_religion = jewish
-	capital_province = palestine
+	default_capital = jerusalem
 	eras = {
 		ancient_era
 	}

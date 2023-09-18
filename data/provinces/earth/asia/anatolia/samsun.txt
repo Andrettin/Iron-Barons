@@ -1,7 +1,7 @@
 samsun = {
 	name = "Samsun"
 	color = { 51 71 33 }
-	capital_settlement = samsun
+	default_provincial_capital = samsun
 	regions = {
 		anatolia
 	}

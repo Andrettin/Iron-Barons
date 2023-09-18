@@ -1,7 +1,7 @@
 kashkadarya = {
 	name = "Kashkadarya"
 	color = { 31 108 88 }
-	capital_settlement = qarshi
+	default_provincial_capital = qarshi
 	regions = {
 		uzbekistan
 	}

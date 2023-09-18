@@ -1,7 +1,7 @@
 fezzan = {
 	name = "Fezzan"
 	color = { 150 253 100 }
-	capital_settlement = sabha
+	default_provincial_capital = sabha
 	regions = {
 		libya
 	}

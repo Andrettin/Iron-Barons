@@ -3,7 +3,7 @@ kwakiutl = {
 	type = tribe
 	culture = kwakiutl
 	default_religion = pagan
-	capital_province = british_columbia
+	default_capital = victoria
 	eras = {
 		renaissance_era
 	}

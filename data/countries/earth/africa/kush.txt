@@ -3,7 +3,7 @@ kush = {
 	type = minor_nation
 	culture = meroitic
 	default_religion = pagan
-	capital_province = nubia
+	default_capital = napata
 	eras = {
 		ancient_era
 	}

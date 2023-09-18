@@ -3,7 +3,7 @@ judah = {
 	type = minor_nation
 	culture = hebrew
 	default_religion = jewish
-	capital_province = hadarom
+	default_capital = jerusalem
 	eras = {
 		ancient_era
 	}

@@ -3,7 +3,7 @@ parma = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	capital_province = parma
+	default_capital = parma
 	eras = {
 		industrial_era
 	}

@@ -3,7 +3,7 @@ cherokee = {
 	type = tribe
 	culture = cherokee
 	default_religion = pagan
-	capital_province = west_virginia
+	default_capital = charleston
 	eras = {
 		renaissance_era
 	}

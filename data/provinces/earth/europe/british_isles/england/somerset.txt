@@ -1,7 +1,7 @@
 somerset = {
 	name = "Somerset"
 	color = { 222 47 96 }
-	capital_settlement = wells
+	default_provincial_capital = wells
 	regions = {
 		england
 	}

@@ -1,7 +1,7 @@
 arabia = {
 	name = "Arabia"
 	color = { 143 165 83 }
-	capital_settlement = riyadh
+	default_provincial_capital = riyadh
 	regions = {
 		asia
 		middle_east

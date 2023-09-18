@@ -1,7 +1,7 @@
 montana = {
 	name = "Montana"
 	color = { 203 124 24 }
-	capital_settlement = helena
+	default_provincial_capital = helena
 	regions = {
 		united_states
 	}

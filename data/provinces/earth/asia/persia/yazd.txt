@@ -1,7 +1,7 @@
 yazd = {
 	name = "Yazd"
 	color = { 169 200 97 }
-	capital_settlement = yazd
+	default_provincial_capital = yazd
 	regions = {
 		persia
 	}

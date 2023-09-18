@@ -3,7 +3,7 @@ northumbria = {
 	type = minor_nation
 	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = yorkshire
+	default_capital = york
 	#default_tier = kingdom
 	eras = {
 		medieval_era

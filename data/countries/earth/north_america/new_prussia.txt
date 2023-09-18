@@ -3,7 +3,7 @@ new_prussia = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = maryland
+	default_capital = baltimore
 	
 	history = {
 		my_country_tis_of_thee = {

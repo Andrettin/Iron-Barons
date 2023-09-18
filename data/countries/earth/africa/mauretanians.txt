@@ -3,7 +3,7 @@ mauretanians = {
 	type = tribe
 	culture = maurian
 	default_religion = pagan
-	capital_province = biskra
+	default_capital = biskra
 	eras = {
 		medieval_era
 	}

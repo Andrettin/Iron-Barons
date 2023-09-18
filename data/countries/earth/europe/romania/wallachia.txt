@@ -3,7 +3,7 @@ wallachia = {
 	type = minor_nation
 	culture = romanian
 	default_religion = orthodox
-	capital_province = wallachia
+	default_capital = bucharest
 	eras = {
 		medieval_era
 		renaissance_era

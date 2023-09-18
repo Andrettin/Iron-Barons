@@ -3,7 +3,7 @@ elam = {
 	type = minor_nation
 	culture = elamite
 	default_religion = pagan
-	capital_province = khuzestan
+	default_capital = susa
 	eras = {
 		ancient_era
 	}

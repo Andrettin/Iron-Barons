@@ -3,7 +3,7 @@ saxe_wittenberg = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = upper_saxony
+	default_capital = dresden
 	eras = {
 		medieval_era
 		renaissance_era

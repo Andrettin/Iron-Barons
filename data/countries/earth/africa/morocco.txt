@@ -3,7 +3,7 @@ morocco = {
 	type = minor_nation
 	culture = arabic
 	default_religion = sunni
-	capital_province = rabat
+	default_capital = rabat
 	eras = {
 		medieval_era
 		renaissance_era

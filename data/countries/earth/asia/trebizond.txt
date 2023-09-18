@@ -3,7 +3,7 @@ trebizond = {
 	type = minor_nation
 	culture = greek
 	default_religion = orthodox
-	capital_province = trebizond
+	default_capital = trebizond
 	#default_tier = empire
 	eras = {
 		medieval_era

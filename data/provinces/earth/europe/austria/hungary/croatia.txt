@@ -1,7 +1,7 @@
 croatia = {
 	name = "Croatia"
 	color = { 244 17 246 }
-	capital_settlement = zagreb
+	default_provincial_capital = zagreb
 	regions = {
 		croatia
 	}

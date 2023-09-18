@@ -1,7 +1,7 @@
 taiwan = {
 	name = "Taiwan"
 	color = { 225 193 35 }
-	capital_settlement = taipei
+	default_provincial_capital = taipei
 	regions = {
 		asia
 	}

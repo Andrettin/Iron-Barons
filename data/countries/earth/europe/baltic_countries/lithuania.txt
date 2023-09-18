@@ -3,7 +3,7 @@ lithuania = {
 	type = minor_nation
 	culture = lithuanian
 	default_religion = catholic
-	capital_province = lithuania
+	default_capital = vilnius
 	eras = {
 		medieval_era
 	}

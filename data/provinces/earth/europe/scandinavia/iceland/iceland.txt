@@ -1,7 +1,7 @@
 iceland = {
 	name = "Iceland"
 	color = { 128 64 64 }
-	capital_settlement = reykjavik
+	default_provincial_capital = reykjavik
 	regions = {
 		iceland
 	}

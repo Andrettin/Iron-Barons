@@ -1,7 +1,7 @@
 hainan = {
 	name = "Hainan"
 	color = { 210 89 72 }
-	capital_settlement = haikou
+	default_provincial_capital = haikou
 	regions = {
 		asia
 	}

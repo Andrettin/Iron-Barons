@@ -3,7 +3,7 @@ philippines = {
 	type = minor_nation
 	culture = filipino
 	default_religion = catholic
-	capital_province = luzon
+	default_capital = manila
 	eras = {
 		industrial_era
 	}

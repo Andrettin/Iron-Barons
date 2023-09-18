@@ -1,7 +1,7 @@
 kesmark = {
 	name = "Kesmark"
 	color = { 45 81 158 }
-	capital_settlement = kesmark
+	default_provincial_capital = kesmark
 	regions = {
 		slovakia
 	}

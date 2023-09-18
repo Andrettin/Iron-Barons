@@ -3,7 +3,7 @@ baden = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = baden
+	default_capital = karlsruhe
 	eras = {
 		renaissance_era
 		industrial_era

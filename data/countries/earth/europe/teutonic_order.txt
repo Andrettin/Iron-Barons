@@ -3,7 +3,7 @@ teutonic_order = {
 	type = minor_nation
 	culture = german
 	default_religion = catholic
-	capital_province = east_prussia
+	default_capital = konigsberg
 	eras = {
 		medieval_era
 		renaissance_era

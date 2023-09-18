@@ -3,7 +3,7 @@ modena = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	capital_province = modena
+	default_capital = modena
 	eras = {
 		renaissance_era
 		industrial_era

@@ -3,7 +3,7 @@ mayas = {
 	type = tribe
 	culture = maya
 	default_religion = pagan
-	capital_province = yucatan
+	default_capital = merida_yucatan
 	eras = {
 		renaissance_era
 	}

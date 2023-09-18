@@ -1,7 +1,7 @@
 bremen = {
 	name = "Bremen"
 	color = { 47 146 12 }
-	capital_settlement = bremen
+	default_provincial_capital = bremen
 	regions = {
 		germany
 	}

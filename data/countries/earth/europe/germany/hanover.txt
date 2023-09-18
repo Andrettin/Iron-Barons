@@ -3,7 +3,7 @@ hanover = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = hanover
+	default_capital = hanover
 	eras = {
 		renaissance_era
 		industrial_era

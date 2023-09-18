@@ -3,7 +3,7 @@ wurzburg = {
 	type = minor_nation
 	culture = german
 	default_religion = catholic
-	capital_province = franconia
+	default_capital = wurzburg
 	eras = {
 		medieval_era
 		renaissance_era

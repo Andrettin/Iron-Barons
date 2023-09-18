@@ -3,7 +3,7 @@ japonica = {
 	type = minor_nation
 	culture = japanese
 	default_religion = shinto
-	capital_province = california
+	default_capital = sacramento
 	
 	history = {
 		my_country_tis_of_thee = {

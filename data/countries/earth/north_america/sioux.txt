@@ -3,7 +3,7 @@ sioux = {
 	type = tribe
 	culture = sioux
 	default_religion = pagan
-	capital_province = north_dakota
+	default_capital = bismarck
 	eras = {
 		renaissance_era
 	}

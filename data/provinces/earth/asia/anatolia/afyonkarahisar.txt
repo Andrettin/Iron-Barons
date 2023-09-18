@@ -1,7 +1,7 @@
 afyonkarahisar = {
 	name = "Afyonkarahisar"
 	color = { 194 213 70 }
-	capital_settlement = afyon
+	default_provincial_capital = afyon
 	regions = {
 		anatolia
 	}

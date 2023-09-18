@@ -1,7 +1,7 @@
 tindouf = {
 	name = "Tindouf"
 	color = { 106 244 126 }
-	capital_settlement = tindouf
+	default_provincial_capital = tindouf
 	regions = {
 		algeria
 	}

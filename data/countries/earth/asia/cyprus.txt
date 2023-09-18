@@ -3,7 +3,7 @@ cyprus = {
 	type = minor_nation
 	culture = greek
 	default_religion = catholic
-	capital_province = cyprus
+	default_capital = nicosia
 	#default_tier = kingdom
 	eras = {
 		medieval_era

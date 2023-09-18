@@ -3,7 +3,7 @@ aztecs = {
 	type = tribe
 	culture = aztec
 	default_religion = pagan
-	capital_province = mexico
+	default_capital = mexico_city
 	eras = {
 		renaissance_era
 	}

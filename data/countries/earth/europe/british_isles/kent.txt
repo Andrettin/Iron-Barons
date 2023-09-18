@@ -3,7 +3,7 @@ kent = {
 	type = minor_nation
 	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = kent
+	default_capital = canterbury
 	#default_tier = kingdom
 	eras = {
 		medieval_era

@@ -4,7 +4,7 @@ netherlands = {
 	color = { 255 90 8 }
 	culture = dutch
 	default_religion = protestant
-	capital_province = holland
+	default_capital = amsterdam
 	eras = {
 		renaissance_era
 		industrial_era

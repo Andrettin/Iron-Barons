@@ -1,7 +1,7 @@
 tiaret = {
 	name = "Tiaret"
 	color = { 40 163 89 }
-	capital_settlement = tiaret
+	default_provincial_capital = tiaret
 	regions = {
 		algeria
 	}

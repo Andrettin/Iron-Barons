@@ -1,7 +1,7 @@
 tarija = {
 	name = "Tarija"
 	color = { 133 62 4 }
-	capital_settlement = tarija
+	default_provincial_capital = tarija
 	regions = {
 		bolivia
 	}

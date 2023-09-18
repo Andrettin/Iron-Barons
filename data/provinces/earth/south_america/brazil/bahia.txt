@@ -1,7 +1,7 @@
 bahia = {
 	name = "Bahia"
 	color = { 1 160 176 }
-	capital_settlement = salvador
+	default_provincial_capital = salvador
 	regions = {
 		brazil
 	}

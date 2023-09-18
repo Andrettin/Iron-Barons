@@ -3,7 +3,7 @@ gepids = {
 	type = tribe
 	culture = gothic
 	default_religion = pagan
-	capital_province = transylvania
+	default_capital = klausenburg
 	eras = {
 		medieval_era
 	}

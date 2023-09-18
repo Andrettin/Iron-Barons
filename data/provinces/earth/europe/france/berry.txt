@@ -1,7 +1,7 @@
 berry = {
 	name = "Berry"
 	color = { 144 224 0 }
-	capital_settlement = bourges
+	default_provincial_capital = bourges
 	regions = {
 		france
 	}

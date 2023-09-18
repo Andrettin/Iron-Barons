@@ -3,7 +3,7 @@ thuringia = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	capital_province = thuringia
+	default_capital = erfurt
 	eras = {
 		medieval_era
 	}

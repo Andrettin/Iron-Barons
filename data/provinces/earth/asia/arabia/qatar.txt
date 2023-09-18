@@ -1,7 +1,7 @@
 qatar = {
 	name = "Qatar"
 	color = { 92 12 156 }
-	capital_settlement = doha
+	default_provincial_capital = doha
 	regions = {
 		asia
 		middle_east

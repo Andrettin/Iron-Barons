@@ -4,7 +4,7 @@ sparta = {
 	color = { 150 70 78 }
 	culture = greek
 	default_religion = pagan
-	capital_province = peloponnese
+	default_capital = sparta
 	eras = {
 		ancient_era
 	}

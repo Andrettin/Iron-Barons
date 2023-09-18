@@ -3,7 +3,7 @@ utrecht = {
 	type = minor_nation
 	culture = dutch
 	default_religion = protestant
-	capital_province = utrecht
+	default_capital = utrecht
 	eras = {
 		renaissance_era
 	}

@@ -3,7 +3,7 @@ genoa = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	capital_province = genoa
+	default_capital = genoa
 	eras = {
 		medieval_era
 		renaissance_era

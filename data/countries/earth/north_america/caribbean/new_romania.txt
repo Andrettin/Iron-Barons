@@ -3,7 +3,7 @@ new_romania = {
 	type = minor_nation
 	culture = romanian
 	default_religion = orthodox
-	capital_province = jamaica
+	default_capital = kingston
 	core_provinces = {
 		jamaica
 	}

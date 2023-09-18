@@ -1,7 +1,7 @@
 karasi = {
 	name = "Karasi"
 	color = { 181 10 134 }
-	capital_settlement = balikesir
+	default_provincial_capital = balikesir
 	regions = {
 		anatolia
 	}

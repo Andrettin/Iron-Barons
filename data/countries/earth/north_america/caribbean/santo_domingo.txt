@@ -3,7 +3,7 @@ santo_domingo = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	capital_province = santo_domingo
+	default_capital = santo_domingo
 	eras = {
 		industrial_era
 	}

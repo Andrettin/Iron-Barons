@@ -3,7 +3,7 @@ estonians = {
 	type = tribe
 	culture = estonian
 	default_religion = pagan
-	capital_province = lithuania
+	default_capital = reval
 	eras = {
 		medieval_era
 	}

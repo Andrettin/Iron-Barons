@@ -3,7 +3,7 @@ slavs = {
 	type = tribe
 	culture = slavic
 	default_religion = pagan
-	capital_province = warsaw
+	default_capital = warsaw
 	eras = {
 		medieval_era
 	}

@@ -3,7 +3,7 @@ palatinate = {
 	type = minor_nation
 	culture = german
 	default_religion = catholic
-	capital_province = palatinate
+	default_capital = kaiserslautern
 	eras = {
 		medieval_era
 		renaissance_era

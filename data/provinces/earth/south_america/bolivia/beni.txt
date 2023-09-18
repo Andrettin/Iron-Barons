@@ -1,7 +1,7 @@
 beni = {
 	name = "Beni"
 	color = { 67 247 41 }
-	capital_settlement = trinidad
+	default_provincial_capital = trinidad
 	regions = {
 		bolivia
 	}

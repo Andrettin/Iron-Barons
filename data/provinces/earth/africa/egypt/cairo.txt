@@ -1,7 +1,7 @@
 cairo = {
 	name = "Cairo"
 	color = { 66 184 92 }
-	capital_settlement = cairo
+	default_provincial_capital = cairo
 	cultural_names = {
 		egyptian = "Memphis"
 	}

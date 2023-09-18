@@ -1,7 +1,7 @@
 ferghana = {
 	name = "Ferghana"
 	color = { 6 173 27 }
-	capital_settlement = fergana
+	default_provincial_capital = fergana
 	regions = {
 		uzbekistan
 	}

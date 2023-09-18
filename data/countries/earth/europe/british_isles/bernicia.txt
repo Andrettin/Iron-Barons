@@ -3,7 +3,7 @@ bernicia = {
 	type = minor_nation
 	culture = anglo_saxon
 	default_religion = catholic
-	capital_province = northumberland
+	default_capital = newcastle #Bamburgh
 	#default_tier = kingdom
 	eras = {
 		medieval_era

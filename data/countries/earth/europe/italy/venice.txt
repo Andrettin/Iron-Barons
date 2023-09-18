@@ -3,7 +3,7 @@ venice = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	capital_province = venetia
+	default_capital = venice
 	eras = {
 		medieval_era
 		renaissance_era

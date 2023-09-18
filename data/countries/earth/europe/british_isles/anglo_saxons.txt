@@ -3,7 +3,7 @@ anglo_saxons = {
 	type = tribe
 	culture = anglo_saxon
 	default_religion = pagan
-	capital_province = middlesex
+	default_capital = london
 	eras = {
 		medieval_era
 	}

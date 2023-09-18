@@ -3,7 +3,7 @@ burgundians = {
 	type = tribe
 	culture = gothic
 	default_religion = pagan
-	capital_province = burgundy
+	default_capital = worms
 	eras = {
 		medieval_era
 	}

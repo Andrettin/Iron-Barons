@@ -3,7 +3,7 @@ afghanistan = {
 	type = minor_nation
 	culture = pashtun
 	default_religion = sunni
-	capital_province = afghanistan
+	default_capital = kabul
 	eras = {
 		industrial_era
 	}

@@ -3,7 +3,7 @@ scots = {
 	type = tribe
 	culture = irish
 	default_religion = pagan
-	capital_province = ulster
+	default_capital = belfast
 	eras = {
 		medieval_era
 	}

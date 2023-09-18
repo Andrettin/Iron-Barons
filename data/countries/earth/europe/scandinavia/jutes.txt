@@ -3,7 +3,7 @@ jutes = {
 	type = tribe
 	culture = anglian
 	default_religion = pagan
-	capital_province = jutland
+	default_capital = aarhus
 	eras = {
 		medieval_era
 	}

@@ -1,7 +1,7 @@
 leninabad = {
 	name = "Leninabad"
 	color = { 224 149 125 }
-	capital_settlement = leninobod
+	default_provincial_capital = leninobod
 	regions = {
 		tajikistan
 	}

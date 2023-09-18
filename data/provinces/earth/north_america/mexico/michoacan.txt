@@ -1,7 +1,7 @@
 michoacan = {
 	name = "Michoacan" #"Michoacán"
 	color = { 100 67 33 }
-	capital_settlement = morelia
+	default_provincial_capital = morelia
 	regions = {
 		mexico
 	}

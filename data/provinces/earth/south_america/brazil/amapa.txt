@@ -1,7 +1,7 @@
 amapa = {
 	name = "Amapa" #"Amapá"
 	color = { 165 138 216 }
-	capital_settlement = macapa
+	default_provincial_capital = macapa
 	regions = {
 		brazil
 	}

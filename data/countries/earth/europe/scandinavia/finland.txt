@@ -3,7 +3,7 @@ finland = {
 	type = minor_nation
 	culture = finnish
 	default_religion = protestant
-	capital_province = finland
+	default_capital = helsinki
 	eras = {
 		industrial_era
 	}

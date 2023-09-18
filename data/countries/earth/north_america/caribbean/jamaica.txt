@@ -3,7 +3,7 @@ jamaica = {
 	type = minor_nation
 	culture = english
 	default_religion = protestant
-	capital_province = jamaica
+	default_capital = kingston
 	eras = {
 		industrial_era
 	}

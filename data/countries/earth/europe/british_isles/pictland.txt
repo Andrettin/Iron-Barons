@@ -3,7 +3,7 @@ pictland = {
 	type = minor_nation
 	culture = pictish
 	default_religion = pagan
-	capital_province = highlands
+	default_capital = ayr
 	eras = {
 		medieval_era
 	}

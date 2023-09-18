@@ -3,7 +3,7 @@ strathclyde = {
 	type = minor_nation
 	culture = cumbrian
 	default_religion = pagan
-	capital_province = ayrshire
+	default_capital = ayr
 	#default_tier = kingdom
 	eras = {
 		medieval_era

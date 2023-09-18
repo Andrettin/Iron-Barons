@@ -3,7 +3,7 @@ basques = {
 	type = tribe
 	culture = basque
 	default_religion = pagan
-	capital_province = navarre
+	default_capital = pamplona
 	eras = {
 		medieval_era
 	}

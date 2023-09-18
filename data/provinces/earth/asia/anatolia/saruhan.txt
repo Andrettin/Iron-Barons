@@ -1,7 +1,7 @@
 saruhan = {
 	name = "Saruhan"
 	color = { 175 27 216 }
-	capital_settlement = manisa
+	default_provincial_capital = manisa
 	regions = {
 		anatolia
 	}

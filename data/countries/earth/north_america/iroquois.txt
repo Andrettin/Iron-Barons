@@ -3,7 +3,7 @@ iroquois = {
 	type = tribe
 	culture = iroquois
 	default_religion = pagan
-	capital_province = new_york
+	default_capital = new_york
 	eras = {
 		renaissance_era
 	}

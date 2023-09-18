@@ -1,7 +1,7 @@
 alaska = {
 	name = "Alaska"
 	color = { 153 230 153 }
-	capital_settlement = anchorage
+	default_provincial_capital = anchorage
 	regions = {
 		united_states
 	}

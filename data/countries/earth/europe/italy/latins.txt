@@ -3,7 +3,7 @@ latins = {
 	type = tribe
 	culture = roman
 	default_religion = pagan
-	capital_province = latium
+	default_capital = rome
 	eras = {
 		ancient_era
 	}

@@ -3,7 +3,7 @@ lesser_armenia = {
 	type = minor_nation
 	culture = armenian
 	default_religion = orthodox
-	capital_province = ramadan
+	default_capital = marash
 	eras = {
 		medieval_era
 	}

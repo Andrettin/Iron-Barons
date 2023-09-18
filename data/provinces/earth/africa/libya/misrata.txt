@@ -1,7 +1,7 @@
 misrata = {
 	name = "Misrata"
 	color = { 144 67 111 }
-	capital_settlement = misrata
+	default_provincial_capital = misrata
 	regions = {
 		libya
 	}

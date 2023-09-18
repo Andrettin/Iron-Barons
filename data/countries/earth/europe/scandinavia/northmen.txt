@@ -3,7 +3,7 @@ northmen = {
 	type = tribe
 	culture = norse
 	default_religion = pagan
-	capital_province = akershus
+	default_capital = oslo
 	#default_tier = kingdom
 	eras = {
 		medieval_era

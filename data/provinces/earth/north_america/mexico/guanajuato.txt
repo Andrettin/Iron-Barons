@@ -1,7 +1,7 @@
 guanajuato = {
 	name = "Guanajuato"
 	color = { 224 250 96 }
-	capital_settlement = guanajuato
+	default_provincial_capital = guanajuato
 	regions = {
 		mexico
 	}

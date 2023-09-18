@@ -3,7 +3,7 @@ lydia = {
 	type = minor_nation
 	culture = lydian
 	default_religion = pagan
-	capital_province = saruhan
+	default_capital = manisa
 	eras = {
 		ancient_era
 	}

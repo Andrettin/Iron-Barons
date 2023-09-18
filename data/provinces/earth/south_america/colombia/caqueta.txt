@@ -1,7 +1,7 @@
 caqueta = {
 	name = "Caqueta" #"Caquetá"
 	color = { 35 222 120 }
-	capital_settlement = florencia
+	default_provincial_capital = florencia
 	regions = {
 		amazon_basin
 		colombia

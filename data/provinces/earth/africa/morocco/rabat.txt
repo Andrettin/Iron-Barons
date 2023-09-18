@@ -1,7 +1,7 @@
 rabat = {
 	name = "Rabat"
 	color = { 144 24 184 }
-	capital_settlement = rabat
+	default_provincial_capital = rabat
 	regions = {
 		morocco
 	}

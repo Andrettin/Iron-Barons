@@ -4,7 +4,7 @@ byzantium = {
 	color = { 170 148 214 }
 	culture = greek
 	default_religion = orthodox
-	capital_province = thrace
+	default_capital = constantinople
 	eras = {
 		medieval_era
 	}

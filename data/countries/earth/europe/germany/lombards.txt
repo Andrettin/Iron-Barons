@@ -3,7 +3,7 @@ lombards = {
 	type = tribe
 	culture = lombard
 	default_religion = pagan
-	capital_province = hanover
+	default_capital = brunswick
 	eras = {
 		medieval_era
 	}

@@ -3,7 +3,7 @@ new_spain = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	capital_province = mexico
+	default_capital = mexico_city
 	
 	history = {
 		1600 = {

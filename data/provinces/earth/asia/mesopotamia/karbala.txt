@@ -1,7 +1,7 @@
 karbala = {
 	name = "Karbala"
 	color = { 104 212 60 }
-	capital_settlement = karbala
+	default_provincial_capital = karbala
 	regions = {
 		asia
 		middle_east

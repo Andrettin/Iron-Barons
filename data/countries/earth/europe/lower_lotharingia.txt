@@ -3,7 +3,7 @@ lower_lotharingia = {
 	type = minor_nation
 	culture = frankish
 	default_religion = catholic
-	capital_province = rhineland #Aachen
+	default_capital = aachen
 	eras = {
 		medieval_era
 	}
