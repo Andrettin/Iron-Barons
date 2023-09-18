@@ -65,7 +65,13 @@ Item {
 		}
 		
 		function center_on_country_capital(country) {
-			var capital_game_data = country.capital_province.capital_settlement.game_data
+			var capital = country.game_data.capital
+			
+			if (capital === null) {
+				return
+			}
+			
+			var capital_game_data = capital.game_data
 			var capital_x = capital_game_data.tile_pos.x
 			var capital_y = capital_game_data.tile_pos.y
 			

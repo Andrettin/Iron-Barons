@@ -170,12 +170,14 @@ Flickable {
 		
 		Image {
 			id: consulate_icon
-			x: other_country.capital_province.capital_settlement.game_data.tile_pos.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - width / 2
-			y: other_country.capital_province.capital_settlement.game_data.tile_pos.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - height / 2
+			x: other_country_capital ? (other_country_capital.game_data.tile_pos.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - width / 2) : 0
+			y: other_country_capital ? (other_country_capital.game_data.tile_pos.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor - height / 2) : 0
 			source: "image://icon/" + consulate.icon.identifier
 			visible: !reference_country.game_data.anarchy && !other_country.game_data.anarchy && diplomatic_map.mode === DiplomaticMap.Mode.Treaty
 			
 			readonly property var other_country: model.modelData.key
+			readonly property var other_country_game_data: other_country.game_data
+			readonly property var other_country_capital: other_country_game_data.capital
 			readonly property var consulate: model.modelData.value
 			
 			MaskedMouseArea {
@@ -202,7 +204,13 @@ Flickable {
 	}
 	
 	function center_on_selected_country_capital() {
-		var capital_game_data = selected_country.capital_province.capital_settlement.game_data
+		var capital = selected_country.game_data.capital
+		
+		if (capital === null) {
+			return
+		}
+		
+		var capital_game_data = capital.game_data
 		var capital_x = capital_game_data.tile_pos.x
 		var capital_y = capital_game_data.tile_pos.y
 		center_on_tile_pos(capital_x, capital_y)
