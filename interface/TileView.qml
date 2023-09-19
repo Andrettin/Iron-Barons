@@ -205,6 +205,10 @@ Item {
 			
 			text += ") "
 			
+			if (river === true) {
+				text += "(River) "
+			}
+			
 			if (pathway !== null) {
 				text += "(" + pathway.name + ") "
 			}
