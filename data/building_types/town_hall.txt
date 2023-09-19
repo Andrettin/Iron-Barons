@@ -57,13 +57,13 @@ city_hall = {
 	}
 }
 
-capitol = {
-	name = "Capitol"
-	building_class = capitol
+state_house = {
+	name = "State House"
+	building_class = state_house
 	portrait = city
 	icon = flag
 	provincial = true
-	capital_only = true
+	provincial_capital_only = true
 	required_building = city_hall
 	settlement_types = {
 		city
@@ -73,6 +73,32 @@ capitol = {
 		statesmanship_production
 	}
 	stackable_country_modifier = {
+		town_hall_capacity = 6
+	}
+	effects = {
+		provincial_capital = true
+	}
+}
+
+capitol = {
+	name = "Capitol"
+	building_class = capitol
+	portrait = city
+	icon = flag
+	provincial = true
+	capital_only = true
+	required_building = state_house
+	settlement_types = {
+		city
+		metropolis
+	}
+	production_types = {
+		statesmanship_production
+	}
+	stackable_country_modifier = {
 		town_hall_capacity = 8
+	}
+	effects = {
+		capital = true
 	}
 }
