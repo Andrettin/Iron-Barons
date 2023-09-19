@@ -10,10 +10,16 @@ spice_factory = {
 		city
 		metropolis
 	}
-	province_conditions = {
-		has_resource = spices
+	settlement_conditions = {
+		province = {
+			produces_commodity = spices
+		}
+		or = {
+			near_water = true
+			has_route = true
+		}
 	}
-	province_modifier = {
-		trade_per_improved_spices = 1
+	settlement_modifier = {
+		trade_bonus = 1
 	}
 }

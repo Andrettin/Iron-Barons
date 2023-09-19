@@ -9,8 +9,8 @@ observatory = {
 		city
 		metropolis
 	}
-	province_conditions = {
-		has_terrain = mountains
+	settlement_conditions = {
+		terrain = mountains
 	}
 	country_modifier = {
 		research_output_modifier = 25

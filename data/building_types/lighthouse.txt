@@ -9,7 +9,7 @@ lighthouse = {
 		city
 		metropolis
 	}
-	province_conditions = {
+	settlement_conditions = {
 		coastal = true
 	}
 	province_modifier = {

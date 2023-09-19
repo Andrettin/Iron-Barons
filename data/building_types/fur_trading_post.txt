@@ -10,14 +10,16 @@ fur_trading_post = {
 		city
 		metropolis
 	}
-	province_conditions = {
+	settlement_conditions = {
+		province = {
+			produces_commodity = furs
+		}
 		or = {
-			has_resource = beavers
-			has_resource = deer
+			near_water = true
+			has_route = true
 		}
 	}
-	province_modifier = {
-		trade_per_improved_beavers = 1
-		trade_per_improved_deer = 1
+	settlement_modifier = {
+		trade_bonus = 1
 	}
 }

@@ -15,11 +15,8 @@ dock = {
 		castle
 		monastery
 	}
-	province_conditions = {
-		or = {
-			coastal = true #should also be available if a river runs through the province's settlement
-			capital = true
-		}
+	settlement_conditions = {
+		near_water = true
 	}
 }
 
@@ -35,5 +32,8 @@ shipyard = {
 	settlement_types = {
 		city
 		metropolis
+	}
+	settlement_conditions = {
+		near_water = true
 	}
 }
