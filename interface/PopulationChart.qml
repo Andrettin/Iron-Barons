@@ -1,7 +1,7 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.12
-import QtCharts 2.3
-import QtGraphicalEffects 1.12
+import QtQuick
+import QtQuick.Controls
+import QtCharts
+import QtGraphicalEffects
 
 ChartView {
 	property var data_source: null //the data source for the chart, e.g. a province or a country
