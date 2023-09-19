@@ -106,7 +106,7 @@ Rectangle {
 		
 		readonly property string icon_identifier: selected_civilian_unit ? selected_civilian_unit.icon.identifier : (
 			selected_site ? (
-				selected_site.settlement ? "" : (
+				(selected_site.settlement && selected_site.game_data.settlement_type !== null) ? "" : (
 					(selected_site.game_data.improvement && selected_site.game_data.improvement.ruins) ? "skull" : (selected_site.resource.icon ? selected_site.resource.icon.identifier : selected_site.resource.commodity.icon.identifier)
 				)
 			) : ""
