@@ -50,7 +50,7 @@ Flickable {
 			visible_area_rectangle.y_override = mouse.y - visible_area_rectangle.height / 2
 		}
 		
-		onPressed: {
+		onPressed: function(mouse) {
 			if (!pos_in_visible_area(mouse.x, mouse.y)) {
 				visible_area_rectangle.x_override = null
 				visible_area_rectangle.y_override = null

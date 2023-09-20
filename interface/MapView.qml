@@ -165,7 +165,7 @@ Item {
 		id: modifier_dialog
 	}
 	
-	Keys.onPressed: {
+	Keys.onPressed: function(event) {
 		switch (event.key) {
 			case Qt.Key_E:
 				infopanel.end_turn_button.down = true
