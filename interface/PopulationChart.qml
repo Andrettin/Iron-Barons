@@ -37,13 +37,4 @@ ChartView {
 		id: tooltip
 		visible: false
 	}
-	
-	layer.enabled: true
-	layer.effect: DropShadow {
-		transparentBorder: true
-		radius: 4.0
-		samples: 9
-		verticalOffset: 1
-		horizontalOffset: 1
-	}
 }
