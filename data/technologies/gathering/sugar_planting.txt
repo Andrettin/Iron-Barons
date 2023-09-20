@@ -12,11 +12,9 @@ sugar_planting = {
 	category = gathering
 	portrait = engineering
 	icon = sugar_cane
-	year = 1500
+	year = -2000
 	prerequisites = {
 		sugar_cane
-		
-		university
 	}
 }
 
@@ -28,6 +26,8 @@ large_sugar_plantations = {
 	year = 1550
 	prerequisites = {
 		sugar_planting
+		
+		colonization
 	}
 }
 
