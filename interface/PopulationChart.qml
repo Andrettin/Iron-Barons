@@ -1,7 +1,6 @@
 import QtQuick
 import QtQuick.Controls
 import QtCharts
-import QtGraphicalEffects
 
 ChartView {
 	property var data_source: null //the data source for the chart, e.g. a province or a country
@@ -17,7 +16,6 @@ ChartView {
 	legend.visible: false
 	backgroundColor: "transparent"
 	antialiasing: true
-	ToolTip.delay: 1000
 
 	onData_sourceChanged: chart.update_chart()
 
@@ -25,14 +23,19 @@ ChartView {
 		id: pie_series
 		size: 0.95
 
-		onHovered: {
-			if (state == true) {
-				chart.ToolTip.text = small_text(slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)")
-				chart.ToolTip.visible = true
+		onHovered: function(slice, state) {
+			if (state === true) {
+				tooltip.text = small_text(slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)")
+				tooltip.visible = true
 			} else {
-				chart.ToolTip.visible = false
+				tooltip.visible = false
 			}
 		}
+	}
+	
+	CustomTooltip {
+		id: tooltip
+		visible: false
 	}
 	
 	layer.enabled: true

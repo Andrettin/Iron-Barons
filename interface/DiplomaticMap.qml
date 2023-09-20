@@ -56,17 +56,6 @@ Flickable {
 				anchors.fill: parent
 				alphaThreshold: 0.4
 				maskSource: parent.source
-				ToolTip.text: country.name + country_mouse_area.tooltip_suffix
-				ToolTip.visible: country_mouse_area.containsMouse
-				ToolTip.delay: 1000
-				
-				property string tooltip_suffix: containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Terrain ?
-					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.tile_terrain_counts)))
-				: (diplomatic_map.mode === DiplomaticMap.Mode.Cultural ?
-					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population.culture_counts)))
-				: (diplomatic_map.mode === DiplomaticMap.Mode.Religious ?
-					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population.religion_counts)))
-				: ""))) : ""
 				
 				onClicked: {
 					if (selected) {
@@ -75,6 +64,20 @@ Flickable {
 						diplomatic_map.selected_country = country
 					}
 				}
+			}
+			
+			CustomTooltip {
+				text: country.name + tooltip_suffix
+				visible: country_mouse_area.containsMouse
+				
+				property string tooltip_suffix: country_mouse_area.containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Terrain ?
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.tile_terrain_counts)))
+				: (diplomatic_map.mode === DiplomaticMap.Mode.Cultural ?
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population.culture_counts)))
+				: (diplomatic_map.mode === DiplomaticMap.Mode.Religious ?
+					format_text("\n" + small_text(counts_to_percent_strings(country.game_data.population.religion_counts)))
+				: ""))) : ""
+				
 				
 				function counts_to_percent_strings(counts) {
 					var str = ""
@@ -181,16 +184,19 @@ Flickable {
 			readonly property var consulate: model.modelData.value
 			
 			MaskedMouseArea {
+				id: consulate_mouse_area
 				anchors.fill: parent
 				alphaThreshold: 0.4
 				maskSource: parent.source
-				ToolTip.text: small_text(consulate.name)
-				ToolTip.visible: containsMouse
-				ToolTip.delay: 1000
 				
 				onClicked: {
 					diplomatic_map.selected_country = other_country
 				}
+			}
+			
+			CustomTooltip {
+				text: small_text(consulate.name)
+				visible: consulate_mouse_area.containsMouse
 			}
 		}
 	}
