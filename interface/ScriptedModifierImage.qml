@@ -12,12 +12,15 @@ Image {
 	readonly property string modifier_string: scripted_modifier.get_modifier_string(scope)
 	
 	MouseArea {
+		id: icon_mouse_area
 		anchors.fill: parent
-		ToolTip.text: scripted_modifier.name + (modifier_string.length > 0 ? format_text(small_text("\n"
+		hoverEnabled: true
+	}
+	
+	CustomTooltip {
+		text: scripted_modifier.name + (modifier_string.length > 0 ? format_text(small_text("\n"
 			+ "\nDuration: " + (duration * metternich.defines.months_per_turn) + " Months"
 			+ "\n" + modifier_string)) : "")
-		ToolTip.visible: containsMouse
-		ToolTip.delay: 1000
-		hoverEnabled: true
+		visible: icon_mouse_area.containsMouse
 	}
 }

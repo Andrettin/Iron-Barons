@@ -5,9 +5,6 @@ Item {
 	id: portrait_grid_item
 	width: portrait_rectangle.width
 	height: portrait_rectangle.height
-	ToolTip.text: tooltip
-	ToolTip.visible: portrait_mouse_area.containsMouse && tooltip.length > 0
-	ToolTip.delay: 1000
 	
 	property string portrait_identifier: ""
 	property string tooltip: ""
@@ -49,5 +46,10 @@ Item {
 				portrait_grid_item.exited()
 			}
 		}
+	}
+	
+	CustomTooltip {
+		text: portrait_grid_item.tooltip
+		visible: portrait_mouse_area.containsMouse && portrait_grid_item.tooltip.length > 0
 	}
 }
