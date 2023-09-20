@@ -1,6 +1,5 @@
 import QtQuick
 import QtQuick.Controls
-import QtGraphicalEffects
 
 ButtonBase {
 	id: button
@@ -47,6 +46,7 @@ ButtonBase {
 		anchors.horizontalCenter: parent.horizontalCenter
 		width: parent.width - 1 * scale_factor * 2 //width inside the border
 		height: parent.height - 1 * scale_factor * 2
+		layer.enabled: true
 		visible: false
 		
 		Image {
@@ -60,18 +60,12 @@ ButtonBase {
 		}
 	}
 	
-	Rectangle {
+	OpacityMask {
 		id: opacity_mask_rectangle
         anchors.fill: icon_image_area
 		width: icon_image_area.width
 		height: icon_image_area.height
 		radius: circle ? (width * 0.5) : 5 * scale_factor
-		visible: false
-	}
-	
-    OpacityMask {
-        anchors.fill: icon_image_area
         source: icon_image_area
-        maskSource: opacity_mask_rectangle
-    }
+	}
 }

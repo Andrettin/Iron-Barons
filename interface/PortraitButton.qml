@@ -1,6 +1,5 @@
 import QtQuick
 import QtQuick.Controls
-import QtGraphicalEffects
 
 ButtonBase {
 	id: button
@@ -31,21 +30,16 @@ ButtonBase {
 		//anchors.horizontalCenterOffset: button.down ? 1 * scale_factor : 0
 		source: portrait_identifier.length > 0 ? ("image://portrait/" + portrait_identifier) : "image://empty/"
 		fillMode: Image.Pad
+		layer.enabled: true
 		visible: false
 	}
 	
-	Rectangle {
+	OpacityMask {
 		id: opacity_mask_rectangle
         anchors.fill: portrait_image
 		width: portrait_image.width
 		height: portrait_image.height
 		radius: button.radius
-		visible: false
-	}
-	
-    OpacityMask {
-        anchors.fill: portrait_image
         source: portrait_image
-        maskSource: opacity_mask_rectangle
-    }
+	}
 }
