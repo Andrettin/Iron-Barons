@@ -14,6 +14,10 @@ vienna = {
 			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
+		1160 = {
+			buildings += cathedral #Stephansdom
+		}
+		
 		1360 = {
 			settlement_type = city #important settlement in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}

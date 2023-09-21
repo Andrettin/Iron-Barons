@@ -9,6 +9,15 @@ salzburg = {
 	}
 	
 	history = {
+		739 = {
+			buildings += cathedral #Salzburg became a bishopric in 739; Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 169.
+			settlement_type = city
+		}
+		
+		768 = {
+			#archbishopric existent in Salzburg during 768-814 AD; Source: "Medieval Warfare V.2", 2013, pp. 8-9.
+		}
+		
 		919 = {
 			settlement_type = city #important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}

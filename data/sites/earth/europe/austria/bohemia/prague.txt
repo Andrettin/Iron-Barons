@@ -9,6 +9,11 @@ prague = {
 	}
 	
 	history = {
+		1231 = {
+			buildings += temple #Agnes Přemyslovna founded the St. Agnes' Cloister (in Prague) in 1231; Source: Alena Ježková, "77 Prague Legends", 2006, p. 36.
+			settlement_type = village
+		}
+		
 		1347 = {
 			buildings += university #University founded in Prague in 1347; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 			settlement_type = city
