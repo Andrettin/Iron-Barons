@@ -2,6 +2,6 @@ theologian = {
 	name = "Theologian"
 	category = religious
 	modifier = {
-		#quarterly_piety = 0.5
+		piety_output_modifier = 5
 	}
 }
