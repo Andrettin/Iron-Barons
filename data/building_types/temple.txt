@@ -1,0 +1,40 @@
+temple = {
+	name = "Temple"
+	building_class = temple
+	portrait = temple
+	icon = wooden_cross
+	provincial = true
+	settlement_types = {
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	production_types = {
+		piety_production
+	}
+	stackable_country_modifier = {
+		temple_capacity = 2
+	}
+}
+
+cathedral = {
+	name = "Cathedral"
+	building_class = cathedral
+	portrait = temple
+	icon = golden_cross_detailed
+	provincial = true
+	settlement_types = {
+		city
+		metropolis
+		monastery
+	}
+	production_types = {
+		piety_production
+	}
+	stackable_country_modifier = {
+		temple_capacity = 4
+	}
+}
