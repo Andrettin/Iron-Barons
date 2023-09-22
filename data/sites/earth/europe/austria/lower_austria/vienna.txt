@@ -16,6 +16,7 @@ vienna = {
 		
 		1160 = {
 			buildings += cathedral #Stephansdom
+			settlement_type = city
 		}
 		
 		1360 = {
