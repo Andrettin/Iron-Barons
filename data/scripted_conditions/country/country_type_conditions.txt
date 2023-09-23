@@ -3,3 +3,7 @@ is_civilized = {
 		country_type = tribe
 	}
 }
+
+is_power = {
+	country_type = great_power
+}
