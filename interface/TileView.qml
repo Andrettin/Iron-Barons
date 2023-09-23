@@ -10,6 +10,7 @@ Item {
 	readonly property bool civilian_unit_interactable: civilian_unit !== null && civilian_unit.owner === metternich.game.player_country
 	readonly property point tile_pos: Qt.point(column, row)
 	readonly property bool is_center_tile: province !== null && province.game_data.center_tile_pos === tile_pos
+	property string saved_status_text: ""
 	
 	TileImage {
 		id: base_terrain_image
@@ -232,9 +233,14 @@ Item {
 			}
 			
 			status_text = text
+			saved_status_text = text
 		}
 		onExited: {
-			status_text = ""
+			//only clear the status text on exist if it was actually still the text set by this
+			if (status_text === saved_status_text) {
+				status_text = ""
+				saved_status_text = ""
+			}
 		}
 	}
 	
@@ -263,9 +269,6 @@ Item {
 		
 		onEntered: {
 			status_text = "Garrison"
-		}
-		onExited: {
-			status_text = ""
 		}
 	}
 }
