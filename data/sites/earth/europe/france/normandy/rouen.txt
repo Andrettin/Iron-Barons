@@ -9,13 +9,17 @@ rouen = {
 	}
 	
 	history = {
+		768 = {
+			buildings += cathedral #archbishopric existent in Rouen during 768-814 AD; Source: "Medieval Warfare V.2", 2013, pp. 8-9.
+			settlement_type = city
+		}
+		
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			#settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1789 = {
 			buildings += courthouse #Parlement or conseil souverain, cambre des comptes, court of admiralty, prévôt des maréchaux and chief court of the salt tax existent in Rouen in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
-			settlement_type = city
 		}
 	}
 }
