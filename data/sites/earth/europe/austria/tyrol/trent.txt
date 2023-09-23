@@ -4,7 +4,7 @@ trent = {
 	geocoordinate = { 11.11998246120 46.08042889310 } #from Natural Earth
 	type = settlement
 	resource = grain
-	province = tyrol
+	province = south_tyrol
 	cultural_names = {
 		italian = "Trento"
 	}

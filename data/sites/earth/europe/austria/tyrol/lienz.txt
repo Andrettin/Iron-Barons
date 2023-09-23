@@ -4,7 +4,7 @@ lienz = {
 	geocoordinate = { 12.769722222222 46.829722222222 }
 	type = settlement
 	resource = timber
-	province = tyrol
+	province = carinthia
 	
 	history = {
 		610 = {

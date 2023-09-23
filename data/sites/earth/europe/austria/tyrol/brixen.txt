@@ -2,7 +2,7 @@ brixen = {
 	name = "Brixen"
 	world = earth
 	geocoordinate = { 11.657851 46.716549 }
-	province = tyrol
+	province = south_tyrol
 	cultural_names = {
 		italian = "Bressanone"
 	}

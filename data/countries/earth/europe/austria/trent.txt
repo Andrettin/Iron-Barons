@@ -1,0 +1,13 @@
+trent = {
+	name = "Trent"
+	type = minor_nation
+	culture = austrian
+	default_religion = catholic
+	default_capital = trent
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		south_tyrol
+	}
+}
