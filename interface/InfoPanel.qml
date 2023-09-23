@@ -9,6 +9,7 @@ Rectangle {
 	readonly property var end_turn_button: end_turn_button_internal
 	readonly property var province_game_data: selected_province ? selected_province.game_data : null
 	readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
+	property bool viewing_population: false
 	
 	Rectangle {
 		color: "gray"
@@ -179,7 +180,7 @@ Rectangle {
 		contentHeight: contentItem.childrenRect.height
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		visible: selected_site !== null && selected_site.settlement && !selected_garrison
+		visible: selected_site !== null && selected_site.settlement && !selected_garrison && !viewing_population
 		
 		Grid {
 			id: portrait_grid
@@ -285,6 +286,111 @@ Rectangle {
 		visible: selected_province !== null && selected_garrison
 	}
 	
+	SmallText {
+		id: population_info_text
+		anchors.top: title.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 16 * scale_factor
+		text: selected_site_game_data ? format_text(
+			"Population: " + number_string(selected_site_game_data.population.size)
+		) : ""
+		visible: population_chart_grid.visible
+	}
+	
+	Grid {
+		id: population_chart_grid
+		anchors.top: population_info_text.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.bottom: end_turn_button_internal.top
+		anchors.bottomMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		columns: 2
+		spacing: 16 * scale_factor
+		verticalItemAlignment: Grid.AlignVCenter
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_population
+		
+		Item {
+			width: population_type_chart.width
+			height: population_type_chart.y + population_type_chart.height
+		
+			SmallText {
+				id: population_type_chart_label
+				anchors.horizontalCenter: population_type_chart.horizontalCenter
+				text: qsTr("Population Type")
+				visible: population_type_chart.visible
+			}
+			
+			PopulationTypeChart {
+				id: population_type_chart
+				anchors.top: population_type_chart_label.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.horizontalCenter: parent.horizontalCenter
+				data_source: selected_site_game_data ? selected_site_game_data.population : null
+			}
+		}
+		
+		Item {
+			width: culture_chart.width
+			height: culture_chart.y + culture_chart.height
+		
+			SmallText {
+				id: culture_chart_label
+				anchors.horizontalCenter: culture_chart.horizontalCenter
+				text: qsTr("Culture")
+				visible: culture_chart.visible
+			}
+			
+			CultureChart {
+				id: culture_chart
+				anchors.top: culture_chart_label.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.horizontalCenter: parent.horizontalCenter
+				data_source: selected_site_game_data ? selected_site_game_data.population : null
+			}
+		}
+		
+		Item {
+			width: religion_chart.width
+			height: religion_chart.y + religion_chart.height
+		
+			SmallText {
+				id: religion_chart_label
+				anchors.horizontalCenter: religion_chart.horizontalCenter
+				text: qsTr("Religion")
+				visible: religion_chart.visible
+			}
+			
+			ReligionChart {
+				id: religion_chart
+				anchors.top: religion_chart_label.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.horizontalCenter: parent.horizontalCenter
+				data_source: selected_site_game_data ? selected_site_game_data.population : null
+			}
+		}
+		
+		Item {
+			width: phenotype_chart.width
+			height: phenotype_chart.y + phenotype_chart.height
+		
+			SmallText {
+				id: phenotype_chart_label
+				anchors.horizontalCenter: phenotype_chart.horizontalCenter
+				text: qsTr("Phenotype")
+				visible: phenotype_chart.visible
+			}
+			
+			PhenotypeChart {
+				id: phenotype_chart
+				anchors.top: phenotype_chart_label.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.horizontalCenter: parent.horizontalCenter
+				data_source: selected_site_game_data ? selected_site_game_data.population : null
+			}
+		}
+	}
+	
 	TextButton {
 		id: disband_button
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -325,6 +431,50 @@ Rectangle {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "End Turn"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: population_button
+		anchors.right: end_turn_button_internal.left
+		anchors.rightMargin: 8 * scale_factor
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 4 * scale_factor
+		icon_identifier: "craftsmen_light_small"
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && !viewing_population
+		
+		onReleased: {
+			viewing_population = true
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Settlement Population"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: population_back_button
+		anchors.right: end_turn_button_internal.left
+		anchors.rightMargin: 8 * scale_factor
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 4 * scale_factor
+		icon_identifier: "settlement"
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_population
+		
+		onReleased: {
+			viewing_population = false
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Back to Settlement"
 			} else {
 				status_text = ""
 			}
