@@ -5,4 +5,7 @@ monastery = {
 	base_settlement_types = {
 		village
 	}
+	build_conditions = {
+		population_unit_count = 6
+	}
 }
