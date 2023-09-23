@@ -12,8 +12,13 @@ winchester = {
 	}
 	
 	history = {
+		660 = {
+			buildings += cathedral #Winchester was a bishopric as of c. 660; Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 122.
+			settlement_type = city
+		}
+		
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			#settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }

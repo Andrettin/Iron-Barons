@@ -11,9 +11,13 @@ toulouse = {
 	}
 	
 	history = {
+		395 = {
+			buildings += cathedral #Toulouse was the seat of a bishopric in 395; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 42-43.
+			settlement_type = city
+		}
+		
 		1230 = {
 			buildings += university #University founded in Toulouse in 1230; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
-			settlement_type = city
 		}
 		
 		1360 = {

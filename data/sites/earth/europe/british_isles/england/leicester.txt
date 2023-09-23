@@ -10,4 +10,11 @@ leicester = {
 		briton = "Ratae"
 		roman = "Ratae" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
 	}
+	
+	history = {
+		737 = {
+			buildings += cathedral #diocese of Leicester permanently founded in 737 AD; Source: Frank Stenton, "Anglo-Saxon England", 1971, pp. 109, 134, 146.
+			settlement_type = city
+		}
+	}
 }

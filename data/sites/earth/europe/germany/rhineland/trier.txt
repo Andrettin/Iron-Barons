@@ -11,6 +11,15 @@ trier = {
 	}
 	
 	history = {
+		395 = {
+			buildings += cathedral #Trèves was the seat of a bishopric in 395; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 42-43.
+			settlement_type = city
+		}
+		
+		768 = {
+			#archbishopric existent in Trier during 768-814 AD; Source: "Medieval Warfare V.2", 2013, pp. 8-9.
+		}
+		
 		919 = {
 			settlement_type = city #important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}

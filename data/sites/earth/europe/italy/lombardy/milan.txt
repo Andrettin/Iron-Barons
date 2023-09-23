@@ -12,9 +12,13 @@ milan = {
 	}
 	
 	history = {
-		768 = {
-			buildings += cathedral #Archbishopric existent in Milan during 768-814 AD; Source: "Medieval Warfare V.2", 2013, pp. 8-9.
+		395 = {
+			buildings += cathedral #Milan was the seat of an archbishopric in 395; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 42-43.
 			settlement_type = city
+		}
+		
+		768 = {
+			#archbishopric existent in Milan during 768-814 AD; Source: "Medieval Warfare V.2", 2013, pp. 8-9.
 		}
 		
 		919 = {

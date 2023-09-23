@@ -9,4 +9,11 @@ cartagena = {
 		phoenician = "New Carthage"
 		roman = "New Carthage"
 	}
+	
+	history = {
+		395 = {
+			buildings += cathedral #Cartagena was the seat of a bishopric in 395; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 42-43.
+			settlement_type = city
+		}
+	}
 }

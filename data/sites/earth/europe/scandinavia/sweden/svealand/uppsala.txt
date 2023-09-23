@@ -7,13 +7,17 @@ uppsala = {
 	province = uppland
 	
 	history = {
+		1164 = {
+			buildings += cathedral #Swedish archbishopric founded in Uppsala in 1164; Source: "Guta Saga: The History of the Gotlanders", 1999, p. vii.
+			settlement_type = city
+		}
+		
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			#settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1477 = {
 			buildings += university #University founded in Uppsala in 1477; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
-			settlement_type = city
 		}
 	}
 }
