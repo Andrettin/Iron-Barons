@@ -75,6 +75,20 @@ Rectangle {
 		}
 	}
 	
+	IconButton {
+		id: religious_map_mode_button
+		anchors.top: cultural_map_mode_button.top
+		anchors.right: cultural_map_mode_button.left
+		anchors.rightMargin: 4 * scale_factor
+		icon_identifier: "wooden_cross"
+		border_color: diplomatic_map.mode === DiplomaticMap.Mode.Religious ? "white" : "gray"
+		tooltip: "Religious Map"
+		
+		onReleased: {
+			diplomatic_map.mode = DiplomaticMap.Mode.Religious
+		}
+	}
+	
 	SmallText {
 		id: country_text
 		text: format_text(selected_country && selected_country_game_data ? (
@@ -179,7 +193,7 @@ Rectangle {
 	PhenotypeChart {
 		id: phenotype_chart
 		anchors.top: population_type_chart.top
-		anchors.right: political_map_mode_button.left
+		anchors.right: religious_map_mode_button.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
 		data_source: selected_country_game_data ? selected_country_game_data.population : null
