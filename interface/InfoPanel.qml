@@ -294,6 +294,7 @@ Rectangle {
 		anchors.leftMargin: 16 * scale_factor
 		text: selected_site_game_data ? format_text(
 			"Population: " + number_string(selected_site_game_data.population.size)
+			 + "\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing
 		) : ""
 		visible: population_chart_grid.visible
 	}
