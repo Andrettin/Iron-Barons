@@ -7,8 +7,11 @@ religious_immigration = {
 		scripted_condition = is_power
 		population_scaled_piety = 2
 		
+		any_settlement = {
+			available_housing > 0
+		}
+		
 		any_global_population_unit = {
-			religion = root
 			not = {
 				country = root
 				
@@ -16,16 +19,38 @@ religious_immigration = {
 					population_unit_count == 1
 				}
 			}
-		}
-		
-		any_settlement = {
-			#must have a settlement
+			or = {
+				#must be a religious minority with greater religious affiliation to the target country than to their own
+				and = {
+					religion = root
+					country = {
+						not = {
+							religion = root
+						}
+					}
+				}
+				and = {
+					religious_group = root
+					country = {
+						not = {
+							religious_group = root
+						}
+					}
+				}
+			}
 		}
 	}
 	immediate_effects = {
+		random_settlement = {
+			conditions = {
+				available_housing > 0
+			}
+			
+			save_scope_as = immigration_settlement
+		}
+		
 		random_global_population_unit = {
 			conditions = {
-				religion = root
 				not = {
 					country = root
 					
@@ -33,13 +58,28 @@ religious_immigration = {
 						population_unit_count == 1
 					}
 				}
+				or = {
+					#must be a religious minority with greater religious affiliation to the target country than to their own
+					and = {
+						religion = root
+						country = {
+							not = {
+								religion = root
+							}
+						}
+					}
+					and = {
+						religious_group = root
+						country = {
+							not = {
+								religious_group = root
+							}
+						}
+					}
+				}
 			}
 			
 			save_scope_as = religious_immigrant
-		}
-		
-		random_settlement = {
-			save_scope_as = immigration_settlement
 		}
 	}
 	option = {
