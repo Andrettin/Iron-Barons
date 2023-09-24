@@ -14,6 +14,7 @@ default_tribal_population_class = tribesmen
 default_literate_population_class = trained_workers
 population_per_unit = 10000
 population_growth_threshold = 100
+base_housing = 8
 
 research_commodity = research
 advisor_commodity = statesmanship
@@ -33,7 +34,6 @@ diplomacy_state_colors = {
 	non_aggression_pact = { 167 210 205 }
 }
 
-default_settlement_image_filepath = "tiles/settlements/town.png"
 river_image_filepath = "tiles/river.png"
 rivermouth_image_filepath = "tiles/rivermouth.png"
 province_border_image_filepath = "tiles/borders/province_border.png"
