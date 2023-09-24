@@ -7,6 +7,10 @@ treviso = {
 	province = venetia
 	
 	history = {
+		919 = {
+			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1318 = {
 			buildings += university #University founded in Treviso in 1318; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 			settlement_type = city
