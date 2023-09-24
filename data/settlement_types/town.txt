@@ -21,6 +21,7 @@ village = {
 	}
 	build_conditions = {
 		population_unit_count = 3
+		has_building_class = warehouse
 	}
 }
 
@@ -33,6 +34,7 @@ town = {
 	}
 	build_conditions = {
 		population_unit_count = 6
+		has_building_class = village_hall
 	}
 }
 
@@ -47,6 +49,7 @@ city = {
 	}
 	build_conditions = {
 		population_unit_count = 12
+		has_building_class = town_hall
 	}
 }
 
@@ -59,5 +62,10 @@ metropolis = {
 	}
 	build_conditions = {
 		population_unit_count = 80
+		or = {
+			has_building_class = city_hall
+			has_building_class = state_house
+			has_building_class = capitol
+		}
 	}
 }
