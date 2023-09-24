@@ -9,6 +9,9 @@ bank = {
 		city
 		metropolis
 	}
+	build_conditions = {
+		has_building_class = market
+	}
 	cost_factor = {
 		modifier = {
 			factor = 0.5
@@ -17,7 +20,7 @@ bank = {
 			}
 		}
 	}
-	province_modifier = {
+	settlement_modifier = {
 		trade_output_modifier = 50
 	}
 }

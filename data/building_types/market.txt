@@ -10,7 +10,7 @@ market = {
 		city
 		metropolis
 	}
-	province_modifier = {
+	settlement_modifier = {
 		trade_output_modifier = 50
 	}
 }
