@@ -4,6 +4,7 @@ temple = {
 	portrait = temple
 	icon = wooden_cross
 	provincial = true
+	required_technology = ceremonial_burial
 	settlement_types = {
 		village
 		town
@@ -18,6 +19,9 @@ temple = {
 	stackable_country_modifier = {
 		temple_capacity = 2
 	}
+	settlement_modifier = {
+		amenities_bonus = 1
+	}
 }
 
 cathedral = {
@@ -26,6 +30,8 @@ cathedral = {
 	portrait = temple
 	icon = golden_cross_detailed
 	provincial = true
+	required_building = temple
+	required_technology = monotheism
 	settlement_types = {
 		city
 		metropolis
@@ -36,5 +42,8 @@ cathedral = {
 	}
 	stackable_country_modifier = {
 		temple_capacity = 4
+	}
+	settlement_modifier = {
+		amenities_bonus = 3
 	}
 }
