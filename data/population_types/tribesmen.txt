@@ -7,7 +7,7 @@ tribesmen = {
 	output_commodity = labor
 	output_value = 1
 	consumed_commodities = {
-		happiness = 1
+		amenities = 0.5
 	}
 	phenotype_icons = {
 		afro_european = slaves_medium
