@@ -342,6 +342,9 @@ DialogBase {
 								
 								if (output_value !== employed_capacity) {
 									var modifier = country_game_data.output_modifier + country_game_data.get_commodity_output_modifier(output_commodity)
+									if (production_type.industrial) {
+										modifier += country_game_data.industrial_output_modifier
+									}
 									text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + output_value + " " + output_commodity.name
 								}
 								
