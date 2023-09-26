@@ -295,6 +295,8 @@ Rectangle {
 		text: selected_site_game_data ? format_text(
 			"Population: " + number_string(selected_site_game_data.population.size)
 			 + "\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing
+			 + "\nConsciousness: " + selected_site_game_data.population.average_consciousness
+			 + "\nMilitancy: " + selected_site_game_data.population.average_militancy
 		) : ""
 		visible: population_chart_grid.visible
 	}
@@ -307,7 +309,8 @@ Rectangle {
 		anchors.bottomMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		columns: 2
-		spacing: 16 * scale_factor
+		columnSpacing: 16 * scale_factor
+		rowSpacing: 8 * scale_factor
 		verticalItemAlignment: Grid.AlignVCenter
 		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_population
 		
