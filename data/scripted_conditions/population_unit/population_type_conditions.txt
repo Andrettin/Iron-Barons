@@ -19,3 +19,12 @@ is_middle_strata = {
 		}
 	}
 }
+
+is_upper_strata = {
+	tooltip = {
+		text = "~<Upper Strata~>"
+		or = {
+			population_type = aristocrats
+		}
+	}
+}
