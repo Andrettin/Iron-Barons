@@ -4,6 +4,7 @@ transylvania = {
 	default_provincial_capital = klausenburg
 	regions = {
 		romania
+		royal_hungary
 	}
 	
 	history = {

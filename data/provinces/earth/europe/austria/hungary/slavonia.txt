@@ -4,6 +4,8 @@ slavonia = {
 	default_provincial_capital = esseg
 	regions = {
 		croatia
+		hungary_croatia_slavonia
+		royal_hungary
 	}
 	
 	history = {

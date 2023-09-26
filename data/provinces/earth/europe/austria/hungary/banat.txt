@@ -4,6 +4,7 @@ banat = {
 	default_provincial_capital = temesvar
 	regions = {
 		romania
+		royal_hungary
 	}
 	
 	history = {

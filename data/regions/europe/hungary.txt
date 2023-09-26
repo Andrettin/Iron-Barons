@@ -1,6 +1,0 @@
-hungary = { #the territory of modern Hungary
-	superregions = {
-		europe
-		west_and_central_europe
-	}
-}
