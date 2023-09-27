@@ -1,0 +1,7 @@
+gold_rush = {
+	name = "Gold Rush"
+	icon = gold_ore
+	modifier = {
+		gold_bonus = 1
+	}
+}
