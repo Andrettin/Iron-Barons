@@ -6,12 +6,3 @@
 #		writing
 #	}
 #}
-
-#expressionism = {
-#	name = "Expressionism"
-#	category = industry
-#	portrait = engineering
-#	prerequisites = {
-#		writing
-#	}
-#}

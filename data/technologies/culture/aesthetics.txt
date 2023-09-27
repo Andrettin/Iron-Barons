@@ -8,3 +8,75 @@ music_theory = {
 		university
 	}
 }
+
+classicism = {
+	name = "Classicism"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1750
+	prerequisites = {
+		music_theory
+		
+		nationalism #to properly place this in its period
+	}
+	modifier = {
+		prestige_output_modifier = 5
+	}
+}
+
+romanticism = {
+	name = "Romanticism"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1800
+	prerequisites = {
+		classicism
+	}
+	modifier = {
+		prestige_output_modifier = 5
+	}
+}
+
+realism = {
+	name = "Realism"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1825
+	prerequisites = {
+		romanticism
+	}
+	modifier = {
+		prestige_output_modifier = 5
+	}
+}
+
+impressionism = {
+	name = "Impressionism"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1850
+	prerequisites = {
+		realism
+	}
+	modifier = {
+		prestige_output_modifier = 5
+	}
+}
+
+expressionism = {
+	name = "Expressionism"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1875
+	prerequisites = {
+		impressionism
+	}
+	modifier = {
+		prestige_output_modifier = 5
+	}
+}
