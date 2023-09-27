@@ -146,31 +146,19 @@ Rectangle {
 		) : ""
 	}
 	
-	Grid {
-		id: scripted_modifiers_grid
-		anchors.top: subtitle.bottom
-		anchors.topMargin: 16 * scale_factor
+	ScriptedModifierRow {
+		id: scripted_modifier_row
+		anchors.top: title.bottom
+		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		height: 16 * scale_factor
-		columnSpacing: 2 * scale_factor
-		rows: 1
-		rowSpacing: 0
-		visible: selected_site && !selected_garrison
-		
-		Repeater {
-			model: province_game_data ? province_game_data.scripted_modifiers : []
-			
-			ScriptedModifierImage {
-				scripted_modifier_pair: model.modelData
-				scope: selected_province
-			}
-		}
+		scope: selected_site
+		visible: selected_site && !selected_garrison && selected_site.game_data.scripted_modifiers.length > 0
 	}
 	
 	Flickable {
 		id: portrait_grid_flickable
-		anchors.top: scripted_modifiers_grid.visible && province_game_data && province_game_data.scripted_modifiers.length > 0 ? scripted_modifiers_grid.bottom : title.bottom
-		anchors.topMargin: 16 * scale_factor
+		anchors.top: scripted_modifier_row.visible ? scripted_modifier_row.bottom : title.bottom
+		anchors.topMargin: scripted_modifier_row.visible ? 8 * scale_factor : 16 * scale_factor
 		anchors.bottom: end_turn_button_internal.top
 		anchors.bottomMargin: 16 * scale_factor
 		anchors.left: parent.left
