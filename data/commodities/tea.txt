@@ -1,0 +1,4 @@
+tea = {
+	name = "Tea"
+	icon = tobacco
+}

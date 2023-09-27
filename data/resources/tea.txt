@@ -1,0 +1,7 @@
+tea = {
+	name = "Tea"
+	commodity = tea
+	terrain_types = {
+		plains
+	}
+}
