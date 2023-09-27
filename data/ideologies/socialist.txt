@@ -1,0 +1,9 @@
+socialist = {
+	name = "Socialist"
+	conditions = {
+		technology = collectivism
+	}
+	weight_factor = {
+		base_value = 100
+	}
+}
