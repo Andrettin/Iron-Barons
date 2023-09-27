@@ -5,14 +5,14 @@ beautiful_statuette = {
 	trigger = quarterly_pulse
 	random = true
 	conditions = {
-		#technology = bronzeworking
+		technology = bronzeworking
 		#unit_class = smithy
 	}
 	option = {
 		name = "Marvelous!"
 		effects = {
 			wealth += 100
-			#prestige += 1
+			prestige += 1
 		}
 	}
 }

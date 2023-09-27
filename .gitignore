@@ -4,4 +4,5 @@ temp/
 *.dll
 *.exe
 error.log
+output.log
 qt.conf
