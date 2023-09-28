@@ -1,0 +1,7 @@
+democratic_republic = {
+	name = "Democratic Republic"
+	required_technology = democracy
+	modifier = {
+		trade_bonus_for_tile_threshold = 1
+	}
+}

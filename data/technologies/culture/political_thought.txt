@@ -35,6 +35,22 @@ feudalism = {
 	}
 }
 
+nationalism = {
+	name = "Nationalism"
+	category = culture
+	portrait = grand_ducal_crown
+	icon = flag
+	year = 1700
+	prerequisites = {
+		propaganda
+		master_artisans
+		modern_fortifications
+	}
+	modifier = {
+		deployment_limit = 2
+	}
+}
+
 rights_of_man = {
 	name = "Rights of Man"
 	category = culture
@@ -88,6 +104,23 @@ paternalism = {
 	}
 	modifier = {
 		land_morale_recovery_modifier = 5
+	}
+}
+
+democracy = {
+	name = "Democracy"
+	category = culture
+	portrait = grand_ducal_crown
+	icon = philosophy
+	year = 1800
+	prerequisites = {
+		republic
+		
+		rights_of_man
+		constitutionalism
+		
+		banking
+		invention
 	}
 }
 
