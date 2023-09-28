@@ -1,5 +1,6 @@
 communist = {
 	name = "Communist"
+	color = { 150 10 10 }
 	conditions = {
 		technology = communism
 	}
