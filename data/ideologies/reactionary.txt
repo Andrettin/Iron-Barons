@@ -1,0 +1,6 @@
+reactionary = {
+	name = "Reactionary"
+	weight_factor = {
+		base_value = 100
+	}
+}

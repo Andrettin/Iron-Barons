@@ -1,0 +1,6 @@
+anarcho_liberal = {
+	name = "Anarcho-Liberal"
+	weight_factor = {
+		base_value = 100
+	}
+}
