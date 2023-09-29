@@ -167,8 +167,7 @@ Flickable {
 			visible: !reference_country.game_data.anarchy && !other_country.game_data.anarchy && diplomatic_map.mode === DiplomaticMap.Mode.Treaty
 			
 			readonly property var other_country: model.modelData.key
-			readonly property var other_country_game_data: other_country.game_data
-			readonly property var other_country_capital: other_country_game_data.capital
+			readonly property var other_country_capital: other_country.game_data.capital
 			readonly property var consulate: model.modelData.value
 			
 			MaskedMouseArea {

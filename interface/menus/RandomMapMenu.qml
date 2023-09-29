@@ -365,9 +365,9 @@ MenuBase {
 			}
 		}
 		
-		metternich.game.create_random_map(selected_map_size, selected_era)
-		
-		diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
-		diplomatic_map.center_on_selected_country_capital()
+		metternich.game.create_random_map(selected_map_size, selected_era).then(() {
+			diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+			diplomatic_map.center_on_selected_country_capital()
+		})
 	}
 }

@@ -7,10 +7,11 @@ MenuBase {
 	title: qsTr("Scenario")
 	//background: metternich.defines.default_menu_background_file
 	
+	property var loading_scenario: false
+	property var initial_scenario_loaded: false
 	property var selected_scenario: null
 	readonly property var selected_country: diplomatic_map.selected_country
 	readonly property var selected_country_game_data: selected_country ? selected_country.game_data : null
-	readonly property var selected_country_ruler: selected_country_game_data ? selected_country_game_data.ruler : null
 	property int setup_count: 0
 	readonly property var scenarios: metternich.get_scenarios()
 	
@@ -35,6 +36,16 @@ MenuBase {
 		anchors.bottom: country_text_area.top
 		anchors.bottomMargin: 16 * scale_factor
 		width: 512 * scale_factor
+		visible: initial_scenario_loaded
+		enabled: !loading_scenario
+	}
+	
+	LargeText {
+		id: loading_scenario_label
+		anchors.horizontalCenter: diplomatic_map_background.horizontalCenter
+		anchors.verticalCenter: diplomatic_map_background.verticalCenter
+		text: "Loading..."
+		visible: loading_scenario && !initial_scenario_loaded
 	}
 	
 	IconButton {
@@ -46,6 +57,7 @@ MenuBase {
 		border_color: "white"
 		unrounded_left_corners: true
 		tooltip: "Political Map"
+		enabled: !loading_scenario
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Political
@@ -60,6 +72,7 @@ MenuBase {
 		border_color: "white"
 		unrounded_left_corners: true
 		tooltip: "Treaty Map"
+		enabled: !loading_scenario
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Treaty
@@ -74,6 +87,7 @@ MenuBase {
 		border_color: "white"
 		unrounded_left_corners: true
 		tooltip: "Terrain Map"
+		enabled: !loading_scenario
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Terrain
@@ -88,6 +102,7 @@ MenuBase {
 		border_color: "white"
 		unrounded_left_corners: true
 		tooltip: "Cultural Map"
+		enabled: !loading_scenario
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
@@ -102,6 +117,7 @@ MenuBase {
 		border_color: "white"
 		unrounded_left_corners: true
 		tooltip: "Religious Map"
+		enabled: !loading_scenario
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Religious
@@ -140,24 +156,24 @@ MenuBase {
 			text: selected_country ? (
 				selected_country.name
 				+ "\n"
-				+ "\n" + selected_country_game_data.type_name
-				+ (selected_country_game_data.overlord ? (
-					"\n" + selected_country_game_data.vassalage_type_name + " of " + selected_country_game_data.overlord.name
+				+ "\n" + selected_country.game_data.type_name
+				+ (selected_country.game_data.overlord ? (
+					"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
 				) : "")
-				+ (selected_country_game_data.anarchy ? "\nAnarchy" : "")
-				+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country_game_data.score) + " (#" + (selected_country_game_data.rank + 1) + ")") : "")
-				+ "\nPopulation: " + number_string(selected_country_game_data.population.size)
+				+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
+				+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
+				+ "\nPopulation: " + number_string(selected_country.game_data.population.size)
 				+ (vassal_count > 0 ? (
 					"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
 				) : "")
-				+ (selected_country_game_data.colonies.length > 0 ? (
-					"\n" + selected_country_game_data.colonies.length + " " + (selected_country_game_data.colonies.length > 1 ? "Colonies" : "Colony")
+				+ (selected_country.game_data.colonies.length > 0 ? (
+					"\n" + selected_country.game_data.colonies.length + " " + (selected_country.game_data.colonies.length > 1 ? "Colonies" : "Colony")
 				) : "")
-				+ "\n" + selected_country_game_data.provinces.length + " " + (selected_country_game_data.provinces.length > 1 ? "Provinces" : "Province")
-				+ get_resource_counts_string(selected_country_game_data.resource_counts)
+				+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
+				+ get_resource_counts_string(selected_country.game_data.resource_counts)
 			) : ""
 			
-			readonly property int vassal_count: selected_country ? (selected_country_game_data.vassals.length - selected_country_game_data.colonies.length) : 0
+			readonly property int vassal_count: selected_country ? (selected_country.game_data.vassals.length - selected_country.game_data.colonies.length) : 0
 			
 			function get_resource_counts_string(resource_counts) {
 				var str = "";
@@ -187,10 +203,13 @@ MenuBase {
 		anchors.topMargin: 8 * scale_factor
 		anchors.right: population_type_chart.left
 		anchors.rightMargin: 32 * scale_factor
-		portrait_identifier: selected_country_ruler && selected_country_ruler.game_data.portrait ? selected_country_ruler.game_data.portrait.identifier : ""
-		visible: selected_country_ruler !== null
-		tooltip: selected_country_ruler ? selected_country_ruler.full_name : ""
+		portrait_identifier: portrait ? portrait.identifier : ""
+		visible: ruler !== null
+		tooltip: ruler ? ruler.full_name : ""
 		circle: true
+		
+		property var ruler: null
+		property var portrait: null
 	}
 	
 	SmallText {
@@ -207,7 +226,6 @@ MenuBase {
 		anchors.right: culture_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -225,7 +243,6 @@ MenuBase {
 		anchors.right: religion_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -242,7 +259,6 @@ MenuBase {
 		anchors.right: phenotype_chart.left
 		anchors.rightMargin: 16 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	SmallText {
@@ -259,7 +275,6 @@ MenuBase {
 		anchors.right: diplomatic_map_background.right
 		anchors.rightMargin: 4 * scale_factor
 		visible: selected_country !== null
-		data_source: selected_country_game_data ? selected_country_game_data.population : null
 	}
 	
 	Rectangle {
@@ -292,6 +307,7 @@ MenuBase {
 			color: (selected_scenario == model.modelData) ? "olive" : "black"
 			border.color: "white"
 			border.width: 1
+			enabled: !loading_scenario
 			
 			SmallText {
 				text: model.modelData.name + ", " + date_year_string(model.modelData.start_date)
@@ -307,8 +323,12 @@ MenuBase {
 						return
 					}
 					
+					loading_scenario = true
 					selected_scenario = model.modelData
-					metternich.game.setup_scenario(selected_scenario)
+					metternich.game.setup_scenario(selected_scenario).then(() => {
+						update_selected_country_data(diplomatic_map.selected_country)
+						loading_scenario = false
+					})
 				}
 			}
 		}
@@ -322,7 +342,8 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 96 * scale_factor
 		height: 24 * scale_factor
-		allowed: selected_country !== null && selected_country.great_power && selected_country_game_data && !selected_country_game_data.anarchy
+		enabled: !loading_scenario
+		allowed: selected_country !== null && selected_country.great_power && !selected_country.game_data.anarchy
 		tooltip: allowed ? "" : small_text(
 			selected_country === null ? "You must select a country to play" : (
 				!selected_country.great_power ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You cannot play as a country under anarchy"
@@ -383,6 +404,7 @@ MenuBase {
 	}
 	
 	Component.onCompleted: {
+		loading_scenario = true
 		//get a random scenario
 		var scenario_index = random(scenarios.length)
 		selected_scenario = scenarios[scenario_index]
@@ -392,13 +414,31 @@ MenuBase {
 			scenario_list.contentY = scenario_rect_bottom - scenario_list.height
 		}
 		
-		metternich.game.setup_scenario(selected_scenario)
-		
-		if (selected_scenario.default_countries.length > 0) {
-			diplomatic_map.selected_country = selected_scenario.default_countries[random(selected_scenario.default_countries.length)]
-		} else {
-			diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+		metternich.game.setup_scenario(selected_scenario).then(() => {
+			if (selected_scenario.default_countries.length > 0) {
+				diplomatic_map.selected_country = selected_scenario.default_countries[random(selected_scenario.default_countries.length)]
+			} else {
+				diplomatic_map.selected_country = metternich.game.great_powers[random(metternich.game.great_powers.length)]
+			}
+			diplomatic_map.center_on_selected_country_capital()
+			loading_scenario = false
+			initial_scenario_loaded = true
+		})
+	}
+	
+	function update_selected_country_data(country) {
+		ruler_portrait.ruler = country ? country.game_data.ruler : null
+		if (ruler_portrait.ruler !== null) {
+			ruler_portrait.portrait = ruler_portrait.ruler.game_data.portrait
 		}
-		diplomatic_map.center_on_selected_country_capital()
+		
+		population_type_chart.data_source = country ? country.game_data.population : null
+		culture_chart.data_source = country ? country.game_data.population : null
+		religion_chart.data_source = country ? country.game_data.population : null
+		phenotype_chart.data_source = country ? country.game_data.population : null
+	}
+	
+	onSelected_countryChanged: {
+		update_selected_country_data(selected_country)
 	}
 }

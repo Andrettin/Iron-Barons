@@ -57,9 +57,12 @@ MenuBase {
 		onClicked: {
 			if (rules_changed) {
 				metternich.preferences.save()
-				metternich.game.setup_scenario(selected_scenario)
+				metternich.game.setup_scenario(selected_scenario).then(() => {
+					menu_stack.pop()
+				})
+			} else {
+				menu_stack.pop()
 			}
-			menu_stack.pop()
 		}
 	}
 }

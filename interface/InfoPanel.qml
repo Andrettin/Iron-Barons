@@ -417,7 +417,7 @@ Rectangle {
 		height: 24 * scale_factor
 		
 		onClicked: {
-			metternich.game.do_turn_async()
+			metternich.game.do_turn()
 		}
 		
 		onHoveredChanged: {

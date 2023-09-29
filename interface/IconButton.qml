@@ -3,8 +3,8 @@ import QtQuick.Controls
 
 ButtonBase {
 	id: button
-	width: icon_image.width + 6 * scale_factor
-	height: icon_image.height + 6 * scale_factor
+	width: (32 * scale_factor) + 6 * scale_factor
+	height: (32 * scale_factor) + 6 * scale_factor
 	radius: circle ? (width * 0.5) : 5 * scale_factor
 	
 	property string icon_identifier: ""
