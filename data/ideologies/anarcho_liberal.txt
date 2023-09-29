@@ -6,5 +6,10 @@ anarcho_liberal = {
 	}
 	weight_factor = {
 		base_value = 100
+		
+		modifier = {
+			factor = 0.1
+			militancy < 6
+		}
 	}
 }
