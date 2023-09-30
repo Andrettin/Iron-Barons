@@ -6,7 +6,6 @@ PopulationChart {
 	id: chart
 	
 	Connections {
-		id: connections
 		target: chart.data_source
 		ignoreUnknownSignals: true //as there may be no selected data source
 		

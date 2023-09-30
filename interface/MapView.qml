@@ -176,7 +176,7 @@ Item {
 		}
 	}
 	
-	Keys.onReleased: {
+	Keys.onReleased: function(event) {
 		if (event.isAutoRepeat) {
 			return
 		}

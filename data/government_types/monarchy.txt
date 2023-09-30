@@ -1,0 +1,6 @@
+monarchy = {
+	name = "Monarchy"
+	required_technology = monarchy
+	modifier = {
+	}
+}
