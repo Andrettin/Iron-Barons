@@ -20,6 +20,12 @@ cuirassiers = {
 	defense = 5
 	movement = 9
 	required_technology = improved_cavalry_weapons
+	wealth_cost = 500
+	maintenance = 25
+	commodity_costs = {
+		armament = 1
+		horses = 1
+	}
 }
 
 carbine_cavalry = {
@@ -32,6 +38,12 @@ carbine_cavalry = {
 	defense = 5
 	movement = 9
 	required_technology = repeating_cavalry_carbine
+	wealth_cost = 3500
+	maintenance = 50
+	commodity_costs = {
+		armament = 2
+		horses = 1
+	}
 }
 
 armor = {
@@ -44,4 +56,10 @@ armor = {
 	defense = 20
 	movement = 9
 	required_technology = mobile_warfare
+	wealth_cost = 9000
+	maintenance = 250
+	commodity_costs = {
+		armament = 10
+		fuel = 4
+	}
 }

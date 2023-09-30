@@ -22,6 +22,12 @@ ship_of_the_line = {
 	hit_points = 65
 	movement = 3
 	required_technology = ship_of_the_line
+	maintenance = 125
+	commodity_costs = {
+		fabric = 3
+		lumber = 8
+		armament = 5
+	}
 }
 
 ironclad = {
@@ -35,6 +41,13 @@ ironclad = {
 	hit_points = 50
 	movement = 5
 	required_technology = advanced_iron_working
+	maintenance = 150
+	commodity_costs = {
+		lumber = 4
+		armament = 6
+		steel = 4
+		coal = 10
+	}
 }
 
 advanced_ironclad = {
@@ -48,6 +61,13 @@ advanced_ironclad = {
 	hit_points = 70
 	movement = 6
 	required_technology = steel_armor_plate
+	maintenance = 375
+	commodity_costs = {
+		lumber = 8
+		armament = 15
+		steel = 10
+		coal = 20
+	}
 }
 
 dreadnought = {
@@ -61,4 +81,10 @@ dreadnought = {
 	hit_points = 115
 	movement = 7
 	required_technology = improved_range_finding
+	maintenance = 600
+	commodity_costs = {
+		armament = 24
+		steel = 30
+		fuel = 20
+	}
 }

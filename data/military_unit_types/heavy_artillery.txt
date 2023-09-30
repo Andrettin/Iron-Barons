@@ -44,6 +44,11 @@ artillery = {
 	defense = 2
 	movement = 3
 	required_technology = heavy_artillery
+	wealth_cost = 1000
+	maintenance = 50
+	commodity_costs = {
+		armament = 2
+	}
 }
 
 siege_artillery = {
@@ -56,6 +61,11 @@ siege_artillery = {
 	defense = 3
 	movement = 3
 	required_technology = rifled_artillery
+	wealth_cost = 5000
+	maintenance = 100
+	commodity_costs = {
+		armament = 4
+	}
 }
 
 railroad_guns = {
@@ -68,4 +78,9 @@ railroad_guns = {
 	defense = 20
 	movement = 3
 	required_technology = large_artillery
+	wealth_cost = 9000
+	maintenance = 200
+	commodity_costs = {
+		armament = 8
+	}
 }

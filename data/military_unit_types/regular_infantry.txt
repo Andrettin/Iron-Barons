@@ -44,6 +44,11 @@ regulars = {
 	movement = 4
 	entrench = true
 	required_technology = bayonet
+	wealth_cost = 500
+	maintenance = 25
+	commodity_costs = {
+		armament = 1
+	}
 }
 
 rifle_infantry = {
@@ -57,6 +62,11 @@ rifle_infantry = {
 	movement = 4
 	entrench = true
 	required_technology = needle_gun
+	wealth_cost = 3000
+	maintenance = 50
+	commodity_costs = {
+		armament = 2
+	}
 }
 
 infantry = {
@@ -71,4 +81,9 @@ infantry = {
 	entrench = true
 	entrench_bonus = 5
 	required_technology = machine_gun
+	wealth_cost = 5000
+	maintenance = 100
+	commodity_costs = {
+		armament = 4
+	}
 }

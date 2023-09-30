@@ -20,6 +20,12 @@ light_artillery = {
 	defense = 3
 	movement = 5
 	required_technology = light_artillery_tactics
+	wealth_cost = 1000
+	maintenance = 50
+	commodity_costs = {
+		armament = 2
+		horses = 1
+	}
 }
 
 field_artillery = {
@@ -32,6 +38,12 @@ field_artillery = {
 	defense = 3
 	movement = 6
 	required_technology = field_artillery_tactics
+	wealth_cost = 5000
+	maintenance = 100
+	commodity_costs = {
+		armament = 4
+		horses = 1
+	}
 }
 
 mobile_artillery = {
@@ -44,4 +56,10 @@ mobile_artillery = {
 	defense = 20
 	movement = 8
 	required_technology = large_artillery
+	wealth_cost = 5000
+	maintenance = 150
+	commodity_costs = {
+		armament = 6
+		fuel = 4
+	}
 }

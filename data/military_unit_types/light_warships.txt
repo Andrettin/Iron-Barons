@@ -35,6 +35,12 @@ frigate = {
 	hit_points = 35
 	movement = 4
 	required_technology = advanced_hull_design
+	maintenance = 50
+	commodity_costs = {
+		fabric = 2
+		lumber = 5
+		armament = 2
+	}
 }
 
 raider = {
@@ -48,6 +54,12 @@ raider = {
 	hit_points = 30
 	movement = 7
 	required_technology = paddlewheels
+	maintenance = 75
+	commodity_costs = {
+		lumber = 6
+		armament = 3
+		coal = 10
+	}
 }
 
 armored_cruiser = {
@@ -61,6 +73,13 @@ armored_cruiser = {
 	hit_points = 40
 	movement = 8
 	required_technology = marine_engineering
+	maintenance = 200
+	commodity_costs = {
+		lumber = 2
+		armament = 8
+		steel = 6
+		coal = 20
+	}
 }
 
 battlecruiser = {
@@ -74,4 +93,10 @@ battlecruiser = {
 	hit_points = 90
 	movement = 9
 	required_technology = improved_range_finding
+	maintenance = 450
+	commodity_costs = {
+		armament = 18
+		steel = 22
+		fuel = 20
+	}
 }

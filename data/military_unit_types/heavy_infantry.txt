@@ -35,6 +35,11 @@ grenadiers = {
 	movement = 4
 	entrench = true
 	required_technology = explosives
+	wealth_cost = 1000
+	maintenance = 25
+	commodity_costs = {
+		armament = 1
+	}
 	free_promotions = {
 		grenadier_1
 	}
@@ -51,6 +56,11 @@ guards = {
 	movement = 4
 	entrench = true
 	required_technology = elite_military_training
+	wealth_cost = 4000
+	maintenance = 50
+	commodity_costs = {
+		armament = 2
+	}
 }
 
 machine_gunners = {
@@ -65,4 +75,9 @@ machine_gunners = {
 	entrench = true
 	entrench_bonus = 5
 	required_technology = machine_gun
+	wealth_cost = 7000
+	maintenance = 100
+	commodity_costs = {
+		armament = 4
+	}
 }
