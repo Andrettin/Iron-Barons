@@ -17,11 +17,11 @@ PopulationChart {
 	function update_chart() {
 		pie_series.clear()
 
-		if (chart.data === null && chart.data_source === null) {
+		if (chart.population_data === null && chart.data_source === null) {
 			return
 		}
 
-		var population_per_culture = chart.data ? chart.data : chart.data_source.culture_counts
+		var population_per_culture = chart.population_data ? chart.population_data : chart.data_source.culture_counts
 		for (var i = 0; i < population_per_culture.length; i++) {
 			var culture = population_per_culture[i].key
 			var count = population_per_culture[i].value

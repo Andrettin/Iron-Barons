@@ -4,7 +4,7 @@ import QtCharts
 
 ChartView {
 	property var data_source: null //the data source for the chart, i.e. a population structure
-	property var data: null //the data for the chart, e.g. population type counts; if present, overrides what is in the data source
+	property var population_data: null //the data for the chart, e.g. population type counts; if present, overrides what is in the data source
 	readonly property var pie_series: pie_series
 
 	id: chart
@@ -19,7 +19,7 @@ ChartView {
 	antialiasing: true
 
 	onData_sourceChanged: chart.update_chart()
-	onDataChanged: chart.update_chart()
+	onPopulation_dataChanged: chart.update_chart()
 
 	PieSeries {
 		id: pie_series
