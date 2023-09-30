@@ -18,6 +18,10 @@ indiaman = {
 	speed = 3
 	cargo = 8
 	required_technology = large_hulls
+	commodity_costs = {
+		fabric = 3
+		lumber = 7
+	}
 }
 
 paddlewheeler = {
@@ -29,6 +33,11 @@ paddlewheeler = {
 	speed = 6
 	cargo = 10
 	required_technology = merchant_steamships
+	commodity_costs = {
+		lumber = 6
+		steel = 2
+		coal = 10
+	}
 }
 
 freighter = {
@@ -40,4 +49,8 @@ freighter = {
 	speed = 7
 	cargo = 16
 	required_technology = marine_engineering
+	commodity_costs = {
+		steel = 8
+		coal = 20
+	}
 }

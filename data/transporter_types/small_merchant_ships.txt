@@ -17,6 +17,10 @@ trader = {
 	speed = 4
 	cargo = 4
 	required_technology = improved_sail_design
+	commodity_costs = {
+		fabric = 2
+		lumber = 4
+	}
 }
 
 clipper = {
@@ -28,4 +32,8 @@ clipper = {
 	speed = 7
 	cargo = 6
 	required_technology = streamlined_hulls
+	commodity_costs = {
+		fabric = 2
+		lumber = 6
+	}
 }
