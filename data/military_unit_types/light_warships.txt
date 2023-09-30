@@ -22,6 +22,11 @@ sloop = {
 	hit_points = 25
 	movement = 4
 	required_technology = navigation
+	commodity_costs = {
+		lumber = 3
+		bronze = 2
+		fabric = 1
+	}
 }
 
 frigate = {

@@ -6,6 +6,11 @@ carrack = {
 	hit_points = 25
 	speed = 3
 	cargo = 3
+	commodity_costs = {
+		lumber = 4
+		cast_iron = 2
+		fabric = 2
+	}
 }
 
 trader = {

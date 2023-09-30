@@ -9,6 +9,10 @@ arquebusiers = {
 	movement = 2
 	entrench = true
 	required_technology = gunpowder
+	commodity_costs = {
+		fabric = 1
+		bronze = 1
+	}
 }
 
 musketeers = {
@@ -22,6 +26,10 @@ musketeers = {
 	movement = 3
 	entrench = true
 	required_technology = weapon_craftsmanship
+	commodity_costs = {
+		fabric = 1
+		bronze = 2
+	}
 }
 
 grenadiers = {

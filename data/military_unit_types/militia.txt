@@ -7,6 +7,9 @@ peasant_levies = {
 	defense = 3
 	movement = 3
 	entrench = true
+	commodity_costs = {
+		fabric = 1
+	}
 }
 
 minutemen = {

@@ -9,6 +9,11 @@ galleon = {
 	hit_points = 50
 	movement = 2
 	required_technology = convoying
+	commodity_costs = {
+		lumber = 8
+		bronze = 4
+		fabric = 3
+	}
 }
 
 ship_of_the_line = {

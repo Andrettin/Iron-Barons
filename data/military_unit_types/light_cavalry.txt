@@ -6,6 +6,11 @@ squires = {
 	range = 1
 	defense = 4
 	movement = 6
+	commodity_costs = {
+		fabric = 1
+		cast_iron = 1
+		horses = 1
+	}
 }
 
 cossacks = {
@@ -17,6 +22,11 @@ cossacks = {
 	defense = 5
 	movement = 8
 	required_technology = recruit_steppe_horsemen
+	commodity_costs = {
+		fabric = 1
+		cast_iron = 1
+		horses = 2
+	}
 }
 
 hussars = {

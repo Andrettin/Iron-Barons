@@ -21,4 +21,8 @@ crossbowmen = {
 	defense = 2
 	movement = 3
 	entrench = true
+	commodity_costs = {
+		fabric = 1
+		lumber = 1
+	}
 }

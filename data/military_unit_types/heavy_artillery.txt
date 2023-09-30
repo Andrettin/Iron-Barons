@@ -20,6 +20,10 @@ culverin = {
 	defense = 2
 	movement = 2
 	required_technology = gunpowder
+	commodity_costs = {
+		fabric = 1
+		bronze = 4
+	}
 }
 
 royal_artillery = {
@@ -32,6 +36,10 @@ royal_artillery = {
 	defense = 2
 	movement = 2
 	required_technology = siege_engineering
+	commodity_costs = {
+		fabric = 1
+		bronze = 6
+	}
 }
 
 artillery = {

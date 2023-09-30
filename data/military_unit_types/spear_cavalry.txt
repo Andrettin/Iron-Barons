@@ -18,6 +18,11 @@ knights = {
 	defense = 6
 	movement = 4
 	required_technology = chivalry
+	commodity_costs = {
+		fabric = 1
+		bronze = 2
+		horses = 2
+	}
 }
 
 lancers = {
@@ -29,4 +34,9 @@ lancers = {
 	defense = 5
 	movement = 6
 	required_technology = organized_regiments
+	commodity_costs = {
+		fabric = 1
+		bronze = 2
+		horses = 3
+	}
 }

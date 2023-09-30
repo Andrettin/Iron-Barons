@@ -7,6 +7,11 @@ fluyte = {
 	speed = 2
 	cargo = 4
 	required_technology = superior_hull_design
+	commodity_costs = {
+		lumber = 6
+		cast_iron = 2
+		fabric = 2
+	}
 }
 
 indiaman = {

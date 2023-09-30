@@ -8,6 +8,11 @@ horse_artillery = {
 	defense = 2
 	movement = 3
 	required_technology = horse_artillery
+	commodity_costs = {
+		fabric = 1
+		bronze = 4
+		horses = 3
+	}
 }
 
 light_artillery = {

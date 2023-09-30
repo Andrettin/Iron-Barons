@@ -19,6 +19,10 @@ pikemen = {
 	movement = 3
 	entrench = true
 	required_technology = pike
+	commodity_costs = {
+		fabric = 1
+		cast_iron = 1
+	}
 }
 
 halberdiers = {
@@ -31,6 +35,10 @@ halberdiers = {
 	movement = 4
 	entrench = true
 	required_technology = halberd
+	commodity_costs = {
+		fabric = 1
+		cast_iron = 2
+	}
 }
 
 regulars = {

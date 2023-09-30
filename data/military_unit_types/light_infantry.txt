@@ -20,6 +20,10 @@ calivermen = {
 	movement = 4
 	entrench = true
 	required_technology = improved_infantry_tactics
+	commodity_costs = {
+		fabric = 1
+		bronze = 2
+	}
 }
 
 skirmishers = {
