@@ -6,6 +6,7 @@ religious_immigration = {
 	conditions = {
 		scripted_condition = is_power
 		population_scaled_piety = 2
+		available_food > 0
 		
 		any_settlement = {
 			available_housing > 0
