@@ -17,11 +17,11 @@ PopulationChart {
 	function update_chart() {
 		pie_series.clear()
 
-		if (chart.data_source === null) {
+		if (chart.data === null && chart.data_source === null) {
 			return
 		}
 
-		var population_per_ideology = chart.data_source.ideology_counts
+		var population_per_ideology = chart.data ? chart.data : chart.data_source.ideology_counts
 		for (var i = 0; i < population_per_ideology.length; i++) {
 			var ideology = population_per_ideology[i].key
 			var count = population_per_ideology[i].value
