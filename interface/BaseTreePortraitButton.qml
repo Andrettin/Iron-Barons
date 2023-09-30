@@ -163,7 +163,10 @@ Item {
 						}
 						
 						onExited: {
-							status_text = ""
+							//only clear the status text on exist if it was actually still the text set by this
+							if (status_text === ("Prerequisite: " + secondary_parent.name)) {
+								status_text = ""
+							}
 						}
 					}
 				}
