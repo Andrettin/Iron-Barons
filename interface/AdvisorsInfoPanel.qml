@@ -26,7 +26,7 @@ Rectangle {
 		anchors.topMargin: 16 * scale_factor
 		name: advisor_commodity.name
 		icon_identifier: advisor_commodity.icon.identifier
-		count: country_game_data.get_stored_commodity(advisor_commodity.identifier)
+		count: country_game_data.get_stored_commodity(advisor_commodity)
 	}
 	
 	SmallText {
@@ -85,7 +85,7 @@ Rectangle {
 		anchors.topMargin: next_advisor_portrait.visible ? 32 * scale_factor : 166 * scale_factor
 		name: leader_commodity.name
 		icon_identifier: leader_commodity.icon.identifier
-		count: country_game_data.get_stored_commodity(leader_commodity.identifier)
+		count: country_game_data.get_stored_commodity(leader_commodity)
 	}
 	
 	SmallText {
@@ -152,7 +152,7 @@ Rectangle {
 		anchors.topMargin: next_leader_icon.visible ? 32 * scale_factor : 166 * scale_factor
 		name: "Piety"
 		icon_identifier: "wooden_cross"
-		count: country_game_data.get_stored_commodity("piety")
+		count: country_game_data.get_stored_commodity(metternich.defines.piety_commodity)
 	}
 	
 	TextButton {

@@ -67,7 +67,7 @@ Rectangle {
 
 	SmallText {
 		id: prestige_label
-		text: metternich.game.player_country.game_data.stored_commodities.length > 0 ? number_string(metternich.game.player_country.game_data.get_stored_commodity("prestige")) : 0 //refer to the stored commodities to ensure the counter is updated when prestige changes
+		text: metternich.game.player_country.game_data.stored_commodities.length > 0 ? number_string(metternich.game.player_country.game_data.get_stored_commodity(metternich.defines.prestige_commodity)) : 0 //refer to the stored commodities to ensure the counter is updated when prestige changes
 		anchors.top: parent.top
 		anchors.topMargin: 1 * scale_factor
 		anchors.left: prestige_icon.right

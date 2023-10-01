@@ -21,9 +21,9 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
 		anchors.topMargin: 96 * scale_factor
-		name: "Research"
-		icon_identifier: "research"
-		count: country_game_data.get_stored_commodity("research")
+		name: metternich.defines.research_commodity.name
+		icon_identifier: metternich.defines.research_commodity.icon.identifier
+		count: country_game_data.get_stored_commodity(metternich.defines.research_commodity)
 		visible: current_research_portrait.visible
 	}
 	

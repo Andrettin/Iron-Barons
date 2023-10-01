@@ -17,6 +17,8 @@ population_growth_threshold = 100
 base_housing = 8
 
 research_commodity = research
+prestige_commodity = prestige
+piety_commodity = piety
 advisor_commodity = statesmanship
 leader_commodity = leadership
 interior_minister_portrait = metternich

@@ -1,5 +1,5 @@
 fur_hats = {
-	name = "Fut Hats"
+	name = "Fur Hats"
 	icon = clothing
 	base_price = 300
 }
