@@ -71,6 +71,7 @@ Rectangle {
 		icon_identifier: "wealth"
 		
 		onReleased: {
+			menu_stack.push("TradeView.qml")
 		}
 		
 		onHoveredChanged: {
