@@ -10,6 +10,11 @@ trained_workers = {
 	consumed_commodities = {
 		amenities = 0.5
 	}
+	commodity_demands = {
+		clothing = 0.1
+		furniture = 0.1
+		tools = 0.1
+	}
 	phenotype_icons = {
 		afro_european = craftsmen_medium
 		amerindian = craftsmen_medium

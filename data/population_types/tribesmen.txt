@@ -9,6 +9,11 @@ tribesmen = {
 	consumed_commodities = {
 		amenities = 0.5
 	}
+	commodity_demands = {
+		clothing = 0.05
+		furniture = 0.05
+		tools = 0.05
+	}
 	phenotype_icons = {
 		afro_european = slaves_medium
 		amerindian = slaves_medium

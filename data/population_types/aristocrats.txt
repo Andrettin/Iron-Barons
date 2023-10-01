@@ -8,6 +8,11 @@ aristocrats = {
 	consumed_commodities = {
 		amenities = 0.5
 	}
+	commodity_demands = {
+		clothing = 0.25
+		furniture = 0.25
+		tools = 0.25
+	}
 	country_modifier = {
 		resource_output_modifier = 1
 	}
