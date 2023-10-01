@@ -39,7 +39,7 @@ DialogBase {
 		anchors.rightMargin: 8 * scale_factor
 		anchors.bottom: option_column.top
 		anchors.bottomMargin: 16 * scale_factor
-		text: format_text(event_instance.description)
+		text: event_instance ? format_text(event_instance.description) : ""
 		wrapMode: Text.WordWrap
 	}
 	

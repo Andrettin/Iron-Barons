@@ -262,7 +262,7 @@ DialogBase {
 							anchors.rightMargin: 8 * scale_factor
 							hoverEnabled: true
 		
-							onClicked: {
+							onClicked: function(mouse) {
 								var current_employed_capacity = employed_capacity
 								var target_employed_capacity = Math.round(mouse.x * capacity / width)
 								
