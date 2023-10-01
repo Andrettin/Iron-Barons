@@ -217,172 +217,116 @@ DialogBase {
 					}
 				}
 				
-				Item {
+				CustomSlider {
 					id: production_slider
 					anchors.verticalCenter: production_formula_row.verticalCenter
 					anchors.right: parent.right
-					width: 176 * scale_factor
-					height: 16 * scale_factor
+					value: employed_capacity
+					secondary_value: output_value
+					max_value: capacity
 					
-					Rectangle {
-						anchors.verticalCenter: parent.verticalCenter
-						anchors.left: parent.left
-						anchors.leftMargin: 8 * scale_factor
-						anchors.right: parent.right
-						anchors.rightMargin: 8 * scale_factor
-						height: 16 * scale_factor
-						color: "black"
-						border.color: "gray"
-						border.width: 1 * scale_factor
-						
-						Rectangle {
-							anchors.top: parent.top
-							anchors.topMargin: 1 * scale_factor
-							anchors.bottom: parent.bottom
-							anchors.bottomMargin: 1 * scale_factor
-							anchors.left: parent.left
-							anchors.leftMargin: 1 * scale_factor
-							width: Math.floor((parent.width - 2 * scale_factor) * employed_capacity / capacity)
-							color: "dimGray"
-						}
-						
-						SmallText {
-							id: output_label
-							text: number_string(employed_capacity) + (output_value !== employed_capacity ? (" (" + number_string(output_value) + ")") : "")
-							anchors.verticalCenter: parent.verticalCenter
-							anchors.horizontalCenter: parent.horizontalCenter
-						}
-						
-						MouseArea {
-							anchors.top: parent.top
-							anchors.bottom: parent.bottom
-							anchors.left: parent.left
-							anchors.leftMargin: 8 * scale_factor
-							anchors.right: parent.right
-							anchors.rightMargin: 8 * scale_factor
-							hoverEnabled: true
-		
-							onClicked: function(mouse) {
-								var current_employed_capacity = employed_capacity
-								var target_employed_capacity = Math.round(mouse.x * capacity / width)
-								
-								if (target_employed_capacity > current_employed_capacity) {
-									while (target_employed_capacity > current_employed_capacity) {
-										if (!building_slot.can_increase_production(production_type)) {
-											break
-										}
-										
-										building_slot.increase_production(production_type)
-										current_employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
-									}
-								} else if (target_employed_capacity < current_employed_capacity) {
-									while (target_employed_capacity < current_employed_capacity) {
-										if (!building_slot.can_decrease_production(production_type)) {
-											break
-										}
-										
-										building_slot.decrease_production(production_type)
-										current_employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
-									}
-								} else {
-									return
-								}
-								
-								employed_capacity = current_employed_capacity
-								output_value = building_slot.get_production_type_output(production_type)
-								update_status_text()
-							}
-							
-							onEntered: {
-								update_status_text()
-							}
-							
-							onExited: {
-								status_text = ""
-							}
-							
-							function update_status_text() {
-								var text = ""
-								
-								var base_input_commodities = production_type.input_commodities
-								var input_commodities = building_slot.get_production_type_inputs(production_type)
-								
-								for (var i = 0; i < input_commodities.length; i++) {
-									var commodity = input_commodities[i].key
-									var quantity = input_commodities[i].value
-									var base_quantity = base_input_commodities[i].value * employed_capacity
-									
-									if (text.length > 0) {
-										text += " + "
-									}
-									
-									if (quantity !== base_quantity) {
-										text += "("
-									}
-									
-									text += base_quantity + " " + commodity.name
-									
-									if (quantity !== base_quantity) {
-										var modifier = Math.floor(100 * 100 / (100 + country_game_data.throughput_modifier + country_game_data.get_commodity_throughput_modifier(output_commodity)) - 100)
-										text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + quantity + " " + commodity.name 										
-										text += ")"
-									}
-								}
-								
-								if (production_type.input_wealth !== 0) {
-									var total_input_wealth = building_slot.get_production_type_input_wealth(production_type)
-									if (text.length > 0) {
-										text += " + "
-									}
-									
-									text += "$" + number_string(total_input_wealth)
-								}
-								
-								text += " → " + employed_capacity + " " + output_commodity.name
-								
-								if (output_value !== employed_capacity) {
-									var modifier = country_game_data.output_modifier + country_game_data.get_commodity_output_modifier(output_commodity)
-									if (production_type.industrial) {
-										modifier += country_game_data.industrial_output_modifier
-									}
-									text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + output_value + " " + output_commodity.name
-								}
-								
-								status_text = text
-							}
+					onDecremented: {
+						if (building_slot.can_decrease_production(production_type)) {
+							building_slot.decrease_production(production_type)
+							employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
+							output_value = building_slot.get_production_type_output(production_type)
 						}
 					}
 					
-					IconButton {
-						anchors.verticalCenter: parent.verticalCenter
-						anchors.left: parent.left
-						width: 16 * scale_factor
-						height: 16 * scale_factor
-						icon_identifier: "trade_consulate"
-						
-						onReleased: {
-							if (building_slot.can_decrease_production(production_type)) {
-								building_slot.decrease_production(production_type)
-								employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
-								output_value = building_slot.get_production_type_output(production_type)
-							}
+					onIncremented: {
+						if (building_slot.can_increase_production(production_type)) {
+							building_slot.increase_production(production_type)
+							employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
+							output_value = building_slot.get_production_type_output(production_type)
 						}
 					}
 					
-					IconButton {
-						anchors.verticalCenter: parent.verticalCenter
-						anchors.right: parent.right
-						width: 16 * scale_factor
-						height: 16 * scale_factor
-						icon_identifier: "trade_consulate"
+					onClicked: function(target_value) {
+						var current_employed_capacity = employed_capacity
 						
-						onReleased: {
-							if (building_slot.can_increase_production(production_type)) {
+						if (target_value > current_employed_capacity) {
+							while (target_value > current_employed_capacity) {
+								if (!building_slot.can_increase_production(production_type)) {
+									break
+								}
+								
 								building_slot.increase_production(production_type)
-								employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
-								output_value = building_slot.get_production_type_output(production_type)
+								current_employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
+							}
+						} else if (target_value < current_employed_capacity) {
+							while (target_value < current_employed_capacity) {
+								if (!building_slot.can_decrease_production(production_type)) {
+									break
+								}
+								
+								building_slot.decrease_production(production_type)
+								current_employed_capacity = building_slot.get_production_type_employed_capacity(production_type)
+							}
+						} else {
+							return
+						}
+						
+						employed_capacity = current_employed_capacity
+						output_value = building_slot.get_production_type_output(production_type)
+						update_status_text()
+					}
+					
+					onEntered: {
+						update_status_text()
+					}
+					
+					onExited: {
+						status_text = ""
+					}
+					
+					function update_status_text() {
+						var text = ""
+						
+						var base_input_commodities = production_type.input_commodities
+						var input_commodities = building_slot.get_production_type_inputs(production_type)
+						
+						for (var i = 0; i < input_commodities.length; i++) {
+							var commodity = input_commodities[i].key
+							var quantity = input_commodities[i].value
+							var base_quantity = base_input_commodities[i].value * employed_capacity
+							
+							if (text.length > 0) {
+								text += " + "
+							}
+							
+							if (quantity !== base_quantity) {
+								text += "("
+							}
+							
+							text += base_quantity + " " + commodity.name
+							
+							if (quantity !== base_quantity) {
+								var modifier = Math.floor(100 * 100 / (100 + country_game_data.throughput_modifier + country_game_data.get_commodity_throughput_modifier(output_commodity)) - 100)
+								text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + quantity + " " + commodity.name 										
+								text += ")"
 							}
 						}
+						
+						if (production_type.input_wealth !== 0) {
+							var total_input_wealth = building_slot.get_production_type_input_wealth(production_type)
+							if (text.length > 0) {
+								text += " + "
+							}
+							
+							text += "$" + number_string(total_input_wealth)
+						}
+						
+						text += " → " + employed_capacity + " " + output_commodity.name
+						
+						if (output_value !== employed_capacity) {
+							var modifier = country_game_data.output_modifier + country_game_data.get_commodity_output_modifier(output_commodity)
+							if (production_type.industrial) {
+								modifier += country_game_data.industrial_output_modifier
+							}
+							text += " " + (modifier > 0 ? "+" : "-") + " " + Math.abs(modifier) + "% = " + output_value + " " + output_commodity.name
+						}
+						
+						status_text = text
 					}
 				}
 			}
