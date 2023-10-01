@@ -1,4 +1,5 @@
 bronze = {
 	name = "Bronze"
 	icon = bronze
+	base_price = 300
 }

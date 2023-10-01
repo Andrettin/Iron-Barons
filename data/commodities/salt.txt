@@ -1,4 +1,5 @@
 salt = {
 	name = "Salt"
 	icon = salt
+	base_price = 100
 }

@@ -2,4 +2,5 @@ fish = {
 	name = "Fish"
 	icon = fish
 	food_type = meat
+	base_price = 100
 }

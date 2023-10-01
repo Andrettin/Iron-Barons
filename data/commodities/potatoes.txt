@@ -2,4 +2,5 @@ potatoes = {
 	name = "Potatoes"
 	icon = grain
 	food_type = starch
+	base_price = 100
 }

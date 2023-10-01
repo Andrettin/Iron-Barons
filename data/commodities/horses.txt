@@ -1,4 +1,5 @@
 horses = {
 	name = "Horses"
 	icon = horses
+	base_price = 100
 }
