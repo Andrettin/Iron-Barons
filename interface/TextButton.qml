@@ -15,7 +15,7 @@ ButtonBase {
         implicitWidth: 40
         implicitHeight: 40
         radius: button.radius
-        color: "black"
+        color: highlighted ? "dimGray" : "black"
         border.color: allowed ? "gray" : "dimGray"
         border.width: 1 * scale_factor
     }

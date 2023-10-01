@@ -52,6 +52,44 @@ Item {
 				visible: index !== (commodity_list.model.length - 1)
 			}
 			
+			TextButton {
+				id: bid_button
+				anchors.verticalCenter: parent.verticalCenter
+				anchors.right: offer_button.left
+				anchors.rightMargin: 16 * scale_factor
+				text: qsTr("Bid")
+				width: 48 * scale_factor
+				height: 24 * scale_factor
+				highlighted: country_game_data.bids.length > 0 && country_game_data.get_bid(commodity) > 0
+				
+				onClicked: {
+					if (country_game_data.get_bid(commodity) === 0) {
+						country_game_data.set_bid(commodity, 10)
+					} else {
+						country_game_data.set_bid(commodity, 0)
+					}
+				}
+			}
+			
+			TextButton {
+				id: offer_button
+				anchors.verticalCenter: parent.verticalCenter
+				anchors.right: price_area.left
+				anchors.rightMargin: 16 * scale_factor
+				text: qsTr("Offer")
+				width: 48 * scale_factor
+				height: 24 * scale_factor
+				highlighted: country_game_data.offers.length > 0 && country_game_data.get_offer(commodity) > 0
+				
+				onClicked: {
+					if (country_game_data.get_offer(commodity) === 0) {
+						country_game_data.set_offer(commodity, 10)
+					} else {
+						country_game_data.set_offer(commodity, 0)
+					}
+				}
+			}
+			
 			Item {
 				id: price_area
 				anchors.top: parent.top
