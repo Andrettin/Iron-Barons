@@ -64,9 +64,28 @@ Rectangle {
 	}
 	
 	IconButton {
-		id: diplomatic_map_button
+		id: trade_button
 		anchors.top: industry_button.top
 		anchors.left: industry_button.right
+		anchors.leftMargin: 4 * scale_factor
+		icon_identifier: "wealth"
+		
+		onReleased: {
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Trade"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: diplomatic_map_button
+		anchors.top: industry_button.top
+		anchors.left: trade_button.right
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "globe"
 		
