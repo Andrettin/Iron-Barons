@@ -7,7 +7,7 @@ Item {
 	height: 16 * scale_factor
 	
 	property int value: 0
-	property int secondary_value: 0
+	property int secondary_value: value
 	property int max_value: 0
 	
 	signal decremented()
@@ -76,6 +76,7 @@ Item {
 		width: 16 * scale_factor
 		height: 16 * scale_factor
 		icon_identifier: "trade_consulate"
+		use_opacity_mask: false
 		
 		onReleased: {
 			slider.decremented()
@@ -88,8 +89,13 @@ Item {
 		width: 16 * scale_factor
 		height: 16 * scale_factor
 		icon_identifier: "trade_consulate"
+		use_opacity_mask: false
 		
 		onReleased: {
+			if (value >= max_value) {
+				return
+			}
+			
 			slider.incremented()
 		}
 	}

@@ -80,10 +80,11 @@ Item {
 				width: 48 * scale_factor
 				height: 24 * scale_factor
 				highlighted: country_game_data.offers.length > 0 && country_game_data.get_offer(commodity) > 0
+				visible: country_game_data.stored_commodities.length > 0 && country_game_data.get_stored_commodity(commodity)
 				
 				onClicked: {
 					if (country_game_data.get_offer(commodity) === 0) {
-						country_game_data.set_offer(commodity, 10)
+						country_game_data.set_offer(commodity, country_game_data.get_stored_commodity(commodity))
 					} else {
 						country_game_data.set_offer(commodity, 0)
 					}
@@ -156,11 +157,55 @@ Item {
 					width: 1 * scale_factor
 				}
 				
-				SmallText {
-					id: quantity_to_trade_label
-					text: ""
-					anchors.horizontalCenter: parent.horizontalCenter
+				CustomSlider {
+					id: quantity_to_trade_slider
 					anchors.verticalCenter: parent.verticalCenter
+					anchors.left: parent.left
+					anchors.leftMargin: 16 * scale_factor
+					anchors.right: parent.right
+					anchors.rightMargin: 16 * scale_factor
+					value: country_game_data.bids.length > 0 && is_bid ? country_game_data.get_bid(commodity) : (country_game_data.offers.length > 0 && is_offer ? country_game_data.get_offer(commodity) : 0)
+					max_value: is_bid ? 10 : Math.max(10, country_game_data.stored_commodities.length > 0 ? country_game_data.get_stored_commodity(commodity) : 0)
+					visible: is_bid || is_offer
+					
+					readonly property bool is_bid: country_game_data.bids.length > 0 && country_game_data.get_bid(commodity) > 0
+					readonly property bool is_offer: country_game_data.offers.length > 0 && country_game_data.get_offer(commodity) > 0
+					
+					onDecremented: {
+						if (is_bid) {
+							if (country_game_data.get_bid(commodity) == 1) {
+								return
+							}
+							
+							country_game_data.change_bid(commodity, -1)
+						} else if (is_offer) {
+							if (country_game_data.get_offer(commodity) == 1) {
+								return
+							}
+							
+							country_game_data.change_offer(commodity, -1)
+						}
+					}
+					
+					onIncremented: {
+						if (is_bid) {
+							country_game_data.change_bid(commodity, 1)
+						} else if (is_offer) {
+							country_game_data.change_offer(commodity, 1)
+						}
+					}
+					
+					onClicked: function(target_value) {
+						if (target_value == 0) {
+							target_value = 1
+						}
+						
+						if (is_bid) {
+							country_game_data.set_bid(commodity, target_value)
+						} else if (is_offer) {
+							country_game_data.set_offer(commodity, target_value)
+						}
+					}
 				}
 			}
 		}

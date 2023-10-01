@@ -12,6 +12,7 @@ ButtonBase {
 	property color border_color: "gray"
 	property bool circle: false
 	property bool unrounded_left_corners: false
+	property bool use_opacity_mask: true
 	
     background: Rectangle {
         implicitWidth: 40
@@ -47,7 +48,7 @@ ButtonBase {
 		width: parent.width - 1 * scale_factor * 2 //width inside the border
 		height: parent.height - 1 * scale_factor * 2
 		layer.enabled: true
-		visible: false
+		visible: use_opacity_mask === false
 		
 		Image {
 			id: icon_image
@@ -67,5 +68,6 @@ ButtonBase {
 		height: icon_image_area.height
 		radius: circle ? (width * 0.5) : 5 * scale_factor
         source: icon_image_area
+		visible: use_opacity_mask
 	}
 }
