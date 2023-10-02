@@ -260,7 +260,8 @@ Item {
 				title: technology.discovery ? "Discovery" : "Technology Researched",
 				portrait_object: metternich.defines.interior_minister_portrait,
 				text: technology.discovery ? ("Your Excellency, we have discovered " + technology.name + "!") : ("Your Excellency, our scholars have made a breakthrough in the research of the " + technology.name + " technology!"),
-				on_closed: () => {
+				second_button_text: "View Technologies",
+				second_button_effects: () => {
 					if (!technology.discovery && !(menu_stack.currentItem instanceof TechnologyView)) {
 						menu_stack.push("TechnologyView.qml")
 					}
@@ -280,7 +281,8 @@ Item {
 				title: "Advisor Recruited",
 				portrait_object: metternich.defines.interior_minister_portrait,
 				text: "Your Excellency, " + advisor.full_name  + " has joined our nation as an advisor!",
-				on_closed: () => {
+				second_button_text: "View Advisors",
+				second_button_effects: () => {
 					menu_stack.push("AdvisorsView.qml", {
 						country: metternich.game.player_country,
 						new_advisor: advisor

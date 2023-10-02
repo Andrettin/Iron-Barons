@@ -11,7 +11,8 @@ DialogBase {
 	readonly property string portrait_identifier: portrait_object !== null ? (portrait_object.class_name === "metternich::character" ? portrait_object.game_data.portrait.identifier : portrait_object.identifier) : ""
 	property string effects_text: ""
 	property string text: ""
-	property var on_closed: null
+	property string second_button_text: ""
+	property var second_button_effects: null
 	
 	Column {
 		id: column
@@ -66,16 +67,35 @@ DialogBase {
 			}
 		}
 		
-		TextButton {
-			id: ok_button
-			anchors.horizontalCenter: parent.horizontalCenter
-			text: "OK"
-			onClicked: {
-				notification_dialog.close()
-				notification_dialog.destroy()
-				
-				if (on_closed) {
-					on_closed()
+		Column {
+			anchors.left: parent.left
+			anchors.right: parent.right
+			spacing: 8 * scale_factor
+			
+			TextButton {
+				id: second_button
+				anchors.horizontalCenter: parent.horizontalCenter
+				text: second_button_text
+				width: 128 * scale_factor
+				visible: second_button_text.length > 0 && second_button_effects
+				onClicked: {
+					notification_dialog.close()
+					notification_dialog.destroy()
+					
+					if (second_button_effects) {
+						second_button_effects()
+					}
+				}
+			}
+			
+			TextButton {
+				id: ok_button
+				anchors.horizontalCenter: parent.horizontalCenter
+				text: "OK"
+				width: 128 * scale_factor
+				onClicked: {
+					notification_dialog.close()
+					notification_dialog.destroy()
 				}
 			}
 		}
