@@ -9,13 +9,13 @@ aristocrats = {
 		amenities = 0.5
 	}
 	commodity_demands = {
-		clothing = 0.25
-		furniture = 0.25
-		tools = 0.25
-		paper = 0.25
-		coffee = 0.25
-		tea = 0.25
-		coal = 0.25
+		clothing = 0.2
+		furniture = 0.2
+		tools = 0.2
+		paper = 0.2
+		coffee = 0.2
+		tea = 0.2
+		coal = 0.1
 	}
 	country_modifier = {
 		resource_output_modifier = 1

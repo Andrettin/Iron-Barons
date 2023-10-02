@@ -13,8 +13,8 @@ untrained_workers = {
 		clothing = 0.1
 		furniture = 0.1
 		tools = 0.1
-		coffee = 0.05
-		tea = 0.05
+		coffee = 0.1
+		tea = 0.1
 		coal = 0.05
 	}
 	phenotype_icons = {
