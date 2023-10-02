@@ -13,6 +13,7 @@ expert_workers = {
 		clothing = 0.1
 		furniture = 0.1
 		tools = 0.1
+		paper = 0.1
 	}
 	phenotype_icons = {
 		afro_european = craftsmen_medium
