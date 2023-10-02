@@ -109,7 +109,7 @@ Item {
 				
 				SmallText {
 					id: price_label
-					text: "$" + number_string(commodity.base_price)
+					text: "$" + number_string(metternich.game.get_price(commodity))
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.right: parent.right
 					anchors.rightMargin: 32 * scale_factor
