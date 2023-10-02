@@ -13,6 +13,9 @@ untrained_workers = {
 		clothing = 0.1
 		furniture = 0.1
 		tools = 0.1
+		coffee = 0.05
+		tea = 0.05
+		coal = 0.05
 	}
 	phenotype_icons = {
 		afro_european = craftsmen_medium

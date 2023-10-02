@@ -13,6 +13,9 @@ aristocrats = {
 		furniture = 0.25
 		tools = 0.25
 		paper = 0.25
+		coffee = 0.25
+		tea = 0.25
+		coal = 0.25
 	}
 	country_modifier = {
 		resource_output_modifier = 1

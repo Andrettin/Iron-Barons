@@ -13,6 +13,9 @@ tribesmen = {
 		clothing = 0.05
 		furniture = 0.05
 		tools = 0.05
+		coffee = 0.01
+		tea = 0.01
+		coal = 0.01
 	}
 	phenotype_icons = {
 		afro_european = slaves_medium
