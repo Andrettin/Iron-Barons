@@ -1,6 +1,5 @@
 import QtQuick
 import QtQuick.Controls
-import "./dialogs"
 
 Item {
 	id: trade_view

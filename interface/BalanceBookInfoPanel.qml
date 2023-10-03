@@ -16,26 +16,6 @@ Rectangle {
 		width: 1 * scale_factor
 	}
 	
-	IconButton {
-		id: balance_book_button
-		anchors.top: parent.top
-		anchors.topMargin: 16 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		icon_identifier: "chest"
-		
-		onReleased: {
-			menu_stack.push("BalanceBookView.qml")
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "View Balance Book"
-			} else {
-				status_text = ""
-			}
-		}
-	}
-	
 	TextButton {
 		id: back_button
 		anchors.horizontalCenter: parent.horizontalCenter
