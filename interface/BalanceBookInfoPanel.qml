@@ -4,7 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id: infopanel
 	color: interface_background_color
-	width: 64 * scale_factor
+	width: 96 * scale_factor
 	
 	Rectangle {
 		color: "gray"
@@ -14,6 +14,15 @@ Rectangle {
 		anchors.bottomMargin: 15 * scale_factor
 		anchors.left: parent.left
 		width: 1 * scale_factor
+	}
+	
+	SmallText {
+		id: inflation_label
+		text: "Inflation: +" + country_game_data.inflation + "%"
+		anchors.top: parent.top
+		anchors.topMargin: 20 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 8 * scale_factor
 	}
 	
 	TextButton {

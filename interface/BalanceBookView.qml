@@ -5,6 +5,7 @@ Item {
 	id: balance_book_view
 	
 	readonly property var country: metternich.game.player_country
+	readonly property var country_game_data: country ? country.game_data : null
 	readonly property var country_turn_data: country ? country.turn_data : null
 	property string status_text: ""
 	property string middle_status_text: ""
@@ -118,7 +119,7 @@ Item {
 							
 							SmallText {
 								id: commodity_label
-								text: expense_transaction.commodity.name + " $" + number_string(expense_transaction.commodity.wealth_value !== 0 ? expense_transaction.commodity.wealth_value : metternich.game.get_price(expense_transaction.commodity))
+								text: expense_transaction.commodity.name + " $" + number_string(Math.floor(expense_transaction.amount / expense_transaction.commodity_quantity))
 								anchors.verticalCenter: parent.verticalCenter
 								anchors.left: commodity_icon.right
 								anchors.leftMargin: 8 * scale_factor
@@ -180,7 +181,7 @@ Item {
 				
 				SmallText {
 					id: total_expense_label
-					text: "Total Expense: "
+					text: "Total Expense:"
 					anchors.top: total_income_label.bottom
 					anchors.topMargin: 4 * scale_factor
 					anchors.left: total_income_label.left
@@ -193,10 +194,25 @@ Item {
 					anchors.right: total_income_value_label.right
 				}
 				
+				SmallText {
+					id: total_inflation_change_label
+					text: "Total Inflation Change:"
+					anchors.top: total_expense_label.bottom
+					anchors.topMargin: 4 * scale_factor
+					anchors.left: total_income_label.left
+				}
+				
+				SmallText {
+					id: total_inflation_change_value_label
+					text: "+" + country_turn_data.total_inflation_change + "%"
+					anchors.top: total_inflation_change_label.top
+					anchors.right: total_income_value_label.right
+				}
+				
 				Rectangle {
 					id: balance_border
 					color: "gray"
-					anchors.top: total_expense_label.bottom
+					anchors.top: total_inflation_change_label.bottom
 					anchors.topMargin: 4 * scale_factor
 					anchors.left: parent.left
 					anchors.right: parent.right
@@ -205,7 +221,7 @@ Item {
 				
 				SmallText {
 					id: balance_label
-					text: "Balance: "
+					text: "Balance:"
 					anchors.top: balance_border.bottom
 					anchors.topMargin: 4 * scale_factor
 					anchors.left: total_income_label.left

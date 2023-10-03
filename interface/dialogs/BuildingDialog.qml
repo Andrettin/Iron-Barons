@@ -180,7 +180,7 @@ DialogBase {
 							
 							NormalText {
 								id: input_wealth_label
-								text: "$" + number_string(production_type.input_wealth)
+								text: "$" + number_string(country_game_data.get_inflated_value(production_type.input_wealth))
 								anchors.verticalCenter: parent.verticalCenter
 								anchors.horizontalCenter: parent.horizontalCenter
 							}
@@ -375,7 +375,7 @@ DialogBase {
 				str += " + "
 			}
 			
-			str += "$" + number_string(production_type.input_wealth)
+			str += "$" + number_string(country_game_data.get_inflated_value(production_type.input_wealth))
 		}
 		
 		str += " makes " + production_type.output_value + " " + production_type.output_commodity.name
