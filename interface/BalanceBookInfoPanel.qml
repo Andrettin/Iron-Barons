@@ -20,7 +20,7 @@ Rectangle {
 		id: inflation_label
 		text: "Inflation: +" + country_game_data.inflation + "%"
 		anchors.top: parent.top
-		anchors.topMargin: 20 * scale_factor
+		anchors.topMargin: 24 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 8 * scale_factor
 	}
