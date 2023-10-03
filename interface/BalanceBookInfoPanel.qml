@@ -4,7 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id: infopanel
 	color: interface_background_color
-	width: 96 * scale_factor
+	width: 104 * scale_factor
 	
 	Rectangle {
 		color: "gray"
