@@ -1,0 +1,10 @@
+aristocracy_plutocracy = {
+	left_name = "Aristocracy"
+	right_name = "Plutocracy"
+	modifier = {
+		cavalry_cost_modifier = 2
+		warship_cost_modifier = -2
+		trade_output_modifier = 1
+		output_modifier = 1
+	}
+}
