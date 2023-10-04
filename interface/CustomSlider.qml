@@ -8,7 +8,10 @@ Item {
 	
 	property int value: 0
 	property int secondary_value: value
+	property int min_value: 0
 	property int max_value: 0
+	property bool fill_slider: true
+	property bool show_handle: false
 	
 	signal decremented()
 	signal incremented()
@@ -34,8 +37,9 @@ Item {
 			anchors.bottomMargin: 1 * scale_factor
 			anchors.left: parent.left
 			anchors.leftMargin: 1 * scale_factor
-			width: Math.floor((parent.width - 2 * scale_factor) * value / max_value)
+			width: Math.floor((parent.width - 2 * scale_factor) * (value - min_value) / (max_value - min_value))
 			color: "dimGray"
+			visible: fill_slider
 		}
 		
 		SmallText {
@@ -43,6 +47,16 @@ Item {
 			text: number_string(value) + (secondary_value !== value ? (" (" + number_string(secondary_value) + ")") : "")
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.horizontalCenter: parent.horizontalCenter
+			visible: !show_handle
+		}
+		
+		Image {
+			id: slider_handler
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.horizontalCenter: parent.horizontalCenter
+			source: "image://icon/trade_consulate"
+			fillMode: Image.Pad
+			visible: show_handle
 		}
 		
 		MouseArea {
@@ -55,7 +69,7 @@ Item {
 			hoverEnabled: true
 
 			onClicked: function(mouse) {
-				var target_value = Math.round(mouse.x * max_value / width)
+				var target_value = Math.round(mouse.x * (max_value - min_value) / width) - min_value
 				
 				slider.clicked(target_value)
 			}
@@ -79,6 +93,10 @@ Item {
 		use_opacity_mask: false
 		
 		onReleased: {
+			if (value <= min_value) {
+				return
+			}
+			
 			slider.decremented()
 		}
 	}

@@ -42,7 +42,7 @@ Rectangle {
 		anchors.top: advisors_button.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		icon_identifier: "philosophy"
+		icon_identifier: "flag"
 		border_color: politics_view_mode === PoliticsView.Mode.Government ? "white" : "gray"
 		
 		onReleased: {
