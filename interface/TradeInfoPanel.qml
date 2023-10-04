@@ -4,7 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id: infopanel
 	color: interface_background_color
-	width: 64 * scale_factor
+	width: 80 * scale_factor + 8 * scale_factor * 2
 	
 	Rectangle {
 		color: "gray"
@@ -12,28 +12,17 @@ Rectangle {
 		anchors.topMargin: 15 * scale_factor
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 15 * scale_factor
-		anchors.left: parent.left
+		anchors.right: parent.right
 		width: 1 * scale_factor
 	}
 	
-	IconButton {
-		id: balance_book_button
+	SmallText {
+		id: inflation_label
+		text: "Inflation: +" + country_game_data.inflation + "%"
 		anchors.top: parent.top
-		anchors.topMargin: 16 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		icon_identifier: "chest"
-		
-		onReleased: {
-			menu_stack.push("BalanceBookView.qml")
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "View Balance Book"
-			} else {
-				status_text = ""
-			}
-		}
+		anchors.topMargin: 24 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 4 * scale_factor
 	}
 	
 	TextButton {

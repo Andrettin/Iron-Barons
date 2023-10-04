@@ -1,147 +1,74 @@
 import QtQuick
 import QtQuick.Controls
 
-Item {
+Flickable {
 	id: balance_book_view
+	anchors.top: top_bar.bottom
+	anchors.bottom: status_bar.top
+	anchors.left: left_bar.right
+	anchors.right: infopanel.left
+	boundsBehavior: Flickable.StopAtBounds
+	clip: true
 	
-	readonly property var country: metternich.game.player_country
-	readonly property var country_game_data: country ? country.game_data : null
-	readonly property var country_turn_data: country ? country.turn_data : null
-	property string status_text: ""
-	property string middle_status_text: ""
-	
-	Flickable {
-		id: balance_area
-		anchors.top: top_bar.bottom
-		anchors.bottom: status_bar.top
-		anchors.left: left_bar.right
-		anchors.right: infopanel.left
-		boundsBehavior: Flickable.StopAtBounds
-		clip: true
+	Column {
+		anchors.top: parent.top
+		anchors.left: parent.left
+		anchors.right: parent.right
 		
-		Column {
-			anchors.top: parent.top
+		Item {
+			id: transactions_area
 			anchors.left: parent.left
 			anchors.right: parent.right
+			height: Math.max(income_transactions_column.height, expense_transactions_column.height)
 			
-			Item {
-				id: transactions_area
+			Column {
+				id: income_transactions_column
+				anchors.top: parent.top
 				anchors.left: parent.left
-				anchors.right: parent.right
-				height: Math.max(income_transactions_column.height, expense_transactions_column.height)
+				anchors.right: parent.horizontalCenter
 				
-				Column {
-					id: income_transactions_column
-					anchors.top: parent.top
-					anchors.left: parent.left
-					anchors.right: parent.horizontalCenter
+				Repeater {
+					model: country_turn_data.income_transactions
 					
-					Repeater {
-						model: country_turn_data.income_transactions
+					Item {
+						width: income_transactions_column.width
+						height: commodity_icon.height + 4 * scale_factor * 2
 						
-						Item {
-							width: income_transactions_column.width
-							height: commodity_icon.height + 4 * scale_factor * 2
-							
-							readonly property var income_transaction: model.modelData
-							
-							Image {
-								id: commodity_icon
-								anchors.verticalCenter: parent.verticalCenter
-								anchors.left: parent.left
-								anchors.leftMargin: 4 * scale_factor
-								source: "image://icon/" + income_transaction.commodity.icon.identifier
-								fillMode: Image.Pad
-							}
-							
-							SmallText {
-								id: commodity_label
-								text: income_transaction.commodity.name + " $" + number_string(Math.floor(income_transaction.amount / income_transaction.commodity_quantity))
-								anchors.verticalCenter: parent.verticalCenter
-								anchors.left: commodity_icon.right
-								anchors.leftMargin: 8 * scale_factor
-							}
-							
-							Item {
-								id: description_area
-								anchors.top: parent.top
-								anchors.bottom: parent.bottom
-								anchors.right: parent.right
-								width: 192 * scale_factor
-								
-								SmallText {
-									id: description_label
-									text: income_transaction.description
-									anchors.verticalCenter: parent.verticalCenter
-									anchors.left: parent.left
-									anchors.leftMargin: 8 * scale_factor
-									anchors.right: parent.left
-									anchors.rightMargin: 8 * scale_factor
-									wrapMode: Text.WordWrap
-								}
-							}
+						readonly property var income_transaction: model.modelData
+						
+						Image {
+							id: commodity_icon
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.left: parent.left
+							anchors.leftMargin: 4 * scale_factor
+							source: "image://icon/" + income_transaction.commodity.icon.identifier
+							fillMode: Image.Pad
 						}
-					}
-				}
-				
-				Rectangle {
-					id: income_expenses_border
-					color: "gray"
-					anchors.top: parent.top
-					anchors.bottom: parent.bottom
-					anchors.horizontalCenter: parent.horizontalCenter
-					width: 1 * scale_factor
-				}
-				
-				Column {
-					id: expense_transactions_column
-					anchors.top: parent.top
-					anchors.left: parent.horizontalCenter
-					anchors.right: parent.right
-					
-					Repeater {
-						model: country_turn_data.expense_transactions
+						
+						SmallText {
+							id: commodity_label
+							text: income_transaction.commodity.name + " $" + number_string(Math.floor(income_transaction.amount / income_transaction.commodity_quantity))
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.left: commodity_icon.right
+							anchors.leftMargin: 8 * scale_factor
+						}
 						
 						Item {
-							width: expense_transactions_column.width
-							height: commodity_icon.height + 4 * scale_factor * 2
-							
-							readonly property var expense_transaction: model.modelData
-							
-							Image {
-								id: commodity_icon
-								anchors.verticalCenter: parent.verticalCenter
-								anchors.left: parent.left
-								anchors.leftMargin: 4 * scale_factor
-								source: "image://icon/" + expense_transaction.commodity.icon.identifier
-								fillMode: Image.Pad
-							}
+							id: description_area
+							anchors.top: parent.top
+							anchors.bottom: parent.bottom
+							anchors.right: parent.right
+							width: 192 * scale_factor
 							
 							SmallText {
-								id: commodity_label
-								text: expense_transaction.commodity.name + " $" + number_string(Math.floor(expense_transaction.amount / expense_transaction.commodity_quantity))
+								id: description_label
+								text: income_transaction.description
 								anchors.verticalCenter: parent.verticalCenter
-								anchors.left: commodity_icon.right
+								anchors.left: parent.left
 								anchors.leftMargin: 8 * scale_factor
-							}
-							
-							Item {
-								id: description_area
-								anchors.top: parent.top
-								anchors.bottom: parent.bottom
-								anchors.right: parent.right
-								width: 192 * scale_factor
-								
-								SmallText {
-									id: description_label
-									text: expense_transaction.description
-									anchors.verticalCenter: parent.verticalCenter
-									anchors.left: parent.left
-									anchors.leftMargin: 8 * scale_factor
-									anchors.right: parent.left
-									anchors.rightMargin: 8 * scale_factor
-									wrapMode: Text.WordWrap
-								}
+								anchors.right: parent.left
+								anchors.rightMargin: 8 * scale_factor
+								wrapMode: Text.WordWrap
 							}
 						}
 					}
@@ -149,119 +76,154 @@ Item {
 			}
 			
 			Rectangle {
-				id: totals_border
+				id: income_expenses_border
 				color: "gray"
-				anchors.left: parent.left
-				anchors.right: parent.right
-				height: 1 * scale_factor
-				visible: transactions_area.height > 0
+				anchors.top: parent.top
+				anchors.bottom: parent.bottom
+				anchors.horizontalCenter: parent.horizontalCenter
+				width: 1 * scale_factor
 			}
 			
-			Item {
-				anchors.horizontalCenter: parent.horizontalCenter
-				width: 192 * scale_factor
-				height: balance_value_label.y + balance_value_label.height + 4 * scale_factor
+			Column {
+				id: expense_transactions_column
+				anchors.top: parent.top
+				anchors.left: parent.horizontalCenter
+				anchors.right: parent.right
 				
-				SmallText {
-					id: total_income_label
-					text: "Total Income:"
-					anchors.top: parent.top
-					anchors.topMargin: 4 * scale_factor
-					anchors.left: parent.left
-					anchors.leftMargin: 4 * scale_factor
-				}
-				
-				SmallText {
-					id: total_income_value_label
-					text: "$" + number_string(country_turn_data.total_income)
-					anchors.top: total_income_label.top
-					anchors.right: parent.right
-					anchors.rightMargin: 4 * scale_factor
-				}
-				
-				SmallText {
-					id: total_expense_label
-					text: "Total Expense:"
-					anchors.top: total_income_label.bottom
-					anchors.topMargin: 4 * scale_factor
-					anchors.left: total_income_label.left
-				}
-				
-				SmallText {
-					id: total_expense_value_label
-					text: "-$" + number_string(country_turn_data.total_expense)
-					anchors.top: total_expense_label.top
-					anchors.right: total_income_value_label.right
-				}
-				
-				SmallText {
-					id: total_inflation_change_label
-					text: "Total Inflation Change:"
-					anchors.top: total_expense_label.bottom
-					anchors.topMargin: 4 * scale_factor
-					anchors.left: total_income_label.left
-				}
-				
-				SmallText {
-					id: total_inflation_change_value_label
-					text: "+" + country_turn_data.total_inflation_change + "%"
-					anchors.top: total_inflation_change_label.top
-					anchors.right: total_income_value_label.right
-				}
-				
-				Rectangle {
-					id: balance_border
-					color: "gray"
-					anchors.top: total_inflation_change_label.bottom
-					anchors.topMargin: 4 * scale_factor
-					anchors.left: parent.left
-					anchors.right: parent.right
-					height: 1 * scale_factor
-				}
-				
-				SmallText {
-					id: balance_label
-					text: "Balance:"
-					anchors.top: balance_border.bottom
-					anchors.topMargin: 4 * scale_factor
-					anchors.left: total_income_label.left
-				}
-				
-				SmallText {
-					id: balance_value_label
-					text: (country_turn_data.total_expense > country_turn_data.total_income ? "-" : "") + "$" + number_string(Math.abs(country_turn_data.total_income - country_turn_data.total_expense))
-					anchors.top: balance_label.top
-					anchors.right: total_income_value_label.right
+				Repeater {
+					model: country_turn_data.expense_transactions
+					
+					Item {
+						width: expense_transactions_column.width
+						height: commodity_icon.height + 4 * scale_factor * 2
+						
+						readonly property var expense_transaction: model.modelData
+						
+						Image {
+							id: commodity_icon
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.left: parent.left
+							anchors.leftMargin: 4 * scale_factor
+							source: "image://icon/" + expense_transaction.commodity.icon.identifier
+							fillMode: Image.Pad
+						}
+						
+						SmallText {
+							id: commodity_label
+							text: expense_transaction.commodity.name + " $" + number_string(Math.floor(expense_transaction.amount / expense_transaction.commodity_quantity))
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.left: commodity_icon.right
+							anchors.leftMargin: 8 * scale_factor
+						}
+						
+						Item {
+							id: description_area
+							anchors.top: parent.top
+							anchors.bottom: parent.bottom
+							anchors.right: parent.right
+							width: 192 * scale_factor
+							
+							SmallText {
+								id: description_label
+								text: expense_transaction.description
+								anchors.verticalCenter: parent.verticalCenter
+								anchors.left: parent.left
+								anchors.leftMargin: 8 * scale_factor
+								anchors.right: parent.left
+								anchors.rightMargin: 8 * scale_factor
+								wrapMode: Text.WordWrap
+							}
+						}
+					}
 				}
 			}
 		}
-	}
-	
-	BalanceBookInfoPanel {
-		id: infopanel
-		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.right: parent.right
-	}
-	
-	LeftBar {
-		id: left_bar
-		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.left: parent.left
-	}
-	
-	StatusBar {
-		id: status_bar
-		anchors.bottom: parent.bottom
-		anchors.left: left_bar.right
-		anchors.right: infopanel.left
-	}
-	
-	TopBar {
-		id: top_bar
-		anchors.top: parent.top
-		anchors.left: left_bar.right
-		anchors.right: infopanel.left
+		
+		Rectangle {
+			id: totals_border
+			color: "gray"
+			anchors.left: parent.left
+			anchors.right: parent.right
+			height: 1 * scale_factor
+			visible: transactions_area.height > 0
+		}
+		
+		Item {
+			anchors.horizontalCenter: parent.horizontalCenter
+			width: 192 * scale_factor
+			height: balance_value_label.y + balance_value_label.height + 4 * scale_factor
+			
+			SmallText {
+				id: total_income_label
+				text: "Total Income:"
+				anchors.top: parent.top
+				anchors.topMargin: 4 * scale_factor
+				anchors.left: parent.left
+				anchors.leftMargin: 4 * scale_factor
+			}
+			
+			SmallText {
+				id: total_income_value_label
+				text: "$" + number_string(country_turn_data.total_income)
+				anchors.top: total_income_label.top
+				anchors.right: parent.right
+				anchors.rightMargin: 4 * scale_factor
+			}
+			
+			SmallText {
+				id: total_expense_label
+				text: "Total Expense:"
+				anchors.top: total_income_label.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.left: total_income_label.left
+			}
+			
+			SmallText {
+				id: total_expense_value_label
+				text: "-$" + number_string(country_turn_data.total_expense)
+				anchors.top: total_expense_label.top
+				anchors.right: total_income_value_label.right
+			}
+			
+			SmallText {
+				id: total_inflation_change_label
+				text: "Total Inflation Change:"
+				anchors.top: total_expense_label.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.left: total_income_label.left
+			}
+			
+			SmallText {
+				id: total_inflation_change_value_label
+				text: "+" + country_turn_data.total_inflation_change + "%"
+				anchors.top: total_inflation_change_label.top
+				anchors.right: total_income_value_label.right
+			}
+			
+			Rectangle {
+				id: balance_border
+				color: "gray"
+				anchors.top: total_inflation_change_label.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.left: parent.left
+				anchors.right: parent.right
+				height: 1 * scale_factor
+			}
+			
+			SmallText {
+				id: balance_label
+				text: "Balance:"
+				anchors.top: balance_border.bottom
+				anchors.topMargin: 4 * scale_factor
+				anchors.left: total_income_label.left
+			}
+			
+			SmallText {
+				id: balance_value_label
+				text: (country_turn_data.total_expense > country_turn_data.total_income ? "-" : "") + "$" + number_string(Math.abs(country_turn_data.total_income - country_turn_data.total_expense))
+				anchors.top: balance_label.top
+				anchors.right: total_income_value_label.right
+			}
+		}
 	}
 }
