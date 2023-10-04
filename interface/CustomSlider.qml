@@ -54,9 +54,12 @@ Item {
 			id: slider_handler
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.horizontalCenterOffset: slider_handler_space * (value - min_value) / (max_value - min_value) - slider_handler_space / 2
 			source: "image://icon/trade_consulate"
 			fillMode: Image.Pad
 			visible: show_handle
+			
+			readonly property int slider_handler_space: Math.floor((parent.width + 2 * scale_factor * 2 - decrement_button.width - increment_button.width))
 		}
 		
 		MouseArea {
@@ -85,6 +88,7 @@ Item {
 	}
 	
 	IconButton {
+		id: decrement_button
 		anchors.verticalCenter: parent.verticalCenter
 		anchors.left: parent.left
 		width: 16 * scale_factor
@@ -102,6 +106,7 @@ Item {
 	}
 	
 	IconButton {
+		id: increment_button
 		anchors.verticalCenter: parent.verticalCenter
 		anchors.right: parent.right
 		width: 16 * scale_factor
