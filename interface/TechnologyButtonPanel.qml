@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Controls
 
 Rectangle {
-	id: infopanel
+	id: button_panel
 	color: interface_background_color
 	width: 64 * scale_factor
 	

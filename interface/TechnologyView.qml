@@ -36,8 +36,8 @@ Item {
 		id: technology_list
 		anchors.top: top_bar.bottom
 		anchors.bottom: status_bar.top
-		anchors.left: left_infopanel.right
-		anchors.right: right_infopanel.left
+		anchors.left: infopanel.right
+		anchors.right: button_panel.left
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
 		model: category_technologies
@@ -151,8 +151,8 @@ Item {
 		id: tech_tree
 		anchors.top: top_bar.bottom
 		anchors.bottom: status_bar.top
-		anchors.left: left_infopanel.right
-		anchors.right: right_infopanel.left
+		anchors.left: infopanel.right
+		anchors.right: button_panel.left
 		entries: metternich.get_technologies()
 		visible: technology_view.mode === TechnologyView.Mode.TechTree
 		delegate: TreePortraitButton {
@@ -169,15 +169,15 @@ Item {
 		}
 	}
 	
-	TechnologyRightInfoPanel {
-		id: right_infopanel
+	TechnologyButtonPanel {
+		id: button_panel
 		anchors.top: parent.top
 		anchors.bottom: parent.bottom
 		anchors.right: parent.right
 	}
 	
-	TechnologyLeftInfoPanel {
-		id: left_infopanel
+	TechnologyInfoPanel {
+		id: infopanel
 		anchors.top: parent.top
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
@@ -186,15 +186,15 @@ Item {
 	StatusBar {
 		id: status_bar
 		anchors.bottom: parent.bottom
-		anchors.left: left_infopanel.right
-		anchors.right: right_infopanel.left
+		anchors.left: infopanel.right
+		anchors.right: button_panel.left
 	}
 	
 	TopBar {
 		id: top_bar
 		anchors.top: parent.top
-		anchors.left: left_infopanel.right
-		anchors.right: right_infopanel.left
+		anchors.left: infopanel.right
+		anchors.right: button_panel.left
 	}
 	
 	ModifierDialog {
