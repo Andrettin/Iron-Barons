@@ -17,23 +17,23 @@ Rectangle {
 	}
 	
 	IconButton {
-		id: advisors_button
+		id: politics_button
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 6 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 6 * scale_factor
-		icon_identifier: "rifle_infantry_light_small"
+		icon_identifier: "flag"
 		visible: metternich.game.rules.advisors_enabled
 		
 		onReleased: {
-			menu_stack.push("AdvisorsView.qml", {
+			menu_stack.push("PoliticsView.qml", {
 				country: metternich.game.player_country
 			})
 		}
 		
 		onHoveredChanged: {
 			if (hovered) {
-				status_text = "View Advisors"
+				status_text = "View Politics"
 			} else {
 				status_text = ""
 			}
@@ -42,8 +42,8 @@ Rectangle {
 	
 	IconButton {
 		id: technology_button
-		anchors.top: advisors_button.top
-		anchors.left: advisors_button.right
+		anchors.top: politics_button.top
+		anchors.left: politics_button.right
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "cog"
 		
@@ -62,7 +62,7 @@ Rectangle {
 	
 	IconButton {
 		id: journal_button
-		anchors.top: advisors_button.top
+		anchors.top: politics_button.top
 		anchors.left: technology_button.right
 		anchors.leftMargin: 4 * scale_factor
 		icon_identifier: "newspaper"

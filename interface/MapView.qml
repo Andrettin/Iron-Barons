@@ -283,6 +283,8 @@ Item {
 				text: "Your Excellency, " + advisor.full_name  + " has joined our nation as an advisor!",
 				second_button_text: "View Advisors",
 				second_button_effects: () => {
+					politics_view_mode = PoliticsView.Mode.Advisors
+					
 					menu_stack.push("AdvisorsView.qml", {
 						country: metternich.game.player_country,
 						new_advisor: advisor

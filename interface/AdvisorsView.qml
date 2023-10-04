@@ -5,27 +5,11 @@ import "./dialogs"
 Item {
 	id: advisors_view
 	
-	property var country: null
-	readonly property var country_game_data: country ? country.game_data : null
-	readonly property var ruler: country_game_data ? country_game_data.ruler : null
-	property var new_advisor: null
-	property string status_text: ""
-	property string middle_status_text: ""
-	
-	Rectangle {
-		id: portrait_grid_view_background
-		anchors.top: top_bar.bottom
-		anchors.bottom: status_bar.top
-		anchors.left: infopanel.right
-		anchors.right: right_bar.left
-		color: "black"
-	}
-	
 	PortraitGridItem {
 		id: ruler_portrait
-		anchors.top: top_bar.bottom
+		anchors.top: parent.top
 		anchors.topMargin: portrait_grid.spacing
-		anchors.horizontalCenter: portrait_grid_view_background.horizontalCenter
+		anchors.horizontalCenter: parent.horizontalCenter
 		portrait_identifier: ruler ? ruler.game_data.portrait.identifier : ""
 		visible: ruler !== null
 		
@@ -46,13 +30,13 @@ Item {
 	
 	Grid {
 		id: portrait_grid
-		anchors.top: ruler_portrait.visible ? ruler_portrait.bottom : top_bar.bottom
+		anchors.top: ruler_portrait.visible ? ruler_portrait.bottom : parent.top
 		anchors.topMargin: spacing
-		anchors.bottom: status_bar.top
-		anchors.horizontalCenter: portrait_grid_view_background.horizontalCenter
+		anchors.bottom: parent.bottom
+		anchors.horizontalCenter: parent.horizontalCenter
 		width: columns * (portrait_width + spacing) - spacing
-		columns: Math.floor((portrait_grid_view_background.width - min_spacing) / (portrait_width + min_spacing))
-		spacing: Math.max(min_spacing, Math.floor((portrait_grid_view_background.width - columns * portrait_width) / (columns + 1)))
+		columns: Math.floor((parent.width - min_spacing) / (portrait_width + min_spacing))
+		spacing: Math.max(min_spacing, Math.floor((parent.width - columns * portrait_width) / (columns + 1)))
 		
 		readonly property int portrait_width: 64 * scale_factor + 2 * scale_factor
 		readonly property int min_spacing: 16 * scale_factor
@@ -129,34 +113,6 @@ Item {
 				}
 			}
 		}
-	}
-	
-	RightBar {
-		id: right_bar
-		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.right: parent.right
-	}
-	
-	AdvisorsInfoPanel {
-		id: infopanel
-		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.left: parent.left
-	}
-	
-	StatusBar {
-		id: status_bar
-		anchors.bottom: parent.bottom
-		anchors.left: infopanel.right
-		anchors.right: right_bar.left
-	}
-	
-	TopBar {
-		id: top_bar
-		anchors.top: parent.top
-		anchors.left: infopanel.right
-		anchors.right: right_bar.left
 	}
 	
 	CharacterDialog {
