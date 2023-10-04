@@ -22,15 +22,13 @@ Item {
 		Culture
 	}
 	
-	property int mode: TechnologyView.Mode.Available
-	property int category: TechnologyView.Category.None
 	readonly property var country: metternich.game.player_country
 	readonly property var country_game_data: country ? country.game_data : null
 	property string status_text: ""
 	property string middle_status_text: ""
 	
-	readonly property var technologies: technology_view.mode === TechnologyView.Mode.Researched ? country_game_data.technologies : (technology_view.mode === TechnologyView.Mode.Available ? country_game_data.available_technologies : country_game_data.future_technologies)
-	readonly property var category_technologies: get_category_technologies(technologies, category)
+	readonly property var technologies: technology_view_mode === TechnologyView.Mode.Researched ? country_game_data.technologies : (technology_view_mode === TechnologyView.Mode.Available ? country_game_data.available_technologies : country_game_data.future_technologies)
+	readonly property var category_technologies: get_category_technologies(technologies, technology_view_category)
 	
 	ListView {
 		id: technology_list
@@ -60,7 +58,7 @@ Item {
 					anchors.fill: parent
 					
 					onReleased: {
-						if (technology_view.mode === TechnologyView.Mode.Available) {
+						if (technology_view_mode === TechnologyView.Mode.Available) {
 							country_game_data.current_research = technology
 						}
 					}
@@ -100,7 +98,7 @@ Item {
 					anchors.bottom: parent.bottom
 					anchors.left: technology_label.right
 					anchors.right: technology_effects_label.left
-					visible: technology_view.mode === TechnologyView.Mode.Available
+					visible: technology_view_mode === TechnologyView.Mode.Available
 					
 					Image {
 						id: research_cost_icon
@@ -154,7 +152,7 @@ Item {
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
 		entries: metternich.get_technologies()
-		visible: technology_view.mode === TechnologyView.Mode.TechTree
+		visible: technology_view_mode === TechnologyView.Mode.TechTree
 		delegate: TreePortraitButton {
 			border_color: country_game_data.current_research === technology ? "white" : (country_game_data.has_technology(technology) ? Qt.rgba(64.0 / 255.0, 64.0 / 255.0, 64.0 / 255.0, 1) : "gray")
 			
