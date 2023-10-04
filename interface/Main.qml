@@ -16,6 +16,7 @@ Window {
 	readonly property color interface_background_color: Qt.rgba(48.0 / 255.0, 48.0 / 255.0, 48.0 / 255.0, 1)
 	
 	property int displayed_technology_category: 0
+	property int trade_view_mode: TradeView.TradeOrders
 	
 	FontLoader {
 		id: berenika_font

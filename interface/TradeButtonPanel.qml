@@ -22,10 +22,10 @@ Rectangle {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "wealth"
-		border_color: trade_view.mode === TradeView.Mode.TradeOrders ? "white" : "gray"
+		border_color: trade_view_mode === TradeView.Mode.TradeOrders ? "white" : "gray"
 		
 		onReleased: {
-			trade_view.mode = TradeView.Mode.TradeOrders
+			trade_view_mode = TradeView.Mode.TradeOrders
 		}
 		
 		onHoveredChanged: {
@@ -43,10 +43,10 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "chest"
-		border_color: trade_view.mode === TradeView.Mode.BalanceBook ? "white" : "gray"
+		border_color: trade_view_mode === TradeView.Mode.BalanceBook ? "white" : "gray"
 		
 		onReleased: {
-			trade_view.mode = TradeView.Mode.BalanceBook
+			trade_view_mode = TradeView.Mode.BalanceBook
 		}
 		
 		onHoveredChanged: {

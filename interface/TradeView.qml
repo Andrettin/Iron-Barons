@@ -9,7 +9,6 @@ Item {
 		BalanceBook
 	}
 	
-	property int mode: TradeView.Mode.TradeOrders
 	readonly property var country: metternich.game.player_country
 	readonly property var country_game_data: country ? country.game_data : null
 	readonly property var country_turn_data: country ? country.turn_data : null
@@ -22,7 +21,7 @@ Item {
 		anchors.bottom: status_bar.top
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
-		visible: mode === TradeView.Mode.TradeOrders
+		visible: trade_view_mode === TradeView.Mode.TradeOrders
 	}
 	
 	BalanceBookView {
@@ -31,7 +30,7 @@ Item {
 		anchors.bottom: status_bar.top
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
-		visible: mode === TradeView.Mode.BalanceBook
+		visible: trade_view_mode === TradeView.Mode.BalanceBook
 	}
 	
 	TradeButtonPanel {
@@ -67,7 +66,7 @@ Item {
 			anchors.bottom: parent.bottom
 			anchors.right: available_top_area.left
 			width: 96 * scale_factor
-			visible: mode === TradeView.Mode.TradeOrders
+			visible: trade_view_mode === TradeView.Mode.TradeOrders
 			
 			SmallText {
 				id: price_top_label
@@ -84,7 +83,7 @@ Item {
 			anchors.bottom: parent.bottom
 			anchors.right: quantity_to_trade_top_area.left
 			width: 96 * scale_factor
-			visible: mode === TradeView.Mode.TradeOrders
+			visible: trade_view_mode === TradeView.Mode.TradeOrders
 			
 			SmallText {
 				id: available_top_label
@@ -101,7 +100,7 @@ Item {
 			anchors.bottom: parent.bottom
 			anchors.right: parent.right
 			width: 256 * scale_factor
-			visible: mode === TradeView.Mode.TradeOrders
+			visible: trade_view_mode === TradeView.Mode.TradeOrders
 			
 			SmallText {
 				id: quantity_to_trade_top_label

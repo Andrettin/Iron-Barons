@@ -58,7 +58,7 @@ Flickable {
 							anchors.top: parent.top
 							anchors.bottom: parent.bottom
 							anchors.right: parent.right
-							width: 192 * scale_factor
+							width: 224 * scale_factor
 							
 							SmallText {
 								id: description_label
@@ -66,7 +66,7 @@ Flickable {
 								anchors.verticalCenter: parent.verticalCenter
 								anchors.left: parent.left
 								anchors.leftMargin: 8 * scale_factor
-								anchors.right: parent.left
+								anchors.right: parent.right
 								anchors.rightMargin: 8 * scale_factor
 								wrapMode: Text.WordWrap
 							}
@@ -121,7 +121,7 @@ Flickable {
 							anchors.top: parent.top
 							anchors.bottom: parent.bottom
 							anchors.right: parent.right
-							width: 192 * scale_factor
+							width: 224 * scale_factor
 							
 							SmallText {
 								id: description_label
@@ -129,7 +129,7 @@ Flickable {
 								anchors.verticalCenter: parent.verticalCenter
 								anchors.left: parent.left
 								anchors.leftMargin: 8 * scale_factor
-								anchors.right: parent.left
+								anchors.right: parent.right
 								anchors.rightMargin: 8 * scale_factor
 								wrapMode: Text.WordWrap
 							}
