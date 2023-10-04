@@ -12,6 +12,7 @@ Item {
 	property int max_value: 0
 	property bool fill_slider: true
 	property bool show_handle: false
+	property string tooltip: ""
 	
 	signal decremented()
 	signal incremented()
@@ -83,6 +84,11 @@ Item {
 			
 			onExited: {
 				slider.exited()
+			}
+			
+			CustomTooltip {
+				text: tooltip
+				visible: parent.containsMouse && tooltip.length > 0
 			}
 		}
 	}

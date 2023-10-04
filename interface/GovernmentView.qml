@@ -37,11 +37,14 @@ Item {
 					max_value: 5
 					fill_slider: false
 					show_handle: true
+					tooltip: format_text(small_text(policy.get_modifier_string(metternich.game.player_country, policy_slider.value)))
 					
 					onDecremented: {
+						//country_game_data.change_policy_value(policy, -1)
 					}
 					
 					onIncremented: {
+						//country_game_data.change_policy_value(policy, 1)
 					}
 				}
 				
