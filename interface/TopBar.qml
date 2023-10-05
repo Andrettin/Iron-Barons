@@ -59,8 +59,9 @@ Rectangle {
 	
 	Image {
 		id: prestige_icon
-		source: "image://icon/heater_shield/small"
+		source: "image://icon/embassy"
 		anchors.top: parent.top
+		anchors.topMargin: 3 * scale_factor
 		anchors.left: wealth_label.left
 		anchors.leftMargin: 96 * scale_factor
 	}
