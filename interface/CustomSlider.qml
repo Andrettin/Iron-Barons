@@ -13,6 +13,8 @@ Item {
 	property bool fill_slider: true
 	property bool show_handle: false
 	property string tooltip: ""
+	property string decrement_button_tooltip: ""
+	property string increment_button_tooltip: ""
 	
 	signal decremented()
 	signal incremented()
@@ -98,6 +100,7 @@ Item {
 		width: 16 * scale_factor
 		height: 16 * scale_factor
 		icon_identifier: "trade_consulate"
+		tooltip: decrement_button_tooltip
 		use_opacity_mask: false
 		
 		onReleased: {
@@ -116,6 +119,7 @@ Item {
 		width: 16 * scale_factor
 		height: 16 * scale_factor
 		icon_identifier: "trade_consulate"
+		tooltip: increment_button_tooltip
 		use_opacity_mask: false
 		
 		onReleased: {

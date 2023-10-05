@@ -269,4 +269,17 @@ Window {
 		
 		return name_list
 	}
+	
+	function costs_to_string(costs) {
+		var str = "Costs:"
+		
+		for (var i = 0; i < costs.length; i++) {
+			var commodity = costs[i].key
+			var cost = costs[i].value
+			
+			str += "\n\t" + cost + " " + highlight(commodity.name)
+		}
+		
+		return str
+	}
 }
