@@ -1,0 +1,13 @@
+serfdom_free_subjects = {
+	left_name = "Serfdom"
+	right_name = "Free Subjects"
+	change_commodity_costs = {
+		prestige = 10
+	}
+	modifier = {
+		infantry_cost_modifier = 6
+		land_morale_resistance = 4
+		research_output_modifier = 4
+		warship_cost_modifier = 2.5
+	}
+}

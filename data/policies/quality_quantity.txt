@@ -1,0 +1,14 @@
+quality_quantity = {
+	left_name = "Quality"
+	right_name = "Quantity"
+	change_commodity_costs = {
+		prestige = 10
+	}
+	modifier = {
+		infantry_cost_modifier = -2.5
+		land_damage_modifier = -2
+	}
+	right_modifier = {
+		land_recovery_modifier = 2
+	}
+}

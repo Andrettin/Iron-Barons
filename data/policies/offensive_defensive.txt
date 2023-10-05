@@ -1,0 +1,12 @@
+offensive_defensive = {
+	left_name = "Offensive"
+	right_name = "Defensive"
+	change_commodity_costs = {
+		prestige = 10
+	}
+	modifier = {
+		#artillery_cost_modifier = -5
+		land_morale_resistance = -2
+		entrench_bonus_modifier = 1
+	}
+}
