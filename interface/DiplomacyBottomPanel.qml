@@ -99,7 +99,7 @@ Rectangle {
 				"\n" + selected_country_game_data.vassalage_type_name + " of " + selected_country_game_data.overlord.name
 			) : "")
 			+ (selected_country_game_data.anarchy ? "\nAnarchy" : "")
-			+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country_game_data.score) + " (#" + (selected_country_game_data.rank + 1) + ")") : "")
+			+ (selected_country.great_power && !selected_country_game_data.anarchy ? ("\nScore: " + number_string(selected_country_game_data.score) + " (#" + (selected_country_game_data.rank + 1) + ")") : "")
 			+ "\nPopulation: " + number_string(selected_country_game_data.population.size)
 			+ "\nPopulation Growth: " + selected_country_game_data.population_growth + "/" + metternich.defines.population_growth_threshold
 			+ "\n" + selected_country_game_data.provinces.length + " " + (selected_country_game_data.provinces.length > 1 ? "Provinces" : "Province")

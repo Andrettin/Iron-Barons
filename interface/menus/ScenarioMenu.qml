@@ -161,7 +161,7 @@ MenuBase {
 					"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
 				) : "")
 				+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
-				+ (selected_country.great_power ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
+				+ (selected_country.great_power && !selected_country.game_data.anarchy ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 				+ "\nPopulation: " + number_string(selected_country.game_data.population.size)
 				+ (vassal_count > 0 ? (
 					"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
