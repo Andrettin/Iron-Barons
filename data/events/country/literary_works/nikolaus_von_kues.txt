@@ -10,7 +10,7 @@ de_concordantia_catholica = { #Source: "Encyclopædia Britannica", 1911, vol. 7,
 	}
 	option = {
 		effects = {
-			research += 1 #should be piety instead
+			piety += 1
 		}
 	}
 }
@@ -28,7 +28,7 @@ crebratio_alcorani = { #Source: "Encyclopædia Britannica", 1911, vol. 7, p. 666
 	}
 	option = {
 		effects = {
-			research += 1 #should be piety instead
+			piety += 1
 		}
 	}
 }
@@ -45,7 +45,7 @@ de_docta_ignorantia = { #Source: "Encyclopædia Britannica", 1911, vol. 7, p. 66
 	}
 	option = {
 		effects = {
-			research += 1 #should be piety instead
+			piety += 1
 		}
 	}
 }
@@ -62,7 +62,7 @@ de_conjecturis_libri = { #Source: "Encyclopædia Britannica", 1911, vol. 7, p. 6
 	}
 	option = {
 		effects = {
-			research += 1 #should be piety instead
+			piety += 1
 		}
 	}
 }
