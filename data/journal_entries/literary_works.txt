@@ -26,3 +26,35 @@ de_revolutionibus_orbium_coelestium = { #Source: Isaac Asimov, "Cronologia das C
 		research += 5
 	}
 }
+
+epitome_in_cl__ptolemaei_magnam_compositionem = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
+	name = "Epitome in Cl. Ptolemaei magnam compositionem"
+	portrait = alchemist
+	description = "Our advisor Georg Peurbach has published a book called \"Epitome in Cl. Ptolemaei magnam compositionem\"."
+	completion_random_chance = 25
+	recruited_advisors = {
+		georg_peurbach
+	}
+	researched_technologies = {
+		astronomy
+	}
+	completion_effects = {
+		research += 1
+	}
+}
+
+theoricae_planetarum_novae = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
+	name = "Theoricae planetarum novae"
+	portrait = alchemist
+	description = "Our advisor Georg Peurbach has published a book called \"Theoricae planetarum novae\"."
+	completion_random_chance = 25
+	recruited_advisors = {
+		georg_peurbach
+	}
+	researched_technologies = {
+		astronomy
+	}
+	completion_effects = {
+		research += 1
+	}
+}
