@@ -51,16 +51,14 @@ Item {
 			visible: !show_handle
 		}
 		
-		Image {
-			id: slider_handler
+		SliderHandle {
+			id: slider_handle
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.horizontalCenterOffset: slider_handler_space * (value - min_value) / (max_value - min_value) - slider_handler_space / 2
-			source: "image://icon/trade_consulate"
-			fillMode: Image.Pad
+			anchors.horizontalCenterOffset: slider_handle_space * (value - min_value) / (max_value - min_value) - slider_handle_space / 2
 			visible: show_handle
 			
-			readonly property int slider_handler_space: Math.floor((parent.width + 2 * scale_factor * 2 - decrement_button.width - increment_button.width))
+			readonly property int slider_handle_space: Math.floor((parent.width + 2 * scale_factor * 2 - decrement_button.width - increment_button.width))
 		}
 		
 		MouseArea {
