@@ -1,6 +1,9 @@
 aristocracy_plutocracy = {
 	left_name = "Aristocracy"
 	right_name = "Plutocracy"
+	change_commodity_costs = {
+		prestige = 10
+	}
 	modifier = {
 		cavalry_cost_modifier = 5
 		warship_cost_modifier = -5
