@@ -4,6 +4,7 @@ togoland = {
 	culture = ewe
 	default_religion = pagan
 	default_capital = lome
+	default_tier = duchy
 	eras = {
 		industrial_era
 	}

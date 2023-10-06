@@ -4,6 +4,7 @@ gold_coast = {
 	culture = akan
 	default_religion = pagan
 	default_capital = accra
+	default_tier = duchy
 	eras = {
 		renaissance_era
 		industrial_era

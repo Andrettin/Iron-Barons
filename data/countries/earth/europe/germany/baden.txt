@@ -4,6 +4,7 @@ baden = {
 	culture = german
 	default_religion = protestant
 	default_capital = karlsruhe
+	default_tier = duchy
 	eras = {
 		renaissance_era
 		industrial_era

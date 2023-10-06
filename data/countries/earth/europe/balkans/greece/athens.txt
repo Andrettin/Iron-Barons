@@ -5,6 +5,7 @@ athens = {
 	culture = greek
 	default_religion = pagan
 	default_capital = athens
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}
@@ -19,6 +20,7 @@ athenes = { #the French Duchy of Athens
 	culture = french
 	default_religion = catholic
 	default_capital = athens
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}
@@ -33,6 +35,7 @@ atenes = { #the Catalan Duchy of Athens
 	culture = catalan
 	default_religion = catholic
 	default_capital = athens
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

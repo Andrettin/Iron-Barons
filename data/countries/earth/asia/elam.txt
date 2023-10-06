@@ -4,6 +4,7 @@ elam = {
 	culture = elamite
 	default_religion = pagan
 	default_capital = susa
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

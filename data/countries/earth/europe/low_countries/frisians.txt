@@ -4,6 +4,7 @@ frisians = {
 	culture = frisian
 	default_religion = pagan
 	default_capital = leeuwarden
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

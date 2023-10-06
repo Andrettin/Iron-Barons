@@ -4,6 +4,7 @@ salzburg = {
 	culture = austrian
 	default_religion = catholic
 	default_capital = salzburg
+	default_tier = duchy #archbishopric
 	eras = {
 		medieval_era
 		renaissance_era

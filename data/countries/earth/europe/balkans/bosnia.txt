@@ -4,6 +4,7 @@ bosnia = {
 	culture = bosnian
 	default_religion = orthodox
 	default_capital = sarajevo
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		industrial_era

@@ -4,6 +4,7 @@ utrecht = {
 	culture = dutch
 	default_religion = protestant
 	default_capital = utrecht
+	default_tier = county #bishopric
 	eras = {
 		renaissance_era
 	}

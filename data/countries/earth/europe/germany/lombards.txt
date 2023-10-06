@@ -4,6 +4,7 @@ lombards = {
 	culture = lombard
 	default_religion = pagan
 	default_capital = brunswick
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

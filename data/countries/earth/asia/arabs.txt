@@ -4,6 +4,7 @@ arabs = {
 	culture = arabic
 	default_religion = pagan
 	default_capital = mecca
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

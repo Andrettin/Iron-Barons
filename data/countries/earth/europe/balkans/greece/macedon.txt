@@ -5,6 +5,7 @@ macedon = {
 	culture = greek
 	default_religion = pagan
 	default_capital = thessalonica
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

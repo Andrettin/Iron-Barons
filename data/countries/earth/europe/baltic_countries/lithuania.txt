@@ -4,6 +4,7 @@ lithuania = {
 	culture = lithuanian
 	default_religion = catholic
 	default_capital = vilnius
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

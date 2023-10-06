@@ -4,6 +4,7 @@ gepids = {
 	culture = gothic
 	default_religion = pagan
 	default_capital = klausenburg
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

@@ -4,6 +4,7 @@ serbia = {
 	culture = serbian
 	default_religion = orthodox
 	default_capital = belgrade
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		industrial_era

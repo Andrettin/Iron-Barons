@@ -4,6 +4,7 @@ jalayirids = {
 	culture = mongol
 	default_religion = shiite
 	default_capital = baghdad
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

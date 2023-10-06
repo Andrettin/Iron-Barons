@@ -5,6 +5,7 @@ muscovy = {
 	culture = russian
 	default_religion = orthodox
 	default_capital = moscow
+	default_tier = duchy
 	eras = {
 		renaissance_era
 	}

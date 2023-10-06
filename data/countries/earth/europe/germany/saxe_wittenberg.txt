@@ -4,6 +4,8 @@ saxe_wittenberg = {
 	culture = german
 	default_religion = protestant
 	default_capital = dresden
+	default_tier = duchy
+	max_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

@@ -4,6 +4,7 @@ alamanni = {
 	culture = suebi
 	default_religion = pagan
 	default_capital = karlsruhe
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

@@ -4,6 +4,7 @@ upper_lotharingia = {
 	culture = frankish
 	default_religion = catholic
 	default_capital = nancy
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

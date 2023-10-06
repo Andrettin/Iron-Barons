@@ -4,6 +4,7 @@ burgundians = {
 	culture = gothic
 	default_religion = pagan
 	default_capital = worms
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

@@ -4,6 +4,7 @@ virginia = {
 	culture = english
 	default_religion = protestant
 	default_capital = richmond
+	default_tier = duchy
 	eras = {
 		industrial_era
 	}

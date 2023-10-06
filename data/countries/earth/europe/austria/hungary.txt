@@ -4,6 +4,7 @@ hungary = {
 	culture = magyar
 	default_religion = catholic
 	default_capital = pest
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

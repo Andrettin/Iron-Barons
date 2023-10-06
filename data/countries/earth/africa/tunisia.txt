@@ -4,6 +4,7 @@ tunisia = {
 	culture = arabic
 	default_religion = sunni
 	default_capital = tunis
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

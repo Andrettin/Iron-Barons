@@ -4,6 +4,8 @@ bavaria = {
 	culture = german
 	default_religion = catholic
 	default_capital = munich
+	default_tier = duchy
+	max_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

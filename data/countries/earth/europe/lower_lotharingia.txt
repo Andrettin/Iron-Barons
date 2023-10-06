@@ -4,6 +4,7 @@ lower_lotharingia = {
 	culture = frankish
 	default_religion = catholic
 	default_capital = aachen
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

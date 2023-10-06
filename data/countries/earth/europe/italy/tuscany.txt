@@ -4,6 +4,7 @@ tuscany = {
 	culture = italian
 	default_religion = catholic
 	default_capital = florence
+	default_tier = duchy
 	eras = {
 		medieval_era
 		industrial_era

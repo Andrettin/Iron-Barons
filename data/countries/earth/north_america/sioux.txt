@@ -4,6 +4,7 @@ sioux = {
 	culture = sioux
 	default_religion = pagan
 	default_capital = bismarck
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

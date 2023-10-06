@@ -4,6 +4,7 @@ galicia = {
 	culture = galician
 	default_religion = catholic
 	default_capital = santiago_de_compostela
+	default_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

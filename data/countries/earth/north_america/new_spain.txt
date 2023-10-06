@@ -4,6 +4,7 @@ new_spain = {
 	culture = castillian
 	default_religion = catholic
 	default_capital = mexico_city
+	default_tier = kingdom
 	
 	history = {
 		1600 = {

@@ -4,6 +4,7 @@ modena = {
 	culture = italian
 	default_religion = catholic
 	default_capital = modena
+	default_tier = duchy
 	eras = {
 		renaissance_era
 		industrial_era

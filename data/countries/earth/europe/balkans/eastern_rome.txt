@@ -5,6 +5,7 @@ eastern_rome = {
 	culture = roman
 	default_religion = orthodox
 	default_capital = constantinople
+	default_tier = empire
 	eras = {
 		medieval_era
 	}

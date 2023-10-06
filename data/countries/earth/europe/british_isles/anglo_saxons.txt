@@ -4,6 +4,7 @@ anglo_saxons = {
 	culture = anglo_saxon
 	default_religion = pagan
 	default_capital = london
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

@@ -4,6 +4,7 @@ golden_horde = {
 	culture = mongol
 	default_religion = pagan
 	default_capital = sarai
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

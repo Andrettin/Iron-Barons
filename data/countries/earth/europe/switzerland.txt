@@ -4,6 +4,7 @@ switzerland = {
 	culture = german
 	default_religion = protestant
 	default_capital = bern
+	default_tier = duchy
 	eras = {
 		renaissance_era
 		industrial_era

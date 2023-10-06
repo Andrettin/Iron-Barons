@@ -4,6 +4,7 @@ erzincan = {
 	culture = turkish
 	default_religion = sunni
 	default_capital = erzincan
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

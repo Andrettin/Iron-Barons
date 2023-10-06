@@ -4,6 +4,7 @@ lydia = {
 	culture = lydian
 	default_religion = pagan
 	default_capital = manisa
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

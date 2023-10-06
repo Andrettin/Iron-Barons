@@ -4,6 +4,7 @@ great_bulgaria = {
 	culture = bolghar
 	default_religion = pagan
 	default_capital = kazan
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

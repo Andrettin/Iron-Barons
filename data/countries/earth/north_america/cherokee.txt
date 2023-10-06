@@ -4,6 +4,7 @@ cherokee = {
 	culture = cherokee
 	default_religion = pagan
 	default_capital = charleston
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

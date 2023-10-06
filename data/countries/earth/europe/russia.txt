@@ -5,6 +5,7 @@ russia = {
 	culture = russian
 	default_religion = orthodox
 	default_capital = moscow
+	default_tier = empire
 	eras = {
 		industrial_era
 	}

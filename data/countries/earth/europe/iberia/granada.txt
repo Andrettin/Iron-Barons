@@ -4,6 +4,7 @@ granada = {
 	culture = arabic
 	default_religion = sunni
 	default_capital = granada
+	default_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

@@ -4,6 +4,7 @@ burgundy = {
 	culture = french
 	default_religion = catholic
 	default_capital = dijon
+	default_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

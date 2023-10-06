@@ -4,6 +4,8 @@ nassau = {
 	culture = german
 	default_religion = protestant
 	default_capital = wiesbaden
+	default_tier = county
+	max_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

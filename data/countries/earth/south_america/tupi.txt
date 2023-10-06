@@ -4,6 +4,7 @@ tupi = {
 	culture = tupi
 	default_religion = pagan
 	default_capital = salvador
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

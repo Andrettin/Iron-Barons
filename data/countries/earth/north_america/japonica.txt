@@ -4,6 +4,7 @@ japonica = {
 	culture = japanese
 	default_religion = shinto
 	default_capital = sacramento
+	default_tier = duchy
 	
 	history = {
 		my_country_tis_of_thee = {

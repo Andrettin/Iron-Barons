@@ -4,6 +4,7 @@ bavarians = {
 	culture = suebi
 	default_religion = pagan
 	default_capital = regensburg
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

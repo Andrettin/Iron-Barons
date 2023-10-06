@@ -4,6 +4,7 @@ parma = {
 	culture = italian
 	default_religion = catholic
 	default_capital = parma
+	default_tier = duchy
 	eras = {
 		industrial_era
 	}

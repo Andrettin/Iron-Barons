@@ -5,6 +5,7 @@ sardinia = {
 	culture = italian
 	default_religion = catholic
 	default_capital = turin
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 		industrial_era

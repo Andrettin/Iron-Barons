@@ -4,6 +4,7 @@ bremen = {
 	culture = german
 	default_religion = protestant
 	default_capital = bremen
+	default_tier = duchy #archbishopric
 	eras = {
 		medieval_era
 		renaissance_era

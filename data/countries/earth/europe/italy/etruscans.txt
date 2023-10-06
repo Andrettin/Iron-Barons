@@ -4,6 +4,7 @@ etruscans = {
 	culture = etruscan
 	default_religion = pagan
 	default_capital = florence
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

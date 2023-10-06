@@ -4,6 +4,7 @@ pamphylians = {
 	culture = pamphylian
 	default_religion = pagan
 	default_capital = antalya
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

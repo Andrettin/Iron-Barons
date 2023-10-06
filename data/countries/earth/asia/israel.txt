@@ -4,6 +4,7 @@ israel = {
 	culture = hebrew
 	default_religion = jewish
 	default_capital = jerusalem
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

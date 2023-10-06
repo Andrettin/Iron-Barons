@@ -4,6 +4,7 @@ papal_states = {
 	culture = italian
 	default_religion = catholic
 	default_capital = rome
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

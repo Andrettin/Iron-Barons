@@ -4,6 +4,7 @@ mushki = {
 	culture = phrygian
 	default_religion = pagan
 	default_capital = sivas
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

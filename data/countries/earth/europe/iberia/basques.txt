@@ -4,6 +4,7 @@ basques = {
 	culture = basque
 	default_religion = pagan
 	default_capital = pamplona
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

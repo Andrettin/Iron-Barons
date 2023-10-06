@@ -4,6 +4,7 @@ milan = {
 	culture = italian
 	default_religion = catholic
 	default_capital = milan
+	default_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

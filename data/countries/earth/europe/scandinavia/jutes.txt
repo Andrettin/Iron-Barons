@@ -4,6 +4,7 @@ jutes = {
 	culture = anglian
 	default_religion = pagan
 	default_capital = aarhus
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

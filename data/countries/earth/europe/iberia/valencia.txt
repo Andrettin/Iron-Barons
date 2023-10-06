@@ -4,6 +4,7 @@ valencia = {
 	culture = catalan
 	default_religion = catholic
 	default_capital = valencia
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

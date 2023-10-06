@@ -4,6 +4,7 @@ montenegro = {
 	culture = serbian
 	default_religion = orthodox
 	default_capital = podgorica
+	default_tier = kingdom
 	eras = {
 		industrial_era
 	}

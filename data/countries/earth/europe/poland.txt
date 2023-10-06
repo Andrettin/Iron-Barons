@@ -4,6 +4,7 @@ poland = {
 	culture = polish
 	default_religion = catholic
 	default_capital = warsaw
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

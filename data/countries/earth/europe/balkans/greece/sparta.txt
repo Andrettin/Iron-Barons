@@ -5,6 +5,7 @@ sparta = {
 	culture = greek
 	default_religion = pagan
 	default_capital = sparta
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

@@ -4,6 +4,7 @@ scotland_gaelic = {
 	culture = highlander
 	default_religion = catholic
 	default_capital = edinburgh
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}
@@ -18,6 +19,7 @@ scotland_anglo_saxon = {
 	culture = scottish
 	default_religion = protestant
 	default_capital = edinburgh
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

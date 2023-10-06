@@ -4,6 +4,7 @@ carinthia = {
 	culture = austrian
 	default_religion = catholic
 	default_capital = klagenfurt
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

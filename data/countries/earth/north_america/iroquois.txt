@@ -4,6 +4,7 @@ iroquois = {
 	culture = iroquois
 	default_religion = pagan
 	default_capital = new_york
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

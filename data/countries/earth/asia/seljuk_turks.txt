@@ -4,6 +4,7 @@ seljuk_turks = {
 	culture = turkish
 	default_religion = sunni
 	default_capital = konya
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

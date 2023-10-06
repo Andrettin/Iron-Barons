@@ -4,6 +4,7 @@ huron = {
 	culture = huron
 	default_religion = pagan
 	default_capital = quebec
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

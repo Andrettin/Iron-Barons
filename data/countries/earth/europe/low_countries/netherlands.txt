@@ -5,6 +5,7 @@ netherlands = {
 	culture = dutch
 	default_religion = protestant
 	default_capital = amsterdam
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 		industrial_era

@@ -4,6 +4,7 @@ new_romania = {
 	culture = romanian
 	default_religion = orthodox
 	default_capital = kingston
+	default_tier = duchy
 	core_provinces = {
 		jamaica
 	}

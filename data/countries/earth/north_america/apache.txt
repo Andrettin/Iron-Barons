@@ -4,6 +4,7 @@ apache = {
 	culture = apache
 	default_religion = pagan
 	default_capital = albuquerque
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

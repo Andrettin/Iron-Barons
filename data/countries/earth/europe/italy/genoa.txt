@@ -4,6 +4,7 @@ genoa = {
 	culture = italian
 	default_religion = catholic
 	default_capital = genoa
+	default_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

@@ -4,6 +4,7 @@ hanover = {
 	culture = german
 	default_religion = protestant
 	default_capital = hanover
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 		industrial_era

@@ -4,6 +4,7 @@ kush = {
 	culture = meroitic
 	default_religion = pagan
 	default_capital = napata
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

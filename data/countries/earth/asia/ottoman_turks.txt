@@ -4,6 +4,7 @@ ottoman_turks = {
 	culture = turkish
 	default_religion = sunni
 	default_capital = bursa
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

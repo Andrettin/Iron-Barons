@@ -4,6 +4,8 @@ mexico = {
 	culture = castillian
 	default_religion = catholic
 	default_capital = mexico_city
+	default_tier = kingdom
+	max_tier = empire
 	eras = {
 		industrial_era
 	}

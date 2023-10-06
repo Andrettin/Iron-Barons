@@ -4,6 +4,8 @@ bohemia = {
 	culture = czech
 	default_religion = catholic
 	default_capital = prague
+	default_tier = kingdom
+	min_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

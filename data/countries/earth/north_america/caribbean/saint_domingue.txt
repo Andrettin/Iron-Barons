@@ -4,6 +4,7 @@ saint_domingue = {
 	culture = french
 	default_religion = catholic
 	default_capital = port_au_prince
+	default_tier = duchy
 	core_provinces = {
 		haiti
 	}

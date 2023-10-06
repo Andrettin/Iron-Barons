@@ -4,6 +4,7 @@ brabant = {
 	culture = flemish
 	default_religion = catholic
 	default_capital = brussels
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

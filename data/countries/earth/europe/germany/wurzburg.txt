@@ -4,6 +4,7 @@ wurzburg = {
 	culture = german
 	default_religion = catholic
 	default_capital = wurzburg
+	default_tier = county #bishopric
 	eras = {
 		medieval_era
 		renaissance_era

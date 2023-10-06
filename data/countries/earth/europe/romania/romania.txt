@@ -4,6 +4,7 @@ romania = {
 	culture = romanian
 	default_religion = orthodox
 	default_capital = bucharest
+	default_tier = kingdom
 	eras = {
 		industrial_era
 	}

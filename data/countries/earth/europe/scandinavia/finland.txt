@@ -4,6 +4,7 @@ finland = {
 	culture = finnish
 	default_religion = protestant
 	default_capital = helsinki
+	default_tier = duchy
 	eras = {
 		industrial_era
 	}

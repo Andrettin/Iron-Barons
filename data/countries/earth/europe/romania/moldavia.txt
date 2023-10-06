@@ -4,6 +4,7 @@ moldavia = {
 	culture = romanian
 	default_religion = orthodox
 	default_capital = iasi
+	default_tier = duchy
 	eras = {
 		medieval_era
 		renaissance_era

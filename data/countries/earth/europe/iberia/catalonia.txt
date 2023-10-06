@@ -4,6 +4,7 @@ catalonia = {
 	culture = catalan
 	default_religion = catholic
 	default_capital = barcelona
+	default_tier = county
 	eras = {
 		medieval_era
 		renaissance_era

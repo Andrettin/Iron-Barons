@@ -4,6 +4,7 @@ britons = {
 	culture = briton
 	default_religion = pagan
 	default_capital = london
+	default_tier = kingdom
 	eras = {
 		ancient_era
 		medieval_era

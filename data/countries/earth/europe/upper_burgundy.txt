@@ -4,6 +4,7 @@ upper_burgundy = {
 	culture = french
 	default_religion = catholic
 	default_capital = geneva
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

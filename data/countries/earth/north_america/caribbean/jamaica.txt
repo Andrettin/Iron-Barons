@@ -4,6 +4,7 @@ jamaica = {
 	culture = english
 	default_religion = protestant
 	default_capital = kingston
+	default_tier = duchy
 	eras = {
 		industrial_era
 	}

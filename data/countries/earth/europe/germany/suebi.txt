@@ -4,6 +4,7 @@ suebi = {
 	culture = suebi
 	default_religion = pagan
 	default_capital = berlin
+	default_tier = duchy
 	eras = {
 		ancient_era
 		medieval_era

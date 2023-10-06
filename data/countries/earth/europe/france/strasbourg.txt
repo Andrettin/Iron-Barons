@@ -4,6 +4,7 @@ strasbourg = {
 	culture = alsatian
 	default_religion = catholic
 	default_capital = strasbourg
+	default_tier = county #bishopric
 	eras = {
 		medieval_era
 		renaissance_era

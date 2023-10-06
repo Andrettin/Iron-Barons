@@ -5,6 +5,8 @@ rome = {
 	culture = roman
 	default_religion = pagan
 	default_capital = rome
+	default_tier = kingdom
+	max_tier = empire
 	eras = {
 		ancient_era
 	}

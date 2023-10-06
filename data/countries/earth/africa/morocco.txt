@@ -4,6 +4,7 @@ morocco = {
 	culture = arabic
 	default_religion = sunni
 	default_capital = rabat
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

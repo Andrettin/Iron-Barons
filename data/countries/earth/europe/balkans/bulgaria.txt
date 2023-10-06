@@ -4,6 +4,7 @@ bulgaria = {
 	culture = bulgarian
 	default_religion = orthodox
 	default_capital = sofia
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		industrial_era

@@ -4,6 +4,7 @@ afghanistan = {
 	culture = pashtun
 	default_religion = sunni
 	default_capital = kabul
+	default_tier = kingdom
 	eras = {
 		industrial_era
 	}

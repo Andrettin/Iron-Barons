@@ -4,6 +4,7 @@ cilicia = {
 	culture = cilician
 	default_religion = pagan
 	default_capital = tarsus
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

@@ -4,6 +4,7 @@ scots = {
 	culture = irish
 	default_religion = pagan
 	default_capital = belfast
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

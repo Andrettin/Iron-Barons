@@ -4,6 +4,7 @@ albania = {
 	culture = albanian
 	default_religion = orthodox
 	default_capital = tirana
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		industrial_era

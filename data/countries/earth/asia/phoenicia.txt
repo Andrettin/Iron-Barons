@@ -5,6 +5,7 @@ phoenicia = {
 	culture = phoenician
 	default_religion = pagan
 	default_capital = tyre
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

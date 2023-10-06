@@ -4,6 +4,8 @@ persia = {
 	culture = persian
 	default_religion = shiite
 	default_capital = teheran
+	default_tier = kingdom
+	max_tier = empire
 	eras = {
 		industrial_era
 	}

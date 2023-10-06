@@ -4,6 +4,7 @@ naples = {
 	culture = italian
 	default_religion = catholic
 	default_capital = naples
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

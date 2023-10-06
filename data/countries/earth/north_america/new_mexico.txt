@@ -4,6 +4,7 @@ new_mexico = {
 	culture = english
 	default_religion = protestant
 	default_capital = santa_fe
+	default_tier = duchy
 	eras = {
 		industrial_era
 	}

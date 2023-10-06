@@ -5,6 +5,7 @@ greece = {
 	culture = greek
 	default_religion = orthodox
 	default_capital = athens
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

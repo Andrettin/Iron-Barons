@@ -4,6 +4,7 @@ aztecs = {
 	culture = aztec
 	default_religion = pagan
 	default_capital = mexico_city
+	default_tier = empire
 	eras = {
 		renaissance_era
 	}

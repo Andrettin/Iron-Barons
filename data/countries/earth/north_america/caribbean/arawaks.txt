@@ -4,6 +4,7 @@ arawaks = {
 	culture = arawak
 	default_religion = pagan
 	default_capital = santo_domingo
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

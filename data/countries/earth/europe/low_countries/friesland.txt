@@ -4,6 +4,7 @@ friesland = {
 	culture = dutch
 	default_religion = protestant
 	default_capital = leeuwarden
+	default_tier = county #lordship
 	eras = {
 		medieval_era
 		renaissance_era

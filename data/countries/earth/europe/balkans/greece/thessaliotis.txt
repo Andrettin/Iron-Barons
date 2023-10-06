@@ -4,6 +4,7 @@ thessaliotis = {
 	culture = greek
 	default_religion = pagan
 	default_capital = larissa
+	default_tier = duchy
 	eras = {
 		ancient_era
 	}

@@ -4,6 +4,7 @@ incas = {
 	culture = inca
 	default_religion = pagan
 	default_capital = cuzco
+	default_tier = empire
 	eras = {
 		renaissance_era
 	}

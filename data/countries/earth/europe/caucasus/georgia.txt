@@ -4,6 +4,7 @@ georgia = {
 	culture = georgian
 	default_religion = orthodox
 	default_capital = tbilisi
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

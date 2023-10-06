@@ -4,6 +4,7 @@ slavs = {
 	culture = slavic
 	default_religion = pagan
 	default_capital = warsaw
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

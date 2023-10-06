@@ -4,6 +4,7 @@ mayas = {
 	culture = maya
 	default_religion = pagan
 	default_capital = merida_yucatan
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 	}

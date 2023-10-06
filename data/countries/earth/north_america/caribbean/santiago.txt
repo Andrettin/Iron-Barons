@@ -4,6 +4,7 @@ santiago = {
 	culture = castillian
 	default_religion = catholic
 	default_capital = kingston
+	default_tier = duchy
 	core_provinces = {
 		jamaica
 	}

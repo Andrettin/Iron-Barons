@@ -4,6 +4,7 @@ mauretanians = {
 	culture = maurian
 	default_religion = pagan
 	default_capital = biskra
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

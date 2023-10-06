@@ -4,6 +4,7 @@ philippines = {
 	culture = filipino
 	default_religion = catholic
 	default_capital = manila
+	default_tier = kingdom
 	eras = {
 		industrial_era
 	}
