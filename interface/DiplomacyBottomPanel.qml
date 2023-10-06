@@ -92,7 +92,7 @@ Rectangle {
 	SmallText {
 		id: country_text
 		text: format_text(selected_country && selected_country_game_data ? (
-			selected_country.name
+			selected_country_game_data.name
 			+ "\n"
 			+ "\n" + selected_country_game_data.type_name
 			+ (selected_country_game_data.overlord ? (

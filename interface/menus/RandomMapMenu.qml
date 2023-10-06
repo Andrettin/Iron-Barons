@@ -95,7 +95,7 @@ MenuBase {
 	SmallText {
 		id: country_text
 		text: selected_country ? (
-			selected_country.name
+			selected_country.game_data.name
 			+ "\n"
 			+ "\n" + selected_country.game_data.type_name
 			+ (selected_country.game_data.overlord ? (

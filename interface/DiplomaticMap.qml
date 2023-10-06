@@ -67,7 +67,7 @@ Flickable {
 			}
 			
 			CustomTooltip {
-				text: country.name + tooltip_suffix
+				text: country.game_data.name + tooltip_suffix
 				visible: country_mouse_area.containsMouse
 				
 				property string tooltip_suffix: country_mouse_area.containsMouse ? (diplomatic_map.mode === DiplomaticMap.Mode.Terrain ?
@@ -118,7 +118,7 @@ Flickable {
 		
 		TinyText {
 			id: country_label
-			text: country.name
+			text: country.game_data.name
 			x: Math.floor(text_rect.x * metternich.map.diplomatic_map_tile_pixel_size * scale_factor)
 			y: Math.floor(text_rect.y * metternich.map.diplomatic_map_tile_pixel_size * scale_factor)
 			width: Math.floor(text_rect_width)
