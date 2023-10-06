@@ -270,14 +270,14 @@ Window {
 		return name_list
 	}
 	
-	function costs_to_string(costs) {
+	function costs_to_string(costs, modifier) {
 		var str = "Costs:"
 		
 		for (var i = 0; i < costs.length; i++) {
 			var commodity = costs[i].key
 			var cost = costs[i].value
 			
-			str += "\n\t" + cost + " " + highlight(commodity.name)
+			str += "\n\t" + Math.floor(cost * modifier / 100) + " " + highlight(commodity.name)
 		}
 		
 		return str

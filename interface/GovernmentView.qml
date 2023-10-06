@@ -37,16 +37,16 @@ Item {
 					max_value: 5
 					fill_slider: false
 					show_handle: true
-					tooltip: format_text(small_text(policy.get_modifier_string(metternich.game.player_country, policy_slider.value)))
+					tooltip: format_text(small_text(policy.get_modifier_string(country, policy_slider.value)))
 					decrement_button_tooltip: (policy_slider.value - 1) >= min_value ? format_text(small_text(
 						"Gain " + 1 + " " + highlight(policy.left_name)
-						+ "\n" + costs_to_string(policy.change_commodity_costs)
-						+ "\n" + policy.get_modifier_string(metternich.game.player_country, policy_slider.value - 1)
+						+ "\n" + costs_to_string(policy.change_commodity_costs, country_game_data.get_policy_value_change_cost_modifier())
+						+ "\n" + policy.get_modifier_string(country, policy_slider.value - 1)
 					)) : ""
 					increment_button_tooltip: (policy_slider.value + 1) <= max_value ? format_text(small_text(
 						"Gain " + 1 + " " + highlight(policy.right_name)
-						+ "\n" + costs_to_string(policy.change_commodity_costs)
-						+ "\n" + policy.get_modifier_string(metternich.game.player_country, policy_slider.value + 1)
+						+ "\n" + costs_to_string(policy.change_commodity_costs, country_game_data.get_policy_value_change_cost_modifier())
+						+ "\n" + policy.get_modifier_string(country, policy_slider.value + 1)
 					)) : ""
 					
 					onDecremented: {
