@@ -101,6 +101,7 @@ MenuBase {
 			+ (selected_country.game_data.overlord ? (
 				"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
 			) : "")
+			+ "\n" + selected_country.game_data.title_name
 			+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
 			+ (selected_country.great_power && !selected_country.game_data.anarchy ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 			+ "\nPopulation: " + number_string(selected_country.game_data.population.size)
@@ -116,7 +117,7 @@ MenuBase {
 		anchors.left: diplomatic_map.left
 		anchors.leftMargin: 4 * scale_factor
 		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 16 * scale_factor
+		anchors.bottomMargin: 4 * scale_factor
 		height: 128 * scale_factor
 		
 		readonly property int vassal_count: selected_country ? (selected_country.game_data.vassals.length - selected_country.game_data.colonies.length) : 0

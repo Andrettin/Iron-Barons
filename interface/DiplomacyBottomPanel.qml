@@ -98,6 +98,7 @@ Rectangle {
 			+ (selected_country_game_data.overlord ? (
 				"\n" + selected_country_game_data.vassalage_type_name + " of " + selected_country_game_data.overlord.name
 			) : "")
+			+ "\n" + selected_country_game_data.title_name
 			+ (selected_country_game_data.anarchy ? "\nAnarchy" : "")
 			+ (selected_country.great_power && !selected_country_game_data.anarchy ? ("\nScore: " + number_string(selected_country_game_data.score) + " (#" + (selected_country_game_data.rank + 1) + ")") : "")
 			+ "\nPopulation: " + number_string(selected_country_game_data.population.size)
