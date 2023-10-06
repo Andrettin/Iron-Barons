@@ -5,7 +5,7 @@ egypt = {
 	culture = egyptian
 	default_religion = pagan
 	default_capital = cairo
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}
@@ -24,7 +24,7 @@ egypt_arabic = {
 	culture = arabic
 	default_religion = sunni
 	default_capital = cairo
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

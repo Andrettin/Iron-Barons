@@ -4,7 +4,7 @@ kent = {
 	culture = anglo_saxon
 	default_religion = catholic
 	default_capital = canterbury
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

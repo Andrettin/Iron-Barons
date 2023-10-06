@@ -5,7 +5,7 @@ langobardia = {
 	culture = lombard
 	default_religion = catholic
 	default_capital = pavia
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

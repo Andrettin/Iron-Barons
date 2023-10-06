@@ -4,7 +4,7 @@ swabia = {
 	culture = german
 	default_religion = catholic
 	default_capital = stuttgart
-	#default_tier = duchy
+	default_tier = duchy
 	eras = {
 		medieval_era
 	}

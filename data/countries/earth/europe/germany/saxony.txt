@@ -4,8 +4,8 @@ saxony = {
 	culture = german
 	default_religion = catholic
 	default_capital = brunswick
-	#default_tier = duchy
-	#max_tier = kingdom
+	default_tier = duchy
+	max_tier = kingdom
 	eras = {
 		medieval_era
 	}

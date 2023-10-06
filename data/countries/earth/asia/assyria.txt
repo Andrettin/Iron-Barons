@@ -5,7 +5,7 @@ assyria = {
 	culture = assyrian
 	default_religion = pagan
 	default_capital = nineveh
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		ancient_era
 	}

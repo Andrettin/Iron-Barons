@@ -4,7 +4,7 @@ mercia = {
 	culture = anglo_saxon
 	default_religion = catholic
 	default_capital = coventry #Tamworth
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

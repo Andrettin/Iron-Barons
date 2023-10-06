@@ -4,7 +4,7 @@ cyprus = {
 	culture = greek
 	default_religion = catholic
 	default_capital = nicosia
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

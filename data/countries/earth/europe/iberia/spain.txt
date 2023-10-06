@@ -5,7 +5,7 @@ spain = {
 	culture = castillian
 	default_religion = catholic
 	default_capital = madrid
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		renaissance_era
 		industrial_era

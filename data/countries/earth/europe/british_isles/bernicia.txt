@@ -4,7 +4,7 @@ bernicia = {
 	culture = anglo_saxon
 	default_religion = catholic
 	default_capital = newcastle #Bamburgh
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

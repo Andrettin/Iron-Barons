@@ -4,7 +4,7 @@ trebizond = {
 	culture = greek
 	default_religion = orthodox
 	default_capital = trebizond
-	#default_tier = empire
+	default_tier = empire
 	eras = {
 		medieval_era
 	}

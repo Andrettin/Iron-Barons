@@ -4,7 +4,7 @@ denmark = {
 	culture = danish
 	default_religion = protestant
 	default_capital = copenhagen
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

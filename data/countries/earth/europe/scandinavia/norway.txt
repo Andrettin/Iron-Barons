@@ -4,7 +4,7 @@ norway = {
 	culture = norwegian
 	default_religion = protestant
 	default_capital = oslo
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

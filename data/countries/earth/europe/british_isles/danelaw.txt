@@ -4,7 +4,7 @@ danelaw = {
 	culture = norse
 	default_religion = pagan
 	default_capital = york
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

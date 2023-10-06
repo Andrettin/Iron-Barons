@@ -4,7 +4,7 @@ danes = {
 	culture = norse
 	default_religion = pagan
 	default_capital = copenhagen
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

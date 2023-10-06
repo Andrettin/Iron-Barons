@@ -5,9 +5,9 @@ austria = {
 	culture = austrian
 	default_religion = catholic
 	default_capital = vienna
-	#default_tier = duchy
+	default_tier = duchy
 	#min_tier = marquisate
-	#max_tier = empire
+	max_tier = empire
 	eras = {
 		medieval_era
 		renaissance_era
@@ -33,7 +33,7 @@ austria = {
 		}
 		
 		1804.8.11 = {
-			#tier = empire #Empire of Austria founded on 1804.8.11; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+			tier = empire #Empire of Austria founded on 1804.8.11; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
 			#ruler = franz_i_of_austria
 		}
 		

@@ -5,8 +5,8 @@ francia = {
 	culture = frankish
 	default_religion = catholic
 	default_capital = paris
-	#default_tier = kingdom
-	#max_tier = empire
+	default_tier = kingdom
+	max_tier = empire
 	eras = {
 		medieval_era
 	}

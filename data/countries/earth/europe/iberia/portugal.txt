@@ -5,8 +5,8 @@ portugal = {
 	culture = portuguese
 	default_religion = catholic
 	default_capital = lisbon
-	#default_tier = kingdom
-	#min_tier = county
+	default_tier = kingdom
+	min_tier = county
 	eras = {
 		medieval_era
 		renaissance_era

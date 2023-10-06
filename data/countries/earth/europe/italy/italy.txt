@@ -5,7 +5,7 @@ italy = {
 	culture = italian
 	default_religion = catholic
 	default_capital = rome
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		industrial_era
 	}

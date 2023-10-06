@@ -4,7 +4,7 @@ untersberg = {
 	culture = gnomish
 	default_religion = pagan
 	default_capital = salzburg
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		ancient_era
 		medieval_era

@@ -4,7 +4,7 @@ east_anglia = {
 	culture = anglo_saxon
 	default_religion = catholic
 	default_capital = norwich
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}

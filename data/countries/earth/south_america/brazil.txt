@@ -4,8 +4,8 @@ brazil = {
 	culture = portuguese
 	default_religion = catholic
 	default_capital = rio_de_janeiro
-	#default_tier = empite
-	#min_tier = kingdom
+	default_tier = empire
+	min_tier = kingdom
 	eras = {
 		industrial_era
 	}

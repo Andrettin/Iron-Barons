@@ -5,7 +5,7 @@ sweden = {
 	culture = swedish
 	default_religion = protestant
 	default_capital = stockholm
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 		renaissance_era

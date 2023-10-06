@@ -5,7 +5,7 @@ visigothia = {
 	culture = gothic
 	default_religion = catholic #Arianism
 	default_capital = toledo
-	#default_tier = kingdom
+	default_tier = kingdom
 	eras = {
 		medieval_era
 	}
