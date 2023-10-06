@@ -1,3 +1,10 @@
 tribe = {
 	name = "Tribe"
+	ruler_title_names = {
+		barony = "Chief"
+		county = "Chief"
+		duchy = "Chief"
+		kingdom = "Chief"
+		empire = "Chief"
+	}
 }
