@@ -4,4 +4,9 @@ republic = {
 	modifier = {
 		trade_bonus_for_tile_threshold = 1
 	}
+	title_names = {
+		duchy = "Petty Republic"
+		kingdom = "Republic"
+		empire = "Grand Republic"
+	}
 }
