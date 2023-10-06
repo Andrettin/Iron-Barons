@@ -318,7 +318,7 @@ MenuBase {
 		allowed: selected_country !== null && selected_country.great_power && !selected_country.game_data.anarchy
 		tooltip: allowed ? "" : small_text(
 			selected_country === null ? "You must select a country to play" : (
-				!selected_country.great_power ? ("You cannot play as a " + (selected_country.tribe ? "Tribe" : "Minor Nation")) : "You cannot play as a country under anarchy"
+				!selected_country.great_power ? "You cannot play as a Minor Nation" : "You cannot play as a country under anarchy"
 			)
 		)
 		
