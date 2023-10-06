@@ -127,7 +127,7 @@ Rectangle {
 		anchors.rightMargin: 32 * scale_factor
 		portrait_identifier: selected_country_ruler && selected_country_ruler.game_data.portrait ? selected_country_ruler.game_data.portrait.identifier : ""
 		visible: selected_country_ruler !== null
-		tooltip: selected_country_ruler ? selected_country_ruler.full_name : ""
+		tooltip: selected_country_ruler ? (selected_country.game_data.ruler_title_name + " " + selected_country_ruler.full_name) : ""
 		circle: true
 	}
 	

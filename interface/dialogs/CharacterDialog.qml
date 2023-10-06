@@ -4,12 +4,13 @@ import ".."
 
 DialogBase {
 	id: character_dialog
-	title: character ? character.full_name : ""
+	title: character ? (is_ruler ? country_game_data.ruler_title_name + " " : "") + character.full_name : ""
 	width: Math.max(256 * scale_factor, modifier_text.contentWidth + 16 * scale_factor)
 	height: ok_button.y + ok_button.height + 8 * scale_factor
 	
 	property var character: null
 	property string modifier_string: ""
+	readonly property bool is_ruler: character ? character === ruler : false
 	
 	SmallText {
 		id: modifier_text
