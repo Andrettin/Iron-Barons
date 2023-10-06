@@ -6,6 +6,7 @@ two_sicilies = {
 	default_tier = kingdom
 	default_government_type = monarchy
 	default_capital = naples
+	definite_article = true
 	eras = {
 		industrial_era
 	}

@@ -7,6 +7,11 @@ ottoman_empire = {
 	default_tier = empire
 	default_government_type = monarchy
 	default_capital = constantinople
+	short_names = {
+		monarchy = {
+			empire = "Ottoman Empire"
+		}
+	}
 	eras = {
 		renaissance_era
 		industrial_era

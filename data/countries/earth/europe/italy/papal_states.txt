@@ -6,6 +6,9 @@ papal_states = {
 	default_tier = kingdom
 	default_government_type = monarchy
 	default_capital = rome
+	short_names = {
+		monarchy = "Papal States"
+	}
 	eras = {
 		medieval_era
 		renaissance_era
