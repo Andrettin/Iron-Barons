@@ -2,7 +2,7 @@ offensive_defensive = {
 	left_name = "Offensive"
 	right_name = "Defensive"
 	change_commodity_costs = {
-		prestige = 10
+		statesmanship = 10
 	}
 	modifier = {
 		#artillery_cost_modifier = -5

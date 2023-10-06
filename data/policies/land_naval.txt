@@ -2,7 +2,7 @@ land_naval = {
 	left_name = "Land"
 	right_name = "Naval"
 	change_commodity_costs = {
-		prestige = 10
+		statesmanship = 10
 	}
 	modifier = {
 		infantry_cost_modifier = 5

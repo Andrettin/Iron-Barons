@@ -2,7 +2,7 @@ serfdom_free_subjects = {
 	left_name = "Serfdom"
 	right_name = "Free Subjects"
 	change_commodity_costs = {
-		prestige = 10
+		statesmanship = 10
 	}
 	modifier = {
 		infantry_cost_modifier = 6

@@ -2,7 +2,7 @@ quality_quantity = {
 	left_name = "Quality"
 	right_name = "Quantity"
 	change_commodity_costs = {
-		prestige = 10
+		statesmanship = 10
 	}
 	modifier = {
 		infantry_cost_modifier = -2.5

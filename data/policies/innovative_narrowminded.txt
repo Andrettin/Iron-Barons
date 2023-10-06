@@ -2,7 +2,7 @@ innovative_narrowminded = {
 	left_name = "Innovative"
 	right_name = "Narrowminded"
 	change_commodity_costs = {
-		prestige = 10
+		statesmanship = 10
 	}
 	modifier = {
 		research_output_modifier = -3
