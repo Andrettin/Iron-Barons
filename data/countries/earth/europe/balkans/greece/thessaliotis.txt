@@ -3,8 +3,9 @@ thessaliotis = {
 	type = tribe
 	culture = greek
 	default_religion = pagan
-	default_capital = larissa
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = larissa
 	eras = {
 		ancient_era
 	}

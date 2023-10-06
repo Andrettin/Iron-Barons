@@ -4,8 +4,9 @@ portugal = {
 	color = { 0 66 24 }
 	culture = portuguese
 	default_religion = catholic
-	default_capital = lisbon
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = lisbon
 	min_tier = county
 	eras = {
 		medieval_era

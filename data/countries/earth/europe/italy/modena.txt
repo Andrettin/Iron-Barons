@@ -3,8 +3,9 @@ modena = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = modena
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = modena
 	eras = {
 		renaissance_era
 		industrial_era

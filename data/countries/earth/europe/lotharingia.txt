@@ -3,9 +3,10 @@ lotharingia = {
 	type = minor_nation
 	culture = frankish
 	default_religion = catholic
-	default_capital = aachen
 	default_tier = kingdom
 	min_tier = duchy
+	default_government_type = monarchy
+	default_capital = aachen
 	eras = {
 		medieval_era
 	}

@@ -3,8 +3,9 @@ east_friesland = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	default_capital = emden
 	default_tier = county
+	default_government_type = monarchy
+	default_capital = emden
 	eras = {
 		renaissance_era
 	}

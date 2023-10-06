@@ -3,8 +3,9 @@ apache = {
 	type = tribe
 	culture = apache
 	default_religion = pagan
-	default_capital = albuquerque
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = albuquerque
 	eras = {
 		renaissance_era
 	}

@@ -3,8 +3,9 @@ salzburg = {
 	type = minor_nation
 	culture = austrian
 	default_religion = catholic
-	default_capital = salzburg
 	default_tier = duchy #archbishopric
+	default_government_type = monarchy
+	default_capital = salzburg
 	eras = {
 		medieval_era
 		renaissance_era

@@ -3,8 +3,9 @@ trent = {
 	type = minor_nation
 	culture = austrian
 	default_religion = catholic
-	default_capital = trent
 	default_tier = county #bishopric
+	default_government_type = monarchy
+	default_capital = trent
 	eras = {
 		medieval_era
 	}

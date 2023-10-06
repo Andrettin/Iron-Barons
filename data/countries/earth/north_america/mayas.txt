@@ -3,8 +3,9 @@ mayas = {
 	type = tribe
 	culture = maya
 	default_religion = pagan
-	default_capital = merida_yucatan
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = merida_yucatan
 	eras = {
 		renaissance_era
 	}

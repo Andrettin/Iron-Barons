@@ -3,8 +3,9 @@ algeria = {
 	type = minor_nation
 	culture = arabic
 	default_religion = sunni
-	default_capital = algiers
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = algiers
 	eras = {
 		medieval_era
 		renaissance_era

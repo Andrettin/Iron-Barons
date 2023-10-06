@@ -3,8 +3,9 @@ togoland = {
 	type = minor_nation
 	culture = ewe
 	default_religion = pagan
-	default_capital = lome
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = lome
 	eras = {
 		industrial_era
 	}

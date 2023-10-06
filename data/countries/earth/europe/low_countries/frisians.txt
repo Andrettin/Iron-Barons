@@ -3,8 +3,9 @@ frisians = {
 	type = tribe
 	culture = frisian
 	default_religion = pagan
-	default_capital = leeuwarden
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = leeuwarden
 	eras = {
 		medieval_era
 	}

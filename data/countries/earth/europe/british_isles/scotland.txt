@@ -3,8 +3,9 @@ scotland_gaelic = {
 	type = minor_nation
 	culture = highlander
 	default_religion = catholic
-	default_capital = edinburgh
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = edinburgh
 	eras = {
 		medieval_era
 	}
@@ -18,8 +19,9 @@ scotland_anglo_saxon = {
 	type = minor_nation
 	culture = scottish
 	default_religion = protestant
-	default_capital = edinburgh
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = edinburgh
 	eras = {
 		renaissance_era
 	}

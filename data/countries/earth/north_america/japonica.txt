@@ -3,8 +3,9 @@ japonica = {
 	type = minor_nation
 	culture = japanese
 	default_religion = shinto
-	default_capital = sacramento
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = sacramento
 	
 	history = {
 		my_country_tis_of_thee = {

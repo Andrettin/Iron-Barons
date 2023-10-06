@@ -3,8 +3,9 @@ utrecht = {
 	type = minor_nation
 	culture = dutch
 	default_religion = protestant
-	default_capital = utrecht
 	default_tier = county #bishopric
+	default_government_type = monarchy
+	default_capital = utrecht
 	eras = {
 		renaissance_era
 	}

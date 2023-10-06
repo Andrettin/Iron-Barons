@@ -3,8 +3,9 @@ mushki = {
 	type = tribe
 	culture = phrygian
 	default_religion = pagan
-	default_capital = sivas
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = sivas
 	eras = {
 		ancient_era
 	}

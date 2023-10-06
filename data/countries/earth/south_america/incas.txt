@@ -3,8 +3,9 @@ incas = {
 	type = tribe
 	culture = inca
 	default_religion = pagan
-	default_capital = cuzco
 	default_tier = empire
+	default_government_type = despotism
+	default_capital = cuzco
 	eras = {
 		renaissance_era
 	}

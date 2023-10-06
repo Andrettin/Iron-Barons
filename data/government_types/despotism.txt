@@ -1,0 +1,5 @@
+despotism = {
+	name = "Despotism"
+	modifier = {
+	}
+}

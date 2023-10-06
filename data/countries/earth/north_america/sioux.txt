@@ -3,8 +3,9 @@ sioux = {
 	type = tribe
 	culture = sioux
 	default_religion = pagan
-	default_capital = bismarck
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = bismarck
 	eras = {
 		renaissance_era
 	}

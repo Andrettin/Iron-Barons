@@ -3,8 +3,9 @@ new_romania = {
 	type = minor_nation
 	culture = romanian
 	default_religion = orthodox
-	default_capital = kingston
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = kingston
 	core_provinces = {
 		jamaica
 	}

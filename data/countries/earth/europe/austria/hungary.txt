@@ -3,8 +3,9 @@ hungary = {
 	type = minor_nation
 	culture = magyar
 	default_religion = catholic
-	default_capital = pest
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = pest
 	eras = {
 		medieval_era
 		renaissance_era

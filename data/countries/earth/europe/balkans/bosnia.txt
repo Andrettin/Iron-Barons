@@ -3,8 +3,9 @@ bosnia = {
 	type = minor_nation
 	culture = bosnian
 	default_religion = orthodox
-	default_capital = sarajevo
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = sarajevo
 	eras = {
 		medieval_era
 		industrial_era

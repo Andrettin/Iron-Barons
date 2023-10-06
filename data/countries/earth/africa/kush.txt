@@ -3,8 +3,9 @@ kush = {
 	type = minor_nation
 	culture = meroitic
 	default_religion = pagan
-	default_capital = napata
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = napata
 	eras = {
 		ancient_era
 	}

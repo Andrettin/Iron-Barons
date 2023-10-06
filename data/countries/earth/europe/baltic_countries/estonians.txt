@@ -3,8 +3,9 @@ estonians = {
 	type = tribe
 	culture = estonian
 	default_religion = pagan
-	default_capital = reval
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = reval
 	eras = {
 		medieval_era
 	}

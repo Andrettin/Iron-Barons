@@ -3,8 +3,9 @@ elam = {
 	type = minor_nation
 	culture = elamite
 	default_religion = pagan
-	default_capital = susa
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = susa
 	eras = {
 		ancient_era
 	}

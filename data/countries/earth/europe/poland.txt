@@ -3,8 +3,9 @@ poland = {
 	type = minor_nation
 	culture = polish
 	default_religion = catholic
-	default_capital = warsaw
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = warsaw
 	eras = {
 		renaissance_era
 	}

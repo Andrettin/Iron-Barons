@@ -4,8 +4,9 @@ macedon = {
 	color = { 16 41 202 }
 	culture = greek
 	default_religion = pagan
-	default_capital = thessalonica
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = thessalonica
 	eras = {
 		ancient_era
 	}

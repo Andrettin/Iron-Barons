@@ -3,8 +3,9 @@ tunisia = {
 	type = minor_nation
 	culture = arabic
 	default_religion = sunni
-	default_capital = tunis
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = tunis
 	eras = {
 		medieval_era
 		renaissance_era

@@ -3,8 +3,9 @@ teutonic_order = {
 	type = minor_nation
 	culture = german
 	default_religion = catholic
-	default_capital = konigsberg
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = konigsberg
 	eras = {
 		medieval_era
 		renaissance_era

@@ -3,8 +3,9 @@ untersberg = {
 	type = minor_nation
 	culture = gnomish
 	default_religion = pagan
-	default_capital = salzburg
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = salzburg
 	eras = {
 		ancient_era
 		medieval_era

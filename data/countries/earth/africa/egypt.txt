@@ -4,8 +4,9 @@ egypt = {
 	color = { 143 141 128 }
 	culture = egyptian
 	default_religion = pagan
-	default_capital = cairo
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = cairo
 	eras = {
 		ancient_era
 	}
@@ -23,8 +24,9 @@ egypt_arabic = {
 	type = minor_nation
 	culture = arabic
 	default_religion = sunni
-	default_capital = cairo
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = cairo
 	eras = {
 		medieval_era
 		renaissance_era

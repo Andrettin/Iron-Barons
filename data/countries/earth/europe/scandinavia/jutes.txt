@@ -3,8 +3,9 @@ jutes = {
 	type = tribe
 	culture = anglian
 	default_religion = pagan
-	default_capital = aarhus
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = aarhus
 	eras = {
 		medieval_era
 	}

@@ -3,8 +3,9 @@ ottoman_turks = {
 	type = tribe
 	culture = turkish
 	default_religion = sunni
-	default_capital = bursa
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = bursa
 	eras = {
 		medieval_era
 	}

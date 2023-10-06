@@ -3,8 +3,9 @@ saint_domingue = {
 	type = minor_nation
 	culture = french
 	default_religion = catholic
-	default_capital = port_au_prince
 	default_tier = duchy
+	default_government_type = republic
+	default_capital = port_au_prince
 	core_provinces = {
 		haiti
 	}

@@ -3,8 +3,9 @@ gold_coast = {
 	type = minor_nation
 	culture = akan
 	default_religion = pagan
-	default_capital = accra
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = accra
 	eras = {
 		renaissance_era
 		industrial_era

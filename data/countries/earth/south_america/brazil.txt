@@ -3,8 +3,9 @@ brazil = {
 	type = minor_nation
 	culture = portuguese
 	default_religion = catholic
-	default_capital = rio_de_janeiro
 	default_tier = empire
+	default_government_type = monarchy
+	default_capital = rio_de_janeiro
 	min_tier = kingdom
 	eras = {
 		industrial_era

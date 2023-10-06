@@ -3,8 +3,9 @@ milan = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = milan
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = milan
 	eras = {
 		medieval_era
 		renaissance_era

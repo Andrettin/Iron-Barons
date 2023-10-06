@@ -3,8 +3,9 @@ brunswick = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	default_capital = brunswick
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = brunswick
 	eras = {
 		medieval_era
 		renaissance_era

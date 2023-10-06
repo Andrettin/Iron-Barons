@@ -3,8 +3,9 @@ erzincan = {
 	type = minor_nation
 	culture = turkish
 	default_religion = sunni
-	default_capital = erzincan
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = erzincan
 	eras = {
 		ancient_era
 	}

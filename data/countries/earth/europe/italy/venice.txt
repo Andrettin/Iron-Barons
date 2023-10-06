@@ -3,8 +3,9 @@ venice = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = venice
 	default_tier = duchy
+	default_government_type = republic
+	default_capital = venice
 	eras = {
 		medieval_era
 		renaissance_era

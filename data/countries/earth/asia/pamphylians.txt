@@ -3,8 +3,9 @@ pamphylians = {
 	type = tribe
 	culture = pamphylian
 	default_religion = pagan
-	default_capital = antalya
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = antalya
 	eras = {
 		ancient_era
 	}

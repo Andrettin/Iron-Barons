@@ -3,8 +3,9 @@ tuscany = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = florence
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = florence
 	eras = {
 		medieval_era
 		industrial_era

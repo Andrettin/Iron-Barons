@@ -3,8 +3,9 @@ etruria = {
 	type = minor_nation
 	culture = etruscan
 	default_religion = pagan
-	default_capital = florence
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = florence
 	eras = {
 		ancient_era
 	}

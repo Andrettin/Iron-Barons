@@ -4,8 +4,9 @@ england = {
 	color = { 206 8 8 }
 	culture = english
 	default_religion = protestant
-	default_capital = london
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = london
 	eras = {
 		medieval_era
 		renaissance_era

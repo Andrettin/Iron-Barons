@@ -3,8 +3,9 @@ jamaica = {
 	type = minor_nation
 	culture = english
 	default_religion = protestant
-	default_capital = kingston
 	default_tier = duchy
+	default_government_type = republic
+	default_capital = kingston
 	eras = {
 		industrial_era
 	}

@@ -3,8 +3,9 @@ turconia = {
 	type = minor_nation
 	culture = turkish
 	default_religion = sunni
-	default_capital = tallahassee
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = tallahassee
 	
 	history = {
 		my_country_tis_of_thee = {

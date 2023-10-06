@@ -4,8 +4,9 @@ vandalia = {
 	color = { 21 190 219 }
 	culture = vandal
 	default_religion = catholic #Arianism
-	default_capital = tunis #Carthage
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = tunis #Carthage
 	eras = {
 		medieval_era
 	}

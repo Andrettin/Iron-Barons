@@ -3,8 +3,9 @@ basques = {
 	type = tribe
 	culture = basque
 	default_religion = pagan
-	default_capital = pamplona
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = pamplona
 	eras = {
 		medieval_era
 	}

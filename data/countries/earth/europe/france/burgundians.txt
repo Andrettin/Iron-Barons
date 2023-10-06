@@ -3,8 +3,9 @@ burgundians = {
 	type = tribe
 	culture = gothic
 	default_religion = pagan
-	default_capital = worms
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = worms
 	eras = {
 		medieval_era
 	}

@@ -4,8 +4,9 @@ langobardia = {
 	color = { 234 217 110 }
 	culture = lombard
 	default_religion = catholic
-	default_capital = pavia
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = pavia
 	eras = {
 		medieval_era
 	}

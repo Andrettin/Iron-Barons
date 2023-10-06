@@ -3,8 +3,9 @@ alamanni = {
 	type = tribe
 	culture = suebi
 	default_religion = pagan
-	default_capital = karlsruhe
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = karlsruhe
 	eras = {
 		medieval_era
 	}

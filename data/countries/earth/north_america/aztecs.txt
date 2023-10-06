@@ -3,8 +3,9 @@ aztecs = {
 	type = tribe
 	culture = aztec
 	default_religion = pagan
-	default_capital = mexico_city
 	default_tier = empire
+	default_government_type = despotism
+	default_capital = mexico_city
 	eras = {
 		renaissance_era
 	}

@@ -3,8 +3,9 @@ galicia = {
 	type = minor_nation
 	culture = galician
 	default_religion = catholic
-	default_capital = santiago_de_compostela
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = santiago_de_compostela
 	eras = {
 		medieval_era
 		renaissance_era

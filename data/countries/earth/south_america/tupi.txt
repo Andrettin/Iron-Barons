@@ -3,8 +3,9 @@ tupi = {
 	type = tribe
 	culture = tupi
 	default_religion = pagan
-	default_capital = salvador
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = salvador
 	eras = {
 		renaissance_era
 	}

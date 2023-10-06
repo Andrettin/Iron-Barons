@@ -3,8 +3,9 @@ thuringia = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	default_capital = erfurt
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = erfurt
 	eras = {
 		medieval_era
 	}

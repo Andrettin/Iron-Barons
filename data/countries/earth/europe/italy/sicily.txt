@@ -3,8 +3,9 @@ sicily = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = palermo
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = palermo
 	eras = {
 		medieval_era
 		renaissance_era

@@ -4,8 +4,9 @@ sweden = {
 	color = { 0 173 198 }
 	culture = swedish
 	default_religion = protestant
-	default_capital = stockholm
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = stockholm
 	eras = {
 		medieval_era
 		renaissance_era

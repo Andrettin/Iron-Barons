@@ -3,8 +3,9 @@ moldavia = {
 	type = minor_nation
 	culture = romanian
 	default_religion = orthodox
-	default_capital = iasi
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = iasi
 	eras = {
 		medieval_era
 		renaissance_era

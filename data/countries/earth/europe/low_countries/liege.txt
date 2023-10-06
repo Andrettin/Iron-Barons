@@ -3,8 +3,9 @@ liege = {
 	type = minor_nation
 	culture = walloon
 	default_religion = catholic
-	default_capital = liege
 	default_tier = county #bishopric
+	default_government_type = monarchy
+	default_capital = liege
 	eras = {
 		medieval_era
 		renaissance_era

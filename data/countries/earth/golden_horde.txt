@@ -3,8 +3,9 @@ golden_horde = {
 	type = tribe
 	culture = mongol
 	default_religion = pagan
-	default_capital = sarai
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = sarai
 	eras = {
 		medieval_era
 	}

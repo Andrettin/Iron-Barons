@@ -3,8 +3,9 @@ seljuk_turks = {
 	type = tribe
 	culture = turkish
 	default_religion = sunni
-	default_capital = konya
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = konya
 	eras = {
 		medieval_era
 	}

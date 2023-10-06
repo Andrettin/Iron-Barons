@@ -3,8 +3,9 @@ papal_states = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = rome
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = rome
 	eras = {
 		medieval_era
 		renaissance_era

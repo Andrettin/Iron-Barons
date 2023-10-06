@@ -3,8 +3,9 @@ carinthia = {
 	type = minor_nation
 	culture = austrian
 	default_religion = catholic
-	default_capital = klagenfurt
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = klagenfurt
 	eras = {
 		medieval_era
 	}

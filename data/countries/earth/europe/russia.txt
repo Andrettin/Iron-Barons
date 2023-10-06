@@ -4,8 +4,9 @@ russia = {
 	color = { 111 177 210 }
 	culture = russian
 	default_religion = orthodox
-	default_capital = moscow
 	default_tier = empire
+	default_government_type = monarchy
+	default_capital = moscow
 	eras = {
 		industrial_era
 	}

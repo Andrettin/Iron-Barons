@@ -3,8 +3,9 @@ pomerania = {
 	type = minor_nation
 	culture = german
 	default_religion = protestant
-	default_capital = stettin
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = stettin
 	eras = {
 		medieval_era
 		renaissance_era

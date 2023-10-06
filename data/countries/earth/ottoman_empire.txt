@@ -4,8 +4,9 @@ ottoman_empire = {
 	color = { 170 148 214 }
 	culture = turkish
 	default_religion = sunni
-	default_capital = constantinople
 	default_tier = empire
+	default_government_type = monarchy
+	default_capital = constantinople
 	eras = {
 		renaissance_era
 		industrial_era

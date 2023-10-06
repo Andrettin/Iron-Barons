@@ -3,8 +3,9 @@ etruscans = {
 	type = tribe
 	culture = etruscan
 	default_religion = pagan
-	default_capital = florence
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = florence
 	eras = {
 		ancient_era
 	}

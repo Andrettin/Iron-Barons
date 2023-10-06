@@ -3,8 +3,9 @@ genoa = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = genoa
 	default_tier = duchy
+	default_government_type = republic
+	default_capital = genoa
 	eras = {
 		medieval_era
 		renaissance_era

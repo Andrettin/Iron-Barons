@@ -3,8 +3,9 @@ mauretanians = {
 	type = tribe
 	culture = maurian
 	default_religion = pagan
-	default_capital = biskra
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = biskra
 	eras = {
 		medieval_era
 	}

@@ -3,8 +3,9 @@ great_bulgaria = {
 	type = tribe
 	culture = bolghar
 	default_religion = pagan
-	default_capital = kazan
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = kazan
 	eras = {
 		medieval_era
 	}

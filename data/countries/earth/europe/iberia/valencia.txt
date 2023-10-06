@@ -3,8 +3,9 @@ valencia = {
 	type = minor_nation
 	culture = catalan
 	default_religion = catholic
-	default_capital = valencia
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = valencia
 	eras = {
 		medieval_era
 		renaissance_era

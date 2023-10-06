@@ -3,8 +3,9 @@ judah = {
 	type = minor_nation
 	culture = hebrew
 	default_religion = jewish
-	default_capital = jerusalem
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = jerusalem
 	eras = {
 		ancient_era
 	}

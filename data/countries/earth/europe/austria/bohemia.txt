@@ -3,8 +3,9 @@ bohemia = {
 	type = minor_nation
 	culture = czech
 	default_religion = catholic
-	default_capital = prague
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = prague
 	min_tier = duchy
 	eras = {
 		medieval_era

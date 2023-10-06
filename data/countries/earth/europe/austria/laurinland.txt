@@ -3,8 +3,9 @@ laurinland = {
 	type = minor_nation
 	culture = dwarven
 	default_religion = pagan
-	default_capital = bozen
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = bozen
 	eras = {
 		ancient_era
 		medieval_era

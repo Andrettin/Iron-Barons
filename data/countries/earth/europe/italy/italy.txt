@@ -4,8 +4,9 @@ italy = {
 	color = { 142 167 80 }
 	culture = italian
 	default_religion = catholic
-	default_capital = rome
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = rome
 	eras = {
 		industrial_era
 	}

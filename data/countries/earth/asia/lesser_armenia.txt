@@ -3,8 +3,9 @@ lesser_armenia = {
 	type = minor_nation
 	culture = armenian
 	default_religion = orthodox
-	default_capital = marash
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = marash
 	eras = {
 		medieval_era
 	}

@@ -3,8 +3,9 @@ persia = {
 	type = minor_nation
 	culture = persian
 	default_religion = shiite
-	default_capital = teheran
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = teheran
 	max_tier = empire
 	eras = {
 		industrial_era

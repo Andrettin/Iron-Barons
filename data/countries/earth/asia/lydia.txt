@@ -3,8 +3,9 @@ lydia = {
 	type = minor_nation
 	culture = lydian
 	default_religion = pagan
-	default_capital = manisa
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = manisa
 	eras = {
 		ancient_era
 	}

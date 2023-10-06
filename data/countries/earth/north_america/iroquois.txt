@@ -3,8 +3,9 @@ iroquois = {
 	type = tribe
 	culture = iroquois
 	default_religion = pagan
-	default_capital = new_york
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = new_york
 	eras = {
 		renaissance_era
 	}

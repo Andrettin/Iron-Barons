@@ -4,8 +4,9 @@ france = {
 	color = { 87 139 166 }
 	culture = french
 	default_religion = catholic
-	default_capital = paris
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = paris
 	max_tier = empire
 	eras = {
 		medieval_era

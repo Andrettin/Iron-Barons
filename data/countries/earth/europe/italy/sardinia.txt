@@ -4,8 +4,9 @@ sardinia = {
 	color = { 142 167 80 }
 	culture = italian
 	default_religion = catholic
-	default_capital = turin
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = turin
 	eras = {
 		renaissance_era
 		industrial_era

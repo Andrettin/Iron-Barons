@@ -3,8 +3,9 @@ new_spain = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	default_capital = mexico_city
 	default_tier = kingdom
+	default_government_type = republic
+	default_capital = mexico_city
 	
 	history = {
 		1600 = {

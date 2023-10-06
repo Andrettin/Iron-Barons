@@ -3,8 +3,9 @@ gepids = {
 	type = tribe
 	culture = gothic
 	default_religion = pagan
-	default_capital = klausenburg
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = klausenburg
 	eras = {
 		medieval_era
 	}

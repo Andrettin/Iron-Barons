@@ -3,8 +3,9 @@ arabs = {
 	type = tribe
 	culture = arabic
 	default_religion = pagan
-	default_capital = mecca
 	default_tier = duchy
+	default_government_type = despotism
+	default_capital = mecca
 	eras = {
 		ancient_era
 	}

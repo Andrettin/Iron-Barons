@@ -3,8 +3,9 @@ naples = {
 	type = minor_nation
 	culture = italian
 	default_religion = catholic
-	default_capital = naples
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = naples
 	eras = {
 		medieval_era
 		renaissance_era

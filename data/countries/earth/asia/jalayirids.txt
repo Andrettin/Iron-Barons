@@ -3,8 +3,9 @@ jalayirids = {
 	type = tribe
 	culture = mongol
 	default_religion = shiite
-	default_capital = baghdad
 	default_tier = kingdom
+	default_government_type = monarchy
+	default_capital = baghdad
 	eras = {
 		medieval_era
 	}

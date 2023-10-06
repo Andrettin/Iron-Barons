@@ -3,8 +3,9 @@ finland = {
 	type = minor_nation
 	culture = finnish
 	default_religion = protestant
-	default_capital = helsinki
 	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = helsinki
 	eras = {
 		industrial_era
 	}

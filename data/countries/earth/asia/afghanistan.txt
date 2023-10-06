@@ -3,8 +3,9 @@ afghanistan = {
 	type = minor_nation
 	culture = pashtun
 	default_religion = sunni
-	default_capital = kabul
 	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = kabul
 	eras = {
 		industrial_era
 	}

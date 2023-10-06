@@ -3,8 +3,9 @@ california = {
 	type = minor_nation
 	culture = castillian
 	default_religion = catholic
-	default_capital = sacramento
 	default_tier = duchy
+	default_government_type = republic
+	default_capital = sacramento
 	eras = {
 		industrial_era
 	}
