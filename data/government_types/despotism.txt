@@ -1,5 +1,6 @@
 despotism = {
 	name = "Despotism"
+	group = tribe
 	modifier = {
 	}
 }

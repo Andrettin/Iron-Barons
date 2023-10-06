@@ -1,17 +1,8 @@
 democratic_republic = {
 	name = "Democratic Republic"
+	group = republic
 	required_technology = democracy
 	modifier = {
 		trade_bonus_for_tile_threshold = 1
-	}
-	title_names = {
-		duchy = "Petty Republic"
-		kingdom = "Republic"
-		empire = "Grand Republic"
-	}
-	ruler_title_names = {
-		duchy = "President"
-		kingdom = "President"
-		empire = "President"
 	}
 }

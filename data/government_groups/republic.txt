@@ -1,0 +1,13 @@
+republic = {
+	name = "Republic"
+	title_names = {
+		duchy = "Petty Republic"
+		kingdom = "Republic"
+		empire = "Grand Republic"
+	}
+	ruler_title_names = {
+		duchy = "President"
+		kingdom = "President"
+		empire = "President"
+	}
+}
