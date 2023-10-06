@@ -7,6 +7,11 @@ russia = {
 	default_tier = empire
 	default_government_type = monarchy
 	default_capital = moscow
+	short_names = {
+		monarchy = {
+			empire = "Russian Empire"
+		}
+	}
 	eras = {
 		industrial_era
 	}

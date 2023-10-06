@@ -7,6 +7,11 @@ byzantium = {
 	default_tier = empire
 	default_government_type = monarchy
 	default_capital = constantinople
+	short_names = {
+		monarchy = {
+			empire = "Byzantine Empire"
+		}
+	}
 	eras = {
 		medieval_era
 	}
