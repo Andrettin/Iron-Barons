@@ -9,4 +9,9 @@ democratic_republic = {
 		kingdom = "Republic"
 		empire = "Grand Republic"
 	}
+	ruler_title_names = {
+		duchy = "President"
+		kingdom = "President"
+		empire = "President"
+	}
 }
