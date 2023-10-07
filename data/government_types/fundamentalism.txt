@@ -1,0 +1,8 @@
+fundamentalism = {
+	name = "Fundamentalism"
+	group = theocracy
+	icon = wooden_cross
+	required_technology = fundamentalism
+	modifier = {
+	}
+}
