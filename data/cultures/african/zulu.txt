@@ -1,5 +1,5 @@
 zulu = {
 	name = "Zulu"
 	group = southern_african
-	color = { 0 0 0 }
+	color = { 204 186 201 }
 }
