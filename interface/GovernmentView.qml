@@ -5,9 +5,29 @@ import "./dialogs"
 Item {
 	id: government_view
 	
+	SmallText {
+		id: government_type_label
+		text: "Government Type"
+		anchors.top: parent.top
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+	}
+	
+	CustomIconImage {
+		id: government_type_icon
+		anchors.top: government_type_label.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: country_game_data.government_type.icon.identifier
+		tooltip: country_game_data.government_type.name + (modifier_string.length > 0 ? format_text(small_text("\n"
+			+ "\n" + modifier_string)) : "")
+			
+		readonly property string modifier_string: country_game_data.government_type.get_modifier_string(country)
+	}
+	
 	Column {
 		id: policies_column
-		anchors.top: parent.top
+		anchors.top: government_type_icon.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		spacing: 8 * scale_factor
