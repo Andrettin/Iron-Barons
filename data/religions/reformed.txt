@@ -1,0 +1,8 @@
+reformed = {
+	name = "Reformed"
+	group = christian
+	color = { 76 76 229 }
+	ruler_title_names = {
+		theocracy = "Reverend"
+	}
+}
