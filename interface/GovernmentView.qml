@@ -25,9 +25,29 @@ Item {
 		readonly property string modifier_string: country_game_data.government_type.get_modifier_string(country)
 	}
 	
+	SmallText {
+		id: country_tier_label
+		text: "Tier"
+		anchors.top: government_type_icon.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+	}
+	
+	CustomIconImage {
+		id: country_tier_icon
+		anchors.top: country_tier_label.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: country_tier_data.icon.identifier
+		tooltip: country_tier_data.name
+			
+		readonly property var country_tier_data: metternich.get_country_tier_data(country_game_data.tier)
+		readonly property string modifier_string: country_game_data.government_type.get_modifier_string(country)
+	}
+	
 	Column {
 		id: policies_column
-		anchors.top: government_type_icon.bottom
+		anchors.top: country_tier_icon.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		spacing: 8 * scale_factor
