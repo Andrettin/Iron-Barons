@@ -4,7 +4,7 @@ augsburg = {
 	culture = german
 	default_religion = catholic
 	default_tier = county #bishopric
-	default_government_type = monarchy
+	default_government_type = fundamentalism
 	default_capital = augsburg
 	eras = {
 		medieval_era

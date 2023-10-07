@@ -4,7 +4,7 @@ liege = {
 	culture = walloon
 	default_religion = catholic
 	default_tier = county #bishopric
-	default_government_type = monarchy
+	default_government_type = fundamentalism
 	default_capital = liege
 	eras = {
 		medieval_era
