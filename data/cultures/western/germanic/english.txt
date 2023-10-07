@@ -2,6 +2,9 @@ english = {
 	name = "English"
 	group = anglo_saxon
 	color = { 206 8 8 }
+	ruler_title_names = {
+		democratic_republic = "Prime Minister"
+	}
 	
 	history = {
 		1180 = {

@@ -6,4 +6,9 @@ democratic_republic = {
 	modifier = {
 		trade_bonus_for_tile_threshold = 1
 	}
+	ruler_title_names = {
+		duchy = "President"
+		kingdom = "President"
+		empire = "President"
+	}
 }

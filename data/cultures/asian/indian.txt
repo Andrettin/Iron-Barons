@@ -1,0 +1,9 @@
+indian = {
+	name = "Indian"
+	group = asian
+	default_phenotype = south_asian
+	color = { 90 190 41 }
+	ruler_title_names = {
+		monarchy = "Maharaja"
+	}
+}

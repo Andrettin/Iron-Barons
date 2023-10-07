@@ -1,3 +1,18 @@
 theocracy = {
 	name = "Theocracy"
+	religious = true
+	ruler_title_names = {
+		duchy = {
+			male = "High Priest"
+			female = "High Priestess"
+		}
+		kingdom = {
+			male = "High Priest"
+			female = "High Priestess"
+		}
+		empire = {
+			male = "High Priest"
+			female = "High Priestess"
+		}
+	}
 }

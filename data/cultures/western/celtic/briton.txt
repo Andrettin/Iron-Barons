@@ -2,4 +2,7 @@ briton = {
 	name = "Briton"
 	group = brythonic
 	color = { 102 98 30 }
+	ruler_title_names = {
+		theocracy = "Druid"
+	}
 }

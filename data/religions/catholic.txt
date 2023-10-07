@@ -2,4 +2,14 @@ catholic = {
 	name = "Catholic"
 	group = christian
 	color = { 173 197 189 }
+	title_names = {
+		theocracy = {
+			kingdom = "Papacy"
+		}
+	}
+	ruler_title_names = {
+		theocracy = {
+			kingdom = "Pope"
+		}
+	}
 }

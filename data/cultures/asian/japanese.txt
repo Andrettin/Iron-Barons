@@ -3,6 +3,9 @@ japanese = {
 	group = asian
 	default_phenotype = east_asian
 	color = { 230 230 230 }
+	ruler_title_names = {
+		democratic_republic = "Prime Minister"
+	}
 	
 	history = {
 		1543 = {

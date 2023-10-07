@@ -2,4 +2,17 @@ orthodox = {
 	name = "Orthodox"
 	group = christian
 	color = { 0 57 166 }
+	title_names = {
+		theocracy = {
+			kingdom = "Patriarchate"
+		}
+	}
+	ruler_title_names = {
+		theocracy = {
+			kingdom = {
+				male = "Patriarch"
+				female = "Matriarch"
+			}
+		}
+	}
 }
