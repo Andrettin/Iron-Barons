@@ -1,6 +1,7 @@
 monarchy = {
 	name = "Monarchy"
 	group = monarchy
+	icon = crown_royal
 	required_technology = monarchy
 	modifier = {
 		capital_trade_bonus_per_population = 0.5
