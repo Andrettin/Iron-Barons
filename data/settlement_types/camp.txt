@@ -4,7 +4,7 @@ camp = {
 	free_resource_building_level = 1
 	build_conditions = {
 		country = {
-			country_type = tribe
+			scripted_condition = is_tribe
 		}
 	}
 }

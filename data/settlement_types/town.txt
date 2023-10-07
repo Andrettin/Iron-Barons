@@ -5,7 +5,7 @@ hamlet = {
 	build_conditions = {
 		country = {
 			not = {
-				country_type = tribe
+				scripted_condition = is_tribe
 			}
 		}
 	}

@@ -1,6 +1,13 @@
 is_civilized = {
 	not = {
+		scripted_condition = is_tribe
+	}
+}
+
+is_tribe = {
+	or = {
 		country_type = tribe
+		government_type = despotism
 	}
 }
 
