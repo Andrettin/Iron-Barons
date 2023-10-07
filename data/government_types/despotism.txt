@@ -3,5 +3,9 @@ despotism = {
 	group = tribe
 	icon = bow
 	modifier = {
+		diplomatic_penalty_for_expansion_modifier = -10
+	}
+	min_policy_values = {
+		innovative_narrowminded = 1
 	}
 }
