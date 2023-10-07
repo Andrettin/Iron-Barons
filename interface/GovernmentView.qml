@@ -35,6 +35,8 @@ Item {
 					value: country_game_data.policy_values.length > 0 ? country_game_data.get_policy_value(policy) : 0
 					min_value: -5
 					max_value: 5
+					min_limit: country_game_data.government_type ? country_game_data.get_min_policy_value(policy) : min_value
+					max_limit: country_game_data.government_type ? country_game_data.get_max_policy_value(policy) : max_value
 					fill_slider: false
 					show_handle: true
 					tooltip: format_text(small_text(policy.get_modifier_string(country, policy_slider.value)))
