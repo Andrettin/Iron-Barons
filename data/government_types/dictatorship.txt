@@ -1,0 +1,16 @@
+dictatorship = {
+	name = "Dictatorship"
+	group = republic
+	icon = saber
+	required_technology = republic
+	modifier = {
+		land_damage_modifier = 10
+	}
+	ruler_title_names = {
+		barony = "Dictator"
+		county = "Dictator"
+		duchy = "Dictator"
+		kingdom = "Dictator"
+		empire = "Dictator"
+	}
+}
