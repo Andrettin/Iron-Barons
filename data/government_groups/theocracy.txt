@@ -1,0 +1,3 @@
+theocracy = {
+	name = "Theocracy"
+}
