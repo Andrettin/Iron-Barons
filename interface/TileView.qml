@@ -85,7 +85,7 @@ Item {
 		anchors.fill: parent
 		text: upper_label
 		visible: upper_label.length > 0
-		wrapMode: Text.WordWrap
+		wrapMode: Text.Wrap
 		horizontalAlignment: Text.AlignHCenter
 		verticalAlignment: Text.AlignTop
 	}
