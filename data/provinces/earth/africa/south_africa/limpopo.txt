@@ -1,0 +1,13 @@
+limpopo = {
+	name = "Limpopo"
+	color = { 156 107 205 }
+	default_provincial_capital = polokwane
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = zulu
+		religion = pagan
+	}
+}

@@ -1,0 +1,13 @@
+oranje = {
+	name = "Oranje"
+	color = { 225 215 247 }
+	default_provincial_capital = bloemfontein
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = zulu
+		religion = pagan
+	}
+}

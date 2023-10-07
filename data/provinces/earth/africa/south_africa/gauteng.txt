@@ -1,0 +1,13 @@
+gauteng = {
+	name = "Gauteng"
+	color = { 4 206 4 }
+	default_provincial_capital = johannesburg
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = zulu
+		religion = pagan
+	}
+}

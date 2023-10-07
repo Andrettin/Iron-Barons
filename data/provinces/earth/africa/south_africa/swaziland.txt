@@ -1,0 +1,13 @@
+swaziland = {
+	name = "Swaziland"
+	color = { 242 116 143 }
+	default_provincial_capital = mbabane
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = zulu
+		religion = pagan
+	}
+}

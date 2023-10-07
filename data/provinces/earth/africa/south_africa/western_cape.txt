@@ -1,0 +1,13 @@
+western_cape = {
+	name = "Western Cape"
+	color = { 195 47 117 }
+	default_provincial_capital = cape_town
+	regions = {
+		africa
+	}
+	
+	history = {
+		culture = zulu
+		religion = pagan
+	}
+}
