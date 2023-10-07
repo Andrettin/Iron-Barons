@@ -1,0 +1,15 @@
+communism = {
+	name = "Communism"
+	group = republic
+	icon = labor
+	required_technology = communism
+	modifier = {
+	}
+	ruler_title_names = {
+		barony = "Comrade"
+		county = "Comrade"
+		duchy = "Comrade"
+		kingdom = "Comrade"
+		empire = "Comrade"
+	}
+}
