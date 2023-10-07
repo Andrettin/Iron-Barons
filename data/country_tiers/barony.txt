@@ -1,0 +1,4 @@
+barony = {
+	name = "Barony"
+	icon = crown_baronial
+}

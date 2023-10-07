@@ -1,0 +1,4 @@
+kingdom = {
+	name = "Kingdom"
+	icon = crown_royal
+}

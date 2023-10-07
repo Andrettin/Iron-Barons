@@ -1,0 +1,4 @@
+empire = {
+	name = "Empire"
+	icon = crown_imperial
+}

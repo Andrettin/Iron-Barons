@@ -1,0 +1,4 @@
+county = {
+	name = "County"
+	icon = crown_comital
+}

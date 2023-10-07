@@ -10,14 +10,6 @@ default_province_terrain = plains
 default_water_zone_terrain = ocean
 route_pathway = route
 
-country_tier_icons = {
-	barony = crown_baronial
-	county = crown_comital
-	duchy = crown_ducal
-	kingdom = crown_royal
-	empire = crown_imperial
-}
-
 default_population_class = untrained_workers
 default_tribal_population_class = tribesmen
 default_literate_population_class = trained_workers
