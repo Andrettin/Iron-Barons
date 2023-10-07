@@ -1,3 +1,22 @@
 christian = {
 	name = "Christian"
+	title_names = {
+		theocracy = {
+			barony = "Parish"
+			county = "Bishopric"
+			duchy = "Archbishopric"
+			kingdom = "Patriarchate"
+		}
+	}
+	ruler_title_names = {
+		theocracy = {
+			barony = "Priest"
+			county = "Bishop"
+			duchy = "Archbishop"
+			kingdom = {
+				male = "Patriarch"
+				female = "Matriarch"
+			}
+		}
+	}
 }
