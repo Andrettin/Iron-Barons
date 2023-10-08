@@ -3,5 +3,6 @@ innsbruck = {
 	world = earth
 	geocoordinate = { 11.40999059920 47.28040732740 } #from Natural Earth
 	type = settlement
-	resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
+	#resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
+	resource = timber
 }

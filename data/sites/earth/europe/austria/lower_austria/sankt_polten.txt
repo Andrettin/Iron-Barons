@@ -3,7 +3,8 @@ sankt_polten = {
 	world = earth
 	geocoordinate = { 15.616666666667 48.2 }
 	type = settlement
-	resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
+	#resource = grain #Crop cultivation with livestock; Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
+	resource = coal
 	province = lower_austria
 	
 	history = {

@@ -5,4 +5,7 @@ livorno = {
 	type = settlement
 	resource = fish
 	province = tuscany
+	cultural_names = {
+		english = "Leghorn"
+	}
 }
