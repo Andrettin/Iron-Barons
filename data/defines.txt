@@ -47,339 +47,112 @@ event_trigger_none_random_weights = {
 	yearly_pulse = 5000
 }
 
-river_adjacency_tiles = {
+river_adjacency_subtiles = {
 	0 = {
 		north = other
 		south = other
 		west = other
 		east = other
-		northwest = any
-		northeast = any
-		southwest = any
+		northwest = other
+		northeast = other
+		southwest = other
 		southeast = same
 	}
 	1 = {
-		north = any
-		south = same
-		west = other
-		east = other
-		northwest = any
-		northeast = any
-		southwest = same
-		southeast = same
-	}
-	2 = {
 		north = other
 		south = other
 		west = other
 		east = other
-		northwest = any
-		northeast = any
+		northwest = other
+		northeast = other
 		southwest = same
-		southeast = any
+		southeast = other
+	}
+	2 = {
+		north = other
+		south = same
+		west = other
+		east = other
+		northwest = other
+		northeast = other
+		southwest = same
+		southeast = same
+		variations = { 3 4 5 6 7 }
+	}
+	8 = {
+		north = same
+		south = same
+		west = other
+		east = other
+		northwest = same
+		northeast = same
+		southwest = same
+		southeast = same
+		variations = { 9 10 11 12 13 }
 	}
 	16 = {
 		north = other
 		south = other
-		west = any
-		east = same
-		northwest = any
+		west = other
+		east = other
+		northwest = other
 		northeast = same
-		southwest = any
-		southeast = same
+		southwest = other
+		southeast = other
 	}
-	18 = {
+	17 = {
 		north = other
 		south = other
-		west = same
-		east = any
+		west = other
+		east = other
 		northwest = same
-		northeast = any
-		southwest = same
-		southeast = any
+		northeast = other
+		southwest = other
+		southeast = other
+	}
+	18 = {
+		north = same
+		south = other
+		west = other
+		east = other
+		northwest = same
+		northeast = same
+		southwest = other
+		southeast = other
+		variations = { 19 20 21 22 23 }
 	}
 	32 = {
 		north = other
 		south = other
 		west = other
-		east = other
-		northwest = any
+		east = same
+		northwest = other
 		northeast = same
-		southwest = any
-		southeast = any
+		southwest = other
+		southeast = same
+		variations = { 48 64 80 96 112 }
 	}
 	33 = {
-		north = same
-		south = any
-		west = other
-		east = other
-		northwest = same
-		northeast = same
-		southwest = any
-		southeast = any
-	}
-	34 = {
 		north = other
 		south = other
-		west = other
+		west = same
 		east = other
 		northwest = same
-		northeast = any
-		southwest = any
-		southeast = any
-	}
-	48 = {
-		north = any
-		south = same
-		west = any
-		east = any
-		northwest = any
-		northeast = any
-		southwest = other
-		southeast = same
-	}
-	49 = {
-		north = any
-		south = same
-		west = any
-		east = any
-		northwest = any
-		northeast = any
+		northeast = other
 		southwest = same
 		southeast = other
+		variations = { 49 65 81 97 113 }
 	}
-	50 = {
-		north = any
-		south = any
-		west = any
-		east = same
-		northwest = any
-		northeast = other
-		southwest = any
-		southeast = same
-	}
-	51 = {
-		north = any
-		south = any
-		west = same
-		east = any
-		northwest = other
-		northeast = any
-		southwest = same
-		southeast = any
-	}
-	64 = {
-		north = same
-		south = any
-		west = any
-		east = any
-		northwest = other
-		northeast = same
-		southwest = any
-		southeast = any
-	}
-	65 = {
-		north = same
-		south = any
-		west = any
-		east = any
-		northwest = same
-		northeast = other
-		southwest = any
-		southeast = any
-	}
-	66 = {
-		north = any
-		south = any
-		west = any
-		east = same
-		northwest = any
-		northeast = same
-		southwest = any
-		southeast = other
-	}
-	67 = {
-		north = any
-		south = any
-		west = same
-		east = any
-		northwest = same
-		northeast = any
-		southwest = other
-		southeast = any
-	}
-	80 = {
-		north = any
-		south = same
-		west = any
-		east = same
-		northwest = any
-		northeast = same
-		southwest = any
-		southeast = same
-	}
-	81 = {
-		north = any
-		south = same
-		west = same
-		east = any
-		northwest = same
-		northeast = any
-		southwest = same
-		southeast = same
-	}
-	82 = {
-		north = any
-		south = same
-		west = any
-		east = same
-		northwest = any
-		northeast = other
-		southwest = same
-		southeast = same
-	}
-	83 = {
-		north = any
-		south = same
-		west = same
-		east = any
-		northwest = other
-		northeast = any
-		southwest = same
-		southeast = same
-	}
-	96 = {
-		north = same
-		south = any
-		west = any
-		east = same
-		northwest = any
-		northeast = same
-		southwest = any
-		southeast = same
-	}
-	97 = {
-		north = same
-		south = any
-		west = same
-		east = any
-		northwest = same
-		northeast = same
-		southwest = same
-		southeast = any
-	}
-	98 = {
-		north = same
-		south = any
-		west = any
-		east = same
-		northwest = same
-		northeast = same
-		southwest = any
-		southeast = other
-	}
-	99 = {
-		north = same
-		south = any
-		west = same
-		east = any
-		northwest = same
-		northeast = same
-		southwest = other
-		southeast = any
-	}
-	101 = {
-		north = same
-		south = any
-		west = same
-		east = any
-		northwest = same
-		northeast = other
-		southwest = same
-		southeast = any
-	}
-}
-
-rivermouth_adjacency_tiles = {
-	0 = {
-		north = other
-		south = same
-		west = other
-		east = other
-		northwest = any
-		northeast = any
-		southwest = other
-		southeast = same
-	}
-	1 = {
-		north = other
-		south = same
-		west = other
-		east = other
-		northwest = any
-		northeast = any
-		southwest = same
-		southeast = other
-	}
-	2 = {
-		north = other
-		south = other
-		west = other
-		east = same
-		northwest = any
-		northeast = other
-		southwest = any
-		southeast = same
-	}
-	3 = {
+	128 = {
 		north = other
 		south = other
 		west = same
-		east = other
-		northwest = other
-		northeast = any
-		southwest = same
-		southeast = any
-	}
-	16 = {
-		north = same
-		south = other
-		west = other
-		east = other
-		northwest = other
-		northeast = same
-		southwest = any
-		southeast = any
-	}
-	17 = {
-		north = same
-		south = other
-		west = other
-		east = other
-		northwest = same
-		northeast = other
-		southwest = any
-		southeast = any
-	}
-	18 = {
-		north = other
-		south = other
-		west = other
 		east = same
-		northwest = any
-		northeast = same
-		southwest = any
-		southeast = other
-	}
-	19 = {
-		north = other
-		south = other
-		west = same
-		east = other
 		northwest = same
-		northeast = any
-		southwest = other
-		southeast = any
+		northeast = same
+		southwest = same
+		southeast = same
+		variations = { 144 160 176 192 208 }
 	}
 }
 

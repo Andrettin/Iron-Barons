@@ -248,5 +248,6 @@
 /graphics/tiles/terrain/transition_mask.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/transition_mask_shadow.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/tundra.png (by Jinn) (licensed under the CC0)
-/graphics/tiles/river.png (by Mrmo Tarius) (licensed under the CC0)
+/graphics/tiles/river.png (by Jinn) (licensed under the CC0)
+/graphics/tiles/river_extra_1.png (by Mrmo Tarius) (licensed under the CC0)
 /graphics/tiles/rivermouth.png (by Mrmo Tarius) (licensed under the CC0)

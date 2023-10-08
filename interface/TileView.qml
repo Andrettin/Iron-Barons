@@ -30,6 +30,9 @@ Item {
 		TileImage {
 			id: underlay_image
 			tile_image_source: "image://" + modelData
+			can_be_subtile: true
+			x: (index === 1 || index === 3) ? 32 * scale_factor : 0
+			y: index >= 2 ? 32 * scale_factor : 0
 		}
 	}
 	
@@ -50,6 +53,18 @@ Item {
 		
 		TileImage {
 			id: overlay_image
+			tile_image_source: "image://" + modelData
+			can_be_subtile: true
+			x: (index === 1 || index === 3) ? 32 * scale_factor : 0
+			y: index >= 2 ? 32 * scale_factor : 0
+		}
+	}
+	
+	Repeater {
+		model: object_image_sources
+		
+		TileImage {
+			id: object_image
 			tile_image_source: "image://" + modelData
 		}
 	}
