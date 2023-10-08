@@ -12,9 +12,16 @@ Item {
 	readonly property bool is_center_tile: province !== null && province.game_data.center_tile_pos === tile_pos
 	property string saved_status_text: ""
 	
-	TileImage {
-		id: base_terrain_image
-		tile_image_source: "image://" + base_image_source
+	Repeater {
+		model: base_image_sources
+		
+		TileImage {
+			id: base_terrain_image
+			tile_image_source: "image://" + modelData
+			can_be_subtile: true
+			x: (index === 1 || index === 3) ? 32 * scale_factor : 0
+			y: index >= 2 ? 32 * scale_factor : 0
+		}
 	}
 	
 	Repeater {
