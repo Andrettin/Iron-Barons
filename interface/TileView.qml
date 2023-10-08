@@ -26,9 +26,16 @@ Item {
 		}
 	}
 	
-	TileImage {
-		id: terrain_image
-		tile_image_source: "image://" + image_source
+	Repeater {
+		model: image_sources
+		
+		TileImage {
+			id: terrain_image
+			tile_image_source: "image://" + modelData
+			can_be_subtile: true
+			x: (index === 1 || index === 3) ? 32 * scale_factor : 0
+			y: index >= 2 ? 32 * scale_factor : 0
+		}
 	}
 	
 	Repeater {
