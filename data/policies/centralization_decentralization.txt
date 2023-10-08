@@ -1,0 +1,13 @@
+centralization_decentralization = {
+	left_name = "Centralization"
+	right_name = "Decentralization"
+	change_commodity_costs = {
+		statesmanship = 10
+	}
+	modifier = {
+		output_modifier = -3
+	}
+	left_modifier = {
+		inflation_change = -0.01
+	}
+}

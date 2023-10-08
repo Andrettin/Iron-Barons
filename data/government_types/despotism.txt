@@ -6,6 +6,7 @@ despotism = {
 		diplomatic_penalty_for_expansion_modifier = -10
 	}
 	min_policy_values = {
+		centralization_decentralization = 2
 		innovative_narrowminded = 1
 	}
 }

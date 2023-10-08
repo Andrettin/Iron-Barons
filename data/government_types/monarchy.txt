@@ -7,6 +7,9 @@ monarchy = {
 		capital_trade_bonus_per_population = 0.5
 		capital_amenities_bonus_per_population = 0.25
 	}
+	min_policy_values = {
+		centralization_decentralization = -2
+	}
 	max_policy_values = {
 		aristocracy_plutocracy = 2
 		serfdom_free_subjects = 2
