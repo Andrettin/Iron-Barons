@@ -235,6 +235,7 @@
 /graphics/tiles/terrain/conifer_forest.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/dark_plains.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/desert.png (by Jinn) (licensed under the CC0)
+/graphics/tiles/terrain/desert_sand.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/dry_grass.png (by Exidelo and Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/grass.png (by Exidelo and Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/grassland.png (by Jinn) (licensed under the CC0)
