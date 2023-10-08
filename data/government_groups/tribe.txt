@@ -6,7 +6,6 @@ tribe = {
 		county = "Clan"
 		duchy = "Tribe"
 		kingdom = "Grand Tribe"
-		empire = "Horde"
 	}
 	ruler_title_names = {
 		barony = "Chief"

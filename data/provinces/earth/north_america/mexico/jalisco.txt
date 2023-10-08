@@ -7,7 +7,7 @@ jalisco = {
 	}
 	
 	history = {
-		owner = aztecs
+		owner = aztec_empire
 		culture = aztec
 		religion = pagan
 		

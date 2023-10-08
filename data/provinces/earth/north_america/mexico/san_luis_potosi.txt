@@ -7,7 +7,7 @@ san_luis_potosi = {
 	}
 	
 	history = {
-		owner = aztecs
+		owner = aztec_empire
 		culture = aztec
 		religion = pagan
 		
