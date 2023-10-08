@@ -1,7 +1,7 @@
 zululand = {
 	name = "Zululand"
 	type = great_power
-	color = { 204 186 201 }
+	color = { 113 91 160 }
 	culture = zulu
 	default_religion = pagan
 	default_tier = kingdom
