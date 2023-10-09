@@ -2,6 +2,6 @@ gold_rush = {
 	name = "Gold Rush"
 	icon = gold_ore
 	modifier = {
-		gold_bonus = 1
+		gold_output_modifier = 10
 	}
 }
