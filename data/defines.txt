@@ -165,16 +165,6 @@ river_adjacency_subtiles = {
 		southeast = same
 		variations = { 37 39 67 69 71 }
 	}
-	40 = {
-		north = same
-		south = other
-		west = same
-		east = same
-		northwest = any
-		northeast = any
-		southwest = any
-		southeast = any
-	}
 	50 = {
 		north = same
 		south = other
