@@ -49,6 +49,7 @@ Window {
 				//metternich.get_map_template("earth").write_province_image()
 				//metternich.get_map_template("earth").write_terrain_image()
 				//metternich.get_map_template("earth").write_river_image()
+				//metternich.get_map_template("earth").write_border_river_image()
 				//metternich.get_map_template("earth").write_route_image()
 			}
 		}

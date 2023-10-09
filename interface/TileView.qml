@@ -235,7 +235,7 @@ Item {
 			
 			text += ") "
 			
-			if (river === true) {
+			if (river === true && !province.water_zone) {
 				text += "(River) "
 			}
 			
