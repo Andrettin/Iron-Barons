@@ -28,3 +28,61 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 		research_output_modifier = 5
 	}
 }
+
+enlightenment_philosophy = {
+	name = "Enlightenment Philosophy"
+	category = culture
+	portrait = scholar
+	icon = research
+	year = 1750
+	prerequisites = {
+		scientific_method
+		
+		nationalism #to put this technology in the correct technological period
+	}
+	modifier = {
+		research_output_modifier = 5
+	}
+}
+
+idealism = {
+	name = "Idealism"
+	category = culture
+	portrait = scholar
+	icon = research
+	year = 1800
+	prerequisites = {
+		enlightenment_philosophy
+	}
+	modifier = {
+		research_output_modifier = 5
+	}
+}
+
+empiricism = {
+	name = "Empiricism"
+	category = culture
+	portrait = scholar
+	icon = research
+	year = 1825
+	prerequisites = {
+		idealism
+	}
+	modifier = {
+		research_output_modifier = 5
+	}
+}
+
+analytic_philosophy = {
+	name = "Analytic Philosophy"
+	category = culture
+	portrait = scholar
+	icon = research
+	year = 1850
+	prerequisites = {
+		empiricism
+	}
+	modifier = {
+		research_output_modifier = 5
+	}
+}
