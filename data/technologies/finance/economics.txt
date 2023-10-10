@@ -8,4 +8,64 @@ economics = {
 		banking
 		university
 	}
+	modifier = {
+		capitalist_bonus = 2
+	}
+}
+
+collectivist_theory = {
+	name = "Collectivist Theory"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1825
+	prerequisites = {
+		economics
+		collectivism
+	}
+	modifier = {
+		capitalist_bonus = 2
+	}
+}
+
+historical_theory = {
+	name = "Historical Theory"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1850
+	prerequisites = {
+		collectivist_theory
+	}
+	modifier = {
+		capitalist_bonus = 2
+	}
+}
+
+neoclassical_theory = {
+	name = "Neoclassical Theory"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1875
+	prerequisites = {
+		historical_theory
+	}
+	modifier = {
+		capitalist_bonus = 2
+	}
+}
+
+keynesian_economics = {
+	name = "Keynesian Economics"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1900
+	prerequisites = {
+		neoclassical_theory
+	}
+	modifier = {
+		capitalist_bonus = 2
+	}
 }
