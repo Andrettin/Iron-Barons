@@ -9,6 +9,7 @@ Item {
 	property string name: ""
 	property string icon_identifier: ""
 	property int count: 0
+	property string tooltip: ""
 	
 	Image {
 		id: icon_image
@@ -25,6 +26,7 @@ Item {
 	}
 	
 	MouseArea {
+		id: industry_counter_mouse_area
 		anchors.fill: parent
 		hoverEnabled: true
 		
@@ -35,5 +37,10 @@ Item {
 		onExited: {
 			status_text = ""
 		}
+	}
+	
+	CustomTooltip {
+		text: tooltip
+		visible: industry_counter_mouse_area.containsMouse && tooltip.length > 0
 	}
 }

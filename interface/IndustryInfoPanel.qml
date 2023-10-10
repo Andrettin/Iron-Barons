@@ -42,9 +42,11 @@ Rectangle {
 			name: population_type.name
 			icon_identifier: country_game_data.get_population_type_small_icon(population_type).identifier
 			count: population_count
+			tooltip: modifier_string.length > 0 ? format_text(small_text(modifier_string)) : ""
 			
 			readonly property var population_type: model.modelData.key
 			readonly property int population_count: model.modelData.value
+			readonly property string modifier_string: population_type.get_country_modifier_string(country)
 		}
 	}
 	
