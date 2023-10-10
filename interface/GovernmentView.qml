@@ -39,10 +39,11 @@ Item {
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: country_tier_data.icon.identifier
-		tooltip: country_tier_data.name
+		tooltip: country_tier_data.name + (modifier_string.length > 0 ? format_text(small_text("\n"
+			+ "\n" + modifier_string)) : "")
 			
 		readonly property var country_tier_data: metternich.get_country_tier_data(country_game_data.tier)
-		readonly property string modifier_string: country_game_data.government_type.get_modifier_string(country)
+		readonly property string modifier_string: country_tier_data.get_modifier_string(country)
 	}
 	
 	Column {
