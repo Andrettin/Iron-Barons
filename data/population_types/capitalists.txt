@@ -1,0 +1,37 @@
+capitalists = {
+	name = "Capitalists"
+	aliases += capitalist
+	population_class = capitalists
+	color = { 18 129 10 }
+	literate = true
+	icon = rifle_infantry_light
+	small_icon = rifle_infantry_light_small
+	max_modifier_multiplier = 50
+	consumed_commodities = {
+		amenities = 0.5
+	}
+	commodity_demands = {
+		clothing = 0.2
+		furniture = 0.2
+		tools = 0.2
+		paper = 0.2
+		coffee = 0.2
+		tea = 0.2
+		coal = 0.1
+	}
+	country_modifier = {
+		industrial_output_modifier = 1
+	}
+	phenotype_icons = {
+		afro_european = rifle_infantry_medium
+		amerindian = rifle_infantry_medium
+		south_asian = rifle_infantry_medium
+		african = rifle_infantry_dark
+	}
+	phenotype_small_icons = {
+		afro_european = rifle_infantry_medium_small
+		amerindian = rifle_infantry_medium_small
+		south_asian = rifle_infantry_medium_small
+		african = rifle_infantry_dark_small
+	}
+}
