@@ -1,10 +1,12 @@
 aristocrats = {
 	name = "Aristocrats"
+	aliases += aristocrat
 	population_class = aristocrats
 	color = { 11 40 93 }
 	literate = true
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
+	max_modifier_multiplier = 50
 	consumed_commodities = {
 		amenities = 0.5
 	}
