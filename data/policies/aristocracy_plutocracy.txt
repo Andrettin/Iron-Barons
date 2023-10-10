@@ -10,4 +10,10 @@ aristocracy_plutocracy = {
 		trade_output_modifier = 1
 		output_modifier = 1
 	}
+	left_modifier = {
+		capitalist_bonus = -10
+	}
+	right_modifier = {
+		aristocrat_bonus = -10
+	}
 }
