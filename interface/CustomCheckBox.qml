@@ -4,6 +4,7 @@ import QtQuick.Controls
 CheckBox {
 	id: checkbox
 	font.family: berenika_font.name
+	focusPolicy: Qt.NoFocus
 	
 	property string tooltip: ""
 	
