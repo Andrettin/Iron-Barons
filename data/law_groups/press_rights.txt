@@ -1,0 +1,3 @@
+press_rights = {
+	name = "Press Rights"
+}

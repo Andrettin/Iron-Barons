@@ -1,0 +1,30 @@
+state_press = {
+	name = "State Press"
+	group = press_rights
+	icon = newspaper
+	required_technology = printing_press
+	modifier = {
+	}
+}
+
+censored_press = {
+	name = "Censored Press"
+	group = press_rights
+	icon = newspaper
+	required_technology = printing_press
+	modifier = {
+		statesmanship_per_printing_press = 1
+		statesmanship_per_newspaper = 1
+	}
+}
+
+free_press = {
+	name = "Free Press"
+	group = press_rights
+	icon = newspaper
+	required_technology = printing_press
+	modifier = {
+		statesmanship_per_printing_press = 2
+		statesmanship_per_newspaper = 2
+	}
+}
