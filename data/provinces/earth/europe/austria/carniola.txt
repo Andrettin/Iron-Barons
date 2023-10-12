@@ -4,6 +4,7 @@ carniola = {
 	default_provincial_capital = laibach
 	regions = {
 		cisleithania
+		imperial_austria_1806
 		slovenia
 	}
 	

@@ -1,3 +1,17 @@
+imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1809
+	superregions = {
+		europe
+	}
+	
+	history = {
+		1809 = {
+			population_groups = {
+				aristocrats = 540000 #the Empire of Austria had over 540,000 nobles in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+			}
+		}
+	}
+}
+
 austria = { #the territory of the modern Republic of Austria
 	superregions = {
 		europe

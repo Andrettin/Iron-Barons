@@ -8,6 +8,7 @@ galicia = {
 galicia_and_west_galicia = {
 	superregions = {
 		europe
+		imperial_austria_1806
 	}
 	
 	history = {

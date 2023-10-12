@@ -2,6 +2,7 @@ bohemia = {
 	superregions = {
 		cisleithania
 		czechoslovakia
+		imperial_austria_1806
 	}
 	
 	history = {

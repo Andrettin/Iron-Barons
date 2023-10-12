@@ -5,6 +5,7 @@ istria = {
 	regions = {
 		cisleithania
 		croatia
+		imperial_austria_1806
 	}
 	
 	history = {

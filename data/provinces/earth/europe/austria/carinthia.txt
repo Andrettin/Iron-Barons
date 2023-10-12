@@ -4,6 +4,7 @@ carinthia = {
 	default_provincial_capital = klagenfurt
 	regions = {
 		austria
+		imperial_austria_1806
 	}
 	
 	history = {

@@ -4,6 +4,7 @@ styria = {
 	default_provincial_capital = graz
 	regions = {
 		austria #only Lower Styria belongs to modern Austria; Upper Styria is part of Slovenia
+		imperial_austria_1806
 	}
 	
 	history = {
