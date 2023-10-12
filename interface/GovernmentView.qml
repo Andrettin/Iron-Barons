@@ -47,8 +47,66 @@ Item {
 	}
 	
 	Column {
-		id: policies_column
+		id: law_groups_column
 		anchors.top: country_tier_icon.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		spacing: 8 * scale_factor
+		
+		Repeater {
+			model: country_game_data.laws
+			
+			Item {
+				id: law_group_item
+				anchors.horizontalCenter: parent.horizontalCenter
+				width: Math.max(law_group_label.width, laws_column.width)
+				height: laws_column.y + laws_column.height
+				
+				readonly property var law_group: model.modelData.key
+				readonly property var current_law: model.modelData.value
+				
+				SmallText {
+					id: law_group_label
+					text: law_group.name
+					anchors.top: parent.top
+					anchors.horizontalCenter: parent.horizontalCenter
+				}
+				
+				Column {
+					id: laws_column
+					anchors.top: law_group_label.bottom
+					anchors.topMargin: 4 * scale_factor
+					anchors.horizontalCenter: parent.horizontalCenter
+					
+					Repeater {
+						model: law_group.laws
+						
+						CustomCheckBox {
+							text: colored_text(law.name, "white")
+							checked: law === current_law
+							checkable: !checked && country_game_data.laws.length > 0 && country_game_data.can_enact_law(law)
+							tooltip: modifier_string.length > 0 ? format_text(small_text(modifier_string)) : ""
+							visible: country_game_data.laws.length > 0 && country_game_data.can_have_law(law)
+							onCheckedChanged: {
+								if (law === current_law) {
+									return
+								}
+								
+								country_game_data.enact_law(law)
+							}
+							
+							readonly property var law: model.modelData
+							readonly property string modifier_string: law.get_modifier_string(country)
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Column {
+		id: policies_column
+		anchors.top: law_groups_column.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		spacing: 8 * scale_factor
