@@ -1,0 +1,3 @@
+bureaucrats = {
+	name = "Bureaucrats"
+}

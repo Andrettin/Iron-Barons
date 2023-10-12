@@ -11,11 +11,8 @@ village_hall = {
 		city
 		metropolis
 	}
-	production_types = {
-		statesmanship_production
-	}
-	stackable_country_modifier = {
-		town_hall_capacity = 1
+	settlement_modifier = {
+		max_bureaucrats = 1
 	}
 }
 
@@ -30,11 +27,8 @@ town_hall = {
 		city
 		metropolis
 	}
-	production_types = {
-		statesmanship_production
-	}
-	stackable_country_modifier = {
-		town_hall_capacity = 2
+	settlement_modifier = {
+		max_bureaucrats = 2
 	}
 }
 
@@ -49,11 +43,8 @@ city_hall = {
 		city
 		metropolis
 	}
-	production_types = {
-		statesmanship_production
-	}
-	stackable_country_modifier = {
-		town_hall_capacity = 4
+	settlement_modifier = {
+		max_bureaucrats = 3
 	}
 }
 
@@ -69,11 +60,8 @@ state_house = {
 		city
 		metropolis
 	}
-	production_types = {
-		statesmanship_production
-	}
-	stackable_country_modifier = {
-		town_hall_capacity = 6
+	settlement_modifier = {
+		max_bureaucrats = 4
 	}
 }
 
@@ -89,10 +77,7 @@ capitol = {
 		city
 		metropolis
 	}
-	production_types = {
-		statesmanship_production
-	}
-	stackable_country_modifier = {
-		town_hall_capacity = 8
+	settlement_modifier = {
+		max_bureaucrats = 5
 	}
 }
