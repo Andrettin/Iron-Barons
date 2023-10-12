@@ -3,6 +3,9 @@ state_press = {
 	group = press_rights
 	icon = newspaper
 	required_technology = printing_press
+	commodity_costs = {
+		statesmanship = 10
+	}
 	modifier = {
 	}
 }
@@ -12,6 +15,9 @@ censored_press = {
 	group = press_rights
 	icon = newspaper
 	required_technology = printing_press
+	commodity_costs = {
+		statesmanship = 10
+	}
 	modifier = {
 		statesmanship_per_printing_press = 1
 		statesmanship_per_newspaper = 1
@@ -23,6 +29,9 @@ free_press = {
 	group = press_rights
 	icon = newspaper
 	required_technology = printing_press
+	commodity_costs = {
+		statesmanship = 10
+	}
 	modifier = {
 		statesmanship_per_printing_press = 2
 		statesmanship_per_newspaper = 2
