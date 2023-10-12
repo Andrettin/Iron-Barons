@@ -2,4 +2,12 @@ middle_eastern = {
 	name = "Middle Eastern"
 	rank = supergroup
 	default_phenotype = middle_eastern
+	
+	history = {
+		explored_regions += middle_east
+		explored_regions += egypt
+		explored_regions += libya
+		explored_regions += mediterranean_sea
+		explored_regions += greece
+	}
 }
