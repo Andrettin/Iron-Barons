@@ -7,6 +7,8 @@ imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1809
 		1809 = {
 			population_groups = {
 				aristocrats = 540000 #the Empire of Austria had over 540,000 nobles in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+				
+				bureaucrats = 112000 #the Empire of Austria had 112,000 bureaucrats ("Beamte und Honorazioren"), including their families, in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
 			}
 		}
 	}
