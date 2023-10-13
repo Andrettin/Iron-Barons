@@ -11,5 +11,9 @@ steyr = {
 			settlement_type = castle #had a castle or stronghold in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			buildings += fort
 		}
+		
+		1815 = {
+			population = 6958 #Steyer had a population of 6,958 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 89.
+		}
 	}
 }

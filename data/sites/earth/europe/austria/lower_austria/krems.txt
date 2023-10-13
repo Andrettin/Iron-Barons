@@ -11,6 +11,10 @@ krems = {
 			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
+		1807 = {
+			population = 3563 #Krems had a population of 3,563 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
+		}
+		
 		1900 = {
 			population = 12657 #Krems had a population of 12,657 in 1900; Source: "Encyclopædia Britannica", 1911, vol. 3, p. 2.
 		}

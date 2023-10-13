@@ -22,5 +22,9 @@ amiens = {
 			buildings += courthouse #Prévôt des maréchaux existent in Amiens in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 			settlement_type = city
 		}
+		
+		1815 = {
+			population = 40006 #Amiens had a population of 40,006 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
+		}
 	}
 }
