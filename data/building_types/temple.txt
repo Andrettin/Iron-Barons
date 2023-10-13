@@ -13,13 +13,8 @@ temple = {
 		castle
 		monastery
 	}
-	production_types = {
-		piety_production
-	}
-	stackable_country_modifier = {
-		temple_capacity = 2
-	}
 	settlement_modifier = {
+		max_clergymen = 1
 		amenities_bonus = 1
 	}
 }
@@ -37,13 +32,8 @@ cathedral = {
 		metropolis
 		monastery
 	}
-	production_types = {
-		piety_production
-	}
-	stackable_country_modifier = {
-		temple_capacity = 4
-	}
 	settlement_modifier = {
+		max_clergymen = 2
 		amenities_bonus = 3
 	}
 }

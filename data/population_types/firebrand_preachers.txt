@@ -1,0 +1,34 @@
+firebrand_preachers = {
+	name = "Firebrand Preachers"
+	population_class = firebrand_preachers
+	profession = clergymen
+	literate = true
+	icon = rifle_infantry_light
+	small_icon = rifle_infantry_light_small
+	output_commodity = piety
+	output_value = 4
+	consumed_commodities = {
+		amenities = 0.5
+	}
+	commodity_demands = {
+		clothing = 0.1
+		furniture = 0.1
+		tools = 0.1
+		paper = 0.1
+		coffee = 0.1
+		tea = 0.1
+		coal = 0.05
+	}
+	phenotype_icons = {
+		afro_european = rifle_infantry_medium
+		amerindian = rifle_infantry_medium
+		south_asian = rifle_infantry_medium
+		african = rifle_infantry_dark
+	}
+	phenotype_small_icons = {
+		afro_european = rifle_infantry_medium_small
+		amerindian = rifle_infantry_medium_small
+		south_asian = rifle_infantry_medium_small
+		african = rifle_infantry_dark_small
+	}
+}
