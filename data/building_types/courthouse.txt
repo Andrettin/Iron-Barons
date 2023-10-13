@@ -12,7 +12,7 @@ courthouse = {
 	conditions = {
 		game_rule = advisors_enabled
 	}
-	country_modifier = {
+	settlement_modifier = {
 		statesmanship_output_modifier = 50
 	}
 }
