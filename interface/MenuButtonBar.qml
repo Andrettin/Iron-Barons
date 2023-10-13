@@ -23,7 +23,6 @@ Rectangle {
 		anchors.left: parent.left
 		anchors.leftMargin: 6 * scale_factor
 		icon_identifier: "flag"
-		visible: metternich.game.rules.advisors_enabled
 		
 		onReleased: {
 			menu_stack.push("PoliticsView.qml", {

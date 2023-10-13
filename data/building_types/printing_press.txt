@@ -10,9 +10,6 @@ printing_press = {
 		city
 		metropolis
 	}
-	conditions = {
-		game_rule = advisors_enabled
-	}
 	country_modifier = {
 		research_output_modifier = 22
 	}
@@ -33,9 +30,6 @@ newspaper = {
 	settlement_types = {
 		city
 		metropolis
-	}
-	conditions = {
-		game_rule = advisors_enabled
 	}
 	country_modifier = {
 		research_output_modifier = 22

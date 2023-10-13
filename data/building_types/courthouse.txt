@@ -9,9 +9,6 @@ courthouse = {
 		city
 		metropolis
 	}
-	conditions = {
-		game_rule = advisors_enabled
-	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 50
 	}
