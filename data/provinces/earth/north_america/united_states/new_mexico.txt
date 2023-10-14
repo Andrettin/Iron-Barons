@@ -14,11 +14,13 @@ new_mexico = {
 		1600 = {
 			owner = new_spain #part of New Spain in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = castillian
+			religion = catholic
 		}
 		
 		1845 = {
 			owner = united_states #became part of the United States in 1845; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
 			culture = english
+			religion = protestant
 		}
 		
 		my_country_tis_of_thee = {

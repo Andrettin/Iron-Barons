@@ -7,6 +7,7 @@ virginia = {
 	default_government_type = republic
 	default_capital = richmond
 	eras = {
+		renaissance_era
 		industrial_era
 	}
 	core_provinces = {
@@ -28,6 +29,14 @@ virginia = {
 			diplomacy_state = {
 				country = england
 				state = peace
+			}
+		}
+		
+		1607 = {
+			#Jamestown founded in 1607; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			diplomacy_state = {
+				country = england
+				state = colony
 			}
 		}
 	}

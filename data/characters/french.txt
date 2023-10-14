@@ -78,6 +78,12 @@ sieur_de_la_salle = {
 	advisor_modifier = {
 		free_building_class = stockade
 	}
+	
+	history = {
+		1682 = {
+			country = new_france #acquired new territories for New France in 1682; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+		}
+	}
 }
 
 louis_xiv_of_france = {
