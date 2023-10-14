@@ -1,7 +1,7 @@
-jaffa = {
-	name = "Jaffa"
+nablus = {
+	name = "Nablus"
 	world = earth
-	geocoordinate = { 34.77001175820 32.07999147440 } #from Natural Earth (Tel Aviv-Yafo)
+	geocoordinate = { 35.25442663450 32.22148154600 } #from Natural Earth
 	type = settlement
 	resource = fruit
 	province = palestine

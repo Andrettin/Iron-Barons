@@ -2,11 +2,13 @@ acre = {
 	name = "Acre"
 	world = earth
 	geocoordinate = { 35.083888888889 32.926111111111 }
+	type = settlement
+	resource = fruit
 	province = palestine
 	
 	history = {
 		1360 = {
-			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }
