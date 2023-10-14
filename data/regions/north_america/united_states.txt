@@ -28,5 +28,17 @@ united_states = {
 		1820 = {
 			population = 9980510 #the United States had a population of 9,980,510 in 1820 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
+		
+		1853 = {
+			population = 26156953 #the United States had a population of 26,156,953 in 1853 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		1861 = {
+			population = 32677742 #the United States had a population of 32,677,742 in 1861 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		1914 = {
+			population = 99505000 #the United States had a population of 99,505,000 in 1914 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
 	}
 }
