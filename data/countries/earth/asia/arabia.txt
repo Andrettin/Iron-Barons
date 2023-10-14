@@ -1,15 +1,21 @@
-arabs = {
-	name = "Arabs"
-	type = tribe
+arabia = {
+	name = "Arabia"
+	type = great_power
+	color = { 66 111 19 }
 	culture = arabic
 	default_religion = pagan
-	default_tier = duchy
+	default_tier = kingdom
 	default_government_type = despotism
 	default_capital = mecca
+	short_names = {
+		tribe = "Arabs"
+	}
 	eras = {
 		ancient_era
 	}
 	core_provinces = {
 		arabia
+		mecca
+		medina
 	}
 }
