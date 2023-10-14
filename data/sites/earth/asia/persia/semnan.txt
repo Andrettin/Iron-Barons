@@ -3,4 +3,6 @@ semnan = {
 	world = earth
 	geocoordinate = { 53.37430252970 35.55479229640 } #from Natural Earth
 	type = settlement
+	resource = coal
+	province = semnan
 }

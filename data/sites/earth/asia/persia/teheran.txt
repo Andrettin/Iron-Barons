@@ -3,4 +3,6 @@ teheran = {
 	world = earth
 	geocoordinate = { 51.42434403360 35.67194276840 } #from Natural Earth
 	type = settlement
+	resource = cotton
+	province = teheran
 }

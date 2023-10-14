@@ -23,9 +23,9 @@ jalayirids = {
 		khuzestan
 		lorestan
 		najaf
-		persia
 		saladin
 		sumer
+		teheran
 		west_azarbaijan
 	}
 }

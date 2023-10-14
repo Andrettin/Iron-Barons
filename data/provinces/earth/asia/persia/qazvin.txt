@@ -1,7 +1,7 @@
-persia = {
-	name = "Persia"
-	color = { 91 77 69 }
-	default_provincial_capital = teheran
+qazvin = {
+	name = "Qazvin"
+	color = { 180 116 13 }
+	default_provincial_capital = qazvin
 	regions = {
 		persia
 	}

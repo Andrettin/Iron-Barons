@@ -3,4 +3,6 @@ ilam = {
 	world = earth
 	geocoordinate = { 46.43002355830 33.63041363430 } #from Natural Earth
 	type = settlement
+	resource = cotton
+	province = elam
 }

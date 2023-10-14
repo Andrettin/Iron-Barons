@@ -11,7 +11,7 @@ persia = {
 		industrial_era
 	}
 	core_provinces = {
-		persia
+		teheran
 		elam
 		fars
 		hamadan
