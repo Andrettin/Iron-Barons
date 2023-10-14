@@ -1,0 +1,7 @@
+opium = {
+	name = "Opium"
+	commodity = opium
+	terrain_types = {
+		plains
+	}
+}

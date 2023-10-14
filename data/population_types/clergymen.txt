@@ -17,6 +17,7 @@ clergymen = {
 		tools = 0.1
 		paper = 0.1
 		coffee = 0.1
+		opium = 0.1
 		tea = 0.1
 		coal = 0.05
 	}

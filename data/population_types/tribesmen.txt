@@ -14,6 +14,7 @@ tribesmen = {
 		furniture = 0.05
 		tools = 0.05
 		coffee = 0.05
+		opium = 0.05
 		tea = 0.05
 		coal = 0.02
 	}

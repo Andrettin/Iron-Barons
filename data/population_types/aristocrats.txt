@@ -16,6 +16,7 @@ aristocrats = {
 		tools = 0.2
 		paper = 0.2
 		coffee = 0.2
+		opium = 0.2
 		tea = 0.2
 		coal = 0.1
 	}
