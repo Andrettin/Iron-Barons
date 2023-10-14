@@ -3,7 +3,7 @@ debubawi_keyih_bahri = {
 	color = { 223 10 128 }
 	default_provincial_capital = assab
 	regions = {
-		africa
+		eritrea
 	}
 	
 	history = {

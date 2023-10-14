@@ -3,7 +3,7 @@ nubia = {
 	color = { 175 46 187 }
 	default_provincial_capital = khartoum
 	regions = {
-		africa
+		sudan
 	}
 	
 	history = {

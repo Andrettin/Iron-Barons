@@ -3,7 +3,7 @@ bahr_el_ghazal = {
 	color = { 239 227 211 }
 	default_provincial_capital = wau
 	regions = {
-		africa
+		sudan
 	}
 	
 	history = {

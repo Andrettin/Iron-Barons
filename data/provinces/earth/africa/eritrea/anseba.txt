@@ -3,7 +3,7 @@ anseba = {
 	color = { 155 40 204 }
 	default_provincial_capital = keren
 	regions = {
-		africa
+		eritrea
 	}
 	
 	history = {

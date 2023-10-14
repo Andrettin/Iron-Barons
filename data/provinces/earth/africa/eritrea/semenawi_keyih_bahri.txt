@@ -3,7 +3,7 @@ semenawi_keyih_bahri = {
 	color = { 205 15 34 }
 	default_provincial_capital = massawa
 	regions = {
-		africa
+		eritrea
 	}
 	
 	history = {

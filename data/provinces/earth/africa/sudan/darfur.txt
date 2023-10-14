@@ -3,7 +3,7 @@ darfur = {
 	color = { 107 48 96 }
 	default_provincial_capital = el_fasher
 	regions = {
-		africa
+		sudan
 	}
 	
 	history = {

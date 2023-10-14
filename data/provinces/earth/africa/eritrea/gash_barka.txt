@@ -3,7 +3,7 @@ gash_barka = {
 	color = { 81 255 115 }
 	default_provincial_capital = asmara
 	regions = {
-		africa
+		eritrea
 	}
 	
 	history = {

@@ -3,7 +3,7 @@ south_sudan = {
 	color = { 87 9 43 }
 	default_provincial_capital = juba
 	regions = {
-		africa
+		sudan
 	}
 	
 	history = {
