@@ -3,6 +3,7 @@ nineveh = {
 	world = earth
 	geocoordinate = { 43.14500443400 36.34500246080 } #from Natural Earth (Mosul)
 	type = settlement
+	province = assyria
 	cultural_names = {
 		arabic = "Mosul"
 	}
