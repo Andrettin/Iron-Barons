@@ -3,4 +3,6 @@ mecca = {
 	world = earth
 	geocoordinate = { 39.82003942750 21.43002138160 } #from Natural Earth
 	type = settlement
+	resource = grain
+	province = mecca
 }
