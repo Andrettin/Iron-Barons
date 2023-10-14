@@ -1,0 +1,32 @@
+united_states = {
+	name = "United States"
+	superregions = {
+		north_america
+	}
+	
+	history = {
+		1 = {
+			population = 680000 #the United States had a population of 680,000 in 1 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		1000 = {
+			population = 1300000 #the United States had a population of 1,300,000 in 1000 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		1500 = {
+			population = 2000000 #the United States had a population of 2,000,000 in 1500 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		1600 = {
+			population = 1500000 #the United States had a population of 1,500,000 in 1600 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		1700 = {
+			population = 1000000 #the United States had a population of 1,000,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		1820 = {
+			population = 9980510 #the United States had a population of 9,980,510 in 1820 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+	}
+}
