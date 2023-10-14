@@ -47,13 +47,6 @@ paraguay = {
 	}
 }
 
-peru = {
-	name = "Peru"
-	superregions = {
-		south_america
-	}
-}
-
 venezuela = {
 	name = "Venezuela"
 	superregions = {
