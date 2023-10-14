@@ -15,5 +15,11 @@ newfoundland = {
 			owner = iroquois #territory of the Northeastern cultural group (to which the Iroquois belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.
 			culture = iroquois
 		}
+		
+		1623 = {
+			owner = newfoundland #became part of English Newfoundland in 1623; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			culture = english
+			religion = protestant
+		}
 	}
 }
