@@ -150,6 +150,10 @@ Item {
 			var explored = metternich.game.player_country.game_data.is_tile_explored(tile_pos)
 			
 			if (!explored) {
+				selected_civilian_unit = null
+				selected_site = null
+				selected_province = null
+				selected_garrison = false
 				return
 			}
 			
