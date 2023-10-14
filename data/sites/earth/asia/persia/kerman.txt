@@ -3,4 +3,6 @@ kerman = {
 	world = earth
 	geocoordinate = { 57.08001948940 30.29999676410 } #from Natural Earth
 	type = settlement
+	resource = cotton
+	province = kerman
 }

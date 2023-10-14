@@ -3,4 +3,6 @@ bojnurd = {
 	world = earth
 	geocoordinate = { 57.32000484090 37.46999839180 } #from Natural Earth
 	type = settlement
+	resource = coal
+	province = north_khorasan
 }
