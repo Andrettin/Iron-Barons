@@ -15,9 +15,27 @@ new_york = {
 			culture = iroquois
 		}
 		
+		1609 = {
+			owner = new_netherland #New Amsterdam founded by the Dutch in 1609; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			culture = dutch
+			religion = protestant
+		}
+		
+		1664 = {
+			owner = new_england #became an English possession in 1664; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+		}
+		
+		1673 = {
+			owner = new_netherland #restored to New Netherland in 1673; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+		}
+		
+		1674 = {
+			owner = new_england #became an English possession in 1674; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			culture = english
+		}
+		
 		1783 = {
 			owner = united_states #became part of the United States in 1783; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
-			culture = english
 		}
 		
 		my_country_tis_of_thee = {
