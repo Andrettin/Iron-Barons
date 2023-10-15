@@ -5,4 +5,10 @@ khatlon = {
 	regions = {
 		tajikistan
 	}
+	
+	history = {
+		owner = mongolia
+		culture = mongol
+		religion = pagan
+	}
 }
