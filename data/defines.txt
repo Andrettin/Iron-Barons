@@ -22,6 +22,11 @@ prestige_commodity = prestige
 piety_commodity = piety
 advisor_commodity = statesmanship
 leader_commodity = leadership
+
+tariff_icon = wealth
+treasure_fleet_icon = chest
+military_upkeep_icon = crossed_sabers
+
 interior_minister_portrait = metternich
 war_minister_portrait = otto_von_bismarck
 

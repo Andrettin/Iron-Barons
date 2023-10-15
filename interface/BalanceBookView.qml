@@ -32,24 +32,24 @@ Flickable {
 					
 					Item {
 						width: income_transactions_column.width
-						height: commodity_icon.height + 4 * scale_factor * 2
+						height: transaction_icon.height + 4 * scale_factor * 2
 						
 						readonly property var income_transaction: model.modelData
 						
 						Image {
-							id: commodity_icon
+							id: transaction_icon
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.left: parent.left
 							anchors.leftMargin: 4 * scale_factor
-							source: "image://icon/" + income_transaction.commodity.icon.identifier
+							source: "image://icon/" + income_transaction.icon.identifier
 							fillMode: Image.Pad
 						}
 						
 						SmallText {
 							id: commodity_label
-							text: income_transaction.commodity.name + " $" + number_string(Math.floor(income_transaction.amount / income_transaction.commodity_quantity))
+							text: income_transaction.name
 							anchors.verticalCenter: parent.verticalCenter
-							anchors.left: commodity_icon.right
+							anchors.left: transaction_icon.right
 							anchors.leftMargin: 8 * scale_factor
 						}
 						
@@ -95,24 +95,24 @@ Flickable {
 					
 					Item {
 						width: expense_transactions_column.width
-						height: commodity_icon.height + 4 * scale_factor * 2
+						height: transaction_icon.height + 4 * scale_factor * 2
 						
 						readonly property var expense_transaction: model.modelData
 						
 						Image {
-							id: commodity_icon
+							id: transaction_icon
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.left: parent.left
 							anchors.leftMargin: 4 * scale_factor
-							source: "image://icon/" + expense_transaction.commodity.icon.identifier
+							source: "image://icon/" + expense_transaction.icon.identifier
 							fillMode: Image.Pad
 						}
 						
 						SmallText {
 							id: commodity_label
-							text: expense_transaction.commodity.name + " $" + number_string(Math.floor(expense_transaction.amount / expense_transaction.commodity_quantity))
+							text: expense_transaction.name
 							anchors.verticalCenter: parent.verticalCenter
-							anchors.left: commodity_icon.right
+							anchors.left: transaction_icon.right
 							anchors.leftMargin: 8 * scale_factor
 						}
 						
