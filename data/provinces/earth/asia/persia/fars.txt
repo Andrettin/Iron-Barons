@@ -7,6 +7,7 @@ fars = {
 	}
 	
 	history = {
+		owner = persia
 		culture = persian
 		religion = pagan
 		

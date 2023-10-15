@@ -1,12 +1,16 @@
 persia = {
 	name = "Persia"
-	type = minor_nation
+	type = great_power
+	color = { 229 170 87 }
 	culture = persian
 	default_religion = shiite
 	default_tier = kingdom
 	default_government_type = monarchy
 	default_capital = teheran
 	max_tier = empire
+	short_names = {
+		tribe = "Persians"
+	}
 	eras = {
 		industrial_era
 	}
@@ -26,5 +30,13 @@ persia = {
 		south_khorasan
 		west_baluchistan
 		yazd
+	}
+	
+	history = {
+		government_type = despotism
+		
+		1801 = {
+			government_type = monarchy
+		}
 	}
 }

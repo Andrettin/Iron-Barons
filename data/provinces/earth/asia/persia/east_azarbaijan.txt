@@ -7,6 +7,7 @@ east_azarbaijan = {
 	}
 	
 	history = {
+		owner = persia
 		culture = persian
 		religion = pagan
 		
