@@ -14,8 +14,12 @@ arabia = {
 		ancient_era
 	}
 	core_provinces = {
-		arabia
 		mecca
+		asir
+		hail
 		medina
+		najran
+		riyadh
+		tabuk
 	}
 }
