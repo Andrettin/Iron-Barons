@@ -1,0 +1,8 @@
+naryn = {
+	name = "Naryn"
+	color = { 10 135 14 }
+	default_provincial_capital = naryn
+	regions = {
+		kyrgyzstan
+	}
+}

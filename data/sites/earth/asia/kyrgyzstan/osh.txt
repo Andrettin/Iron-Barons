@@ -1,0 +1,8 @@
+osh = {
+	name = "Osh"
+	world = earth
+	geocoordinate = { 72.79001664110 40.54040529280 } #from Natural Earth
+	type = settlement
+	resource = grain
+	province = osh
+}

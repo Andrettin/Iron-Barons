@@ -1,0 +1,8 @@
+dashhowuz = {
+	name = "Dashhowuz"
+	color = { 206 189 140 }
+	default_provincial_capital = dashhowuz
+	regions = {
+		turkmenistan
+	}
+}

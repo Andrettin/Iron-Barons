@@ -1,5 +1,5 @@
-bukhoro = {
-	name = "Bukhoro"
+bukhara = {
+	name = "Bukhara"
 	color = { 180 203 183 }
 	default_provincial_capital = bukhara
 	regions = {

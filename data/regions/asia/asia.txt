@@ -38,6 +38,14 @@ tajikistan = {
 	}
 }
 
+turkmenistan = {
+	superregions = {
+		asia
+		commonwealth_of_independent_states
+		soviet_union
+	}
+}
+
 uzbekistan = {
 	superregions = {
 		asia

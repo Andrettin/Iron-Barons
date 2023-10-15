@@ -1,0 +1,8 @@
+chuy = {
+	name = "Chuy"
+	color = { 76 53 92 }
+	default_provincial_capital = bishkek
+	regions = {
+		kyrgyzstan
+	}
+}

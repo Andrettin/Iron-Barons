@@ -1,8 +1,0 @@
-leninabad = {
-	name = "Leninabad"
-	color = { 224 149 125 }
-	default_provincial_capital = leninobod
-	regions = {
-		tajikistan
-	}
-}

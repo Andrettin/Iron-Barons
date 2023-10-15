@@ -1,0 +1,8 @@
+kyzylorda = {
+	name = "Kyzylorda"
+	color = { 231 192 117 }
+	default_provincial_capital = kyzylorda
+	regions = {
+		kazakhstan
+	}
+}
