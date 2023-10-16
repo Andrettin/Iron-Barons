@@ -265,9 +265,8 @@ Item {
 				}
 			}
 			
-			if (pathway !== null || (site !== null && site.settlement) || improvement !== null) {
-				var best_transport_level = Math.max(transport_level, sea_transport_level)
-				text += " (Max Transport: " + best_transport_level + ")"
+			if (site !== null && (site.settlement || resource !== null)) {
+				text += " (Max Transport: " + site.game_data.transport_level + ")"
 			}
 			
 			status_text = text
