@@ -3,6 +3,7 @@ dock = {
 	building_class = dock
 	portrait = dock
 	icon = anchor
+	free_in_capital = true
 	provincial = true
 	required_technology = seafaring
 	settlement_types = {
@@ -17,6 +18,9 @@ dock = {
 	}
 	settlement_conditions = {
 		near_water = true
+	}
+	settlement_modifier = {
+		port_level = 4
 	}
 }
 
@@ -35,5 +39,8 @@ shipyard = {
 	}
 	settlement_conditions = {
 		near_water = true
+	}
+	settlement_modifier = {
+		port_level = 4
 	}
 }
