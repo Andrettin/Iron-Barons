@@ -265,6 +265,11 @@ Item {
 				}
 			}
 			
+			if (pathway !== null || (site !== null && site.settlement) || improvement !== null) {
+				var best_transport_level = Math.max(transport_level, sea_transport_level)
+				text += " (Max Transport: " + best_transport_level + ")"
+			}
+			
 			status_text = text
 			saved_status_text = text
 		}
