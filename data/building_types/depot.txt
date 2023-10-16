@@ -1,0 +1,51 @@
+caravansary = {
+	name = "Caravansary"
+	building_class = caravansary
+	portrait = trading_post
+	icon = road
+	free_in_capital = true
+	provincial = true
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	settlement_conditions = {
+		has_route = true
+	}
+	settlement_modifier = {
+		depot_level = 2
+	}
+}
+
+rail_depot = {
+	name = "Rail Depot"
+	building_class = rail_depot
+	portrait = trading_post
+	icon = railroad
+	free_in_capital = true
+	provincial = true
+	required_building = caravansary
+	required_technology = high_pressure_steam_engine
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		castle
+		monastery
+	}
+	settlement_conditions = {
+		has_route = true
+	}
+	settlement_modifier = {
+		depot_level = 4
+	}
+}
