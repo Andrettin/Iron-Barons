@@ -6,6 +6,7 @@ cadiz = {
 	resource = fish
 	province = andalusia
 	cultural_names = {
+		carthaginian = "Gades"
 		phoenician = "Gades"
 		roman = "Gades"
 	}

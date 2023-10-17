@@ -6,6 +6,7 @@ cartagena = {
 	resource = iron_ore
 	province = murcia
 	cultural_names = {
+		carthaginian = "New Carthage"
 		phoenician = "New Carthage"
 		roman = "New Carthage"
 	}

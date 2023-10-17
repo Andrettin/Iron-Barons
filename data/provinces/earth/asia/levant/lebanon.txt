@@ -3,6 +3,7 @@ lebanon = {
 	color = { 245 81 77 }
 	default_provincial_capital = tyre
 	cultural_names = {
+		carthaginian = "Phoenicia"
 		phoenician = "Phoenicia"
 	}
 	regions = {

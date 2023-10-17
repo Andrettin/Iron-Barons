@@ -1,10 +1,12 @@
 tunis = {
 	name = "Tunis"
+	aliases += carthage
 	world = earth
 	geocoordinate = { 10.17967809920 36.80277813620 } #from Natural Earth
 	type = settlement
 	resource = grain
 	cultural_names = {
+		carthaginian = "Carthage"
 		phoenician = "Carthage"
 		roman = "Carthage" #"Carthago" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 		vandal = "Carthage"
