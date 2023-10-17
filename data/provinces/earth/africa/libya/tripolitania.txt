@@ -7,7 +7,8 @@ tripolitania = {
 	}
 	
 	history = {
-		culture = vandal
+		owner = carthage
+		culture = carthaginian
 		religion = pagan
 		
 		526 = {

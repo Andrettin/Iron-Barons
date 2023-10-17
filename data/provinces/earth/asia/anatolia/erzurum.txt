@@ -7,8 +7,9 @@ erzurum = {
 	}
 	
 	history = {
-		culture = turkish
-		religion = sunni
+		owner = persia
+		culture = persian
+		religion = pagan
 		
 		1360 = {
 			owner = erzincan #part of the Dominions of Mohammed Artin in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.

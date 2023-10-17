@@ -7,6 +7,7 @@ western_cape = {
 	}
 	
 	history = {
+		owner = zululand
 		culture = zulu
 		religion = pagan
 	}

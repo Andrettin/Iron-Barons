@@ -7,6 +7,7 @@ bophuthatswana = {
 	}
 	
 	history = {
+		owner = zululand
 		culture = zulu
 		religion = pagan
 	}

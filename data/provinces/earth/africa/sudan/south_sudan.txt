@@ -7,6 +7,7 @@ south_sudan = {
 	}
 	
 	history = {
+		owner = egypt
 		culture = dinka
 		religion = pagan
 	}

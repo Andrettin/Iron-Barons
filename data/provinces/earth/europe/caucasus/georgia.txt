@@ -7,6 +7,7 @@ georgia_caucasus = {
 	}
 	
 	history = {
+		owner = persia
 		culture = georgian
 		religion = pagan
 		

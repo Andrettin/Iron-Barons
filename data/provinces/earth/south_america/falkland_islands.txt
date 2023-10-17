@@ -4,6 +4,10 @@ falkland_islands = {
 	default_provincial_capital = stanley
 	
 	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+		
 		1763 = {
 			owner = france #became a French possession in 1763; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 		}

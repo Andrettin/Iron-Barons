@@ -7,7 +7,8 @@ ajdabiya = {
 	}
 	
 	history = {
-		culture = arabic
+		owner = egypt
+		culture = egyptian
 		religion = pagan
 		
 		1360 = {

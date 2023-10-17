@@ -7,6 +7,10 @@ santa_fe = {
 	}
 	
 	history = {
+		owner = incas
+		culture = inca
+		religion = pagan
+		
 		1600 = {
 			owner = la_plata #part of La Plata in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 		}

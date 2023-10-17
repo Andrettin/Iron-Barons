@@ -7,7 +7,8 @@ tamanrasset = {
 	}
 	
 	history = {
-		culture = arabic
+		owner = carthage
+		culture = carthaginian
 		religion = pagan
 	}
 }

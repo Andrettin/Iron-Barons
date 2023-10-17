@@ -7,6 +7,7 @@ tatarstan = {
 	}
 	
 	history = {
+		owner = mongolia
 		culture = bolghar
 		religion = pagan
 		
