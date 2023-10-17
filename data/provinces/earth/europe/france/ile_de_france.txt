@@ -7,7 +7,8 @@ ile_de_france = {
 	}
 	
 	history = {
-		culture = frankish
+		owner = celtica
+		culture = gaulish
 		religion = pagan
 		
 		526 = {

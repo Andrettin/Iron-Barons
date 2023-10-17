@@ -7,8 +7,8 @@ geneva = {
 	}
 	
 	history = {
-		owner = burgundians
-		culture = gothic
+		owner = celtica
+		culture = gaulish
 		religion = pagan
 		
 		526 = {

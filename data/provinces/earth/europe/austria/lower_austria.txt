@@ -8,8 +8,8 @@ lower_austria = {
 	}
 	
 	history = {
-		owner = bavarians
-		culture = suebi
+		owner = celtica
+		culture = gaulish
 		religion = pagan
 		
 		526 = {

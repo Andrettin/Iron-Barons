@@ -11,7 +11,8 @@ salzburg = {
 	}
 	
 	history = {
-		culture = suebi
+		owner = celtica
+		culture = gaulish
 		religion = pagan
 		
 		myths_enabled = {

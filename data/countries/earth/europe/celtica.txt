@@ -1,0 +1,20 @@
+celtica = {
+	name = "Celtica"
+	type = great_power
+	color = { 94 130 93 }
+	#culture = celtic
+	culture = gaulish
+	default_religion = pagan
+	default_tier = empire
+	default_government_type = despotism
+	default_capital = paris
+	short_names = {
+		tribe = "Celts"
+	}
+	eras = {
+		ancient_era
+	}
+	core_provinces = {
+		ile_de_france
+	}
+}

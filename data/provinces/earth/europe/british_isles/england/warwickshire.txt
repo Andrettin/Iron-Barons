@@ -7,8 +7,8 @@ warwickshire = {
 	}
 	
 	history = {	
-		owner = anglo_saxons
-		culture = anglo_saxon
+		owner = britons
+		culture = briton
 		religion = pagan
 		
 		526 = {

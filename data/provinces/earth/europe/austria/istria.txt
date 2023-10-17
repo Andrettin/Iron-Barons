@@ -9,7 +9,8 @@ istria = {
 	}
 	
 	history = {
-		culture = gothic
+		owner = celtica
+		culture = gaulish
 		religion = pagan
 		
 		526 = {

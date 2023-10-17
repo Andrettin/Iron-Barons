@@ -7,7 +7,8 @@ berry = {
 	}
 	
 	history = {
-		culture = frankish
+		owner = celtica
+		culture = gaulish
 		religion = pagan
 		
 		526 = {
