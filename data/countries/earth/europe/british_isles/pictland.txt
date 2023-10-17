@@ -4,9 +4,13 @@ pictland = {
 	culture = pictish
 	default_religion = pagan
 	default_tier = duchy
-	default_government_type = monarchy
+	default_government_type = despotism
 	default_capital = ayr
+	short_names = {
+		tribe = "Picts"
+	}
 	eras = {
+		ancient_era
 		medieval_era
 	}
 	core_provinces = {
