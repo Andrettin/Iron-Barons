@@ -1,0 +1,14 @@
+gorno_badakhshan = {
+	name = "Gorno-Badakhshan"
+	color = { 103 29 100 }
+	default_provincial_capital = khorugh
+	regions = {
+		tajikistan
+	}
+	
+	history = {
+		owner = mongolia
+		culture = mongol
+		religion = pagan
+	}
+}

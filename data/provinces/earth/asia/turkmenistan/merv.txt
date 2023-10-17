@@ -1,0 +1,14 @@
+merv = {
+	name = "Merv" #also known as Mary
+	color = { 214 78 138 }
+	default_provincial_capital = merv
+	regions = {
+		turkmenistan
+	}
+	
+	history = {
+		owner = mongolia
+		culture = mongol
+		religion = pagan
+	}
+}

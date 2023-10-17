@@ -1,0 +1,14 @@
+ahal = {
+	name = "Ahal"
+	color = { 245 72 177 }
+	default_provincial_capital = ashgabat
+	regions = {
+		turkmenistan
+	}
+	
+	history = {
+		owner = mongolia
+		culture = mongol
+		religion = pagan
+	}
+}
