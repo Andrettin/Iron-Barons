@@ -49,6 +49,11 @@ guadiana_river = {
 	#}
 }
 
+loire_river = {
+	name = "Loire River"
+	river = true
+}
+
 meuse_river = {
 	name = "Meuse River"
 	river = true
@@ -95,6 +100,11 @@ rhine_river = {
 	#cultural_names = {
 	#	roman = "Rhenus River" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 34-35.
 	#}
+}
+
+seine_river = {
+	name = "Seine River"
+	river = true
 }
 
 severn_river = {
