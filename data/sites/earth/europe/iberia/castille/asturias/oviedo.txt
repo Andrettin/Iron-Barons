@@ -3,6 +3,8 @@ oviedo = {
 	world = earth
 	geocoordinate = { -5.82999068340 43.35049216620 } #from Natural Earth
 	type = settlement
+	resource = coal
+	province = asturias
 	
 	history = {
 		1360 = {

@@ -4,7 +4,7 @@ santander = {
 	geocoordinate = { -3.79998539368 43.38046449690 } #from Natural Earth
 	type = settlement
 	resource = fish
-	province = asturias
+	province = cantabria
 	
 	history = {
 		1360 = {

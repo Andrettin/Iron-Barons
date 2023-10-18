@@ -4,7 +4,7 @@ ciudad_rodrigo = {
 	geocoordinate = { -6.5225 40.596944444444 }
 	type = settlement
 	resource = gold
-	province = leon
+	province = salamanca
 	cultural_names = {
 		roman = "Mirobriga"
 	}

@@ -1,7 +1,7 @@
-andalusia = {
-	name = "Andalusia"
-	color = { 128 16 32 }
-	default_provincial_capital = seville
+zamora = {
+	name = "Zamora"
+	color = { 140 80 36 }
+	default_provincial_capital = zamora
 	regions = {
 		spain
 	}
