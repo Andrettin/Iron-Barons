@@ -1,0 +1,5 @@
+cantabrian = {
+	name = "Cantabrian"
+	group = western
+	color = { 49 119 115 }
+}
