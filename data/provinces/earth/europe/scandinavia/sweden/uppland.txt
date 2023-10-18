@@ -7,8 +7,15 @@ uppland = {
 	}
 	
 	history = {
-		culture = norse
+		owner = suionia
+		culture = suioni
 		religion = pagan
+		
+		-264 = {
+			owner = suionia #territory of the Suiones in the 264 BC - 180 AD period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 34-35.
+			culture = suioni
+			religion = pagan
+		}
 		
 		1360 = {
 			owner = sweden #part of Sweden in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
