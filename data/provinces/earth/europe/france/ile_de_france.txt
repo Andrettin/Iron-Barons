@@ -7,7 +7,7 @@ ile_de_france = {
 	}
 	
 	history = {
-		owner = celtica
+		owner = gaul
 		culture = gaulish
 		religion = pagan
 		

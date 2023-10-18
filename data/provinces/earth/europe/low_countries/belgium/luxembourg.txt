@@ -7,7 +7,7 @@ luxembourg = {
 	}
 	
 	history = {
-		owner = celtica
+		owner = gaul
 		culture = gaulish
 		religion = pagan
 		

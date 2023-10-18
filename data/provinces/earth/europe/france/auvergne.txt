@@ -7,7 +7,7 @@ auvergne = {
 	}
 	
 	history = {
-		owner = celtica
+		owner = gaul
 		culture = gaulish
 		religion = pagan
 		
