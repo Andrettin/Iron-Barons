@@ -7,8 +7,8 @@ aztec_empire = {
 	default_tier = empire
 	default_government_type = despotism
 	default_capital = mexico_city
+	short_name = true
 	short_names = {
-		despotism = "Aztec Empire"
 		tribe = "Aztecs"
 	}
 	eras = {

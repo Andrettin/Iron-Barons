@@ -7,9 +7,7 @@ united_states = {
 	default_tier = empire
 	default_government_type = republic
 	default_capital = baltimore
-	short_names = {
-		republic = "United States of America"
-	}
+	short_name = true
 	eras = {
 		industrial_era
 	}
