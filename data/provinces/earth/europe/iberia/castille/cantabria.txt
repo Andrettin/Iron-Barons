@@ -7,9 +7,15 @@ cantabria = {
 	}
 	
 	history = {
-		owner = gaul
-		culture = gaulish
+		owner = cantabria
+		culture = cantabrian
 		religion = pagan
+		
+		-264 = {
+			owner = cantabria #territory of the Cantabri in the 264-17 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 34-35.
+			culture = cantabrian
+			religion = pagan
+		}
 		
 		526 = {
 			owner = visigothia #part of the Kingdom of the West Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.

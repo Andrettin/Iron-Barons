@@ -10,9 +10,15 @@ leon = {
 	}
 	
 	history = {
-		owner = gaul
-		culture = gaulish
+		owner = asturia
+		culture = asturian
 		religion = pagan
+		
+		-264 = {
+			owner = asturia #territory of the Astures in the 264-17 BC period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 34-35.
+			culture = asturian
+			religion = pagan
+		}
 		
 		526 = {
 			owner = suebi #territory of the Suebi in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
