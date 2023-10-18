@@ -7,7 +7,7 @@ rio_negro = {
 	}
 	
 	history = {
-		owner = incas
+		owner = inca_empire
 		culture = inca
 		religion = pagan
 		

@@ -8,7 +8,7 @@ loreto = {
 	}
 	
 	history = {
-		owner = incas
+		owner = inca_empire
 		culture = inca
 		religion = pagan
 	}

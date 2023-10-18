@@ -4,7 +4,7 @@ falkland_islands = {
 	default_provincial_capital = stanley
 	
 	history = {
-		owner = incas
+		owner = inca_empire
 		culture = inca
 		religion = pagan
 		

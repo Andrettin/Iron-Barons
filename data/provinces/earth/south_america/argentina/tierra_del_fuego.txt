@@ -7,7 +7,7 @@ tierra_del_fuego = {
 	}
 	
 	history = {
-		owner = incas
+		owner = inca_empire
 		culture = inca
 		religion = pagan
 		
