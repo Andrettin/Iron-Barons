@@ -2,6 +2,12 @@ norse = {
 	name = "Norse"
 	group = scandinavian
 	color = { 76 140 204 }
+	derived_cultures = {
+		danish
+		icelandic
+		norwegian
+		swedish
+	}
 	ruler_title_names = {
 		despotism = "Warlord"
 	}
