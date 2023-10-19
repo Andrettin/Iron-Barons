@@ -1,5 +1,5 @@
-celtiberian = {
-	name = "Celtiberian"
+gallic = {
+	name = "Gallic"
 	rank = subgroup
 	upper_group = celtic
 	ruler_title_names = {

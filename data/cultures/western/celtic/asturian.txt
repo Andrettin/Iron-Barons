@@ -2,7 +2,4 @@ asturian = {
 	name = "Asturian"
 	group = celtiberian
 	color = { 221 209 93 }
-	ruler_title_names = {
-		theocracy = "Druid"
-	}
 }

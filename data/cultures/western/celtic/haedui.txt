@@ -1,0 +1,5 @@
+haedui = {
+	name = "Haedui"
+	group = gallic
+	color = { 121 9 9 }
+}

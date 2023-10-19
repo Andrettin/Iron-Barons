@@ -1,8 +1,5 @@
 gaulish = {
 	name = "Gaulish"
-	group = celtic
+	group = gallic
 	color = { 44 102 30 }
-	ruler_title_names = {
-		theocracy = "Druid"
-	}
 }

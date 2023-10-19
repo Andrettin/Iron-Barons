@@ -7,8 +7,8 @@ auvergne = {
 	}
 	
 	history = {
-		owner = gaul
-		culture = gaulish
+		owner = arvernia
+		culture = arverni
 		religion = pagan
 		
 		526 = {
