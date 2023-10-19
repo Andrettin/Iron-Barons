@@ -7,13 +7,14 @@ holstein = {
 	}
 	
 	history = {
-		owner = jutes
-		culture = anglian
+		owner = teutonia
+		culture = teutonian
 		religion = pagan
 		
-		526 = {
-			owner = jutes #territory of the Jutes in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
-			culture = anglian
+		-264 = {
+			owner = teutonia #territory of the Teutones in the 264 BC - 180 AD period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 34-35.
+			culture = teutonian
+			religion = pagan
 		}
 		
 		919 = {

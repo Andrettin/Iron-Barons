@@ -1,9 +1,8 @@
-anglian = {
-	name = "Anglian"
+teutonian = {
+	name = "Teutonian"
 	group = west_germanic
 	color = { 140 37 40 }
 	derived_cultures = {
-		anglo_saxon
 		german
 	}
 }
