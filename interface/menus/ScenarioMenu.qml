@@ -343,7 +343,7 @@ MenuBase {
 		id: major_scenarios_only_checkbox
 		anchors.left: start_game_button.left
 		anchors.bottom: start_game_button.top
-		anchors.bottomMargin: 8 * scale_factor
+		anchors.bottomMargin: 16 * scale_factor
 		text: colored_text(qsTr("Major scenarios only"), "white")
 		checked: metternich.preferences.major_scenarios_only
 		checkable: true
