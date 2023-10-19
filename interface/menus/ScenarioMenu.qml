@@ -13,7 +13,7 @@ MenuBase {
 	readonly property var selected_country: diplomatic_map.selected_country
 	readonly property var selected_country_game_data: selected_country ? selected_country.game_data : null
 	property int setup_count: 0
-	readonly property var scenarios: metternich.get_scenarios()
+	readonly property var scenarios: metternich.preferences.major_scenarios_only ? metternich.get_major_scenarios() : metternich.get_scenarios()
 	
 	Rectangle {
 		id: diplomatic_map_background
@@ -295,7 +295,7 @@ MenuBase {
 		anchors.leftMargin: 16 * scale_factor
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
-		anchors.bottom: start_game_button.top
+		anchors.bottom: major_scenarios_only_checkbox.top
 		anchors.bottomMargin: 16 * scale_factor
 		width: 256 * scale_factor
 		height: 128 * scale_factor
@@ -330,6 +330,30 @@ MenuBase {
 						update_selected_country_data(diplomatic_map.selected_country)
 						loading_scenario = false
 					})
+				}
+			}
+		}
+		
+		onModelChanged: {
+			adjust_scenario_list_position(scenarios.indexOf(selected_scenario))
+		}
+	}
+	
+	CustomCheckBox {
+		id: major_scenarios_only_checkbox
+		anchors.left: start_game_button.left
+		anchors.bottom: start_game_button.top
+		anchors.bottomMargin: 8 * scale_factor
+		text: colored_text(qsTr("Major scenarios only"), "white")
+		checked: metternich.preferences.major_scenarios_only
+		checkable: true
+		onCheckedChanged: {
+			if (metternich.preferences.major_scenarios_only !== checked) {
+				metternich.preferences.major_scenarios_only = checked
+				metternich.preferences.save()
+				
+				if (metternich.preferences.major_scenarios_only && !selected_scenario.major) {
+					select_random_scenario()
 				}
 			}
 		}
@@ -405,15 +429,16 @@ MenuBase {
 	}
 	
 	Component.onCompleted: {
+		select_random_scenario()
+	}
+	
+	function select_random_scenario() {
 		loading_scenario = true
 		//get a random scenario
 		var scenario_index = random(scenarios.length)
 		selected_scenario = scenarios[scenario_index]
 		
-		var scenario_rect_bottom = (scenario_index + 1) * 16 * scale_factor - 1
-		if (scenario_rect_bottom > scenario_list.contentY) {
-			scenario_list.contentY = scenario_rect_bottom - scenario_list.height
-		}
+		adjust_scenario_list_position(scenario_index)
 		
 		metternich.game.setup_scenario(selected_scenario).then(() => {
 			if (selected_scenario.default_countries.length > 0) {
@@ -425,6 +450,13 @@ MenuBase {
 			loading_scenario = false
 			initial_scenario_loaded = true
 		})
+	}
+	
+	function adjust_scenario_list_position(scenario_index) {
+		var scenario_rect_bottom = (scenario_index + 1) * 16 * scale_factor - 1
+		if (scenario_rect_bottom > scenario_list.contentY) {
+			scenario_list.contentY = scenario_rect_bottom - scenario_list.height
+		}
 	}
 	
 	function update_selected_country_data(country) {
