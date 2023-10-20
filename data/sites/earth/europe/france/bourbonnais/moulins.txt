@@ -1,0 +1,7 @@
+moulins = {
+	name = "Moulins"
+	world = earth
+	geocoordinate = { 3.3325 46.564722222222 }
+	type = settlement
+	resource = coal
+}

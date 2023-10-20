@@ -3,7 +3,8 @@ nancy = {
 	world = earth
 	geocoordinate = { 6.20002437198 48.68368084620 } #from Natural Earth
 	type = settlement
-	resource = cattle #Grassland; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
+	#resource = cattle #Grassland; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
+	resource = dye
 	
 	history = {
 		1789 = {

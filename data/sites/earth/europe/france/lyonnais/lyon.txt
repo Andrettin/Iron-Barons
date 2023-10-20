@@ -2,6 +2,8 @@ lyon = {
 	name = "Lyon"
 	world = earth
 	geocoordinate = { 4.83003047549 45.77000856430 } #from Natural Earth
+	type = settlement
+	resource = grain
 	province = auvergne
 	cultural_names = {
 		frankish = "Lugdunum"
@@ -11,7 +13,7 @@ lyon = {
 	
 	history = {
 		919 = {
-			#important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			settlement_type = city #important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1330 = {

@@ -1,0 +1,7 @@
+charleville_mezieres = {
+	name = "Charleville" #"Charleville-Mézières"
+	world = earth
+	geocoordinate = { 4.7194444444444 49.76 }
+	type = settlement
+	resource = coal
+}

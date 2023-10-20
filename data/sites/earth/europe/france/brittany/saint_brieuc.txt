@@ -1,0 +1,7 @@
+saint_brieuc = {
+	name = "Saint-Brieuc"
+	world = earth
+	geocoordinate = { -2.78330326477 48.51666261710 } #from Natural Earth
+	type = settlement
+	resource = grain
+}

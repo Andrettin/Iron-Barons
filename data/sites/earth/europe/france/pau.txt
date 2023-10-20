@@ -2,15 +2,18 @@ pau = {
 	name = "Pau"
 	world = earth
 	geocoordinate = { -0.37 43.300833333333 }
+	type = settlement
+	resource = grain
 	province = gascony
 	
 	history = {
 		1360 = {
-			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1789 = {
 			buildings += courthouse #Parlement or conseil souverain and prévôt des maréchaux existent in Pau in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+			settlement_type = city
 		}
 	}
 }

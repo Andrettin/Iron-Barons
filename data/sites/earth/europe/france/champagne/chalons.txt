@@ -2,11 +2,13 @@ chalons = {
 	name = "Chalons" #"Châlons"
 	world = earth
 	geocoordinate = { 4.3644444444444 48.956666666667 }
+	type = settlement
+	resource = fruit
 	province = champagne
 	
 	history = {
 		919 = {
-			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 	}
 }

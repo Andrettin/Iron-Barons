@@ -1,7 +1,9 @@
 valence = {
-	name = "Valence"
+	name = "Valence" #located in the Drôme department
 	world = earth
 	geocoordinate = { 4.8908333333333 44.9325 }
+	type = settlement
+	resource = fruit
 	province = dauphiny
 	cultural_names = {
 		frankish = "Valentia"
@@ -10,6 +12,7 @@ valence = {
 	history = {
 		1459 = {
 			buildings += university #University founded in Valence in 1459; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+			settlement_type = city
 		}
 		
 		1789 = {

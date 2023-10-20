@@ -1,0 +1,7 @@
+chaumont_en_bassigny = {
+	name = "Chaumont" #"Chaumont-en-Bassigny"
+	world = earth
+	geocoordinate = { 5.1386111111111 48.110833333333 }
+	type = settlement
+	resource = iron_ore
+}

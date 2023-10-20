@@ -3,6 +3,7 @@ amiens = {
 	world = earth
 	geocoordinate = { 2.30000402691 49.90037660630 } #from Natural Earth
 	type = settlement
+	resource = fish
 	cultural_names = {
 		frankish = "Ambiani"
 		gaulish = "Samarobriva"

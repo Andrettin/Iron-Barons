@@ -1,0 +1,7 @@
+carcassonne = {
+	name = "Carcassonne"
+	world = earth
+	geocoordinate = { 2.3513888888889 43.215833333333 }
+	type = settlement
+	resource = grain
+}

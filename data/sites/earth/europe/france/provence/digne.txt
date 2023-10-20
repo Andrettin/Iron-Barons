@@ -1,0 +1,7 @@
+digne = {
+	name = "Digne" #"Digne-les-Bains"
+	world = earth
+	geocoordinate = { 6.2355555555556 44.0925 }
+	type = settlement
+	resource = silk
+}

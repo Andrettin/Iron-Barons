@@ -1,0 +1,7 @@
+toulon = {
+	name = "Toulon"
+	world = earth
+	geocoordinate = { 5.91882156569 43.13418645070 } #from Natural Earth
+	type = settlement
+	resource = silk
+}

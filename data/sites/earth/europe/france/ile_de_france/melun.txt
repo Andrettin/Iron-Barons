@@ -1,0 +1,7 @@
+melun = {
+	name = "Melun"
+	world = earth
+	geocoordinate = { 2.66664831403 48.53330242830 } #from Natural Earth
+	type = settlement
+	resource = grain
+}

@@ -1,0 +1,7 @@
+beauvais = {
+	name = "Beauvais"
+	world = earth
+	geocoordinate = { 2.0875 49.434166666667 }
+	type = settlement
+	resource = grain
+}

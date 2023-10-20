@@ -2,15 +2,18 @@ tours = {
 	name = "Tours"
 	world = earth
 	geocoordinate = { 0.69994665386 47.38037538560 } #from Natural Earth
+	type = settlement
+	resource = grain
 	province = anjou
 	
 	history = {
 		1360 = {
-			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1789 = {
 			buildings += courthouse #Chief court of the salt tax existent in Tours in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+			settlement_type = city
 		}
 	}
 }

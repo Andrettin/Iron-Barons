@@ -1,0 +1,7 @@
+tulle = {
+	name = "Tulle"
+	world = earth
+	geocoordinate = { 1.7722222222222 45.265833333333 }
+	type = settlement
+	resource = fruit
+}

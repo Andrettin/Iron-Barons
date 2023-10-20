@@ -3,7 +3,8 @@ rouen = {
 	world = earth
 	geocoordinate = { 1.07997513694 49.43040529290 } #from Natural Earth
 	type = settlement
-	resource = grain #Cropland (primarily wheat, sugar beets, corn); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
+	#resource = grain #Cropland (primarily wheat, sugar beets, corn); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
+	resource = cotton
 	cultural_names = {
 		frankish = "Rotomagus"
 	}
