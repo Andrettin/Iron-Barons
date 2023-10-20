@@ -4,6 +4,7 @@ caravansary = {
 	portrait = trading_post
 	icon = road
 	free_in_capital = true
+	free_on_start = true
 	provincial = true
 	settlement_types = {
 		camp
@@ -29,6 +30,7 @@ rail_depot = {
 	portrait = trading_post
 	icon = railroad
 	free_in_capital = true
+	free_on_start = true
 	provincial = true
 	required_building = caravansary
 	required_technology = high_pressure_steam_engine

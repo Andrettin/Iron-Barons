@@ -4,6 +4,7 @@ dock = {
 	portrait = dock
 	icon = anchor
 	free_in_capital = true
+	free_on_start = true
 	provincial = true
 	required_technology = seafaring
 	settlement_types = {
