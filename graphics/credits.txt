@@ -245,6 +245,7 @@
 /graphics/tiles/terrain/savannah.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/scrub_forest.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/semi_dry_grass.png (by Exidelo and Jinn) (licensed under the CC0)
+/graphics/tiles/terrain/shallow_water.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/transition_mask.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/transition_mask_shadow.png (by Jinn) (licensed under the CC0)
 /graphics/tiles/terrain/tundra.png (by Jinn) (licensed under the CC0)
