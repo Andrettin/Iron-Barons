@@ -26,6 +26,10 @@ austria = {
 	}
 	
 	history = {
+		1156 = {
+			tier = duchy #Austria became a duchy in 1156; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1516 = {
 			consulate = { #the Holy Roman Emperor sent an ambassador (Sigismund von Herbestein) to Muscovy in 1516; Source: Henry Kamen, "Early Modern European Society", 2021, p. 2.
 				country = muscovy
