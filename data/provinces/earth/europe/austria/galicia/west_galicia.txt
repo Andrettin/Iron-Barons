@@ -18,9 +18,13 @@ west_galicia = {
 			culture = lombard
 		}
 		
+		999 = {
+			owner = poland #became part of Poland in 999; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = polish
+		}
+		
 		1360 = {
 			owner = poland #part of Poland in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
-			culture = polish
 			religion = catholic
 		}
 		

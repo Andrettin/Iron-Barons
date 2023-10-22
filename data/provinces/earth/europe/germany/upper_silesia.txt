@@ -16,9 +16,13 @@ upper_silesia = {
 			culture = slavic
 		}
 		
+		999 = {
+			owner = poland #became part of Poland in 999; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = polish
+		}
+		
 		1477 = {
 			owner = hungary #Hungarian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
-			culture = polish
 			religion = catholic
 		}
 		
