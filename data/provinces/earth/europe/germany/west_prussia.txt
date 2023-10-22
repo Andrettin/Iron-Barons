@@ -17,6 +17,11 @@ west_prussia = {
 			culture = slavic
 		}
 		
+		919 = {
+			owner = pomerania_slavic #part of Pomerania in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = pomeranian
+		}
+		
 		1360 = {
 			owner = teutonic_order #territory of the Teutonic Order in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = polish

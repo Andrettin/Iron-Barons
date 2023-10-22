@@ -15,3 +15,20 @@ pomerania = {
 		farther_pomerania
 	}
 }
+
+pomerania_slavic = {
+	name = "Pomerania"
+	type = minor_nation
+	culture = pomeranian
+	default_religion = pagan
+	default_tier = duchy
+	default_government_type = monarchy
+	default_capital = danzig
+	eras = {
+		medieval_era
+	}
+	core_provinces = {
+		farther_pomerania
+		west_prussia
+	}
+}
