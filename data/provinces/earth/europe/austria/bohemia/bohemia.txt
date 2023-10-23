@@ -16,10 +16,22 @@ bohemia = {
 			culture = suebi
 		}
 		
-		1477 = {
-			owner = bohemia #part of the Kingdom of Bohemia c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		919 = {
+			owner = bohemia #part of the Duchy of Bohemia in the 919-1003 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			culture = czech
 			religion = catholic
+		}
+		
+		1003 = {
+			owner = poland #became part of Poland in 1003; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
+		1004 = {
+			owner = bohemia #became part of the Duchy of Bohemia in 1004; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
+		1477 = {
+			owner = bohemia #part of the Kingdom of Bohemia c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1740 = {

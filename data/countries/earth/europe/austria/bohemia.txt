@@ -18,4 +18,14 @@ bohemia = {
 		moravia
 		brunn
 	}
+	
+	history = {
+		919 = {
+			tier = duchy #Bohemia was a duchy in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
+		1477 = {
+			tier = kingdom #Bohemia was a kingdom c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		}
+	}
 }

@@ -19,6 +19,20 @@ brunn = {
 			culture = suebi
 		}
 		
+		919 = {
+			owner = bohemia #part of the Duchy of Bohemia in the 919-1003 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			culture = czech
+			religion = catholic
+		}
+		
+		1003 = {
+			owner = poland #became part of Poland in 1003; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
+		1029 = {
+			owner = bohemia #became part of the Duchy of Bohemia in 1029; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1477 = {
 			owner = hungary #Hungarian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 			culture = czech

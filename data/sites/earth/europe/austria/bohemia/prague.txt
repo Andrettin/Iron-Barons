@@ -9,14 +9,18 @@ prague = {
 	}
 	
 	history = {
+		919 = {
+			settlement_type = city #important settlement in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			
+			buildings += fort #Wyschehrad (Vyšehrad) had a castle or stronghold in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+		}
+		
 		1231 = {
 			buildings += temple #Agnes Přemyslovna founded the St. Agnes' Cloister (in Prague) in 1231; Source: Alena Ježková, "77 Prague Legends", 2006, p. 36.
-			settlement_type = village
 		}
 		
 		1347 = {
 			buildings += university #University founded in Prague in 1347; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
-			settlement_type = city
 		}
 		
 		1360 = {
