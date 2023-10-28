@@ -2,7 +2,7 @@ fur_hat_production = {
 	name = "Fur Hat Production"
 	category = industry
 	portrait = engineering
-	icon = clothing
+	icon = fur_hats
 	year = -2000
 	prerequisites = {
 		furs

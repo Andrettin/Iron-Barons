@@ -2,7 +2,7 @@ furriers_house = {
 	name = "Furrier's House"
 	building_class = furriers_house
 	portrait = factory
-	icon = leather
+	icon = fur_hats
 	production_types = {
 		fur_hat_production
 	}
@@ -14,7 +14,7 @@ furriers_shop = {
 	name = "Furrier's Shop"
 	building_class = furriers_shop
 	portrait = factory
-	icon = leather
+	icon = fur_hats
 	production_types = {
 		fur_hat_production
 	}
@@ -27,7 +27,7 @@ fur_factory = {
 	name = "Fur Factory"
 	building_class = fur_factory
 	portrait = factory
-	icon = leather
+	icon = fur_hats
 	production_types = {
 		fur_hat_production
 	}
