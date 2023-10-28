@@ -1,5 +1,5 @@
-scotland_gaelic = {
-	name = "Scotland"
+alba = {
+	name = "Alba"
 	type = minor_nation
 	culture = highlander
 	default_religion = catholic
@@ -14,7 +14,7 @@ scotland_gaelic = {
 	}
 }
 
-scotland_anglo_saxon = {
+scotland = {
 	name = "Scotland"
 	type = minor_nation
 	culture = scottish

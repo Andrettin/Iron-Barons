@@ -27,7 +27,7 @@ lothian = {
 		}
 		
 		1360 = {
-			owner = scotland_gaelic #part of Scotland in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			owner = alba #part of Scotland in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }
