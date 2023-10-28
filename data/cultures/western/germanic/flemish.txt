@@ -2,4 +2,10 @@ flemish = {
 	name = "Flemish"
 	group = west_germanic
 	color = { 43 141 172 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = belgium
+		}
+	}
 }

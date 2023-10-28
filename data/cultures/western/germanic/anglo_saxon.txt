@@ -6,4 +6,10 @@ anglo_saxon = {
 		english
 		scottish
 	}
+	derivation_conditions = {
+		technology = monarchy
+		province = {
+			core = great_britain
+		}
+	}
 }

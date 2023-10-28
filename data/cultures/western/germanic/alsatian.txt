@@ -1,4 +1,10 @@
 alsatian = {
 	name = "Alsatian"
 	group = german
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = strasbourg
+		}
+	}
 }

@@ -2,4 +2,10 @@ icelandic = {
 	name = "Icelandic"
 	group = scandinavian
 	color = { 80 20 150 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = iceland
+		}
+	}
 }

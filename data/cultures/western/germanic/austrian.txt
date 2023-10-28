@@ -2,7 +2,10 @@ austrian = {
 	name = "Austrian"
 	group = german
 	color = { 244 121 126 }
-	derived_cultures = {
-		german
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = austria
+		}
 	}
 }
