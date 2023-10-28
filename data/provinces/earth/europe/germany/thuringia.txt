@@ -16,10 +16,14 @@ thuringia = {
 			culture = suebi
 		}
 		
-		1477 = {
-			owner = saxe_wittenberg #part of the Wettin Lands c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
+		919 = {
+			owner = thuringia #part of Thuringia in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			culture = german
 			religion = catholic
+		}
+		
+		1477 = {
+			owner = saxe_wittenberg #part of the Wettin Lands c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
 		1815 = {
