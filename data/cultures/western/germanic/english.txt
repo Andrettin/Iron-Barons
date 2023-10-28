@@ -2,6 +2,14 @@ english = {
 	name = "English"
 	group = anglo_saxon
 	color = { 206 8 8 }
+	derivation_conditions = {
+		technology = feudalism
+		not = {
+			province = {
+				core = scotland
+			}
+		}
+	}
 	ruler_title_names = {
 		democratic_republic = "Prime Minister"
 	}
