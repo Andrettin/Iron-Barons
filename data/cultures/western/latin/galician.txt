@@ -2,4 +2,10 @@ galician = {
 	name = "Galician"
 	group = iberian
 	color = { 93 179 191 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = galicia
+		}
+	}
 }

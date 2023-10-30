@@ -2,4 +2,10 @@ portuguese = {
 	name = "Portuguese"
 	group = iberian
 	color = { 0 66 24 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = portugal
+		}
+	}
 }

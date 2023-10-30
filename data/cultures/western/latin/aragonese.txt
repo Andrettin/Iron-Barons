@@ -2,4 +2,14 @@ aragonese = {
 	name = "Aragonese"
 	group = iberian
 	color = { 204 170 61 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = aragon
+			not = {
+				core = catalonia
+				core = valencia
+			}
+		}
+	}
 }

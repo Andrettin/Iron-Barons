@@ -2,4 +2,13 @@ catalan = {
 	name = "Catalan"
 	group = iberian
 	color = { 220 110 30 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			or = {
+				core = catalonia
+				core = valencia
+			}
+		}
+	}
 }

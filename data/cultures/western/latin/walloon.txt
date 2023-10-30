@@ -2,4 +2,10 @@ walloon = {
 	name = "Walloon"
 	group = french
 	color = { 190 90 20 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = belgium
+		}
+	}
 }

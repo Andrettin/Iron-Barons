@@ -2,4 +2,10 @@ romanian = {
 	name = "Romanian"
 	group = latin
 	color = { 240 240 140 }
+	derivation_conditions = {
+		technology = feudalism
+		province = {
+			core = romania
+		}
+	}
 }
