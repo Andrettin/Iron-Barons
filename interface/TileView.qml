@@ -10,6 +10,7 @@ Item {
 	readonly property bool civilian_unit_interactable: civilian_unit !== null && civilian_unit.owner === metternich.game.player_country
 	readonly property point tile_pos: Qt.point(column, row)
 	readonly property bool is_center_tile: province !== null && province.game_data.center_tile_pos === tile_pos
+	readonly property var entering_army: (site !== null && site.game_data.visiting_armies.length > 0) ? site.game_data.visiting_armies[0] : ((province !== null && is_center_tile && province.game_data.entering_armies.length > 0) ? province.game_data.entering_armies[0] : null)
 	property string saved_status_text: ""
 	
 	Repeater {
@@ -89,6 +90,12 @@ Item {
 		border.color: "white"
 		border.width: 1 * scale_factor
 		visible: tile_selected
+	}
+	
+	TileImage {
+		id: entering_army_image
+		tile_image_source: entering_army !== null ? "image://icon/flag" : "image://empty/"
+		visible: entering_army !== null && tile_detail_mode === false
 	}
 	
 	TileImage {
