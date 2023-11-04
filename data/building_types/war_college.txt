@@ -4,6 +4,7 @@ war_college = {
 	portrait = fort
 	icon = wall
 	provincial = true
+	provincial_capital_only = true
 	settlement_types = {
 		city
 		metropolis
