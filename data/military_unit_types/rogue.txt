@@ -1,7 +1,7 @@
 rogue = {
 	name = "Rogue"
 	unit_class = rogue
-	icon = whitecoats
+	icon = arquebusiers
 	melee = 10
 	range = 1
 	defense = 4

@@ -1,7 +1,7 @@
 arquebusiers = {
 	name = "Arquebusiers"
 	unit_class = arquebusiers
-	icon = whitecoats
+	icon = arquebusiers
 	firepower = 5
 	melee = 1
 	range = 3
@@ -18,7 +18,7 @@ arquebusiers = {
 musketeers = {
 	name = "Musketeers"
 	unit_class = musketeers
-	icon = whitecoats
+	icon = musketeers
 	firepower = 7
 	melee = 2
 	range = 4

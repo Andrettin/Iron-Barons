@@ -1,7 +1,7 @@
 archers = {
 	name = "Archers"
 	unit_class = archers
-	icon = whitecoats
+	icon = arquebusiers
 	firepower = 2
 	melee = 1
 	range = 4
@@ -14,7 +14,7 @@ archers = {
 crossbowmen = {
 	name = "Crossbowmen"
 	unit_class = crossbowmen
-	icon = whitecoats
+	icon = arquebusiers
 	firepower = 3
 	melee = 1
 	range = 4
