@@ -7,4 +7,29 @@ suebi = {
 		austrian
 		german
 	}
+
+	personal_names = {
+		male = {
+			#Suebi kings in Hispania
+			"Andeka"
+			"Aiulf" #or "Ajulf"
+			"Arjamir"
+			"Eborik"
+			"Framta"
+			"Frumar"
+			"Heremigarius" #or "Harjamigarjas"
+			"Hermeric" #or "Hermenerik"
+			"Malarik"
+			"Maldras"
+			"Miro"
+			"Rechiar" #or "Rexjar"
+			"Rechila" #or "Rexwila"
+			"Rechimund" #or "Reximund"
+			"Remismund"
+			"Theudemir"
+			"Theudemund"
+			"Weremund"
+			"Xararik"
+		}
+	}
 }
