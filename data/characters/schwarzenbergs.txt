@@ -141,7 +141,7 @@ felix_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p
 }
 
 edmund_leopold_friedrich_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p. 391.
-	name = "Edmund Leopold Friedrich"
+	name = "Edmund Leopold" #"Edmund Leopold Friedrich"
 	dynasty = schwarzenberg
 	culture = austrian
 	religion = catholic
@@ -154,7 +154,7 @@ edmund_leopold_friedrich_zu_schwarzenberg = { #Source: "Encyclopædia Britannica
 }
 
 friedrich_johann_josef_coelestin_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p. 391.
-	name = "Friedrich Johann Josef Coelestin"
+	name = "Friedrich Johann" #"Friedrich Johann Josef Coelestin"
 	dynasty = schwarzenberg
 	culture = austrian
 	religion = catholic
