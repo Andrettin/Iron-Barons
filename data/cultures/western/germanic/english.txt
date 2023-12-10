@@ -14,6 +14,42 @@ english = {
 		democratic_republic = "Prime Minister"
 	}
 	
+	personal_names = {
+		male = {
+			"Albert"
+			"Anthony"
+			"Bernard"
+			"Charles"
+			"Edward"
+			"Francis"
+			"Frederick"
+			"George"
+			"Henry"
+			"John"
+			"Joseph"
+			"Lewis"
+			"Paul"
+			"Peter"
+			"Theodore"
+			"William"
+		}
+	}
+	
+	surnames = {
+		"Adams"
+		"Baker"
+		"Brown"
+		"Harris"
+		"Jackson"
+		"Johnson"
+		"Jones"
+		"Robinson"
+		"Shepherd"
+		"Smith"
+		"Taylor"
+		"Williams"
+	}
+	
 	history = {
 		1180 = {
 			#the English scholar Alexander Neckam (1157-1217) wrote about the uses of magnetism for ascertaining the north/south direction in 1180; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 164-165.

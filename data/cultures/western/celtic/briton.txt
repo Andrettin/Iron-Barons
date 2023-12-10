@@ -5,4 +5,18 @@ briton = {
 	ruler_title_names = {
 		theocracy = "Druid"
 	}
+	
+	personal_names = {
+		male = {
+			"Caratacos"
+			#"Cassivellaunus" #ancient Celt; Source: Bernhard Maier (trans.), "Das Sagenbuch der Walisischen Kelten", 1999, p. 137.
+			"Cassiwellaunos"
+			"Cunobelinos"
+		}
+		
+		female = {
+			"Boudica"
+			"Cartismandua"
+		}
+	}
 }

@@ -10,4 +10,11 @@ russian = {
 			}
 		}
 	}
+	
+	personal_names = {
+		male = {
+			#Novgorodian names
+			"Onfim"
+		}
+	}
 }
