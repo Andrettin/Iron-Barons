@@ -1,3 +1,5 @@
+min_log_level = warning
+
 green_text_color = { 0 159 3 }
 red_text_color = { 255 50 50 }
 
