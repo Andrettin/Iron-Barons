@@ -1,7 +1,7 @@
 warrior = {
 	name = "Warrior"
 	unit_class = warrior
-	icon = arquebusiers
+	icon = halberdiers
 	melee = 7
 	range = 1
 	defense = 6

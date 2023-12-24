@@ -1,7 +1,7 @@
 clubmen = {
 	name = "Clubmen"
 	unit_class = clubmen
-	icon = arquebusiers
+	icon = pikemen
 	melee = 2
 	range = 1
 	defense = 3

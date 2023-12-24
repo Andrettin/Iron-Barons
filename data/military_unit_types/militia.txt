@@ -1,7 +1,7 @@
 peasant_levies = {
 	name = "Peasant Levies"
 	unit_class = peasant_levies
-	icon = arquebusiers
+	icon = pikemen
 	melee = 3
 	range = 1
 	defense = 3
