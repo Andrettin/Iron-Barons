@@ -9,6 +9,22 @@ austrian = {
 		}
 	}
 	
+	personal_names = {
+		female = {
+			"Bertha" #Source: Sheridan Le Fanu, "Carmilla".
+			"Carmilla" #Mircalla's alias; Source: Sheridan Le Fanu, "Carmilla".
+			"Millarca" #Mircalla's alias; Source: Sheridan Le Fanu, "Carmilla".
+			"Mircalla" #Countess Mircalla von Karnstein; Source: Sheridan Le Fanu, "Carmilla".
+		}
+	}
+	
+	surnames = {
+		"Spielsberg" #Doctor Spielsberg; Source: Sheridan Le Fanu, "Carmilla".
+		"von Carlsfeld" #Count Carlsfeld; Source: Sheridan Le Fanu, "Carmilla".
+		"von Spielsdorf" #General Baron Spielsdorf; Source: Sheridan Le Fanu, "Carmilla".
+		"von Vordenburg" #Baron Vordenburg; Source: Sheridan Le Fanu, "Carmilla".
+	}
+	
 	military_unit_class_names = {
 		raider = {
 			"Bodrog" #river monitor; Source: Peter Schubert, "Krieg auf der Donau: Die Geschichte der k.u.k. Donauflotille", p. 34.
