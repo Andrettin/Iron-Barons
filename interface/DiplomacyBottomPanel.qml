@@ -44,6 +44,7 @@ Rectangle {
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Treaty
+			diplomatic_map_view.selected_diplomacy_state = -1
 		}
 	}
 	
@@ -211,18 +212,30 @@ Rectangle {
 		IconButton {
 			id: offer_peace_button
 			icon_identifier: "philosophy"
+			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Peace ? "white" : "gray"
 			tooltip: "Offer Peace"
 			
 			onReleased: {
+				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Peace) {
+					diplomatic_map_view.selected_diplomacy_state = -1
+				} else {
+					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.Peace
+				}
 			}
 		}
 		
 		IconButton {
 			id: declare_war_button
 			icon_identifier: "crossed_sabers"
+			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.War ? "white" : "gray"
 			tooltip: "Declare War"
 			
 			onReleased: {
+				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.War) {
+					diplomatic_map_view.selected_diplomacy_state = -1
+				} else {
+					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.War
+				}
 			}
 		}
 	}
@@ -238,27 +251,45 @@ Rectangle {
 		IconButton {
 			id: offer_pact_button
 			icon_identifier: "wall"
+			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.NonAggressionPact ? "white" : "gray"
 			tooltip: "Offer Non-Aggression Pact"
 			
 			onReleased: {
+				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.NonAggressionPact) {
+					diplomatic_map_view.selected_diplomacy_state = -1
+				} else {
+					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.NonAggressionPact
+				}
 			}
 		}
 		
 		IconButton {
 			id: offer_alliance_button
 			icon_identifier: "flag"
+			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Alliance ? "white" : "gray"
 			tooltip: "Offer Alliance"
 			
 			onReleased: {
+				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Alliance) {
+					diplomatic_map_view.selected_diplomacy_state = -1
+				} else {
+					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.Alliance
+				}
 			}
 		}
 		
 		IconButton {
 			id: join_empire_button
 			icon_identifier: "crown_imperial"
+			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Vassal ? "white" : "gray"
 			tooltip: "Invite to Join Empire"
 			
 			onReleased: {
+				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Vassal) {
+					diplomatic_map_view.selected_diplomacy_state = -1
+				} else {
+					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.Vassal
+				}
 			}
 		}
 	}
