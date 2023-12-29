@@ -45,6 +45,7 @@ Rectangle {
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Treaty
 			diplomatic_map_view.selected_diplomacy_state = -1
+			diplomatic_map_view.selected_consulate = null
 		}
 	}
 	
@@ -220,6 +221,7 @@ Rectangle {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
 					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.Peace
+					diplomatic_map_view.selected_consulate = null
 				}
 			}
 		}
@@ -235,6 +237,7 @@ Rectangle {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
 					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.War
+					diplomatic_map_view.selected_consulate = null
 				}
 			}
 		}
@@ -259,6 +262,7 @@ Rectangle {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
 					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.NonAggressionPact
+					diplomatic_map_view.selected_consulate = null
 				}
 			}
 		}
@@ -274,6 +278,7 @@ Rectangle {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
 					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.Alliance
+					diplomatic_map_view.selected_consulate = null
 				}
 			}
 		}
@@ -289,6 +294,7 @@ Rectangle {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
 					diplomatic_map_view.selected_diplomacy_state = DiplomaticView.DiplomacyState.Vassal
+					diplomatic_map_view.selected_consulate = null
 				}
 			}
 		}
@@ -305,18 +311,36 @@ Rectangle {
 		IconButton {
 			id: build_trade_consulate_button
 			icon_identifier: "wealth"
+			border_color: diplomatic_map_view.selected_consulate === consulate ? "white" : "gray"
 			tooltip: "Build a Trade Consulate"
 			
+			readonly property var consulate: metternich.get_consulate("trade_consulate")
+			
 			onReleased: {
+				if (diplomatic_map_view.selected_consulate === consulate) {
+					diplomatic_map_view.selected_consulate = null
+				} else {
+					diplomatic_map_view.selected_consulate = consulate
+					diplomatic_map_view.selected_diplomacy_state = -1
+				}
 			}
 		}
 		
 		IconButton {
 			id: build_embassy_button
 			icon_identifier: "treaty"
+			border_color: diplomatic_map_view.selected_consulate === consulate ? "white" : "gray"
 			tooltip: "Build an Embassy"
 			
+			readonly property var consulate: metternich.get_consulate("embassy")
+			
 			onReleased: {
+				if (diplomatic_map_view.selected_consulate === consulate) {
+					diplomatic_map_view.selected_consulate = null
+				} else {
+					diplomatic_map_view.selected_consulate = consulate
+					diplomatic_map_view.selected_diplomacy_state = -1
+				}
 			}
 		}
 	}
