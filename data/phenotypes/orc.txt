@@ -1,0 +1,3 @@
+orc = {
+	name = "Orc"
+}

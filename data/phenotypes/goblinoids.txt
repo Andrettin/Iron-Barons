@@ -1,0 +1,7 @@
+goblin = {
+	name = "Goblin"
+}
+
+hobgoblin = {
+	name = "Hobgoblin"
+}

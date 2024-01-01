@@ -1,0 +1,4 @@
+troll = {
+	name = "Troll"
+	default_phenotype = troll
+}

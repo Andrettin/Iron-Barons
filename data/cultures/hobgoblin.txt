@@ -1,0 +1,5 @@
+hobgoblin = {
+	name = "Hobgoblin"
+	default_phenotype = hobgoblin
+	group = goblinoid
+}
