@@ -104,6 +104,7 @@
 /graphics/icons/units/troops/cuirassiers_ranged.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/halberdiers.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/halberdiers_extra_1.png (by Jinn) (licensed under the CC0)
+/graphics/icons/units/troops/knights.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/musketeers.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/pikemen.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/rifle_infantry_dark.png (by Jinn) (licensed under the CC0)

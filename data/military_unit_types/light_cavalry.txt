@@ -1,7 +1,7 @@
 squires = {
 	name = "Squires"
 	unit_class = squires
-	icon = cuirassiers
+	icon = knights
 	melee = 4
 	range = 1
 	defense = 4
