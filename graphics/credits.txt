@@ -102,6 +102,7 @@
 /graphics/icons/units/troops/crossbowmen.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/cuirassiers.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/cuirassiers_ranged.png (by Jinn) (licensed under the CC0)
+/graphics/icons/units/troops/grenadiers.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/halberdiers.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/halberdiers_extra_1.png (by Jinn) (licensed under the CC0)
 /graphics/icons/units/troops/hussars.png (by Jinn) (licensed under the CC0)
