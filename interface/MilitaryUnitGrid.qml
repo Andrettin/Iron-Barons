@@ -25,7 +25,7 @@ Grid {
 			}
 			
 			MouseArea {
-				anchors.fill: parent
+				anchors.fill: military_unit_icon
 				hoverEnabled: true
 				
 				onEntered: {

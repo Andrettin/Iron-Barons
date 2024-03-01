@@ -280,7 +280,7 @@ Item {
 			saved_status_text = text
 		}
 		onExited: {
-			//only clear the status text on exist if it was actually still the text set by this
+			//only clear the status text on exit if it was actually still the text set by this
 			if (status_text === saved_status_text) {
 				status_text = ""
 				saved_status_text = ""
