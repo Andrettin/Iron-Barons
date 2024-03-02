@@ -21,4 +21,10 @@ prussia = {
 		rhineland
 		westphalia
 	}
+	
+	history = {
+		1820 = {
+			wealth = 4000
+		}
+	}
 }
