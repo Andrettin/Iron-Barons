@@ -21,7 +21,7 @@ Rectangle {
 		anchors.left: parent.left
 		anchors.top: parent.top
 		anchors.topMargin: 96 * scale_factor
-		name: "Land Transport Capacity"
+		name: "Available Land Transport Capacity"
 		icon_identifier: "road"
 		count: country_game_data.land_transport_capacity //FIXME: should be the available capacity, not the total capacity
 	}
@@ -30,8 +30,8 @@ Rectangle {
 		id: sea_transport_capacity_counter
 		anchors.left: parent.left
 		anchors.top: land_transport_capacity_counter.bottom
-		anchors.topMargin: 8 * scale_factor
-		name: "Sea Transport Capacity"
+		anchors.topMargin: 16 * scale_factor
+		name: "Available Sea Transport Capacity"
 		icon_identifier: "anchor"
 		count: country_game_data.sea_transport_capacity //FIXME: should be the available capacity, not the total capacity
 	}
