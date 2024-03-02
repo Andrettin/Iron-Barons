@@ -1,10 +1,10 @@
-copenhagen_spearmen = {
+dublin_spearmen = {
 	type = spearmen
 	quantity = 2
 	
 	history = {
 		1492 = {
-			province = zealand
+			province = leinster
 		}
 		
 		1820 = {
@@ -13,13 +13,13 @@ copenhagen_spearmen = {
 	}
 }
 
-copenhagen_arquebusiers = {
+dublin_arquebusiers = {
 	type = arquebusiers
 	quantity = 2
 	
 	history = {
 		1492 = {
-			province = zealand
+			province = leinster
 		}
 		
 		1820 = {
@@ -28,13 +28,13 @@ copenhagen_arquebusiers = {
 	}
 }
 
-copenhagen_crossbowmen = {
+dublin_crossbowmen = {
 	type = crossbowmen
 	quantity = 2
 	
 	history = {
 		1492 = {
-			province = zealand
+			province = leinster
 		}
 		
 		1820 = {
@@ -43,13 +43,13 @@ copenhagen_crossbowmen = {
 	}
 }
 
-jutland_crossbowmen = {
+the_pale_crossbowmen = {
 	type = crossbowmen
 	quantity = 2
 	
 	history = {
 		1492 = {
-			province = jutland
+			province = leinster
 		}
 		
 		1820 = {
@@ -58,13 +58,13 @@ jutland_crossbowmen = {
 	}
 }
 
-schleswig_crossbowmen = {
+connaught_crossbowmen = {
 	type = crossbowmen
 	quantity = 2
 	
 	history = {
 		1492 = {
-			province = schleswig
+			province = connaught
 		}
 		
 		1820 = {
@@ -73,13 +73,13 @@ schleswig_crossbowmen = {
 	}
 }
 
-holstein_crossbowmen = {
+munster_crossbowmen = {
 	type = crossbowmen
 	quantity = 2
 	
 	history = {
 		1492 = {
-			province = holstein
+			province = munster
 		}
 		
 		1820 = {
@@ -88,24 +88,17 @@ holstein_crossbowmen = {
 	}
 }
 
-copenhagen_regulars = {
-	type = regulars
+ulster_crossbowmen = {
+	type = crossbowmen
 	quantity = 2
 	
 	history = {
-		1820 = {
-			province = zealand
+		1492 = {
+			province = ulster
 		}
-	}
-}
-
-copenhagen_artillery = {
-	type = artillery
-	quantity = 1
-	
-	history = {
+		
 		1820 = {
-			province = zealand
+			province = none
 		}
 	}
 }
