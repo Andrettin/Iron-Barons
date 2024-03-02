@@ -1,0 +1,65 @@
+geneva_regulars = {
+	type = regulars
+	quantity = 2
+	
+	history = {
+		1820 = {
+			province = geneva
+		}
+	}
+}
+
+bern_regulars = {
+	type = regulars
+	quantity = 2
+	
+	history = {
+		1820 = {
+			province = bern
+		}
+	}
+}
+
+zurich_regulars = {
+	type = regulars
+	quantity = 2
+	
+	history = {
+		1820 = {
+			province = zurich
+		}
+	}
+}
+
+geneva_artillery = {
+	type = artillery
+	quantity = 1
+	
+	history = {
+		1820 = {
+			province = geneva
+		}
+	}
+}
+
+bern_artillery = {
+	type = artillery
+	quantity = 1
+	
+	history = {
+		1820 = {
+			province = bern
+		}
+	}
+}
+
+zurich_artillery = {
+	type = artillery
+	quantity = 1
+	
+	history = {
+		1820 = {
+			province = zurich
+		}
+	}
+}

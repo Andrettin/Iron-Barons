@@ -1,0 +1,32 @@
+portuguese_carrack_1 = {
+	type = sloop
+	country = portugal
+	
+	history = {
+		1492 = {
+			province = estremadura
+		}
+	}
+}
+
+portuguese_carrack_2 = {
+	type = sloop
+	country = portugal
+	
+	history = {
+		1492 = {
+			province = estremadura
+		}
+	}
+}
+
+portuguese_carrack_3 = {
+	type = sloop
+	country = portugal
+	
+	history = {
+		1492 = {
+			province = estremadura
+		}
+	}
+}

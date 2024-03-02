@@ -1,0 +1,32 @@
+holland_regulars = {
+	type = regulars
+	quantity = 2
+	
+	history = {
+		1820 = {
+			province = holland
+		}
+	}
+}
+
+holland_artillery = {
+	type = artillery
+	quantity = 1
+	
+	history = {
+		1820 = {
+			province = holland
+		}
+	}
+}
+
+brussels_regulars = {
+	type = regulars
+	quantity = 1
+	
+	history = {
+		1820 = {
+			province = brabant
+		}
+	}
+}
