@@ -30,4 +30,10 @@ france = {
 		lower_languedoc
 		provence
 	}
+	
+	history = {
+		1820 = {
+			wealth = 5000
+		}
+	}
 }

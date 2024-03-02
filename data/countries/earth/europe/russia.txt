@@ -15,4 +15,10 @@ russia = {
 	eras = {
 		industrial_era
 	}
+	
+	history = {
+		1820 = {
+			wealth = 1500
+		}
+	}
 }

@@ -30,4 +30,10 @@ great_britain = {
 		ayrshire
 		highlands
 	}
+	
+	history = {
+		1820 = {
+			wealth = 10000
+		}
+	}
 }

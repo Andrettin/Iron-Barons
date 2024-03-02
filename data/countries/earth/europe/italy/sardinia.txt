@@ -17,4 +17,10 @@ sardinia = {
 		genoa
 		sardinia
 	}
+	
+	history = {
+		1820 = {
+			wealth = 1500
+		}
+	}
 }
