@@ -27,6 +27,10 @@ grodno = {
 			owner = poland #part of the Kingdom of Poland c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 		
+		1795 = {
+			owner = russia #became part of Russia in 1795; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 138-139.
+		}
+		
 		germanys_future = {
 			1918 = {
 				owner = germany #Source: "The British Dominions Year Book 1918", 1918, Map 11.
