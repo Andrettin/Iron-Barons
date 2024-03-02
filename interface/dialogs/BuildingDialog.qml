@@ -98,7 +98,7 @@ DialogBase {
 					}
 					
 					MouseArea {
-						anchors.fill: parent
+						anchors.fill: commodity_icon
 						hoverEnabled: true
 						
 						onEntered: {
