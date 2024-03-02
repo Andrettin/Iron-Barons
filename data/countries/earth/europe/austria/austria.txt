@@ -44,6 +44,19 @@ austria = {
 	
 		1820 = {
 			wealth = 5000
+			
+			commodities = {
+				horses = 4
+				canned_food = 20
+				fabric = 3
+				lumber = 15
+				paper = 8
+				steel = 10
+				clothing = 3
+				furniture = 3
+				tools = 3
+				armament = 2
+			}
 		}
 		
 		1850 = {
