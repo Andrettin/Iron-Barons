@@ -1,3 +1,19 @@
+french_carracks = {
+	type = carrack
+	country = france
+	quantity = 3
+	
+	history = {
+		1492 = {
+			active = true
+		}
+		
+		1820 = {
+			active = false
+		}
+	}
+}
+
 french_indiamen = {
 	type = indiaman
 	country = france
