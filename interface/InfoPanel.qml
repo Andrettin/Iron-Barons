@@ -28,6 +28,9 @@ Rectangle {
 		icon_identifier: "railroad"
 		
 		onReleased: {
+			menu_stack.push("TransportView.qml", {
+				country: metternich.game.player_country
+			})
 		}
 		
 		onHoveredChanged: {
