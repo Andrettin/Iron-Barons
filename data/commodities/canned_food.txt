@@ -1,0 +1,5 @@
+canned_food = {
+	name = "Canned_food"
+	icon = canned_food
+	base_price = 100
+}
