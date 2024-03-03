@@ -77,7 +77,9 @@ Item {
 		anchors.top: parent.top
 		anchors.topMargin: visible && is_on_water ? (Math.floor(tile_size / 2) - Math.floor(height / 2)) : (8 * scale_factor)
 		source: "image://icon/" + (visible && is_on_water ? (
-			province.game_data.military_unit_category_counts.length > 0 && province.game_data.get_country_military_unit_category_counts(metternich.game.player_country).length > 0 ? province.game_data.get_country_military_unit_icon(metternich.game.player_country).identifier : province.game_data.get_military_unit_icon(metternich.game.player_country).identifier
+			(province.game_data.military_unit_category_counts.length > 0 && province.game_data.get_country_military_unit_category_counts(metternich.game.player_country).length > 0) ?
+				province.game_data.get_country_military_unit_icon(metternich.game.player_country).identifier
+				: province.game_data.get_military_unit_icon().identifier
 		) : "embassy") + (selected ? "/selected" : "")
 		visible: province !== null && is_center_tile && province.game_data.military_unit_category_counts.length > 0
 		
