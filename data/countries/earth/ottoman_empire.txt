@@ -23,6 +23,16 @@ ottoman_empire = {
 	
 		1820 = {
 			wealth = 1500
+			
+			commodities = {
+				horses = 4
+				canned_food = 20
+				fabric = 3
+				lumber = 15
+				paper = 4
+				steel = 4
+				armament = 4
+			}
 		}
 	}
 }

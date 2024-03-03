@@ -19,6 +19,19 @@ russia = {
 	history = {
 		1820 = {
 			wealth = 1500
+			
+			commodities = {
+				horses = 5
+				canned_food = 20
+				fabric = 4
+				lumber = 10
+				paper = 2
+				steel = 5
+				clothing = 1
+				furniture = 1
+				tools = 1
+				armament = 5
+			}
 		}
 	}
 }
