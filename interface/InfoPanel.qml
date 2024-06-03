@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import "./dialogs"
 
 Rectangle {
 	id: infopanel
@@ -468,6 +469,28 @@ Rectangle {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "View Settlement Population"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: garrison_button
+		anchors.right: end_turn_button_internal.left
+		anchors.rightMargin: 8 * scale_factor
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 4 * scale_factor
+		icon_identifier: "crossed_sabers"
+		visible: selected_garrison
+		
+		onReleased: {
+			garrison_dialog.open()
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Garrison"
 			} else {
 				status_text = ""
 			}
