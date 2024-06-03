@@ -165,6 +165,10 @@ Item {
 		id: modifier_dialog
 	}
 	
+	GarrisonDialog {
+		id: garrison_dialog
+	}
+	
 	Keys.onPressed: function(event) {
 		switch (event.key) {
 			case Qt.Key_E:
