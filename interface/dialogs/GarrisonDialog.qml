@@ -59,16 +59,13 @@ DialogBase {
 				
 				readonly property var military_unit: model.modelData
 				readonly property var military_unit_type: military_unit.type
-				readonly property var military_unit_category: military_unit_type.unit_class.category
-				readonly property int military_unit_count: 1
-				readonly property int country_military_unit_count: selected_province.game_data.get_country_military_unit_category_count(military_unit_category, metternich.game.player_country)
 				
 				Image {
 					id: military_unit_icon
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: parent.left
 					anchors.leftMargin: 8 * scale_factor + (64 * scale_factor - military_unit_icon.width) / 2
-					source: "image://icon/" + selected_province.game_data.get_military_unit_category_icon(military_unit_category).identifier
+					source: "image://icon/" + military_unit.icon.identifier
 				}
 				
 				MouseArea {
@@ -76,7 +73,7 @@ DialogBase {
 					hoverEnabled: true
 					
 					onEntered: {
-						status_text = selected_province.game_data.get_military_unit_category_name(military_unit_category)
+						status_text = military_unit_type.name
 					}
 					
 					onExited: {
