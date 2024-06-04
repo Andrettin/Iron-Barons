@@ -61,7 +61,7 @@ DialogBase {
 			anchors.left: parent.left
 			anchors.right: parent.right
 			height: rows * 72 * scale_factor
-			rows: Math.max(6, Math.ceil(military_units_model.length / 2))
+			rows: Math.min(Math.max(6, Math.ceil(military_units_model.length / 2)), military_units_model.length)
 			columns: 2
 			flow: Grid.TopToBottom
 			
