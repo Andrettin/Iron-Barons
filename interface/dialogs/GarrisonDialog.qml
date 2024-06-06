@@ -5,8 +5,8 @@ import ".."
 DialogBase {
 	id: garrison_dialog
 	title: "Garrison"
-	width: 488 * scale_factor
-	height: 488 * scale_factor
+	width: 492 * scale_factor
+	height: 492 * scale_factor
 	
 	readonly property var military_units_model: (selected_province !== null && selected_garrison) ? selected_province.game_data.military_units : []
 	
