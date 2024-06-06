@@ -3,6 +3,7 @@ ouro_preto = {
 	world = earth
 	geocoordinate = { -43.503611111111 -20.385277777778 }
 	type = settlement
+	resource = coffee
 	
 	history = {
 		1839 = {

@@ -3,6 +3,7 @@ oslo = {
 	world = earth
 	geocoordinate = { 10.74997920600 59.91669028640 } #from Natural Earth
 	type = settlement
+	resource = fish
 	
 	history = {
 		1360 = {

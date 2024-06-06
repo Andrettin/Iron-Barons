@@ -3,6 +3,7 @@ boston = {
 	world = earth
 	geocoordinate = { -71.07001367360 42.32996014310 } #from Natural Earth
 	type = settlement
+	resource = grain
 	
 	history = {
 		1638 = {

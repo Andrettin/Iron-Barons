@@ -3,4 +3,5 @@ port_au_prince = {
 	world = earth
 	geocoordinate = { -72.33603458830 18.54102459610 } #from Natural Earth
 	type = settlement
+	resource = tobacco
 }
