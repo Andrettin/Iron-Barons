@@ -1,4 +1,10 @@
 gnomish = {
 	name = "Gnomish"
 	default_phenotype = gnomish
+	
+	personal_names = {
+		male = {
+			"Rubezahl" #could also be a giant instead
+		}
+	}
 }

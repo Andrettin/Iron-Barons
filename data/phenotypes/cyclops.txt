@@ -1,0 +1,3 @@
+cyclops = {
+	name = "Cyclops"
+}
