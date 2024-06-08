@@ -5,7 +5,7 @@ bavarians = {
 	default_religion = pagan
 	default_tier = duchy
 	default_government_type = despotism
-	default_capital = regensburg
+	default_capital = munich #Regensburg
 	eras = {
 		medieval_era
 	}
