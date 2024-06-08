@@ -2,7 +2,7 @@ sopron = {
 	name = "Sopron"
 	world = earth
 	geocoordinate = { 16.583333333333 47.683333333333 }
-	type = settlement
+	type = resource
 	resource = fruit
 	cultural_group_names = {
 		german = "Odenburg" #"Ödenburg"; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
@@ -10,7 +10,7 @@ sopron = {
 	
 	history = {
 		919 = {
-			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			developed = true #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 	}
 }
