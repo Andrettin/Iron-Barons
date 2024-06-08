@@ -2,6 +2,6 @@ nowy_sacz = {
 	name = "Nowy Sacz"
 	world = earth
 	geocoordinate = { 20.697222222222 49.623888888889 }
-	type = settlement
+	type = resource
 	resource = grain
 }

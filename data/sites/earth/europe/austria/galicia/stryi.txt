@@ -2,6 +2,6 @@ stryi = {
 	name = "Stryi"
 	world = earth
 	geocoordinate = { 23.85 49.25 }
-	type = settlement
+	type = resource
 	resource = coal
 }

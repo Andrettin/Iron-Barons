@@ -4,7 +4,7 @@ ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 6, p. 366.
 	advisor_type = statesman
 	culture = austrian
 	religion = catholic
-	home_settlement = graz #Cilli
+	home_site = cilli
 	gender = male
 	#son of Frederick II, count of Cilli, and Elizabeth Frangepan
 	birth_date = 1406
@@ -118,7 +118,7 @@ rheticus = {
 	advisor_type = naval_reformer
 	culture = austrian
 	religion = catholic
-	home_settlement = kosice
+	home_site = kosice
 	gender = male
 	birth_date = 1514
 	death_date = 1574

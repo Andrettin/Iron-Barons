@@ -2,7 +2,7 @@ oradea = {
 	name = "Oradea"
 	world = earth
 	geocoordinate = { 21.91999507520 47.04998211580 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = sheep
 	province = pest
 }

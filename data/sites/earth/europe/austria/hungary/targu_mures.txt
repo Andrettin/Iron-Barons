@@ -2,7 +2,7 @@ targu_mures = {
 	name = "Targu Mures"
 	world = earth
 	geocoordinate = { 24.55781856150 46.55820334790 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain
 	province = transylvania
 }
