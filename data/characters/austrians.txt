@@ -4,7 +4,7 @@ ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 6, p. 366.
 	advisor_type = statesman
 	culture = austrian
 	religion = catholic
-	home_settlement = cilli
+	home_settlement = graz #Cilli
 	gender = male
 	#son of Frederick II, count of Cilli, and Elizabeth Frangepan
 	birth_date = 1406
