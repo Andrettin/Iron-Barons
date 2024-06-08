@@ -3,5 +3,6 @@ cape_town = {
 	world = earth
 	geocoordinate = { 18.43498815780 -33.92001096720 } #from Natural Earth
 	type = settlement
+	resource = fruit
 	province = western_cape
 }
