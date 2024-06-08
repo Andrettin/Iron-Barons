@@ -2,7 +2,7 @@ freiberg = {
 	name = "Freiberg"
 	world = earth
 	geocoordinate = { 13.34277777777 50.911944444444 }
-	type = settlement
+	type = resource
 	resource = silver
 	province = upper_saxony
 	
@@ -11,8 +11,6 @@ freiberg = {
 			population_groups = {
 				czech = 528 #Source: Henry Kamen, "The Iron Century", p. 425.
 			}
-			
-			settlement_type = village
 		}
 	}
 }

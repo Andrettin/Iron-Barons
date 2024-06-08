@@ -2,14 +2,14 @@ vassouras = {
 	name = "Vassouras"
 	world = earth
 	geocoordinate = { -43.662777777778 -22.403888888889 }
-	type = settlement
+	type = resource
 	resource = coffee
 	province = rio_de_janeiro
 	#max_tier = barony #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
 	
 	history = {
 		1871.5.17 = {
-			settlement_type = village #created as barony on 1871.5.17; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
+			developed = true #created as barony on 1871.5.17; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
 		}
 	}
 }

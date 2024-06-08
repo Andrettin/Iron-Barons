@@ -3,7 +3,7 @@ friedrich_von_wittelsbach = { #Source: "Gothaischer Hofkalender zum Nutzen und V
 	dynasty = wittelsbach
 	culture = german #Rhenish
 	religion = catholic
-	home_settlement = kaiserslautern
+	home_site = kaiserslautern
 	gender = male
 	start_date = 1752.5.10 #birth of child
 }

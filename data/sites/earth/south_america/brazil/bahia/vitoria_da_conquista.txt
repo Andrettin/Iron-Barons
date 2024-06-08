@@ -2,7 +2,7 @@ vitoria_da_conquista = {
 	name = "Vitoria da Conquista" #"Vitória da Conquista"
 	world = earth
 	geocoordinate = { -40.83999841470 -14.85001218790 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = coffee
 	province = bahia
 }

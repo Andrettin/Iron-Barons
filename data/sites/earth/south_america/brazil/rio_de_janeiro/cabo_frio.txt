@@ -2,14 +2,14 @@ cabo_frio = {
 	name = "Cabo Frio"
 	world = earth
 	geocoordinate = { -42.03997684890 -22.88998655310 }
-	type = settlement
+	type = resource
 	resource = salt #also brazilwood
 	province = rio_de_janeiro
 	#max_tier = viscounty #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 88-89.
 	
 	history = {
 		1874.5.2 = {
-			settlement_type = village #created as barony on 1874.5.2; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 278.
+			developed = true #created as barony on 1874.5.2; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 278.
 		}
 	}
 }

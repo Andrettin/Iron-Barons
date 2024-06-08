@@ -3,7 +3,7 @@ ernst_von_kaunitz = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnüge
 	dynasty = kaunitz
 	culture = german #Saxon/Westphalian
 	religion = catholic
-	home_settlement = minden #Rietberg
+	home_site = minden #Rietberg
 	gender = male
 	start_date = 1775.9.27 #daughter's marriage was on 1795.9.27, set to 20 years before
 	
@@ -15,7 +15,7 @@ marie_eleonore_von_kaunitz = { #Source: "Gothaischer Hofkalender zum Nutzen und 
 	dynasty = kaunitz
 	culture = german #Saxon/Westphalian
 	religion = catholic
-	home_settlement = minden #correct?
+	home_site = minden #Rietberg #correct?
 	gender = female
 	father = ernst_von_kaunitz
 	start_date = 1795.9.27 #married

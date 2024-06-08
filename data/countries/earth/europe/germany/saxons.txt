@@ -5,7 +5,7 @@ saxons = {
 	default_religion = pagan
 	default_tier = duchy
 	default_government_type = despotism
-	default_capital = brunswick
+	default_capital = hanover #Brunswick
 	eras = {
 		medieval_era
 	}

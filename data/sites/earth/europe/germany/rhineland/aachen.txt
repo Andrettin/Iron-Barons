@@ -2,7 +2,7 @@ aachen = {
 	name = "Aachen"
 	world = earth
 	geocoordinate = { 6.083788 50.776207 }
-	type = settlement
+	type = resource
 	resource = coal
 	province = rhineland
 	cultural_names = {
@@ -11,7 +11,7 @@ aachen = {
 	
 	history = {
 		919 = {
-			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			developed = true #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1815 = {
