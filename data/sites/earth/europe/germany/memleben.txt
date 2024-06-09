@@ -1,7 +1,7 @@
 memleben = {
 	name = "Memleben"
 	world = earth
-	geocoordinate = { 11.490111 51.265164 }
+	#geocoordinate = { 11.490111 51.265164 }
 	
 	history = {
 		919 = {

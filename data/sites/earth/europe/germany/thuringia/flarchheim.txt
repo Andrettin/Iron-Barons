@@ -1,7 +1,7 @@
 flarchheim = {
 	name = "Flarchheim"
 	world = earth
-	geocoordinate = { 10.478216 51.126776 }
+	#geocoordinate = { 10.478216 51.126776 }
 	
 	history = {
 		919 = {

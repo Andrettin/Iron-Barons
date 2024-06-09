@@ -1,7 +1,7 @@
 bannockburn = {
 	name = "Bannockburn"
 	world = earth
-	geocoordinate = { -3.91 56.09 }
+	#geocoordinate = { -3.91 56.09 }
 	
 	history = {
 		1360 = {

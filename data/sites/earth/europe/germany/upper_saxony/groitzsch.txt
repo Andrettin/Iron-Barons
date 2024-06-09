@@ -1,7 +1,7 @@
 groitzsch = {
 	name = "Groitzsch"
 	world = earth
-	geocoordinate = { 12.280555555556 51.155555555556 }
+	#geocoordinate = { 12.280555555556 51.155555555556 }
 	
 	history = {
 		919 = {

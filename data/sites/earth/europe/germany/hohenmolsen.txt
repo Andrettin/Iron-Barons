@@ -1,7 +1,7 @@
 hohenmolsen = {
 	name = "Hohenmolsen" #"Hohenmölsen"
 	world = earth
-	geocoordinate = { 12.098055555556 51.156388888889 }
+	#geocoordinate = { 12.098055555556 51.156388888889 }
 	
 	history = {
 		919 = {

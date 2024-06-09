@@ -1,7 +1,7 @@
 saufeld = {
 	name = "Saufeld"
 	world = earth
-	geocoordinate = { 11.276 50.8446 } #Thangelstedt
+	#geocoordinate = { 11.276 50.8446 } #Thangelstedt
 	
 	history = {
 		919 = {

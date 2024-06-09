@@ -1,7 +1,7 @@
 wartha = {
 	name = "Wartha" #also known as Warthe
 	world = earth
-	geocoordinate = { 16.733333333333 50.516666666667 }
+	#geocoordinate = { 16.733333333333 50.516666666667 }
 	cultural_names = {
 		polish = "Bardo"
 	}

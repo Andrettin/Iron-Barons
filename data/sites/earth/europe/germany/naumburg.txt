@@ -1,7 +1,7 @@
 naumburg = {
 	name = "Naumburg"
 	world = earth
-	geocoordinate = { 11.809819 51.152095 }
+	#geocoordinate = { 11.809819 51.152095 }
 	
 	history = {
 		919 = {

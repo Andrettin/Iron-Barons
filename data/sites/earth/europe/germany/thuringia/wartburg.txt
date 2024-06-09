@@ -1,7 +1,7 @@
 wartburg = {
 	name = "Wartburg"
 	world = earth
-	geocoordinate = { 10.30638888888889 50.96611111111111 }
+	#geocoordinate = { 10.30638888888889 50.96611111111111 }
 	
 	history = {
 		919 = {

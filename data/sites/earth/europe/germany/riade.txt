@@ -1,7 +1,7 @@
 riade = {
 	name = "Riade"
 	world = earth
-	geocoordinate = { 12.0022 51.4228 } #Radewell
+	#geocoordinate = { 12.0022 51.4228 } #Radewell
 	
 	history = {
 		919 = {

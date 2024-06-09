@@ -1,7 +1,7 @@
 gerstungen = {
 	name = "Gerstungen"
 	world = earth
-	geocoordinate = { 10.059722222222 50.9625 }
+	#geocoordinate = { 10.059722222222 50.9625 }
 	
 	history = {
 		919 = {

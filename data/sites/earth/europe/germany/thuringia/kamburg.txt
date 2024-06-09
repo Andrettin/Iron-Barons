@@ -1,7 +1,7 @@
 kamburg = {
 	name = "Kamburg" #also known as Camburg
 	world = earth
-	geocoordinate = { 11.7075 51.053888888889 }
+	#geocoordinate = { 11.7075 51.053888888889 }
 	
 	history = {
 		919 = {

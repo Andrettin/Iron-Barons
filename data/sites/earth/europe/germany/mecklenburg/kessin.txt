@@ -1,7 +1,7 @@
 kessin = {
 	name = "Kessin"
 	world = earth
-	geocoordinate = { 12.183333333333 54.066666666667 }
+	#geocoordinate = { 12.183333333333 54.066666666667 }
 	
 	history = {
 		919 = {

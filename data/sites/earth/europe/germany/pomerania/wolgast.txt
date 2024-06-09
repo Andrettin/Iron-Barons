@@ -1,7 +1,7 @@
 wolgast = {
 	name = "Wolgast"
 	world = earth
-	geocoordinate = { 13.766666666667 54.05 }
+	#geocoordinate = { 13.766666666667 54.05 }
 	
 	history = {
 		919 = {

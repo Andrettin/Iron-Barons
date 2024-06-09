@@ -1,7 +1,7 @@
 dohna = {
 	name = "Dohna"
 	world = earth
-	geocoordinate = { 13.8575 50.954722222222 }
+	#geocoordinate = { 13.8575 50.954722222222 }
 	
 	history = {
 		919 = {

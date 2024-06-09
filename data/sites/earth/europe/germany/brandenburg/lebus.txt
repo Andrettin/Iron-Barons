@@ -1,7 +1,7 @@
 lebus = {
 	name = "Lebus"
 	world = earth
-	geocoordinate = { 14.533055555556 52.416666666667 }
+	#geocoordinate = { 14.533055555556 52.416666666667 }
 	
 	history = {
 		919 = {

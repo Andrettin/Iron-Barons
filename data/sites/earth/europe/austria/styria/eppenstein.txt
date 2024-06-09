@@ -1,7 +1,7 @@
 eppenstein = {
 	name = "Eppenstein"
 	world = earth
-	geocoordinate = { 14.739628 47.13008 }
+	#geocoordinate = { 14.739628 47.13008 }
 	
 	history = {
 		919 = {
