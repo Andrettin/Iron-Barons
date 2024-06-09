@@ -6,7 +6,7 @@ ostrogothia = {
 	default_religion = catholic #Arianism
 	default_tier = kingdom
 	default_government_type = monarchy
-	default_capital = ravenna
+	default_capital = bologna #Ravenna
 	eras = {
 		medieval_era
 	}

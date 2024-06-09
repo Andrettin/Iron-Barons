@@ -2,22 +2,21 @@ bergamo = {
 	name = "Bergamo"
 	world = earth
 	geocoordinate = { 9.66999344752 45.70040041000 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = cattle
 	province = lombardy
 	
 	history = {
 		395 = {
 			buildings += cathedral #Bergamo was the seat of a bishopric in 395; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 42-43.
-			settlement_type = city
 		}
 		
 		919 = {
-			#settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1815 = {
-			settlement_type = city #important settlement in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+			#important settlement in the 1815-1866 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 		}
 	}
 }

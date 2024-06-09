@@ -2,6 +2,6 @@ blois = {
 	name = "Blois"
 	world = earth
 	geocoordinate = { 1.3272222222222 47.593055555556 }
-	type = settlement
+	type = resource
 	resource = grain
 }

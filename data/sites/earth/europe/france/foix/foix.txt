@@ -2,6 +2,6 @@ foix = {
 	name = "Foix"
 	world = earth
 	geocoordinate = { 1.6069444444444 42.965277777778 }
-	type = settlement
+	type = resource
 	resource = grain
 }

@@ -2,7 +2,7 @@ viterbo = {
 	name = "Viterbo"
 	world = earth
 	geocoordinate = { 12.104166666667 42.418611111111 }
-	type = settlement
+	type = resource
 	resource = fruit
 	province = latium
 }

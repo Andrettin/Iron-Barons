@@ -2,6 +2,6 @@ chartres = {
 	name = "Chartres"
 	world = earth
 	geocoordinate = { 1.4883333333333 48.446666666667 }
-	type = settlement
+	type = resource
 	resource = grain
 }

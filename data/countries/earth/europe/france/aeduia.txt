@@ -5,7 +5,7 @@ aeduia = {
 	default_religion = pagan
 	default_tier = duchy
 	default_government_type = despotism
-	default_capital = macon
+	default_capital = dijon #Macon
 	short_names = {
 		tribe = "Aedui"
 	}

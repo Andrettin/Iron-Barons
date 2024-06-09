@@ -2,6 +2,6 @@ lons_le_saunier = {
 	name = "Lons-le-Saunier"
 	world = earth
 	geocoordinate = { 5.5538888888889 46.674444444444 }
-	type = settlement
+	type = resource
 	resource = grain
 }

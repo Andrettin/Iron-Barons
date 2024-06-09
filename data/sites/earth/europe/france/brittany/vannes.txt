@@ -2,6 +2,6 @@ vannes = {
 	name = "Vannes"
 	world = earth
 	geocoordinate = { -2.7616666666667 47.655 }
-	type = settlement
+	type = resource
 	resource = fish
 }

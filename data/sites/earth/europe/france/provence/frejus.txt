@@ -2,6 +2,6 @@ frejus = {
 	name = "Frejus" #"Fréjus"
 	world = earth
 	geocoordinate = { 6.7355555555556 43.433055555556 }
-	type = settlement
+	type = resource
 	resource = silk
 }
