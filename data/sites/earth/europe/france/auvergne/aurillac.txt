@@ -2,6 +2,6 @@ aurillac = {
 	name = "Aurillac"
 	world = earth
 	geocoordinate = { 2.4397222222222 44.925277777778 }
-	type = settlement
+	type = resource
 	resource = cattle
 }

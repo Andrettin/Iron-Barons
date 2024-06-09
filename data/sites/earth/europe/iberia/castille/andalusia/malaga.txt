@@ -2,7 +2,7 @@ malaga = {
 	name = "Malaga" #"Málaga"
 	world = earth
 	geocoordinate = { -4.41999922832 36.72040590320 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = coal
 	province = granada
 	cultural_names = {
@@ -11,7 +11,7 @@ malaga = {
 	
 	history = {
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			developed = true #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }

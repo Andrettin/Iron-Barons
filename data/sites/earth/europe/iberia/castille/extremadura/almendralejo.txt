@@ -2,7 +2,7 @@ almendralejo = {
 	name = "Almendralejo"
 	world = earth
 	geocoordinate = { -6.409166666666667 38.683055555555555 }
-	type = settlement
+	type = resource
 	resource = sheep
 	province = extremadura
 }
