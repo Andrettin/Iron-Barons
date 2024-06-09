@@ -5,6 +5,12 @@ pilsen = {
 	cultural_names = {
 		czech = "Plzen"
 	}
+	resource_counts = {
+		horses = 1
+		timber = 8
+		iron_ore = 1
+		coal = 1
+	}
 	regions = {
 		bohemia
 	}

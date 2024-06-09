@@ -2,6 +2,10 @@ carinthia = {
 	name = "Carinthia"
 	color = { 143 128 32 }
 	default_provincial_capital = klagenfurt
+	resource_counts = {
+		cattle = 2
+		sheep = 1
+	}
 	regions = {
 		austria
 		imperial_austria_1806
