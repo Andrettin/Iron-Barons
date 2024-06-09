@@ -5,12 +5,6 @@ budweis = {
 	cultural_names = {
 		czech = "Budejovice" #Budějovice
 	}
-	resource_counts = {
-		grain = 2
-		fruit = 3
-		cattle = 2
-		sheep = 1
-	}
 	regions = {
 		bohemia
 	}

@@ -2,12 +2,6 @@ bohemia = {
 	name = "Bohemia"
 	color = { 113 224 65 }
 	default_provincial_capital = prague
-	resource_counts = {
-		grain = 2
-		fruit = 2
-		cattle = 2
-		coal = 1
-	}
 	regions = {
 		bohemia
 	}
