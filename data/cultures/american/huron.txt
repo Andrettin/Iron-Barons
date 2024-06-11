@@ -1,4 +1,5 @@
 huron = {
 	name = "Huron"
 	group = iroquoian
+	color = { 178 139 60 }
 }
