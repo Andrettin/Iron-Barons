@@ -2,14 +2,13 @@ manchester = {
 	name = "Manchester"
 	world = earth
 	geocoordinate = { -2.24798710266 53.50041526190 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = coal
 	province = lancashire
 	
 	history = {
 		1851 = {
 			buildings += university #University founded in Manchester in 1851; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
-			settlement_type = city
 		}
 	}
 }

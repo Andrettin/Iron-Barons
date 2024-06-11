@@ -2,7 +2,7 @@ cambridge = {
 	name = "Cambridge"
 	world = earth
 	geocoordinate = { 0.11662308615 52.20039125480 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain
 	province = east_anglia
 	cultural_names = {
@@ -14,7 +14,6 @@ cambridge = {
 	history = {
 		1250 = {
 			buildings += university #University existent in Cambridge in 1250; Source: "Atlas de História Mundial", p. 144.
-			settlement_type = city
 		}
 	}
 }

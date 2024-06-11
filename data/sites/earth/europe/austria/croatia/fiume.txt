@@ -2,7 +2,7 @@ fiume = {
 	name = "Fiume"
 	world = earth
 	geocoordinate = { 14.45001175810 45.32998374340 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = fruit
 	province = croatia
 	cultural_names = {
@@ -12,7 +12,7 @@ fiume = {
 	history = {
 		1719 = {
 			buildings += dock #Karl VI of the Holy Roman Empire made Fiume/Rijeka a free port ("Freihafen") in 1719; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464.
-			settlement_type = city
+			#settlement_type = city
 		}
 		
 		1780 = {

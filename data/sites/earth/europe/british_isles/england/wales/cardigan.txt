@@ -2,7 +2,7 @@ cardigan = {
 	name = "Cardigan"
 	world = earth
 	geocoordinate = { -4.6579194444444 52.084169444444 }
-	type = settlement
+	type = resource
 	resource = iron_ore
 	province = wales
 }

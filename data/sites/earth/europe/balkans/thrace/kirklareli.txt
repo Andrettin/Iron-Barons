@@ -2,7 +2,7 @@ kirklareli = {
 	name = "Kirklareli"
 	world = earth
 	geocoordinate = { 27.22599961570 41.74299916990 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain #Irrigated farming; Source: "CIA Atlas of the Middle East", 1993.
 	province = thrace
 }

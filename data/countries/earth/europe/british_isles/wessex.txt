@@ -6,7 +6,7 @@ wessex = {
 	default_religion = catholic
 	default_tier = kingdom
 	default_government_type = monarchy
-	default_capital = winchester
+	default_capital = wells #Winchester
 	eras = {
 		medieval_era
 	}

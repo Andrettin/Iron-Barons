@@ -5,7 +5,7 @@ apache = {
 	default_religion = pagan
 	default_tier = kingdom
 	default_government_type = despotism
-	default_capital = albuquerque
+	default_capital = santa_fe #Albuquerque
 	eras = {
 		renaissance_era
 	}

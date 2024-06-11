@@ -2,7 +2,7 @@ jeddah = {
 	name = "Jeddah" #also known as Jidda
 	world = earth
 	geocoordinate = { 39.21919754920 21.51688946430 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain
 	province = mecca
 }

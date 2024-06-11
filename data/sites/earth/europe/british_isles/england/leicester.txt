@@ -2,7 +2,7 @@ leicester = {
 	name = "Leicester"
 	world = earth
 	geocoordinate = { -1.13324894348 52.62997743640 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain
 	province = derbyshire
 	cultural_names = {
@@ -14,7 +14,6 @@ leicester = {
 	history = {
 		737 = {
 			buildings += cathedral #diocese of Leicester permanently founded in 737 AD; Source: Frank Stenton, "Anglo-Saxon England", 1971, pp. 109, 134, 146.
-			settlement_type = city
 		}
 	}
 }

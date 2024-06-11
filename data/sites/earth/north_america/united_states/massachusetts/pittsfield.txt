@@ -2,7 +2,7 @@ pittsfield = {
 	name = "Pittsfield"
 	world = earth
 	geocoordinate = { -73.25982833020 42.44819582020 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = iron_ore
 	province = massachusetts
 }

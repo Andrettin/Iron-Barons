@@ -2,7 +2,7 @@ mandali = {
 	name = "Mandali" #also known as Mendeli
 	world = earth
 	geocoordinate = { 45.54635656620 33.74361085920 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain
 	province = diyala
 }

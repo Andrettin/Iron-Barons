@@ -2,7 +2,7 @@ duqm = {
 	name = "Duqm"
 	world = earth
 	geocoordinate = { 57.7 19.65 }
-	type = settlement
+	type = resource
 	resource = fish
 	province = oman
 }

@@ -2,7 +2,7 @@ plymouth = {
 	name = "Plymouth"
 	world = earth
 	geocoordinate = { -4.15998925924 50.38538576160 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = fish
 	province = devon
 }

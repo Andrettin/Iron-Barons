@@ -2,7 +2,7 @@ bushehr = {
 	name = "Bushehr" #also known as Bushire
 	world = earth
 	geocoordinate = { 50.83001338580 28.91997763980 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = fish
 	province = fars
 }

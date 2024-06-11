@@ -2,7 +2,7 @@ suhar = {
 	name = "Suhar"
 	world = earth
 	geocoordinate = { 56.73441895810 24.36197334560 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain
 	province = oman
 }

@@ -2,7 +2,7 @@ winchester = {
 	name = "Winchester"
 	world = earth
 	geocoordinate = { -1.3086111111111 51.063333333333 }
-	type = settlement
+	type = resource
 	resource = timber
 	province = somerset
 	cultural_names = {
@@ -14,11 +14,10 @@ winchester = {
 	history = {
 		660 = {
 			buildings += cathedral #Winchester was a bishopric as of c. 660; Source: Frank Stenton, "Anglo-Saxon England", 1971, p. 122.
-			settlement_type = city
 		}
 		
 		1360 = {
-			#settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }

@@ -2,7 +2,7 @@ abadan = {
 	name = "Abadan"
 	world = earth
 	geocoordinate = { 48.27967809940 30.33074424130 }
-	type = settlement
+	type = resource
 	resource = fish
 	province = khuzestan
 }

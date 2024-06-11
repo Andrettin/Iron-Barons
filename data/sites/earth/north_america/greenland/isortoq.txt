@@ -2,7 +2,7 @@ isortoq = {
 	name = "Isortoq"
 	world = earth
 	geocoordinate = { -38.966666666667 65.533333333333 }
-	type = settlement
+	type = resource
 	resource = fish
 	province = sermersooq
 }

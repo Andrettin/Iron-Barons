@@ -2,7 +2,7 @@ manzhouli = {
 	name = "Manzhouli"
 	world = earth
 	geocoordinate = { 117.42997920600 49.59998150540 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = cattle
 	province = inner_mongolia
 }

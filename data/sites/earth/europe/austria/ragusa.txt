@@ -2,7 +2,7 @@ ragusa = {
 	name = "Ragusa"
 	world = earth
 	geocoordinate = { 18.09139155950 42.66094769190 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = fish
 	province = dalmatia
 	cultural_names = {
@@ -11,7 +11,7 @@ ragusa = {
 	
 	history = {
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			developed = true #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }

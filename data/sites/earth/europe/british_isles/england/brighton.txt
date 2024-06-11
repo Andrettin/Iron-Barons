@@ -2,7 +2,7 @@ brighton = {
 	name = "Brighton"
 	world = earth
 	geocoordinate = { -0.16997440734 50.83034568190 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = fish
 	province = kent #Sussex
 }

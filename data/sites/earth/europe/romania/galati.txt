@@ -2,7 +2,7 @@ galati = {
 	name = "Galati" #"Galați"
 	world = earth
 	geocoordinate = { 28.04587438830 45.45589337060 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = grain
 	province = moldavia
 	cultural_group_names = {
@@ -11,7 +11,7 @@ galati = {
 	
 	history = {
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			developed = true #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 	}
 }

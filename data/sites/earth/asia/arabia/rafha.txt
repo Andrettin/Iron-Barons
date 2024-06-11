@@ -2,7 +2,7 @@ rafha = {
 	name = "Rafha"
 	world = earth
 	geocoordinate = { 43.49480220420 29.62021913560 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = sheep
 	province = jawf
 }

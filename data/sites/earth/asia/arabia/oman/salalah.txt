@@ -2,7 +2,7 @@ salalah = {
 	name = "Salalah"
 	world = earth
 	geocoordinate = { 54.08521520880 17.02545818990 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = opium
 	province = oman
 }

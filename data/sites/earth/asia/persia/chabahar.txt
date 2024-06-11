@@ -2,7 +2,7 @@ chabahar = {
 	name = "Chabahar"
 	world = earth
 	geocoordinate = { 60.62993200570 25.30040529280 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = fish
 	province = west_baluchistan
 }

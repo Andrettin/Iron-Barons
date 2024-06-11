@@ -2,7 +2,7 @@ mukalla = {
 	name = "Mukalla"
 	world = earth
 	geocoordinate = { 49.12593135460 14.54116538390 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = opium
 	province = yemen
 }

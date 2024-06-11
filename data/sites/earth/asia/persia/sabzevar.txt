@@ -2,7 +2,7 @@ sabzevar = {
 	name = "Sabzevar" #also known as Sabzevan
 	world = earth
 	geocoordinate = { 57.63001175830 36.22002300930 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = coal
 	province = razavi_khorasan
 }

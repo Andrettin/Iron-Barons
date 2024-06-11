@@ -2,7 +2,7 @@ stirling = {
 	name = "Stirling"
 	world = earth
 	geocoordinate = { -3.9369 56.1166 }
-	type = settlement
+	type = resource
 	resource = coal
 	province = highlands
 }

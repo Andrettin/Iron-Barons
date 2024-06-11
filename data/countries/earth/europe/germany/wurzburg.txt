@@ -5,7 +5,7 @@ wurzburg = {
 	default_religion = catholic
 	default_tier = county #bishopric
 	default_government_type = fundamentalism
-	default_capital = wurzburg
+	default_capital = nuremberg #Wurzburg
 	eras = {
 		medieval_era
 		renaissance_era
