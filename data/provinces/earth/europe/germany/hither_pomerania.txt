@@ -26,9 +26,17 @@ hither_pomerania = {
 			religion = catholic
 		}
 		
+		1648 = {
+			owner = sweden #became part of Sweden in 1648; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
+			religion = protestant
+		}
+		
+		1720 = {
+			owner = pomerania #ceased being part of Sweden in 1720; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
+		}
+		
 		1740 = {
 			owner = sweden #Swedish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			religion = protestant
 		}
 		
 		1815 = {

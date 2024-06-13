@@ -7,11 +7,18 @@ hordaland = {
 	}
 	
 	history = {
-		culture = norwegian
+		culture = norse
 		religion = pagan
+		
+		1524 = {
+			owner = norway #part of Norway in the 1524-1658 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
+			culture = norwegian
+			religion = protestant
+		}
 		
 		1740 = {
 			owner = denmark #Danish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+			culture = norwegian
 			religion = protestant
 		}
 	}

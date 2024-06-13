@@ -26,6 +26,15 @@ bremen = {
 			owner = bremen #part of the Archbishopric of Bremen c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1648 = {
+			owner = sweden #became part of Sweden in 1648; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
+			religion = protestant
+		}
+		
+		1719 = {
+			owner = bremen #ceased being part of Sweden in 1719; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
+		}
+		
 		1740 = {
 			owner = hanover #part of Hanover c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 			religion = protestant

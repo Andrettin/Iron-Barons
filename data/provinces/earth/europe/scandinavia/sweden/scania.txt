@@ -22,10 +22,14 @@ scania = {
 			religion = catholic
 		}
 		
-		1740 = {
-			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
+		1658 = {
+			owner = sweden #became part of Sweden in 1658; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
 			culture = swedish
 			religion = protestant
+		}
+		
+		1740 = {
+			owner = sweden #part of the Kingdom of Sweden c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
 	}
 }

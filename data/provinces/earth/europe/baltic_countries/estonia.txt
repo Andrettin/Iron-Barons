@@ -15,6 +15,11 @@ estonia = {
 			religion = catholic
 		}
 		
+		1561 = {
+			owner = sweden #became part of Sweden in 1561; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
+			religion = protestant
+		}
+		
 		1721 = {
 			owner = russia #became part of the Russian Empire in 1721; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}

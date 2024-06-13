@@ -23,6 +23,10 @@ ingria = {
 			owner = muscovy #part of the Muscovite Dominions c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
 		}
 		
+		1617 = {
+			owner = sweden #became part of Sweden in 1617; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
+		}
+		
 		1721 = {
 			owner = russia #became part of the Russian Empire in 1721; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 		}
