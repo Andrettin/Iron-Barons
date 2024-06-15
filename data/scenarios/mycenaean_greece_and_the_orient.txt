@@ -3,6 +3,7 @@ mycenaean_greece_and_the_orient = {
 	start_date = -1450
 	map_template = earth
 	hidden = true
+	major = true
 	default_countries = {
 		assyria
 		babylonia

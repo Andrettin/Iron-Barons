@@ -1,0 +1,12 @@
+third_crusade = {
+	name = "Third Crusade"
+	start_date = 1187.1.1
+	map_template = earth
+	hidden = true
+	default_countries = {
+		england
+		france
+		#holy_roman_empire
+		byzantium
+	}
+}

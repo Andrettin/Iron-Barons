@@ -1,0 +1,6 @@
+charlemagne = {
+	name = "Charlemagne"
+	start_date = 769
+	map_template = earth
+	hidden = true
+}
