@@ -26,5 +26,9 @@ rogaland = {
 			owner = denmark #Danish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
 			religion = protestant
 		}
+		
+		1814 = {
+			owner = norway #part of Norway in 1814/1815; Source: William R. Shepherd, "Historical Atlas", 1911, p. 157.
+		}
 	}
 }

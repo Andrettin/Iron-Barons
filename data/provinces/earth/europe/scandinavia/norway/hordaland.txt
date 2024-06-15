@@ -21,5 +21,9 @@ hordaland = {
 			culture = norwegian
 			religion = protestant
 		}
+		
+		1814 = {
+			owner = norway
+		}
 	}
 }

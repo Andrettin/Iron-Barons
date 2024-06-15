@@ -18,4 +18,14 @@ norway = {
 		troms
 		finnmark
 	}
+	
+	history = {
+		1814 = {
+			#united with Sweden as the Kingdom of Sweden and Norway in 1814/1815; Source: William R. Shepherd, "Historical Atlas", 1911, p. 157.
+			diplomacy_state = {
+				country = sweden
+				state = personal_union_subject
+			}
+		}
+	}
 }
