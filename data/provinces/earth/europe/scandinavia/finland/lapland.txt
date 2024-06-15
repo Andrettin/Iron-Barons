@@ -15,6 +15,10 @@ lapland = {
 			religion = protestant
 		}
 		
+		1808 = {
+			owner = russia #became part of Russia in 1808; Source: William R. Shepherd, "Historical Atlas", 1911, p. 152.
+		}
+		
 		germanys_future = {
 			1918 = {
 				owner = germany #Source: "The British Dominions Year Book 1918", 1918, Map 11.
