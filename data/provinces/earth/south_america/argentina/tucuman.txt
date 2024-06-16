@@ -13,6 +13,8 @@ tucuman = {
 		
 		1600 = {
 			owner = la_plata #part of La Plata in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
+			culture = castillian
+			religion = catholic
 		}
 		
 		1790 = {

@@ -10,5 +10,11 @@ colombia = {
 		owner = arawaks
 		culture = arawak
 		religion = pagan
+		
+		1836 = {
+			owner = colombia
+			culture = castillian
+			religion = catholic
+		}
 	}
 }

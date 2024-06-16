@@ -13,6 +13,8 @@ rio_negro = {
 		
 		1911 = {
 			owner = argentina #part of the Argentine Republic in 1911; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+			culture = castillian
+			religion = catholic
 		}
 	}
 }
