@@ -283,4 +283,12 @@ Window {
 		
 		return str
 	}
+	
+	function get_plural_form(str) {
+		if (str.endsWith("y")) {
+			return str.substr(0, str.length - 1) + "ies"
+		}
+		
+		return str + "s"
+	}
 }

@@ -98,7 +98,7 @@ Rectangle {
 			+ "\n"
 			+ "\n" + selected_country_game_data.type_name
 			+ (selected_country_game_data.overlord ? (
-				"\n" + selected_country_game_data.vassalage_type_name + " of " + selected_country_game_data.overlord.name
+				"\n" + selected_country_game_data.subject_type.name + " of " + selected_country_game_data.overlord.name
 			) : "")
 			+ "\n" + selected_country_game_data.title_name
 			+ (selected_country_game_data.anarchy ? "\nAnarchy" : "")

@@ -158,23 +158,28 @@ MenuBase {
 				+ "\n"
 				+ "\n" + selected_country.game_data.type_name
 				+ (selected_country.game_data.overlord ? (
-					"\n" + selected_country.game_data.vassalage_type_name + " of " + selected_country.game_data.overlord.name
+					"\n" + selected_country.game_data.subject_type.name + " of " + selected_country.game_data.overlord.name
 				) : "")
 				+ "\n" + selected_country.game_data.title_name
 				+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
 				+ (selected_country.great_power && !selected_country.game_data.anarchy ? ("\nScore: " + number_string(selected_country.game_data.score) + " (#" + (selected_country.game_data.rank + 1) + ")") : "")
 				+ "\nPopulation: " + number_string(selected_country.game_data.population.size)
-				+ (vassal_count > 0 ? (
-					"\n" + vassal_count + " " + (vassal_count > 1 ? "Vassals" : "Vassal")
-				) : "")
-				+ (selected_country.game_data.colonies.length > 0 ? (
-					"\n" + selected_country.game_data.colonies.length + " " + (selected_country.game_data.colonies.length > 1 ? "Colonies" : "Colony")
-				) : "")
+				+ get_subject_type_counts_string(selected_country.game_data.subject_type_counts)
 				+ "\n" + selected_country.game_data.provinces.length + " " + (selected_country.game_data.provinces.length > 1 ? "Provinces" : "Province")
 				+ get_resource_counts_string(selected_country.game_data.resource_counts)
 			) : ""
 			
-			readonly property int vassal_count: selected_country ? (selected_country.game_data.vassals.length - selected_country.game_data.colonies.length) : 0
+			function get_subject_type_counts_string(subject_type_counts) {
+				var str = "";
+				
+				for (const kv_pair of subject_type_counts) {
+					var subject_type = kv_pair.key
+					var count = kv_pair.value
+					str += "\n" + count + " " + (count > 1 ? get_plural_form(subject_type.name) : subject_type.name)
+				}
+				
+				return str
+			}
 			
 			function get_resource_counts_string(resource_counts) {
 				var str = "";
