@@ -20,7 +20,7 @@ virginia = {
 			#Raleigh's Colony of Virginia founded in 1585; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 			diplomacy_state = {
 				country = england
-				state = colony
+				subject_type = colony
 			}
 		}
 		
@@ -36,7 +36,7 @@ virginia = {
 			#Jamestown founded in 1607; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {
 				country = england
-				state = colony
+				subject_type = colony
 			}
 		}
 	}

@@ -12,7 +12,7 @@ new_prussia = {
 			1920 = {
 				diplomacy_state = { #Source: "Life Magazine", 1916.
 					country = germany
-					state = colony
+					subject_type = colony
 				}
 			}
 		}

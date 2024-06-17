@@ -15,7 +15,7 @@ santiago = {
 			#Spanish possession in 1600; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {
 				country = spain
-				state = colony
+				subject_type = colony
 			}
 		}
 	}

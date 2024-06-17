@@ -18,7 +18,7 @@ newfoundland = {
 			#became an English possession in 1623; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {
 				country = england
-				state = colony
+				subject_type = colony
 			}
 		}
 	}

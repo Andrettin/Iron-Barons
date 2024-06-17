@@ -12,7 +12,7 @@ turconia = {
 			1920 = {
 				diplomacy_state = { #Source: "Life Magazine", 1916.
 					country = ottoman_empire
-					state = colony
+					subject_type = colony
 				}
 			}
 		}
