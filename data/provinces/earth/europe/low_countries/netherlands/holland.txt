@@ -26,9 +26,13 @@ holland = {
 			owner = burgundy #Burgundian possession c. 1477; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1609 = {
+			owner = netherlands #part of the United Netherlands in 1609; Source: William R. Shepherd, "Historical Atlas", 1911, p. 117.
+			religion = protestant
+		}
+		
 		1740 = {
 			owner = netherlands #part of the United Netherlands c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			religion = protestant
 		}
 		
 		1815 = {
