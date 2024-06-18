@@ -30,9 +30,12 @@ kent = {
 			culture = english
 		}
 		
+		1560 = {
+			religion = protestant #Anglican c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, p. 116.
+		}
+		
 		1740 = {
 			owner = england #part of England c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			religion = protestant
 		}
 	}
 }

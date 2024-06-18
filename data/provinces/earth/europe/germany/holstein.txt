@@ -27,9 +27,12 @@ holstein = {
 			owner = denmark #became a Danish royal possession in 1460; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 86-87.
 		}
 		
+		1560 = {
+			religion = protestant #Lutheran c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, p. 116.
+		}
+		
 		1740 = {
 			owner = denmark #Danish possession c. 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 130-131.
-			religion = protestant
 		}
 		
 		1815 = {
