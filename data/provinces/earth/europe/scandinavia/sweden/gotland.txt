@@ -16,9 +16,13 @@ gotland = {
 			religion = catholic
 		}
 		
+		1560 = {
+			owner = denmark #part of Denmark c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
+			religion = protestant
+		}
+		
 		1645 = {
 			owner = sweden #became part of Sweden in 1645; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
-			religion = protestant
 		}
 		
 		1740 = {

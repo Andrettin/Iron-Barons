@@ -10,10 +10,15 @@ jamtland = {
 		culture = norse
 		religion = pagan
 		
+		1560 = {
+			owner = norway #part of Norway c. 1560; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
+			culture = norwegian
+			religion = protestant
+		}
+		
 		1645 = {
 			owner = sweden #became part of Sweden in 1645; Source: William R. Shepherd, "Historical Atlas", 1911, p. 120.
 			culture = swedish
-			religion = protestant
 		}
 		
 		1740 = {
