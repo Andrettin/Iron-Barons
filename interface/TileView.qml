@@ -80,7 +80,7 @@ Item {
 			(province.game_data.military_unit_category_counts.length > 0 && province.game_data.get_country_military_unit_category_counts(metternich.game.player_country).length > 0) ?
 				province.game_data.get_country_military_unit_icon(metternich.game.player_country).identifier
 				: province.game_data.get_military_unit_icon().identifier
-		) : "embassy") + (selected ? "/selected" : "")
+		) : "garrison") + (selected ? "/selected" : "")
 		visible: province !== null && is_center_tile && province.game_data.military_unit_category_counts.length > 0
 		
 		readonly property bool is_on_water: province !== null && is_center_tile && province.water_zone

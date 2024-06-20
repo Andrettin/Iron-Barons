@@ -5,3 +5,23 @@ trade_consulate = {
 embassy = {
 	filepath = "icons/diplomacy/embassy.png"
 }
+
+alliance = {
+	filepath = "icons/diplomacy/alliance.png"
+}
+
+empire = {
+	filepath = "icons/diplomacy/empire.png"
+}
+
+non_aggression_pact = {
+	filepath = "icons/diplomacy/non_aggression_pact.png"
+}
+
+peace = {
+	filepath = "icons/diplomacy/peace.png"
+}
+
+war = {
+	filepath = "icons/diplomacy/war.png"
+}
