@@ -1,5 +1,6 @@
 cunhambebe = {
 	name = "Cunhambebe"
+	role = ruler
 	culture = tupi
 	religion = pagan
 	home_site = santos #Ubatuba

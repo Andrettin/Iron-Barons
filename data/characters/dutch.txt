@@ -1,6 +1,7 @@
 william_the_silent_of_the_netherlands = {
 	name = "William"
 	epithet = "the Silent"
+	role = ruler
 	culture = dutch
 	religion = protestant
 	home_settlement = amsterdam

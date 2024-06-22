@@ -13,6 +13,7 @@ selim_i_of_the_ottoman_empire = { #Source: Isaac Asimov, "Cronologia das Ciênci
 suleiman_i_of_the_ottoman_empire = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
 	name = "Suleiman" #"Süleyman"
 	epithet = "I"
+	role = ruler
 	culture = turkish
 	religion = sunni
 	home_settlement = trebizond

@@ -2,6 +2,7 @@ zygmunt_ii_of_poland = {
 	name = "Zygmunt"
 	epithet = "II"
 	dynasty = jagiellon
+	role = ruler
 	culture = polish
 	religion = catholic
 	home_settlement = warsaw

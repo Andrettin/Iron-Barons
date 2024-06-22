@@ -1,5 +1,6 @@
 mangas_coloradas = {
 	name = "Mangas Coloradas"
+	role = ruler
 	culture = apache
 	religion = pagan
 	home_site = albuquerque
