@@ -3,4 +3,5 @@ kunming = {
 	world = earth
 	geocoordinate = { 102.67997513700 25.06998008120 } #from Natural Earth
 	type = settlement
+	resource = silk
 }

@@ -3,4 +3,5 @@ xian = {
 	world = earth
 	geocoordinate = { 108.89499629600 34.27502545070 } #from Natural Earth
 	type = settlement
+	resource = coal
 }

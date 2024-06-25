@@ -3,4 +3,5 @@ changsha = {
 	world = earth
 	geocoordinate = { 112.96999304100 28.19996990870 } #from Natural Earth
 	type = settlement
+	resource = tea
 }
