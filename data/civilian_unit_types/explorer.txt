@@ -2,4 +2,5 @@ explorer = {
 	name = "Explorer"
 	unit_class = explorer
 	icon = arquebusiers
+	explorer = true
 }

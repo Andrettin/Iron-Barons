@@ -2,4 +2,5 @@ developer = {
 	name = "Developer"
 	unit_class = developer
 	icon = rifle_infantry_light
+	required_technology = corporation
 }

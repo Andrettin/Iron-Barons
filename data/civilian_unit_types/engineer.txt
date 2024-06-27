@@ -2,4 +2,5 @@ engineer = {
 	name = "Engineer"
 	unit_class = engineer
 	icon = craftsmen_light
+	required_technology = engineering
 }
