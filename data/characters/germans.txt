@@ -62,14 +62,15 @@ martin_waldseemuller = { #Source: Isaac Asimov, "Cronologia das Ciências e das 
 martin_luther = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 204.
 	name = "Martin"
 	surname = "Luther"
-	#advisor_type = theologian
+	role = advisor
+	advisor_type = theologian
 	culture = german
 	religion = protestant
 	home_site = wittenberg #where he presented his 95 theses
 	gender = male
 	birth_date = 1483
 	death_date = 1546
-	#required_technology = printing_press
+	required_technology = printing_press
 	skill = 6
 	#monk
 	

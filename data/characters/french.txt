@@ -16,13 +16,15 @@ jacques_cartier = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desco
 jean_calvin = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 208.
 	name = "Jean"
 	surname = "Calvin"
-	#advisor_type = theologian
+	role = advisor
+	advisor_type = theologian
 	culture = french
 	religion = protestant
 	home_settlement = geneva
 	gender = male
 	birth_date = 1509
 	death_date = 1564
+	skill = 6
 }
 
 ambroise_pare = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 212-213.
