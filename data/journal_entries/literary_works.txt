@@ -1,7 +1,7 @@
 de_corporis_humani_fabrica = {
 	name = "De Corporis Humani Fabrica"
 	portrait = engineering
-	recruited_advisors = {
+	recruited_characters = {
 		andreas_vesalius
 	}
 	researched_technologies = {
@@ -16,7 +16,7 @@ de_revolutionibus_orbium_coelestium = { #Source: Isaac Asimov, "Cronologia das C
 	name = "De Revolutionibus Orbium Coelestium"
 	portrait = engineering
 	description = "In 1543 Nicolaus Copernicus published a book called \"De Revolutionibus Orbium Coelestium\", in which he described a new model for planetary movement, with the Sun, rather than the Earth, at the center."
-	recruited_advisors = {
+	recruited_characters = {
 		nicolaus_copernicus
 	}
 	researched_technologies = {
@@ -32,7 +32,7 @@ epitome_in_cl__ptolemaei_magnam_compositionem = { #Source: "Encyclopædia Britan
 	portrait = alchemist
 	description = "Our advisor Georg Peurbach has published a book called \"Epitome in Cl. Ptolemaei magnam compositionem\"."
 	completion_random_chance = 25
-	recruited_advisors = {
+	recruited_characters = {
 		georg_peurbach
 	}
 	researched_technologies = {
@@ -48,7 +48,7 @@ theoricae_planetarum_novae = { #Source: "Encyclopædia Britannica", 1911, vol. 2
 	portrait = alchemist
 	description = "Our advisor Georg Peurbach has published a book called \"Theoricae planetarum novae\"."
 	completion_random_chance = 25
-	recruited_advisors = {
+	recruited_characters = {
 		georg_peurbach
 	}
 	researched_technologies = {
