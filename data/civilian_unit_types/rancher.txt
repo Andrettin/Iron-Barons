@@ -1,0 +1,5 @@
+rancher = {
+	name = "Rancher"
+	unit_class = rancher
+	icon = craftsmen_light
+}

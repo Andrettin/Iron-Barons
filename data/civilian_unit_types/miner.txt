@@ -1,0 +1,5 @@
+miner = {
+	name = "Miner"
+	unit_class = miner
+	icon = craftsmen_light
+}
