@@ -3,4 +3,9 @@ engineer = {
 	unit_class = engineer
 	icon = craftsmen_light
 	required_technology = engineering
+	buildable_pathways = {
+		trail
+		road
+		railroad
+	}
 }
