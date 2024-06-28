@@ -3,4 +3,5 @@ explorer = {
 	unit_class = explorer
 	icon = arquebusiers
 	explorer = true
+	prospector = true
 }
