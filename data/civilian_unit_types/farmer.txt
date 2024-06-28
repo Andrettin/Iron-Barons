@@ -2,4 +2,18 @@ farmer = {
 	name = "Farmer"
 	unit_class = farmer
 	icon = slaves_light
+	improvable_resources = {
+		coffee
+		cotton
+		dye
+		fruit
+		grain
+		opium
+		potatoes
+		silk
+		spices
+		sugar_cane
+		tea
+		tobacco
+	}
 }

@@ -2,4 +2,7 @@ driller = {
 	name = "Driller"
 	unit_class = driller
 	icon = craftsmen_light
+	improvable_resources = {
+		oil
+	}
 }
