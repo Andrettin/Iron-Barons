@@ -167,7 +167,7 @@ Rectangle {
 					selected_site.map_data.resource ? selected_site.map_data.resource.name : ""
 				)
 			)
-		) : ""
+		) : (selected_civilian_unit && selected_civilian_unit.character ? selected_civilian_unit.character.full_name : "")
 	}
 	
 	ScriptedModifierRow {
@@ -278,7 +278,7 @@ Rectangle {
 	
 	CivilianUnitInfoArea {
 		id: civilian_unit_info_area
-		anchors.top: icon.bottom
+		anchors.top: subtitle.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.bottom: disband_button.top
 		anchors.bottomMargin: 16 * scale_factor
