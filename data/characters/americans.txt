@@ -1,3 +1,21 @@
+benjamin_franklin = {
+	name = "Benjamin"
+	surname = "Franklin"
+	role = advisor
+	advisor_type = statesman
+	culture = english
+	religion = protestant
+	home_settlement = boston
+	gender = male
+	birth_date = 1706
+	death_date = 1790
+	required_technology = constitutionalism
+	advisor_modifier = {
+		statesmanship_per_printing_press = 3
+		statesmanship_per_newspaper = 3
+	}
+}
+
 george_washington = {
 	name = "George"
 	surname = "Washington"

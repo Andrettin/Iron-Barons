@@ -1,0 +1,13 @@
+bernardo_pereira_de_vasconcelos = {
+	name = "Bernardo"
+	surname = "Pereira de Vasconcelos"
+	role = advisor
+	advisor_type = statesman
+	culture = portuguese #Brazilian
+	religion = catholic
+	home_site = ouro_preto
+	gender = male
+	birth_date = 1795.8.27
+	skill = 6
+	required_technology = constitutionalism
+}
