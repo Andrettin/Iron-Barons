@@ -168,6 +168,26 @@ john_rolfe = {
 	}
 }
 
+john_winthrop = {
+	name = "John"
+	surname = "Winthrop"
+	role = advisor
+	advisor_type = statesman
+	culture = english
+	religion = protestant
+	home_settlement = boston
+	gender = male
+	birth_date = 1587
+	death_date = 1649
+	required_technology = propaganda
+	advisor_modifier = {
+		piety_per_town_hall = 1
+		piety_per_city_hall = 1
+		piety_per_state_house = 1
+		piety_per_capitol = 1
+	}
+}
+
 john_harvard = {
 	name = "John"
 	surname = "Harvard"

@@ -54,6 +54,26 @@ john_adams = {
 	}
 }
 
+patrick_henry = {
+	name = "Patrick"
+	surname = "Henry"
+	role = advisor
+	advisor_type = statesman
+	culture = english
+	religion = protestant
+	home_settlement = richmond #Studley
+	gender = male
+	birth_date = 1736
+	death_date = 1799
+	required_technology = rights_of_man
+	advisor_modifier = {
+		statesmanship_per_town_hall = 3
+		statesmanship_per_city_hall = 3
+		statesmanship_per_state_house = 3
+		statesmanship_per_capitol = 3
+	}
+}
+
 thomas_jefferson = {
 	name = "Thomas"
 	surname = "Jefferson"
@@ -136,6 +156,25 @@ eli_whitney = {
 	required_technology = cotton_gin
 	advisor_modifier = {
 		cotton_output_modifier = 50
+	}
+}
+
+washington_irving = {
+	name = "Washington"
+	surname = "Irving"
+	role = advisor
+	advisor_type = statesman
+	culture = english
+	religion = protestant
+	home_settlement = richmond #Studley
+	gender = male
+	birth_date = 1783
+	death_date = 1859
+	required_technology = romanticism
+	advisor_modifier = {
+		statesmanship_per_school = 1
+		statesmanship_per_college = 2
+		statesmanship_per_university = 3
 	}
 }
 
