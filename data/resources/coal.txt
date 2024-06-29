@@ -1,6 +1,7 @@
 coal = {
 	name = "Coal"
 	commodity = coal
+	prospectable = true
 	terrain_types = {
 		barren_hills
 		mountains

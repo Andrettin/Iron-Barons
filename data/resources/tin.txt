@@ -1,6 +1,7 @@
 tin = {
 	name = "Tin"
 	commodity = tin
+	prospectable = true
 	terrain_types = {
 		swamp
 	}

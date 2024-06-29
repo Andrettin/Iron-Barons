@@ -1,6 +1,7 @@
 oil = {
 	name = "Oil"
 	commodity = oil
+	prospectable = true
 	terrain_types = {
 		swamp
 		desert

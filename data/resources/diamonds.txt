@@ -1,6 +1,7 @@
 diamonds = {
 	name = "Diamonds"
 	commodity = diamonds
+	prospectable = true
 	discovery_technology = precious_stones
 	terrain_types = {
 		desert

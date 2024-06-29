@@ -1,6 +1,7 @@
 stone = {
 	name = "Stone"
 	commodity = stone
+	prospectable = true
 	terrain_types = {
 		barren_hills
 		desert
