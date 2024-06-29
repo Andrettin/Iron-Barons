@@ -1,6 +1,7 @@
 desert = {
 	name = "Desert"
 	color = { 255 255 0 }
+	icon = mountains
 	image_filepath = "tiles/terrain/desert_sand.png"
 	elevation_type = flatlands
 	moisture_type = arid
