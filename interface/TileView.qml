@@ -11,6 +11,7 @@ Item {
 	readonly property point tile_pos: Qt.point(column, row)
 	readonly property bool is_center_tile: province !== null && province.game_data.center_tile_pos === tile_pos
 	readonly property var entering_army: (site !== null && site.game_data.visiting_armies.length > 0) ? site.game_data.visiting_armies[0] : ((province !== null && is_center_tile && province.game_data.entering_armies.length > 0) ? province.game_data.entering_armies[0] : null)
+	readonly property bool show_failed_prospection: selected_civilian_unit !== null && selected_civilian_unit.type.prospector && prospected && resource === null
 	property string saved_status_text: ""
 	
 	Repeater {
@@ -94,6 +95,12 @@ Item {
 		border.color: "white"
 		border.width: 1 * scale_factor
 		visible: tile_selected
+	}
+	
+	TileImage {
+		id: failed_prospection_image
+		tile_image_source: show_failed_prospection ? "image://icon/skull" : "image://empty/"
+		visible: show_failed_prospection
 	}
 	
 	TileImage {
