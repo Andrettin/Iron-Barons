@@ -2,6 +2,8 @@ tournai = {
 	name = "Tournai"
 	world = earth
 	geocoordinate = { 3.388055555555556 50.605555555555554 }
+	type = resource
+	resource = coal
 	province = brabant
 	
 	history = {

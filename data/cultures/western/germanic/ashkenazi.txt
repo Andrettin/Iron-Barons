@@ -1,0 +1,5 @@
+ashkenazi = {
+	name = "Ashkenazi"
+	group = german
+	color = { 130 100 100 }
+}
