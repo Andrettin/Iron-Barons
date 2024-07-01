@@ -30,5 +30,11 @@ besancon = {
 		1789 = {
 			buildings += courthouse #Parlement or conseil souverain and prévôt des maréchaux existent in Besançon in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 		}
+		
+		1836 = {
+			population_groups = {
+				bureaucrats.french.catholic = 550
+			}
+		}
 	}
 }

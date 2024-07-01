@@ -4,4 +4,20 @@ brussels = {
 	geocoordinate = { 4.33331660830 50.83331707670 } #from Natural Earth
 	type = settlement
 	province = brabant
+	
+	history = {
+		1836 = {
+			population_groups = {
+				aristocrats.flemish.catholic = 1500
+				aristocrats.walloon.catholic = 300
+				bureaucrats.flemish.catholic = 800
+				bureaucrats.walloon.catholic = 1600
+				capitalists.flemish.catholic = 50
+				capitalists.walloon.catholic = 150
+				clergymen.ashkenazi.jewish = 25
+				clergymen.flemish.catholic = 1625
+				clergymen.walloon.catholic = 250
+			}
+		}
+	}
 }

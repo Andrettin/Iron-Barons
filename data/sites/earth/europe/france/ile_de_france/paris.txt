@@ -49,5 +49,11 @@ paris = {
 		1815 = {
 			population = 649412 #Paris had a population of 649,412 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 88.
 		}
+		
+		1836 = {
+			population_groups = {
+				bureaucrats.french.catholic = 1500
+			}
+		}
 	}
 }

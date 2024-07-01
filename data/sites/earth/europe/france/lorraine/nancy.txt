@@ -11,5 +11,12 @@ nancy = {
 			buildings += courthouse #Parlement or conseil souverain and prévôt des maréchaux existent in Nancy in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 			settlement_type = city
 		}
+		
+		1836 = {
+			population_groups = {
+				bureaucrats.french.catholic = 600
+				bureaucrats.german.catholic = 175
+			}
+		}
 	}
 }

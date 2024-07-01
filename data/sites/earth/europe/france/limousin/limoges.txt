@@ -15,5 +15,11 @@ limoges = {
 			buildings += courthouse #Prévôt des maréchaux existent in Limoges in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 			settlement_type = city
 		}
+		
+		1836 = {
+			population_groups = {
+				bureaucrats.french.catholic = 950
+			}
+		}
 	}
 }

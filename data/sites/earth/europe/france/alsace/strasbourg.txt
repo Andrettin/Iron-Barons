@@ -44,5 +44,13 @@ strasbourg = {
 			#Prévôt des maréchaux existent in Strasbourg in 1789. Source: William R. Shepherd, Historical Atlas, 1911, p. 147.
 			buildings += courthouse
 		}
+		
+		1836 = {
+			population_groups = {
+				bureaucrats.alsatian.catholic = 250
+				bureaucrats.alsatian.protestant = 200
+				bureaucrats.french.catholic = 150
+			}
+		}
 	}
 }

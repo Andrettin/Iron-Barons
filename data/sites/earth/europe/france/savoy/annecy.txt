@@ -5,4 +5,12 @@ annecy = {
 	pos_offset = { 0 -1 } #to not conflict with Chambéry's position
 	type = resource
 	resource = coal
+	
+	history = {
+		1836 = {
+			population_groups = {
+				bureaucrats.french.catholic = 200
+			}
+		}
+	}
 }

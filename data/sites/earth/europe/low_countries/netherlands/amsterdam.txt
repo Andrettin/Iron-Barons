@@ -26,6 +26,15 @@ amsterdam = {
 			population = 201628 #Amsterdam had a population of 201,628 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
 		}
 		
+		1836 = {
+			population_groups = {
+				aristocrats.dutch.protestant = 500
+				bureaucrats.dutch.protestant = 1600
+				clergymen.ashkenazi.jewish = 75
+				clergymen.dutch.protestant = 550
+			}
+		}
+		
 		1877 = {
 			buildings += university #State university founded in Amsterdam in 1877; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
 			settlement_type = city

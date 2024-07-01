@@ -22,5 +22,11 @@ dijon = {
 			buildings += courthouse #Parlement or conseil souverain, chambre des comptes, prévôt des maréchaux and chief court of the salt tax existent in Dijon in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 			settlement_type = city
 		}
+		
+		1836 = {
+			population_groups = {
+				bureaucrats.french.catholic = 1100
+			}
+		}
 	}
 }
