@@ -1,8 +1,8 @@
 salt = {
 	name = "Salt"
 	commodity = salt
+	prospectable = true
 	terrain_types = {
-		plains
-		savannah
+		desert
 	}
 }

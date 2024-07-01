@@ -1,8 +1,9 @@
 amber = {
 	name = "Amber"
 	commodity = amber
+	prospectable = true
 	discovery_technology = precious_stones
 	terrain_types = {
-		conifer_forest
+		swamp
 	}
 }
