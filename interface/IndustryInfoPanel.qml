@@ -16,38 +16,47 @@ Rectangle {
 		width: 1 * scale_factor
 	}
 	
-	IndustryCounter {
-		id: labor_counter
-		anchors.left: parent.left
-		anchors.top: parent.top
-		anchors.topMargin: 96 * scale_factor
-		name: "Labor"
-		icon_identifier: "labor"
-		count: (country_game_data.commodity_outputs && country_game_data.commodity_inputs) ? (country_game_data.get_commodity_output("labor") - country_game_data.get_commodity_input("labor")) : 0 //the conditional is there to make the counter be updated when the labor output or input changes
-	}
-	
 	ListView {
 		id: population_unit_list
 		anchors.left: parent.left
 		anchors.right: parent.right
-		anchors.top: labor_counter.bottom
-		anchors.topMargin: 8 * scale_factor
+		anchors.top: parent.top
+		anchors.topMargin: 96 * scale_factor
 		anchors.bottom: back_button.top
 		anchors.bottomMargin: 8 * scale_factor
 		boundsBehavior: Flickable.StopAtBounds
 		spacing: 8 * scale_factor
 		clip: true
-		model: country_game_data.population.type_counts
+		model: get_population_types_by_output_commodity(country_game_data.population.type_counts)
 		delegate: IndustryCounter {
-			name: population_type.name
-			icon_identifier: country_game_data.get_population_type_small_icon(population_type).identifier
-			count: population_count
+			name: model.modelData.key.name
+			icon_identifier: is_commodity ? model.modelData.key.icon.identifier : country_game_data.get_population_type_small_icon(model.modelData.key).identifier
+			count: is_commodity ?
+				((country_game_data.commodity_outputs && country_game_data.commodity_inputs) ? (country_game_data.get_commodity_output(model.modelData.key.identifier) - country_game_data.get_commodity_input(model.modelData.key.identifier)) : 0) //the conditional is there to make the counter be updated when the commodity output or input changes
+				: model.modelData.value
 			tooltip: modifier_string.length > 0 ? format_text(small_text(modifier_string)) : ""
 			
-			readonly property var population_type: model.modelData.key
-			readonly property int population_count: model.modelData.value
-			readonly property string modifier_string: population_type.get_country_modifier_string(country)
+			readonly property bool is_commodity: model.modelData.key.class_name === "metternich::commodity"
+			readonly property string modifier_string: is_commodity ? "" : model.modelData.key.get_country_modifier_string(country)
 		}
+	}
+	
+	function get_population_types_by_output_commodity(population_type_counts) {
+		var used_commodities = []
+		var result = []
+		
+		for (var kv_pair of population_type_counts) {
+			var population_type = kv_pair.key
+			
+			if (population_type.output_commodity !== null && used_commodities.indexOf(population_type.output_commodity) === -1) {
+				used_commodities.push(population_type.output_commodity)
+				result.push({key: population_type.output_commodity, value: 0})
+			}
+			
+			result.push(kv_pair)
+		}
+		
+		return result
 	}
 	
 	TextButton {
