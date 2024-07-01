@@ -50,6 +50,10 @@ strasbourg = {
 				bureaucrats.alsatian.catholic = 250
 				bureaucrats.alsatian.protestant = 200
 				bureaucrats.french.catholic = 150
+				clergymen.alsatian.catholic = 375
+				clergymen.alsatian.protestant = 400
+				clergymen.alsatian.jewish = 25
+				clergymen.french.catholic = 250
 			}
 		}
 	}

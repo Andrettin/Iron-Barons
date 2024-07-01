@@ -18,5 +18,11 @@ arras = {
 		1815 = {
 			population = 19958 #Arras had a population of 19,958 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 82.
 		}
+		
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 1125
+			}
+		}
 	}
 }

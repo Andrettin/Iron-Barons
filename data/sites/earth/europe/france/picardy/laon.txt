@@ -14,6 +14,7 @@ laon = {
 		1836 = {
 			population_groups = {
 				bureaucrats.french.catholic = 750
+				clergymen.french.catholic = 1325
 			}
 		}
 	}

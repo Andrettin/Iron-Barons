@@ -4,4 +4,13 @@ charleville_mezieres = {
 	geocoordinate = { 4.7194444444444 49.76 }
 	type = resource
 	resource = coal
+	province = champagne
+	
+	history = {
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 750
+			}
+		}
+	}
 }

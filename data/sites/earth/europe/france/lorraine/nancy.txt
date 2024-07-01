@@ -16,6 +16,9 @@ nancy = {
 			population_groups = {
 				bureaucrats.french.catholic = 600
 				bureaucrats.german.catholic = 175
+				clergymen.french.catholic = 1050
+				clergymen.german.catholic = 50
+				clergymen.german.jewish = 25
 			}
 		}
 	}

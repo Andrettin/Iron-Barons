@@ -27,5 +27,11 @@ amiens = {
 		1815 = {
 			population = 40006 #Amiens had a population of 40,006 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
 		}
+		
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 1375
+			}
+		}
 	}
 }

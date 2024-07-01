@@ -19,6 +19,7 @@ lille = {
 		1836 = {
 			population_groups = {
 				bureaucrats.french.catholic = 1750
+				clergymen.french.catholic = 2000
 			}
 		}
 	}

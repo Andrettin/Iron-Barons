@@ -4,4 +4,13 @@ dunkirk = {
 	geocoordinate = { 2.3763888888889 51.037777777778 }
 	type = settlement
 	resource = fish
+	province = picardy
+	
+	history = {
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 1050
+			}
+		}
+	}
 }
