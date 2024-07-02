@@ -4,4 +4,12 @@ evreux = {
 	geocoordinate = { 1.1525 49.023333333333 }
 	type = resource
 	resource = grain
+	
+	history = {
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 1050
+			}
+		}
+	}
 }

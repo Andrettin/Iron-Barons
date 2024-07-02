@@ -19,6 +19,7 @@ brest = {
 		1836 = {
 			population_groups = {
 				bureaucrats.french.catholic = 1550
+				clergymen.french.catholic = 1350
 			}
 		}
 	}

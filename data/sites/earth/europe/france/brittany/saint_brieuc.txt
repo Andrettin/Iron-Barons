@@ -4,4 +4,13 @@ saint_brieuc = {
 	geocoordinate = { -2.78330326477 48.51666261710 } #from Natural Earth
 	type = resource
 	resource = grain
+	province = brittany
+	
+	history = {
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 1500
+			}
+		}
+	}
 }

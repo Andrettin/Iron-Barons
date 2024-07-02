@@ -5,6 +5,7 @@ nantes = {
 	type = settlement
 	#resource = cattle #Grassland and crops; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
 	resource = grain
+	province = brittany
 	cultural_names = {
 		frankish = "Namnetes"
 	}
@@ -25,6 +26,12 @@ nantes = {
 		
 		1789 = {
 			buildings += courthouse #Chambre des comptes existent in Nantes in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+		}
+		
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 1200
+			}
 		}
 	}
 }
