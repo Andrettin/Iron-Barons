@@ -34,6 +34,7 @@ besancon = {
 		1836 = {
 			population_groups = {
 				bureaucrats.french.catholic = 2200
+				clergymen.french.catholic = 5800
 			}
 		}
 	}

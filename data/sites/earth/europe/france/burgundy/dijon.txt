@@ -26,6 +26,7 @@ dijon = {
 		1836 = {
 			population_groups = {
 				bureaucrats.french.catholic = 4400
+				clergymen.french.catholic = 3800
 			}
 		}
 	}
