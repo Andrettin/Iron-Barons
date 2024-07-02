@@ -17,7 +17,7 @@ angers = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 1200
+				bureaucrats.french.catholic = 4800
 			}
 		}
 	}

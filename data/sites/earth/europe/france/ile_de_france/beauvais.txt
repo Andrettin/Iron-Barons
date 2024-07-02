@@ -9,7 +9,7 @@ beauvais = {
 	history = {
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 1100
+				clergymen.french.catholic = 4400
 			}
 		}
 	}

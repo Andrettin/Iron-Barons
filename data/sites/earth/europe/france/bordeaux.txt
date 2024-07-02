@@ -27,7 +27,7 @@ bordeaux = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 1100
+				bureaucrats.french.catholic = 4400
 			}
 		}
 	}

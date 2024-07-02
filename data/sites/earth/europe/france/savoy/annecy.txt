@@ -9,7 +9,7 @@ annecy = {
 	history = {
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 200
+				bureaucrats.french.catholic = 800
 			}
 		}
 	}

@@ -21,9 +21,9 @@ antwerp = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.ashkenazi.jewish = 25
-				clergymen.flemish.catholic = 875
-				clergymen.walloon.catholic = 50
+				clergymen.ashkenazi.jewish = 100
+				clergymen.flemish.catholic = 3500
+				clergymen.walloon.catholic = 200
 			}
 		}
 	}

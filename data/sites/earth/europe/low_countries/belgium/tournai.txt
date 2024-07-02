@@ -13,8 +13,8 @@ tournai = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.flemish.catholic = 100
-				clergymen.walloon.catholic = 625
+				clergymen.flemish.catholic = 400
+				clergymen.walloon.catholic = 2500
 			}
 		}
 	}

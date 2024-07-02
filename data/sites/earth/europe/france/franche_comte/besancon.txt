@@ -33,7 +33,7 @@ besancon = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 550
+				bureaucrats.french.catholic = 2200
 			}
 		}
 	}

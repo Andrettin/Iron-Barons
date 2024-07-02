@@ -11,7 +11,7 @@ bruges = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.flemish.catholic = 1125
+				clergymen.flemish.catholic = 4500
 			}
 		}
 	}

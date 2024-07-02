@@ -13,7 +13,7 @@ chalons = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 850
+				clergymen.french.catholic = 3400
 			}
 		}
 	}

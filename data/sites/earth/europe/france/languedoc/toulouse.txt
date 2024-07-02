@@ -27,7 +27,7 @@ toulouse = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 800
+				bureaucrats.french.catholic = 3200
 			}
 		}
 	}

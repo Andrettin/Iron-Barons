@@ -28,10 +28,10 @@ amsterdam = {
 		
 		1836 = {
 			population_groups = {
-				aristocrats.dutch.protestant = 500
-				bureaucrats.dutch.protestant = 1600
-				clergymen.ashkenazi.jewish = 75
-				clergymen.dutch.protestant = 550
+				aristocrats.dutch.protestant = 2000
+				bureaucrats.dutch.protestant = 6400
+				clergymen.ashkenazi.jewish = 300
+				clergymen.dutch.protestant = 2200
 			}
 		}
 		

@@ -30,7 +30,7 @@ nantes = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 1200
+				clergymen.french.catholic = 4800
 			}
 		}
 	}

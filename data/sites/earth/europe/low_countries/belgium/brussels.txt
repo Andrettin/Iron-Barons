@@ -8,15 +8,15 @@ brussels = {
 	history = {
 		1836 = {
 			population_groups = {
-				aristocrats.flemish.catholic = 1500
-				aristocrats.walloon.catholic = 300
-				bureaucrats.flemish.catholic = 800
-				bureaucrats.walloon.catholic = 1600
-				capitalists.flemish.catholic = 50
-				capitalists.walloon.catholic = 150
-				clergymen.ashkenazi.jewish = 25
-				clergymen.flemish.catholic = 1625
-				clergymen.walloon.catholic = 250
+				aristocrats.flemish.catholic = 6000
+				aristocrats.walloon.catholic = 1200
+				bureaucrats.flemish.catholic = 3200
+				bureaucrats.walloon.catholic = 6400
+				capitalists.flemish.catholic = 200
+				capitalists.walloon.catholic = 600
+				clergymen.ashkenazi.jewish = 100
+				clergymen.flemish.catholic = 6500
+				clergymen.walloon.catholic = 1000
 			}
 		}
 	}

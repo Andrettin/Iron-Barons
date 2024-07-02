@@ -13,7 +13,7 @@ namur = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.walloon.catholic = 550
+				clergymen.walloon.catholic = 2200
 			}
 		}
 	}

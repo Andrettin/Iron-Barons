@@ -13,8 +13,8 @@ verdun = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 625
-				clergymen.german.catholic = 50
+				clergymen.french.catholic = 2500
+				clergymen.german.catholic = 200
 			}
 		}
 	}

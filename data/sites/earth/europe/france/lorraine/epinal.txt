@@ -7,8 +7,8 @@ epinal = {
 	history = {
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 1100
-				clergymen.german.catholic = 50
+				clergymen.french.catholic = 4400
+				clergymen.german.catholic = 200
 			}
 		}
 	}

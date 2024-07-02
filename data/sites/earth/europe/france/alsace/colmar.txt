@@ -15,9 +15,9 @@ colmar = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 300
-				clergymen.alsatian.catholic = 300
-				clergymen.alsatian.protestant = 375
+				clergymen.french.catholic = 1200
+				clergymen.alsatian.catholic = 1200
+				clergymen.alsatian.protestant = 1500
 			}
 		}
 	}

@@ -52,9 +52,9 @@ paris = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 1500
-				clergymen.french.catholic = 4000
-				clergymen.french.jewish = 50
+				bureaucrats.french.catholic = 6000
+				clergymen.french.catholic = 16000
+				clergymen.french.jewish = 200
 			}
 		}
 	}

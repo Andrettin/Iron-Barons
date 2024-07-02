@@ -25,7 +25,7 @@ orleans = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 700
+				bureaucrats.french.catholic = 2800
 			}
 		}
 	}

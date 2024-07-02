@@ -9,7 +9,7 @@ saint_brieuc = {
 	history = {
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 1500
+				clergymen.french.catholic = 6000
 			}
 		}
 	}

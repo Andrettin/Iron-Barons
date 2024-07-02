@@ -9,7 +9,7 @@ charleville_mezieres = {
 	history = {
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 750
+				clergymen.french.catholic = 3000
 			}
 		}
 	}

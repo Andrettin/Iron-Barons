@@ -30,7 +30,7 @@ amiens = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 1375
+				clergymen.french.catholic = 5500
 			}
 		}
 	}

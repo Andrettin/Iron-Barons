@@ -21,7 +21,7 @@ caen = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 2750
+				clergymen.french.catholic = 11000
 			}
 		}
 	}

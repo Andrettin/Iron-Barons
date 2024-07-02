@@ -15,8 +15,8 @@ ghent = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.flemish.catholic = 1750
-				clergymen.walloon.catholic = 50
+				clergymen.flemish.catholic = 7000
+				clergymen.walloon.catholic = 200
 			}
 		}
 	}

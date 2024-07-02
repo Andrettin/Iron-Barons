@@ -28,9 +28,9 @@ metz = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 625
-				clergymen.german.catholic = 275
-				clergymen.german.protestant = 75
+				clergymen.french.catholic = 2500
+				clergymen.german.catholic = 1100
+				clergymen.german.protestant = 300
 			}
 		}
 	}

@@ -15,9 +15,9 @@ liege = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.dutch.protestant = 75
-				clergymen.flemish.catholic = 150
-				clergymen.walloon.catholic = 850
+				clergymen.dutch.protestant = 300
+				clergymen.flemish.catholic = 600
+				clergymen.walloon.catholic = 3400
 			}
 		}
 	}

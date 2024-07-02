@@ -24,8 +24,8 @@ troyes = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 750
-				clergymen.french.catholic = 750
+				bureaucrats.french.catholic = 3000
+				clergymen.french.catholic = 3000
 			}
 		}
 	}

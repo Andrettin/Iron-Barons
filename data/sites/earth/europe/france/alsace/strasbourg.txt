@@ -47,13 +47,13 @@ strasbourg = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.alsatian.catholic = 250
-				bureaucrats.alsatian.protestant = 200
-				bureaucrats.french.catholic = 150
-				clergymen.alsatian.catholic = 375
-				clergymen.alsatian.protestant = 400
-				clergymen.alsatian.jewish = 25
-				clergymen.french.catholic = 250
+				bureaucrats.alsatian.catholic = 1000
+				bureaucrats.alsatian.protestant = 800
+				bureaucrats.french.catholic = 600
+				clergymen.alsatian.catholic = 1500
+				clergymen.alsatian.protestant = 1600
+				clergymen.alsatian.jewish = 100
+				clergymen.french.catholic = 1000
 			}
 		}
 	}

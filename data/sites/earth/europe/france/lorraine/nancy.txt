@@ -14,11 +14,11 @@ nancy = {
 		
 		1836 = {
 			population_groups = {
-				bureaucrats.french.catholic = 600
-				bureaucrats.german.catholic = 175
-				clergymen.french.catholic = 1050
-				clergymen.german.catholic = 50
-				clergymen.german.jewish = 25
+				bureaucrats.french.catholic = 2400
+				bureaucrats.german.catholic = 700
+				clergymen.french.catholic = 4200
+				clergymen.german.catholic = 200
+				clergymen.german.jewish = 100
 			}
 		}
 	}

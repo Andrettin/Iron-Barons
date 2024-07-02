@@ -13,7 +13,7 @@ cambrai = {
 		
 		1836 = {
 			population_groups = {
-				clergymen.french.catholic = 700
+				clergymen.french.catholic = 2800
 			}
 		}
 	}
