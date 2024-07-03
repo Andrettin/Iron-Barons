@@ -1,3 +1,13 @@
+george_washington = {
+	filepath = "portraits/characters/george_washington.png"
+	character_conditions = {
+		gender = male
+		culture = english #American
+		is_ruler = true
+		birth_year >= 1700
+	}
+}
+
 jp_morgan = {
 	filepath = "portraits/characters/jp_morgan.png"
 	character_conditions = {

@@ -22,6 +22,7 @@ george_washington = {
 	role = ruler
 	culture = english
 	religion = protestant
+	portrait = george_washington
 	home_site = fredericksburg
 	gender = male
 	birth_date = 1732
