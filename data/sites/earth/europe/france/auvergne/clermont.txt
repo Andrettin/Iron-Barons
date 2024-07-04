@@ -20,6 +20,7 @@ clermont = {
 		1836 = {
 			population_groups = {
 				bureaucrats.french.catholic = 3400
+				clergymen.french.catholic = 7000
 			}
 		}
 	}

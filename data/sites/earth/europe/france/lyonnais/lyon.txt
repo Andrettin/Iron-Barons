@@ -27,6 +27,8 @@ lyon = {
 		1836 = {
 			population_groups = {
 				bureaucrats.french.catholic = 6600
+				clergymen.french.catholic = 8000
+				clergymen.french.jewish = 100
 			}
 		}
 	}

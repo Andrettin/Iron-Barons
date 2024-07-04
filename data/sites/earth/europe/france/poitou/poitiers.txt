@@ -25,5 +25,11 @@ poitiers = {
 		1789 = {
 			buildings += courthouse #Prévôt des maréchaux existent in Poitiers in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
 		}
+		
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 2900
+			}
+		}
 	}
 }

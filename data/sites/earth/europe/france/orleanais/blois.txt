@@ -4,4 +4,13 @@ blois = {
 	geocoordinate = { 1.3272222222222 47.593055555556 }
 	type = resource
 	resource = grain
+	province = orleanais
+	
+	history = {
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 2400
+			}
+		}
+	}
 }
