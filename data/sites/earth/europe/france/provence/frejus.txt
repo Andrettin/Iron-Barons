@@ -4,4 +4,13 @@ frejus = {
 	geocoordinate = { 6.7355555555556 43.433055555556 }
 	type = resource
 	resource = silk
+	province = provence
+	
+	history = {
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 1400
+			}
+		}
+	}
 }

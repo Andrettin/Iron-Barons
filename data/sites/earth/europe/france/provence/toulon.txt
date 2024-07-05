@@ -4,4 +4,13 @@ toulon = {
 	geocoordinate = { 5.91882156569 43.13418645070 } #from Natural Earth
 	type = resource
 	resource = silk
+	province = provence
+	
+	history = {
+		1836 = {
+			population_groups = {
+				clergymen.french.catholic = 2200
+			}
+		}
+	}
 }

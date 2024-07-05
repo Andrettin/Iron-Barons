@@ -16,5 +16,11 @@ nice = {
 		395 = {
 			buildings += cathedral #Nicaea was the seat of a bishopric in 395; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 42-43.
 		}
+		
+		1836 = {
+			population_groups = {
+				clergymen.italian.catholic = 1700
+			}
+		}
 	}
 }
