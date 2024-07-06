@@ -8,6 +8,6 @@ food_packing_system = {
 		mechanized_slaughtering_block
 	}
 	modifier = {
-		canned_food_throughput_modifier = 2
+		canned_food_throughput_modifier = 10
 	}
 }

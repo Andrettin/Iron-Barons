@@ -9,6 +9,6 @@ jigs = {
 		high_pressure_steam_engine
 	}
 	modifier = {
-		furniture_throughput_modifier = 2
+		furniture_throughput_modifier = 10
 	}
 }
