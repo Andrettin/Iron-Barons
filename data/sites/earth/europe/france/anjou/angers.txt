@@ -19,6 +19,7 @@ angers = {
 			population_groups = {
 				bureaucrats.french.catholic = 4800
 				clergymen.french.catholic = 7600
+				officers.french.catholic = 2000
 			}
 		}
 	}

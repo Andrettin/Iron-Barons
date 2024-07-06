@@ -38,6 +38,7 @@ corsica = {
 			population_groups = {
 				bureaucrats.french.catholic = 400
 				clergymen.french.catholic = 2000
+				officers.french.catholic = 200
 			}
 		}
 	}

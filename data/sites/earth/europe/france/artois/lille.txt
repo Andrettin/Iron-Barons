@@ -20,6 +20,7 @@ lille = {
 			population_groups = {
 				bureaucrats.french.catholic = 7000
 				clergymen.french.catholic = 8000
+				officers.french.catholic = 3000
 			}
 		}
 	}

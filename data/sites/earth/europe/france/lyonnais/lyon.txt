@@ -29,6 +29,7 @@ lyon = {
 				bureaucrats.french.catholic = 6600
 				clergymen.french.catholic = 8000
 				clergymen.french.jewish = 100
+				officers.french.catholic = 2800
 			}
 		}
 	}

@@ -20,6 +20,7 @@ brest = {
 			population_groups = {
 				bureaucrats.french.catholic = 6200
 				clergymen.french.catholic = 5400
+				officers.french.catholic = 3000
 			}
 		}
 	}

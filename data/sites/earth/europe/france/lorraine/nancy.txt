@@ -19,6 +19,7 @@ nancy = {
 				clergymen.french.catholic = 4200
 				clergymen.german.catholic = 200
 				clergymen.german.jewish = 100
+				officers.french.catholic = 1600
 			}
 		}
 	}

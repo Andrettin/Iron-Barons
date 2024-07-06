@@ -55,6 +55,7 @@ paris = {
 				bureaucrats.french.catholic = 6000
 				clergymen.french.catholic = 16000
 				clergymen.french.jewish = 200
+				officers.french.catholic = 3200
 			}
 		}
 	}

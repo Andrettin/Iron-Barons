@@ -26,6 +26,7 @@ marseilles = {
 			population_groups = {
 				bureaucrats.french.catholic = 2800
 				clergymen.french.catholic = 3600
+				officers.french.catholic = 1200
 			}
 		}
 	}

@@ -27,6 +27,7 @@ rouen = {
 			population_groups = {
 				bureaucrats.french.catholic = 6600
 				clergymen.french.catholic = 7000
+				officers.french.catholic = 3000
 			}
 		}
 	}

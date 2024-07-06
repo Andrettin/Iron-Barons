@@ -54,6 +54,9 @@ strasbourg = {
 				clergymen.alsatian.protestant = 1600
 				clergymen.alsatian.jewish = 100
 				clergymen.french.catholic = 1000
+				officers.alsatian.catholic = 240
+				officers.alsatian.protestant = 240
+				officers.french.catholic = 320
 			}
 		}
 	}

@@ -20,6 +20,7 @@ limoges = {
 			population_groups = {
 				bureaucrats.french.catholic = 3800
 				clergymen.french.catholic = 2800
+				officers.french.catholic = 1800
 			}
 		}
 	}

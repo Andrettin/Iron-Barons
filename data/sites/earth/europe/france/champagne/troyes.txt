@@ -26,6 +26,7 @@ troyes = {
 			population_groups = {
 				bureaucrats.french.catholic = 3000
 				clergymen.french.catholic = 3000
+				officers.french.catholic = 1200
 			}
 		}
 	}
