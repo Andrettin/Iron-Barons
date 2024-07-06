@@ -10,10 +10,7 @@ war_college = {
 		metropolis
 		castle
 	}
-	production_types = {
-		leadership_production
-	}
-	stackable_country_modifier = {
-		war_college_capacity = 4
+	settlement_modifier = {
+		max_officers = 2
 	}
 }
