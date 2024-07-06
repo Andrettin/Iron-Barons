@@ -1,6 +1,6 @@
 sanitation = {
 	name = "Sanitation"
-	category = culture
+	category = industry
 	portrait = engineering
 	icon = architecture
 	year = 1550

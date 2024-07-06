@@ -1,0 +1,11 @@
+refrigeration = {
+	name = "Refrigeration"
+	category = culture
+	portrait = engineering
+	icon = research
+	year = 1875
+	prerequisites = {
+		electricity
+		sanitation
+	}
+}
