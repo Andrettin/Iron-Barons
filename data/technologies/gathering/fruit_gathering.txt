@@ -3,6 +3,7 @@ commercial_fertilizer = {
 	category = gathering
 	portrait = engineering
 	icon = fruit
+	year = 1850
 	prerequisites = {
 		moldboard_plow
 	}

@@ -37,6 +37,7 @@ feed_grasses = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
+	year = 1800
 	prerequisites = {
 		scientific_cattle_breeding
 		scientific_sheep_breeding
@@ -48,6 +49,7 @@ barbed_wire = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
+	year = 1850
 	prerequisites = {
 		feed_grasses
 	}

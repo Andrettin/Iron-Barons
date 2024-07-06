@@ -116,6 +116,7 @@ large_artillery = {
 	category = army
 	portrait = engineering
 	icon = cannon
+	year = 1850
 	prerequisites = {
 		rifled_artillery
 	}

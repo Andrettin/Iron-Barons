@@ -116,6 +116,7 @@ steel_armor_plate = {
 	category = navy
 	portrait = unload
 	icon = anchor
+	year = 1850
 	prerequisites = {
 		advanced_iron_working
 	}
@@ -126,6 +127,7 @@ marine_engineering = {
 	category = navy
 	portrait = unload
 	icon = anchor
+	year = 1875
 	prerequisites = {
 		steel_armor_plate
 	}
@@ -136,6 +138,7 @@ improved_range_finding = {
 	category = navy
 	portrait = unload
 	icon = anchor
+	year = 1900
 	prerequisites = {
 		marine_engineering
 	}

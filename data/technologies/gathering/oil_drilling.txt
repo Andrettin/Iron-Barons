@@ -3,6 +3,7 @@ oil_drilling = {
 	category = gathering
 	portrait = factory
 	icon = oil
+	year = 1850
 	prerequisites = {
 		geological_prospecting #to place it later in the tech tree
 	}
@@ -13,6 +14,7 @@ chemistry = {
 	category = gathering
 	portrait = factory
 	icon = fuel
+	year = 1875
 	prerequisites = {
 		oil_drilling
 		barbed_wire
@@ -26,6 +28,7 @@ internal_combustion = {
 	category = gathering
 	portrait = factory
 	icon = fuel
+	year = 1900
 	prerequisites = {
 		chemistry
 	}

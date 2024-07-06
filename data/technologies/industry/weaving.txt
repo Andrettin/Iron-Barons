@@ -30,6 +30,7 @@ power_loom = {
 	category = gathering
 	portrait = factory
 	icon = fabric
+	year = 1825
 	prerequisites = {
 		spinning_jenny
 	}
