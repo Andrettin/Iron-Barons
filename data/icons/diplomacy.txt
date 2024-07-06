@@ -18,6 +18,10 @@ non_aggression_pact = {
 	filepath = "icons/diplomacy/non_aggression_pact.png"
 }
 
+non_aggression_pact_shield = {
+	filepath = "icons/diplomacy/non_aggression_pact_shield.png"
+}
+
 peace = {
 	filepath = "icons/diplomacy/peace.png"
 }

@@ -59,7 +59,7 @@ Rectangle {
 	
 	Image {
 		id: prestige_icon
-		source: "image://icon/embassy"
+		source: "image://icon/non_aggression_pact_shield"
 		anchors.top: parent.top
 		anchors.topMargin: 3 * scale_factor
 		anchors.left: wealth_label.left
