@@ -1,0 +1,10 @@
+putting_out_system = {
+	name = "Putting-Out System"
+	category = industry
+	portrait = engineering
+	icon = cog
+	year = 1750
+	prerequisites = {
+		banking
+	}
+}

@@ -1,0 +1,14 @@
+jigs = {
+	name = "Jigs"
+	category = industry
+	portrait = engineering
+	icon = furniture
+	year = 1825
+	prerequisites = {
+		mechanical_precision_saw
+		high_pressure_steam_engine
+	}
+	modifier = {
+		furniture_throughput_modifier = 2
+	}
+}

@@ -6,7 +6,7 @@ mechanical_precision_saw = {
 	year = 1800
 	prerequisites = {
 		circular_saw
-		dynamite
+		putting_out_system
 	}
 	modifier = {
 		lumber_throughput_modifier = 5

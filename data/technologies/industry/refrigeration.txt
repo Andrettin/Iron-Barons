@@ -1,11 +1,17 @@
 refrigeration = {
 	name = "Refrigeration"
-	category = culture
+	category = industry
 	portrait = engineering
 	icon = research
 	year = 1875
 	prerequisites = {
+		food_packing_system
 		electricity
 		sanitation
+	}
+	modifier = {
+		livestock_output_modifier = 20
+		fruit_output_modifier = 20
+		fish_output_modifier = 20
 	}
 }

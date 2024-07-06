@@ -45,6 +45,6 @@ mechanical_saw = {
 	year = 1800
 	prerequisites = {
 		circular_saw
-		dynamite
+		putting_out_system
 	}
 }

@@ -44,6 +44,21 @@ feed_grasses = {
 	}
 }
 
+mechanized_slaughtering_block = {
+	name = "Mechanized Slaughtering-Block"
+	category = gathering
+	portrait = engineering
+	icon = cattle
+	year = 1800
+	prerequisites = {
+		scientific_cattle_breeding
+		putting_out_system
+	}
+	modifier = {
+		livestock_output_modifier = 20
+	}
+}
+
 barbed_wire = {
 	name = "Barbed Wire"
 	category = gathering

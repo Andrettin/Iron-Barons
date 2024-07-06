@@ -1,0 +1,13 @@
+food_packing_system = {
+	name = "Food Packing System"
+	category = industry
+	portrait = engineering
+	icon = lumber
+	year = 1825
+	prerequisites = {
+		mechanized_slaughtering_block
+	}
+	modifier = {
+		canned_food_throughput_modifier = 2
+	}
+}
