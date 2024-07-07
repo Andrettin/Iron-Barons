@@ -8,6 +8,7 @@ DialogBase {
 	height: ok_button.y + ok_button.height + 8 * scale_factor
 	
 	property string modifier_string: ""
+	property string date_string: ""
 	property string description: ""
 	
 	SmallText {
@@ -16,11 +17,21 @@ DialogBase {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: format_text(modifier_string)
+		visible: modifier_string.length > 0
+	}
+	
+	SmallText {
+		id: date_text
+		anchors.top: modifier_text.visible ? modifier_text.bottom : title_item.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		text: date_string
+		visible: date_string.length > 0
 	}
 	
 	SmallText {
 		id: description_text
-		anchors.top: modifier_text.bottom
+		anchors.top: date_text.visible ? date_text.bottom : modifier_text.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 8 * scale_factor
@@ -33,7 +44,9 @@ DialogBase {
 	
 	TextButton {
 		id: ok_button
-		anchors.top: description_text.visible ? description_text.bottom : modifier_text.bottom
+		anchors.top: description_text.visible ? description_text.bottom
+			: (date_text.visible ? date_text.bottom
+				: (modifier_text.visible ? modifier_text.bottom : title_item.bottom))
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "OK"
