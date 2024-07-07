@@ -8,6 +8,12 @@ mechanical_precision_saw = {
 		circular_saw
 		putting_out_system
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			technology = mechanical_saw
+		}
+	}
 	modifier = {
 		lumber_throughput_modifier = 5
 	}
