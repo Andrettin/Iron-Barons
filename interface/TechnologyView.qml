@@ -159,9 +159,7 @@ Item {
 			readonly property var technology: model.modelData
 			
 			onClicked: {
-				technology_dialog.title = technology.name
-				technology_dialog.modifier_string = technology.get_effects_string(metternich.game.player_country)
-				technology_dialog.description = technology.description
+				technology_dialog.technology = technology
 				technology_dialog.open()
 			}
 		}
@@ -195,7 +193,7 @@ Item {
 		anchors.right: button_panel.left
 	}
 	
-	ModifierDialog {
+	TechnologyDialog {
 		id: technology_dialog
 	}
 	
