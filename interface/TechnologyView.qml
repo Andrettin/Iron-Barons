@@ -110,7 +110,7 @@ Item {
 					
 					SmallText {
 						id: research_cost_label
-						text: number_string(Math.floor(technology.cost * country_game_data.research_cost_modifier / 100))
+						text: number_string(technology.get_cost_for_country(country))
 						anchors.left: research_cost_icon.right
 						anchors.leftMargin: 4 * scale_factor
 						anchors.verticalCenter: research_cost_icon.verticalCenter

@@ -29,7 +29,7 @@ Rectangle {
 	
 	SmallText {
 		id: research_cost_label
-		text: "(" + number_string(country_game_data.current_research ? Math.floor(country_game_data.current_research.cost * country_game_data.research_cost_modifier / 100) : 0) + ")"
+		text: "(" + number_string(country_game_data.current_research ? country_game_data.current_research.get_cost_for_country(country) : 0) + ")"
 		anchors.top: research_counter.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
