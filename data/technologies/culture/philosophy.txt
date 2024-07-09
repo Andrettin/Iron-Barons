@@ -86,3 +86,48 @@ analytic_philosophy = {
 		research_output_modifier = 5
 	}
 }
+
+phenomenology = {
+	name = "Phenomenology"
+	category = culture
+	portrait = scholar
+	icon = research
+	year = 1875
+	shared_prestige = 20
+	prerequisites = {
+		analytic_philosophy
+	}
+	modifier = {
+		research_output_modifier = 3
+	}
+}
+
+hermeneutics = {
+	name = "Hermeneutics"
+	category = culture
+	portrait = scholar
+	icon = research
+	year = 1875
+	shared_prestige = 20
+	prerequisites = {
+		analytic_philosophy
+	}
+	modifier = {
+		research_output_modifier = 2
+	}
+}
+
+anti_rationalism = {
+	name = "Anti-Rationalism"
+	category = culture
+	portrait = scholar
+	icon = research
+	year = 1900
+	prerequisites = {
+		phenomenology
+		hermeneutics
+	}
+	modifier = {
+		research_output_modifier = 5
+	}
+}
