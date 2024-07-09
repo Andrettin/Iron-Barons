@@ -301,12 +301,13 @@ Rectangle {
 	SmallText {
 		id: population_info_text
 		anchors.top: title.bottom
-		anchors.topMargin: 16 * scale_factor
+		anchors.topMargin: 12 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
 		text: selected_site_game_data ? format_text(
 			"Population: " + number_string(selected_site_game_data.population.size)
 			 + "\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing
+			 + "\nLiteracy: " + selected_site_game_data.population.literacy_rate + "%"
 			 + "\nConsciousness: " + selected_site_game_data.population.average_consciousness
 			 + "\nMilitancy: " + selected_site_game_data.population.average_militancy
 		) : ""
@@ -316,7 +317,7 @@ Rectangle {
 	Grid {
 		id: population_chart_grid
 		anchors.top: population_info_text.bottom
-		anchors.topMargin: 16 * scale_factor
+		anchors.topMargin: 12 * scale_factor
 		anchors.bottom: end_turn_button_internal.top
 		anchors.bottomMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
