@@ -13,7 +13,7 @@ classicism = {
 	name = "Classicism"
 	category = culture
 	portrait = engineering
-	icon = music
+	icon = painting
 	year = 1750
 	prerequisites = {
 		music_theory
@@ -29,8 +29,9 @@ romanticism = {
 	name = "Romanticism"
 	category = culture
 	portrait = engineering
-	icon = music
+	icon = painting
 	year = 1800
+	shared_prestige = 15
 	prerequisites = {
 		classicism
 	}
@@ -43,8 +44,9 @@ realism = {
 	name = "Realism"
 	category = culture
 	portrait = engineering
-	icon = music
+	icon = painting
 	year = 1825
+	shared_prestige = 30
 	prerequisites = {
 		romanticism
 	}
@@ -57,8 +59,9 @@ impressionism = {
 	name = "Impressionism"
 	category = culture
 	portrait = engineering
-	icon = music
+	icon = painting
 	year = 1850
+	shared_prestige = 45
 	prerequisites = {
 		realism
 	}
@@ -71,12 +74,90 @@ expressionism = {
 	name = "Expressionism"
 	category = culture
 	portrait = engineering
-	icon = music
+	icon = painting
 	year = 1875
+	shared_prestige = 60
 	prerequisites = {
 		impressionism
 	}
 	modifier = {
 		prestige_output_modifier = 5
+	}
+}
+
+mass_culture = {
+	name = "Mass Culture"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1900
+	prerequisites = {
+		expressionism
+	}
+	modifier = {
+		prestige_output_modifier = 3
+	}
+}
+
+avant_garde_art = {
+	name = "Avant-garde Art"
+	category = culture
+	portrait = engineering
+	icon = painting
+	year = 1900
+	shared_prestige = 75
+	prerequisites = {
+		expressionism
+	}
+	modifier = {
+		prestige_output_modifier = 2
+	}
+}
+
+jazz = {
+	name = "Jazz"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1900
+	shared_prestige = 25
+	prerequisites = {
+		expressionism
+	}
+}
+
+modern_design = {
+	name = "Modern Design"
+	category = culture
+	portrait = engineering
+	icon = painting
+	year = 1900
+	shared_prestige = 25
+	prerequisites = {
+		expressionism
+	}
+}
+
+socialist_realism = {
+	name = "Socialist Realism"
+	category = culture
+	portrait = engineering
+	icon = painting
+	year = 1900
+	shared_prestige = 25
+	prerequisites = {
+		expressionism
+	}
+}
+
+surrealism = {
+	name = "Surrealism"
+	category = culture
+	portrait = engineering
+	icon = painting
+	year = 1900
+	shared_prestige = 25
+	prerequisites = {
+		expressionism
 	}
 }
