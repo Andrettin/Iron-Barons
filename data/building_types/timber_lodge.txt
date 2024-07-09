@@ -26,7 +26,7 @@ timber_lodge = {
 }
 
 improved_timber_lodge = {
-	name = "Improved Orchard"
+	name = "Improved Timber Lodge"
 	building_class = improved_timber_lodge
 	portrait = aristocratic_palace
 	icon = timber
@@ -55,7 +55,7 @@ improved_timber_lodge = {
 }
 
 advanced_timber_lodge = {
-	name = "Mechanized Orchard"
+	name = "Advanced Timber Lodge"
 	building_class = advanced_timber_lodge
 	portrait = aristocratic_palace
 	icon = timber
@@ -82,7 +82,7 @@ advanced_timber_lodge = {
 }
 
 mechanized_timber_lodge = {
-	name = "Industrial Orchard"
+	name = "Mechanized Timber Lodge"
 	building_class = mechanized_timber_lodge
 	portrait = aristocratic_palace
 	icon = timber
