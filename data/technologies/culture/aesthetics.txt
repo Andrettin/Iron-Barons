@@ -1,3 +1,65 @@
+ballads = {
+	name = "Ballads"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1200
+	prerequisites = {
+		invention
+	}
+	modifier = {
+		bureaucrats_militancy_modifier = -0.01
+		elder_statesmen_militancy_modifier = -0.01
+		capitalists_militancy_modifier = -0.01
+	}
+}
+
+music_notation_system = {
+	name = "Music Notation System"
+	category = culture
+	portrait = temple
+	icon = music
+	year = 1100
+	prerequisites = {
+		monotheism
+	}
+	modifier = {
+		clergymen_militancy_modifier = -0.01
+		firebrand_preachers_militancy_modifier = -0.01
+	}
+}
+
+choir_songs = {
+	name = "Choir Songs"
+	category = culture
+	portrait = temple
+	icon = music
+	year = 1200
+	prerequisites = {
+		monotheism
+	}
+	modifier = {
+		clergymen_militancy_modifier = -0.01
+		firebrand_preachers_militancy_modifier = -0.01
+	}
+}
+
+tapestries = {
+	name = "Tapestries"
+	category = culture
+	portrait = temple
+	icon = painting
+	year = 1300
+	prerequisites = {
+		monotheism
+	}
+	modifier = {
+		clergymen_militancy_modifier = -0.01
+		firebrand_preachers_militancy_modifier = -0.01
+		piety_output_modifier = 5
+	}
+}
+
 music_theory = {
 	name = "Music Theory"
 	category = culture
@@ -5,6 +67,10 @@ music_theory = {
 	icon = music
 	year = 1500
 	prerequisites = {
+		music_notation_system
+		ballads
+		choir_songs
+		
 		university
 	}
 }

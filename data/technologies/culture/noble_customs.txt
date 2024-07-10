@@ -1,0 +1,72 @@
+divine_right = {
+	name = "Divine Right"
+	category = culture
+	portrait = grand_ducal_crown
+	icon = crown_royal
+	year = 1000
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		aristocrats_militancy_modifier = -0.01
+	}
+}
+
+chronicle_writing = {
+	name = "Chronicle Writing"
+	category = culture
+	portrait = comital_crown
+	icon = treaty
+	year = 1100
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		aristocrats_militancy_modifier = -0.01
+	}
+}
+
+romantic_poetry = {
+	name = "Romantic Poetry"
+	category = culture
+	portrait = comital_crown
+	icon = music
+	year = 1200
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		aristocrats_militancy_modifier = -0.01
+	}
+}
+
+heraldry = {
+	name = "Heraldry"
+	category = culture
+	portrait = comital_crown
+	icon = heater_shield
+	year = 1300
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		aristocrats_militancy_modifier = -0.01
+		prestige_output_modifier = 5
+	}
+}
+
+noblesse_oblige = {
+	name = "Noblesse Oblige"
+	category = culture
+	portrait = comital_crown
+	icon = crown_comital
+	year = 1400
+	prerequisites = {
+		#heraldry
+		feudalism
+	}
+	modifier = {
+		aristocrats_militancy_modifier = -0.01
+		prestige_output_modifier = 5
+	}
+}
