@@ -1,0 +1,74 @@
+soft_leather_armor = {
+	name = "Soft Leather Armor"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1000
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		archers_defense_modifier = 0.2
+		crossbowmen_defense_modifier = 0.2
+	}
+}
+
+reinforced_leather_armor = {
+	name = "Reinforced Leather Armor"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1100
+	prerequisites = {
+		soft_leather_armor
+	}
+	modifier = {
+		archers_defense_modifier = 0.2
+		crossbowmen_defense_modifier = 0.2
+	}
+}
+
+boiled_leather_armor = {
+	name = "Boiled Leather Armor"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1200
+	prerequisites = {
+		reinforced_leather_armor
+	}
+	modifier = {
+		archers_defense_modifier = 0.2
+		crossbowmen_defense_modifier = 0.2
+	}
+}
+
+rigid_leather_armor = {
+	name = "Rigid Leather Armor"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1300
+	prerequisites = {
+		boiled_leather_armor
+	}
+	modifier = {
+		archers_defense_modifier = 0.2
+		crossbowmen_defense_modifier = 0.2
+	}
+}
+
+scaled_leather_armor = {
+	name = "Scaled Leather Armor"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1400
+	prerequisites = {
+		rigid_leather_armor
+	}
+	modifier = {
+		archers_defense_modifier = 0.2
+		crossbowmen_defense_modifier = 0.2
+	}
+}

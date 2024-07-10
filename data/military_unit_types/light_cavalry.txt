@@ -8,6 +8,7 @@ squires = {
 		defense = 4
 		movement = 6
 	}
+	required_technology = chivalry
 	commodity_costs = {
 		fabric = 1
 		cast_iron = 1

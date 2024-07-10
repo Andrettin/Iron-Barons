@@ -20,5 +20,7 @@ halberd = {
 		pike
 		organized_regiments
 		iron_mining
+		
+		plated_chainmail #to represent Halberdiers having higher defense than Pikemen
 	}
 }
