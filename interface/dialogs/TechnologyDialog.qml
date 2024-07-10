@@ -10,5 +10,4 @@ ModifierDialog {
 	description: technology ? technology.description : ""
 	
 	property var technology: null
-	readonly property bool is_ruler: character ? character === ruler : false
 }
