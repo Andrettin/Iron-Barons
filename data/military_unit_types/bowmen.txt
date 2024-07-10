@@ -2,11 +2,13 @@ archers = {
 	name = "Archers"
 	unit_class = archers
 	icon = crossbowmen
-	firepower = 2
-	melee = 1
-	range = 4
-	defense = 2
-	movement = 4
+	stats = {
+		firepower = 2
+		melee = 1
+		range = 4
+		defense = 2
+		movement = 4
+	}
 	entrench = true
 	required_technology = warrior_code
 }
@@ -15,11 +17,13 @@ crossbowmen = {
 	name = "Crossbowmen"
 	unit_class = crossbowmen
 	icon = crossbowmen
-	firepower = 3
-	melee = 1
-	range = 4
-	defense = 2
-	movement = 3
+	stats = {
+		firepower = 3
+		melee = 1
+		range = 4
+		defense = 2
+		movement = 3
+	}
 	entrench = true
 	commodity_costs = {
 		fabric = 1

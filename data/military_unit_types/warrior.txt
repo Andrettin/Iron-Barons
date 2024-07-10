@@ -2,9 +2,11 @@ warrior = {
 	name = "Warrior"
 	unit_class = warrior
 	icon = halberdiers
-	melee = 7
-	range = 1
-	defense = 6
-	movement = 4
+	stats = {
+		melee = 7
+		range = 1
+		defense = 6
+		movement = 4
+	}
 	entrench = true
 }

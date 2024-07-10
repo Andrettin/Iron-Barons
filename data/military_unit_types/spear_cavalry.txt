@@ -2,10 +2,12 @@ chariots = {
 	name = "Chariots"
 	unit_class = chariots
 	icon = knights
-	melee = 5
-	range = 1
-	defense = 5
-	movement = 4
+	stats = {
+		melee = 5
+		range = 1
+		defense = 5
+		movement = 4
+	}
 	required_technology = wheel
 }
 
@@ -13,10 +15,12 @@ knights = {
 	name = "Knights"
 	unit_class = knights
 	icon = knights
-	melee = 6
-	range = 1
-	defense = 6
-	movement = 4
+	stats = {
+		melee = 6
+		range = 1
+		defense = 6
+		movement = 4
+	}
 	required_technology = chivalry
 	commodity_costs = {
 		fabric = 1
@@ -29,10 +33,12 @@ lancers = {
 	name = "Lancers"
 	unit_class = lancers
 	icon = knights
-	melee = 8
-	range = 1
-	defense = 5
-	movement = 6
+	stats = {
+		melee = 8
+		range = 1
+		defense = 5
+		movement = 6
+	}
 	required_technology = organized_regiments
 	commodity_costs = {
 		fabric = 1

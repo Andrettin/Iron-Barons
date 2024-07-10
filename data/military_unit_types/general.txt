@@ -2,25 +2,31 @@ general_napoleonic = {
 	name = "General"
 	unit_class = general_napoleonic
 	icon = general_napoleonic
-	range = 1
-	defense = 5
-	movement = 7
+	stats = {
+		range = 1
+		defense = 5
+		movement = 7
+	}
 }
 
 general_victorian = {
 	name = "General"
 	unit_class = general_victorian
 	icon = general_napoleonic
-	range = 1
-	defense = 7
-	movement = 9
+	stats = {
+		range = 1
+		defense = 7
+		movement = 9
+	}
 }
 
 general_modern = {
 	name = "General"
 	unit_class = general_modern
 	icon = general_napoleonic
-	range = 1
-	defense = 20
-	movement = 11
+	stats = {
+		range = 1
+		defense = 20
+		movement = 11
+	}
 }
