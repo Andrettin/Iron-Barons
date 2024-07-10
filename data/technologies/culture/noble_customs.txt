@@ -19,7 +19,7 @@ chronicle_writing = {
 	icon = treaty
 	year = 1100
 	prerequisites = {
-		feudalism
+		divine_right
 	}
 	modifier = {
 		aristocrats_militancy_modifier = -0.01
@@ -33,7 +33,7 @@ romantic_poetry = {
 	icon = music
 	year = 1200
 	prerequisites = {
-		feudalism
+		chronicle_writing
 	}
 	modifier = {
 		aristocrats_militancy_modifier = -0.01
@@ -47,7 +47,7 @@ heraldry = {
 	icon = heater_shield
 	year = 1300
 	prerequisites = {
-		feudalism
+		romantic_poetry
 	}
 	modifier = {
 		aristocrats_militancy_modifier = -0.01
@@ -62,8 +62,7 @@ noblesse_oblige = {
 	icon = crown_comital
 	year = 1400
 	prerequisites = {
-		#heraldry
-		feudalism
+		heraldry
 	}
 	modifier = {
 		aristocrats_militancy_modifier = -0.01
