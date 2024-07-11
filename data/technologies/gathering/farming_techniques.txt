@@ -1,0 +1,79 @@
+two_field_system = {
+	name = "Two-Field System"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	year = 1000
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		grain_output_modifier = 4
+		potatoes_output_modifier = 4
+		fruit_output_modifier = 4
+	}
+}
+
+three_field_system = {
+	name = "Three-Field System"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	year = 1100
+	prerequisites = {
+		two_field_system
+	}
+	modifier = {
+		grain_output_modifier = 4
+		potatoes_output_modifier = 4
+		fruit_output_modifier = 4
+	}
+}
+
+stripe_plowing = {
+	name = "Stripe Plowing"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	year = 1200
+	prerequisites = {
+		three_field_system
+	}
+	modifier = {
+		grain_output_modifier = 3
+		potatoes_output_modifier = 3
+		fruit_output_modifier = 3
+	}
+}
+
+soil_amelioration = {
+	name = "Soil Amelioration"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	year = 1300
+	prerequisites = {
+		stripe_plowing
+	}
+	modifier = {
+		grain_output_modifier = 2
+		potatoes_output_modifier = 2
+		fruit_output_modifier = 2
+	}
+}
+
+rooting_out = {
+	name = "Rooting Out"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	year = 1400
+	prerequisites = {
+		soil_amelioration
+	}
+	modifier = {
+		grain_output_modifier = 1
+		potatoes_output_modifier = 1
+		fruit_output_modifier = 1
+	}
+}
