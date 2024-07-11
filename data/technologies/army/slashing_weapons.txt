@@ -1,0 +1,43 @@
+shortsword = {
+	name = "Shortsword"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1000
+	prerequisites = {
+		warrior_code
+		ironworking
+		feudalism
+	}
+	modifier = {
+		squires_melee_modifier = 0.33
+	}
+}
+
+broadsword = {
+	name = "Broadsword"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1100
+	prerequisites = {
+		shortsword
+	}
+	modifier = {
+		squires_melee_modifier = 0.33
+	}
+}
+
+longsword = {
+	name = "Longsword"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1200
+	prerequisites = {
+		broadsword
+	}
+	modifier = {
+		squires_melee_modifier = 0.34
+	}
+}

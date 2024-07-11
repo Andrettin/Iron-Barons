@@ -1,12 +1,56 @@
+longspear = {
+	name = "Longspear"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1000
+	prerequisites = {
+		warrior_code
+		ironworking
+		feudalism
+	}
+	modifier = {
+		spearmen_melee_modifier = 0.5
+	}
+}
+
 pike = {
 	name = "Pike"
 	category = army
 	portrait = helmet
 	icon = saber
-	year = -1000
+	year = 1100
 	prerequisites = {
-		ironworking
-		warrior_code
+		longspear
+	}
+}
+
+lance = {
+	name = "Lance"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1200
+	prerequisites = {
+		pike
+		chivalry
+	}
+	modifier = {
+		knights_melee_modifier = 0.5
+	}
+}
+
+heavy_lance = {
+	name = "Heavy Lance"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1400
+	prerequisites = {
+		lance
+	}
+	modifier = {
+		knights_melee_modifier = 0.5
 	}
 }
 
@@ -21,6 +65,6 @@ halberd = {
 		organized_regiments
 		iron_mining
 		
-		plated_chainmail #to represent Halberdiers having higher defense than Pikemen
+		plated_chainmail #to represent Halberdiers having higher defense than Pikemen, and to make that technology not a dead-end one
 	}
 }

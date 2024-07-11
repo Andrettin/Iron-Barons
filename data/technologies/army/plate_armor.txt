@@ -1,0 +1,75 @@
+scalemail = {
+	name = "Scalemail"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1000
+	prerequisites = {
+		feudalism
+		ironworking
+	}
+	modifier = {
+		chariots_defense_modifier = 0.2
+		knights_defense_modifier = 0.2
+	}
+}
+
+banded_mail = {
+	name = "Banded Mail"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1100
+	prerequisites = {
+		scalemail
+	}
+	modifier = {
+		chariots_defense_modifier = 0.2
+		knights_defense_modifier = 0.2
+	}
+}
+
+half_plate = {
+	name = "Half Plate"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1200
+	prerequisites = {
+		banded_mail
+	}
+	modifier = {
+		chariots_defense_modifier = 0.2
+		knights_defense_modifier = 0.2
+	}
+}
+
+platemail = {
+	name = "Platemail"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1300
+	prerequisites = {
+		half_plate
+	}
+	modifier = {
+		chariots_defense_modifier = 0.2
+		knights_defense_modifier = 0.2
+	}
+}
+
+full_plate = {
+	name = "Full Plate"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1400
+	prerequisites = {
+		platemail
+	}
+	modifier = {
+		chariots_defense_modifier = 0.2
+		knights_defense_modifier = 0.2
+	}
+}
