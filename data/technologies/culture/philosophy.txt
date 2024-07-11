@@ -11,6 +11,43 @@ philosophy = {
 	}
 }
 
+aristotelian_logic = {
+	name = "Aristotelian Logic"
+	category = culture
+	portrait = scholar
+	icon = philosophy
+	year = 1000
+	prerequisites = {
+		philosophy
+		
+		monotheism
+	}
+}
+
+scholastics = {
+	name = "Scholastics"
+	category = culture
+	portrait = frankish_cleric
+	icon = wooden_cross
+	year = 1100
+	prerequisites = {
+		aristotelian_logic
+		theology
+	}
+}
+
+natural_philosophy = {
+	name = "Natural Philosophy"
+	category = culture
+	portrait = scholar
+	icon = philosophy
+	year = 1300
+	prerequisites = {
+		astrology
+		mathematics
+	}
+}
+
 scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 	name = "Scientific Method"
 	category = culture
@@ -18,6 +55,8 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 	icon = research
 	year = 1620
 	prerequisites = {
+		natural_philosophy
+		
 		printing_press
 		apprentice_workers
 		moneylending

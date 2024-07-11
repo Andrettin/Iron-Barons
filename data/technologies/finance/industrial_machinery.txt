@@ -5,8 +5,8 @@ industrial_machinery = {
 	icon = cog
 	year = 1650
 	prerequisites = {
+		steam_in_mining
 		scientific_method
 		trained_journeymen
-		steam_in_mining
 	}
 }

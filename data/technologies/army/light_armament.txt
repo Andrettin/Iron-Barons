@@ -8,7 +8,7 @@ gunpowder = {
 		alchemy
 		invention
 		
-		university
+		natural_philosophy
 	}
 }
 

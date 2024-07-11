@@ -6,25 +6,3 @@
 #		philosophy
 #	}
 #}
-
-#natural_philosophy = {
-#	name = "Natural Philosophy"
-#	category = industry
-#	portrait = engineering
-#	prerequisites = {
-#		philosophy
-#		mathematics
-#		alchemy
-#		logics
-#	}
-#}
-
-#enlightenment_philosophy = {
-#	name = "Enlightenment Philosophy"
-#	category = industry
-#	portrait = engineering
-#	prerequisites = {
-#		#scientific_method
-#		printing_press
-#	}
-#}

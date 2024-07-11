@@ -1,8 +1,0 @@
-#music_notation_system = {
-#	name = "Music Notation System"
-#	category = industry
-#	portrait = engineering
-#	prerequisites = {
-#		writing
-#	}
-#}

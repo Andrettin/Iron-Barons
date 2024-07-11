@@ -1,3 +1,14 @@
+astrology = {
+	name = "Astrology"
+	category = culture
+	portrait = engineering
+	icon = research
+	year = 1200
+	prerequisites = {
+		scholastics
+	}
+}
+
 astronomy = {
 	name = "Astronomy"
 	category = culture
@@ -5,6 +16,8 @@ astronomy = {
 	icon = research
 	year = 1543 #development of the Heliocentric Model; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 209-211.
 	prerequisites = {
+		astrology
+		
 		mathematics
 		mysticism
 		
