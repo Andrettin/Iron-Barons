@@ -40,6 +40,21 @@ monotheism = {
 	}
 }
 
+relics = {
+	name = "Relics"
+	category = culture
+	portrait = temple
+	icon = wooden_cross
+	year = 1000
+	prerequisites = {
+		monotheism
+	}
+	modifier = {
+		clergymen_militancy_modifier = -0.01
+		firebrand_preachers_militancy_modifier = -0.01
+	}
+}
+
 theology = {
 	name = "Theology"
 	category = culture

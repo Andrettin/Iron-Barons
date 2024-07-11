@@ -8,7 +8,7 @@ superior_hull_design = {
 		cartography
 		invention
 		
-		university
+		foreign_accreditation
 	}
 }
 

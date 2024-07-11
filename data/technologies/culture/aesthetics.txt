@@ -5,7 +5,7 @@ music_notation_system = {
 	icon = music
 	year = 1100
 	prerequisites = {
-		monotheism
+		relics
 	}
 	modifier = {
 		clergymen_militancy_modifier = -0.01
@@ -70,7 +70,7 @@ music_theory = {
 		ballads
 		choir_songs
 		
-		university
+		academic_disciplines #university
 	}
 }
 
