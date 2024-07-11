@@ -3,10 +3,12 @@ gunpowder = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1000
+	year = 1400
 	prerequisites = {
 		alchemy
 		invention
+		
+		university
 	}
 }
 
