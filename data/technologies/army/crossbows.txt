@@ -1,0 +1,65 @@
+slinged_javelin = {
+	name = "Slinged Javelin"
+	category = army
+	portrait = helmet
+	icon = bow
+	year = 1000
+	prerequisites = {
+		warrior_code
+		invention
+	}
+}
+
+light_crossbow = {
+	name = "Light Crossbow"
+	category = army
+	portrait = helmet
+	icon = bow
+	year = 1100
+	prerequisites = {
+		slinged_javelin
+		shortbow
+	}
+}
+
+medium_crossbow = {
+	name = "Medium Crossbow"
+	category = army
+	portrait = helmet
+	icon = bow
+	year = 1200
+	prerequisites = {
+		light_crossbow
+	}
+	modifier = {
+		crossbowmen_firepower_modifier = 0.33
+	}
+}
+
+heavy_crossbow = {
+	name = "Heavy Crossbow"
+	category = army
+	portrait = helmet
+	icon = bow
+	year = 1300
+	prerequisites = {
+		medium_crossbow
+	}
+	modifier = {
+		crossbowmen_firepower_modifier = 0.33
+	}
+}
+
+arbalest = {
+	name = "Arbalest"
+	category = army
+	portrait = helmet
+	icon = bow
+	year = 1400
+	prerequisites = {
+		heavy_crossbow
+	}
+	modifier = {
+		crossbowmen_firepower_modifier = 0.34
+	}
+}
