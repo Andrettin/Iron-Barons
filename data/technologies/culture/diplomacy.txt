@@ -9,7 +9,7 @@ diplomatic_expertise = {
 		cartography
 		trade
 		
-		university
+		noblesse_oblige
 	}
 }
 

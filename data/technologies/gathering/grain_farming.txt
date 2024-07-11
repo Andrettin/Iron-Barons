@@ -5,7 +5,7 @@ land_enclosure = {
 	icon = grain
 	year = 1500
 	prerequisites = {
-		university
+		rooting_out
 	}
 }
 

@@ -9,6 +9,6 @@ medicine = {
 		philosophy
 		trade
 		
-		university
+		academic_disciplines #university
 	}
 }

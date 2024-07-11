@@ -8,6 +8,6 @@ astronomy = {
 		mathematics
 		mysticism
 		
-		university
+		academic_disciplines
 	}
 }

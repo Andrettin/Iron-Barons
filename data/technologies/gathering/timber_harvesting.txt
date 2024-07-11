@@ -7,7 +7,7 @@ saw_mill = {
 	prerequisites = {
 		invention
 		
-		university
+		academic_disciplines #university
 	}
 }
 

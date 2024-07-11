@@ -9,6 +9,6 @@ sugar_refining = {
 		
 		invention
 		
-		university
+		academic_disciplines #university
 	}
 }

@@ -11,5 +11,7 @@ colonization = {
 		trade
 		cartography
 		gunpowder
+		
+		foreign_accreditation
 	}
 }
