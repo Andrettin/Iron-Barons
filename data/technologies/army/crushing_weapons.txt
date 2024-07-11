@@ -1,5 +1,5 @@
-shortsword = {
-	name = "Shortsword"
+handaxe = {
+	name = "Handaxe"
 	category = army
 	portrait = helmet
 	icon = saber
@@ -9,57 +9,48 @@ shortsword = {
 		ironworking
 		feudalism
 	}
-	modifier = {
-		squires_melee_modifier = 0.33
-	}
 }
 
-broadsword = {
-	name = "Broadsword"
+warhammer = {
+	name = "Warhammer"
 	category = army
 	portrait = helmet
 	icon = saber
 	year = 1100
 	prerequisites = {
-		shortsword
-	}
-	modifier = {
-		squires_melee_modifier = 0.33
+		handaxe
 	}
 }
 
-longsword = {
-	name = "Longsword"
+mace = {
+	name = "Mace"
 	category = army
 	portrait = helmet
 	icon = saber
 	year = 1200
 	prerequisites = {
-		broadsword
-	}
-	modifier = {
-		squires_melee_modifier = 0.34
+		warhammer
 	}
 }
 
-bastard_sword = {
-	name = "Bastard Sword"
+morningstar = {
+	name = "Morningstar"
 	category = army
 	portrait = helmet
 	icon = saber
 	year = 1300
 	prerequisites = {
-		longsword
+		mace
 	}
 }
 
-greatsword = {
-	name = "Greatsword"
+battleaxe = {
+	name = "Battleaxe"
 	category = army
 	portrait = helmet
 	icon = saber
 	year = 1400
 	prerequisites = {
-		bastard_sword
+		morningstar
 	}
 }

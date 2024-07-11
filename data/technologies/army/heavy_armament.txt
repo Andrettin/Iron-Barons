@@ -1,3 +1,66 @@
+battering_ram = {
+	name = "Battering Ram"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1000
+	prerequisites = {
+		warrior_code
+		feudalism
+	}
+}
+
+siege_ladders = {
+	name = "Siege Ladders"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1100
+	prerequisites = {
+		battering_ram
+	}
+}
+
+siege_towers = {
+	name = "Siege Towers"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1200
+	prerequisites = {
+		siege_ladders
+	}
+}
+
+mangonel = {
+	name = "Mangonel"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1300
+	prerequisites = {
+		siege_towers
+		mathematics
+	}
+	modifier = {
+		catapult_firepower_modifier = 0.5
+	}
+}
+
+trebuchet = {
+	name = "Trebuchet"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1400
+	prerequisites = {
+		mangonel
+	}
+	modifier = {
+		catapult_firepower_modifier = 0.5
+	}
+}
+
 siege_engineering = {
 	name = "Siege Engineering"
 	category = army
