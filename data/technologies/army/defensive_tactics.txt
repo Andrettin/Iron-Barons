@@ -1,0 +1,87 @@
+defensive_terrain = {
+	name = "Defensive Terrain"
+	category = army
+	portrait = helmet
+	icon = mountains
+	year = 1000
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		archers_shock_modifier = 5
+		crossbowmen_shock_modifier = 5
+		spearmen_morale_resistance_modifier = 5
+		pikemen_morale_resistance_modifier = 5
+		halberdiers_morale_resistance_modifier = 5
+		peasant_levies_morale_resistance_modifier = 10
+	}
+}
+
+positional_combat = {
+	name = "Positional Combat"
+	category = army
+	portrait = helmet
+	icon = crossed_sabers
+	year = 1100
+	prerequisites = {
+		defensive_terrain
+	}
+	modifier = {
+		spearmen_morale_resistance_modifier = 10
+		pikemen_morale_resistance_modifier = 10
+		halberdiers_morale_resistance_modifier = 10
+	}
+}
+
+missile_barrage = {
+	name = "Missile Barrage"
+	category = army
+	portrait = helmet
+	icon = bow
+	year = 1200
+	prerequisites = {
+		positional_combat
+	}
+	modifier = {
+		archers_shock_modifier = 10
+		crossbowmen_shock_modifier = 10
+	}
+}
+
+drilled_pikemen = {
+	name = "Drilled Pikemen"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1300
+	prerequisites = {
+		missile_barrage
+		pike
+	}
+	modifier = {
+		pikemen_morale_resistance_modifier = 10
+		halberdiers_morale_resistance_modifier = 10
+		pikemen_shock_modifier = 20
+		halberdiers_shock_modifier = 20
+	}
+}
+
+unit_organization = {
+	name = "Unit Organization"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1400
+	prerequisites = {
+		drilled_pikemen
+	}
+	modifier = {
+		chariots_morale_resistance_modifier = 10
+		knights_morale_resistance_modifier = 10
+		lancers_morale_resistance_modifier = 10
+		spearmen_morale_resistance_modifier = 10
+		pikemen_morale_resistance_modifier = 10
+		halberdiers_morale_resistance_modifier = 10
+		peasant_levies_morale_resistance_modifier = 10
+	}
+}

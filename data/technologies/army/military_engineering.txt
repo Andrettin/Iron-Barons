@@ -1,3 +1,58 @@
+hill_fort = {
+	name = "Hill Fort"
+	category = army
+	portrait = engineering
+	icon = architecture
+	year = 1000
+	prerequisites = {
+		feudalism
+	}
+}
+
+small_castle = {
+	name = "Small Castle"
+	category = army
+	portrait = engineering
+	icon = architecture
+	year = 1100
+	prerequisites = {
+		hill_fort
+	}
+}
+
+medium_castle = {
+	name = "Medium Castle"
+	category = army
+	portrait = engineering
+	icon = architecture
+	year = 1200
+	prerequisites = {
+		small_castle
+	}
+}
+
+large_castle = {
+	name = "Large Castle"
+	category = army
+	portrait = engineering
+	icon = architecture
+	year = 1300
+	prerequisites = {
+		medium_castle
+	}
+}
+
+huge_castle = {
+	name = "Huge Castle"
+	category = army
+	portrait = engineering
+	icon = architecture
+	year = 1400
+	prerequisites = {
+		large_castle
+	}
+}
+
 mine_engineering = {
 	name = "Mine Engineering"
 	category = army

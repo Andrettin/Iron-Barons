@@ -1,0 +1,83 @@
+offensive_terrain = {
+	name = "Offensive Terrain"
+	category = army
+	portrait = helmet
+	icon = mountains
+	year = 1000
+	prerequisites = {
+		feudalism
+	}
+	modifier = {
+		chariots_morale_resistance_modifier = 10
+		knights_morale_resistance_modifier = 10
+		lancers_morale_resistance_modifier = 10
+		squires_morale_resistance_modifier = 10
+	}
+}
+
+frontal_charge = {
+	name = "Frontal Charge"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1100
+	prerequisites = {
+		offensive_terrain
+	}
+	modifier = {
+		chariots_morale_resistance_modifier = 20
+		knights_morale_resistance_modifier = 20
+		lancers_morale_resistance_modifier = 20
+		squires_morale_resistance_modifier = 20
+	}
+}
+
+reserves = {
+	name = "Reserves"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1200
+	prerequisites = {
+		frontal_charge
+	}
+	modifier = {
+		chariots_morale_resistance_modifier = 10
+		knights_morale_resistance_modifier = 10
+		lancers_morale_resistance_modifier = 10
+	}
+}
+
+dismounted_knights = {
+	name = "Dismounted Knights"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	year = 1300
+	prerequisites = {
+		reserves
+		chivalry
+	}
+	modifier = {
+		chariots_morale_resistance_modifier = 20
+		knights_morale_resistance_modifier = 20
+		lancers_morale_resistance_modifier = 20
+	}
+}
+
+hierarchical_command = {
+	name = "Hierarchical Command"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1400
+	prerequisites = {
+		dismounted_knights
+	}
+	modifier = {
+		chariots_morale_resistance_modifier = 10
+		knights_morale_resistance_modifier = 10
+		lancers_morale_resistance_modifier = 10
+		squires_morale_resistance_modifier = 10
+	}
+}
