@@ -1,0 +1,84 @@
+business_contracts = {
+	name = "Business Contracts"
+	category = finance
+	portrait = coinage
+	icon = treaty
+	year = 1000
+	prerequisites = {
+		trade
+		
+		feudalism #so that it is in the correct period
+	}
+	modifier = {
+		trade_output_modifier = 1
+	}
+}
+
+promissory_note = {
+	name = "Promissory Note"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1100
+	prerequisites = {
+		business_contracts
+	}
+	modifier = {
+		trade_output_modifier = 2
+	}
+}
+
+letters_of_credit = {
+	name = "Letters of Credit"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1200
+	prerequisites = {
+		promissory_note
+	}
+	modifier = {
+		trade_output_modifier = 3
+	}
+}
+
+double_entry_bookkeeping = {
+	name = "Double-Entry Bookkeeping"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1300
+	prerequisites = {
+		letters_of_credit
+	}
+	modifier = {
+		trade_output_modifier = 4
+	}
+}
+
+foreign_accreditation = {
+	name = "Foreign Accreditation"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1400
+	prerequisites = {
+		double_entry_bookkeeping
+	}
+	modifier = {
+		trade_output_modifier = 5
+	}
+}
+
+trade_fairs = {
+	name = "Trade Fairs"
+	category = finance
+	portrait = coinage
+	icon = wealth
+	year = 1550
+	prerequisites = {
+		merchant_companies
+		sugar_refining
+		sugar_planting
+	}
+}

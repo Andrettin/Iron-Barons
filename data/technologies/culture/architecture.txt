@@ -1,0 +1,55 @@
+basilican_structures = {
+	name = "Basilican Structures"
+	category = culture
+	portrait = temple
+	icon = architecture
+	year = 1000
+	prerequisites = {
+		monotheism
+		invention
+	}
+}
+
+brickwork_structures = {
+	name = "Brickwork Structures"
+	category = culture
+	portrait = temple
+	icon = architecture
+	year = 1100
+	prerequisites = {
+		basilican_structures
+	}
+}
+
+romanesque_vaulting = {
+	name = "Romanesque Vaulting"
+	category = culture
+	portrait = temple
+	icon = architecture
+	year = 1200
+	prerequisites = {
+		brickwork_structures
+	}
+}
+
+cylindrical_structures = {
+	name = "Cylindrical Structures"
+	category = culture
+	portrait = temple
+	icon = architecture
+	year = 1300
+	prerequisites = {
+		romanesque_vaulting
+	}
+}
+
+gothic_buttresses = {
+	name = "Gothic Buttresses"
+	category = culture
+	portrait = temple
+	icon = architecture
+	year = 1400
+	prerequisites = {
+		cylindrical_structures
+	}
+}

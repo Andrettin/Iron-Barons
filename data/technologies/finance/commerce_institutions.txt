@@ -1,0 +1,58 @@
+minor_merchant_houses = {
+	name = "Minor Merchant Houses"
+	category = finance
+	portrait = trading_post
+	icon = wealth
+	year = 1000
+	prerequisites = {
+		trade
+		
+		feudalism #so that it is in the correct period
+	}
+	modifier = {
+		trade_output_modifier = 1
+	}
+}
+
+local_merchant_houses = {
+	name = "Local Merchant Houses"
+	category = finance
+	portrait = trading_post
+	icon = wealth
+	year = 1100
+	prerequisites = {
+		minor_merchant_houses
+	}
+	modifier = {
+		trade_output_modifier = 2
+	}
+}
+
+renowned_merchant_houses = {
+	name = "Renowned Merchant Houses"
+	category = finance
+	portrait = trading_post
+	icon = wealth
+	year = 1400
+	prerequisites = {
+		local_merchant_houses
+		
+		double_entry_bookkeeping
+	}
+	modifier = {
+		trade_output_modifier = 5
+	}
+}
+
+merchant_companies = {
+	name = "Merchant Companies"
+	category = finance
+	portrait = trading_post
+	icon = wealth
+	year = 1500
+	prerequisites = {
+		renowned_merchant_houses
+		foreign_accreditation
+		cartography
+	}
+}

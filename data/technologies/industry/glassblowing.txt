@@ -1,0 +1,11 @@
+glassblowing = {
+	name = "Glassblowing"
+	category = industry
+	portrait = engineering
+	icon = glass
+	year = 1100
+	prerequisites = {
+		invention
+		salt_refining
+	}
+}

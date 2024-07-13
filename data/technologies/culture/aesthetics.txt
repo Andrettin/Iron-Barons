@@ -1,3 +1,19 @@
+jongleurs = {
+	name = "Jongleurs"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1100
+	prerequisites = {
+		divine_duty
+	}
+	modifier = {
+		untrained_workers_militancy_modifier = -0.01
+		trained_workers_militancy_modifier = -0.01
+		expert_workers_militancy_modifier = -0.01
+	}
+}
+
 music_notation_system = {
 	name = "Music Notation System"
 	category = culture
@@ -41,6 +57,23 @@ choir_songs = {
 	modifier = {
 		clergymen_militancy_modifier = -0.01
 		firebrand_preachers_militancy_modifier = -0.01
+	}
+}
+
+troubadours = {
+	name = "Troubadours"
+	category = culture
+	portrait = engineering
+	icon = music
+	year = 1200
+	prerequisites = {
+		jongleurs
+		music_notation_system
+	}
+	modifier = {
+		untrained_workers_militancy_modifier = -0.01
+		trained_workers_militancy_modifier = -0.01
+		expert_workers_militancy_modifier = -0.01
 	}
 }
 

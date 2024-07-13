@@ -1,0 +1,10 @@
+percussion_drilling = {
+	name = "Percussion Drilling"
+	category = gathering
+	portrait = factory
+	icon = iron_ore
+	year = 1300
+	prerequisites = {
+		cathedral_school
+	}
+}

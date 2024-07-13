@@ -1,0 +1,10 @@
+salt_refining = {
+	name = "Salt Refining"
+	category = industry
+	portrait = engineering
+	icon = salt
+	year = 1000
+	prerequisites = {
+		invention
+	}
+}

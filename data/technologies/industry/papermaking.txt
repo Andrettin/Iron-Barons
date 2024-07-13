@@ -1,0 +1,12 @@
+papermaking = {
+	name = "Papermaking"
+	category = industry
+	portrait = engineering
+	icon = paper
+	year = 1400
+	prerequisites = {
+		invention
+		
+		university
+	}
+}
