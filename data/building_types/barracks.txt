@@ -3,4 +3,13 @@ barracks = {
 	building_class = barracks
 	portrait = fort
 	icon = crossed_sabers
+	provincial = true
+	settlement_types = {
+		city
+		metropolis
+		castle
+	}
+	settlement_modifier = {
+		max_soldiers = 4
+	}
 }
