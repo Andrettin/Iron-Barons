@@ -76,10 +76,11 @@ halberd = {
 	icon = saber
 	year = 1600
 	prerequisites = {
-		pike
+		standardized_pikes
 		organized_regiments
 		iron_mining
 		
 		plated_chainmail #to represent Halberdiers having higher defense than Pikemen, and to make that technology not a dead-end one
+		pike_and_shot
 	}
 }
