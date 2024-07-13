@@ -3,12 +3,23 @@ gunpowder = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1400
+	year = 1300
 	prerequisites = {
 		alchemy
 		invention
 		
-		natural_philosophy
+		cathedral_school
+	}
+}
+
+arquebus = {
+	name = "Arquebus"
+	category = army
+	portrait = engineering
+	icon = musket
+	year = 1400
+	prerequisites = {
+		gunpowder
 	}
 }
 
@@ -19,7 +30,7 @@ weapon_craftsmanship = {
 	icon = musket
 	year = 1600
 	prerequisites = {
-		gunpowder
+		arquebus
 		organized_regiments
 		copper_and_tin_mining
 	}

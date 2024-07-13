@@ -66,6 +66,21 @@ drilled_pikemen = {
 	}
 }
 
+pike_square = {
+	name = "Pike Square"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1400
+	prerequisites = {
+		drilled_pikemen
+	}
+	modifier = {
+		pikemen_morale_resistance_modifier = 5
+		halberdiers_morale_resistance_modifier = 5
+	}
+}
+
 unit_organization = {
 	name = "Unit Organization"
 	category = army
@@ -83,5 +98,24 @@ unit_organization = {
 		pikemen_morale_resistance_modifier = 10
 		halberdiers_morale_resistance_modifier = 10
 		peasant_levies_morale_resistance_modifier = 10
+	}
+}
+
+pike_and_shot = {
+	name = "Pike and Shot"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1500
+	prerequisites = {
+		pike_square
+		standardized_pikes
+		arquebus
+	}
+	modifier = {
+		pikemen_morale_resistance_modifier = 10
+		halberdiers_morale_resistance_modifier = 10
+		arquebusiers_morale_resistance_modifier = 10
+		musketeers_morale_resistance_modifier = 10
 	}
 }

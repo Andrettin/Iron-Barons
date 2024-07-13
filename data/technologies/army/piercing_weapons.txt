@@ -54,6 +54,21 @@ heavy_lance = {
 	}
 }
 
+standardized_pikes = {
+	name = "Standardized Pikes"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1400
+	prerequisites = {
+		pike
+		drilled_pikemen
+	}
+	modifier = {
+		pikemen_melee_modifier = 0.5
+	}
+}
+
 halberd = {
 	name = "Halberd"
 	category = army

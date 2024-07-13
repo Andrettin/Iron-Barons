@@ -10,7 +10,7 @@ arquebusiers = {
 		movement = 2
 	}
 	entrench = true
-	required_technology = gunpowder
+	required_technology = arquebus
 	commodity_costs = {
 		fabric = 1
 		bronze = 1
