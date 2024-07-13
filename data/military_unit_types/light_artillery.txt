@@ -11,6 +11,7 @@ horse_artillery = {
 	}
 	required_technology = horse_artillery
 	commodity_costs = {
+		manpower = 1
 		fabric = 1
 		bronze = 4
 		horses = 3
@@ -32,6 +33,7 @@ light_artillery = {
 	wealth_cost = 1000
 	upkeep = 50
 	commodity_costs = {
+		manpower = 1
 		armament = 2
 		horses = 1
 	}
@@ -52,6 +54,7 @@ field_artillery = {
 	wealth_cost = 5000
 	upkeep = 100
 	commodity_costs = {
+		manpower = 1
 		armament = 4
 		horses = 1
 	}
@@ -72,6 +75,7 @@ mobile_artillery = {
 	wealth_cost = 5000
 	upkeep = 150
 	commodity_costs = {
+		manpower = 1
 		armament = 6
 		fuel = 4
 	}

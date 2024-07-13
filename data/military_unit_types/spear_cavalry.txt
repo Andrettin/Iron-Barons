@@ -9,6 +9,9 @@ chariots = {
 		movement = 4
 	}
 	required_technology = wheel
+	commodity_costs = {
+		manpower = 1
+	}
 }
 
 knights = {
@@ -23,6 +26,7 @@ knights = {
 	}
 	required_technology = chivalry
 	commodity_costs = {
+		manpower = 1
 		fabric = 1
 		bronze = 2
 		horses = 2
@@ -41,6 +45,7 @@ lancers = {
 	}
 	required_technology = organized_regiments
 	commodity_costs = {
+		manpower = 1
 		fabric = 1
 		bronze = 2
 		horses = 3

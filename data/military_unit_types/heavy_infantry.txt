@@ -12,6 +12,7 @@ arquebusiers = {
 	entrench = true
 	required_technology = arquebus
 	commodity_costs = {
+		manpower = 1
 		fabric = 1
 		bronze = 1
 	}
@@ -31,6 +32,7 @@ musketeers = {
 	entrench = true
 	required_technology = weapon_craftsmanship
 	commodity_costs = {
+		manpower = 1
 		fabric = 1
 		bronze = 2
 	}
@@ -52,6 +54,7 @@ grenadiers = {
 	wealth_cost = 1000
 	upkeep = 25
 	commodity_costs = {
+		manpower = 1
 		armament = 1
 	}
 	free_promotions = {
@@ -75,6 +78,7 @@ guards = {
 	wealth_cost = 4000
 	upkeep = 50
 	commodity_costs = {
+		manpower = 1
 		armament = 2
 	}
 }
@@ -96,6 +100,7 @@ machine_gunners = {
 	wealth_cost = 7000
 	upkeep = 100
 	commodity_costs = {
+		manpower = 1
 		armament = 4
 	}
 }

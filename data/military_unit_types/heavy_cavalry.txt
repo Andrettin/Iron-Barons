@@ -11,6 +11,7 @@ harquebusiers = {
 	}
 	required_technology = improved_cavalry_tactics
 	commodity_costs = {
+		manpower = 1
 		fabric = 1
 		bronze = 2
 		horses = 2
@@ -32,6 +33,7 @@ cuirassiers = {
 	wealth_cost = 500
 	upkeep = 25
 	commodity_costs = {
+		manpower = 1
 		armament = 1
 		horses = 1
 	}
@@ -52,6 +54,7 @@ carbine_cavalry = {
 	wealth_cost = 3500
 	upkeep = 50
 	commodity_costs = {
+		manpower = 1
 		armament = 2
 		horses = 1
 	}
@@ -72,6 +75,7 @@ armor = {
 	wealth_cost = 9000
 	upkeep = 250
 	commodity_costs = {
+		manpower = 1
 		armament = 10
 		fuel = 4
 	}

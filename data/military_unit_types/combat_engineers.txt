@@ -12,6 +12,7 @@ sappers = {
 	wealth_cost = 5000
 	upkeep = 50
 	commodity_costs = {
+		manpower = 1
 		armament = 2
 	}
 }
@@ -30,6 +31,7 @@ combat_engineers = {
 	wealth_cost = 7000
 	upkeep = 50
 	commodity_costs = {
+		manpower = 1
 		armament = 2
 	}
 }
@@ -49,6 +51,7 @@ saboteurs = {
 	wealth_cost = 9000
 	upkeep = 75
 	commodity_costs = {
+		manpower = 1
 		armament = 3
 	}
 }
