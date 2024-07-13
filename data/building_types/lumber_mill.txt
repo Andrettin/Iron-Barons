@@ -5,7 +5,7 @@ sawyers_house = {
 	icon = lumber
 	production_types = {
 		lumber_making
-		paper_making
+		papermaking
 	}
 	base_capacity = 2
 }
@@ -17,7 +17,7 @@ sawyers_shop = {
 	icon = lumber
 	production_types = {
 		lumber_making
-		paper_making
+		papermaking
 	}
 	base_capacity = 4
 	required_building = sawyers_house
@@ -30,7 +30,7 @@ lumber_mill = {
 	icon = lumber
 	production_types = {
 		lumber_making
-		paper_making
+		papermaking
 	}
 	base_capacity = 8
 	capacity_increment = 8

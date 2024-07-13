@@ -10,6 +10,7 @@ peasant_levies = {
 	}
 	entrench = true
 	commodity_costs = {
+		manpower = 1
 		fabric = 1
 	}
 }
