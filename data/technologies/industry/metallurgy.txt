@@ -30,3 +30,18 @@ crucible_process = {
 		large_coal_mines
 	}
 }
+
+bessemer_converter = {
+	name = "Bessemer Converter"
+	category = industry
+	portrait = factory
+	icon = steel
+	year = 1825
+	prerequisites = {
+		crucible_process
+		high_grade_steel
+	}
+	modifier = {
+		steel_throughput_modifier = 5
+	}
+}

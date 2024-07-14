@@ -85,17 +85,6 @@ improved_cavalry_weapons = {
 	}
 }
 
-bessemer_converter = {
-	name = "Bessemer Converter"
-	category = army
-	portrait = factory
-	icon = steel
-	year = 1825
-	prerequisites = {
-		crucible_process
-	}
-}
-
 long_range_rifle = {
 	name = "Long Range Rifle"
 	category = army
