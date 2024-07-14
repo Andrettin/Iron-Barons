@@ -6,6 +6,8 @@ food_packing_system = {
 	year = 1825
 	prerequisites = {
 		mechanized_slaughtering_block
+		
+		improved_food_preservation
 	}
 	modifier = {
 		canned_food_throughput_modifier = 10
