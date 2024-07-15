@@ -1,6 +1,10 @@
 import QtQuick
 import QtQuick.Controls
+import QtLocation
+import QtPositioning
 import map_grid_model 1.0
+import map_province_model 1.0
+import map_site_model 1.0
 import "./dialogs"
 
 Item {
@@ -46,6 +50,7 @@ Item {
 		contentHeight: tile_size * metternich.map.height
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
+		visible: true
 		model: MapGridModel {}
 		delegate: TileView {}
 		
@@ -76,6 +81,104 @@ Item {
 			var capital_y = capital_game_data.tile_pos.y
 			
 			center_on_tile(capital_x, capital_y)
+		}
+	}
+	
+	MapView {
+		id: geomap_view
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: infopanel.right
+		anchors.right: right_bar.left
+		map.plugin: Plugin { name: "itemsoverlay" }
+		map.center: QtPositioning.coordinate(48.208333333333, 16.373055555556)
+		map.zoomLevel: 9
+		map.minimumZoomLevel: 8
+		map.maximumZoomLevel: 10
+		//visible: false
+		map.color: 'transparent'
+		
+		MapItemView {
+			parent: geomap_view.map
+			model: MapProvinceModel {}
+			delegate: MapPolygon {
+				color: province.game_data.owner ? province.game_data.owner.color : (province.water_zone ? metternich.defines.ocean_color : metternich.defines.minor_nation_color)
+				path: geopolygon.perimeter
+				clip: true
+				
+				property string saved_status_text: ""
+				
+				MouseArea {
+					anchors.fill: parent
+					hoverEnabled: true
+					
+					onEntered: {
+						var text = province.game_data.current_cultural_name
+						
+						if (province.game_data.owner !== null) {
+							text += ", " + province.game_data.owner.name
+						}
+						
+						status_text = text
+						saved_status_text = text
+					}
+					
+					onExited: {
+						if (status_text === saved_status_text) {
+							status_text = ""
+							saved_status_text = ""
+						}
+					}
+				}
+			}
+		}
+		
+		MapItemView {
+			parent: geomap_view.map
+			model: MapSiteModel {}
+			z: 2
+			delegate: MapQuickItem {
+				anchorPoint.x: Math.floor(site_image.width / 2)
+				anchorPoint.y: Math.floor(site_image.height / 2)
+				coordinate: geocoordinate
+				visible: geomap_view.map.zoomLevel >= 9 || site.settlement
+				sourceItem: Image {
+					id: site_image
+					source: site.game_data.settlement_type ? ("image://tile/settlement/" + site.game_data.settlement_type.identifier + "/0")
+						: (site.game_data.improvement ? ("image://tile/improvement/" + site.game_data.improvement.identifier + "/0")
+							: (site.resource ? ("image://icon/" + site.resource.icon.identifier) : "image://empty/"))
+					fillMode: Image.Pad
+				}
+				
+				property string saved_status_text: ""
+				
+				MouseArea {
+					anchors.fill: parent
+					hoverEnabled: true
+					
+					onEntered: {
+						var text = site.game_data.current_cultural_name
+						
+						if (site.game_data.province !== null) {
+							text += ", " + site.game_data.province.game_data.current_cultural_name
+						}
+						
+						if (site.game_data.owner !== null) {
+							text += ", " + site.game_data.owner.name
+						}
+						
+						status_text = text
+						saved_status_text = text
+					}
+					
+					onExited: {
+						if (status_text === saved_status_text) {
+							status_text = ""
+							saved_status_text = ""
+						}
+					}
+				}
+			}
 		}
 	}
 	
