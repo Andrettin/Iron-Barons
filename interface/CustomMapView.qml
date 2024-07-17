@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import QtLocation
 import QtPositioning
+import map_country_model 1.0
 import map_grid_model 1.0
 import map_province_model 1.0
 import map_site_model 1.0
@@ -93,14 +94,17 @@ Item {
 		map.plugin: Plugin { name: "itemsoverlay" }
 		map.center: QtPositioning.coordinate(48.208333333333, 16.373055555556)
 		map.zoomLevel: 9
-		map.minimumZoomLevel: 8
+		//map.minimumZoomLevel: 8
 		map.maximumZoomLevel: 10
-		//visible: false
+		visible: false
 		map.color: 'transparent'
 		
 		MapItemView {
 			parent: geomap_view.map
-			model: MapProvinceModel {}
+			visible: geomap_view.map.zoomLevel >= 8
+			model: MapProvinceModel {
+				id: province_model
+			}
 			delegate: MapPolygon {
 				color: province.game_data.owner ? province.game_data.owner.color : (province.water_zone ? metternich.defines.ocean_color : metternich.defines.minor_nation_color)
 				path: geopolygon.perimeter
@@ -135,13 +139,48 @@ Item {
 		
 		MapItemView {
 			parent: geomap_view.map
+			visible: geomap_view.map.zoomLevel < 8
+			model: MapCountryModel {
+				map_province_model: province_model
+			}
+			delegate: MapPolygon {
+				color: country.color
+				path: geopolygon.perimeter
+				clip: true
+				
+				property string saved_status_text: ""
+				
+				MouseArea {
+					anchors.fill: parent
+					hoverEnabled: true
+					
+					onEntered: {
+						var text = country.name
+						
+						status_text = text
+						saved_status_text = text
+					}
+					
+					onExited: {
+						if (status_text === saved_status_text) {
+							status_text = ""
+							saved_status_text = ""
+						}
+					}
+				}
+			}
+		}
+		
+		/*
+		MapItemView {
+			parent: geomap_view.map
 			model: MapSiteModel {}
-			z: 2
+			z: 10
 			delegate: MapQuickItem {
 				anchorPoint.x: Math.floor(site_image.width / 2)
 				anchorPoint.y: Math.floor(site_image.height / 2)
 				coordinate: geocoordinate
-				visible: geomap_view.map.zoomLevel >= 9 || site.settlement
+				visible: geomap_view.map.zoomLevel >= 8 && (geomap_view.map.zoomLevel >= 9 || site.settlement)
 				sourceItem: Image {
 					id: site_image
 					source: site.game_data.settlement_type ? ("image://tile/settlement/" + site.game_data.settlement_type.identifier + "/0")
@@ -180,6 +219,7 @@ Item {
 				}
 			}
 		}
+		*/
 	}
 	
 	RightBar {
