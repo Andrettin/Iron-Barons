@@ -2,6 +2,9 @@ elizabeth_i_of_england = {
 	filepath = "portraits/characters/elizabeth_i_of_england.png"
 	character_conditions = {
 		gender = female
+		not = {
+			cultural_group = african
+		}
 		is_ruler = true
 	}
 }

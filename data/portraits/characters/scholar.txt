@@ -2,6 +2,9 @@ scholar = {
 	filepath = "portraits/characters/scholar.png"
 	character_conditions = {
 		gender = male
+		not = {
+			cultural_group = african
+		}
 		or = {
 			advisor_type = artist
 			advisor_type = high_judge

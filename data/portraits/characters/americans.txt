@@ -12,6 +12,9 @@ jp_morgan = {
 	filepath = "portraits/characters/jp_morgan.png"
 	character_conditions = {
 		gender = male
+		not = {
+			cultural_group = african
+		}
 		or = {
 			advisor_type = banker
 			advisor_type = merchant

@@ -215,6 +215,7 @@
 /graphics/portraits/characters/sailor.png (by Exidelo) (licensed under the CC0)
 /graphics/portraits/characters/sailor_player_color.png (by Exidelo) (licensed under the CC0)
 /graphics/portraits/characters/scholar.png (by Jinn) (licensed under the CC0)
+/graphics/portraits/characters/shaka.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/simon_bolivar.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/soldier.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/soldier_chainmail.png (by Jinn) (licensed under the CC0)

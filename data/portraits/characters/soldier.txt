@@ -2,6 +2,9 @@ soldier = {
 	filepath = "portraits/characters/soldier.png"
 	character_conditions = {
 		gender = male
+		not = {
+			cultural_group = african
+		}
 		or = {
 			advisor_type = army_reformer
 			advisor_type = commandant

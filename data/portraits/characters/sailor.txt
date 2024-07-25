@@ -2,6 +2,9 @@ sailor = {
 	filepath = "portraits/characters/sailor.png"
 	character_conditions = {
 		gender = male
+		not = {
+			cultural_group = african
+		}
 		or = {
 			advisor_type = grand_admiral
 			advisor_type = naval_reformer

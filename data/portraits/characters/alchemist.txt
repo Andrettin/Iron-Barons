@@ -3,5 +3,8 @@ alchemist = {
 	character_conditions = {
 		gender = male
 		advisor_type = natural_scientist
+		not = {
+			cultural_group = african
+		}
 	}
 }

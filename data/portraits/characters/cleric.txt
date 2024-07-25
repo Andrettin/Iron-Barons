@@ -2,6 +2,9 @@ frankish_cleric = {
 	filepath = "portraits/characters/frankish_cleric.png"
 	character_conditions = {
 		gender = male
+		not = {
+			cultural_group = african
+		}
 		or = {
 			advisor_type = inquisitor
 			advisor_type = theologian

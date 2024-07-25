@@ -2,6 +2,9 @@ metternich = {
 	filepath = "portraits/characters/metternich.png"
 	character_conditions = {
 		gender = male
+		not = {
+			cultural_group = african
+		}
 		or = {
 			advisor_type = diplomat
 			advisor_type = statesman

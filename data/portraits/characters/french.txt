@@ -2,6 +2,9 @@ cardinal_richelieu = {
 	filepath = "portraits/characters/cardinal_richelieu.png"
 	character_conditions = {
 		gender = male
+		not = {
+			cultural_group = african
+		}
 		religion = catholic #because of the cardinal's hat
 		or = {
 			advisor_type = inquisitor
