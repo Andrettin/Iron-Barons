@@ -1,5 +1,5 @@
 statesmanship = {
 	name = "Statesmanship"
-	icon = flag
+	icon = bell
 	abstract = true
 }

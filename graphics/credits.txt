@@ -129,6 +129,7 @@
 /graphics/icons/anchor.png (by Jinn) (licensed under the CC0)
 /graphics/icons/arrow_down.png (by Jinn) (licensed under the CC0)
 /graphics/icons/arrow_up.png (by Jinn) (licensed under the CC0)
+/graphics/icons/bell.png (by Jinn) (licensed under the CC0)
 /graphics/icons/blood.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/bronze_cross.png (by Jinn) (licensed under the CC0)
 /graphics/icons/bronze_cross_detailed.png (by Jinn) (licensed under the CC0)
