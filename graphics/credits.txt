@@ -59,6 +59,7 @@
 /graphics/icons/commodities/wine.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/wool.png (by Jinn) (licensed under the CC0)
 /graphics/icons/diplomacy/alliance.png (by Jinn) (licensed under the CC0)
+/graphics/icons/diplomacy/alliance_ring.png (by Jinn) (licensed under the CC0)
 /graphics/icons/diplomacy/embassy.png (by Jinn) (licensed under the CC0)
 /graphics/icons/diplomacy/empire.png (by Jinn) (licensed under the CC0)
 /graphics/icons/diplomacy/empire_crown.png (by Jinn) (licensed under the CC0)
