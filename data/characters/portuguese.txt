@@ -28,7 +28,7 @@ ferdinand_magellan = { #Source: Isaac Asimov, "Cronologia das Ciências e das De
 	
 	history = {
 		1519.9.20 = {
-			#went on an expedition financed by Spain in 1519.9.20; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 203.
+			country = spain #went on an expedition financed by Spain in 1519.9.20; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 203.
 		}
 	}
 }
