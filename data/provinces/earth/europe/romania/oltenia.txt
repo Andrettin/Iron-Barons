@@ -16,6 +16,10 @@ oltenia = {
 			culture = gothic
 		}
 		
+		1204 = {
+			owner = hungary #part of Hungary in 1204; Source: William R. Shepherd, "Historical Atlas", 1911, p. 73.
+		}
+		
 		1360 = {
 			owner = wallachia #part of Wallachia in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 			culture = romanian

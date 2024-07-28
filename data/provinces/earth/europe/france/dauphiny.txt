@@ -26,6 +26,10 @@ dauphiny = {
 			owner = arles #became part of the Kingdom of Burgundy in 933; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
+		1349 = {
+			owner = france #became part of France in 1349; Source: William R. Shepherd, "Historical Atlas", 1911, p. 76.
+		}
+		
 		1360 = {
 			owner = france #part of France in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
