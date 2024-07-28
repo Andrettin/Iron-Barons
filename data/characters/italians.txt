@@ -54,7 +54,7 @@ leonardo_da_vinci = {
 	required_technology = invention
 	skill = 6
 	advisor_modifier = {
-		unit_upgrade_cost_modifier = -100
+		unit_upgrade_cost_modifier = -50
 	}
 }
 
