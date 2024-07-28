@@ -1,7 +1,7 @@
 theologian = {
 	name = "Theologian"
 	category = religious
-	modifier = {
+	scaled_modifier = {
 		piety_output_modifier = 5
 	}
 }

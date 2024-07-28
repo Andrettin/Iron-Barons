@@ -1,7 +1,7 @@
 merchant = {
 	name = "Merchant"
 	category = trade
-	modifier = {
+	scaled_modifier = {
 		trade_output_modifier = 2
 	}
 }

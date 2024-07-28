@@ -1,7 +1,7 @@
 army_reformer = {
 	name = "Army Reformer"
 	category = military
-	modifier = {
+	scaled_modifier = {
 		army_research_modifier = 5
 	}
 }

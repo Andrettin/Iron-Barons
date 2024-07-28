@@ -1,7 +1,7 @@
 statesman = {
 	name = "Statesman"
 	category = political
-	modifier = {
+	scaled_modifier = {
 		statesmanship_output_modifier = 5
 	}
 }

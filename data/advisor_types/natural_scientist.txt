@@ -1,7 +1,7 @@
 natural_scientist = {
 	name = "Natural Scientist"
 	category = trade
-	modifier = {
+	scaled_modifier = {
 		gathering_research_modifier = 5
 		industry_research_modifier = 5
 	}

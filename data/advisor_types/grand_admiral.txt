@@ -1,7 +1,7 @@
 grand_admiral = {
 	name = "Grand Admiral"
 	category = military
-	modifier = {
+	scaled_modifier = {
 		naval_morale_resistance = 5
 	}
 }

@@ -1,7 +1,7 @@
 philosopher = {
 	name = "Philosopher"
 	category = political #not very fitting
-	modifier = {
+	scaled_modifier = {
 		research_output_modifier = 3
 	}
 }

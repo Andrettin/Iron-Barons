@@ -1,7 +1,7 @@
 treasurer = {
 	name = "Treasurer"
 	category = trade
-	modifier = {
+	scaled_modifier = {
 		finance_research_modifier = 5
 	}
 }

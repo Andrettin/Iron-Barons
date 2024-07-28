@@ -1,7 +1,7 @@
 commandant = {
 	name = "Commandant"
 	category = military
-	modifier = {
+	scaled_modifier = {
 		land_damage_modifier = 2
 	}
 }
