@@ -25,7 +25,7 @@ lombardy = {
 			owner = italy #part of Italy in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			culture = italian
 			religion = catholic
-		}		
+		}
 		
 		1360 = {
 			owner = milan #part of the Lands of the Visconti in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.

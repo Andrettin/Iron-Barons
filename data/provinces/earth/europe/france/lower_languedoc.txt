@@ -16,10 +16,14 @@ lower_languedoc = {
 			culture = gothic
 		}
 		
-		1360 = {
-			owner = france #part of France in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		1328 = {
+			owner = france #part of France in 1328; Source: William R. Shepherd, "Historical Atlas", 1911, p. 76.
 			culture = french
 			religion = catholic
+		}
+		
+		1360 = {
+			owner = france #part of France in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1740 = {
