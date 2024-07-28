@@ -22,6 +22,10 @@ venetia = {
 			religion = catholic
 		}
 		
+		1204 = {
+			owner = venice #part of Venice in 1204; Source: William R. Shepherd, "Historical Atlas", 1911, p. 73.
+		}
+		
 		1360 = {
 			owner = venice #part of Venice in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}

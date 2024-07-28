@@ -24,10 +24,14 @@ latium = {
 			owner = ostrogothia #part of the Kingdom of the East Goths in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
 		}
 		
-		1360 = {
-			owner = papal_states #part of the Papal States in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		1204 = {
+			owner = papal_states #part of the Papal States in 1204; Source: William R. Shepherd, "Historical Atlas", 1911, p. 73.
 			culture = italian
 			religion = catholic
+		}
+		
+		1360 = {
+			owner = papal_states #part of the Papal States in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1740 = {

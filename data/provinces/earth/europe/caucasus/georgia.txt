@@ -11,10 +11,14 @@ georgia_caucasus = {
 		culture = georgian
 		religion = pagan
 		
-		1360 = {
-			owner = georgia #part of Georgia in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		1204 = {
+			owner = georgia #part of the Kingdom of Georgia in 1204; Source: William R. Shepherd, "Historical Atlas", 1911, p. 73.
 			culture = georgian
 			religion = orthodox
+		}
+		
+		1360 = {
+			owner = georgia #part of Georgia in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		germanys_future = {

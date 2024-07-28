@@ -22,6 +22,10 @@ crete = {
 			religion = orthodox
 		}
 		
+		1212 = {
+			owner = venice #became a Venetian possession in 1212; Source: William R. Shepherd, "Historical Atlas", 1911, p. 73.
+		}
+		
 		1360 = {
 			owner = venice #Venetian possession in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}

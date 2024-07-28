@@ -16,10 +16,14 @@ catalonia = {
 			culture = gothic
 		}
 		
-		1360 = {
-			owner = aragon #part of Aragon in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+		1204 = {
+			owner = aragon #part of Aragon in 1204; Source: William R. Shepherd, "Historical Atlas", 1911, p. 73.
 			culture = catalan
 			religion = catholic
+		}
+		
+		1360 = {
+			owner = aragon #part of Aragon in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1560 = {
