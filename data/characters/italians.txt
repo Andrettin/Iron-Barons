@@ -94,13 +94,17 @@ pope_paul_iii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 giovanni_da_verrazano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
 	name = "Giovanni"
 	surname = "da Verrazano"
-	#advisor_type = navigator
+	role = advisor
+	advisor_type = giovanni_da_verrazano
 	culture = italian
 	religion = catholic
 	home_settlement = florence
 	gender = male
 	birth_date = 1485
 	death_date = 1528
+	advisor_effects = {
+		create_transporter = carrack #caravel
+	}
 	
 	#explored the North American eastern coast in 1524, and discovered New York Bay
 }

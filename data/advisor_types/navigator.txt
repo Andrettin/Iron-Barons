@@ -6,3 +6,9 @@ navigator = {
 		free_warship_promotion = navigation_1
 	}
 }
+
+giovanni_da_verrazano = {
+	name = "Giovanni da Verrazano"
+	category = exploration
+	required_technology = navigation
+}

@@ -6,6 +6,7 @@ sailor = {
 			cultural_group = african
 		}
 		or = {
+			advisor_type = giovanni_da_verrazano
 			advisor_type = grand_admiral
 			advisor_type = naval_reformer
 			advisor_type = navigator
