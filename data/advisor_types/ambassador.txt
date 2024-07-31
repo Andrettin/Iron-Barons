@@ -1,0 +1,9 @@
+ambassador = {
+	name = "Ambassador"
+	category = political
+	required_technology = trade
+	obsolescence_technology = communism
+	modifier = {
+		free_consulate = embassy
+	}
+}
