@@ -44,7 +44,7 @@ leonardo_da_vinci = {
 	name = "Leonardo"
 	surname = "da Vinci"
 	role = advisor
-	advisor_type = natural_scientist
+	advisor_type = inventor
 	culture = italian
 	religion = catholic
 	home_settlement = florence
@@ -52,10 +52,6 @@ leonardo_da_vinci = {
 	birth_date = 1450.4.15
 	death_date = 1519.5.2
 	required_technology = invention
-	skill = 6
-	advisor_modifier = {
-		unit_upgrade_cost_modifier = -50
-	}
 }
 
 amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.

@@ -1,0 +1,7 @@
+inventor = {
+	name = "Inventor"
+	category = trade
+	modifier = {
+		unit_upgrade_cost_modifier = -50
+	}
+}
