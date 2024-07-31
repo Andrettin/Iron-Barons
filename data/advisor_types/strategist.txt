@@ -1,0 +1,11 @@
+strategist = {
+	name = "Strategist"
+	category = military
+	required_technology = feudalism
+	obsolescence_technology = mobile_warfare
+	modifier = {
+		free_infantry_promotion = veteran_1
+		free_cavalry_promotion = veteran_1
+		free_artillery_promotion = veteran_1
+	}
+}

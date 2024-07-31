@@ -1,18 +1,11 @@
 sun_tzu = {
 	name = "Sun Tzu"
 	role = advisor
-	advisor_type = army_reformer
+	advisor_type = strategist
 	culture = chinese
 	religion = pagan
 	home_settlement = jinan #correct?
 	gender = male
 	birth_date = -771
 	death_date = -256
-	required_technology = feudalism
-	obsolescence_technology = mobile_warfare
-	advisor_modifier = {
-		free_infantry_promotion = veteran_1
-		free_cavalry_promotion = veteran_1
-		free_artillery_promotion = veteran_1
-	}
 }

@@ -36,6 +36,7 @@ otto_von_bismarck = {
 			advisor_type = army_reformer
 			advisor_type = diplomat
 			advisor_type = statesman
+			advisor_type = strategist
 			advisor_type = spymaster
 		}
 	}

@@ -10,6 +10,7 @@ soldier = {
 			advisor_type = commandant
 			advisor_type = grand_captain
 			advisor_type = pioneer
+			advisor_type = strategist
 		}
 	}
 }
