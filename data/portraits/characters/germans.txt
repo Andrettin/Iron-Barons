@@ -33,6 +33,7 @@ otto_von_bismarck = {
 			cultural_group = african
 		}
 		or = {
+			advisor_type = ambassador
 			advisor_type = army_reformer
 			advisor_type = diplomat
 			advisor_type = statesman
