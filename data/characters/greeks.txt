@@ -1,0 +1,11 @@
+archimedes = {
+	name = "Archimedes"
+	role = advisor
+	advisor_type = inventor
+	culture = greek
+	religion = pagan
+	home_site = syracuse
+	gender = male
+	birth_date = -287
+	death_date = -212
+}
