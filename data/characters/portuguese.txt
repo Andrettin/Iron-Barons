@@ -22,9 +22,6 @@ ferdinand_magellan = { #Source: Isaac Asimov, "Cronologia das Ciências e das De
 	birth_date = 1480
 	death_date = 1521
 	required_technology = navigation
-	advisor_modifier = {
-		free_warship_promotion = navigation_1
-	}
 	
 	history = {
 		1519.9.20 = {

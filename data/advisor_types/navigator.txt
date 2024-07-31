@@ -1,4 +1,7 @@
 navigator = {
 	name = "Navigator"
 	category = exploration
+	modifier = {
+		free_warship_promotion = navigation_1
+	}
 }
