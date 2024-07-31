@@ -1,6 +1,8 @@
 inventor = {
 	name = "Inventor"
 	category = trade
+	required_technology = invention
+	obsolescence_technology = internal_combustion #automobile
 	modifier = {
 		unit_upgrade_cost_modifier = -50
 	}

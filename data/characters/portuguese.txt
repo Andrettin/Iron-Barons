@@ -21,7 +21,6 @@ ferdinand_magellan = { #Source: Isaac Asimov, "Cronologia das Ciências e das De
 	gender = male
 	birth_date = 1480
 	death_date = 1521
-	required_technology = navigation
 	
 	history = {
 		1519.9.20 = {
