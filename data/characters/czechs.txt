@@ -9,7 +9,7 @@ vilem_rozmberk = {
 	gender = male
 	birth_date = 1545
 	death_date = 1592
-	skill = 1
+	skill_multiplier = 0.17
 	required_technology = feudalism
 }
 
@@ -24,7 +24,7 @@ karel_starsi = {
 	gender = male
 	birth_date = 1564.9.15
 	death_date = 1636.11.9
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = feudalism
 }
 
@@ -38,7 +38,7 @@ zdenko_adalbert = {
 	gender = male
 	birth_date = 1568
 	death_date = 1628.7.16
-	skill = 1
+	skill_multiplier = 0.17
 	required_technology = national_bureaucracy
 }
 
@@ -53,7 +53,7 @@ jaroslav_borsita = {
 	gender = male
 	birth_date = 1582
 	death_date = 1649.11.21
-	skill = 1
+	skill_multiplier = 0.17
 	required_technology = national_bureaucracy
 }
 
@@ -69,7 +69,7 @@ jan_amos_komensky = {
 	gender = male
 	birth_date = 1592.3.28
 	death_date = 1670.11.15
-	skill = 1
+	skill_multiplier = 0.17
 	required_technology = philosophy
 }
 
@@ -84,6 +84,6 @@ francis_kinsky = {
 	gender = male
 	birth_date = 1678
 	death_date = 1741
-	skill = 3
+	skill_multiplier = 0.5
 	required_technology = national_bureaucracy
 }

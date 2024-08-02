@@ -9,7 +9,7 @@ tamas_bakocz = { #Source: "Encyclopædia Britannica", 1911, vol. 3, p. 230.
 	gender = male
 	birth_date = 1442
 	death_date = 1521
-	skill = 3
+	skill_multiplier = 0.5
 	required_technology = feudalism
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain
@@ -36,7 +36,7 @@ istvan_bathory = {
 	gender = male
 	birth_date = 1473
 	death_date = 1534
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
 }
 
@@ -51,7 +51,7 @@ juraj_thurzo = {
 	gender = male
 	birth_date = 1567
 	death_date = 1616
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
 }
 
@@ -66,7 +66,7 @@ palffy_janos_iv = {
 	gender = male
 	birth_date = 1678
 	death_date = 1750.3.24
-	skill = 3
+	skill_multiplier = 0.5
 	required_technology = national_bureaucracy
 }
 
@@ -81,6 +81,6 @@ franciszek_rakoczy = {
 	gender = male
 	birth_date = 1676
 	death_date = 1738
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
 }

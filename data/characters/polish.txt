@@ -20,7 +20,7 @@ nicolaus_copernicus = { #Source: Isaac Asimov, "Cronologia das Ciências e das D
 	birth_date = 1473
 	death_date = 1543
 	required_technology = astronomy
-	skill = 5
+	skill_multiplier = 0.83
 	advisor_modifier = {
 		research_output_modifier = 50
 	}

@@ -126,7 +126,7 @@ felix_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p
 	birth_date = 1800
 	death_date = 1852
 	required_technology = paternalism
-	skill = 3
+	skill_multiplier = 0.5
 	#nephew of Karl Philipp zu Schwarzenberg
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain

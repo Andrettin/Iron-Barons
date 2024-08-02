@@ -10,7 +10,7 @@ ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 6, p. 366.
 	#son of Frederick II, count of Cilli, and Elizabeth Frangepan
 	birth_date = 1406
 	death_date = 1456.11.9 #died at Belgrade on 1456.11.9
-	skill = 3
+	skill_multiplier = 0.5
 	required_technology = feudalism
 	
 	#count of Cilli
@@ -42,7 +42,7 @@ georg_peurbach = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 	gender = male
 	birth_date = 1423
 	death_date = 1461
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = astronomy
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain
@@ -70,7 +70,7 @@ andreas_stoberl = {
 	gender = male
 	birth_date = 1465
 	death_date = 1515
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = astronomy
 }
 
@@ -85,7 +85,7 @@ johannes_cuspinianus = {
 	gender = male
 	birth_date = 1473
 	death_date = 1529
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = medicine
 }
 
@@ -100,7 +100,7 @@ georg_tannstetter = {
 	gender = male
 	birth_date = 1482
 	death_date = 1535.3.26
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = mathematics
 }
 
@@ -115,7 +115,7 @@ conrad_haas = {
 	gender = male
 	birth_date = 1509
 	death_date = 1576
-	skill = 4
+	skill_multiplier = 0.67
 	required_technology = mine_engineering
 }
 
@@ -129,7 +129,7 @@ rheticus = {
 	gender = male
 	birth_date = 1514
 	death_date = 1574
-	skill = 1
+	skill_multiplier = 0.17
 	required_technology = navigation
 }
 
@@ -144,7 +144,7 @@ wolfgang_von_rumpf = {
 	gender = male
 	birth_date = 1550.11.30
 	death_date = 1607
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
 }
 
@@ -159,7 +159,7 @@ hans_von_eggenberg = {
 	gender = male
 	birth_date = 1568
 	death_date = 1634
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
 }
 
@@ -174,7 +174,7 @@ katharina_galler = {
 	gender = female
 	birth_date = 1607
 	death_date = 1672.2.12
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = feudalism
 }
 
@@ -189,7 +189,7 @@ philipp_von_hornigk = {
 	gender = male
 	birth_date = 1640
 	death_date = 1714.10.23
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = propaganda
 }
 
@@ -204,7 +204,7 @@ johann_von_eggenberg = {
 	gender = male
 	birth_date = 1641
 	death_date = 1710.12.14
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = merchant_companies
 }
 
@@ -219,7 +219,7 @@ franz_ferdinand_von_rummel = {
 	gender = male
 	birth_date = 1644
 	death_date = 1716.3.15
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = philosophy
 }
 
@@ -234,7 +234,7 @@ joseph_harrach = {
 	gender = male
 	birth_date = 1678
 	death_date = 1764.8.8
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
 }
 
@@ -249,7 +249,7 @@ josef_wenzel = {
 	gender = male
 	birth_date = 1696.8.9
 	death_date = 1772.2.10
-	skill = 3
+	skill_multiplier = 0.5
 	required_technology = heavy_artillery
 }
 
@@ -264,7 +264,7 @@ gerard_van_swieten = {
 	gender = male
 	birth_date = 1700.5.7
 	death_date = 1772.6.18
-	skill = 2
+	skill_multiplier = 0.33
 	required_technology = medicine
 }
 
@@ -279,7 +279,7 @@ wenzel_anton_kaunitz = {
 	gender = male
 	birth_date = 1711.2.2
 	death_date = 1794.6.27
-	skill = 5
+	skill_multiplier = 0.83
 	required_technology = national_bureaucracy
 }
 
@@ -294,7 +294,7 @@ leopold_auenbrugger = {
 	gender = male
 	birth_date = 1722.11.19
 	death_date = 1809.5.17
-	skill = 3
+	skill_multiplier = 0.5
 	required_technology = medicine
 }
 
@@ -309,7 +309,7 @@ franz_mesmer = {
 	gender = male
 	birth_date = 1734.5.23
 	death_date = 1815.3.5
-	skill = 3
+	skill_multiplier = 0.5
 	required_technology = medicine
 }
 
@@ -324,6 +324,6 @@ joseph_eckhel = {
 	gender = male
 	birth_date = 1735
 	death_date = 1798.5.16
-	skill = 1
+	skill_multiplier = 0.17
 	required_technology = banking
 }

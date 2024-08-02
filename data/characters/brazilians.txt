@@ -8,6 +8,6 @@ bernardo_pereira_de_vasconcelos = {
 	home_site = ouro_preto
 	gender = male
 	birth_date = 1795.8.27
-	skill = 6
+	skill_multiplier = 1
 	required_technology = constitutionalism
 }

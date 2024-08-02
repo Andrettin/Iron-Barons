@@ -24,7 +24,7 @@ jean_calvin = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobert
 	gender = male
 	birth_date = 1509
 	death_date = 1564
-	skill = 6
+	skill_multiplier = 1
 }
 
 ambroise_pare = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 212-213.
@@ -39,7 +39,7 @@ ambroise_pare = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	birth_date = 1510
 	death_date = 1590
 	required_technology = medicine
-	skill = 4
+	skill_multiplier = 0.67
 	
 	#considered the father of rational surgery
 	#wrote a report about his findings regarding surgery in 1545

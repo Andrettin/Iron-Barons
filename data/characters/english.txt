@@ -97,7 +97,7 @@ edward_kelley = {
 	gender = male
 	birth_date = 1552
 	death_date = 1597
-	skill = 1
+	skill_multiplier = 0.17
 	required_technology = merchant_companies
 }
 
@@ -113,7 +113,7 @@ francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	birth_date = 1561
 	death_date = 1626
 	required_technology = scientific_method #developed the scientific method
-	skill = 5
+	skill_multiplier = 0.83
 	
 	history = {
 		1620 = {
@@ -231,7 +231,7 @@ isaac_newton = {
 	birth_date = 1669
 	death_date = 1727.3.31
 	required_technology = theory_of_gravity
-	skill = 6
+	skill_multiplier = 1
 	advisor_modifier = {
 		research_output_modifier = 50
 	}
