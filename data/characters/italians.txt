@@ -102,9 +102,6 @@ giovanni_da_verrazano = { #Source: Isaac Asimov, "Cronologia das Ciências e das
 	gender = male
 	birth_date = 1485
 	death_date = 1528
-	advisor_effects = {
-		create_transporter = carrack #caravel
-	}
 	
 	#explored the North American eastern coast in 1524, and discovered New York Bay
 }

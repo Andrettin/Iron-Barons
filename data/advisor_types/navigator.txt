@@ -11,4 +11,7 @@ giovanni_da_verrazano = {
 	name = "Giovanni da Verrazano"
 	category = exploration
 	required_technology = navigation
+	effects = {
+		create_transporter = carrack #caravel
+	}
 }
