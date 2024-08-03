@@ -15,11 +15,7 @@ jp_morgan = {
 		not = {
 			cultural_group = african
 		}
-		or = {
-			advisor_type = banker
-			advisor_type = merchant
-			advisor_type = treasurer
-		}
+		advisor_category = trade
 		birth_year >= 1800
 	}
 }

@@ -5,10 +5,7 @@ frankish_cleric = {
 		not = {
 			cultural_group = african
 		}
-		or = {
-			advisor_type = inquisitor
-			advisor_type = theologian
-		}
+		advisor_category = religious
 	}
 }
 

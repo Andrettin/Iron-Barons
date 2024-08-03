@@ -5,11 +5,6 @@ metternich = {
 		not = {
 			cultural_group = african
 		}
-		or = {
-			advisor_type = ambassador
-			advisor_type = diplomat
-			advisor_type = statesman
-			advisor_type = spymaster
-		}
+		advisor_category = political
 	}
 }

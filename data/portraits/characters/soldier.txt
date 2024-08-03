@@ -1,18 +1,5 @@
 soldier = {
 	filepath = "portraits/characters/soldier.png"
-	character_conditions = {
-		gender = male
-		not = {
-			cultural_group = african
-		}
-		or = {
-			advisor_type = army_reformer
-			advisor_type = commandant
-			advisor_type = grand_captain
-			advisor_type = pioneer
-			advisor_type = strategist
-		}
-	}
 }
 
 soldier_chainmail = {

@@ -5,11 +5,7 @@ jakob_fugger = {
 		not = {
 			cultural_group = african
 		}
-		or = {
-			advisor_type = banker
-			advisor_type = merchant
-			advisor_type = treasurer
-		}
+		advisor_category = trade
 		birth_year < 1800
 	}
 }
@@ -33,12 +29,8 @@ otto_von_bismarck = {
 			cultural_group = african
 		}
 		or = {
-			advisor_type = ambassador
-			advisor_type = army_reformer
-			advisor_type = diplomat
-			advisor_type = statesman
-			advisor_type = strategist
-			advisor_type = spymaster
+			advisor_category = political
+			advisor_category = military
 		}
 	}
 }
