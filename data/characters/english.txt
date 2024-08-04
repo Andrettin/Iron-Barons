@@ -155,17 +155,13 @@ john_rolfe = {
 	name = "John"
 	surname = "Rolfe"
 	role = advisor
-	advisor_type = merchant
+	advisor_type = tobacco_planter
 	culture = english
 	religion = protestant
 	home_site = norfolk #Jamestown, Virginia
 	gender = male
 	birth_date = 1585
 	death_date = 1622
-	required_technology = large_tobacco_plantations
-	advisor_modifier = {
-		tobacco_output_modifier = 25
-	}
 }
 
 john_winthrop = {
