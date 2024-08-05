@@ -13,5 +13,6 @@ darius_i_of_persia = {
 	}
 	traits = {
 		financial
+		organized
 	}
 }

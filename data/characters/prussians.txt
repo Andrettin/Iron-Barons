@@ -14,6 +14,7 @@ frederick_the_great_of_prussia = {
 		germany
 	}
 	traits = {
+		organized
 		philosophical
 	}
 }
