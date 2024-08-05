@@ -97,6 +97,15 @@ narrow_minded = {
 	}
 }
 
+organized = {
+	name = "Organized"
+	type = personality
+	icon = philosophy
+	ruler_modifier = {
+		law_cost_modifier = -50
+	}
+}
+
 philosophical = {
 	name = "Philosophical"
 	type = personality
