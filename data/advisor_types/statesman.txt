@@ -6,6 +6,16 @@ statesman = {
 	}
 }
 
+benjamin_franklin = {
+	name = "Benjamin Franklin"
+	category = political
+	required_technology = constitutionalism
+	modifier = {
+		statesmanship_per_printing_press = 3
+		statesmanship_per_newspaper = 3
+	}
+}
+
 john_jay = {
 	name = "John Jay"
 	category = political
