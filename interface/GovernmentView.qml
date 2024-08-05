@@ -85,7 +85,7 @@ Item {
 							text: colored_text(law.name, "white")
 							checked: law === current_law
 							checkable: !checked && country_game_data.laws.length > 0 && country_game_data.can_enact_law(law)
-							tooltip: modifier_string.length > 0 ? format_text(small_text(modifier_string)) : ""
+							tooltip: tooltip_string.length > 0 ? format_text(small_text(tooltip_string)) : ""
 							visible: country_game_data.laws.length > 0 && country_game_data.can_have_law(law)
 							onCheckedChanged: {
 								if (law === current_law) {
@@ -96,7 +96,9 @@ Item {
 							}
 							
 							readonly property var law: model.modelData
+							readonly property string costs_string: law !== current_law ? costs_to_string(law.commodity_costs, country_game_data.get_total_law_cost_modifier()) : ""
 							readonly property string modifier_string: law.get_modifier_string(country)
+							readonly property string tooltip_string: costs_string + (costs_string.length > 0 && modifier_string.length > 0 ? "\n" : "") + modifier_string
 						}
 					}
 				}
