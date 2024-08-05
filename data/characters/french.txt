@@ -1,3 +1,23 @@
+philip_the_fair = {
+	name = "Philip"
+	epithet = "the Fair"
+	role = ruler
+	culture = french
+	religion = catholic
+	home_settlement = paris
+	gender = male
+	birth_date = 1268.6.8
+	death_date = 1314.11.29
+	obsolescence_technology = national_bureaucracy
+	rulable_countries = {
+		france
+	}
+	traits = {
+		organized
+		industrious
+	}
+}
+
 jacques_cartier = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
 	name = "Jacques"
 	surname = "Cartier"
@@ -100,6 +120,7 @@ louis_xiv_of_france = {
 	gender = male
 	birth_date = 1638
 	death_date = 1715
+	required_technology = national_bureaucracy
 	rulable_countries = {
 		france
 	}
