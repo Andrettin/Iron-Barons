@@ -4,13 +4,23 @@ green_text_color = { 0 159 3 }
 red_text_color = { 255 50 50 }
 
 tile_size = { 64 64 }
-months_per_turn = 3
-default_start_date = 1815.11.20
 default_base_terrain = plains
 unexplored_terrain = unexplored
 default_province_terrain = plains
 default_water_zone_terrain = ocean
 route_pathway = route
+
+default_start_date = 1815.11.20
+default_months_per_turn = 3
+months_per_turn_from_year = { #months per turn after a certain year has been reached
+	-4000 = 480
+	-1000 = 300
+	500 = 240
+	1000 = 120
+	1500 = 12
+	1600 = 6
+	1800 = 3
+}
 
 default_population_class = untrained_workers
 default_tribal_population_class = tribesmen
