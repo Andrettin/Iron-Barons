@@ -1,0 +1,6 @@
+ectothermics = {
+	name = "Ectothermics"
+	category = culture
+	portrait = building_slot
+	icon = lion
+}

@@ -1,0 +1,6 @@
+scaly_skin = {
+	name = "Scaly Skin"
+	category = army
+	portrait = building_slot
+	icon = lion
+}

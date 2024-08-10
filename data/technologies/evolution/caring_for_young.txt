@@ -1,0 +1,10 @@
+caring_for_young = {
+	name = "Caring for Young"
+	category = culture
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		spawning_grounds
+		fortified_nesting
+	}
+}

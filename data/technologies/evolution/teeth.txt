@@ -1,0 +1,39 @@
+teeth = {
+	name = "Teeth"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		beaks
+	}
+}
+
+curved_teeth = {
+	name = "Curved Teeth"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		omophagia
+	}
+}
+
+ridged_teeth = {
+	name = "Ridged Teeth"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		curved_teeth
+	}
+}
+
+serrated_teeth = {
+	name = "Serrated Teeth"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		ridged_teeth
+	}
+}

@@ -1,0 +1,10 @@
+swiftness = {
+	name = "Swiftness"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		endothermics
+		sharp_eyesight
+	}
+}

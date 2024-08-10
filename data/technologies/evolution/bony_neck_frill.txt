@@ -1,0 +1,10 @@
+bony_neck_frill = {
+	name = "Bony Neck Frill"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		bony_knobs
+		beaks
+	}
+}

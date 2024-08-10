@@ -1,0 +1,10 @@
+bony_knobs = {
+	name = "Bony Knobs"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		scaly_skin
+		bony_plates
+	}
+}

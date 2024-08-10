@@ -1,0 +1,10 @@
+chambered_heart = {
+	name = "Chambered Heart"
+	category = culture
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		ectothermics
+		upright_stature
+	}
+}

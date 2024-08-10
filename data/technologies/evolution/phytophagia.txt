@@ -1,0 +1,6 @@
+phytophagia = {
+	name = "Phytophagia"
+	category = culture
+	portrait = building_slot
+	icon = lion
+}

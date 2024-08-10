@@ -1,0 +1,10 @@
+sharp_eyesight = {
+	name = "Sharp Eyesight"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		upright_stature
+		omophagia
+	}
+}

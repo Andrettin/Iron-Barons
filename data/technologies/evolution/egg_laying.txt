@@ -1,0 +1,6 @@
+egg_laying = {
+	name = "Egg Laying"
+	category = culture
+	portrait = building_slot
+	icon = lion
+}

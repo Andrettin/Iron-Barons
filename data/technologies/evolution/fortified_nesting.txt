@@ -1,0 +1,10 @@
+fortified_nesting = {
+	name = "Fortified Nesting"
+	category = culture
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		egg_laying
+		dam_building
+	}
+}

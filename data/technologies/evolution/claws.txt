@@ -1,0 +1,41 @@
+claws = {
+	name = "Claws"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		fingers
+	}
+}
+
+curved_claws = {
+	name = "Curved Claws"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		claws
+		swiftness
+	}
+}
+
+slashing_claw = {
+	name = "Slashing Claw"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		curved_claws
+	}
+}
+
+tearing_claw = {
+	name = "Tearing Claw"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		slashing_claw
+		pack_hunting
+	}
+}

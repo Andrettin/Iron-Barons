@@ -1,0 +1,10 @@
+head_crest = {
+	name = "Head Crest"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		bony_knobs
+		duck_bill
+	}
+}

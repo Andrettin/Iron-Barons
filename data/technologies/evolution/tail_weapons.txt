@@ -1,0 +1,6 @@
+tail_weapons = {
+	name = "Tail Weapons"
+	category = army
+	portrait = building_slot
+	icon = lion
+}

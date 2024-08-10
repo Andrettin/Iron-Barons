@@ -1,0 +1,9 @@
+upright_stature = {
+	name = "Upright Stature"
+	category = culture
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		tail_weapons
+	}
+}

@@ -1,0 +1,9 @@
+collective_behavior = {
+	name = "Collective Behavior"
+	category = culture
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		caring_for_young
+	}
+}
