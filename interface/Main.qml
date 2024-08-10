@@ -142,13 +142,6 @@ Window {
 		return "+" + n
 	}
 	
-	function date_string(date) {
-		var year_str = date_year_string(date)
-		var season_str = date_season_string(date)
-		
-		return season_str + ", " + year_str
-	}
-	
 	function date_year(date) {
 		var year = date.getUTCFullYear()
 		
@@ -188,28 +181,6 @@ Window {
 	
 	function year_range_string(year1, year2) {
 		return Math.abs(year1) + "-" + year_string(year2)
-	}
-	
-	function date_season_string(date) {
-		var month = date.getUTCMonth()
-		var season = Math.floor(month / 3 + 1)
-		
-		return season_string(season)
-	}
-	
-	function season_string(season) {
-		switch (season) {
-			case 1:
-				return "Winter"
-			case 2:
-				return "Spring"
-			case 3:
-				return "Summer"
-			case 4:
-				return "Autumn"
-		}
-		
-		return "Invalid Season: " + season
 	}
 	
 	function color_hex_string(color) {

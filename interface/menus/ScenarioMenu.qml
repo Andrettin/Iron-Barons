@@ -316,7 +316,7 @@ MenuBase {
 			enabled: !loading_scenario
 			
 			SmallText {
-				text: model.modelData.name + ", " + date_year_string(model.modelData.start_date)
+				text: model.modelData.name + ", " + year_string(model.modelData.start_year)
 				anchors.horizontalCenter: parent.horizontalCenter
 				anchors.verticalCenter: parent.verticalCenter
 			}

@@ -19,7 +19,7 @@ Rectangle {
 	
 	SmallText {
 		id: date_label
-		text: date_string(metternich.game.date)
+		text: metternich.game.date_string
 		anchors.top: parent.top
 		anchors.topMargin: 1 * scale_factor
 		anchors.left: parent.left
