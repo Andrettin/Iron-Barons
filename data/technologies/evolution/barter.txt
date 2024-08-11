@@ -1,0 +1,6 @@
+barter = {
+	name = "Barter"
+	category = finance
+	portrait = building_slot
+	icon = lion
+}

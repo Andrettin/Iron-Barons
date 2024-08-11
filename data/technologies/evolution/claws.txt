@@ -3,6 +3,7 @@ claws = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	year = -130000000 #Baryonyx
 	prerequisites = {
 		fingers
 	}
