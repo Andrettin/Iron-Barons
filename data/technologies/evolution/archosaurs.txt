@@ -3,6 +3,7 @@ archosaurs = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	year = -72700000 #Tyrannosaurus
 	prerequisites = {
 		serrated_teeth
 		upright_stature

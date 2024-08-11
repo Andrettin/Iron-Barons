@@ -1,0 +1,6 @@
+spiny_fins = {
+	name = "Spiny Fins"
+	category = army
+	portrait = building_slot
+	icon = lion
+}

@@ -4,3 +4,15 @@ tail_weapons = {
 	portrait = building_slot
 	icon = lion
 }
+
+tail_spikes = {
+	name = "Tail Spikes"
+	category = army
+	portrait = building_slot
+	icon = lion
+	year = -155000000 #Stegosaurus
+	prerequisites = {
+		spikes
+		tail_weapons
+	}
+}

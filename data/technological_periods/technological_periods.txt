@@ -1,3 +1,35 @@
+#Geological Epochs
+
+carboniferous = {
+	start_year = -358900000
+	end_year = -298900000
+}
+
+permian = {
+	start_year = -298900000
+	end_year = -251902000
+}
+
+triassic = {
+	start_year = -251902000
+	end_year = -201400000
+}
+
+jurassic = {
+	start_year = -201400000
+	end_year = -145000000
+}
+
+cretaceous = {
+	start_year = -145000000
+	end_year = -66000000
+}
+
+cenozoic = {
+	start_year = -66000000
+	end_year = -4000
+}
+
 #Ancient Era
 
 4000_bc_2000_bc = {

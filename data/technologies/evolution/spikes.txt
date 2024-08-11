@@ -1,0 +1,10 @@
+spikes = {
+	name = "Spikes"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		spines
+		bony_plates
+	}
+}

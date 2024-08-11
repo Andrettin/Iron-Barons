@@ -34,6 +34,7 @@ tearing_claw = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	year = -75000000 #Velociraptor
 	prerequisites = {
 		slashing_claw
 		pack_hunting
