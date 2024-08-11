@@ -3,4 +3,5 @@ spiny_fins = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	year = -405000000 #Climatius
 }

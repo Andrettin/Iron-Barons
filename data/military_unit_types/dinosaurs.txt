@@ -11,6 +11,19 @@ coelophysis = {
 	required_technology = scaly_skin
 }
 
+acanthopholis = {
+	name = "Acanthopholis"
+	unit_class = beasts
+	icon = lion
+	stats = {
+		melee = 2
+		range = 1
+		defense = 3
+		movement = 4
+	}
+	required_technology = spikes
+}
+
 stegosaurus = {
 	name = "Stegosaurus"
 	unit_class = beasts
@@ -22,6 +35,19 @@ stegosaurus = {
 		movement = 4
 	}
 	required_technology = tail_spikes
+}
+
+triceratops = {
+	name = "Triceratops"
+	unit_class = beasts
+	icon = lion
+	stats = {
+		melee = 2
+		range = 1
+		defense = 3
+		movement = 4
+	}
+	required_technology = horns
 }
 
 velociraptors = {
@@ -48,4 +74,30 @@ tyrannosaurus = {
 		movement = 4
 	}
 	required_technology = archosaurs
+}
+
+pterodactyls = {
+	name = "Pterodactyls"
+	unit_class = flying_beasts
+	icon = lion
+	stats = {
+		melee = 2
+		range = 1
+		defense = 3
+		movement = 4
+	}
+	required_technology = pterosaurs
+}
+
+quetzalcoatlus = {
+	name = "Quetzalcoatlus"
+	unit_class = flying_beasts
+	icon = lion
+	stats = {
+		melee = 2
+		range = 1
+		defense = 3
+		movement = 4
+	}
+	required_technology = advanced_pterosaurs
 }

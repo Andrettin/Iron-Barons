@@ -3,6 +3,7 @@ pterosaurs = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	year = -150800000 #Pterodactyl
 	prerequisites = {
 		true_flight
 		sharp_eyesight
@@ -14,6 +15,7 @@ advanced_pterosaurs = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	year = -68000000 #Quetzalcoatlus
 	prerequisites = {
 		pterosaurs
 		serrated_teeth

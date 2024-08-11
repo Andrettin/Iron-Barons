@@ -3,6 +3,7 @@ spikes = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	year = -97000000 #Acanthopholis
 	prerequisites = {
 		spines
 		bony_plates

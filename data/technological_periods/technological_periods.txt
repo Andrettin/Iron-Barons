@@ -1,5 +1,10 @@
 #Geological Epochs
 
+devonian = {
+	start_year = -419200000
+	end_year = -358900000
+}
+
 carboniferous = {
 	start_year = -358900000
 	end_year = -298900000

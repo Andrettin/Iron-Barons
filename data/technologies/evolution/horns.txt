@@ -1,0 +1,11 @@
+horns = {
+	name = "Horns"
+	category = army
+	portrait = building_slot
+	icon = lion
+	year = -68000000 #Triceratops
+	prerequisites = {
+		bony_neck_frill
+		bony_knobs
+	}
+}
