@@ -16,6 +16,9 @@ harquebusiers = {
 		bronze = 2
 		horses = 2
 	}
+	upgrades = {
+		cuirassiers
+	}
 }
 
 cuirassiers = {
@@ -37,6 +40,9 @@ cuirassiers = {
 		armament = 1
 		horses = 1
 	}
+	upgrades = {
+		carbine_cavalry
+	}
 }
 
 carbine_cavalry = {
@@ -57,6 +63,9 @@ carbine_cavalry = {
 		manpower = 1
 		armament = 2
 		horses = 1
+	}
+	upgrades = {
+		armor
 	}
 }
 

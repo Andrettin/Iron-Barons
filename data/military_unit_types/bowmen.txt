@@ -14,6 +14,9 @@ archers = {
 	commodity_costs = {
 		manpower = 1
 	}
+	upgrades = {
+		crossbowmen
+	}
 }
 
 crossbowmen = {
@@ -33,5 +36,8 @@ crossbowmen = {
 		manpower = 1
 		fabric = 1
 		lumber = 1
+	}
+	upgrades = {
+		musketeers
 	}
 }

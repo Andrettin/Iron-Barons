@@ -15,6 +15,9 @@ squires = {
 		cast_iron = 1
 		horses = 1
 	}
+	upgrades = {
+		cossacks
+	}
 }
 
 cossacks = {
@@ -33,6 +36,9 @@ cossacks = {
 		fabric = 1
 		cast_iron = 1
 		horses = 2
+	}
+	upgrades = {
+		hussars
 	}
 }
 
@@ -55,6 +61,9 @@ hussars = {
 		armament = 1
 		horses = 1
 	}
+	upgrades = {
+		scouts
+	}
 }
 
 scouts = {
@@ -75,6 +84,9 @@ scouts = {
 		manpower = 1
 		armament = 2
 		horses = 1
+	}
+	upgrades = {
+		mechanized_infantry
 	}
 }
 

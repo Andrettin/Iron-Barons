@@ -12,6 +12,9 @@ chariots = {
 	commodity_costs = {
 		manpower = 1
 	}
+	upgrades = {
+		knights
+	}
 }
 
 knights = {
@@ -31,6 +34,9 @@ knights = {
 		bronze = 2
 		horses = 2
 	}
+	upgrades = {
+		lancers
+	}
 }
 
 lancers = {
@@ -49,5 +55,8 @@ lancers = {
 		fabric = 1
 		bronze = 2
 		horses = 3
+	}
+	upgrades = {
+		cuirassiers
 	}
 }

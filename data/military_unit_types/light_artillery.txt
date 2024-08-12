@@ -16,6 +16,9 @@ horse_artillery = {
 		bronze = 4
 		horses = 3
 	}
+	upgrades = {
+		light_artillery
+	}
 }
 
 light_artillery = {
@@ -37,6 +40,9 @@ light_artillery = {
 		armament = 2
 		horses = 1
 	}
+	upgrades = {
+		field_artillery
+	}
 }
 
 field_artillery = {
@@ -57,6 +63,9 @@ field_artillery = {
 		manpower = 1
 		armament = 4
 		horses = 1
+	}
+	upgrades = {
+		mobile_artillery
 	}
 }
 

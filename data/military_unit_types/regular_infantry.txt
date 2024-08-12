@@ -12,6 +12,9 @@ spearmen = {
 	commodity_costs = {
 		manpower = 1
 	}
+	upgrades = {
+		pikemen
+	}
 }
 
 pikemen = {
@@ -31,6 +34,9 @@ pikemen = {
 		fabric = 1
 		cast_iron = 1
 	}
+	upgrades = {
+		halberdiers
+	}
 }
 
 halberdiers = {
@@ -43,12 +49,16 @@ halberdiers = {
 		defense = 6
 		movement = 4
 	}
+	bonus_vs_cavalry = 100
 	entrench = true
 	required_technology = halberd
 	commodity_costs = {
 		manpower = 1
 		fabric = 1
 		cast_iron = 2
+	}
+	upgrades = {
+		regulars
 	}
 }
 
@@ -71,6 +81,9 @@ regulars = {
 		manpower = 1
 		armament = 1
 	}
+	upgrades = {
+		rifle_infantry
+	}
 }
 
 rifle_infantry = {
@@ -91,6 +104,9 @@ rifle_infantry = {
 	commodity_costs = {
 		manpower = 1
 		armament = 2
+	}
+	upgrades = {
+		infantry
 	}
 }
 

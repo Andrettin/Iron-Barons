@@ -15,6 +15,9 @@ sappers = {
 		manpower = 1
 		armament = 2
 	}
+	upgrades = {
+		combat_engineers
+	}
 }
 
 combat_engineers = {
@@ -33,6 +36,9 @@ combat_engineers = {
 	commodity_costs = {
 		manpower = 1
 		armament = 2
+	}
+	upgrades = {
+		saboteurs
 	}
 }
 

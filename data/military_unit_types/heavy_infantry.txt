@@ -16,6 +16,9 @@ arquebusiers = {
 		fabric = 1
 		bronze = 1
 	}
+	upgrades = {
+		musketeers
+	}
 }
 
 musketeers = {
@@ -35,6 +38,9 @@ musketeers = {
 		manpower = 1
 		fabric = 1
 		bronze = 2
+	}
+	upgrades = {
+		grenadiers
 	}
 }
 
@@ -60,6 +66,9 @@ grenadiers = {
 	free_promotions = {
 		grenadier_1
 	}
+	upgrades = {
+		guards
+	}
 }
 
 guards = {
@@ -80,6 +89,9 @@ guards = {
 	commodity_costs = {
 		manpower = 1
 		armament = 2
+	}
+	upgrades = {
+		machine_gunners
 	}
 }
 

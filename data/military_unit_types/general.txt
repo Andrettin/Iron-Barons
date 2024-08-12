@@ -7,6 +7,9 @@ general_napoleonic = {
 		defense = 5
 		movement = 7
 	}
+	upgrades = {
+		general_victorian
+	}
 }
 
 general_victorian = {
@@ -17,6 +20,9 @@ general_victorian = {
 		range = 1
 		defense = 7
 		movement = 9
+	}
+	upgrades = {
+		general_modern
 	}
 }
 

@@ -32,6 +32,9 @@ calivermen = {
 		fabric = 1
 		bronze = 2
 	}
+	upgrades = {
+		skirmishers
+	}
 }
 
 skirmishers = {
@@ -53,6 +56,9 @@ skirmishers = {
 		manpower = 1
 		armament = 1
 	}
+	upgrades = {
+		sharpshooters
+	}
 }
 
 sharpshooters = {
@@ -73,6 +79,9 @@ sharpshooters = {
 	commodity_costs = {
 		manpower = 1
 		armament = 2
+	}
+	upgrades = {
+		rangers
 	}
 }
 

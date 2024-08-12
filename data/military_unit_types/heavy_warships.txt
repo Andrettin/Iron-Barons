@@ -16,6 +16,9 @@ galleon = {
 		bronze = 4
 		fabric = 3
 	}
+	upgrades = {
+		ship_of_the_line
+	}
 }
 
 ship_of_the_line = {
@@ -36,6 +39,9 @@ ship_of_the_line = {
 		fabric = 3
 		lumber = 8
 		armament = 5
+	}
+	upgrades = {
+		ironclad
 	}
 }
 
@@ -59,6 +65,9 @@ ironclad = {
 		steel = 4
 		coal = 10
 	}
+	upgrades = {
+		advanced_ironclad
+	}
 }
 
 advanced_ironclad = {
@@ -80,6 +89,9 @@ advanced_ironclad = {
 		armament = 15
 		steel = 10
 		coal = 20
+	}
+	upgrades = {
+		dreadnought
 	}
 }
 

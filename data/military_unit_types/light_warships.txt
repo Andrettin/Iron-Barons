@@ -11,6 +11,9 @@ trireme = {
 	}
 	hit_points = 25
 	required_technology = cartography
+	upgrades = {
+		sloop
+	}
 }
 
 sloop = {
@@ -30,6 +33,9 @@ sloop = {
 		lumber = 3
 		bronze = 2
 		fabric = 1
+	}
+	upgrades = {
+		frigate
 	}
 }
 
@@ -52,6 +58,9 @@ frigate = {
 		lumber = 5
 		armament = 2
 	}
+	upgrades = {
+		raider
+	}
 }
 
 raider = {
@@ -72,6 +81,9 @@ raider = {
 		lumber = 6
 		armament = 3
 		coal = 10
+	}
+	upgrades = {
+		armored_cruiser
 	}
 }
 
@@ -94,6 +106,9 @@ armored_cruiser = {
 		armament = 8
 		steel = 6
 		coal = 20
+	}
+	upgrades = {
+		battlecruiser
 	}
 }
 

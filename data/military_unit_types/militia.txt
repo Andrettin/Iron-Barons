@@ -13,6 +13,9 @@ peasant_levies = {
 		manpower = 1
 		fabric = 1
 	}
+	upgrades = {
+		minutemen
+	}
 }
 
 minutemen = {
@@ -31,6 +34,9 @@ minutemen = {
 	free_promotions = {
 		minuteman_1
 	}
+	upgrades = {
+		militia
+	}
 }
 
 militia = {
@@ -46,6 +52,9 @@ militia = {
 	}
 	entrench = true
 	required_technology = needle_gun
+	upgrades = {
+		conscripts
+	}
 }
 
 conscripts = {

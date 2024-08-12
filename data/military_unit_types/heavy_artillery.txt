@@ -13,6 +13,9 @@ catapult = {
 	commodity_costs = {
 		manpower = 1
 	}
+	upgrades = {
+		culverin
+	}
 }
 
 culverin = {
@@ -32,6 +35,9 @@ culverin = {
 		fabric = 1
 		bronze = 4
 	}
+	upgrades = {
+		royal_artillery
+	}
 }
 
 royal_artillery = {
@@ -50,6 +56,9 @@ royal_artillery = {
 		manpower = 1
 		fabric = 1
 		bronze = 6
+	}
+	upgrades = {
+		artillery
 	}
 }
 
@@ -71,6 +80,9 @@ artillery = {
 		manpower = 1
 		armament = 2
 	}
+	upgrades = {
+		siege_artillery
+	}
 }
 
 siege_artillery = {
@@ -90,6 +102,9 @@ siege_artillery = {
 	commodity_costs = {
 		manpower = 1
 		armament = 4
+	}
+	upgrades = {
+		railroad_guns
 	}
 }
 
