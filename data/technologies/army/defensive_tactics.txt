@@ -30,6 +30,9 @@ positional_combat = {
 		spearmen_morale_resistance_modifier = 10
 		pikemen_morale_resistance_modifier = 10
 		halberdiers_morale_resistance_modifier = 10
+		axemen_morale_resistance_modifier = 10
+		swordsmen_morale_resistance_modifier = 10
+		two_handed_swordsmen_morale_resistance_modifier = 10
 	}
 }
 
@@ -91,13 +94,16 @@ unit_organization = {
 		drilled_pikemen
 	}
 	modifier = {
-		chariots_morale_resistance_modifier = 10
-		knights_morale_resistance_modifier = 10
-		lancers_morale_resistance_modifier = 10
+		peasant_levies_morale_resistance_modifier = 10
 		spearmen_morale_resistance_modifier = 10
 		pikemen_morale_resistance_modifier = 10
 		halberdiers_morale_resistance_modifier = 10
-		peasant_levies_morale_resistance_modifier = 10
+		axemen_morale_resistance_modifier = 10
+		swordsmen_morale_resistance_modifier = 10
+		two_handed_swordsmen_morale_resistance_modifier = 10
+		chariots_morale_resistance_modifier = 10
+		knights_morale_resistance_modifier = 10
+		lancers_morale_resistance_modifier = 10
 	}
 }
 

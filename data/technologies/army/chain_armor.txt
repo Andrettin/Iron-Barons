@@ -10,8 +10,10 @@ chained_leather_armor = {
 	}
 	modifier = {
 		clubmen_defense_modifier = 0.2
+		macemen_defense_modifier = 0.2
 		spearmen_defense_modifier = 0.2
 		pikemen_defense_modifier = 0.2
+		axemen_defense_modifier = 0.2
 		squires_defense_modifier = 0.2
 	}
 }
@@ -27,8 +29,10 @@ light_chainmail = {
 	}
 	modifier = {
 		clubmen_defense_modifier = 0.2
+		macemen_defense_modifier = 0.2
 		spearmen_defense_modifier = 0.2
 		pikemen_defense_modifier = 0.2
+		axemen_defense_modifier = 0.2
 		squires_defense_modifier = 0.2
 	}
 }
@@ -44,8 +48,10 @@ chainmail = {
 	}
 	modifier = {
 		clubmen_defense_modifier = 0.2
+		macemen_defense_modifier = 0.2
 		spearmen_defense_modifier = 0.2
 		pikemen_defense_modifier = 0.2
+		axemen_defense_modifier = 0.2
 		squires_defense_modifier = 0.2
 	}
 }
@@ -61,8 +67,10 @@ full_chainmail = {
 	}
 	modifier = {
 		clubmen_defense_modifier = 0.2
+		macemen_defense_modifier = 0.2
 		spearmen_defense_modifier = 0.2
 		pikemen_defense_modifier = 0.2
+		axemen_defense_modifier = 0.2
 		squires_defense_modifier = 0.2
 	}
 }
@@ -78,8 +86,10 @@ plated_chainmail = {
 	}
 	modifier = {
 		clubmen_defense_modifier = 0.2
+		macemen_defense_modifier = 0.2
 		spearmen_defense_modifier = 0.2
 		pikemen_defense_modifier = 0.2
+		axemen_defense_modifier = 0.2
 		squires_defense_modifier = 0.2
 	}
 }

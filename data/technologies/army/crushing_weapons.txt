@@ -11,14 +11,17 @@ handaxe = {
 	}
 }
 
-warhammer = {
-	name = "Warhammer"
+battleaxe = {
+	name = "Battleaxe"
 	category = army
 	portrait = helmet
 	icon = saber
 	year = 1100
 	prerequisites = {
 		handaxe
+	}
+	modifier = {
+		axemen_melee_modifier = 0.5
 	}
 }
 
@@ -29,7 +32,21 @@ mace = {
 	icon = saber
 	year = 1200
 	prerequisites = {
-		warhammer
+		battleaxe
+	}
+}
+
+warhammer = {
+	name = "Warhammer"
+	category = army
+	portrait = helmet
+	icon = saber
+	year = 1300
+	prerequisites = {
+		mace
+	}
+	modifier = {
+		macemen_melee_modifier = 0.5
 	}
 }
 
@@ -38,19 +55,11 @@ morningstar = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1300
-	prerequisites = {
-		mace
-	}
-}
-
-battleaxe = {
-	name = "Battleaxe"
-	category = army
-	portrait = helmet
-	icon = saber
 	year = 1400
 	prerequisites = {
-		morningstar
+		warhammer
+	}
+	modifier = {
+		macemen_melee_modifier = 0.5
 	}
 }

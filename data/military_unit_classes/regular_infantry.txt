@@ -1,21 +1,3 @@
-spearmen = {
-	name = "Spearmen"
-	domain = land
-	category = regular_infantry
-}
-
-pikemen = {
-	name = "Pikemen"
-	domain = land
-	category = regular_infantry
-}
-
-halberdiers = {
-	name = "Halberdiers"
-	domain = land
-	category = regular_infantry
-}
-
 regulars = {
 	name = "Regulars"
 	domain = land

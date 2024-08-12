@@ -9,6 +9,8 @@ scalemail = {
 		ironworking
 	}
 	modifier = {
+		swordsmen_defense_modifier = 0.2
+		two_handed_swordsmen_defense_modifier = 0.2
 		chariots_defense_modifier = 0.2
 		knights_defense_modifier = 0.2
 	}
@@ -24,6 +26,8 @@ banded_mail = {
 		scalemail
 	}
 	modifier = {
+		swordsmen_defense_modifier = 0.2
+		two_handed_swordsmen_defense_modifier = 0.2
 		chariots_defense_modifier = 0.2
 		knights_defense_modifier = 0.2
 	}
@@ -39,6 +43,8 @@ half_plate = {
 		banded_mail
 	}
 	modifier = {
+		swordsmen_defense_modifier = 0.2
+		two_handed_swordsmen_defense_modifier = 0.2
 		chariots_defense_modifier = 0.2
 		knights_defense_modifier = 0.2
 	}
@@ -54,6 +60,8 @@ platemail = {
 		half_plate
 	}
 	modifier = {
+		swordsmen_defense_modifier = 0.2
+		two_handed_swordsmen_defense_modifier = 0.2
 		chariots_defense_modifier = 0.2
 		knights_defense_modifier = 0.2
 	}
@@ -69,6 +77,8 @@ full_plate = {
 		platemail
 	}
 	modifier = {
+		swordsmen_defense_modifier = 0.2
+		two_handed_swordsmen_defense_modifier = 0.2
 		chariots_defense_modifier = 0.2
 		knights_defense_modifier = 0.2
 	}

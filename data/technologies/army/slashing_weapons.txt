@@ -24,6 +24,7 @@ broadsword = {
 		shortsword
 	}
 	modifier = {
+		swordsmen_melee_modifier = 0.5
 		squires_melee_modifier = 0.33
 	}
 }
@@ -38,6 +39,7 @@ longsword = {
 		broadsword
 	}
 	modifier = {
+		swordsmen_melee_modifier = 0.5
 		squires_melee_modifier = 0.34
 	}
 }
@@ -61,5 +63,8 @@ greatsword = {
 	year = 1400
 	prerequisites = {
 		bastard_sword
+	}
+	modifier = {
+		two_handed_swordsmen_melee_modifier = 0.5
 	}
 }

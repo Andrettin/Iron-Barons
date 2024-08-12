@@ -42,6 +42,9 @@ reserves = {
 		frontal_charge
 	}
 	modifier = {
+		axemen_morale_resistance_modifier = 20
+		swordsmen_morale_resistance_modifier = 20
+		two_handed_swordsmen_morale_resistance_modifier = 20
 		chariots_morale_resistance_modifier = 10
 		knights_morale_resistance_modifier = 10
 		lancers_morale_resistance_modifier = 10
@@ -59,6 +62,9 @@ dismounted_knights = {
 		chivalry
 	}
 	modifier = {
+		axemen_morale_resistance_modifier = 10
+		swordsmen_morale_resistance_modifier = 10
+		two_handed_swordsmen_morale_resistance_modifier = 10
 		chariots_morale_resistance_modifier = 20
 		knights_morale_resistance_modifier = 20
 		lancers_morale_resistance_modifier = 20
@@ -75,6 +81,9 @@ hierarchical_command = {
 		dismounted_knights
 	}
 	modifier = {
+		axemen_morale_resistance_modifier = 10
+		swordsmen_morale_resistance_modifier = 10
+		two_handed_swordsmen_morale_resistance_modifier = 10
 		chariots_morale_resistance_modifier = 10
 		knights_morale_resistance_modifier = 10
 		lancers_morale_resistance_modifier = 10
