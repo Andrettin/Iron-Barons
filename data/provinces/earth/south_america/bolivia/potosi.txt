@@ -7,9 +7,14 @@ potosi = {
 	}
 	
 	history = {
-		owner = inca_empire
-		culture = inca
+		owner = gondwana
+		culture = dinosaur
 		religion = pagan
+		
+		-4000 = {
+			owner = inca_empire
+			culture = inca
+		}
 		
 		1790 = {
 			owner = la_plata #part of the Viceroyalty of La Plata c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.

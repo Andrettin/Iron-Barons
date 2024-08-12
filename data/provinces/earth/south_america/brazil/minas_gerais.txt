@@ -7,9 +7,14 @@ minas_gerais = {
 	}
 	
 	history = {
-		owner = tupi
-		culture = tupi
+		owner = gondwana
+		culture = dinosaur
 		religion = pagan
+		
+		-4000 = {
+			owner = tupi
+			culture = tupi
+		}
 		
 		1300 = {
 			owner = tupi

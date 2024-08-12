@@ -7,8 +7,13 @@ aisen = {
 	}
 	
 	history = {
-		owner = inca_empire
-		culture = inca
+		owner = gondwana
+		culture = dinosaur
 		religion = pagan
+		
+		-4000 = {
+			owner = inca_empire
+			culture = inca
+		}
 	}
 }

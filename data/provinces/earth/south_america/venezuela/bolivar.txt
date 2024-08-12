@@ -7,8 +7,13 @@ bolivar = {
 	}
 	
 	history = {
-		owner = arawaks
-		culture = arawak
+		owner = gondwana
+		culture = dinosaur
 		religion = pagan
+		
+		-4000 = {
+			owner = arawaks
+			culture = arawak
+		}
 	}
 }

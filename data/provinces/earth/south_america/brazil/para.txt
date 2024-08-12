@@ -8,9 +8,14 @@ para = {
 	}
 	
 	history = {
-		owner = tupi
-		culture = tupi
+		owner = gondwana
+		culture = dinosaur
 		religion = pagan
+		
+		-4000 = {
+			owner = tupi
+			culture = tupi
+		}
 		
 		1790 = {
 			owner = brazil #part of Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
