@@ -151,7 +151,7 @@ Item {
 		anchors.bottom: status_bar.top
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
-		entries: metternich.get_technologies()
+		entries: country.available_technologies
 		visible: technology_view_mode === TechnologyView.Mode.TechTree
 		delegate: TreePortraitButton {
 			border_color: country_game_data.current_research === technology ? "white" : (country_game_data.has_technology(technology) ? Qt.rgba(64.0 / 255.0, 64.0 / 255.0, 64.0 / 255.0, 1) : "gray")
