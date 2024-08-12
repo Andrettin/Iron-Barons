@@ -1,3 +1,21 @@
+triceratops = {
+	name = "Triceratops"
+	unit_class = spearmen
+	culture = dinosaur
+	icon = lion
+	stats = {
+		melee = 4
+		range = 1
+		defense = 5
+		movement = 4
+	}
+	bonus_vs_cavalry = 100
+	required_technology = horns
+	commodity_costs = {
+		manpower = 1
+	}
+}
+
 coelophysis = {
 	name = "Coelophysis"
 	unit_class = beasts
@@ -48,19 +66,6 @@ stegosaurus = {
 		movement = 4
 	}
 	required_technology = tail_spikes
-}
-
-triceratops = {
-	name = "Triceratops"
-	unit_class = beasts
-	icon = lion
-	stats = {
-		melee = 2
-		range = 1
-		defense = 3
-		movement = 4
-	}
-	required_technology = horns
 }
 
 velociraptors = {
