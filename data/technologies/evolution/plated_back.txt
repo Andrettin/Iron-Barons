@@ -1,0 +1,10 @@
+plated_back = {
+	name = "Plated Back"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		back_protection
+		bony_plates
+	}
+}

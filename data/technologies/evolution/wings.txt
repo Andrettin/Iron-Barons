@@ -3,6 +3,9 @@ wings = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		scaly_skin
 		fingers
@@ -14,6 +17,9 @@ true_flight = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		wings
 		endothermics

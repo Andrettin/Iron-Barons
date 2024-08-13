@@ -1,0 +1,10 @@
+full_armor = {
+	name = "Full Armor"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		plated_back
+		bony_neck_frill
+	}
+}
