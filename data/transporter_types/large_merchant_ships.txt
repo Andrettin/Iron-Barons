@@ -12,6 +12,9 @@ fluyte = {
 		cast_iron = 2
 		fabric = 2
 	}
+	upgrades = {
+		indiaman
+	}
 }
 
 indiaman = {
@@ -26,6 +29,9 @@ indiaman = {
 	commodity_costs = {
 		fabric = 3
 		lumber = 7
+	}
+	upgrades = {
+		paddlewheeler
 	}
 }
 
@@ -42,6 +48,9 @@ paddlewheeler = {
 		lumber = 6
 		steel = 2
 		coal = 10
+	}
+	upgrades = {
+		freighter
 	}
 }
 

@@ -8,6 +8,9 @@ griphognathus = {
 	speed = 3
 	cargo = 3
 	required_technology = egg_laying
+	upgrades = {
+		hemicyclaspis
+	}
 }
 
 hemicyclaspis = {
