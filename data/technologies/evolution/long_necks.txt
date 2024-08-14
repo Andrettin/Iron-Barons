@@ -1,0 +1,10 @@
+long_necks = {
+	name = "Long Necks"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		endothermics
+		teeth
+	}
+}

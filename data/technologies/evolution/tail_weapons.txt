@@ -16,3 +16,13 @@ tail_spikes = {
 		tail_weapons
 	}
 }
+
+tail_crest = {
+	name = "Tail Crest"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		crested_back
+	}
+}

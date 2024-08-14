@@ -1,0 +1,10 @@
+combined_defenses = {
+	name = "Combined Defenses"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		horns
+		spines
+	}
+}

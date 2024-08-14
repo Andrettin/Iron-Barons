@@ -1,0 +1,18 @@
+spiny_fins = {
+	name = "Spiny Fins"
+	category = navy
+	portrait = building_slot
+	icon = fish
+	year = -405000000 #Climatius
+}
+
+dorsal_fin = {
+	name = "Dorsal Fin"
+	category = navy
+	portrait = building_slot
+	icon = fish
+	prerequisites = {
+		spines
+		back_protection
+	}
+}

@@ -9,6 +9,16 @@ claws = {
 	}
 }
 
+grasping_claws = {
+	name = "Grasping Claws"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		claws
+	}
+}
+
 curved_claws = {
 	name = "Curved Claws"
 	category = army

@@ -1,0 +1,10 @@
+flippers = {
+	name = "Flippers"
+	category = navy
+	portrait = building_slot
+	icon = fish
+	prerequisites = {
+		fingers
+		amphibians
+	}
+}

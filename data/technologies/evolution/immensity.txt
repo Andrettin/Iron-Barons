@@ -1,0 +1,9 @@
+immensity = {
+	name = "Immensity"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		saurian_proportions
+	}
+}
