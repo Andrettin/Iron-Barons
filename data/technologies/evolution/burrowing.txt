@@ -1,0 +1,10 @@
+burrowing = {
+	name = "Burrowing"
+	category = industry
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		fortified_nesting
+		claws
+	}
+}

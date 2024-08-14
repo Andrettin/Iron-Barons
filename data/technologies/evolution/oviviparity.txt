@@ -1,0 +1,10 @@
+oviviparity = {
+	name = "Oviviparity"
+	category = culture
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		egg_laying
+		spawning_grounds
+	}
+}

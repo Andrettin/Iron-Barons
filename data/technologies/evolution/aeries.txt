@@ -1,0 +1,10 @@
+aeries = {
+	name = "Aeries"
+	category = army
+	portrait = building_slot
+	icon = lion
+	prerequisites = {
+		true_flight
+		fortified_nesting
+	}
+}

@@ -1,0 +1,13 @@
+marine_reptiles = {
+	name = "Marine Reptiles"
+	category = navy
+	portrait = building_slot
+	icon = lion
+	cultures = {
+		dinosaur
+	}
+	prerequisites = {
+		flippers
+		omophagia
+	}
+}
