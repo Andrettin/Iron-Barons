@@ -22,6 +22,10 @@ fort = {
 	filepath = "portraits/buildings/fort.png"
 }
 
+hospital = {
+	filepath = "portraits/buildings/hospital.png"
+}
+
 temple = {
 	filepath = "portraits/buildings/temple.png"
 }
