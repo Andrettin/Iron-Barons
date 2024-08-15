@@ -1,0 +1,19 @@
+aqueduct = {
+	name = "Aqueduct"
+	building_class = aqueduct
+	portrait = hospital
+	icon = architecture
+	provincial = true
+	required_technology = architecture
+	settlement_types = {
+		town
+		city
+		metropolis
+	}
+	settlement_conditions = {
+		river = false
+	}
+	settlement_modifier = {
+		housing = 4
+	}
+}
