@@ -1,7 +1,7 @@
 colossus = {
 	name = "Colossus"
 	portrait = dock
-	building = lighthouse #maybe should be a monument or statue building instead?
+	building = monument
 	required_technology = bronzeworking
 	province_modifier = {
 		trade_bonus_for_tile_threshold = 1
