@@ -183,4 +183,7 @@ communism = {
 		philosophy
 		industrial_machinery
 	}
+	modifier = {
+		luxuries_per_cathedral = -1
+	}
 }

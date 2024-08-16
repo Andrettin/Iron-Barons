@@ -15,6 +15,10 @@ mysticism = {
 	prerequisites = {
 		ceremonial_burial
 	}
+	modifier = {
+		luxuries_per_temple = 1
+		luxuries_per_cathedral = 1
+	}
 }
 
 polytheism = {
@@ -64,6 +68,9 @@ theology = {
 	prerequisites = {
 		monotheism
 		feudalism
+	}
+	modifier = {
+		luxuries_per_cathedral = 1
 	}
 }
 
