@@ -132,6 +132,19 @@ franz_dietrichstein = {
 	required_technology = national_bureaucracy
 }
 
+johann_sebastian_bach = {
+	name = "Johann Sebastian"
+	surname = "Bach"
+	role = advisor
+	advisor_type = johann_sebastian_bach
+	culture = german
+	religion = protestant
+	home_site = erfurt #Eisenach
+	gender = male
+	birth_date = 1685
+	death_date = 1750
+}
+
 maximilian_hell = {
 	name = "Maximilian"
 	surname = "Hell"

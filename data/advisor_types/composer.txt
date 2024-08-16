@@ -1,0 +1,8 @@
+johann_sebastian_bach = {
+	name = "Johann Sebastian Bach"
+	category = political #not very fitting
+	required_technology = theology
+	modifier = {
+		luxuries_per_cathedral = 2
+	}
+}
