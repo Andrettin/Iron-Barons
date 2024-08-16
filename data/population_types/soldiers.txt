@@ -8,7 +8,7 @@ soldiers = {
 	output_commodity = manpower
 	output_value = 1
 	consumed_commodities = {
-		amenities = 0.5
+		luxuries = 1
 	}
 	commodity_demands = {
 		clothing = 0.1

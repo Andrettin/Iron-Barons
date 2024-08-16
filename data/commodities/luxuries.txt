@@ -1,5 +1,5 @@
-amenities = {
-	name = "Amenities"
+luxuries = {
+	name = "Luxuries"
 	icon = music
 	abstract = true
 	storable = false

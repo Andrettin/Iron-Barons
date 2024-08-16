@@ -15,7 +15,7 @@ temple = {
 	}
 	settlement_modifier = {
 		max_clergymen = 1
-		amenities_bonus = 1
+		luxuries_bonus = 1
 	}
 }
 
@@ -34,6 +34,6 @@ cathedral = {
 	}
 	settlement_modifier = {
 		max_clergymen = 2
-		amenities_bonus = 3
+		luxuries_bonus = 4
 	}
 }

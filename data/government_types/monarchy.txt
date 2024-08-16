@@ -5,7 +5,7 @@ monarchy = {
 	required_technology = monarchy
 	modifier = {
 		capital_trade_bonus_per_population = 0.5
-		capital_amenities_bonus_per_population = 0.25
+		capital_luxuries_bonus_per_population = 0.5
 	}
 	min_policy_values = {
 		centralization_decentralization = -2

@@ -8,7 +8,7 @@ trained_workers = {
 	output_commodity = labor
 	output_value = 2
 	consumed_commodities = {
-		amenities = 0.5
+		luxuries = 1
 	}
 	commodity_demands = {
 		clothing = 0.1

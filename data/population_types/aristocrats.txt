@@ -8,7 +8,7 @@ aristocrats = {
 	small_icon = rifle_infantry_light_small
 	max_modifier_multiplier = 50
 	consumed_commodities = {
-		amenities = 0.5
+		luxuries = 1
 	}
 	commodity_demands = {
 		clothing = 0.2

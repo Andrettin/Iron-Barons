@@ -9,7 +9,7 @@ firebrand_preachers = {
 	output_commodity = piety
 	output_value = 4
 	consumed_commodities = {
-		amenities = 0.5
+		luxuries = 1
 	}
 	commodity_demands = {
 		clothing = 0.1
