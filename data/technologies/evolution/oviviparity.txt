@@ -7,4 +7,7 @@ oviviparity = {
 		egg_laying
 		spawning_grounds
 	}
+	modifier = {
+		luxuries_per_hatchery = 1
+	}
 }
