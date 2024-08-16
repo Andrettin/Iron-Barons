@@ -10,10 +10,7 @@ aqueduct = {
 		city
 		metropolis
 	}
-	settlement_conditions = {
-		river = false
-	}
 	settlement_modifier = {
-		housing = 4
+		health_bonus = 2
 	}
 }

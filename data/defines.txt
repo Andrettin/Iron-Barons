@@ -28,8 +28,13 @@ default_tribal_population_class = tribesmen
 default_literate_population_class = trained_workers
 population_per_unit = 10000
 population_growth_threshold = 100
-base_housing = 8
-river_housing = 4
+
+settlement_commodity_bonuses = {
+	health = 4
+}
+river_settlement_commodity_bonuses = {
+	health = 2
+}
 
 research_commodity = research
 prestige_commodity = prestige

@@ -1,0 +1,8 @@
+health = {
+	name = "Health"
+	icon = heart
+	abstract = true
+	storable = false
+	local = true
+	health = true
+}
