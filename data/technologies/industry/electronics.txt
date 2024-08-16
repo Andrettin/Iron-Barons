@@ -1,0 +1,14 @@
+electronics = {
+	name = "Electronics"
+	category = industry
+	portrait = engineering
+	icon = research
+	year = 1875
+	prerequisites = {
+		electricity
+		corporation
+	}
+	modifier = {
+		luxuries_per_arena = 1
+	}
+}

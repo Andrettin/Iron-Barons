@@ -1,0 +1,15 @@
+arena = {
+	name = "Arena"
+	building_class = arena
+	portrait = fort
+	icon = architecture
+	provincial = true
+	required_technology = architecture
+	settlement_types = {
+		city
+		metropolis
+	}
+	settlement_modifier = {
+		luxuries_bonus = 3
+	}
+}
