@@ -8,7 +8,10 @@ elder_statesmen = {
 	small_icon = rifle_infantry_light_small
 	output_commodity = statesmanship
 	output_value = 4
-	consumed_commodities = {
+	everyday_consumption = {
+		luxuries = 1
+	}
+	luxury_consumption = {
 		luxuries = 1
 	}
 	commodity_demands = {

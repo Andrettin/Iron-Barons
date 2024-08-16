@@ -7,7 +7,10 @@ soldiers = {
 	small_icon = rifle_infantry_light_small
 	output_commodity = manpower
 	output_value = 1
-	consumed_commodities = {
+	everyday_consumption = {
+		luxuries = 1
+	}
+	luxury_consumption = {
 		luxuries = 1
 	}
 	commodity_demands = {

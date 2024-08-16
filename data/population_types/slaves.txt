@@ -6,7 +6,7 @@ slaves = {
 	small_icon = slaves_light_small
 	output_commodity = labor
 	output_value = 1
-	consumed_commodities = {
+	everyday_consumption = {
 		luxuries = 1
 	}
 	phenotype_icons = {
