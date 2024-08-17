@@ -51,6 +51,9 @@ city = {
 		population_unit_count = 12
 		has_building_class = town_hall
 	}
+	conditions = {
+		capital = true
+	}
 }
 
 metropolis = {
@@ -67,5 +70,8 @@ metropolis = {
 			has_building_class = state_house
 			has_building_class = capitol
 		}
+	}
+	conditions = {
+		capital = true
 	}
 }
