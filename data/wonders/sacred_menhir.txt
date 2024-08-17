@@ -1,10 +1,10 @@
-colossus = {
-	name = "Colossus"
-	portrait = dock
+sacred_menhir = {
+	name = "Sacred Menhir"
+	portrait = temple
 	building = monument
 	required_technology = bronzeworking
 	conditions = {
-		not = {
+		or = {
 			cultural_group = celtic
 			cultural_group = germanic
 		}
