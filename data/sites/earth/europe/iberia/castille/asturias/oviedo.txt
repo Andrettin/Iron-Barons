@@ -13,11 +13,12 @@ oviedo = {
 		
 		1580 = {
 			buildings += university #University founded in Oviedo in 1580; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
-			settlement_type = city
+			settlement_type = campus
 		}
 		
 		1608 = {
 			buildings -= university #University abolished in Oviedo in 1608; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+			settlement_type = town
 		}
 	}
 }
