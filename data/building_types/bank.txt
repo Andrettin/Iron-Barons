@@ -20,6 +20,11 @@ bank = {
 			}
 		}
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = trade
+		}
+	}
 	settlement_modifier = {
 		trade_output_modifier = 50
 	}

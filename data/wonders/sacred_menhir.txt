@@ -3,6 +3,7 @@ sacred_menhir = {
 	portrait = temple
 	building = monument
 	required_technology = bronzeworking
+	#obsolescence_technology = warp_spell
 	conditions = {
 		or = {
 			cultural_group = celtic

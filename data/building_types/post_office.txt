@@ -9,6 +9,11 @@ post_office = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = trade
+		}
+	}
 	province_modifier = {
 		trade_output_modifier = 10
 	}
