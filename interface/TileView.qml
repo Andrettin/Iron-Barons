@@ -94,8 +94,8 @@ Item {
 		anchors.leftMargin: 8 * scale_factor + 8 * scale_factor + 2 * scale_factor
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
-		source: "image://icon/" + resource.tiny_icon.identifier
-		visible: province !== null && is_center_tile && resource !== null && site && site.game_data.settlement_type !== null
+		source: "image://icon/" + (site.game_data.resource_improvement ? site.game_data.resource_improvement.icon.identifier : resource.tiny_icon.identifier)
+		visible: province !== null && is_center_tile && resource !== null && site && (site.game_data.settlement_type !== null || (improvement !== null && improvement.resource === null))
 	}
 	
 	Rectangle {
@@ -150,7 +150,7 @@ Item {
 	Item {
 		id: tile_detail_item
 		anchors.fill: parent
-		visible: (improvement !== null || (site && site.game_data.settlement_type !== null)) && resource !== null && tile_detail_mode
+		visible: site && site.game_data.resource_improvement !== null && resource !== null && tile_detail_mode
 		
 		LargeText {
 			anchors.horizontalCenter: parent.horizontalCenter
@@ -166,7 +166,7 @@ Item {
 			anchors.verticalCenter: parent.verticalCenter
 			source: resource ? ("image://icon/" + resource.commodity.icon.identifier) : "image://empty/"
 			fillMode: Image.Pad
-			visible: (improvement !== null || (site && site.game_data.settlement_type !== null)) && resource !== null
+			visible: site && site.game_data.resource_improvement !== null && resource !== null
 		}
 	}
 	
@@ -255,7 +255,12 @@ Item {
 				text += site.game_data.settlement_type.name
 				
 				if (resource !== null) {
-					text += ") (" + resource.name
+					text += ") ("
+					if (site.game_data.resource_improvement !== null) {
+						text += site.game_data.resource_improvement.name
+					} else {
+						text += resource.name
+					}
 				}
 			} else if (improvement !== null) {
 				text += improvement.name
