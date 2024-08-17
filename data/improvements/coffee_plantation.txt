@@ -1,6 +1,7 @@
 small_coffee_plantation = {
 	name = "Small Coffee Plantation"
 	resource = coffee
+	icon = trade_consulate
 	image_filepath = "tiles/improvements/coffee_plantation.png"
 	output_multiplier = 1
 }
@@ -8,6 +9,7 @@ small_coffee_plantation = {
 coffee_plantation = {
 	name = "Coffee Plantation"
 	resource = coffee
+	icon = trade_consulate
 	image_filepath = "tiles/improvements/coffee_plantation.png"
 	output_multiplier = 2
 	required_improvement = small_coffee_plantation
@@ -16,6 +18,7 @@ coffee_plantation = {
 large_coffee_plantation = {
 	name = "Large Coffee Plantation"
 	resource = coffee
+	icon = trade_consulate
 	image_filepath = "tiles/improvements/coffee_plantation.png"
 	output_multiplier = 3
 	required_improvement = coffee_plantation

@@ -1,6 +1,7 @@
 copper = {
 	name = "Copper"
 	commodity = copper
+	tiny_icon = trade_consulate
 	prospectable = true
 	terrain_types = {
 		barren_hills

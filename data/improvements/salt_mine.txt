@@ -1,6 +1,7 @@
 salt_mine = {
 	name = "Salt Mine"
 	resource = salt
+	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
 		#mountains = "tiles/improvements/quarry_mountains.png"
@@ -11,6 +12,7 @@ salt_mine = {
 steam_pumped_salt_mine = {
 	name = "Steam-Pumped Salt Mine"
 	resource = salt
+	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
 		#mountains = "tiles/improvements/quarry_mountains.png"

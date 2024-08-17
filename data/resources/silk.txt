@@ -1,6 +1,7 @@
 silk = {
 	name = "Silk"
 	commodity = silk
+	tiny_icon = trade_consulate
 	terrain_types = {
 		conifer_forest
 	}

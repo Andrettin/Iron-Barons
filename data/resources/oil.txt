@@ -1,6 +1,7 @@
 oil = {
 	name = "Oil"
 	commodity = oil
+	tiny_icon = trade_consulate
 	prospectable = true
 	terrain_types = {
 		swamp

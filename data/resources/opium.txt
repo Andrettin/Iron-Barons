@@ -1,6 +1,7 @@
 opium = {
 	name = "Opium"
 	commodity = opium
+	tiny_icon = trade_consulate
 	terrain_types = {
 		plains
 	}

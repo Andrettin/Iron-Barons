@@ -1,6 +1,7 @@
 deer = {
 	name = "Deer"
 	commodity = furs
+	tiny_icon = garrison
 	discovery_technology = furs
 	terrain_types = {
 		conifer_forest

@@ -1,6 +1,7 @@
 horse_ranch = {
 	name = "Horse Ranch"
 	resource = horses
+	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 1
 }

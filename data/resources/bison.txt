@@ -1,6 +1,7 @@
 bison = {
 	name = "Bison"
 	commodity = livestock
+	tiny_icon = garrison
 	terrain_types = {
 		plains
 		#grassland
