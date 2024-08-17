@@ -8,6 +8,7 @@ alchemists_shop = {
 	settlement_types = {
 		city
 		metropolis
+		campus
 	}
 	commodity_costs = {
 		lumber = 4

@@ -10,6 +10,7 @@ school = {
 		town
 		city
 		metropolis
+		campus
 		castle
 		monastery
 	}
@@ -29,6 +30,7 @@ college = {
 		town
 		city
 		metropolis
+		campus
 		monastery
 	}
 	settlement_modifier = {
@@ -47,6 +49,7 @@ university = {
 	settlement_types = {
 		city
 		metropolis
+		campus
 	}
 	cost_factor = {
 		modifier = {

@@ -13,7 +13,7 @@ graz = {
 		
 		1585 = {
 			buildings += university #University founded in Graz in 1585; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
-			settlement_type = city
+			settlement_type = campus
 		}
 		
 		1815 = {

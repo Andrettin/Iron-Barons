@@ -13,6 +13,7 @@ caravansary = {
 		town
 		city
 		metropolis
+		campus
 		castle
 		monastery
 	}
@@ -41,6 +42,7 @@ rail_depot = {
 		town
 		city
 		metropolis
+		campus
 		castle
 		monastery
 	}

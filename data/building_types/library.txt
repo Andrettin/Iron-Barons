@@ -8,6 +8,7 @@ library = {
 	settlement_types = {
 		city
 		metropolis
+		campus
 	}
 	settlement_modifier = {
 		research_output_modifier = 50

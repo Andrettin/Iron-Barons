@@ -10,6 +10,7 @@ temple = {
 		town
 		city
 		metropolis
+		campus
 		castle
 		monastery
 	}
