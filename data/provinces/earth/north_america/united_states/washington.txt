@@ -1,7 +1,7 @@
 washington = {
 	name = "Washington"
 	color = { 0 160 0 }
-	default_provincial_capital = seattle
+	provincial_capital = seattle
 	regions = {
 		united_states
 	}

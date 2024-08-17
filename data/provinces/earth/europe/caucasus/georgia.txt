@@ -1,7 +1,7 @@
 georgia_caucasus = {
 	name = "Georgia"
 	color = { 161 34 243 }
-	default_provincial_capital = tbilisi
+	provincial_capital = tbilisi
 	regions = {
 		georgia
 	}

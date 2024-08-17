@@ -1,7 +1,7 @@
 new_jersey = {
 	name = "New Jersey"
 	color = { 74 74 176 }
-	default_provincial_capital = trenton
+	provincial_capital = trenton
 	regions = {
 		united_states
 	}

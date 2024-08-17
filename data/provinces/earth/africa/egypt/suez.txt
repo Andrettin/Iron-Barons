@@ -1,7 +1,7 @@
 suez = {
 	name = "Suez"
 	color = { 176 56 21 }
-	default_provincial_capital = suez
+	provincial_capital = suez
 	regions = {
 		egypt
 	}

@@ -1,7 +1,7 @@
 venetia = {
 	name = "Venetia"
 	color = { 176 1 160 }
-	default_provincial_capital = venice
+	provincial_capital = venice
 	regions = {
 		italy
 	}

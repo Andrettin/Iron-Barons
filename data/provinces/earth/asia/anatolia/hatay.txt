@@ -1,7 +1,7 @@
 hatay = {
 	name = "Hatay"
 	color = { 155 157 17 }
-	default_provincial_capital = antioch
+	provincial_capital = antioch
 	regions = {
 		anatolia
 	}

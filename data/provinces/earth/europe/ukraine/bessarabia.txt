@@ -1,7 +1,7 @@
 bessarabia = {
 	name = "Bessarabia"
 	color = { 113 33 97 }
-	default_provincial_capital = chisinau
+	provincial_capital = chisinau
 	regions = {
 		moldova
 	}

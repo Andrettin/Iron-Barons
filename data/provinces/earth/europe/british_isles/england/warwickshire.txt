@@ -1,7 +1,7 @@
 warwickshire = {
 	name = "Warwickshire"
 	color = { 96 32 192 }
-	default_provincial_capital = coventry
+	provincial_capital = coventry
 	regions = {
 		england
 	}

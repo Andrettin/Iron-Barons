@@ -1,7 +1,7 @@
 burgundy = {
 	name = "Burgundy"
 	color = { 240 128 96 }
-	default_provincial_capital = dijon
+	provincial_capital = dijon
 	regions = {
 		france
 	}

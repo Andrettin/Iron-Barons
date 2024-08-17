@@ -1,7 +1,7 @@
 ankara = {
 	name = "Ankara"
 	color = { 247 33 249 }
-	default_provincial_capital = ankara
+	provincial_capital = ankara
 	regions = {
 		anatolia
 	}

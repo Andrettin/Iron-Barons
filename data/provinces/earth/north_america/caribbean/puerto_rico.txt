@@ -1,7 +1,7 @@
 puerto_rico = {
 	name = "Puerto Rico"
 	color = { 180 106 222 }
-	default_provincial_capital = san_juan
+	provincial_capital = san_juan
 	regions = {
 		caribbean
 	}

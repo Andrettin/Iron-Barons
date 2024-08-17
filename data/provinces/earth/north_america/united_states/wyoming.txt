@@ -1,7 +1,7 @@
 wyoming = {
 	name = "Wyoming"
 	color = { 239 244 162 }
-	default_provincial_capital = cheyenne
+	provincial_capital = cheyenne
 	regions = {
 		united_states
 	}

@@ -1,7 +1,7 @@
 pennsylvania = {
 	name = "Pennsylvania"
 	color = { 176 0 0 }
-	default_provincial_capital = philadelphia
+	provincial_capital = philadelphia
 	regions = {
 		united_states
 	}

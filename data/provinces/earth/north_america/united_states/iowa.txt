@@ -1,7 +1,7 @@
 iowa = {
 	name = "Iowa"
 	color = { 231 195 68 }
-	default_provincial_capital = des_moines
+	provincial_capital = des_moines
 	regions = {
 		mississippi_basin
 		united_states

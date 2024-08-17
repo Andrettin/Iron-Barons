@@ -1,7 +1,7 @@
 surkhandarya = {
 	name = "Surkhandarya"
 	color = { 163 99 28 }
-	default_provincial_capital = termiz
+	provincial_capital = termiz
 	regions = {
 		uzbekistan
 	}

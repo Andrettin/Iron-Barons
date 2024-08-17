@@ -1,7 +1,7 @@
 hubei = {
 	name = "Hubei"
 	color = { 38 217 95 }
-	default_provincial_capital = wuhan
+	provincial_capital = wuhan
 	regions = {
 		asia
 	}

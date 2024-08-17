@@ -1,7 +1,7 @@
 valladolid = {
 	name = "Valladolid"
 	color = { 66 18 25 }
-	default_provincial_capital = valladolid
+	provincial_capital = valladolid
 	regions = {
 		spain
 	}

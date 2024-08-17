@@ -1,7 +1,7 @@
 normandy = {
 	name = "Normandy"
 	color = { 144 32 192 }
-	default_provincial_capital = rouen
+	provincial_capital = rouen
 	regions = {
 		france
 	}

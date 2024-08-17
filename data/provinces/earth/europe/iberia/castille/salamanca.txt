@@ -1,7 +1,7 @@
 salamanca = {
 	name = "Salamanca"
 	color = { 213 19 142 }
-	default_provincial_capital = salamanca
+	provincial_capital = salamanca
 	regions = {
 		spain
 	}

@@ -1,7 +1,7 @@
 south_dakota = {
 	name = "South Dakota"
 	color = { 160 63 62 }
-	default_provincial_capital = pierre
+	provincial_capital = pierre
 	regions = {
 		united_states
 	}

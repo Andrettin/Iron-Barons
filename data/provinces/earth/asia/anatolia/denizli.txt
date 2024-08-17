@@ -1,7 +1,7 @@
 denizli = {
 	name = "Denizli"
 	color = { 252 133 225 }
-	default_provincial_capital = denizli
+	provincial_capital = denizli
 	regions = {
 		anatolia
 	}

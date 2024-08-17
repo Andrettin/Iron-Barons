@@ -1,7 +1,7 @@
 northern_cape = {
 	name = "Northern Cape"
 	color = { 203 77 40 }
-	default_provincial_capital = kimberley
+	provincial_capital = kimberley
 	regions = {
 		africa
 	}

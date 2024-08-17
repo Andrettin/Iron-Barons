@@ -1,7 +1,7 @@
 lower_languedoc = {
 	name = "Lower Languedoc"
 	color = { 109 163 20 }
-	default_provincial_capital = montpellier
+	provincial_capital = montpellier
 	regions = {
 		france
 	}

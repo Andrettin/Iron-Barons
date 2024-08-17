@@ -1,7 +1,7 @@
 ardabil = {
 	name = "Ardabil"
 	color = { 245 43 125 }
-	default_provincial_capital = ardabil
+	provincial_capital = ardabil
 	regions = {
 		persia
 	}

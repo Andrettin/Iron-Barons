@@ -1,7 +1,7 @@
 elam = {
 	name = "Elam"
 	color = { 208 188 231 }
-	default_provincial_capital = ilam
+	provincial_capital = ilam
 	regions = {
 		persia
 	}

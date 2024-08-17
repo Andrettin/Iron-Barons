@@ -1,7 +1,7 @@
 hokkaido = {
 	name = "Hokkaido"
 	color = { 69 196 85 }
-	default_provincial_capital = sapporo
+	provincial_capital = sapporo
 	regions = {
 		japan
 	}

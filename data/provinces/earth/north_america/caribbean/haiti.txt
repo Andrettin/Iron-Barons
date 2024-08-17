@@ -1,7 +1,7 @@
 haiti = {
 	name = "Haiti"
 	color = { 196 103 126 }
-	default_provincial_capital = port_au_prince
+	provincial_capital = port_au_prince
 	cultural_names = {
 		french = "Saint-Domingue"
 	}

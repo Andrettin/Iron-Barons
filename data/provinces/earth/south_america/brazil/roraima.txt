@@ -1,7 +1,7 @@
 roraima = {
 	name = "Roraima"
 	color = { 110 75 109 }
-	default_provincial_capital = boa_vista
+	provincial_capital = boa_vista
 	regions = {
 		brazil
 	}

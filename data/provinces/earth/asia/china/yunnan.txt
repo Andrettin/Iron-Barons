@@ -1,7 +1,7 @@
 yunnan = {
 	name = "Yunnan"
 	color = { 249 192 40 }
-	default_provincial_capital = kunming
+	provincial_capital = kunming
 	regions = {
 		asia
 	}

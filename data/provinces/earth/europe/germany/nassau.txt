@@ -1,7 +1,7 @@
 nassau = {
 	name = "Nassau"
 	color = { 245 217 121 }
-	default_provincial_capital = wiesbaden
+	provincial_capital = wiesbaden
 	regions = {
 		germany
 	}

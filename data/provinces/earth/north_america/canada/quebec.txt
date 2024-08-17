@@ -1,7 +1,7 @@
 quebec = {
 	name = "Quebec"
 	color = { 176 192 192 }
-	default_provincial_capital = quebec
+	provincial_capital = quebec
 	regions = {
 		canada
 	}

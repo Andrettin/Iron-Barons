@@ -1,7 +1,7 @@
 haryana = {
 	name = "Haryana"
 	color = { 143 126 67 }
-	default_provincial_capital = delhi
+	provincial_capital = delhi
 	regions = {
 		asia
 	}

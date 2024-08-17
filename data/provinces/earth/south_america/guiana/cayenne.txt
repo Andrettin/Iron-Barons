@@ -1,7 +1,7 @@
 cayenne = {
 	name = "Cayenne"
 	color = { 131 74 133 }
-	default_provincial_capital = cayenne
+	provincial_capital = cayenne
 	regions = {
 		south_america
 	}

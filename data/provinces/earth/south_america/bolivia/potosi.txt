@@ -1,7 +1,7 @@
 potosi = {
 	name = "Potosi" #"Potosí"
 	color = { 205 193 152 }
-	default_provincial_capital = potosi
+	provincial_capital = potosi
 	regions = {
 		bolivia
 	}

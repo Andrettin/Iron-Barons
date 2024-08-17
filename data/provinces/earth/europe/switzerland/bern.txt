@@ -1,7 +1,7 @@
 bern = {
 	name = "Bern"
 	color = { 80 128 96 }
-	default_provincial_capital = bern
+	provincial_capital = bern
 	regions = {
 		switzerland
 	}

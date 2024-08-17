@@ -1,7 +1,7 @@
 manchuria = {
 	name = "Manchuria"
 	color = { 249 166 191 }
-	default_provincial_capital = changchun
+	provincial_capital = changchun
 	regions = {
 		asia
 	}

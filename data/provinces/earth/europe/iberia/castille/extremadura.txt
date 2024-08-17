@@ -1,7 +1,7 @@
 extremadura = {
 	name = "Extremadura"
 	color = { 80 48 192 }
-	default_provincial_capital = merida
+	provincial_capital = merida
 	regions = {
 		spain
 	}

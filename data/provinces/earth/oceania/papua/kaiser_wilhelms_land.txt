@@ -1,7 +1,7 @@
 kaiser_wilhelms_land = {
 	name = "Kaiser Wilhelms Land"
 	color = { 5 29 34 }
-	default_provincial_capital = lae
+	provincial_capital = lae
 	regions = {
 		oceania
 	}

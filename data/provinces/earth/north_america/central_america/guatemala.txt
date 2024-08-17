@@ -1,7 +1,7 @@
 guatemala = {
 	name = "Guatemala"
 	color = { 171 41 192 }
-	default_provincial_capital = guatemala
+	provincial_capital = guatemala
 	regions = {
 		central_america
 	}

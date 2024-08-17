@@ -1,7 +1,7 @@
 newfoundland = {
 	name = "Newfoundland"
 	color = { 209 215 159 }
-	default_provincial_capital = st_johns
+	provincial_capital = st_johns
 	regions = {
 		canada
 	}

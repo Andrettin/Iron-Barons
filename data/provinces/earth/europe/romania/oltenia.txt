@@ -1,7 +1,7 @@
 oltenia = {
 	name = "Oltenia"
 	color = { 50 146 44 }
-	default_provincial_capital = craiova
+	provincial_capital = craiova
 	regions = {
 		romania
 	}

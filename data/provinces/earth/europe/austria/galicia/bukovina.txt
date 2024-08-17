@@ -1,7 +1,7 @@
 bukovina = {
 	name = "Bukovina"
 	color = { 49 160 160 }
-	default_provincial_capital = czernowitz
+	provincial_capital = czernowitz
 	regions = {
 		galicia
 	}

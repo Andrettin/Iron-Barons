@@ -1,7 +1,7 @@
 grodno = {
 	name = "Grodno"
 	color = { 64 96 32 }
-	default_provincial_capital = grodno
+	provincial_capital = grodno
 	regions = {
 		byelorussia
 		poland_lithuania

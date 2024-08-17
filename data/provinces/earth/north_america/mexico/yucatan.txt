@@ -1,7 +1,7 @@
 yucatan = {
 	name = "Yucatan"
 	color = { 217 197 109 }
-	default_provincial_capital = merida_yucatan
+	provincial_capital = merida_yucatan
 	regions = {
 		mexico
 	}

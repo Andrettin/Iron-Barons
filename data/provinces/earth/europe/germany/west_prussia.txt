@@ -1,7 +1,7 @@
 west_prussia = {
 	name = "West Prussia"
 	color = { 128 160 160 }
-	default_provincial_capital = danzig
+	provincial_capital = danzig
 	regions = {
 		poland
 		poland_lithuania

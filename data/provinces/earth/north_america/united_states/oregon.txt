@@ -1,7 +1,7 @@
 oregon = {
 	name = "Oregon"
 	color = { 128 160 0 }
-	default_provincial_capital = portland
+	provincial_capital = portland
 	regions = {
 		united_states
 	}

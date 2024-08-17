@@ -1,7 +1,7 @@
 brunn = {
 	name = "Brunn" #"Brünn"
 	color = { 239 96 128 }
-	default_provincial_capital = brunn
+	provincial_capital = brunn
 	cultural_names = {
 		czech = "Brno"
 	}

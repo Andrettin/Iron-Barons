@@ -1,7 +1,7 @@
 amida = {
 	name = "Amida"
 	color = { 166 199 2 }
-	default_provincial_capital = amida
+	provincial_capital = amida
 	cultural_names = {
 		turkish = "Diyarbakir" #"Diyarbakır"
 	}

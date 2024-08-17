@@ -1,7 +1,7 @@
 augsburg = {
 	name = "Augsburg"
 	color = { 188 0 180 }
-	default_provincial_capital = augsburg
+	provincial_capital = augsburg
 	regions = {
 		germany
 	}

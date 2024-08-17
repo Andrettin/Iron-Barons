@@ -1,7 +1,7 @@
 brittany = {
 	name = "Brittany"
 	color = { 16 160 64 }
-	default_provincial_capital = nantes
+	provincial_capital = nantes
 	regions = {
 		france
 	}

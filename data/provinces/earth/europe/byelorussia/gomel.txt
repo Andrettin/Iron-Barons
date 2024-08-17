@@ -1,7 +1,7 @@
 gomel = {
 	name = "Gomel"
 	color = { 128 97 224 }
-	default_provincial_capital = gomel
+	provincial_capital = gomel
 	regions = {
 		byelorussia
 		poland_lithuania

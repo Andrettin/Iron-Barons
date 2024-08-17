@@ -1,7 +1,7 @@
 teheran = {
 	name = "Teheran"
 	color = { 91 77 69 }
-	default_provincial_capital = teheran
+	provincial_capital = teheran
 	regions = {
 		persia
 	}

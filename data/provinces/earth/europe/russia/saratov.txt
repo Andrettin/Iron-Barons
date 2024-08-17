@@ -1,7 +1,7 @@
 saratov = {
 	name = "Saratov"
 	color = { 248 104 38 }
-	default_provincial_capital = saratov
+	provincial_capital = saratov
 	regions = {
 		european_russia
 	}

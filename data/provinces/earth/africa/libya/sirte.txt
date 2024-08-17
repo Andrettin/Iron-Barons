@@ -1,7 +1,7 @@
 sirte = {
 	name = "Sirte"
 	color = { 97 208 94 }
-	default_provincial_capital = sirte
+	provincial_capital = sirte
 	regions = {
 		libya
 	}

@@ -1,7 +1,7 @@
 zacatecas = {
 	name = "Zacatecas"
 	color = { 176 115 37 }
-	default_provincial_capital = zacatecas
+	provincial_capital = zacatecas
 	regions = {
 		mexico
 	}

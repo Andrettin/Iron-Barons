@@ -1,7 +1,7 @@
 la_pampa = {
 	name = "La Pampa"
 	color = { 240 1 16 }
-	default_provincial_capital = santa_rosa
+	provincial_capital = santa_rosa
 	regions = {
 		argentina
 	}

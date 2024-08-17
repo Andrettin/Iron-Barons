@@ -1,7 +1,7 @@
 new_mexico = {
 	name = "New Mexico"
 	color = { 80 64 128 }
-	default_provincial_capital = santa_fe
+	provincial_capital = santa_fe
 	regions = {
 		united_states
 	}

@@ -1,7 +1,7 @@
 zealand = {
 	name = "Zealand"
 	color = { 128 192 224 }
-	default_provincial_capital = copenhagen
+	provincial_capital = copenhagen
 	regions = {
 		denmark
 	}

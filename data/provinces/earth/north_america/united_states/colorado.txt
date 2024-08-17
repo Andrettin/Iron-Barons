@@ -1,7 +1,7 @@
 colorado = {
 	name = "Colorado"
 	color = { 192 5 66 }
-	default_provincial_capital = denver
+	provincial_capital = denver
 	regions = {
 		united_states
 	}

@@ -1,7 +1,7 @@
 zanjan = {
 	name = "Zanjan"
 	color = { 159 61 145 }
-	default_provincial_capital = zanjan
+	provincial_capital = zanjan
 	regions = {
 		persia
 	}

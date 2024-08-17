@@ -1,7 +1,7 @@
 czenstochowa = {
 	name = "Czenstochowa"
 	color = { 126 21 144 }
-	default_provincial_capital = czenstochowa
+	provincial_capital = czenstochowa
 	regions = {
 		poland
 		poland_lithuania

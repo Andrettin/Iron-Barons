@@ -1,7 +1,7 @@
 connecticut = {
 	name = "Connecticut"
 	color = { 48 64 192 }
-	default_provincial_capital = hartford
+	provincial_capital = hartford
 	regions = {
 		united_states
 	}

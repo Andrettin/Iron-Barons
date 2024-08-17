@@ -1,7 +1,7 @@
 ostrobothnia = {
 	name = "Ostrobothnia"
 	color = { 208 70 127 }
-	default_provincial_capital = vaasa
+	provincial_capital = vaasa
 	regions = {
 		finland
 	}

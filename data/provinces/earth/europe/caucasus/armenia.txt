@@ -1,7 +1,7 @@
 armenia = {
 	name = "Armenia"
 	color = { 191 61 194 }
-	default_provincial_capital = yerevan
+	provincial_capital = yerevan
 	regions = {
 		armenia
 	}

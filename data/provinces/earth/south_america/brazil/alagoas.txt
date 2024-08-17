@@ -1,7 +1,7 @@
 alagoas = {
 	name = "Alagoas"
 	color = { 160 128 80 }
-	default_provincial_capital = maceio
+	provincial_capital = maceio
 	regions = {
 		brazil
 	}

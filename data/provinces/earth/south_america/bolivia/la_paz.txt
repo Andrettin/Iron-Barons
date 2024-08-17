@@ -1,7 +1,7 @@
 la_paz = {
 	name = "La Paz"
 	color = { 125 141 41 }
-	default_provincial_capital = la_paz
+	provincial_capital = la_paz
 	regions = {
 		bolivia
 	}

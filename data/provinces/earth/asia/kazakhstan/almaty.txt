@@ -1,7 +1,7 @@
 almaty = {
 	name = "Almaty"
 	color = { 132 135 22 }
-	default_provincial_capital = almaty
+	provincial_capital = almaty
 	regions = {
 		kazakhstan
 	}

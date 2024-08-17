@@ -1,7 +1,7 @@
 brest = {
 	name = "Brest"
 	color = { 191 223 32 }
-	default_provincial_capital = brest_litovsk
+	provincial_capital = brest_litovsk
 	regions = {
 		byelorussia
 		poland_lithuania

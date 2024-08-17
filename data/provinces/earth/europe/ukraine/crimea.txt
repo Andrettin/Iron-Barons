@@ -1,7 +1,7 @@
 crimea = {
 	name = "Crimea"
 	color = { 176 223 223 }
-	default_provincial_capital = sevastopol
+	provincial_capital = sevastopol
 	regions = {
 		ukraine
 	}

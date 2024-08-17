@@ -1,7 +1,7 @@
 shandong = {
 	name = "Shandong"
 	color = { 121 27 157 }
-	default_provincial_capital = jinan
+	provincial_capital = jinan
 	regions = {
 		asia
 	}

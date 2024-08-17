@@ -1,7 +1,7 @@
 north_khorasan = {
 	name = "North Khorasan"
 	color = { 119 171 3 }
-	default_provincial_capital = bojnurd
+	provincial_capital = bojnurd
 	regions = {
 		persia
 	}

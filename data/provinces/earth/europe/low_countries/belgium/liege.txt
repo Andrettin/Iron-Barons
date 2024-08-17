@@ -1,7 +1,7 @@
 liege = {
 	name = "Liege" #"Liège"
 	color = { 239 32 64 }
-	default_provincial_capital = liege
+	provincial_capital = liege
 	regions = {
 		belgium
 	}

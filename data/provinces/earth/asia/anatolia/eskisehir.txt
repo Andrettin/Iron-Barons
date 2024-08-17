@@ -1,7 +1,7 @@
 eskisehir = {
 	name = "Eskisehir"
 	color = { 131 21 206 }
-	default_provincial_capital = eskisehir
+	provincial_capital = eskisehir
 	regions = {
 		anatolia
 	}

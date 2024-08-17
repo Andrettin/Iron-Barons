@@ -1,7 +1,7 @@
 piaui = {
 	name = "Piaui" #"Piauí"
 	color = { 160 192 144 }
-	default_provincial_capital = teresina
+	provincial_capital = teresina
 	regions = {
 		brazil
 	}

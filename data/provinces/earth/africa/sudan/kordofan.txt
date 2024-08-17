@@ -1,7 +1,7 @@
 kordofan = {
 	name = "Kordofan"
 	color = { 193 144 46 }
-	default_provincial_capital = el_obeid
+	provincial_capital = el_obeid
 	regions = {
 		sudan
 	}

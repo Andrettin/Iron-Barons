@@ -1,7 +1,7 @@
 nakhchivan = {
 	name = "Nakhchivan"
 	color = { 111 236 67 }
-	default_provincial_capital = nakhchivan
+	provincial_capital = nakhchivan
 	regions = {
 		azerbaijan
 	}

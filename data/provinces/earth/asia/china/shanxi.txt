@@ -1,7 +1,7 @@
 shanxi = {
 	name = "Shanxi"
 	color = { 229 183 153 }
-	default_provincial_capital = taiyuan
+	provincial_capital = taiyuan
 	regions = {
 		asia
 	}

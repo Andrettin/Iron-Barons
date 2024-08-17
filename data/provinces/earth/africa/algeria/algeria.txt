@@ -1,7 +1,7 @@
 algeria = {
 	name = "Algeria"
 	color = { 136 222 8 }
-	default_provincial_capital = algiers
+	provincial_capital = algiers
 	regions = {
 		algeria
 	}

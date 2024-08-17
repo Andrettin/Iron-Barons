@@ -1,7 +1,7 @@
 zurich = {
 	name = "Zurich" #"Zürich"
 	color = { 126 75 134 }
-	default_provincial_capital = zurich
+	provincial_capital = zurich
 	regions = {
 		switzerland
 	}

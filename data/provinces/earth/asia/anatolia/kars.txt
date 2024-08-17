@@ -1,7 +1,7 @@
 kars = {
 	name = "Kars"
 	color = { 53 113 51 }
-	default_provincial_capital = kars
+	provincial_capital = kars
 	regions = {
 		anatolia
 	}

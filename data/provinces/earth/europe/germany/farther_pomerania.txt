@@ -1,7 +1,7 @@
 farther_pomerania = {
 	name = "Farther Pomerania"
 	color = { 160 192 32 }
-	default_provincial_capital = kolberg
+	provincial_capital = kolberg
 	regions = {
 		poland
 	}

@@ -1,7 +1,7 @@
 minho = {
 	name = "Minho"
 	color = { 208 160 0 }
-	default_provincial_capital = oporto
+	provincial_capital = oporto
 	regions = {
 		portugal
 	}

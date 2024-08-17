@@ -1,7 +1,7 @@
 fez = {
 	name = "Fez"
 	color = { 56 243 51 }
-	default_provincial_capital = fez
+	provincial_capital = fez
 	regions = {
 		morocco
 	}

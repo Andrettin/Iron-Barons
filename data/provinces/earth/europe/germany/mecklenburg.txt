@@ -1,7 +1,7 @@
 mecklenburg = {
 	name = "Mecklenburg"
 	color = { 224 128 160 }
-	default_provincial_capital = schwerin
+	provincial_capital = schwerin
 	regions = {
 		germany
 	}

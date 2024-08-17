@@ -1,7 +1,7 @@
 paraguay = {
 	name = "Paraguay"
 	color = { 220 191 190 }
-	default_provincial_capital = asuncion
+	provincial_capital = asuncion
 	regions = {
 		paraguay
 	}

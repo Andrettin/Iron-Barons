@@ -1,7 +1,7 @@
 kyushu = {
 	name = "Kyushu"
 	color = { 220 72 96 }
-	default_provincial_capital = fukuoka
+	provincial_capital = fukuoka
 	regions = {
 		japan
 	}

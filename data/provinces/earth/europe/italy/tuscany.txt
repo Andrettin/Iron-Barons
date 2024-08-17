@@ -1,7 +1,7 @@
 tuscany = {
 	name = "Tuscany"
 	color = { 112 128 160 }
-	default_provincial_capital = florence
+	provincial_capital = florence
 	regions = {
 		italy
 	}

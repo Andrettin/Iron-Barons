@@ -1,7 +1,7 @@
 west_papua = {
 	name = "West Papua"
 	color = { 148 54 75 }
-	default_provincial_capital = jayapura
+	provincial_capital = jayapura
 	regions = {
 		indonesia
 		oceania

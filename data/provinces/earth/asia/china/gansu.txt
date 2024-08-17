@@ -1,7 +1,7 @@
 gansu = {
 	name = "Gansu"
 	color = { 213 170 202 }
-	default_provincial_capital = lanzhou
+	provincial_capital = lanzhou
 	regions = {
 		asia
 	}

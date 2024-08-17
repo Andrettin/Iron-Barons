@@ -1,7 +1,7 @@
 fars = {
 	name = "Fars"
 	color = { 228 211 218 }
-	default_provincial_capital = shiraz
+	provincial_capital = shiraz
 	regions = {
 		persia
 	}

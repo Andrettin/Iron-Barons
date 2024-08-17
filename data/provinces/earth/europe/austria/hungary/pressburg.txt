@@ -1,7 +1,7 @@
 pressburg = {
 	name = "Pressburg"
 	color = { 81 97 97 }
-	default_provincial_capital = pressburg
+	provincial_capital = pressburg
 	cultural_names = {
 		slovak = "Bratislava"
 	}

@@ -1,7 +1,7 @@
 panama = {
 	name = "Panama"
 	color = { 133 100 159 }
-	default_provincial_capital = panama_city
+	provincial_capital = panama_city
 	regions = {
 		central_america
 	}

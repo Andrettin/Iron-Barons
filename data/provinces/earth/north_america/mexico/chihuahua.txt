@@ -1,7 +1,7 @@
 chihuahua = {
 	name = "Chihuahua"
 	color = { 106 57 55 }
-	default_provincial_capital = chihuahua
+	provincial_capital = chihuahua
 	regions = {
 		mexico
 	}

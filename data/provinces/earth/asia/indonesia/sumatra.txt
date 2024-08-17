@@ -1,7 +1,7 @@
 sumatra = {
 	name = "Sumatra"
 	color = { 205 219 61 }
-	default_provincial_capital = bencoolen
+	provincial_capital = bencoolen
 	regions = {
 		asia
 		indonesia

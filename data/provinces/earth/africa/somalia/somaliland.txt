@@ -1,7 +1,7 @@
 somaliland = {
 	name = "Somaliland"
 	color = { 154 4 51 }
-	default_provincial_capital = hargeysa
+	provincial_capital = hargeysa
 	regions = {
 		africa
 	}

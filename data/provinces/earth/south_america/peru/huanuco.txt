@@ -1,7 +1,7 @@
 huanuco = {
 	name = "Huanuco" #"Huánuco"
 	color = { 211 7 21 }
-	default_provincial_capital = huanuco
+	provincial_capital = huanuco
 	regions = {
 		peru
 	}

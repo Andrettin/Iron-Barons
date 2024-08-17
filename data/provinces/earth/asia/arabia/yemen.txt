@@ -1,7 +1,7 @@
 yemen = {
 	name = "Yemen"
 	color = { 220 135 238 }
-	default_provincial_capital = sanaa
+	provincial_capital = sanaa
 	regions = {
 		asia
 		middle_east

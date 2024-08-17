@@ -1,7 +1,7 @@
 yukon = {
 	name = "Yukon"
 	color = { 127 194 58 }
-	default_provincial_capital = whitehorse
+	provincial_capital = whitehorse
 	regions = {
 		canada
 	}

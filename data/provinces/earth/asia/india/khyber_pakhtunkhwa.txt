@@ -1,7 +1,7 @@
 khyber_pakhtunkhwa = {
 	name = "Khyber Pakhtunkhwa"
 	color = { 242 213 48 }
-	default_provincial_capital = peshawar
+	provincial_capital = peshawar
 	regions = {
 		asia
 	}

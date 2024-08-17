@@ -1,7 +1,7 @@
 brandenburg = {
 	name = "Brandenburg"
 	color = { 131 177 168 }
-	default_provincial_capital = berlin
+	provincial_capital = berlin
 	regions = {
 		germany
 	}

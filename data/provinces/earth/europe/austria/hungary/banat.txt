@@ -1,7 +1,7 @@
 banat = {
 	name = "Banat"
 	color = { 201 13 189 }
-	default_provincial_capital = temesvar
+	provincial_capital = temesvar
 	regions = {
 		romania
 		royal_hungary

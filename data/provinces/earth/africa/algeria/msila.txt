@@ -1,7 +1,7 @@
 msila = {
 	name = "M'sila"
 	color = { 47 176 46 }
-	default_provincial_capital = msila
+	provincial_capital = msila
 	regions = {
 		algeria
 	}

@@ -1,7 +1,7 @@
 hawaii = {
 	name = "Hawaii"
 	color = { 120 216 115 }
-	default_provincial_capital = honolulu
+	provincial_capital = honolulu
 	regions = {
 		united_states
 	}

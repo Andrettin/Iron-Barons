@@ -1,7 +1,7 @@
 lothian = {
 	name = "Lothian"
 	color = { 141 37 63 }
-	default_provincial_capital = edinburgh
+	provincial_capital = edinburgh
 	regions = {
 		scotland
 	}

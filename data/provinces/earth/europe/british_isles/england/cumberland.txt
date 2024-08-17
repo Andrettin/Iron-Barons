@@ -1,7 +1,7 @@
 cumberland = {
 	name = "Cumberland"
 	color = { 176 45 29 }
-	default_provincial_capital = carlisle
+	provincial_capital = carlisle
 	regions = {
 		england
 	}

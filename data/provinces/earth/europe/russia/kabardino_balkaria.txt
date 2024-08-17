@@ -1,7 +1,7 @@
 kabardino_balkaria = {
 	name = "Kabardino-Balkaria"
 	color = { 183 219 14 }
-	default_provincial_capital = nalchik
+	provincial_capital = nalchik
 	regions = {
 		european_russia
 	}

@@ -1,7 +1,7 @@
 west_virginia = {
 	name = "West Virginia"
 	color = { 226 240 64 }
-	default_provincial_capital = charleston
+	provincial_capital = charleston
 	regions = {
 		united_states
 	}

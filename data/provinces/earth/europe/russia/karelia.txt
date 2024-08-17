@@ -1,7 +1,7 @@
 karelia = {
 	name = "Karelia"
 	color = { 172 130 218 }
-	default_provincial_capital = petrozavodsk
+	provincial_capital = petrozavodsk
 	regions = {
 		european_russia
 	}

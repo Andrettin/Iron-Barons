@@ -1,7 +1,7 @@
 espirito_santo = {
 	name = "Espirito Santo" #"Espírito Santo"
 	color = { 150 114 142 }
-	default_provincial_capital = vitoria
+	provincial_capital = vitoria
 	regions = {
 		brazil
 	}

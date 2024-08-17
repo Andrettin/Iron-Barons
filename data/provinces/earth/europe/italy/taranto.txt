@@ -1,7 +1,7 @@
 taranto = {
 	name = "Taranto"
 	color = { 168 180 72 }
-	default_provincial_capital = taranto
+	provincial_capital = taranto
 	cultural_names = {
 		greek = "Taras"
 		roman = "Tarentum"

@@ -1,7 +1,7 @@
 ulyanovsk = {
 	name = "Ulyanovsk"
 	color = { 167 156 49 }
-	default_provincial_capital = ulyanovsk
+	provincial_capital = ulyanovsk
 	regions = {
 		european_russia
 	}

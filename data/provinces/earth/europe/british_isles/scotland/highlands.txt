@@ -1,7 +1,7 @@
 highlands = {
 	name = "Highlands"
 	color = { 245 141 27 }
-	default_provincial_capital = inverness
+	provincial_capital = inverness
 	regions = {
 		scotland
 	}

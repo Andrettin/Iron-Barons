@@ -1,7 +1,7 @@
 nubia = {
 	name = "Nubia"
 	color = { 175 46 187 }
-	default_provincial_capital = khartoum
+	provincial_capital = khartoum
 	regions = {
 		sudan
 	}

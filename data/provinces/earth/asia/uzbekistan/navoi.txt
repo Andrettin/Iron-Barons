@@ -1,7 +1,7 @@
 navoi = {
 	name = "Navoi"
 	color = { 226 0 67 }
-	default_provincial_capital = navoi
+	provincial_capital = navoi
 	regions = {
 		uzbekistan
 	}

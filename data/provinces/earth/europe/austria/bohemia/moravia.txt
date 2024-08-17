@@ -1,7 +1,7 @@
 moravia = {
 	name = "Moravia"
 	color = { 113 224 128 }
-	default_provincial_capital = olmutz
+	provincial_capital = olmutz
 	regions = {
 		moravia
 	}

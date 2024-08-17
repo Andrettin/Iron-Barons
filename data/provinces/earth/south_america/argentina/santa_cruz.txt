@@ -1,7 +1,7 @@
 santa_cruz_argentina = {
 	name = "Santa Cruz"
 	color = { 239 160 16 }
-	default_provincial_capital = rio_gallegos
+	provincial_capital = rio_gallegos
 	regions = {
 		argentina
 	}

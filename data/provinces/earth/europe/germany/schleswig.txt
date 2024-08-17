@@ -1,7 +1,7 @@
 schleswig = {
 	name = "Schleswig"
 	color = { 0 192 96 }
-	default_provincial_capital = flensburg
+	provincial_capital = flensburg
 	regions = {
 		germany
 	}

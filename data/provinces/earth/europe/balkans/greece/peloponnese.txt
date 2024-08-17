@@ -1,7 +1,7 @@
 peloponnese = {
 	name = "Peloponnese"
 	color = { 247 168 1 }
-	default_provincial_capital = sparta
+	provincial_capital = sparta
 	regions = {
 		greece
 	}

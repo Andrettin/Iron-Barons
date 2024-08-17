@@ -1,7 +1,7 @@
 lesotho = {
 	name = "Lesotho"
 	color = { 133 226 62 }
-	default_provincial_capital = maseru
+	provincial_capital = maseru
 	regions = {
 		africa
 	}

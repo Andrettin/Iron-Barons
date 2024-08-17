@@ -1,7 +1,7 @@
 biskra = {
 	name = "Biskra"
 	color = { 188 220 25 }
-	default_provincial_capital = biskra
+	provincial_capital = biskra
 	regions = {
 		algeria
 	}

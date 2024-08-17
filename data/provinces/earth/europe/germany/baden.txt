@@ -1,7 +1,7 @@
 baden = {
 	name = "Baden"
 	color = { 94 34 10 }
-	default_provincial_capital = karlsruhe
+	provincial_capital = karlsruhe
 	regions = {
 		germany
 	}

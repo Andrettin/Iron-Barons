@@ -1,7 +1,7 @@
 virginia = {
 	name = "Virginia"
 	color = { 192 176 192 }
-	default_provincial_capital = richmond
+	provincial_capital = richmond
 	regions = {
 		united_states
 	}

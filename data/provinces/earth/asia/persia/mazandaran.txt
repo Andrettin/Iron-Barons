@@ -1,7 +1,7 @@
 mazandaran = {
 	name = "Mazandaran"
 	color = { 17 193 68 }
-	default_provincial_capital = sari
+	provincial_capital = sari
 	regions = {
 		persia
 	}

@@ -1,7 +1,7 @@
 sanliurfa = {
 	name = "Sanliurfa"
 	color = { 74 134 46 }
-	default_provincial_capital = sanliurfa
+	provincial_capital = sanliurfa
 	regions = {
 		anatolia
 	}
