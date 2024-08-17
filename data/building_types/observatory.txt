@@ -12,10 +12,8 @@ observatory = {
 	settlement_conditions = {
 		terrain = mountains
 	}
-	country_modifier = {
+	settlement_modifier = {
 		research_output_modifier = 25
-	}
-	stackable_country_modifier = {
-		university_capacity = 1
+		max_scholars = 1
 	}
 }

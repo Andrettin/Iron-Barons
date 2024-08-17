@@ -10,12 +10,9 @@ printing_press = {
 		city
 		metropolis
 	}
-	country_modifier = {
-		research_output_modifier = 22
-	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 50
-		#research_output_modifier = 22
+		research_output_modifier = 22
 	}
 }
 
@@ -31,11 +28,8 @@ newspaper = {
 		city
 		metropolis
 	}
-	country_modifier = {
-		research_output_modifier = 22
-	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 100
-		#research_output_modifier = 22
+		research_output_modifier = 22
 	}
 }

@@ -41,6 +41,7 @@ ballads = {
 	modifier = {
 		bureaucrats_militancy_modifier = -0.01
 		elder_statesmen_militancy_modifier = -0.01
+		scholars_militancy_modifier = -0.01
 		capitalists_militancy_modifier = -0.01
 	}
 }

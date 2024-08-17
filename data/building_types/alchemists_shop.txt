@@ -13,7 +13,7 @@ alchemists_shop = {
 		lumber = 4
 		cast_iron = 4
 	}
-	stackable_country_modifier = {
-		university_capacity = 2
+	settlement_modifier = {
+		max_scholars = 1
 	}
 }

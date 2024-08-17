@@ -9,7 +9,7 @@ library = {
 		city
 		metropolis
 	}
-	country_modifier = {
+	settlement_modifier = {
 		research_output_modifier = 50
 	}
 }
