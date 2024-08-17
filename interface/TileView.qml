@@ -88,6 +88,16 @@ Item {
 		readonly property bool selected: visible && selected_province === province && selected_garrison
 	}
 	
+	Image {
+		id: resource_icon
+		anchors.left: parent.left
+		anchors.leftMargin: 8 * scale_factor + 8 * scale_factor + 2 * scale_factor
+		anchors.top: parent.top
+		anchors.topMargin: 8 * scale_factor
+		source: "image://icon/" + resource.tiny_icon.identifier
+		visible: province !== null && is_center_tile && resource !== null && site && site.game_data.settlement_type !== null
+	}
+	
 	Rectangle {
 		id: selection_rectangle
 		anchors.fill: parent
