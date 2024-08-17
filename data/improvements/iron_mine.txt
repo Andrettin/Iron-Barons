@@ -1,5 +1,6 @@
 iron_mine = {
 	name = "Iron Mine"
+	slot = resource
 	resource = iron_ore
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -17,6 +18,7 @@ iron_mine = {
 
 improved_iron_mine = {
 	name = "Improved Iron Mine"
+	slot = resource
 	resource = iron_ore
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -34,6 +36,7 @@ improved_iron_mine = {
 
 steam_pumped_iron_mine = {
 	name = "Steam-Pumped Iron Mine"
+	slot = resource
 	resource = iron_ore
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -52,6 +55,7 @@ steam_pumped_iron_mine = {
 
 industrial_iron_mine = {
 	name = "Industrial Iron Mine"
+	slot = resource
 	resource = iron_ore
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

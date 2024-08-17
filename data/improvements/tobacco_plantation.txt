@@ -1,5 +1,6 @@
 tobacco_plantation = {
 	name = "Tobacco Plantation"
+	slot = resource
 	resource = tobacco
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"
@@ -9,6 +10,7 @@ tobacco_plantation = {
 
 large_tobacco_plantation = {
 	name = "Large Tobacco Plantation"
+	slot = resource
 	resource = tobacco
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"
@@ -19,6 +21,7 @@ large_tobacco_plantation = {
 
 mechanized_tobacco_plantation = {
 	name = "Mechanized Tobacco Plantation"
+	slot = resource
 	resource = tobacco
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"
@@ -29,6 +32,7 @@ mechanized_tobacco_plantation = {
 
 industrial_tobacco_plantation = {
 	name = "Industrial Tobacco Plantation"
+	slot = resource
 	resource = tobacco
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"

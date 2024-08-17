@@ -1,5 +1,6 @@
 silver_mine = {
 	name = "Silver Mine"
+	slot = resource
 	resource = silver
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -12,6 +13,7 @@ silver_mine = {
 
 large_silver_mine = {
 	name = "Large Silver Mine"
+	slot = resource
 	resource = silver
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -25,6 +27,7 @@ large_silver_mine = {
 
 steam_pumped_silver_mine = {
 	name = "Steam-Pumped Silver Mine"
+	slot = resource
 	resource = silver
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -38,6 +41,7 @@ steam_pumped_silver_mine = {
 
 industrial_silver_mine = {
 	name = "Industrial Silver Mine"
+	slot = resource
 	resource = silver
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

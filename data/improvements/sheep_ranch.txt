@@ -1,5 +1,6 @@
 sheep_ranch = {
 	name = "Sheep Ranch"
+	slot = resource
 	resource = sheep
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
@@ -9,6 +10,7 @@ sheep_ranch = {
 
 improved_sheep_ranch = {
 	name = "Improved Sheep Ranch"
+	slot = resource
 	resource = sheep
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
@@ -19,6 +21,7 @@ improved_sheep_ranch = {
 
 advanced_sheep_ranch = {
 	name = "Advanced Sheep Ranch"
+	slot = resource
 	resource = sheep
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
@@ -29,6 +32,7 @@ advanced_sheep_ranch = {
 
 industrial_sheep_ranch = {
 	name = "Industrial Sheep Ranch"
+	slot = resource
 	resource = sheep
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"

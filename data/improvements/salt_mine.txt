@@ -1,5 +1,6 @@
 salt_mine = {
 	name = "Salt Mine"
+	slot = resource
 	resource = salt
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -11,6 +12,7 @@ salt_mine = {
 
 steam_pumped_salt_mine = {
 	name = "Steam-Pumped Salt Mine"
+	slot = resource
 	resource = salt
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

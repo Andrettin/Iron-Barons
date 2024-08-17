@@ -1,5 +1,6 @@
 copper_mine = {
 	name = "Copper Mine"
+	slot = resource
 	resource = copper
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -12,6 +13,7 @@ copper_mine = {
 
 large_copper_mine = {
 	name = "Large Copper Mine"
+	slot = resource
 	resource = copper
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -25,6 +27,7 @@ large_copper_mine = {
 
 steam_pumped_copper_mine = {
 	name = "Steam-Pumped Copper Mine"
+	slot = resource
 	resource = copper
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -38,6 +41,7 @@ steam_pumped_copper_mine = {
 
 industrial_copper_mine = {
 	name = "Industrial Copper Mine"
+	slot = resource
 	resource = copper
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

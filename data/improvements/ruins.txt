@@ -1,5 +1,6 @@
 ruins = {
 	name = "Ruins"
+	slot = main
 	ruins = true
 	image_filepath = "tiles/settlements/town.png"
 	terrain_types = {

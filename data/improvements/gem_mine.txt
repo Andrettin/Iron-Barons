@@ -1,5 +1,6 @@
 gem_mine = {
 	name = "Gem Mine"
+	slot = resource
 	resource = gems
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -12,6 +13,7 @@ gem_mine = {
 
 large_gem_mine = {
 	name = "Large Gem Mine"
+	slot = resource
 	resource = gems
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -25,6 +27,7 @@ large_gem_mine = {
 
 steam_pumped_gem_mine = {
 	name = "Steam-Pumped Gem Mine"
+	slot = resource
 	resource = gems
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -38,6 +41,7 @@ steam_pumped_gem_mine = {
 
 industrial_gem_mine = {
 	name = "Industrial Gem Mine"
+	slot = resource
 	resource = gems
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

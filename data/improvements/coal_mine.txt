@@ -1,5 +1,6 @@
 coal_mine = {
 	name = "Coal Mine"
+	slot = resource
 	resource = coal
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -12,6 +13,7 @@ coal_mine = {
 
 large_coal_mine = {
 	name = "Large Coal Mine"
+	slot = resource
 	resource = coal
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -25,6 +27,7 @@ large_coal_mine = {
 
 steam_pumped_coal_mine = {
 	name = "Steam-Pumped Coal Mine"
+	slot = resource
 	resource = coal
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -38,6 +41,7 @@ steam_pumped_coal_mine = {
 
 industrial_coal_mine = {
 	name = "Industrial Coal Mine"
+	slot = resource
 	resource = coal
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

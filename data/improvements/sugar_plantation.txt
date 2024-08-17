@@ -1,5 +1,6 @@
 sugar_plantation = {
 	name = "Sugar Plantation"
+	slot = resource
 	resource = sugar_cane
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"
@@ -9,6 +10,7 @@ sugar_plantation = {
 
 large_sugar_plantation = {
 	name = "Large Sugar Plantation"
+	slot = resource
 	resource = sugar_cane
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"
@@ -19,6 +21,7 @@ large_sugar_plantation = {
 
 mechanized_sugar_plantation = {
 	name = "Mechanized Sugar Plantation"
+	slot = resource
 	resource = sugar_cane
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"
@@ -29,6 +32,7 @@ mechanized_sugar_plantation = {
 
 industrial_sugar_plantation = {
 	name = "Industrial Sugar Plantation"
+	slot = resource
 	resource = sugar_cane
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"

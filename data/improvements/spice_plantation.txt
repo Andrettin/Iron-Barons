@@ -1,5 +1,6 @@
 spice_plantation = {
 	name = "Spice Plantation"
+	slot = resource
 	resource = spices
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/coffee_plantation.png"
@@ -9,6 +10,7 @@ spice_plantation = {
 
 improved_spice_plantation = {
 	name = "Improved Spice Plantation"
+	slot = resource
 	resource = spices
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/coffee_plantation.png"
@@ -19,6 +21,7 @@ improved_spice_plantation = {
 
 large_spice_plantation = {
 	name = "Large Spice Plantation"
+	slot = resource
 	resource = spices
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/coffee_plantation.png"
@@ -29,6 +32,7 @@ large_spice_plantation = {
 
 mechanized_spice_plantation = {
 	name = "Mechanized Spice Plantation"
+	slot = resource
 	resource = spices
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/coffee_plantation.png"

@@ -1,5 +1,6 @@
 ivory_camp = {
 	name = "Ivory Camp"
+	slot = resource
 	resource = ivory
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -8,6 +9,7 @@ ivory_camp = {
 
 improved_ivory_camp = {
 	name = "Improved Ivory Camp"
+	slot = resource
 	resource = ivory
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -18,6 +20,7 @@ improved_ivory_camp = {
 
 advanced_ivory_camp = {
 	name = "Advanced Ivory Camp"
+	slot = resource
 	resource = ivory
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -28,6 +31,7 @@ advanced_ivory_camp = {
 
 industrial_ivory_camp = {
 	name = "Industrial Ivory Camp"
+	slot = resource
 	resource = ivory
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"

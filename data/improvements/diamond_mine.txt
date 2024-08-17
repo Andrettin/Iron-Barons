@@ -1,5 +1,6 @@
 diamond_mine = {
 	name = "Diamond Mine"
+	slot = resource
 	resource = diamonds
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -9,6 +10,7 @@ diamond_mine = {
 
 large_diamond_mine = {
 	name = "Large Diamond Mine"
+	slot = resource
 	resource = diamonds
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -19,6 +21,7 @@ large_diamond_mine = {
 
 steam_pumped_diamond_mine = {
 	name = "Steam-Pumped Diamond Mine"
+	slot = resource
 	resource = diamonds
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -29,6 +32,7 @@ steam_pumped_diamond_mine = {
 
 industrial_diamond_mine = {
 	name = "Industrial Diamond Mine"
+	slot = resource
 	resource = diamonds
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

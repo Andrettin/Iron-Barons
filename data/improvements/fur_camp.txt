@@ -1,5 +1,6 @@
 beaver_camp = {
 	name = "Beaver Camp"
+	slot = resource
 	resource = beavers
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -9,6 +10,7 @@ beaver_camp = {
 
 improved_beaver_camp = {
 	name = "Improved Beaver Camp"
+	slot = resource
 	resource = beavers
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -19,6 +21,7 @@ improved_beaver_camp = {
 
 advanced_beaver_camp = {
 	name = "Advanced Beaver Camp"
+	slot = resource
 	resource = beavers
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -29,6 +32,7 @@ advanced_beaver_camp = {
 
 industrial_beaver_camp = {
 	name = "Industrial Beaver Camp"
+	slot = resource
 	resource = beavers
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -39,6 +43,7 @@ industrial_beaver_camp = {
 
 deer_camp = {
 	name = "Deer Camp"
+	slot = resource
 	resource = deer
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -48,6 +53,7 @@ deer_camp = {
 
 improved_deer_camp = {
 	name = "Improved Deer Camp"
+	slot = resource
 	resource = deer
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -58,6 +64,7 @@ improved_deer_camp = {
 
 advanced_deer_camp = {
 	name = "Advanced Deer Camp"
+	slot = resource
 	resource = deer
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -68,6 +75,7 @@ advanced_deer_camp = {
 
 industrial_deer_camp = {
 	name = "Industrial Deer Camp"
+	slot = resource
 	resource = deer
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"

@@ -1,5 +1,6 @@
 cattle_ranch = {
 	name = "Cattle Ranch"
+	slot = resource
 	resource = cattle
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
@@ -8,6 +9,7 @@ cattle_ranch = {
 
 improved_cattle_ranch = {
 	name = "Improved Cattle Ranch"
+	slot = resource
 	resource = cattle
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
@@ -18,6 +20,7 @@ improved_cattle_ranch = {
 
 advanced_cattle_ranch = {
 	name = "Advanced Cattle Ranch"
+	slot = resource
 	resource = cattle
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
@@ -28,6 +31,7 @@ advanced_cattle_ranch = {
 
 industrial_cattle_ranch = {
 	name = "Industrial Cattle Ranch"
+	slot = resource
 	resource = cattle
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"

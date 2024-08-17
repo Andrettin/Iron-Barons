@@ -1,5 +1,6 @@
 gold_mine = {
 	name = "Gold Mine"
+	slot = resource
 	resource = gold
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -12,6 +13,7 @@ gold_mine = {
 
 large_gold_mine = {
 	name = "Large Gold Mine"
+	slot = resource
 	resource = gold
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -25,6 +27,7 @@ large_gold_mine = {
 
 steam_pumped_gold_mine = {
 	name = "Steam-Pumped Gold Mine"
+	slot = resource
 	resource = gold
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -38,6 +41,7 @@ steam_pumped_gold_mine = {
 
 industrial_gold_mine = {
 	name = "Industrial Gold Mine"
+	slot = resource
 	resource = gold
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

@@ -1,5 +1,6 @@
 amber_mine = {
 	name = "Amber Mine"
+	slot = resource
 	resource = amber
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -9,6 +10,7 @@ amber_mine = {
 
 large_amber_mine = {
 	name = "Large Amber Mine"
+	slot = resource
 	resource = amber
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -19,6 +21,7 @@ large_amber_mine = {
 
 mechanized_amber_mine = {
 	name = "Mechanized Amber Mine"
+	slot = resource
 	resource = amber
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
@@ -29,6 +32,7 @@ mechanized_amber_mine = {
 
 industrial_amber_mine = {
 	name = "Industrial Amber Mine"
+	slot = resource
 	resource = amber
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"

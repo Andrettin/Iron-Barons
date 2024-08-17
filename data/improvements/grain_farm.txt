@@ -1,5 +1,6 @@
 grain_farm = {
 	name = "Grain Farm"
+	slot = resource
 	resource = grain
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"
@@ -9,6 +10,7 @@ grain_farm = {
 
 grain_estate = {
 	name = "Grain Estate"
+	slot = resource
 	resource = grain
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"
@@ -20,6 +22,7 @@ grain_estate = {
 
 mechanized_grain_estate = {
 	name = "Mechanized Grain Estate"
+	slot = resource
 	resource = grain
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"
@@ -31,6 +34,7 @@ mechanized_grain_estate = {
 
 industrial_grain_estate = {
 	name = "Industrial Grain Estate"
+	slot = resource
 	resource = grain
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"

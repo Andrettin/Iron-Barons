@@ -1,5 +1,6 @@
 whaling_wharf = {
 	name = "Whaling Wharf"
+	slot = resource
 	resource = whales
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"
@@ -8,6 +9,7 @@ whaling_wharf = {
 
 improved_whaling_wharf = {
 	name = "Improved Whaling Wharf"
+	slot = resource
 	resource = whales
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"
@@ -18,6 +20,7 @@ improved_whaling_wharf = {
 
 advanced_whaling_wharf = {
 	name = "Advanced Whaling Wharf"
+	slot = resource
 	resource = whales
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"
@@ -28,6 +31,7 @@ advanced_whaling_wharf = {
 
 industrial_whaling_wharf = {
 	name = "Industrial Whaling Wharf"
+	slot = resource
 	resource = whales
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"

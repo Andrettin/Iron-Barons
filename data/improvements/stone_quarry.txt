@@ -1,5 +1,6 @@
 stone_quarry = {
 	name = "Stone Quarry"
+	slot = resource
 	resource = stone
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

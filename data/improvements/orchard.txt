@@ -1,5 +1,6 @@
 orchard = {
 	name = "Orchard"
+	slot = resource
 	resource = fruit
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"
@@ -8,6 +9,7 @@ orchard = {
 
 improved_orchard = {
 	name = "Improved Orchard"
+	slot = resource
 	resource = fruit
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"
@@ -18,6 +20,7 @@ improved_orchard = {
 
 mechanized_orchard = {
 	name = "Mechanized Orchard"
+	slot = resource
 	resource = fruit
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"
@@ -28,6 +31,7 @@ mechanized_orchard = {
 
 industrial_orchard = {
 	name = "Industrial Orchard"
+	slot = resource
 	resource = fruit
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"

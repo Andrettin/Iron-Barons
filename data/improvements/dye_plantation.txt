@@ -1,5 +1,6 @@
 dye_plantation = {
 	name = "Dye Plantation"
+	slot = resource
 	resource = dye
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"

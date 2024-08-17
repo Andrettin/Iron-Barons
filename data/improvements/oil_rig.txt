@@ -1,5 +1,6 @@
 oil_rig = {
 	name = "Oil Rig"
+	slot = resource
 	resource = oil
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -9,6 +10,7 @@ oil_rig = {
 
 improved_oil_rig = {
 	name = "Improved Oil Rig"
+	slot = resource
 	resource = oil
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -19,6 +21,7 @@ improved_oil_rig = {
 
 advanced_oil_rig = {
 	name = "Advanced Oil Rig"
+	slot = resource
 	resource = oil
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -29,6 +32,7 @@ advanced_oil_rig = {
 
 industrial_oil_rig = {
 	name = "Industrial Oil Rig"
+	slot = resource
 	resource = oil
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
