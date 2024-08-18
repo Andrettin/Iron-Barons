@@ -43,6 +43,7 @@ city = {
 	image_filepath = "tiles/settlements/city.png"
 	free_resource_improvement_level = 4
 	base_settlement_types = {
+		campus
 		castle
 		monastery
 		town
