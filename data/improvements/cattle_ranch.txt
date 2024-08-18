@@ -5,6 +5,11 @@ cattle_ranch = {
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 1
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
 }
 
 improved_cattle_ranch = {
@@ -16,6 +21,11 @@ improved_cattle_ranch = {
 	output_multiplier = 2
 	required_improvement = cattle_ranch
 	required_technology = crop_rotation
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 4
+		cast_iron = 4
+	}
 }
 
 advanced_cattle_ranch = {
@@ -27,6 +37,11 @@ advanced_cattle_ranch = {
 	output_multiplier = 3
 	required_improvement = improved_cattle_ranch
 	required_technology = animal_husbandry
+	wealth_cost = 1000
+	commodity_costs = {
+		lumber = 8
+		cast_iron = 8
+	}
 }
 
 industrial_cattle_ranch = {
@@ -38,4 +53,9 @@ industrial_cattle_ranch = {
 	output_multiplier = 4
 	required_improvement = advanced_cattle_ranch
 	required_technology = scientific_cattle_breeding
+	wealth_cost = 5000
+	commodity_costs = {
+		lumber = 16
+		cast_iron = 16
+	}
 }

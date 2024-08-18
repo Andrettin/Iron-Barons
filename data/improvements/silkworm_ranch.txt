@@ -1,7 +1,7 @@
-dye_plantation = {
-	name = "Dye Plantation"
+silkworm_ranch = {
+	name = "Silkworm Ranch"
 	slot = resource
-	resource = dye
+	resource = silk
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	output_multiplier = 1

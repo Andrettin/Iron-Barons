@@ -5,4 +5,9 @@ horse_ranch = {
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	output_multiplier = 1
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
 }

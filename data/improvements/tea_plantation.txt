@@ -1,9 +1,9 @@
-dye_plantation = {
-	name = "Dye Plantation"
+tea_plantation = {
+	name = "Tea Plantation"
 	slot = resource
-	resource = dye
+	resource = tea
 	icon = trade_consulate
-	image_filepath = "tiles/improvements/cotton_plantation.png"
+	image_filepath = "tiles/improvements/sugar_plantation.png"
 	output_multiplier = 1
 	wealth_cost = 100
 	commodity_costs = {

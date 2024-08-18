@@ -8,4 +8,9 @@ stone_quarry = {
 		#mountains = "tiles/improvements/quarry_mountains.png"
 	}
 	output_multiplier = 1
+	wealth_cost = 100
+	commodity_costs = {
+		lumber = 1
+		cast_iron = 1
+	}
 }
