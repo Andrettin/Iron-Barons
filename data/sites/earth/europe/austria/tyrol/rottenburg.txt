@@ -6,7 +6,7 @@ rottenburg = {
 	
 	history = {
 		1411 = {
-			#improvement = ruins
+			#improvements += ruins
 		}
 	}
 }

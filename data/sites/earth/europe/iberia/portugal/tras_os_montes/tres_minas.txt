@@ -9,12 +9,12 @@ tres_minas = {
 	history = {
 		1 = {
 			#Três Minas was the location of a Roman gold mine in the 1st century AD; Source: M. J. T. Lewis, "Railways in the Greek and Roman World", 2001, p. 15.
-			improvement = gold_mine
+			improvements += gold_mine
 		}
 		
 		100 = {
-			#improvement = ruins
-			improvement = none
+			improvements -= gold_mine
+			#improvements += ruins
 		}
 	}
 }
