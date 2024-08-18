@@ -7,12 +7,11 @@ school = {
 	provincial = true
 	settlement_types = {
 		village
+		campus
+		castle
 		town
 		city
 		metropolis
-		campus
-		castle
-		monastery
 	}
 	settlement_modifier = {
 		max_scholars = 1
@@ -27,11 +26,10 @@ college = {
 	provincial = true
 	required_building = school
 	settlement_types = {
+		campus
 		town
 		city
 		metropolis
-		campus
-		monastery
 	}
 	settlement_modifier = {
 		max_scholars = 2
@@ -47,9 +45,9 @@ university = {
 	required_building = college
 	required_technology = university
 	settlement_types = {
+		campus
 		city
 		metropolis
-		campus
 	}
 	cost_factor = {
 		modifier = {
@@ -61,5 +59,37 @@ university = {
 	}
 	settlement_modifier = {
 		max_scholars = 3
+	}
+}
+
+monastic_school = {
+	name = "Monastic School"
+	building_class = monastic_school
+	portrait = university
+	icon = university
+	free_in_capital = true
+	provincial = true
+	required_technology = monastic_school
+	settlement_types = {
+		monastery
+	}
+	settlement_modifier = {
+		max_scholars = 1
+	}
+}
+
+cathedral_school = {
+	name = "Cathedral School"
+	building_class = cathedral_school
+	portrait = university
+	icon = university
+	provincial = true
+	required_building = monastic_school
+	required_technology = cathedral_school
+	settlement_types = {
+		monastery
+	}
+	settlement_modifier = {
+		max_scholars = 2
 	}
 }
