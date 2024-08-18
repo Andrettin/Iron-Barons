@@ -94,7 +94,7 @@ Item {
 		anchors.leftMargin: 8 * scale_factor + 8 * scale_factor + 2 * scale_factor
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
-		source: "image://icon/" + (site.game_data.resource_improvement ? site.game_data.resource_improvement.icon.identifier : resource.tiny_icon.identifier)
+		source: resource ? ("image://icon/" + (site && site.game_data.resource_improvement ? site.game_data.resource_improvement.icon.identifier : resource.tiny_icon.identifier)) : "image://empty/"
 		visible: province !== null && is_center_tile && resource !== null && site && (site.game_data.settlement_type !== null || (improvement !== null && improvement.resource === null))
 	}
 	
