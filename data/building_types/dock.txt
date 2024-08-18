@@ -4,7 +4,6 @@ dock = {
 	portrait = dock
 	icon = anchor
 	free_in_capital = true
-	free_on_start = true
 	provincial = true
 	required_technology = seafaring
 	settlement_types = {
@@ -18,11 +17,16 @@ dock = {
 		castle
 		monastery
 	}
+	wealth_cost = 3000
+	commodity_costs = {
+		lumber = 5
+		cast_iron = 5
+	}
 	settlement_conditions = {
 		near_water = true
 	}
-	settlement_modifier = {
-		port_level = 4
+	effects = {
+		add_improvement = port
 	}
 }
 
@@ -41,8 +45,5 @@ shipyard = {
 	}
 	settlement_conditions = {
 		near_water = true
-	}
-	settlement_modifier = {
-		port_level = 4
 	}
 }

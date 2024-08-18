@@ -90,12 +90,32 @@ Item {
 	
 	Image {
 		id: resource_icon
-		anchors.left: parent.left
-		anchors.leftMargin: 8 * scale_factor + 8 * scale_factor + 2 * scale_factor
+		anchors.left: garrison_icon.left
+		anchors.leftMargin: 8 * scale_factor + 2 * scale_factor
 		anchors.top: parent.top
 		anchors.topMargin: 8 * scale_factor
 		source: resource ? ("image://icon/" + (site && site.game_data.resource_improvement ? site.game_data.resource_improvement.icon.identifier : resource.tiny_icon.identifier)) : "image://empty/"
 		visible: province !== null && is_center_tile && resource !== null && site && (site.game_data.settlement_type !== null || (improvement !== null && improvement.resource === null))
+	}
+	
+	Image {
+		id: depot_icon
+		anchors.left: resource_icon.left
+		anchors.leftMargin: 8 * scale_factor + 2 * scale_factor
+		anchors.top: parent.top
+		anchors.topMargin: 8 * scale_factor
+		source: (site && site.game_data.depot_improvement !== null) ? ("image://icon/" + site.game_data.depot_improvement.icon.identifier) : "image://empty/"
+		visible: site && site.game_data.depot_improvement !== null
+	}
+	
+	Image {
+		id: port_icon
+		anchors.left: depot_icon.left
+		anchors.leftMargin: 8 * scale_factor + 2 * scale_factor
+		anchors.top: parent.top
+		anchors.topMargin: 8 * scale_factor
+		source: (site && site.game_data.port_improvement !== null) ? ("image://icon/" + site.game_data.port_improvement.icon.identifier) : "image://empty/"
+		visible: site && site.game_data.port_improvement !== null
 	}
 	
 	Rectangle {
