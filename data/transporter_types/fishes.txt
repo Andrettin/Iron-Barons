@@ -3,9 +3,11 @@ griphognathus = {
 	transporter_class = carrack
 	culture = dinosaur
 	icon = fish
-	resistance = 5
 	hit_points = 25
-	speed = 3
+	stats = {
+		resistance = 5
+		movement = 3
+	}
 	cargo = 3
 	required_technology = egg_laying
 	upgrades = {
@@ -18,9 +20,11 @@ hemicyclaspis = {
 	transporter_class = trader
 	culture = dinosaur
 	icon = fish
-	resistance = 10
 	hit_points = 30
-	speed = 4
+	stats = {
+		resistance = 10
+		movement = 4
+	}
 	cargo = 4
 	required_technology = armored_fish
 }

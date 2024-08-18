@@ -3,7 +3,9 @@ wagon = {
 	transporter_class = wagon
 	icon = carrack
 	hit_points = 10
-	speed = 2
+	stats = {
+		movement = 2
+	}
 	cargo = 2
 	commodity_costs = {
 		lumber = 2
