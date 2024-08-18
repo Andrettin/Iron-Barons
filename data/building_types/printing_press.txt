@@ -9,6 +9,7 @@ printing_press = {
 		town
 		city
 		metropolis
+		campus
 	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 50
@@ -27,6 +28,7 @@ newspaper = {
 	settlement_types = {
 		city
 		metropolis
+		campus
 	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 100
