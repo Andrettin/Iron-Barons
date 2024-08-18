@@ -1,4 +1,0 @@
-silkworm_ranch = {
-	name = "Silkworm Ranch"
-	slot_type = resource
-}

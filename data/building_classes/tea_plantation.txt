@@ -1,4 +1,0 @@
-tea_plantation = {
-	name = "Tea Plantation"
-	slot_type = resource
-}

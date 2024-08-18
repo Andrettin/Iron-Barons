@@ -1,9 +1,0 @@
-salt_mine = {
-	name = "Salt Mine"
-	slot_type = resource
-}
-
-steam_pumped_salt_mine = {
-	name = "Steam-Pumped Salt Mine"
-	slot_type = resource
-}
