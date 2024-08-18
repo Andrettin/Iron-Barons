@@ -8,6 +8,7 @@ rome = {
 	history = {
 		-192 = {
 			buildings += dock #Mercantile docks were built at Rome in 192 BC and 174 BC; Source: Tenney Frank, "Mercantilism and Rome's Foreign Policy", 1913, p. 244.
+			settlement_type = town
 		}
 		
 		-40 = {
