@@ -3,7 +3,7 @@ navigator = {
 	category = exploration
 	required_technology = navigation
 	modifier = {
-		free_warship_promotion = navigation_1
+		ship_movement_modifier = 1
 	}
 }
 
