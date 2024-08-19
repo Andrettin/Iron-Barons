@@ -139,6 +139,24 @@ henry_hudson = {
 	}
 }
 
+francis_drake = {
+	name = "Francis"
+	surname = "Drake"
+	role = advisor
+	advisor_type = privateer
+	culture = english
+	religion = protestant
+	portrait = francis_drake
+	home_site = exeter #Tavistock
+	gender = male
+	birth_date = 1540
+	death_date = 1596
+	
+	history = {
+		country = england
+	}
+}
+
 william_brewster = {
 	name = "William"
 	surname = "Brewster"

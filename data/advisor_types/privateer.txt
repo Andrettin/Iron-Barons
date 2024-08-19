@@ -1,4 +1,12 @@
 privateer = {
 	name = "Privateer"
 	category = military
+	required_technology = privateering_companies
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = light_warship
+			stat = damage_bonus
+			value = 50
+		}
+	}
 }

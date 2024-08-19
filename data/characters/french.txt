@@ -132,6 +132,7 @@ louis_xiv_of_france = {
 	role = ruler
 	culture = french
 	religion = catholic
+	portrait = louis_xiv
 	home_settlement = paris
 	gender = male
 	birth_date = 1638
