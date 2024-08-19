@@ -3,6 +3,19 @@ pioneer = {
 	category = exploration
 }
 
+francisco_de_coronado = {
+	name = "Francisco de Coronado"
+	category = exploration
+	required_technology = colonization
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = heavy_cavalry
+			stat = movement
+			value = 1
+		}
+	}
+}
+
 jacques_marquette = {
 	name = "Jacques Marquette"
 	category = exploration

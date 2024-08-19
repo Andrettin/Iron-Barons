@@ -156,3 +156,16 @@ hernando_de_soto = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	#hired by Charles V in 1539 to acquire Florida for Spain
 	#discovered the Mississippi River in 1541
 }
+
+francisco_de_coronado = {
+	name = "Francisco"
+	surname = "de Coronado"
+	role = advisor
+	advisor_type = francisco_de_coronado
+	culture = castillian
+	religion = catholic
+	home_site = salamanca
+	gender = male
+	birth_date = 1510
+	death_date = 1544
+}
