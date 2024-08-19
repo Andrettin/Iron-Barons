@@ -5,7 +5,6 @@ philip_ii_of_spain = {
 		or = {
 			culture = castillian
 			culture = austrian
-			culture = french
 			culture = persian
 		}
 		is_ruler = true

@@ -8,3 +8,17 @@ elizabeth_i_of_england = {
 		is_ruler = true
 	}
 }
+
+francis_drake = {
+	filepath = "portraits/characters/francis_drake.png"
+	character_conditions = {
+		gender = male
+		not = {
+			cultural_group = african
+		}
+		or = {
+			advisor_category = exploration
+			advisor_category = military
+		}
+	}
+}
