@@ -7,8 +7,8 @@ spearmen = {
 		range = 1
 		defense = 5
 		movement = 4
+		bonus_vs_cavalry = 100
 	}
-	bonus_vs_cavalry = 100
 	entrench = true
 	commodity_costs = {
 		manpower = 1
@@ -27,8 +27,8 @@ pikemen = {
 		range = 1
 		defense = 5
 		movement = 3
+		bonus_vs_cavalry = 100
 	}
-	bonus_vs_cavalry = 100
 	entrench = true
 	required_technology = pike
 	commodity_costs = {
@@ -50,8 +50,8 @@ halberdiers = {
 		range = 1
 		defense = 6
 		movement = 4
+		bonus_vs_cavalry = 100
 	}
-	bonus_vs_cavalry = 100
 	entrench = true
 	required_technology = halberd
 	commodity_costs = {

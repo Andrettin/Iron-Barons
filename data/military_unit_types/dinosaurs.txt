@@ -8,8 +8,8 @@ triceratops = {
 		range = 1
 		defense = 5
 		movement = 4
+		bonus_vs_cavalry = 100
 	}
-	bonus_vs_cavalry = 100
 	required_technology = horns
 	commodity_costs = {
 		manpower = 1

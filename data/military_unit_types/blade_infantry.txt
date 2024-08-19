@@ -7,8 +7,8 @@ axemen = {
 		range = 1
 		defense = 5
 		movement = 4
+		bonus_vs_infantry = 50
 	}
-	bonus_vs_infantry = 50
 	entrench = true
 	required_technology = handaxe
 	commodity_costs = {
@@ -28,8 +28,8 @@ swordsmen = {
 		range = 1
 		defense = 5
 		movement = 3
+		bonus_vs_infantry = 50
 	}
-	bonus_vs_infantry = 50
 	entrench = true
 	required_technology = shortsword
 	commodity_costs = {
@@ -51,8 +51,8 @@ two_handed_swordsmen = {
 		range = 1
 		defense = 6
 		movement = 4
+		bonus_vs_infantry = 50
 	}
-	bonus_vs_infantry = 50
 	entrench = true
 	required_technology = bastard_sword
 	commodity_costs = {
