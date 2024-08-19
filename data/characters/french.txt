@@ -88,20 +88,36 @@ jean_de_brebeuf = {
 	death_date = 1649
 }
 
+jacques_marquette = {
+	name = "Jacques"
+	surname = "Marquette"
+	role = advisor
+	advisor_type = jacques_marquette
+	culture = french
+	religion = catholic
+	home_site = laon
+	gender = male
+	birth_date = 1637
+	death_date = 1675
+	
+	history = {
+		1673 = {
+			country = new_france
+		}
+	}
+}
+
 sieur_de_la_salle = {
 	name = "Sieur"
 	surname = "de La Salle"
 	role = advisor
-	advisor_type = pioneer
+	advisor_type = sieur_de_la_salle
 	culture = french
 	religion = catholic
 	home_site = montreal
 	gender = male
 	birth_date = 1643
 	death_date = 1687
-	advisor_modifier = {
-		free_building_class = stockade
-	}
 	
 	history = {
 		1682 = {

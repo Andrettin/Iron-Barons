@@ -2,3 +2,25 @@ pioneer = {
 	name = "Pioneer"
 	category = exploration
 }
+
+jacques_marquette = {
+	name = "Jacques Marquette"
+	category = exploration
+	required_technology = colonization
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = light_cavalry
+			stat = movement
+			value = 1
+		}
+	}
+}
+
+sieur_de_la_salle = {
+	name = "Jacques Marquette"
+	category = exploration
+	required_technology = colonization
+	modifier = {
+		free_building_class = stockade
+	}
+}
