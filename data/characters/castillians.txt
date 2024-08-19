@@ -1,3 +1,16 @@
+juan_de_bermudez = {
+	name = "Juan"
+	surname = "de Bermudez"
+	role = advisor
+	advisor_type = juan_de_bermudez
+	culture = castillian
+	religion = catholic
+	home_site = huelva #Palos de la Frontera
+	gender = male
+	birth_date = 1450
+	death_date = 1520
+}
+
 juan_ponce_de_leon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
 	name = "Juan Ponce"
 	surname = "de Leon" #"de León"

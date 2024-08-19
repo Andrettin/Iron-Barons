@@ -15,3 +15,12 @@ giovanni_da_verrazano = {
 		create_transporter = carrack #caravel
 	}
 }
+
+juan_de_bermudez = {
+	name = "Juan de Bermudez"
+	category = exploration
+	required_technology = navigation
+	modifier = {
+		merchant_ship_movement_modifier = 1
+	}
+}
