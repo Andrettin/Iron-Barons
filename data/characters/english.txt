@@ -237,35 +237,26 @@ isaac_newton = {
 	name = "Isaac"
 	surname = "Newton"
 	role = advisor
-	advisor_type = natural_scientist
+	advisor_type = isaac_newton
 	culture = english
 	religion = protestant
 	home_site = lincoln_england #Grantham, Lincolnshire
 	gender = male
 	birth_date = 1669
 	death_date = 1727.3.31
-	required_technology = theory_of_gravity
-	skill_multiplier = 1
-	advisor_modifier = {
-		research_output_modifier = 50
-	}
 }
 
 charles_darwin = {
 	name = "Charles"
 	surname = "Darwin"
 	role = advisor
-	advisor_type = natural_scientist
+	advisor_type = charles_darwin
 	culture = english
 	religion = protestant
 	home_site = shrewsbury
 	gender = male
 	birth_date = 1809
 	death_date = 1882
-	required_technology = merchant_steamships
-	advisor_effects = {
-		free_technologies = 2
-	}
 }
 
 victoria_i_of_great_britain = {

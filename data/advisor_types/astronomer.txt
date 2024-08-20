@@ -1,0 +1,8 @@
+astronomer = {
+	name = "Astronomer"
+	category = trade
+	required_technology = astronomy
+	modifier = {
+		capital_research_output_modifier = 50
+	}
+}

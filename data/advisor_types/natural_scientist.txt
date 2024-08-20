@@ -6,3 +6,21 @@ natural_scientist = {
 		industry_research_modifier = 5
 	}
 }
+
+charles_darwin = {
+	name = "Charles Darwin"
+	category = trade
+	required_technology = merchant_steamships
+	effects = {
+		free_technologies = 2
+	}
+}
+
+isaac_newton = {
+	name = "Isaac Newton"
+	category = trade
+	required_technology = theory_of_gravity
+	modifier = {
+		capital_research_output_modifier = 100
+	}
+}

@@ -12,16 +12,11 @@ nicolaus_copernicus = { #Source: Isaac Asimov, "Cronologia das Ciências e das D
 	name = "Nicolaus"
 	surname = "Copernicus"
 	role = advisor
-	advisor_type = natural_scientist #astronomer
+	advisor_type = astronomer
 	culture = polish
 	religion = catholic
 	home_site = thorn
 	gender = male
 	birth_date = 1473
 	death_date = 1543
-	required_technology = astronomy
-	skill_multiplier = 0.83
-	advisor_modifier = {
-		research_output_modifier = 50
-	}
 }
