@@ -47,6 +47,11 @@ leonardo_da_vinci = {
 	gender = male
 	birth_date = 1450.4.15
 	death_date = 1519.5.2
+	conditions = {
+		not = {
+			culture = greek
+		}
+	}
 }
 
 amerigo_vespucci = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 199.
