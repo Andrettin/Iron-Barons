@@ -5,13 +5,7 @@ sacred_menhir = {
 	required_technology = bronzeworking
 	#obsolescence_technology = warp_spell
 	conditions = {
-		or = {
-			cultural_group = baltic
-			cultural_group = celtic
-			cultural_group = finnic
-			cultural_group = germanic
-			cultural_group = slavic
-		}
+		scripted_condition = is_northern_european
 	}
 	province_modifier = {
 		trade_bonus_for_tile_threshold = 1

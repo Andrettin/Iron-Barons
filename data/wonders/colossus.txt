@@ -6,11 +6,7 @@ colossus = {
 	#obsolescence_technology = flight
 	conditions = {
 		not = {
-			cultural_group = baltic
-			cultural_group = celtic
-			cultural_group = finnic
-			cultural_group = germanic
-			cultural_group = slavic
+			scripted_condition = is_northern_european
 		}
 	}
 	province_modifier = {
