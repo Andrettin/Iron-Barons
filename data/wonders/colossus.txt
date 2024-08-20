@@ -3,10 +3,14 @@ colossus = {
 	portrait = dock
 	building = monument
 	required_technology = bronzeworking
+	#obsolescence_technology = flight
 	conditions = {
 		not = {
+			cultural_group = baltic
 			cultural_group = celtic
+			cultural_group = finnic
 			cultural_group = germanic
+			cultural_group = slavic
 		}
 	}
 	province_modifier = {

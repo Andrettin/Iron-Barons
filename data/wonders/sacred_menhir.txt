@@ -6,8 +6,11 @@ sacred_menhir = {
 	#obsolescence_technology = warp_spell
 	conditions = {
 		or = {
+			cultural_group = baltic
 			cultural_group = celtic
+			cultural_group = finnic
 			cultural_group = germanic
+			cultural_group = slavic
 		}
 	}
 	province_modifier = {
