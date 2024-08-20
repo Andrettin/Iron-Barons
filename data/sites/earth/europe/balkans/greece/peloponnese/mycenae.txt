@@ -2,6 +2,7 @@ mycenae = {
 	name = "Mycenae"
 	world = earth
 	geocoordinate = { 22.756111111111 37.730833333333 }
+	province = peloponnese
 	
 	history = {
 		-1450 = {
