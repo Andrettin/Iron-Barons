@@ -3,6 +3,9 @@ crested_back = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		back_protection
 		head_crest

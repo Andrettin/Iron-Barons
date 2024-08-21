@@ -3,6 +3,9 @@ long_necks = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		endothermics
 		teeth

@@ -3,6 +3,9 @@ saurian_proportions = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		long_necks
 		phytophagia

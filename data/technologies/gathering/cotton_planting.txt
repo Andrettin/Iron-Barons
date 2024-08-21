@@ -5,6 +5,9 @@ cotton = {
 	icon = cotton
 	discovery = true
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 cotton_planting = {

@@ -4,6 +4,9 @@ ceremonial_burial = {
 	portrait = temple
 	icon = wooden_cross
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 mysticism = {

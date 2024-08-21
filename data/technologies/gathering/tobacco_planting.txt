@@ -5,6 +5,9 @@ tobacco = {
 	icon = tobacco
 	discovery = true
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 tobacco_planting = {

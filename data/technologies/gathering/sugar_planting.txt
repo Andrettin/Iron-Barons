@@ -5,6 +5,9 @@ sugar_cane = {
 	icon = sugar_cane
 	discovery = true
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 sugar_planting = {

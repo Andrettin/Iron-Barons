@@ -3,6 +3,9 @@ head_crest = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		bony_knobs
 		duck_bill

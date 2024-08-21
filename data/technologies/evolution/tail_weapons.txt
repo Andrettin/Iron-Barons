@@ -11,6 +11,9 @@ tail_spikes = {
 	portrait = building_slot
 	icon = lion
 	year = -155000000 #Stegosaurus
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		spikes
 		tail_weapons
@@ -22,6 +25,9 @@ tail_crest = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		crested_back
 	}
@@ -32,6 +38,9 @@ tail_club = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		bony_knobs
 		tail_weapons
@@ -43,6 +52,9 @@ whipping_tail = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		tail_weapons
 		long_necks

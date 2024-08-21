@@ -4,6 +4,9 @@ spikes = {
 	portrait = building_slot
 	icon = lion
 	year = -97000000 #Acanthopholis
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		spines
 		bony_plates
@@ -15,6 +18,9 @@ hip_spikes = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		spikes
 	}

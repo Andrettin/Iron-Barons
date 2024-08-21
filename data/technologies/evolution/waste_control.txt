@@ -1,12 +1,10 @@
-amphibians = {
-	name = "Amphibians"
+waste_control = {
+	name = "Waste Control"
 	category = culture
 	portrait = building_slot
 	icon = lion
-	cultures = {
-		dinosaur
-	}
 	prerequisites = {
-		ectothermics
+		dung_removal
+		burrowing
 	}
 }

@@ -4,6 +4,9 @@ horns = {
 	portrait = building_slot
 	icon = lion
 	year = -68000000 #Triceratops
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		bony_neck_frill
 		bony_knobs

@@ -5,6 +5,9 @@ furs = {
 	icon = furs
 	discovery = true
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 improved_trapping_techniques = {

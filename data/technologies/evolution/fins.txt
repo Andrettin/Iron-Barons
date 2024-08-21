@@ -4,6 +4,9 @@ spiny_fins = {
 	portrait = building_slot
 	icon = fish
 	year = -405000000 #Climatius
+	cultures = {
+		dinosaur
+	}
 }
 
 dorsal_fin = {
@@ -11,6 +14,9 @@ dorsal_fin = {
 	category = navy
 	portrait = building_slot
 	icon = fish
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		spines
 		back_protection

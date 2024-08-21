@@ -1,12 +1,10 @@
-amphibians = {
-	name = "Amphibians"
+dung_removal = {
+	name = "Dung Removal"
 	category = culture
 	portrait = building_slot
 	icon = lion
-	cultures = {
-		dinosaur
-	}
 	prerequisites = {
-		ectothermics
+		dam_building
+		collective_behavior
 	}
 }

@@ -5,6 +5,9 @@ spices = {
 	icon = spices
 	discovery = true
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 improved_sea_routes = {

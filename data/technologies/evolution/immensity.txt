@@ -3,6 +3,9 @@ immensity = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		saurian_proportions
 	}

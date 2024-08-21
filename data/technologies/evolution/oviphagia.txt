@@ -3,6 +3,9 @@ oviphagia = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		egg_laying
 		grasping_claws

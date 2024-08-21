@@ -4,4 +4,7 @@ scaly_skin = {
 	portrait = building_slot
 	icon = lion
 	year = -215000000 #Coelophysis
+	cultures = {
+		dinosaur
+	}
 }

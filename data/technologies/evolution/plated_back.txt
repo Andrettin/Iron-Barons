@@ -3,6 +3,9 @@ plated_back = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		back_protection
 		bony_plates

@@ -4,6 +4,9 @@ masonry = {
 	portrait = engineering
 	icon = wall
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 architecture = {

@@ -3,6 +3,9 @@ flippers = {
 	category = navy
 	portrait = building_slot
 	icon = fish
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		fingers
 		amphibians

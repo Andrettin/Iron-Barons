@@ -5,4 +5,7 @@ potatoes = {
 	icon = grain
 	discovery = true
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }

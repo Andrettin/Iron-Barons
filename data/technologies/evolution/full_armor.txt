@@ -3,6 +3,9 @@ full_armor = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		plated_back
 		bony_neck_frill

@@ -3,6 +3,9 @@ bony_neck_frill = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		bony_knobs
 		beaks

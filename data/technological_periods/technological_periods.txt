@@ -30,8 +30,18 @@ cretaceous = {
 	end_year = -66000000
 }
 
-cenozoic = {
+paleogene = {
 	start_year = -66000000
+	end_year = -23030000
+}
+
+neogene = {
+	start_year = -23030000
+	end_year = -2588000
+}
+
+pleistocene = {
+	start_year = -2588000
 	end_year = -4000
 }
 

@@ -3,6 +3,9 @@ duck_bill = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		phytophagia
 	}

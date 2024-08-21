@@ -13,6 +13,9 @@ curved_teeth = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		omophagia
 	}
@@ -23,6 +26,9 @@ ridged_teeth = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		curved_teeth
 	}
@@ -33,6 +39,9 @@ serrated_teeth = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		ridged_teeth
 	}

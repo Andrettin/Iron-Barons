@@ -3,6 +3,9 @@ back_protection = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		tail_weapons
 	}

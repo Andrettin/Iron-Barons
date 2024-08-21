@@ -4,6 +4,9 @@ writing = {
 	portrait = engineering
 	icon = treaty
 	year = -4000
+	prerequisites = {
+		tearing_claw
+	}
 }
 
 alphabet = {
