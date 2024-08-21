@@ -80,6 +80,7 @@ mobile_artillery = {
 		defense = 20
 		movement = 8
 	}
+	entrenchment_bonus = 5
 	required_technology = large_artillery
 	wealth_cost = 5000
 	upkeep = 150

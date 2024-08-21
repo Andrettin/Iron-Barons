@@ -119,6 +119,7 @@ railroad_guns = {
 		defense = 20
 		movement = 3
 	}
+	entrenchment_bonus = 5
 	required_technology = large_artillery
 	wealth_cost = 9000
 	upkeep = 200

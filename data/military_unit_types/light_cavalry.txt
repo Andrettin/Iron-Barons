@@ -101,7 +101,6 @@ mechanized_infantry = {
 		defense = 10
 		movement = 11
 	}
-	entrench = true
 	entrenchment_bonus = 2
 	required_technology = internal_combustion
 	wealth_cost = 5000
