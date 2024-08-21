@@ -52,7 +52,7 @@ saboteurs = {
 		movement = 5
 	}
 	entrench = true
-	entrench_bonus = 2
+	entrenchment_bonus = 2
 	required_technology = machine_gun
 	wealth_cost = 9000
 	upkeep = 75

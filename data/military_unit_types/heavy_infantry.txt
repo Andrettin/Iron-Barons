@@ -107,7 +107,7 @@ machine_gunners = {
 		movement = 4
 	}
 	entrench = true
-	entrench_bonus = 5
+	entrenchment_bonus = 5
 	required_technology = machine_gun
 	wealth_cost = 7000
 	upkeep = 100

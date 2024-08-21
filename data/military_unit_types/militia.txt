@@ -69,6 +69,6 @@ conscripts = {
 		movement = 5
 	}
 	entrench = true
-	entrench_bonus = 2
+	entrenchment_bonus = 2
 	required_technology = machine_gun
 }

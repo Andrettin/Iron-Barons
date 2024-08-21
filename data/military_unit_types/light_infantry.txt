@@ -81,7 +81,7 @@ rangers = {
 		movement = 7
 	}
 	entrench = true
-	entrench_bonus = 5
+	entrenchment_bonus = 5
 	required_technology = machine_gun
 	wealth_cost = 5000
 	upkeep = 100
