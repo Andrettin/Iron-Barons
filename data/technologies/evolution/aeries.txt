@@ -3,6 +3,9 @@ aeries = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		true_flight
 		fortified_nesting
