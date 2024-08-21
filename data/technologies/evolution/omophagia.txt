@@ -4,7 +4,7 @@ omophagia = {
 	portrait = building_slot
 	icon = lion
 	prerequisites = {
-		phytophagia
 		teeth
+		phytophagia
 	}
 }

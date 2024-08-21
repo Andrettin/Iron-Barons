@@ -5,6 +5,8 @@ pottery = {
 	icon = cog
 	year = -4000
 	prerequisites = {
+		waste_control
+		
 		tearing_claw
 	}
 }

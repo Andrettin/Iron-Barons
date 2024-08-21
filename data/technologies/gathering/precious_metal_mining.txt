@@ -6,6 +6,8 @@ precious_metals = {
 	discovery = true
 	year = -4000
 	prerequisites = {
+		burrowing
+		
 		tearing_claw
 	}
 }

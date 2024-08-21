@@ -6,6 +6,8 @@ potatoes = {
 	discovery = true
 	year = -4000
 	prerequisites = {
+		food_gathering
+		
 		tearing_claw
 	}
 }

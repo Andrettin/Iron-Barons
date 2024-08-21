@@ -5,6 +5,8 @@ masonry = {
 	icon = wall
 	year = -4000
 	prerequisites = {
+		piling_rocks
+		
 		tearing_claw
 	}
 }

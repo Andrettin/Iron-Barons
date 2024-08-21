@@ -5,6 +5,8 @@ bronzeworking = {
 	icon = bronze
 	year = -4000
 	prerequisites = {
+		burrowing
+		
 		tearing_claw
 	}
 }

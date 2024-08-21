@@ -5,6 +5,8 @@ writing = {
 	icon = treaty
 	year = -4000
 	prerequisites = {
+		cooperation
+		
 		tearing_claw
 	}
 }

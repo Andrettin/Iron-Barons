@@ -3,9 +3,12 @@ oviviparity = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
-		egg_laying
 		spawning_grounds
+		egg_laying
 	}
 	modifier = {
 		luxuries_per_hatchery = 1

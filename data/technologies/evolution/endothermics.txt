@@ -4,7 +4,7 @@ endothermics = {
 	portrait = building_slot
 	icon = lion
 	prerequisites = {
-		ectothermics
 		chambered_heart
+		ectothermics
 	}
 }
