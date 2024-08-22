@@ -16,7 +16,7 @@ bridge_building = {
 	category = industry
 	portrait = engineering
 	icon = road
-	year = 1
+	period = 1_500
 	prerequisites = {
 		architecture
 		ironworking

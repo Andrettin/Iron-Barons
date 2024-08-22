@@ -26,7 +26,7 @@ polytheism = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = -1000
+	period = 1000_bc_1
 	prerequisites = {
 		mysticism
 	}
@@ -37,7 +37,7 @@ monotheism = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = 500
+	period = 500_1000
 	prerequisites = {
 		polytheism
 		philosophy

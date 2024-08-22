@@ -3,7 +3,7 @@ alchemy = {
 	category = industry
 	portrait = engineering
 	icon = philosophy
-	year = 500
+	period = 500_1000
 	prerequisites = {
 		philosophy
 		ironworking

@@ -3,7 +3,7 @@ engineering = {
 	category = industry
 	portrait = engineering
 	icon = cog
-	year = 1
+	period = 1_500
 	prerequisites = {
 		wheel
 		architecture

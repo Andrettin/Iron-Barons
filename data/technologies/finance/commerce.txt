@@ -15,7 +15,7 @@ trade = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = -1000
+	period = 1000_bc_1
 	prerequisites = {
 		coinage
 		code_of_laws

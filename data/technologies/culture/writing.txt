@@ -22,7 +22,7 @@ literature = {
 	category = culture
 	portrait = engineering
 	icon = treaty
-	year = -1000
+	period = 1000_bc_1
 	prerequisites = {
 		writing
 		code_of_laws

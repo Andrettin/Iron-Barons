@@ -4,7 +4,7 @@ invention = {
 	portrait = engineering
 	icon = cog
 	#year = 1450
-	year = 500
+	period = 500_1000
 	prerequisites = {
 		engineering
 		literature

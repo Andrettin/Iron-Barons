@@ -3,7 +3,7 @@ philosophy = {
 	category = culture
 	portrait = scholar
 	icon = philosophy
-	year = 1
+	period = 1_500
 	free_technology = true
 	prerequisites = {
 		literature
@@ -53,6 +53,7 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 	category = culture
 	portrait = engineering
 	icon = research
+	period = 1600_1650
 	year = 1620
 	prerequisites = {
 		natural_philosophy

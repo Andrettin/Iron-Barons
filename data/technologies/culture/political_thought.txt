@@ -3,7 +3,7 @@ monarchy = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = crown_royal
-	year = 1
+	period = 1_500
 	prerequisites = {
 		code_of_laws
 		warrior_code
@@ -16,7 +16,7 @@ republic = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = philosophy
-	year = 1
+	period = 1_500
 	prerequisites = {
 		code_of_laws
 		literature
@@ -28,7 +28,7 @@ feudalism = {
 	category = culture
 	portrait = ducal_crown
 	icon = crown_ducal
-	year = 500
+	period = 500_1000
 	prerequisites = {
 		monarchy
 		warrior_code

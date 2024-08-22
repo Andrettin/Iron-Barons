@@ -11,7 +11,7 @@ architecture = {
 	category = industry
 	portrait = engineering
 	icon = architecture
-	year = -1000
+	period = 1000_bc_1
 	prerequisites = {
 		masonry
 		ironworking
