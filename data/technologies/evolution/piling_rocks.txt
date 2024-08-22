@@ -3,6 +3,7 @@ piling_rocks = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = cretaceous
 	cultures = {
 		dinosaur
 	}

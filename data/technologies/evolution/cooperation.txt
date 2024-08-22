@@ -3,6 +3,7 @@ cooperation = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	cultures = {
 		dinosaur
 	}

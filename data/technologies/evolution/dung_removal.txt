@@ -3,6 +3,7 @@ dung_removal = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	cultures = {
 		dinosaur
 	}
