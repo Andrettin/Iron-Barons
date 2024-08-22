@@ -3,6 +3,7 @@ mountains = {
 	color = { 128 64 0 }
 	icon = mountains
 	image_filepath = "tiles/terrain/mountains.png"
+	mountains = true
 	elevation_type = mountains
 	tiles = { 129 }
 	fallback_terrains = {

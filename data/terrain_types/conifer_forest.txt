@@ -3,6 +3,7 @@ conifer_forest = {
 	color = { 0 128 0 }
 	icon = mountains
 	image_filepath = "tiles/terrain/conifer_forest.png"
+	forest = true
 	elevation_type = flatlands
 	forestation_type = forest
 	tiles = { 0 }
