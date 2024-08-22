@@ -3,6 +3,7 @@ chambered_heart = {
 	category = culture
 	portrait = building_slot
 	icon = heart
+	period = permian
 	prerequisites = {
 		ectothermics
 		upright_stature

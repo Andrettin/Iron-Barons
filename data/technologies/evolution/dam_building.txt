@@ -3,4 +3,5 @@ dam_building = {
 	category = industry
 	portrait = building_slot
 	icon = lion
+	period = devonian
 }

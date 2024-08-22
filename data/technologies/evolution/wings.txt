@@ -3,6 +3,7 @@ wings = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = triassic
 	cultures = {
 		dinosaur
 	}
@@ -17,6 +18,7 @@ true_flight = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	cultures = {
 		dinosaur
 	}

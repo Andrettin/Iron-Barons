@@ -3,6 +3,7 @@ tail_weapons = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = devonian
 }
 
 tail_spikes = {

@@ -3,6 +3,7 @@ pack_hunting = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = cretaceous
 	prerequisites = {
 		sharp_eyesight
 		collective_behavior

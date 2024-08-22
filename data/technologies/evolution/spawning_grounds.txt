@@ -3,6 +3,7 @@ spawning_grounds = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = carboniferous
 	prerequisites = {
 		egg_laying
 	}

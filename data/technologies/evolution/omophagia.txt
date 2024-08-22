@@ -3,6 +3,7 @@ omophagia = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = triassic
 	prerequisites = {
 		teeth
 		phytophagia

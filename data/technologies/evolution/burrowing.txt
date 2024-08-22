@@ -3,6 +3,7 @@ burrowing = {
 	category = industry
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	prerequisites = {
 		fortified_nesting
 		claws

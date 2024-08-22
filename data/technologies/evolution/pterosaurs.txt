@@ -3,6 +3,7 @@ pterosaurs = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = cretaceous
 	year = -150800000 #Pterodactyl
 	cultures = {
 		dinosaur
@@ -18,6 +19,7 @@ advanced_pterosaurs = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = neogene
 	year = -68000000 #Quetzalcoatlus
 	cultures = {
 		dinosaur

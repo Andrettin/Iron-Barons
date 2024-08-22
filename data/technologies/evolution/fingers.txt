@@ -3,6 +3,7 @@ fingers = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = permian
 	prerequisites = {
 		upright_stature
 	}

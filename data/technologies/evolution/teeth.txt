@@ -3,6 +3,7 @@ teeth = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = permian
 	prerequisites = {
 		beaks
 	}
@@ -16,6 +17,7 @@ curved_teeth = {
 	cultures = {
 		dinosaur
 	}
+	period = jurassic
 	prerequisites = {
 		omophagia
 	}
@@ -26,6 +28,7 @@ ridged_teeth = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = cretaceous
 	cultures = {
 		dinosaur
 	}
@@ -39,6 +42,7 @@ serrated_teeth = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = paleogene
 	cultures = {
 		dinosaur
 	}

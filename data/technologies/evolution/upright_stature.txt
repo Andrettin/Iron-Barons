@@ -3,6 +3,7 @@ upright_stature = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = carboniferous
 	prerequisites = {
 		tail_weapons
 	}

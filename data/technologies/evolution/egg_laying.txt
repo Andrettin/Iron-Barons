@@ -3,5 +3,6 @@ egg_laying = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = devonian
 	year = -385000000 #Gyroptychius
 }

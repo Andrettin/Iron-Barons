@@ -3,6 +3,7 @@ collective_behavior = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = triassic
 	prerequisites = {
 		caring_for_young
 	}

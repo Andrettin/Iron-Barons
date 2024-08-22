@@ -3,6 +3,7 @@ spiny_fins = {
 	category = navy
 	portrait = building_slot
 	icon = fish
+	period = devonian
 	year = -405000000 #Climatius
 	cultures = {
 		dinosaur

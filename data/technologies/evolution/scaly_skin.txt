@@ -3,6 +3,7 @@ scaly_skin = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = devonian
 	year = -215000000 #Coelophysis
 	cultures = {
 		dinosaur

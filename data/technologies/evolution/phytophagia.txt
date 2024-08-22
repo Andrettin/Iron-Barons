@@ -3,4 +3,5 @@ phytophagia = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = devonian
 }

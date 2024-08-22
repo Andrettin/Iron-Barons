@@ -3,6 +3,7 @@ swiftness = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = cretaceous
 	prerequisites = {
 		endothermics
 		sharp_eyesight

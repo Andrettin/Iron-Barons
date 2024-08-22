@@ -3,6 +3,7 @@ archosaurs = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = neogene
 	year = -72700000 #Tyrannosaurus
 	cultures = {
 		dinosaur

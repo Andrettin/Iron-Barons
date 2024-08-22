@@ -3,6 +3,7 @@ claws = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = triassic
 	year = -130000000 #Baryonyx
 	prerequisites = {
 		fingers
@@ -14,6 +15,7 @@ grasping_claws = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	prerequisites = {
 		claws
 	}
@@ -24,6 +26,7 @@ curved_claws = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = paleogene
 	prerequisites = {
 		claws
 		swiftness
@@ -35,6 +38,7 @@ slashing_claw = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = neogene
 	prerequisites = {
 		curved_claws
 	}
@@ -45,6 +49,7 @@ tearing_claw = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = pleistocene
 	year = -75000000 #Velociraptor
 	prerequisites = {
 		slashing_claw

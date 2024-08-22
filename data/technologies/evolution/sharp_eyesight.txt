@@ -3,6 +3,7 @@ sharp_eyesight = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	prerequisites = {
 		upright_stature
 		omophagia
