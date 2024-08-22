@@ -3,7 +3,7 @@ battering_ram = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		warrior_code
 		feudalism
@@ -15,7 +15,7 @@ siege_ladders = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		battering_ram
 	}
@@ -26,7 +26,7 @@ siege_towers = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		siege_ladders
 	}
@@ -37,7 +37,7 @@ mangonel = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		siege_towers
 		mathematics
@@ -52,7 +52,7 @@ trebuchet = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		mangonel
 	}

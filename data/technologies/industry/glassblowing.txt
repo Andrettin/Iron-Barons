@@ -3,7 +3,7 @@ glassblowing = {
 	category = industry
 	portrait = engineering
 	icon = glass
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		invention
 		salt_refining

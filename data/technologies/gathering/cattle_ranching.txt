@@ -3,7 +3,7 @@ crop_rotation = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		rooting_out
 	}
@@ -14,7 +14,7 @@ animal_husbandry = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		crop_rotation
 	}

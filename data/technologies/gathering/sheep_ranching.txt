@@ -3,7 +3,7 @@ sheep_ranching = {
 	category = gathering
 	portrait = engineering
 	icon = wool
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		crop_rotation
 	}

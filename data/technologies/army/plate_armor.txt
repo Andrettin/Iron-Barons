@@ -3,7 +3,7 @@ scalemail = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 		ironworking
@@ -21,7 +21,7 @@ banded_mail = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		scalemail
 	}
@@ -38,7 +38,7 @@ half_plate = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		banded_mail
 	}
@@ -55,7 +55,7 @@ platemail = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		half_plate
 	}
@@ -72,7 +72,7 @@ full_plate = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		platemail
 	}

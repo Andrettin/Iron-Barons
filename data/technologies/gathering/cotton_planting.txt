@@ -28,7 +28,7 @@ large_cotton_plantations = {
 	category = gathering
 	portrait = engineering
 	icon = cotton
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		cotton_planting
 		

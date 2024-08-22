@@ -3,7 +3,7 @@ offensive_terrain = {
 	category = army
 	portrait = helmet
 	icon = mountains
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 	}
@@ -20,7 +20,7 @@ frontal_charge = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		offensive_terrain
 	}
@@ -37,7 +37,7 @@ reserves = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		frontal_charge
 	}
@@ -56,7 +56,7 @@ dismounted_knights = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		reserves
 		chivalry
@@ -76,7 +76,7 @@ hierarchical_command = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		dismounted_knights
 	}

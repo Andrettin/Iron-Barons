@@ -3,7 +3,7 @@ salt_refining = {
 	category = industry
 	portrait = engineering
 	icon = salt
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		invention
 	}

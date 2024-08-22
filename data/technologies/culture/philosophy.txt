@@ -16,7 +16,7 @@ aristotelian_logic = {
 	category = culture
 	portrait = scholar
 	icon = philosophy
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		philosophy
 		
@@ -29,7 +29,7 @@ scholastics = {
 	category = culture
 	portrait = frankish_cleric
 	icon = wooden_cross
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		aristotelian_logic
 		theology
@@ -41,7 +41,7 @@ natural_philosophy = {
 	category = culture
 	portrait = scholar
 	icon = philosophy
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		astrology
 		mathematics

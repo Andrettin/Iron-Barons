@@ -39,7 +39,7 @@ printing_press = {
 	category = culture
 	portrait = engineering
 	icon = newspaper
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		alphabet
 		saw_mill

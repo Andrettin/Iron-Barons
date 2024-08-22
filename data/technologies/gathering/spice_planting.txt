@@ -17,7 +17,7 @@ improved_sea_routes = {
 	category = gathering
 	portrait = engineering
 	icon = spices
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		spices
 		

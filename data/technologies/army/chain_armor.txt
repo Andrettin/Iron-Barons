@@ -3,7 +3,7 @@ chained_leather_armor = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 		ironworking
@@ -23,7 +23,7 @@ light_chainmail = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		chained_leather_armor
 	}
@@ -42,7 +42,7 @@ chainmail = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		light_chainmail
 	}
@@ -61,7 +61,7 @@ full_chainmail = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		chainmail
 	}
@@ -80,7 +80,7 @@ plated_chainmail = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		full_chainmail
 	}

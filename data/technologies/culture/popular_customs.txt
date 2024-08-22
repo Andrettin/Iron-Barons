@@ -3,7 +3,7 @@ divine_duty = {
 	category = culture
 	portrait = baronial_crown
 	icon = crown_baronial
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 	}
@@ -19,7 +19,7 @@ miracle_plays = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		troubadours
 	}
@@ -35,7 +35,7 @@ carnivals = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		miracle_plays
 	}

@@ -3,7 +3,7 @@ jongleurs = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		divine_duty
 	}
@@ -19,7 +19,7 @@ music_notation_system = {
 	category = culture
 	portrait = temple
 	icon = music
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		relics
 	}
@@ -34,7 +34,7 @@ ballads = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		music_notation_system
 	}
@@ -51,7 +51,7 @@ choir_songs = {
 	category = culture
 	portrait = temple
 	icon = music
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		music_notation_system
 	}
@@ -66,7 +66,7 @@ troubadours = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		jongleurs
 		music_notation_system
@@ -83,7 +83,7 @@ tapestries = {
 	category = culture
 	portrait = temple
 	icon = painting
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		choir_songs
 	}
@@ -99,7 +99,7 @@ music_theory = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		ballads
 		choir_songs

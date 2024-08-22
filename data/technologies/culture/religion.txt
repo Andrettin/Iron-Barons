@@ -54,7 +54,7 @@ relics = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		monotheism
 	}
@@ -69,7 +69,7 @@ theology = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		monotheism
 		feudalism

@@ -3,7 +3,7 @@ gunpowder = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		alchemy
 		invention
@@ -17,7 +17,7 @@ arquebus = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		gunpowder
 	}

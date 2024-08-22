@@ -3,7 +3,7 @@ superior_hull_design = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		cartography
 		invention

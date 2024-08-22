@@ -3,7 +3,7 @@ wood_plow = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 	}
@@ -19,7 +19,7 @@ iron_tipped_wood_plow = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		wood_plow
 		ironworking
@@ -36,7 +36,7 @@ iron_plow = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		iron_tipped_wood_plow
 	}
@@ -52,7 +52,7 @@ pitchfork = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		iron_plow
 	}
@@ -68,7 +68,7 @@ harrow = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		iron_plow
 	}
@@ -84,7 +84,7 @@ padded_horse_collar = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		pitchfork
 		harrow

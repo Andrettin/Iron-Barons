@@ -3,7 +3,7 @@ copper_and_tin_mining = {
 	category = gathering
 	portrait = factory
 	icon = copper
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		mine_engineering
 	}

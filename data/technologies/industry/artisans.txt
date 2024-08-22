@@ -3,7 +3,7 @@ apprentice_workers = {
 	category = industry
 	portrait = engineering
 	icon = craftsmen_light_small
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		sugar_refining
 		land_enclosure

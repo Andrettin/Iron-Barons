@@ -3,7 +3,7 @@ basilican_structures = {
 	category = culture
 	portrait = temple
 	icon = architecture
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		monotheism
 		invention
@@ -15,7 +15,7 @@ brickwork_structures = {
 	category = culture
 	portrait = temple
 	icon = architecture
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		basilican_structures
 	}
@@ -26,7 +26,7 @@ romanesque_vaulting = {
 	category = culture
 	portrait = temple
 	icon = architecture
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		brickwork_structures
 	}
@@ -37,7 +37,7 @@ cylindrical_structures = {
 	category = culture
 	portrait = temple
 	icon = architecture
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		romanesque_vaulting
 	}
@@ -48,7 +48,7 @@ gothic_buttresses = {
 	category = culture
 	portrait = temple
 	icon = architecture
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		cylindrical_structures
 	}

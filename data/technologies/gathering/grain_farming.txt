@@ -3,7 +3,7 @@ land_enclosure = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		rooting_out
 	}
@@ -14,7 +14,7 @@ seed_drill = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		land_enclosure
 	}

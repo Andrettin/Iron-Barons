@@ -3,7 +3,7 @@ hill_fort = {
 	category = army
 	portrait = engineering
 	icon = architecture
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 	}
@@ -14,7 +14,7 @@ small_castle = {
 	category = army
 	portrait = engineering
 	icon = architecture
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		hill_fort
 	}
@@ -25,7 +25,7 @@ medium_castle = {
 	category = army
 	portrait = engineering
 	icon = architecture
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		small_castle
 	}
@@ -36,7 +36,7 @@ large_castle = {
 	category = army
 	portrait = engineering
 	icon = architecture
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		medium_castle
 	}
@@ -47,7 +47,7 @@ huge_castle = {
 	category = army
 	portrait = engineering
 	icon = architecture
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		large_castle
 	}
@@ -58,7 +58,7 @@ mine_engineering = {
 	category = army
 	portrait = engineering
 	icon = architecture
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		invention
 		academic_disciplines #university

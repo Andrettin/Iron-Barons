@@ -3,7 +3,7 @@ handaxe = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		warrior_code
 		ironworking
@@ -16,7 +16,7 @@ battleaxe = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		handaxe
 	}
@@ -30,7 +30,7 @@ mace = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		battleaxe
 	}
@@ -41,7 +41,7 @@ warhammer = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		mace
 	}
@@ -55,7 +55,7 @@ morningstar = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		warhammer
 	}

@@ -3,7 +3,7 @@ seven_liberal_arts = {
 	category = culture
 	portrait = university
 	icon = university
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		philosophy
 		
@@ -16,7 +16,7 @@ monastic_school = {
 	category = culture
 	portrait = university
 	icon = university
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		seven_liberal_arts
 	}
@@ -27,7 +27,7 @@ cathedral_school = {
 	category = culture
 	portrait = university
 	icon = university
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		monastic_school
 	}
@@ -38,7 +38,7 @@ university = {
 	category = culture
 	portrait = university
 	icon = university
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		cathedral_school
 		mathematics
@@ -55,7 +55,7 @@ academic_disciplines = {
 	category = culture
 	portrait = university
 	icon = university
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		university
 	}

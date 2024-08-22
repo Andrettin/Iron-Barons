@@ -3,7 +3,7 @@ colonization = {
 	category = finance
 	portrait = trading_post
 	icon = settlement
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		#banking
 		#printing_press

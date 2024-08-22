@@ -3,7 +3,7 @@ astrology = {
 	category = culture
 	portrait = engineering
 	icon = research
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		scholastics
 	}

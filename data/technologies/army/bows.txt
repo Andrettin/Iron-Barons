@@ -3,7 +3,7 @@ shortbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		warrior_code
 		feudalism
@@ -15,7 +15,7 @@ composite_bow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		shortbow
 	}
@@ -29,7 +29,7 @@ longbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		composite_bow
 	}
@@ -43,7 +43,7 @@ reinforced_longbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		longbow
 	}
@@ -57,7 +57,7 @@ marksman_longbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		reinforced_longbow
 	}

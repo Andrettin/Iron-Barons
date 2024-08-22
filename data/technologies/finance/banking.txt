@@ -3,7 +3,7 @@ moneylending = {
 	category = finance
 	portrait = coinage
 	icon = chest
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		merchant_companies
 		land_enclosure

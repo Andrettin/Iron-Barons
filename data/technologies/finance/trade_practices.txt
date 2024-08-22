@@ -3,7 +3,7 @@ business_contracts = {
 	category = finance
 	portrait = coinage
 	icon = treaty
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		trade
 		
@@ -19,7 +19,7 @@ promissory_note = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		business_contracts
 	}
@@ -33,7 +33,7 @@ letters_of_credit = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		promissory_note
 	}
@@ -47,7 +47,7 @@ double_entry_bookkeeping = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		letters_of_credit
 	}
@@ -61,7 +61,7 @@ foreign_accreditation = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		double_entry_bookkeeping
 	}
@@ -75,7 +75,7 @@ trade_fairs = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		merchant_companies
 		sugar_refining

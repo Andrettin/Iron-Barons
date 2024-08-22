@@ -3,7 +3,7 @@ percussion_drilling = {
 	category = gathering
 	portrait = factory
 	icon = iron_ore
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		cathedral_school
 	}

@@ -3,7 +3,7 @@ diplomatic_expertise = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		code_of_laws
 		cartography

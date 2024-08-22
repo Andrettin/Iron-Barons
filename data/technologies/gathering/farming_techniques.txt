@@ -3,7 +3,7 @@ two_field_system = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 	}
@@ -19,7 +19,7 @@ three_field_system = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		two_field_system
 	}
@@ -35,7 +35,7 @@ stripe_plowing = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		three_field_system
 	}
@@ -51,7 +51,7 @@ soil_amelioration = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		stripe_plowing
 	}
@@ -67,7 +67,7 @@ rooting_out = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		soil_amelioration
 	}

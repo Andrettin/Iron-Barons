@@ -26,7 +26,7 @@ convoying = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		merchant_companies
 		improved_sea_routes
@@ -38,7 +38,7 @@ navigation = {
 	category = navy
 	portrait = unload
 	icon = compass
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		superior_hull_design
 		improved_sea_routes

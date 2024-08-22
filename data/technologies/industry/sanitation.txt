@@ -3,7 +3,7 @@ sanitation = {
 	category = industry
 	portrait = engineering
 	icon = architecture
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		medicine
 		engineering

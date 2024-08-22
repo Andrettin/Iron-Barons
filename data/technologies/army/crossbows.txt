@@ -3,7 +3,7 @@ slinged_javelin = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		warrior_code
 		invention
@@ -15,7 +15,7 @@ light_crossbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		slinged_javelin
 		shortbow
@@ -27,7 +27,7 @@ medium_crossbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		light_crossbow
 	}
@@ -41,7 +41,7 @@ heavy_crossbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		medium_crossbow
 	}
@@ -55,7 +55,7 @@ arbalest = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		heavy_crossbow
 	}

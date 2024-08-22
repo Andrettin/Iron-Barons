@@ -3,7 +3,7 @@ organized_regiments = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		chivalry
 		

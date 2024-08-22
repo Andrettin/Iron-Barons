@@ -3,7 +3,7 @@ iron_mining = {
 	category = gathering
 	portrait = factory
 	icon = iron_ore
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		mine_engineering
 	}

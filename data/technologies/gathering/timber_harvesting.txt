@@ -3,7 +3,7 @@ saw_mill = {
 	category = gathering
 	portrait = engineering
 	icon = lumber
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		invention
 		
@@ -16,7 +16,7 @@ wind_saw_mill = {
 	category = gathering
 	portrait = engineering
 	icon = lumber
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		saw_mill
 	}

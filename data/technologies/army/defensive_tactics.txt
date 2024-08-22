@@ -3,7 +3,7 @@ defensive_terrain = {
 	category = army
 	portrait = helmet
 	icon = mountains
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		feudalism
 	}
@@ -22,7 +22,7 @@ positional_combat = {
 	category = army
 	portrait = helmet
 	icon = crossed_sabers
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		defensive_terrain
 	}
@@ -41,7 +41,7 @@ missile_barrage = {
 	category = army
 	portrait = helmet
 	icon = bow
-	year = 1200
+	period = 1200_1300
 	prerequisites = {
 		positional_combat
 	}
@@ -56,7 +56,7 @@ drilled_pikemen = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1300
+	period = 1300_1400
 	prerequisites = {
 		missile_barrage
 		pike
@@ -74,7 +74,7 @@ pike_square = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		drilled_pikemen
 	}
@@ -89,7 +89,7 @@ unit_organization = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		drilled_pikemen
 	}
@@ -112,7 +112,7 @@ pike_and_shot = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		pike_square
 		standardized_pikes

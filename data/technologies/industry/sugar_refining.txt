@@ -3,7 +3,7 @@ sugar_refining = {
 	category = industry
 	portrait = engineering
 	icon = refined_sugar
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		sugar_cane
 		

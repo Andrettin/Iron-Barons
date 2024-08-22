@@ -26,7 +26,7 @@ chivalry = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		horseback_riding
 		feudalism
@@ -39,7 +39,7 @@ recruit_steppe_horsemen = {
 	category = army
 	portrait = helmet
 	icon = horses
-	year = 1550
+	period = 1550_1600
 	prerequisites = {
 		crop_rotation
 	}

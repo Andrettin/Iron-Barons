@@ -3,7 +3,7 @@ minor_merchant_houses = {
 	category = finance
 	portrait = trading_post
 	icon = wealth
-	year = 1000
+	period = 1000_1100
 	prerequisites = {
 		trade
 		
@@ -19,7 +19,7 @@ local_merchant_houses = {
 	category = finance
 	portrait = trading_post
 	icon = wealth
-	year = 1100
+	period = 1100_1200
 	prerequisites = {
 		minor_merchant_houses
 	}
@@ -33,7 +33,7 @@ renowned_merchant_houses = {
 	category = finance
 	portrait = trading_post
 	icon = wealth
-	year = 1400
+	period = 1400_1500
 	prerequisites = {
 		local_merchant_houses
 		
@@ -49,7 +49,7 @@ merchant_companies = {
 	category = finance
 	portrait = trading_post
 	icon = wealth
-	year = 1500
+	period = 1500_1550
 	prerequisites = {
 		renowned_merchant_houses
 		foreign_accreditation
