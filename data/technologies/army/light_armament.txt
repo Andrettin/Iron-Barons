@@ -90,7 +90,7 @@ long_range_rifle = {
 	category = army
 	portrait = engineering
 	icon = rifle
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		flintlock_rifle
 		modern_military_funding
@@ -128,7 +128,7 @@ machine_gun = {
 	category = army
 	portrait = engineering
 	icon = rifle
-	year = 1875
+	period = 1875_1900
 	prerequisites = {
 		needle_gun
 	}

@@ -3,7 +3,7 @@ electronics = {
 	category = industry
 	portrait = engineering
 	icon = research
-	year = 1875
+	period = 1875_1900
 	prerequisites = {
 		electricity
 		corporation

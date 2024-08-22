@@ -3,7 +3,7 @@ jigs = {
 	category = industry
 	portrait = engineering
 	icon = furniture
-	year = 1825
+	period = 1825_1850
 	prerequisites = {
 		mechanical_precision_saw
 		high_pressure_steam_engine

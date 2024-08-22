@@ -129,7 +129,7 @@ high_grade_steel = {
 	category = army
 	portrait = factory
 	icon = steel
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		heavy_artillery
 		modern_military_funding
@@ -142,7 +142,7 @@ rifled_artillery = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		heavy_artillery
 		modern_military_funding
@@ -155,7 +155,7 @@ field_artillery_tactics = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		light_artillery_tactics
 		modern_military_funding
@@ -179,7 +179,7 @@ large_artillery = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1850
+	period = 1850_1875
 	prerequisites = {
 		rifled_artillery
 	}

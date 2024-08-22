@@ -36,7 +36,7 @@ bessemer_converter = {
 	category = industry
 	portrait = factory
 	icon = steel
-	year = 1825
+	period = 1825_1850
 	prerequisites = {
 		crucible_process
 		high_grade_steel

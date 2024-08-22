@@ -3,7 +3,7 @@ food_packing_system = {
 	category = industry
 	portrait = engineering
 	icon = lumber
-	year = 1825
+	period = 1825_1850
 	prerequisites = {
 		mechanized_slaughtering_block
 		

@@ -3,7 +3,7 @@ corporation = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		economics
 		industrial_machinery

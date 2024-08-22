@@ -25,7 +25,7 @@ industrial_iron_mining = {
 	category = gathering
 	portrait = factory
 	icon = iron_ore
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		steam_in_mining
 		dynamite

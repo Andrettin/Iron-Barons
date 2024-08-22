@@ -38,7 +38,7 @@ safety_lamp = {
 	category = gathering
 	portrait = oil_lamp
 	icon = coal
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		square_set_timbering
 		dynamite

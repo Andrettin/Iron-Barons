@@ -35,7 +35,7 @@ amalgamation_process = {
 	category = gathering
 	portrait = coinage
 	icon = silver
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		extraction_of_precious_metals
 		dynamite

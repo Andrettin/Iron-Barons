@@ -35,7 +35,7 @@ geological_prospecting = {
 	category = gathering
 	portrait = factory
 	icon = gems
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		large_precious_stone_mines
 		dynamite

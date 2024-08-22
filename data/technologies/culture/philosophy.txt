@@ -89,7 +89,7 @@ idealism = {
 	category = culture
 	portrait = scholar
 	icon = research
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		enlightenment_philosophy
 	}
@@ -103,7 +103,7 @@ empiricism = {
 	category = culture
 	portrait = scholar
 	icon = research
-	year = 1825
+	period = 1825_1850
 	prerequisites = {
 		idealism
 	}
@@ -117,7 +117,7 @@ analytic_philosophy = {
 	category = culture
 	portrait = scholar
 	icon = research
-	year = 1850
+	period = 1850_1875
 	prerequisites = {
 		empiricism
 	}
@@ -131,7 +131,7 @@ phenomenology = {
 	category = culture
 	portrait = scholar
 	icon = research
-	year = 1875
+	period = 1875_1900
 	shared_prestige = 20
 	prerequisites = {
 		analytic_philosophy
@@ -146,7 +146,7 @@ hermeneutics = {
 	category = culture
 	portrait = scholar
 	icon = research
-	year = 1875
+	period = 1875_1900
 	shared_prestige = 20
 	prerequisites = {
 		analytic_philosophy

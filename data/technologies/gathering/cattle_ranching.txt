@@ -37,7 +37,7 @@ feed_grasses = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		scientific_cattle_breeding
 		scientific_sheep_breeding
@@ -49,7 +49,7 @@ mechanized_slaughtering_block = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		scientific_cattle_breeding
 		putting_out_system
@@ -64,7 +64,7 @@ barbed_wire = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
-	year = 1850
+	period = 1850_1875
 	prerequisites = {
 		feed_grasses
 	}

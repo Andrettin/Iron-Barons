@@ -79,7 +79,7 @@ fundamentalism = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		monotheism
 		conscription

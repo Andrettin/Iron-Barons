@@ -59,7 +59,7 @@ elite_military_training = {
 	category = army
 	portrait = helmet
 	icon = rifle
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		explosives
 		modern_military_funding

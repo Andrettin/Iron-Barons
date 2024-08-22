@@ -129,7 +129,7 @@ romanticism = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1800
+	period = 1800_1825
 	shared_prestige = 15
 	prerequisites = {
 		classicism
@@ -144,7 +144,7 @@ realism = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1825
+	period = 1825_1850
 	shared_prestige = 30
 	prerequisites = {
 		romanticism
@@ -159,7 +159,7 @@ impressionism = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1850
+	period = 1850_1875
 	shared_prestige = 45
 	prerequisites = {
 		realism
@@ -174,7 +174,7 @@ expressionism = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1875
+	period = 1875_1900
 	shared_prestige = 60
 	prerequisites = {
 		impressionism

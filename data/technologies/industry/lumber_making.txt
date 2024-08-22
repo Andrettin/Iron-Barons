@@ -3,7 +3,7 @@ mechanical_precision_saw = {
 	category = industry
 	portrait = engineering
 	icon = lumber
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		circular_saw
 		putting_out_system

@@ -17,7 +17,7 @@ positivism = {
 	category = culture
 	portrait = scholar
 	icon = treaty
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		malthusian_thought
 	}
@@ -31,7 +31,7 @@ functionalism = {
 	category = culture
 	portrait = scholar
 	icon = treaty
-	year = 1825
+	period = 1825_1850
 	prerequisites = {
 		positivism
 	}
@@ -45,7 +45,7 @@ biologism = {
 	category = culture
 	portrait = scholar
 	icon = treaty
-	year = 1850
+	period = 1850_1875
 	prerequisites = {
 		functionalism
 	}
@@ -59,7 +59,7 @@ social_science = {
 	category = culture
 	portrait = scholar
 	icon = treaty
-	year = 1875
+	period = 1875_1900
 	prerequisites = {
 		biologism
 	}

@@ -18,7 +18,7 @@ collectivist_theory = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1825
+	period = 1825_1850
 	prerequisites = {
 		economics
 		collectivism
@@ -33,7 +33,7 @@ historical_theory = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1850
+	period = 1850_1875
 	prerequisites = {
 		collectivist_theory
 	}
@@ -47,7 +47,7 @@ neoclassical_theory = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1875
+	period = 1875_1900
 	prerequisites = {
 		historical_theory
 	}

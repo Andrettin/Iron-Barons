@@ -3,7 +3,7 @@ refrigeration = {
 	category = industry
 	portrait = engineering
 	icon = research
-	year = 1875
+	period = 1875_1900
 	prerequisites = {
 		food_packing_system
 		electricity

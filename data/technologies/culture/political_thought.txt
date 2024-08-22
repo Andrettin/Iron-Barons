@@ -124,7 +124,7 @@ democracy = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = philosophy
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		republic
 		
@@ -141,7 +141,7 @@ collectivism = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		egalitarianism
 	}
@@ -155,7 +155,7 @@ individualism = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = 1800
+	period = 1800_1825
 	prerequisites = {
 		rights_of_man
 		constitutionalism
@@ -176,7 +176,7 @@ communism = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = 1825
+	period = 1825_1850
 	prerequisites = {
 		collectivism
 		
