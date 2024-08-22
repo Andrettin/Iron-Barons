@@ -14,7 +14,7 @@ scientific_sheep_breeding = {
 	category = gathering
 	portrait = engineering
 	icon = wool
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		sheep_ranching
 		scientific_method

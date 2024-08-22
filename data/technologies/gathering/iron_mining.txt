@@ -14,7 +14,7 @@ steam_in_mining = {
 	category = gathering
 	portrait = factory
 	icon = iron_ore
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		iron_mining
 	}

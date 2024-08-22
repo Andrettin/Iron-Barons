@@ -3,7 +3,7 @@ improved_infantry_tactics = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		organized_regiments
 		printing_press
@@ -15,7 +15,7 @@ improved_cavalry_tactics = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		animal_husbandry
 		printing_press

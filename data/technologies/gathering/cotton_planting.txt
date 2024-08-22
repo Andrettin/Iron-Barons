@@ -36,7 +36,7 @@ cotton_gin = {
 	category = gathering
 	portrait = engineering
 	icon = cotton
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		large_cotton_plantations
 		trained_journeymen

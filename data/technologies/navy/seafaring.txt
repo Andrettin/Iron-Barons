@@ -51,7 +51,7 @@ magnetism = {
 	category = navy
 	portrait = engineering
 	icon = compass
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		physics
 		ironworking
@@ -63,7 +63,7 @@ privateering_companies = {
 	category = navy
 	portrait = unload
 	icon = skull
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		navigation
 		diplomatic_expertise

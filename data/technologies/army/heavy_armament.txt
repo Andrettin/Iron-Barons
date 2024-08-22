@@ -66,7 +66,7 @@ siege_engineering = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		copper_and_tin_mining
 		printing_press
@@ -78,7 +78,7 @@ horse_artillery = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		animal_husbandry
 		copper_and_tin_mining
@@ -116,7 +116,7 @@ heavy_emplaced_artillery = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		siege_engineering
 		national_bureaucracy

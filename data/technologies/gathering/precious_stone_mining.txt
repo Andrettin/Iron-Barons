@@ -23,7 +23,7 @@ large_precious_stone_mines = {
 	category = gathering
 	portrait = factory
 	icon = gems
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		precious_stone_mining
 		scientific_method

@@ -18,7 +18,7 @@ propaganda = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = newspaper
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		national_bureaucracy
 		scientific_method

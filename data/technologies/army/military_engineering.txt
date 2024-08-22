@@ -70,7 +70,7 @@ modern_fortifications = {
 	category = army
 	portrait = fort
 	icon = wall
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		siege_engineering
 		scientific_method

@@ -30,7 +30,7 @@ circular_saw = {
 	category = gathering
 	portrait = engineering
 	icon = timber
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		wind_saw_mill
 		scientific_method

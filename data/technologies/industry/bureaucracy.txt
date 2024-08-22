@@ -3,7 +3,7 @@ national_bureaucracy = {
 	category = industry
 	portrait = grand_ducal_crown
 	icon = crown_royal
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		diplomatic_expertise
 		moneylending

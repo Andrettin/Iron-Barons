@@ -36,7 +36,7 @@ sugar_industry = {
 	category = gathering
 	portrait = engineering
 	icon = sugar_cane
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		large_sugar_plantations
 	}

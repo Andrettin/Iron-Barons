@@ -27,7 +27,7 @@ large_spice_plantations = {
 	category = gathering
 	portrait = engineering
 	icon = spices
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		improved_sea_routes
 		seed_drill

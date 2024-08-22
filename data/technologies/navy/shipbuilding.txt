@@ -17,7 +17,7 @@ improved_sail_design = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		superior_hull_design
 		wind_saw_mill
@@ -29,7 +29,7 @@ large_hulls = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		navigation
 		convoying
@@ -42,7 +42,7 @@ advanced_hull_design = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		improved_sail_design
 		privateering_companies
@@ -55,7 +55,7 @@ ship_of_the_line = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		large_hulls
 		large_copper_and_tin_mines

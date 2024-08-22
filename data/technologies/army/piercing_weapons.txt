@@ -74,7 +74,7 @@ halberd = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		standardized_pikes
 		organized_regiments

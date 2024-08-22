@@ -25,7 +25,7 @@ scientific_cattle_breeding = {
 	category = gathering
 	portrait = engineering
 	icon = cattle
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		animal_husbandry
 		scientific_method

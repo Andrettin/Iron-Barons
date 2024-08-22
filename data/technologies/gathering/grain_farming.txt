@@ -25,7 +25,7 @@ moldboard_plow = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		seed_drill
 	}

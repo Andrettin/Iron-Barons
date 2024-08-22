@@ -23,7 +23,7 @@ crucible_process = {
 	category = industry
 	portrait = factory
 	icon = steel
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		ironworking
 		steam_in_mining

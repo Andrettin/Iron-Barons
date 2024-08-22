@@ -3,7 +3,7 @@ industrial_machinery = {
 	category = finance
 	portrait = factory
 	icon = cog
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		steam_in_mining
 		scientific_method

@@ -3,7 +3,7 @@ road_construction = {
 	category = industry
 	portrait = engineering
 	icon = road
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		saw_mill
 		iron_mining
@@ -30,7 +30,7 @@ high_pressure_steam_engine = {
 	category = industry
 	portrait = engineering
 	icon = railroad
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		road_construction
 		steam_in_mining

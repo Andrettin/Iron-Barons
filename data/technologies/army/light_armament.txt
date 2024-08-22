@@ -28,7 +28,7 @@ weapon_craftsmanship = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		arquebus
 		organized_regiments

@@ -47,7 +47,7 @@ hussars = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		recruit_steppe_horsemen
 		improved_cavalry_tactics

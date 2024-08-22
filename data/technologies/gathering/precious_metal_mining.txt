@@ -23,7 +23,7 @@ extraction_of_precious_metals = {
 	category = gathering
 	portrait = coinage
 	icon = gold_ore
-	year = 1650
+	period = 1650_1700
 	prerequisites = {
 		precious_metal_mining
 		scientific_method

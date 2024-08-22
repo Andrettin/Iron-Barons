@@ -14,7 +14,7 @@ large_copper_and_tin_mines = {
 	category = gathering
 	portrait = factory
 	icon = copper
-	year = 1600
+	period = 1600_1650
 	prerequisites = {
 		copper_and_tin_mining
 	}
