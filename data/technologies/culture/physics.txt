@@ -29,7 +29,7 @@ atomic_theory = {
 	category = culture
 	portrait = engineering
 	icon = research
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		theory_of_gravity
 	}

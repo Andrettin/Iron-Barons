@@ -90,7 +90,7 @@ heavy_artillery = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		heavy_emplaced_artillery
 		modern_fortifications
@@ -103,7 +103,7 @@ light_artillery_tactics = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		horse_artillery
 		crucible_process
@@ -167,7 +167,7 @@ emplaced_siege_guns = {
 	category = army
 	portrait = engineering
 	icon = cannon
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		heavy_emplaced_artillery
 		heavy_artillery

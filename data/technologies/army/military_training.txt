@@ -72,7 +72,7 @@ scouting = {
 	category = army
 	portrait = helmet
 	icon = rifle
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		hussars
 		flintlock_rifle

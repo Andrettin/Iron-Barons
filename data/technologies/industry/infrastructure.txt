@@ -55,7 +55,7 @@ compound_steam_engine = {
 	category = industry
 	portrait = engineering
 	icon = railroad
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		high_pressure_steam_engine
 		
@@ -69,7 +69,7 @@ dynamite = {
 	category = industry
 	portrait = engineering
 	icon = railroad
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		compound_steam_engine
 		square_set_timbering

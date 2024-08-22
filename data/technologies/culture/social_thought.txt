@@ -3,7 +3,7 @@ malthusian_thought = {
 	category = culture
 	portrait = scholar
 	icon = treaty
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		nationalism
 	}

@@ -30,7 +30,7 @@ empire_building = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = crown_imperial
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		nationalism
 		banking

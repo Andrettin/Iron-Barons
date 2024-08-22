@@ -67,7 +67,7 @@ streamlined_hulls = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		advanced_hull_design
 		circular_saw
@@ -79,7 +79,7 @@ paddlewheels = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		advanced_hull_design
 		high_pressure_steam_engine
@@ -91,7 +91,7 @@ merchant_steamships = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		paddlewheels
 		riverboats
@@ -103,7 +103,7 @@ advanced_iron_working = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		ship_of_the_line
 		paddlewheels

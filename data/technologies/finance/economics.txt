@@ -3,7 +3,7 @@ economics = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		banking
 		university

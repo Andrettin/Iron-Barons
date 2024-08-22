@@ -41,7 +41,7 @@ flintlock_rifle = {
 	category = army
 	portrait = engineering
 	icon = rifle
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		improved_infantry_tactics
 		crucible_process
@@ -53,7 +53,7 @@ bayonet = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		halberd
 		crucible_process
@@ -65,7 +65,7 @@ explosives = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		weapon_craftsmanship
 		industrial_machinery
@@ -77,7 +77,7 @@ improved_cavalry_weapons = {
 	category = army
 	portrait = engineering
 	icon = musket
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		improved_cavalry_tactics
 		crucible_process
@@ -103,7 +103,7 @@ needle_gun = {
 	category = army
 	portrait = engineering
 	icon = rifle
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		bayonet
 		flintlock_rifle
@@ -116,7 +116,7 @@ repeating_cavalry_carbine = {
 	category = army
 	portrait = engineering
 	icon = rifle
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		improved_cavalry_weapons
 		industrial_funding_of_research

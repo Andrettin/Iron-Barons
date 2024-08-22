@@ -40,7 +40,7 @@ nationalism = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = flag
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		propaganda
 		master_artisans
@@ -56,7 +56,7 @@ rights_of_man = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		nationalism
 	}
@@ -70,7 +70,7 @@ constitutionalism = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		nationalism
 	}
@@ -84,7 +84,7 @@ egalitarianism = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		nationalism
 	}
@@ -104,7 +104,7 @@ paternalism = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = crown_royal
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		nationalism
 	}

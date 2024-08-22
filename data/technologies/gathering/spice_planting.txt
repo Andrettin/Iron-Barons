@@ -39,7 +39,7 @@ improved_food_preservation = {
 	category = gathering
 	portrait = engineering
 	icon = spices
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		large_spice_plantations
 		industrial_machinery

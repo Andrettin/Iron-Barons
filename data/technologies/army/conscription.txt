@@ -3,7 +3,7 @@ conscription = {
 	category = army
 	portrait = helmet
 	icon = saber
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		nationalism
 		weapon_craftsmanship

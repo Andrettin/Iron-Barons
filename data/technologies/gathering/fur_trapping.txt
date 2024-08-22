@@ -25,7 +25,7 @@ riverboats = {
 	category = gathering
 	portrait = unload
 	icon = furs
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		improved_trapping_techniques
 		high_pressure_steam_engine
@@ -37,7 +37,7 @@ excessive_fur_harvesting = {
 	category = gathering
 	portrait = engineering
 	icon = furs
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		riverboats
 		compound_steam_engine

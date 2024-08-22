@@ -73,7 +73,7 @@ enlightenment_philosophy = {
 	category = culture
 	portrait = scholar
 	icon = research
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		scientific_method
 		

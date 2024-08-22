@@ -25,7 +25,7 @@ efficient_extraction_of_copper_and_tin = {
 	category = gathering
 	portrait = factory
 	icon = copper
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		large_copper_and_tin_mines
 		#large_coal_mines

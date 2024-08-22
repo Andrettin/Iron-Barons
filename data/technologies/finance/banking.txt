@@ -15,7 +15,7 @@ banking = {
 	category = finance
 	portrait = coinage
 	icon = chest
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		moneylending
 		national_bureaucracy
@@ -31,7 +31,7 @@ modern_military_funding = {
 	category = finance
 	portrait = coinage
 	icon = chest
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		banking
 		large_precious_stone_mines
@@ -44,7 +44,7 @@ industrial_funding_of_research = {
 	category = finance
 	portrait = coinage
 	icon = chest
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		industrial_machinery
 		crucible_process

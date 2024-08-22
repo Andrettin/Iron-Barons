@@ -113,7 +113,7 @@ classicism = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		music_theory
 		

@@ -3,7 +3,7 @@ putting_out_system = {
 	category = industry
 	portrait = engineering
 	icon = cog
-	year = 1750
+	period = 1750_1800
 	prerequisites = {
 		banking
 	}

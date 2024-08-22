@@ -14,7 +14,7 @@ spinning_jenny = {
 	category = gathering
 	portrait = factory
 	icon = fabric
-	year = 1700
+	period = 1700_1750
 	prerequisites = {
 		scientific_sheep_breeding
 		industrial_machinery
