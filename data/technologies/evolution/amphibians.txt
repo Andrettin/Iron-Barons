@@ -3,6 +3,7 @@ amphibians = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	period = carboniferous
 	cultures = {
 		dinosaur
 	}

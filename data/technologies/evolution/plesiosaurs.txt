@@ -3,6 +3,7 @@ plesiosaurs = {
 	category = navy
 	portrait = building_slot
 	icon = lion
+	period = cretaceous
 	cultures = {
 		dinosaur
 	}

@@ -3,6 +3,7 @@ food_gathering = {
 	category = gathering
 	portrait = building_slot
 	icon = lion
+	period = carboniferous
 	prerequisites = {
 		phytophagia
 		barter

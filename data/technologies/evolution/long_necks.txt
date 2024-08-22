@@ -3,6 +3,7 @@ long_necks = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	cultures = {
 		dinosaur
 	}

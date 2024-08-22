@@ -3,6 +3,7 @@ marine_reptiles = {
 	category = navy
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	cultures = {
 		dinosaur
 	}
