@@ -3,12 +3,7 @@ writing = {
 	category = culture
 	portrait = engineering
 	icon = treaty
-	year = -4000
-	prerequisites = {
-		cooperation
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 alphabet = {
@@ -16,7 +11,7 @@ alphabet = {
 	category = culture
 	portrait = engineering
 	icon = treaty
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		writing
 	}

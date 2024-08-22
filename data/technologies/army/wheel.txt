@@ -3,8 +3,5 @@ wheel = {
 	category = army
 	portrait = engineering
 	icon = cog
-	year = -4000
-	prerequisites = {
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }

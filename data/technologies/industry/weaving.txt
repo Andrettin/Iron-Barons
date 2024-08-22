@@ -3,7 +3,7 @@ cotton_weaving = {
 	category = industry
 	portrait = engineering
 	icon = fabric
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		cotton
 	}

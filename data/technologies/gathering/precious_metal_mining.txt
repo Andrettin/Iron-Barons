@@ -4,12 +4,7 @@ precious_metals = {
 	portrait = coinage
 	icon = gold_ore
 	discovery = true
-	year = -4000
-	prerequisites = {
-		burrowing
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 precious_metal_mining = {
@@ -17,7 +12,7 @@ precious_metal_mining = {
 	category = gathering
 	portrait = coinage
 	icon = gold_ore
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		precious_metals
 	}

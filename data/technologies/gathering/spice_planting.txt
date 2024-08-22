@@ -4,12 +4,7 @@ spices = {
 	portrait = engineering
 	icon = spices
 	discovery = true
-	year = -4000
-	prerequisites = {
-		food_gathering
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 improved_sea_routes = {

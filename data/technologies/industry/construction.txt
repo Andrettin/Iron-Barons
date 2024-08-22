@@ -3,12 +3,7 @@ masonry = {
 	category = industry
 	portrait = engineering
 	icon = wall
-	year = -4000
-	prerequisites = {
-		piling_rocks
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 architecture = {

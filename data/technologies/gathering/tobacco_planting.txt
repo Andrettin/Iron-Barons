@@ -4,12 +4,7 @@ tobacco = {
 	portrait = engineering
 	icon = tobacco
 	discovery = true
-	year = -4000
-	prerequisites = {
-		food_gathering
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 tobacco_planting = {
@@ -17,7 +12,7 @@ tobacco_planting = {
 	category = gathering
 	portrait = engineering
 	icon = tobacco
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		tobacco
 	}

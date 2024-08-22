@@ -4,10 +4,7 @@ furs = {
 	portrait = engineering
 	icon = furs
 	discovery = true
-	year = -4000
-	prerequisites = {
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 improved_trapping_techniques = {

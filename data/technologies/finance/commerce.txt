@@ -3,7 +3,7 @@ coinage = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		precious_metals
 		bronzeworking

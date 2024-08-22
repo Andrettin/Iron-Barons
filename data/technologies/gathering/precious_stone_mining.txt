@@ -4,12 +4,7 @@ precious_stones = {
 	portrait = factory
 	icon = gems
 	discovery = true
-	year = -4000
-	prerequisites = {
-		food_gathering
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 precious_stone_mining = {
@@ -17,7 +12,7 @@ precious_stone_mining = {
 	category = gathering
 	portrait = factory
 	icon = gems
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		precious_stones
 	}

@@ -4,10 +4,5 @@ potatoes = {
 	portrait = engineering
 	icon = grain
 	discovery = true
-	year = -4000
-	prerequisites = {
-		food_gathering
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }

@@ -3,12 +3,7 @@ ceremonial_burial = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = -4000
-	prerequisites = {
-		burrowing
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 mysticism = {
@@ -16,7 +11,7 @@ mysticism = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		ceremonial_burial
 	}

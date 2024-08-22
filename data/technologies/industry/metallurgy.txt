@@ -3,12 +3,7 @@ bronzeworking = {
 	category = industry
 	portrait = engineering
 	icon = bronze
-	year = -4000
-	prerequisites = {
-		burrowing
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
 
 ironworking = {
@@ -16,7 +11,7 @@ ironworking = {
 	category = industry
 	portrait = engineering
 	icon = iron
-	year = -2000
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		bronzeworking
 		warrior_code

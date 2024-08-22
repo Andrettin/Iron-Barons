@@ -3,10 +3,5 @@ pottery = {
 	category = industry
 	portrait = engineering
 	icon = cog
-	year = -4000
-	prerequisites = {
-		waste_control
-		
-		tearing_claw
-	}
+	period = 4000_bc_2000_bc
 }
