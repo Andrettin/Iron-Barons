@@ -4,6 +4,9 @@ endothermics = {
 	portrait = building_slot
 	icon = lion
 	period = triassic
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		chambered_heart
 		ectothermics

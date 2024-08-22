@@ -4,6 +4,9 @@ pack_hunting = {
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		sharp_eyesight
 		collective_behavior

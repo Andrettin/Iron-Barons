@@ -4,6 +4,9 @@ chambered_heart = {
 	portrait = building_slot
 	icon = heart
 	period = permian
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		ectothermics
 		upright_stature

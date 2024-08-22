@@ -4,6 +4,9 @@ tail_weapons = {
 	portrait = building_slot
 	icon = lion
 	period = devonian
+	cultures = {
+		dinosaur
+	}
 }
 
 tail_spikes = {

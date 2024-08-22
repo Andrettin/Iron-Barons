@@ -4,6 +4,9 @@ teeth = {
 	portrait = building_slot
 	icon = lion
 	period = permian
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		beaks
 	}
@@ -14,10 +17,10 @@ curved_teeth = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	cultures = {
 		dinosaur
 	}
-	period = jurassic
 	prerequisites = {
 		omophagia
 	}

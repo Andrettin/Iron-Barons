@@ -4,4 +4,7 @@ dam_building = {
 	portrait = building_slot
 	icon = lion
 	period = devonian
+	cultures = {
+		dinosaur
+	}
 }

@@ -4,6 +4,9 @@ upright_stature = {
 	portrait = building_slot
 	icon = lion
 	period = carboniferous
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		tail_weapons
 	}

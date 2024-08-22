@@ -5,4 +5,7 @@ egg_laying = {
 	icon = lion
 	period = devonian
 	year = -385000000 #Gyroptychius
+	cultures = {
+		dinosaur
+	}
 }

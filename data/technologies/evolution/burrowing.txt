@@ -4,6 +4,9 @@ burrowing = {
 	portrait = building_slot
 	icon = lion
 	period = jurassic
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		fortified_nesting
 		claws

@@ -3,6 +3,9 @@ waste_control = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		dung_removal
 		burrowing

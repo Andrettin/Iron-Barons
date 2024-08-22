@@ -4,6 +4,9 @@ caring_for_young = {
 	portrait = building_slot
 	icon = lion
 	period = permian
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		spawning_grounds
 		fortified_nesting

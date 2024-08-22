@@ -4,6 +4,9 @@ swiftness = {
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		endothermics
 		sharp_eyesight

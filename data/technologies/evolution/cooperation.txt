@@ -3,6 +3,9 @@ cooperation = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		collective_behavior
 	}

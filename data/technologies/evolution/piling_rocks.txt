@@ -3,6 +3,9 @@ piling_rocks = {
 	category = culture
 	portrait = building_slot
 	icon = lion
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		grasping_claws
 		collective_behavior

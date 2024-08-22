@@ -4,6 +4,9 @@ omophagia = {
 	portrait = building_slot
 	icon = lion
 	period = triassic
+	cultures = {
+		dinosaur
+	}
 	prerequisites = {
 		teeth
 		phytophagia
