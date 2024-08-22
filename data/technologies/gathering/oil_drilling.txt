@@ -28,7 +28,7 @@ internal_combustion = {
 	category = gathering
 	portrait = factory
 	icon = fuel
-	year = 1900
+	period = 1900_1925
 	prerequisites = {
 		chemistry
 	}

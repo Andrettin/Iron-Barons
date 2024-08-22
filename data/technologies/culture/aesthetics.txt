@@ -189,7 +189,7 @@ mass_culture = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1900
+	period = 1900_1925
 	prerequisites = {
 		expressionism
 	}
@@ -203,7 +203,7 @@ avant_garde_art = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1900
+	period = 1900_1925
 	shared_prestige = 75
 	prerequisites = {
 		expressionism
@@ -218,7 +218,7 @@ jazz = {
 	category = culture
 	portrait = engineering
 	icon = music
-	year = 1900
+	period = 1900_1925
 	shared_prestige = 25
 	prerequisites = {
 		expressionism
@@ -230,7 +230,7 @@ modern_design = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1900
+	period = 1900_1925
 	shared_prestige = 25
 	prerequisites = {
 		expressionism
@@ -242,7 +242,7 @@ socialist_realism = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1900
+	period = 1900_1925
 	shared_prestige = 25
 	prerequisites = {
 		expressionism
@@ -254,7 +254,7 @@ surrealism = {
 	category = culture
 	portrait = engineering
 	icon = painting
-	year = 1900
+	period = 1900_1925
 	shared_prestige = 25
 	prerequisites = {
 		expressionism

@@ -73,7 +73,7 @@ social_alienation = {
 	category = culture
 	portrait = scholar
 	icon = treaty
-	year = 1900
+	period = 1900_1925
 	prerequisites = {
 		social_science
 	}

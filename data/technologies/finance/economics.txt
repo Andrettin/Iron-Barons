@@ -61,7 +61,7 @@ keynesian_economics = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	year = 1900
+	period = 1900_1925
 	prerequisites = {
 		neoclassical_theory
 	}
