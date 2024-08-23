@@ -15,6 +15,7 @@ dorsal_fin = {
 	category = navy
 	portrait = building_slot
 	icon = fish
+	period = permian
 	cultures = {
 		dinosaur
 	}

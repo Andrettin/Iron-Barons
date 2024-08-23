@@ -3,6 +3,7 @@ bony_knobs = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = permian
 	cultures = {
 		dinosaur
 	}

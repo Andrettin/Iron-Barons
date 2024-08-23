@@ -3,6 +3,7 @@ horns = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = jurassic
 	year = -68000000 #Triceratops
 	cultures = {
 		dinosaur

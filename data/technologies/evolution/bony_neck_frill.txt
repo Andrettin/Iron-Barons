@@ -3,6 +3,7 @@ bony_neck_frill = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = triassic
 	cultures = {
 		dinosaur
 	}

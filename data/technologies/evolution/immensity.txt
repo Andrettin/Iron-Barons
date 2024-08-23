@@ -3,6 +3,7 @@ immensity = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = paleogene
 	cultures = {
 		dinosaur
 	}

@@ -3,6 +3,7 @@ spikes = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = permian
 	year = -97000000 #Acanthopholis
 	cultures = {
 		dinosaur
@@ -18,6 +19,7 @@ hip_spikes = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = triassic
 	cultures = {
 		dinosaur
 	}

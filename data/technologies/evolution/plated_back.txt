@@ -3,6 +3,7 @@ plated_back = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = permian
 	cultures = {
 		dinosaur
 	}

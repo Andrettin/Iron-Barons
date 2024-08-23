@@ -3,6 +3,7 @@ saurian_proportions = {
 	category = army
 	portrait = building_slot
 	icon = lion
+	period = cretaceous
 	cultures = {
 		dinosaur
 	}
