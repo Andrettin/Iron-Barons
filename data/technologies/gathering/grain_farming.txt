@@ -25,9 +25,23 @@ moldboard_plow = {
 	category = gathering
 	portrait = engineering
 	icon = grain
-	period = 1600_1650
+	period = 1825_1850
 	prerequisites = {
 		seed_drill
+		
+		high_grade_steel
+	}
+	modifier = {
+		commodity_bonus_per_improvement = {
+			commodity = grain
+			improvement = mechanized_grain_estate
+			value = 0.5
+		}
+		commodity_bonus_per_improvement = {
+			commodity = potatoes
+			improvement = mechanized_potato_estate
+			value = 0.5
+		}
 	}
 }
 
