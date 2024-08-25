@@ -28,6 +28,7 @@ austria = {
 	history = {
 		1156 = {
 			tier = duchy #Austria became a duchy in 1156; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			traditions += monarchy
 		}
 		
 		1516 = {

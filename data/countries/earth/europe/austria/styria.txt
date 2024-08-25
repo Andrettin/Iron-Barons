@@ -16,6 +16,7 @@ styria = {
 	history = {
 		1055 = {
 			#March of Styria established in 1055; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			traditions += monarchy
 		}
 		
 		1180 = {

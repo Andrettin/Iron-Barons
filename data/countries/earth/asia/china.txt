@@ -19,7 +19,4 @@ china = {
 	core_provinces = {
 		hebei
 	}
-	history = {
-		government_type = despotism
-	}
 }

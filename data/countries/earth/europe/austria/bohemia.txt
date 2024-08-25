@@ -22,6 +22,7 @@ bohemia = {
 	history = {
 		919 = {
 			tier = duchy #Bohemia was a duchy in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			traditions += monarchy
 		}
 		
 		1477 = {

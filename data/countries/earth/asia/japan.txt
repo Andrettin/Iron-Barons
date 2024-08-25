@@ -19,7 +19,4 @@ japan = {
 	core_provinces = {
 		honshu
 	}
-	history = {
-		government_type = despotism
-	}
 }

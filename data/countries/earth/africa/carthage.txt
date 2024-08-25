@@ -16,8 +16,4 @@ carthage = {
 	core_provinces = {
 		tunisia
 	}
-	
-	history = {
-		government_type = despotism
-	}
 }
