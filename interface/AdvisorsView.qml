@@ -20,7 +20,7 @@ Item {
 		}
 		
 		onEntered: {
-			status_text = ruler.full_name
+			status_text = country_game_data.ruler_title_name + " " + ruler.full_name
 		}
 		
 		onExited: {
