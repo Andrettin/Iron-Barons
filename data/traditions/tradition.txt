@@ -1,0 +1,10 @@
+tradition = {
+	name = "Tradition"
+	group = tradition
+	portrait = ducal_crown
+	icon = crown_ducal
+	required_technology = code_of_laws
+	modifier = {
+		capital_culture_bonus = 3
+	}
+}

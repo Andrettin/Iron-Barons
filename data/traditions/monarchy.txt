@@ -1,0 +1,14 @@
+monarchy = {
+	name = "Monarchy"
+	group = tradition
+	portrait = grand_ducal_crown
+	icon = crown_royal
+	required_technology = monarchy
+	prerequisites = {
+		tradition
+	}
+	modifier = {
+		capital_trade_bonus_per_population = 0.5
+		capital_luxuries_bonus_per_population = 0.5
+	}
+}
