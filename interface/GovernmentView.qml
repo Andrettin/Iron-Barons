@@ -19,10 +19,7 @@ Item {
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: country_game_data.government_type.icon.identifier
-		tooltip: country_game_data.government_type.name + (modifier_string.length > 0 ? format_text(small_text("\n"
-			+ "\n" + modifier_string)) : "")
-			
-		readonly property string modifier_string: country_game_data.government_type.get_modifier_string(country)
+		name: country_game_data.government_type.name
 	}
 	
 	SmallText {
@@ -39,6 +36,7 @@ Item {
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: country_tier_data.icon.identifier
+		name: country_tier_data.name
 		tooltip: country_tier_data.name + (modifier_string.length > 0 ? format_text(small_text("\n"
 			+ "\n" + modifier_string)) : "")
 			

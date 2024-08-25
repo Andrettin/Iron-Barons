@@ -5,6 +5,7 @@ Image {
 	id: icon
 	source: icon_identifier.length > 0 ? ("image://icon/" + icon_identifier) : "image://empty/"
 	
+	property string name: ""
 	property string icon_identifier: ""
 	property string tooltip: ""
 	
@@ -12,6 +13,14 @@ Image {
 		id: icon_mouse_area
 		anchors.fill: parent
 		hoverEnabled: true
+		
+		onEntered: {
+			status_text = name
+		}
+		
+		onExited: {
+			status_text = ""
+		}
 	}
 	
 	CustomTooltip {
