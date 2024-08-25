@@ -1,0 +1,15 @@
+merchant_navy = {
+	name = "Merchant Navy"
+	group = exploration
+	portrait = unload
+	icon = anchor
+	required_technology = convoying
+	prerequisites = {
+		naval_tradition
+	}
+	modifier = {
+		trade_per_dock = 1
+		trade_per_shipyard = 1
+		trade_per_lighthouse = 1
+	}
+}

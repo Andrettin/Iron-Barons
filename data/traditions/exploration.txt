@@ -1,0 +1,10 @@
+exploration = {
+	name = "Exploration"
+	group = exploration
+	portrait = unload
+	icon = anchor
+	required_technology = navigation
+	modifier = {
+		ship_movement_modifier = 1
+	}
+}
