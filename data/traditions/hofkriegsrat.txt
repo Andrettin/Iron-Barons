@@ -1,0 +1,17 @@
+hofkriegsrat = {
+	name = "Hofkriegsrat"
+	group = honor
+	portrait = aristocratic_palace
+	icon = saber
+	required_technology = organized_regiments
+	prerequisites = {
+		honor
+	}
+	preconditions = {
+		culture = austrian
+	}
+	modifier = {
+		land_recovery_modifier = 30
+		land_discipline = 5
+	}
+}

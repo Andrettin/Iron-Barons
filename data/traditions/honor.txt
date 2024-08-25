@@ -1,0 +1,9 @@
+honor = {
+	name = "Honor"
+	group = honor
+	portrait = helmet
+	icon = saber
+	required_technology = warrior_code
+	modifier = {
+	}
+}
