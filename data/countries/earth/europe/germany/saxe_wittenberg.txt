@@ -19,6 +19,7 @@ saxe_wittenberg = {
 	history = {
 		1428.1.4 = {
 			ruler = friedrich_ii_of_saxony
+			traditions += monarchy
 		}
 		
 		1733.2.1 = {

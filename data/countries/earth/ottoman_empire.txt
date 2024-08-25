@@ -19,6 +19,7 @@ ottoman_empire = {
 	history = {
 		1520 = {
 			ruler = suleiman_i_of_the_ottoman_empire #Suleiman I became Sultan of the Ottoman Empire in 1520; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
+			traditions += monarchy
 		}
 	
 		1820 = {

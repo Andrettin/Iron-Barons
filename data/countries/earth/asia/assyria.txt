@@ -21,6 +21,7 @@ assyria = {
 	history = {
 		-720 = {
 			#ruler = sargon_ii_of_assyria #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+			traditions += monarchy
 		}
 		
 		-640 = {
