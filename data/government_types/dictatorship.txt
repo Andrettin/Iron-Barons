@@ -2,6 +2,9 @@ dictatorship = {
 	name = "Dictatorship"
 	group = republic
 	icon = saber
+	conditions = {
+		tradition = republic
+	}
 	ruler_title_names = {
 		barony = "Dictator"
 		county = "Dictator"

@@ -3,5 +3,6 @@ republic = {
 	group = republic
 	icon = philosophy
 	conditions = {
+		tradition = republic
 	}
 }

@@ -3,6 +3,7 @@ democratic_republic = {
 	group = republic
 	icon = philosophy
 	conditions = {
+		tradition = republic
 	}
 	ruler_title_names = {
 		duchy = "President"

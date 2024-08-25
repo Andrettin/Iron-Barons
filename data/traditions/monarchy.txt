@@ -4,6 +4,9 @@ monarchy = {
 	portrait = grand_ducal_crown
 	icon = crown_royal
 	required_technology = monarchy
+	incompatible_traditions = {
+		republic
+	}
 	prerequisites = {
 		tradition
 	}
