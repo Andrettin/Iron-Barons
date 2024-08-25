@@ -159,6 +159,10 @@ Item {
 		id: research_choice_dialog
 	}
 	
+	TraditionChoiceDialog {
+		id: tradition_choice_dialog
+	}
+	
 	AdvisorChoiceDialog {
 		id: advisor_choice_dialog
 	}
@@ -244,6 +248,11 @@ Item {
 			research_choice_dialog.potential_technologies = potential_technologies
 			research_choice_dialog.free_technology = true
 			research_choice_dialog.open()
+		}
+		
+		function onNext_tradition_choosable(potential_traditions) {
+			tradition_choice_dialog.potential_traditions = potential_traditions
+			tradition_choice_dialog.open()
 		}
 		
 		function onNext_advisor_choosable(potential_advisors) {
