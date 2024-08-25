@@ -20,7 +20,7 @@ DialogBase {
 		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
 		anchors.rightMargin: 8 * scale_factor
-		text: "Which tradition shall we acquire next?"
+		text: "Which tradition shall we adopt next?"
 		wrapMode: Text.WordWrap
 	}
 	

@@ -290,16 +290,16 @@ Item {
 			dialog.open()
 		}
 		
-		function onTradition_acquired(tradition) {
+		function onTradition_adopted(tradition) {
 			if (notification_dialog_component.status == Component.Error) {
 				console.error(notification_dialog_component.errorString())
 				return
 			}
 			
 			var dialog = notification_dialog_component.createObject(map_view, {
-				title: "Tradition Acquired",
+				title: "Tradition Adopted",
 				portrait_object: metternich.defines.interior_minister_portrait,
-				text: "Your Excellency, we have acquired the " + tradition.name  + " tradition!",
+				text: "Your Excellency, we have adopted the " + tradition.name  + " tradition!",
 				second_button_text: "View Traditions",
 				second_button_effects: () => {
 					politics_view_mode = PoliticsView.Mode.Traditions
