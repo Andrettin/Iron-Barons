@@ -57,4 +57,25 @@ Rectangle {
 			}
 		}
 	}
+	
+	IconButton {
+		id: traditions_button
+		anchors.top: government_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "music"
+		border_color: politics_view_mode === PoliticsView.Mode.Traditions ? "white" : "gray"
+		
+		onReleased: {
+			politics_view_mode = PoliticsView.Mode.Traditions
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Traditions"
+			} else {
+				status_text = ""
+			}
+		}
+	}
 }

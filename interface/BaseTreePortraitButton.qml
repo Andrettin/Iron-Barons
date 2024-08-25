@@ -41,7 +41,7 @@ Item {
 		portrait_identifier: entry.portrait.identifier
 		border_color: parent.border_color
 		//grayscale: parent.grayscale
-		//transparent: parent.transparent
+		transparent: parent.transparent
 		//disabled: parent.disabled
 		
 		MouseArea {

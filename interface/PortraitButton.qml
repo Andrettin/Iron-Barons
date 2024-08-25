@@ -11,6 +11,7 @@ ButtonBase {
 	property bool circle: false
 	property color background_color: "black"
 	property color border_color: "gray"
+	property bool transparent: false
 	
     background: Rectangle {
 		id: background_rectangle
@@ -41,5 +42,6 @@ ButtonBase {
 		height: portrait_image.height
 		radius: button.radius
         source: portrait_image
+		opacity: transparent ? 0.25 : 1
 	}
 }
