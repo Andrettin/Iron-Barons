@@ -13,6 +13,6 @@ monument = {
 		monastery
 	}
 	settlement_modifier = {
-		prestige_bonus = 1
+		culture_bonus = 2
 	}
 }
