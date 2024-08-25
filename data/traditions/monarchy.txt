@@ -7,6 +7,11 @@ monarchy = {
 	prerequisites = {
 		tradition
 	}
+	preconditions = {
+		not = {
+			country_type = tribe
+		}
+	}
 	modifier = {
 		capital_trade_bonus_per_population = 0.5
 		capital_luxuries_bonus_per_population = 0.5

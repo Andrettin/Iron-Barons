@@ -2,8 +2,10 @@ despotism = {
 	name = "Despotism"
 	group = tribe
 	icon = bow
-	modifier = {
-		diplomatic_penalty_for_expansion_modifier = -10
+	conditions = {
+		not = {
+			tradition = monarchy
+		}
 	}
 	min_policy_values = {
 		centralization_decentralization = 2

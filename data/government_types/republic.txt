@@ -2,8 +2,6 @@ republic = {
 	name = "Republic"
 	group = republic
 	icon = philosophy
-	required_technology = republic
-	modifier = {
-		trade_bonus_for_tile_threshold = 1
+	conditions = {
 	}
 }

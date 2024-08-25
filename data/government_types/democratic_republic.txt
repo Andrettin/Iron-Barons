@@ -2,9 +2,7 @@ democratic_republic = {
 	name = "Democratic Republic"
 	group = republic
 	icon = philosophy
-	required_technology = democracy
-	modifier = {
-		trade_bonus_for_tile_threshold = 1
+	conditions = {
 	}
 	ruler_title_names = {
 		duchy = "President"
