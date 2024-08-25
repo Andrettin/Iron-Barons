@@ -1,4 +1,4 @@
-min_log_level = warning
+min_log_level = trace
 
 green_text_color = { 0 159 3 }
 red_text_color = { 255 50 50 }
@@ -39,6 +39,7 @@ river_settlement_commodity_bonuses = {
 research_commodity = research
 prestige_commodity = prestige
 piety_commodity = piety
+tradition_commodity = culture
 advisor_commodity = statesmanship
 leader_commodity = leadership
 
