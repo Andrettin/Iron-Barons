@@ -145,16 +145,6 @@ Rectangle {
 		}
 	}
 	
-	IndustryCounter {
-		id: piety_commodity_counter
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.top: next_leader_icon.visible ? next_leader_icon.bottom : leader_commodity_counter.bottom
-		anchors.topMargin: next_leader_icon.visible ? 32 * scale_factor : 166 * scale_factor
-		name: "Piety"
-		icon_identifier: "wooden_cross"
-		count: country_game_data.stored_commodities.length > 0 ? country_game_data.get_stored_commodity(metternich.defines.piety_commodity) : 0
-	}
-	
 	TextButton {
 		id: back_button
 		anchors.horizontalCenter: parent.horizontalCenter
