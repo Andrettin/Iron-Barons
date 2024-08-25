@@ -1,0 +1,10 @@
+commerce = {
+	name = "Commerce"
+	group = commerce
+	portrait = coinage
+	icon = wealth
+	required_technology = trade
+	modifier = {
+		capital_trade_output_modifier = 25
+	}
+}
