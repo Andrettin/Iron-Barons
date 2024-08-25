@@ -2,6 +2,6 @@ grand_captain = {
 	name = "Grand Captain"
 	category = military
 	scaled_modifier = {
-		land_morale_resistance = 5
+		land_discipline = 5
 	}
 }

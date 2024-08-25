@@ -8,10 +8,10 @@ offensive_terrain = {
 		feudalism
 	}
 	modifier = {
-		chariots_morale_resistance_modifier = 10
-		knights_morale_resistance_modifier = 10
-		lancers_morale_resistance_modifier = 10
-		squires_morale_resistance_modifier = 10
+		chariots_discipline_modifier = 10
+		knights_discipline_modifier = 10
+		lancers_discipline_modifier = 10
+		squires_discipline_modifier = 10
 	}
 }
 
@@ -25,10 +25,10 @@ frontal_charge = {
 		offensive_terrain
 	}
 	modifier = {
-		chariots_morale_resistance_modifier = 20
-		knights_morale_resistance_modifier = 20
-		lancers_morale_resistance_modifier = 20
-		squires_morale_resistance_modifier = 20
+		chariots_discipline_modifier = 20
+		knights_discipline_modifier = 20
+		lancers_discipline_modifier = 20
+		squires_discipline_modifier = 20
 	}
 }
 
@@ -42,12 +42,12 @@ reserves = {
 		frontal_charge
 	}
 	modifier = {
-		axemen_morale_resistance_modifier = 20
-		swordsmen_morale_resistance_modifier = 20
-		two_handed_swordsmen_morale_resistance_modifier = 20
-		chariots_morale_resistance_modifier = 10
-		knights_morale_resistance_modifier = 10
-		lancers_morale_resistance_modifier = 10
+		axemen_discipline_modifier = 20
+		swordsmen_discipline_modifier = 20
+		two_handed_swordsmen_discipline_modifier = 20
+		chariots_discipline_modifier = 10
+		knights_discipline_modifier = 10
+		lancers_discipline_modifier = 10
 	}
 }
 
@@ -62,12 +62,12 @@ dismounted_knights = {
 		chivalry
 	}
 	modifier = {
-		axemen_morale_resistance_modifier = 10
-		swordsmen_morale_resistance_modifier = 10
-		two_handed_swordsmen_morale_resistance_modifier = 10
-		chariots_morale_resistance_modifier = 20
-		knights_morale_resistance_modifier = 20
-		lancers_morale_resistance_modifier = 20
+		axemen_discipline_modifier = 10
+		swordsmen_discipline_modifier = 10
+		two_handed_swordsmen_discipline_modifier = 10
+		chariots_discipline_modifier = 20
+		knights_discipline_modifier = 20
+		lancers_discipline_modifier = 20
 	}
 }
 
@@ -81,12 +81,12 @@ hierarchical_command = {
 		dismounted_knights
 	}
 	modifier = {
-		axemen_morale_resistance_modifier = 10
-		swordsmen_morale_resistance_modifier = 10
-		two_handed_swordsmen_morale_resistance_modifier = 10
-		chariots_morale_resistance_modifier = 10
-		knights_morale_resistance_modifier = 10
-		lancers_morale_resistance_modifier = 10
-		squires_morale_resistance_modifier = 10
+		axemen_discipline_modifier = 10
+		swordsmen_discipline_modifier = 10
+		two_handed_swordsmen_discipline_modifier = 10
+		chariots_discipline_modifier = 10
+		knights_discipline_modifier = 10
+		lancers_discipline_modifier = 10
+		squires_discipline_modifier = 10
 	}
 }

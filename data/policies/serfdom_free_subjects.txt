@@ -6,7 +6,7 @@ serfdom_free_subjects = {
 	}
 	modifier = {
 		infantry_cost_modifier = 6
-		land_morale_resistance = 4
+		land_discipline = 4
 		research_output_modifier = 4
 		warship_cost_modifier = 2.5
 	}

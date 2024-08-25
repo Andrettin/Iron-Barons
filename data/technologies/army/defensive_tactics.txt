@@ -10,10 +10,10 @@ defensive_terrain = {
 	modifier = {
 		archers_shock_modifier = 5
 		crossbowmen_shock_modifier = 5
-		spearmen_morale_resistance_modifier = 5
-		pikemen_morale_resistance_modifier = 5
-		halberdiers_morale_resistance_modifier = 5
-		peasant_levies_morale_resistance_modifier = 10
+		spearmen_discipline_modifier = 5
+		pikemen_discipline_modifier = 5
+		halberdiers_discipline_modifier = 5
+		peasant_levies_discipline_modifier = 10
 	}
 }
 
@@ -27,12 +27,12 @@ positional_combat = {
 		defensive_terrain
 	}
 	modifier = {
-		spearmen_morale_resistance_modifier = 10
-		pikemen_morale_resistance_modifier = 10
-		halberdiers_morale_resistance_modifier = 10
-		axemen_morale_resistance_modifier = 10
-		swordsmen_morale_resistance_modifier = 10
-		two_handed_swordsmen_morale_resistance_modifier = 10
+		spearmen_discipline_modifier = 10
+		pikemen_discipline_modifier = 10
+		halberdiers_discipline_modifier = 10
+		axemen_discipline_modifier = 10
+		swordsmen_discipline_modifier = 10
+		two_handed_swordsmen_discipline_modifier = 10
 	}
 }
 
@@ -62,8 +62,8 @@ drilled_pikemen = {
 		pike
 	}
 	modifier = {
-		pikemen_morale_resistance_modifier = 10
-		halberdiers_morale_resistance_modifier = 10
+		pikemen_discipline_modifier = 10
+		halberdiers_discipline_modifier = 10
 		pikemen_shock_modifier = 20
 		halberdiers_shock_modifier = 20
 	}
@@ -79,8 +79,8 @@ pike_square = {
 		drilled_pikemen
 	}
 	modifier = {
-		pikemen_morale_resistance_modifier = 5
-		halberdiers_morale_resistance_modifier = 5
+		pikemen_discipline_modifier = 5
+		halberdiers_discipline_modifier = 5
 	}
 }
 
@@ -94,16 +94,16 @@ unit_organization = {
 		drilled_pikemen
 	}
 	modifier = {
-		peasant_levies_morale_resistance_modifier = 10
-		spearmen_morale_resistance_modifier = 10
-		pikemen_morale_resistance_modifier = 10
-		halberdiers_morale_resistance_modifier = 10
-		axemen_morale_resistance_modifier = 10
-		swordsmen_morale_resistance_modifier = 10
-		two_handed_swordsmen_morale_resistance_modifier = 10
-		chariots_morale_resistance_modifier = 10
-		knights_morale_resistance_modifier = 10
-		lancers_morale_resistance_modifier = 10
+		peasant_levies_discipline_modifier = 10
+		spearmen_discipline_modifier = 10
+		pikemen_discipline_modifier = 10
+		halberdiers_discipline_modifier = 10
+		axemen_discipline_modifier = 10
+		swordsmen_discipline_modifier = 10
+		two_handed_swordsmen_discipline_modifier = 10
+		chariots_discipline_modifier = 10
+		knights_discipline_modifier = 10
+		lancers_discipline_modifier = 10
 	}
 }
 
@@ -119,9 +119,9 @@ pike_and_shot = {
 		arquebus
 	}
 	modifier = {
-		pikemen_morale_resistance_modifier = 10
-		halberdiers_morale_resistance_modifier = 10
-		arquebusiers_morale_resistance_modifier = 10
-		musketeers_morale_resistance_modifier = 10
+		pikemen_discipline_modifier = 10
+		halberdiers_discipline_modifier = 10
+		arquebusiers_discipline_modifier = 10
+		musketeers_discipline_modifier = 10
 	}
 }
