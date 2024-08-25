@@ -1,0 +1,19 @@
+aristocracy = {
+	name = "Aristocracy"
+	group = tradition
+	portrait = baronial_crown
+	icon = crown_baronial
+	required_technology = code_of_laws
+	prerequisites = {
+		tradition
+	}
+	preconditions = {
+		not = {
+			country_type = tribe
+		}
+	}
+	modifier = {
+		wonder_cost_efficiency = 15
+		luxuries_bonus_per_population = 0.1
+	}
+}
