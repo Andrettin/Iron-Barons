@@ -11,6 +11,7 @@ Rectangle {
 	readonly property var province_game_data: selected_province ? selected_province.game_data : null
 	readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
 	property bool viewing_population: false
+	property bool viewing_output: false
 	
 	Rectangle {
 		color: "gray"
@@ -192,7 +193,7 @@ Rectangle {
 		contentHeight: contentItem.childrenRect.height
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		visible: selected_site !== null && selected_site.settlement && !selected_garrison && !viewing_population
+		visible: selected_site !== null && selected_site.settlement && !selected_garrison && !viewing_population && !viewing_output
 		
 		Grid {
 			id: portrait_grid
@@ -408,6 +409,41 @@ Rectangle {
 		}
 	}
 	
+	SmallText {
+		id: output_info_text
+		anchors.top: title.bottom
+		anchors.topMargin: 12 * scale_factor
+		anchors.left: parent.left
+		anchors.leftMargin: 16 * scale_factor
+		text: selected_site_game_data ? format_text(commodity_outputs_to_string(selected_site_game_data.commodity_outputs)) : ""
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_output
+		
+		function commodity_outputs_to_string(commodity_outputs) {
+			var str = ""
+			
+			for (var i = 0; i < commodity_outputs.length; i++) {
+				var commodity = commodity_outputs[i].key
+				var output = commodity_outputs[i].value
+				
+				if (commodity.local) {
+					continue
+				}
+				
+				if (commodity.labor) {
+					continue
+				}
+				
+				if (str.length > 0) {
+					str += "\n"
+				}
+				
+				str += commodity.name + (commodity.storable ? " Output" : "") + ": " + output
+			}
+			
+			return str
+		}
+	}
+	
 	TextButton {
 		id: disband_button
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -465,6 +501,7 @@ Rectangle {
 		
 		onReleased: {
 			viewing_population = true
+			viewing_output = false
 		}
 		
 		onHoveredChanged: {
@@ -499,6 +536,29 @@ Rectangle {
 	}
 	
 	IconButton {
+		id: output_button
+		anchors.left: end_turn_button_internal.right
+		anchors.leftMargin: 8 * scale_factor
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 4 * scale_factor
+		icon_identifier: "cog"
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && !viewing_output
+		
+		onReleased: {
+			viewing_output = true
+			viewing_population = false
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Settlement Output"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
 		id: population_back_button
 		anchors.right: end_turn_button_internal.left
 		anchors.rightMargin: 8 * scale_factor
@@ -509,6 +569,28 @@ Rectangle {
 		
 		onReleased: {
 			viewing_population = false
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Back to Settlement"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: output_back_button
+		anchors.left: end_turn_button_internal.right
+		anchors.leftMargin: 8 * scale_factor
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 4 * scale_factor
+		icon_identifier: "settlement"
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_output
+		
+		onReleased: {
+			viewing_output = false
 		}
 		
 		onHoveredChanged: {
