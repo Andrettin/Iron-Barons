@@ -9,4 +9,11 @@ campus = {
 		population_unit_count = 6
 		has_building_class = school
 	}
+	modifier = {
+		commodity_bonus_per_adjacent_terrain = {
+			commodity = research
+			terrain = mountains
+			value = 1
+		}
+	}
 }
