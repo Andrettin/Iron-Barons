@@ -1,0 +1,19 @@
+oral_tradition = {
+	name = "Oral Tradition"
+	category = belief
+	group = piety
+	portrait = temple
+	icon = wooden_cross
+	required_technology = ceremonial_burial
+	prerequisites = {
+		piety
+	}
+	modifier = {
+		culture_per_improved_coffee = 1
+		culture_per_improved_cotton = 1
+		culture_per_improved_dye = 1
+		culture_per_improved_spices = 1
+		culture_per_improved_sugar_cane = 1
+		culture_per_improved_tea = 1
+	}
+}

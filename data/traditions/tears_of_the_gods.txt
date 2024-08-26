@@ -1,0 +1,19 @@
+tears_of_the_gods = {
+	name = "Tears of the Gods"
+	category = belief
+	group = piety
+	portrait = temple
+	icon = wooden_cross
+	required_technology = ceremonial_burial
+	prerequisites = {
+		piety
+	}
+	preconditions = {
+		religion = pagan
+	}
+	modifier = {
+		piety_per_improved_amber = 2
+		piety_per_improved_diamonds = 2
+		piety_per_improved_gems = 2
+	}
+}
