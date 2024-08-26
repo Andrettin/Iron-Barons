@@ -163,6 +163,10 @@ Item {
 		id: tradition_choice_dialog
 	}
 	
+	BeliefChoiceDialog {
+		id: belief_choice_dialog
+	}
+	
 	AdvisorChoiceDialog {
 		id: advisor_choice_dialog
 	}
@@ -255,6 +259,11 @@ Item {
 			tradition_choice_dialog.open()
 		}
 		
+		function onNext_belief_choosable(potential_beliefs) {
+			belief_choice_dialog.potential_beliefs = potential_beliefs
+			belief_choice_dialog.open()
+		}
+		
 		function onNext_advisor_choosable(potential_advisors) {
 			advisor_choice_dialog.potential_advisors = potential_advisors
 			advisor_choice_dialog.open()
@@ -307,6 +316,30 @@ Item {
 					menu_stack.push("PoliticsView.qml", {
 						country: metternich.game.player_country,
 						new_tradition: tradition
+					})
+				}
+			})
+			
+			dialog.open()
+		}
+		
+		function onBelief_adopted(belief) {
+			if (notification_dialog_component.status == Component.Error) {
+				console.error(notification_dialog_component.errorString())
+				return
+			}
+			
+			var dialog = notification_dialog_component.createObject(map_view, {
+				title: "Belief Adopted",
+				portrait_object: metternich.defines.interior_minister_portrait,
+				text: "Your Excellency, we have adopted the " + belief.name  + " belief!",
+				second_button_text: "View Traditions",
+				second_button_effects: () => {
+					politics_view_mode = PoliticsView.Mode.Traditions
+					
+					menu_stack.push("PoliticsView.qml", {
+						country: metternich.game.player_country,
+						new_tradition: belief
 					})
 				}
 			})

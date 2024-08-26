@@ -7,6 +7,7 @@ Rectangle {
 	width: 64 * scale_factor + 8 * scale_factor * 2
 	
 	readonly property var tradition_commodity: metternich.defines.tradition_commodity
+	readonly property var belief_commodity: metternich.defines.piety_commodity
 	
 	Rectangle {
 		color: "gray"
@@ -78,13 +79,62 @@ Rectangle {
 	}
 	
 	IndustryCounter {
-		id: piety_commodity_counter
+		id: belief_commodity_counter
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: next_tradition_portrait.visible ? next_tradition_portrait.bottom : tradition_commodity_counter.bottom
 		anchors.topMargin: next_tradition_portrait.visible ? 32 * scale_factor : 166 * scale_factor
-		name: "Piety"
-		icon_identifier: "wooden_cross"
-		count: country_game_data.stored_commodities.length > 0 ? country_game_data.get_stored_commodity(metternich.defines.piety_commodity) : 0
+		name: belief_commodity.name
+		icon_identifier: belief_commodity.icon.identifier
+		count: country_game_data.stored_commodities.length > 0 ? country_game_data.get_stored_commodity(belief_commodity) : 0
+	}
+	
+	SmallText {
+		id: belief_cost_label
+		text: "(" + number_string(country_game_data.tradition_cost) + ")"
+		anchors.top: belief_commodity_counter.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		visible: next_belief_portrait.visible
+		
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true
+			
+			onEntered: {
+				status_text = belief_commodity.name + " required for the next belief"
+			}
+			
+			onExited: {
+				status_text = ""
+			}
+		}
+	}
+	
+	SmallText {
+		id: next_belief_label
+		text: "Next Belief"
+		anchors.top: belief_cost_label.bottom
+		anchors.topMargin: 32 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		visible: next_belief_portrait.visible
+	}
+	
+	PortraitButton {
+		id: next_belief_portrait
+		anchors.top: next_belief_label.bottom
+		anchors.topMargin: 8 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		portrait_identifier: country_game_data.next_belief ? country_game_data.next_belief.portrait.identifier : ""
+		visible: country_game_data.next_belief !== null
+		radius: 0
+		
+		onHoveredChanged: {
+			if (hovered && country_game_data.next_belief) {
+				status_text = country_game_data.next_belief.name
+			} else {
+				status_text = ""
+			}
+		}
 	}
 	
 	TextButton {
