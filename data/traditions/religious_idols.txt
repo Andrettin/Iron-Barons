@@ -1,0 +1,17 @@
+religious_idols = {
+	name = "Religious Idols"
+	category = belief
+	group = piety
+	portrait = temple
+	icon = golden_cross_detailed
+	required_technology = ceremonial_burial
+	prerequisites = {
+		piety
+	}
+	modifier = {
+		culture_per_improved_gold = 1
+		culture_per_improved_silver = 1
+		piety_per_improved_gold = 1
+		piety_per_improved_silver = 1
+	}
+}
