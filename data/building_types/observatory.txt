@@ -11,7 +11,10 @@ observatory = {
 		campus
 	}
 	settlement_conditions = {
-		terrain = mountains
+		or = {
+			terrain = mountains
+			adjacent_terrain = mountains
+		}
 	}
 	settlement_modifier = {
 		research_output_modifier = 25
