@@ -1,5 +1,6 @@
 hofkriegsrat = {
 	name = "Hofkriegsrat"
+	category = tradition
 	group = honor
 	portrait = aristocratic_palace
 	icon = saber

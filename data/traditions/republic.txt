@@ -1,5 +1,6 @@
 republic = {
 	name = "Republic"
+	category = tradition
 	group = tradition
 	portrait = city
 	icon = philosophy

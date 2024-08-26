@@ -1,5 +1,6 @@
 honor = {
 	name = "Honor"
+	category = tradition
 	group = honor
 	portrait = helmet
 	icon = saber

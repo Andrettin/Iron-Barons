@@ -1,5 +1,6 @@
 sun_never_sets = {
 	name = "Sun Never Sets"
+	category = tradition
 	group = exploration
 	portrait = unload
 	icon = anchor

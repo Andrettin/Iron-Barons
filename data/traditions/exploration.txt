@@ -1,5 +1,6 @@
 exploration = {
 	name = "Exploration"
+	category = tradition
 	group = exploration
 	portrait = unload
 	icon = anchor

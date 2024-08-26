@@ -1,5 +1,6 @@
 aristocracy = {
 	name = "Aristocracy"
+	category = tradition
 	group = tradition
 	portrait = baronial_crown
 	icon = crown_baronial

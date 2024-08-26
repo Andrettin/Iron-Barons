@@ -1,5 +1,6 @@
 tradition = {
 	name = "Tradition"
+	category = tradition
 	group = tradition
 	portrait = ducal_crown
 	icon = crown_ducal

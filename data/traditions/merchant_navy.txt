@@ -1,5 +1,6 @@
 merchant_navy = {
 	name = "Merchant Navy"
+	category = tradition
 	group = exploration
 	portrait = unload
 	icon = anchor

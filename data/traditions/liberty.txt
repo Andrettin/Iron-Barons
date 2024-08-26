@@ -1,5 +1,6 @@
 liberty = {
 	name = "Liberty"
+	category = tradition
 	group = liberty
 	portrait = city
 	icon = bell

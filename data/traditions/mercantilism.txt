@@ -1,5 +1,6 @@
 mercantilism = {
 	name = "Mercantilism"
+	category = tradition
 	group = commerce
 	portrait = coinage
 	icon = wealth
