@@ -11,15 +11,15 @@ troyes = {
 	history = {
 		782 = {
 			buildings += temple #Alcuin moved from England to the court of Charlemagne in 782, and received the abbey of St. Lupus at Troyes; Source: Frank Stenton, "Anglo-Saxon England", 1971, pp. 188-189.
-			settlement_type = town
+			settlement_type = monastery
 		}
 		
 		919 = {
-			settlement_type = town #existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
+			#existed in the 919-1125 period; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 		}
 		
 		1360 = {
-			settlement_type = town #existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
+			#existed in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
 		}
 		
 		1836 = {
