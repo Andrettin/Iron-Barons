@@ -1,0 +1,10 @@
+patronage = {
+	name = "Patronage"
+	category = tradition
+	group = patronage
+	portrait = aristocratic_palace
+	icon = crown_imperial
+	required_technology = diplomatic_expertise
+	modifier = {
+	}
+}

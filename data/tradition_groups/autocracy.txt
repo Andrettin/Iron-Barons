@@ -1,0 +1,3 @@
+autocracy = {
+	name = "Autocracy"
+}

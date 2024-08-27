@@ -1,0 +1,10 @@
+rationalism = {
+	name = "Rationalism"
+	category = tradition
+	group = rationalism
+	portrait = university
+	icon = research
+	required_technology = scientific_method
+	modifier = {
+	}
+}

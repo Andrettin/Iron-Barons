@@ -1,0 +1,10 @@
+aesthetics = {
+	name = "Aesthetics"
+	category = tradition
+	group = aesthetics
+	portrait = aristocratic_palace
+	icon = painting
+	required_technology = literature
+	modifier = {
+	}
+}
