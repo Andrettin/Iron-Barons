@@ -3,12 +3,9 @@ school = {
 	building_class = school
 	portrait = university
 	icon = university
-	free_in_capital = true
 	provincial = true
 	settlement_types = {
-		village
 		campus
-		castle
 		town
 		city
 		metropolis
@@ -27,7 +24,6 @@ college = {
 	required_building = school
 	settlement_types = {
 		campus
-		town
 		city
 		metropolis
 	}
