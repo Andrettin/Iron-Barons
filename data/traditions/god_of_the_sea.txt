@@ -1,0 +1,24 @@
+god_of_the_sea = {
+	name = "God of the Sea"
+	category = belief
+	group = piety
+	portrait = temple
+	icon = anchor
+	required_technology = polytheism
+	prerequisites = {
+		piety
+	}
+	preconditions = {
+		religion = pagan
+	}
+	conditions = {
+		or = {
+			has_resource = fish
+			has_resource = whales
+		}
+	}
+	modifier = {
+		fish_per_improved_fish = 1
+		fish_per_improved_whales = 1
+	}
+}
