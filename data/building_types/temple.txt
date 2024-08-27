@@ -1,21 +1,39 @@
-temple = {
-	name = "Temple"
-	building_class = temple
+shrine = {
+	name = "Shrine"
+	building_class = shrine
 	portrait = temple
 	icon = wooden_cross
 	provincial = true
 	required_technology = ceremonial_burial
 	settlement_types = {
 		village
-		town
-		city
-		metropolis
 		campus
 		castle
 		monastery
+		town
+		city
+		metropolis
 	}
 	settlement_modifier = {
 		max_clergymen = 1
+	}
+}
+
+temple = {
+	name = "Temple"
+	building_class = temple
+	portrait = temple
+	icon = wooden_cross
+	provincial = true
+	required_building = shrine
+	required_technology = ceremonial_burial
+	settlement_types = {
+		monastery
+		city
+		metropolis
+	}
+	settlement_modifier = {
+		max_clergymen = 2
 		luxuries_bonus = 1
 	}
 }
@@ -29,12 +47,12 @@ cathedral = {
 	required_building = temple
 	required_technology = monotheism
 	settlement_types = {
+		monastery
 		city
 		metropolis
-		monastery
 	}
 	settlement_modifier = {
-		max_clergymen = 2
+		max_clergymen = 3
 		luxuries_bonus = 4
 	}
 }
