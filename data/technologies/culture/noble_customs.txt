@@ -48,6 +48,7 @@ heraldry = {
 	period = 1300_1400
 	prerequisites = {
 		romantic_poetry
+		tower_shield
 	}
 	modifier = {
 		aristocrats_militancy_modifier = -0.01

@@ -1,0 +1,91 @@
+bronze_shield = {
+	name = "Bronze Shield"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	period = 2000_bc_1000_bc
+	prerequisites = {
+		bronzeworking
+		warrior_code
+	}
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = mace_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = spear_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = blade_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+	}
+}
+
+iron_shield = {
+	name = "Iron Shield"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	period = 1000_bc_1
+	prerequisites = {
+		bronze_shield
+		ironworking
+	}
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = mace_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = spear_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = blade_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+	}
+}
+
+tower_shield = {
+	name = "Tower Shield"
+	category = army
+	portrait = helmet
+	icon = heater_shield
+	period = 1_500
+	prerequisites = {
+		iron_shield
+	}
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = mace_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = spear_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = blade_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+	}
+}
