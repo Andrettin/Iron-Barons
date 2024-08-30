@@ -6,8 +6,6 @@ longspear = {
 	period = 1000_1100
 	prerequisites = {
 		warrior_code
-		ironworking
-		feudalism
 	}
 	modifier = {
 		spearmen_melee_modifier = 0.5
@@ -22,6 +20,8 @@ pike = {
 	period = 1100_1200
 	prerequisites = {
 		longspear
+		feudalism
+		ironworking
 	}
 }
 
@@ -34,6 +34,8 @@ lance = {
 	prerequisites = {
 		pike
 		chivalry
+		
+		frontal_charge
 	}
 	modifier = {
 		knights_melee_modifier = 0.5

@@ -5,8 +5,8 @@ bronze_shield = {
 	icon = heater_shield
 	period = 2000_bc_1000_bc
 	prerequisites = {
-		bronzeworking
 		warrior_code
+		bronzeworking
 	}
 	modifier = {
 		military_unit_category_stat_modifier = {

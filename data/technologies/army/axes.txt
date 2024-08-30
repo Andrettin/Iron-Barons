@@ -1,0 +1,24 @@
+handaxe = {
+	name = "Handaxe"
+	category = army
+	portrait = helmet
+	icon = saber
+	period = 2000_bc_1000_bc
+	prerequisites = {
+		warrior_code
+	}
+}
+
+battleaxe = {
+	name = "Battleaxe"
+	category = army
+	portrait = helmet
+	icon = saber
+	period = 1000_bc_1
+	prerequisites = {
+		handaxe
+	}
+	modifier = {
+		axemen_melee_modifier = 0.5
+	}
+}

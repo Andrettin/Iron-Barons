@@ -3,11 +3,10 @@ shortsword = {
 	category = army
 	portrait = helmet
 	icon = saber
-	period = 1000_1100
+	period = 2000_bc_1000_bc
 	prerequisites = {
 		warrior_code
-		ironworking
-		feudalism
+		bronzeworking
 	}
 	modifier = {
 		squires_melee_modifier = 0.33
@@ -19,7 +18,7 @@ broadsword = {
 	category = army
 	portrait = helmet
 	icon = saber
-	period = 1100_1200
+	period = 1000_bc_1
 	prerequisites = {
 		shortsword
 	}
@@ -34,9 +33,10 @@ longsword = {
 	category = army
 	portrait = helmet
 	icon = saber
-	period = 1200_1300
+	period = 1_500
 	prerequisites = {
 		broadsword
+		ironworking
 	}
 	modifier = {
 		swordsmen_melee_modifier = 0.5
@@ -52,6 +52,8 @@ bastard_sword = {
 	period = 1300_1400
 	prerequisites = {
 		longsword
+		
+		reserves
 	}
 }
 
