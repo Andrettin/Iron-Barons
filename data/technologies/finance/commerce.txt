@@ -3,7 +3,7 @@ coinage = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		precious_metals
 		bronzeworking
@@ -15,7 +15,7 @@ trade = {
 	category = finance
 	portrait = coinage
 	icon = wealth
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		coinage
 		code_of_laws

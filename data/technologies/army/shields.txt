@@ -3,7 +3,7 @@ bronze_shield = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		warrior_code
 		bronzeworking
@@ -34,7 +34,7 @@ iron_shield = {
 	category = army
 	portrait = helmet
 	icon = heater_shield
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		bronze_shield
 		ironworking

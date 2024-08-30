@@ -3,7 +3,7 @@ writing = {
 	category = culture
 	portrait = engineering
 	icon = treaty
-	period = 4000_bc_2000_bc
+	period = copper_age
 }
 
 alphabet = {
@@ -11,7 +11,7 @@ alphabet = {
 	category = culture
 	portrait = engineering
 	icon = treaty
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		writing
 	}
@@ -22,7 +22,7 @@ literature = {
 	category = culture
 	portrait = engineering
 	icon = treaty
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		writing
 		code_of_laws

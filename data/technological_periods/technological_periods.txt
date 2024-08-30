@@ -1,26 +1,26 @@
 #Ancient Era
 
-4000_bc_2000_bc = {
+copper_age = {
 	start_year = -4000
 	end_year = -2000
 }
 
-2000_bc_1000_bc = {
-	parent_period = 4000_bc_2000_bc
+bronze_age = {
+	parent_period = copper_age
 	start_year = -2000
 	end_year = -1000
 }
 
 #Classical Era
 
-1000_bc_1 = {
-	parent_period = 2000_bc_1000_bc
+iron_age = {
+	parent_period = bronze_age
 	start_year = -1000
 	end_year = 1
 }
 
 1_500 = {
-	parent_period = 1000_bc_1
+	parent_period = iron_age
 	start_year = 1
 	end_year = 500
 }

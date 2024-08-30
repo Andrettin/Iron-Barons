@@ -4,7 +4,7 @@ sugar_cane = {
 	portrait = engineering
 	icon = sugar_cane
 	discovery = true
-	period = 4000_bc_2000_bc
+	period = copper_age
 }
 
 sugar_planting = {
@@ -12,7 +12,7 @@ sugar_planting = {
 	category = gathering
 	portrait = engineering
 	icon = sugar_cane
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		sugar_cane
 	}

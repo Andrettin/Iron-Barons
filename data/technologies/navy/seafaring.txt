@@ -3,7 +3,7 @@ seafaring = {
 	category = navy
 	portrait = unload
 	icon = anchor
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		pottery
 	}
@@ -14,7 +14,7 @@ cartography = {
 	category = navy
 	portrait = unload
 	icon = globe
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		seafaring
 		writing

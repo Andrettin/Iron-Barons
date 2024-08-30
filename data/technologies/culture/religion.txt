@@ -3,7 +3,7 @@ ceremonial_burial = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	period = 4000_bc_2000_bc
+	period = copper_age
 }
 
 mysticism = {
@@ -11,7 +11,7 @@ mysticism = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		ceremonial_burial
 	}
@@ -26,7 +26,7 @@ polytheism = {
 	category = culture
 	portrait = temple
 	icon = wooden_cross
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		mysticism
 	}

@@ -3,7 +3,7 @@ code_of_laws = {
 	category = culture
 	portrait = grand_ducal_crown
 	icon = treaty
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		writing
 	}

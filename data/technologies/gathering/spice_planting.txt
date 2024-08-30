@@ -4,7 +4,7 @@ spices = {
 	portrait = engineering
 	icon = spices
 	discovery = true
-	period = 4000_bc_2000_bc
+	period = copper_age
 }
 
 improved_sea_routes = {

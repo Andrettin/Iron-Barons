@@ -3,7 +3,7 @@ handaxe = {
 	category = army
 	portrait = helmet
 	icon = saber
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		warrior_code
 	}
@@ -14,7 +14,7 @@ battleaxe = {
 	category = army
 	portrait = helmet
 	icon = saber
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		handaxe
 	}

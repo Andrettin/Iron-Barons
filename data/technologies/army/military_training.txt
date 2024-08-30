@@ -3,7 +3,7 @@ warrior_code = {
 	category = army
 	portrait = helmet
 	icon = saber
-	period = 4000_bc_2000_bc
+	period = copper_age
 }
 
 horseback_riding = {
@@ -11,7 +11,7 @@ horseback_riding = {
 	category = army
 	portrait = helmet
 	icon = horses
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		wheel
 		warrior_code

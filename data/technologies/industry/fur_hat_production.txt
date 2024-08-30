@@ -3,7 +3,7 @@ fur_hat_production = {
 	category = industry
 	portrait = engineering
 	icon = fur_hats
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		furs
 	}

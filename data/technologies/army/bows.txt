@@ -3,7 +3,7 @@ shortbow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	period = 2000_bc_1000_bc
+	period = bronze_age
 	prerequisites = {
 		warrior_code
 	}
@@ -14,7 +14,7 @@ composite_bow = {
 	category = army
 	portrait = helmet
 	icon = bow
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		shortbow
 	}

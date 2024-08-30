@@ -4,7 +4,7 @@ furs = {
 	portrait = engineering
 	icon = furs
 	discovery = true
-	period = 4000_bc_2000_bc
+	period = copper_age
 }
 
 improved_trapping_techniques = {

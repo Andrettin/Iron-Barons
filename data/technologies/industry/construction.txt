@@ -3,7 +3,7 @@ masonry = {
 	category = industry
 	portrait = engineering
 	icon = wall
-	period = 4000_bc_2000_bc
+	period = copper_age
 }
 
 architecture = {
@@ -11,7 +11,7 @@ architecture = {
 	category = industry
 	portrait = engineering
 	icon = architecture
-	period = 1000_bc_1
+	period = iron_age
 	prerequisites = {
 		masonry
 		ironworking
