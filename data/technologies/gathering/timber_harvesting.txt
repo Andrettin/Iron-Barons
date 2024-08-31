@@ -1,27 +1,55 @@
-saw_mill = {
-	name = "Saw Mill"
+double_bit_axe = {
+	name = "Double-Bit Axe"
 	category = gathering
 	portrait = engineering
-	icon = lumber
-	period = 1500_1550
-	prerequisites = {
-		invention
-		
-		academic_disciplines #university
+	icon = timber
+	period = copper_age
+	modifier = {
+		commodity_bonus_per_improvement = {
+			commodity = timber
+			improvement = timber_lodge
+			value = 0.25
+		}
 	}
 }
 
-wind_saw_mill = {
-	name = "Wind Saw Mill"
+bow_saw = {
+	name = "Bow Saw"
 	category = gathering
 	portrait = engineering
-	icon = lumber
-	period = 1550_1600
+	icon = timber
+	period = iron_age
 	prerequisites = {
-		saw_mill
+		double_bit_axe
+		
+		ironworking
 	}
 	modifier = {
-		lumber_throughput_modifier = 5
+		commodity_bonus_per_improvement = {
+			commodity = timber
+			improvement = timber_lodge
+			value = 0.25
+		}
+	}
+}
+
+two_man_saw = {
+	name = "Two-Man Saw"
+	category = gathering
+	portrait = engineering
+	icon = timber
+	period = iron_age
+	prerequisites = {
+		bow_saw
+		
+		invention
+	}
+	modifier = {
+		commodity_bonus_per_improvement = {
+			commodity = timber
+			improvement = timber_lodge
+			value = 0.25
+		}
 	}
 }
 
