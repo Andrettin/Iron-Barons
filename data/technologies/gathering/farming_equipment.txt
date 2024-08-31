@@ -1,52 +1,3 @@
-wood_plow = {
-	name = "Wood Plow"
-	category = gathering
-	portrait = engineering
-	icon = grain
-	period = 1000_1100
-	prerequisites = {
-		feudalism
-	}
-	modifier = {
-		grain_output_modifier = 3
-		potatoes_output_modifier = 3
-		fruit_output_modifier = 3
-	}
-}
-
-iron_tipped_wood_plow = {
-	name = "Iron-Tipped Wood Plow"
-	category = gathering
-	portrait = engineering
-	icon = grain
-	period = 1100_1200
-	prerequisites = {
-		wood_plow
-		ironworking
-	}
-	modifier = {
-		grain_output_modifier = 2
-		potatoes_output_modifier = 2
-		fruit_output_modifier = 2
-	}
-}
-
-iron_plow = {
-	name = "Iron Plow"
-	category = gathering
-	portrait = engineering
-	icon = grain
-	period = 1200_1300
-	prerequisites = {
-		iron_tipped_wood_plow
-	}
-	modifier = {
-		grain_output_modifier = 3
-		potatoes_output_modifier = 3
-		fruit_output_modifier = 3
-	}
-}
-
 pitchfork = {
 	name = "Pitchfork"
 	category = gathering
@@ -55,6 +6,8 @@ pitchfork = {
 	period = 1300_1400
 	prerequisites = {
 		iron_plow
+		
+		stripe_plowing
 	}
 	modifier = {
 		grain_output_modifier = 1
@@ -71,6 +24,8 @@ harrow = {
 	period = 1300_1400
 	prerequisites = {
 		iron_plow
+		
+		stripe_plowing
 	}
 	modifier = {
 		grain_output_modifier = 1

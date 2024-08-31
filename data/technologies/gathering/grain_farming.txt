@@ -1,3 +1,85 @@
+wood_plow = {
+	name = "Wood Plow"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	period = copper_age
+	modifier = {
+		commodity_bonus_per_improvement = {
+			commodity = grain
+			improvement = grain_farm
+			value = 0.25
+		}
+		commodity_bonus_per_improvement = {
+			commodity = potatoes
+			improvement = potato_farm
+			value = 0.25
+		}
+		commodity_bonus_per_improvement = {
+			commodity = fruit
+			improvement = orchard
+			value = 0.25
+		}
+	}
+}
+
+iron_tipped_wood_plow = {
+	name = "Iron-Tipped Wood Plow"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	period = iron_age
+	prerequisites = {
+		wood_plow
+		ironworking
+	}
+	modifier = {
+		commodity_bonus_per_improvement = {
+			commodity = grain
+			improvement = grain_farm
+			value = 0.25
+		}
+		commodity_bonus_per_improvement = {
+			commodity = potatoes
+			improvement = potato_farm
+			value = 0.25
+		}
+		commodity_bonus_per_improvement = {
+			commodity = fruit
+			improvement = orchard
+			value = 0.25
+		}
+	}
+}
+
+iron_plow = {
+	name = "Iron Plow"
+	category = gathering
+	portrait = engineering
+	icon = grain
+	period = 1_500
+	prerequisites = {
+		iron_tipped_wood_plow
+	}
+	modifier = {
+		commodity_bonus_per_improvement = {
+			commodity = grain
+			improvement = grain_farm
+			value = 0.25
+		}
+		commodity_bonus_per_improvement = {
+			commodity = potatoes
+			improvement = potato_farm
+			value = 0.25
+		}
+		commodity_bonus_per_improvement = {
+			commodity = fruit
+			improvement = orchard
+			value = 0.25
+		}
+	}
+}
+
 land_enclosure = {
 	name = "Land Enclosure"
 	category = gathering
@@ -6,6 +88,8 @@ land_enclosure = {
 	period = 1500_1550
 	prerequisites = {
 		rooting_out
+		
+		iron_plow
 	}
 }
 
