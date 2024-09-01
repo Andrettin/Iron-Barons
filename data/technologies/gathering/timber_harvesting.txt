@@ -38,7 +38,7 @@ two_man_saw = {
 	category = gathering
 	portrait = engineering
 	icon = timber
-	period = iron_age
+	period = 1000_1100
 	prerequisites = {
 		bow_saw
 		
