@@ -167,6 +167,8 @@
 /graphics/interface/dwarven/right_bar.png (by Jinn) (licensed under the CC0)
 /graphics/interface/dwarven/status_bar.png (by Jinn) (licensed under the CC0)
 /graphics/interface/dwarven/top_bar.png (by Jinn) (licensed under the CC0)
+/graphics/interface/interface_tiles.png (by Jinn) (licensed under the CC0)
+/graphics/interface/interface_tiles_2.png (by Jinn) (licensed under the CC0)
 /graphics/interface/wood_1.png (by Jinn) (licensed under the CC0)
 /graphics/interface/wood_2.png (by Jinn) (licensed under the CC0)
 /graphics/interface/wood_3.png (by Jinn) (licensed under the CC0)
