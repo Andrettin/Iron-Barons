@@ -1,0 +1,17 @@
+indelningsverket = {
+	name = "Indelningsverket"
+	category = tradition
+	group = honor
+	portrait = fort
+	icon = saber
+	required_technology = organized_regiments
+	prerequisites = {
+		honor
+	}
+	preconditions = {
+		culture = swedish
+	}
+	modifier = {
+		land_recovery_modifier = 20
+	}
+}
