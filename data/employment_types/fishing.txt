@@ -1,0 +1,12 @@
+fishing = {
+	name = "Fishing"
+	output_commodity = fish
+	output_value = 1
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+	}
+}
