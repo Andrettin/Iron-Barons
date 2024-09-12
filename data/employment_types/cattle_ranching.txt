@@ -1,6 +1,6 @@
 cattle_ranching = {
 	name = "Cattle Ranching"
-	output_commodity = cattle
+	output_commodity = livestock
 	output_value = 1
 	employees = {
 		slaves
