@@ -1,0 +1,12 @@
+timber_harvesting = {
+	name = "Timber Harvesting"
+	output_commodity = timber
+	output_value = 1
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+	}
+}

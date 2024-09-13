@@ -1,0 +1,12 @@
+tobacco_planting = {
+	name = "Tobacco Planting"
+	output_commodity = tobacco
+	output_value = 1
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+	}
+}
