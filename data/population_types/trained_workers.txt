@@ -8,6 +8,9 @@ trained_workers = {
 	output_commodity = labor
 	output_value = 2
 	resource_output_bonus = 1
+	commodity_output_modifiers = {
+		piety = 100
+	}
 	everyday_consumption = {
 		luxuries = 1
 	}

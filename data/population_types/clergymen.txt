@@ -6,8 +6,9 @@ clergymen = {
 	literate = true
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
-	output_commodity = piety
-	output_value = 2
+	commodity_output_modifiers = {
+		piety = 300
+	}
 	everyday_consumption = {
 		luxuries = 1
 	}
