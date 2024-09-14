@@ -1,13 +1,13 @@
 officers = {
 	name = "Officers"
 	population_class = officers
-	profession = officers
 	color = { 119 98 34 }
 	literate = true
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
-	output_commodity = leadership
-	output_value = 2
+	commodity_output_modifiers = {
+		leadership = 300
+	}
 	everyday_consumption = {
 		luxuries = 1
 	}

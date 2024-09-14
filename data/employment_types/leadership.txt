@@ -1,0 +1,12 @@
+leadership = {
+	name = "Leadership"
+	output_commodity = leadership
+	output_value = 0.5
+	employees = {
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+		officers
+	}
+}

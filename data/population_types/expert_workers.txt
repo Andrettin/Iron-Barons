@@ -9,6 +9,7 @@ expert_workers = {
 	output_value = 4
 	resource_output_bonus = 2
 	commodity_output_modifiers = {
+		leadership = 100
 		piety = 100
 		statesmanship = 100
 	}

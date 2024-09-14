@@ -5,12 +5,11 @@ war_college = {
 	icon = wall
 	provincial = true
 	provincial_capital_only = true
+	employment_type = leadership
+	employment_capacity = 2
 	settlement_types = {
 		city
 		metropolis
 		castle
-	}
-	settlement_modifier = {
-		max_officers = 2
 	}
 }

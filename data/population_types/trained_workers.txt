@@ -9,6 +9,7 @@ trained_workers = {
 	output_value = 2
 	resource_output_bonus = 1
 	commodity_output_modifiers = {
+		leadership = 100
 		piety = 100
 		statesmanship = 100
 	}

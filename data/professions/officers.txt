@@ -1,3 +1,0 @@
-officers = {
-	name = "Officers"
-}
