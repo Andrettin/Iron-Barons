@@ -11,6 +11,7 @@ trained_workers = {
 	commodity_output_modifiers = {
 		leadership = 100
 		piety = 100
+		research = 100
 		statesmanship = 100
 	}
 	everyday_consumption = {

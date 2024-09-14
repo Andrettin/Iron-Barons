@@ -4,14 +4,13 @@ school = {
 	portrait = university
 	icon = university
 	provincial = true
+	employment_type = researching
+	employment_capacity = 1
 	settlement_types = {
 		campus
 		town
 		city
 		metropolis
-	}
-	settlement_modifier = {
-		max_scholars = 1
 	}
 }
 
@@ -21,14 +20,13 @@ college = {
 	portrait = university
 	icon = university
 	provincial = true
+	employment_type = researching
+	employment_capacity = 2
 	required_building = school
 	settlement_types = {
 		campus
 		city
 		metropolis
-	}
-	settlement_modifier = {
-		max_scholars = 2
 	}
 }
 
@@ -38,6 +36,8 @@ university = {
 	portrait = university
 	icon = university
 	provincial = true
+	employment_type = researching
+	employment_capacity = 3
 	required_building = college
 	required_technology = university
 	settlement_types = {
@@ -53,9 +53,6 @@ university = {
 			}
 		}
 	}
-	settlement_modifier = {
-		max_scholars = 3
-	}
 }
 
 monastic_school = {
@@ -65,12 +62,11 @@ monastic_school = {
 	icon = university
 	free_in_capital = true
 	provincial = true
+	employment_type = researching
+	employment_capacity = 1
 	required_technology = monastic_school
 	settlement_types = {
 		monastery
-	}
-	settlement_modifier = {
-		max_scholars = 1
 	}
 }
 
@@ -80,12 +76,11 @@ cathedral_school = {
 	portrait = university
 	icon = university
 	provincial = true
+	employment_type = researching
+	employment_capacity = 2
 	required_building = monastic_school
 	required_technology = cathedral_school
 	settlement_types = {
 		monastery
-	}
-	settlement_modifier = {
-		max_scholars = 2
 	}
 }

@@ -4,6 +4,8 @@ observatory = {
 	portrait = university
 	icon = research
 	provincial = true
+	employment_type = researching
+	employment_capacity = 1
 	required_technology = astronomy
 	settlement_types = {
 		city
@@ -18,6 +20,5 @@ observatory = {
 	}
 	settlement_modifier = {
 		research_output_modifier = 25
-		max_scholars = 1
 	}
 }

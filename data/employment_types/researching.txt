@@ -1,0 +1,13 @@
+researching = {
+	name = "Researching"
+	input_wealth = 50
+	output_commodity = research
+	output_value = 0.5
+	employees = {
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+		academics
+	}
+}
