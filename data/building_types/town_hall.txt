@@ -5,14 +5,13 @@ village_hall = {
 	icon = flag
 	free_in_capital = true
 	provincial = true
+	employment_type = statesmanship
+	employment_capacity = 1
 	settlement_types = {
 		village
 		town
 		city
 		metropolis
-	}
-	settlement_modifier = {
-		max_bureaucrats = 1
 	}
 }
 
@@ -22,13 +21,13 @@ town_hall = {
 	portrait = town
 	icon = flag
 	provincial = true
+	employment_type = statesmanship
+	employment_capacity = 2
+	required_building = village_hall
 	settlement_types = {
 		town
 		city
 		metropolis
-	}
-	settlement_modifier = {
-		max_bureaucrats = 2
 	}
 }
 
@@ -38,13 +37,12 @@ city_hall = {
 	portrait = city
 	icon = flag
 	provincial = true
+	employment_type = statesmanship
+	employment_capacity = 3
 	required_building = town_hall
 	settlement_types = {
 		city
 		metropolis
-	}
-	settlement_modifier = {
-		max_bureaucrats = 3
 	}
 }
 
@@ -55,13 +53,12 @@ state_house = {
 	icon = flag
 	provincial = true
 	provincial_capitol = true
+	employment_type = statesmanship
+	employment_capacity = 4
 	required_building = city_hall
 	settlement_types = {
 		city
 		metropolis
-	}
-	settlement_modifier = {
-		max_bureaucrats = 4
 	}
 }
 
@@ -72,12 +69,11 @@ capitol = {
 	icon = flag
 	provincial = true
 	capitol = true
+	employment_type = statesmanship
+	employment_capacity = 5
 	required_building = state_house
 	settlement_types = {
 		city
 		metropolis
-	}
-	settlement_modifier = {
-		max_bureaucrats = 5
 	}
 }

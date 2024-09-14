@@ -10,6 +10,7 @@ expert_workers = {
 	resource_output_bonus = 2
 	commodity_output_modifiers = {
 		piety = 100
+		statesmanship = 100
 	}
 	everyday_consumption = {
 		luxuries = 1

@@ -7,6 +7,7 @@ preaching = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		clergymen
 		firebrand_preachers
 	}
 }

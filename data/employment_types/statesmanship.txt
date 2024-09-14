@@ -1,0 +1,13 @@
+statesmanship = {
+	name = "Statesmanship"
+	output_commodity = statesmanship
+	output_value = 0.5
+	employees = {
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+		bureaucrats
+		elder_statesmen
+	}
+}
