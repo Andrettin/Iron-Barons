@@ -4,6 +4,8 @@ shrine = {
 	portrait = temple
 	icon = wooden_cross
 	provincial = true
+	employment_type = preaching
+	employment_capacity = 1
 	required_technology = ceremonial_burial
 	settlement_types = {
 		village
@@ -14,9 +16,6 @@ shrine = {
 		city
 		metropolis
 	}
-	settlement_modifier = {
-		max_clergymen = 1
-	}
 }
 
 temple = {
@@ -25,6 +24,8 @@ temple = {
 	portrait = temple
 	icon = wooden_cross
 	provincial = true
+	employment_type = preaching
+	employment_capacity = 2
 	required_building = shrine
 	required_technology = ceremonial_burial
 	settlement_types = {
@@ -33,7 +34,6 @@ temple = {
 		metropolis
 	}
 	settlement_modifier = {
-		max_clergymen = 2
 		luxuries_bonus = 1
 	}
 }
@@ -44,6 +44,8 @@ cathedral = {
 	portrait = temple
 	icon = golden_cross_detailed
 	provincial = true
+	employment_type = preaching
+	employment_capacity = 3
 	required_building = temple
 	required_technology = monotheism
 	settlement_types = {
@@ -52,7 +54,6 @@ cathedral = {
 		metropolis
 	}
 	settlement_modifier = {
-		max_clergymen = 3
 		luxuries_bonus = 4
 	}
 }
