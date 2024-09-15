@@ -8,5 +8,6 @@ fishing = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		expert_fishermen
 	}
 }

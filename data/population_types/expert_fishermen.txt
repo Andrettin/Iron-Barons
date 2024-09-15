@@ -1,0 +1,38 @@
+expert_fishermen = {
+	name = "Expert Fishermen"
+	population_class = expert_fishermen
+	literate = true
+	icon = slaves_light
+	small_icon = slaves_light_small
+	commodity_output_modifiers = {
+		fish = 100
+	}
+	everyday_consumption = {
+		luxuries = 1
+	}
+	luxury_consumption = {
+		luxuries = 1
+	}
+	commodity_demands = {
+		clothing = 0.1
+		furniture = 0.1
+		tools = 0.1
+		paper = 0.1
+		coffee = 0.1
+		opium = 0.1
+		tea = 0.1
+		coal = 0.05
+	}
+	phenotype_icons = {
+		afro_european = slaves_medium
+		amerindian = slaves_medium
+		south_asian = slaves_medium
+		african = slaves_dark
+	}
+	phenotype_small_icons = {
+		afro_european = slaves_medium_small
+		amerindian = slaves_medium_small
+		south_asian = slaves_medium_small
+		african = slaves_dark_small
+	}
+}

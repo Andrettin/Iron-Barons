@@ -8,5 +8,6 @@ potato_farming = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		expert_farmers
 	}
 }
