@@ -1,0 +1,12 @@
+gold_mining = {
+	name = "Gold Mining"
+	output_commodity = gold
+	output_value = 1
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+	}
+}
