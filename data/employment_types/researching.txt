@@ -1,6 +1,5 @@
 researching = {
 	name = "Researching"
-	input_wealth = 50
 	output_commodity = research
 	output_value = 0.5
 	employees = {
