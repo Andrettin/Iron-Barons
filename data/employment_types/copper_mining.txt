@@ -8,5 +8,6 @@ copper_mining = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		expert_miners
 	}
 }
