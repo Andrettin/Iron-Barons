@@ -1,14 +1,12 @@
-master_ranchers = {
-	name = "Master Ranchers"
-	population_class = master_ranchers
+expert_fur_trappers = {
+	name = "Expert Fur Trappers"
+	population_class = expert_fur_trappers
 	literate = true
 	icon = slaves_light
 	small_icon = slaves_light_small
 	commodity_output_modifiers = {
-		horses = 100
-		livestock = 100
-		silk = 100
-		wool = 100
+		furs = 100
+		ivory = 100
 	}
 	everyday_consumption = {
 		luxuries = 1

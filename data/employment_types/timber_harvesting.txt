@@ -8,5 +8,6 @@ timber_harvesting = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		expert_lumberjacks
 	}
 }
