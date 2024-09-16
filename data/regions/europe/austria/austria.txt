@@ -4,12 +4,6 @@ imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1809
 	}
 	
 	history = {
-		1807 = {
-			population_groups = {
-				soldiers = 897380 #the Empire of Austria had 897,380 individuals under military jurisdiction inside and outside of the military frontiers in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
-			}
-		}
-		
 		1809 = {
 			population_groups = {
 				aristocrats = 540000 #the Empire of Austria had over 540,000 nobles in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
