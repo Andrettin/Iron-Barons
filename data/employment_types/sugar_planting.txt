@@ -8,5 +8,6 @@ sugar_planting = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		master_sugar_planters
 	}
 }

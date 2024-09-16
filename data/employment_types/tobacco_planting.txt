@@ -8,5 +8,6 @@ tobacco_planting = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		master_tobacco_planters
 	}
 }

@@ -1,3 +1,15 @@
 expert_farmers = {
 	name = "Expert Farmers"
 }
+
+master_cotton_planters = {
+	name = "Master Cotton Planters"
+}
+
+master_sugar_planters = {
+	name = "Master Sugar Planters"
+}
+
+master_tobacco_planters = {
+	name = "Master Tobacco Planters"
+}

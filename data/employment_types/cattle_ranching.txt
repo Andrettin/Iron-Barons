@@ -8,5 +8,6 @@ cattle_ranching = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		master_ranchers
 	}
 }

@@ -8,5 +8,6 @@ cotton_planting = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		master_cotton_planters
 	}
 }
