@@ -1,0 +1,3 @@
+expert_drillers = {
+	name = "Expert Drillers"
+}

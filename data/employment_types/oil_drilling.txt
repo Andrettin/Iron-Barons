@@ -8,5 +8,6 @@ oil_drilling = {
 		untrained_workers
 		trained_workers
 		expert_workers
+		expert_drillers
 	}
 }
