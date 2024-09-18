@@ -30,11 +30,10 @@ patrick_henry = {
 	category = political
 	required_technology = rights_of_man
 	modifier = {
-		statesmanship_per_village_hall = 1
-		statesmanship_per_town_hall = 2
-		statesmanship_per_city_hall = 3
-		statesmanship_per_state_house = 3
-		statesmanship_per_capitol = 3
+		output_bonus_per_employee = {
+			employment_type = statesmanship
+			value = 0.5
+		}
 	}
 }
 
