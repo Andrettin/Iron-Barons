@@ -4,8 +4,8 @@ expert_lumberjacks = {
 	literate = true
 	icon = slaves_light
 	small_icon = slaves_light_small
-	commodity_output_modifiers = {
-		timber = 100
+	profession_output_modifiers = {
+		lumberjack = 100
 	}
 	everyday_consumption = {
 		luxuries = 1

@@ -4,8 +4,8 @@ expert_fishermen = {
 	literate = true
 	icon = slaves_light
 	small_icon = slaves_light_small
-	commodity_output_modifiers = {
-		fish = 100
+	profession_output_modifiers = {
+		fisherman = 100
 	}
 	everyday_consumption = {
 		luxuries = 1

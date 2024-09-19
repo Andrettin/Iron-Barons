@@ -4,9 +4,9 @@ expert_fur_trappers = {
 	literate = true
 	icon = slaves_light
 	small_icon = slaves_light_small
-	commodity_output_modifiers = {
-		furs = 100
-		ivory = 100
+	profession_output_modifiers = {
+		fur_trapper = 100
+		ivory_trapper = 100
 	}
 	everyday_consumption = {
 		luxuries = 1

@@ -1,0 +1,13 @@
+gem_miner = {
+	name = "Gem Miner"
+	output_commodity = gems
+	output_value = 1
+	employees = {
+		slaves
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+		expert_miners
+	}
+}

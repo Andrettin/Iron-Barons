@@ -4,11 +4,11 @@ master_ranchers = {
 	literate = true
 	icon = slaves_light
 	small_icon = slaves_light_small
-	commodity_output_modifiers = {
-		horses = 100
-		livestock = 100
-		silk = 100
-		wool = 100
+	profession_output_modifiers = {
+		cattle_rancher = 100
+		horse_rancher = 100
+		sheep_rancher = 100
+		silkworm_rancher = 100
 	}
 	everyday_consumption = {
 		luxuries = 1

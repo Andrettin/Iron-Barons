@@ -5,8 +5,8 @@ bureaucrats = {
 	literate = true
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
-	commodity_output_modifiers = {
-		statesmanship = 300
+	profession_output_modifiers = {
+		statesman = 300
 	}
 	everyday_consumption = {
 		luxuries = 1

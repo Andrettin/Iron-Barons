@@ -5,8 +5,8 @@ firebrand_preachers = {
 	literate = true
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
-	commodity_output_modifiers = {
-		piety = 700
+	profession_output_modifiers = {
+		preacher = 700
 	}
 	everyday_consumption = {
 		luxuries = 1

@@ -4,8 +4,8 @@ master_cotton_planters = {
 	literate = true
 	icon = slaves_light
 	small_icon = slaves_light_small
-	commodity_output_modifiers = {
-		sugar_cane = 100
+	profession_output_modifiers = {
+		cotton_planter = 100
 	}
 	everyday_consumption = {
 		luxuries = 1

@@ -4,8 +4,8 @@ expert_drillers = {
 	literate = true
 	icon = craftsmen_light
 	small_icon = craftsmen_light_small
-	commodity_output_modifiers = {
-		oil = 100
+	profession_output_modifiers = {
+		oil_driller = 100
 	}
 	everyday_consumption = {
 		luxuries = 1
