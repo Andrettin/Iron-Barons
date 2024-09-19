@@ -195,10 +195,11 @@ john_winthrop = {
 	death_date = 1649
 	required_technology = propaganda
 	advisor_modifier = {
-		piety_per_town_hall = 1
-		piety_per_city_hall = 1
-		piety_per_state_house = 1
-		piety_per_capitol = 1
+		profession_commodity_bonus = {
+			profession = statesman
+			commodity = piety
+			value = 0.25
+		}
 	}
 }
 
