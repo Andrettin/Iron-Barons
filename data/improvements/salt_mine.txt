@@ -7,6 +7,8 @@ salt_mine = {
 	terrain_image_filepaths = {
 		#mountains = "tiles/improvements/quarry_mountains.png"
 	}
+	employment_profession = salt_miner
+	employment_capacity = 1
 	output_multiplier = 1
 	wealth_cost = 100
 	commodity_costs = {
@@ -24,6 +26,8 @@ steam_pumped_salt_mine = {
 	terrain_image_filepaths = {
 		#mountains = "tiles/improvements/quarry_mountains.png"
 	}
+	employment_profession = salt_miner
+	employment_capacity = 1
 	output_multiplier = 3
 	required_improvement = salt_mine
 	required_technology = steam_in_mining
