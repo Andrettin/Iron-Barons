@@ -18,7 +18,16 @@ sun_god = {
 		}
 	}
 	modifier = {
-		fruit_per_improved_fruit = 1
-		grain_per_improved_grain = 1
+		profession_commodity_bonus = {
+			profession = fruit_grower
+			commodity = fruit
+			value = 1
+		}
+		
+		profession_commodity_bonus = {
+			profession = grain_farmer
+			commodity = grain
+			value = 1
+		}
 	}
 }

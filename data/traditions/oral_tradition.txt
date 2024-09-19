@@ -16,14 +16,33 @@ oral_tradition = {
 			has_resource = spices
 			has_resource = sugar_cane
 			has_resource = tea
+			has_resource = tobacco
 		}
 	}
 	modifier = {
 		culture_per_improved_coffee = 1
-		culture_per_improved_cotton = 1
+		
+		profession_commodity_bonus = {
+			profession = cotton_planter
+			commodity = culture
+			value = 1
+		}
+		
 		culture_per_improved_dye = 1
 		culture_per_improved_spices = 1
-		culture_per_improved_sugar_cane = 1
+		
+		profession_commodity_bonus = {
+			profession = sugar_planter
+			commodity = culture
+			value = 1
+		}
+		
 		culture_per_improved_tea = 1
+		
+		profession_commodity_bonus = {
+			profession = tobacco_planter
+			commodity = culture
+			value = 1
+		}
 	}
 }
