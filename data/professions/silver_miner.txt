@@ -1,11 +1,13 @@
-soldiering = {
-	name = "Soldiering"
-	output_commodity = manpower
+silver_miner = {
+	name = "Silver Miner"
+	output_commodity = silver
 	output_value = 1
 	employees = {
+		slaves
 		tribesmen
 		untrained_workers
 		trained_workers
 		expert_workers
+		expert_miners
 	}
 }

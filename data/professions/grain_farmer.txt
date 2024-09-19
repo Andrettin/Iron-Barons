@@ -1,6 +1,6 @@
-silver_mining = {
-	name = "Silver Mining"
-	output_commodity = silver
+grain_farmer = {
+	name = "Grain Farmer"
+	output_commodity = grain
 	output_value = 1
 	employees = {
 		slaves
@@ -8,6 +8,6 @@ silver_mining = {
 		untrained_workers
 		trained_workers
 		expert_workers
-		expert_miners
+		expert_farmers
 	}
 }

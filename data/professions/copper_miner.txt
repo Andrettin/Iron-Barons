@@ -1,6 +1,6 @@
-fruit_growing = {
-	name = "Fruit Growing"
-	output_commodity = fruit
+copper_miner = {
+	name = "Copper Miner"
+	output_commodity = copper
 	output_value = 1
 	employees = {
 		slaves
@@ -8,6 +8,6 @@ fruit_growing = {
 		untrained_workers
 		trained_workers
 		expert_workers
-		expert_farmers
+		expert_miners
 	}
 }

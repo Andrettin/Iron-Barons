@@ -30,8 +30,8 @@ patrick_henry = {
 	category = political
 	required_technology = rights_of_man
 	modifier = {
-		output_bonus_per_employee = {
-			employment_type = statesmanship
+		profession_output_bonus = {
+			profession = statesman
 			value = 0.5
 		}
 	}

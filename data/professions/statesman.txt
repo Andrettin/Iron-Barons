@@ -1,12 +1,13 @@
-leadership = {
-	name = "Leadership"
-	output_commodity = leadership
+statesman = {
+	name = "Statesman"
+	output_commodity = statesmanship
 	output_value = 0.5
 	employees = {
 		tribesmen
 		untrained_workers
 		trained_workers
 		expert_workers
-		officers
+		bureaucrats
+		elder_statesmen
 	}
 }

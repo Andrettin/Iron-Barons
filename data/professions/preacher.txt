@@ -1,5 +1,5 @@
-preaching = {
-	name = "Preaching"
+preacher = {
+	name = "Preacher"
 	output_commodity = piety
 	output_value = 0.5
 	employees = {

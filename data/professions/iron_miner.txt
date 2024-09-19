@@ -1,6 +1,6 @@
-fishing = {
-	name = "Fishing"
-	output_commodity = fish
+iron_miner = {
+	name = "Iron Miner"
+	output_commodity = iron_ore
 	output_value = 1
 	employees = {
 		slaves
@@ -8,6 +8,6 @@ fishing = {
 		untrained_workers
 		trained_workers
 		expert_workers
-		expert_fishermen
+		expert_miners
 	}
 }

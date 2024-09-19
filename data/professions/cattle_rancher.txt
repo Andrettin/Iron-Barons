@@ -1,6 +1,6 @@
-timber_harvesting = {
-	name = "Timber Harvesting"
-	output_commodity = timber
+cattle_rancher = {
+	name = "Cattle Rancher"
+	output_commodity = livestock
 	output_value = 1
 	employees = {
 		slaves
@@ -8,6 +8,6 @@ timber_harvesting = {
 		untrained_workers
 		trained_workers
 		expert_workers
-		expert_lumberjacks
+		master_ranchers
 	}
 }

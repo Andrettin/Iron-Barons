@@ -1,12 +1,12 @@
-researching = {
-	name = "Researching"
-	output_commodity = research
+officer = {
+	name = "Officer"
+	output_commodity = leadership
 	output_value = 0.5
 	employees = {
 		tribesmen
 		untrained_workers
 		trained_workers
 		expert_workers
-		academics
+		officers
 	}
 }

@@ -1,6 +1,6 @@
-grain_farming = {
-	name = "Grain Farming"
-	output_commodity = grain
+tobacco_planter = {
+	name = "Tobacco Planter"
+	output_commodity = tobacco
 	output_value = 1
 	employees = {
 		slaves
@@ -8,6 +8,6 @@ grain_farming = {
 		untrained_workers
 		trained_workers
 		expert_workers
-		expert_farmers
+		master_tobacco_planters
 	}
 }

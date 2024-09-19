@@ -1,6 +1,6 @@
-potato_farming = {
-	name = "Potato Farming"
-	output_commodity = potatoes
+oil_driller = {
+	name = "Oil Driller"
+	output_commodity = oil
 	output_value = 1
 	employees = {
 		slaves
@@ -8,6 +8,6 @@ potato_farming = {
 		untrained_workers
 		trained_workers
 		expert_workers
-		expert_farmers
+		expert_drillers
 	}
 }

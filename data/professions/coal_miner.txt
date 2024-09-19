@@ -1,6 +1,6 @@
-gold_mining = {
-	name = "Gold Mining"
-	output_commodity = gold
+coal_miner = {
+	name = "Coal Miner"
+	output_commodity = coal
 	output_value = 1
 	employees = {
 		slaves
