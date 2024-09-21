@@ -1,0 +1,10 @@
+order = {
+	name = "Order"
+	category = tradition
+	group = order
+	portrait = grand_ducal_crown
+	icon = crown_imperial
+	required_technology = communism
+	modifier = {
+	}
+}
