@@ -12,7 +12,7 @@ organized_religion = {
 		profession_commodity_bonus = {
 			profession = preacher
 			commodity = piety
-			value = 0.25
+			value = 0.0625
 		}
 	}
 }

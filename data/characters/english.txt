@@ -198,7 +198,7 @@ john_winthrop = {
 		profession_commodity_bonus = {
 			profession = statesman
 			commodity = piety
-			value = 0.25
+			value = 0.0625
 		}
 	}
 }

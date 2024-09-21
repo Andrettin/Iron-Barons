@@ -33,7 +33,7 @@ patrick_henry = {
 		profession_commodity_bonus = {
 			profession = statesman
 			commodity = statesmanship
-			value = 0.5
+			value = 0.125
 		}
 	}
 }

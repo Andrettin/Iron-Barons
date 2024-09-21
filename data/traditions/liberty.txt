@@ -9,7 +9,7 @@ liberty = {
 		profession_commodity_bonus = {
 			profession = statesman
 			commodity = culture
-			value = 0.25
+			value = 0.0625
 		}
 	}
 }
