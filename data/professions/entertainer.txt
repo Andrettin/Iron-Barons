@@ -1,0 +1,11 @@
+entertainer = {
+	name = "Entertainer"
+	output_commodity = luxuries
+	output_value = 0.5
+	employees = {
+		tribesmen
+		untrained_workers
+		trained_workers
+		expert_workers
+	}
+}
