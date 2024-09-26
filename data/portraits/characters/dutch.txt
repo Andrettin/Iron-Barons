@@ -5,8 +5,6 @@ william_the_silent = {
 		or = {
 			culture = dutch
 			culture = english
-			culture = german
-			culture = polish
 		}
 		is_ruler = true
 	}

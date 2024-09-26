@@ -3,6 +3,7 @@ cunhambebe = {
 	role = ruler
 	culture = tupi
 	religion = pagan
+	portrait = cunhambebe
 	home_site = santos #Ubatuba
 	gender = male
 	death_date = 1555

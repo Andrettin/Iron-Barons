@@ -4,6 +4,7 @@ frederick_the_great_of_prussia = {
 	role = ruler
 	culture = german
 	religion = protestant
+	portrait = frederick_the_great
 	home_settlement = berlin
 	gender = male
 	birth_date = 1712

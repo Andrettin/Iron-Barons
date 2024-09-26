@@ -1,0 +1,10 @@
+cunhambebe = {
+	filepath = "portraits/characters/cunhambebe.png"
+	character_conditions = {
+		gender = male
+		or = {
+			culture = tupi
+			cultural_group = american
+		}
+	}
+}

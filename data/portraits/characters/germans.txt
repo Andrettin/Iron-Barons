@@ -1,3 +1,15 @@
+frederick_the_great = {
+	filepath = "portraits/characters/frederick_the_great.png"
+	character_conditions = {
+		gender = male
+		or = {
+			culture = german
+			culture = polish
+		}
+		is_ruler = true
+	}
+}
+
 jakob_fugger = {
 	filepath = "portraits/characters/jakob_fugger.png"
 	character_conditions = {
