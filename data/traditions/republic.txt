@@ -10,6 +10,7 @@ republic = {
 	}
 	incompatible_traditions = {
 		monarchy
+		theocracy
 	}
 	preconditions = {
 		not = {

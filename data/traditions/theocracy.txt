@@ -1,0 +1,27 @@
+theocracy = {
+	name = "Theocracy"
+	category = tradition
+	group = piety
+	portrait = temple
+	icon = wooden_cross
+	required_technology = fundamentalism
+	prerequisites = {
+		organized_religion
+	}
+	incompatible_traditions = {
+		monarchy
+		republic
+	}
+	preconditions = {
+		not = {
+			country_type = tribe
+		}
+	}
+	modifier = {
+		profession_commodity_bonus = {
+			profession = preacher
+			commodity = trade
+			value = 0.0625
+		}
+	}
+}

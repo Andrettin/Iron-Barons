@@ -5,6 +5,8 @@ despotism = {
 	conditions = {
 		not = {
 			tradition = monarchy
+			tradition = republic
+			tradition = theocracy
 		}
 	}
 	min_policy_values = {
