@@ -14,7 +14,7 @@ puerto_rico = {
 	
 	
 	history = {
-		traditions += republic
+		traditions += monarchy
 		
 		1513 = {
 			#the Spanish were established in Puerto Rico by 1513; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
@@ -38,6 +38,8 @@ puerto_rico = {
 				country = united_states
 				subject_type = colony
 			}
+			
+			traditions += republic
 		}
 	}
 }

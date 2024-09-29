@@ -11,7 +11,7 @@ santiago = {
 	
 	
 	history = {
-		traditions += republic
+		traditions += monarchy
 		
 		1600 = {
 			#Spanish possession in 1600; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.

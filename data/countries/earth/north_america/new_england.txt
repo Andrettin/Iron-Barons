@@ -4,7 +4,7 @@ new_england = {
 	color = { 166 224 85 }
 	culture = english
 	default_religion = protestant
-	default_tier = duchy
+	default_tier = kingdom
 	default_capital = boston
 	eras = {
 		renaissance_era

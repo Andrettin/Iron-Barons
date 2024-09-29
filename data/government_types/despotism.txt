@@ -8,6 +8,7 @@ despotism = {
 			tradition = monarchy
 			tradition = republic
 			tradition = theocracy
+			subject_type = colony
 		}
 	}
 	min_policy_values = {

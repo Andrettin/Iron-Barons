@@ -4,7 +4,7 @@ new_france = {
 	color = { 194 140 86 }
 	culture = french
 	default_religion = catholic
-	default_tier = duchy
+	default_tier = kingdom
 	default_capital = quebec
 	eras = {
 		renaissance_era

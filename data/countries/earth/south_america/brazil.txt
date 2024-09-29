@@ -48,6 +48,8 @@ brazil = {
 				country = portugal
 				subject_type = colony
 			}
+			
+			tier = kingdom
 		}
 		
 		1790 = {
@@ -64,6 +66,8 @@ brazil = {
 				country = portugal
 				state = peace
 			}
+			
+			tier = empire
 		}
 		
 		1872 = {

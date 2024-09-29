@@ -4,5 +4,8 @@ republic = {
 	icon = philosophy
 	conditions = {
 		tradition = republic
+		not = {
+			subject_type = colony
+		}
 	}
 }

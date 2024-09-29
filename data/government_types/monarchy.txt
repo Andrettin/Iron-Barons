@@ -4,6 +4,9 @@ monarchy = {
 	icon = crown_royal
 	conditions = {
 		tradition = monarchy
+		not = {
+			subject_type = colony
+		}
 	}
 	min_policy_values = {
 		centralization_decentralization = -2

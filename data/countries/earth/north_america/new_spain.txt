@@ -8,7 +8,7 @@ new_spain = {
 	default_capital = mexico_city
 	
 	history = {
-		traditions += republic
+		traditions += monarchy
 		
 		1600 = {
 			#Spanish possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.

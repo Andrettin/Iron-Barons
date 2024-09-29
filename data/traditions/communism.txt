@@ -16,6 +16,7 @@ communism = {
 	preconditions = {
 		not = {
 			country_type = tribe
+			subject_type = colony
 		}
 	}
 	modifier = {

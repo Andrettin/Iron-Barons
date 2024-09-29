@@ -19,7 +19,7 @@ peru = {
 	}
 	
 	history = {
-		traditions += republic
+		traditions += monarchy
 		
 		1790 = {
 			#Spanish colony c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
@@ -35,6 +35,8 @@ peru = {
 				country = spain
 				subject_type = colony
 			}
+			
+			traditions += republic
 		}
 	}
 }
