@@ -9,6 +9,7 @@ theocracy = {
 		organized_religion
 	}
 	incompatible_traditions = {
+		communism
 		monarchy
 		republic
 	}

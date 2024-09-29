@@ -4,6 +4,7 @@ despotism = {
 	icon = bow
 	conditions = {
 		not = {
+			tradition = communism
 			tradition = monarchy
 			tradition = republic
 			tradition = theocracy

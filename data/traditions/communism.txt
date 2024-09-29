@@ -1,0 +1,46 @@
+communism = {
+	name = "Communism"
+	category = tradition
+	group = order
+	portrait = grand_ducal_crown
+	icon = crown_imperial
+	required_technology = communism
+	prerequisites = {
+		order
+	}
+	incompatible_traditions = {
+		monarchy
+		republic
+		theocracy
+	}
+	preconditions = {
+		not = {
+			country_type = tribe
+		}
+	}
+	modifier = {
+		profession_commodity_bonus = {
+			profession = coal_miner
+			commodity = coal
+			value = 1
+		}
+		
+		profession_commodity_bonus = {
+			profession = copper_miner
+			commodity = copper
+			value = 1
+		}
+		
+		profession_commodity_bonus = {
+			profession = iron_miner
+			commodity = iron_ore
+			value = 1
+		}
+		
+		profession_commodity_bonus = {
+			profession = tin_miner
+			commodity = tin
+			value = 1
+		}
+	}
+}

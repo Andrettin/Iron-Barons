@@ -9,6 +9,7 @@ republic = {
 		liberty
 	}
 	incompatible_traditions = {
+		communism
 		monarchy
 		theocracy
 	}

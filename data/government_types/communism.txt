@@ -3,6 +3,7 @@ communism = {
 	group = republic
 	icon = labor
 	conditions = {
+		tradition = communism
 	}
 	ruler_title_names = {
 		barony = "Comrade"
