@@ -16,4 +16,8 @@ zululand = {
 	core_provinces = {
 		zululand
 	}
+	
+	history = {
+		traditions += honor
+	}
 }
