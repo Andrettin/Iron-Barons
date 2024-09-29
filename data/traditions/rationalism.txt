@@ -5,6 +5,7 @@ rationalism = {
 	portrait = university
 	icon = research
 	required_technology = scientific_method
-	modifier = {
+	effects = {
+		free_technologies = 1
 	}
 }
