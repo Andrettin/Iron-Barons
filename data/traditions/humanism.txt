@@ -1,0 +1,18 @@
+humanism = {
+	name = "Humanism"
+	category = tradition
+	group = rationalism
+	portrait = university
+	icon = research
+	required_technology = scientific_method
+	prerequisites = {
+		rationalism
+	}
+	modifier = {
+		profession_commodity_bonus = {
+			profession = researcher
+			commodity = luxuries
+			value = 0.0625
+		}
+	}
+}
