@@ -4,7 +4,6 @@ navarre = {
 	culture = basque
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = pamplona
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ navarre = {
 	}
 	core_provinces = {
 		navarre
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

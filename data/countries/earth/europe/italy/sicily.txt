@@ -4,7 +4,6 @@ sicily = {
 	culture = italian
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = palermo
 	eras = {
 		medieval_era
@@ -13,5 +12,9 @@ sicily = {
 	}
 	core_provinces = {
 		sicily
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

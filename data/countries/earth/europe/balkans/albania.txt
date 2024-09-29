@@ -4,7 +4,6 @@ albania = {
 	culture = albanian
 	default_religion = orthodox
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = tirana
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ albania = {
 	}
 	core_provinces = {
 		albania
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

@@ -4,7 +4,6 @@ valencia = {
 	culture = catalan
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = valencia
 	eras = {
 		medieval_era
@@ -13,5 +12,9 @@ valencia = {
 	}
 	core_provinces = {
 		valencia
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

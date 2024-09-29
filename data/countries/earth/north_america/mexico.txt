@@ -5,7 +5,6 @@ mexico = {
 	culture = castillian
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = republic
 	default_capital = mexico_city
 	max_tier = empire
 	eras = {
@@ -19,5 +18,9 @@ mexico = {
 		baja_california
 		tabasco
 		yucatan
+	}
+	
+	history = {
+		traditions += republic
 	}
 }

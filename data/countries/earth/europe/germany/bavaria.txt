@@ -4,7 +4,6 @@ bavaria = {
 	culture = german
 	default_religion = catholic
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = munich
 	max_tier = kingdom
 	eras = {
@@ -14,5 +13,9 @@ bavaria = {
 	}
 	core_provinces = {
 		bavaria
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

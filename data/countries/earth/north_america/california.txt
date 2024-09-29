@@ -4,7 +4,6 @@ california = {
 	culture = castillian
 	default_religion = catholic
 	default_tier = duchy
-	default_government_type = republic
 	default_capital = sacramento
 	eras = {
 		industrial_era
@@ -14,6 +13,8 @@ california = {
 	}
 	
 	history = {
+		traditions += republic
+		
 		1585 = {
 			#became a Spanish colony in 1540; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 			diplomacy_state = {

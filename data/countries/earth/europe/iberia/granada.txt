@@ -4,7 +4,6 @@ granada = {
 	culture = arabic
 	default_religion = sunni
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = granada
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ granada = {
 	}
 	core_provinces = {
 		granada
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

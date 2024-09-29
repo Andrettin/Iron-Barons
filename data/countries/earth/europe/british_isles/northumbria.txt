@@ -4,7 +4,6 @@ northumbria = {
 	culture = anglo_saxon
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = york
 	eras = {
 		medieval_era
@@ -13,5 +12,9 @@ northumbria = {
 		yorkshire
 		northumberland
 		cumberland
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

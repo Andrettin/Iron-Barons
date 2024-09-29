@@ -5,7 +5,6 @@ austria = {
 	culture = austrian
 	default_religion = catholic
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = vienna
 	#min_tier = marquisate
 	max_tier = empire
@@ -26,6 +25,8 @@ austria = {
 	}
 	
 	history = {
+		traditions += monarchy
+		
 		1156 = {
 			tier = duchy #Austria became a duchy in 1156; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
 			traditions += monarchy

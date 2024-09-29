@@ -4,7 +4,6 @@ la_plata = {
 	culture = castillian
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = republic
 	default_capital = buenos_aires
 	core_provinces = {
 		buenos_aires
@@ -32,7 +31,10 @@ la_plata = {
 		tierra_del_fuego
 	}
 	
+	
 	history = {
+		traditions += republic
+		
 		1600 = {
 			#Spanish possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {

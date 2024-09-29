@@ -4,7 +4,6 @@ brunswick = {
 	culture = german
 	default_religion = protestant
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = hanover #Brunswick
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ brunswick = {
 	}
 	core_provinces = {
 		hanover
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

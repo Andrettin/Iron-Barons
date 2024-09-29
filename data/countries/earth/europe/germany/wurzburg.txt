@@ -4,7 +4,6 @@ wurzburg = {
 	culture = german
 	default_religion = catholic
 	default_tier = county #bishopric
-	default_government_type = fundamentalism
 	default_capital = nuremberg #Wurzburg
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ wurzburg = {
 	}
 	core_provinces = {
 		franconia
+	}
+	
+	history = {
+		traditions += theocracy
 	}
 }

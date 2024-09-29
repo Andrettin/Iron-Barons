@@ -5,7 +5,6 @@ eastern_rome = {
 	culture = roman
 	default_religion = orthodox
 	default_tier = empire
-	default_government_type = monarchy
 	default_capital = constantinople
 	short_names = {
 		monarchy = {
@@ -54,5 +53,9 @@ eastern_rome = {
 		tobruk
 		troad
 		west_macedonia
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

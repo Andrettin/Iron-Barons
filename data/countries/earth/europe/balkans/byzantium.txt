@@ -5,7 +5,6 @@ byzantium = {
 	culture = greek
 	default_religion = orthodox
 	default_tier = empire
-	default_government_type = monarchy
 	default_capital = constantinople
 	short_names = {
 		monarchy = {
@@ -26,5 +25,9 @@ byzantium = {
 		peloponnese
 		thessaly
 		west_macedonia
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

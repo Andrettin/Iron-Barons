@@ -4,7 +4,6 @@ denmark = {
 	culture = danish
 	default_religion = protestant
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = copenhagen
 	eras = {
 		medieval_era
@@ -14,5 +13,9 @@ denmark = {
 	core_provinces = {
 		zealand
 		jutland
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

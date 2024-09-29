@@ -5,7 +5,6 @@ china = {
 	culture = chinese
 	default_religion = pagan
 	default_tier = empire
-	default_government_type = monarchy
 	default_capital = beijing
 	short_names = {
 		tribe = "Chinese"
@@ -18,5 +17,9 @@ china = {
 	}
 	core_provinces = {
 		hebei
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

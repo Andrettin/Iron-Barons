@@ -4,7 +4,6 @@ wallachia = {
 	culture = romanian
 	default_religion = orthodox
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = bucharest
 	eras = {
 		medieval_era
@@ -15,5 +14,9 @@ wallachia = {
 		wallachia
 		oltenia
 		dobruja
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

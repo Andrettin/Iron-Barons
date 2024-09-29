@@ -5,7 +5,6 @@ visigothia = {
 	culture = gothic
 	default_religion = catholic #Arianism
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = madrid #Toledo
 	eras = {
 		medieval_era
@@ -24,5 +23,9 @@ visigothia = {
 		lower_languedoc
 		murcia
 		valencia
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

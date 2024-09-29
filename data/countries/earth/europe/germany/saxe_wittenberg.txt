@@ -4,7 +4,6 @@ saxe_wittenberg = {
 	culture = german
 	default_religion = protestant
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = dresden
 	max_tier = kingdom
 	eras = {
@@ -17,6 +16,8 @@ saxe_wittenberg = {
 	}
 	
 	history = {
+		traditions += monarchy
+		
 		1428.1.4 = {
 			ruler = friedrich_ii_of_saxony
 			traditions += monarchy

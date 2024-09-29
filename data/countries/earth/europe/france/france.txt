@@ -5,7 +5,6 @@ france = {
 	culture = french
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = paris
 	max_tier = empire
 	eras = {
@@ -32,6 +31,8 @@ france = {
 	}
 	
 	history = {
+		traditions += monarchy
+		
 		1820 = {
 			wealth = 5000
 			

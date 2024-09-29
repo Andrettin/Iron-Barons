@@ -4,7 +4,6 @@ laurinland = {
 	culture = dwarven
 	default_religion = pagan
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = trent
 	eras = {
 		ancient_era
@@ -12,5 +11,9 @@ laurinland = {
 	}
 	core_provinces = {
 		south_tyrol
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

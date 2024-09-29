@@ -5,7 +5,6 @@ portugal = {
 	culture = portuguese
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = lisbon
 	min_tier = county
 	eras = {
@@ -24,6 +23,8 @@ portugal = {
 	}
 	
 	history = {
+		traditions += monarchy
+		
 		1580 = {
 			#became a Spanish possession in 1580; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 118-119.
 			diplomacy_state = {

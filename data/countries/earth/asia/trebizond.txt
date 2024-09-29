@@ -4,12 +4,15 @@ trebizond = {
 	culture = greek
 	default_religion = orthodox
 	default_tier = empire
-	default_government_type = monarchy
 	default_capital = trebizond
 	eras = {
 		medieval_era
 	}
 	core_provinces = {
 		trebizond
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

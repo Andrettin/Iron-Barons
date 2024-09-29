@@ -4,7 +4,6 @@ lesser_armenia = {
 	culture = armenian
 	default_religion = orthodox
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = marash
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ lesser_armenia = {
 	core_provinces = {
 		ramadan
 		marash
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

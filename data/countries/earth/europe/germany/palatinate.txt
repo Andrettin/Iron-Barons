@@ -4,7 +4,6 @@ palatinate = {
 	culture = german
 	default_religion = catholic
 	default_tier = county
-	default_government_type = monarchy
 	default_capital = mainz #Kaiserslautern
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ palatinate = {
 	}
 	core_provinces = {
 		palatinate
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

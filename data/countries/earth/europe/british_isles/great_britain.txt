@@ -6,7 +6,6 @@ great_britain = {
 	culture = english
 	default_religion = protestant
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = london
 	eras = {
 		renaissance_era
@@ -32,6 +31,8 @@ great_britain = {
 	}
 	
 	history = {
+		traditions += monarchy
+		
 		1820 = {
 			wealth = 10000
 			

@@ -4,7 +4,6 @@ newfoundland = {
 	culture = english
 	default_religion = protestant
 	default_tier = duchy
-	default_government_type = republic
 	default_capital = st_johns
 	eras = {
 		renaissance_era
@@ -14,6 +13,8 @@ newfoundland = {
 	}
 	
 	history = {
+		traditions += republic
+		
 		1623 = {
 			#became an English possession in 1623; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {

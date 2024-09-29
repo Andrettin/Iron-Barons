@@ -4,7 +4,6 @@ bremen = {
 	culture = german
 	default_religion = protestant
 	default_tier = duchy #archbishopric
-	default_government_type = fundamentalism
 	default_capital = bremen
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ bremen = {
 	}
 	core_provinces = {
 		bremen
+	}
+	
+	history = {
+		traditions += theocracy
 	}
 }

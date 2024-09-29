@@ -4,7 +4,6 @@ friesland = {
 	culture = dutch
 	default_religion = protestant
 	default_tier = county #lordship
-	default_government_type = monarchy
 	default_capital = leeuwarden
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ friesland = {
 	}
 	core_provinces = {
 		friesland
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

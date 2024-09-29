@@ -4,12 +4,15 @@ judah = {
 	culture = hebrew
 	default_religion = jewish
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = jerusalem
 	eras = {
 		ancient_era
 	}
 	core_provinces = {
 		hadarom
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

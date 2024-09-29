@@ -4,7 +4,6 @@ milan = {
 	culture = italian
 	default_religion = catholic
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = milan
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ milan = {
 	}
 	core_provinces = {
 		lombardy
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

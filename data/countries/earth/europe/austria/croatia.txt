@@ -4,7 +4,6 @@ croatia = {
 	culture = croatian
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = zagreb
 	eras = {
 		medieval_era
@@ -12,5 +11,9 @@ croatia = {
 	core_provinces = {
 		croatia
 		slavonia
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

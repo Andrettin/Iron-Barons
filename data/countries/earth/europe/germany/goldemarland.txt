@@ -4,7 +4,6 @@ goldemarland = {
 	culture = dwarven
 	default_religion = pagan
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = munster
 	eras = {
 		ancient_era
@@ -12,5 +11,9 @@ goldemarland = {
 	}
 	core_provinces = {
 		westphalia
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

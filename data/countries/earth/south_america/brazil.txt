@@ -4,9 +4,8 @@ brazil = {
 	culture = portuguese
 	default_religion = catholic
 	default_tier = empire
-	default_government_type = monarchy
-	default_capital = rio_de_janeiro
 	min_tier = kingdom
+	default_capital = rio_de_janeiro
 	eras = {
 		industrial_era
 	}
@@ -39,7 +38,10 @@ brazil = {
 		tocantins
 	}
 	
+	
 	history = {
+		traditions += monarchy
+		
 		1567 = {
 			#Rio de Janeiro founded by the Portuguese in 1567; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 			diplomacy_state = {

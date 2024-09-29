@@ -4,13 +4,16 @@ alba = {
 	culture = highlander
 	default_religion = catholic
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = edinburgh
 	eras = {
 		medieval_era
 	}
 	core_provinces = {
 		highlands
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }
 
@@ -20,7 +23,6 @@ scotland = {
 	culture = scottish
 	default_religion = protestant
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = edinburgh
 	eras = {
 		renaissance_era
@@ -29,5 +31,9 @@ scotland = {
 		lothian
 		highlands
 		ayrshire
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

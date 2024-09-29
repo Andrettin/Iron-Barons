@@ -4,7 +4,6 @@ morocco = {
 	culture = arabic
 	default_religion = sunni
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = rabat
 	eras = {
 		medieval_era
@@ -18,5 +17,9 @@ morocco = {
 		guelmim
 		marrakech
 		tangier
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

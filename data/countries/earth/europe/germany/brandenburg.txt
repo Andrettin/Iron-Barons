@@ -5,7 +5,6 @@ brandenburg = {
 	culture = german
 	default_religion = protestant
 	default_tier = duchy
-	default_government_type = monarchy
 	default_capital = berlin
 	eras = {
 		medieval_era
@@ -14,5 +13,9 @@ brandenburg = {
 	core_provinces = {
 		brandenburg
 		magdeburg
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }

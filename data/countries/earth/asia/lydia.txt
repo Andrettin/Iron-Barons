@@ -4,7 +4,6 @@ lydia = {
 	culture = lydian
 	default_religion = pagan
 	default_tier = kingdom
-	default_government_type = monarchy
 	default_capital = manisa
 	eras = {
 		ancient_era
@@ -14,5 +13,9 @@ lydia = {
 		denizli
 		germiyan
 		karasi
+	}
+	
+	history = {
+		traditions += monarchy
 	}
 }
