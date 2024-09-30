@@ -33,7 +33,7 @@ peru = {
 			#became independent in 1821/1824; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 			diplomacy_state = {
 				country = spain
-				subject_type = colony
+				state = peace
 			}
 			
 			traditions += republic
