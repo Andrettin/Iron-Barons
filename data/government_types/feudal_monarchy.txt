@@ -1,20 +1,19 @@
-monarchy = {
-	name = "Monarchy"
+feudal_monarchy = {
+	name = "Feudal Monarchy"
 	group = monarchy
-	icon = crown_royal
+	icon = crown_ducal
 	conditions = {
 		tradition = monarchy
+		tradition = aristocracy
 		not = {
-			tradition = aristocracy #Feudal Monarchy
 			tradition = free_thought #Enlightened Despotism
 			subject_type = colony
 		}
 	}
 	min_policy_values = {
-		centralization_decentralization = -2
+		centralization_decentralization = 0
 	}
 	max_policy_values = {
-		aristocracy_plutocracy = 2
-		serfdom_free_subjects = 2
+		aristocracy_plutocracy = -1
 	}
 }
