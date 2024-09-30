@@ -1,0 +1,14 @@
+naval_drill = {
+	name = "Naval Drill"
+	category = tradition
+	group = exploration
+	portrait = helmet
+	icon = saber
+	required_technology = navigation
+	prerequisites = {
+		naval_tradition
+	}
+	modifier = {
+		naval_discipline = 10
+	}
+}

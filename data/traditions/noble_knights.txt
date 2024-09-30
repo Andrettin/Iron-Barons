@@ -1,0 +1,23 @@
+noble_knights = {
+	name = "Noble Knights"
+	category = tradition
+	group = tradition
+	portrait = baronial_crown
+	icon = crown_baronial
+	required_technology = chivalry
+	prerequisites = {
+		aristocracy
+	}
+	preconditions = {
+		not = {
+			country_type = tribe
+		}
+	}
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = spear_cavalry
+			stat = damage_bonus
+			value = 15
+		}
+	}
+}

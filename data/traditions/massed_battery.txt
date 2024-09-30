@@ -1,0 +1,24 @@
+massed_battery = {
+	name = "Massed Battery"
+	category = tradition
+	group = honor
+	portrait = engineering
+	icon = cannon
+	required_technology = heavy_artillery
+	prerequisites = {
+		honor
+	}
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = light_artillery
+			stat = damage_bonus
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = heavy_artillery
+			stat = damage_bonus
+			value = 10
+		}
+	}
+}

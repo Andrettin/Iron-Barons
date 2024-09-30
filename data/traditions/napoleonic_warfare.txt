@@ -1,0 +1,14 @@
+napoleonic_warfare = {
+	name = "Napoleonic Warfare"
+	category = tradition
+	group = honor
+	portrait = helmet
+	icon = saber
+	required_technology = bayonet
+	prerequisites = {
+		honor
+	}
+	modifier = {
+		land_discipline = 5
+	}
+}
