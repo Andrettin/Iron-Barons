@@ -6,7 +6,7 @@ napoleonic_warfare = {
 	icon = saber
 	required_technology = bayonet
 	prerequisites = {
-		honor
+		military_drill
 	}
 	modifier = {
 		land_discipline = 5

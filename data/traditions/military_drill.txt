@@ -1,0 +1,14 @@
+military_drill = {
+	name = "Military Drill"
+	category = tradition
+	group = honor
+	portrait = helmet
+	icon = saber
+	required_technology = organized_regiments
+	prerequisites = {
+		honor
+	}
+	modifier = {
+		land_discipline = 15
+	}
+}
