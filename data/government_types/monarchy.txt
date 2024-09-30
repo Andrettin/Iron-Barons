@@ -5,6 +5,7 @@ monarchy = {
 	conditions = {
 		tradition = monarchy
 		not = {
+			tradition = free_thought
 			subject_type = colony
 		}
 	}

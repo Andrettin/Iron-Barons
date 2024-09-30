@@ -1,0 +1,15 @@
+enlightened_despotism = {
+	name = "Enlightened Despotism"
+	group = monarchy
+	icon = crown_imperial
+	conditions = {
+		tradition = monarchy
+		tradition = free_thought
+		not = {
+			subject_type = colony
+		}
+	}
+	min_policy_values = {
+		serfdom_free_subjects = -3
+	}
+}
