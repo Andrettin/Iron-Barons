@@ -12,8 +12,8 @@ la_pampa = {
 		religion = pagan
 		
 		-4000 = {
-			owner = mapuche
-			culture = mapuche
+			owner = charrua
+			culture = charruan
 		}
 		
 		1790 = {

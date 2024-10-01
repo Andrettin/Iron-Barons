@@ -1,0 +1,5 @@
+charruan = {
+	name = "Charruan"
+	group = je
+	color = { 174 151 145 }
+}
