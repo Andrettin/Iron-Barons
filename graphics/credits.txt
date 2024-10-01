@@ -231,6 +231,7 @@
 /graphics/portraits/characters/wilhelmine_von_sagan_no_makeup.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/characters/william_the_silent.png (by Jinn) (licensed under the CC0)
 /graphics/portraits/baronial_crown.png (by Jinn and Exidelo) (licensed under the CC0)
+/graphics/portraits/bronze_shield.png (by Exidelo) (licensed under the CC0)
 /graphics/portraits/comital_crown.png (by Jinn and Exidelo) (licensed under the CC0)
 /graphics/portraits/ducal_crown.png (by Jinn and Exidelo) (licensed under the CC0)
 /graphics/portraits/engineering.png (by Exidelo) (licensed under the CC0)

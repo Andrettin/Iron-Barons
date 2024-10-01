@@ -2,8 +2,8 @@ shield_wall = {
 	name = "Shield Wall"
 	category = tradition
 	group = honor
-	portrait = helmet
-	icon = saber
+	portrait = bronze_shield
+	icon = heater_shield
 	required_technology = iron_shield
 	prerequisites = {
 		honor
