@@ -9,8 +9,8 @@ falkland_islands = {
 		religion = pagan
 		
 		-4000 = {
-			owner = inca_empire
-			culture = inca
+			owner = mapuche
+			culture = mapuche
 		}
 		
 		1763 = {
