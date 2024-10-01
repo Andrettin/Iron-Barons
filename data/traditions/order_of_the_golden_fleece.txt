@@ -1,0 +1,22 @@
+order_of_the_golden_fleece = {
+	name = "Order of the Golden Fleece"
+	category = tradition
+	group = tradition
+	portrait = helmet
+	icon = saber
+	required_technology = chivalry
+	prerequisites = {
+		noble_knights
+	}
+	preconditions = {
+		or = {
+			country = burgundy
+			country = austria
+			country = castille
+			country = spain
+		}
+	}
+	modifier = {
+		capital_prestige_bonus = 1
+	}
+}

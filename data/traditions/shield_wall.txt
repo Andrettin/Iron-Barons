@@ -1,0 +1,30 @@
+shield_wall = {
+	name = "Shield Wall"
+	category = tradition
+	group = honor
+	portrait = helmet
+	icon = saber
+	required_technology = iron_shield
+	prerequisites = {
+		honor
+	}
+	modifier = {
+		military_unit_category_stat_modifier = {
+			category = mace_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = spear_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		
+		military_unit_category_stat_modifier = {
+			category = blade_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+	}
+}

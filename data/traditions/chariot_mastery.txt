@@ -1,0 +1,14 @@
+chariot_mastery = {
+	name = "Chariot Mastery"
+	category = tradition
+	group = honor
+	portrait = helmet
+	icon = saber
+	required_technology = wheel
+	prerequisites = {
+		honor
+	}
+	modifier = {
+		chariots_discipline_modifier = 10
+	}
+}
