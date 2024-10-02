@@ -277,5 +277,6 @@ victoria_i_of_great_britain = {
 	}
 	traits = {
 		financial
+		imperialistic
 	}
 }

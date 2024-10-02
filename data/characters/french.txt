@@ -142,6 +142,7 @@ louis_xiv_of_france = {
 		france
 	}
 	traits = {
+		creative
 		industrious
 	}
 }

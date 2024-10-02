@@ -28,6 +28,7 @@ george_washington = {
 	}
 	traits = {
 		disciplined
+		expansive
 	}
 }
 
@@ -169,6 +170,7 @@ abraham_lincoln = {
 	}
 	traits = {
 		philosophical
+		charismatic
 	}
 }
 

@@ -12,6 +12,7 @@ william_the_silent_of_the_netherlands = {
 		netherlands
 	}
 	traits = {
+		creative
 		financial
 	}
 }

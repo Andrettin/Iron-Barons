@@ -26,6 +26,7 @@ peter_the_great_of_russia = {
 		muscovy
 	}
 	traits = {
+		expansive
 		philosophical
 	}
 }

@@ -25,6 +25,7 @@ suleiman_i_of_the_ottoman_empire = { #Source: Isaac Asimov, "Cronologia das Ciê
 	}
 	traits = {
 		philosophical
+		imperialistic
 	}
 	
 	#known as the Magnificent
