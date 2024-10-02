@@ -16,12 +16,50 @@ careful = {
 	}
 }
 
+charismatic = {
+	name = "Charismatic"
+	type = personality
+	icon = music
+	ruler_modifier = {
+		commodity_bonus_per_settlement = {
+			commodity = luxuries
+			value = 1
+		}
+		
+		luxuries_per_monument = 1
+	}
+}
+
+creative = {
+	name = "Creative"
+	type = personality
+	icon = music
+	ruler_modifier = {
+		commodity_bonus_per_settlement = {
+			commodity = culture
+			value = 2
+		}
+	}
+}
+
 disciplined = {
 	name = "Disciplined"
 	type = personality
 	icon = crossed_sabers
 	ruler_modifier = {
 		infantry_cost_modifier = -50
+	}
+}
+
+expansive = {
+	name = "Expansive"
+	type = personality
+	icon = settlement
+	ruler_modifier = {
+		commodity_bonus_per_settlement = {
+			commodity = health
+			value = 2
+		}
 	}
 }
 
@@ -121,6 +159,15 @@ prosperous = {
 	icon = wealth
 	ruler_modifier = {
 		free_infantry_promotion = minuteman_1
+	}
+}
+
+protective = {
+	name = "Protective"
+	type = personality
+	icon = heater_shield
+	ruler_modifier = {
+		free_infantry_promotion = city_garrison_1
 	}
 }
 
