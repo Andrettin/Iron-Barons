@@ -15,7 +15,7 @@ Item {
 		
 		onClicked: {
 			character_dialog.character = ruler
-			character_dialog.modifier_string = ruler.get_ruler_modifier_qstring(country)
+			character_dialog.modifier_string = ruler.game_data.get_ruler_modifier_qstring(country)
 			character_dialog.open()
 		}
 		
@@ -51,7 +51,7 @@ Item {
 				
 				onClicked: {
 					character_dialog.character = advisor
-					character_dialog.modifier_string = advisor.get_advisor_effects_string(country)
+					character_dialog.modifier_string = advisor.game_data.get_advisor_effects_string(country)
 					character_dialog.open()
 				}
 				
