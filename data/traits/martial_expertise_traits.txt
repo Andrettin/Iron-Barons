@@ -49,15 +49,3 @@ strategist = {
 		}
 	}
 }
-
-brilliant_strategist = {
-	name = "Brilliant Strategist"
-	type = background
-	icon = crossed_sabers
-	conditions = {
-		advisor_type = privateer
-		not = {
-			trait = strategist
-		}
-	}
-}

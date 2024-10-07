@@ -34,29 +34,3 @@ theologian = {
 		}
 	}
 }
-
-scholarly_theologian = {
-	name = "Scholarly Theologian"
-	type = background
-	icon = silver_cross
-	conditions = {
-		advisor_type = theologian
-		not = {
-			trait = theologian
-			trait = mastermind_theologian
-		}
-	}
-}
-
-mastermind_theologian = {
-	name = "Mastermind Theologian"
-	type = background
-	icon = golden_cross
-	conditions = {
-		advisor_type = theologian
-		not = {
-			trait = theologian
-			trait = scholarly_theologian
-		}
-	}
-}

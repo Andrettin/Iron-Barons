@@ -1,3 +1,467 @@
+naive_appeaser = {
+	name = "Naive Appeaser"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			advisor_type = ambassador
+			advisor_type = diplomat
+			advisor_type = high_judge
+			advisor_type = statesman
+		}
+		not = {
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 1
+	}
+}
+
+underhanded_rogue = {
+	name = "Underhanded Rogue"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			advisor_type = ambassador
+			advisor_type = diplomat
+			advisor_type = high_judge
+			advisor_type = statesman
+		}
+		not = {
+			trait = naive_appeaser
+			trait = charismatic_negotiator
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 2
+	}
+}
+
+charismatic_negotiator = {
+	name = "Charismatic Negotiator"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			advisor_type = ambassador
+			advisor_type = diplomat
+			advisor_type = high_judge
+			advisor_type = statesman
+		}
+		not = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 3
+		intrigue = 1
+		learning = 1
+	}
+}
+
+grey_eminence = {
+	name = "Grey Eminence"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			advisor_type = ambassador
+			advisor_type = diplomat
+			advisor_type = high_judge
+			advisor_type = statesman
+		}
+		not = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 4
+		intrigue = 1
+		learning = 1
+	}
+}
+
+misguided_warrior = {
+	name = "Misguided Warrior"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			advisor_type = army_reformer
+			advisor_type = commandant
+			advisor_type = grand_admiral
+			advisor_type = grand_captain
+			advisor_type = military_engineer
+			advisor_type = naval_reformer
+			advisor_type = privateer
+		}
+		not = {
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+	}
+	attribute_bonuses = {
+		martial = 1
+	}
+}
+
+tough_soldier = {
+	name = "Tough Soldier"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			advisor_type = army_reformer
+			advisor_type = commandant
+			advisor_type = grand_admiral
+			advisor_type = grand_captain
+			advisor_type = military_engineer
+			advisor_type = naval_reformer
+			advisor_type = privateer
+		}
+		not = {
+			trait = misguided_warrior
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+	}
+	attribute_bonuses = {
+		martial = 2
+	}
+}
+
+skilled_tactician = {
+	name = "Skilled Tactician"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			advisor_type = army_reformer
+			advisor_type = commandant
+			advisor_type = grand_admiral
+			advisor_type = grand_captain
+			advisor_type = military_engineer
+			advisor_type = naval_reformer
+			advisor_type = privateer
+		}
+		not = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = brilliant_strategist
+		}
+	}
+	attribute_bonuses = {
+		martial = 3
+		stewardship = 1
+		intrigue = 1
+	}
+}
+
+brilliant_strategist = {
+	name = "Brilliant Strategist"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			advisor_type = army_reformer
+			advisor_type = commandant
+			advisor_type = grand_admiral
+			advisor_type = grand_captain
+			advisor_type = military_engineer
+			advisor_type = naval_reformer
+			advisor_type = privateer
+		}
+		not = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+		}
+	}
+	attribute_bonuses = {
+		martial = 4
+		stewardship = 1
+		intrigue = 1
+	}
+}
+
+indulgent_wastrel = {
+	name = "Indulgent Wastrel"
+	type = background
+	icon = chest
+	conditions = {
+		or = {
+			advisor_type = banker
+			advisor_type = merchant
+			advisor_type = pioneer
+			advisor_type = tobacco_planter
+			advisor_type = treasurer
+		}
+		not = {
+			trait = thrifty_clerk
+			trait = fortune_builder
+			trait = midas_touched
+		}
+	}
+	attribute_bonuses = {
+		stewardship = 1
+	}
+}
+
+thrifty_clerk = {
+	name = "Thrifty Clerk"
+	type = background
+	icon = chest
+	conditions = {
+		or = {
+			advisor_type = banker
+			advisor_type = merchant
+			advisor_type = pioneer
+			advisor_type = tobacco_planter
+			advisor_type = treasurer
+		}
+		not = {
+			trait = indulgent_wastrel
+			trait = fortune_builder
+			trait = midas_touched
+		}
+	}
+	attribute_bonuses = {
+		stewardship = 2
+	}
+}
+
+fortune_builder = {
+	name = "Fortune Builder"
+	type = background
+	icon = chest
+	conditions = {
+		or = {
+			advisor_type = banker
+			advisor_type = merchant
+			advisor_type = pioneer
+			advisor_type = tobacco_planter
+			advisor_type = treasurer
+		}
+		not = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = midas_touched
+		}
+	}
+	attribute_bonuses = {
+		stewardship = 3
+		martial = 1
+		learning = 1
+	}
+}
+
+midas_touched = {
+	name = "Midas Touched"
+	type = background
+	icon = chest
+	conditions = {
+		or = {
+			advisor_type = banker
+			advisor_type = merchant
+			advisor_type = pioneer
+			advisor_type = tobacco_planter
+			advisor_type = treasurer
+		}
+		not = {
+			trait = indulgent_wastrel
+			trait = thrifty_clerk
+			trait = fortune_builder
+		}
+	}
+	attribute_bonuses = {
+		stewardship = 4
+		martial = 1
+		learning = 1
+	}
+}
+
+detached_priest = {
+	name = "Detached Priest"
+	type = background
+	icon = wooden_cross
+	conditions = {
+		advisor_type = theologian
+		not = {
+			trait = dutiful_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
+	}
+	attribute_bonuses = {
+		learning = 1
+	}
+}
+
+dutiful_cleric = {
+	name = "Dutiful Cleric"
+	type = background
+	icon = bronze_cross
+	conditions = {
+		advisor_type = theologian
+		not = {
+			trait = detached_priest
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
+	}
+	attribute_bonuses = {
+		learning = 2
+	}
+}
+
+scholarly_theologian = {
+	name = "Scholarly Theologian"
+	type = background
+	icon = silver_cross
+	conditions = {
+		advisor_type = theologian
+		not = {
+			trait = detached_priest
+			trait = dutiful_cleric
+			trait = mastermind_theologian
+		}
+	}
+	attribute_bonuses = {
+		learning = 3
+		diplomacy = 1
+		stewardship = 1
+	}
+}
+
+mastermind_theologian = {
+	name = "Mastermind Theologian"
+	type = background
+	icon = golden_cross
+	conditions = {
+		advisor_type = theologian
+		not = {
+			trait = detached_priest
+			trait = dutiful_cleric
+			trait = scholarly_theologian
+		}
+	}
+	attribute_bonuses = {
+		learning = 4
+		diplomacy = 1
+		stewardship = 1
+	}
+}
+
+conscientious_scribe = {
+	name = "Conscientious Scribe"
+	type = background
+	icon = research
+	conditions = {
+		or = {
+			advisor_type = artist
+			advisor_type = astronomer
+			advisor_type = inventor
+			advisor_type = natural_scientist
+			advisor_type = navigator
+			advisor_type = philosopher
+		}
+		not = {
+			trait = insightful_thinker
+			trait = astute_intellectual
+			trait = mastermind_philosopher
+		}
+	}
+	attribute_bonuses = {
+		learning = 1
+	}
+}
+
+insightful_thinker = {
+	name = "Insightful Thinker"
+	type = background
+	icon = philosophy
+	conditions = {
+		or = {
+			advisor_type = artist
+			advisor_type = astronomer
+			advisor_type = inventor
+			advisor_type = natural_scientist
+			advisor_type = navigator
+			advisor_type = philosopher
+		}
+		not = {
+			trait = conscientious_scribe
+			trait = astute_intellectual
+			trait = mastermind_philosopher
+		}
+	}
+	attribute_bonuses = {
+		learning = 2
+	}
+}
+
+astute_intellectual = {
+	name = "Astute Intellectual"
+	type = background
+	icon = philosophy
+	conditions = {
+		or = {
+			advisor_type = artist
+			advisor_type = astronomer
+			advisor_type = inventor
+			advisor_type = natural_scientist
+			advisor_type = navigator
+			advisor_type = philosopher
+		}
+		not = {
+			trait = conscientious_scribe
+			trait = insightful_thinker
+			trait = mastermind_philosopher
+		}
+	}
+	attribute_bonuses = {
+		learning = 3
+		diplomacy = 1
+		stewardship = 1
+	}
+}
+
+mastermind_philosopher = {
+	name = "Mastermind Philosopher"
+	type = background
+	icon = philosophy
+	conditions = {
+		or = {
+			advisor_type = artist
+			advisor_type = astronomer
+			advisor_type = inventor
+			advisor_type = natural_scientist
+			advisor_type = navigator
+			advisor_type = philosopher
+		}
+		not = {
+			trait = conscientious_scribe
+			trait = insightful_thinker
+			trait = astute_intellectual
+		}
+	}
+	attribute_bonuses = {
+		learning = 4
+		diplomacy = 1
+		stewardship = 1
+	}
+}
+
 adventurer = {
 	name = "Adventurer"
 	type = background

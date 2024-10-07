@@ -55,24 +55,6 @@ negotiator = {
 	}
 }
 
-charismatic_negotiator = {
-	name = "Charismatic Negotiator"
-	type = background
-	icon = treaty
-	conditions = {
-		or = {
-			advisor_type = banker
-			advisor_type = diplomat
-			advisor_type = merchant
-			advisor_type = statesman
-			advisor_type = treasurer
-		}
-		not = {
-			trait = negotiator
-		}
-	}
-}
-
 persuasive = {
 	name = "Persuasive"
 	type = background
