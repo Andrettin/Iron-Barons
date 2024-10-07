@@ -267,6 +267,7 @@ victoria_i_of_great_britain = {
 	gender = female
 	birth_date = 1819
 	death_date = 1901
+	skill = 5
 	required_technology = individualism
 	rulable_countries = {
 		england

@@ -22,6 +22,7 @@ george_washington = {
 	gender = male
 	birth_date = 1732
 	death_date = 1799
+	skill = 5
 	obsolescence_technology = individualism
 	rulable_countries = {
 		united_states
@@ -42,6 +43,7 @@ john_adams = {
 	gender = male
 	birth_date = 1735
 	death_date = 1826
+	skill = 5 #+25% Statesmanship (Libertarian)
 	required_technology = individualism
 	rulable_countries = {
 		united_states

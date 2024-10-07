@@ -46,8 +46,9 @@ disciplined = {
 	name = "Disciplined"
 	type = ruler
 	icon = crossed_sabers
-	ruler_modifier = {
-		infantry_cost_modifier = -50
+	attribute = martial
+	scaled_ruler_modifier = {
+		infantry_cost_modifier = -10
 	}
 }
 
@@ -76,8 +77,9 @@ imperialistic = {
 	name = "Imperialistic"
 	type = ruler
 	icon = globe
-	ruler_modifier = {
-		leadership_output_modifier = 25
+	attribute = martial
+	scaled_ruler_modifier = {
+		leadership_output_modifier = 5
 	}
 }
 
@@ -112,8 +114,9 @@ libertarian = {
 	name = "Libertarian"
 	type = ruler
 	icon = courthouse
-	ruler_modifier = {
-		statesmanship_output_modifier = 25
+	attribute = diplomacy
+	scaled_ruler_modifier = {
+		statesmanship_output_modifier = 5
 	}
 }
 
