@@ -3,7 +3,7 @@ statesman = {
 	category = political
 	attribute = diplomacy
 	scaled_modifier = {
-		statesmanship_output_modifier = 5
+		statesmanship_output_modifier = 10
 	}
 }
 
@@ -39,16 +39,6 @@ patrick_henry = {
 			commodity = statesmanship
 			value = 0.125
 		}
-	}
-}
-
-thomas_jefferson = {
-	name = "Thomas Jefferson"
-	category = political
-	attribute = diplomacy
-	required_technology = constitutionalism
-	modifier = {
-		statesmanship_output_modifier = 50
 	}
 }
 

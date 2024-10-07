@@ -68,13 +68,15 @@ thomas_jefferson = {
 	name = "Thomas"
 	surname = "Jefferson"
 	role = advisor
-	advisor_type = thomas_jefferson
+	advisor_type = statesman
 	culture = english
 	religion = protestant
 	home_settlement = richmond #Tuckahoe
 	gender = male
 	birth_date = 1743
 	death_date = 1826
+	skill = 5 #+50% Statesmanship
+	required_technology = constitutionalism
 }
 
 john_jay = {

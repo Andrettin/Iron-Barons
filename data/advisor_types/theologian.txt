@@ -3,6 +3,6 @@ theologian = {
 	category = religious
 	attribute = learning
 	scaled_modifier = {
-		piety_output_modifier = 5
+		piety_output_modifier = 10
 	}
 }

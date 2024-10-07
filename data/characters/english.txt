@@ -151,10 +151,7 @@ francis_drake = {
 	gender = male
 	birth_date = 1540
 	death_date = 1596
-	
-	history = {
-		country = england
-	}
+	skill = 5 #+50% Light Warship Damage Bonus
 }
 
 william_brewster = {
@@ -231,7 +228,7 @@ william_penn = {
 	gender = male
 	birth_date = 1644
 	death_date = 1718
-	skill_multiplier = 0.67
+	skill = 5 #+50% Piety
 }
 
 isaac_newton = {
