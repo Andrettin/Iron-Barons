@@ -3,6 +3,6 @@ merchant = {
 	category = trade
 	attribute = stewardship
 	scaled_modifier = {
-		trade_output_modifier = 2
+		trade_output_modifier = 5
 	}
 }

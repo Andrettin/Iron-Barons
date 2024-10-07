@@ -3,6 +3,6 @@ army_reformer = {
 	category = military
 	attribute = martial
 	scaled_modifier = {
-		army_research_modifier = 5
+		army_research_modifier = 10
 	}
 }

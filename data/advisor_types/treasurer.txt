@@ -3,6 +3,6 @@ treasurer = {
 	category = trade
 	attribute = stewardship
 	scaled_modifier = {
-		finance_research_modifier = 5
+		finance_research_modifier = 10
 	}
 }
