@@ -1,6 +1,7 @@
 strategist = {
 	name = "Strategist"
 	category = military
+	attribute = martial
 	required_technology = feudalism
 	obsolescence_technology = mobile_warfare
 	modifier = {

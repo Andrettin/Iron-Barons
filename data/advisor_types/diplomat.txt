@@ -1,4 +1,5 @@
 diplomat = {
 	name = "Diplomat"
 	category = political
+	attribute = diplomacy
 }

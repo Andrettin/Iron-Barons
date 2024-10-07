@@ -1,6 +1,7 @@
 inventor = {
 	name = "Inventor"
 	category = trade
+	attribute = learning
 	required_technology = invention
 	obsolescence_technology = internal_combustion #automobile
 	modifier = {

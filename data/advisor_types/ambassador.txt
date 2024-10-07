@@ -1,6 +1,7 @@
 ambassador = {
 	name = "Ambassador"
 	category = political
+	attribute = diplomacy
 	required_technology = trade
 	obsolescence_technology = communism
 	modifier = {

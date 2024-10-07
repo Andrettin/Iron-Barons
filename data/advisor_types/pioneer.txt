@@ -1,11 +1,13 @@
 pioneer = {
 	name = "Pioneer"
 	category = exploration
+	attribute = stewardship
 }
 
 francisco_de_coronado = {
 	name = "Francisco de Coronado"
 	category = exploration
+	attribute = martial
 	required_technology = colonization
 	modifier = {
 		military_unit_category_stat_modifier = {
@@ -19,6 +21,7 @@ francisco_de_coronado = {
 jacques_marquette = {
 	name = "Jacques Marquette"
 	category = exploration
+	attribute = martial
 	required_technology = colonization
 	modifier = {
 		military_unit_category_stat_modifier = {
@@ -30,8 +33,9 @@ jacques_marquette = {
 }
 
 sieur_de_la_salle = {
-	name = "Jacques Marquette"
+	name = "Sieur de La Salle"
 	category = exploration
+	attribute = martial
 	required_technology = colonization
 	modifier = {
 		free_building_class = stockade
