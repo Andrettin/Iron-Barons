@@ -2,6 +2,11 @@ arbitrary = {
 	name = "Arbitrary"
 	type = personality
 	icon = blood
+	attribute_bonuses = {
+		stewardship = -1
+		intrigue = 1
+		learning = -1
+	}
 }
 
 celibate = {
@@ -14,12 +19,18 @@ charitable = {
 	name = "Charitable"
 	type = personality
 	icon = golden_cross
+	attribute_bonuses = {
+		diplomacy = 1
+	}
 }
 
 chaste = {
 	name = "Chaste"
 	type = personality
 	icon = wooden_cross
+	attribute_bonuses = {
+		learning = 1
+	}
 }
 
 compassionate = {
@@ -32,48 +43,78 @@ content = {
 	name = "Content"
 	type = personality
 	icon = anchor
+	attribute_bonuses = {
+		intrigue = -1
+	}
 }
 
 cynical = {
 	name = "Cynical"
 	type = personality
 	icon = blood
+	attribute_bonuses = {
+		intrigue = 1
+	}
 }
 
 diligent = {
 	name = "Diligent"
 	type = personality
 	icon = hammer
+	attribute_bonuses = {
+		diplomacy = 1
+		martial = 1
+		stewardship = 1
+		intrigue = 1
+		learning = 1
+	}
 }
 
 gluttonous = {
 	name = "Gluttonous"
 	type = personality
 	icon = cattle
+	attribute_bonuses = {
+		stewardship = -1
+	}
 }
 
 greedy = {
 	name = "Greedy"
 	type = personality
 	icon = chest
+	attribute_bonuses = {
+		diplomacy = -1
+	}
 }
 
 gregarious = {
 	name = "Gregarious"
 	type = personality
 	icon = music
+	attribute_bonuses = {
+		diplomacy = 1
+	}
 }
 
 just = {
 	name = "Just"
 	type = personality
 	icon = courthouse
+	attribute_bonuses = {
+		stewardship = 1
+		learning = 1
+	}
 }
 
 kind = {
 	name = "Kind"
 	type = personality
 	icon = love
+	attribute_bonuses = {
+		diplomacy = 1
+		intrigue = -1
+	}
 }
 
 proud = {
@@ -86,22 +127,36 @@ shy = {
 	name = "Shy"
 	type = personality
 	icon = wall
+	attribute_bonuses = {
+		diplomacy = -1
+	}
 }
 
 temperate = {
 	name = "Temperate"
 	type = personality
 	icon = philosophy
+	attribute_bonuses = {
+		stewardship = 1
+	}
 }
 
 wroth = {
 	name = "Wroth"
 	type = personality
 	icon = blood
+	attribute_bonuses = {
+		diplomacy = -1
+		martial = 1
+		intrigue = -1
+	}
 }
 
 zealous = {
 	name = "Zealous"
 	type = personality
 	icon = wooden_cross
+	attribute_bonuses = {
+		martial = 1
+	}
 }
