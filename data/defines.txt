@@ -47,6 +47,18 @@ tariff_icon = wealth
 treasure_fleet_icon = chest
 military_upkeep_icon = crossed_sabers
 
+min_traits_per_type = {
+	background = 1
+	personality = 1
+	ruler = 2
+}
+
+max_traits_per_type = {
+	background = 1
+	personality = 1
+	ruler = 2
+}
+
 interior_minister_portrait = metternich
 war_minister_portrait = otto_von_bismarck
 
