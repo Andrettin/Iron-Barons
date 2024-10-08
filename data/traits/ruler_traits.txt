@@ -129,15 +129,6 @@ militaristic = {
 	}
 }
 
-narrow_minded = {
-	name = "Narrow-Minded"
-	type = ruler
-	icon = cattle
-	ruler_modifier = {
-		research_output_modifier = -10
-	}
-}
-
 organized = {
 	name = "Organized"
 	type = ruler
@@ -171,15 +162,6 @@ protective = {
 	icon = heater_shield
 	ruler_modifier = {
 		free_infantry_promotion = city_garrison_1
-	}
-}
-
-scholar = {
-	name = "Scholar"
-	type = ruler
-	icon = university
-	ruler_modifier = {
-		research_output_modifier = 5
 	}
 }
 

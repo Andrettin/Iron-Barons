@@ -314,6 +314,7 @@ detached_priest = {
 		advisor_type = theologian
 		not = {
 			trait = dutiful_cleric
+			trait = martial_cleric
 			trait = scholarly_theologian
 			trait = mastermind_theologian
 		}
@@ -331,12 +332,32 @@ dutiful_cleric = {
 		advisor_type = theologian
 		not = {
 			trait = detached_priest
+			trait = martial_cleric
 			trait = scholarly_theologian
 			trait = mastermind_theologian
 		}
 	}
 	attribute_bonuses = {
 		learning = 2
+	}
+}
+
+martial_cleric = {
+	name = "Martial Cleric"
+	type = background
+	icon = bronze_cross
+	conditions = {
+		advisor_type = theologian
+		not = {
+			trait = detached_priest
+			trait = dutiful_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+		}
+	}
+	attribute_bonuses = {
+		learning = 2
+		martial = 1
 	}
 }
 
@@ -349,6 +370,7 @@ scholarly_theologian = {
 		not = {
 			trait = detached_priest
 			trait = dutiful_cleric
+			trait = martial_cleric
 			trait = mastermind_theologian
 		}
 	}
@@ -368,6 +390,7 @@ mastermind_theologian = {
 		not = {
 			trait = detached_priest
 			trait = dutiful_cleric
+			trait = martial_cleric
 			trait = scholarly_theologian
 		}
 	}

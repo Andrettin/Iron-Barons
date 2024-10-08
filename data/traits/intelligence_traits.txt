@@ -9,6 +9,9 @@ intelligent = {
 		intrigue = 1
 		learning = 1
 	}
+	ruler_modifier = {
+		research_output_modifier = 5
+	}
 }
 
 genius = {
@@ -21,6 +24,9 @@ genius = {
 		stewardship = 2
 		intrigue = 2
 		learning = 2
+	}
+	ruler_modifier = {
+		research_output_modifier = 5
 	}
 }
 
