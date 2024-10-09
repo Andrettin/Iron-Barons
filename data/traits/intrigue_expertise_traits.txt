@@ -4,8 +4,8 @@ investigator = {
 	icon = treaty
 	conditions = {
 		or = {
-			advisor_type = inquisitor
-			advisor_type = spymaster
+			character_type = inquisitor
+			character_type = spymaster
 		}
 	}
 }
@@ -15,7 +15,7 @@ stealthy = {
 	type = background
 	icon = dagger
 	conditions = {
-		advisor_type = spymaster
+		character_type = spymaster
 	}
 }
 
@@ -25,8 +25,8 @@ thug = {
 	icon = dagger
 	conditions = {
 		or = {
-			advisor_type = privateer
-			advisor_type = spymaster
+			character_type = privateer
+			character_type = spymaster
 		}
 	}
 	military_unit_modifier = {

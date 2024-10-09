@@ -1,6 +1,6 @@
 inventor = {
 	name = "Inventor"
-	category = trade
+	advisor_category = trade
 	attribute = learning
 	required_technology = invention
 	obsolescence_technology = internal_combustion #automobile

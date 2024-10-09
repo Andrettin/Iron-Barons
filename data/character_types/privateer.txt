@@ -1,6 +1,6 @@
 privateer = {
 	name = "Privateer"
-	category = military
+	advisor_category = military
 	attribute = martial
 	required_technology = privateering_companies
 	scaled_modifier = {

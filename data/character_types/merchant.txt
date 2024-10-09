@@ -1,6 +1,6 @@
 merchant = {
 	name = "Merchant"
-	category = trade
+	advisor_category = trade
 	attribute = stewardship
 	scaled_modifier = {
 		trade_output_modifier = 5

@@ -1,5 +1,0 @@
-inquisitor = {
-	name = "Inquisitor"
-	category = religious
-	attribute = intrigue
-}

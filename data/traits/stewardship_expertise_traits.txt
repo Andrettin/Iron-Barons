@@ -4,9 +4,9 @@ administrator = {
 	icon = chest
 	conditions = {
 		or = {
-			advisor_type = banker
-			advisor_type = merchant
-			advisor_type = treasurer
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
 		}
 		not = {
 			trait = gifted_administrator
@@ -20,9 +20,9 @@ gifted_administrator = {
 	icon = chest
 	conditions = {
 		or = {
-			advisor_type = banker
-			advisor_type = merchant
-			advisor_type = treasurer
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
 		}
 		not = {
 			trait = administrator
@@ -36,9 +36,9 @@ gardener = {
 	icon = architecture
 	conditions = {
 		or = {
-			advisor_type = banker
-			advisor_type = merchant
-			advisor_type = treasurer
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
 		}
 	}
 }
@@ -49,9 +49,9 @@ silver_palm = {
 	icon = chest
 	conditions = {
 		or = {
-			advisor_type = banker
-			advisor_type = merchant
-			advisor_type = treasurer
+			character_type = banker
+			character_type = merchant
+			character_type = treasurer
 		}
 	}
 }
@@ -61,7 +61,7 @@ aspiring_trader = {
 	type = background
 	icon = chest
 	conditions = {
-		advisor_type = merchant
+		character_type = merchant
 		not = {
 			trait = trader
 		}
@@ -73,7 +73,7 @@ trader = {
 	type = background
 	icon = chest
 	conditions = {
-		advisor_type = merchant
+		character_type = merchant
 		not = {
 			trait = aspiring_trader
 		}

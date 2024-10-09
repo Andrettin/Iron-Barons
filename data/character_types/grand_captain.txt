@@ -1,6 +1,6 @@
 grand_captain = {
 	name = "Grand Captain"
-	category = military
+	advisor_category = military
 	attribute = martial
 	scaled_modifier = {
 		land_discipline = 5

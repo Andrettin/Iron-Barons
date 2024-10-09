@@ -1,7 +1,7 @@
 pedro_alvares_cabral = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
 	name = "Pedro Alvares" #"Pedro Álvares"
 	surname = "Cabral"
-	#advisor_type = navigator
+	#character_type = navigator
 	culture = portuguese
 	religion = catholic
 	home_site = covilha
@@ -14,7 +14,7 @@ ferdinand_magellan = { #Source: Isaac Asimov, "Cronologia das Ciências e das De
 	name = "Ferdinand"
 	surname = "Magellan"
 	role = advisor
-	advisor_type = navigator
+	character_type = navigator
 	culture = portuguese
 	religion = catholic
 	home_settlement = oporto #correct?

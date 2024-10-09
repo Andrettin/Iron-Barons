@@ -1,6 +1,6 @@
 naval_reformer = {
 	name = "Naval Reformer"
-	category = military
+	advisor_category = military
 	attribute = martial
 	scaled_modifier = {
 		navy_research_modifier = 10

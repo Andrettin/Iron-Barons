@@ -1,6 +1,6 @@
 tobacco_planter = {
 	name = "Tobacco Planter"
-	category = trade
+	advisor_category = trade
 	attribute = stewardship
 	required_technology = large_tobacco_plantations
 	modifier = {

@@ -6,9 +6,9 @@ scholar = {
 			cultural_group = african
 		}
 		or = {
-			advisor_type = artist
-			advisor_type = high_judge
-			advisor_type = philosopher
+			character_type = artist
+			character_type = high_judge
+			character_type = philosopher
 		}
 	}
 }

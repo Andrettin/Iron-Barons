@@ -1,6 +1,6 @@
 natural_scientist = {
 	name = "Natural Scientist"
-	category = trade
+	advisor_category = trade
 	attribute = learning
 	scaled_modifier = {
 		gathering_research_modifier = 10
@@ -10,7 +10,7 @@ natural_scientist = {
 
 charles_darwin = {
 	name = "Charles Darwin"
-	category = trade
+	advisor_category = trade
 	attribute = learning
 	required_technology = merchant_steamships
 	effects = {
@@ -20,7 +20,7 @@ charles_darwin = {
 
 isaac_newton = {
 	name = "Isaac Newton"
-	category = trade
+	advisor_category = trade
 	attribute = learning
 	required_technology = theory_of_gravity
 	modifier = {

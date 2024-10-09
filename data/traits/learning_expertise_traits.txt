@@ -3,7 +3,7 @@ aspiring_poet = {
 	type = background
 	icon = music
 	conditions = {
-		advisor_type = artist
+		character_type = artist
 		not = {
 			trait = poet
 		}
@@ -15,7 +15,7 @@ poet = {
 	type = background
 	icon = music
 	conditions = {
-		advisor_type = artist
+		character_type = artist
 		not = {
 			trait = aspiring_poet
 		}
@@ -27,7 +27,7 @@ theologian = {
 	type = background
 	icon = wooden_cross
 	conditions = {
-		advisor_type = theologian
+		character_type = theologian
 		not = {
 			trait = scholarly_theologian
 			trait = mastermind_theologian

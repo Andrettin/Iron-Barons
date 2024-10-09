@@ -1,6 +1,6 @@
 philosopher = {
 	name = "Philosopher"
-	category = political #not very fitting
+	advisor_category = political #not very fitting
 	attribute = learning
 	scaled_modifier = {
 		research_output_modifier = 5

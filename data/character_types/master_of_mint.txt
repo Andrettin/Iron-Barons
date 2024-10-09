@@ -1,6 +1,6 @@
 master_of_mint = {
 	name = "Master of Mint"
-	category = trade
+	advisor_category = trade
 	attribute = stewardship
 	scaled_modifier = {
 		inflation_change = -0.02

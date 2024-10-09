@@ -1,6 +1,6 @@
 astronomer = {
 	name = "Astronomer"
-	category = trade
+	advisor_category = trade
 	attribute = learning
 	required_technology = astronomy
 	modifier = {

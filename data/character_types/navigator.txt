@@ -1,6 +1,6 @@
 navigator = {
 	name = "Navigator"
-	category = exploration
+	advisor_category = exploration
 	attribute = learning
 	required_technology = navigation
 	modifier = {
@@ -10,7 +10,7 @@ navigator = {
 
 giovanni_da_verrazano = {
 	name = "Giovanni da Verrazano"
-	category = exploration
+	advisor_category = exploration
 	attribute = learning
 	required_technology = navigation
 	effects = {
@@ -20,7 +20,7 @@ giovanni_da_verrazano = {
 
 juan_de_bermudez = {
 	name = "Juan de Bermudez"
-	category = exploration
+	advisor_category = exploration
 	attribute = learning
 	required_technology = navigation
 	modifier = {

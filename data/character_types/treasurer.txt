@@ -1,6 +1,6 @@
 treasurer = {
 	name = "Treasurer"
-	category = trade
+	advisor_category = trade
 	attribute = stewardship
 	scaled_modifier = {
 		finance_research_modifier = 10

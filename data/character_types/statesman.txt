@@ -1,6 +1,6 @@
 statesman = {
 	name = "Statesman"
-	category = political
+	advisor_category = political
 	attribute = diplomacy
 	scaled_modifier = {
 		statesmanship_output_modifier = 10
@@ -9,7 +9,7 @@ statesman = {
 
 benjamin_franklin = {
 	name = "Benjamin Franklin"
-	category = political
+	advisor_category = political
 	attribute = diplomacy
 	required_technology = constitutionalism
 	modifier = {
@@ -20,7 +20,7 @@ benjamin_franklin = {
 
 john_jay = {
 	name = "John Jay"
-	category = political
+	advisor_category = political
 	attribute = diplomacy
 	required_technology = constitutionalism
 	modifier = {
@@ -30,7 +30,7 @@ john_jay = {
 
 patrick_henry = {
 	name = "Patrick Henry"
-	category = political
+	advisor_category = political
 	attribute = diplomacy
 	required_technology = rights_of_man
 	modifier = {
@@ -44,7 +44,7 @@ patrick_henry = {
 
 washington_irving = {
 	name = "Washington Irving"
-	category = political
+	advisor_category = political
 	attribute = diplomacy
 	required_technology = romanticism
 	modifier = {

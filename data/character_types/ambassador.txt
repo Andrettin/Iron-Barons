@@ -1,6 +1,6 @@
 ambassador = {
 	name = "Ambassador"
-	category = political
+	advisor_category = political
 	attribute = diplomacy
 	required_technology = trade
 	obsolescence_technology = communism

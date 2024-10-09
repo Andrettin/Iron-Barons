@@ -4,8 +4,8 @@ cartographer = {
 	icon = globe
 	conditions = {
 		or = {
-			advisor_type = navigator
-			advisor_type = privateer
+			character_type = navigator
+			character_type = privateer
 		}
 	}
 }
@@ -16,7 +16,7 @@ duelist = {
 	icon = saber
 	conditions = {
 		or = {
-			advisor_type = privateer
+			character_type = privateer
 		}
 	}
 	military_unit_modifier = {
@@ -31,9 +31,9 @@ game_master = {
 	icon = globe
 	conditions = {
 		or = {
-			advisor_type = diplomat
-			advisor_type = privateer
-			advisor_type = statesman
+			character_type = diplomat
+			character_type = privateer
+			character_type = statesman
 		}
 	}
 }
@@ -43,7 +43,7 @@ strategist = {
 	type = background
 	icon = crossed_sabers
 	conditions = {
-		advisor_type = privateer
+		character_type = privateer
 		not = {
 			trait = brilliant_strategist
 		}

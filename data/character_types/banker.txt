@@ -1,5 +1,5 @@
 banker = {
 	name = "Banker"
-	category = trade
+	advisor_category = trade
 	attribute = stewardship
 }

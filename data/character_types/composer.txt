@@ -1,6 +1,6 @@
 johann_sebastian_bach = {
 	name = "Johann Sebastian Bach"
-	category = political #not very fitting
+	advisor_category = political #not very fitting
 	attribute = learning
 	required_technology = theology
 	modifier = {

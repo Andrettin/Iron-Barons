@@ -1,12 +1,12 @@
 pioneer = {
 	name = "Pioneer"
-	category = exploration
+	advisor_category = exploration
 	attribute = stewardship
 }
 
 francisco_de_coronado = {
 	name = "Francisco de Coronado"
-	category = exploration
+	advisor_category = exploration
 	attribute = martial
 	required_technology = colonization
 	modifier = {
@@ -20,7 +20,7 @@ francisco_de_coronado = {
 
 jacques_marquette = {
 	name = "Jacques Marquette"
-	category = exploration
+	advisor_category = exploration
 	attribute = martial
 	required_technology = colonization
 	modifier = {
@@ -34,7 +34,7 @@ jacques_marquette = {
 
 sieur_de_la_salle = {
 	name = "Sieur de La Salle"
-	category = exploration
+	advisor_category = exploration
 	attribute = martial
 	required_technology = colonization
 	modifier = {

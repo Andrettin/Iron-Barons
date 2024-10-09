@@ -1,5 +1,5 @@
 spymaster = {
 	name = "Spymaster"
-	category = political
+	advisor_category = political
 	attribute = intrigue
 }
