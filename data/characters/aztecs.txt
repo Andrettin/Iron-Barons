@@ -2,6 +2,7 @@ montezuma_ii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descober
 	name = "Montezuma"
 	epithet = "II"
 	role = ruler
+	character_type = army_organizer
 	culture = aztec
 	religion = pagan
 	home_settlement = mexico_city

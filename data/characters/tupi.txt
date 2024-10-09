@@ -1,6 +1,7 @@
 cunhambebe = {
 	name = "Cunhambebe"
 	role = ruler
+	character_type = army_organizer
 	culture = tupi
 	religion = pagan
 	portrait = cunhambebe

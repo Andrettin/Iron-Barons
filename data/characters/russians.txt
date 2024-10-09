@@ -15,6 +15,7 @@ peter_the_great_of_russia = {
 	name = "Peter"
 	epithet = "the Great"
 	role = ruler
+	character_type = army_reformer
 	culture = russian
 	religion = orthodox
 	home_settlement = moscow
