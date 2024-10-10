@@ -59,6 +59,7 @@ max_traits_per_type = {
 	ruler = 2
 }
 
+max_character_skill = 6 #used for calculating character skill based on skill multipliers; this is not a hard cap
 interior_minister_portrait = metternich
 war_minister_portrait = otto_von_bismarck
 
