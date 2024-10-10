@@ -55,27 +55,3 @@ silver_palm = {
 		}
 	}
 }
-
-aspiring_trader = {
-	name = "Aspiring Trader"
-	type = background
-	icon = chest
-	conditions = {
-		character_type = merchant
-		not = {
-			trait = trader
-		}
-	}
-}
-
-trader = {
-	name = "Trader"
-	type = background
-	icon = chest
-	conditions = {
-		character_type = merchant
-		not = {
-			trait = aspiring_trader
-		}
-	}
-}

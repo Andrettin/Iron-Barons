@@ -1,0 +1,91 @@
+naive_appeaser = {
+	name = "Naive Appeaser"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			character_type = ambassador
+			character_type = diplomat
+			character_type = high_judge
+			character_type = statesman
+		}
+		not = {
+			trait = underhanded_rogue
+			trait = charismatic_negotiator
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 1
+	}
+}
+
+underhanded_rogue = {
+	name = "Underhanded Rogue"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			character_type = ambassador
+			character_type = diplomat
+			character_type = high_judge
+			character_type = statesman
+		}
+		not = {
+			trait = naive_appeaser
+			trait = charismatic_negotiator
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 2
+	}
+}
+
+charismatic_negotiator = {
+	name = "Charismatic Negotiator"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			character_type = ambassador
+			character_type = diplomat
+			character_type = high_judge
+			character_type = statesman
+		}
+		not = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 3
+		intrigue = 1
+		learning = 1
+	}
+}
+
+grey_eminence = {
+	name = "Grey Eminence"
+	type = background
+	icon = treaty
+	conditions = {
+		or = {
+			character_type = ambassador
+			character_type = diplomat
+			character_type = high_judge
+			character_type = statesman
+		}
+		not = {
+			trait = naive_appeaser
+			trait = underhanded_rogue
+			trait = grey_eminence
+		}
+	}
+	attribute_bonuses = {
+		diplomacy = 4
+		intrigue = 1
+		learning = 1
+	}
+}

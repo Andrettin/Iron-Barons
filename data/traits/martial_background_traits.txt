@@ -1,0 +1,103 @@
+misguided_warrior = {
+	name = "Misguided Warrior"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			character_type = army_reformer
+			character_type = commandant
+			character_type = grand_admiral
+			character_type = grand_captain
+			character_type = military_engineer
+			character_type = naval_reformer
+			character_type = privateer
+		}
+		not = {
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+	}
+	attribute_bonuses = {
+		martial = 1
+	}
+}
+
+tough_soldier = {
+	name = "Tough Soldier"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			character_type = army_reformer
+			character_type = commandant
+			character_type = grand_admiral
+			character_type = grand_captain
+			character_type = military_engineer
+			character_type = naval_reformer
+			character_type = privateer
+		}
+		not = {
+			trait = misguided_warrior
+			trait = skilled_tactician
+			trait = brilliant_strategist
+		}
+	}
+	attribute_bonuses = {
+		martial = 2
+	}
+}
+
+skilled_tactician = {
+	name = "Skilled Tactician"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			character_type = army_reformer
+			character_type = commandant
+			character_type = grand_admiral
+			character_type = grand_captain
+			character_type = military_engineer
+			character_type = naval_reformer
+			character_type = privateer
+		}
+		not = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = brilliant_strategist
+		}
+	}
+	attribute_bonuses = {
+		martial = 3
+		stewardship = 1
+		intrigue = 1
+	}
+}
+
+brilliant_strategist = {
+	name = "Brilliant Strategist"
+	type = background
+	icon = crossed_sabers
+	conditions = {
+		or = {
+			character_type = army_reformer
+			character_type = commandant
+			character_type = grand_admiral
+			character_type = grand_captain
+			character_type = military_engineer
+			character_type = naval_reformer
+			character_type = privateer
+		}
+		not = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+		}
+	}
+	attribute_bonuses = {
+		martial = 4
+		stewardship = 1
+		intrigue = 1
+	}
+}
