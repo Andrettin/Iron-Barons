@@ -50,7 +50,7 @@ military_upkeep_icon = crossed_sabers
 min_traits_per_type = {
 	background = 1
 	personality = 1
-	ruler = 2
+	ruler = 0
 }
 
 max_traits_per_type = {

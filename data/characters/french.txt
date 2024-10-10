@@ -14,8 +14,6 @@ philip_the_fair = {
 		france
 	}
 	traits = {
-		organized
-		industrious
 		dutiful_cleric
 		temperate
 	}
