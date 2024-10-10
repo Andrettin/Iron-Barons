@@ -3,7 +3,14 @@ privateer = {
 	advisor_category = military
 	attribute = martial
 	required_technology = privateering_companies
-	scaled_modifier = {
+	scaled_ruler_modifier = {
+		military_unit_category_stat_modifier = {
+			category = light_warship
+			stat = damage_bonus
+			value = 10
+		}
+	}
+	scaled_advisor_modifier = {
 		military_unit_category_stat_modifier = {
 			category = light_warship
 			stat = damage_bonus

@@ -3,7 +3,7 @@ tobacco_planter = {
 	advisor_category = trade
 	attribute = stewardship
 	required_technology = large_tobacco_plantations
-	modifier = {
+	advisor_modifier = {
 		tobacco_output_modifier = 25
 	}
 }

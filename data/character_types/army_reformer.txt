@@ -2,7 +2,10 @@ army_reformer = {
 	name = "Army Reformer"
 	advisor_category = military
 	attribute = martial
-	scaled_modifier = {
+	scaled_ruler_modifier = {
+		army_research_modifier = 10
+	}
+	scaled_advisor_modifier = {
 		army_research_modifier = 10
 	}
 }

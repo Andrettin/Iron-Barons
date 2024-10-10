@@ -4,7 +4,7 @@ inventor = {
 	attribute = learning
 	required_technology = invention
 	obsolescence_technology = internal_combustion #automobile
-	modifier = {
+	advisor_modifier = {
 		unit_upgrade_cost_modifier = -50
 	}
 }

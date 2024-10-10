@@ -2,7 +2,10 @@ commandant = {
 	name = "Commandant"
 	advisor_category = military
 	attribute = martial
-	scaled_modifier = {
+	scaled_ruler_modifier = {
+		land_damage_modifier = 2
+	}
+	scaled_advisor_modifier = {
 		land_damage_modifier = 2
 	}
 }

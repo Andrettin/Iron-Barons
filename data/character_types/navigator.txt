@@ -3,7 +3,7 @@ navigator = {
 	advisor_category = exploration
 	attribute = learning
 	required_technology = navigation
-	modifier = {
+	advisor_modifier = {
 		ship_movement_modifier = 1
 	}
 }
@@ -13,7 +13,7 @@ giovanni_da_verrazano = {
 	advisor_category = exploration
 	attribute = learning
 	required_technology = navigation
-	effects = {
+	advisor_effects = {
 		create_transporter = carrack #caravel
 	}
 }
@@ -23,7 +23,7 @@ juan_de_bermudez = {
 	advisor_category = exploration
 	attribute = learning
 	required_technology = navigation
-	modifier = {
+	advisor_modifier = {
 		merchant_ship_movement_modifier = 1
 	}
 }

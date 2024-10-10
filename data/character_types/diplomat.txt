@@ -2,4 +2,10 @@ diplomat = {
 	name = "Diplomat"
 	advisor_category = political
 	attribute = diplomacy
+	scaled_ruler_modifier = {
+		diplomatic_penalty_for_expansion_modifier = -2
+	}
+	scaled_advisor_modifier = {
+		diplomatic_penalty_for_expansion_modifier = -2
+	}
 }

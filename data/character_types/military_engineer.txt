@@ -2,7 +2,10 @@ military_engineer = {
 	name = "Military Engineer"
 	advisor_category = military
 	attribute = martial
-	scaled_modifier = {
+	scaled_ruler_modifier = {
+		entrenchment_bonus_modifier = 10
+	}
+	scaled_advisor_modifier = {
 		entrenchment_bonus_modifier = 10
 	}
 }

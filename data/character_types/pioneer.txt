@@ -9,7 +9,7 @@ francisco_de_coronado = {
 	advisor_category = exploration
 	attribute = martial
 	required_technology = colonization
-	modifier = {
+	advisor_modifier = {
 		military_unit_category_stat_modifier = {
 			category = heavy_cavalry
 			stat = movement
@@ -23,7 +23,7 @@ jacques_marquette = {
 	advisor_category = exploration
 	attribute = martial
 	required_technology = colonization
-	modifier = {
+	advisor_modifier = {
 		military_unit_category_stat_modifier = {
 			category = light_cavalry
 			stat = movement
@@ -37,7 +37,7 @@ sieur_de_la_salle = {
 	advisor_category = exploration
 	attribute = martial
 	required_technology = colonization
-	modifier = {
+	advisor_modifier = {
 		free_building_class = stockade
 	}
 }

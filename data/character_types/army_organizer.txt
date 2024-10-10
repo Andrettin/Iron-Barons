@@ -2,7 +2,10 @@ army_organizer = {
 	name = "Army Organizer"
 	advisor_category = military
 	attribute = martial
-	scaled_modifier = {
+	scaled_ruler_modifier = {
+		land_morale_recovery_modifier = 1
+	}
+	scaled_advisor_modifier = {
 		land_morale_recovery_modifier = 1
 	}
 }
