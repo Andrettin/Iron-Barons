@@ -5,6 +5,17 @@ metternich = {
 		not = {
 			cultural_group = african
 		}
-		advisor_category = political
+		is_ruler = false
+		or = {
+			character_type = ambassador
+			character_type = diplomat
+			character_type = high_judge
+			character_type = spymaster
+			character_type = statesman
+			character_type = benjamin_franklin
+			character_type = john_jay
+			character_type = patrick_henry
+			character_type = washington_irving
+		}
 	}
 }

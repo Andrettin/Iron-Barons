@@ -2,12 +2,16 @@ alchemist = {
 	filepath = "portraits/characters/alchemist.png"
 	character_conditions = {
 		gender = male
-		or = {
-			character_type = inventor
-			character_type = natural_scientist
-		}
 		not = {
 			cultural_group = african
+		}
+		is_ruler = false
+		or = {
+			character_type = astronomer
+			character_type = inventor
+			character_type = natural_scientist
+			character_type = charles_darwin
+			character_type = isaac_newton
 		}
 	}
 }

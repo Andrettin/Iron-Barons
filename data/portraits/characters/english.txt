@@ -16,9 +16,14 @@ francis_drake = {
 		not = {
 			cultural_group = african
 		}
+		is_ruler = false
 		or = {
-			advisor_category = exploration
-			advisor_category = military
+			character_type = grand_admiral
+			character_type = naval_reformer
+			character_type = navigator
+			character_type = privateer
+			character_type = giovanni_da_verrazano
+			character_type = juan_de_bermudez
 		}
 	}
 }

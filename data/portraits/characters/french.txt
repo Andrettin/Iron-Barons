@@ -15,6 +15,9 @@ cardinal_richelieu = {
 			cultural_group = african
 		}
 		religion = catholic #because of the cardinal's hat
-		advisor_category = religious
+		or = {
+			character_type = inquisitor
+			character_type = theologian
+		}
 	}
 }

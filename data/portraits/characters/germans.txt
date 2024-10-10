@@ -17,7 +17,14 @@ jakob_fugger = {
 		not = {
 			cultural_group = african
 		}
-		advisor_category = trade
+		or = {
+			character_type = banker
+			character_type = master_of_mint
+			character_type = merchant
+			character_type = pioneer
+			character_type = tobacco_planter
+			character_type = treasurer
+		}
 		birth_year < 1800
 	}
 }
@@ -40,9 +47,20 @@ otto_von_bismarck = {
 		not = {
 			cultural_group = african
 		}
+		is_ruler = false
 		or = {
-			advisor_category = political
-			advisor_category = military
+			character_type = ambassador
+			character_type = army_organizer
+			character_type = army_reformer
+			character_type = commandant
+			character_type = diplomat
+			character_type = grand_captain
+			character_type = military_engineer
+			character_type = statesman
+			character_type = strategist
+			character_type = francisco_de_coronado
+			character_type = jacques_marquette
+			character_type = sieur_de_la_salle
 		}
 	}
 }
