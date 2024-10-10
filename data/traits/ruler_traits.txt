@@ -7,15 +7,6 @@ aggressive = {
 	}
 }
 
-careful = {
-	name = "Careful"
-	type = ruler
-	icon = treaty
-	ruler_modifier = {
-		diplomatic_penalty_for_expansion_modifier = -10
-	}
-}
-
 charismatic = {
 	name = "Charismatic"
 	type = ruler

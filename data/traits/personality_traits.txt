@@ -30,6 +30,15 @@ assertive = {
 	}
 }
 
+careful = {
+	name = "Careful"
+	type = personality
+	icon = heater_shield
+	ruler_modifier = {
+		diplomatic_penalty_for_expansion_modifier = -10
+	}
+}
+
 cautious = {
 	name = "Cautious"
 	type = personality
