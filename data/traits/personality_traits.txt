@@ -261,6 +261,19 @@ skeptical = {
 	}
 }
 
+strict = {
+	name = "Strict"
+	type = personality
+	icon = saber
+	attribute_bonuses = {
+		diplomacy = -1
+		martial = 1
+	}
+	ruler_modifier = {
+		land_discipline = 5
+	}
+}
+
 stubborn = {
 	name = "Stubborn"
 	type = personality

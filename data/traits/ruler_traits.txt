@@ -165,15 +165,6 @@ protective = {
 	}
 }
 
-strict = {
-	name = "Strict"
-	type = ruler
-	icon = saber
-	ruler_modifier = {
-		land_damage_modifier = 5
-	}
-}
-
 well_connected = {
 	name = "Well-Connected"
 	type = ruler
