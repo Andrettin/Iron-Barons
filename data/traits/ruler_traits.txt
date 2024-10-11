@@ -101,16 +101,6 @@ industrious = {
 	}
 }
 
-libertarian = {
-	name = "Libertarian"
-	type = ruler
-	icon = courthouse
-	attribute = diplomacy
-	scaled_ruler_modifier = {
-		statesmanship_output_modifier = 5
-	}
-}
-
 militaristic = {
 	name = "Militaristic"
 	type = ruler

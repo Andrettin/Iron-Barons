@@ -45,7 +45,6 @@ john_adams = {
 	gender = male
 	birth_date = 1735
 	death_date = 1826
-	skill = 3 #+25% Statesmanship
 	required_technology = individualism
 	rulable_countries = {
 		united_states

@@ -190,6 +190,19 @@ lapsed = {
 	}
 }
 
+libertarian = {
+	name = "Libertarian"
+	type = personality
+	icon = courthouse
+	attribute = diplomacy
+	attribute_bonuses = {
+		diplomacy = 1
+	}
+	ruler_modifier = {
+		statesmanship_output_modifier = 25
+	}
+}
+
 narrow_minded = {
 	name = "Narrow-Minded"
 	type = personality
