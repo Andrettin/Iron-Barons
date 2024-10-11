@@ -21,7 +21,6 @@ suleiman_i_of_the_ottoman_empire = { #Source: Isaac Asimov, "Cronologia das Ciê
 	gender = male
 	birth_date = 1494
 	death_date = 1566
-	skill = 5
 	rulable_countries = {
 		ottoman_empire
 	}

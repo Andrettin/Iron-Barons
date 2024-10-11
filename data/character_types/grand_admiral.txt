@@ -6,14 +6,14 @@ grand_admiral = {
 		military_unit_domain_stat_modifier = {
 			domain = water
 			stat = discipline
-			value = 5
+			value = 2.5
 		}
 	}
 	scaled_advisor_modifier = {
 		military_unit_domain_stat_modifier = {
 			domain = water
 			stat = discipline
-			value = 5
+			value = 2.5
 		}
 	}
 }

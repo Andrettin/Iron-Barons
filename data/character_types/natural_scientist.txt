@@ -3,8 +3,8 @@ natural_scientist = {
 	advisor_category = trade
 	attribute = learning
 	scaled_advisor_modifier = {
-		gathering_research_modifier = 10
-		industry_research_modifier = 10
+		gathering_research_modifier = 5
+		industry_research_modifier = 5
 	}
 }
 

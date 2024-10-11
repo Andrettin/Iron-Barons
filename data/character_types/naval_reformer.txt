@@ -3,9 +3,9 @@ naval_reformer = {
 	advisor_category = military
 	attribute = martial
 	scaled_ruler_modifier = {
-		navy_research_modifier = 10
+		navy_research_modifier = 5
 	}
 	scaled_advisor_modifier = {
-		navy_research_modifier = 10
+		navy_research_modifier = 5
 	}
 }

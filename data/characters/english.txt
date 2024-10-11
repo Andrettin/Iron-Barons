@@ -152,7 +152,7 @@ francis_drake = {
 	gender = male
 	birth_date = 1540
 	death_date = 1596
-	skill = 5 #+50% Light Warship Damage Bonus
+	skill = 10 #+50% Light Warship Damage Bonus
 }
 
 william_brewster = {
@@ -229,7 +229,7 @@ william_penn = {
 	gender = male
 	birth_date = 1644
 	death_date = 1718
-	skill = 5 #+50% Piety
+	skill = 10 #+50% Piety
 }
 
 isaac_newton = {
@@ -269,7 +269,6 @@ victoria_i_of_great_britain = {
 	gender = female
 	birth_date = 1819
 	death_date = 1901
-	skill = 5
 	required_technology = individualism
 	rulable_countries = {
 		england

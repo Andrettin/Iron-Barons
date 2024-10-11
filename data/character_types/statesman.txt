@@ -3,10 +3,10 @@ statesman = {
 	advisor_category = political
 	attribute = diplomacy
 	scaled_ruler_modifier = {
-		statesmanship_output_modifier = 10
+		statesmanship_output_modifier = 5
 	}
 	scaled_advisor_modifier = {
-		statesmanship_output_modifier = 10
+		statesmanship_output_modifier = 5
 	}
 }
 
@@ -18,16 +18,6 @@ benjamin_franklin = {
 	advisor_modifier = {
 		statesmanship_per_printing_press = 3
 		statesmanship_per_newspaper = 3
-	}
-}
-
-john_jay = {
-	name = "John Jay"
-	advisor_category = political
-	attribute = diplomacy
-	required_technology = constitutionalism
-	advisor_modifier = {
-		statesmanship_output_modifier = 25
 	}
 }
 

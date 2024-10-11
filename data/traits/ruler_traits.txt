@@ -33,16 +33,6 @@ creative = {
 	}
 }
 
-disciplined = {
-	name = "Disciplined"
-	type = ruler
-	icon = crossed_sabers
-	attribute = martial
-	scaled_ruler_modifier = {
-		infantry_cost_modifier = -10
-	}
-}
-
 expansive = {
 	name = "Expansive"
 	type = ruler
@@ -61,16 +51,6 @@ financial = {
 	icon = chest
 	ruler_modifier = {
 		trade_bonus_for_tile_threshold = 2
-	}
-}
-
-imperialistic = {
-	name = "Imperialistic"
-	type = ruler
-	icon = globe
-	attribute = martial
-	scaled_ruler_modifier = {
-		leadership_output_modifier = 5
 	}
 }
 

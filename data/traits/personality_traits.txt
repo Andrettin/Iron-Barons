@@ -126,6 +126,16 @@ diligent = {
 	}
 }
 
+disciplined = {
+	name = "Disciplined"
+	type = personality
+	icon = crossed_sabers
+	attribute = martial
+	scaled_ruler_modifier = {
+		infantry_cost_modifier = -5
+	}
+}
+
 erudite = {
 	name = "Erudite"
 	type = personality
@@ -159,6 +169,16 @@ gregarious = {
 	icon = music
 	attribute_bonuses = {
 		diplomacy = 1
+	}
+}
+
+imperialistic = {
+	name = "Imperialistic"
+	type = personality
+	icon = globe
+	attribute = martial
+	scaled_ruler_modifier = {
+		leadership_output_modifier = 2.5
 	}
 }
 

@@ -3,9 +3,9 @@ theologian = {
 	advisor_category = religious
 	attribute = learning
 	scaled_ruler_modifier = {
-		piety_output_modifier = 10
+		piety_output_modifier = 5
 	}
 	scaled_advisor_modifier = {
-		piety_output_modifier = 10
+		piety_output_modifier = 5
 	}
 }

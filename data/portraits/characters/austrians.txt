@@ -13,7 +13,6 @@ metternich = {
 			character_type = spymaster
 			character_type = statesman
 			character_type = benjamin_franklin
-			character_type = john_jay
 			character_type = patrick_henry
 			character_type = washington_irving
 		}

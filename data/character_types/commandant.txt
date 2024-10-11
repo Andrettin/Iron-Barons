@@ -6,14 +6,14 @@ commandant = {
 		military_unit_domain_stat_modifier = {
 			domain = land
 			stat = damage_bonus
-			value = 2
+			value = 1
 		}
 	}
 	scaled_advisor_modifier = {
 		military_unit_domain_stat_modifier = {
 			domain = land
 			stat = damage_bonus
-			value = 2
+			value = 1
 		}
 	}
 }
