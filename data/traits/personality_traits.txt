@@ -126,6 +126,15 @@ diligent = {
 	}
 }
 
+erudite = {
+	name = "Erudite"
+	type = personality
+	icon = university
+	attribute_bonuses = {
+		learning = 1
+	}
+}
+
 gluttonous = {
 	name = "Gluttonous"
 	type = personality
