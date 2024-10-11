@@ -9,6 +9,10 @@ military_drill = {
 		honor
 	}
 	modifier = {
-		land_discipline = 15
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = 15
+		}
 	}
 }

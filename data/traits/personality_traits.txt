@@ -292,7 +292,11 @@ strict = {
 		martial = 1
 	}
 	ruler_modifier = {
-		land_discipline = 5
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = 5
+		}
 	}
 }
 

@@ -3,9 +3,17 @@ army_organizer = {
 	advisor_category = military
 	attribute = martial
 	scaled_ruler_modifier = {
-		land_morale_recovery_modifier = 1
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = morale_recovery_modifier
+			value = 1
+		}
 	}
 	scaled_advisor_modifier = {
-		land_morale_recovery_modifier = 1
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = morale_recovery_modifier
+			value = 1
+		}
 	}
 }

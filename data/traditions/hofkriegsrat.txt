@@ -12,7 +12,16 @@ hofkriegsrat = {
 		culture = austrian
 	}
 	modifier = {
-		land_recovery_modifier = 30
-		land_discipline = 5
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = recovery_modifier
+			value = 30
+		}
+		
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = 5
+		}
 	}
 }

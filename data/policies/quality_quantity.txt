@@ -6,9 +6,17 @@ quality_quantity = {
 	}
 	modifier = {
 		infantry_cost_modifier = -2.5
-		land_damage_modifier = -2
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = damage_bonus
+			value = -2
+		}
 	}
 	right_modifier = {
-		land_recovery_modifier = 2
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = recovery_modifier
+			value = 2
+		}
 	}
 }

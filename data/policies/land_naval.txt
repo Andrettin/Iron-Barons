@@ -10,9 +10,17 @@ land_naval = {
 		warship_cost_modifier = -5
 	}
 	left_modifier = {
-		land_discipline = 2
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = 2
+		}
 	}
 	right_modifier = {
-		naval_discipline = 2
+		military_unit_domain_stat_modifier = {
+			domain = water
+			stat = discipline
+			value = 2
+		}
 	}
 }

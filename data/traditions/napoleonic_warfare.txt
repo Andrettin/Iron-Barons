@@ -9,6 +9,10 @@ napoleonic_warfare = {
 		military_drill
 	}
 	modifier = {
-		land_discipline = 5
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = 5
+		}
 	}
 }

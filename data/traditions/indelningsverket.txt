@@ -12,6 +12,10 @@ indelningsverket = {
 		culture = swedish
 	}
 	modifier = {
-		land_recovery_modifier = 20
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = recovery_modifier
+			value = 20
+		}
 	}
 }

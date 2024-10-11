@@ -115,7 +115,11 @@ paternalism = {
 		}
 	}
 	modifier = {
-		land_morale_recovery_modifier = 5
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = morale_recovery_modifier
+			value = 5
+		}
 	}
 }
 

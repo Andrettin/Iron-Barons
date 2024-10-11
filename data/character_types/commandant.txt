@@ -3,9 +3,17 @@ commandant = {
 	advisor_category = military
 	attribute = martial
 	scaled_ruler_modifier = {
-		land_damage_modifier = 2
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = damage_bonus
+			value = 2
+		}
 	}
 	scaled_advisor_modifier = {
-		land_damage_modifier = 2
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = damage_bonus
+			value = 2
+		}
 	}
 }

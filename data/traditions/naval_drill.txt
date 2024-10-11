@@ -9,6 +9,10 @@ naval_drill = {
 		naval_tradition
 	}
 	modifier = {
-		naval_discipline = 10
+		military_unit_domain_stat_modifier = {
+			domain = water
+			stat = discipline
+			value = 10
+		}
 	}
 }

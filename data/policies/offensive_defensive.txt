@@ -6,7 +6,11 @@ offensive_defensive = {
 	}
 	modifier = {
 		#artillery_cost_modifier = -5
-		land_discipline = -2
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = -2
+		}
 		entrenchment_bonus_modifier = 5
 	}
 }

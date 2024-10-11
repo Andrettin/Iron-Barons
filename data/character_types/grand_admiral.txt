@@ -3,9 +3,17 @@ grand_admiral = {
 	advisor_category = military
 	attribute = martial
 	scaled_ruler_modifier = {
-		naval_discipline = 5
+		military_unit_domain_stat_modifier = {
+			domain = water
+			stat = discipline
+			value = 5
+		}
 	}
 	scaled_advisor_modifier = {
-		naval_discipline = 5
+		military_unit_domain_stat_modifier = {
+			domain = water
+			stat = discipline
+			value = 5
+		}
 	}
 }
