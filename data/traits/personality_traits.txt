@@ -3,7 +3,7 @@ arbitrary = {
 	type = personality
 	icon = blood
 	attribute_bonuses = {
-		stewardship = -1
+		stewardship = -2
 		intrigue = 1
 		learning = -1
 	}
@@ -59,7 +59,7 @@ charitable = {
 	type = personality
 	icon = golden_cross
 	attribute_bonuses = {
-		diplomacy = 1
+		diplomacy = 3
 	}
 }
 
@@ -76,6 +76,10 @@ compassionate = {
 	name = "Compassionate"
 	type = personality
 	icon = love
+	attribute_bonuses = {
+		diplomacy = 2
+		intrigue = -2
+	}
 }
 
 content = {
@@ -92,7 +96,7 @@ cynical = {
 	type = personality
 	icon = blood
 	attribute_bonuses = {
-		intrigue = 1
+		intrigue = 2
 	}
 }
 
@@ -131,6 +135,9 @@ disciplined = {
 	type = personality
 	icon = crossed_sabers
 	attribute = martial
+	attribute_bonuses = {
+		martial = 1
+	}
 	scaled_ruler_modifier = {
 		infantry_cost_modifier = -5
 	}
@@ -141,7 +148,7 @@ erudite = {
 	type = personality
 	icon = university
 	attribute_bonuses = {
-		learning = 1
+		learning = 2
 	}
 }
 
@@ -150,7 +157,7 @@ gluttonous = {
 	type = personality
 	icon = cattle
 	attribute_bonuses = {
-		stewardship = -1
+		stewardship = -2
 	}
 }
 
@@ -168,7 +175,7 @@ gregarious = {
 	type = personality
 	icon = music
 	attribute_bonuses = {
-		diplomacy = 1
+		diplomacy = 2
 	}
 }
 
@@ -177,6 +184,9 @@ imperialistic = {
 	type = personality
 	icon = globe
 	attribute = martial
+	attribute_bonuses = {
+		martial = 1
+	}
 	scaled_ruler_modifier = {
 		leadership_output_modifier = 2.5
 	}
@@ -187,7 +197,7 @@ just = {
 	type = personality
 	icon = courthouse
 	attribute_bonuses = {
-		stewardship = 1
+		stewardship = 2
 		learning = 1
 	}
 }
@@ -197,8 +207,8 @@ kind = {
 	type = personality
 	icon = love
 	attribute_bonuses = {
-		diplomacy = 1
-		intrigue = -1
+		diplomacy = 2
+		intrigue = -2
 	}
 }
 
@@ -281,7 +291,7 @@ scholar = {
 	icon = university
 	attribute_bonuses = {
 		martial = -1
-		learning = 1
+		learning = 3
 	}
 	ruler_modifier = {
 		research_output_modifier = 5
@@ -296,7 +306,7 @@ shy = {
 	type = personality
 	icon = wall
 	attribute_bonuses = {
-		diplomacy = -1
+		diplomacy = -2
 	}
 }
 
@@ -364,7 +374,7 @@ temperate = {
 	type = personality
 	icon = philosophy
 	attribute_bonuses = {
-		stewardship = 1
+		stewardship = 2
 	}
 }
 
@@ -386,7 +396,7 @@ wroth = {
 	icon = blood
 	attribute_bonuses = {
 		diplomacy = -1
-		martial = 1
+		martial = 3
 		intrigue = -1
 	}
 }
@@ -396,6 +406,6 @@ zealous = {
 	type = personality
 	icon = wooden_cross
 	attribute_bonuses = {
-		martial = 1
+		martial = 2
 	}
 }

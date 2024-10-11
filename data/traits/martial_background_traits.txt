@@ -19,7 +19,7 @@ misguided_warrior = {
 		}
 	}
 	attribute_bonuses = {
-		martial = 1
+		martial = 2
 	}
 }
 
@@ -44,7 +44,7 @@ tough_soldier = {
 		}
 	}
 	attribute_bonuses = {
-		martial = 2
+		martial = 4
 	}
 }
 
@@ -69,7 +69,7 @@ skilled_tactician = {
 		}
 	}
 	attribute_bonuses = {
-		martial = 3
+		martial = 6
 		stewardship = 1
 		intrigue = 1
 	}
@@ -96,8 +96,8 @@ brilliant_strategist = {
 		}
 	}
 	attribute_bonuses = {
-		martial = 4
-		stewardship = 1
-		intrigue = 1
+		martial = 8
+		stewardship = 2
+		intrigue = 2
 	}
 }
