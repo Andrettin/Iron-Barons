@@ -1,6 +1,6 @@
 cartographer = {
 	name = "Cartographer"
-	type = background
+	type = expertise
 	icon = globe
 	attribute = martial
 	max_scaling = 8
