@@ -1,0 +1,6 @@
+ranger = {
+	name = "Ranger"
+	advisor_category = military
+	attribute = martial
+	military_unit_category = ranger
+}

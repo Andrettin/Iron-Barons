@@ -2,6 +2,7 @@ commandant = {
 	name = "Commandant"
 	advisor_category = military
 	attribute = martial
+	military_unit_category = general
 	scaled_ruler_modifier = {
 		military_unit_domain_stat_modifier = {
 			domain = land

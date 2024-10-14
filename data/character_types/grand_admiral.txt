@@ -2,6 +2,7 @@ grand_admiral = {
 	name = "Grand Admiral"
 	advisor_category = military
 	attribute = martial
+	military_unit_category = heavy_warship
 	scaled_ruler_modifier = {
 		military_unit_domain_stat_modifier = {
 			domain = water

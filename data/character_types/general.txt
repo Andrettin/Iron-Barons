@@ -1,0 +1,6 @@
+general = {
+	name = "General"
+	advisor_category = military
+	attribute = martial
+	military_unit_category = general
+}

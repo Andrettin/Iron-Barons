@@ -2,6 +2,7 @@ navigator = {
 	name = "Navigator"
 	advisor_category = exploration
 	attribute = learning
+	military_unit_category = light_warship
 	required_technology = navigation
 	advisor_modifier = {
 		ship_movement_modifier = 1

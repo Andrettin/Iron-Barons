@@ -2,6 +2,7 @@ strategist = {
 	name = "Strategist"
 	advisor_category = military
 	attribute = martial
+	military_unit_category = general
 	required_technology = feudalism
 	obsolescence_technology = mobile_warfare
 	advisor_modifier = {

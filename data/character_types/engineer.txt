@@ -1,0 +1,6 @@
+engineer = {
+	name = "Engineer"
+	advisor_category = trade
+	attribute = learning
+	civilian_unit_class = engineer
+}

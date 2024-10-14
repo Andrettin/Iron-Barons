@@ -2,6 +2,7 @@ tobacco_planter = {
 	name = "Tobacco Planter"
 	advisor_category = trade
 	attribute = stewardship
+	civilian_unit_class = farmer
 	required_technology = large_tobacco_plantations
 	advisor_modifier = {
 		tobacco_output_modifier = 25

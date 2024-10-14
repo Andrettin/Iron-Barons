@@ -2,6 +2,7 @@ privateer = {
 	name = "Privateer"
 	advisor_category = military
 	attribute = martial
+	military_unit_category = light_warship
 	required_technology = privateering_companies
 	scaled_ruler_modifier = {
 		military_unit_category_stat_modifier = {

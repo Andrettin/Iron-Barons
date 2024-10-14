@@ -2,6 +2,7 @@ pioneer = {
 	name = "Pioneer"
 	advisor_category = exploration
 	attribute = stewardship
+	civilian_unit_class = pioneer
 }
 
 francisco_de_coronado = {
