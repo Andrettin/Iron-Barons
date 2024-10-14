@@ -1,45 +1,22 @@
-diplomat = {
-	name = "Diplomat"
-	type = background
-	icon = treaty
+game_master = {
+	name = "Game Master"
+	type = expertise
+	icon = globe
 	conditions = {
-		character_type = diplomat
-		not = {
-			trait = experienced_diplomat
-			trait = masterful_diplomat
+		or = {
+			primary_attribute = diplomacy
+			primary_attribute = martial
 		}
 	}
-}
-
-experienced_diplomat = {
-	name = "Experienced Diplomat"
-	type = background
-	icon = treaty
-	conditions = {
-		character_type = diplomat
-		not = {
-			trait = diplomat
-			trait = masterful_diplomat
-		}
-	}
-}
-
-masterful_diplomat = {
-	name = "Masterful Diplomat"
-	type = background
-	icon = treaty
-	conditions = {
-		character_type = diplomat
-		not = {
-			trait = diplomat
-			trait = experienced_diplomat
-		}
+	attribute_bonuses = {
+		diplomacy = 2
+		martial = 1
 	}
 }
 
 negotiator = {
 	name = "Negotiator"
-	type = background
+	type = expertise
 	icon = treaty
 	conditions = {
 		or = {
@@ -57,7 +34,7 @@ negotiator = {
 
 persuasive = {
 	name = "Persuasive"
-	type = background
+	type = expertise
 	icon = treaty
 	conditions = {
 		or = {

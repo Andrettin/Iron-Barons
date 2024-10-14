@@ -1,6 +1,6 @@
 aspiring_poet = {
 	name = "Aspiring Poet"
-	type = background
+	type = expertise
 	icon = music
 	conditions = {
 		character_type = artist
@@ -12,7 +12,7 @@ aspiring_poet = {
 
 poet = {
 	name = "Poet"
-	type = background
+	type = expertise
 	icon = music
 	conditions = {
 		character_type = artist
@@ -22,15 +22,3 @@ poet = {
 	}
 }
 
-theologian = {
-	name = "Theologian"
-	type = background
-	icon = wooden_cross
-	conditions = {
-		character_type = theologian
-		not = {
-			trait = scholarly_theologian
-			trait = mastermind_theologian
-		}
-	}
-}

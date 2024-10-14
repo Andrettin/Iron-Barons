@@ -1,51 +1,52 @@
 administrator = {
 	name = "Administrator"
-	type = background
+	type = expertise
 	icon = chest
 	conditions = {
-		or = {
-			character_type = banker
-			character_type = merchant
-			character_type = treasurer
-		}
+		primary_attribute = stewardship
 		not = {
 			trait = gifted_administrator
 		}
+	}
+	attribute_bonuses = {
+		stewardship = 3
 	}
 }
 
 gifted_administrator = {
 	name = "Gifted Administrator"
-	type = background
+	type = expertise
 	icon = chest
 	conditions = {
-		or = {
-			character_type = banker
-			character_type = merchant
-			character_type = treasurer
-		}
+		primary_attribute = stewardship
 		not = {
 			trait = administrator
 		}
+	}
+	attribute_bonuses = {
+		stewardship = 4
 	}
 }
 
 gardener = {
 	name = "Gardener"
-	type = background
+	type = expertise
 	icon = architecture
 	conditions = {
 		or = {
-			character_type = banker
-			character_type = merchant
-			character_type = treasurer
+			primary_attribute = stewardship
+			primary_attribute = learning
 		}
+	}
+	attribute_bonuses = {
+		stewardship = 2
+		learning = 1
 	}
 }
 
 silver_palm = {
 	name = "Silver Palm"
-	type = background
+	type = expertise
 	icon = chest
 	conditions = {
 		or = {

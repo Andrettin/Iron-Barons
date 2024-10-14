@@ -1,6 +1,6 @@
 investigator = {
 	name = "Investigator"
-	type = background
+	type = expertise
 	icon = treaty
 	conditions = {
 		or = {
@@ -12,7 +12,7 @@ investigator = {
 
 stealthy = {
 	name = "Stealthy"
-	type = background
+	type = expertise
 	icon = dagger
 	conditions = {
 		character_type = spymaster
@@ -21,7 +21,7 @@ stealthy = {
 
 thug = {
 	name = "Thug"
-	type = background
+	type = expertise
 	icon = dagger
 	conditions = {
 		or = {

@@ -6,16 +6,10 @@ cartographer = {
 	max_scaling = 8
 	conditions = {
 		or = {
-			character_type = army_organizer
-			character_type = army_reformer
-			character_type = commandant
-			character_type = grand_admiral
-			character_type = grand_captain
-			character_type = military_engineer
-			character_type = naval_reformer
-			character_type = navigator
-			character_type = privateer
-			character_type = strategist
+			primary_attribute = martial
+			military_unit_category = general
+			military_unit_category = light_warship
+			military_unit_category = heavy_warship
 		}
 	}
 	attribute_bonuses = {
@@ -28,12 +22,13 @@ cartographer = {
 
 duelist = {
 	name = "Duelist"
-	type = background
+	type = expertise
 	icon = saber
 	conditions = {
-		or = {
-			character_type = privateer
-		}
+		primary_attribute = martial
+	}
+	attribute_bonuses = {
+		martial = 3
 	}
 	military_unit_modifier = {
 		melee = 1
@@ -41,22 +36,9 @@ duelist = {
 	}
 }
 
-game_master = {
-	name = "Game Master"
-	type = background
-	icon = globe
-	conditions = {
-		or = {
-			character_type = diplomat
-			character_type = privateer
-			character_type = statesman
-		}
-	}
-}
-
 strategist = {
 	name = "Strategist"
-	type = background
+	type = expertise
 	icon = crossed_sabers
 	conditions = {
 		character_type = privateer
