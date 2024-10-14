@@ -15,7 +15,7 @@ cartographer = {
 	attribute_bonuses = {
 		learning = 1
 	}
-	scaled_commander_modifier = {
+	scaled_leader_modifier = {
 		movement_modifier = 5
 	}
 }

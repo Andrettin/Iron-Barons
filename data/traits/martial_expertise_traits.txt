@@ -1,3 +1,34 @@
+cavalry_leader = {
+	name = "Cavalry Leader"
+	type = expertise
+	icon = horses
+	attribute = martial
+	max_scaling = 4
+	conditions = {
+		military_unit_category = general
+	}
+	attribute_bonuses = {
+		martial = 1
+	}
+	scaled_leader_modifier = {
+		military_unit_category_stat_modifier = {
+			category = spear_cavalry
+			stat = damage_bonus
+			value = 5
+		}
+		military_unit_category_stat_modifier = {
+			category = light_cavalry
+			stat = damage_bonus
+			value = 5
+		}
+		military_unit_category_stat_modifier = {
+			category = heavy_cavalry
+			stat = damage_bonus
+			value = 5
+		}
+	}
+}
+
 duelist = {
 	name = "Duelist"
 	type = expertise
