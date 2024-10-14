@@ -36,6 +36,22 @@ duelist = {
 	}
 }
 
+hunter = {
+	name = "Hunter"
+	type = expertise
+	icon = bow
+	conditions = {
+		or = {
+			primary_attribute = martial
+			primary_attribute = diplomacy
+		}
+	}
+	attribute_bonuses = {
+		martial = 2
+		diplomacy = 1
+	}
+}
+
 strategist = {
 	name = "Strategist"
 	type = expertise

@@ -1,3 +1,15 @@
+falconer = {
+	name = "Falconer"
+	type = expertise
+	icon = bow
+	conditions = {
+		primary_attribute = diplomacy
+	}
+	attribute_bonuses = {
+		diplomacy = 1
+	}
+}
+
 game_master = {
 	name = "Game Master"
 	type = expertise
@@ -42,5 +54,29 @@ persuasive = {
 			character_type = spymaster
 			character_type = statesman
 		}
+	}
+}
+
+poet = {
+	name = "Poet"
+	type = expertise
+	icon = music
+	conditions = {
+		primary_attribute = diplomacy
+	}
+	attribute_bonuses = {
+		diplomacy = 1
+	}
+}
+
+socializer = {
+	name = "Socializer"
+	type = expertise
+	icon = music
+	conditions = {
+		primary_attribute = diplomacy
+	}
+	attribute_bonuses = {
+		diplomacy = 3
 	}
 }

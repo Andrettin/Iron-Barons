@@ -1,24 +1,15 @@
-aspiring_poet = {
-	name = "Aspiring Poet"
+mystic = {
+	name = "Mystic"
 	type = expertise
-	icon = music
+	icon = wooden_cross
 	conditions = {
-		character_type = artist
-		not = {
-			trait = poet
+		or = {
+			primary_attribute = learning
+			primary_attribute = stewardship
 		}
 	}
-}
-
-poet = {
-	name = "Poet"
-	type = expertise
-	icon = music
-	conditions = {
-		character_type = artist
-		not = {
-			trait = aspiring_poet
-		}
+	attribute_bonuses = {
+		learning = 2
+		stewardship = 1
 	}
 }
-
