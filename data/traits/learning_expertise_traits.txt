@@ -1,3 +1,25 @@
+cartographer = {
+	name = "Cartographer"
+	type = expertise
+	icon = globe
+	attribute = learning
+	max_scaling = 8
+	conditions = {
+		or = {
+			character_type = navigator
+			military_unit_category = general
+			military_unit_category = light_warship
+			military_unit_category = heavy_warship
+		}
+	}
+	attribute_bonuses = {
+		learning = 1
+	}
+	scaled_commander_modifier = {
+		movement_modifier = 5
+	}
+}
+
 mystic = {
 	name = "Mystic"
 	type = expertise
