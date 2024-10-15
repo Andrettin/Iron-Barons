@@ -2,8 +2,15 @@ administrator = {
 	name = "Administrator"
 	type = expertise
 	icon = chest
+	attribute = stewardship
+	max_scaling = 3
 	conditions = {
-		primary_attribute = stewardship
+		or = {
+			primary_attribute = stewardship
+			military_unit_category = general
+			military_unit_category = light_warship
+			military_unit_category = heavy_warship
+		}
 		not = {
 			trait = gifted_administrator
 		}
@@ -11,20 +18,33 @@ administrator = {
 	attribute_bonuses = {
 		stewardship = 3
 	}
+	scaled_leader_modifier = {
+		discipline = 2.5
+	}
 }
 
 gifted_administrator = {
 	name = "Gifted Administrator"
 	type = expertise
 	icon = chest
+	attribute = stewardship
+	max_scaling = 6
 	conditions = {
-		primary_attribute = stewardship
+		or = {
+			primary_attribute = stewardship
+			military_unit_category = general
+			military_unit_category = light_warship
+			military_unit_category = heavy_warship
+		}
 		not = {
 			trait = administrator
 		}
 	}
 	attribute_bonuses = {
 		stewardship = 4
+	}
+	scaled_leader_modifier = {
+		discipline = 2.5
 	}
 }
 
