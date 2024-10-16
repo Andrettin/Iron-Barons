@@ -178,6 +178,8 @@ john_rolfe = {
 	gender = male
 	birth_date = 1585
 	death_date = 1622
+	skill = 5 #+25% Tobacco
+	required_technology = large_tobacco_plantations
 }
 
 john_winthrop = {

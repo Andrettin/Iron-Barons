@@ -135,17 +135,15 @@ eli_whitney = {
 	name = "Eli"
 	surname = "Whitney"
 	role = advisor
-	character_type = natural_scientist
+	character_type = cotton_planter
 	culture = english
 	religion = protestant
 	home_site = pittsfield #Westborough
 	gender = male
 	birth_date = 1765
 	death_date = 1825
+	skill = 10 #+50% Cotton
 	required_technology = cotton_gin
-	advisor_modifier = {
-		cotton_output_modifier = 50
-	}
 }
 
 washington_irving = {
