@@ -3,6 +3,7 @@ investigator = {
 	type = expertise
 	icon = treaty
 	conditions = {
+		character_type = none
 		or = {
 			character_type = inquisitor
 			character_type = spymaster
@@ -15,6 +16,7 @@ stealthy = {
 	type = expertise
 	icon = dagger
 	conditions = {
+		character_type = none
 		character_type = spymaster
 	}
 }
@@ -24,6 +26,7 @@ thug = {
 	type = expertise
 	icon = dagger
 	conditions = {
+		character_type = none
 		or = {
 			character_type = privateer
 			character_type = spymaster

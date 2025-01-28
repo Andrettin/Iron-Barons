@@ -69,6 +69,7 @@ silver_palm = {
 	type = expertise
 	icon = chest
 	conditions = {
+		character_type = none
 		or = {
 			character_type = banker
 			character_type = merchant
