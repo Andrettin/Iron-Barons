@@ -1,7 +1,7 @@
 fisherman = {
 	name = "Fisherman"
 	unit_class = fisherman
-	icon = craftsmen_light
+	icon = fishermen
 	improvable_resources = {
 		fish
 		whales

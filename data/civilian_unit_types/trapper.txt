@@ -1,7 +1,7 @@
 trapper = {
 	name = "Trapper"
 	unit_class = trapper
-	icon = craftsmen_light
+	icon = slaves_light
 	improvable_resources = {
 		beavers
 		bison

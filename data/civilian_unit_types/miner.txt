@@ -1,7 +1,7 @@
 miner = {
 	name = "Miner"
 	unit_class = miner
-	icon = craftsmen_light
+	icon = miners
 	improvable_resources = {
 		amber
 		coal

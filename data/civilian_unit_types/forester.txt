@@ -1,7 +1,7 @@
 forester = {
 	name = "Forester"
 	unit_class = forester
-	icon = craftsmen_light
+	icon = slaves_light
 	improvable_resources = {
 		timber
 	}

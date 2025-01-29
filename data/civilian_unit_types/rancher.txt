@@ -1,7 +1,7 @@
 rancher = {
 	name = "Rancher"
 	unit_class = rancher
-	icon = craftsmen_light
+	icon = slaves_light
 	improvable_resources = {
 		cattle
 		horses

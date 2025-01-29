@@ -2,8 +2,8 @@ expert_miners = {
 	name = "Expert Miners"
 	population_class = expert_miners
 	literate = true
-	icon = craftsmen_light
-	small_icon = craftsmen_light_small
+	icon = miners
+	small_icon = miners_small
 	profession_output_modifiers = {
 		amber_miner = 100
 		coal_miner = 100
@@ -31,17 +31,5 @@ expert_miners = {
 		opium = 0.1
 		tea = 0.1
 		coal = 0.05
-	}
-	phenotype_icons = {
-		afro_european = craftsmen_medium
-		amerindian = craftsmen_medium
-		south_asian = craftsmen_medium
-		african = craftsmen_dark
-	}
-	phenotype_small_icons = {
-		afro_european = craftsmen_medium_small
-		amerindian = craftsmen_medium_small
-		south_asian = craftsmen_medium_small
-		african = craftsmen_dark_small
 	}
 }
