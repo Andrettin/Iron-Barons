@@ -1,7 +1,7 @@
 ranger = {
 	name = "Ranger"
 	unit_class = ranger
-	icon = crossbowmen
+	icon = archers
 	stats = {
 		firepower = 7
 		melee = 2

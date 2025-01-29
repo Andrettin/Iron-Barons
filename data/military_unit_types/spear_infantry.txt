@@ -1,7 +1,7 @@
 spearmen = {
 	name = "Spearmen"
 	unit_class = spearmen
-	icon = pikemen
+	icon = spearmen
 	stats = {
 		melee = 4
 		range = 1

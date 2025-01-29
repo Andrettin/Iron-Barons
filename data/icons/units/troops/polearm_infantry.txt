@@ -1,3 +1,7 @@
+spearmen = {
+	filepath = "icons/units/troops/spearmen.png"
+}
+
 pikemen = {
 	filepath = "icons/units/troops/pikemen.png"
 }

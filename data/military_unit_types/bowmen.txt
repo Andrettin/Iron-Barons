@@ -1,7 +1,7 @@
 archers = {
 	name = "Archers"
 	unit_class = archers
-	icon = crossbowmen
+	icon = archers
 	stats = {
 		firepower = 2
 		melee = 1

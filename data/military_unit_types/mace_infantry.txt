@@ -1,7 +1,7 @@
 clubmen = {
 	name = "Clubmen"
 	unit_class = clubmen
-	icon = pikemen
+	icon = spearmen
 	stats = {
 		melee = 2
 		range = 1
