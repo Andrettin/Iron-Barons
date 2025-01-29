@@ -1,0 +1,5 @@
+hellenism = {
+	name = "Hellenism"
+	group = pagan
+	color = { 153 25 25 }
+}
