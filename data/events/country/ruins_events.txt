@@ -1,7 +1,7 @@
 ruins_explored = {
 	name = "Ruins Explored!"
 	description = "We have explored the ruins of a lost civilization, and found valuable artifacts and precious metals."
-	trigger = ruins_explored
+	trigger = site_visited
 	random = true
 	conditions = {
 		source_site = {
@@ -20,7 +20,7 @@ ruins_explored = {
 expedition_to_tribal_village = {
 	name = "Expedition to Tribal Village"
 	description = "Our expedition to a tribal village has been greeted warmly by the local chieftain, who has given us a gift."
-	trigger = ruins_explored
+	trigger = site_visited
 	random = true
 	conditions = {
 		source_site = {
