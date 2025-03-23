@@ -17,6 +17,8 @@ russia = {
 	}
 	
 	history = {
+		traditions += monarchy
+		
 		1820 = {
 			wealth = 1500
 			
