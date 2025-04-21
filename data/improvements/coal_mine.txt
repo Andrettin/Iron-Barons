@@ -7,8 +7,6 @@ coal_mine = {
 	terrain_image_filepaths = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	employment_profession = coal_miner
-	employment_capacity = 1
 	output_multiplier = 1
 	required_technology = coal_mining
 	wealth_cost = 100
@@ -27,8 +25,6 @@ large_coal_mine = {
 	terrain_image_filepaths = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	employment_profession = coal_miner
-	employment_capacity = 1
 	output_multiplier = 2
 	required_improvement = coal_mine
 	required_technology = large_coal_mines
@@ -48,8 +44,6 @@ steam_pumped_coal_mine = {
 	terrain_image_filepaths = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	employment_profession = coal_miner
-	employment_capacity = 1
 	output_multiplier = 3
 	required_improvement = large_coal_mine
 	required_technology = square_set_timbering
@@ -69,8 +63,6 @@ industrial_coal_mine = {
 	terrain_image_filepaths = {
 		mountains = "tiles/improvements/quarry_mountains.png"
 	}
-	employment_profession = coal_miner
-	employment_capacity = 1
 	output_multiplier = 4
 	required_improvement = steam_pumped_coal_mine
 	required_technology = safety_lamp

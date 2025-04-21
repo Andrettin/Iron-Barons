@@ -9,10 +9,9 @@ humanism = {
 		rationalism
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = researcher
-			commodity = luxuries
-			value = 0.0625
-		}
+		luxuries_per_school = 1
+		luxuries_per_college = 1
+		luxuries_per_university = 1
+		luxuries_per_observatory = 1
 	}
 }

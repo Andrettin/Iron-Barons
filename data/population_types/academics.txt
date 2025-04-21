@@ -5,9 +5,8 @@ academics = {
 	literate = true
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
-	profession_output_modifiers = {
-		researcher = 300
-	}
+	output_commodity = research
+	output_value = 1
 	everyday_consumption = {
 		luxuries = 1
 	}

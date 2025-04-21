@@ -9,10 +9,8 @@ organized_religion = {
 		piety
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = preacher
-			commodity = piety
-			value = 0.0625
-		}
+		piety_per_shrine = 1
+		piety_per_temple = 1
+		piety_per_cathedral = 1
 	}
 }

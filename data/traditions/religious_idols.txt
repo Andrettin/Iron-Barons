@@ -15,28 +15,9 @@ religious_idols = {
 		}
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = gold_miner
-			commodity = culture
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = gold_miner
-			commodity = piety
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = silver_miner
-			commodity = culture
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = silver_miner
-			commodity = piety
-			value = 1
-		}
+		culture_per_improved_gold = 1
+		piety_per_improved_gold = 1
+		culture_per_improved_silver = 1
+		piety_per_improved_silver = 1
 	}
 }

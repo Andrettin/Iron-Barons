@@ -19,22 +19,8 @@ earth_mother = {
 		}
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = copper_miner
-			commodity = piety
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = iron_miner
-			commodity = piety
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = salt_miner
-			commodity = piety
-			value = 1
-		}
+		piety_per_improved_copper = 1
+		piety_per_improved_iron_ore = 1
+		piety_per_improved_salt = 1
 	}
 }

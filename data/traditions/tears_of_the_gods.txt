@@ -19,22 +19,9 @@ tears_of_the_gods = {
 		}
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = amber_miner
-			commodity = piety
-			value = 2
-		}
-		
-		profession_commodity_bonus = {
-			profession = diamond_miner
-			commodity = piety
-			value = 2
-		}
-		
-		profession_commodity_bonus = {
-			profession = gem_miner
-			commodity = piety
-			value = 2
-		}
+		piety_per_improved_amber = 2
+		piety_per_improved_diamonds = 2
+		piety_per_improved_gems = 2
+		#piety_per_improved_pearls = 2
 	}
 }

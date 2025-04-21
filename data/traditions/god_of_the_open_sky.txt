@@ -19,22 +19,8 @@ god_of_the_open_sky = {
 		}
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = cattle_rancher
-			commodity = culture
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = horse_rancher
-			commodity = culture
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = sheep_rancher
-			commodity = culture
-			value = 1
-		}
+		culture_per_improved_cattle = 1
+		culture_per_improved_horses = 1
+		culture_per_improved_sheep = 1
 	}
 }

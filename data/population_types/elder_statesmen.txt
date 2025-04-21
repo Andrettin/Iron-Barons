@@ -5,9 +5,8 @@ elder_statesmen = {
 	literate = true
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
-	profession_output_modifiers = {
-		statesman = 700
-	}
+	output_commodity = statesmanship
+	output_value = 2
 	everyday_consumption = {
 		luxuries = 1
 	}

@@ -20,28 +20,9 @@ communism = {
 		}
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = coal_miner
-			commodity = coal
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = copper_miner
-			commodity = copper
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = iron_miner
-			commodity = iron_ore
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = tin_miner
-			commodity = tin
-			value = 1
-		}
+		coal_per_improved_coal = 1
+		copper_per_improved_copper = 1
+		iron_ore_per_improved_iron_ore = 1
+		tin_per_improved_tin = 1
 	}
 }

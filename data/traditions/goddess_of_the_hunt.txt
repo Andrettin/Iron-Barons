@@ -20,18 +20,9 @@ goddess_of_the_hunt = {
 		}
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = fur_trapper
-			commodity = livestock
-			value = 1
-		}
-		
-		profession_commodity_bonus = {
-			profession = ivory_trapper
-			commodity = livestock
-			value = 1
-		}
-		
+		livestock_per_improved_beavers = 1
 		livestock_per_improved_bison = 1
+		livestock_per_improved_deer = 1
+		livestock_per_improved_ivory = 1
 	}
 }
