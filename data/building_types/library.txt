@@ -10,7 +10,12 @@ library = {
 		metropolis
 		campus
 	}
+	settlement_conditions = {
+		province = {
+			#produces_commodity = research
+		}
+	}
 	settlement_modifier = {
-		research_output_modifier = 50
+		research_output_modifier = 25
 	}
 }

@@ -11,6 +11,14 @@ village_hall = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = statesmanship
+		}
+	}
+	province_modifier = {
+		statesmanship_output_modifier = 25
+	}
 }
 
 town_hall = {
@@ -25,6 +33,14 @@ town_hall = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = statesmanship
+		}
+	}
+	province_modifier = {
+		statesmanship_output_modifier = 50
+	}
 }
 
 city_hall = {
@@ -37,6 +53,14 @@ city_hall = {
 	settlement_types = {
 		city
 		metropolis
+	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = statesmanship
+		}
+	}
+	province_modifier = {
+		statesmanship_output_modifier = 100
 	}
 }
 
@@ -52,6 +76,14 @@ state_house = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = statesmanship
+		}
+	}
+	province_modifier = {
+		statesmanship_output_modifier = 150
+	}
 }
 
 capitol = {
@@ -65,5 +97,13 @@ capitol = {
 	settlement_types = {
 		city
 		metropolis
+	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = statesmanship
+		}
+	}
+	province_modifier = {
+		statesmanship_output_modifier = 200
 	}
 }

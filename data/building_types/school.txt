@@ -10,6 +10,14 @@ school = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = research
+		}
+	}
+	province_modifier = {
+		research_output_modifier = 25
+	}
 }
 
 college = {
@@ -23,6 +31,14 @@ college = {
 		campus
 		city
 		metropolis
+	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = research
+		}
+	}
+	province_modifier = {
+		research_output_modifier = 50
 	}
 }
 
@@ -47,6 +63,14 @@ university = {
 			}
 		}
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = research
+		}
+	}
+	province_modifier = {
+		research_output_modifier = 100
+	}
 }
 
 monastic_school = {
@@ -60,6 +84,14 @@ monastic_school = {
 	settlement_types = {
 		monastery
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = research
+		}
+	}
+	province_modifier = {
+		research_output_modifier = 25
+	}
 }
 
 cathedral_school = {
@@ -72,5 +104,13 @@ cathedral_school = {
 	required_technology = cathedral_school
 	settlement_types = {
 		monastery
+	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = research
+		}
+	}
+	province_modifier = {
+		research_output_modifier = 50
 	}
 }

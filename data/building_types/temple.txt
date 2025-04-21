@@ -14,6 +14,14 @@ shrine = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = piety
+		}
+	}
+	province_modifier = {
+		piety_output_modifier = 25
+	}
 }
 
 temple = {
@@ -29,8 +37,16 @@ temple = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = piety
+		}
+	}
 	settlement_modifier = {
 		luxuries_bonus = 1
+	}
+	province_modifier = {
+		piety_output_modifier = 50
 	}
 }
 
@@ -47,7 +63,15 @@ cathedral = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = piety
+		}
+	}
 	settlement_modifier = {
 		luxuries_bonus = 4
+	}
+	province_modifier = {
+		piety_output_modifier = 100
 	}
 }

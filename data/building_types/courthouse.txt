@@ -17,7 +17,12 @@ courthouse = {
 			}
 		}
 	}
-	settlement_modifier = {
+	settlement_conditions = {
+		province = {
+			produces_commodity = statesmanship
+		}
+	}
+	province_modifier = {
 		statesmanship_output_modifier = 50
 	}
 }

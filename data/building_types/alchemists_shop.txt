@@ -14,4 +14,12 @@ alchemists_shop = {
 		lumber = 4
 		cast_iron = 4
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = research
+		}
+	}
+	settlement_modifier = {
+		research_output_modifier = 25
+	}
 }
