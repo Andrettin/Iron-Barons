@@ -1,7 +1,10 @@
-kiev = {
-	name = "Kiev"
+kyiv = {
+	name = "Kyiv"
 	color = { 1 224 224 }
-	provincial_capital = kiev
+	provincial_capital = kyiv
+	cultural_names = {
+		russian = "Kiev"
+	}
 	regions = {
 		ukraine
 	}

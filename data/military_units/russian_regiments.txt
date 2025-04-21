@@ -77,7 +77,7 @@ kievan_regulars = {
 	
 	history = {
 		1820 = {
-			province = kiev
+			province = kyiv
 		}
 	}
 }
