@@ -10,10 +10,4 @@ feudal_monarchy = {
 			subject_type = colony
 		}
 	}
-	min_policy_values = {
-		centralization_decentralization = 0
-	}
-	max_policy_values = {
-		aristocracy_plutocracy = -1
-	}
 }

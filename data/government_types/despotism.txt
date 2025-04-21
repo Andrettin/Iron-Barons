@@ -11,8 +11,4 @@ despotism = {
 			subject_type = colony
 		}
 	}
-	min_policy_values = {
-		centralization_decentralization = 2
-		innovative_narrowminded = 1
-	}
 }

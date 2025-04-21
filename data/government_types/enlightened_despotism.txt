@@ -9,7 +9,4 @@ enlightened_despotism = {
 			subject_type = colony
 		}
 	}
-	min_policy_values = {
-		serfdom_free_subjects = -3
-	}
 }

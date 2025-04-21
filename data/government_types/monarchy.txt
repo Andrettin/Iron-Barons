@@ -10,11 +10,4 @@ monarchy = {
 			subject_type = colony
 		}
 	}
-	min_policy_values = {
-		centralization_decentralization = -2
-	}
-	max_policy_values = {
-		aristocracy_plutocracy = 2
-		serfdom_free_subjects = 2
-	}
 }
