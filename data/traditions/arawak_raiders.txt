@@ -8,6 +8,9 @@ arawak_raiders = {
 	prerequisites = {
 		honor
 	}
+	preconditions = {
+		culture = arawak
+	}
 	modifier = {
 		military_unit_category_stat_modifier = {
 			category = mace_infantry
