@@ -23,6 +23,6 @@ courthouse = {
 		}
 	}
 	province_modifier = {
-		statesmanship_output_modifier = 50
+		statesmanship_output_modifier = 25
 	}
 }
