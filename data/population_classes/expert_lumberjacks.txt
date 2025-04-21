@@ -1,3 +1,0 @@
-expert_lumberjacks = {
-	name = "Expert Lumberjacks"
-}

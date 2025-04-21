@@ -1,3 +1,0 @@
-expert_fur_trappers = {
-	name = "Expert Fur Trappers"
-}
