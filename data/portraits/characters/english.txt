@@ -20,8 +20,23 @@ francis_drake = {
 		or = {
 			character_type = grand_admiral
 			character_type = naval_reformer
-			character_type = navigator
 			character_type = privateer
+			character_type = giovanni_da_verrazano
+			character_type = juan_de_bermudez
+		}
+	}
+}
+
+henry_hudson = {
+	filepath = "portraits/characters/henry_hudson.png"
+	character_conditions = {
+		gender = male
+		not = {
+			cultural_group = african
+		}
+		is_ruler = false
+		or = {
+			character_type = navigator
 			character_type = giovanni_da_verrazano
 			character_type = juan_de_bermudez
 		}

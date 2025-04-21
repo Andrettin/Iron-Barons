@@ -130,6 +130,7 @@ henry_hudson = {
 	character_type = navigator
 	culture = english
 	religion = protestant
+	portrait = henry_hudson
 	home_settlement = london
 	gender = male
 	birth_date = 1565

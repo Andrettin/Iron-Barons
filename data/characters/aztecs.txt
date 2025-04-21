@@ -5,6 +5,7 @@ montezuma_ii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descober
 	character_type = army_organizer
 	culture = aztec
 	religion = pagan
+	portrait = montezuma_ii
 	home_settlement = mexico_city
 	gender = male
 	birth_date = 1466

@@ -1,0 +1,11 @@
+montezuma_ii = {
+	filepath = "portraits/characters/montezuma_ii.png"
+	character_conditions = {
+		gender = male
+		or = {
+			culture = aztec
+			cultural_group = mesoamerican
+		}
+		is_ruler = true
+	}
+}
