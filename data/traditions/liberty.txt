@@ -6,10 +6,9 @@ liberty = {
 	icon = bell
 	required_technology = code_of_laws
 	modifier = {
-		profession_commodity_bonus = {
-			profession = statesman
+		commodity_bonus_per_settlement = {
 			commodity = culture
-			value = 0.0625
+			value = 1
 		}
 	}
 }

@@ -9,10 +9,7 @@ free_thought = {
 		humanism
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = merchant
-			commodity = research
-			value = 0.0625
-		}
+		research_per_fur_trading_post = 1
+		research_per_spice_factory = 1
 	}
 }

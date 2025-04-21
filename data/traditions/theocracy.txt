@@ -20,10 +20,8 @@ theocracy = {
 		}
 	}
 	modifier = {
-		profession_commodity_bonus = {
-			profession = preacher
-			commodity = trade
-			value = 0.0625
-		}
+		trade_per_shrine = 1
+		trade_per_temple = 2
+		trade_per_cathedral = 3
 	}
 }
