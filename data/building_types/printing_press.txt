@@ -11,6 +11,14 @@ printing_press = {
 		city
 		metropolis
 	}
+	settlement_conditions = {
+		province = {
+			or = {
+				produces_commodity = research
+				produces_commodity = statesmanship
+			}
+		}
+	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 50
 		research_output_modifier = 22
@@ -29,6 +37,11 @@ newspaper = {
 		campus
 		city
 		metropolis
+	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = statesmanship
+		}
 	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 100
