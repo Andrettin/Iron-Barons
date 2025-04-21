@@ -10,4 +10,12 @@ war_college = {
 		metropolis
 		castle
 	}
+	settlement_conditions = {
+		province = {
+			produces_commodity = leadership
+		}
+	}
+	settlement_modifier = {
+		leadership_output_modifier = 100
+	}
 }
