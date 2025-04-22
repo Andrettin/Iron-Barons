@@ -10,4 +10,7 @@ silkworm_ranch = {
 		lumber = 1
 		cast_iron = 1
 	}
+	modifier = {
+		culture_bonus = 1
+	}
 }

@@ -10,6 +10,9 @@ small_coffee_plantation = {
 		lumber = 1
 		cast_iron = 1
 	}
+	modifier = {
+		culture_bonus = 1
+	}
 }
 
 coffee_plantation = {
@@ -25,6 +28,9 @@ coffee_plantation = {
 		lumber = 4
 		cast_iron = 4
 	}
+	modifier = {
+		culture_bonus = 1
+	}
 }
 
 large_coffee_plantation = {
@@ -39,5 +45,8 @@ large_coffee_plantation = {
 	commodity_costs = {
 		lumber = 8
 		cast_iron = 8
+	}
+	modifier = {
+		culture_bonus = 1
 	}
 }
