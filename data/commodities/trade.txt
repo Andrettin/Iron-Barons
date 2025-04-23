@@ -1,5 +1,5 @@
 trade = {
 	name = "Trade"
 	icon = wealth
-	wealth_value = 5
+	wealth_value = 25
 }
