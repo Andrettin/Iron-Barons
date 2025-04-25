@@ -2,6 +2,12 @@ estremadura = {
 	name = "Estremadura"
 	color = { 208 160 128 }
 	provincial_capital = lisbon
+	resources = {
+		grain = 5
+		cattle = 1
+		horses = 1
+		tin = 1
+	}
 	regions = {
 		portugal
 	}

@@ -6,8 +6,9 @@ genoa = {
 		roman = "Genua" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 34-35.
 	}
 	resources = {
-		grain = 1
+		grain = 4
 		fruit = 1
+		cattle = 2
 		iron_ore = 1
 		coal = 1
 	}

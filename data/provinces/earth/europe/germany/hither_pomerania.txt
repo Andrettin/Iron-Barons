@@ -4,6 +4,7 @@ hither_pomerania = {
 	provincial_capital = stettin
 	regions = {
 		germany
+		pomerania
 	}
 	
 	history = {

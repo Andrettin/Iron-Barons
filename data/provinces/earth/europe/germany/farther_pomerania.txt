@@ -4,6 +4,7 @@ farther_pomerania = {
 	provincial_capital = kolberg
 	regions = {
 		poland
+		pomerania
 	}
 	
 	history = {

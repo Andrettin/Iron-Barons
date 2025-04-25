@@ -3,7 +3,9 @@ corsica = {
 	color = { 239 64 32 }
 	provincial_capital = ajaccio
 	resources = {
+		grain = 1
 		fruit = 2
+		cattle = 1
 	}
 	regions = {
 		france

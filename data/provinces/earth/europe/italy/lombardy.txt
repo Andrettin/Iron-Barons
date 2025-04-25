@@ -5,7 +5,10 @@ lombardy = {
 	resources = {
 		grain = 3
 		fruit = 2
+		cattle = 1
+		sheep = 3
 		horses = 1
+		copper = 1
 	}
 	regions = {
 		italy

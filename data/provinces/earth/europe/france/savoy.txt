@@ -3,7 +3,10 @@ savoy = {
 	color = { 208 0 224 }
 	provincial_capital = chambery
 	resources = {
-		coal = 1
+		grain = 4
+		cattle = 1
+		sheep = 2
+		coal = 2
 	}
 	regions = {
 		france

@@ -3,7 +3,7 @@ lorraine = {
 	color = { 176 128 224 }
 	provincial_capital = nancy
 	regions = {
-		france
+		lorraine
 	}
 	
 	history = {

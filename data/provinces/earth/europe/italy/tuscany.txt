@@ -3,7 +3,9 @@ tuscany = {
 	color = { 112 128 160 }
 	provincial_capital = florence
 	resources = {
-		grain = 2
+		grain = 4
+		cattle = 2
+		iron_ore = 1
 	}
 	regions = {
 		italy

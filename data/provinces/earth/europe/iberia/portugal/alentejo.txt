@@ -2,6 +2,10 @@ alentejo = {
 	name = "Alentejo"
 	color = { 235 169 53 }
 	provincial_capital = evora
+	resources = {
+		grain = 3
+		sheep = 1
+	}
 	regions = {
 		portugal
 	}

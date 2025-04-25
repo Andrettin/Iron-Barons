@@ -44,3 +44,15 @@ france = {
 		}
 	}
 }
+
+lorraine = {
+	superregions = {
+		france
+	}
+	resources = {
+		grain = 2
+		sheep = 2
+		timber = 2
+		iron_ore = 1
+	}
+}
