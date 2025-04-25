@@ -2,6 +2,10 @@ slavonia = {
 	name = "Slavonia"
 	color = { 61 252 109 }
 	provincial_capital = esseg
+	resources = {
+		grain = 3
+		timber = 3
+	}
 	regions = {
 		croatia
 		hungary_croatia_slavonia

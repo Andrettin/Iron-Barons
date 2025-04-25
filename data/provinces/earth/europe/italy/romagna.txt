@@ -2,6 +2,11 @@ romagna = {
 	name = "Romagna"
 	color = { 112 0 160 }
 	provincial_capital = bologna
+	resources = {
+		grain = 3
+		fruit = 1
+		cattle = 1
+	}
 	regions = {
 		italy
 	}

@@ -2,6 +2,10 @@ herzegovina = {
 	name = "Herzegovina"
 	color = { 54 215 74 }
 	provincial_capital = mostar
+	resources = {
+		fruit = 1
+		timber = 5
+	}
 	regions = {
 		bosnia
 	}

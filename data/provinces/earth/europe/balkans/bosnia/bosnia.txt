@@ -2,6 +2,11 @@ bosnia = {
 	name = "Bosnia"
 	color = { 141 109 152 }
 	provincial_capital = sarajevo
+	resources = {
+		grain = 1
+		fruit = 1
+		iron_ore = 1
+	}
 	regions = {
 		bosnia
 	}

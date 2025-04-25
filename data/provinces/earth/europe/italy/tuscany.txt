@@ -2,6 +2,9 @@ tuscany = {
 	name = "Tuscany"
 	color = { 112 128 160 }
 	provincial_capital = florence
+	resources = {
+		grain = 2
+	}
 	regions = {
 		italy
 	}

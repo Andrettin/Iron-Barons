@@ -2,6 +2,11 @@ oltenia = {
 	name = "Oltenia"
 	color = { 50 146 44 }
 	provincial_capital = craiova
+	resources = {
+		grain = 2
+		fruit = 2
+		timber = 1
+	}
 	regions = {
 		romania
 	}

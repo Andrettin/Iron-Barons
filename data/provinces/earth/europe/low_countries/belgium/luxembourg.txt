@@ -2,6 +2,10 @@ luxembourg = {
 	name = "Luxembourg"
 	color = { 81 128 160 }
 	provincial_capital = luxembourg
+	resources = {
+		sheep = 1
+		timber = 3
+	}
 	regions = {
 		low_countries
 	}
