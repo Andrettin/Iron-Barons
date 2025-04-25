@@ -1,7 +1,7 @@
 bodman = {
 	name = "Bodman" #also known as Bodmann
 	world = earth
-	#geocoordinate = { 9.0461 47.7954 }
+	#geocoordinate = { 9.0461 47.7954 } #commented out because it conflicts with Constance
 	province = baden
 	
 	history = {

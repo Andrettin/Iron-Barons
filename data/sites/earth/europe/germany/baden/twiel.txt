@@ -1,7 +1,7 @@
 twiel = {
 	name = "Twiel" #also known as Hohentwiel
 	world = earth
-	#geocoordinate = { 8.81888889 47.76472222 }
+	#geocoordinate = { 8.81888889 47.76472222 } #commented out because it conflicts with Constance
 	province = baden
 	
 	history = {

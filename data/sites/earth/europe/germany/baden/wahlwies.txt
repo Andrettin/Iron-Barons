@@ -1,7 +1,7 @@
 wahlwies = {
 	name = "Wahlwies"
 	world = earth
-	#geocoordinate = { 8.9673 47.8168 }
+	#geocoordinate = { 8.9673 47.8168 } #commented out because it conflicts with Constance
 	province = baden
 	
 	history = {

@@ -6,6 +6,7 @@ plains = {
 	elevation_type = flatlands
 	fallback_terrains = {
 		savannah
+		swamp
 		desert
 		conifer_forest
 		barren_hills
