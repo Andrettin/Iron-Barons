@@ -2,6 +2,9 @@ savoy = {
 	name = "Savoy"
 	color = { 208 0 224 }
 	provincial_capital = chambery
+	resources = {
+		coal = 1
+	}
 	regions = {
 		france
 	}

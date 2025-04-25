@@ -2,6 +2,11 @@ sardinia = {
 	name = "Sardinia"
 	color = { 128 208 32 }
 	provincial_capital = cagliari
+	resources = {
+		grain = 1
+		fruit = 2
+		timber = 4
+	}
 	regions = {
 		italy
 	}

@@ -2,6 +2,10 @@ pest = {
 	name = "Pest"
 	color = { 81 224 224 }
 	provincial_capital = pest
+	resources = {
+		grain = 2
+		fruit = 2
+	}
 	regions = {
 		hungary
 	}

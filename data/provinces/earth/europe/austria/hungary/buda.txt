@@ -2,6 +2,10 @@ buda = {
 	name = "Buda"
 	color = { 30 101 51 }
 	provincial_capital = buda
+	resources = {
+		grain = 2
+		sheep = 2
+	}
 	regions = {
 		hungary
 	}
