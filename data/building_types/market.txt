@@ -6,6 +6,7 @@ market = {
 	provincial = true
 	required_technology = coinage
 	settlement_types = {
+		village
 		town
 		city
 		metropolis

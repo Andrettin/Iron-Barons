@@ -5,6 +5,7 @@ school = {
 	icon = university
 	provincial = true
 	settlement_types = {
+		village
 		campus
 		town
 		city
@@ -78,7 +79,6 @@ monastic_school = {
 	building_class = monastic_school
 	portrait = university
 	icon = university
-	free_in_capital = true
 	provincial = true
 	required_technology = monastic_school
 	settlement_types = {
