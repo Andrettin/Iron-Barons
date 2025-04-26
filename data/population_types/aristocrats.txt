@@ -24,7 +24,7 @@ aristocrats = {
 		coal = 0.1
 	}
 	country_modifier = {
-		resource_output_modifier = 1
+		resource_output_modifier = 10
 	}
 	phenotype_icons = {
 		afro_european = rifle_infantry_medium
