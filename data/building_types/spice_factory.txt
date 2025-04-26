@@ -19,7 +19,7 @@ spice_factory = {
 			has_route = true
 		}
 	}
-	settlement_modifier = {
-		trade_bonus = 1
+	province_modifier = {
+		trade_per_improved_spices = 1
 	}
 }
