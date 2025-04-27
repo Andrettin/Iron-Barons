@@ -3,5 +3,5 @@ tobruk = {
 	world = earth
 	geocoordinate = { 23.96002559280 32.07999147440 } #from Natural Earth
 	type = settlement
-	resource = grain
+	province = tobruk
 }

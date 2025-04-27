@@ -3,7 +3,7 @@ oran = {
 	world = earth
 	geocoordinate = { -0.61997277974 35.71000246080 } #from Natural Earth
 	type = settlement
-	resource = grain
+	province = oran
 	
 	history = {
 		1360 = {

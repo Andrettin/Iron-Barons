@@ -2,6 +2,9 @@ new_york = {
 	name = "New York"
 	color = { 176 128 128 }
 	provincial_capital = new_york
+	resources = {
+		grain = 1
+	}
 	regions = {
 		united_states
 	}

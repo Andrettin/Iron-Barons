@@ -2,6 +2,9 @@ tobruk = {
 	name = "Tobruk"
 	color = { 79 232 82 }
 	provincial_capital = tobruk
+	resources = {
+		grain = 1
+	}
 	regions = {
 		libya
 	}

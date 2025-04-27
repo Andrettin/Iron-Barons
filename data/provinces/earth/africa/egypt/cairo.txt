@@ -5,6 +5,9 @@ cairo = {
 	cultural_names = {
 		egyptian = "Memphis"
 	}
+	resources = {
+		grain = 1
+	}
 	regions = {
 		egypt
 	}

@@ -3,7 +3,7 @@ trieste = {
 	world = earth
 	geocoordinate = { 13.80002559270 45.65037762360 } #from Natural Earth
 	type = settlement
-	resource = grain
+	province = istria
 	cultural_names = {
 		roman = "Tergeste" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 38-39.
 	}

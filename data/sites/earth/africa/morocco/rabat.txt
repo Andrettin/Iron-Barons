@@ -3,5 +3,5 @@ rabat = {
 	world = earth
 	geocoordinate = { -6.83613082013 34.02529909160 } #from Natural Earth
 	type = settlement
-	resource = grain
+	province = rabat
 }

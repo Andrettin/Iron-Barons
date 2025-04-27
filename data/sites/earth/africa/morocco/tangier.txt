@@ -3,7 +3,7 @@ tangier = {
 	world = earth
 	geocoordinate = { -5.83270369610 35.74728700670 } #from Natural Earth
 	type = settlement
-	resource = grain
+	province = tangier
 	
 	history = {
 		1360 = {

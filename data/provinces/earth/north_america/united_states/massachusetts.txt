@@ -2,6 +2,9 @@ massachusetts = {
 	name = "Massachusetts"
 	color = { 165 142 210 }
 	provincial_capital = boston
+	resources = {
+		grain = 1
+	}
 	regions = {
 		united_states
 	}
