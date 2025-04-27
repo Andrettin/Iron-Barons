@@ -1,0 +1,18 @@
+center_of_trade = {
+	name = "Center of Trade"
+	icon = wealth
+	tiny_icon = trade_consulate
+	terrain_types = {
+		plains
+		savannah
+		desert
+		barren_hills
+		mountains
+	}
+	site_types = {
+		settlement
+	}
+	modifier = {
+		trade_bonus = 1
+	}
+}

@@ -3,8 +3,9 @@ lemberg = {
 	world = earth
 	geocoordinate = { 24.02999548210 49.83498008130 } #from Natural Earth
 	type = settlement
-	resource = coal
+	resource = center_of_trade
 	cultural_names = {
 		russian = "Lvov"
+		ukrainian = "Lviv"
 	}
 }
