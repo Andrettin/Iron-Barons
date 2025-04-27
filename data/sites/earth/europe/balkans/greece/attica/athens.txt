@@ -3,6 +3,7 @@ athens = {
 	world = earth
 	geocoordinate = { 23.73332108430 37.98332623190 } #from Natural Earth
 	type = settlement
+	resource = holy_site
 	province = attica
 	
 	history = {

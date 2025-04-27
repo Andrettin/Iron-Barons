@@ -176,7 +176,7 @@ Item {
 			anchors.horizontalCenter: parent.horizontalCenter
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.verticalCenterOffset: -24 * scale_factor
-			text: resource && site && site.game_data.commodity_outputs.length > 0 ? site.game_data.get_commodity_output(resource.commodity) : "" //refer to the commodity_outputs property so that this will be reevaluated if it changes (e.g. if the value changes)
+			text: resource && resource.commodity && site && site.game_data.commodity_outputs.length > 0 ? site.game_data.get_commodity_output(resource.commodity) : "" //refer to the commodity_outputs property so that this will be reevaluated if it changes (e.g. if the value changes)
 			visible: tile_detail_resource_icon.visible
 		}
 		
@@ -184,7 +184,7 @@ Item {
 			id: tile_detail_resource_icon
 			anchors.horizontalCenter: parent.horizontalCenter
 			anchors.verticalCenter: parent.verticalCenter
-			source: resource ? ("image://icon/" + resource.commodity.icon.identifier) : "image://empty/"
+			source: resource && resource.commodity ? ("image://icon/" + resource.commodity.icon.identifier) : "image://empty/"
 			fillMode: Image.Pad
 			visible: site && site.game_data.resource_improvement !== null && resource !== null
 		}
