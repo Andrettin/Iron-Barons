@@ -5,4 +5,7 @@ dye = {
 	terrain_types = {
 		plains
 	}
+	improved_modifier = {
+		piety_bonus = 1
+	}
 }

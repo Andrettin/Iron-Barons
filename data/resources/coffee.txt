@@ -5,4 +5,7 @@ coffee = {
 	terrain_types = {
 		savannah
 	}
+	improved_modifier = {
+		culture_bonus = 1
+	}
 }

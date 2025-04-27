@@ -5,4 +5,7 @@ tea = {
 	terrain_types = {
 		plains
 	}
+	improved_modifier = {
+		research_bonus = 1
+	}
 }

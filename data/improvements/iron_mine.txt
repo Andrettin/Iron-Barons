@@ -14,9 +14,6 @@ iron_mine = {
 		lumber = 1
 		cast_iron = 1
 	}
-	modifier = {
-		research_bonus = 1
-	}
 }
 
 improved_iron_mine = {
@@ -34,9 +31,6 @@ improved_iron_mine = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
-	}
-	modifier = {
-		research_bonus = 1
 	}
 }
 
@@ -57,9 +51,6 @@ steam_pumped_iron_mine = {
 		lumber = 8
 		cast_iron = 8
 	}
-	modifier = {
-		research_bonus = 1
-	}
 }
 
 industrial_iron_mine = {
@@ -78,8 +69,5 @@ industrial_iron_mine = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
-	}
-	modifier = {
-		research_bonus = 1
 	}
 }

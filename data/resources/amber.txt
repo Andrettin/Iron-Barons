@@ -7,4 +7,7 @@ amber = {
 	terrain_types = {
 		swamp
 	}
+	improved_modifier = {
+		culture_bonus = 1
+	}
 }
