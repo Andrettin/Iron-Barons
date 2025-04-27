@@ -3,7 +3,7 @@ stockholm = {
 	world = earth
 	geocoordinate = { 18.09733473280 59.35075995430 } #from Natural Earth
 	type = settlement
-	resource = cattle #Dairying predominant; Source: Map No. 500866 of the Perry-Castañeda Library Map Collection, 1973.
+	province = uppland
 	
 	history = {
 		1360 = {

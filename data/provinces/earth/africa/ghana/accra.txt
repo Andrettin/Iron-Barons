@@ -2,6 +2,9 @@ accra = {
 	name = "Accra"
 	color = { 230 217 208 }
 	provincial_capital = accra
+	resources = {
+		cattle = 1
+	}
 	regions = {
 		africa
 	}

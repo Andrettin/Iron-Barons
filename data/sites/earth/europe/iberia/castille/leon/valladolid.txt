@@ -3,7 +3,7 @@ valladolid = {
 	world = earth
 	geocoordinate = { -4.75003076315 41.65000164700 } #from Natural Earth
 	type = settlement
-	resource = cattle
+	#resource = cattle
 	province = valladolid
 	
 	history = {

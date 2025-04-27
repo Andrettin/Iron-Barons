@@ -3,7 +3,7 @@ van = {
 	world = earth
 	geocoordinate = { 43.39997595090 38.49543967600 } #from Natural Earth
 	type = settlement
-	resource = cattle #Pasture grasses; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
+	#resource = cattle #Pasture grasses; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 	
 	history = {
 		1481 = {

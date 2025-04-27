@@ -2,6 +2,9 @@ marrakech = {
 	name = "Marrakech"
 	color = { 237 89 2 }
 	provincial_capital = marrakech
+	resources = {
+		fruit = 1
+	}
 	regions = {
 		morocco
 	}

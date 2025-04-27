@@ -3,7 +3,6 @@ valencia = {
 	world = earth
 	geocoordinate = { -0.40001204569 39.48501751610 } #from Natural Earth
 	type = settlement
-	resource = fruit
 	cultural_names = {
 		roman = "Valentia" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 	}

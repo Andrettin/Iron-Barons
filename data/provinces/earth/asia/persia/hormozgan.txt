@@ -2,6 +2,9 @@ hormozgan = {
 	name = "Hormozgan"
 	color = { 178 13 67 }
 	provincial_capital = bandar_abbas
+	resources = {
+		fruit = 1
+	}
 	regions = {
 		persia
 	}

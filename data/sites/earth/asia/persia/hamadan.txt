@@ -3,6 +3,5 @@ hamadan = {
 	world = earth
 	geocoordinate = { 48.51501257200 34.79602724100 } #from Natural Earth
 	type = settlement
-	resource = fruit
 	province = hamadan
 }

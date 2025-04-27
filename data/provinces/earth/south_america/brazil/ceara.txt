@@ -2,6 +2,9 @@ ceara = {
 	name = "Ceara" #"Ceará"
 	color = { 131 92 31 }
 	provincial_capital = fortaleza
+	resources = {
+		fruit = 1
+	}
 	regions = {
 		brazil
 	}

@@ -3,6 +3,5 @@ najaf = {
 	world = earth
 	geocoordinate = { 44.33537105180 32.00033225410 } #from Natural Earth
 	type = settlement
-	resource = fruit
 	province = najaf
 }

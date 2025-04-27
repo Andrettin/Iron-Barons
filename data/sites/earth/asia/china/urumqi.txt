@@ -3,5 +3,6 @@ urumqi = {
 	world = earth
 	geocoordinate = { 87.57500565490 43.80501222640 } #from Natural Earth
 	type = settlement
-	resource = cotton
+	#resource = cotton
+	province = xinjiang
 }

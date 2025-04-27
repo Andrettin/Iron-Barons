@@ -2,6 +2,9 @@ najaf = {
 	name = "Najaf"
 	color = { 244 17 79 }
 	provincial_capital = najaf
+	resources = {
+		fruit = 1
+	}
 	regions = {
 		asia
 		middle_east

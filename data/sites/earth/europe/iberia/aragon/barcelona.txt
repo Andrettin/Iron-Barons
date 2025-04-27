@@ -3,7 +3,8 @@ barcelona = {
 	world = earth
 	geocoordinate = { 2.18337031923 41.38329957990 } #from Natural Earth
 	type = settlement
-	resource = cattle
+	#resource = cattle
+	province = catalonia
 	
 	history = {
 		395 = {

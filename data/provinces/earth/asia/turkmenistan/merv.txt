@@ -2,6 +2,9 @@ merv = {
 	name = "Merv" #also known as Mary
 	color = { 214 78 138 }
 	provincial_capital = merv
+	resources = {
+		cotton = 1
+	}
 	regions = {
 		turkmenistan
 	}

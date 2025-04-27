@@ -5,6 +5,8 @@ alsace = {
 	resources = {
 		horses = 1
 		timber = 4
+		
+		grain = 1
 	}
 	regions = {
 		france

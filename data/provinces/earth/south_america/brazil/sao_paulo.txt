@@ -2,6 +2,9 @@ sao_paulo = {
 	name = "Sao Paulo" #"São Paulo"
 	color = { 83 205 137 }
 	provincial_capital = sao_paulo
+	resources = {
+		coffee = 1
+	}
 	regions = {
 		brazil
 	}

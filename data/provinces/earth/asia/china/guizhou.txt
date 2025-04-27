@@ -2,6 +2,9 @@ guizhou = {
 	name = "Guizhou"
 	color = { 203 129 125 }
 	provincial_capital = guiyang
+	resources = {
+		tea = 1
+	}
 	regions = {
 		asia
 	}

@@ -3,7 +3,7 @@ basra = {
 	world = earth
 	geocoordinate = { 47.81355668010 30.51352378240 } #from Natural Earth
 	type = settlement
-	resource = fruit
+	#resource = fruit
 	province = chaldea
 	
 	history = {

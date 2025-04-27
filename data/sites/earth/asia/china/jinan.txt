@@ -3,5 +3,6 @@ jinan = {
 	world = earth
 	geocoordinate = { 116.99501867600 36.67498231920 } #from Natural Earth
 	type = settlement
-	resource = cotton
+	#resource = cotton
+	province = shandong
 }

@@ -2,6 +2,9 @@ elam = {
 	name = "Elam"
 	color = { 208 188 231 }
 	provincial_capital = ilam
+	resources = {
+		cotton = 1
+	}
 	regions = {
 		persia
 	}

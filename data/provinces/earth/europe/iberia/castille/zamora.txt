@@ -2,6 +2,9 @@ zamora = {
 	name = "Zamora"
 	color = { 140 80 36 }
 	provincial_capital = zamora
+	resources = {
+		fruit = 1
+	}
 	regions = {
 		spain
 	}

@@ -2,6 +2,6 @@ ruwayshid = {
 	name = "Ruwayshid"
 	world = earth
 	geocoordinate = { 38.385 32.506111111111 }
-	type = settlement
+	type = resource
 	resource = grain
 }

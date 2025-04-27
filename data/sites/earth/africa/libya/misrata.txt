@@ -3,5 +3,5 @@ misrata = {
 	world = earth
 	geocoordinate = { 15.09999792350 32.37997316390 } #from Natural Earth
 	type = settlement
-	resource = fruit
+	province = misrata
 }

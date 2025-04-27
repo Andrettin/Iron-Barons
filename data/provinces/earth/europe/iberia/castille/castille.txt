@@ -2,6 +2,9 @@ castille = {
 	name = "Castille"
 	color = { 48 32 128 }
 	provincial_capital = madrid
+	resources = {
+		cattle = 1
+	}
 	regions = {
 		spain
 	}

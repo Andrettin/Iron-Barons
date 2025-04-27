@@ -3,7 +3,8 @@ esseg = {
 	world = earth
 	geocoordinate = { 18.68003779980 45.55038372710 } #from Natural Earth
 	type = settlement
-	resource = cattle
+	#resource = cattle
+	province = slavonia
 	cultural_names = {
 		croatian = "Osijek"
 	}

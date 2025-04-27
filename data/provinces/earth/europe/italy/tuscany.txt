@@ -6,6 +6,8 @@ tuscany = {
 		grain = 4
 		cattle = 2
 		iron_ore = 1
+		
+		fruit = 1
 	}
 	regions = {
 		italy

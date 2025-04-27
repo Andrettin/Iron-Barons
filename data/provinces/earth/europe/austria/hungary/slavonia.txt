@@ -5,6 +5,8 @@ slavonia = {
 	resources = {
 		grain = 3
 		timber = 3
+		
+		cattle
 	}
 	regions = {
 		croatia

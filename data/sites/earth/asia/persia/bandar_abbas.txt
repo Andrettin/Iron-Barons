@@ -3,6 +3,6 @@ bandar_abbas = {
 	world = earth
 	geocoordinate = { 56.27213554360 27.20405978220 } #from Natural Earth
 	type = settlement
-	resource = fruit
+	#resource = fruit
 	province = hormozgan
 }

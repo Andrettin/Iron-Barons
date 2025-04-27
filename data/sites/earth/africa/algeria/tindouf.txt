@@ -3,5 +3,5 @@ tindouf = {
 	world = earth
 	geocoordinate = { -8.14778202456 27.67418804830 } #from Natural Earth
 	type = settlement
-	resource = fruit
+	province = tindouf
 }

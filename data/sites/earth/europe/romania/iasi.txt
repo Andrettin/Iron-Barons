@@ -3,7 +3,8 @@ iasi = {
 	world = earth
 	geocoordinate = { 27.57494706090 47.16834698390 } #from Natural Earth
 	type = settlement
-	resource = fruit
+	#resource = fruit
+	province = moldavia
 	
 	history = {
 		1360 = {

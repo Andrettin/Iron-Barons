@@ -5,6 +5,8 @@ pest = {
 	resources = {
 		grain = 2
 		fruit = 2
+		
+		cattle = 1
 	}
 	regions = {
 		hungary

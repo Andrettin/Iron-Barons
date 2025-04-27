@@ -2,6 +2,9 @@ pernambuco = {
 	name = "Pernambuco"
 	color = { 33 128 80 }
 	provincial_capital = recife
+	resources = {
+		coffee = 1
+	}
 	regions = {
 		brazil
 	}

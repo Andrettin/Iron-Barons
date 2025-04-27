@@ -3,7 +3,7 @@ mexico_city = {
 	world = earth
 	geocoordinate = { -99.13098820170 19.44244244280 } #from Natural Earth
 	type = settlement
-	resource = grain #Corn and beans; Source: Map No. 503497 of the Perry-Castañeda Library Map Collection, 1978.
+	#resource = grain #Corn and beans; Source: Map No. 503497 of the Perry-Castañeda Library Map Collection, 1978.
 	cultural_names = {
 		aztec = "Tenochtitlan"
 	}

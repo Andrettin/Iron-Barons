@@ -3,7 +3,6 @@ ur = {
 	world = earth
 	geocoordinate = { 46.104444 30.962222 }
 	type = settlement
-	resource = fruit #since Nasiryah would have this resource, but would be placed in the same tile as Ur
 	
 	history = {
 		-1450 = {

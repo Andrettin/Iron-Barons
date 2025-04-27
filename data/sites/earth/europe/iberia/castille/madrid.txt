@@ -3,7 +3,8 @@ madrid = {
 	world = earth
 	geocoordinate = { -3.68335168600 40.40002626450 } #from Natural Earth
 	type = settlement
-	resource = cattle
+	#resource = cattle
+	province = castille
 	cultural_names = {
 		roman = "Complutum"
 	}

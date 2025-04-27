@@ -3,7 +3,8 @@ montpellier = {
 	world = earth
 	geocoordinate = { 3.86998571637 43.61039878240 } #from Natural Earth
 	type = settlement
-	resource = cattle
+	#resource = cattle
+	province = lower_languedoc
 	
 	history = {
 		1250 = {

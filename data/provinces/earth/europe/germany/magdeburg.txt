@@ -2,6 +2,9 @@ magdeburg = {
 	name = "Magdeburg"
 	color = { 160 128 224 }
 	provincial_capital = magdeburg
+	resources = {
+		cattle = 1
+	}
 	regions = {
 		germany
 	}

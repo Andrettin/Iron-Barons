@@ -2,6 +2,9 @@ benghazi = {
 	name = "Benghazi"
 	color = { 51 26 49 }
 	provincial_capital = benghazi
+	resources = {
+		fruit = 1
+	}
 	regions = {
 		libya
 	}

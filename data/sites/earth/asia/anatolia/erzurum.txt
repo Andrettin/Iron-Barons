@@ -3,7 +3,7 @@ erzurum = {
 	world = earth
 	geocoordinate = { 41.29002722040 39.92039145820 } #from Natural Earth
 	type = settlement
-	resource = cattle #Pasture grasses; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
+	#resource = cattle #Pasture grasses; Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 	
 	history = {
 		1360 = {

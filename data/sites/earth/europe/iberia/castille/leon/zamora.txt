@@ -3,7 +3,6 @@ zamora = {
 	world = earth
 	geocoordinate = { -5.7555555555556 41.503333333333 }
 	type = settlement
-	resource = fruit
 	province = zamora
 	cultural_names = {
 		roman = "Ocelum Duri"

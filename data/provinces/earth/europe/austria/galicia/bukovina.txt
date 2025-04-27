@@ -4,6 +4,8 @@ bukovina = {
 	provincial_capital = czernowitz
 	resources = {
 		timber = 2
+		
+		fruit = 1
 	}
 	regions = {
 		galicia

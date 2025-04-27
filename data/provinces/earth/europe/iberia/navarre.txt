@@ -2,6 +2,9 @@ navarre = {
 	name = "Navarre"
 	color = { 16 224 192 }
 	provincial_capital = pamplona
+	resources = {
+		fruit = 1
+	}
 	regions = {
 		spain
 	}
