@@ -16,6 +16,10 @@ campus = {
 		population_unit_count = 6
 	}
 	conditions = {
+		not = {
+			resource = center_of_trade
+			resource = holy_site
+		}
 		has_building_class = school
 	}
 }

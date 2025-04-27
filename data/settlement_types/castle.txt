@@ -18,6 +18,10 @@ castle = {
 		has_building_class = stockade
 	}
 	conditions = {
+		not = {
+			resource = center_of_trade
+			resource = holy_site
+		}
 		province = {
 			or = {
 				produces_commodity = leadership

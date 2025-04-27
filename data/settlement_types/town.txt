@@ -57,6 +57,9 @@ town = {
 		population_unit_count = 6
 	}
 	conditions = {
+		not = {
+			resource = holy_site
+		}
 		or = {
 			has_building_class = village_hall
 			has_building_class = market

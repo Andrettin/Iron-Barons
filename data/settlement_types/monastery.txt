@@ -17,6 +17,9 @@ monastery = {
 		population_unit_count = 6
 	}
 	conditions = {
+		not = {
+			resource = center_of_trade
+		}
 		has_building_class = temple
 	}
 }
