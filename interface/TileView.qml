@@ -361,4 +361,50 @@ Item {
 			status_text = "Garrison"
 		}
 	}
+	
+	MouseArea {
+		anchors.horizontalCenter: resource_icon.horizontalCenter
+		anchors.verticalCenter: resource_icon.verticalCenter
+		width: Math.min(resource_icon.width + 8 * scale_factor, tile_size)
+		height: Math.min(resource_icon.height + 8 * scale_factor, tile_size)
+		hoverEnabled: true
+		enabled: resource_icon.visible
+		visible: enabled
+		
+		onEntered: {
+			if (site.game_data.resource_improvement !== null) {
+				status_text = site.game_data.resource_improvement.name
+			} else {
+				status_text = resource.name
+			}
+		}
+	}
+	
+	MouseArea {
+		anchors.horizontalCenter: depot_icon.horizontalCenter
+		anchors.verticalCenter: depot_icon.verticalCenter
+		width: Math.min(depot_icon.width + 8 * scale_factor, tile_size)
+		height: Math.min(depot_icon.height + 8 * scale_factor, tile_size)
+		hoverEnabled: true
+		enabled: depot_icon.visible
+		visible: enabled
+		
+		onEntered: {
+			status_text = site.game_data.depot_improvement.name
+		}
+	}
+	
+	MouseArea {
+		anchors.horizontalCenter: port_icon.horizontalCenter
+		anchors.verticalCenter: port_icon.verticalCenter
+		width: Math.min(port_icon.width + 8 * scale_factor, tile_size)
+		height: Math.min(port_icon.height + 8 * scale_factor, tile_size)
+		hoverEnabled: true
+		enabled: port_icon.visible
+		visible: enabled
+		
+		onEntered: {
+			status_text = site.game_data.port_improvement.name
+		}
+	}
 }

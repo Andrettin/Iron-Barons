@@ -1,7 +1,7 @@
 holy_site = {
 	name = "Holy Site"
 	icon = wooden_cross
-	tiny_icon = embassy
+	tiny_icon = peace
 	terrain_types = {
 		plains
 		savannah
