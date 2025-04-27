@@ -6,7 +6,10 @@ valencia = {
 		roman = "Valentia" #Source: "Ancient Warfare VII.6", 2013, p. 7.
 	}
 	resources = {
-		fruit = 1
+		grain = 1
+		fruit = 3
+		cattle = 2
+		horses = 1
 	}
 	regions = {
 		spain

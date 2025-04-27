@@ -2,6 +2,12 @@ andalusia = {
 	name = "Andalusia"
 	color = { 128 16 32 }
 	provincial_capital = seville
+	resources = {
+		grain = 4
+		fruit = 2
+		sheep = 1
+		horses = 1
+	}
 	regions = {
 		spain
 	}

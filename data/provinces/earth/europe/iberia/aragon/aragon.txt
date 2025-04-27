@@ -3,7 +3,9 @@ aragon = {
 	color = { 80 96 64 }
 	provincial_capital = zaragoza
 	resources = {
-		grain = 1
+		grain = 2
+		sheep = 3
+		iron_ore = 2
 	}
 	regions = {
 		spain

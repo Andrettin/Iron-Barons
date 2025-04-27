@@ -2,6 +2,14 @@ asturias = {
 	name = "Asturias"
 	color = { 80 96 192 }
 	provincial_capital = oviedo
+	resources = {
+		grain = 2
+		fruit = 1
+		cattle = 3
+		sheep = 2
+		copper = 1
+		coal = 1
+	}
 	regions = {
 		spain
 	}

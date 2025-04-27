@@ -3,6 +3,14 @@ catalonia = {
 	color = { 224 192 32 }
 	provincial_capital = barcelona
 	resources = {
+		grain = 4
+		cattle = 2
+		sheep = 1
+		timber = 2
+		tin = 1
+		iron_ore = 1
+		gold = 1
+		
 		cattle = 1
 	}
 	regions = {

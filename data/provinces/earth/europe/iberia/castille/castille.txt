@@ -3,7 +3,11 @@ castille = {
 	color = { 48 32 128 }
 	provincial_capital = madrid
 	resources = {
-		cattle = 1
+		grain = 7
+		cattle = 4
+		sheep = 2
+		horses = 1
+		timber = 3
 	}
 	regions = {
 		spain

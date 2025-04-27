@@ -4,7 +4,8 @@ alentejo = {
 	provincial_capital = evora
 	resources = {
 		grain = 3
-		sheep = 1
+		sheep = 2
+		timber = 1
 	}
 	regions = {
 		portugal

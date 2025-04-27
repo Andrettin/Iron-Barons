@@ -5,7 +5,7 @@ minho = {
 	resources = {
 		grain = 3
 		cattle = 2
-		sheep = 1
+		sheep = 4
 		timber = 1
 		iron_ore = 2
 	}

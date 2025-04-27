@@ -3,6 +3,9 @@ navarre = {
 	color = { 16 224 192 }
 	provincial_capital = pamplona
 	resources = {
+		grain = 2
+		sheep = 1
+		
 		fruit = 1
 	}
 	regions = {

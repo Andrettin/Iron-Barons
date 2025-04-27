@@ -2,6 +2,10 @@ extremadura = {
 	name = "Extremadura"
 	color = { 80 48 192 }
 	provincial_capital = merida
+	resources = {
+		cattle = 2
+		sheep = 3
+	}
 	regions = {
 		spain
 	}
