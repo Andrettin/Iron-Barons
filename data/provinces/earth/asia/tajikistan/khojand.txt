@@ -2,6 +2,9 @@ khojand = {
 	name = "Khojand"
 	color = { 224 149 125 }
 	provincial_capital = khojand
+	resources = {
+		grain = 1
+	}
 	regions = {
 		tajikistan
 	}

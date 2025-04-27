@@ -3,7 +3,6 @@ karbala = {
 	world = earth
 	geocoordinate = { 44.02448563520 32.61492006330 } #from Natural Earth
 	type = settlement
-	resource = grain
 	province = karbala
 	
 	history = {

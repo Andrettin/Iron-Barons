@@ -2,6 +2,9 @@ mecca = {
 	name = "Mecca"
 	color = { 137 141 237 }
 	provincial_capital = mecca
+	resources = {
+		grain = 1
+	}
 	regions = {
 		asia
 		middle_east

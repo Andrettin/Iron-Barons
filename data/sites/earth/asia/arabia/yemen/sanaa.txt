@@ -3,6 +3,5 @@ sanaa = {
 	world = earth
 	geocoordinate = { 44.20659338260 15.35473329570 } #from Natural Earth
 	type = settlement
-	resource = grain
 	province = yemen
 }

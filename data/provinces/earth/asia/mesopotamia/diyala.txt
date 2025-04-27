@@ -2,6 +2,9 @@ diyala = {
 	name = "Diyala"
 	color = { 45 38 86 }
 	provincial_capital = baghdad
+	resources = {
+		grain = 1
+	}
 	regions = {
 		asia
 		middle_east

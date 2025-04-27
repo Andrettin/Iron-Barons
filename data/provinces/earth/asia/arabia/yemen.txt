@@ -2,6 +2,9 @@ yemen = {
 	name = "Yemen"
 	color = { 220 135 238 }
 	provincial_capital = sanaa
+	resources = {
+		grain = 1
+	}
 	regions = {
 		asia
 		middle_east

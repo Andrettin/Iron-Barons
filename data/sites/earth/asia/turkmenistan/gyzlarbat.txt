@@ -3,6 +3,5 @@ gyzlarbat = {
 	world = earth
 	geocoordinate = { 56.27779455450 38.97553957020 } #from Natural Earth
 	type = settlement
-	resource = grain
 	province = balkan
 }
