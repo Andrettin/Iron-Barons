@@ -6,4 +6,7 @@ fruit = {
 		plains
 		savannah
 	}
+	site_types = {
+		resource
+	}
 }

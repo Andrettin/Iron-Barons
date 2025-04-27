@@ -8,4 +8,8 @@ oil = {
 		desert
 		tundra
 	}
+	site_types = {
+		settlement
+		resource
+	}
 }

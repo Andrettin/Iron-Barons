@@ -8,4 +8,7 @@ coffee = {
 	improved_modifier = {
 		culture_bonus = 1
 	}
+	site_types = {
+		resource
+	}
 }

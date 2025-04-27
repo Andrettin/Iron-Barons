@@ -6,4 +6,8 @@ tin = {
 	terrain_types = {
 		swamp
 	}
+	site_types = {
+		settlement
+		resource
+	}
 }

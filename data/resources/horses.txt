@@ -5,4 +5,7 @@ horses = {
 	terrain_types = {
 		plains
 	}
+	site_types = {
+		resource
+	}
 }

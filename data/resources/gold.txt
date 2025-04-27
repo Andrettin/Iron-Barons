@@ -7,4 +7,8 @@ gold = {
 	terrain_types = {
 		mountains
 	}
+	site_types = {
+		settlement
+		resource
+	}
 }

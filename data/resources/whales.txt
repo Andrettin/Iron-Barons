@@ -10,4 +10,8 @@ whales = {
 		swamp
 		tundra
 	}
+	site_types = {
+		settlement
+		resource
+	}
 }

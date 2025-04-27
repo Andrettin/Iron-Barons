@@ -9,4 +9,7 @@ ivory = {
 		#glacier
 		plains
 	}
+	site_types = {
+		resource
+	}
 }

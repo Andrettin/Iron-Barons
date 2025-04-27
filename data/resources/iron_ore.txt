@@ -7,6 +7,10 @@ iron_ore = {
 		barren_hills
 		mountains
 	}
+	site_types = {
+		settlement
+		resource
+	}
 	improved_modifier = {
 		research_bonus = 1
 	}

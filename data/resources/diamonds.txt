@@ -7,4 +7,8 @@ diamonds = {
 	terrain_types = {
 		desert
 	}
+	site_types = {
+		settlement
+		resource
+	}
 }

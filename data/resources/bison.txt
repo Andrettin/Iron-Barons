@@ -6,4 +6,7 @@ bison = {
 		plains
 		#grassland
 	}
+	site_types = {
+		resource
+	}
 }

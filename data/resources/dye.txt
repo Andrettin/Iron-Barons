@@ -8,4 +8,7 @@ dye = {
 	improved_modifier = {
 		piety_bonus = 1
 	}
+	site_types = {
+		resource
+	}
 }

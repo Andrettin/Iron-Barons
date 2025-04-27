@@ -6,4 +6,7 @@ cattle = {
 		plains
 		savannah
 	}
+	site_types = {
+		resource
+	}
 }

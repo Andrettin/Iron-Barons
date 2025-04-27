@@ -6,4 +6,7 @@ timber = {
 		conifer_forest
 		scrub_forest
 	}
+	site_types = {
+		resource
+	}
 }

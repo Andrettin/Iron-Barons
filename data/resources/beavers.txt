@@ -6,4 +6,7 @@ beavers = {
 	terrain_types = {
 		conifer_forest
 	}
+	site_types = {
+		resource
+	}
 }

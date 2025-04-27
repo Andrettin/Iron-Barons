@@ -8,4 +8,8 @@ silver = {
 		barren_hills
 		mountains
 	}
+	site_types = {
+		settlement
+		resource
+	}
 }

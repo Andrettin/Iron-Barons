@@ -5,4 +5,7 @@ sheep = {
 	terrain_types = {
 		barren_hills #should be fertile hills
 	}
+	site_types = {
+		resource
+	}
 }
