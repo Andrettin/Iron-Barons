@@ -3,7 +3,6 @@ salamanca = {
 	world = earth
 	geocoordinate = { -5.67000044903 40.97040488590 } #from Natural Earth
 	type = settlement
-	resource = grain
 	province = salamanca
 	cultural_names = {
 		roman = "Salmantica"

@@ -5,6 +5,9 @@ ingria = {
 	cultural_names = {
 		swedish = "Ingermanland"
 	}
+	resources = {
+		grain = 1
+	}
 	regions = {
 		european_russia
 	}

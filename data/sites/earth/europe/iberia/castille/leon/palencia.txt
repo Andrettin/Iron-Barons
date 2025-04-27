@@ -3,7 +3,6 @@ palencia = {
 	world = earth
 	geocoordinate = { -4.5333333333333 42.016666666667 }
 	type = settlement
-	resource = grain
 	province = palencia
 	
 	history = {

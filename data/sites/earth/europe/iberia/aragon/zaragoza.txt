@@ -3,7 +3,6 @@ zaragoza = {
 	world = earth
 	geocoordinate = { -0.88998213846 41.65000164700 } #from Natural Earth
 	type = settlement
-	resource = grain
 	cultural_names = {
 		roman = "Caesaraugusta"
 	}

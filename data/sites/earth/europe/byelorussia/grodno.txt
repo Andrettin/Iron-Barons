@@ -3,7 +3,7 @@ grodno = {
 	world = earth
 	geocoordinate = { 23.83409012730 53.67787213040 } #from Natural Earth
 	type = settlement
-	resource = grain
+	province = grodno
 	
 	history = {
 		1360 = {

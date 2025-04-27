@@ -2,6 +2,9 @@ lithuania = {
 	name = "Lithuania"
 	color = { 65 224 97 }
 	provincial_capital = vilnius
+	resources = {
+		grain = 1
+	}
 	regions = {
 		lithuania
 		poland_lithuania

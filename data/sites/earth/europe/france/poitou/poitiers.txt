@@ -3,7 +3,7 @@ poitiers = {
 	world = earth
 	geocoordinate = { 0.33327652854 46.58329225570 } #from Natural Earth
 	type = settlement
-	resource = grain
+	province = poitou
 	cultural_names = {
 		frankish = "Pictavis"
 	}
