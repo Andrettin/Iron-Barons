@@ -1,0 +1,15 @@
+oasis = {
+	name = "Oasis"
+	icon = wealth
+	tiny_icon = trade_consulate
+	terrain_types = {
+		desert
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		trade_bonus = 1
+		fruit_bonus = 1
+	}
+}
