@@ -3,5 +3,6 @@ nanchang = {
 	world = earth
 	geocoordinate = { 115.87999629600 28.67999228820 } #from Natural Earth
 	type = settlement
-	resource = timber
+	#resource = timber
+	province = jiangxi
 }

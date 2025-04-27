@@ -6,6 +6,8 @@ romagna = {
 		grain = 3
 		fruit = 1
 		cattle = 1
+		
+		timber = 1
 	}
 	regions = {
 		italy

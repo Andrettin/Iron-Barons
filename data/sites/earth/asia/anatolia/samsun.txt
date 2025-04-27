@@ -3,5 +3,4 @@ samsun = {
 	world = earth
 	geocoordinate = { 36.34366247430 41.27999839180 } #from Natural Earth
 	type = settlement
-	resource = tobacco #Source: Map No. 501871 of the Perry-Castañeda Library Map Collection, 1974.
 }

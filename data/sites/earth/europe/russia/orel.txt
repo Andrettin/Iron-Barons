@@ -3,7 +3,7 @@ orel = {
 	world = earth
 	geocoordinate = { 36.06998408890 52.96995668450 } #from Natural Earth
 	type = settlement
-	resource = timber
+	province = orel
 	
 	history = {
 		1360 = {

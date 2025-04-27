@@ -2,6 +2,9 @@ jawf = {
 	name = "Jawf"
 	color = { 190 200 10 }
 	provincial_capital = kaf
+	resources = {
+		sheep = 1
+	}
 	regions = {
 		asia
 		middle_east

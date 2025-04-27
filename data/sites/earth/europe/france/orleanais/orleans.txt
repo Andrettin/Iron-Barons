@@ -3,8 +3,8 @@ orleans = {
 	world = earth
 	geocoordinate = { 1.90002844098 47.90042116200 } #from Natural Earth
 	type = settlement
-	#resource = cattle #Grassland; Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
-	resource = timber
+	#resource = timber
+	province = orleanais
 	cultural_names = {
 		frankish = "Aurehani"
 	}

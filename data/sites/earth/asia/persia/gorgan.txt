@@ -3,6 +3,6 @@ gorgan = {
 	world = earth
 	geocoordinate = { 54.48002315150 36.83034751290 } #from Natural Earth
 	type = settlement
-	resource = sheep
+	#resource = sheep
 	province = golestan
 }

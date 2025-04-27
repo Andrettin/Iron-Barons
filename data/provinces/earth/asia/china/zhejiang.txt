@@ -2,6 +2,9 @@ zhejiang = {
 	name = "Zhejiang"
 	color = { 220 58 60 }
 	provincial_capital = hangzhou
+	resources = {
+		silk = 1
+	}
 	regions = {
 		asia
 	}

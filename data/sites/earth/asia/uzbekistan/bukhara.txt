@@ -3,6 +3,5 @@ bukhara = {
 	world = earth
 	geocoordinate = { 64.43001013070 39.78001242990 } #from Natural Earth
 	type = settlement
-	resource = sheep
 	province = bukhara
 }

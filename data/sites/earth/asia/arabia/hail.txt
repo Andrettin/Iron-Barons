@@ -3,6 +3,5 @@ hail = {
 	world = earth
 	geocoordinate = { 41.70007971070 27.52357708640 } #from Natural Earth
 	type = settlement
-	resource = sheep
 	province = hail
 }

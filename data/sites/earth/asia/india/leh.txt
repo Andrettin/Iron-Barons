@@ -3,6 +3,6 @@ leh = {
 	world = earth
 	geocoordinate = { 77.58472222222223 34.16416666666667 }
 	type = settlement
-	resource = sheep
+	#resource = sheep
 	province = kashmir
 }

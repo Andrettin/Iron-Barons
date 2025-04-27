@@ -2,6 +2,9 @@ tver = {
 	name = "Tver"
 	color = { 223 180 18 }
 	provincial_capital = tver
+	resources = {
+		timber = 1
+	}
 	regions = {
 		european_russia
 	}

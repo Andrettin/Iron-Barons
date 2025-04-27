@@ -3,8 +3,8 @@ grenoble = {
 	world = earth
 	geocoordinate = { 5.72000199242 45.18038047190 } #from Natural Earth
 	type = settlement
-	#resource = grain #Other crops (primarily cereals); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
-	resource = tobacco
+	#resource = tobacco
+	province = dauphiny
 	
 	history = {
 		1339 = {

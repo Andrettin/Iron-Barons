@@ -3,6 +3,6 @@ bishkek = {
 	world = earth
 	geocoordinate = { 74.58520422250 42.87307944650 } #from Natural Earth
 	type = settlement
-	resource = sheep
+	#resource = sheep
 	province = chuy
 }

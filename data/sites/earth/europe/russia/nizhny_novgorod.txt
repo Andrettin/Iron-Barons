@@ -3,7 +3,8 @@ nizhny_novgorod = {
 	world = earth
 	geocoordinate = { 44.00009435910 56.33300722160 } #from Natural Earth
 	type = settlement
-	resource = timber
+	#resource = timber
+	province = nizhegorod
 	
 	history = {
 		1360 = {

@@ -2,6 +2,6 @@ skien = {
 	name = "Skien"
 	world = earth
 	geocoordinate = { 9.60002355819 59.19998984690 } #from Natural Earth
-	type = settlement
+	type = resource
 	resource = timber
 }

@@ -3,6 +3,5 @@ qazvin = {
 	world = earth
 	geocoordinate = { 49.99998653040 36.27001995750 } #from Natural Earth
 	type = settlement
-	resource = timber
 	province = qazvin
 }

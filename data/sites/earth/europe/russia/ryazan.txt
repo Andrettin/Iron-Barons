@@ -3,7 +3,7 @@ ryazan = {
 	world = earth
 	geocoordinate = { 39.71999385450 54.61995932930 } #from Natural Earth
 	type = settlement
-	resource = timber
+	province = ryazan
 	
 	history = {
 		1360 = {

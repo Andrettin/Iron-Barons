@@ -3,7 +3,7 @@ vladimir = {
 	world = earth
 	geocoordinate = { 40.40992590210 56.12997051910 } #from Natural Earth
 	type = settlement
-	resource = timber
+	province = vladimir
 	
 	history = {
 		1360 = {

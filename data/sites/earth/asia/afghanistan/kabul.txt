@@ -3,8 +3,7 @@ kabul = {
 	world = earth
 	geocoordinate = { 69.18326004930 34.51669028630 } #from Natural Earth
 	type = settlement
-	#resource = grain #Irrigated cultivation; Source: Map No. 504958 of the Perry-Castañeda Library Map Collection, 1971.
-	resource = timber
+	#resource = timber
 	province = afghanistan
 	
 	history = {

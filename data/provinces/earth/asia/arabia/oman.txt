@@ -2,6 +2,9 @@ oman = {
 	name = "Oman"
 	color = { 240 78 161 }
 	provincial_capital = muscat
+	resources = {
+		opium = 1
+	}
 	regions = {
 		asia
 		middle_east

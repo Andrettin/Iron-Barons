@@ -3,6 +3,6 @@ ashgabat = {
 	world = earth
 	geocoordinate = { 58.38329911180 37.94999493310 } #from Natural Earth
 	type = settlement
-	resource = opium
+	#resource = opium
 	province = ahal
 }

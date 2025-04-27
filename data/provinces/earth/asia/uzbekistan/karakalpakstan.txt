@@ -2,6 +2,9 @@ karakalpakstan = {
 	name = "Karakalpakstan"
 	color = { 85 240 7 }
 	provincial_capital = nukus
+	resources = {
+		opium = 1
+	}
 	regions = {
 		uzbekistan
 	}

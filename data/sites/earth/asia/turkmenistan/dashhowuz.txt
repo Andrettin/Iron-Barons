@@ -3,6 +3,5 @@ dashhowuz = {
 	world = earth
 	geocoordinate = { 59.96495967490 41.83999005030 } #from Natural Earth
 	type = settlement
-	resource = sheep
 	province = dashhowuz
 }

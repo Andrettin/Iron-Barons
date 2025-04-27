@@ -3,7 +3,8 @@ troyes = {
 	world = earth
 	geocoordinate = { 4.08335770531 48.34039430650 } #from Natural Earth
 	type = settlement
-	resource = timber
+	#resource = timber
+	province = champagne
 	cultural_names = {
 		frankish = "Trecae"
 	}
