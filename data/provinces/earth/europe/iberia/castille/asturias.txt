@@ -7,7 +7,6 @@ asturias = {
 		fruit = 1
 		cattle = 3
 		sheep = 2
-		copper = 1
 		coal = 1
 	}
 	regions = {

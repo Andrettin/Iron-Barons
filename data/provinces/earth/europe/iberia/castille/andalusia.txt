@@ -7,6 +7,7 @@ andalusia = {
 		fruit = 2
 		sheep = 1
 		horses = 1
+		copper = 5 #Source: Map No. 501745 of the Perry-Castañeda Library Map Collection, 1974.
 	}
 	regions = {
 		spain
