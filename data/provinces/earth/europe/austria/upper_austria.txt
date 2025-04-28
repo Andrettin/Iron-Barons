@@ -4,6 +4,7 @@ upper_austria = {
 	provincial_capital = linz
 	resources = {
 		grain = 1
+		salt = 1 #Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
 	}
 	regions = {
 		austria

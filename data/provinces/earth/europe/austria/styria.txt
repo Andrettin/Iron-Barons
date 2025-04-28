@@ -7,6 +7,8 @@ styria = {
 		fruit = 2
 		cattle = 2
 		sheep = 1
+		iron_ore = 2 #Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
+		salt = 1 #Source: Map No. 77706 of the Perry-Castañeda Library Map Collection, 1969.
 	}
 	regions = {
 		austria #only Lower Styria belongs to modern Austria; Upper Styria is part of Slovenia
