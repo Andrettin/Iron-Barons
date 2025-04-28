@@ -7,7 +7,6 @@ minho = {
 		cattle = 2
 		sheep = 4
 		timber = 1
-		iron_ore = 2
 	}
 	regions = {
 		portugal
