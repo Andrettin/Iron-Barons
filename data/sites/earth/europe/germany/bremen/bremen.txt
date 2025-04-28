@@ -3,6 +3,7 @@ bremen = {
 	world = earth
 	geocoordinate = { 8.80002070988 53.08000164700 } #from Natural Earth
 	type = settlement
+	resource = center_of_trade
 	
 	history = {
 		785 = {

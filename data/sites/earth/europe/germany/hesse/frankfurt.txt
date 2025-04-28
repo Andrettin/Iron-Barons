@@ -3,6 +3,7 @@ frankfurt = {
 	world = earth
 	geocoordinate = { 8.67501542017 50.09997682610 } #from Natural Earth
 	type = settlement
+	resource = center_of_trade
 	
 	history = {
 		919 = {
