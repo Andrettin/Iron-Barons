@@ -13,13 +13,13 @@ tribesmen = {
 		luxuries = 1
 	}
 	commodity_demands = {
-		clothing = 0.05
-		furniture = 0.05
-		tools = 0.05
-		coffee = 0.05
-		opium = 0.05
-		tea = 0.05
-		coal = 0.02
+		clothing = 0.0625
+		furniture = 0.0625
+		tools = 0.0625
+		coffee = 0.0625
+		opium = 0.0313
+		salt = 0.0625
+		tea = 0.0625
 	}
 	phenotype_icons = {
 		afro_european = slaves_medium
