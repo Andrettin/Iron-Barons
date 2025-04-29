@@ -1,0 +1,13 @@
+zinc = {
+	name = "Zinc"
+	commodity = zinc
+	tiny_icon = trade_consulate
+	prospectable = true
+	terrain_types = {
+		swamp
+	}
+	site_types = {
+		settlement
+		resource
+	}
+}

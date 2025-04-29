@@ -16,6 +16,7 @@ tribesmen = {
 		clothing = 0.0625
 		furniture = 0.0625
 		tools = 0.0625
+		brass_lamps = 0.0313
 		coffee = 0.0625
 		opium = 0.0313
 		salt = 0.0625

@@ -16,6 +16,7 @@ clergymen = {
 	commodity_demands = {
 		clothing = 0.25
 		furniture = 0.25
+		brass_lamps = 0.125
 		coffee = 0.25
 		opium = 0.125
 		salt = 0.25

@@ -17,6 +17,7 @@ capitalists = {
 		clothing = 1
 		furniture = 1
 		tools = 1
+		brass_lamps = 1
 		coffee = 1
 		opium = 1
 		salt = 1
