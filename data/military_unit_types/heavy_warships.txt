@@ -13,7 +13,7 @@ galleon = {
 	required_technology = convoying
 	commodity_costs = {
 		lumber = 8
-		bronze = 4
+		bronze_cannons = 2
 		fabric = 3
 	}
 	upgrades = {

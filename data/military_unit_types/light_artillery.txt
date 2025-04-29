@@ -13,7 +13,7 @@ horse_artillery = {
 	commodity_costs = {
 		manpower = 1
 		fabric = 1
-		bronze = 4
+		bronze_cannons = 2
 		horses = 3
 	}
 	upgrades = {

@@ -1,0 +1,6 @@
+bronze_cannons = {
+	name = "Bronze Cannons"
+	icon = cannon
+	base_price = 900
+	required_technology = gunpowder
+}

@@ -14,7 +14,7 @@ arquebusiers = {
 	commodity_costs = {
 		manpower = 1
 		fabric = 1
-		bronze = 1
+		arquebuses = 1
 	}
 	upgrades = {
 		musketeers
@@ -37,7 +37,7 @@ musketeers = {
 	commodity_costs = {
 		manpower = 1
 		fabric = 1
-		bronze = 2
+		muskets = 1
 	}
 	upgrades = {
 		grenadiers

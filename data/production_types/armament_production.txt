@@ -1,3 +1,33 @@
+arquebus_production = {
+	name = "Arquebus Production"
+	input_commodities = {
+		labor = 2
+		bronze = 2
+	}
+	output_commodity = arquebuses
+	output_value = 1
+}
+
+musket_production = {
+	name = "Musket Production"
+	input_commodities = {
+		labor = 2
+		cast_iron = 2
+	}
+	output_commodity = muskets
+	output_value = 1
+}
+
+bronze_cannon_production = {
+	name = "Bronze Cannon Production"
+	input_commodities = {
+		labor = 2
+		bronze = 2
+	}
+	output_commodity = bronze_cannons
+	output_value = 1
+}
+
 armament_production = {
 	name = "Armament Production"
 	input_commodities = {

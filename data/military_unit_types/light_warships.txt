@@ -31,7 +31,7 @@ sloop = {
 	required_technology = navigation
 	commodity_costs = {
 		lumber = 3
-		bronze = 2
+		bronze_cannons = 1
 		fabric = 1
 	}
 	upgrades = {

@@ -14,7 +14,7 @@ calivermen = {
 	commodity_costs = {
 		manpower = 1
 		fabric = 1
-		bronze = 2
+		arquebuses = 1
 	}
 	upgrades = {
 		skirmishers

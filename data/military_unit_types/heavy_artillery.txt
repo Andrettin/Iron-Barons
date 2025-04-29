@@ -33,7 +33,7 @@ culverin = {
 	commodity_costs = {
 		manpower = 1
 		fabric = 1
-		bronze = 4
+		bronze_cannons = 2
 	}
 	upgrades = {
 		royal_artillery
@@ -55,7 +55,7 @@ royal_artillery = {
 	commodity_costs = {
 		manpower = 1
 		fabric = 1
-		bronze = 6
+		bronze_cannons = 3
 	}
 	upgrades = {
 		artillery
