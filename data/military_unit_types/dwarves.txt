@@ -134,7 +134,7 @@ dwarven_dragonguards = {
 	upkeep = 25
 	commodity_costs = {
 		manpower = 1
-		armament = 1
+		muskets = 1
 	}
 	free_promotions = {
 		grenadier_1

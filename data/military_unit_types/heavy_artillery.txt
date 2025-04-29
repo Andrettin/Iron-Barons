@@ -78,7 +78,7 @@ artillery = {
 	upkeep = 50
 	commodity_costs = {
 		manpower = 1
-		armament = 2
+		iron_cannons = 2
 	}
 	upgrades = {
 		siege_artillery
@@ -101,7 +101,7 @@ siege_artillery = {
 	upkeep = 100
 	commodity_costs = {
 		manpower = 1
-		armament = 4
+		steel_cannons = 4
 	}
 	upgrades = {
 		railroad_guns
@@ -125,6 +125,6 @@ railroad_guns = {
 	upkeep = 200
 	commodity_costs = {
 		manpower = 1
-		armament = 8
+		steel_cannons = 8
 	}
 }

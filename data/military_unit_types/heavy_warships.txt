@@ -38,7 +38,7 @@ ship_of_the_line = {
 	commodity_costs = {
 		fabric = 3
 		lumber = 8
-		armament = 5
+		iron_cannons = 5
 	}
 	upgrades = {
 		ironclad
@@ -61,7 +61,7 @@ ironclad = {
 	upkeep = 150
 	commodity_costs = {
 		lumber = 4
-		armament = 6
+		steel_cannons = 6
 		steel = 4
 		coal = 10
 	}
@@ -86,7 +86,7 @@ advanced_ironclad = {
 	upkeep = 375
 	commodity_costs = {
 		lumber = 8
-		armament = 15
+		steel_cannons = 15
 		steel = 10
 		coal = 20
 	}
@@ -110,7 +110,7 @@ dreadnought = {
 	required_technology = improved_range_finding
 	upkeep = 600
 	commodity_costs = {
-		armament = 24
+		steel_cannons = 24
 		steel = 30
 		fuel = 20
 	}

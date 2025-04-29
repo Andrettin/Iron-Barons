@@ -57,7 +57,8 @@ austria = {
 				clothing = 3
 				furniture = 3
 				tools = 3
-				armament = 2
+				muskets = 1
+				iron_cannons = 1
 			}
 		}
 		

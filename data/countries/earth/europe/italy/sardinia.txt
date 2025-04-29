@@ -33,7 +33,8 @@ sardinia = {
 				clothing = 2
 				furniture = 2
 				tools = 2
-				armament = 2
+				muskets = 1
+				iron_cannons = 1
 			}
 		}
 	}

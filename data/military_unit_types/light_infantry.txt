@@ -38,7 +38,7 @@ skirmishers = {
 	upkeep = 25
 	commodity_costs = {
 		manpower = 1
-		armament = 1
+		rifles = 1
 	}
 	upgrades = {
 		sharpshooters
@@ -62,7 +62,7 @@ sharpshooters = {
 	upkeep = 50
 	commodity_costs = {
 		manpower = 1
-		armament = 2
+		rifles = 2
 	}
 	upgrades = {
 		rangers
@@ -87,6 +87,6 @@ rangers = {
 	upkeep = 100
 	commodity_costs = {
 		manpower = 1
-		armament = 4
+		rifles = 4
 	}
 }

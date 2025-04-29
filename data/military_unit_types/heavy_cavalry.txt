@@ -37,7 +37,7 @@ cuirassiers = {
 	upkeep = 25
 	commodity_costs = {
 		manpower = 1
-		armament = 1
+		muskets = 1
 		horses = 1
 	}
 	upgrades = {
@@ -61,7 +61,7 @@ carbine_cavalry = {
 	upkeep = 50
 	commodity_costs = {
 		manpower = 1
-		armament = 2
+		rifles = 2
 		horses = 1
 	}
 	upgrades = {
@@ -86,7 +86,7 @@ armor = {
 	upkeep = 250
 	commodity_costs = {
 		manpower = 1
-		armament = 10
+		rifles = 10
 		fuel = 4
 	}
 }
