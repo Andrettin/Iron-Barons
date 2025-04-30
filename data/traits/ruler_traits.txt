@@ -39,7 +39,7 @@ expansive = {
 	icon = settlement
 	ruler_modifier = {
 		commodity_bonus_per_settlement = {
-			commodity = health
+			commodity = housing
 			value = 2
 		}
 	}

@@ -11,7 +11,7 @@ bison_camp = {
 		cast_iron = 1
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }
 
@@ -30,7 +30,7 @@ improved_bison_camp = {
 		cast_iron = 4
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }
 
@@ -49,7 +49,7 @@ advanced_bison_camp = {
 		cast_iron = 8
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }
 
@@ -68,6 +68,6 @@ industrial_bison_camp = {
 		cast_iron = 16
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }

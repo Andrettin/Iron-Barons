@@ -307,7 +307,7 @@ Rectangle {
 		anchors.leftMargin: 16 * scale_factor
 		text: selected_site_game_data ? format_text(
 			"Population: " + number_string(selected_site_game_data.population.size)
-			 + "\nHealth: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.health
+			 + "\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing
 			 + "\nLiteracy: " + selected_site_game_data.population.literacy_rate + "%"
 			 + "\nConsciousness: " + selected_site_game_data.population.average_consciousness
 			 + "\nMilitancy: " + selected_site_game_data.population.average_militancy

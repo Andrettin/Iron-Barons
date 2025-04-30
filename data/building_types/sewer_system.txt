@@ -10,6 +10,6 @@ sewer_system = {
 		metropolis
 	}
 	settlement_modifier = {
-		health_bonus = 2
+		housing_bonus = 2
 	}
 }

@@ -13,7 +13,7 @@ potato_farm = {
 		cast_iron = 1
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }
 
@@ -33,7 +33,7 @@ potato_estate = {
 		cast_iron = 4
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }
 
@@ -53,7 +53,7 @@ mechanized_potato_estate = {
 		cast_iron = 8
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }
 
@@ -73,6 +73,6 @@ industrial_potato_estate = {
 		cast_iron = 16
 	}
 	modifier = {
-		health_bonus = 1
+		housing_bonus = 1
 	}
 }

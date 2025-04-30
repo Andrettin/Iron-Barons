@@ -9,7 +9,7 @@ religious_immigration = {
 		available_food > 0
 		
 		any_settlement = {
-			available_health > 0
+			available_housing > 0
 		}
 		
 		any_global_population_unit = {
@@ -44,7 +44,7 @@ religious_immigration = {
 	immediate_effects = {
 		random_settlement = {
 			conditions = {
-				available_health > 0
+				available_housing > 0
 			}
 			
 			save_scope_as = immigration_settlement
