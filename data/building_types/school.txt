@@ -72,6 +72,9 @@ university = {
 	province_modifier = {
 		research_output_modifier = 100
 	}
+	settlement_modifier = {
+		housing_bonus = 1
+	}
 }
 
 monastic_school = {

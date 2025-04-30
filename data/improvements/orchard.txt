@@ -10,9 +10,6 @@ orchard = {
 		lumber = 1
 		cast_iron = 1
 	}
-	modifier = {
-		housing_bonus = 1
-	}
 }
 
 improved_orchard = {
@@ -28,9 +25,6 @@ improved_orchard = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
-	}
-	modifier = {
-		housing_bonus = 1
 	}
 }
 
@@ -48,9 +42,6 @@ mechanized_orchard = {
 		lumber = 8
 		cast_iron = 8
 	}
-	modifier = {
-		housing_bonus = 1
-	}
 }
 
 industrial_orchard = {
@@ -66,8 +57,5 @@ industrial_orchard = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
-	}
-	modifier = {
-		housing_bonus = 1
 	}
 }

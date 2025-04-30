@@ -10,9 +10,6 @@ bison_camp = {
 		lumber = 1
 		cast_iron = 1
 	}
-	modifier = {
-		housing_bonus = 1
-	}
 }
 
 improved_bison_camp = {
@@ -28,9 +25,6 @@ improved_bison_camp = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
-	}
-	modifier = {
-		housing_bonus = 1
 	}
 }
 
@@ -48,9 +42,6 @@ advanced_bison_camp = {
 		lumber = 8
 		cast_iron = 8
 	}
-	modifier = {
-		housing_bonus = 1
-	}
 }
 
 industrial_bison_camp = {
@@ -66,8 +57,5 @@ industrial_bison_camp = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
-	}
-	modifier = {
-		housing_bonus = 1
 	}
 }

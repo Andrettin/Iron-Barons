@@ -12,4 +12,7 @@ ivory = {
 	site_types = {
 		resource
 	}
+	improved_modifier = {
+		housing_bonus = 0.5
+	}
 }

@@ -9,4 +9,7 @@ barracks = {
 		metropolis
 		castle
 	}
+	settlement_modifier = {
+		housing_bonus = 1
+	}
 }

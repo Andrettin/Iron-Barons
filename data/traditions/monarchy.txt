@@ -19,7 +19,8 @@ monarchy = {
 		}
 	}
 	modifier = {
-		capital_trade_bonus_per_population = 0.5
-		capital_luxuries_bonus_per_population = 0.5
+		housing_per_stockade = 1
+		housing_per_fort = 2
+		housing_per_fortress = 3
 	}
 }

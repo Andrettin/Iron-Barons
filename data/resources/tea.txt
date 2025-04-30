@@ -10,5 +10,6 @@ tea = {
 	}
 	improved_modifier = {
 		research_bonus = 1
+		housing_bonus = 0.5
 	}
 }

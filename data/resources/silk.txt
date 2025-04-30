@@ -5,10 +5,11 @@ silk = {
 	terrain_types = {
 		conifer_forest
 	}
-	improved_modifier = {
-		culture_bonus = 1
-	}
 	site_types = {
 		resource
+	}
+	improved_modifier = {
+		culture_bonus = 1
+		housing_bonus = 0.5
 	}
 }

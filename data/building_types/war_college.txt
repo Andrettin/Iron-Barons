@@ -17,5 +17,6 @@ war_college = {
 	}
 	settlement_modifier = {
 		leadership_output_modifier = 100
+		housing_bonus = 1
 	}
 }

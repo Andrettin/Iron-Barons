@@ -11,9 +11,6 @@ grain_farm = {
 		lumber = 1
 		cast_iron = 1
 	}
-	modifier = {
-		housing_bonus = 1
-	}
 }
 
 grain_estate = {
@@ -30,9 +27,6 @@ grain_estate = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
-	}
-	modifier = {
-		housing_bonus = 1
 	}
 }
 
@@ -51,9 +45,6 @@ mechanized_grain_estate = {
 		lumber = 8
 		cast_iron = 8
 	}
-	modifier = {
-		housing_bonus = 1
-	}
 }
 
 industrial_grain_estate = {
@@ -70,8 +61,5 @@ industrial_grain_estate = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
-	}
-	modifier = {
-		housing_bonus = 1
 	}
 }
