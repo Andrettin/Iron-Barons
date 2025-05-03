@@ -1,6 +1,7 @@
 academics = {
 	name = "Academics"
 	population_class = academics
+	profession = academics
 	color = { 94 46 63 }
 	literate = true
 	icon = rifle_infantry_light

@@ -12,8 +12,11 @@ school = {
 		metropolis
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = research
+		or = {
+			province = {
+				produces_commodity = research
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
@@ -34,12 +37,21 @@ college = {
 		metropolis
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = research
+		or = {
+			province = {
+				produces_commodity = research
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
 		research_output_modifier = 50
+	}
+	settlement_modifier = {
+		profession_capacity = {
+			profession = academics
+			value = 2
+		}
 	}
 }
 
@@ -65,14 +77,21 @@ university = {
 		}
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = research
+		or = {
+			province = {
+				produces_commodity = research
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
 		research_output_modifier = 100
 	}
 	settlement_modifier = {
+		profession_capacity = {
+			profession = academics
+			value = 3
+		}
 		housing_bonus = 1
 	}
 }
