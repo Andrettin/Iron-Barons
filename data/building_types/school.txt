@@ -107,8 +107,11 @@ monastic_school = {
 		monastery
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = research
+		or = {
+			province = {
+				produces_commodity = research
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
@@ -128,8 +131,11 @@ cathedral_school = {
 		monastery
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = research
+		or = {
+			province = {
+				produces_commodity = research
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
