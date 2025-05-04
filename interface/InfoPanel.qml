@@ -574,7 +574,7 @@ Rectangle {
 		
 		onHoveredChanged: {
 			if (hovered) {
-				status_text = "Back to Settlement"
+				status_text = selected_site.settlement ? "Back to Settlement" : "Back to Site"
 			} else {
 				status_text = ""
 			}
