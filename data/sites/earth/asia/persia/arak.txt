@@ -3,6 +3,6 @@ arak = {
 	world = earth
 	geocoordinate = { 49.70000484090 34.08041200670 } #from Natural Earth
 	type = settlement
-	resource = iron_ore
+	#resource = iron_ore
 	province = markazi
 }

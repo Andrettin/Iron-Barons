@@ -3,7 +3,7 @@ tabriz = {
 	world = earth
 	geocoordinate = { 46.30124588910 38.08629152330 } #from Natural Earth
 	type = settlement
-	resource = coal
+	#resource = coal
 	province = east_azarbaijan
 	
 	history = {

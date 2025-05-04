@@ -6,6 +6,8 @@ oltenia = {
 		grain = 2
 		fruit = 2
 		timber = 1
+		
+		coal = 1
 	}
 	regions = {
 		romania

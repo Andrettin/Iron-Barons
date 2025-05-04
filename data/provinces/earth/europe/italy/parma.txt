@@ -5,6 +5,8 @@ parma = {
 	resources = {
 		grain = 2
 		fruit = 2
+		
+		iron_ore = 1
 	}
 	regions = {
 		italy

@@ -3,7 +3,8 @@ budweis = {
 	world = earth
 	geocoordinate = { 14.46003698590 48.98001934720 } #from Natural Earth
 	type = settlement
-	resource = coal
+	#resource = coal
+	province = budweis
 	cultural_names = {
 		czech = "Budejovice" #Budějovice
 	}

@@ -3,7 +3,8 @@ clermont = {
 	world = earth
 	geocoordinate = { 3.08000809593 45.77998211580 } #from Natural Earth
 	type = settlement
-	resource = coal
+	#resource = coal
+	province = auvergne
 	cultural_names = {
 		frankish = "Arverni"
 	}

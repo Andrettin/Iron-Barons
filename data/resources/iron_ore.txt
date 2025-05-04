@@ -8,7 +8,6 @@ iron_ore = {
 		mountains
 	}
 	site_types = {
-		settlement
 		resource
 	}
 	improved_modifier = {

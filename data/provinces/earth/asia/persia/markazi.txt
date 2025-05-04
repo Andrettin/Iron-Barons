@@ -2,6 +2,9 @@ markazi = {
 	name = "Markazi"
 	color = { 245 252 138 }
 	provincial_capital = arak
+	resources = {
+		iron_ore = 1
+	}
 	regions = {
 		persia
 	}

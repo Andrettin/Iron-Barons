@@ -7,7 +7,6 @@ zinc = {
 		swamp
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }

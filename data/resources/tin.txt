@@ -7,7 +7,6 @@ tin = {
 		swamp
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }

@@ -2,6 +2,9 @@ modena = {
 	name = "Modena"
 	color = { 168 134 150 }
 	provincial_capital = modena
+	resources = {
+		iron_ore = 1
+	}
 	regions = {
 		italy
 	}

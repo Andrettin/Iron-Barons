@@ -2,6 +2,9 @@ biskra = {
 	name = "Biskra"
 	color = { 188 220 25 }
 	provincial_capital = biskra
+	resources = {
+		iron_ore = 1
+	}
 	regions = {
 		algeria
 	}

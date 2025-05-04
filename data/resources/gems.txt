@@ -8,7 +8,6 @@ gems = {
 		mountains
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }

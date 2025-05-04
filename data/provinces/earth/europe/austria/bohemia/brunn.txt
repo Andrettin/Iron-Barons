@@ -9,6 +9,8 @@ brunn = {
 		grain = 5
 		fruit = 4
 		cattle = 2
+		
+		coal = 1
 	}
 	regions = {
 		moravia

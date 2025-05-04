@@ -5,6 +5,8 @@ moravia = {
 	resources = {
 		sheep = 2
 		oil = 1
+		
+		coal = 1
 	}
 	regions = {
 		moravia

@@ -9,7 +9,6 @@ silver = {
 		mountains
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }

@@ -3,7 +3,8 @@ craiova = {
 	world = earth
 	geocoordinate = { 23.82587357450 44.32627239900 } #from Natural Earth
 	type = settlement
-	resource = coal
+	#resource = coal
+	province = oltenia
 	
 	history = {
 		1360 = {

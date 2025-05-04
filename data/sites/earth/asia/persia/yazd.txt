@@ -3,6 +3,5 @@ yazd = {
 	world = earth
 	geocoordinate = { 54.37000402710 31.92005291650 } #from Natural Earth
 	type = settlement
-	resource = iron_ore
 	province = yazd
 }

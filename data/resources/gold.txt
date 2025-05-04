@@ -8,7 +8,6 @@ gold = {
 		mountains
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }

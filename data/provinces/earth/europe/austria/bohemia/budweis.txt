@@ -10,6 +10,8 @@ budweis = {
 		fruit = 3
 		cattle = 2
 		sheep = 1
+		
+		coal = 1
 	}
 	regions = {
 		bohemia

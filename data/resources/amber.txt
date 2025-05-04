@@ -8,7 +8,6 @@ amber = {
 		swamp
 	}
 	site_types = {
-		settlement
 		resource
 	}
 	improved_modifier = {

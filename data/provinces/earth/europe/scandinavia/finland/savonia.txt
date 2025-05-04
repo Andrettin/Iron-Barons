@@ -2,6 +2,9 @@ savonia = {
 	name = "Savonia"
 	color = { 249 185 248 }
 	provincial_capital = kuopio
+	resources = {
+		iron_ore = 1
+	}
 	regions = {
 		finland
 	}

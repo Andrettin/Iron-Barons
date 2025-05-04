@@ -3,5 +3,5 @@ nakhchivan = {
 	world = earth
 	geocoordinate = { 45.41220454790 39.20922039700 } #from Natural Earth
 	type = settlement
-	resource = iron_ore
+	province = nakhchivan
 }

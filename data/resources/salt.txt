@@ -7,7 +7,6 @@ salt = {
 		desert
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }

@@ -2,6 +2,9 @@ bashkortostan = {
 	name = "Bashkortostan"
 	color = { 181 181 28 }
 	provincial_capital = ufa
+	resources = {
+		iron_ore = 1
+	}
 	regions = {
 		european_russia
 	}

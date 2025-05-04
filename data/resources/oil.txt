@@ -9,7 +9,6 @@ oil = {
 		tundra
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }
