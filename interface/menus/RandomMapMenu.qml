@@ -133,7 +133,7 @@ MenuBase {
 			for (const kv_pair of resource_counts) {
 				var resource = kv_pair.key
 				var count = kv_pair.value
-				str += "\n" + count + " " + resource.name
+				str += "\n" + count + " " + (count > 1 && resource.plural_name.length > 0 ? resource.plural_name : resource.name)
 			}
 			
 			return str

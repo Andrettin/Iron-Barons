@@ -1,5 +1,6 @@
 holy_site = {
 	name = "Holy Site"
+	plural_name = "Holy Sites"
 	icon = wooden_cross
 	tiny_icon = peace
 	terrain_types = {
