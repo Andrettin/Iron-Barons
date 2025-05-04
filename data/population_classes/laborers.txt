@@ -6,6 +6,18 @@ expert_drillers = {
 	name = "Expert Drillers"
 }
 
+expert_fishermen = {
+	name = "Expert Fishermen"
+}
+
+expert_fur_trappers = {
+	name = "Expert Fur Trappers"
+}
+
+expert_lumberjacks = {
+	name = "Expert Lumberjacks"
+}
+
 expert_miners = {
 	name = "Expert Miners"
 }
