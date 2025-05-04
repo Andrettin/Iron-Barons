@@ -3,8 +3,8 @@ ajaccio = {
 	world = earth
 	geocoordinate = { 8.72829382186 41.92706483870 } #from Natural Earth
 	type = settlement
-	#resource = fruit #Market gardening (fruits, vegetables, flowers); Source: Map No. 500197 of the Perry-Castañeda Library Map Collection, 1972.
-	resource = fish
+	#resource = fish
+	province = corsica
 	
 	history = {
 		1815 = {

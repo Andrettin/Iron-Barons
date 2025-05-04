@@ -3,5 +3,6 @@ bergen = {
 	world = earth
 	geocoordinate = { 5.32452225609 60.39100242020 } #from Natural Earth
 	type = settlement
-	resource = fish
+	#resource = fish
+	province = hordaland
 }

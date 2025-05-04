@@ -9,6 +9,8 @@ naples = {
 	resources = {
 		grain = 4
 		fruit = 2
+		
+		fish = 1
 	}
 	regions = {
 		italy

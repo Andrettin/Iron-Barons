@@ -11,7 +11,6 @@ fish = {
 		tundra
 	}
 	site_types = {
-		settlement
 		resource
 	}
 }

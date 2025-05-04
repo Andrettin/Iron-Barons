@@ -7,6 +7,8 @@ sicily = {
 		fruit = 1
 		sheep = 1
 		cotton = 2
+		
+		fish = 1
 	}
 	regions = {
 		italy
