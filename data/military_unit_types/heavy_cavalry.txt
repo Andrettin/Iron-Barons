@@ -86,7 +86,7 @@ armor = {
 	upkeep = 250
 	commodity_costs = {
 		manpower = 1
-		rifles = 10
+		steel_cannons = 10
 		fuel = 4
 	}
 }
