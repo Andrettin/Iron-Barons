@@ -13,11 +13,11 @@ charismatic = {
 	icon = music
 	ruler_modifier = {
 		commodity_bonus_per_settlement = {
-			commodity = luxuries
+			commodity = amenities
 			value = 1
 		}
 		
-		luxuries_per_monument = 1
+		amenities_per_monument = 1
 	}
 }
 

@@ -16,8 +16,8 @@ mysticism = {
 		ceremonial_burial
 	}
 	modifier = {
-		luxuries_per_temple = 1
-		luxuries_per_cathedral = 1
+		amenities_per_temple = 1
+		amenities_per_cathedral = 1
 	}
 }
 
@@ -70,7 +70,7 @@ theology = {
 		feudalism
 	}
 	modifier = {
-		luxuries_per_cathedral = 1
+		amenities_per_cathedral = 1
 	}
 }
 

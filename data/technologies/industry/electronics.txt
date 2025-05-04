@@ -9,6 +9,6 @@ electronics = {
 		corporation
 	}
 	modifier = {
-		luxuries_per_arena = 1
+		amenities_per_arena = 1
 	}
 }

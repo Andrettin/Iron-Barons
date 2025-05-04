@@ -9,8 +9,8 @@ naval_tradition = {
 		exploration
 	}
 	modifier = {
-		luxuries_per_dock = 1
-		luxuries_per_shipyard = 1
-		luxuries_per_lighthouse = 1
+		amenities_per_dock = 1
+		amenities_per_shipyard = 1
+		amenities_per_lighthouse = 1
 	}
 }

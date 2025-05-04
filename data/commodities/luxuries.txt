@@ -1,7 +1,0 @@
-luxuries = {
-	name = "Luxuries"
-	icon = music
-	abstract = true
-	storable = false
-	local = true
-}

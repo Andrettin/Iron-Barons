@@ -10,6 +10,6 @@ arena = {
 		metropolis
 	}
 	settlement_modifier = {
-		luxuries_bonus = 3
+		amenities_bonus = 3
 	}
 }

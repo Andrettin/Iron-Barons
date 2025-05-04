@@ -1,0 +1,7 @@
+amenities = {
+	name = "Amenities"
+	icon = music
+	abstract = true
+	storable = false
+	provincial = true
+}

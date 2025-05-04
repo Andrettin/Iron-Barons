@@ -7,7 +7,7 @@ slaves = {
 	output_commodity = labor
 	output_value = 1
 	everyday_consumption = {
-		luxuries = 1
+		amenities = 1
 	}
 	phenotype_icons = {
 		afro_european = slaves_medium

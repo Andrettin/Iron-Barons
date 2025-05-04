@@ -52,7 +52,7 @@ temple = {
 		piety_output_modifier = 50
 	}
 	settlement_modifier = {
-		luxuries_bonus = 1
+		amenities_bonus = 1
 		profession_capacity = {
 			profession = clergymen
 			value = 2
@@ -85,7 +85,7 @@ cathedral = {
 		piety_output_modifier = 100
 	}
 	settlement_modifier = {
-		luxuries_bonus = 4
+		amenities_bonus = 4
 		profession_capacity = {
 			profession = clergymen
 			value = 3

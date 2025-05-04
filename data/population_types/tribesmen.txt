@@ -7,10 +7,10 @@ tribesmen = {
 	output_commodity = labor
 	output_value = 1
 	everyday_consumption = {
-		luxuries = 1
+		amenities = 1
 	}
 	luxury_consumption = {
-		luxuries = 1
+		amenities = 1
 	}
 	commodity_demands = {
 		clothing = 0.0625

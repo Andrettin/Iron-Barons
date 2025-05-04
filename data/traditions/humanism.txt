@@ -9,9 +9,9 @@ humanism = {
 		rationalism
 	}
 	modifier = {
-		luxuries_per_school = 1
-		luxuries_per_college = 1
-		luxuries_per_university = 1
-		luxuries_per_observatory = 1
+		amenities_per_school = 1
+		amenities_per_college = 1
+		amenities_per_university = 1
+		amenities_per_observatory = 1
 	}
 }

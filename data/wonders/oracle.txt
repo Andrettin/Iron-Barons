@@ -5,7 +5,7 @@ oracle = {
 	required_technology = mysticism
 	obsolescence_technology = theology
 	country_modifier = {
-		luxuries_per_temple = 2
-		luxuries_per_cathedral = 2
+		amenities_per_temple = 2
+		amenities_per_cathedral = 2
 	}
 }

@@ -12,6 +12,6 @@ oviviparity = {
 		egg_laying
 	}
 	modifier = {
-		luxuries_per_hatchery = 1
+		amenities_per_hatchery = 1
 	}
 }

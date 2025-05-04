@@ -4,6 +4,6 @@ johann_sebastian_bach = {
 	attribute = learning
 	required_technology = theology
 	advisor_modifier = {
-		luxuries_per_cathedral = 2
+		amenities_per_cathedral = 2
 	}
 }

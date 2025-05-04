@@ -15,6 +15,6 @@ aristocracy = {
 	}
 	modifier = {
 		wonder_cost_efficiency = 15
-		luxuries_bonus_per_population = 0.1
+		amenities_bonus_per_population = 0.1
 	}
 }
