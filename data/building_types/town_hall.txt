@@ -11,8 +11,11 @@ village_hall = {
 		metropolis
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = statesmanship
+		or = {
+			province = {
+				produces_commodity = statesmanship
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
@@ -33,12 +36,21 @@ town_hall = {
 		metropolis
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = statesmanship
+		or = {
+			province = {
+				produces_commodity = statesmanship
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
 		statesmanship_output_modifier = 50
+	}
+	settlement_modifier = {
+		profession_capacity = {
+			profession = bureaucrats
+			value = 2
+		}
 	}
 }
 
@@ -54,12 +66,21 @@ city_hall = {
 		metropolis
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = statesmanship
+		or = {
+			province = {
+				produces_commodity = statesmanship
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
 		statesmanship_output_modifier = 100
+	}
+	settlement_modifier = {
+		profession_capacity = {
+			profession = bureaucrats
+			value = 3
+		}
 	}
 }
 
@@ -76,12 +97,21 @@ state_house = {
 		metropolis
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = statesmanship
+		or = {
+			province = {
+				produces_commodity = statesmanship
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
 		statesmanship_output_modifier = 150
+	}
+	settlement_modifier = {
+		profession_capacity = {
+			profession = bureaucrats
+			value = 3
+		}
 	}
 }
 
@@ -98,11 +128,20 @@ capitol = {
 		metropolis
 	}
 	settlement_conditions = {
-		province = {
-			produces_commodity = statesmanship
+		or = {
+			province = {
+				produces_commodity = statesmanship
+			}
+			capital = true
 		}
 	}
 	province_modifier = {
 		statesmanship_output_modifier = 200
+	}
+	settlement_modifier = {
+		profession_capacity = {
+			profession = bureaucrats
+			value = 3
+		}
 	}
 }

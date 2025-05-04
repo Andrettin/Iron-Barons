@@ -1,6 +1,7 @@
 soldiers = {
 	name = "Soldiers"
 	population_class = soldiers
+	profession = soldiers
 	color = { 200 187 157 }
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small

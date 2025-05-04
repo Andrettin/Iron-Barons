@@ -1,6 +1,7 @@
 officers = {
 	name = "Officers"
 	population_class = officers
+	profession = officers
 	color = { 119 98 34 }
 	literate = true
 	icon = rifle_infantry_light

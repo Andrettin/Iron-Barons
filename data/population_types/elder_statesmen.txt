@@ -1,6 +1,7 @@
 elder_statesmen = {
 	name = "Elder Statesmen"
 	population_class = elder_statesmen
+	profession = bureaucrats
 	color = { 134 0 0 }
 	literate = true
 	icon = rifle_infantry_light
