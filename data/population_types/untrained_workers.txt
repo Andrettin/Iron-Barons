@@ -1,7 +1,7 @@
 untrained_workers = {
 	name = "Untrained Workers"
 	population_class = untrained_workers
-	color = { 189 57 36 }
+	color = { 12 157 162 }
 	icon = craftsmen_light
 	small_icon = craftsmen_light_small
 	output_commodity = labor

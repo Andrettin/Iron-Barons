@@ -1,10 +1,10 @@
-expert_farmers = {
-	name = "Expert Farmers"
-	population_class = expert_farmers
-	literate = true
+laborers = {
+	name = "Laborers"
+	population_class = laborers
+	color = { 189 57 36 }
 	icon = slaves_light
 	small_icon = slaves_light_small
-	resource_output_value = 2
+	resource_output_value = 1
 	everyday_consumption = {
 		amenities = 1
 	}
