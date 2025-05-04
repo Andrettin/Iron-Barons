@@ -2,7 +2,5 @@ barra = {
 	name = "Barra"
 	world = earth
 	geocoordinate = { -43.141944444444 -11.088888888889 }
-	type = resource
-	resource = cattle
 	province = bahia
 }
