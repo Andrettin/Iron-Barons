@@ -16,7 +16,7 @@ religious_immigration = {
 			not = {
 				country = root
 				
-				settlement = {
+				site = {
 					population_unit_count == 1
 				}
 			}
@@ -55,7 +55,7 @@ religious_immigration = {
 				not = {
 					country = root
 					
-					settlement = {
+					site = {
 						population_unit_count == 1
 					}
 				}
