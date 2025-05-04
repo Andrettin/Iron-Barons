@@ -6,6 +6,7 @@ slaves = {
 	small_icon = slaves_light_small
 	output_commodity = labor
 	output_value = 1
+	resource_output_value = 1
 	everyday_consumption = {
 		amenities = 1
 	}
