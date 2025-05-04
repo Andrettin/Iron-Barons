@@ -267,6 +267,14 @@ Rectangle {
 				var commodity = kv_pair.key
 				var output = kv_pair.value
 				
+				if (commodity.labor) {
+					continue
+				}
+				
+				if (commodity.housing) {
+					continue
+				}
+				
 				if (str.length > 0) {
 					str += "\n"
 				}
