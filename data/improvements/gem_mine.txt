@@ -14,6 +14,9 @@ gem_mine = {
 		lumber = 1
 		cast_iron = 1
 	}
+	modifier = {
+		housing_bonus = 1
+	}
 }
 
 large_gem_mine = {
@@ -32,6 +35,9 @@ large_gem_mine = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
+	}
+	modifier = {
+		housing_bonus = 2
 	}
 }
 
@@ -52,6 +58,9 @@ steam_pumped_gem_mine = {
 		lumber = 8
 		cast_iron = 8
 	}
+	modifier = {
+		housing_bonus = 3
+	}
 }
 
 industrial_gem_mine = {
@@ -70,5 +79,8 @@ industrial_gem_mine = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
+	}
+	modifier = {
+		housing_bonus = 4
 	}
 }

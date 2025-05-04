@@ -10,6 +10,9 @@ ivory_camp = {
 		lumber = 1
 		cast_iron = 1
 	}
+	modifier = {
+		housing_bonus = 1
+	}
 }
 
 improved_ivory_camp = {
@@ -25,6 +28,9 @@ improved_ivory_camp = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
+	}
+	modifier = {
+		housing_bonus = 2
 	}
 }
 
@@ -42,6 +48,9 @@ advanced_ivory_camp = {
 		lumber = 8
 		cast_iron = 8
 	}
+	modifier = {
+		housing_bonus = 3
+	}
 }
 
 industrial_ivory_camp = {
@@ -57,5 +66,8 @@ industrial_ivory_camp = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
+	}
+	modifier = {
+		housing_bonus = 4
 	}
 }

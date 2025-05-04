@@ -14,7 +14,4 @@ whales = {
 		settlement
 		resource
 	}
-	improved_modifier = {
-		housing_bonus = 0.5
-	}
 }

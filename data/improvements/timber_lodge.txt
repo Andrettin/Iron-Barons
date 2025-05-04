@@ -10,6 +10,9 @@ timber_lodge = {
 		lumber = 1
 		cast_iron = 1
 	}
+	modifier = {
+		housing_bonus = 1
+	}
 }
 
 improved_timber_lodge = {
@@ -25,6 +28,9 @@ improved_timber_lodge = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
+	}
+	modifier = {
+		housing_bonus = 2
 	}
 }
 
@@ -42,6 +48,9 @@ advanced_timber_lodge = {
 		lumber = 8
 		cast_iron = 8
 	}
+	modifier = {
+		housing_bonus = 3
+	}
 }
 
 mechanized_timber_lodge = {
@@ -57,5 +66,8 @@ mechanized_timber_lodge = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
+	}
+	modifier = {
+		housing_bonus = 4
 	}
 }

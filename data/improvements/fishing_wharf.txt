@@ -10,6 +10,9 @@ fishing_wharf = {
 		lumber = 1
 		cast_iron = 1
 	}
+	modifier = {
+		housing_bonus = 1
+	}
 }
 
 improved_fishing_wharf = {
@@ -25,6 +28,9 @@ improved_fishing_wharf = {
 	commodity_costs = {
 		lumber = 4
 		cast_iron = 4
+	}
+	modifier = {
+		housing_bonus = 2
 	}
 }
 
@@ -42,6 +48,9 @@ advanced_fishing_wharf = {
 		lumber = 8
 		cast_iron = 8
 	}
+	modifier = {
+		housing_bonus = 3
+	}
 }
 
 industrial_fishing_wharf = {
@@ -57,5 +66,8 @@ industrial_fishing_wharf = {
 	commodity_costs = {
 		lumber = 16
 		cast_iron = 16
+	}
+	modifier = {
+		housing_bonus = 4
 	}
 }

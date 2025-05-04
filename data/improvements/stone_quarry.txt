@@ -13,4 +13,7 @@ stone_quarry = {
 		lumber = 1
 		cast_iron = 1
 	}
+	modifier = {
+		housing_bonus = 1
+	}
 }

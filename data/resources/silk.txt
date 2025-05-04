@@ -10,6 +10,5 @@ silk = {
 	}
 	improved_modifier = {
 		culture_bonus = 1
-		housing_bonus = 0.5
 	}
 }
