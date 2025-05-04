@@ -128,7 +128,7 @@ Rectangle {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		source: icon_identifier.length > 0 ? ("image://icon/" + icon_identifier) : "image://empty/"
-		visible: !selected_garrison
+		visible: !selected_garrison && !population_info_text.visible
 		
 		readonly property string icon_identifier: selected_civilian_unit ? selected_civilian_unit.icon.identifier : (
 			selected_site ? (
@@ -169,6 +169,7 @@ Rectangle {
 				)
 			)
 		) : (selected_civilian_unit && selected_civilian_unit.character ? selected_civilian_unit.character.full_name : "")
+		visible: !population_info_text.visible
 	}
 	
 	ScriptedModifierRow {
@@ -257,7 +258,7 @@ Rectangle {
 				(selected_site_game_data.commodity_outputs.length > 0 ? get_commodity_outputs_string(selected_site_game_data.commodity_outputs) : "")
 			) : ""
 		)
-		visible: selected_site && !selected_garrison && !selected_site.settlement
+		visible: selected_site && !selected_garrison && !selected_site.settlement && !viewing_population
 		
 		function get_commodity_outputs_string(commodity_outputs) {
 			var str = ""
@@ -312,7 +313,7 @@ Rectangle {
 			 + "\nConsciousness: " + selected_site_game_data.population.average_consciousness
 			 + "\nMilitancy: " + selected_site_game_data.population.average_militancy
 		) : ""
-		visible: population_chart_grid.visible
+		visible: selected_site !== null && selected_site.game_data.can_have_population() && selected_site.game_data.is_built() && !selected_garrison && viewing_population
 	}
 	
 	Grid {
@@ -326,7 +327,7 @@ Rectangle {
 		columnSpacing: 16 * scale_factor
 		rowSpacing: 8 * scale_factor
 		verticalItemAlignment: Grid.AlignVCenter
-		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_population
+		visible: population_info_text.visible && selected_site !== null && selected_site.game_data.population.size > 0
 		
 		Item {
 			width: population_type_chart.width
@@ -497,7 +498,7 @@ Rectangle {
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 4 * scale_factor
 		icon_identifier: "craftsmen_light_small"
-		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && !viewing_population
+		visible: selected_site !== null && selected_site.game_data.can_have_population() && selected_site.game_data.is_built() && !selected_garrison && !viewing_population
 		
 		onReleased: {
 			viewing_population = true
@@ -506,7 +507,7 @@ Rectangle {
 		
 		onHoveredChanged: {
 			if (hovered) {
-				status_text = "View Settlement Population"
+				status_text = "View Site Population"
 			} else {
 				status_text = ""
 			}
@@ -565,7 +566,7 @@ Rectangle {
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 4 * scale_factor
 		icon_identifier: "settlement"
-		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_population
+		visible: selected_site !== null && selected_site.game_data.can_have_population() && selected_site.game_data.is_built() && !selected_garrison && viewing_population
 		
 		onReleased: {
 			viewing_population = false
