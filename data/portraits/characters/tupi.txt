@@ -4,7 +4,12 @@ cunhambebe = {
 		gender = male
 		or = {
 			culture = tupi
-			cultural_group = american
+			and = {
+				cultural_group = american
+				not = {
+					cultural_group = mesoamerican
+				}
+			}
 		}
 		is_ruler = true
 	}

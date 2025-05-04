@@ -4,6 +4,7 @@ scholar = {
 		gender = male
 		not = {
 			cultural_group = african
+			cultural_group = asian
 		}
 		is_ruler = false
 		or = {

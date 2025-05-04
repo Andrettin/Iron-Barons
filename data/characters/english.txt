@@ -227,6 +227,7 @@ william_penn = {
 	character_type = theologian
 	culture = english
 	religion = protestant #Quaker
+	portrait = william_penn
 	home_settlement = philadelphia
 	gender = male
 	birth_date = 1644

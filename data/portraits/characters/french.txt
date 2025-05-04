@@ -13,6 +13,7 @@ cardinal_richelieu = {
 		gender = male
 		not = {
 			cultural_group = african
+			cultural_group = asian
 		}
 		religion = catholic #because of the cardinal's hat
 		or = {

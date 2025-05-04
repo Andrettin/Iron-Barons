@@ -4,6 +4,7 @@ frankish_cleric = {
 		gender = male
 		not = {
 			cultural_group = african
+			cultural_group = asian
 		}
 		or = {
 			character_type = inquisitor

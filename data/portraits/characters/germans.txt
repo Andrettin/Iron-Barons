@@ -16,6 +16,7 @@ jakob_fugger = {
 		gender = male
 		not = {
 			cultural_group = african
+			cultural_group = asian
 		}
 		or = {
 			character_type = banker
@@ -47,6 +48,7 @@ otto_von_bismarck = {
 		gender = male
 		not = {
 			cultural_group = african
+			cultural_group = asian
 		}
 		is_ruler = false
 		or = {

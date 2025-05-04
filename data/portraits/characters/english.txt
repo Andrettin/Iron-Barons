@@ -15,6 +15,7 @@ francis_drake = {
 		gender = male
 		not = {
 			cultural_group = african
+			cultural_group = asian
 		}
 		is_ruler = false
 		or = {
@@ -33,12 +34,29 @@ henry_hudson = {
 		gender = male
 		not = {
 			cultural_group = african
+			cultural_group = asian
 		}
 		is_ruler = false
 		or = {
 			character_type = navigator
 			character_type = giovanni_da_verrazano
 			character_type = juan_de_bermudez
+		}
+	}
+}
+
+william_penn = {
+	filepath = "portraits/characters/william_penn.png"
+	character_conditions = {
+		gender = male
+		not = {
+			cultural_group = african
+			cultural_group = asian
+		}
+		religion = protestant
+		or = {
+			character_type = inquisitor
+			character_type = theologian
 		}
 	}
 }
