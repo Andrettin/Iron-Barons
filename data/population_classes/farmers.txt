@@ -1,0 +1,8 @@
+farmers = {
+	name = "Farmers"
+}
+
+expert_farmers = {
+	name = "Expert Farmers"
+}
+
