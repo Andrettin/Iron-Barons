@@ -4,6 +4,7 @@ coffee_house = {
 	portrait = trading_post
 	icon = coffee
 	provincial = true
+	required_technology = economics
 	settlement_types = {
 		town
 		city
