@@ -1,0 +1,34 @@
+mount_ararat = {
+	name = "Mount Ararat"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		trade_bonus = 1
+		culture_bonus = 5
+	}
+}
+
+rock_of_gibraltar = {
+	name = "Rock of Gibraltar"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	coastal = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		fish_bonus = 2
+		trade_bonus = 5
+	}
+}
