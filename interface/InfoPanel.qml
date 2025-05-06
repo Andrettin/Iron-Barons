@@ -165,7 +165,7 @@ Rectangle {
 				selected_site.game_data.improvement ? (
 					selected_site.game_data.improvement.name
 				) : (
-					selected_site.map_data.resource ? selected_site.map_data.resource.name : ""
+					selected_site.map_data.resource ? (selected_site.map_data.resource.natural_wonder ? "Natural Wonder" : selected_site.map_data.resource.name) : ""
 				)
 			)
 		) : (selected_civilian_unit && selected_civilian_unit.character ? selected_civilian_unit.character.full_name : "")
@@ -256,7 +256,7 @@ Rectangle {
 		text: format_text(
 			selected_site_game_data ? (
 				(selected_site_game_data.commodity_outputs.length > 0 ? get_commodity_outputs_string(selected_site_game_data.commodity_outputs) : "")
-				+ "\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing
+				+ (selected_site.map_data.resource && !selected_site.map_data.resource.natural_wonder ? ("\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing) : "")
 			) : ""
 		)
 		visible: selected_site && !selected_garrison && !selected_site.settlement && !viewing_population

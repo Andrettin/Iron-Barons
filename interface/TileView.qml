@@ -278,6 +278,8 @@ Item {
 					text += ") ("
 					if (site.game_data.resource_improvement !== null) {
 						text += site.game_data.resource_improvement.name
+					} else if (resource.natural_wonder) {
+						text += "Natural Wonder"
 					} else {
 						text += resource.name
 					}
@@ -285,7 +287,11 @@ Item {
 			} else if (improvement !== null) {
 				text += improvement.name
 			} else if (resource !== null) {
-				text += resource.name
+				if (resource.natural_wonder) {
+					text += "Natural Wonder"
+				} else {
+					text += resource.name
+				}
 			} else {
 				text += terrain.name
 			}
