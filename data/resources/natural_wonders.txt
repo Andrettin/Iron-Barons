@@ -1,3 +1,19 @@
+krakatoa = {
+	name = "Krakatoa"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		research_bonus = 5
+	}
+}
+
 mount_ararat = {
 	name = "Mount Ararat"
 	icon = mountains
@@ -12,6 +28,24 @@ mount_ararat = {
 	modifier = {
 		trade_bonus = 1
 		culture_bonus = 5
+	}
+}
+
+mount_fuji = {
+	name = "Mount Fuji"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		trade_bonus = 2
+		culture_bonus = 3
+		piety_bonus = 3
 	}
 }
 

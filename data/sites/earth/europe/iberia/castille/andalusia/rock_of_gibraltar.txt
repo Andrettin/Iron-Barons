@@ -4,4 +4,5 @@ rock_of_gibraltar = {
 	geocoordinate = { -5.340016243 36.130072333 } #from Natural Earth
 	type = resource
 	resource = rock_of_gibraltar
+	province = andalusia
 }
