@@ -1,7 +1,10 @@
-beaver_camp = {
-	name = "Beaver Camp"
+fur_camp = {
+	name = "Fur Camp"
 	slot = resource
-	resource = beavers
+	resources = {
+		beavers
+		deer
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -21,14 +24,17 @@ beaver_camp = {
 	}
 }
 
-improved_beaver_camp = {
-	name = "Improved Beaver Camp"
+improved_fur_camp = {
+	name = "Improved Fur Camp"
 	slot = resource
-	resource = beavers
+	resources = {
+		beavers
+		deer
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
-	required_improvement = beaver_camp
+	required_improvement = fur_camp
 	required_technology = improved_trapping_techniques
 	wealth_cost = 100
 	population_classes = {
@@ -45,14 +51,17 @@ improved_beaver_camp = {
 	}
 }
 
-advanced_beaver_camp = {
-	name = "Advanced Beaver Camp"
+advanced_fur_camp = {
+	name = "Advanced Fur Camp"
 	slot = resource
-	resource = beavers
+	resources = {
+		beavers
+		deer
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
-	required_improvement = improved_beaver_camp
+	required_improvement = improved_fur_camp
 	required_technology = riverboats
 	wealth_cost = 1000
 	population_classes = {
@@ -69,109 +78,17 @@ advanced_beaver_camp = {
 	}
 }
 
-industrial_beaver_camp = {
-	name = "Industrial Beaver Camp"
+industrial_fur_camp = {
+	name = "Industrial Fur Camp"
 	slot = resource
-	resource = beavers
+	resources = {
+		beavers
+		deer
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
-	required_improvement = advanced_beaver_camp
-	required_technology = excessive_fur_harvesting
-	wealth_cost = 5000
-	population_classes = {
-		slaves
-		laborers
-		expert_fur_trappers
-	}
-	commodity_costs = {
-		lumber = 16
-		cast_iron = 16
-	}
-	modifier = {
-		housing_bonus = 4
-	}
-}
-
-deer_camp = {
-	name = "Deer Camp"
-	slot = resource
-	resource = deer
-	icon = garrison
-	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
-	default_population_class = laborers
-	required_technology = furs
-	wealth_cost = 100
-	population_classes = {
-		slaves
-		laborers
-		expert_fur_trappers
-	}
-	commodity_costs = {
-		lumber = 1
-		cast_iron = 1
-	}
-	modifier = {
-		housing_bonus = 1
-	}
-}
-
-improved_deer_camp = {
-	name = "Improved Deer Camp"
-	slot = resource
-	resource = deer
-	icon = garrison
-	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
-	default_population_class = laborers
-	required_improvement = deer_camp
-	required_technology = improved_trapping_techniques
-	wealth_cost = 100
-	population_classes = {
-		slaves
-		laborers
-		expert_fur_trappers
-	}
-	commodity_costs = {
-		lumber = 4
-		cast_iron = 4
-	}
-	modifier = {
-		housing_bonus = 2
-	}
-}
-
-advanced_deer_camp = {
-	name = "Advanced Deer Camp"
-	slot = resource
-	resource = deer
-	icon = garrison
-	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
-	default_population_class = laborers
-	required_improvement = improved_deer_camp
-	required_technology = riverboats
-	wealth_cost = 1000
-	population_classes = {
-		slaves
-		laborers
-		expert_fur_trappers
-	}
-	commodity_costs = {
-		lumber = 8
-		cast_iron = 8
-	}
-	modifier = {
-		housing_bonus = 3
-	}
-}
-
-industrial_deer_camp = {
-	name = "Industrial Deer Camp"
-	slot = resource
-	resource = deer
-	icon = garrison
-	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
-	default_population_class = laborers
-	required_improvement = advanced_deer_camp
+	required_improvement = advanced_fur_camp
 	required_technology = excessive_fur_harvesting
 	wealth_cost = 5000
 	population_classes = {

@@ -1,7 +1,9 @@
 amber_mine = {
 	name = "Amber Mine"
 	slot = resource
-	resource = amber
+	resources = {
+		amber
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -24,7 +26,9 @@ amber_mine = {
 large_amber_mine = {
 	name = "Large Amber Mine"
 	slot = resource
-	resource = amber
+	resources = {
+		amber
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -48,7 +52,9 @@ large_amber_mine = {
 mechanized_amber_mine = {
 	name = "Mechanized Amber Mine"
 	slot = resource
-	resource = amber
+	resources = {
+		amber
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -72,7 +78,9 @@ mechanized_amber_mine = {
 industrial_amber_mine = {
 	name = "Industrial Amber Mine"
 	slot = resource
-	resource = amber
+	resources = {
+		amber
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers

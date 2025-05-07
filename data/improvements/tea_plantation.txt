@@ -1,7 +1,9 @@
 tea_plantation = {
 	name = "Tea Plantation"
 	slot = resource
-	resource = tea
+	resources = {
+		tea
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/sugar_plantation.png"
 	default_population_class = farmers

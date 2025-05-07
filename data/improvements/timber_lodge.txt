@@ -1,7 +1,9 @@
 timber_lodge = {
 	name = "Timber Lodge"
 	slot = resource
-	resource = timber
+	resources = {
+		timber
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -23,7 +25,9 @@ timber_lodge = {
 improved_timber_lodge = {
 	name = "Improved Timber Lodge"
 	slot = resource
-	resource = timber
+	resources = {
+		timber
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -47,7 +51,9 @@ improved_timber_lodge = {
 advanced_timber_lodge = {
 	name = "Advanced Timber Lodge"
 	slot = resource
-	resource = timber
+	resources = {
+		timber
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -71,7 +77,9 @@ advanced_timber_lodge = {
 mechanized_timber_lodge = {
 	name = "Mechanized Timber Lodge"
 	slot = resource
-	resource = timber
+	resources = {
+		timber
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers

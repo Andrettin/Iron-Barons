@@ -1,7 +1,9 @@
 opium_plantation = {
 	name = "Opium Plantation"
 	slot = resource
-	resource = opium
+	resources = {
+		opium
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	default_population_class = farmers

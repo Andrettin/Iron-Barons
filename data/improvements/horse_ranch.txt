@@ -1,7 +1,9 @@
 horse_ranch = {
 	name = "Horse Ranch"
 	slot = resource
-	resource = horses
+	resources = {
+		horses
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	default_population_class = farmers

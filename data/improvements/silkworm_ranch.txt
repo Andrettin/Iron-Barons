@@ -1,7 +1,9 @@
 silkworm_ranch = {
 	name = "Silkworm Ranch"
 	slot = resource
-	resource = silk
+	resources = {
+		silk
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	default_population_class = farmers

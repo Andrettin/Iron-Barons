@@ -1,7 +1,9 @@
 cotton_plantation = {
 	name = "Cotton Plantation"
 	slot = resource
-	resource = cotton
+	resources = {
+		cotton
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	default_population_class = farmers
@@ -24,7 +26,9 @@ cotton_plantation = {
 large_cotton_plantation = {
 	name = "Large Cotton Plantation"
 	slot = resource
-	resource = cotton
+	resources = {
+		cotton
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	default_population_class = farmers
@@ -48,7 +52,9 @@ large_cotton_plantation = {
 mechanized_cotton_plantation = {
 	name = "Mechanized Cotton Plantation"
 	slot = resource
-	resource = cotton
+	resources = {
+		cotton
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	default_population_class = farmers
@@ -72,7 +78,9 @@ mechanized_cotton_plantation = {
 industrial_cotton_plantation = {
 	name = "Industrial Cotton Plantation"
 	slot = resource
-	resource = cotton
+	resources = {
+		cotton
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	default_population_class = farmers

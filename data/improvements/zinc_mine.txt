@@ -1,7 +1,9 @@
 zinc_mine = {
 	name = "Zinc Mine"
 	slot = resource
-	resource = zinc
+	resources = {
+		zinc
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
@@ -27,7 +29,9 @@ zinc_mine = {
 large_zinc_mine = {
 	name = "Large Zinc Mine"
 	slot = resource
-	resource = zinc
+	resources = {
+		zinc
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
@@ -54,7 +58,9 @@ large_zinc_mine = {
 steam_pumped_zinc_mine = {
 	name = "Steam-Pumped Zinc Mine"
 	slot = resource
-	resource = zinc
+	resources = {
+		zinc
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
@@ -81,7 +87,9 @@ steam_pumped_zinc_mine = {
 industrial_zinc_mine = {
 	name = "Industrial Zinc Mine"
 	slot = resource
-	resource = zinc
+	resources = {
+		zinc
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {

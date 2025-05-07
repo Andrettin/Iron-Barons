@@ -1,7 +1,9 @@
 potato_farm = {
 	name = "Potato Farm"
 	slot = resource
-	resource = potatoes
+	resources = {
+		potatoes
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"
 	variation_count = 4
@@ -25,7 +27,9 @@ potato_farm = {
 potato_estate = {
 	name = "Potato Estate"
 	slot = resource
-	resource = potatoes
+	resources = {
+		potatoes
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"
 	variation_count = 4
@@ -50,7 +54,9 @@ potato_estate = {
 mechanized_potato_estate = {
 	name = "Mechanized Potato Estate"
 	slot = resource
-	resource = potatoes
+	resources = {
+		potatoes
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"
 	variation_count = 4
@@ -75,7 +81,9 @@ mechanized_potato_estate = {
 industrial_potato_estate = {
 	name = "Industrial Potato Estate"
 	slot = resource
-	resource = potatoes
+	resources = {
+		potatoes
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/grain_farm.png"
 	variation_count = 4

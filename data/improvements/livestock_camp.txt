@@ -1,7 +1,9 @@
 bison_camp = {
 	name = "Bison Camp"
 	slot = resource
-	resource = bison
+	resources = {
+		bison
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -23,7 +25,9 @@ bison_camp = {
 improved_bison_camp = {
 	name = "Improved Bison Camp"
 	slot = resource
-	resource = bison
+	resources = {
+		bison
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -47,7 +51,9 @@ improved_bison_camp = {
 advanced_bison_camp = {
 	name = "Advanced Bison Camp"
 	slot = resource
-	resource = bison
+	resources = {
+		bison
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers
@@ -71,7 +77,9 @@ advanced_bison_camp = {
 industrial_bison_camp = {
 	name = "Industrial Bison Camp"
 	slot = resource
-	resource = bison
+	resources = {
+		bison
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/timber_lodge_clearing.png"
 	default_population_class = laborers

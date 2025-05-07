@@ -1,7 +1,9 @@
 tin_mine = {
 	name = "Tin Mine"
 	slot = resource
-	resource = tin
+	resources = {
+		tin
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
@@ -27,7 +29,9 @@ tin_mine = {
 large_tin_mine = {
 	name = "Large Tin Mine"
 	slot = resource
-	resource = tin
+	resources = {
+		tin
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
@@ -54,7 +58,9 @@ large_tin_mine = {
 steam_pumped_tin_mine = {
 	name = "Steam-Pumped Tin Mine"
 	slot = resource
-	resource = tin
+	resources = {
+		tin
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {
@@ -81,7 +87,9 @@ steam_pumped_tin_mine = {
 industrial_tin_mine = {
 	name = "Industrial Tin Mine"
 	slot = resource
-	resource = tin
+	resources = {
+		tin
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
 	terrain_image_filepaths = {

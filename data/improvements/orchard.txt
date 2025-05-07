@@ -1,7 +1,9 @@
 orchard = {
 	name = "Orchard"
 	slot = resource
-	resource = fruit
+	resources = {
+		fruit
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"
 	default_population_class = farmers
@@ -23,7 +25,9 @@ orchard = {
 improved_orchard = {
 	name = "Improved Orchard"
 	slot = resource
-	resource = fruit
+	resources = {
+		fruit
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"
 	default_population_class = farmers
@@ -47,7 +51,9 @@ improved_orchard = {
 mechanized_orchard = {
 	name = "Mechanized Orchard"
 	slot = resource
-	resource = fruit
+	resources = {
+		fruit
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"
 	default_population_class = farmers
@@ -71,7 +77,9 @@ mechanized_orchard = {
 industrial_orchard = {
 	name = "Industrial Orchard"
 	slot = resource
-	resource = fruit
+	resources = {
+		fruit
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/orchard.png"
 	default_population_class = farmers

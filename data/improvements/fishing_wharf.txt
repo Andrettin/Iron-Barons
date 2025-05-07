@@ -1,7 +1,9 @@
 fishing_wharf = {
 	name = "Fishing Wharf"
 	slot = resource
-	resource = fish
+	resources = {
+		fish
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	default_population_class = laborers
@@ -23,7 +25,9 @@ fishing_wharf = {
 improved_fishing_wharf = {
 	name = "Improved Fishing Wharf"
 	slot = resource
-	resource = fish
+	resources = {
+		fish
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	default_population_class = laborers
@@ -47,7 +51,9 @@ improved_fishing_wharf = {
 advanced_fishing_wharf = {
 	name = "Advanced Fishing Wharf"
 	slot = resource
-	resource = fish
+	resources = {
+		fish
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	default_population_class = laborers
@@ -71,7 +77,9 @@ advanced_fishing_wharf = {
 industrial_fishing_wharf = {
 	name = "Industrial Fishing Wharf"
 	slot = resource
-	resource = fish
+	resources = {
+		fish
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/fishing_wharf.png"
 	default_population_class = laborers

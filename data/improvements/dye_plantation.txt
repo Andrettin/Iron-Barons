@@ -1,7 +1,9 @@
 dye_plantation = {
 	name = "Dye Plantation"
 	slot = resource
-	resource = dye
+	resources = {
+		dye
+	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/cotton_plantation.png"
 	default_population_class = farmers

@@ -1,7 +1,9 @@
 cattle_ranch = {
 	name = "Cattle Ranch"
 	slot = resource
-	resource = cattle
+	resources = {
+		cattle
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	default_population_class = farmers
@@ -23,7 +25,9 @@ cattle_ranch = {
 improved_cattle_ranch = {
 	name = "Improved Cattle Ranch"
 	slot = resource
-	resource = cattle
+	resources = {
+		cattle
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	default_population_class = farmers
@@ -47,7 +51,9 @@ improved_cattle_ranch = {
 advanced_cattle_ranch = {
 	name = "Advanced Cattle Ranch"
 	slot = resource
-	resource = cattle
+	resources = {
+		cattle
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	default_population_class = farmers
@@ -71,7 +77,9 @@ advanced_cattle_ranch = {
 industrial_cattle_ranch = {
 	name = "Industrial Cattle Ranch"
 	slot = resource
-	resource = cattle
+	resources = {
+		cattle
+	}
 	icon = garrison
 	image_filepath = "tiles/improvements/cattle_ranch.png"
 	default_population_class = farmers
