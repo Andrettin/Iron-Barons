@@ -152,6 +152,23 @@ mount_tlaloc = {
 	}
 }
 
+old_faithful = {
+	name = "Old Faithful"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		research_bonus = 2
+		amenities_bonus = 3
+	}
+}
+
 rock_of_gibraltar = {
 	name = "Rock of Gibraltar"
 	icon = mountains
