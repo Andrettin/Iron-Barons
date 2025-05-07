@@ -184,10 +184,22 @@ MenuBase {
 			function get_resource_counts_string(resource_counts) {
 				var str = "";
 				
+				var natural_wonder_count = 0
+				
 				for (const kv_pair of resource_counts) {
 					var resource = kv_pair.key
 					var count = kv_pair.value
+					
+					if (resource.natural_wonder) {
+						natural_wonder_count += count
+						continue
+					}
+					
 					str += "\n" + count + " " + (count > 1 && resource.plural_name.length > 0 ? resource.plural_name : resource.name)
+				}
+				
+				if (natural_wonder_count > 0) {
+					str = "\n" + natural_wonder_count + " " + (natural_wonder_count > 1 ? "Natural Wonders" : "Natural Wonder") + str
 				}
 				
 				return str
