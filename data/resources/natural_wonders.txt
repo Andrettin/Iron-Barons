@@ -66,6 +66,22 @@ mount_kailash = {
 	}
 }
 
+mount_thera = {
+	name = "Mount Thera"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		research_bonus = 5
+	}
+}
+
 rock_of_gibraltar = {
 	name = "Rock of Gibraltar"
 	icon = mountains
