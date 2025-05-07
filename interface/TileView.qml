@@ -278,6 +278,9 @@ Item {
 					text += ") ("
 					if (site.game_data.resource_improvement !== null) {
 						text += site.game_data.resource_improvement.name
+						if (resource.natural_wonder) {
+							text += ") (Natural Wonder"
+						}
 					} else if (resource.natural_wonder) {
 						text += "Natural Wonder"
 					} else {
@@ -286,6 +289,9 @@ Item {
 				}
 			} else if (improvement !== null) {
 				text += improvement.name
+				if (resource !== null && resource.natural_wonder) {
+					text += ") (Natural Wonder"
+				}
 			} else if (resource !== null) {
 				if (resource.natural_wonder) {
 					text += "Natural Wonder"

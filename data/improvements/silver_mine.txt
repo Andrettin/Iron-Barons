@@ -3,6 +3,7 @@ silver_mine = {
 	slot = resource
 	resources = {
 		silver
+		cerro_de_potosi
 	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -31,6 +32,7 @@ large_silver_mine = {
 	slot = resource
 	resources = {
 		silver
+		cerro_de_potosi
 	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -60,6 +62,7 @@ steam_pumped_silver_mine = {
 	slot = resource
 	resources = {
 		silver
+		cerro_de_potosi
 	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"
@@ -89,6 +92,7 @@ industrial_silver_mine = {
 	slot = resource
 	resources = {
 		silver
+		cerro_de_potosi
 	}
 	icon = trade_consulate
 	image_filepath = "tiles/improvements/quarry.png"

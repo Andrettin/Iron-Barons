@@ -1,3 +1,22 @@
+cerro_de_potosi = {
+	name = "Cerro de Potosi"
+	commodity = silver
+	icon = mountains
+	tiny_icon = trade_consulate
+	natural_wonder = true
+	discovery_technology = precious_metals
+	#prospectable = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	improved_modifier = {
+		housing_output_modifier = 400
+	}
+}
+
 krakatoa = {
 	name = "Krakatoa"
 	icon = mountains

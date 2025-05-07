@@ -12,6 +12,7 @@ religious_idols = {
 		or = {
 			has_resource = gold
 			has_resource = silver
+			has_resource = cerro_de_potosi
 		}
 	}
 	modifier = {
@@ -19,5 +20,7 @@ religious_idols = {
 		piety_per_improved_gold = 1
 		culture_per_improved_silver = 1
 		piety_per_improved_silver = 1
+		culture_per_improved_cerro_de_potosi = 1
+		piety_per_improved_cerro_de_potosi = 1
 	}
 }
