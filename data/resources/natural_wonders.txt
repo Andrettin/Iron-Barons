@@ -134,6 +134,24 @@ mount_thera = {
 	}
 }
 
+mount_tlaloc = {
+	name = "Mount Tlaloc"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		trade_bonus = 2
+		culture_bonus = 3
+		piety_bonus = 3
+	}
+}
+
 rock_of_gibraltar = {
 	name = "Rock of Gibraltar"
 	icon = mountains
