@@ -5,7 +5,7 @@ cerro_de_potosi = {
 	tiny_icon = trade_consulate
 	natural_wonder = true
 	discovery_technology = precious_metals
-	#prospectable = true
+	prospectable = true
 	terrain_types = {
 		mountains
 	}
