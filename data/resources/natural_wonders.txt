@@ -1,3 +1,20 @@
+barringer_crater = {
+	name = "Barringer Crater"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		desert
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		trade_bonus = 2
+		research_bonus = 3
+	}
+}
+
 cerro_de_potosi = {
 	name = "Cerro de Potosi"
 	commodity = silver
