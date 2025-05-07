@@ -102,6 +102,22 @@ mount_kailash = {
 	}
 }
 
+mount_sinai = {
+	name = "Mount Sinai"
+	icon = mountains
+	tiny_icon = alliance
+	natural_wonder = true
+	terrain_types = {
+		mountains
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		piety_bonus = 8
+	}
+}
+
 mount_thera = {
 	name = "Mount Thera"
 	icon = mountains
