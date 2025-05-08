@@ -15,6 +15,12 @@ coffee_house = {
 			has_resource = coffee
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = coffee
+			value = 1
+		}
+	}
 	province_modifier = {
 		culture_per_improved_coffee = 1
 	}

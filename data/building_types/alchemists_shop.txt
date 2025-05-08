@@ -21,6 +21,12 @@ alchemists_shop = {
 			produces_commodity = cinnabar
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = mercury
+			value = 1
+		}
+	}
 	province_modifier = {
 		research_per_improved_cinnabar = 1
 	}
