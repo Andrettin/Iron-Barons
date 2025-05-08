@@ -9,6 +9,7 @@ castille = {
 		horses = 1
 		timber = 3
 		zinc = 1 #Source: Map No. 501745 of the Perry-Castañeda Library Map Collection, 1974.
+		cinnabar = 2 #mercury; Source: Map No. 501745 of the Perry-Castañeda Library Map Collection, 1974.
 	}
 	regions = {
 		spain

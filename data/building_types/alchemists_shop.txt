@@ -6,6 +6,8 @@ alchemists_shop = {
 	provincial = true
 	required_technology = alchemy
 	settlement_types = {
+		village
+		town
 		city
 		metropolis
 		campus
@@ -16,10 +18,10 @@ alchemists_shop = {
 	}
 	settlement_conditions = {
 		province = {
-			produces_commodity = research
+			produces_commodity = cinnabar
 		}
 	}
-	settlement_modifier = {
-		research_output_modifier = 25
+	province_modifier = {
+		research_per_improved_cinnabar = 1
 	}
 }

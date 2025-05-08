@@ -4,6 +4,7 @@ miner = {
 	icon = miners
 	improvable_resources = {
 		amber
+		cinnabar
 		coal
 		copper
 		diamonds
