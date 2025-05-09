@@ -9,6 +9,12 @@ sewer_system = {
 		city
 		metropolis
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = lead_pipes
+			value = 1
+		}
+	}
 	settlement_modifier = {
 		housing_bonus = 2
 	}

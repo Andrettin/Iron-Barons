@@ -11,6 +11,7 @@ miner = {
 		gems
 		gold
 		iron_ore
+		lead
 		salt
 		silver
 		stone

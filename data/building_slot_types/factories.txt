@@ -10,6 +10,10 @@ iron_smelter = {
 	name = "Iron Smelter"
 }
 
+lead_smelter = {
+	name = "Lead Smelter"
+}
+
 lumber_mill = {
 	name = "Lumber Mill"
 }
@@ -36,6 +40,10 @@ furniture_factory = {
 
 metalworks = {
 	name = "Metalworks"
+}
+
+pipe_maker = {
+	name = "Pipe Maker"
 }
 
 sugar_refinery = {
