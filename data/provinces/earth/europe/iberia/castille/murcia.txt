@@ -6,6 +6,7 @@ murcia = {
 		grain = 4
 		fruit = 1
 		copper = 1 #Source: Map No. 501745 of the Perry-Castañeda Library Map Collection, 1974.
+		lead = 1 #Source: Map No. 501745 of the Perry-Castañeda Library Map Collection, 1974.
 		zinc = 1 #Source: Map No. 501745 of the Perry-Castañeda Library Map Collection, 1974.
 	}
 	regions = {
