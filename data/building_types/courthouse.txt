@@ -22,6 +22,12 @@ courthouse = {
 			produces_commodity = statesmanship
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = furniture
+			value = 1
+		}
+	}
 	province_modifier = {
 		statesmanship_output_modifier = 25
 	}

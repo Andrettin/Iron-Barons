@@ -18,6 +18,12 @@ village_hall = {
 			capital = true
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = furniture
+			value = 1
+		}
+	}
 	province_modifier = {
 		statesmanship_output_modifier = 25
 	}
@@ -41,6 +47,12 @@ town_hall = {
 				produces_commodity = statesmanship
 			}
 			capital = true
+		}
+	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = furniture
+			value = 1
 		}
 	}
 	province_modifier = {
@@ -71,6 +83,12 @@ city_hall = {
 				produces_commodity = statesmanship
 			}
 			capital = true
+		}
+	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = furniture
+			value = 1
 		}
 	}
 	province_modifier = {
@@ -104,6 +122,12 @@ state_house = {
 			capital = true
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = furniture
+			value = 1
+		}
+	}
 	province_modifier = {
 		statesmanship_output_modifier = 150
 	}
@@ -133,6 +157,12 @@ capitol = {
 				produces_commodity = statesmanship
 			}
 			capital = true
+		}
+	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = furniture
+			value = 1
 		}
 	}
 	province_modifier = {

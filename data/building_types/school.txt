@@ -19,6 +19,12 @@ school = {
 			capital = true
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = paper
+			value = 1
+		}
+	}
 	province_modifier = {
 		research_output_modifier = 25
 	}
@@ -42,6 +48,12 @@ college = {
 				produces_commodity = research
 			}
 			capital = true
+		}
+	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = paper
+			value = 1
 		}
 	}
 	province_modifier = {
@@ -84,6 +96,12 @@ university = {
 			capital = true
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = paper
+			value = 1
+		}
+	}
 	province_modifier = {
 		research_output_modifier = 100
 	}
@@ -114,6 +132,12 @@ monastic_school = {
 			capital = true
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = paper
+			value = 1
+		}
+	}
 	province_modifier = {
 		research_output_modifier = 25
 	}
@@ -136,6 +160,12 @@ cathedral_school = {
 				produces_commodity = research
 			}
 			capital = true
+		}
+	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = paper
+			value = 1
 		}
 	}
 	province_modifier = {

@@ -19,6 +19,12 @@ printing_press = {
 			}
 		}
 	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = paper
+			value = 1
+		}
+	}
 	settlement_modifier = {
 		statesmanship_output_modifier = 50
 		research_output_modifier = 22
@@ -41,6 +47,12 @@ newspaper = {
 	settlement_conditions = {
 		province = {
 			produces_commodity = statesmanship
+		}
+	}
+	country_modifier = {
+		commodity_demand = {
+			commodity = paper
+			value = 1
 		}
 	}
 	settlement_modifier = {
