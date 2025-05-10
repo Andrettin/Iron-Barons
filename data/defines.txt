@@ -43,6 +43,8 @@ tradition_commodity = culture
 advisor_commodity = statesmanship
 leader_commodity = leadership
 
+great_power_commodity_demand_divisor = 2
+
 tariff_icon = wealth
 treasure_fleet_icon = chest
 military_upkeep_icon = crossed_sabers
