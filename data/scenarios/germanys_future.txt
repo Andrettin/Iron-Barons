@@ -1,5 +1,6 @@
 germanys_future = {
 	name = "Germany's Future"
+	parent_scenario = first_world_war
 	start_date = 1918
 	timeline = germanys_future
 	map_template = earth

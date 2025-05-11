@@ -1,5 +1,6 @@
 alexiad = {
 	name = "Alexiad"
+	parent_scenario = high_middle_ages
 	start_date = 1081.4.1
 	map_template = earth
 	hidden = true

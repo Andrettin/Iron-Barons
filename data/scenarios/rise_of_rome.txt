@@ -1,6 +1,6 @@
-second_punic_war = {
-	name = "Second Punic War"
-	start_date = -218
+rise_of_rome = {
+	name = "Rise of Rome"
+	start_date = -304.10.1
 	map_template = earth
 	hidden = true
 	default_countries = {

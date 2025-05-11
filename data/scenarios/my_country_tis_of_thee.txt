@@ -1,5 +1,6 @@
 my_country_tis_of_thee = {
 	name = "My Country, 'Tis of Thee"
+	parent_scenario = first_world_war
 	start_date = 1920
 	timeline = my_country_tis_of_thee
 	map_template = earth

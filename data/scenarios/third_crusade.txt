@@ -1,6 +1,7 @@
 third_crusade = {
 	name = "Third Crusade"
-	start_date = 1187.1.1
+	parent_scenario = high_middle_ages
+	start_date = 1187
 	map_template = earth
 	hidden = true
 	default_countries = {

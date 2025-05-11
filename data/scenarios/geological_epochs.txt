@@ -2,7 +2,6 @@ paleozoic = {
 	name = "Paleozoic"
 	start_date = -419200000 #Devonian
 	map_template = earth
-	major = true
 	hidden = true
 }
 
@@ -10,7 +9,6 @@ mesozoic = {
 	name = "Mesozoic"
 	start_date = -251902000 #Triassic
 	map_template = earth
-	major = true
 	hidden = true
 }
 
@@ -18,6 +16,5 @@ cenozoic = {
 	name = "Cenozoic"
 	start_date = -66000000
 	map_template = earth
-	major = true
 	hidden = true
 }
