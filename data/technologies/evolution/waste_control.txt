@@ -5,6 +5,7 @@ waste_control = {
 	icon = lion
 	period = cretaceous
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

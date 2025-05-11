@@ -5,6 +5,7 @@ fingers = {
 	icon = lion
 	period = permian
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

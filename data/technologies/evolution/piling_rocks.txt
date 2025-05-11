@@ -5,6 +5,7 @@ piling_rocks = {
 	icon = lion
 	period = cretaceous
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

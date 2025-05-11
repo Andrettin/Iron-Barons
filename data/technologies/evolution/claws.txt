@@ -6,6 +6,7 @@ claws = {
 	period = triassic
 	year = -130000000 #Baryonyx
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {
@@ -20,6 +21,7 @@ grasping_claws = {
 	icon = lion
 	period = jurassic
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {
@@ -34,6 +36,7 @@ curved_claws = {
 	icon = lion
 	period = paleogene
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {
@@ -49,6 +52,7 @@ slashing_claw = {
 	icon = lion
 	period = neogene
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {
@@ -64,6 +68,7 @@ tearing_claw = {
 	period = pleistocene
 	year = -75000000 #Velociraptor
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

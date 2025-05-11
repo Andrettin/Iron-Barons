@@ -6,6 +6,7 @@ spiny_fins = {
 	period = devonian
 	year = -405000000 #Climatius
 	cultures = {
+		mammalian
 		reptilian
 	}
 }

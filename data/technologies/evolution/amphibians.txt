@@ -5,6 +5,7 @@ amphibians = {
 	icon = lion
 	period = carboniferous
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

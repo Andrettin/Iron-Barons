@@ -5,6 +5,7 @@ chambered_heart = {
 	icon = heart
 	period = permian
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

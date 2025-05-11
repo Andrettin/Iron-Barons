@@ -5,6 +5,7 @@ upright_stature = {
 	icon = lion
 	period = carboniferous
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

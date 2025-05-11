@@ -6,6 +6,7 @@ egg_laying = {
 	period = devonian
 	year = -385000000 #Gyroptychius
 	cultures = {
+		mammalian
 		reptilian
 	}
 }

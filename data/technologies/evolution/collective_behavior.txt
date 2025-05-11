@@ -5,6 +5,7 @@ collective_behavior = {
 	icon = lion
 	period = triassic
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

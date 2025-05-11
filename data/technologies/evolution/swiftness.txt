@@ -5,6 +5,7 @@ swiftness = {
 	icon = lion
 	period = cretaceous
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {
