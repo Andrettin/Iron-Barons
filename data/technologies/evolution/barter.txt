@@ -5,6 +5,7 @@ barter = {
 	icon = lion
 	period = devonian
 	cultures = {
+		mammalian
 		reptilian
 	}
 }

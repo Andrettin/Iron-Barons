@@ -5,6 +5,7 @@ back_protection = {
 	icon = lion
 	period = carboniferous
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {

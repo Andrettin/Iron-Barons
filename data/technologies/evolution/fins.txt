@@ -18,6 +18,7 @@ dorsal_fin = {
 	icon = fish
 	period = permian
 	cultures = {
+		mammalian
 		reptilian
 	}
 	prerequisites = {
