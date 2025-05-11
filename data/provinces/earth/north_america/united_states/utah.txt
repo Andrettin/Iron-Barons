@@ -7,9 +7,26 @@ utah = {
 	}
 	
 	history = {
-		owner = apache
-		culture = apache
+		owner = alphadontids
+		culture = mammalian
 		religion = pagan
+		
+		-86300000 = { #Alphadon lived there in the Santonian period; Source: https://fossilworks.org/?a=samplePage&sample_no=4596
+			owner = alphadontids
+			culture = mammalian
+			religion = pagan
+		}
+		
+		-70600000 = { #Alphadon lived there in the Lancian period; Source: https://fossilworks.org/?a=samplePage&sample_no=4558 ; Source: https://fossilworks.org/?a=samplePage&sample_no=4583
+			owner = alphadontids
+			culture = mammalian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = apache
+			culture = apache
+		}
 		
 		1848 = {
 			owner = united_states #became part of the United States in 1848; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.

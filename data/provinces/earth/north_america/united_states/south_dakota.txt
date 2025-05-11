@@ -7,9 +7,20 @@ south_dakota = {
 	}
 	
 	history = {
-		owner = sioux
-		culture = sioux
+		owner = alphadontids
+		culture = mammalian
 		religion = pagan
+		
+		-143100000 = { #Alphadon lived there in the Cretaceous; Source: https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=487156
+			owner = alphadontids
+			culture = mammalian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = sioux
+			culture = sioux
+		}
 		
 		1673 = {
 			owner = new_france #became part of New France in 1673; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
