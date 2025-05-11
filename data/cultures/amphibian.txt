@@ -1,0 +1,4 @@
+amphibian = {
+	name = "Amphibian"
+	default_phenotype = amphibian
+}

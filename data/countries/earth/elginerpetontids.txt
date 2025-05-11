@@ -1,0 +1,14 @@
+elginerpetontids = {
+	name = "Elginerpetontids"
+	type = great_power
+	color = { 206 8 8 }
+	culture = amphibian
+	default_religion = pagan
+	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = inverness #Elgin, Scotland
+	short_name = true
+	core_provinces = {
+		highlands
+	}
+}

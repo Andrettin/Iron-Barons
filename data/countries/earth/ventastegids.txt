@@ -1,0 +1,14 @@
+ventastegids = {
+	name = "Ventastegids"
+	type = great_power
+	color = { 111 177 210 }
+	culture = amphibian
+	default_religion = pagan
+	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = riga
+	short_name = true
+	core_provinces = {
+		livonia
+	}
+}

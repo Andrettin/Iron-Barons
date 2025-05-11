@@ -1,0 +1,14 @@
+acanthostegids = {
+	name = "Acanthostegids"
+	type = great_power
+	color = { 0 173 198 }
+	culture = amphibian
+	default_religion = pagan
+	default_tier = kingdom
+	default_government_type = despotism
+	default_capital = nuuk
+	short_name = true
+	core_provinces = {
+		sermersooq
+	}
+}
