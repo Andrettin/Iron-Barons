@@ -13,6 +13,9 @@ clade = {
 		county = "Chief"
 		duchy = "Chief"
 		kingdom = "Chief"
-		empire = "Chief"
+		empire = {
+			male = "Rex"
+			female = "Regina"
+		}
 	}
 }
