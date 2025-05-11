@@ -9,6 +9,7 @@ despotism = {
 			tradition = republic
 			tradition = theocracy
 			subject_type = colony
+			country_type = clade
 		}
 	}
 }
