@@ -10,9 +10,20 @@ northumberland = {
 	}
 	
 	history = {
-		owner = britons
-		culture = briton
+		owner = elginerpetontids
+		culture = amphibian
 		religion = pagan
+		
+		-419200000 = {
+			owner = elginerpetontids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = britons
+			culture = briton
+		}
 		
 		526 = {
 			owner = anglo_saxons #territory of the Anglo-Saxons in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.

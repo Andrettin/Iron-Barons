@@ -7,9 +7,20 @@ munster = {
 	}
 	
 	history = {
-		owner = scots
-		culture = irish
+		owner = elginerpetontids
+		culture = amphibian
 		religion = pagan
+		
+		-419200000 = {
+			owner = elginerpetontids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = scots
+			culture = irish
+		}
 		
 		526 = {
 			owner = scots #territory of the Scots in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.

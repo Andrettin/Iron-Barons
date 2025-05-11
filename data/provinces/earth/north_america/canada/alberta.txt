@@ -7,14 +7,19 @@ alberta = {
 	}
 	
 	history = {
-		owner = alphadontids
-		culture = mammalian
+		owner = hylerpetontids
+		culture = amphibian
 		religion = pagan
 		
-		-143100000 = { #Alphadon lived there in the Cretaceous; Source: https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=487156
+		-358900000 = {
+			owner = hylerpetontids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-143100000 = { #Alphadon lived in Alberta in the Cretaceous; Source: https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=487156
 			owner = alphadontids
 			culture = mammalian
-			religion = pagan
 		}
 		
 		-4000 = {

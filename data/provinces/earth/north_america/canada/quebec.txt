@@ -10,9 +10,20 @@ quebec = {
 	}
 	
 	history = {
-		owner = huron
-		culture = huron
+		owner = hylerpetontids
+		culture = amphibian
 		religion = pagan
+		
+		-358900000 = {
+			owner = hylerpetontids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = huron
+			culture = huron
+		}
 		
 		1300 = {
 			owner = huron #Huron territory in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.

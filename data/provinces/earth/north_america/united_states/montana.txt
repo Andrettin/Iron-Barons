@@ -7,14 +7,19 @@ montana = {
 	}
 	
 	history = {
-		owner = alphadontids
-		culture = mammalian
+		owner = hylerpetontids
+		culture = amphibian
 		religion = pagan
+		
+		-358900000 = {
+			owner = hylerpetontids
+			culture = amphibian
+			religion = pagan
+		}
 		
 		-68178000 = { #Alphadon lived there 68.178-66.38 millions of years ago; Source: https://fossilworks.org/?a=samplePage&sample_no=4558
 			owner = alphadontids
 			culture = mammalian
-			religion = pagan
 		}
 		
 		-4000 = {

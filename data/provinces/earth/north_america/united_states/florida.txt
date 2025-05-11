@@ -10,9 +10,20 @@ florida = {
 	}
 	
 	history = {
-		owner = cherokee
-		culture = cherokee
+		owner = hylerpetontids
+		culture = amphibian
 		religion = pagan
+		
+		-358900000 = {
+			owner = hylerpetontids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = cherokee
+			culture = cherokee
+		}
 		
 		1300 = {
 			owner = cherokee #territory of the Southeastern cultural group (to which the Cherokee belonged) in the 1300-1535 period; Source: "Atlas de História Mundial", 2001, pp. 148-149.

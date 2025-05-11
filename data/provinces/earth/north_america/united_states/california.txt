@@ -7,9 +7,20 @@ california = {
 	}
 	
 	history = {
-		owner = apache
-		culture = apache
+		owner = hylerpetontids
+		culture = amphibian
 		religion = pagan
+		
+		-358900000 = {
+			owner = hylerpetontids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = apache
+			culture = apache
+		}
 		
 		1542 = {
 			owner = california #became part of the Spanish colony of California in 1542; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
