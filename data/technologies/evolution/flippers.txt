@@ -5,7 +5,7 @@ flippers = {
 	icon = fish
 	period = triassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		fingers

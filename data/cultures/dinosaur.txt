@@ -1,4 +1,0 @@
-dinosaur = {
-	name = "Dinosaur"
-	default_phenotype = dinosaur
-}

@@ -5,7 +5,7 @@ combined_defenses = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		horns

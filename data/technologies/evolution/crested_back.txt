@@ -5,7 +5,7 @@ crested_back = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		back_protection

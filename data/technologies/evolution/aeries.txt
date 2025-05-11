@@ -5,7 +5,7 @@ aeries = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		true_flight

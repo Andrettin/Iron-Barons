@@ -5,7 +5,7 @@ immensity = {
 	icon = lion
 	period = paleogene
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		saurian_proportions

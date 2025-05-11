@@ -5,7 +5,7 @@ waste_control = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		dung_removal

@@ -5,7 +5,7 @@ head_crest = {
 	icon = lion
 	period = triassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		bony_knobs

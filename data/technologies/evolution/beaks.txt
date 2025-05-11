@@ -5,7 +5,7 @@ beaks = {
 	icon = lion
 	period = carboniferous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		phytophagia

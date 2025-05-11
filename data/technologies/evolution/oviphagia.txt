@@ -5,7 +5,7 @@ oviphagia = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		egg_laying

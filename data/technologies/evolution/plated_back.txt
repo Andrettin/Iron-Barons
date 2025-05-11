@@ -5,7 +5,7 @@ plated_back = {
 	icon = lion
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		back_protection

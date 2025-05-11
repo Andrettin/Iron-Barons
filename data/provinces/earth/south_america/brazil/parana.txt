@@ -12,7 +12,7 @@ parana = {
 	
 	history = {
 		owner = gondwana
-		culture = dinosaur
+		culture = reptilian
 		religion = pagan
 		
 		-4000 = {

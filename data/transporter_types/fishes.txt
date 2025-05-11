@@ -1,7 +1,7 @@
 griphognathus = {
 	name = "Griphognathus"
 	transporter_class = carrack
-	culture = dinosaur
+	culture = reptilian
 	icon = fish
 	hit_points = 25
 	stats = {
@@ -18,7 +18,7 @@ griphognathus = {
 hemicyclaspis = {
 	name = "Hemicyclaspis"
 	transporter_class = trader
-	culture = dinosaur
+	culture = reptilian
 	icon = fish
 	hit_points = 30
 	stats = {

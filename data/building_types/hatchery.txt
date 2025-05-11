@@ -1,7 +1,7 @@
 hatchery = {
 	name = "Hatchery"
 	building_class = hatchery
-	culture = dinosaur
+	culture = reptilian
 	portrait = building_slot
 	icon = heart
 	provincial = true

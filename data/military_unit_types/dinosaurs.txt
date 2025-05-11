@@ -1,7 +1,7 @@
 triceratops = {
 	name = "Triceratops"
 	unit_class = spearmen
-	culture = dinosaur
+	culture = reptilian
 	icon = lion
 	stats = {
 		melee = 4

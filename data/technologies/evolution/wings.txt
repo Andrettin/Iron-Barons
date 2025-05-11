@@ -5,7 +5,7 @@ wings = {
 	icon = lion
 	period = triassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		scaly_skin
@@ -20,7 +20,7 @@ true_flight = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		wings

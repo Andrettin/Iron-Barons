@@ -5,7 +5,7 @@ swiftness = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		endothermics

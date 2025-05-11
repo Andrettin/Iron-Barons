@@ -5,7 +5,7 @@ plesiosaurs = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		marine_reptiles

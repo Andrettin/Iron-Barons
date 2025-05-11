@@ -5,7 +5,7 @@ fingers = {
 	icon = lion
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		upright_stature

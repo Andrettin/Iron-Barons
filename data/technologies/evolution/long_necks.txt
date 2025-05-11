@@ -5,7 +5,7 @@ long_necks = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		endothermics

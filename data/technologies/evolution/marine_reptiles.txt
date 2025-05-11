@@ -5,7 +5,7 @@ marine_reptiles = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		flippers

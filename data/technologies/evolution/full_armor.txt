@@ -5,7 +5,7 @@ full_armor = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		plated_back

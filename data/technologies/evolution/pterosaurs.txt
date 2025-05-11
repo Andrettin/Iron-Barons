@@ -6,7 +6,7 @@ pterosaurs = {
 	period = cretaceous
 	year = -150800000 #Pterodactyl
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		true_flight
@@ -22,7 +22,7 @@ advanced_pterosaurs = {
 	period = neogene
 	year = -68000000 #Quetzalcoatlus
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		pterosaurs

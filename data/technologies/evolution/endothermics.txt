@@ -5,7 +5,7 @@ endothermics = {
 	icon = lion
 	period = triassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		chambered_heart

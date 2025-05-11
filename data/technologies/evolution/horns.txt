@@ -6,7 +6,7 @@ horns = {
 	period = jurassic
 	year = -68000000 #Triceratops
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		bony_neck_frill

@@ -5,7 +5,7 @@ sharp_eyesight = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		upright_stature

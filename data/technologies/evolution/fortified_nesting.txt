@@ -5,7 +5,7 @@ fortified_nesting = {
 	icon = lion
 	period = carboniferous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		egg_laying

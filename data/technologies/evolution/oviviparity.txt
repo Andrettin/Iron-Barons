@@ -5,7 +5,7 @@ oviviparity = {
 	icon = lion
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		spawning_grounds

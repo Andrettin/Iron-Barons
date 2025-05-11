@@ -1,7 +1,7 @@
 underground_nursery = {
 	name = "Underground Nursery"
 	building_class = underground_nursery
-	culture = dinosaur
+	culture = reptilian
 	portrait = building_slot
 	icon = heart
 	provincial = true

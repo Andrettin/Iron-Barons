@@ -5,6 +5,6 @@ phytophagia = {
 	icon = lion
 	period = devonian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 }

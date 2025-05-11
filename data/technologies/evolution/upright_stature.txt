@@ -5,7 +5,7 @@ upright_stature = {
 	icon = lion
 	period = carboniferous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		tail_weapons

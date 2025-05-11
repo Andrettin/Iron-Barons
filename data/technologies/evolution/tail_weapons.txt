@@ -5,7 +5,7 @@ tail_weapons = {
 	icon = lion
 	period = devonian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 }
 
@@ -17,7 +17,7 @@ tail_spikes = {
 	period = triassic
 	year = -155000000 #Stegosaurus
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		spikes
@@ -32,7 +32,7 @@ tail_crest = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		crested_back
@@ -46,7 +46,7 @@ tail_club = {
 	icon = lion
 	period = triassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		bony_knobs
@@ -61,7 +61,7 @@ whipping_tail = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		tail_weapons

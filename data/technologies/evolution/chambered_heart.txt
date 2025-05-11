@@ -5,7 +5,7 @@ chambered_heart = {
 	icon = heart
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		ectothermics

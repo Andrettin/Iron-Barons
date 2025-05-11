@@ -6,7 +6,7 @@ spiny_fins = {
 	period = devonian
 	year = -405000000 #Climatius
 	cultures = {
-		dinosaur
+		reptilian
 	}
 }
 
@@ -17,7 +17,7 @@ dorsal_fin = {
 	icon = fish
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		spines

@@ -6,7 +6,7 @@ armored_fish = {
 	period = cretaceous
 	year = -400000000 #Hemicyclaspis
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		full_armor

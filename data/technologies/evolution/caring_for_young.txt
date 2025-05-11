@@ -5,7 +5,7 @@ caring_for_young = {
 	icon = lion
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		spawning_grounds

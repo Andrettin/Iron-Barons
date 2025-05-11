@@ -6,7 +6,7 @@ archosaurs = {
 	period = neogene
 	year = -72700000 #Tyrannosaurus
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		serrated_teeth

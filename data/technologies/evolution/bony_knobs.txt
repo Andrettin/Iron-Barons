@@ -5,7 +5,7 @@ bony_knobs = {
 	icon = lion
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		scaly_skin

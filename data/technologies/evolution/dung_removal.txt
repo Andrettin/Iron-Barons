@@ -5,7 +5,7 @@ dung_removal = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		dam_building

@@ -6,7 +6,7 @@ spikes = {
 	period = permian
 	year = -97000000 #Acanthopholis
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		spines
@@ -21,7 +21,7 @@ hip_spikes = {
 	icon = lion
 	period = triassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		spikes

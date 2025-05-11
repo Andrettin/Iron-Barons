@@ -5,7 +5,7 @@ burrowing = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		fortified_nesting

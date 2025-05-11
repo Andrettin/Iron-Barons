@@ -5,7 +5,7 @@ cooperation = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		collective_behavior

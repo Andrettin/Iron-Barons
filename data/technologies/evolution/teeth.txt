@@ -5,7 +5,7 @@ teeth = {
 	icon = lion
 	period = permian
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		beaks
@@ -19,7 +19,7 @@ curved_teeth = {
 	icon = lion
 	period = jurassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		omophagia
@@ -33,7 +33,7 @@ ridged_teeth = {
 	icon = lion
 	period = cretaceous
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		curved_teeth
@@ -47,7 +47,7 @@ serrated_teeth = {
 	icon = lion
 	period = paleogene
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		ridged_teeth

@@ -5,7 +5,7 @@ omophagia = {
 	icon = lion
 	period = triassic
 	cultures = {
-		dinosaur
+		reptilian
 	}
 	prerequisites = {
 		teeth
