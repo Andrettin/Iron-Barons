@@ -1,7 +1,7 @@
 ventastegids = {
 	name = "Ventastegids"
 	type = clade
-	color = { 111 177 210 }
+	color = { 245 167 97 }
 	culture = amphibian
 	default_religion = pagan
 	default_tier = barony
