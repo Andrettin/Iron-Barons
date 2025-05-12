@@ -161,7 +161,7 @@ MenuBase {
 				+ "\n"
 				+ "\n" + selected_country.game_data.type_name
 				+ (selected_country.game_data.overlord ? (
-					"\n" + selected_country.game_data.subject_type.name + " of " + selected_country.game_data.overlord.name
+					"\n" + selected_country.game_data.subject_type.name + " of " + (selected_country.game_data.overlord.definite_article ? "the " : "") + selected_country.game_data.overlord.name
 				) : "")
 				+ "\n" + selected_country.game_data.title_name
 				+ (selected_country.game_data.anarchy ? "\nAnarchy" : "")
