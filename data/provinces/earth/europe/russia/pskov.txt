@@ -10,8 +10,19 @@ pskov = {
 	}
 	
 	history = {
-		culture = slavic
+		owner = tulerpetontids
+		culture = amphibian
 		religion = pagan
+		
+		-419200000 = {
+			owner = tulerpetontids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			culture = slavic
+		}
 		
 		1360 = {
 			owner = russia #part of the Russian States in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.
