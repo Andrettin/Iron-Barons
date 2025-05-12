@@ -11,9 +11,20 @@ luxembourg = {
 	}
 	
 	history = {
-		owner = gaul
-		culture = gaulish
+		owner = ichthyostegids
+		culture = amphibian
 		religion = pagan
+		
+		-419200000 = {
+			owner = ichthyostegids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = gaul
+			culture = gaulish
+		}
 		
 		526 = {
 			owner = francia #part of the Kingdom of the Franks in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.

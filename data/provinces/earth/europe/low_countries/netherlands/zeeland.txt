@@ -7,9 +7,20 @@ zeeland = {
 	}
 	
 	history = {
-		owner = frisians
-		culture = frisian
+		owner = ichthyostegids
+		culture = amphibian
 		religion = pagan
+		
+		-419200000 = {
+			owner = ichthyostegids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = frisians
+			culture = frisian
+		}
 		
 		526 = {
 			owner = frisians #territory of the Frisians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
