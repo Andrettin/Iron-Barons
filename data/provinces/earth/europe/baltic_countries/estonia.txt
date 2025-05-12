@@ -10,8 +10,19 @@ estonia = {
 	}
 	
 	history = {
-		culture = estonian
+		owner = ventastegids
+		culture = amphibian
 		religion = pagan
+		
+		-419200000 = {
+			owner = ventastegids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			culture = estonian
+		}
 		
 		1360 = {
 			owner = teutonic_order #territory of the Teutonic Order in 1360; Source: William R. Shepherd, "Historical Atlas", 1911, p. 77.

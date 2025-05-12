@@ -11,12 +11,23 @@ lithuania = {
 	}
 	
 	history = {
-		owner = estonians
-		culture = estonian
+		owner = ventastegids
+		culture = amphibian
 		religion = pagan
 		
+		-419200000 = {
+			owner = ventastegids
+			culture = amphibian
+			religion = pagan
+		}
+		
+		-4000 = {
+			owner = estonians
+			culture = estonian
+		}
+		
 		526 = {
-			owner = estonians #territory of the Alamanni in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
+			owner = estonians #territory of the Esthonians in 526; Source: William R. Shepherd, "Historical Atlas", 1911, p. 52.
 			culture = estonian
 		}
 		
