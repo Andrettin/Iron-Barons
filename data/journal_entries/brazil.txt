@@ -1,0 +1,18 @@
+barony_of_vassouras = {
+	name = "Barony of Vassouras"
+	portrait = baronial_crown
+	preconditions = {
+		or = {
+			owns_site = vassouras
+			any_subject_country = {
+				owns_site = vassouras
+			}
+		}
+	}
+	built_resource_site_levels = {
+		vassouras = 1
+	}
+	completion_effects = {
+		prestige += 1
+	}
+}
