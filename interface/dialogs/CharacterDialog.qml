@@ -9,5 +9,5 @@ ModifierDialog {
 	description: character ? character.description : ""
 	
 	property var character: null
-	readonly property bool is_ruler: character ? character === ruler : false
+	readonly property bool is_ruler: character ? character.game_data.ruler : false
 }

@@ -11,7 +11,7 @@ Rectangle {
 	readonly property var province_game_data: selected_province ? selected_province.game_data : null
 	readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
 	property bool viewing_population: false
-	property bool viewing_output: false
+	property bool viewing_settlement_info: false
 	
 	Rectangle {
 		color: "gray"
@@ -194,7 +194,7 @@ Rectangle {
 		contentHeight: contentItem.childrenRect.height
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
-		visible: selected_site !== null && selected_site.settlement && !selected_garrison && !viewing_population && !viewing_output
+		visible: selected_site !== null && selected_site.settlement && !selected_garrison && !viewing_population && !viewing_settlement_info
 		
 		Grid {
 			id: portrait_grid
@@ -419,14 +419,38 @@ Rectangle {
 		}
 	}
 	
+	PortraitButton {
+		id: governor_portrait
+		anchors.top: title.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		portrait_identifier: province_game_data && province_game_data.governor ? province_game_data.governor.game_data.portrait.identifier : ""
+		visible: viewing_settlement_info && province_game_data !== null && province_game_data.governor !== null
+		circle: true
+		
+		onClicked: {
+			character_dialog.character = province_game_data.governor
+			character_dialog.modifier_string = province_game_data.governor.game_data.get_governor_modifier_qstring(province_game_data.governor.governable_province)
+			character_dialog.open()
+		}
+		
+		onHoveredChanged: {
+			if (hovered && province_game_data && province_game_data.governor) {
+				status_text = "Governor " + province_game_data.governor.full_name
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
 	SmallText {
 		id: output_info_text
-		anchors.top: title.bottom
-		anchors.topMargin: 12 * scale_factor
+		anchors.top: governor_portrait.bottom
+		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
 		text: selected_site_game_data ? format_text(commodity_outputs_to_string(selected_site_game_data.commodity_outputs)) : ""
-		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_output
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_settlement_info
 		
 		function commodity_outputs_to_string(commodity_outputs) {
 			var str = ""
@@ -511,7 +535,7 @@ Rectangle {
 		
 		onReleased: {
 			viewing_population = true
-			viewing_output = false
+			viewing_settlement_info = false
 		}
 		
 		onHoveredChanged: {
@@ -552,16 +576,16 @@ Rectangle {
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 4 * scale_factor
 		icon_identifier: "cog"
-		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && !viewing_output
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && !viewing_settlement_info
 		
 		onReleased: {
-			viewing_output = true
+			viewing_settlement_info = true
 			viewing_population = false
 		}
 		
 		onHoveredChanged: {
 			if (hovered) {
-				status_text = "View Settlement Output"
+				status_text = "View Settlement Info"
 			} else {
 				status_text = ""
 			}
@@ -597,10 +621,10 @@ Rectangle {
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 4 * scale_factor
 		icon_identifier: "settlement"
-		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_output
+		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_settlement_info
 		
 		onReleased: {
-			viewing_output = false
+			viewing_settlement_info = false
 		}
 		
 		onHoveredChanged: {

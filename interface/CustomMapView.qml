@@ -175,6 +175,10 @@ Item {
 		id: leader_choice_dialog
 	}
 	
+	CharacterDialog {
+		id: character_dialog
+	}
+	
 	ModifierDialog {
 		id: modifier_dialog
 	}
