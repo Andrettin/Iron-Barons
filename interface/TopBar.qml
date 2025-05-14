@@ -6,6 +6,9 @@ Rectangle {
 	color: interface_background_color
 	height: 16 * scale_factor
 	
+	property bool prestige_visible: true
+	readonly property var stored_commodities: metternich.game.player_country.game_data.stored_commodities
+	
 	Rectangle {
 		color: "gray"
 		anchors.left: parent.left
@@ -14,8 +17,6 @@ Rectangle {
 		height: 1 * scale_factor
 		z: 1 //draw on top of everything else
 	}
-	
-	readonly property var stored_commodities: metternich.game.player_country.game_data.stored_commodities
 	
 	SmallText {
 		id: date_label
@@ -64,6 +65,7 @@ Rectangle {
 		anchors.topMargin: 3 * scale_factor
 		anchors.left: wealth_label.left
 		anchors.leftMargin: 96 * scale_factor
+		visible: prestige_visible
 	}
 
 	SmallText {
@@ -73,6 +75,7 @@ Rectangle {
 		anchors.topMargin: 1 * scale_factor
 		anchors.left: prestige_icon.right
 		anchors.leftMargin: 2 * scale_factor
+		visible: prestige_visible
 	}
 
 	MouseArea {
@@ -81,6 +84,7 @@ Rectangle {
 		anchors.left: prestige_icon.left
 		anchors.right: prestige_label.right
 		hoverEnabled: true
+		enabled: prestige_visible
 		onEntered: {
 			status_text = "Prestige"
 		}
