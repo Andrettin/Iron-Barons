@@ -22,6 +22,8 @@ odessa = {
 		
 		1796 = {
 			owner = russia #became part of Russia between 1762 and 1796; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 138-139.
+			culture = ukrainian
+			religion = orthodox
 		}
 		
 		germanys_future = {

@@ -21,6 +21,8 @@ donetsk = {
 		
 		1762 = {
 			owner = russia #became part of Russia between 1741 and 1762; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 138-139.
+			culture = ukrainian
+			religion = orthodox
 		}
 		
 		germanys_future = {
