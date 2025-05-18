@@ -8,8 +8,12 @@ cabo_frio = {
 	#max_tier = viscounty #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 88-89.
 	
 	history = {
+		1858.6.10 = {
+			development_level = 1 #created as a viscounty on 1858.6.10; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 88-89.
+		}
+		
 		1874.5.2 = {
-			developed = true #created as barony on 1874.5.2; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 278.
+			#(re-)created as a barony on 1874.5.2; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 88-89.
 		}
 	}
 }

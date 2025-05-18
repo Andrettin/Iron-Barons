@@ -11,3 +11,20 @@ bernardo_pereira_de_vasconcelos = {
 	skill_multiplier = 1
 	required_technology = constitutionalism
 }
+
+francisco_jose_texeira_leite = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
+	name = "Francisco José"
+	surname = "Texeira Leite"
+	role = landholder
+	character_type = merchant #coffee plantation owner
+	culture = portuguese #Brazilian
+	religion = catholic
+	home_site = sao_joao_del_rei
+	gender = male
+	birth_date = 1804.11.13
+	death_date = 1884.5.2
+	holdable_site = vassouras #baron of Vassouras
+	
+	#was dignitary of the (Brazilian) Imperial Order of the Rose
+	#was knight of the (Brazilian) Imperial Order of Christ
+}
