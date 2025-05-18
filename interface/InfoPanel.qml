@@ -420,23 +420,25 @@ Rectangle {
 	}
 	
 	PortraitButton {
-		id: governor_portrait
-		anchors.top: title.bottom
+		id: holder_portrait
+		anchors.top: selected_site !== null && !selected_site.settlement ? site_info_text.bottom : title.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
-		portrait_identifier: province_game_data && province_game_data.governor ? province_game_data.governor.game_data.portrait.identifier : ""
-		visible: viewing_settlement_info && province_game_data !== null && province_game_data.governor !== null
+		portrait_identifier: holder ? holder.game_data.portrait.identifier : ""
+		visible: holder !== null && (viewing_settlement_info || (selected_site !== null && !selected_site.settlement))
 		circle: true
 		
+		readonly property var holder: selected_site !== null ? (selected_site.settlement && province_game_data ? province_game_data.governor : selected_site.game_data.landholder) : null
+		
 		onClicked: {
-			character_dialog.character = province_game_data.governor
-			character_dialog.modifier_string = province_game_data.governor.game_data.get_governor_modifier_qstring(province_game_data.governor.governable_province)
+			character_dialog.character = holder
+			character_dialog.modifier_string = holder.game_data.governor ? holder.game_data.get_governor_modifier_qstring(holder.governable_province) : holder.game_data.get_landholder_modifier_qstring(selected_site)
 			character_dialog.open()
 		}
 		
 		onHoveredChanged: {
-			if (hovered && province_game_data && province_game_data.governor) {
-				status_text = "Governor " + province_game_data.governor.full_name
+			if (hovered && holder !== null) {
+				status_text = (holder.game_data.governor ? "Governor" : "Landholder") + " " + holder.full_name
 			} else {
 				status_text = ""
 			}
@@ -445,7 +447,7 @@ Rectangle {
 	
 	SmallText {
 		id: output_info_text
-		anchors.top: governor_portrait.bottom
+		anchors.top: holder_portrait.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor

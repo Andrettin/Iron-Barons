@@ -11,5 +11,6 @@ ModifierDialog {
 	property var character: null
 	readonly property bool is_ruler: character ? character.game_data.ruler : false
 	readonly property bool is_governor: character ? character.game_data.governor : false
-	readonly property string character_title_name: is_ruler ? country_game_data.ruler_title_name : (is_governor ? character.governable_province.game_data.governor_title_name : "")
+	readonly property bool is_landholder: character ? character.game_data.landholder : false
+	readonly property string character_title_name: is_ruler ? country_game_data.ruler_title_name : (is_governor ? character.governable_province.game_data.governor_title_name : (is_landholder ? character.holdable_site.game_data.landholder_title_name : ""))
 }
