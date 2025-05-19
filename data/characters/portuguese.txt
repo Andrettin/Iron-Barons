@@ -75,3 +75,77 @@ vasco_da_gama = {
 		}
 	}
 }
+
+francisco_leite = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 209.
+	name = "Francisco"
+	surname = "Leite"
+	culture = portuguese #his son was Portuguese
+	religion = catholic
+	home_site = sao_joao_del_rei #his granddaughter's husband was born there
+	gender = male
+	
+	history = {
+		#spouse = isabel_ferreira
+	}
+}
+
+isabel_ferreira = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 209.
+	name = "Isabel"
+	surname = "Ferreira"
+	culture = portuguese #her son was Portuguese
+	religion = catholic
+	home_site = sao_joao_del_rei #her granddaughter's husband was born there
+	gender = female
+}
+
+lourenco_correia = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 209.
+	name = "Lourenco" #"Lourenço"
+	surname = "Correia Sardinha"
+	culture = portuguese #his daughter's husband was Portuguese
+	religion = catholic
+	home_site = sao_joao_del_rei #his granddaughter's husband was born there
+	gender = male
+	
+	history = {
+		#spouse = maria_de_assumpcao_moraes
+	}
+}
+
+maria_de_assumpcao_moraes = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 209.
+	name = "Maria"
+	surname = "de Assumpção Moraes"
+	culture = portuguese #her daughter's husband was Portuguese
+	religion = catholic
+	home_site = sao_joao_del_rei #her granddaughter's husband was born there
+	gender = female
+}
+
+jose_leite_ribeiro = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 209.
+	name = "Jose" #"José"
+	surname = "Leite Ribeiro"
+	culture = portuguese
+	religion = catholic
+	home_site = sao_joao_del_rei #his daughter's husband was born there
+	gender = male
+	father = francisco_leite
+	mother = isabel_ferreira
+	
+	#sergeant major ("sargento-mór")
+	
+	history = {
+		1781.6.4 = { #date that their daughter was born
+			#spouse = escholastica_maria_de_jesus
+		}
+	}
+}
+
+escholastica_maria_de_jesus = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 209.
+	name = "Escholastica Maria"
+	surname = "de Jesus"
+	culture = portuguese #her husband was Portuguese
+	religion = catholic
+	home_site = sao_joao_del_rei #her daughter's husband was born there
+	gender = female
+	father = lourenco_correia
+	mother = maria_de_assumpcao_moraes
+}
