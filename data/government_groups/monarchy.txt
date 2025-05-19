@@ -1,3 +1,22 @@
 monarchy = {
 	name = "Monarchy"
+	
+	landholder_title_names = {
+		barony = {
+			male = "Baron"
+			female = "Baroness"
+		}
+		viscounty = {
+			male = "Viscount"
+			female = "Viscountess"
+		}
+		county = {
+			male = "Count"
+			female = "Countess"
+		}
+		marquisate = {
+			male = "Marquis"
+			female = "Marquise"
+		}
+	}
 }
