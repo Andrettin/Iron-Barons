@@ -256,7 +256,7 @@ Rectangle {
 		text: format_text(
 			selected_site_game_data ? (
 				(selected_site_game_data.commodity_outputs.length > 0 ? get_commodity_outputs_string(selected_site_game_data.commodity_outputs) : "")
-				+ (selected_site.map_data.resource && selected_site.map_data.resource.commodity ? ("\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing) : "")
+				+ (selected_site.map_data.resource && selected_site.map_data.resource.commodity && selected_site.game_data.resource_improvement ? ("\nHousing: " + selected_site_game_data.population_unit_count + "/" + selected_site_game_data.housing) : "")
 			) : ""
 		)
 		visible: selected_site && !selected_garrison && !selected_site.settlement && !viewing_population
