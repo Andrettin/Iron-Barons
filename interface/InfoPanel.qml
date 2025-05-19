@@ -425,7 +425,7 @@ Rectangle {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		portrait_identifier: holder ? holder.game_data.portrait.identifier : ""
-		visible: holder !== null && (viewing_settlement_info || (selected_site !== null && !selected_site.settlement))
+		visible: holder !== null && (viewing_settlement_info || (selected_site !== null && !selected_site.settlement)) && !viewing_population
 		circle: true
 		
 		readonly property var holder: selected_site !== null ? (selected_site.settlement && province_game_data ? province_game_data.governor : selected_site.game_data.landholder) : null
