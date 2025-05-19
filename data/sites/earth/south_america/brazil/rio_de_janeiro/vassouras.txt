@@ -9,7 +9,7 @@ vassouras = {
 	
 	history = {
 		1871.5.17 = {
-			developed = true #created as barony on 1871.5.17; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
+			developed = true #created as a barony on 1871.5.17; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 532.
 		}
 	}
 }

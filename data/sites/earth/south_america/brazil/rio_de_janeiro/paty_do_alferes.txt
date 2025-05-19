@@ -9,7 +9,7 @@ paty_do_alferes = {
 	
 	history = {
 		1825.10.12 = {
-			developed = true #created as barony on 1825.10.12; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 229.
+			developed = true #created as barony on 1825.10.12; Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, pp. 228-229.
 		}
 	}
 }
