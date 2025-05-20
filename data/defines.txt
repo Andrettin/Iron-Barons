@@ -53,7 +53,7 @@ min_traits_per_type = {
 	background = 1
 	personality = 1
 	expertise = 0
-	ruler = 0
+	ruler = 2
 }
 
 max_traits_per_type = {
