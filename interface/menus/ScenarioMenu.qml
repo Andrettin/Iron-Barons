@@ -3,6 +3,7 @@ import QtQuick.Controls
 import QtQuick.Controls.Material
 import scenario_model 1.0
 import ".."
+import "../dialogs"
 
 MenuBase {
 	id: scenario_menu
@@ -231,6 +232,12 @@ MenuBase {
 		
 		property var ruler: null
 		property var portrait: null
+		
+		onClicked: {
+			character_dialog.character = ruler
+			character_dialog.modifier_string = ruler.game_data.get_ruler_modifier_qstring(ruler.game_data.country)
+			character_dialog.open()
+		}
 	}
 	
 	SmallText {
@@ -408,6 +415,10 @@ MenuBase {
 		onClicked: {
 			menu_stack.pop()
 		}
+	}
+	
+	CharacterDialog {
+		id: character_dialog
 	}
 	
 	Connections {
