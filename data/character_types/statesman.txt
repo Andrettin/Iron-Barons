@@ -2,12 +2,6 @@ statesman = {
 	name = "Statesman"
 	advisor_category = political
 	attribute = diplomacy
-	scaled_ruler_modifier = {
-		statesmanship_output_modifier = 5
-	}
-	scaled_advisor_modifier = {
-		statesmanship_output_modifier = 5
-	}
 }
 
 benjamin_franklin = {

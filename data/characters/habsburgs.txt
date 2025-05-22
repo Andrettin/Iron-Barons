@@ -80,6 +80,9 @@ sigismund_von_habsburg = {
 	birth_date = 1427.10.26
 	death_date = 1496.3.4
 	skill_multiplier = 0.67
+	traits = {
+		statesman
+	}
 }
 
 karl_vi_of_the_holy_roman_empire = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.

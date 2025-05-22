@@ -11,6 +11,9 @@ tamas_bakocz = { #Source: "Encyclopædia Britannica", 1911, vol. 3, p. 230.
 	death_date = 1521
 	skill_multiplier = 0.5
 	required_technology = feudalism
+	traits = {
+		statesman
+	}
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain
 	description = "Hungarian ecclesiastic and statesman, was the son of a wagoner, adopted by his uncle, who trained him for the priesthood and whom he succeeded as rector of Tétel in 1480. Shortly afterwards he became one of the secretaries of King Matthias I, who made him bishop of Gyor and a member of the royal council in 1490. From 1490 to his death in 1521 he was the leading statesman of Hungary and mainly responsible for her foreign policy. It was solely through his efforts that Hungary did not accede to the league of Cambrai, was consistently friendly with Venice, and formed a family compact with the Habsburgs."
@@ -38,6 +41,9 @@ istvan_bathory = {
 	death_date = 1534
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }
 
 juraj_thurzo = {
@@ -53,6 +59,9 @@ juraj_thurzo = {
 	death_date = 1616
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }
 
 palffy_janos_iv = {
@@ -68,6 +77,9 @@ palffy_janos_iv = {
 	death_date = 1750.3.24
 	skill_multiplier = 0.5
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }
 
 franciszek_rakoczy = {
@@ -83,4 +95,7 @@ franciszek_rakoczy = {
 	death_date = 1738
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }

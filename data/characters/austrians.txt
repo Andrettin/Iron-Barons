@@ -12,6 +12,9 @@ ulrich_von_cilli = { #Source: "Encyclopædia Britannica", 1911, vol. 6, p. 366.
 	death_date = 1456.11.9 #died at Belgrade on 1456.11.9
 	skill_multiplier = 0.5
 	required_technology = feudalism
+	traits = {
+		statesman
+	}
 	
 	#count of Cilli
 	
@@ -152,6 +155,9 @@ wolfgang_von_rumpf = {
 	death_date = 1607
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }
 
 hans_von_eggenberg = {
@@ -167,6 +173,9 @@ hans_von_eggenberg = {
 	death_date = 1634
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }
 
 katharina_galler = {
@@ -242,6 +251,9 @@ joseph_harrach = {
 	death_date = 1764.8.8
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }
 
 josef_wenzel = {
@@ -290,6 +302,9 @@ wenzel_anton_kaunitz = {
 	death_date = 1794.6.27
 	skill_multiplier = 0.83
 	required_technology = national_bureaucracy
+	traits = {
+		statesman
+	}
 }
 
 leopold_auenbrugger = {

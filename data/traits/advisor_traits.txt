@@ -88,3 +88,22 @@ naval_reformer = {
 		navy_research_modifier = 5
 	}
 }
+
+statesman = {
+	name = "Statesman"
+	types = {
+		ruler
+		advisor
+	}
+	icon = bell
+	attribute = diplomacy
+	conditions = {
+		character_type = statesman
+	}
+	scaled_ruler_modifier = {
+		statesmanship_output_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		statesmanship_output_modifier = 5
+	}
+}

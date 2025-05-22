@@ -81,6 +81,9 @@ mercurino_gattinara = {
 	death_date = 1530
 	skill_multiplier = 0.83
 	required_technology = feudalism
+	traits = {
+		statesman
+	}
 }
 
 pope_paul_iii = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 210.
