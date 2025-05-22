@@ -1,6 +1,8 @@
 administrator = {
 	name = "Administrator"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = chest
 	attribute = stewardship
 	max_scaling = 3
@@ -25,7 +27,9 @@ administrator = {
 
 gifted_administrator = {
 	name = "Gifted Administrator"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = chest
 	attribute = stewardship
 	max_scaling = 6
@@ -50,7 +54,9 @@ gifted_administrator = {
 
 gardener = {
 	name = "Gardener"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = architecture
 	conditions = {
 		or = {
@@ -66,7 +72,9 @@ gardener = {
 
 silver_palm = {
 	name = "Silver Palm"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = chest
 	conditions = {
 		character_type = none

@@ -1,6 +1,8 @@
 cavalry_leader = {
 	name = "Cavalry Leader"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = horses
 	attribute = martial
 	max_scaling = 4
@@ -31,7 +33,9 @@ cavalry_leader = {
 
 drillmaster = {
 	name = "Drillmaster"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = horses
 	attribute = martial
 	max_scaling = 4
@@ -48,7 +52,9 @@ drillmaster = {
 
 duelist = {
 	name = "Duelist"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = saber
 	conditions = {
 		primary_attribute = martial
@@ -64,7 +70,9 @@ duelist = {
 
 heavy_infantry_leader = {
 	name = "Heavy Infantry Leader"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = saber
 	attribute = martial
 	max_scaling = 4
@@ -90,7 +98,9 @@ heavy_infantry_leader = {
 
 hunter = {
 	name = "Hunter"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = bow
 	conditions = {
 		or = {
@@ -106,7 +116,9 @@ hunter = {
 
 light_infantry_leader = {
 	name = "Light Infantry Leader"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = saber
 	attribute = martial
 	max_scaling = 4
@@ -132,7 +144,9 @@ light_infantry_leader = {
 
 strategist = {
 	name = "Strategist"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = crossed_sabers
 	conditions = {
 		character_type = none

@@ -1,6 +1,8 @@
 misguided_warrior = {
 	name = "Misguided Warrior"
-	type = background
+	types = {
+		background
+	}
 	icon = crossed_sabers
 	conditions = {
 		primary_attribute = martial
@@ -17,7 +19,9 @@ misguided_warrior = {
 
 tough_soldier = {
 	name = "Tough Soldier"
-	type = background
+	types = {
+		background
+	}
 	icon = crossed_sabers
 	conditions = {
 		primary_attribute = martial
@@ -34,7 +38,9 @@ tough_soldier = {
 
 skilled_tactician = {
 	name = "Skilled Tactician"
-	type = background
+	types = {
+		background
+	}
 	icon = crossed_sabers
 	conditions = {
 		primary_attribute = martial
@@ -53,7 +59,9 @@ skilled_tactician = {
 
 brilliant_strategist = {
 	name = "Brilliant Strategist"
-	type = background
+	types = {
+		background
+	}
 	icon = crossed_sabers
 	conditions = {
 		primary_attribute = martial

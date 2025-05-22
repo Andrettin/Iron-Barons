@@ -1,6 +1,8 @@
 cartographer = {
 	name = "Cartographer"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = globe
 	attribute = learning
 	max_scaling = 8
@@ -22,7 +24,9 @@ cartographer = {
 
 mystic = {
 	name = "Mystic"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = wooden_cross
 	conditions = {
 		or = {

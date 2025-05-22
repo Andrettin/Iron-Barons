@@ -1,6 +1,8 @@
 detached_priest = {
 	name = "Detached Priest"
-	type = background
+	types = {
+		background
+	}
 	icon = wooden_cross
 	conditions = {
 		character_type = theologian
@@ -18,7 +20,9 @@ detached_priest = {
 
 dutiful_cleric = {
 	name = "Dutiful Cleric"
-	type = background
+	types = {
+		background
+	}
 	icon = bronze_cross
 	conditions = {
 		character_type = theologian
@@ -36,7 +40,9 @@ dutiful_cleric = {
 
 martial_cleric = {
 	name = "Martial Cleric"
-	type = background
+	types = {
+		background
+	}
 	icon = bronze_cross
 	conditions = {
 		character_type = theologian
@@ -55,7 +61,9 @@ martial_cleric = {
 
 scholarly_theologian = {
 	name = "Scholarly Theologian"
-	type = background
+	types = {
+		background
+	}
 	icon = silver_cross
 	conditions = {
 		character_type = theologian
@@ -75,7 +83,9 @@ scholarly_theologian = {
 
 mastermind_theologian = {
 	name = "Mastermind Theologian"
-	type = background
+	types = {
+		background
+	}
 	icon = golden_cross
 	conditions = {
 		character_type = theologian
@@ -95,7 +105,9 @@ mastermind_theologian = {
 
 conscientious_scribe = {
 	name = "Conscientious Scribe"
-	type = background
+	types = {
+		background
+	}
 	icon = research
 	conditions = {
 		or = {
@@ -119,7 +131,9 @@ conscientious_scribe = {
 
 insightful_thinker = {
 	name = "Insightful Thinker"
-	type = background
+	types = {
+		background
+	}
 	icon = philosophy
 	conditions = {
 		or = {
@@ -143,7 +157,9 @@ insightful_thinker = {
 
 astute_intellectual = {
 	name = "Astute Intellectual"
-	type = background
+	types = {
+		background
+	}
 	icon = philosophy
 	conditions = {
 		or = {
@@ -169,7 +185,9 @@ astute_intellectual = {
 
 mastermind_philosopher = {
 	name = "Mastermind Philosopher"
-	type = background
+	types = {
+		background
+	}
 	icon = philosophy
 	conditions = {
 		or = {

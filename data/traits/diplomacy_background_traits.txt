@@ -1,6 +1,8 @@
 naive_appeaser = {
 	name = "Naive Appeaser"
-	type = background
+	types = {
+		background
+	}
 	icon = treaty
 	conditions = {
 		primary_attribute = diplomacy
@@ -17,7 +19,9 @@ naive_appeaser = {
 
 underhanded_rogue = {
 	name = "Underhanded Rogue"
-	type = background
+	types = {
+		background
+	}
 	icon = treaty
 	conditions = {
 		primary_attribute = diplomacy
@@ -34,7 +38,9 @@ underhanded_rogue = {
 
 charismatic_negotiator = {
 	name = "Charismatic Negotiator"
-	type = background
+	types = {
+		background
+	}
 	icon = treaty
 	conditions = {
 		primary_attribute = diplomacy
@@ -53,7 +59,9 @@ charismatic_negotiator = {
 
 grey_eminence = {
 	name = "Grey Eminence"
-	type = background
+	types = {
+		background
+	}
 	icon = treaty
 	conditions = {
 		primary_attribute = diplomacy

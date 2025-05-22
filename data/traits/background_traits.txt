@@ -1,6 +1,8 @@
 adventurer = {
 	name = "Adventurer"
-	type = background
+	types = {
+		background
+	}
 	icon = saber
 	conditions = {
 		character_type = none
@@ -14,7 +16,9 @@ adventurer = {
 
 monk = {
 	name = "Monk"
-	type = background
+	types = {
+		background
+	}
 	icon = wooden_cross
 	conditions = {
 		character_type = none
@@ -31,7 +35,9 @@ monk = {
 
 nun = {
 	name = "Nun"
-	type = background
+	types = {
+		background
+	}
 	icon = wooden_cross
 	conditions = {
 		character_type = none
@@ -48,7 +54,9 @@ nun = {
 
 peasant_leader = {
 	name = "Peasant Leader"
-	type = background
+	types = {
+		background
+	}
 	icon = grain
 	conditions = {
 		character_type = none
@@ -58,7 +66,9 @@ peasant_leader = {
 
 pirate = {
 	name = "Pirate"
-	type = background
+	types = {
+		background
+	}
 	icon = skull
 	conditions = {
 		character_type = none
@@ -74,7 +84,9 @@ pirate = {
 
 professor = {
 	name = "Professor"
-	type = background
+	types = {
+		background
+	}
 	icon = university
 	conditions = {
 		character_type = none

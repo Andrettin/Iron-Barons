@@ -1,6 +1,8 @@
 investigator = {
 	name = "Investigator"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = treaty
 	conditions = {
 		character_type = none
@@ -13,7 +15,9 @@ investigator = {
 
 stealthy = {
 	name = "Stealthy"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = dagger
 	conditions = {
 		character_type = none
@@ -23,7 +27,9 @@ stealthy = {
 
 thug = {
 	name = "Thug"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = dagger
 	conditions = {
 		character_type = none

@@ -1,6 +1,8 @@
 falconer = {
 	name = "Falconer"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = bow
 	conditions = {
 		primary_attribute = diplomacy
@@ -12,7 +14,9 @@ falconer = {
 
 game_master = {
 	name = "Game Master"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = globe
 	conditions = {
 		or = {
@@ -28,7 +32,9 @@ game_master = {
 
 negotiator = {
 	name = "Negotiator"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = treaty
 	conditions = {
 		character_type = none
@@ -47,7 +53,9 @@ negotiator = {
 
 persuasive = {
 	name = "Persuasive"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = treaty
 	conditions = {
 		character_type = none
@@ -61,7 +69,9 @@ persuasive = {
 
 poet = {
 	name = "Poet"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = music
 	conditions = {
 		primary_attribute = diplomacy
@@ -73,7 +83,9 @@ poet = {
 
 socializer = {
 	name = "Socializer"
-	type = expertise
+	types = {
+		expertise
+	}
 	icon = music
 	conditions = {
 		primary_attribute = diplomacy

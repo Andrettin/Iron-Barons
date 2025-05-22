@@ -1,6 +1,8 @@
 aggressive = {
 	name = "Aggressive"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = crossed_sabers
 	ruler_modifier = {
 		free_infantry_promotion = veteran_1
@@ -9,7 +11,9 @@ aggressive = {
 
 charismatic = {
 	name = "Charismatic"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = music
 	ruler_modifier = {
 		commodity_bonus_per_settlement = {
@@ -23,7 +27,9 @@ charismatic = {
 
 creative = {
 	name = "Creative"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = music
 	ruler_modifier = {
 		commodity_bonus_per_settlement = {
@@ -35,7 +41,9 @@ creative = {
 
 expansive = {
 	name = "Expansive"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = settlement
 	ruler_modifier = {
 		commodity_bonus_per_settlement = {
@@ -47,7 +55,9 @@ expansive = {
 
 financial = {
 	name = "Financial"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = chest
 	ruler_modifier = {
 		trade_bonus_for_tile_threshold = 2
@@ -56,7 +66,9 @@ financial = {
 
 impressionable = {
 	name = "Impressionable"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = painting
 	ruler_modifier = {
 		free_infantry_promotion = grenadier_1
@@ -65,7 +77,9 @@ impressionable = {
 
 indulgent = {
 	name = "Indulgent"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = treaty
 	ruler_modifier = {
 		free_infantry_promotion = formation
@@ -74,7 +88,9 @@ indulgent = {
 
 industrious = {
 	name = "Industrious"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = cog
 	ruler_modifier = {
 		throughput_modifier = 10
@@ -83,7 +99,9 @@ industrious = {
 
 militaristic = {
 	name = "Militaristic"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = crossed_sabers
 	ruler_modifier = {
 		free_infantry_promotion = grenadier_1
@@ -92,7 +110,9 @@ militaristic = {
 
 organized = {
 	name = "Organized"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = philosophy
 	ruler_modifier = {
 		law_cost_modifier = -50
@@ -101,7 +121,9 @@ organized = {
 
 philosophical = {
 	name = "Philosophical"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = philosophy
 	ruler_modifier = {
 		statesmanship_output_modifier = 25
@@ -110,7 +132,9 @@ philosophical = {
 
 prosperous = {
 	name = "Prosperous"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = wealth
 	ruler_modifier = {
 		free_infantry_promotion = minuteman_1
@@ -119,7 +143,9 @@ prosperous = {
 
 protective = {
 	name = "Protective"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = heater_shield
 	ruler_modifier = {
 		free_infantry_promotion = city_garrison_1
@@ -128,7 +154,9 @@ protective = {
 
 well_connected = {
 	name = "Well-Connected"
-	type = ruler
+	types = {
+		ruler
+	}
 	icon = music
 	ruler_modifier = {
 		advisor_cost_modifier = -20

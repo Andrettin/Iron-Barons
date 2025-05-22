@@ -1,6 +1,8 @@
 intelligent = {
 	name = "Intelligent"
-	type = personality
+	types = {
+		personality
+	}
 	icon = research
 	attribute_bonuses = {
 		diplomacy = 3
@@ -19,7 +21,9 @@ intelligent = {
 
 genius = {
 	name = "Genius"
-	type = personality
+	types = {
+		personality
+	}
 	icon = research
 	attribute_bonuses = {
 		diplomacy = 5
@@ -38,7 +42,9 @@ genius = {
 
 stupid = {
 	name = "Stupid"
-	type = personality
+	types = {
+		personality
+	}
 	icon = research
 	attribute_bonuses = {
 		diplomacy = -3
@@ -51,7 +57,9 @@ stupid = {
 
 imbecile = {
 	name = "Imbecile"
-	type = personality
+	types = {
+		personality
+	}
 	icon = research
 	attribute_bonuses = {
 		diplomacy = -5

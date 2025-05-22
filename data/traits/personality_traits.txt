@@ -1,6 +1,8 @@
 arbitrary = {
 	name = "Arbitrary"
-	type = personality
+	types = {
+		personality
+	}
 	icon = blood
 	attribute_bonuses = {
 		stewardship = -2
@@ -11,7 +13,9 @@ arbitrary = {
 
 assertive = {
 	name = "Assertive"
-	type = personality
+	types = {
+		personality
+	}
 	icon = saber
 	conditions = {
 		not = {
@@ -32,7 +36,9 @@ assertive = {
 
 careful = {
 	name = "Careful"
-	type = personality
+	types = {
+		personality
+	}
 	icon = heater_shield
 	ruler_modifier = {
 		diplomatic_penalty_for_expansion_modifier = -10
@@ -41,7 +47,9 @@ careful = {
 
 cautious = {
 	name = "Cautious"
-	type = personality
+	types = {
+		personality
+	}
 	icon = heater_shield
 	attribute_bonuses = {
 		martial = -1
@@ -50,13 +58,17 @@ cautious = {
 
 celibate = {
 	name = "Celibate"
-	type = personality
+	types = {
+		personality
+	}
 	icon = wooden_cross
 }
 
 charitable = {
 	name = "Charitable"
-	type = personality
+	types = {
+		personality
+	}
 	icon = golden_cross
 	attribute_bonuses = {
 		diplomacy = 3
@@ -65,7 +77,9 @@ charitable = {
 
 chaste = {
 	name = "Chaste"
-	type = personality
+	types = {
+		personality
+	}
 	icon = wooden_cross
 	attribute_bonuses = {
 		learning = 1
@@ -74,7 +88,9 @@ chaste = {
 
 compassionate = {
 	name = "Compassionate"
-	type = personality
+	types = {
+		personality
+	}
 	icon = love
 	attribute_bonuses = {
 		diplomacy = 2
@@ -84,7 +100,9 @@ compassionate = {
 
 content = {
 	name = "Content"
-	type = personality
+	types = {
+		personality
+	}
 	icon = anchor
 	attribute_bonuses = {
 		intrigue = -1
@@ -93,7 +111,9 @@ content = {
 
 cynical = {
 	name = "Cynical"
-	type = personality
+	types = {
+		personality
+	}
 	icon = blood
 	attribute_bonuses = {
 		intrigue = 2
@@ -102,7 +122,9 @@ cynical = {
 
 devout = {
 	name = "Devout"
-	type = personality
+	types = {
+		personality
+	}
 	icon = wooden_cross
 	conditions = {
 		not = {
@@ -119,7 +141,9 @@ devout = {
 
 diligent = {
 	name = "Diligent"
-	type = personality
+	types = {
+		personality
+	}
 	icon = hammer
 	attribute_bonuses = {
 		diplomacy = 1
@@ -132,7 +156,9 @@ diligent = {
 
 disciplined = {
 	name = "Disciplined"
-	type = personality
+	types = {
+		personality
+	}
 	icon = crossed_sabers
 	attribute = martial
 	max_scaling = 10
@@ -146,7 +172,9 @@ disciplined = {
 
 erudite = {
 	name = "Erudite"
-	type = personality
+	types = {
+		personality
+	}
 	icon = university
 	attribute_bonuses = {
 		learning = 2
@@ -155,7 +183,9 @@ erudite = {
 
 gluttonous = {
 	name = "Gluttonous"
-	type = personality
+	types = {
+		personality
+	}
 	icon = cattle
 	attribute_bonuses = {
 		stewardship = -2
@@ -164,7 +194,9 @@ gluttonous = {
 
 greedy = {
 	name = "Greedy"
-	type = personality
+	types = {
+		personality
+	}
 	icon = chest
 	attribute_bonuses = {
 		diplomacy = -1
@@ -173,7 +205,9 @@ greedy = {
 
 gregarious = {
 	name = "Gregarious"
-	type = personality
+	types = {
+		personality
+	}
 	icon = music
 	attribute_bonuses = {
 		diplomacy = 2
@@ -182,7 +216,9 @@ gregarious = {
 
 imperialistic = {
 	name = "Imperialistic"
-	type = personality
+	types = {
+		personality
+	}
 	icon = globe
 	attribute = martial
 	max_scaling = 5
@@ -196,7 +232,9 @@ imperialistic = {
 
 just = {
 	name = "Just"
-	type = personality
+	types = {
+		personality
+	}
 	icon = courthouse
 	attribute_bonuses = {
 		stewardship = 2
@@ -206,7 +244,9 @@ just = {
 
 kind = {
 	name = "Kind"
-	type = personality
+	types = {
+		personality
+	}
 	icon = love
 	attribute_bonuses = {
 		diplomacy = 2
@@ -216,7 +256,9 @@ kind = {
 
 lapsed = {
 	name = "Lapsed"
-	type = personality
+	types = {
+		personality
+	}
 	icon = skull
 	conditions = {
 		not = {
@@ -233,7 +275,9 @@ lapsed = {
 
 libertarian = {
 	name = "Libertarian"
-	type = personality
+	types = {
+		personality
+	}
 	icon = courthouse
 	attribute = diplomacy
 	max_scaling = 5
@@ -247,7 +291,9 @@ libertarian = {
 
 narrow_minded = {
 	name = "Narrow-Minded"
-	type = personality
+	types = {
+		personality
+	}
 	icon = cattle
 	attribute_bonuses = {
 		martial = 1
@@ -260,7 +306,9 @@ narrow_minded = {
 
 prominent = {
 	name = "Prominent"
-	type = personality
+	types = {
+		personality
+	}
 	icon = flag
 	attribute_bonuses = {
 		diplomacy = 1
@@ -272,13 +320,17 @@ prominent = {
 
 proud = {
 	name = "Proud"
-	type = personality
+	types = {
+		personality
+	}
 	icon = heater_shield
 }
 
 reckless = {
 	name = "Reckless"
-	type = personality
+	types = {
+		personality
+	}
 	icon = saber
 	attribute_bonuses = {
 		martial = 1
@@ -290,7 +342,9 @@ reckless = {
 
 scholar = {
 	name = "Scholar"
-	type = personality
+	types = {
+		personality
+	}
 	icon = university
 	attribute_bonuses = {
 		martial = -1
@@ -306,7 +360,9 @@ scholar = {
 
 shy = {
 	name = "Shy"
-	type = personality
+	types = {
+		personality
+	}
 	icon = wall
 	attribute_bonuses = {
 		diplomacy = -2
@@ -315,7 +371,9 @@ shy = {
 
 skeptical = {
 	name = "Skeptical"
-	type = personality
+	types = {
+		personality
+	}
 	icon = philosophy
 	attribute_bonuses = {
 		intrigue = 1
@@ -327,7 +385,9 @@ skeptical = {
 
 strict = {
 	name = "Strict"
-	type = personality
+	types = {
+		personality
+	}
 	icon = saber
 	attribute_bonuses = {
 		diplomacy = -1
@@ -344,7 +404,9 @@ strict = {
 
 stubborn = {
 	name = "Stubborn"
-	type = personality
+	types = {
+		personality
+	}
 	icon = wall
 	attribute_bonuses = {
 		diplomacy = -1
@@ -354,7 +416,9 @@ stubborn = {
 
 submissive = {
 	name = "Submissive"
-	type = personality
+	types = {
+		personality
+	}
 	icon = skull
 	conditions = {
 		not = {
@@ -374,7 +438,9 @@ submissive = {
 
 temperate = {
 	name = "Temperate"
-	type = personality
+	types = {
+		personality
+	}
 	icon = philosophy
 	attribute_bonuses = {
 		stewardship = 2
@@ -383,7 +449,9 @@ temperate = {
 
 unnoticeable = {
 	name = "Unnoticeable"
-	type = personality
+	types = {
+		personality
+	}
 	icon = skull
 	attribute_bonuses = {
 		diplomacy = -1
@@ -395,7 +463,9 @@ unnoticeable = {
 
 wroth = {
 	name = "Wroth"
-	type = personality
+	types = {
+		personality
+	}
 	icon = blood
 	attribute_bonuses = {
 		diplomacy = -1
@@ -406,7 +476,9 @@ wroth = {
 
 zealous = {
 	name = "Zealous"
-	type = personality
+	types = {
+		personality
+	}
 	icon = wooden_cross
 	attribute_bonuses = {
 		martial = 2

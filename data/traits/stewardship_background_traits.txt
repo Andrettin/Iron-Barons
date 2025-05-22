@@ -1,6 +1,8 @@
 indulgent_wastrel = {
 	name = "Indulgent Wastrel"
-	type = background
+	types = {
+		background
+	}
 	icon = chest
 	conditions = {
 		primary_attribute = stewardship
@@ -17,7 +19,9 @@ indulgent_wastrel = {
 
 thrifty_clerk = {
 	name = "Thrifty Clerk"
-	type = background
+	types = {
+		background
+	}
 	icon = chest
 	conditions = {
 		or = {
@@ -41,7 +45,9 @@ thrifty_clerk = {
 
 fortune_builder = {
 	name = "Fortune Builder"
-	type = background
+	types = {
+		background
+	}
 	icon = chest
 	conditions = {
 		primary_attribute = stewardship
@@ -60,7 +66,9 @@ fortune_builder = {
 
 midas_touched = {
 	name = "Midas Touched"
-	type = background
+	types = {
+		background
+	}
 	icon = chest
 	conditions = {
 		primary_attribute = stewardship
