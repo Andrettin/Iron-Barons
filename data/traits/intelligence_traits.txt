@@ -2,6 +2,7 @@ intelligent = {
 	name = "Intelligent"
 	types = {
 		personality
+		ruler
 	}
 	icon = research
 	attribute_bonuses = {
@@ -23,6 +24,7 @@ genius = {
 	name = "Genius"
 	types = {
 		personality
+		ruler
 	}
 	icon = research
 	attribute_bonuses = {
