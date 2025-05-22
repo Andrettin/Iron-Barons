@@ -1,5 +1,6 @@
 beavers = {
 	name = "Beavers"
+	icon = beaver
 	commodity = furs
 	tiny_icon = garrison
 	discovery_technology = furs

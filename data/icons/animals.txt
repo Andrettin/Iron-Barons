@@ -1,0 +1,11 @@
+beaver = {
+	filepath = "icons/animals/beaver.png"
+}
+
+deer = {
+	filepath = "icons/animals/deer.png"
+}
+
+lion = {
+	filepath = "icons/animals/lion.png"
+}

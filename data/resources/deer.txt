@@ -1,5 +1,6 @@
 deer = {
 	name = "Deer"
+	icon = deer
 	commodity = furs
 	tiny_icon = garrison
 	discovery_technology = furs

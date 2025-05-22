@@ -1,7 +1,7 @@
 oasis = {
 	name = "Oasis"
 	plural_name = "Oases"
-	icon = wealth
+	icon = oasis
 	tiny_icon = trade_consulate
 	terrain_types = {
 		desert

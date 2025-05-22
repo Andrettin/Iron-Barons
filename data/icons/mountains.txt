@@ -1,3 +1,0 @@
-mountains = {
-	filepath = "icons/mountains.png"
-}
