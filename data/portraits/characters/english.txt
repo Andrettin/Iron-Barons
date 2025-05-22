@@ -19,8 +19,7 @@ francis_drake = {
 		}
 		is_ruler = false
 		or = {
-			character_type = grand_admiral
-			character_type = naval_reformer
+			character_type = admiral
 			character_type = privateer
 			character_type = giovanni_da_verrazano
 			character_type = juan_de_bermudez

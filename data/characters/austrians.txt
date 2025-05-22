@@ -125,7 +125,7 @@ conrad_haas = {
 rheticus = {
 	name = "Rheticus"
 	role = advisor
-	character_type = naval_reformer
+	character_type = admiral
 	culture = austrian
 	religion = catholic
 	home_site = kosice
@@ -134,6 +134,9 @@ rheticus = {
 	death_date = 1574
 	skill_multiplier = 0.17
 	required_technology = navigation
+	traits = {
+		naval_reformer
+	}
 }
 
 wolfgang_von_rumpf = {

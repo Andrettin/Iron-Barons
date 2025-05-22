@@ -43,3 +43,48 @@ army_reformer = {
 		army_research_modifier = 5
 	}
 }
+
+grand_admiral = {
+	name = "Grand Admiral"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = martial
+	conditions = {
+		character_type = admiral
+	}
+	scaled_ruler_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = water
+			stat = discipline
+			value = 2.5
+		}
+	}
+	scaled_advisor_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = water
+			stat = discipline
+			value = 2.5
+		}
+	}
+}
+
+naval_reformer = {
+	name = "Naval Reformer"
+	types = {
+		ruler
+		advisor
+	}
+	icon = anchor
+	attribute = martial
+	conditions = {
+		character_type = admiral
+	}
+	scaled_ruler_modifier = {
+		navy_research_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		navy_research_modifier = 5
+	}
+}
