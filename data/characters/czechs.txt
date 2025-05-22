@@ -11,6 +11,9 @@ vilem_rozmberk = {
 	death_date = 1592
 	skill_multiplier = 0.17
 	required_technology = feudalism
+	traits = {
+		treasurer
+	}
 }
 
 karel_starsi = {
@@ -61,6 +64,9 @@ jaroslav_borsita = {
 	death_date = 1649.11.21
 	skill_multiplier = 0.17
 	required_technology = national_bureaucracy
+	traits = {
+		treasurer
+	}
 }
 
 

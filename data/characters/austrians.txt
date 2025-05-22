@@ -191,6 +191,9 @@ katharina_galler = {
 	death_date = 1672.2.12
 	skill_multiplier = 0.33
 	required_technology = feudalism
+	traits = {
+		treasurer
+	}
 }
 
 philipp_von_hornigk = {
@@ -206,6 +209,9 @@ philipp_von_hornigk = {
 	death_date = 1714.10.23
 	skill_multiplier = 0.33
 	required_technology = propaganda
+	traits = {
+		treasurer
+	}
 }
 
 johann_von_eggenberg = {
@@ -350,4 +356,7 @@ joseph_eckhel = {
 	death_date = 1798.5.16
 	skill_multiplier = 0.17
 	required_technology = banking
+	traits = {
+		treasurer
+	}
 }

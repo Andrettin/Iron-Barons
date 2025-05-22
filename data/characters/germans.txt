@@ -90,6 +90,9 @@ anton_fugger = {
 	death_date = 1560.9.14
 	skill_multiplier = 0.67
 	required_technology = banking
+	traits = {
+		treasurer
+	}
 }
 
 peter_bennewitz = { #also known as Petrus Apianus; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 207.
@@ -130,6 +133,9 @@ franz_dietrichstein = {
 	death_date = 1636.9.19
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	traits = {
+		treasurer
+	}
 }
 
 johann_sebastian_bach = {

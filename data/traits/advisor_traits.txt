@@ -107,3 +107,22 @@ statesman = {
 		statesmanship_output_modifier = 5
 	}
 }
+
+treasurer = {
+	name = "Treasurer"
+	types = {
+		ruler
+		advisor
+	}
+	icon = chest
+	attribute = stewardship
+	conditions = {
+		character_type = treasurer
+	}
+	scaled_ruler_modifier = {
+		finance_research_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		finance_research_modifier = 5
+	}
+}
