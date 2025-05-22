@@ -1,0 +1,45 @@
+army_organizer = {
+	name = "Army Organizer"
+	types = {
+		ruler
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character_type = general
+	}
+	scaled_ruler_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = morale_recovery_modifier
+			value = 1
+		}
+	}
+	scaled_advisor_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = morale_recovery_modifier
+			value = 1
+		}
+	}
+}
+
+army_reformer = {
+	name = "Army Reformer"
+	types = {
+		ruler
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character_type = general
+	}
+	scaled_ruler_modifier = {
+		army_research_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		army_research_modifier = 5
+	}
+}

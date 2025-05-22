@@ -108,7 +108,7 @@ conrad_haas = {
 	name = "Conrad"
 	surname = "Haas"
 	role = advisor
-	character_type = army_reformer
+	character_type = general
 	culture = austrian
 	religion = catholic
 	home_settlement = vienna
@@ -117,6 +117,9 @@ conrad_haas = {
 	death_date = 1576
 	skill_multiplier = 0.67
 	required_technology = mine_engineering
+	traits = {
+		army_reformer
+	}
 }
 
 rheticus = {
@@ -242,7 +245,7 @@ josef_wenzel = {
 	name = "Josef"
 	surname = "Wenzel"
 	role = advisor
-	character_type = army_reformer
+	character_type = general
 	culture = austrian
 	religion = catholic
 	home_settlement = vienna
@@ -251,6 +254,9 @@ josef_wenzel = {
 	death_date = 1772.2.10
 	skill_multiplier = 0.5
 	required_technology = heavy_artillery
+	traits = {
+		army_reformer
+	}
 }
 
 gerard_van_swieten = {
