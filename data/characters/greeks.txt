@@ -11,6 +11,9 @@ perseus = {
 	conditions = {
 		culture = greek
 	}
+	traits = {
+		perseus
+	}
 }
 
 archimedes = {

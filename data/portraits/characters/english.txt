@@ -22,7 +22,6 @@ francis_drake = {
 			character_type = admiral
 			character_type = privateer
 			character_type = giovanni_da_verrazano
-			character_type = juan_de_bermudez
 		}
 	}
 }
@@ -39,7 +38,6 @@ henry_hudson = {
 		or = {
 			character_type = navigator
 			character_type = giovanni_da_verrazano
-			character_type = juan_de_bermudez
 		}
 	}
 }

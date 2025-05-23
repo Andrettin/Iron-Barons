@@ -83,6 +83,9 @@ jan_amos_komensky = {
 	death_date = 1670.11.15
 	skill_multiplier = 0.17
 	required_technology = philosophy
+	traits = {
+		philosopher
+	}
 }
 
 francis_kinsky = {

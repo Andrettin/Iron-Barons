@@ -140,6 +140,69 @@ naval_reformer = {
 	}
 }
 
+ferdinand_magellan = {
+	name = "Ferdinand Magellan"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = learning
+	conditions = {
+		character = ferdinand_magellan
+	}
+	advisor_modifier = {
+		ship_movement_modifier = 1
+	}
+}
+
+juan_de_bermudez = {
+	name = "Juan de Bermudez"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = learning
+	conditions = {
+		character = juan_de_bermudez
+	}
+	advisor_modifier = {
+		merchant_ship_movement_modifier = 1
+	}
+}
+
+perseus = {
+	name = "Perseus"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = learning
+	conditions = {
+		character = perseus
+	}
+	advisor_modifier = {
+		ship_movement_modifier = 1
+	}
+}
+
+philosopher = {
+	name = "Philosopher"
+	types = {
+		advisor
+	}
+	icon = philosophy
+	attribute = learning
+	conditions = {
+		character_type = philosopher
+	}
+	scaled_ruler_modifier = {
+		research_output_modifier = 2.5
+	}
+	scaled_advisor_modifier = {
+		research_output_modifier = 2.5
+	}
+}
+
 statesman = {
 	name = "Statesman"
 	types = {

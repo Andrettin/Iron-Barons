@@ -245,6 +245,9 @@ franz_ferdinand_von_rummel = {
 	death_date = 1716.3.15
 	skill_multiplier = 0.33
 	required_technology = philosophy
+	traits = {
+		philosopher
+	}
 }
 
 joseph_harrach = {
