@@ -1,0 +1,6 @@
+farmer = {
+	name = "Farmer"
+	advisor_category = trade
+	attribute = stewardship
+	civilian_unit_class = farmer
+}

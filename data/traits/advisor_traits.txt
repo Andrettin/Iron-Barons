@@ -44,6 +44,24 @@ army_reformer = {
 	}
 }
 
+cotton_planter = {
+	name = "Cotton Planter"
+	types = {
+		advisor
+	}
+	icon = cotton
+	attribute = stewardship
+	conditions = {
+		character_type = farmer
+	}
+	scaled_ruler_modifier = {
+		cotton_output_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		cotton_output_modifier = 5
+	}
+}
+
 grand_admiral = {
 	name = "Grand Admiral"
 	types = {
@@ -105,6 +123,24 @@ statesman = {
 	}
 	scaled_advisor_modifier = {
 		statesmanship_output_modifier = 5
+	}
+}
+
+tobacco_planter = {
+	name = "Tobacco Planter"
+	types = {
+		advisor
+	}
+	icon = tobacco
+	attribute = stewardship
+	conditions = {
+		character_type = farmer
+	}
+	scaled_ruler_modifier = {
+		tobacco_output_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		tobacco_output_modifier = 5
 	}
 }
 
