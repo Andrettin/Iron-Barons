@@ -143,7 +143,6 @@ naval_reformer = {
 statesman = {
 	name = "Statesman"
 	types = {
-		ruler
 		advisor
 	}
 	icon = bell
@@ -180,7 +179,6 @@ tobacco_planter = {
 treasurer = {
 	name = "Treasurer"
 	types = {
-		ruler
 		advisor
 	}
 	icon = chest
