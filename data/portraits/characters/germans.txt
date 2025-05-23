@@ -57,7 +57,6 @@ otto_von_bismarck = {
 			character_type = grand_captain
 			character_type = military_engineer
 			character_type = statesman
-			character_type = strategist
 			character_type = francisco_de_coronado
 			character_type = jacques_marquette
 			character_type = sieur_de_la_salle

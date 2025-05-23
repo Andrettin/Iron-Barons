@@ -89,7 +89,7 @@ grand_admiral = {
 }
 
 marco_polo = {
-	name = "Merchant"
+	name = "Marco Polo"
 	types = {
 		advisor
 	}
@@ -155,6 +155,23 @@ statesman = {
 	}
 	scaled_advisor_modifier = {
 		statesmanship_output_modifier = 5
+	}
+}
+
+sun_tzu = {
+	name = "Sun Tzu"
+	types = {
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character = sun_tzu
+	}
+	advisor_modifier = {
+		free_infantry_promotion = veteran_1
+		free_cavalry_promotion = veteran_1
+		free_artillery_promotion = veteran_1
 	}
 }
 
