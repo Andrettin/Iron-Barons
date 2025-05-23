@@ -8,7 +8,6 @@ metternich = {
 		}
 		is_ruler = false
 		or = {
-			character_type = ambassador
 			character_type = diplomat
 			character_type = high_judge
 			character_type = spymaster

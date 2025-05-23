@@ -88,6 +88,39 @@ grand_admiral = {
 	}
 }
 
+marco_polo = {
+	name = "Merchant"
+	types = {
+		advisor
+	}
+	icon = wealth
+	attribute = stewardship
+	conditions = {
+		character = marco_polo
+	}
+	advisor_modifier = {
+		free_consulate = embassy
+	}
+}
+
+merchant = {
+	name = "Merchant"
+	types = {
+		advisor
+	}
+	icon = wealth
+	attribute = stewardship
+	conditions = {
+		character_type = merchant
+	}
+	scaled_ruler_modifier = {
+		trade_output_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		trade_output_modifier = 5
+	}
+}
+
 naval_reformer = {
 	name = "Naval Reformer"
 	types = {

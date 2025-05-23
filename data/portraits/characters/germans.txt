@@ -51,7 +51,6 @@ otto_von_bismarck = {
 		}
 		is_ruler = false
 		or = {
-			character_type = ambassador
 			character_type = commandant
 			character_type = diplomat
 			character_type = general

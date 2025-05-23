@@ -100,6 +100,9 @@ edward_kelley = {
 	death_date = 1597
 	skill_multiplier = 0.17
 	required_technology = merchant_companies
+	traits = {
+		merchant
+	}
 }
 
 francis_bacon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.

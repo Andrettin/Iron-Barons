@@ -3,10 +3,4 @@ merchant = {
 	advisor_category = trade
 	attribute = stewardship
 	civilian_unit_class = merchant
-	scaled_ruler_modifier = {
-		trade_output_modifier = 5
-	}
-	scaled_advisor_modifier = {
-		trade_output_modifier = 5
-	}
 }

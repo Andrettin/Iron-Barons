@@ -227,6 +227,9 @@ johann_von_eggenberg = {
 	death_date = 1710.12.14
 	skill_multiplier = 0.33
 	required_technology = merchant_companies
+	traits = {
+		merchant
+	}
 }
 
 franz_ferdinand_von_rummel = {
