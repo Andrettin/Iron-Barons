@@ -111,13 +111,17 @@ giovanni_da_verrazano = { #Source: Isaac Asimov, "Cronologia das Ciências e das
 	name = "Giovanni"
 	surname = "da Verrazano"
 	role = advisor
-	character_type = giovanni_da_verrazano
+	character_type = navigator
 	culture = italian
 	religion = catholic
 	home_settlement = florence
 	gender = male
 	birth_date = 1485
 	death_date = 1528
+	required_technology = navigation
+	traits = {
+		giovanni_da_verrazano
+	}
 	
 	#explored the North American eastern coast in 1524, and discovered New York Bay
 }

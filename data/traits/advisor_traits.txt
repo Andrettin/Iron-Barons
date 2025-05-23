@@ -155,6 +155,21 @@ ferdinand_magellan = {
 	}
 }
 
+giovanni_da_verrazano = {
+	name = "Giovanni da Verrazano"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = learning
+	conditions = {
+		character = giovanni_da_verrazano
+	}
+	advisor_effects = {
+		create_transporter = carrack #caravel
+	}
+}
+
 juan_de_bermudez = {
 	name = "Juan de Bermudez"
 	types = {

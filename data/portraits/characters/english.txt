@@ -21,7 +21,6 @@ francis_drake = {
 		or = {
 			character_type = admiral
 			character_type = privateer
-			character_type = giovanni_da_verrazano
 		}
 	}
 }
@@ -35,10 +34,7 @@ henry_hudson = {
 			cultural_group = asian
 		}
 		is_ruler = false
-		or = {
-			character_type = navigator
-			character_type = giovanni_da_verrazano
-		}
+		character_type = navigator
 	}
 }
 

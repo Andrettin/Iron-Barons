@@ -4,13 +4,3 @@ navigator = {
 	attribute = learning
 	military_unit_category = light_warship
 }
-
-giovanni_da_verrazano = {
-	name = "Giovanni da Verrazano"
-	advisor_category = exploration
-	attribute = learning
-	required_technology = navigation
-	advisor_effects = {
-		create_transporter = carrack #caravel
-	}
-}
