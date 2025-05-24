@@ -2,10 +2,6 @@ natural_scientist = {
 	name = "Natural Scientist"
 	advisor_category = trade
 	attribute = learning
-	scaled_advisor_modifier = {
-		gathering_research_modifier = 5
-		industry_research_modifier = 5
-	}
 }
 
 charles_darwin = {

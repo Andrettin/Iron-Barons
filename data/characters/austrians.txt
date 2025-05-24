@@ -47,6 +47,9 @@ georg_peurbach = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 	death_date = 1461
 	skill_multiplier = 0.33
 	required_technology = astronomy
+	traits = {
+		natural_scientist
+	}
 	
 	#text based on that of the Encyclopædia Britannica, in the public domain
 	description = "Austrian astronomer, Regiomontanus was his pupil at Vienna from 1452, and they jointly undertook a reform of astronomy rendered necessary by the errors they detected in the Alphonsine Tables."
@@ -75,6 +78,9 @@ andreas_stoberl = {
 	death_date = 1515
 	skill_multiplier = 0.33
 	required_technology = astronomy
+	traits = {
+		natural_scientist
+	}
 }
 
 johannes_cuspinianus = {
@@ -90,6 +96,9 @@ johannes_cuspinianus = {
 	death_date = 1529
 	skill_multiplier = 0.33
 	required_technology = medicine
+	traits = {
+		natural_scientist
+	}
 }
 
 georg_tannstetter = {
@@ -105,6 +114,9 @@ georg_tannstetter = {
 	death_date = 1535.3.26
 	skill_multiplier = 0.33
 	required_technology = mathematics
+	traits = {
+		natural_scientist
+	}
 }
 
 conrad_haas = {
@@ -299,6 +311,9 @@ gerard_van_swieten = {
 	death_date = 1772.6.18
 	skill_multiplier = 0.33
 	required_technology = medicine
+	traits = {
+		natural_scientist
+	}
 }
 
 wenzel_anton_kaunitz = {
@@ -332,6 +347,9 @@ leopold_auenbrugger = {
 	death_date = 1809.5.17
 	skill_multiplier = 0.5
 	required_technology = medicine
+	traits = {
+		natural_scientist
+	}
 }
 
 franz_mesmer = {
@@ -347,6 +365,9 @@ franz_mesmer = {
 	death_date = 1815.3.5
 	skill_multiplier = 0.5
 	required_technology = medicine
+	traits = {
+		natural_scientist
+	}
 }
 
 joseph_eckhel = {

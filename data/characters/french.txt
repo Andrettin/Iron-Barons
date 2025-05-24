@@ -61,6 +61,9 @@ ambroise_pare = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	death_date = 1590
 	required_technology = medicine
 	skill_multiplier = 0.67
+	traits = {
+		natural_scientist
+	}
 	
 	#considered the father of rational surgery
 	#wrote a report about his findings regarding surgery in 1545

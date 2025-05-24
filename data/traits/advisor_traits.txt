@@ -283,6 +283,22 @@ military_engineer = {
 	}
 }
 
+natural_scientist = {
+	name = "Natural Scientist"
+	types = {
+		advisor
+	}
+	icon = research
+	attribute = learning
+	conditions = {
+		character_type = natural_scientist
+	}
+	scaled_advisor_modifier = {
+		gathering_research_modifier = 5
+		industry_research_modifier = 5
+	}
+}
+
 naval_reformer = {
 	name = "Naval Reformer"
 	types = {
