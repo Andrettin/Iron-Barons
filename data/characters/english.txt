@@ -160,6 +160,10 @@ francis_drake = {
 	birth_date = 1540
 	death_date = 1596
 	skill = 10 #+50% Light Warship Damage Bonus
+	required_technology = privateering_companies
+	traits = {
+		privateer
+	}
 }
 
 william_brewster = {

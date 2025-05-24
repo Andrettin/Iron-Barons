@@ -288,6 +288,32 @@ philosopher = {
 	}
 }
 
+privateer = {
+	name = "Privateer"
+	types = {
+		advisor
+	}
+	icon = skull
+	attribute = martial
+	conditions = {
+		character_type = privateer
+	}
+	scaled_ruler_modifier = {
+		military_unit_category_stat_modifier = {
+			category = light_warship
+			stat = damage_bonus
+			value = 5
+		}
+	}
+	scaled_advisor_modifier = {
+		military_unit_category_stat_modifier = {
+			category = light_warship
+			stat = damage_bonus
+			value = 5
+		}
+	}
+}
+
 statesman = {
 	name = "Statesman"
 	types = {
