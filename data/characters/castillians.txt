@@ -165,11 +165,15 @@ francisco_de_coronado = {
 	name = "Francisco"
 	surname = "de Coronado"
 	role = advisor
-	character_type = francisco_de_coronado
+	character_type = conquistador
 	culture = castillian
 	religion = catholic
 	home_site = salamanca
 	gender = male
 	birth_date = 1510
 	death_date = 1544
+	required_technology = colonization
+	traits = {
+		francisco_de_coronado
+	}
 }

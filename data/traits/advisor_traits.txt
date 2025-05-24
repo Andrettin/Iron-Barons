@@ -88,6 +88,55 @@ cotton_planter = {
 	}
 }
 
+ferdinand_magellan = {
+	name = "Ferdinand Magellan"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = learning
+	conditions = {
+		character = ferdinand_magellan
+	}
+	advisor_modifier = {
+		ship_movement_modifier = 1
+	}
+}
+
+francisco_de_coronado = {
+	name = "Francisco de Coronado"
+	types = {
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character = francisco_de_coronado
+	}
+	advisor_modifier = {
+		military_unit_category_stat_modifier = {
+			category = heavy_cavalry
+			stat = movement
+			value = 1
+		}
+	}
+}
+
+giovanni_da_verrazano = {
+	name = "Giovanni da Verrazano"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = learning
+	conditions = {
+		character = giovanni_da_verrazano
+	}
+	advisor_effects = {
+		create_transporter = carrack #caravel
+	}
+}
+
 grand_admiral = {
 	name = "Grand Admiral"
 	types = {
@@ -137,6 +186,40 @@ grand_captain = {
 			stat = discipline
 			value = 2.5
 		}
+	}
+}
+
+jacques_marquette = {
+	name = "Jacques Marquette"
+	types = {
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character = jacques_marquette
+	}
+	advisor_modifier = {
+		military_unit_category_stat_modifier = {
+			category = light_cavalry
+			stat = movement
+			value = 1
+		}
+	}
+}
+
+juan_de_bermudez = {
+	name = "Juan de Bermudez"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = learning
+	conditions = {
+		character = juan_de_bermudez
+	}
+	advisor_modifier = {
+		merchant_ship_movement_modifier = 1
 	}
 }
 
@@ -210,51 +293,6 @@ naval_reformer = {
 	}
 }
 
-ferdinand_magellan = {
-	name = "Ferdinand Magellan"
-	types = {
-		advisor
-	}
-	icon = anchor
-	attribute = learning
-	conditions = {
-		character = ferdinand_magellan
-	}
-	advisor_modifier = {
-		ship_movement_modifier = 1
-	}
-}
-
-giovanni_da_verrazano = {
-	name = "Giovanni da Verrazano"
-	types = {
-		advisor
-	}
-	icon = anchor
-	attribute = learning
-	conditions = {
-		character = giovanni_da_verrazano
-	}
-	advisor_effects = {
-		create_transporter = carrack #caravel
-	}
-}
-
-juan_de_bermudez = {
-	name = "Juan de Bermudez"
-	types = {
-		advisor
-	}
-	icon = anchor
-	attribute = learning
-	conditions = {
-		character = juan_de_bermudez
-	}
-	advisor_modifier = {
-		merchant_ship_movement_modifier = 1
-	}
-}
-
 perseus = {
 	name = "Perseus"
 	types = {
@@ -311,6 +349,21 @@ privateer = {
 			stat = damage_bonus
 			value = 5
 		}
+	}
+}
+
+sieur_de_la_salle = {
+	name = "Sieur de La Salle"
+	types = {
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character = sieur_de_la_salle
+	}
+	advisor_modifier = {
+		free_building_class = stockade
 	}
 }
 

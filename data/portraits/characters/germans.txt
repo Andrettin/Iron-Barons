@@ -51,13 +51,11 @@ otto_von_bismarck = {
 		}
 		is_ruler = false
 		or = {
+			character_type = conquistador
 			character_type = diplomat
 			character_type = general
 			character_type = military_engineer
 			character_type = statesman
-			character_type = francisco_de_coronado
-			character_type = jacques_marquette
-			character_type = sieur_de_la_salle
 		}
 	}
 }
