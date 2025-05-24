@@ -1,9 +1,0 @@
-astronomer = {
-	name = "Astronomer"
-	advisor_category = trade
-	attribute = learning
-	required_technology = astronomy
-	advisor_modifier = {
-		capital_research_output_modifier = 50
-	}
-}

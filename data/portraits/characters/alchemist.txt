@@ -8,11 +8,8 @@ alchemist = {
 		}
 		is_ruler = false
 		or = {
-			character_type = astronomer
 			character_type = inventor
 			character_type = natural_scientist
-			character_type = charles_darwin
-			character_type = isaac_newton
 		}
 	}
 }

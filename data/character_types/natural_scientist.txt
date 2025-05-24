@@ -3,23 +3,3 @@ natural_scientist = {
 	advisor_category = trade
 	attribute = learning
 }
-
-charles_darwin = {
-	name = "Charles Darwin"
-	advisor_category = trade
-	attribute = learning
-	required_technology = merchant_steamships
-	advisor_effects = {
-		free_technologies = 2
-	}
-}
-
-isaac_newton = {
-	name = "Isaac Newton"
-	advisor_category = trade
-	attribute = learning
-	required_technology = theory_of_gravity
-	advisor_modifier = {
-		capital_research_output_modifier = 100
-	}
-}

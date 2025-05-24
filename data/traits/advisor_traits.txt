@@ -44,6 +44,22 @@ army_reformer = {
 	}
 }
 
+charles_darwin = {
+	name = "Charles Darwin"
+	types = {
+		advisor
+	}
+	icon = research
+	hidden_name = true
+	attribute = learning
+	conditions = {
+		character = charles_darwin
+	}
+	advisor_effects = {
+		free_technologies = 2
+	}
+}
+
 commandant = { #person responsible for drilling troops
 	name = "Commandant"
 	types = {
@@ -195,6 +211,22 @@ grand_captain = {
 	}
 }
 
+isaac_newton = {
+	name = "Isaac Newton"
+	types = {
+		advisor
+	}
+	icon = research
+	hidden_name = true
+	attribute = learning
+	conditions = {
+		character = isaac_newton
+	}
+	advisor_modifier = {
+		capital_research_output_modifier = 100
+	}
+}
+
 jacques_marquette = {
 	name = "Jacques Marquette"
 	types = {
@@ -315,6 +347,22 @@ naval_reformer = {
 	}
 	scaled_advisor_modifier = {
 		navy_research_modifier = 5
+	}
+}
+
+nicolaus_copernicus = {
+	name = "Nicolaus Copernicus"
+	types = {
+		advisor
+	}
+	icon = research
+	hidden_name = true
+	attribute = learning
+	conditions = {
+		character = nicolaus_copernicus
+	}
+	advisor_modifier = {
+		capital_research_output_modifier = 50
 	}
 }
 
