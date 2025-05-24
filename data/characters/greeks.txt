@@ -12,7 +12,7 @@ perseus = {
 		culture = greek
 	}
 	traits = {
-		perseus
+		ferdinand_magellan
 	}
 }
 

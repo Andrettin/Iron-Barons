@@ -94,9 +94,13 @@ ferdinand_magellan = {
 		advisor
 	}
 	icon = anchor
+	hidden_name = true
 	attribute = learning
 	conditions = {
-		character = ferdinand_magellan
+		or = {
+			character = ferdinand_magellan
+			character = perseus
+		}
 	}
 	advisor_modifier = {
 		ship_movement_modifier = 1
@@ -109,6 +113,7 @@ francisco_de_coronado = {
 		advisor
 	}
 	icon = crossed_sabers
+	hidden_name = true
 	attribute = martial
 	conditions = {
 		character = francisco_de_coronado
@@ -128,6 +133,7 @@ giovanni_da_verrazano = {
 		advisor
 	}
 	icon = anchor
+	hidden_name = true
 	attribute = learning
 	conditions = {
 		character = giovanni_da_verrazano
@@ -195,6 +201,7 @@ jacques_marquette = {
 		advisor
 	}
 	icon = crossed_sabers
+	hidden_name = true
 	attribute = martial
 	conditions = {
 		character = jacques_marquette
@@ -214,6 +221,7 @@ juan_de_bermudez = {
 		advisor
 	}
 	icon = anchor
+	hidden_name = true
 	attribute = learning
 	conditions = {
 		character = juan_de_bermudez
@@ -229,6 +237,7 @@ marco_polo = {
 		advisor
 	}
 	icon = wealth
+	hidden_name = true
 	attribute = stewardship
 	conditions = {
 		character = marco_polo
@@ -293,21 +302,6 @@ naval_reformer = {
 	}
 }
 
-perseus = {
-	name = "Perseus"
-	types = {
-		advisor
-	}
-	icon = anchor
-	attribute = learning
-	conditions = {
-		character = perseus
-	}
-	advisor_modifier = {
-		ship_movement_modifier = 1
-	}
-}
-
 philosopher = {
 	name = "Philosopher"
 	types = {
@@ -358,6 +352,7 @@ sieur_de_la_salle = {
 		advisor
 	}
 	icon = crossed_sabers
+	hidden_name = true
 	attribute = martial
 	conditions = {
 		character = sieur_de_la_salle
@@ -391,6 +386,7 @@ sun_tzu = {
 		advisor
 	}
 	icon = crossed_sabers
+	hidden_name = true
 	attribute = martial
 	conditions = {
 		character = sun_tzu
