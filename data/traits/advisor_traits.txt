@@ -44,6 +44,32 @@ army_reformer = {
 	}
 }
 
+commandant = { #person responsible for drilling troops
+	name = "Commandant"
+	types = {
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character_type = general
+	}
+	scaled_ruler_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = damage_bonus
+			value = 1
+		}
+	}
+	scaled_advisor_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = damage_bonus
+			value = 1
+		}
+	}
+}
+
 cotton_planter = {
 	name = "Cotton Planter"
 	types = {
@@ -88,6 +114,32 @@ grand_admiral = {
 	}
 }
 
+grand_captain = {
+	name = "Grand Captain"
+	types = {
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character_type = general
+	}
+	scaled_ruler_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = 2.5
+		}
+	}
+	scaled_advisor_modifier = {
+		military_unit_domain_stat_modifier = {
+			domain = land
+			stat = discipline
+			value = 2.5
+		}
+	}
+}
+
 marco_polo = {
 	name = "Marco Polo"
 	types = {
@@ -118,6 +170,24 @@ merchant = {
 	}
 	scaled_advisor_modifier = {
 		trade_output_modifier = 5
+	}
+}
+
+military_engineer = {
+	name = "Military Engineer"
+	types = {
+		advisor
+	}
+	icon = crossed_sabers
+	attribute = martial
+	conditions = {
+		character_type = military_engineer
+	}
+	scaled_ruler_modifier = {
+		entrenchment_bonus_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		entrenchment_bonus_modifier = 5
 	}
 }
 
