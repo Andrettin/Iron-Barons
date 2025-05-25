@@ -1,9 +1,0 @@
-johann_sebastian_bach = {
-	name = "Johann Sebastian Bach"
-	advisor_category = political #not very fitting
-	attribute = learning
-	required_technology = theology
-	advisor_modifier = {
-		amenities_per_cathedral = 2
-	}
-}

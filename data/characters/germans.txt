@@ -151,13 +151,17 @@ johann_sebastian_bach = {
 	name = "Johann Sebastian"
 	surname = "Bach"
 	role = advisor
-	character_type = johann_sebastian_bach
+	character_type = artist #composer
 	culture = german
 	religion = protestant
 	home_site = erfurt #Eisenach
 	gender = male
 	birth_date = 1685
 	death_date = 1750
+	required_technology = theology
+	traits = {
+		johann_sebastian_bach
+	}
 }
 
 maximilian_hell = {

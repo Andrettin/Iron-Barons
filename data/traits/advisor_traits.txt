@@ -247,6 +247,22 @@ jacques_marquette = {
 	}
 }
 
+johann_sebastian_bach = {
+	name = "Johann Sebastian Bach"
+	types = {
+		advisor
+	}
+	icon = music
+	hidden_name = true
+	attribute = learning
+	conditions = {
+		character = johann_sebastian_bach
+	}
+	advisor_modifier = {
+		amenities_per_cathedral = 2
+	}
+}
+
 juan_de_bermudez = {
 	name = "Juan de Bermudez"
 	types = {

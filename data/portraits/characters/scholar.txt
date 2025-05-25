@@ -10,7 +10,6 @@ scholar = {
 		or = {
 			character_type = artist
 			character_type = philosopher
-			character_type = johann_sebastian_bach
 		}
 	}
 }

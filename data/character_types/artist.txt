@@ -2,7 +2,4 @@ artist = {
 	name = "Artist"
 	advisor_category = political #not very fitting
 	attribute = learning
-	#scaled_advisor_modifier = {
-	#	quarterly_prestige = 0.5
-	#}
 }
