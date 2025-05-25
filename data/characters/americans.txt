@@ -2,13 +2,17 @@ benjamin_franklin = {
 	name = "Benjamin"
 	surname = "Franklin"
 	role = advisor
-	character_type = benjamin_franklin
+	character_type = statesman
 	culture = english
 	religion = protestant
 	home_settlement = boston
 	gender = male
 	birth_date = 1706
 	death_date = 1790
+	required_technology = constitutionalism
+	traits = {
+		benjamin_franklin
+	}
 }
 
 george_washington = {
@@ -58,13 +62,17 @@ patrick_henry = {
 	name = "Patrick"
 	surname = "Henry"
 	role = advisor
-	character_type = patrick_henry
+	character_type = statesman
 	culture = english
 	religion = protestant
 	home_settlement = richmond #Studley
 	gender = male
 	birth_date = 1736
 	death_date = 1799
+	required_technology = rights_of_man
+	traits = {
+		patrick_henry
+	}
 }
 
 thomas_jefferson = {
@@ -159,13 +167,17 @@ washington_irving = {
 	name = "Washington"
 	surname = "Irving"
 	role = advisor
-	character_type = washington_irving
+	character_type = statesman
 	culture = english
 	religion = protestant
 	home_settlement = richmond #Studley
 	gender = male
 	birth_date = 1783
 	death_date = 1859
+	required_technology = romanticism
+	traits = {
+		washington_irving
+	}
 }
 
 abraham_lincoln = {

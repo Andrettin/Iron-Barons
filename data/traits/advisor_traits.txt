@@ -44,6 +44,23 @@ army_reformer = {
 	}
 }
 
+benjamin_franklin = {
+	name = "Benjamin Franklin"
+	types = {
+		advisor
+	}
+	icon = bell
+	hidden_name = true
+	attribute = diplomacy
+	conditions = {
+		character = benjamin_franklin
+	}
+	advisor_modifier = {
+		statesmanship_per_printing_press = 3
+		statesmanship_per_newspaper = 3
+	}
+}
+
 charles_darwin = {
 	name = "Charles Darwin"
 	types = {
@@ -418,6 +435,26 @@ nicolaus_copernicus = {
 	}
 }
 
+patrick_henry = {
+	name = "Patrick Henry"
+	types = {
+		advisor
+	}
+	icon = bell
+	hidden_name = true
+	attribute = diplomacy
+	conditions = {
+		character = patrick_henry
+	}
+	advisor_modifier = {
+		statesmanship_per_village_hall = 1
+		statesmanship_per_town_hall = 2
+		statesmanship_per_city_hall = 3
+		statesmanship_per_state_house = 3
+		statesmanship_per_capitol = 3
+	}
+}
+
 philosopher = {
 	name = "Philosopher"
 	types = {
@@ -547,5 +584,23 @@ treasurer = {
 	}
 	scaled_advisor_modifier = {
 		finance_research_modifier = 5
+	}
+}
+
+washington_irving = {
+	name = "Washington Irving"
+	types = {
+		advisor
+	}
+	icon = bell
+	hidden_name = true
+	attribute = diplomacy
+	conditions = {
+		character = washington_irving
+	}
+	advisor_modifier = {
+		statesmanship_per_school = 1
+		statesmanship_per_college = 2
+		statesmanship_per_university = 3
 	}
 }
