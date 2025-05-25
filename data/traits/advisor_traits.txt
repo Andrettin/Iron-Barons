@@ -104,6 +104,24 @@ cotton_planter = {
 	}
 }
 
+diplomat = {
+	name = "Diplomat"
+	types = {
+		advisor
+	}
+	icon = treaty
+	attribute = diplomacy
+	conditions = {
+		character_type = diplomat
+	}
+	scaled_ruler_modifier = {
+		diplomatic_penalty_for_expansion_modifier = -1
+	}
+	scaled_advisor_modifier = {
+		diplomatic_penalty_for_expansion_modifier = -1
+	}
+}
+
 ferdinand_magellan = {
 	name = "Ferdinand Magellan"
 	types = {
@@ -292,6 +310,24 @@ marco_polo = {
 	}
 	advisor_modifier = {
 		free_consulate = embassy
+	}
+}
+
+master_of_mint = {
+	name = "Master of Mint"
+	types = {
+		advisor
+	}
+	icon = wealth
+	attribute = stewardship
+	conditions = {
+		character_type = master_of_mint
+	}
+	scaled_ruler_modifier = {
+		inflation_change = -0.01
+	}
+	scaled_advisor_modifier = {
+		inflation_change = -0.01
 	}
 }
 
