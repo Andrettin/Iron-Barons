@@ -314,6 +314,22 @@ juan_de_bermudez = {
 	}
 }
 
+leonardo_da_vinci = {
+	name = "Leonardo da Vinci"
+	types = {
+		advisor
+	}
+	icon = cog
+	hidden_name = true
+	attribute = learning
+	conditions = {
+		character_type = engineer
+	}
+	advisor_modifier = {
+		unit_upgrade_cost_modifier = -50
+	}
+}
+
 marco_polo = {
 	name = "Marco Polo"
 	types = {

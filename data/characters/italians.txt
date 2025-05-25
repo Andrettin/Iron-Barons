@@ -48,17 +48,22 @@ leonardo_da_vinci = {
 	name = "Leonardo"
 	surname = "da Vinci"
 	role = advisor
-	character_type = inventor
+	character_type = engineer
 	culture = italian
 	religion = catholic
 	home_settlement = florence
 	gender = male
 	birth_date = 1450.4.15
 	death_date = 1519.5.2
+	required_technology = invention
+	obsolescence_technology = internal_combustion #automobile
 	conditions = {
 		not = {
 			culture = greek
 		}
+	}
+	traits = {
+		leonardo_da_vinci
 	}
 }
 
