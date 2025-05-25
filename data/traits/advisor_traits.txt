@@ -551,6 +551,24 @@ sun_tzu = {
 	}
 }
 
+theologian = {
+	name = "Theologian"
+	types = {
+		advisor
+	}
+	icon = wooden_cross
+	attribute = learning
+	conditions = {
+		character_type = theologian
+	}
+	scaled_ruler_modifier = {
+		piety_output_modifier = 5
+	}
+	scaled_advisor_modifier = {
+		piety_output_modifier = 5
+	}
+}
+
 tobacco_planter = {
 	name = "Tobacco Planter"
 	types = {

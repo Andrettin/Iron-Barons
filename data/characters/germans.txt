@@ -78,6 +78,9 @@ martin_luther = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	death_date = 1546
 	required_technology = printing_press
 	skill_multiplier = 1
+	traits = {
+		theologian
+	}
 	#monk
 	
 	#presented his 95 theses in Wittenberg on 1517.10.31, starting the protestant reformation

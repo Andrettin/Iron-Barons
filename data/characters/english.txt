@@ -246,6 +246,9 @@ william_penn = {
 	birth_date = 1644
 	death_date = 1718
 	skill = 10 #+50% Piety
+	traits = {
+		theologian
+	}
 }
 
 isaac_newton = {

@@ -89,6 +89,7 @@ bartolome_de_las_casas = {
 	death_date = 1566
 	skill_multiplier = 0.5
 	traits = {
+		theologian
 		compassionate
 	}
 }
@@ -129,6 +130,9 @@ juan_de_sepulveda = {
 	birth_date = 1494
 	death_date = 1573
 	skill_multiplier = 0.5
+	traits = {
+		theologian
+	}
 }
 
 gonzalo_jimenez_de_quesada = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 205-206.

@@ -3,10 +3,4 @@ theologian = {
 	advisor_category = religious
 	attribute = learning
 	military_unit_category = cleric
-	scaled_ruler_modifier = {
-		piety_output_modifier = 5
-	}
-	scaled_advisor_modifier = {
-		piety_output_modifier = 5
-	}
 }
