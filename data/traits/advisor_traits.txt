@@ -121,6 +121,25 @@ cotton_planter = {
 	}
 }
 
+cyrus_mccormick = {
+	name = "Cyrus McCormick"
+	types = {
+		advisor
+	}
+	icon = grain
+	hidden_name = true
+	attribute = stewardship
+	conditions = {
+		character = cyrus_mccormick
+	}
+	advisor_modifier = {
+		grain_bonus_for_tile_threshold = 2
+		potatoes_bonus_for_tile_threshold = 2
+		fruit_bonus_for_tile_threshold = 2
+		sugar_cane_output_modifier = 50
+	}
+}
+
 diplomat = {
 	name = "Diplomat"
 	types = {
@@ -246,6 +265,22 @@ grand_captain = {
 	}
 }
 
+henry_hudson = {
+	name = "Henry Hudson"
+	types = {
+		advisor
+	}
+	icon = furs
+	hidden_name = true
+	attribute = stewardship
+	conditions = {
+		character = henry_hudson
+	}
+	advisor_modifier = {
+		furs_output_modifier = 100
+	}
+}
+
 isaac_newton = {
 	name = "Isaac Newton"
 	types = {
@@ -295,6 +330,73 @@ johann_sebastian_bach = {
 	}
 	advisor_modifier = {
 		amenities_per_cathedral = 2
+	}
+}
+
+john_harvard = {
+	name = "John Harvard"
+	types = {
+		advisor
+	}
+	icon = wooden_cross
+	hidden_name = true
+	attribute = learning
+	conditions = {
+		character = john_harvard
+	}
+	advisor_modifier = {
+		free_building_class = school
+	}
+}
+
+john_jacob_astor = {
+	name = "John Jacob Astor"
+	types = {
+		advisor
+	}
+	icon = furs
+	hidden_name = true
+	attribute = stewardship
+	conditions = {
+		character = john_jacob_astor
+	}
+	advisor_modifier = {
+		furs_output_modifier = 50
+	}
+}
+
+john_paul_jones = {
+	name = "John Paul Jones"
+	types = {
+		advisor
+	}
+	icon = anchor
+	hidden_name = true
+	attribute = martial
+	conditions = {
+		character = john_paul_jones
+	}
+	advisor_effects = {
+		create_military_unit = frigate
+	}
+}
+
+john_winthrop = {
+	name = "John Winthrop"
+	types = {
+		advisor
+	}
+	icon = wooden_cross
+	hidden_name = true
+	attribute = diplomacy
+	conditions = {
+		character = john_winthrop
+	}
+	advisor_modifier = {
+		piety_per_town_hall = 1
+		piety_per_city_hall = 1
+		piety_per_state_house = 1
+		piety_per_capitol = 1
 	}
 }
 

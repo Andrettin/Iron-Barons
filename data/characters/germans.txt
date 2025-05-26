@@ -115,7 +115,7 @@ peter_bennewitz = { #also known as Petrus Apianus; Source: Isaac Asimov, "Cronol
 	birth_date = 1501
 	death_date = 1552
 	traits = {
-		natural_scientist
+		#natural_scientist
 	}
 	
 	#published a book in 1540 in which he stated that comet tails are always in the opposite direction to the sun

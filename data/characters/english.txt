@@ -142,8 +142,8 @@ henry_hudson = {
 	birth_date = 1565
 	death_date = 1611
 	required_technology = navigation
-	advisor_modifier = {
-		furs_output_modifier = 100
+	traits = {
+		henry_hudson
 	}
 }
 
@@ -208,11 +208,8 @@ john_winthrop = {
 	birth_date = 1587
 	death_date = 1649
 	required_technology = propaganda
-	advisor_modifier = {
-		piety_per_town_hall = 1
-		piety_per_city_hall = 1
-		piety_per_state_house = 1
-		piety_per_capitol = 1
+	traits = {
+		john_winthrop
 	}
 }
 
@@ -228,8 +225,8 @@ john_harvard = {
 	birth_date = 1607
 	death_date = 1638
 	required_technology = university
-	advisor_modifier = {
-		free_building_class = school
+	traits = {
+		john_harvard
 	}
 }
 

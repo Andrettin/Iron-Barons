@@ -123,8 +123,8 @@ john_paul_jones = {
 	birth_date = 1747
 	death_date = 1792
 	required_technology = advanced_hull_design
-	advisor_effects = {
-		create_military_unit = frigate
+	traits = {
+		john_paul_jones
 	}
 }
 
@@ -140,8 +140,8 @@ john_jacob_astor = {
 	birth_date = 1763
 	death_date = 1848
 	required_technology = excessive_fur_harvesting
-	advisor_modifier = {
-		furs_output_modifier = 50
+	traits = {
+		john_jacob_astor
 	}
 }
 
@@ -213,10 +213,7 @@ cyrus_mccormick = {
 	birth_date = 1809
 	death_date = 1884
 	required_technology = mechanical_reaper
-	advisor_modifier = {
-		grain_bonus_for_tile_threshold = 2
-		potatoes_bonus_for_tile_threshold = 2
-		fruit_bonus_for_tile_threshold = 2
-		sugar_cane_output_modifier = 50
+	traits = {
+		cyrus_mccormick
 	}
 }
