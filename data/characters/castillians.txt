@@ -15,6 +15,27 @@ juan_de_bermudez = {
 	}
 }
 
+isabella_i_of_castille = {
+	name = "Isabella"
+	epithet = "I"
+	role = ruler
+	character_type = statesman
+	culture = castillian
+	religion = catholic
+	home_settlement = madrid
+	gender = female
+	birth_date = 1451.4.22
+	death_date = 1504.11.26
+	rulable_countries = {
+		castille
+		spain
+	}
+	traits = {
+		expansive
+		spiritual
+	}
+}
+
 juan_ponce_de_leon = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
 	name = "Juan Ponce"
 	surname = "de Leon" #"de León"
