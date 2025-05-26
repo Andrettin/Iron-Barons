@@ -8,6 +8,7 @@ cunhambebe = {
 				cultural_group = american
 				not = {
 					cultural_group = mesoamerican
+					cultural_group = andean
 				}
 			}
 		}
