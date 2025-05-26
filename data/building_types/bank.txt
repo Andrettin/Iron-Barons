@@ -12,14 +12,6 @@ bank = {
 	build_conditions = {
 		has_building_class = market
 	}
-	cost_factor = {
-		modifier = {
-			factor = 0.5
-			ruler = {
-				trait = financial
-			}
-		}
-	}
 	settlement_conditions = {
 		province = {
 			produces_commodity = trade

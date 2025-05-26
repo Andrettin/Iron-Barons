@@ -9,14 +9,6 @@ courthouse = {
 		city
 		metropolis
 	}
-	cost_factor = {
-		modifier = {
-			factor = 0.5
-			ruler = {
-				trait = organized
-			}
-		}
-	}
 	settlement_conditions = {
 		province = {
 			produces_commodity = statesmanship

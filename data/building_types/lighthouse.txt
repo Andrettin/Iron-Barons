@@ -9,14 +9,6 @@ lighthouse = {
 		city
 		metropolis
 	}
-	cost_factor = {
-		modifier = {
-			factor = 0.5
-			ruler = {
-				trait = organized
-			}
-		}
-	}
 	settlement_conditions = {
 		coastal = true
 	}
