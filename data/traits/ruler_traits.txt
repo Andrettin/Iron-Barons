@@ -36,6 +36,15 @@ creative = {
 			commodity = culture
 			value = 2
 		}
+		
+		building_cost_efficiency = {
+			building_class = library
+			value = 100
+		}
+		building_cost_efficiency = {
+			building_class = arena
+			value = 100
+		}
 	}
 }
 
@@ -49,6 +58,15 @@ expansive = {
 		commodity_bonus_per_settlement = {
 			commodity = housing
 			value = 2
+		}
+		
+		building_cost_efficiency = {
+			building_class = granary
+			value = 100
+		}
+		building_cost_efficiency = {
+			building_class = dock
+			value = 100
 		}
 	}
 }
@@ -182,6 +200,19 @@ protective = {
 	icon = heater_shield
 	ruler_modifier = {
 		free_infantry_promotion = city_garrison_1
+		
+		building_cost_efficiency = {
+			building_class = stockade
+			value = 100
+		}
+		building_cost_efficiency = {
+			building_class = fort
+			value = 100
+		}
+		building_cost_efficiency = {
+			building_class = fortress
+			value = 100
+		}
 	}
 }
 
