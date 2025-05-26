@@ -185,6 +185,20 @@ protective = {
 	}
 }
 
+spiritual = {
+	name = "Spiritual"
+	types = {
+		ruler
+	}
+	icon = wooden_cross
+	ruler_modifier = {
+		building_cost_efficiency = {
+			building_class = temple
+			value = 100
+		}
+	}
+}
+
 well_connected = {
 	name = "Well-Connected"
 	types = {
