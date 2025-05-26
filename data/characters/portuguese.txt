@@ -1,3 +1,23 @@
+joao_ii_of_portugal = {
+	name = "Joao" #"João"
+	epithet = "II"
+	role = ruler
+	character_type = statesman
+	culture = portuguese
+	religion = catholic
+	home_settlement = lisbon
+	gender = male
+	birth_date = 1455.3.3
+	death_date = 1495.10.25
+	rulable_countries = {
+		portugal
+	}
+	traits = {
+		expansive
+		imperialistic
+	}
+}
+
 pedro_alvares_cabral = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 200.
 	name = "Pedro Alvares" #"Pedro Álvares"
 	surname = "Cabral"
@@ -117,7 +137,7 @@ lourenco_correia = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Bra
 
 maria_de_assumpcao_moraes = { #Source: Barão de Vasconcellos, "Archivo Nobiliarchico Brasileiro", 1918, p. 209.
 	name = "Maria"
-	surname = "de Assumpção Moraes"
+	surname = "de Assumpcao Moraes" #"de Assumpção Moraes"
 	culture = portuguese #her daughter's husband was Portuguese
 	religion = catholic
 	home_site = sao_joao_del_rei #her granddaughter's husband was born there
