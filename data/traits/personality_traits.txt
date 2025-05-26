@@ -16,6 +16,7 @@ assertive = {
 	types = {
 		personality
 		ruler
+		governor
 	}
 	icon = saber
 	conditions = {
@@ -316,6 +317,7 @@ prominent = {
 	name = "Prominent"
 	types = {
 		personality
+		governor
 	}
 	icon = flag
 	attribute_bonuses = {
@@ -354,6 +356,7 @@ scholar = {
 	types = {
 		personality
 		ruler
+		governor
 	}
 	icon = university
 	attribute_bonuses = {
@@ -431,6 +434,7 @@ submissive = {
 	types = {
 		personality
 		ruler
+		governor
 	}
 	icon = skull
 	conditions = {
@@ -464,6 +468,7 @@ unnoticeable = {
 	name = "Unnoticeable"
 	types = {
 		personality
+		governor
 	}
 	icon = skull
 	attribute_bonuses = {

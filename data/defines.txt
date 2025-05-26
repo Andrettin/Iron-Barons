@@ -55,6 +55,7 @@ min_traits_per_type = {
 	expertise = 0
 	ruler = 2
 	advisor = 1
+	governor = 1
 }
 
 max_traits_per_type = {
@@ -62,6 +63,7 @@ max_traits_per_type = {
 	personality = 1
 	ruler = 2
 	advisor = 1
+	governor = 1
 }
 
 scaled_landholder_modifier = {
