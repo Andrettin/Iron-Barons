@@ -48,6 +48,14 @@ temple = {
 			capital = true
 		}
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = spiritual
+			}
+		}
+	}
 	province_modifier = {
 		piety_output_modifier = 50
 	}

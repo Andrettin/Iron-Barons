@@ -14,6 +14,14 @@ stockade = {
 		castle
 		monastery
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = protective
+			}
+		}
+	}
 }
 
 fort = {
@@ -31,6 +39,14 @@ fort = {
 		metropolis
 		castle
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = protective
+			}
+		}
+	}
 }
 
 fortress = {
@@ -46,5 +62,13 @@ fortress = {
 		city
 		metropolis
 		castle
+	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = protective
+			}
+		}
 	}
 }

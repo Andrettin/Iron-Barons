@@ -88,6 +88,14 @@ university = {
 			capital = true
 		}
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = philosophical
+			}
+		}
+	}
 	country_modifier = {
 		commodity_demand = {
 			commodity = paper

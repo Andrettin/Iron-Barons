@@ -21,6 +21,14 @@ granary = {
 			has_resource = grain
 		}
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = expansive
+			}
+		}
+	}
 	province_modifier = {
 		grain_per_improved_grain = 1
 		housing_per_improved_grain = 1

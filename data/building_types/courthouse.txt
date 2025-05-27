@@ -14,6 +14,14 @@ courthouse = {
 			produces_commodity = statesmanship
 		}
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = organized
+			}
+		}
+	}
 	country_modifier = {
 		commodity_demand = {
 			commodity = furniture

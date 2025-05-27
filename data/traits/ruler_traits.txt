@@ -36,15 +36,6 @@ creative = {
 			commodity = culture
 			value = 2
 		}
-		
-		building_cost_efficiency = {
-			building_class = library
-			value = 100
-		}
-		building_cost_efficiency = {
-			building_class = arena
-			value = 100
-		}
 	}
 }
 
@@ -59,15 +50,6 @@ expansive = {
 			commodity = housing
 			value = 2
 		}
-		
-		building_cost_efficiency = {
-			building_class = granary
-			value = 100
-		}
-		building_cost_efficiency = {
-			building_class = dock
-			value = 100
-		}
 	}
 }
 
@@ -79,11 +61,6 @@ financial = {
 	icon = chest
 	ruler_modifier = {
 		trade_bonus_for_tile_threshold = 2
-		
-		building_cost_efficiency = {
-			building_class = bank
-			value = 100
-		}
 	}
 }
 
@@ -117,19 +94,6 @@ industrious = {
 	icon = cog
 	ruler_modifier = {
 		throughput_modifier = 10
-		
-		building_cost_efficiency = {
-			building_class = blacksmiths_house
-			value = 100
-		}
-		building_cost_efficiency = {
-			building_class = blacksmiths_shop
-			value = 100
-		}
-		building_cost_efficiency = {
-			building_class = metalworks
-			value = 100
-		}
 	}
 }
 
@@ -152,16 +116,6 @@ organized = {
 	icon = philosophy
 	ruler_modifier = {
 		law_cost_modifier = -50
-		
-		building_cost_efficiency = {
-			building_class = courthouse
-			value = 100
-		}
-
-		building_cost_efficiency = {
-			building_class = lighthouse
-			value = 100
-		}
 	}
 }
 
@@ -173,11 +127,6 @@ philosophical = {
 	icon = philosophy
 	ruler_modifier = {
 		statesmanship_output_modifier = 25
-		
-		building_cost_efficiency = {
-			building_class = university
-			value = 100
-		}
 	}
 }
 
@@ -200,19 +149,6 @@ protective = {
 	icon = heater_shield
 	ruler_modifier = {
 		free_infantry_promotion = city_garrison_1
-		
-		building_cost_efficiency = {
-			building_class = stockade
-			value = 100
-		}
-		building_cost_efficiency = {
-			building_class = fort
-			value = 100
-		}
-		building_cost_efficiency = {
-			building_class = fortress
-			value = 100
-		}
 	}
 }
 
@@ -223,10 +159,6 @@ spiritual = {
 	}
 	icon = wooden_cross
 	ruler_modifier = {
-		building_cost_efficiency = {
-			building_class = temple
-			value = 100
-		}
 	}
 }
 

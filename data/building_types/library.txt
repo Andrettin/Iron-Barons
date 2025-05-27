@@ -15,6 +15,14 @@ library = {
 			#produces_commodity = research
 		}
 	}
+	cost_factor = {
+		modifier = {
+			factor = 0.5
+			ruler = {
+				trait = creative
+			}
+		}
+	}
 	settlement_modifier = {
 		research_output_modifier = 25
 	}
