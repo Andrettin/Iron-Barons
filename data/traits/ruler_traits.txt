@@ -158,7 +158,13 @@ spiritual = {
 		ruler
 	}
 	icon = wooden_cross
-	ruler_modifier = {
+	attribute = learning
+	max_scaling = 5
+	attribute_bonuses = {
+		learning = 1
+	}
+	scaled_ruler_modifier = {
+		piety_output_modifier = 5
 	}
 }
 
