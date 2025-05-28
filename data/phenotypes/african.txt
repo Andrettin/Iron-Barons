@@ -1,3 +1,4 @@
 african = {
 	name = "African"
+	species = human
 }

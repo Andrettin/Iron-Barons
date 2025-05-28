@@ -1,3 +1,4 @@
 dwarven = {
 	name = "Dwarven"
+	species = dwarf
 }

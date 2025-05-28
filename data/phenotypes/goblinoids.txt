@@ -1,7 +1,9 @@
 goblin = {
 	name = "Goblin"
+	species = goblin
 }
 
 hobgoblin = {
 	name = "Hobgoblin"
+	species = hobgoblin
 }
