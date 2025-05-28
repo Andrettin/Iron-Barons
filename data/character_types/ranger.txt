@@ -3,4 +3,5 @@ ranger = {
 	advisor_category = military
 	attribute = martial
 	military_unit_category = ranger
+	starting_age_category = self_taught
 }

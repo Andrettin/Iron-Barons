@@ -3,4 +3,5 @@ pioneer = {
 	advisor_category = exploration
 	attribute = stewardship
 	civilian_unit_class = pioneer
+	starting_age_category = self_taught
 }

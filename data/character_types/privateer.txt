@@ -4,4 +4,5 @@ privateer = {
 	attribute = martial
 	military_unit_category = light_warship
 	required_technology = privateering_companies
+	starting_age_category = self_taught
 }
