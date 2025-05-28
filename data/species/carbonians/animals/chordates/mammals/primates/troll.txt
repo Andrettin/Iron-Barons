@@ -1,0 +1,6 @@
+troll = {
+	name = "Troll"
+	supertaxon = primates
+	era = holocene
+	sapient = true
+}

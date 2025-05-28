@@ -1,0 +1,6 @@
+lizardfolk = {
+	name = "Lizardfolk"
+	supertaxon = reptilia
+	era = holocene
+	sapient = true
+}

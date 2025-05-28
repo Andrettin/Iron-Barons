@@ -1,0 +1,9 @@
+gnoll = {
+	name = "Gnoll"
+	supertaxon = hyaenidae
+	era = holocene
+	sapient = true
+	pre_evolutions = {
+		protictitherium #common ancestor with hyenas
+	}
+}
