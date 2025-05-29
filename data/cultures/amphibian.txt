@@ -1,4 +1,10 @@
 amphibian = {
 	name = "Amphibian"
 	default_phenotype = amphibian
+	species = {
+		hylerpeton
+		ichthyostega
+		tulerpeton
+		ventastega
+	}
 }

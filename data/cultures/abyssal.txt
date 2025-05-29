@@ -1,5 +1,6 @@
 abyssal = {
 	name = "Abyssal"
+	default_phenotype = titan
 	species = {
 		titan
 	}

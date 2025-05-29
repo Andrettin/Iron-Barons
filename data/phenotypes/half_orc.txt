@@ -1,0 +1,4 @@
+half_orc = {
+	name = "Half-Orc"
+	species = half_orc
+}

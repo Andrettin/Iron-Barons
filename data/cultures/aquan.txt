@@ -1,5 +1,6 @@
 aquan = {
 	name = "Aquan"
+	default_phenotype = triton
 	species = {
 		triton
 	}

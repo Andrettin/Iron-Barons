@@ -1,0 +1,4 @@
+triton = {
+	name = "Triton"
+	species = triton
+}

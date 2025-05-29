@@ -1,0 +1,4 @@
+air_elemental = {
+	name = "Air Elemental"
+	species = air_elemental
+}

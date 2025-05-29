@@ -1,4 +1,7 @@
 ogre = {
 	name = "Ogre"
 	default_phenotype = ogre
+	species = {
+		ogre
+	}
 }

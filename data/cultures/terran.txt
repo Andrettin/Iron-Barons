@@ -1,5 +1,6 @@
 terran_elemental = {
 	name = "Terran"
+	default_phenotype = earth_elemental
 	species = {
 		earth_elemental
 	}

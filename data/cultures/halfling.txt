@@ -1,5 +1,6 @@
 halfling = {
 	name = "Halfling"
+	default_phenotype = halfling
 	species = {
 		halfling
 	}
