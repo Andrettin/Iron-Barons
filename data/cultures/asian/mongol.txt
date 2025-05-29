@@ -3,4 +3,7 @@ mongol = {
 	group = asian
 	default_phenotype = east_asian
 	color = { 230 230 44 }
+	species = {
+		human
+	}
 }

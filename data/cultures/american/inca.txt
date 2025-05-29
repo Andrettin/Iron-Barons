@@ -2,4 +2,7 @@ inca = {
 	name = "Inca"
 	group = andean
 	color = { 178 141 85 }
+	species = {
+		human
+	}
 }

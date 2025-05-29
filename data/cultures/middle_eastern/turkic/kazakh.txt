@@ -2,4 +2,7 @@ kazakh = {
 	name = "Kazakh"
 	group = turkic
 	color = { 83 102 46 }
+	species = {
+		human
+	}
 }

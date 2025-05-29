@@ -2,6 +2,9 @@ suioni = {
 	name = "Suioni"
 	group = scandinavian
 	color = { 150 108 150 }
+	species = {
+		human
+	}
 	derived_cultures = {
 		norse
 	}

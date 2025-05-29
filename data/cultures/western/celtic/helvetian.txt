@@ -2,4 +2,7 @@ helvetian = {
 	name = "Helvetian"
 	group = gallic
 	color = { 145 90 155 }
+	species = {
+		human
+	}
 }

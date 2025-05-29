@@ -2,4 +2,7 @@ nuba = {
 	name = "Nuba"
 	group = east_african
 	color = { 48 213 48 }
+	species = {
+		human
+	}
 }

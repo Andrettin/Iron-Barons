@@ -1,6 +1,9 @@
 sumerian = {
 	name = "Sumerian"
 	group = mesopotamian
+	species = {
+		human
+	}
 	
 	history = {
 		-3500 = {

@@ -2,6 +2,9 @@ anglo_saxon = {
 	name = "Anglo-Saxon"
 	group = anglo_saxon
 	color = { 204 76 76 }
+	species = {
+		human
+	}
 	derived_cultures = {
 		english
 		scottish

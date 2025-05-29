@@ -2,6 +2,9 @@ norse = {
 	name = "Norse"
 	group = scandinavian
 	color = { 76 140 204 }
+	species = {
+		human
+	}
 	derived_cultures = {
 		danish
 		icelandic

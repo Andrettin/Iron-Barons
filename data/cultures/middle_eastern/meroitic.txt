@@ -2,4 +2,7 @@ meroitic = {
 	name = "Meroitic"
 	group = nubian
 	color = { 153 146 91 }
+	species = {
+		human
+	}
 }

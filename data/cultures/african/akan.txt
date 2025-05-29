@@ -2,4 +2,7 @@ akan = {
 	name = "Akan"
 	group = west_african
 	color = { 88 68 147 }
+	species = {
+		human
+	}
 }

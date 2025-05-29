@@ -2,4 +2,7 @@ turkmen = {
 	name = "Turkmen"
 	group = turkic
 	color = { 192 150 190 }
+	species = {
+		human
+	}
 }

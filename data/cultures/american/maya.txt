@@ -2,4 +2,7 @@ maya = {
 	name = "Maya"
 	group = mesoamerican
 	color = { 98 88 142 }
+	species = {
+		human
+	}
 }

@@ -2,4 +2,7 @@ ukrainian = {
 	name = "Ukrainian"
 	group = east_slavic
 	color = { 160 160 60 }
+	species = {
+		human
+	}
 }

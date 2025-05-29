@@ -2,4 +2,7 @@ azerbaijani = {
 	name = "Azerbaijani"
 	group = turkic
 	color = { 47 44 107 }
+	species = {
+		human
+	}
 }

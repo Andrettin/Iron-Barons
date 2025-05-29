@@ -2,4 +2,7 @@ magyar = {
 	name = "Magyar"
 	group = western
 	color = { 180 255 120 }
+	species = {
+		human
+	}
 }

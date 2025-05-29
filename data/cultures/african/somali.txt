@@ -2,4 +2,7 @@ somali = {
 	name = "Somali"
 	group = east_african
 	color = { 226 22 48 }
+	species = {
+		human
+	}
 }

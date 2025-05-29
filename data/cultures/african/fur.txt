@@ -2,4 +2,7 @@ fur = {
 	name = "Fur"
 	group = east_african
 	color = { 84 75 91 }
+	species = {
+		human
+	}
 }

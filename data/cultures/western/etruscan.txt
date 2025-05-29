@@ -2,6 +2,9 @@ etruscan = {
 	name = "Etruscan"
 	group = western
 	color = { 48 30 180 }
+	species = {
+		human
+	}
 	
 	personal_names = {
 		male = {

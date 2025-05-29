@@ -2,4 +2,7 @@ filipino = {
 	name = "Filipino"
 	group = malay
 	color = { 200 220 30 }
+	species = {
+		human
+	}
 }

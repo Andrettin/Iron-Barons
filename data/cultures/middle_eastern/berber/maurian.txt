@@ -2,4 +2,7 @@ maurian = {
 	name = "Maurian"
 	group = berber
 	color = { 180 209 205 }
+	species = {
+		human
+	}
 }

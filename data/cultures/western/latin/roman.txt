@@ -2,6 +2,9 @@ roman = {
 	name = "Roman"
 	group = latin
 	color = { 204 51 51 }
+	species = {
+		human
+	}
 	derived_cultures = {
 		aragonese
 		catalan
