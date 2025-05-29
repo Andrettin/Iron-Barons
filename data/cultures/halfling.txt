@@ -2,7 +2,5 @@ halfling = {
 	name = "Halfling"
 	species = {
 		halfling
-		lightfoot_halfling
-		tallfellow
 	}
 }
