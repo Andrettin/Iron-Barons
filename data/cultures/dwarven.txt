@@ -1,6 +1,9 @@
 dwarven = {
 	name = "Dwarven"
 	default_phenotype = dwarven
+	species = {
+		dwarf
+	}
 	
 	personal_names = {
 		male = {

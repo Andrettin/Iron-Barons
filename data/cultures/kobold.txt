@@ -1,6 +1,9 @@
 kobold = {
 	name = "Kobold"
 	default_phenotype = kobold
+	species = {
+		kobold
+	}
 	
 	personal_names = {
 		male = {

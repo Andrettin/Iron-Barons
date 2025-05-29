@@ -1,6 +1,9 @@
 gnomish = {
 	name = "Gnomish"
 	default_phenotype = gnomish
+	species = {
+		gnome
+	}
 	
 	personal_names = {
 		male = {

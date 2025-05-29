@@ -1,4 +1,7 @@
 lizardfolk = {
 	name = "Lizardfolk"
 	default_phenotype = lizardfolk
+	species = {
+		lizardfolk
+	}
 }
