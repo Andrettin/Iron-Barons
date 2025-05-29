@@ -2,4 +2,7 @@ goblin = {
 	name = "Goblin"
 	default_phenotype = goblin
 	group = goblinoid
+	species = {
+		goblin
+	}
 }

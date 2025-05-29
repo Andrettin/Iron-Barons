@@ -2,6 +2,9 @@ dutch = {
 	name = "Dutch"
 	group = west_germanic
 	color = { 255 90 8 }
+	species = {
+		human
+	}
 	derivation_conditions = {
 		technology = feudalism
 		province = {

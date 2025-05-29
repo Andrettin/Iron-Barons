@@ -2,6 +2,9 @@ french = {
 	name = "French"
 	group = french
 	color = { 87 139 166 }
+	species = {
+		human
+	}
 	derivation_conditions = {
 		technology = feudalism
 		province = {

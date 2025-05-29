@@ -3,6 +3,9 @@ chinese = {
 	group = asian
 	default_phenotype = east_asian
 	color = { 145 30 30 }
+	species = {
+		human
+	}
 	ruler_title_names = {
 		communism = {
 			male = "Chairman"

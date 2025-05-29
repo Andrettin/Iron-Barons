@@ -2,6 +2,9 @@ italian = {
 	name = "Italian"
 	group = italian
 	color = { 142 167 80 }
+	species = {
+		human
+	}
 	derivation_conditions = {
 		technology = feudalism
 		province = {

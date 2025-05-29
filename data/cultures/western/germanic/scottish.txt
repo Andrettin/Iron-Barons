@@ -2,6 +2,9 @@ scottish = {
 	name = "Scottish"
 	group = anglo_saxon
 	color = { 72 79 127 }
+	species = {
+		human
+	}
 	derivation_conditions = {
 		technology = feudalism
 		province = {

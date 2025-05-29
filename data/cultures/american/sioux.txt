@@ -2,6 +2,9 @@ sioux = {
 	name = "Sioux"
 	group = siouan
 	color = { 66 78 134 }
+	species = {
+		human
+	}
 	ruler_title_names = {
 		tribe = {
 			empire = "Great Chief"

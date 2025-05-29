@@ -2,6 +2,9 @@ norwegian = {
 	name = "Norwegian"
 	group = scandinavian
 	color = { 140 20 140 }
+	species = {
+		human
+	}
 	derivation_conditions = {
 		technology = feudalism
 		province = {

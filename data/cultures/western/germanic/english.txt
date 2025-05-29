@@ -2,6 +2,9 @@ english = {
 	name = "English"
 	group = anglo_saxon
 	color = { 206 8 8 }
+	species = {
+		human
+	}
 	derivation_conditions = {
 		technology = feudalism
 		not = {

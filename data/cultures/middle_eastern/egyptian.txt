@@ -2,6 +2,9 @@ egyptian = {
 	name = "Egyptian"
 	group = middle_eastern
 	color = { 178 160 0 }
+	species = {
+		human
+	}
 	ruler_title_names = {
 		monarchy = {
 			kingdom = "Pharaoh"

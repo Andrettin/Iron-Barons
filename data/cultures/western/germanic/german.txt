@@ -2,6 +2,9 @@ german = {
 	name = "German"
 	group = german
 	color = { 245 167 97 }
+	species = {
+		human
+	}
 	derivation_conditions = {
 		technology = feudalism
 		province = {

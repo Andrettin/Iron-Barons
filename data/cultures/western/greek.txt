@@ -2,6 +2,9 @@ greek = {
 	name = "Greek"
 	group = hellenic
 	color = { 122 180 210 }
+	species = {
+		human
+	}
 	ruler_title_names = {
 		democratic_republic = "Prime Minister"
 	}

@@ -4,6 +4,9 @@ japanese = {
 	default_phenotype = east_asian
 	color = { 230 230 230 }
 	surname_first = true
+	species = {
+		human
+	}
 	ruler_title_names = {
 		democratic_republic = "Prime Minister"
 	}
