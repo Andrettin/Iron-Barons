@@ -4,5 +4,6 @@ lombard = {
 	color = { 153 153 204 }
 	species = {
 		human
+		half_elf
 	}
 }
