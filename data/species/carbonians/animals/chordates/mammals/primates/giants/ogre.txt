@@ -1,6 +1,6 @@
 ogre = {
 	name = "Ogre"
-	supertaxon = primates
+	supertaxon = giant
 	era = holocene
 	sapient = true
 	#ogres, ettins and cyclopses should have a common ancestor

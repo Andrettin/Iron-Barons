@@ -1,0 +1,7 @@
+fey = {
+	name = "Fey"
+	default_phenotype = nymph
+	species = {
+		nymph
+	}
+}

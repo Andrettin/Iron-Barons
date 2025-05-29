@@ -1,0 +1,4 @@
+centaur = {
+	name = "Centaur"
+	species = centaur
+}

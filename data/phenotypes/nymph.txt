@@ -1,0 +1,4 @@
+nymph = {
+	name = "Nymph"
+	species = nymph
+}

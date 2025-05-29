@@ -1,6 +1,6 @@
 troll = {
 	name = "Troll"
-	supertaxon = primates
+	supertaxon = giant
 	era = holocene
 	sapient = true
 }
