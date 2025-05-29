@@ -4,6 +4,7 @@ suebi = {
 	color = { 178 178 178 }
 	species = {
 		human
+		half_elf
 	}
 	derived_cultures = {
 		alsatian

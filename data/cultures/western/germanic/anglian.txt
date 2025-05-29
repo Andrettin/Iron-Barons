@@ -4,6 +4,8 @@ anglian = {
 	color = { 140 37 40 }
 	species = {
 		human
+		half_elf
+		half_orc
 	}
 	derived_cultures = {
 		anglo_saxon

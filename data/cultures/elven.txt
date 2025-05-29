@@ -3,6 +3,7 @@ elven = {
 	default_phenotype = elven
 	species = {
 		elf
+		half_elf
 	}
 	
 	personal_names = {

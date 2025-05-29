@@ -4,6 +4,7 @@ gothic = {
 	color = { 204 102 204 }
 	species = {
 		human
+		half_elf
 	}
 	
 	personal_names = {

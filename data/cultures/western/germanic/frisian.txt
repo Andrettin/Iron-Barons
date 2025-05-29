@@ -4,6 +4,7 @@ frisian = {
 	color = { 178 76 0 }
 	species = {
 		human
+		half_elf
 	}
 	derived_cultures = {
 		dutch

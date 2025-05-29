@@ -4,5 +4,6 @@ vandal = {
 	color = { 21 190 219 }
 	species = {
 		human
+		half_elf
 	}
 }

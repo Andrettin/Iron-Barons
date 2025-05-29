@@ -4,6 +4,8 @@ anglo_saxon = {
 	color = { 204 76 76 }
 	species = {
 		human
+		half_elf
+		half_orc
 	}
 	derived_cultures = {
 		english

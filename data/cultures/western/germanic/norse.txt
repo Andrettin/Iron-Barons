@@ -4,6 +4,7 @@ norse = {
 	color = { 76 140 204 }
 	species = {
 		human
+		half_elf
 	}
 	derived_cultures = {
 		danish

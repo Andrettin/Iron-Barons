@@ -3,5 +3,6 @@ orcish = {
 	default_phenotype = orc
 	species = {
 		orc
+		half_orc
 	}
 }
