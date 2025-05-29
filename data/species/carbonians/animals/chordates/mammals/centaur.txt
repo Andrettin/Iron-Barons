@@ -1,0 +1,6 @@
+centaur = {
+	name = "Centaur"
+	supertaxon = mammalia
+	era = holocene
+	sapient = true
+}
