@@ -25,6 +25,15 @@ brazil = {
 			population = 4507000 #Brazil had a population of 4,507,000 in 1820 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
 		
+		1872 = {
+			phenotype_weights = { #based on the Brazilian 1872 census data
+				afro_european = 38.3 #38.3% "pardo" ("brown", this census category also included Amerindo-Europeans)
+				european = 38.1 #38.1% "branco" ("white")
+				african = 19.7 #19.7% "preto" ("black")
+				amerindian = 3.9 #3.9% "caboclo" ("indigenous")
+			}
+		}
+		
 		1910 = {
 			population = 22216000 #Brazil had a population of 22,216,000 in 1910 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
