@@ -51,7 +51,6 @@ benjamin_franklin = {
 	}
 	icon = bell
 	hidden_name = true
-	attribute = diplomacy
 	conditions = {
 		character = benjamin_franklin
 	}
@@ -68,7 +67,6 @@ charles_darwin = {
 	}
 	icon = research
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character = charles_darwin
 	}
@@ -128,7 +126,6 @@ cyrus_mccormick = {
 	}
 	icon = grain
 	hidden_name = true
-	attribute = stewardship
 	conditions = {
 		character = cyrus_mccormick
 	}
@@ -165,7 +162,6 @@ ferdinand_magellan = {
 	}
 	icon = anchor
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		or = {
 			character = ferdinand_magellan
@@ -184,7 +180,6 @@ francisco_de_coronado = {
 	}
 	icon = crossed_sabers
 	hidden_name = true
-	attribute = martial
 	conditions = {
 		character = francisco_de_coronado
 	}
@@ -204,7 +199,6 @@ giovanni_da_verrazano = {
 	}
 	icon = anchor
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character = giovanni_da_verrazano
 	}
@@ -272,7 +266,6 @@ henry_hudson = {
 	}
 	icon = furs
 	hidden_name = true
-	attribute = stewardship
 	conditions = {
 		character = henry_hudson
 	}
@@ -288,7 +281,6 @@ isaac_newton = {
 	}
 	icon = research
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character = isaac_newton
 	}
@@ -304,7 +296,6 @@ jacques_marquette = {
 	}
 	icon = crossed_sabers
 	hidden_name = true
-	attribute = martial
 	conditions = {
 		character = jacques_marquette
 	}
@@ -324,7 +315,6 @@ johann_sebastian_bach = {
 	}
 	icon = music
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character = johann_sebastian_bach
 	}
@@ -340,7 +330,6 @@ john_harvard = {
 	}
 	icon = wooden_cross
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character = john_harvard
 	}
@@ -356,7 +345,6 @@ john_jacob_astor = {
 	}
 	icon = furs
 	hidden_name = true
-	attribute = stewardship
 	conditions = {
 		character = john_jacob_astor
 	}
@@ -372,7 +360,6 @@ john_paul_jones = {
 	}
 	icon = anchor
 	hidden_name = true
-	attribute = martial
 	conditions = {
 		character = john_paul_jones
 	}
@@ -388,7 +375,6 @@ john_winthrop = {
 	}
 	icon = wooden_cross
 	hidden_name = true
-	attribute = diplomacy
 	conditions = {
 		character = john_winthrop
 	}
@@ -407,7 +393,6 @@ juan_de_bermudez = {
 	}
 	icon = anchor
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character = juan_de_bermudez
 	}
@@ -423,7 +408,6 @@ leonardo_da_vinci = {
 	}
 	icon = cog
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character_type = engineer
 	}
@@ -439,7 +423,6 @@ marco_polo = {
 	}
 	icon = wealth
 	hidden_name = true
-	attribute = stewardship
 	conditions = {
 		character = marco_polo
 	}
@@ -544,7 +527,6 @@ nicolaus_copernicus = {
 	}
 	icon = research
 	hidden_name = true
-	attribute = learning
 	conditions = {
 		character = nicolaus_copernicus
 	}
@@ -560,7 +542,6 @@ patrick_henry = {
 	}
 	icon = bell
 	hidden_name = true
-	attribute = diplomacy
 	conditions = {
 		character = patrick_henry
 	}
@@ -624,7 +605,6 @@ sieur_de_la_salle = {
 	}
 	icon = crossed_sabers
 	hidden_name = true
-	attribute = martial
 	conditions = {
 		character = sieur_de_la_salle
 	}
@@ -658,7 +638,6 @@ sun_tzu = {
 	}
 	icon = crossed_sabers
 	hidden_name = true
-	attribute = martial
 	conditions = {
 		character = sun_tzu
 	}
@@ -730,7 +709,6 @@ washington_irving = {
 	}
 	icon = bell
 	hidden_name = true
-	attribute = diplomacy
 	conditions = {
 		character = washington_irving
 	}
