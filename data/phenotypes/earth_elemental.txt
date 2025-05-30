@@ -1,4 +1,0 @@
-earth_elemental = {
-	name = "Earth Elemental"
-	species = earth_elemental
-}

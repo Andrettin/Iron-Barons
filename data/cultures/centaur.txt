@@ -1,6 +1,5 @@
 centaur = {
 	name = "Centaur"
-	default_phenotype = centaur
 	species = {
 		centaur
 	}

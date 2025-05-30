@@ -1,6 +1,5 @@
 orcish = {
 	name = "Orcish"
-	default_phenotype = orc
 	species = {
 		orc
 		half_orc

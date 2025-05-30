@@ -1,6 +1,5 @@
 dwarven = {
 	name = "Dwarven"
-	default_phenotype = dwarven
 	species = {
 		dwarf
 	}

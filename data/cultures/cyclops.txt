@@ -1,6 +1,5 @@
 cyclops = {
 	name = "Cyclops"
-	default_phenotype = cyclops
 	species = {
 		cyclops
 	}

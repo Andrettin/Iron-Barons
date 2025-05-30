@@ -1,6 +1,5 @@
 auran = {
 	name = "Auran"
-	default_phenotype = air_elemental
 	species = {
 		air_elemental
 	}

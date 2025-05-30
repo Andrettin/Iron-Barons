@@ -1,4 +1,0 @@
-elven = {
-	name = "Elven"
-	species = elf
-}

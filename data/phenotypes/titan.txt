@@ -1,4 +1,0 @@
-titan = {
-	name = "Titan"
-	species = titan
-}

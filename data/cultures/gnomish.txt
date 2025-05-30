@@ -1,6 +1,5 @@
 gnomish = {
 	name = "Gnomish"
-	default_phenotype = gnomish
 	species = {
 		gnome
 	}

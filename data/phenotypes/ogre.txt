@@ -1,4 +1,0 @@
-ogre = {
-	name = "Ogre"
-	species = ogre
-}

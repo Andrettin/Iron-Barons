@@ -1,4 +1,0 @@
-halfling = {
-	name = "Halfling"
-	species = halfling
-}

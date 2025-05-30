@@ -1,4 +1,0 @@
-gnomish = {
-	name = "Gnomish"
-	species = gnome
-}

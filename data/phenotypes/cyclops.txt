@@ -1,4 +1,0 @@
-cyclops = {
-	name = "Cyclops"
-	species = cyclops
-}

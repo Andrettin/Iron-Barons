@@ -1,4 +1,0 @@
-half_elven = {
-	name = "Half-Elven"
-	species = half_elf
-}
