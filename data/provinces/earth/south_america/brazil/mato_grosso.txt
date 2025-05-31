@@ -21,7 +21,7 @@ mato_grosso = {
 		
 		1790 = {
 			owner = brazil #part of Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
-			culture = portuguese
+			culture = brazilian
 			religion = catholic
 		}
 	}

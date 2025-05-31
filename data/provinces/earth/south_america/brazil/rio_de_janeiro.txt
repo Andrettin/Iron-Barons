@@ -37,7 +37,7 @@ rio_de_janeiro = {
 		
 		1567 = {
 			owner = brazil #Rio de Janeiro founded by the Portuguese in 1567; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
-			culture = portuguese
+			culture = brazilian
 		}
 		
 		1790 = {

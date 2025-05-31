@@ -1,7 +1,7 @@
 brazil = {
 	name = "Brazil"
 	type = minor_nation
-	culture = portuguese
+	culture = brazilian
 	default_religion = catholic
 	default_tier = empire
 	min_tier = kingdom

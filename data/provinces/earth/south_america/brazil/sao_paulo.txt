@@ -31,7 +31,7 @@ sao_paulo = {
 		
 		1567 = {
 			owner = brazil #Portuguese possession in the 1340-1600 period; Rio de Janeiro founded by the Portuguese in 1567; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
-			culture = portuguese
+			culture = brazilian
 			religion = catholic
 		}
 		

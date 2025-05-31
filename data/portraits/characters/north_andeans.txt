@@ -4,7 +4,7 @@ simon_bolivar = {
 		gender = male
 		or = {
 			culture = castillian #Colombian/Venezuelan
-			culture = portuguese
+			culture = brazilian
 		}
 		is_ruler = true
 		birth_year >= 1750
