@@ -32,7 +32,7 @@ virginia = {
 		
 		1585 = {
 			owner = virginia #became part of Raleigh's Colony of Virginia in 1585; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
-			culture = english
+			culture = american
 			religion = protestant
 		}
 		
@@ -44,7 +44,7 @@ virginia = {
 		
 		1607 = {
 			owner = virginia #Jamestown founded in 1607; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
-			culture = english
+			culture = american
 			religion = protestant
 		}
 		

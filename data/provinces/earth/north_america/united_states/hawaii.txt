@@ -13,7 +13,7 @@ hawaii = {
 		
 		1898 = {
 			owner = united_states #became part of the United States in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
-			culture = english
+			culture = american
 			religion = protestant
 		}
 	}

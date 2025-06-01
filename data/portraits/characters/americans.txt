@@ -2,7 +2,7 @@ george_washington = {
 	filepath = "portraits/characters/george_washington.png"
 	character_conditions = {
 		gender = male
-		culture = english #American
+		culture = american
 		is_ruler = true
 		birth_year >= 1700
 	}

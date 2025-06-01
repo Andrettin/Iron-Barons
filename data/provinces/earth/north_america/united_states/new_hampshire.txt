@@ -29,7 +29,7 @@ new_hampshire = {
 		
 		1600 = {
 			owner = new_england #part of New England in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
-			culture = english
+			culture = american
 			religion = protestant
 		}
 		

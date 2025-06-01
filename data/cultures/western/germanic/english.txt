@@ -5,6 +5,9 @@ english = {
 	species = {
 		human
 	}
+	derived_cultures = {
+		american
+	}
 	derivation_conditions = {
 		technology = feudalism
 		not = {

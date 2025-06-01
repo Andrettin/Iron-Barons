@@ -29,7 +29,7 @@ north_carolina = {
 		
 		1607 = {
 			owner = virginia #became part of Virginia in 1607; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
-			culture = english
+			culture = american
 			religion = protestant
 		}
 		
