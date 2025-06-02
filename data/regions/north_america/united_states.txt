@@ -42,3 +42,19 @@ united_states = {
 		}
 	}
 }
+
+thirteen_colonies = {
+	name = "Thirteen Colonies"
+	superregions = {
+		north_america
+	}
+	
+	history = {
+		1776 = {
+			culture_weights = {
+				american = 67
+				english = 33 #less than 1/3 of the population of the United States was English in 1776; Source: Thomas Paine, "Common Sense", p. 64.
+			}
+		}
+	}
+}

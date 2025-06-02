@@ -6,6 +6,7 @@ new_york = {
 		grain = 1
 	}
 	regions = {
+		thirteen_colonies
 		united_states
 	}
 	
@@ -47,6 +48,10 @@ new_york = {
 		1674 = {
 			owner = new_england #became an English possession in 1674; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = american
+		}
+		
+		1776 = {
+			culture = none #handled by region
 		}
 		
 		1783 = {

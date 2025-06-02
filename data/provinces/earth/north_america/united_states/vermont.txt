@@ -3,6 +3,7 @@ vermont = {
 	color = { 176 192 64 }
 	provincial_capital = burlington
 	regions = {
+		thirteen_colonies
 		united_states
 	}
 	
@@ -33,9 +34,12 @@ vermont = {
 			religion = catholic
 		}
 		
+		1776 = {
+			culture = none #handled by region
+		}
+		
 		1783 = {
 			owner = united_states #became part of the United States in 1783; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 198-199.
-			culture = american
 			religion = protestant
 		}
 		

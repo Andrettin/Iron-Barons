@@ -3,6 +3,7 @@ pennsylvania = {
 	color = { 176 0 0 }
 	provincial_capital = philadelphia
 	regions = {
+		thirteen_colonies
 		united_states
 	}
 	

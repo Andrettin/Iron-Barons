@@ -3,6 +3,7 @@ south_carolina = {
 	color = { 0 112 192 }
 	provincial_capital = columbia
 	regions = {
+		thirteen_colonies
 		united_states
 	}
 	
@@ -31,6 +32,10 @@ south_carolina = {
 			owner = virginia #became part of Virginia in 1607; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = american
 			religion = protestant
+		}
+		
+		1776 = {
+			culture = none #handled by region
 		}
 		
 		1783 = {

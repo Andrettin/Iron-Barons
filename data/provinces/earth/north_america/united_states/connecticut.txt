@@ -3,6 +3,7 @@ connecticut = {
 	color = { 48 64 192 }
 	provincial_capital = hartford
 	regions = {
+		thirteen_colonies
 		united_states
 	}
 	
@@ -31,6 +32,10 @@ connecticut = {
 			owner = new_england #part of New England in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = american
 			religion = protestant
+		}
+		
+		1776 = {
+			culture = none #handled by region
 		}
 		
 		1783 = {

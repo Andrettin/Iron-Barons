@@ -3,6 +3,7 @@ new_hampshire = {
 	color = { 48 192 64 }
 	provincial_capital = concord
 	regions = {
+		thirteen_colonies
 		united_states
 	}
 	
@@ -31,6 +32,10 @@ new_hampshire = {
 			owner = new_england #part of New England in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			culture = american
 			religion = protestant
+		}
+		
+		1776 = {
+			culture = none #handled by region
 		}
 		
 		1783 = {
