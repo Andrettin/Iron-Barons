@@ -4,7 +4,7 @@ state_press = {
 	icon = newspaper
 	required_technology = printing_press
 	commodity_costs = {
-		statesmanship = 10
+		statesmanship = 50
 	}
 	modifier = {
 	}
@@ -16,7 +16,7 @@ censored_press = {
 	icon = newspaper
 	required_technology = printing_press
 	commodity_costs = {
-		statesmanship = 10
+		statesmanship = 50
 	}
 	modifier = {
 		statesmanship_per_printing_press = 1
@@ -30,7 +30,7 @@ free_press = {
 	icon = newspaper
 	required_technology = printing_press
 	commodity_costs = {
-		statesmanship = 10
+		statesmanship = 50
 	}
 	modifier = {
 		statesmanship_per_printing_press = 2
