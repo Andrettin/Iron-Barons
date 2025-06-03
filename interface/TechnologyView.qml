@@ -12,16 +12,6 @@ Item {
 		TechTree
 	}
 	
-	enum Category {
-		None,
-		Gathering,
-		Industry,
-		Army,
-		Navy,
-		Finance,
-		Culture
-	}
-	
 	readonly property var country: metternich.game.player_country
 	readonly property var country_game_data: country ? country.game_data : null
 	property string status_text: ""
@@ -198,14 +188,14 @@ Item {
 	}
 	
 	function get_category_technologies(technologies, category) {
-		if (category === TechnologyView.Category.None) {
+		if (category === null) {
 			return technologies
 		}
 		
 		var category_technologies = []
 		
 		for (var technology of technologies) {
-			if (technology.category_index === category) {
+			if (technology.category === category) {
 				category_technologies.push(technology)
 			}
 		}
