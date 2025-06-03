@@ -438,7 +438,7 @@ Rectangle {
 		
 		onHoveredChanged: {
 			if (hovered && holder !== null) {
-				status_text = (holder.game_data.governor ? holder.governable_province.game_data.governor_title_name : holder.holdable_site.game_data.landholder_title_name) + " " + holder.full_name
+				status_text = holder.game_data.titled_name
 			} else {
 				status_text = ""
 			}

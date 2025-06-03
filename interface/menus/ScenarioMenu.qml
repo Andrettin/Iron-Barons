@@ -227,7 +227,7 @@ MenuBase {
 		anchors.rightMargin: 32 * scale_factor
 		portrait_identifier: portrait ? portrait.identifier : ""
 		visible: ruler !== null
-		tooltip: ruler && selected_country ? (selected_country.game_data.ruler_title_name + " " + ruler.full_name) : ""
+		tooltip: ruler && selected_country ? ruler.game_data.titled_name : ""
 		circle: true
 		
 		property var ruler: null
