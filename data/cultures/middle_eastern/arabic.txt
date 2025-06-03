@@ -5,11 +5,13 @@ arabic = {
 	species = {
 		human
 	}
-	ruler_title_names = {
-		monarchy = {
-			kingdom = {
-				male = "Sultan"
-				female = "Sultana"
+	office_title_names = {
+		ruler = {
+			monarchy = {
+				kingdom = {
+					male = "Sultan"
+					female = "Sultana"
+				}
 			}
 		}
 	}

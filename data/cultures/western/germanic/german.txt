@@ -17,8 +17,10 @@ german = {
 			}
 		}
 	}
-	ruler_title_names = {
-		democratic_republic = "Chancellor"
+	office_title_names = {
+		ruler = {
+			democratic_republic = "Chancellor"
+		}
 	}
 	
 	personal_names = {

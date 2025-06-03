@@ -8,14 +8,16 @@ christian = {
 			kingdom = "Patriarchate"
 		}
 	}
-	ruler_title_names = {
-		theocracy = {
-			barony = "Priest"
-			county = "Bishop"
-			duchy = "Archbishop"
-			kingdom = {
-				male = "Patriarch"
-				female = "Matriarch"
+	office_title_names = {
+		ruler = {
+			theocracy = {
+				barony = "Priest"
+				county = "Bishop"
+				duchy = "Archbishop"
+				kingdom = {
+					male = "Patriarch"
+					female = "Matriarch"
+				}
 			}
 		}
 	}

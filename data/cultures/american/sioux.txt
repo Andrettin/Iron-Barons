@@ -5,9 +5,11 @@ sioux = {
 	species = {
 		human
 	}
-	ruler_title_names = {
-		tribe = {
-			empire = "Great Chief"
+	office_title_names = {
+		ruler = {
+			tribe = {
+				empire = "Great Chief"
+			}
 		}
 	}
 }

@@ -11,9 +11,11 @@ crown_colony = {
 		kingdom = "Viceroyalty"
 		empire = "Grand Viceroyalty"
 	}
-	ruler_title_names = {
-		duchy = "Captain General"
-		kingdom = "Viceroy"
-		empire = "Grand Viceroy"
+	office_title_names = {
+		ruler = {
+			duchy = "Captain General"
+			kingdom = "Viceroy"
+			empire = "Grand Viceroy"
+		}
 	}
 }

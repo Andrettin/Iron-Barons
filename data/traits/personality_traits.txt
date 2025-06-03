@@ -28,8 +28,10 @@ assertive = {
 		diplomacy = 1
 		stewardship = 1
 	}
-	ruler_modifier = {
-		trade_output_modifier = 5
+	office_modifiers = {
+		ruler = {
+			trade_output_modifier = 5
+		}
 	}
 	governor_modifier = {
 		trade_output_modifier = 5
@@ -43,8 +45,10 @@ careful = {
 		ruler
 	}
 	icon = heater_shield
-	ruler_modifier = {
-		diplomatic_penalty_for_expansion_modifier = -10
+	office_modifiers = {
+		ruler = {
+			diplomatic_penalty_for_expansion_modifier = -10
+		}
 	}
 }
 
@@ -138,8 +142,10 @@ devout = {
 	attribute_bonuses = {
 		learning = 1
 	}
-	ruler_modifier = {
-		piety_output_modifier = 5
+	office_modifiers = {
+		ruler = {
+			piety_output_modifier = 5
+		}
 	}
 }
 
@@ -170,8 +176,10 @@ disciplined = {
 	attribute_bonuses = {
 		martial = 1
 	}
-	scaled_ruler_modifier = {
-		infantry_cost_modifier = -5
+	scaled_office_modifiers = {
+		ruler = {
+			infantry_cost_modifier = -5
+		}
 	}
 }
 
@@ -231,8 +239,10 @@ imperialistic = {
 	attribute_bonuses = {
 		martial = 1
 	}
-	scaled_ruler_modifier = {
-		leadership_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			leadership_output_modifier = 5
+		}
 	}
 }
 
@@ -275,8 +285,10 @@ lapsed = {
 	attribute_bonuses = {
 		learning = -1
 	}
-	ruler_modifier = {
-		piety_output_modifier = -10
+	office_modifiers = {
+		ruler = {
+			piety_output_modifier = -10
+		}
 	}
 }
 
@@ -292,8 +304,10 @@ libertarian = {
 	attribute_bonuses = {
 		diplomacy = 1
 	}
-	scaled_ruler_modifier = {
-		statesmanship_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			statesmanship_output_modifier = 5
+		}
 	}
 }
 
@@ -308,8 +322,10 @@ narrow_minded = {
 		martial = 1
 		learning = -1
 	}
-	ruler_modifier = {
-		research_output_modifier = -10
+	office_modifiers = {
+		ruler = {
+			research_output_modifier = -10
+		}
 	}
 }
 
@@ -346,8 +362,10 @@ reckless = {
 	attribute_bonuses = {
 		martial = 1
 	}
-	ruler_modifier = {
-		diplomatic_penalty_for_expansion_modifier = 10
+	office_modifiers = {
+		ruler = {
+			diplomatic_penalty_for_expansion_modifier = 10
+		}
 	}
 }
 
@@ -363,8 +381,10 @@ scholar = {
 		martial = -1
 		learning = 3
 	}
-	ruler_modifier = {
-		research_output_modifier = 5
+	office_modifiers = {
+		ruler = {
+			research_output_modifier = 5
+		}
 	}
 	governor_modifier = {
 		research_output_modifier = 10
@@ -392,8 +412,10 @@ skeptical = {
 	attribute_bonuses = {
 		intrigue = 1
 	}
-	ruler_modifier = {
-		piety_output_modifier = -5
+	office_modifiers = {
+		ruler = {
+			piety_output_modifier = -5
+		}
 	}
 }
 
@@ -408,11 +430,13 @@ strict = {
 		diplomacy = -1
 		martial = 1
 	}
-	ruler_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = land
-			stat = discipline
-			value = 5
+	office_modifiers = {
+		ruler = {
+			military_unit_domain_stat_modifier = {
+				domain = land
+				stat = discipline
+				value = 5
+			}
 		}
 	}
 }
@@ -445,8 +469,10 @@ submissive = {
 	attribute_bonuses = {
 		diplomacy = -1
 	}
-	ruler_modifier = {
-		trade_output_modifier = -5
+	office_modifiers = {
+		ruler = {
+			trade_output_modifier = -5
+		}
 	}
 	governor_modifier = {
 		trade_output_modifier = -5

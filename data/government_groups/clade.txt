@@ -8,14 +8,16 @@ clade = {
 		kingdom = "Phylum"
 		empire = "Kingdom"
 	}
-	ruler_title_names = {
-		barony = "Chief"
-		county = "Chief"
-		duchy = "Chief"
-		kingdom = "Chief"
-		empire = {
-			male = "Rex"
-			female = "Regina"
+	office_title_names = {
+		ruler = {
+			barony = "Chief"
+			county = "Chief"
+			duchy = "Chief"
+			kingdom = "Chief"
+			empire = {
+				male = "Rex"
+				female = "Regina"
+			}
 		}
 	}
 }

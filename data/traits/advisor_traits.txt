@@ -9,11 +9,13 @@ army_organizer = {
 	conditions = {
 		character_type = general
 	}
-	scaled_ruler_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = land
-			stat = morale_recovery_modifier
-			value = 1
+	scaled_office_modifiers = {
+		ruler = {
+			military_unit_domain_stat_modifier = {
+				domain = land
+				stat = morale_recovery_modifier
+				value = 1
+			}
 		}
 	}
 	scaled_advisor_modifier = {
@@ -36,8 +38,10 @@ army_reformer = {
 	conditions = {
 		character_type = general
 	}
-	scaled_ruler_modifier = {
-		army_research_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			army_research_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		army_research_modifier = 5
@@ -85,11 +89,13 @@ commandant = { #person responsible for drilling troops
 	conditions = {
 		character_type = general
 	}
-	scaled_ruler_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = land
-			stat = damage_bonus
-			value = 1
+	scaled_office_modifiers = {
+		ruler = {
+			military_unit_domain_stat_modifier = {
+				domain = land
+				stat = damage_bonus
+				value = 1
+			}
 		}
 	}
 	scaled_advisor_modifier = {
@@ -111,8 +117,10 @@ cotton_planter = {
 	conditions = {
 		character_type = farmer
 	}
-	scaled_ruler_modifier = {
-		cotton_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			cotton_output_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		cotton_output_modifier = 5
@@ -147,8 +155,10 @@ diplomat = {
 	conditions = {
 		character_type = diplomat
 	}
-	scaled_ruler_modifier = {
-		diplomatic_penalty_for_expansion_modifier = -1
+	scaled_office_modifiers = {
+		ruler = {
+			diplomatic_penalty_for_expansion_modifier = -1
+		}
 	}
 	scaled_advisor_modifier = {
 		diplomatic_penalty_for_expansion_modifier = -1
@@ -217,11 +227,13 @@ grand_admiral = {
 	conditions = {
 		character_type = admiral
 	}
-	scaled_ruler_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = water
-			stat = discipline
-			value = 2.5
+	scaled_office_modifiers = {
+		ruler = {
+			military_unit_domain_stat_modifier = {
+				domain = water
+				stat = discipline
+				value = 2.5
+			}
 		}
 	}
 	scaled_advisor_modifier = {
@@ -243,11 +255,13 @@ grand_captain = {
 	conditions = {
 		character_type = general
 	}
-	scaled_ruler_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = land
-			stat = discipline
-			value = 2.5
+	scaled_office_modifiers = {
+		ruler = {
+			military_unit_domain_stat_modifier = {
+				domain = land
+				stat = discipline
+				value = 2.5
+			}
 		}
 	}
 	scaled_advisor_modifier = {
@@ -441,8 +455,10 @@ master_of_mint = {
 	conditions = {
 		character_type = master_of_mint
 	}
-	scaled_ruler_modifier = {
-		inflation_change = -0.01
+	scaled_office_modifiers = {
+		ruler = {
+			inflation_change = -0.01
+		}
 	}
 	scaled_advisor_modifier = {
 		inflation_change = -0.01
@@ -459,8 +475,10 @@ merchant = {
 	conditions = {
 		character_type = merchant
 	}
-	scaled_ruler_modifier = {
-		trade_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			trade_output_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		trade_output_modifier = 5
@@ -477,8 +495,10 @@ military_engineer = {
 	conditions = {
 		character_type = military_engineer
 	}
-	scaled_ruler_modifier = {
-		entrenchment_bonus_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			entrenchment_bonus_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		entrenchment_bonus_modifier = 5
@@ -512,8 +532,10 @@ naval_reformer = {
 	conditions = {
 		character_type = admiral
 	}
-	scaled_ruler_modifier = {
-		navy_research_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			navy_research_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		navy_research_modifier = 5
@@ -564,8 +586,10 @@ philosopher = {
 	conditions = {
 		character_type = philosopher
 	}
-	scaled_ruler_modifier = {
-		research_output_modifier = 2.5
+	scaled_office_modifiers = {
+		ruler = {
+			research_output_modifier = 2.5
+		}
 	}
 	scaled_advisor_modifier = {
 		research_output_modifier = 2.5
@@ -582,11 +606,13 @@ privateer = {
 	conditions = {
 		character_type = privateer
 	}
-	scaled_ruler_modifier = {
-		military_unit_category_stat_modifier = {
-			category = light_warship
-			stat = damage_bonus
-			value = 5
+	scaled_office_modifiers = {
+		ruler = {
+			military_unit_category_stat_modifier = {
+				category = light_warship
+				stat = damage_bonus
+				value = 5
+			}
 		}
 	}
 	scaled_advisor_modifier = {
@@ -623,8 +649,10 @@ statesman = {
 	conditions = {
 		character_type = statesman
 	}
-	scaled_ruler_modifier = {
-		statesmanship_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			statesmanship_output_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		statesmanship_output_modifier = 5
@@ -658,8 +686,10 @@ theologian = {
 	conditions = {
 		character_type = theologian
 	}
-	scaled_ruler_modifier = {
-		piety_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			piety_output_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		piety_output_modifier = 5
@@ -676,8 +706,10 @@ tobacco_planter = {
 	conditions = {
 		character_type = farmer
 	}
-	scaled_ruler_modifier = {
-		tobacco_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			tobacco_output_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		tobacco_output_modifier = 5
@@ -694,8 +726,10 @@ treasurer = {
 	conditions = {
 		character_type = treasurer
 	}
-	scaled_ruler_modifier = {
-		finance_research_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			finance_research_modifier = 5
+		}
 	}
 	scaled_advisor_modifier = {
 		finance_research_modifier = 5

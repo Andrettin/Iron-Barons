@@ -14,9 +14,11 @@ colony = {
 		kingdom = "Governorate General"
 		empire = "Grand Governorate General"
 	}
-	ruler_title_names = {
-		duchy = "Colonial Governor"
-		kingdom = "Governor General"
-		empire = "Grand Governor General"
+	office_title_names = {
+		ruler = {
+			duchy = "Colonial Governor"
+			kingdom = "Governor General"
+			empire = "Grand Governor General"
+		}
 	}
 }

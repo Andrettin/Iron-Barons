@@ -71,6 +71,7 @@ scaled_landholder_modifier = {
 }
 
 max_character_skill = 10 #used for calculating character skill based on skill multipliers; this is not a hard cap
+ruler_office = ruler
 interior_minister_portrait = metternich
 war_minister_portrait = otto_von_bismarck
 

@@ -8,9 +8,11 @@ democratic_republic = {
 			subject_type = colony
 		}
 	}
-	ruler_title_names = {
-		duchy = "President"
-		kingdom = "President"
-		empire = "President"
+	office_title_names = {
+		ruler = {
+			duchy = "President"
+			kingdom = "President"
+			empire = "President"
+		}
 	}
 }

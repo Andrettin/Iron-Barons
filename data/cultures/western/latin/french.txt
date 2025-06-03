@@ -11,8 +11,10 @@ french = {
 			core = france
 		}
 	}
-	ruler_title_names = {
-		democratic_republic = "Premier"
+	office_title_names = {
+		ruler = {
+			democratic_republic = "Premier"
+		}
 	}
 
 	personal_names = {

@@ -15,7 +15,7 @@ Item {
 		
 		onClicked: {
 			character_dialog.character = ruler
-			character_dialog.modifier_string = ruler.game_data.get_ruler_modifier_qstring(country)
+			character_dialog.modifier_string = ruler.game_data.get_office_modifier_qstring(country, ruler.game_data.office)
 			character_dialog.open()
 		}
 		

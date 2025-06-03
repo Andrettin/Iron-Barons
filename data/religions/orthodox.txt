@@ -7,11 +7,13 @@ orthodox = {
 			kingdom = "Patriarchate"
 		}
 	}
-	ruler_title_names = {
-		theocracy = {
-			kingdom = {
-				male = "Patriarch"
-				female = "Matriarch"
+	office_title_names = {
+		ruler = {
+			theocracy = {
+				kingdom = {
+					male = "Patriarch"
+					female = "Matriarch"
+				}
 			}
 		}
 	}

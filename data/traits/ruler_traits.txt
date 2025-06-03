@@ -4,8 +4,10 @@ aggressive = {
 		ruler
 	}
 	icon = crossed_sabers
-	ruler_modifier = {
-		free_infantry_promotion = veteran_1
+	office_modifiers = {
+		ruler = {
+			free_infantry_promotion = veteran_1
+		}
 	}
 }
 
@@ -15,13 +17,15 @@ charismatic = {
 		ruler
 	}
 	icon = music
-	ruler_modifier = {
-		commodity_bonus_per_settlement = {
-			commodity = amenities
-			value = 1
+	office_modifiers = {
+		ruler = {
+			commodity_bonus_per_settlement = {
+				commodity = amenities
+				value = 1
+			}
+			
+			amenities_per_monument = 1
 		}
-		
-		amenities_per_monument = 1
 	}
 }
 
@@ -31,10 +35,12 @@ creative = {
 		ruler
 	}
 	icon = music
-	ruler_modifier = {
-		commodity_bonus_per_settlement = {
-			commodity = culture
-			value = 2
+	office_modifiers = {
+		ruler = {
+			commodity_bonus_per_settlement = {
+				commodity = culture
+				value = 2
+			}
 		}
 	}
 }
@@ -45,10 +51,12 @@ expansive = {
 		ruler
 	}
 	icon = settlement
-	ruler_modifier = {
-		commodity_bonus_per_settlement = {
-			commodity = housing
-			value = 2
+	office_modifiers = {
+		ruler = {
+			commodity_bonus_per_settlement = {
+				commodity = housing
+				value = 2
+			}
 		}
 	}
 }
@@ -59,8 +67,10 @@ financial = {
 		ruler
 	}
 	icon = chest
-	ruler_modifier = {
-		trade_bonus_for_tile_threshold = 2
+	office_modifiers = {
+		ruler = {
+			trade_bonus_for_tile_threshold = 2
+		}
 	}
 }
 
@@ -70,8 +80,10 @@ impressionable = {
 		ruler
 	}
 	icon = painting
-	ruler_modifier = {
-		free_infantry_promotion = grenadier_1
+	office_modifiers = {
+		ruler = {
+			free_infantry_promotion = grenadier_1
+		}
 	}
 }
 
@@ -81,8 +93,10 @@ indulgent = {
 		ruler
 	}
 	icon = treaty
-	ruler_modifier = {
-		free_infantry_promotion = formation
+	office_modifiers = {
+		ruler = {
+			free_infantry_promotion = formation
+		}
 	}
 }
 
@@ -92,8 +106,10 @@ industrious = {
 		ruler
 	}
 	icon = cog
-	ruler_modifier = {
-		throughput_modifier = 10
+	office_modifiers = {
+		ruler = {
+			throughput_modifier = 10
+		}
 	}
 }
 
@@ -103,8 +119,10 @@ militaristic = {
 		ruler
 	}
 	icon = crossed_sabers
-	ruler_modifier = {
-		free_infantry_promotion = grenadier_1
+	office_modifiers = {
+		ruler = {
+			free_infantry_promotion = grenadier_1
+		}
 	}
 }
 
@@ -114,8 +132,10 @@ organized = {
 		ruler
 	}
 	icon = philosophy
-	ruler_modifier = {
-		law_cost_modifier = -50
+	office_modifiers = {
+		ruler = {
+			law_cost_modifier = -50
+		}
 	}
 }
 
@@ -125,8 +145,10 @@ philosophical = {
 		ruler
 	}
 	icon = philosophy
-	ruler_modifier = {
-		statesmanship_output_modifier = 25
+	office_modifiers = {
+		ruler = {
+			statesmanship_output_modifier = 25
+		}
 	}
 }
 
@@ -136,8 +158,10 @@ prosperous = {
 		ruler
 	}
 	icon = wealth
-	ruler_modifier = {
-		free_infantry_promotion = minuteman_1
+	office_modifiers = {
+		ruler = {
+			free_infantry_promotion = minuteman_1
+		}
 	}
 }
 
@@ -147,8 +171,10 @@ protective = {
 		ruler
 	}
 	icon = heater_shield
-	ruler_modifier = {
-		free_infantry_promotion = city_garrison_1
+	office_modifiers = {
+		ruler = {
+			free_infantry_promotion = city_garrison_1
+		}
 	}
 }
 
@@ -163,8 +189,10 @@ spiritual = {
 	attribute_bonuses = {
 		learning = 1
 	}
-	scaled_ruler_modifier = {
-		piety_output_modifier = 5
+	scaled_office_modifiers = {
+		ruler = {
+			piety_output_modifier = 5
+		}
 	}
 }
 
@@ -174,7 +202,9 @@ well_connected = {
 		ruler
 	}
 	icon = music
-	ruler_modifier = {
-		advisor_cost_modifier = -20
+	office_modifiers = {
+		ruler = {
+			advisor_cost_modifier = -20
+		}
 	}
 }

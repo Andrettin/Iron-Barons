@@ -5,9 +5,11 @@ republic = {
 		kingdom = "Republic"
 		empire = "Grand Republic"
 	}
-	ruler_title_names = {
-		duchy = "Consul"
-		kingdom = "Consul"
-		empire = "Consul"
+	office_title_names = {
+		ruler = {
+			duchy = "Consul"
+			kingdom = "Consul"
+			empire = "Consul"
+		}
 	}
 }

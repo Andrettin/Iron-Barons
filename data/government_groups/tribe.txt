@@ -7,11 +7,13 @@ tribe = {
 		duchy = "Tribe"
 		kingdom = "Grand Tribe"
 	}
-	ruler_title_names = {
-		barony = "Chief"
-		county = "Chief"
-		duchy = "Chief"
-		kingdom = "Chief"
-		empire = "Chief"
+	office_title_names = {
+		ruler = {
+			barony = "Chief"
+			county = "Chief"
+			duchy = "Chief"
+			kingdom = "Chief"
+			empire = "Chief"
+		}
 	}
 }

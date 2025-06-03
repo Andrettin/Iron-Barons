@@ -16,8 +16,10 @@ english = {
 			}
 		}
 	}
-	ruler_title_names = {
-		democratic_republic = "Prime Minister"
+	office_title_names = {
+		ruler = {
+			democratic_republic = "Prime Minister"
+		}
 	}
 	
 	personal_names = {

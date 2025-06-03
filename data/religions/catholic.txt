@@ -7,9 +7,11 @@ catholic = {
 			kingdom = "Papacy"
 		}
 	}
-	ruler_title_names = {
-		theocracy = {
-			kingdom = "Pope"
+	office_title_names = {
+		ruler = {
+			theocracy = {
+				kingdom = "Pope"
+			}
 		}
 	}
 }

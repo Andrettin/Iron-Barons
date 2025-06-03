@@ -5,7 +5,9 @@ persian = {
 	species = {
 		human
 	}
-	ruler_title_names = {
-		monarchy = "Shah"
+	office_title_names = {
+		ruler = {
+			monarchy = "Shah"
+		}
 	}
 }

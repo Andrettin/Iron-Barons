@@ -8,11 +8,13 @@ dictatorship = {
 			subject_type = colony
 		}
 	}
-	ruler_title_names = {
-		barony = "Dictator"
-		county = "Dictator"
-		duchy = "Dictator"
-		kingdom = "Dictator"
-		empire = "Dictator"
+	office_title_names = {
+		ruler = {
+			barony = "Dictator"
+			county = "Dictator"
+			duchy = "Dictator"
+			kingdom = "Dictator"
+			empire = "Dictator"
+		}
 	}
 }
