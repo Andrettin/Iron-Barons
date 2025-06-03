@@ -1,6 +1,6 @@
 monarchy = {
 	name = "Monarchy"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = crown_royal
 	period = 1_500
@@ -13,7 +13,7 @@ monarchy = {
 
 republic = {
 	name = "Republic"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = philosophy
 	period = 1_500
@@ -25,7 +25,7 @@ republic = {
 
 feudalism = {
 	name = "Feudalism"
-	category = culture
+	category = government
 	portrait = ducal_crown
 	icon = crown_ducal
 	period = 500_1000
@@ -37,7 +37,7 @@ feudalism = {
 
 nationalism = {
 	name = "Nationalism"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = flag
 	period = 1700_1750
@@ -53,7 +53,7 @@ nationalism = {
 
 rights_of_man = {
 	name = "Rights of Man"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = 1750_1800
@@ -67,7 +67,7 @@ rights_of_man = {
 
 constitutionalism = {
 	name = "Constitutionalism"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = 1750_1800
@@ -81,7 +81,7 @@ constitutionalism = {
 
 egalitarianism = {
 	name = "Egalitarianism"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = 1750_1800
@@ -101,7 +101,7 @@ egalitarianism = {
 
 paternalism = {
 	name = "Paternalism"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = crown_royal
 	period = 1750_1800
@@ -125,7 +125,7 @@ paternalism = {
 
 democracy = {
 	name = "Democracy"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = philosophy
 	period = 1800_1825
@@ -142,7 +142,7 @@ democracy = {
 
 collectivism = {
 	name = "Collectivism"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = 1800_1825
@@ -156,7 +156,7 @@ collectivism = {
 
 individualism = {
 	name = "Individualism"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = 1800_1825
@@ -177,7 +177,7 @@ individualism = {
 
 communism = {
 	name = "Communism"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = 1825_1850

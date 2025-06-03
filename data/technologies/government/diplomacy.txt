@@ -1,6 +1,6 @@
 diplomatic_expertise = {
 	name = "Diplomatic Expertise"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = 1500_1550
@@ -15,7 +15,7 @@ diplomatic_expertise = {
 
 propaganda = {
 	name = "Propaganda"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = newspaper
 	period = 1650_1700
@@ -27,7 +27,7 @@ propaganda = {
 
 empire_building = {
 	name = "Empire Building"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = crown_imperial
 	period = 1750_1800

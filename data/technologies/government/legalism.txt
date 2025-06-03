@@ -1,6 +1,6 @@
 code_of_laws = {
 	name = "Code of Laws"
-	category = culture
+	category = government
 	portrait = grand_ducal_crown
 	icon = treaty
 	period = bronze_age

@@ -23,6 +23,11 @@ finance = {
 	icon = wealth
 }
 
+government = {
+	name = "Government"
+	icon = bell
+}
+
 culture = {
 	name = "Culture"
 	icon = music
