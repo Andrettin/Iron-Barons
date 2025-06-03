@@ -28,7 +28,7 @@ Rectangle {
 			
 			IconButton {
 				id: category_button
-				icon_identifier: "grain"
+				icon_identifier: button_category.icon.identifier
 				border_color: technology_view_category === button_category ? "white" : "gray"
 				visible: technology_view_mode !== TechnologyView.Mode.TechTree
 						
