@@ -43,5 +43,21 @@ rio_de_janeiro = {
 		1790 = {
 			owner = brazil #part of Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 		}
+		
+		1872 = {
+			literacy_rate = 25.8 #of 5+ year olds; Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 192.
+		}
+		
+		1920 = {
+			literacy_rate = 46.6 #of 5+ year olds; Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 192.
+		}
+		
+		1960 = {
+			literacy_rate = 72.7 #of 5+ year olds; Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 192.
+		}
+		
+		2000 = {
+			literacy_rate = 93.7 #of 10+ year olds; Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 192.
+		}
 	}
 }

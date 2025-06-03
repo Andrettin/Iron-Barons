@@ -17,6 +17,12 @@ argentina = {
 	superregions = {
 		south_america
 	}
+	
+	history = {
+		2003 = {
+			literacy_rate = 97 #Source: Philip's International School Atlas, p. 141.
+		}
+	}
 }
 
 bolivia = {

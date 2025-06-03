@@ -69,17 +69,5 @@ brazil = {
 			
 			tier = empire
 		}
-		
-		1872 = {
-			literacy_rate = 17.7 #Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 182.
-		}
-		
-		1890 = {
-			literacy_rate = 17.4 #Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 182.
-		}
-		
-		2003 = {
-			literacy_rate = 86
-		}
 	}
 }

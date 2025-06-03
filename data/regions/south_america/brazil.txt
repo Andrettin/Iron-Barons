@@ -26,6 +26,8 @@ brazil = {
 		}
 		
 		1872 = {
+			literacy_rate = 17.7 #of 5+ year olds; Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 182.
+			
 			phenotype_weights = { #based on the Brazilian 1872 census data
 				afro_european = 38.3 #38.3% "pardo" ("brown", this census category also included Amerindo-Europeans)
 				european = 38.1 #38.1% "branco" ("white")
@@ -34,8 +36,16 @@ brazil = {
 			}
 		}
 		
+		1890 = {
+			literacy_rate = 17.4 #of 5+ year olds; Source: "Analfabetismo no Brasil: Configuração e Gênese das Desigualdades Regionais", Alceu Ravanello Ferraro e Daniel Kreidlow, p. 182.
+		}
+		
 		1910 = {
 			population = 22216000 #Brazil had a population of 22,216,000 in 1910 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		}
+		
+		2003 = {
+			literacy_rate = 86 #Source: Philip's International School Atlas, p. 141.
 		}
 	}
 }

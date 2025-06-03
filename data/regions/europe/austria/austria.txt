@@ -49,5 +49,9 @@ austria = { #the territory of the modern Republic of Austria
 		1700 = {
 			population = 2500000 #Austria had a population of 2,500,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
+		
+		2003 = {
+			literacy_rate = 98 #Source: Philip's International School Atlas, p. 141.
+		}
 	}
 }

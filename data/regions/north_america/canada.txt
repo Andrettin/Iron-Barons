@@ -28,5 +28,9 @@ canada = {
 		1820 = {
 			population = 816000 #Canada had a population of 816,000 in 1820 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
+		
+		2003 = {
+			literacy_rate = 97 #Source: Philip's International School Atlas, p. 141.
+		}
 	}
 }

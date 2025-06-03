@@ -40,6 +40,10 @@ united_states = {
 		1914 = {
 			population = 99505000 #the United States had a population of 99,505,000 in 1914 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
+		
+		2003 = {
+			literacy_rate = 97 #Source: Philip's International School Atlas, p. 145.
+		}
 	}
 }
 

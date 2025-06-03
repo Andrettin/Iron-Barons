@@ -23,5 +23,9 @@ turkey = {
 		1700 = {
 			population = 8400000 #Turkey had a population of 8,400,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 		}
+	
+		2003 = {
+			literacy_rate = 87 #Source: Philip's International School Atlas, p. 145.
+		}
 	}
 }

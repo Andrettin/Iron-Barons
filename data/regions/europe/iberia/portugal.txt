@@ -31,5 +31,9 @@ portugal = {
 		1850 = {
 			literacy_rate = 50 #50%- of adults; Source: Eric J. Hobsbawm, "A Era do Capital 1848-1875", 1977, p. 522.
 		}
+		
+		2003 = {
+			literacy_rate = 93 #Source: Philip's International School Atlas, p. 143.
+		}
 	}
 }

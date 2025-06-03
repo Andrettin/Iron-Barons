@@ -5,6 +5,12 @@ japan = {
 	superregions = {
 		asia
 	}
+	
+	history = {
+		2003 = {
+			literacy_rate = 99 #Source: Philip's International School Atlas, p. 143.
+		}
+	}
 }
 
 kazakhstan = {
