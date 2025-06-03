@@ -21,3 +21,13 @@ improved_cavalry_tactics = {
 		printing_press
 	}
 }
+
+mobile_warfare = {
+	name = "Mobile Warfare"
+	category = army
+	portrait = helmet
+	icon = saber
+	prerequisites = {
+		internal_combustion
+	}
+}

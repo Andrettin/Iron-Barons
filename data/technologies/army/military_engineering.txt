@@ -76,13 +76,3 @@ modern_fortifications = {
 		scientific_method
 	}
 }
-
-mobile_warfare = {
-	name = "Mobile Warfare"
-	category = army
-	portrait = helmet
-	icon = saber
-	prerequisites = {
-		internal_combustion
-	}
-}
