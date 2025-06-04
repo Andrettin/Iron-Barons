@@ -1,6 +1,6 @@
 sanitation = {
 	name = "Sanitation"
-	category = industry
+	subcategory = infrastructure
 	portrait = engineering
 	icon = architecture
 	period = 1550_1600

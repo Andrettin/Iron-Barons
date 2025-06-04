@@ -1,6 +1,6 @@
 oviviparity = {
 	name = "Oviviparity"
-	category = culture
+	subcategory = procreation
 	portrait = building_slot
 	icon = lion
 	period = permian

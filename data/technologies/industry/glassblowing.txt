@@ -1,6 +1,6 @@
 glassblowing = {
 	name = "Glassblowing"
-	category = industry
+	subcategory = handicraft
 	portrait = engineering
 	icon = glass
 	period = 1100_1200

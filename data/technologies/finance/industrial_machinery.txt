@@ -1,6 +1,6 @@
 industrial_machinery = {
 	name = "Industrial Machinery"
-	category = finance
+	subcategory = market_functionality
 	portrait = factory
 	icon = cog
 	period = 1650_1700

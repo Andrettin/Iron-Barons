@@ -1,6 +1,6 @@
 mathematics = {
 	name = "Mathematics"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = research
 	period = bronze_age

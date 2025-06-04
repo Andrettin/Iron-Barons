@@ -1,6 +1,6 @@
 chambered_heart = {
 	name = "Chambered Heart"
-	category = culture
+	subcategory = organs
 	portrait = building_slot
 	icon = heart
 	period = permian

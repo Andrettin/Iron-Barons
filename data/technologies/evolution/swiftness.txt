@@ -1,6 +1,6 @@
 swiftness = {
 	name = "Swiftness"
-	category = army
+	subcategory = collective_behavior
 	portrait = building_slot
 	icon = lion
 	period = cretaceous

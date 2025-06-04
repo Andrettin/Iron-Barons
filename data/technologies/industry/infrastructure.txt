@@ -1,6 +1,6 @@
 road_construction = {
 	name = "Road Construction"
-	category = industry
+	subcategory = infrastructure
 	portrait = engineering
 	icon = road
 	period = 1600_1650
@@ -13,7 +13,7 @@ road_construction = {
 
 bridge_building = {
 	name = "Bridge Building"
-	category = industry
+	subcategory = infrastructure
 	portrait = engineering
 	icon = road
 	period = 1_500
@@ -27,7 +27,7 @@ bridge_building = {
 
 high_pressure_steam_engine = {
 	name = "High Pressure Steam Engine"
-	category = industry
+	subcategory = infrastructure
 	portrait = engineering
 	icon = railroad
 	period = 1650_1700
@@ -41,7 +41,7 @@ high_pressure_steam_engine = {
 
 iron_railroad_bridge = {
 	name = "Iron Railroad Bridge"
-	category = industry
+	subcategory = infrastructure
 	portrait = engineering
 	icon = railroad
 	prerequisites = {
@@ -52,7 +52,7 @@ iron_railroad_bridge = {
 
 compound_steam_engine = {
 	name = "Compound Steam Engine"
-	category = industry
+	subcategory = infrastructure
 	portrait = engineering
 	icon = railroad
 	period = 1700_1750
@@ -66,7 +66,7 @@ compound_steam_engine = {
 
 dynamite = {
 	name = "Dynamite"
-	category = industry
+	subcategory = infrastructure
 	portrait = engineering
 	icon = railroad
 	period = 1750_1800

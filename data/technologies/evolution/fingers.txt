@@ -1,6 +1,6 @@
 fingers = {
 	name = "Fingers"
-	category = army
+	subcategory = claws
 	portrait = building_slot
 	icon = lion
 	period = permian

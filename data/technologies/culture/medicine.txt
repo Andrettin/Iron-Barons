@@ -1,6 +1,6 @@
 medicine = {
 	name = "Medicine"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = heart
 	period = 1500_1550

@@ -1,6 +1,6 @@
 saurian_proportions = {
 	name = "Saurian Proportions"
-	category = army
+	subcategory = body_proportions
 	portrait = building_slot
 	icon = lion
 	period = cretaceous

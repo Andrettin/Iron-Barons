@@ -1,6 +1,6 @@
 coinage = {
 	name = "Coinage"
-	category = finance
+	subcategory = monetary_system
 	portrait = coinage
 	icon = wealth
 	period = bronze_age
@@ -12,7 +12,7 @@ coinage = {
 
 trade = {
 	name = "Trade"
-	category = finance
+	subcategory = trade_practices
 	portrait = coinage
 	icon = wealth
 	period = iron_age

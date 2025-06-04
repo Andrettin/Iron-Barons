@@ -1,6 +1,6 @@
 bony_neck_frill = {
 	name = "Bony Neck Frill"
-	category = army
+	subcategory = back_protection
 	portrait = building_slot
 	icon = lion
 	period = triassic

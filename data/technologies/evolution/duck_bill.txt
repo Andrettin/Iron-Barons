@@ -1,6 +1,6 @@
 duck_bill = {
 	name = "Duck Bill"
-	category = culture
+	subcategory = mouth
 	portrait = building_slot
 	icon = lion
 	period = carboniferous

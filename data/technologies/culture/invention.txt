@@ -1,6 +1,6 @@
 invention = {
 	name = "Invention"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = cog
 	#year = 1450

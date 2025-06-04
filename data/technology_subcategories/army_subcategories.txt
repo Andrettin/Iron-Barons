@@ -100,8 +100,8 @@ army_doctrine = {
 #	icon = saber
 #}
 
-army_leadership = {
-	name = "Army Leadership"
-	category = army
-	icon = saber
-}
+#army_leadership = {
+#	name = "Army Leadership"
+#	category = army
+#	icon = saber
+#}

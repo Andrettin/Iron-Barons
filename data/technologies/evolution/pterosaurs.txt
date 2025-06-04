@@ -1,6 +1,6 @@
 pterosaurs = {
 	name = "Pterosaurs"
-	category = army
+	subcategory = aerial_animals
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
@@ -16,7 +16,7 @@ pterosaurs = {
 
 advanced_pterosaurs = {
 	name = "Advanced Pterosaurs"
-	category = army
+	subcategory = aerial_animals
 	portrait = building_slot
 	icon = lion
 	period = neogene

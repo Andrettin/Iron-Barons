@@ -1,6 +1,6 @@
 tail_weapons = {
 	name = "Tail Weapons"
-	category = army
+	subcategory = tail_weapons
 	portrait = building_slot
 	icon = lion
 	period = devonian
@@ -12,7 +12,7 @@ tail_weapons = {
 
 tail_spikes = {
 	name = "Tail Spikes"
-	category = army
+	subcategory = tail_weapons
 	portrait = building_slot
 	icon = lion
 	period = triassic
@@ -28,7 +28,7 @@ tail_spikes = {
 
 tail_crest = {
 	name = "Tail Crest"
-	category = army
+	subcategory = tail_weapons
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
@@ -42,7 +42,7 @@ tail_crest = {
 
 tail_club = {
 	name = "Tail Club"
-	category = army
+	subcategory = tail_weapons
 	portrait = building_slot
 	icon = lion
 	period = triassic
@@ -57,7 +57,7 @@ tail_club = {
 
 whipping_tail = {
 	name = "Whipping Tail"
-	category = army
+	subcategory = tail_weapons
 	portrait = building_slot
 	icon = lion
 	period = cretaceous

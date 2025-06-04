@@ -1,6 +1,6 @@
 colonization = {
 	name = "Colonization"
-	category = finance
+	subcategory = trade_practices
 	portrait = trading_post
 	icon = settlement
 	period = 1500_1550

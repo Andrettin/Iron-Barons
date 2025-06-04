@@ -1,6 +1,6 @@
 ectothermics = {
 	name = "Ectothermics"
-	category = culture
+	subcategory = organs
 	portrait = building_slot
 	icon = lion
 	period = devonian

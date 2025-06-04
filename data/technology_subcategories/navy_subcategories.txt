@@ -1,0 +1,17 @@
+naval_doctrine = {
+	name = "Naval Doctrine"
+	category = navy
+	icon = anchor
+}
+
+naval_science = {
+	name = "Naval Science"
+	category = navy
+	icon = anchor
+}
+
+shipbuilding = {
+	name = "Shipbuilding"
+	category = navy
+	icon = anchor
+}

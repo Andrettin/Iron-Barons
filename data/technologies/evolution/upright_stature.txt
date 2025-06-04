@@ -1,6 +1,6 @@
 upright_stature = {
 	name = "Upright Stature"
-	category = culture
+	subcategory = body_proportions
 	portrait = building_slot
 	icon = lion
 	period = carboniferous

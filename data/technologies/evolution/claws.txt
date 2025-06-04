@@ -1,6 +1,6 @@
 claws = {
 	name = "Claws"
-	category = army
+	subcategory = claws
 	portrait = building_slot
 	icon = lion
 	period = triassic
@@ -16,7 +16,7 @@ claws = {
 
 grasping_claws = {
 	name = "Grasping Claws"
-	category = army
+	subcategory = claws
 	portrait = building_slot
 	icon = lion
 	period = jurassic
@@ -31,7 +31,7 @@ grasping_claws = {
 
 curved_claws = {
 	name = "Curved Claws"
-	category = army
+	subcategory = claws
 	portrait = building_slot
 	icon = lion
 	period = paleogene
@@ -47,7 +47,7 @@ curved_claws = {
 
 slashing_claw = {
 	name = "Slashing Claw"
-	category = army
+	subcategory = claws
 	portrait = building_slot
 	icon = lion
 	period = neogene
@@ -62,7 +62,7 @@ slashing_claw = {
 
 tearing_claw = {
 	name = "Tearing Claw"
-	category = army
+	subcategory = claws
 	portrait = building_slot
 	icon = lion
 	period = pleistocene

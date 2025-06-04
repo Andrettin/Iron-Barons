@@ -1,6 +1,6 @@
 physics = {
 	name = "Physics"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = research
 	period = 1600_1650
@@ -13,7 +13,7 @@ physics = {
 
 theory_of_gravity = {
 	name = "Theory of Gravity"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = research
 	period = 1650_1700
@@ -26,7 +26,7 @@ theory_of_gravity = {
 
 atomic_theory = {
 	name = "Atomic Theory"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = research
 	period = 1700_1750

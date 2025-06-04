@@ -1,6 +1,6 @@
 fur_hat_production = {
 	name = "Fur Hat Production"
-	category = industry
+	subcategory = handicraft
 	portrait = engineering
 	icon = fur_hats
 	period = bronze_age

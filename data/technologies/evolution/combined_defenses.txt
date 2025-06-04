@@ -1,6 +1,6 @@
 combined_defenses = {
 	name = "Combined Defenses"
-	category = army
+	subcategory = head_protection
 	portrait = building_slot
 	icon = lion
 	period = cretaceous

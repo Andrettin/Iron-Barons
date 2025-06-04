@@ -1,6 +1,6 @@
 piling_rocks = {
 	name = "Piling Rocks"
-	category = culture
+	subcategory = collective_behavior
 	portrait = building_slot
 	icon = lion
 	period = cretaceous

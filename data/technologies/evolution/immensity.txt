@@ -1,6 +1,6 @@
 immensity = {
 	name = "Immensity"
-	category = army
+	subcategory = body_proportions
 	portrait = building_slot
 	icon = lion
 	period = paleogene

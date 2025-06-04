@@ -1,6 +1,6 @@
 malthusian_thought = {
 	name = "Malthusian Thought"
-	category = government
+	subcategory = social_thought
 	portrait = scholar
 	icon = treaty
 	period = 1750_1800
@@ -14,7 +14,7 @@ malthusian_thought = {
 
 positivism = {
 	name = "Positivism"
-	category = government
+	subcategory = social_thought
 	portrait = scholar
 	icon = treaty
 	period = 1800_1825
@@ -28,7 +28,7 @@ positivism = {
 
 functionalism = {
 	name = "Functionalism"
-	category = government
+	subcategory = social_thought
 	portrait = scholar
 	icon = treaty
 	period = 1825_1850
@@ -42,7 +42,7 @@ functionalism = {
 
 biologism = {
 	name = "Biologism"
-	category = government
+	subcategory = social_thought
 	portrait = scholar
 	icon = treaty
 	period = 1850_1875
@@ -56,7 +56,7 @@ biologism = {
 
 social_science = {
 	name = "Social Science"
-	category = government
+	subcategory = social_thought
 	portrait = scholar
 	icon = treaty
 	period = 1875_1900
@@ -70,7 +70,7 @@ social_science = {
 
 social_alienation = {
 	name = "Social Alienation"
-	category = government
+	subcategory = social_thought
 	portrait = scholar
 	icon = treaty
 	period = 1900_1925

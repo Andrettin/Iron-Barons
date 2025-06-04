@@ -1,6 +1,6 @@
 refrigeration = {
 	name = "Refrigeration"
-	category = industry
+	subcategory = mechanization
 	portrait = engineering
 	icon = research
 	period = 1875_1900

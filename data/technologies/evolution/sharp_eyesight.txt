@@ -1,6 +1,6 @@
 sharp_eyesight = {
 	name = "Sharp Eyesight"
-	category = army
+	subcategory = organs
 	portrait = building_slot
 	icon = lion
 	period = jurassic

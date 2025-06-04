@@ -1,6 +1,6 @@
 cigar_production = {
 	name = "Cigar Production"
-	category = industry
+	subcategory = handicraft
 	portrait = engineering
 	icon = tobacco
 	period = bronze_age

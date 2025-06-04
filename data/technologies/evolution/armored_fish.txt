@@ -1,6 +1,6 @@
 armored_fish = {
 	name = "Armored Fish"
-	category = navy
+	subcategory = aquatic_animals
 	portrait = building_slot
 	icon = fish
 	period = cretaceous

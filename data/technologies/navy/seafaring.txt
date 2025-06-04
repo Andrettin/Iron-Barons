@@ -1,6 +1,6 @@
 seafaring = {
 	name = "Seafaring"
-	category = navy
+	subcategory = naval_science
 	portrait = unload
 	icon = anchor
 	period = bronze_age
@@ -11,7 +11,7 @@ seafaring = {
 
 cartography = {
 	name = "Cartography"
-	category = navy
+	subcategory = naval_science
 	portrait = unload
 	icon = globe
 	period = iron_age
@@ -23,7 +23,7 @@ cartography = {
 
 convoying = {
 	name = "Convoying"
-	category = navy
+	subcategory = naval_doctrine
 	portrait = unload
 	icon = anchor
 	period = 1550_1600
@@ -35,7 +35,7 @@ convoying = {
 
 navigation = {
 	name = "Navigation"
-	category = navy
+	subcategory = naval_science
 	portrait = unload
 	icon = compass
 	period = 1550_1600
@@ -48,7 +48,7 @@ navigation = {
 
 magnetism = {
 	name = "Magnetism"
-	category = navy
+	subcategory = naval_science
 	portrait = engineering
 	icon = compass
 	period = 1650_1700
@@ -60,7 +60,7 @@ magnetism = {
 
 privateering_companies = {
 	name = "Privateering Companies"
-	category = navy
+	subcategory = naval_doctrine
 	portrait = unload
 	icon = skull
 	period = 1600_1650

@@ -1,6 +1,6 @@
 spiny_fins = {
 	name = "Spiny Fins"
-	category = navy
+	subcategory = aquatic_animals
 	portrait = building_slot
 	icon = fish
 	period = devonian
@@ -13,7 +13,7 @@ spiny_fins = {
 
 dorsal_fin = {
 	name = "Dorsal Fin"
-	category = navy
+	subcategory = aquatic_animals
 	portrait = building_slot
 	icon = fish
 	period = permian

@@ -1,6 +1,6 @@
 head_crest = {
 	name = "Head Crest"
-	category = army
+	subcategory = head_protection
 	portrait = building_slot
 	icon = lion
 	period = triassic

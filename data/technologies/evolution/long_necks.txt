@@ -1,6 +1,6 @@
 long_necks = {
 	name = "Long Necks"
-	category = army
+	subcategory = body_proportions
 	portrait = building_slot
 	icon = lion
 	period = jurassic

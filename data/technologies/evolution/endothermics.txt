@@ -1,6 +1,6 @@
 endothermics = {
 	name = "Endothermics"
-	category = culture
+	subcategory = organs
 	portrait = building_slot
 	icon = lion
 	period = triassic

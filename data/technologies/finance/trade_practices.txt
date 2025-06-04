@@ -1,6 +1,6 @@
 business_contracts = {
 	name = "Business Contracts"
-	category = finance
+	subcategory = trade_practices
 	portrait = coinage
 	icon = treaty
 	period = 1000_1100
@@ -16,7 +16,7 @@ business_contracts = {
 
 promissory_note = {
 	name = "Promissory Note"
-	category = finance
+	subcategory = trade_practices
 	portrait = coinage
 	icon = wealth
 	period = 1100_1200
@@ -30,7 +30,7 @@ promissory_note = {
 
 letters_of_credit = {
 	name = "Letters of Credit"
-	category = finance
+	subcategory = trade_practices
 	portrait = coinage
 	icon = wealth
 	period = 1200_1300
@@ -44,7 +44,7 @@ letters_of_credit = {
 
 double_entry_bookkeeping = {
 	name = "Double-Entry Bookkeeping"
-	category = finance
+	subcategory = trade_practices
 	portrait = coinage
 	icon = wealth
 	period = 1300_1400
@@ -58,7 +58,7 @@ double_entry_bookkeeping = {
 
 foreign_accreditation = {
 	name = "Foreign Accreditation"
-	category = finance
+	subcategory = trade_practices
 	portrait = coinage
 	icon = wealth
 	period = 1400_1500
@@ -72,7 +72,7 @@ foreign_accreditation = {
 
 trade_fairs = {
 	name = "Trade Fairs"
-	category = finance
+	subcategory = trade_practices
 	portrait = coinage
 	icon = wealth
 	period = 1550_1600

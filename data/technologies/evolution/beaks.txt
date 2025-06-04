@@ -1,6 +1,6 @@
 beaks = {
 	name = "Beaks"
-	category = army
+	subcategory = mouth
 	portrait = building_slot
 	icon = lion
 	period = carboniferous

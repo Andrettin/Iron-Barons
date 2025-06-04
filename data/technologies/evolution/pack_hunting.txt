@@ -1,6 +1,6 @@
 pack_hunting = {
 	name = "Pack Hunting"
-	category = army
+	subcategory = collective_behavior
 	portrait = building_slot
 	icon = lion
 	period = cretaceous

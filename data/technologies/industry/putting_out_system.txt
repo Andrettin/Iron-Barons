@@ -1,6 +1,6 @@
 putting_out_system = {
 	name = "Putting-Out System"
-	category = industry
+	subcategory = handicraft
 	portrait = engineering
 	icon = cog
 	period = 1750_1800

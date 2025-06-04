@@ -1,6 +1,6 @@
 phytophagia = {
 	name = "Phytophagia"
-	category = culture
+	subcategory = feeding
 	portrait = building_slot
 	icon = lion
 	period = devonian

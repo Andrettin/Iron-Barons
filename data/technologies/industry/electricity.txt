@@ -1,6 +1,6 @@
 electricity = {
 	name = "Electricity"
-	category = industry
+	subcategory = power
 	portrait = engineering
 	icon = research
 	period = 1850_1875

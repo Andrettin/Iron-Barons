@@ -1,6 +1,6 @@
 omophagia = {
 	name = "Omophagia"
-	category = army
+	subcategory = feeding
 	portrait = building_slot
 	icon = lion
 	period = triassic

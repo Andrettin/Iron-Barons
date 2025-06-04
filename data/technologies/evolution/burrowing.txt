@@ -1,6 +1,6 @@
 burrowing = {
 	name = "Burrowing"
-	category = industry
+	subcategory = collective_behavior
 	portrait = building_slot
 	icon = lion
 	period = jurassic

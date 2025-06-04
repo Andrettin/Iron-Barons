@@ -1,6 +1,6 @@
 collective_behavior = {
 	name = "Collective Behavior"
-	category = culture
+	subcategory = collective_behavior
 	portrait = building_slot
 	icon = lion
 	period = triassic

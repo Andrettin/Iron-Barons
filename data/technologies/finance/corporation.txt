@@ -1,6 +1,6 @@
 corporation = {
 	name = "Corporation"
-	category = finance
+	subcategory = market_functionality
 	portrait = coinage
 	icon = wealth
 	period = 1800_1825

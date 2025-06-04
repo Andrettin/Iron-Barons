@@ -1,6 +1,6 @@
 crested_back = {
 	name = "Crested Back"
-	category = army
+	subcategory = back_protection
 	portrait = building_slot
 	icon = lion
 	period = jurassic

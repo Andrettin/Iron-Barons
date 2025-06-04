@@ -1,6 +1,6 @@
 national_bureaucracy = {
 	name = "National Bureaucracy"
-	category = government
+	subcategory = political_thought
 	portrait = grand_ducal_crown
 	icon = crown_royal
 	period = 1600_1650

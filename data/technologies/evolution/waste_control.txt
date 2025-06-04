@@ -1,6 +1,6 @@
 waste_control = {
 	name = "Waste Control"
-	category = culture
+	subcategory = collective_behavior
 	portrait = building_slot
 	icon = lion
 	period = cretaceous

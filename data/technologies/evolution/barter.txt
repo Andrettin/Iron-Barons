@@ -1,6 +1,6 @@
 barter = {
 	name = "Barter"
-	category = finance
+	subcategory = trade_practices
 	portrait = building_slot
 	icon = lion
 	period = devonian

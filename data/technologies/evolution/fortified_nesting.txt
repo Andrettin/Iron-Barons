@@ -1,6 +1,6 @@
 fortified_nesting = {
 	name = "Fortified Nesting"
-	category = culture
+	subcategory = collective_behavior
 	portrait = building_slot
 	icon = lion
 	period = carboniferous

@@ -1,6 +1,6 @@
 teeth = {
 	name = "Teeth"
-	category = army
+	subcategory = teeth
 	portrait = building_slot
 	icon = lion
 	period = permian
@@ -15,7 +15,7 @@ teeth = {
 
 curved_teeth = {
 	name = "Curved Teeth"
-	category = army
+	subcategory = teeth
 	portrait = building_slot
 	icon = lion
 	period = jurassic
@@ -29,7 +29,7 @@ curved_teeth = {
 
 ridged_teeth = {
 	name = "Ridged Teeth"
-	category = army
+	subcategory = teeth
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
@@ -43,7 +43,7 @@ ridged_teeth = {
 
 serrated_teeth = {
 	name = "Serrated Teeth"
-	category = army
+	subcategory = teeth
 	portrait = building_slot
 	icon = lion
 	period = paleogene

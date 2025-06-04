@@ -1,6 +1,6 @@
 alchemy = {
 	name = "Alchemy"
-	category = industry
+	subcategory = handicraft
 	portrait = engineering
 	icon = philosophy
 	period = 500_1000

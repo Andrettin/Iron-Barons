@@ -1,6 +1,6 @@
 flippers = {
 	name = "Flippers"
-	category = navy
+	subcategory = aquatic_animals
 	portrait = building_slot
 	icon = fish
 	period = triassic

@@ -1,6 +1,6 @@
 archosaurs = {
 	name = "Archosaurs"
-	category = army
+	subcategory = body_proportions
 	portrait = building_slot
 	icon = lion
 	period = neogene

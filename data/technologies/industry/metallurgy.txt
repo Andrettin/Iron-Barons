@@ -1,6 +1,6 @@
 bronzeworking = {
 	name = "Bronzeworking"
-	category = industry
+	subcategory = metallurgy
 	portrait = engineering
 	icon = bronze
 	period = copper_age
@@ -8,7 +8,7 @@ bronzeworking = {
 
 ironworking = {
 	name = "Ironworking"
-	category = industry
+	subcategory = metallurgy
 	portrait = engineering
 	icon = iron
 	period = bronze_age
@@ -20,7 +20,7 @@ ironworking = {
 
 crucible_process = {
 	name = "Crucible Process"
-	category = industry
+	subcategory = metallurgy
 	portrait = factory
 	icon = steel
 	period = 1650_1700
@@ -33,7 +33,7 @@ crucible_process = {
 
 bessemer_converter = {
 	name = "Bessemer Converter"
-	category = industry
+	subcategory = metallurgy
 	portrait = factory
 	icon = steel
 	period = 1825_1850

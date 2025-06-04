@@ -1,6 +1,6 @@
 cotton_weaving = {
 	name = "Cotton Weaving"
-	category = industry
+	subcategory = handicraft
 	portrait = engineering
 	icon = fabric
 	period = bronze_age
@@ -11,7 +11,7 @@ cotton_weaving = {
 
 spinning_jenny = {
 	name = "Spinning Jenny"
-	category = gathering
+	subcategory = mechanization
 	portrait = factory
 	icon = fabric
 	period = 1700_1750
@@ -27,7 +27,7 @@ spinning_jenny = {
 
 power_loom = {
 	name = "Power Loom"
-	category = gathering
+	subcategory = mechanization
 	portrait = factory
 	icon = fabric
 	period = 1825_1850

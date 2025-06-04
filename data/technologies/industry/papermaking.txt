@@ -1,6 +1,6 @@
 papermaking = {
 	name = "Papermaking"
-	category = industry
+	subcategory = handicraft
 	portrait = engineering
 	icon = paper
 	period = 1400_1500

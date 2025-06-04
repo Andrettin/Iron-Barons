@@ -10,6 +10,12 @@ farming_techniques = {
 	icon = grain
 }
 
+fur_trapping = {
+	name = "Fur Trapping"
+	category = gathering
+	icon = furs
+}
+
 livestock_herding = {
 	name = "Livestock Herding"
 	category = gathering
@@ -20,4 +26,10 @@ mining = {
 	name = "Mining"
 	category = gathering
 	icon = iron_ore
+}
+
+timber_harvesting = {
+	name = "Timber Harvesting"
+	category = gathering
+	icon = timber
 }

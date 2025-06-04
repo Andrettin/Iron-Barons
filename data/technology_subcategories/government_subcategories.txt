@@ -1,0 +1,11 @@
+political_thought = {
+	name = "Political Thought"
+	category = government
+	icon = bell
+}
+
+social_thought = {
+	name = "Political Thought"
+	category = government
+	icon = philosophy
+}
