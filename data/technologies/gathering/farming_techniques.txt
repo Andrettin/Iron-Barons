@@ -1,6 +1,6 @@
 two_field_system = {
 	name = "Two-Field System"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = grain
 	period = 1000_1100
@@ -16,7 +16,7 @@ two_field_system = {
 
 three_field_system = {
 	name = "Three-Field System"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = grain
 	period = 1100_1200
@@ -32,7 +32,7 @@ three_field_system = {
 
 stripe_plowing = {
 	name = "Stripe Plowing"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = grain
 	period = 1200_1300
@@ -48,7 +48,7 @@ stripe_plowing = {
 
 soil_amelioration = {
 	name = "Soil Amelioration"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = grain
 	period = 1300_1400
@@ -64,7 +64,7 @@ soil_amelioration = {
 
 rooting_out = {
 	name = "Rooting Out"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = grain
 	period = 1400_1500

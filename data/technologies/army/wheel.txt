@@ -1,6 +1,6 @@
 wheel = {
 	name = "Wheel"
-	category = army
+	subcategory = army_doctrine
 	portrait = engineering
 	icon = cog
 	period = copper_age

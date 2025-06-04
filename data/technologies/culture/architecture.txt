@@ -1,6 +1,6 @@
 basilican_structures = {
 	name = "Basilican Structures"
-	category = culture
+	subcategory = architecture
 	portrait = temple
 	icon = architecture
 	period = 1000_1100
@@ -12,7 +12,7 @@ basilican_structures = {
 
 brickwork_structures = {
 	name = "Brickwork Structures"
-	category = culture
+	subcategory = architecture
 	portrait = temple
 	icon = architecture
 	period = 1100_1200
@@ -23,7 +23,7 @@ brickwork_structures = {
 
 romanesque_vaulting = {
 	name = "Romanesque Vaulting"
-	category = culture
+	subcategory = architecture
 	portrait = temple
 	icon = architecture
 	period = 1200_1300
@@ -34,7 +34,7 @@ romanesque_vaulting = {
 
 cylindrical_structures = {
 	name = "Cylindrical Structures"
-	category = culture
+	subcategory = architecture
 	portrait = temple
 	icon = architecture
 	period = 1300_1400
@@ -45,7 +45,7 @@ cylindrical_structures = {
 
 gothic_buttresses = {
 	name = "Gothic Buttresses"
-	category = culture
+	subcategory = architecture
 	portrait = temple
 	icon = architecture
 	period = 1400_1500

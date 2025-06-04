@@ -1,6 +1,6 @@
 warrior_code = {
 	name = "Warrior Code"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = saber
 	period = copper_age
@@ -8,7 +8,7 @@ warrior_code = {
 
 horseback_riding = {
 	name = "Horseback Riding"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = horses
 	period = bronze_age
@@ -20,7 +20,7 @@ horseback_riding = {
 
 chivalry = {
 	name = "Chivalry"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = heater_shield
 	period = 1000_1100
@@ -33,7 +33,7 @@ chivalry = {
 
 recruit_steppe_horsemen = {
 	name = "Recruit Steppe Horsemen"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = horses
 	period = 1550_1600
@@ -44,7 +44,7 @@ recruit_steppe_horsemen = {
 
 hussars = {
 	name = "Hussars"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = saber
 	period = 1650_1700
@@ -56,7 +56,7 @@ hussars = {
 
 elite_military_training = {
 	name = "Elite Military Training"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = rifle
 	period = 1800_1825
@@ -69,7 +69,7 @@ elite_military_training = {
 
 scouting = {
 	name = "Scouting"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = rifle
 	period = 1750_1800

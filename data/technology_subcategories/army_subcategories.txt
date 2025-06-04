@@ -1,0 +1,107 @@
+bows = {
+	name = "Bows"
+	category = army
+	icon = bow
+}
+
+crossbows = {
+	name = "Crossbows"
+	category = army
+	icon = bow
+}
+
+crushing_weapons = {
+	name = "Crushing Weapons"
+	category = army
+	icon = saber
+}
+
+slashing_weapons = {
+	name = "Slashing Weapons"
+	category = army
+	icon = saber
+}
+
+piercing_weapons = {
+	name = "Piercing Weapons"
+	category = army
+	icon = saber
+}
+
+leather_armor = {
+	name = "Leather Armor"
+	category = army
+	icon = heater_shield
+}
+
+chain_armor = {
+	name = "Chain Armor"
+	category = army
+	icon = heater_shield
+}
+
+plate_armor = {
+	name = "Plate Armor"
+	category = army
+	icon = heater_shield
+}
+
+shields = {
+	name = "Shields"
+	category = army
+	icon = heater_shield
+}
+
+siege_equipment = {
+	name = "Siege Equipment"
+	category = army
+	icon = saber
+}
+
+castles = {
+	name = "Castles"
+	category = army
+	icon = wall
+}
+
+light_armament = {
+	name = "Light Armament"
+	category = army
+	icon = musket
+}
+
+heavy_armament = {
+	name = "Heavy Armament"
+	category = army
+	icon = cannon
+}
+
+defensive_tactics = {
+	name = "Defensive Tactics"
+	category = army
+	icon = saber
+}
+
+offensive_tactics = {
+	name = "Offensive Tactics"
+	category = army
+	icon = saber
+}
+
+army_doctrine = {
+	name = "Army Doctrine"
+	category = army
+	icon = saber
+}
+
+#military_science = {
+#	name = "Military Science"
+#	category = army
+#	icon = saber
+#}
+
+army_leadership = {
+	name = "Army Leadership"
+	category = army
+	icon = saber
+}

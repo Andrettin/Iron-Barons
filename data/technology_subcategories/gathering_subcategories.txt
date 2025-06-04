@@ -1,0 +1,23 @@
+farming_equipment = {
+	name = "Farming Equipment"
+	category = gathering
+	icon = grain
+}
+
+farming_techniques = {
+	name = "Farming Techniques"
+	category = gathering
+	icon = grain
+}
+
+livestock_herding = {
+	name = "Livestock Herding"
+	category = gathering
+	icon = cattle
+}
+
+mining = {
+	name = "Mining"
+	category = gathering
+	icon = iron_ore
+}

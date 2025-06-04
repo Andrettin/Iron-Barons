@@ -1,6 +1,6 @@
 scalemail = {
 	name = "Scalemail"
-	category = army
+	subcategory = plate_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1000_1100
@@ -18,7 +18,7 @@ scalemail = {
 
 banded_mail = {
 	name = "Banded Mail"
-	category = army
+	subcategory = plate_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1100_1200
@@ -35,7 +35,7 @@ banded_mail = {
 
 half_plate = {
 	name = "Half Plate"
-	category = army
+	subcategory = plate_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1200_1300
@@ -52,7 +52,7 @@ half_plate = {
 
 platemail = {
 	name = "Platemail"
-	category = army
+	subcategory = plate_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
@@ -69,7 +69,7 @@ platemail = {
 
 full_plate = {
 	name = "Full Plate"
-	category = army
+	subcategory = plate_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1400_1500

@@ -1,6 +1,6 @@
 cotton = {
 	name = "Cotton"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = cotton
 	discovery = true
@@ -9,7 +9,7 @@ cotton = {
 
 cotton_planting = {
 	name = "Cotton Planting"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = cotton
 	period = bronze_age
@@ -20,7 +20,7 @@ cotton_planting = {
 
 large_cotton_plantations = {
 	name = "Large Cotton Plantations"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = cotton
 	period = 1550_1600
@@ -33,7 +33,7 @@ large_cotton_plantations = {
 
 cotton_gin = {
 	name = "Cotton Gin"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = cotton
 	period = 1650_1700

@@ -1,6 +1,6 @@
 copper_and_tin_mining = {
 	name = "Copper and Tin Mining"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = copper
 	period = 1550_1600
@@ -11,7 +11,7 @@ copper_and_tin_mining = {
 
 large_copper_and_tin_mines = {
 	name = "Large Copper and Tin Mines"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = copper
 	period = 1600_1650
@@ -22,7 +22,7 @@ large_copper_and_tin_mines = {
 
 efficient_extraction_of_copper_and_tin = {
 	name = "Efficient Extraction of Copper and Tin"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = copper
 	period = 1700_1750

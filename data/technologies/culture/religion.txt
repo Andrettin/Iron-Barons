@@ -1,6 +1,6 @@
 ceremonial_burial = {
 	name = "Ceremonial Burial"
-	category = culture
+	subcategory = religious_customs
 	portrait = temple
 	icon = wooden_cross
 	period = copper_age
@@ -8,7 +8,7 @@ ceremonial_burial = {
 
 mysticism = {
 	name = "Mysticism"
-	category = culture
+	subcategory = religious_customs
 	portrait = temple
 	icon = wooden_cross
 	period = bronze_age
@@ -23,7 +23,7 @@ mysticism = {
 
 polytheism = {
 	name = "Polytheism"
-	category = culture
+	subcategory = religious_customs
 	portrait = temple
 	icon = wooden_cross
 	period = iron_age
@@ -34,7 +34,7 @@ polytheism = {
 
 monotheism = {
 	name = "Monotheism"
-	category = culture
+	subcategory = religious_customs
 	portrait = temple
 	icon = wooden_cross
 	period = 500_1000
@@ -46,7 +46,7 @@ monotheism = {
 
 relics = {
 	name = "Relics"
-	category = culture
+	subcategory = spiritual_art
 	portrait = temple
 	icon = wooden_cross
 	period = 1000_1100
@@ -61,7 +61,7 @@ relics = {
 
 theology = {
 	name = "Theology"
-	category = culture
+	subcategory = religious_customs
 	portrait = temple
 	icon = wooden_cross
 	period = 1000_1100
@@ -76,7 +76,7 @@ theology = {
 
 fundamentalism = {
 	name = "Fundamentalism"
-	category = culture
+	subcategory = religious_customs
 	portrait = temple
 	icon = wooden_cross
 	period = 1800_1825

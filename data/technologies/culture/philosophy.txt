@@ -1,6 +1,6 @@
 philosophy = {
 	name = "Philosophy"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = philosophy
 	period = 1_500
@@ -13,7 +13,7 @@ philosophy = {
 
 aristotelian_logic = {
 	name = "Aristotelian Logic"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = philosophy
 	period = 1000_1100
@@ -26,7 +26,7 @@ aristotelian_logic = {
 
 scholastics = {
 	name = "Scholastics"
-	category = culture
+	subcategory = philosophy
 	portrait = frankish_cleric
 	icon = wooden_cross
 	period = 1100_1200
@@ -38,7 +38,7 @@ scholastics = {
 
 natural_philosophy = {
 	name = "Natural Philosophy"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = philosophy
 	period = 1300_1400
@@ -50,7 +50,7 @@ natural_philosophy = {
 
 scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 252.
 	name = "Scientific Method"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = research
 	period = 1600_1650
@@ -71,7 +71,7 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 
 enlightenment_philosophy = {
 	name = "Enlightenment Philosophy"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = research
 	period = 1750_1800
@@ -87,7 +87,7 @@ enlightenment_philosophy = {
 
 idealism = {
 	name = "Idealism"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = research
 	period = 1800_1825
@@ -101,7 +101,7 @@ idealism = {
 
 empiricism = {
 	name = "Empiricism"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = research
 	period = 1825_1850
@@ -115,7 +115,7 @@ empiricism = {
 
 analytic_philosophy = {
 	name = "Analytic Philosophy"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = research
 	period = 1850_1875
@@ -129,7 +129,7 @@ analytic_philosophy = {
 
 phenomenology = {
 	name = "Phenomenology"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = research
 	period = 1875_1900
@@ -144,7 +144,7 @@ phenomenology = {
 
 hermeneutics = {
 	name = "Hermeneutics"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = research
 	period = 1875_1900
@@ -159,7 +159,7 @@ hermeneutics = {
 
 anti_rationalism = {
 	name = "Anti-Rationalism"
-	category = culture
+	subcategory = philosophy
 	portrait = scholar
 	icon = research
 	period = 1900_1925

@@ -1,8 +1,8 @@
 hill_fort = {
 	name = "Hill Fort"
-	category = army
+	subcategory = castles
 	portrait = engineering
-	icon = architecture
+	icon = wall
 	period = 1000_1100
 	prerequisites = {
 		feudalism
@@ -11,9 +11,9 @@ hill_fort = {
 
 small_castle = {
 	name = "Small Castle"
-	category = army
+	subcategory = castles
 	portrait = engineering
-	icon = architecture
+	icon = wall
 	period = 1100_1200
 	prerequisites = {
 		hill_fort
@@ -22,9 +22,9 @@ small_castle = {
 
 medium_castle = {
 	name = "Medium Castle"
-	category = army
+	subcategory = castles
 	portrait = engineering
-	icon = architecture
+	icon = wall
 	period = 1200_1300
 	prerequisites = {
 		small_castle
@@ -33,9 +33,9 @@ medium_castle = {
 
 large_castle = {
 	name = "Large Castle"
-	category = army
+	subcategory = castles
 	portrait = engineering
-	icon = architecture
+	icon = wall
 	period = 1300_1400
 	prerequisites = {
 		medium_castle
@@ -44,9 +44,9 @@ large_castle = {
 
 huge_castle = {
 	name = "Huge Castle"
-	category = army
+	subcategory = castles
 	portrait = engineering
-	icon = architecture
+	icon = wall
 	period = 1400_1500
 	prerequisites = {
 		large_castle
@@ -55,7 +55,7 @@ huge_castle = {
 
 mine_engineering = {
 	name = "Mine Engineering"
-	category = army
+	subcategory = army_doctrine
 	portrait = engineering
 	icon = architecture
 	period = 1500_1550
@@ -67,7 +67,7 @@ mine_engineering = {
 
 modern_fortifications = {
 	name = "Modern Fortifications"
-	category = army
+	subcategory = army_doctrine
 	portrait = fort
 	icon = wall
 	period = 1650_1700

@@ -1,6 +1,6 @@
 battering_ram = {
 	name = "Battering Ram"
-	category = army
+	subcategory = siege_equipment
 	portrait = helmet
 	icon = saber
 	period = 1000_1100
@@ -12,7 +12,7 @@ battering_ram = {
 
 siege_ladders = {
 	name = "Siege Ladders"
-	category = army
+	subcategory = siege_equipment
 	portrait = helmet
 	icon = saber
 	period = 1100_1200
@@ -23,7 +23,7 @@ siege_ladders = {
 
 siege_towers = {
 	name = "Siege Towers"
-	category = army
+	subcategory = siege_equipment
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
@@ -34,7 +34,7 @@ siege_towers = {
 
 mangonel = {
 	name = "Mangonel"
-	category = army
+	subcategory = siege_equipment
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
@@ -49,7 +49,7 @@ mangonel = {
 
 trebuchet = {
 	name = "Trebuchet"
-	category = army
+	subcategory = siege_equipment
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
@@ -63,7 +63,7 @@ trebuchet = {
 
 siege_engineering = {
 	name = "Siege Engineering"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1600_1650
@@ -75,7 +75,7 @@ siege_engineering = {
 
 horse_artillery = {
 	name = "Horse Artillery"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1600_1650
@@ -87,7 +87,7 @@ horse_artillery = {
 
 heavy_artillery = {
 	name = "Heavy Artillery"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1700_1750
@@ -100,7 +100,7 @@ heavy_artillery = {
 
 light_artillery_tactics = {
 	name = "Light Artillery Tactics"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1700_1750
@@ -113,7 +113,7 @@ light_artillery_tactics = {
 
 heavy_emplaced_artillery = {
 	name = "Heavy Emplaced Artillery"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1650_1700
@@ -126,7 +126,7 @@ heavy_emplaced_artillery = {
 
 high_grade_steel = {
 	name = "High Grade Steel"
-	category = army
+	subcategory = heavy_armament
 	portrait = factory
 	icon = steel
 	period = 1800_1825
@@ -139,7 +139,7 @@ high_grade_steel = {
 
 rifled_artillery = {
 	name = "Rifled Artillery"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1800_1825
@@ -152,7 +152,7 @@ rifled_artillery = {
 
 field_artillery_tactics = {
 	name = "Field Artillery Tactics"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1800_1825
@@ -164,7 +164,7 @@ field_artillery_tactics = {
 
 emplaced_siege_guns = {
 	name = "Emplaced Siege Guns"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1750_1800
@@ -176,7 +176,7 @@ emplaced_siege_guns = {
 
 large_artillery = {
 	name = "Large Artillery"
-	category = army
+	subcategory = heavy_armament
 	portrait = engineering
 	icon = cannon
 	period = 1850_1875

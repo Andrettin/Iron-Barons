@@ -1,6 +1,6 @@
 handaxe = {
 	name = "Handaxe"
-	category = army
+	subcategory = crushing_weapons
 	portrait = helmet
 	icon = saber
 	period = bronze_age
@@ -11,7 +11,7 @@ handaxe = {
 
 battleaxe = {
 	name = "Battleaxe"
-	category = army
+	subcategory = crushing_weapons
 	portrait = helmet
 	icon = saber
 	period = iron_age

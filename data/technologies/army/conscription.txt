@@ -1,6 +1,6 @@
 conscription = {
 	name = "Conscription"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = saber
 	period = 1750_1800

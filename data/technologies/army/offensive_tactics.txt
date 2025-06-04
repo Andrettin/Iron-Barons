@@ -1,6 +1,6 @@
 offensive_terrain = {
 	name = "Offensive Terrain"
-	category = army
+	subcategory = offensive_tactics
 	portrait = helmet
 	icon = mountains
 	period = 1000_1100
@@ -17,7 +17,7 @@ offensive_terrain = {
 
 frontal_charge = {
 	name = "Frontal Charge"
-	category = army
+	subcategory = offensive_tactics
 	portrait = helmet
 	icon = saber
 	period = 1100_1200
@@ -34,7 +34,7 @@ frontal_charge = {
 
 reserves = {
 	name = "Reserves"
-	category = army
+	subcategory = offensive_tactics
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
@@ -53,7 +53,7 @@ reserves = {
 
 dismounted_knights = {
 	name = "Dismounted Knights"
-	category = army
+	subcategory = offensive_tactics
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
@@ -73,7 +73,7 @@ dismounted_knights = {
 
 hierarchical_command = {
 	name = "Hierarchical Command"
-	category = army
+	subcategory = offensive_tactics
 	portrait = helmet
 	icon = saber
 	period = 1400_1500

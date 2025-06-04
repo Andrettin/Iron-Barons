@@ -1,6 +1,6 @@
 crop_rotation = {
 	name = "Crop Rotation"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = cattle
 	period = 1500_1550
@@ -11,7 +11,7 @@ crop_rotation = {
 
 animal_husbandry = {
 	name = "Animal Husbandry"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = cattle
 	period = 1550_1600
@@ -22,7 +22,7 @@ animal_husbandry = {
 
 scientific_cattle_breeding = {
 	name = "Scientific Cattle Breeding"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = cattle
 	period = 1650_1700
@@ -34,7 +34,7 @@ scientific_cattle_breeding = {
 
 feed_grasses = {
 	name = "Feed Grasses"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = cattle
 	period = 1800_1825
@@ -46,7 +46,7 @@ feed_grasses = {
 
 mechanized_slaughtering_block = {
 	name = "Mechanized Slaughtering-Block"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = cattle
 	period = 1800_1825
@@ -61,7 +61,7 @@ mechanized_slaughtering_block = {
 
 barbed_wire = {
 	name = "Barbed Wire"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = cattle
 	period = 1850_1875

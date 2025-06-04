@@ -1,6 +1,6 @@
 defensive_terrain = {
 	name = "Defensive Terrain"
-	category = army
+	subcategory = defensive_tactics
 	portrait = helmet
 	icon = mountains
 	period = 1000_1100
@@ -19,7 +19,7 @@ defensive_terrain = {
 
 positional_combat = {
 	name = "Positional Combat"
-	category = army
+	subcategory = defensive_tactics
 	portrait = helmet
 	icon = crossed_sabers
 	period = 1100_1200
@@ -38,7 +38,7 @@ positional_combat = {
 
 missile_barrage = {
 	name = "Missile Barrage"
-	category = army
+	subcategory = defensive_tactics
 	portrait = helmet
 	icon = bow
 	period = 1200_1300
@@ -53,7 +53,7 @@ missile_barrage = {
 
 drilled_pikemen = {
 	name = "Drilled Pikemen"
-	category = army
+	subcategory = defensive_tactics
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
@@ -71,7 +71,7 @@ drilled_pikemen = {
 
 pike_square = {
 	name = "Pike Square"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
@@ -86,7 +86,7 @@ pike_square = {
 
 unit_organization = {
 	name = "Unit Organization"
-	category = army
+	subcategory = defensive_tactics
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
@@ -109,7 +109,7 @@ unit_organization = {
 
 pike_and_shot = {
 	name = "Pike and Shot"
-	category = army
+	subcategory = army_doctrine
 	portrait = helmet
 	icon = saber
 	period = 1500_1550

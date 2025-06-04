@@ -1,6 +1,6 @@
 soft_leather_armor = {
 	name = "Soft Leather Armor"
-	category = army
+	subcategory = leather_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1000_1100
@@ -15,7 +15,7 @@ soft_leather_armor = {
 
 reinforced_leather_armor = {
 	name = "Reinforced Leather Armor"
-	category = army
+	subcategory = leather_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1100_1200
@@ -30,7 +30,7 @@ reinforced_leather_armor = {
 
 boiled_leather_armor = {
 	name = "Boiled Leather Armor"
-	category = army
+	subcategory = leather_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1200_1300
@@ -45,7 +45,7 @@ boiled_leather_armor = {
 
 rigid_leather_armor = {
 	name = "Rigid Leather Armor"
-	category = army
+	subcategory = leather_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
@@ -60,7 +60,7 @@ rigid_leather_armor = {
 
 scaled_leather_armor = {
 	name = "Scaled Leather Armor"
-	category = army
+	subcategory = leather_armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1400_1500

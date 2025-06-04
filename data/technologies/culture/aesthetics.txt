@@ -1,6 +1,6 @@
 jongleurs = {
 	name = "Jongleurs"
-	category = culture
+	subcategory = popular_customs
 	portrait = engineering
 	icon = music
 	period = 1100_1200
@@ -16,7 +16,7 @@ jongleurs = {
 
 music_notation_system = {
 	name = "Music Notation System"
-	category = culture
+	subcategory = aesthetics
 	portrait = temple
 	icon = music
 	period = 1100_1200
@@ -31,7 +31,7 @@ music_notation_system = {
 
 ballads = {
 	name = "Ballads"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = music
 	period = 1200_1300
@@ -48,7 +48,7 @@ ballads = {
 
 choir_songs = {
 	name = "Choir Songs"
-	category = culture
+	subcategory = spiritual_art
 	portrait = temple
 	icon = music
 	period = 1200_1300
@@ -63,7 +63,7 @@ choir_songs = {
 
 troubadours = {
 	name = "Troubadours"
-	category = culture
+	subcategory = popular_customs
 	portrait = engineering
 	icon = music
 	period = 1200_1300
@@ -80,7 +80,7 @@ troubadours = {
 
 tapestries = {
 	name = "Tapestries"
-	category = culture
+	subcategory = spiritual_art
 	portrait = temple
 	icon = painting
 	period = 1300_1400
@@ -96,7 +96,7 @@ tapestries = {
 
 music_theory = {
 	name = "Music Theory"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = music
 	period = 1500_1550
@@ -110,7 +110,7 @@ music_theory = {
 
 classicism = {
 	name = "Classicism"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1750_1800
@@ -126,7 +126,7 @@ classicism = {
 
 romanticism = {
 	name = "Romanticism"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1800_1825
@@ -141,7 +141,7 @@ romanticism = {
 
 realism = {
 	name = "Realism"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1825_1850
@@ -156,7 +156,7 @@ realism = {
 
 impressionism = {
 	name = "Impressionism"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1850_1875
@@ -171,7 +171,7 @@ impressionism = {
 
 expressionism = {
 	name = "Expressionism"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1875_1900
@@ -186,7 +186,7 @@ expressionism = {
 
 mass_culture = {
 	name = "Mass Culture"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = music
 	period = 1900_1925
@@ -200,7 +200,7 @@ mass_culture = {
 
 avant_garde_art = {
 	name = "Avant-garde Art"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1900_1925
@@ -215,7 +215,7 @@ avant_garde_art = {
 
 jazz = {
 	name = "Jazz"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = music
 	period = 1900_1925
@@ -227,7 +227,7 @@ jazz = {
 
 modern_design = {
 	name = "Modern Design"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1900_1925
@@ -239,7 +239,7 @@ modern_design = {
 
 socialist_realism = {
 	name = "Socialist Realism"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1900_1925
@@ -251,7 +251,7 @@ socialist_realism = {
 
 surrealism = {
 	name = "Surrealism"
-	category = culture
+	subcategory = aesthetics
 	portrait = engineering
 	icon = painting
 	period = 1900_1925

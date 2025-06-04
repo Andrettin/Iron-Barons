@@ -1,6 +1,6 @@
 precious_stones = {
 	name = "Precious Stones"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = gems
 	discovery = true
@@ -9,7 +9,7 @@ precious_stones = {
 
 precious_stone_mining = {
 	name = "Precious Stone Mining"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = gems
 	period = bronze_age
@@ -20,7 +20,7 @@ precious_stone_mining = {
 
 large_precious_stone_mines = {
 	name = "Large Precious Stone Mines"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = gems
 	period = 1650_1700
@@ -32,7 +32,7 @@ large_precious_stone_mines = {
 
 geological_prospecting = {
 	name = "Geological Prospecting"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = gems
 	period = 1800_1825

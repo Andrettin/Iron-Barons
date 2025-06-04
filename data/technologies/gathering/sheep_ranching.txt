@@ -1,6 +1,6 @@
 sheep_ranching = {
 	name = "Sheep Ranching"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = wool
 	period = 1550_1600
@@ -11,7 +11,7 @@ sheep_ranching = {
 
 scientific_sheep_breeding = {
 	name = "Scientific Sheep Breeding"
-	category = gathering
+	subcategory = livestock_herding
 	portrait = engineering
 	icon = wool
 	period = 1650_1700

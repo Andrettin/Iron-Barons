@@ -1,6 +1,6 @@
 wood_plow = {
 	name = "Wood Plow"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = copper_age
@@ -25,7 +25,7 @@ wood_plow = {
 
 iron_tipped_wood_plow = {
 	name = "Iron-Tipped Wood Plow"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = iron_age
@@ -54,7 +54,7 @@ iron_tipped_wood_plow = {
 
 iron_plow = {
 	name = "Iron Plow"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = 1_500
@@ -82,7 +82,7 @@ iron_plow = {
 
 land_enclosure = {
 	name = "Land Enclosure"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = grain
 	period = 1500_1550
@@ -95,7 +95,7 @@ land_enclosure = {
 
 seed_drill = {
 	name = "Seed Drill"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = 1550_1600
@@ -106,7 +106,7 @@ seed_drill = {
 
 moldboard_plow = {
 	name = "Moldboard Plow"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = 1825_1850
@@ -131,7 +131,7 @@ moldboard_plow = {
 
 mechanical_reaper = {
 	name = "Mechanical Reaper"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = 1850_1875

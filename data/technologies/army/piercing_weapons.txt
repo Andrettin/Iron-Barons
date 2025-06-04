@@ -1,6 +1,6 @@
 longspear = {
 	name = "Longspear"
-	category = army
+	subcategory = piercing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1000_1100
@@ -14,7 +14,7 @@ longspear = {
 
 pike = {
 	name = "Pike"
-	category = army
+	subcategory = piercing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1100_1200
@@ -27,7 +27,7 @@ pike = {
 
 lance = {
 	name = "Lance"
-	category = army
+	subcategory = piercing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
@@ -44,7 +44,7 @@ lance = {
 
 heavy_lance = {
 	name = "Heavy Lance"
-	category = army
+	subcategory = piercing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
@@ -58,7 +58,7 @@ heavy_lance = {
 
 standardized_pikes = {
 	name = "Standardized Pikes"
-	category = army
+	subcategory = piercing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
@@ -73,7 +73,7 @@ standardized_pikes = {
 
 halberd = {
 	name = "Halberd"
-	category = army
+	subcategory = piercing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1600_1650

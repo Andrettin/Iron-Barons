@@ -1,6 +1,6 @@
 pitchfork = {
 	name = "Pitchfork"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = 1300_1400
@@ -18,7 +18,7 @@ pitchfork = {
 
 harrow = {
 	name = "Harrow"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = 1300_1400
@@ -36,7 +36,7 @@ harrow = {
 
 padded_horse_collar = {
 	name = "Padded Horse Collar"
-	category = gathering
+	subcategory = farming_equipment
 	portrait = engineering
 	icon = grain
 	period = 1400_1500

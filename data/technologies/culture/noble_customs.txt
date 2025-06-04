@@ -1,6 +1,6 @@
 divine_right = {
 	name = "Divine Right"
-	category = culture
+	subcategory = noble_customs
 	portrait = grand_ducal_crown
 	icon = crown_royal
 	period = 1000_1100
@@ -14,7 +14,7 @@ divine_right = {
 
 chronicle_writing = {
 	name = "Chronicle Writing"
-	category = culture
+	subcategory = noble_customs
 	portrait = comital_crown
 	icon = treaty
 	period = 1100_1200
@@ -28,7 +28,7 @@ chronicle_writing = {
 
 romantic_poetry = {
 	name = "Romantic Poetry"
-	category = culture
+	subcategory = noble_customs
 	portrait = comital_crown
 	icon = music
 	period = 1200_1300
@@ -42,7 +42,7 @@ romantic_poetry = {
 
 heraldry = {
 	name = "Heraldry"
-	category = culture
+	subcategory = noble_customs
 	portrait = comital_crown
 	icon = heater_shield
 	period = 1300_1400
@@ -58,7 +58,7 @@ heraldry = {
 
 noblesse_oblige = {
 	name = "Noblesse Oblige"
-	category = culture
+	subcategory = noble_customs
 	portrait = comital_crown
 	icon = crown_comital
 	period = 1400_1500

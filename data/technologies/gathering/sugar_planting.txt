@@ -1,6 +1,6 @@
 sugar_cane = {
 	name = "Sugar Cane"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = sugar_cane
 	discovery = true
@@ -9,7 +9,7 @@ sugar_cane = {
 
 sugar_planting = {
 	name = "Sugar Planting"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = sugar_cane
 	period = bronze_age
@@ -20,7 +20,7 @@ sugar_planting = {
 
 large_sugar_plantations = {
 	name = "Large Sugar Plantations"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = sugar_cane
 	period = 1550_1600
@@ -33,7 +33,7 @@ large_sugar_plantations = {
 
 sugar_industry = {
 	name = "Sugar Industry"
-	category = gathering
+	subcategory = farming_techniques
 	portrait = engineering
 	icon = sugar_cane
 	period = 1600_1650

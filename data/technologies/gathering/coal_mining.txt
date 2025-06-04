@@ -1,6 +1,6 @@
 coal_mining = {
 	name = "Coal Mining"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = coal
 	period = 1550_1600
@@ -11,7 +11,7 @@ coal_mining = {
 
 large_coal_mines = {
 	name = "Large Coal Mines"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = coal
 	period = 1600_1650
@@ -23,7 +23,7 @@ large_coal_mines = {
 
 square_set_timbering = {
 	name = "Square-Set Timbering"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = coal
 	period = 1650_1700
@@ -35,7 +35,7 @@ square_set_timbering = {
 
 safety_lamp = {
 	name = "Safety Lamp"
-	category = gathering
+	subcategory = mining
 	portrait = oil_lamp
 	icon = coal
 	period = 1800_1825

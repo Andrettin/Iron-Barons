@@ -1,6 +1,6 @@
 divine_duty = {
 	name = "Divine Duty"
-	category = culture
+	subcategory = popular_customs
 	portrait = baronial_crown
 	icon = crown_baronial
 	period = 1000_1100
@@ -16,7 +16,7 @@ divine_duty = {
 
 miracle_plays = {
 	name = "Miracle Plays"
-	category = culture
+	subcategory = popular_customs
 	portrait = engineering
 	icon = music
 	period = 1300_1400
@@ -32,7 +32,7 @@ miracle_plays = {
 
 carnivals = {
 	name = "Carnivals"
-	category = culture
+	subcategory = popular_customs
 	portrait = engineering
 	icon = music
 	period = 1400_1500

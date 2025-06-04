@@ -1,6 +1,6 @@
 mace = {
 	name = "Mace"
-	category = army
+	subcategory = crushing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
@@ -13,7 +13,7 @@ mace = {
 
 warhammer = {
 	name = "Warhammer"
-	category = army
+	subcategory = crushing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
@@ -27,7 +27,7 @@ warhammer = {
 
 morningstar = {
 	name = "Morningstar"
-	category = army
+	subcategory = crushing_weapons
 	portrait = helmet
 	icon = saber
 	period = 1400_1500

@@ -1,6 +1,6 @@
 oil_drilling = {
 	name = "Oil Drilling"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = oil
 	period = 1850_1875
@@ -11,7 +11,7 @@ oil_drilling = {
 
 chemistry = {
 	name = "Chemistry"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = fuel
 	period = 1875_1900
@@ -25,7 +25,7 @@ chemistry = {
 
 internal_combustion = {
 	name = "Internal Combustion"
-	category = gathering
+	subcategory = mining
 	portrait = factory
 	icon = fuel
 	period = 1900_1925

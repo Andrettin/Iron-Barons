@@ -1,6 +1,6 @@
 astrology = {
 	name = "Astrology"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = research
 	period = 1200_1300
@@ -11,7 +11,7 @@ astrology = {
 
 astronomy = {
 	name = "Astronomy"
-	category = culture
+	subcategory = philosophy
 	portrait = engineering
 	icon = research
 	period = 1500_1550
