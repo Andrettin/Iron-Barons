@@ -1,6 +1,6 @@
 seven_liberal_arts = {
 	name = "Seven Liberal Arts"
-	subcategory = schools
+	subcategory = education
 	portrait = university
 	icon = university
 	period = 1000_1100
@@ -13,7 +13,7 @@ seven_liberal_arts = {
 
 monastic_school = {
 	name = "Monastic School"
-	subcategory = schools
+	subcategory = education
 	portrait = university
 	icon = university
 	period = 1100_1200
@@ -24,7 +24,7 @@ monastic_school = {
 
 cathedral_school = {
 	name = "Cathedral School"
-	subcategory = schools
+	subcategory = education
 	portrait = university
 	icon = university
 	period = 1200_1300
@@ -35,7 +35,7 @@ cathedral_school = {
 
 university = {
 	name = "University"
-	subcategory = schools
+	subcategory = education
 	portrait = university
 	icon = university
 	period = 1300_1400
@@ -52,7 +52,7 @@ university = {
 
 academic_disciplines = {
 	name = "Academic Disciplines"
-	subcategory = schools
+	subcategory = education
 	portrait = university
 	icon = university
 	period = 1400_1500

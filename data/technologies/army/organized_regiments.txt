@@ -1,6 +1,6 @@
 organized_regiments = {
 	name = "Organized Regiments"
-	subcategory = army_doctrine
+	subcategory = cavalry
 	portrait = helmet
 	icon = saber
 	period = 1550_1600

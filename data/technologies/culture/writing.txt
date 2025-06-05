@@ -1,6 +1,6 @@
 writing = {
 	name = "Writing"
-	subcategory = schools
+	subcategory = education
 	portrait = engineering
 	icon = treaty
 	period = copper_age
@@ -8,7 +8,7 @@ writing = {
 
 alphabet = {
 	name = "Alphabet"
-	subcategory = schools
+	subcategory = education
 	portrait = engineering
 	icon = treaty
 	period = bronze_age
@@ -19,7 +19,7 @@ alphabet = {
 
 literature = {
 	name = "Literature"
-	subcategory = schools
+	subcategory = education
 	portrait = engineering
 	icon = treaty
 	period = iron_age
@@ -31,7 +31,7 @@ literature = {
 
 printing_press = {
 	name = "Printing Press"
-	subcategory = schools
+	subcategory = education
 	portrait = engineering
 	icon = newspaper
 	period = 1550_1600

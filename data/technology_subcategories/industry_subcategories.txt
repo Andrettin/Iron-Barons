@@ -4,14 +4,14 @@ infrastructure = {
 	icon = railroad
 }
 
-manufacturing = {
-	name = "Manufacturing"
-	category = industry
-	icon = cog
-}
-
 metallurgy = {
 	name = "Metallurgy"
 	category = industry
 	icon = iron
+}
+
+manufacturing = {
+	name = "Manufacturing"
+	category = industry
+	icon = cog
 }

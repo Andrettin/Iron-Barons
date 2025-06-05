@@ -4,6 +4,12 @@ political_thought = {
 	icon = bell
 }
 
+diplomacy = {
+	name = "Diplomacy"
+	category = government
+	icon = treaty
+}
+
 social_thought = {
 	name = "Social Thought"
 	category = government

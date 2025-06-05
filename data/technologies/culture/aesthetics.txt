@@ -48,7 +48,7 @@ ballads = {
 
 choir_songs = {
 	name = "Choir Songs"
-	subcategory = spiritual_art
+	subcategory = aesthetics
 	portrait = temple
 	icon = music
 	period = 1200_1300
@@ -80,7 +80,7 @@ troubadours = {
 
 tapestries = {
 	name = "Tapestries"
-	subcategory = spiritual_art
+	subcategory = aesthetics
 	portrait = temple
 	icon = painting
 	period = 1300_1400

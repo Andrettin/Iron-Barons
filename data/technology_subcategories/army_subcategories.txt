@@ -1,61 +1,25 @@
-bows = {
-	name = "Bows"
-	category = army
-	icon = bow
-}
-
-crushing_weapons = {
-	name = "Crushing Weapons"
+infantry = {
+	name = "Infantry"
 	category = army
 	icon = saber
 }
 
-slashing_weapons = {
-	name = "Slashing Weapons"
+cavalry = {
+	name = "Cavalry"
 	category = army
-	icon = saber
+	icon = horses
 }
 
-piercing_weapons = {
-	name = "Piercing Weapons"
+siege_weapons = {
+	name = "Siege Weapons"
 	category = army
-	icon = saber
-}
-
-armor = {
-	name = "Armor"
-	category = army
-	icon = heater_shield
+	icon = cannon
 }
 
 fortifications = {
 	name = "Fortifications"
 	category = army
 	icon = wall
-}
-
-light_armament = {
-	name = "Light Armament"
-	category = army
-	icon = musket
-}
-
-heavy_armament = {
-	name = "Heavy Armament"
-	category = army
-	icon = cannon
-}
-
-defensive_tactics = {
-	name = "Defensive Tactics"
-	category = army
-	icon = saber
-}
-
-offensive_tactics = {
-	name = "Offensive Tactics"
-	category = army
-	icon = saber
 }
 
 army_doctrine = {

@@ -1,6 +1,6 @@
 gunpowder = {
 	name = "Gunpowder"
-	subcategory = light_armament
+	subcategory = siege_weapons
 	portrait = engineering
 	icon = musket
 	period = 1300_1400
@@ -14,7 +14,7 @@ gunpowder = {
 
 arquebus = {
 	name = "Arquebus"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = musket
 	period = 1400_1500
@@ -25,7 +25,7 @@ arquebus = {
 
 weapon_craftsmanship = {
 	name = "Weapon Craftsmanship"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = musket
 	period = 1600_1650
@@ -38,7 +38,7 @@ weapon_craftsmanship = {
 
 flintlock_rifle = {
 	name = "Flintlock Rifle"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = rifle
 	period = 1700_1750
@@ -50,7 +50,7 @@ flintlock_rifle = {
 
 bayonet = {
 	name = "Bayonet"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = musket
 	period = 1700_1750
@@ -62,7 +62,7 @@ bayonet = {
 
 explosives = {
 	name = "Explosives"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = musket
 	period = 1700_1750
@@ -74,7 +74,7 @@ explosives = {
 
 improved_cavalry_weapons = {
 	name = "Improved Cavalry Weapons"
-	subcategory = light_armament
+	subcategory = cavalry
 	portrait = engineering
 	icon = musket
 	period = 1700_1750
@@ -87,7 +87,7 @@ improved_cavalry_weapons = {
 
 long_range_rifle = {
 	name = "Long Range Rifle"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = rifle
 	period = 1800_1825
@@ -100,7 +100,7 @@ long_range_rifle = {
 
 needle_gun = {
 	name = "Needle Gun"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = rifle
 	period = 1750_1800
@@ -113,7 +113,7 @@ needle_gun = {
 
 repeating_cavalry_carbine = {
 	name = "Repeating Cavalry Carbine"
-	subcategory = light_armament
+	subcategory = cavalry
 	portrait = engineering
 	icon = rifle
 	period = 1750_1800
@@ -125,7 +125,7 @@ repeating_cavalry_carbine = {
 
 machine_gun = {
 	name = "Machine Gun"
-	subcategory = light_armament
+	subcategory = infantry
 	portrait = engineering
 	icon = rifle
 	period = 1875_1900

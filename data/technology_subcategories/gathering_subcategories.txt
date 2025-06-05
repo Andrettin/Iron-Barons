@@ -4,10 +4,10 @@ farming = {
 	icon = grain
 }
 
-foresting = {
-	name = "Foresting"
+ranching = {
+	name = "Ranching"
 	category = gathering
-	icon = timber
+	icon = cattle
 }
 
 mining = {
@@ -16,8 +16,8 @@ mining = {
 	icon = iron_ore
 }
 
-ranching = {
-	name = "Ranching"
+foresting = {
+	name = "Foresting"
 	category = gathering
-	icon = cattle
+	icon = timber
 }

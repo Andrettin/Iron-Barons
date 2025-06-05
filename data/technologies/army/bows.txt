@@ -1,6 +1,6 @@
 shortbow = {
 	name = "Shortbow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = bronze_age
@@ -11,7 +11,7 @@ shortbow = {
 
 composite_bow = {
 	name = "Composite Bow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = iron_age
@@ -25,7 +25,7 @@ composite_bow = {
 
 longbow = {
 	name = "Longbow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1000_1100
@@ -40,7 +40,7 @@ longbow = {
 
 reinforced_longbow = {
 	name = "Reinforced Longbow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1300_1400
@@ -56,7 +56,7 @@ reinforced_longbow = {
 
 marksman_longbow = {
 	name = "Marksman Longbow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1400_1500

@@ -1,6 +1,6 @@
 improved_infantry_tactics = {
 	name = "Improved Infantry Tactics"
-	subcategory = army_doctrine
+	subcategory = infantry
 	portrait = helmet
 	icon = saber
 	period = 1600_1650
@@ -12,7 +12,7 @@ improved_infantry_tactics = {
 
 improved_cavalry_tactics = {
 	name = "Improved Cavalry Tactics"
-	subcategory = army_doctrine
+	subcategory = cavalry
 	portrait = helmet
 	icon = saber
 	period = 1600_1650
@@ -24,7 +24,7 @@ improved_cavalry_tactics = {
 
 mobile_warfare = {
 	name = "Mobile Warfare"
-	subcategory = army_doctrine
+	subcategory = cavalry
 	portrait = helmet
 	icon = saber
 	prerequisites = {

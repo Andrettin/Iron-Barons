@@ -1,15 +1,3 @@
-noble_customs = {
-	name = "Noble Customs"
-	category = culture
-	icon = crown_baronial
-}
-
-popular_customs = {
-	name = "Popular Customs"
-	category = culture
-	icon = music
-}
-
 aesthetics = {
 	name = "Aesthetics"
 	category = culture
@@ -22,8 +10,8 @@ architecture = {
 	icon = architecture
 }
 
-schools = {
-	name = "Schools"
+education = {
+	name = "Education"
 	category = culture
 	icon = university
 }
@@ -34,14 +22,19 @@ philosophy = {
 	icon = philosophy
 }
 
-religious_customs = {
-	name = "Religious Customs"
+noble_customs = {
+	name = "Noble Customs"
 	category = culture
-	icon = wooden_cross
+	icon = crown_baronial
 }
 
-spiritual_art = {
-	name = "Spiritual Art"
+popular_customs = {
+	name = "Popular Customs"
+	category = culture
+	icon = music
+}
+religion = {
+	name = "Religion"
 	category = culture
 	icon = wooden_cross
 }

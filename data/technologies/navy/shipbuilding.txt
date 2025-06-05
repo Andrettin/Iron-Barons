@@ -1,6 +1,6 @@
 superior_hull_design = {
 	name = "Superior Hull Design"
-	subcategory = shipbuilding
+	subcategory = merchant_ships
 	portrait = unload
 	icon = anchor
 	period = 1500_1550
@@ -14,7 +14,7 @@ superior_hull_design = {
 
 improved_sail_design = {
 	name = "Improved Sail Design"
-	subcategory = shipbuilding
+	subcategory = merchant_ships
 	portrait = unload
 	icon = anchor
 	period = 1600_1650
@@ -26,7 +26,7 @@ improved_sail_design = {
 
 large_hulls = {
 	name = "Large Hulls"
-	subcategory = shipbuilding
+	subcategory = merchant_ships
 	portrait = unload
 	icon = anchor
 	period = 1600_1650
@@ -39,7 +39,7 @@ large_hulls = {
 
 advanced_hull_design = {
 	name = "Advanced Hull Design"
-	subcategory = shipbuilding
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1650_1700
@@ -52,7 +52,7 @@ advanced_hull_design = {
 
 ship_of_the_line = {
 	name = "Ship-of-the-Line"
-	subcategory = shipbuilding
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1650_1700
@@ -64,7 +64,7 @@ ship_of_the_line = {
 
 streamlined_hulls = {
 	name = "Streamlined Hulls"
-	subcategory = shipbuilding
+	subcategory = merchant_ships
 	portrait = unload
 	icon = anchor
 	period = 1700_1750
@@ -76,7 +76,7 @@ streamlined_hulls = {
 
 paddlewheels = {
 	name = "Paddlewheels"
-	subcategory = shipbuilding
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1700_1750
@@ -88,7 +88,7 @@ paddlewheels = {
 
 merchant_steamships = {
 	name = "Merchant Steamships"
-	subcategory = shipbuilding
+	subcategory = merchant_ships
 	portrait = unload
 	icon = anchor
 	period = 1750_1800
@@ -100,7 +100,7 @@ merchant_steamships = {
 
 advanced_iron_working = {
 	name = "Advanced Iron Working"
-	subcategory = shipbuilding
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1750_1800
@@ -113,7 +113,7 @@ advanced_iron_working = {
 
 steel_armor_plate = {
 	name = "Steel Armor Plate"
-	subcategory = shipbuilding
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1850_1875
@@ -124,7 +124,7 @@ steel_armor_plate = {
 
 marine_engineering = {
 	name = "Marine Engineering"
-	subcategory = shipbuilding
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1875_1900
@@ -135,7 +135,7 @@ marine_engineering = {
 
 improved_range_finding = {
 	name = "Improved Range-Finding"
-	subcategory = shipbuilding
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1900_1925

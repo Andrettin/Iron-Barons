@@ -1,6 +1,6 @@
 shortsword = {
 	name = "Shortsword"
-	subcategory = slashing_weapons
+	subcategory = infantry
 	portrait = helmet
 	icon = saber
 	period = bronze_age
@@ -15,7 +15,7 @@ shortsword = {
 
 broadsword = {
 	name = "Broadsword"
-	subcategory = slashing_weapons
+	subcategory = infantry
 	portrait = helmet
 	icon = saber
 	period = iron_age
@@ -30,7 +30,7 @@ broadsword = {
 
 longsword = {
 	name = "Longsword"
-	subcategory = slashing_weapons
+	subcategory = infantry
 	portrait = helmet
 	icon = saber
 	period = 1_500
@@ -46,7 +46,7 @@ longsword = {
 
 bastard_sword = {
 	name = "Bastard Sword"
-	subcategory = slashing_weapons
+	subcategory = infantry
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
@@ -59,7 +59,7 @@ bastard_sword = {
 
 greatsword = {
 	name = "Greatsword"
-	subcategory = slashing_weapons
+	subcategory = infantry
 	portrait = helmet
 	icon = saber
 	period = 1400_1500

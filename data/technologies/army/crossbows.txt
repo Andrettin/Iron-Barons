@@ -1,6 +1,6 @@
 slinged_javelin = {
 	name = "Slinged Javelin"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1000_1100
@@ -12,7 +12,7 @@ slinged_javelin = {
 
 light_crossbow = {
 	name = "Light Crossbow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1100_1200
@@ -24,7 +24,7 @@ light_crossbow = {
 
 medium_crossbow = {
 	name = "Medium Crossbow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1200_1300
@@ -38,7 +38,7 @@ medium_crossbow = {
 
 heavy_crossbow = {
 	name = "Heavy Crossbow"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1300_1400
@@ -52,7 +52,7 @@ heavy_crossbow = {
 
 arbalest = {
 	name = "Arbalest"
-	subcategory = bows
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
 	period = 1400_1500

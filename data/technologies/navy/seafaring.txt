@@ -23,7 +23,7 @@ cartography = {
 
 convoying = {
 	name = "Convoying"
-	subcategory = naval_doctrine
+	subcategory = warships
 	portrait = unload
 	icon = anchor
 	period = 1550_1600
@@ -60,7 +60,7 @@ magnetism = {
 
 privateering_companies = {
 	name = "Privateering Companies"
-	subcategory = naval_doctrine
+	subcategory = warships
 	portrait = unload
 	icon = skull
 	period = 1600_1650
