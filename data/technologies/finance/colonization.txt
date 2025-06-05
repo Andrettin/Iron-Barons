@@ -14,4 +14,7 @@ colonization = {
 		
 		foreign_accreditation
 	}
+	commodity_costs = {
+		culture = 500
+	}
 }

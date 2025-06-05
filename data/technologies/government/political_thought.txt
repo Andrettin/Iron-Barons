@@ -40,7 +40,7 @@ feudalism = {
 		warrior_code
 	}
 	commodity_costs = {
-		statesmanship = 320
+		culture = 320
 	}
 }
 
