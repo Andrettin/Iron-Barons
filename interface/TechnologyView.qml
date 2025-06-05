@@ -80,31 +80,49 @@ Item {
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: parent.left
 					anchors.leftMargin: 8 * scale_factor
-					width: 256 * scale_factor
+					width: 192 * scale_factor
 					wrapMode: Text.WordWrap
 				}
 				
-				Item {
-					anchors.top: parent.top
-					anchors.bottom: parent.bottom
+				Column {
+					id: technology_costs_column
+					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: technology_label.right
 					anchors.right: technology_effects_label.left
+					spacing: 4 * scale_factor
 					visible: technology_view_mode === TechnologyView.Mode.Available
 					
-					Image {
-						id: research_cost_icon
-						anchors.verticalCenter: parent.verticalCenter
-						anchors.right: parent.horizontalCenter
-						anchors.rightMargin: 32 * scale_factor
-						source: "image://icon/" + metternich.defines.research_commodity.icon.identifier
-					}
-					
-					SmallText {
-						id: research_cost_label
-						text: number_string(technology.get_cost_for_country(country))
-						anchors.left: research_cost_icon.right
-						anchors.leftMargin: 4 * scale_factor
-						anchors.verticalCenter: research_cost_icon.verticalCenter
+					Row {
+						id: commodity_costs_row
+						spacing: 8 * scale_factor
+						
+						SmallText {
+							id: wealth_cost_label
+							anchors.verticalCenter: commodity_costs_row.verticalCenter
+							text: "$" + number_string(technology.get_wealth_cost_for_country(country))
+						}
+						
+						Repeater {
+							model: technology.get_commodity_costs_for_country_qvariant_list(country)
+							
+							Row {
+								spacing: 4 * scale_factor
+								
+								readonly property var commodity: model.modelData.key
+								readonly property var commodity_cost: model.modelData.value
+								
+								Image {
+									id: commodity_icon
+									source: "image://icon/" + commodity.icon.identifier
+								}
+								
+								SmallText {
+									id: cost_label
+									text: number_string(commodity_cost)
+									anchors.verticalCenter: commodity_icon.verticalCenter
+								}
+							}
+						}
 					}
 				}
 				
