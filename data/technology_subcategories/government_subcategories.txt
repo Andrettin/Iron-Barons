@@ -5,7 +5,7 @@ political_thought = {
 }
 
 social_thought = {
-	name = "Political Thought"
+	name = "Social Thought"
 	category = government
 	icon = philosophy
 }

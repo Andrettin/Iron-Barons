@@ -1,6 +1,6 @@
 chained_leather_armor = {
 	name = "Chained Leather Armor"
-	subcategory = chain_armor
+	subcategory = armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1000_1100
@@ -20,7 +20,7 @@ chained_leather_armor = {
 
 light_chainmail = {
 	name = "Light Chainmail"
-	subcategory = chain_armor
+	subcategory = armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1100_1200
@@ -39,7 +39,7 @@ light_chainmail = {
 
 chainmail = {
 	name = "Chainmail"
-	subcategory = chain_armor
+	subcategory = armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1200_1300
@@ -58,7 +58,7 @@ chainmail = {
 
 full_chainmail = {
 	name = "Full Chainmail"
-	subcategory = chain_armor
+	subcategory = armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
@@ -77,7 +77,7 @@ full_chainmail = {
 
 plated_chainmail = {
 	name = "Plated Chainmail"
-	subcategory = chain_armor
+	subcategory = armor
 	portrait = helmet
 	icon = heater_shield
 	period = 1400_1500

@@ -1,6 +1,6 @@
 hill_fort = {
 	name = "Hill Fort"
-	subcategory = castles
+	subcategory = fortifications
 	portrait = engineering
 	icon = wall
 	period = 1000_1100
@@ -11,7 +11,7 @@ hill_fort = {
 
 small_castle = {
 	name = "Small Castle"
-	subcategory = castles
+	subcategory = fortifications
 	portrait = engineering
 	icon = wall
 	period = 1100_1200
@@ -22,7 +22,7 @@ small_castle = {
 
 medium_castle = {
 	name = "Medium Castle"
-	subcategory = castles
+	subcategory = fortifications
 	portrait = engineering
 	icon = wall
 	period = 1200_1300
@@ -33,7 +33,7 @@ medium_castle = {
 
 large_castle = {
 	name = "Large Castle"
-	subcategory = castles
+	subcategory = fortifications
 	portrait = engineering
 	icon = wall
 	period = 1300_1400
@@ -44,7 +44,7 @@ large_castle = {
 
 huge_castle = {
 	name = "Huge Castle"
-	subcategory = castles
+	subcategory = fortifications
 	portrait = engineering
 	icon = wall
 	period = 1400_1500
@@ -55,7 +55,7 @@ huge_castle = {
 
 mine_engineering = {
 	name = "Mine Engineering"
-	subcategory = army_doctrine
+	subcategory = fortifications
 	portrait = engineering
 	icon = architecture
 	period = 1500_1550
@@ -67,7 +67,7 @@ mine_engineering = {
 
 modern_fortifications = {
 	name = "Modern Fortifications"
-	subcategory = army_doctrine
+	subcategory = fortifications
 	portrait = fort
 	icon = wall
 	period = 1650_1700

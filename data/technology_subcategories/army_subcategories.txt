@@ -4,12 +4,6 @@ bows = {
 	icon = bow
 }
 
-crossbows = {
-	name = "Crossbows"
-	category = army
-	icon = bow
-}
-
 crushing_weapons = {
 	name = "Crushing Weapons"
 	category = army
@@ -28,38 +22,14 @@ piercing_weapons = {
 	icon = saber
 }
 
-leather_armor = {
-	name = "Leather Armor"
+armor = {
+	name = "Armor"
 	category = army
 	icon = heater_shield
 }
 
-chain_armor = {
-	name = "Chain Armor"
-	category = army
-	icon = heater_shield
-}
-
-plate_armor = {
-	name = "Plate Armor"
-	category = army
-	icon = heater_shield
-}
-
-shields = {
-	name = "Shields"
-	category = army
-	icon = heater_shield
-}
-
-siege_equipment = {
-	name = "Siege Equipment"
-	category = army
-	icon = saber
-}
-
-castles = {
-	name = "Castles"
+fortifications = {
+	name = "Fortifications"
 	category = army
 	icon = wall
 }
