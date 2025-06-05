@@ -20,7 +20,7 @@ Rectangle {
 		id: research_counter
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
-		anchors.topMargin: 96 * scale_factor
+		anchors.topMargin: 16 * scale_factor
 		name: metternich.defines.research_commodity.name
 		icon_identifier: metternich.defines.research_commodity.icon.identifier
 		count: country_game_data.get_stored_commodity(metternich.defines.research_commodity)
