@@ -18,6 +18,9 @@ alphabet = {
 	prerequisites = {
 		writing
 	}
+	commodity_costs = {
+		research = 50
+	}
 }
 
 literature = {

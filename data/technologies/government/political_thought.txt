@@ -9,6 +9,9 @@ monarchy = {
 		warrior_code
 		polytheism
 	}
+	commodity_costs = {
+		statesmanship = 240
+	}
 }
 
 republic = {
@@ -20,6 +23,9 @@ republic = {
 	prerequisites = {
 		code_of_laws
 		literature
+	}
+	commodity_costs = {
+		statesmanship = 280
 	}
 }
 
@@ -33,6 +39,9 @@ feudalism = {
 		monarchy
 		warrior_code
 	}
+	commodity_costs = {
+		statesmanship = 320
+	}
 }
 
 nationalism = {
@@ -45,6 +54,9 @@ nationalism = {
 		propaganda
 		master_artisans
 		modern_fortifications
+	}
+	commodity_costs = {
+		statesmanship = 1200
 	}
 	modifier = {
 		deployment_limit = 2
@@ -138,6 +150,9 @@ democracy = {
 		banking
 		invention
 	}
+	commodity_costs = {
+		statesmanship = 680
+	}
 }
 
 collectivism = {
@@ -186,6 +201,9 @@ communism = {
 		
 		philosophy
 		industrial_machinery
+	}
+	commodity_costs = {
+		statesmanship = 1200
 	}
 	modifier = {
 		amenities_per_cathedral = -1

@@ -4,6 +4,9 @@ warrior_code = {
 	portrait = helmet
 	icon = saber
 	period = copper_age
+	commodity_costs = {
+		leadership = 50
+	}
 }
 
 horseback_riding = {

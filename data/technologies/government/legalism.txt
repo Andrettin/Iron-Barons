@@ -7,4 +7,7 @@ code_of_laws = {
 	prerequisites = {
 		writing
 	}
+	commodity_costs = {
+		statesmanship = 100
+	}
 }
