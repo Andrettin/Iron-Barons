@@ -85,6 +85,9 @@ andreas_stoberl = {
 	death_date = 1515
 	skill_multiplier = 0.33
 	required_technology = astronomy
+	conditions = {
+		country = austria
+	}
 	traits = {
 		natural_scientist
 	}
@@ -103,6 +106,9 @@ johannes_cuspinianus = {
 	death_date = 1529
 	skill_multiplier = 0.33
 	required_technology = medicine
+	conditions = {
+		country = austria
+	}
 	traits = {
 		natural_scientist
 	}
@@ -121,6 +127,9 @@ georg_tannstetter = {
 	death_date = 1535.3.26
 	skill_multiplier = 0.33
 	required_technology = mathematics
+	conditions = {
+		country = austria
+	}
 	traits = {
 		natural_scientist
 	}
@@ -139,6 +148,9 @@ conrad_haas = {
 	death_date = 1576
 	skill_multiplier = 0.67
 	required_technology = mine_engineering
+	conditions = {
+		country = austria
+	}
 	traits = {
 		army_reformer
 	}
@@ -156,6 +168,9 @@ rheticus = {
 	death_date = 1574
 	skill_multiplier = 0.17
 	required_technology = navigation
+	conditions = {
+		country = austria
+	}
 	traits = {
 		naval_reformer
 	}
@@ -174,6 +189,9 @@ wolfgang_von_rumpf = {
 	death_date = 1607
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	conditions = {
+		country = austria
+	}
 	traits = {
 		statesman
 	}
@@ -192,6 +210,9 @@ hans_von_eggenberg = {
 	death_date = 1634
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	conditions = {
+		country = austria
+	}
 	traits = {
 		statesman
 	}
@@ -210,6 +231,9 @@ katharina_galler = {
 	death_date = 1672.2.12
 	skill_multiplier = 0.33
 	required_technology = feudalism
+	conditions = {
+		country = austria
+	}
 	traits = {
 		treasurer
 	}
@@ -228,6 +252,9 @@ philipp_von_hornigk = {
 	death_date = 1714.10.23
 	skill_multiplier = 0.33
 	required_technology = propaganda
+	conditions = {
+		country = austria
+	}
 	traits = {
 		treasurer
 	}
@@ -246,6 +273,9 @@ johann_von_eggenberg = {
 	death_date = 1710.12.14
 	skill_multiplier = 0.33
 	required_technology = merchant_companies
+	conditions = {
+		country = austria
+	}
 	traits = {
 		merchant
 	}
@@ -264,6 +294,9 @@ franz_ferdinand_von_rummel = {
 	death_date = 1716.3.15
 	skill_multiplier = 0.33
 	required_technology = philosophy
+	conditions = {
+		country = austria
+	}
 	traits = {
 		philosopher
 	}
@@ -282,6 +315,9 @@ joseph_harrach = {
 	death_date = 1764.8.8
 	skill_multiplier = 0.33
 	required_technology = national_bureaucracy
+	conditions = {
+		country = austria
+	}
 	traits = {
 		statesman
 	}
@@ -300,6 +336,9 @@ josef_wenzel = {
 	death_date = 1772.2.10
 	skill_multiplier = 0.5
 	required_technology = heavy_artillery
+	conditions = {
+		country = austria
+	}
 	traits = {
 		army_reformer
 	}
@@ -318,6 +357,9 @@ gerard_van_swieten = {
 	death_date = 1772.6.18
 	skill_multiplier = 0.33
 	required_technology = medicine
+	conditions = {
+		country = austria
+	}
 	traits = {
 		natural_scientist
 	}
@@ -336,6 +378,9 @@ wenzel_anton_kaunitz = {
 	death_date = 1794.6.27
 	skill_multiplier = 0.83
 	required_technology = national_bureaucracy
+	conditions = {
+		country = austria
+	}
 	traits = {
 		statesman
 	}
@@ -354,6 +399,9 @@ leopold_auenbrugger = {
 	death_date = 1809.5.17
 	skill_multiplier = 0.5
 	required_technology = medicine
+	conditions = {
+		country = austria
+	}
 	traits = {
 		natural_scientist
 	}
@@ -372,6 +420,9 @@ franz_mesmer = {
 	death_date = 1815.3.5
 	skill_multiplier = 0.5
 	required_technology = medicine
+	conditions = {
+		country = austria
+	}
 	traits = {
 		natural_scientist
 	}
@@ -390,6 +441,9 @@ joseph_eckhel = {
 	death_date = 1798.5.16
 	skill_multiplier = 0.17
 	required_technology = banking
+	conditions = {
+		country = austria
+	}
 	traits = {
 		treasurer
 	}

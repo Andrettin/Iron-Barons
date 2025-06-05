@@ -39,6 +39,9 @@ antonio_bonfini = {
 	death_date = 1503.6.6
 	skill_multiplier = 0.5
 	required_technology = philosophy
+	conditions = {
+		country = hungary
+	}
 	traits = {
 		philosopher
 	}
