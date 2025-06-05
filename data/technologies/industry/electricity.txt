@@ -8,4 +8,7 @@ electricity = {
 		magnetism
 		oil_drilling
 	}
+	commodity_costs = {
+		research = 2350
+	}
 }

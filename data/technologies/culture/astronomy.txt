@@ -24,4 +24,7 @@ astronomy = {
 		
 		academic_disciplines
 	}
+	commodity_costs = {
+		research = 780
+	}
 }

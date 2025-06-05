@@ -9,6 +9,9 @@ philosophy = {
 		literature
 		mysticism
 	}
+	commodity_costs = {
+		research = 175
+	}
 }
 
 aristotelian_logic = {

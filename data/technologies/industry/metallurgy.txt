@@ -4,6 +4,9 @@ bronzeworking = {
 	portrait = engineering
 	icon = bronze
 	period = copper_age
+	commodity_costs = {
+		research = 55
+	}
 }
 
 ironworking = {
@@ -15,6 +18,9 @@ ironworking = {
 	prerequisites = {
 		bronzeworking
 		warrior_code
+	}
+	commodity_costs = {
+		research = 195
 	}
 }
 
@@ -28,6 +34,9 @@ crucible_process = {
 		ironworking
 		steam_in_mining
 		large_coal_mines
+	}
+	commodity_costs = {
+		research = 485
 	}
 }
 

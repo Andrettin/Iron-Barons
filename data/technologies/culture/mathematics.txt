@@ -10,4 +10,7 @@ mathematics = {
 		writing
 		masonry
 	}
+	commodity_costs = {
+		research = 105
+	}
 }

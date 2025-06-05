@@ -8,6 +8,9 @@ coinage = {
 		precious_metals
 		bronzeworking
 	}
+	commodity_costs = {
+		research = 175
+	}
 }
 
 trade = {

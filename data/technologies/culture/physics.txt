@@ -9,6 +9,9 @@ physics = {
 		literature
 		navigation
 	}
+	commodity_costs = {
+		research = 485
+	}
 }
 
 theory_of_gravity = {

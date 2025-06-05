@@ -4,6 +4,9 @@ masonry = {
 	portrait = engineering
 	icon = wall
 	period = copper_age
+	commodity_costs = {
+		research = 55
+	}
 }
 
 architecture = {
@@ -16,5 +19,8 @@ architecture = {
 		masonry
 		ironworking
 		mathematics
+	}
+	commodity_costs = {
+		research = 105
 	}
 }

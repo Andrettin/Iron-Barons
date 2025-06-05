@@ -8,6 +8,9 @@ electronics = {
 		electricity
 		corporation
 	}
+	commodity_costs = {
+		research = 4100
+	}
 	modifier = {
 		amenities_per_arena = 1
 	}

@@ -7,6 +7,9 @@ seafaring = {
 	prerequisites = {
 		pottery
 	}
+	commodity_costs = {
+		research = 55
+	}
 }
 
 cartography = {
@@ -44,6 +47,9 @@ navigation = {
 		improved_sea_routes
 		astronomy
 	}
+	commodity_costs = {
+		research = 1150
+	}
 }
 
 magnetism = {
@@ -55,6 +61,9 @@ magnetism = {
 	prerequisites = {
 		physics
 		ironworking
+	}
+	commodity_costs = {
+		research = 375
 	}
 }
 

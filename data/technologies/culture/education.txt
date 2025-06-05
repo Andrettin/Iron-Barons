@@ -48,6 +48,9 @@ university = {
 		#apprentice_workers
 		#moneylending
 	}
+	commodity_costs = {
+		research = 485
+	}
 }
 
 academic_disciplines = {

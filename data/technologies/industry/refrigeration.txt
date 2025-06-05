@@ -9,6 +9,9 @@ refrigeration = {
 		electricity
 		sanitation
 	}
+	commodity_costs = {
+		research = 3100
+	}
 	modifier = {
 		livestock_output_modifier = 20
 		fruit_output_modifier = 20

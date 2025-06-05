@@ -10,6 +10,9 @@ gunpowder = {
 		
 		cathedral_school
 	}
+	commodity_costs = {
+		research = 780
+	}
 }
 
 arquebus = {

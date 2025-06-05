@@ -79,4 +79,7 @@ dynamite = {
 		explosives
 	}
 	wealth_cost = 40000
+	commodity_costs = {
+		research = 2350
+	}
 }

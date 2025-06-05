@@ -4,6 +4,9 @@ writing = {
 	portrait = engineering
 	icon = treaty
 	period = copper_age
+	commodity_costs = {
+		research = 55
+	}
 }
 
 alphabet = {
@@ -38,5 +41,8 @@ printing_press = {
 	prerequisites = {
 		alphabet
 		saw_mill
+	}
+	commodity_costs = {
+		research = 780
 	}
 }

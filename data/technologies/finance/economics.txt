@@ -8,6 +8,9 @@ economics = {
 		banking
 		university
 	}
+	commodity_costs = {
+		research = 1150
+	}
 	modifier = {
 		capitalist_bonus = 2
 	}

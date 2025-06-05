@@ -8,4 +8,7 @@ engineering = {
 		wheel
 		architecture
 	}
+	commodity_costs = {
+		research = 175
+	}
 }

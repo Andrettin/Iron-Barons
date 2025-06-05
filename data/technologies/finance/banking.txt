@@ -24,6 +24,9 @@ banking = {
 		
 		republic
 	}
+	commodity_costs = {
+		research = 780
+	}
 }
 
 modern_military_funding = {

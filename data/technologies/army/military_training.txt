@@ -16,6 +16,9 @@ horseback_riding = {
 		wheel
 		warrior_code
 	}
+	commodity_costs = {
+		leadership = 105
+	}
 }
 
 chivalry = {
@@ -28,6 +31,9 @@ chivalry = {
 		horseback_riding
 		feudalism
 		monotheism
+	}
+	commodity_costs = {
+		leadership = 485
 	}
 }
 
