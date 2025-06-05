@@ -81,6 +81,111 @@ Rectangle {
 		}
 	}
 	
+	IconButton {
+		id: researched_mode_button
+		anchors.top: current_research_portrait.visible ? current_research_portrait.bottom : parent.top
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "architecture"
+		border_color: technology_view_mode === TechnologyView.Mode.Researched ? "white" : "gray"
+		
+		onReleased: {
+			technology_view_mode = TechnologyView.Mode.Researched
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Researched Technologies"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: available_mode_button
+		anchors.top: researched_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "research"
+		border_color: technology_view_mode === TechnologyView.Mode.Available ? "white" : "gray"
+		
+		onReleased: {
+			technology_view_mode = TechnologyView.Mode.Available
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Available Technologies"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: future_mode_button
+		anchors.top: available_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "philosophy"
+		border_color: technology_view_mode === TechnologyView.Mode.Future ? "white" : "gray"
+		
+		onReleased: {
+			technology_view_mode = TechnologyView.Mode.Future
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Future Technologies"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: show_all_mode_button
+		anchors.top: future_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "university"
+		border_color: technology_view_mode === TechnologyView.Mode.ShowAll ? "white" : "gray"
+		
+		onReleased: {
+			technology_view_mode = TechnologyView.Mode.ShowAll
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Show All"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: tech_tree_mode_button
+		anchors.top: show_all_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "cog"
+		border_color: technology_view_mode === TechnologyView.Mode.TechTree ? "white" : "gray"
+		
+		onReleased: {
+			technology_view_mode = TechnologyView.Mode.TechTree
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Technology Tree"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
 	TextButton {
 		id: back_button
 		anchors.horizontalCenter: parent.horizontalCenter

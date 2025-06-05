@@ -4,7 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id: button_panel
 	color: interface_background_color
-	width: 64 * scale_factor + (technology_view_mode !== TechnologyView.Mode.TechTree ? 48 * scale_factor : 0)
+	width: technology_view_mode !== TechnologyView.Mode.TechTree ? (64 * scale_factor + 48 * scale_factor) : 16 * scale_factor
 	
 	Rectangle {
 		color: "gray"
@@ -126,94 +126,6 @@ Rectangle {
 		onHoveredChanged: {
 			if (hovered) {
 				status_text = "Show All"
-			} else {
-				status_text = ""
-			}
-		}
-	}
-	
-	IconButton {
-		id: researched_mode_button
-		anchors.bottom: available_mode_button.top
-		anchors.bottomMargin: 4 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
-		icon_identifier: "architecture"
-		border_color: technology_view_mode === TechnologyView.Mode.Researched ? "white" : "gray"
-		
-		onReleased: {
-			technology_view_mode = TechnologyView.Mode.Researched
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "Researched Technologies"
-			} else {
-				status_text = ""
-			}
-		}
-	}
-	
-	IconButton {
-		id: available_mode_button
-		anchors.bottom: future_mode_button.top
-		anchors.bottomMargin: 4 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
-		icon_identifier: "research"
-		border_color: technology_view_mode === TechnologyView.Mode.Available ? "white" : "gray"
-		
-		onReleased: {
-			technology_view_mode = TechnologyView.Mode.Available
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "Available Technologies"
-			} else {
-				status_text = ""
-			}
-		}
-	}
-	
-	IconButton {
-		id: future_mode_button
-		anchors.bottom: tech_tree_mode_button.top
-		anchors.bottomMargin: 4 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
-		icon_identifier: "philosophy"
-		border_color: technology_view_mode === TechnologyView.Mode.Future ? "white" : "gray"
-		
-		onReleased: {
-			technology_view_mode = TechnologyView.Mode.Future
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "Future Technologies"
-			} else {
-				status_text = ""
-			}
-		}
-	}
-	
-	IconButton {
-		id: tech_tree_mode_button
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 16 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
-		icon_identifier: "cog"
-		border_color: technology_view_mode === TechnologyView.Mode.TechTree ? "white" : "gray"
-		
-		onReleased: {
-			technology_view_mode = TechnologyView.Mode.TechTree
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "Technology Tree"
 			} else {
 				status_text = ""
 			}
