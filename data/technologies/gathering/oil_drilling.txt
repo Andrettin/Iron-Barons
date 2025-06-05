@@ -23,6 +23,9 @@ chemistry = {
 		alchemy
 	}
 	wealth_cost = 120000
+	commodity_costs = {
+		research = 1150
+	}
 }
 
 internal_combustion = {
@@ -35,4 +38,7 @@ internal_combustion = {
 		chemistry
 	}
 	wealth_cost = 150000
+	commodity_costs = {
+		research = 4100
+	}
 }

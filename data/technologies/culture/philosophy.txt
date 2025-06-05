@@ -67,6 +67,9 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 		
 		astronomy
 	}
+	commodity_costs = {
+		research = 1600
+	}
 	modifier = {
 		research_output_modifier = 5
 	}
