@@ -18,6 +18,7 @@ Window {
 	property int politics_view_mode: PoliticsView.Advisors
 	property int technology_view_mode: TechnologyView.Mode.Available
 	property var technology_view_category: null
+	property var technology_view_subcategory: null
 	property int trade_view_mode: TradeView.TradeOrders
 	
 	FontLoader {

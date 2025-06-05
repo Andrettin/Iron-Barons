@@ -4,7 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id: button_panel
 	color: interface_background_color
-	width: 64 * scale_factor
+	width: 64 * scale_factor + (technology_view_mode !== TechnologyView.Mode.TechTree ? 48 * scale_factor : 0)
 	
 	Rectangle {
 		color: "gray"
@@ -21,6 +21,7 @@ Rectangle {
 		anchors.top: parent.top
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: 24 * scale_factor
 		spacing: 4 * scale_factor
 		
 		Repeater {
@@ -35,7 +36,10 @@ Rectangle {
 				readonly property var button_category: model.modelData
 				
 				onReleased: {
-					technology_view_category = button_category
+					if (technology_view_category !== button_category) {
+						technology_view_category = button_category
+						technology_view_subcategory = null
+					}
 				}
 				
 				onHoveredChanged: {
@@ -49,11 +53,45 @@ Rectangle {
 		}
 	}
 	
+	Column {
+		id: subcategory_button_column
+		anchors.top: category_button_column.top
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: -24 * scale_factor
+		spacing: 4 * scale_factor
+		
+		Repeater {
+			model: technology_view_category ? get_category_subcategories(technology_view_category) : []
+			
+			IconButton {
+				id: category_button
+				icon_identifier: button_subcategory.icon.identifier
+				border_color: technology_view_subcategory === button_subcategory ? "white" : "gray"
+				visible: technology_view_mode !== TechnologyView.Mode.TechTree
+						
+				readonly property var button_subcategory: model.modelData
+				
+				onReleased: {
+					technology_view_subcategory = button_subcategory
+				}
+				
+				onHoveredChanged: {
+					if (hovered) {
+						status_text = button_subcategory.name
+					} else {
+						status_text = ""
+					}
+				}
+			}
+		}
+	}
+	
 	IconButton {
 		id: no_category_button
 		anchors.top: category_button_column.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: 24 * scale_factor
 		icon_identifier: "university"
 		border_color: technology_view_category === null ? "white" : "gray"
 		visible: technology_view_mode !== TechnologyView.Mode.TechTree
@@ -72,10 +110,34 @@ Rectangle {
 	}
 	
 	IconButton {
+		id: no_subcategory_button
+		anchors.top: subcategory_button_column.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: -24 * scale_factor
+		icon_identifier: "university"
+		border_color: technology_view_subcategory === null ? "white" : "gray"
+		visible: technology_view_mode !== TechnologyView.Mode.TechTree && technology_view_category !== null
+		
+		onReleased: {
+			technology_view_subcategory = null
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "Show All"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
 		id: researched_mode_button
 		anchors.bottom: available_mode_button.top
 		anchors.bottomMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
 		icon_identifier: "architecture"
 		border_color: technology_view_mode === TechnologyView.Mode.Researched ? "white" : "gray"
 		
@@ -97,6 +159,7 @@ Rectangle {
 		anchors.bottom: future_mode_button.top
 		anchors.bottomMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
 		icon_identifier: "research"
 		border_color: technology_view_mode === TechnologyView.Mode.Available ? "white" : "gray"
 		
@@ -118,6 +181,7 @@ Rectangle {
 		anchors.bottom: tech_tree_mode_button.top
 		anchors.bottomMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
 		icon_identifier: "philosophy"
 		border_color: technology_view_mode === TechnologyView.Mode.Future ? "white" : "gray"
 		
@@ -139,6 +203,7 @@ Rectangle {
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
+		anchors.horizontalCenterOffset: (technology_view_mode !== TechnologyView.Mode.TechTree ? 24 * scale_factor : 0)
 		icon_identifier: "cog"
 		border_color: technology_view_mode === TechnologyView.Mode.TechTree ? "white" : "gray"
 		
@@ -153,5 +218,24 @@ Rectangle {
 				status_text = ""
 			}
 		}
+	}
+	
+	function get_category_subcategories(category) {
+		var subcategories = []
+		
+		for (var subcategory of category.subcategories) {
+			var has_technology = false
+			for (var technology of subcategory.technologies) {
+				if (technology.is_available_for_country(metternich.game.player_country)) {
+					has_technology = true
+					break
+				}
+			}
+			if (has_technology) {
+				subcategories.push(subcategory)
+			}
+		}
+		
+		return subcategories
 	}
 }

@@ -18,7 +18,7 @@ Item {
 	property string middle_status_text: ""
 	
 	readonly property var technologies: technology_view_mode === TechnologyView.Mode.Researched ? country_game_data.technologies : (technology_view_mode === TechnologyView.Mode.Available ? country_game_data.available_technologies : country_game_data.future_technologies)
-	readonly property var category_technologies: get_category_technologies(technologies, technology_view_category)
+	readonly property var category_technologies: get_category_technologies(technologies, technology_view_category, technology_view_subcategory)
 	
 	ListView {
 		id: technology_list
@@ -187,7 +187,7 @@ Item {
 		id: technology_dialog
 	}
 	
-	function get_category_technologies(technologies, category) {
+	function get_category_technologies(technologies, category, subcategory) {
 		if (category === null) {
 			return technologies
 		}
@@ -195,7 +195,7 @@ Item {
 		var category_technologies = []
 		
 		for (var technology of technologies) {
-			if (technology.category === category) {
+			if (technology.category === category && (subcategory === null || technology.subcategory === subcategory)) {
 				category_technologies.push(technology)
 			}
 		}
