@@ -119,7 +119,6 @@ giovanni_da_verrazano = {
 	}
 }
 
-
 henry_hudson = {
 	name = "Henry Hudson"
 	types = {
@@ -302,9 +301,11 @@ natural_scientist = {
 	conditions = {
 		character_type = natural_scientist
 	}
-	scaled_advisor_modifier = {
-		gathering_research_modifier = 5
-		industry_research_modifier = 5
+	scaled_office_modifiers = {
+		court_scholar = {
+			gathering_research_modifier = 5
+			industry_research_modifier = 5
+		}
 	}
 }
 
@@ -353,12 +354,9 @@ philosopher = {
 		character_type = philosopher
 	}
 	scaled_office_modifiers = {
-		ruler = {
+		court_scholar = {
 			research_output_modifier = 2.5
 		}
-	}
-	scaled_advisor_modifier = {
-		research_output_modifier = 2.5
 	}
 }
 

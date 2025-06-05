@@ -1,0 +1,10 @@
+court_scholar = {
+	name = "Court Scholar"
+	attribute = learning
+	holder_conditions = {
+		or = {
+			trait = natural_scientist
+			trait = philosopher
+		}
+	}
+}
