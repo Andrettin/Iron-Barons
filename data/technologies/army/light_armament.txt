@@ -109,6 +109,7 @@ needle_gun = {
 		flintlock_rifle
 		industrial_funding_of_research
 	}
+	wealth_cost = 12000
 }
 
 repeating_cavalry_carbine = {
@@ -132,4 +133,5 @@ machine_gun = {
 	prerequisites = {
 		needle_gun
 	}
+	wealth_cost = 100000
 }

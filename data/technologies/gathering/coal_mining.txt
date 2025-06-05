@@ -31,6 +31,7 @@ square_set_timbering = {
 		large_coal_mines
 		#high_pressure_steam_engine
 	}
+	wealth_cost = 1500
 }
 
 safety_lamp = {

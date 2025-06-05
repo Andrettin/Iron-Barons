@@ -20,6 +20,7 @@ spinning_jenny = {
 		industrial_machinery
 		#feed_grasses
 	}
+	wealth_cost = 3000
 	modifier = {
 		fabric_throughput_modifier = 5
 	}
@@ -34,6 +35,7 @@ power_loom = {
 	prerequisites = {
 		spinning_jenny
 	}
+	wealth_cost = 12000
 	modifier = {
 		fabric_throughput_modifier = 5
 	}

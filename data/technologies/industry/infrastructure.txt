@@ -48,6 +48,7 @@ iron_railroad_bridge = {
 		bridge_building
 		high_pressure_steam_engine
 	}
+	wealth_cost = 1500
 }
 
 compound_steam_engine = {
@@ -62,6 +63,7 @@ compound_steam_engine = {
 		#iron_railroad_bridge
 		crucible_process
 	}
+	wealth_cost = 7000
 }
 
 dynamite = {
@@ -76,4 +78,5 @@ dynamite = {
 		banking
 		explosives
 	}
+	wealth_cost = 40000
 }

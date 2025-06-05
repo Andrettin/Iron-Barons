@@ -41,4 +41,5 @@ cotton_gin = {
 		large_cotton_plantations
 		trained_journeymen
 	}
+	wealth_cost = 1000
 }

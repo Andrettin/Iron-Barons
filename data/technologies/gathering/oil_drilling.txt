@@ -7,6 +7,7 @@ oil_drilling = {
 	prerequisites = {
 		geological_prospecting #to place it later in the tech tree
 	}
+	wealth_cost = 25000
 }
 
 chemistry = {
@@ -21,6 +22,7 @@ chemistry = {
 		
 		alchemy
 	}
+	wealth_cost = 120000
 }
 
 internal_combustion = {
@@ -32,4 +34,5 @@ internal_combustion = {
 	prerequisites = {
 		chemistry
 	}
+	wealth_cost = 150000
 }

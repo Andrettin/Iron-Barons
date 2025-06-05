@@ -115,6 +115,7 @@ moldboard_plow = {
 		
 		high_grade_steel
 	}
+	wealth_cost = 3000
 	modifier = {
 		commodity_bonus_per_improvement = {
 			commodity = grain
@@ -138,4 +139,5 @@ mechanical_reaper = {
 	prerequisites = {
 		moldboard_plow
 	}
+	wealth_cost = 12000
 }

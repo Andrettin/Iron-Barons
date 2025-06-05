@@ -42,6 +42,7 @@ feed_grasses = {
 		scientific_cattle_breeding
 		scientific_sheep_breeding
 	}
+	wealth_cost = 1500
 }
 
 mechanized_slaughtering_block = {
@@ -68,4 +69,5 @@ barbed_wire = {
 	prerequisites = {
 		feed_grasses
 	}
+	wealth_cost = 20000
 }

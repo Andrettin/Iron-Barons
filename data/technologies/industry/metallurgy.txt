@@ -41,6 +41,7 @@ bessemer_converter = {
 		crucible_process
 		high_grade_steel
 	}
+	wealth_cost = 6000
 	modifier = {
 		steel_throughput_modifier = 5
 	}

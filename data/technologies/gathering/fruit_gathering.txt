@@ -7,4 +7,5 @@ commercial_fertilizer = {
 	prerequisites = {
 		moldboard_plow
 	}
+	wealth_cost = 12000
 }

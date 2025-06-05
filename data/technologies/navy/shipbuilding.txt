@@ -72,6 +72,7 @@ streamlined_hulls = {
 		advanced_hull_design
 		circular_saw
 	}
+	wealth_cost = 1500
 }
 
 paddlewheels = {
@@ -84,6 +85,7 @@ paddlewheels = {
 		advanced_hull_design
 		high_pressure_steam_engine
 	}
+	wealth_cost = 3000
 }
 
 merchant_steamships = {
@@ -109,6 +111,7 @@ advanced_iron_working = {
 		paddlewheels
 		industrial_funding_of_research
 	}
+	wealth_cost = 12000
 }
 
 steel_armor_plate = {
@@ -120,6 +123,7 @@ steel_armor_plate = {
 	prerequisites = {
 		advanced_iron_working
 	}
+	wealth_cost = 40000
 }
 
 marine_engineering = {
@@ -131,6 +135,7 @@ marine_engineering = {
 	prerequisites = {
 		steel_armor_plate
 	}
+	wealth_cost = 40000
 }
 
 improved_range_finding = {
@@ -142,4 +147,5 @@ improved_range_finding = {
 	prerequisites = {
 		marine_engineering
 	}
+	wealth_cost = 150000
 }

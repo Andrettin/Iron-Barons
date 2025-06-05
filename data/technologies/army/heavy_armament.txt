@@ -148,6 +148,7 @@ rifled_artillery = {
 		modern_military_funding
 		industrial_funding_of_research
 	}
+	wealth_cost = 10000
 }
 
 field_artillery_tactics = {
@@ -183,4 +184,5 @@ large_artillery = {
 	prerequisites = {
 		rifled_artillery
 	}
+	wealth_cost = 40000
 }
