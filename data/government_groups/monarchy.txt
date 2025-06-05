@@ -1,6 +1,5 @@
 monarchy = {
 	name = "Monarchy"
-	
 	landholder_title_names = {
 		barony = {
 			male = "Baron"
