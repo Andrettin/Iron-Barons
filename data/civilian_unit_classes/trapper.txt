@@ -1,3 +1,0 @@
-trapper = {
-	name = "Trapper"
-}
