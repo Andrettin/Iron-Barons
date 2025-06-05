@@ -11,6 +11,9 @@ tamas_bakocz = { #Source: "Encyclopædia Britannica", 1911, vol. 3, p. 230.
 	death_date = 1521
 	skill_multiplier = 0.5
 	required_technology = feudalism
+	conditions = {
+		country = hungary
+	}
 	traits = {
 		statesman
 	}
@@ -21,10 +24,22 @@ tamas_bakocz = { #Source: "Encyclopædia Britannica", 1911, vol. 3, p. 230.
 	history = {
 		#succeeded his uncle as rector of Tétel in 1480
 		#became bishop of Gyor and a member of the Hungarian royal council in 1490
+		
+		1490 = {
+			#became the leading statesman of Hungary in 1490
+			country = hungary
+			office = chancellor
+		}
+		
 		#became bishop of Eger under Wladislaus II
 		#became archbishop of Esztergom in 1497
 		#became cardinal in 1500
 		#became titular patriarch of Constantinople in 1510
+		
+		1521 = {
+			country = none
+			office = none
+		}
 	}
 }
 
