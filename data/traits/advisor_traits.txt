@@ -1,53 +1,3 @@
-army_organizer = {
-	name = "Army Organizer"
-	types = {
-		ruler
-		advisor
-	}
-	icon = crossed_sabers
-	attribute = martial
-	conditions = {
-		character_type = general
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			military_unit_domain_stat_modifier = {
-				domain = land
-				stat = morale_recovery_modifier
-				value = 1
-			}
-		}
-	}
-	scaled_advisor_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = land
-			stat = morale_recovery_modifier
-			value = 1
-		}
-	}
-}
-
-army_reformer = {
-	name = "Army Reformer"
-	types = {
-		ruler
-		advisor
-	}
-	icon = crossed_sabers
-	attribute = martial
-	conditions = {
-		character_type = general
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			army_research_modifier = 5
-		}
-	}
-	scaled_advisor_modifier = {
-		army_research_modifier = 5
-	}
-}
-
 benjamin_franklin = {
 	name = "Benjamin Franklin"
 	types = {
@@ -76,34 +26,6 @@ charles_darwin = {
 	}
 	advisor_effects = {
 		free_technologies = 2
-	}
-}
-
-commandant = { #person responsible for drilling troops
-	name = "Commandant"
-	types = {
-		advisor
-	}
-	icon = crossed_sabers
-	attribute = martial
-	conditions = {
-		character_type = general
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			military_unit_domain_stat_modifier = {
-				domain = land
-				stat = damage_bonus
-				value = 1
-			}
-		}
-	}
-	scaled_advisor_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = land
-			stat = damage_bonus
-			value = 1
-		}
 	}
 }
 
@@ -197,61 +119,6 @@ giovanni_da_verrazano = {
 	}
 }
 
-grand_admiral = {
-	name = "Grand Admiral"
-	types = {
-		advisor
-	}
-	icon = anchor
-	attribute = martial
-	conditions = {
-		character_type = admiral
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			military_unit_domain_stat_modifier = {
-				domain = water
-				stat = discipline
-				value = 2.5
-			}
-		}
-	}
-	scaled_advisor_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = water
-			stat = discipline
-			value = 2.5
-		}
-	}
-}
-
-grand_captain = {
-	name = "Grand Captain"
-	types = {
-		advisor
-	}
-	icon = crossed_sabers
-	attribute = martial
-	conditions = {
-		character_type = general
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			military_unit_domain_stat_modifier = {
-				domain = land
-				stat = discipline
-				value = 2.5
-			}
-		}
-	}
-	scaled_advisor_modifier = {
-		military_unit_domain_stat_modifier = {
-			domain = land
-			stat = discipline
-			value = 2.5
-		}
-	}
-}
 
 henry_hudson = {
 	name = "Henry Hudson"
@@ -425,26 +292,6 @@ marco_polo = {
 	}
 }
 
-military_engineer = {
-	name = "Military Engineer"
-	types = {
-		advisor
-	}
-	icon = crossed_sabers
-	attribute = martial
-	conditions = {
-		character_type = military_engineer
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			entrenchment_bonus_modifier = 5
-		}
-	}
-	scaled_advisor_modifier = {
-		entrenchment_bonus_modifier = 5
-	}
-}
-
 natural_scientist = {
 	name = "Natural Scientist"
 	types = {
@@ -458,27 +305,6 @@ natural_scientist = {
 	scaled_advisor_modifier = {
 		gathering_research_modifier = 5
 		industry_research_modifier = 5
-	}
-}
-
-naval_reformer = {
-	name = "Naval Reformer"
-	types = {
-		ruler
-		advisor
-	}
-	icon = anchor
-	attribute = martial
-	conditions = {
-		character_type = admiral
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			navy_research_modifier = 5
-		}
-	}
-	scaled_advisor_modifier = {
-		navy_research_modifier = 5
 	}
 }
 
@@ -533,34 +359,6 @@ philosopher = {
 	}
 	scaled_advisor_modifier = {
 		research_output_modifier = 2.5
-	}
-}
-
-privateer = {
-	name = "Privateer"
-	types = {
-		advisor
-	}
-	icon = skull
-	attribute = martial
-	conditions = {
-		character_type = privateer
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			military_unit_category_stat_modifier = {
-				category = light_warship
-				stat = damage_bonus
-				value = 5
-			}
-		}
-	}
-	scaled_advisor_modifier = {
-		military_unit_category_stat_modifier = {
-			category = light_warship
-			stat = damage_bonus
-			value = 5
-		}
 	}
 }
 

@@ -1,0 +1,58 @@
+grand_admiral = {
+	name = "Grand Admiral"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = martial
+	conditions = {
+		character_type = admiral
+	}
+	scaled_office_modifiers = {
+		high_admiral = {
+			military_unit_domain_stat_modifier = {
+				domain = water
+				stat = discipline
+				value = 2.5
+			}
+		}
+	}
+}
+
+naval_reformer = {
+	name = "Naval Reformer"
+	types = {
+		advisor
+	}
+	icon = anchor
+	attribute = martial
+	conditions = {
+		character_type = admiral
+	}
+	scaled_office_modifiers = {
+		high_admiral = {
+			navy_research_modifier = 5
+		}
+	}
+}
+
+privateer = {
+	name = "Privateer"
+	types = {
+		advisor
+	}
+	icon = skull
+	attribute = martial
+	conditions = {
+		character_type = privateer
+	}
+	scaled_office_modifiers = {
+		high_admiral = {
+			military_unit_category_stat_modifier = {
+				category = light_warship
+				stat = damage_bonus
+				value = 5
+			}
+		}
+	}
+}
