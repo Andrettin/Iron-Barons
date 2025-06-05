@@ -20,7 +20,8 @@ franz_georg_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutzen und 
 clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 84-85.
 	name = "Clemens Wenceslaus" #"Clemens Wenceslaus Lothar"
 	dynasty = metternich
-	#character_type = diplomat
+	role = advisor
+	character_type = diplomat
 	culture = german #Rhenish
 	religion = catholic
 	portrait = metternich
@@ -31,10 +32,18 @@ clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutz
 	birth_date = 1773.5.15
 	start_date = 1795.9.27 #married
 	skill_multiplier = 1
+	traits = {
+		diplomat
+	}
 	
 	history = {
 		1795.9.27 = { #married on 1795.9.27 to Marie Eleonore, daughter of prince Ernst of Kaunitz-Rietberg
 			#spouse = marie_eleonore_von_kaunitz
+		}
+		
+		1815 = {
+			country = austria
+			office = chancellor
 		}
 	}
 }

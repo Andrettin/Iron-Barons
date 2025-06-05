@@ -1,0 +1,24 @@
+chancellor = {
+	name = "Chancellor"
+	minister = true
+	attribute = diplomacy
+	holder_conditions = {
+		or = {
+			trait = diplomat
+			trait = statesman
+		}
+	}
+}
+
+steward = {
+	name = "Steward"
+	minister = true
+	attribute = stewardship
+	holder_conditions = {
+		or = {
+			trait = master_of_mint
+			trait = merchant
+			trait = treasurer
+		}
+	}
+}

@@ -145,26 +145,6 @@ cyrus_mccormick = {
 	}
 }
 
-diplomat = {
-	name = "Diplomat"
-	types = {
-		advisor
-	}
-	icon = treaty
-	attribute = diplomacy
-	conditions = {
-		character_type = diplomat
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			diplomatic_penalty_for_expansion_modifier = -1
-		}
-	}
-	scaled_advisor_modifier = {
-		diplomatic_penalty_for_expansion_modifier = -1
-	}
-}
-
 ferdinand_magellan = {
 	name = "Ferdinand Magellan"
 	types = {
@@ -445,46 +425,6 @@ marco_polo = {
 	}
 }
 
-master_of_mint = {
-	name = "Master of Mint"
-	types = {
-		advisor
-	}
-	icon = wealth
-	attribute = stewardship
-	conditions = {
-		character_type = master_of_mint
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			inflation_change = -0.01
-		}
-	}
-	scaled_advisor_modifier = {
-		inflation_change = -0.01
-	}
-}
-
-merchant = {
-	name = "Merchant"
-	types = {
-		advisor
-	}
-	icon = wealth
-	attribute = stewardship
-	conditions = {
-		character_type = merchant
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			trade_output_modifier = 5
-		}
-	}
-	scaled_advisor_modifier = {
-		trade_output_modifier = 5
-	}
-}
-
 military_engineer = {
 	name = "Military Engineer"
 	types = {
@@ -639,26 +579,6 @@ sieur_de_la_salle = {
 	}
 }
 
-statesman = {
-	name = "Statesman"
-	types = {
-		advisor
-	}
-	icon = bell
-	attribute = diplomacy
-	conditions = {
-		character_type = statesman
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			statesmanship_output_modifier = 5
-		}
-	}
-	scaled_advisor_modifier = {
-		statesmanship_output_modifier = 5
-	}
-}
-
 sun_tzu = {
 	name = "Sun Tzu"
 	types = {
@@ -713,26 +633,6 @@ tobacco_planter = {
 	}
 	scaled_advisor_modifier = {
 		tobacco_output_modifier = 5
-	}
-}
-
-treasurer = {
-	name = "Treasurer"
-	types = {
-		advisor
-	}
-	icon = chest
-	attribute = stewardship
-	conditions = {
-		character_type = treasurer
-	}
-	scaled_office_modifiers = {
-		ruler = {
-			finance_research_modifier = 5
-		}
-	}
-	scaled_advisor_modifier = {
-		finance_research_modifier = 5
 	}
 }
 

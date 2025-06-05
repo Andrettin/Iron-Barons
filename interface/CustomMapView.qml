@@ -366,8 +366,7 @@ Item {
 					politics_view_mode = PoliticsView.Mode.Advisors
 					
 					menu_stack.push("PoliticsView.qml", {
-						country: metternich.game.player_country,
-						new_advisor: advisor
+						country: metternich.game.player_country
 					})
 				}
 			})

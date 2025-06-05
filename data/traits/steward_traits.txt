@@ -1,0 +1,50 @@
+master_of_mint = {
+	name = "Master of Mint"
+	types = {
+		advisor
+	}
+	icon = wealth
+	attribute = stewardship
+	conditions = {
+		character_type = master_of_mint
+	}
+	scaled_office_modifiers = {
+		steward = {
+			inflation_change = -0.01
+		}
+	}
+}
+
+merchant = {
+	name = "Merchant"
+	types = {
+		advisor
+	}
+	icon = wealth
+	attribute = stewardship
+	conditions = {
+		character_type = merchant
+	}
+	scaled_office_modifiers = {
+		steward = {
+			trade_output_modifier = 5
+		}
+	}
+}
+
+treasurer = {
+	name = "Treasurer"
+	types = {
+		advisor
+	}
+	icon = chest
+	attribute = stewardship
+	conditions = {
+		character_type = treasurer
+	}
+	scaled_office_modifiers = {
+		steward = {
+			finance_research_modifier = 5
+		}
+	}
+}
