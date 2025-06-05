@@ -1,6 +1,6 @@
 tobacco = {
 	name = "Tobacco"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = tobacco
 	discovery = true
@@ -9,7 +9,7 @@ tobacco = {
 
 tobacco_planting = {
 	name = "Tobacco Planting"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = tobacco
 	period = bronze_age
@@ -20,7 +20,7 @@ tobacco_planting = {
 
 large_tobacco_plantations = {
 	name = "Large Tobacco Plantations"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = tobacco
 	period = 1600_1650
@@ -32,7 +32,7 @@ large_tobacco_plantations = {
 
 tobacco_industry = {
 	name = "Tobacco Industry"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = tobacco
 	period = 1700_1750

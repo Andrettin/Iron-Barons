@@ -1,6 +1,6 @@
 electronics = {
 	name = "Electronics"
-	subcategory = mechanization
+	subcategory = infrastructure
 	portrait = engineering
 	icon = research
 	period = 1875_1900

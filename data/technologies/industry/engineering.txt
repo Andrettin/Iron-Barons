@@ -1,6 +1,6 @@
 engineering = {
 	name = "Engineering"
-	subcategory = handicraft
+	subcategory = infrastructure
 	portrait = engineering
 	icon = cog
 	period = 1_500

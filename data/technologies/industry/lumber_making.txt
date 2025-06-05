@@ -1,6 +1,6 @@
 saw_mill = {
 	name = "Saw Mill"
-	subcategory = handicraft
+	subcategory = manufacturing
 	portrait = engineering
 	icon = lumber
 	period = 1500_1550
@@ -14,7 +14,7 @@ saw_mill = {
 
 wind_saw_mill = {
 	name = "Wind Saw Mill"
-	subcategory = handicraft
+	subcategory = manufacturing
 	portrait = engineering
 	icon = lumber
 	period = 1550_1600
@@ -28,7 +28,7 @@ wind_saw_mill = {
 
 mechanical_precision_saw = {
 	name = "Mechanical Precision Saw"
-	subcategory = mechanization
+	subcategory = manufacturing
 	portrait = engineering
 	icon = lumber
 	period = 1800_1825

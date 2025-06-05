@@ -1,6 +1,6 @@
 potatoes = {
 	name = "Potatoes"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = grain
 	discovery = true

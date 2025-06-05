@@ -1,6 +1,6 @@
 salt_refining = {
 	name = "Salt Refining"
-	subcategory = handicraft
+	subcategory = manufacturing
 	portrait = engineering
 	icon = salt
 	period = 1000_1100

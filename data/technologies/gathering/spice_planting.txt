@@ -1,6 +1,6 @@
 spices = {
 	name = "Spices"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = spices
 	discovery = true
@@ -9,7 +9,7 @@ spices = {
 
 improved_sea_routes = {
 	name = "Improved Sea Routes"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = spices
 	period = 1500_1550
@@ -24,7 +24,7 @@ improved_sea_routes = {
 
 large_spice_plantations = {
 	name = "Large Spice Plantations"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = spices
 	period = 1600_1650
@@ -36,7 +36,7 @@ large_spice_plantations = {
 
 improved_food_preservation = {
 	name = "Improved Food Preservation"
-	subcategory = farming_techniques
+	subcategory = farming
 	portrait = engineering
 	icon = spices
 	period = 1700_1750

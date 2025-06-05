@@ -1,17 +1,11 @@
-power = {
-	name = "Power"
+infrastructure = {
+	name = "Infrastructure"
 	category = industry
-	icon = coal
+	icon = railroad
 }
 
-handicraft = {
-	name = "Handicraft"
-	category = industry
-	icon = cog
-}
-
-mechanization = {
-	name = "Mechanization"
+manufacturing = {
+	name = "Manufacturing"
 	category = industry
 	icon = cog
 }
@@ -20,10 +14,4 @@ metallurgy = {
 	name = "Metallurgy"
 	category = industry
 	icon = iron
-}
-
-infrastructure = {
-	name = "Infrastructure"
-	category = industry
-	icon = railroad
 }

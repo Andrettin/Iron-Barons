@@ -1,6 +1,6 @@
 food_packing_system = {
 	name = "Food Packing System"
-	subcategory = mechanization
+	subcategory = manufacturing
 	portrait = engineering
 	icon = lumber
 	period = 1825_1850

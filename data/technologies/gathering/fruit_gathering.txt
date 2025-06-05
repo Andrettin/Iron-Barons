@@ -1,6 +1,6 @@
 commercial_fertilizer = {
 	name = "Commercial Fertilizer"
-	subcategory = farming_equipment
+	subcategory = farming
 	portrait = engineering
 	icon = fruit
 	period = 1850_1875

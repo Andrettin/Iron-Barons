@@ -1,6 +1,6 @@
 pottery = {
 	name = "Pottery"
-	subcategory = handicraft
+	subcategory = manufacturing
 	portrait = engineering
 	icon = cog
 	period = copper_age

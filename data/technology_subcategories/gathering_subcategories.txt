@@ -1,25 +1,13 @@
-farming_equipment = {
-	name = "Farming Equipment"
+farming = {
+	name = "Farming"
 	category = gathering
 	icon = grain
 }
 
-farming_techniques = {
-	name = "Farming Techniques"
+foresting = {
+	name = "Foresting"
 	category = gathering
-	icon = grain
-}
-
-fur_trapping = {
-	name = "Fur Trapping"
-	category = gathering
-	icon = furs
-}
-
-livestock_herding = {
-	name = "Livestock Herding"
-	category = gathering
-	icon = cattle
+	icon = timber
 }
 
 mining = {
@@ -28,8 +16,8 @@ mining = {
 	icon = iron_ore
 }
 
-timber_harvesting = {
-	name = "Timber Harvesting"
+ranching = {
+	name = "Ranching"
 	category = gathering
-	icon = timber
+	icon = cattle
 }

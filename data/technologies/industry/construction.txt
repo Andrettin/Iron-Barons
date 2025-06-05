@@ -1,6 +1,6 @@
 masonry = {
 	name = "Masonry"
-	subcategory = handicraft
+	subcategory = infrastructure
 	portrait = engineering
 	icon = wall
 	period = copper_age
@@ -8,7 +8,7 @@ masonry = {
 
 architecture = {
 	name = "Architecture"
-	subcategory = handicraft
+	subcategory = infrastructure
 	portrait = engineering
 	icon = architecture
 	period = iron_age

@@ -1,6 +1,6 @@
 jigs = {
 	name = "Jigs"
-	subcategory = mechanization
+	subcategory = manufacturing
 	portrait = engineering
 	icon = furniture
 	period = 1825_1850
