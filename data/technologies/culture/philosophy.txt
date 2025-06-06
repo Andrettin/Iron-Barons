@@ -86,6 +86,9 @@ enlightenment_philosophy = {
 		
 		nationalism #to put this technology in the correct technological period
 	}
+	commodity_costs = {
+		research = 360
+	}
 	modifier = {
 		research_output_modifier = 5
 	}
@@ -99,6 +102,9 @@ idealism = {
 	period = 1800_1825
 	prerequisites = {
 		enlightenment_philosophy
+	}
+	commodity_costs = {
+		research = 720
 	}
 	modifier = {
 		research_output_modifier = 5
@@ -114,6 +120,9 @@ empiricism = {
 	prerequisites = {
 		idealism
 	}
+	commodity_costs = {
+		research = 1080
+	}
 	modifier = {
 		research_output_modifier = 5
 	}
@@ -127,6 +136,9 @@ analytic_philosophy = {
 	period = 1850_1875
 	prerequisites = {
 		empiricism
+	}
+	commodity_costs = {
+		research = 1440
 	}
 	modifier = {
 		research_output_modifier = 5
@@ -172,6 +184,9 @@ anti_rationalism = {
 	prerequisites = {
 		phenomenology
 		hermeneutics
+	}
+	commodity_costs = {
+		research = 2160
 	}
 	modifier = {
 		research_output_modifier = 5

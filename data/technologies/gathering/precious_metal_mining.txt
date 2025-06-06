@@ -16,6 +16,7 @@ precious_metal_mining = {
 	prerequisites = {
 		precious_metals
 	}
+	wealth_cost = 2400
 }
 
 extraction_of_precious_metals = {

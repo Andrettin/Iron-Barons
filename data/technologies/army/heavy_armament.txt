@@ -109,6 +109,7 @@ light_artillery_tactics = {
 		crucible_process
 		scientific_method
 	}
+	wealth_cost = 7000
 }
 
 heavy_emplaced_artillery = {
@@ -122,6 +123,7 @@ heavy_emplaced_artillery = {
 		national_bureaucracy
 		road_construction
 	}
+	wealth_cost = 4800
 }
 
 high_grade_steel = {
@@ -161,6 +163,7 @@ field_artillery_tactics = {
 		light_artillery_tactics
 		modern_military_funding
 	}
+	wealth_cost = 14700
 }
 
 emplaced_siege_guns = {

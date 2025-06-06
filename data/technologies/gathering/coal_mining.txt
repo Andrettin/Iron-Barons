@@ -7,6 +7,7 @@ coal_mining = {
 	prerequisites = {
 		mine_engineering
 	}
+	wealth_cost = 2000
 }
 
 large_coal_mines = {

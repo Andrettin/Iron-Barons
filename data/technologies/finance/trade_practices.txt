@@ -81,4 +81,5 @@ trade_fairs = {
 		sugar_refining
 		sugar_planting
 	}
+	wealth_cost = 2000
 }

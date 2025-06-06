@@ -11,4 +11,5 @@ national_bureaucracy = {
 		
 		feudalism
 	}
+	wealth_cost = 3300
 }

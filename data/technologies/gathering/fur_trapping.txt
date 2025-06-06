@@ -18,6 +18,7 @@ improved_trapping_techniques = {
 		
 		academic_disciplines #university
 	}
+	wealth_cost = 900
 }
 
 riverboats = {
@@ -30,6 +31,7 @@ riverboats = {
 		improved_trapping_techniques
 		high_pressure_steam_engine
 	}
+	wealth_cost = 7000
 }
 
 excessive_fur_harvesting = {

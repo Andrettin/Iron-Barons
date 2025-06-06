@@ -16,6 +16,7 @@ cotton_planting = {
 	prerequisites = {
 		cotton
 	}
+	wealth_cost = 900
 }
 
 large_cotton_plantations = {

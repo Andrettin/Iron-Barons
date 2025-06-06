@@ -26,6 +26,9 @@ collectivist_theory = {
 		economics
 		collectivism
 	}
+	commodity_costs = {
+		research = 1080
+	}
 	modifier = {
 		capitalist_bonus = 2
 	}
@@ -39,6 +42,9 @@ historical_theory = {
 	period = 1850_1875
 	prerequisites = {
 		collectivist_theory
+	}
+	commodity_costs = {
+		research = 1440
 	}
 	modifier = {
 		capitalist_bonus = 2
@@ -54,6 +60,9 @@ neoclassical_theory = {
 	prerequisites = {
 		historical_theory
 	}
+	commodity_costs = {
+		research = 1800
+	}
 	modifier = {
 		capitalist_bonus = 2
 	}
@@ -67,6 +76,9 @@ keynesian_economics = {
 	period = 1900_1925
 	prerequisites = {
 		neoclassical_theory
+	}
+	commodity_costs = {
+		research = 2160
 	}
 	modifier = {
 		capitalist_bonus = 2

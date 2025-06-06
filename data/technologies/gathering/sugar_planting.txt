@@ -16,6 +16,7 @@ sugar_planting = {
 	prerequisites = {
 		sugar_cane
 	}
+	wealth_cost = 900
 }
 
 large_sugar_plantations = {
@@ -40,4 +41,5 @@ sugar_industry = {
 	prerequisites = {
 		large_sugar_plantations
 	}
+	wealth_cost = 3300
 }

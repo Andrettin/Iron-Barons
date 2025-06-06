@@ -35,6 +35,7 @@ large_hulls = {
 		convoying
 		wind_saw_mill
 	}
+	wealth_cost = 3300
 }
 
 advanced_hull_design = {

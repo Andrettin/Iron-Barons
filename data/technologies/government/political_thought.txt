@@ -55,6 +55,7 @@ nationalism = {
 		master_artisans
 		modern_fortifications
 	}
+	wealth_cost = 7000
 	commodity_costs = {
 		statesmanship = 1200
 	}
@@ -71,6 +72,9 @@ rights_of_man = {
 	period = 1750_1800
 	prerequisites = {
 		nationalism
+	}
+	commodity_costs = {
+		statesmanship = 360
 	}
 	modifier = {
 		statesmanship_output_modifier = 5

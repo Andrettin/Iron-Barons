@@ -28,6 +28,7 @@ large_tobacco_plantations = {
 		tobacco_planting
 		seed_drill
 	}
+	wealth_cost = 3300
 }
 
 tobacco_industry = {

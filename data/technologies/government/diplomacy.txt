@@ -35,4 +35,5 @@ empire_building = {
 		nationalism
 		banking
 	}
+	wealth_cost = 10200
 }

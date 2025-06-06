@@ -24,6 +24,7 @@ banking = {
 		
 		republic
 	}
+	wealth_cost = 7000
 	commodity_costs = {
 		research = 780
 	}
@@ -40,6 +41,7 @@ modern_military_funding = {
 		large_precious_stone_mines
 		modern_fortifications
 	}
+	wealth_cost = 10200
 }
 
 industrial_funding_of_research = {

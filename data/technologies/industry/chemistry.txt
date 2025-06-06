@@ -8,4 +8,7 @@ alchemy = {
 		philosophy
 		ironworking
 	}
+	commodity_costs = {
+		research = 80
+	}
 }

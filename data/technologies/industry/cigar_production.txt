@@ -7,4 +7,5 @@ cigar_production = {
 	prerequisites = {
 		tobacco
 	}
+	wealth_cost = 900
 }

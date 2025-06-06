@@ -21,6 +21,7 @@ wind_saw_mill = {
 	prerequisites = {
 		saw_mill
 	}
+	wealth_cost = 2000
 	modifier = {
 		lumber_throughput_modifier = 5
 	}

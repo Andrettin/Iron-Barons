@@ -35,6 +35,7 @@ crucible_process = {
 		steam_in_mining
 		large_coal_mines
 	}
+	wealth_cost = 4800
 	commodity_costs = {
 		research = 485
 	}

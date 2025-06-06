@@ -21,6 +21,7 @@ trained_journeymen = {
 		cigar_production
 		printing_press
 	}
+	wealth_cost = 3300
 }
 
 master_artisans = {
@@ -34,4 +35,5 @@ master_artisans = {
 		fur_hat_production
 		scientific_method
 	}
+	wealth_cost = 4800
 }

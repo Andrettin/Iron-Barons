@@ -37,6 +37,7 @@ high_pressure_steam_engine = {
 		
 		physics
 	}
+	wealth_cost = 4800
 	commodity_costs = {
 		research = 2350
 	}
