@@ -44,16 +44,6 @@ Item {
 				anchors.left: parent.left
 				source: "image://portrait/" + technology.portrait.identifier
 				fillMode: Image.Pad
-				
-				MouseArea {
-					anchors.fill: parent
-					
-					onReleased: {
-						if (technology_view_mode === TechnologyView.Mode.Available) {
-							country_game_data.current_research = technology
-						}
-					}
-				}
 			}
 			
 			Rectangle {
@@ -84,44 +74,77 @@ Item {
 					wrapMode: Text.WordWrap
 				}
 				
-				Column {
-					id: technology_costs_column
+				ItemButton {
+					id: research_technology_button
+					width: 128 * scale_factor + 6 * scale_factor
+					height: 32 * scale_factor + 6 * scale_factor
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: technology_label.right
-					anchors.right: technology_effects_label.left
-					spacing: 4 * scale_factor
+					anchors.leftMargin: 16 * scale_factor
 					visible: technology_view_mode === TechnologyView.Mode.Available
-					
-					Row {
-						id: commodity_costs_row
-						spacing: 8 * scale_factor
+				
+					contentItem: Item {
+						id: research_technology_button_item
+						anchors.verticalCenter: research_technology_button.verticalCenter
+						anchors.verticalCenterOffset: research_technology_button.down && research_technology_button.allowed ? 1 * scale_factor : 0
+						anchors.horizontalCenter: research_technology_button.horizontalCenter
+						anchors.horizontalCenterOffset: research_technology_button.down && research_technology_button.allowed ? 1 * scale_factor : 0
 						
-						SmallText {
-							id: wealth_cost_label
-							anchors.verticalCenter: commodity_costs_row.verticalCenter
-							text: "$" + number_string(technology.get_wealth_cost_for_country(country))
-						}
-						
-						Repeater {
-							model: technology.get_commodity_costs_for_country_qvariant_list(country)
+						Row {
+							id: commodity_costs_row
+							anchors.verticalCenter: research_technology_button_item.verticalCenter
+							anchors.horizontalCenter: research_technology_button_item.horizontalCenter
+							spacing: 8 * scale_factor
+							visible: country_game_data.current_researches.includes(technology) === false
 							
-							Row {
-								spacing: 4 * scale_factor
+							SmallText {
+								id: wealth_cost_label
+								anchors.verticalCenter: commodity_costs_row.verticalCenter
+								text: "$" + number_string(wealth_cost)
+								visible: wealth_cost > 0
 								
-								readonly property var commodity: model.modelData.key
-								readonly property var commodity_cost: model.modelData.value
+								readonly property var wealth_cost: technology.get_wealth_cost_for_country(country)
+							}
+							
+							Repeater {
+								model: technology.get_commodity_costs_for_country_qvariant_list(country)
 								
-								Image {
-									id: commodity_icon
-									source: "image://icon/" + commodity.icon.identifier
-								}
-								
-								SmallText {
-									id: cost_label
-									text: number_string(commodity_cost)
-									anchors.verticalCenter: commodity_icon.verticalCenter
+								Row {
+									spacing: 4 * scale_factor
+									
+									readonly property var commodity: model.modelData.key
+									readonly property var commodity_cost: model.modelData.value
+									
+									Image {
+										id: commodity_icon
+										source: "image://icon/" + commodity.icon.identifier
+									}
+									
+									SmallText {
+										id: cost_label
+										text: number_string(commodity_cost)
+										anchors.verticalCenter: commodity_icon.verticalCenter
+									}
 								}
 							}
+						}
+						
+						SmallText {
+							anchors.verticalCenter: research_technology_button_item.verticalCenter
+							anchors.horizontalCenter: research_technology_button_item.horizontalCenter
+							text: "Researching"
+							color: research_technology_button.allowed ? "white" : "gray"
+							horizontalAlignment: Text.AlignHCenter
+							verticalAlignment: Text.AlignVCenter
+							visible: country_game_data.current_researches.includes(technology)
+						}
+					}
+					
+					onClicked: {
+						if (country_game_data.current_researches.includes(technology)) {
+							country_game_data.remove_current_research(technology)
+						} else {
+							country_game_data.add_current_research(technology)
 						}
 					}
 				}
@@ -163,7 +186,7 @@ Item {
 		entries: country.available_technologies
 		visible: technology_view_mode === TechnologyView.Mode.TechTree
 		delegate: TreePortraitButton {
-			border_color: country_game_data.current_research === technology ? "white" : (country_game_data.has_technology(technology) ? Qt.rgba(64.0 / 255.0, 64.0 / 255.0, 64.0 / 255.0, 1) : "gray")
+			border_color: country_game_data.current_researches.includes(technology) ? "white" : (country_game_data.has_technology(technology) ? Qt.rgba(64.0 / 255.0, 64.0 / 255.0, 64.0 / 255.0, 1) : "gray")
 			
 			readonly property var technology: model.modelData
 			

@@ -1,24 +1,12 @@
 import QtQuick
 import QtQuick.Controls
 
-ButtonBase {
+ItemButton {
 	id: button
 	width: 96 * scale_factor
 	height: 24 * scale_factor
 	
-	property bool allowed: true
 	readonly property int text_content_width: text.contentWidth
-	
-	signal clicked()
-	
-    background: Rectangle {
-        implicitWidth: 40
-        implicitHeight: 40
-        radius: button.radius
-        color: highlighted ? "dimGray" : "black"
-        border.color: allowed ? "gray" : "dimGray"
-        border.width: 1 * scale_factor
-    }
 	
 	contentItem: SmallText {
 		id: text
@@ -30,13 +18,5 @@ ButtonBase {
 		color: allowed ? "white" : "gray"
 		horizontalAlignment: Text.AlignHCenter
 		verticalAlignment: Text.AlignVCenter
-	}
-	
-	onReleased: {
-		if (!allowed) {
-			return
-		}
-		
-		button.clicked()
 	}
 }
