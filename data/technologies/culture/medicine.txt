@@ -12,4 +12,7 @@ medicine = {
 		
 		academic_disciplines #university
 	}
+	commodity_costs = {
+		research = 1000
+	}
 }

@@ -11,4 +11,7 @@ invention = {
 		
 		ironworking
 	}
+	commodity_costs = {
+		research = 440
+	}
 }

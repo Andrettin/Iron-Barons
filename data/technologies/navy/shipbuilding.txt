@@ -112,6 +112,9 @@ advanced_iron_working = {
 		industrial_funding_of_research
 	}
 	wealth_cost = 12000
+	commodity_costs = {
+		research = 1000
+	}
 }
 
 steel_armor_plate = {

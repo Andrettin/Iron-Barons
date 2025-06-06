@@ -106,6 +106,9 @@ music_theory = {
 		
 		academic_disciplines #university
 	}
+	commodity_costs = {
+		culture = 400
+	}
 }
 
 classicism = {

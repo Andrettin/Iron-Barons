@@ -25,6 +25,9 @@ theory_of_gravity = {
 		
 		scientific_method
 	}
+	commodity_costs = {
+		research = 680
+	}
 }
 
 atomic_theory = {
@@ -35,5 +38,8 @@ atomic_theory = {
 	period = 1700_1750
 	prerequisites = {
 		theory_of_gravity
+	}
+	commodity_costs = {
+		research = 5100
 	}
 }

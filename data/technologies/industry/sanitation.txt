@@ -8,4 +8,7 @@ sanitation = {
 		medicine
 		engineering
 	}
+	commodity_costs = {
+		research = 900
+	}
 }

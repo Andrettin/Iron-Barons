@@ -33,6 +33,9 @@ literature = {
 		writing
 		code_of_laws
 	}
+	commodity_costs = {
+		culture = 100
+	}
 }
 
 printing_press = {

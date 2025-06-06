@@ -22,6 +22,9 @@ cartography = {
 		seafaring
 		writing
 	}
+	commodity_costs = {
+		research = 120
+	}
 }
 
 convoying = {

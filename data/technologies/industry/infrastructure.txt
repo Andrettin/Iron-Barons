@@ -37,6 +37,9 @@ high_pressure_steam_engine = {
 		
 		physics
 	}
+	commodity_costs = {
+		research = 2350
+	}
 }
 
 iron_railroad_bridge = {

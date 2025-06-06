@@ -8,4 +8,7 @@ corporation = {
 		economics
 		industrial_machinery
 	}
+	commodity_costs = {
+		culture = 1000
+	}
 }
