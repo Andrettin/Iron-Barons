@@ -1,6 +1,6 @@
 furs = {
 	name = "Furs"
-	subcategory = foresting
+	subcategory = forestry
 	portrait = engineering
 	icon = furs
 	discovery = true
@@ -9,7 +9,7 @@ furs = {
 
 improved_trapping_techniques = {
 	name = "Improved Trapping Techniques"
-	subcategory = foresting
+	subcategory = forestry
 	portrait = engineering
 	icon = furs
 	period = 1500_1550
@@ -22,7 +22,7 @@ improved_trapping_techniques = {
 
 riverboats = {
 	name = "Riverboats"
-	subcategory = foresting
+	subcategory = forestry
 	portrait = unload
 	icon = furs
 	period = 1700_1750
@@ -34,7 +34,7 @@ riverboats = {
 
 excessive_fur_harvesting = {
 	name = "Excessive Fur Harvesting"
-	subcategory = foresting
+	subcategory = forestry
 	portrait = engineering
 	icon = furs
 	period = 1750_1800

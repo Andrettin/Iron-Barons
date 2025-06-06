@@ -16,8 +16,8 @@ mining = {
 	icon = iron_ore
 }
 
-foresting = {
-	name = "Foresting"
+forestry = {
+	name = "Forestry"
 	category = gathering
 	icon = timber
 }
