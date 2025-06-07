@@ -1,5 +1,11 @@
 monarchy = {
 	name = "Monarchy"
+	office_title_names = {
+		chief_builder = {
+			kingdom = "Royal Architect"
+			empire = "Imperial Architect"
+		}
+	}
 	landholder_title_names = {
 		barony = {
 			male = "Baron"

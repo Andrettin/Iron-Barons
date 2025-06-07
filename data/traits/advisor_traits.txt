@@ -1,3 +1,32 @@
+architect = {
+	name = "Architect"
+	types = {
+		background
+		advisor
+	}
+	icon = architecture
+	attribute = stewardship
+	conditions = {
+		character_type = architect
+	}
+	attribute_bonuses = {
+		stewardship = 2
+		martial = 1
+	}
+	scaled_office_modifiers = {
+		chief_builder = {
+			technology_cost_modifier = {
+				subcategory = architecture
+				value = -5
+			}
+			technology_cost_modifier = {
+				subcategory = infrastructure
+				value = -5
+			}
+		}
+	}
+}
+
 benjamin_franklin = {
 	name = "Benjamin Franklin"
 	types = {

@@ -1,3 +1,11 @@
+chief_builder = {
+	name = "Chief Builder"
+	attribute = stewardship
+	holder_conditions = {
+		trait = architect
+	}
+}
+
 court_scholar = {
 	name = "Court Scholar"
 	attribute = learning
