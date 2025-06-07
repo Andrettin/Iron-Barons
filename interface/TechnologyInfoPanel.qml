@@ -4,7 +4,7 @@ import QtQuick.Controls
 Rectangle {
 	id: infopanel
 	color: interface_background_color
-	width: 64 * scale_factor + 8 * scale_factor * 2
+	width: 64 * scale_factor
 	
 	Rectangle {
 		color: "gray"
@@ -16,10 +16,30 @@ Rectangle {
 		width: 1 * scale_factor
 	}
 	
-	IconButton {
-		id: researched_mode_button
+	Column {
+		id: commodity_counter_column
+		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
 		anchors.topMargin: 16 * scale_factor
+		spacing: 4 * scale_factor
+		
+		Repeater {
+			model: metternich.get_research_commodities()
+			
+			IndustryCounter {
+				name: commodity.name
+				icon_identifier: commodity.icon.identifier
+				count: country_game_data.get_stored_commodity(commodity)
+				
+				readonly property var commodity: model.modelData
+			}
+		}
+	}
+	
+	IconButton {
+		id: researched_mode_button
+		anchors.top: commodity_counter_column.bottom
+		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "architecture"
 		border_color: technology_view_mode === TechnologyView.Mode.Researched ? "white" : "gray"
