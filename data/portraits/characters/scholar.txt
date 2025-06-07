@@ -8,6 +8,7 @@ scholar = {
 		}
 		is_ruler = false
 		or = {
+			character_type = architect
 			character_type = artist
 			character_type = philosopher
 		}
