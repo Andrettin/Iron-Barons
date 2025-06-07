@@ -1,6 +1,6 @@
 economics = {
 	name = "Economics"
-	subcategory = economic_thought
+	subcategory = economics
 	portrait = coinage
 	icon = wealth
 	period = 1750_1800
@@ -18,7 +18,7 @@ economics = {
 
 collectivist_theory = {
 	name = "Collectivist Theory"
-	subcategory = economic_thought
+	subcategory = economics
 	portrait = coinage
 	icon = wealth
 	period = 1825_1850
@@ -36,7 +36,7 @@ collectivist_theory = {
 
 historical_theory = {
 	name = "Historical Theory"
-	subcategory = economic_thought
+	subcategory = economics
 	portrait = coinage
 	icon = wealth
 	period = 1850_1875
@@ -53,7 +53,7 @@ historical_theory = {
 
 neoclassical_theory = {
 	name = "Neoclassical Theory"
-	subcategory = economic_thought
+	subcategory = economics
 	portrait = coinage
 	icon = wealth
 	period = 1875_1900
@@ -70,7 +70,7 @@ neoclassical_theory = {
 
 keynesian_economics = {
 	name = "Keynesian Economics"
-	subcategory = economic_thought
+	subcategory = economics
 	portrait = coinage
 	icon = wealth
 	period = 1900_1925

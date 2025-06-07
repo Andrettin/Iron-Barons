@@ -1,0 +1,14 @@
+coinage = {
+	name = "Coinage"
+	subcategory = currency
+	portrait = coinage
+	icon = wealth
+	period = bronze_age
+	prerequisites = {
+		precious_metals
+		bronzeworking
+	}
+	commodity_costs = {
+		research = 175
+	}
+}

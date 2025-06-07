@@ -1,21 +1,6 @@
-coinage = {
-	name = "Coinage"
-	subcategory = monetary_system
-	portrait = coinage
-	icon = wealth
-	period = bronze_age
-	prerequisites = {
-		precious_metals
-		bronzeworking
-	}
-	commodity_costs = {
-		research = 175
-	}
-}
-
 trade = {
 	name = "Trade"
-	subcategory = trade_practices
+	subcategory = commerce
 	portrait = coinage
 	icon = wealth
 	period = iron_age

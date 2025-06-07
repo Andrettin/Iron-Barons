@@ -1,6 +1,6 @@
 minor_merchant_houses = {
 	name = "Minor Merchant Houses"
-	subcategory = commerce_institutions
+	subcategory = commerce
 	portrait = trading_post
 	icon = wealth
 	period = 1000_1100
@@ -16,7 +16,7 @@ minor_merchant_houses = {
 
 local_merchant_houses = {
 	name = "Local Merchant Houses"
-	subcategory = commerce_institutions
+	subcategory = commerce
 	portrait = trading_post
 	icon = wealth
 	period = 1100_1200
@@ -30,7 +30,7 @@ local_merchant_houses = {
 
 renowned_merchant_houses = {
 	name = "Renowned Merchant Houses"
-	subcategory = commerce_institutions
+	subcategory = commerce
 	portrait = trading_post
 	icon = wealth
 	period = 1400_1500
@@ -46,7 +46,7 @@ renowned_merchant_houses = {
 
 merchant_companies = {
 	name = "Merchant Companies"
-	subcategory = commerce_institutions
+	subcategory = commerce
 	portrait = trading_post
 	icon = wealth
 	period = 1500_1550

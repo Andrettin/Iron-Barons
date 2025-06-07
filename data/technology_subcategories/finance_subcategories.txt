@@ -1,35 +1,29 @@
-commerce_institutions = {
-	name = "Commerce Institutions"
+currency = {
+	name = "Currency"
 	category = finance
 	icon = wealth
 }
 
-economic_thought = {
-	name = "Economic Thought"
+commerce = {
+	name = "Commerce"
 	category = finance
 	icon = wealth
 }
 
-financial_institutions = {
-	name = "Financial Institutions"
+banking = {
+	name = "Banking"
 	category = finance
 	icon = chest
 }
 
+economics = {
+	name = "Economics"
+	category = finance
+	icon = wealth
+}
+
 market_functionality = {
 	name = "Market Functionality"
-	category = finance
-	icon = wealth
-}
-
-monetary_system = {
-	name = "Monetary System"
-	category = finance
-	icon = wealth
-}
-
-trade_practices = {
-	name = "Trade Practices"
 	category = finance
 	icon = wealth
 }

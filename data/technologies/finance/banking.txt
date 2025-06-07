@@ -1,6 +1,6 @@
 moneylending = {
 	name = "Moneylending"
-	subcategory = financial_institutions
+	subcategory = banking
 	portrait = coinage
 	icon = chest
 	period = 1550_1600
@@ -12,7 +12,7 @@ moneylending = {
 
 banking = {
 	name = "Banking"
-	subcategory = financial_institutions
+	subcategory = banking
 	portrait = coinage
 	icon = chest
 	period = 1700_1750
@@ -32,7 +32,7 @@ banking = {
 
 modern_military_funding = {
 	name = "Modern Military Funding"
-	subcategory = financial_institutions
+	subcategory = banking
 	portrait = coinage
 	icon = chest
 	period = 1750_1800
@@ -46,7 +46,7 @@ modern_military_funding = {
 
 industrial_funding_of_research = {
 	name = "Industrial Funding of Research"
-	subcategory = financial_institutions
+	subcategory = banking
 	portrait = coinage
 	icon = chest
 	period = 1700_1750
