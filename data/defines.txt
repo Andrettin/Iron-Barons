@@ -48,7 +48,7 @@ tariff_icon = wealth
 treasure_fleet_icon = chest
 military_upkeep_icon = crossed_sabers
 
-min_traits_per_type = {
+min_character_traits_per_type = {
 	background = 1
 	personality = 1
 	expertise = 0
@@ -57,7 +57,7 @@ min_traits_per_type = {
 	governor = 1
 }
 
-max_traits_per_type = {
+max_character_traits_per_type = {
 	background = 1
 	personality = 1
 	ruler = 2
