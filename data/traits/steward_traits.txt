@@ -44,7 +44,10 @@ treasurer = {
 	}
 	scaled_office_modifiers = {
 		steward = {
-			finance_research_modifier = 5
+			technology_cost_modifier = {
+				category = finance
+				value = -5
+			}
 		}
 	}
 }

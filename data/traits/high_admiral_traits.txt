@@ -31,7 +31,10 @@ naval_reformer = {
 	}
 	scaled_office_modifiers = {
 		high_admiral = {
-			navy_research_modifier = 5
+			technology_cost_modifier = {
+				category = navy
+				value = -5
+			}
 		}
 	}
 }

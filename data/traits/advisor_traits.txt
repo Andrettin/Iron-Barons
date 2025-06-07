@@ -303,8 +303,14 @@ natural_scientist = {
 	}
 	scaled_office_modifiers = {
 		court_scholar = {
-			gathering_research_modifier = 5
-			industry_research_modifier = 5
+			technology_cost_modifier = {
+				category = gathering
+				value = -5
+			}
+			technology_cost_modifier = {
+				category = industry
+				value = -5
+			}
 		}
 	}
 }
@@ -355,7 +361,7 @@ philosopher = {
 	}
 	scaled_office_modifiers = {
 		court_scholar = {
-			research_output_modifier = 2.5
+			research_output_modifier = 5
 		}
 	}
 }

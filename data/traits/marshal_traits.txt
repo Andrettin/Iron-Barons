@@ -31,7 +31,10 @@ army_reformer = {
 	}
 	scaled_office_modifiers = {
 		marshal = {
-			army_research_modifier = 5
+			technology_cost_modifier = {
+				category = army
+				value = -5
+			}
 		}
 	}
 }
