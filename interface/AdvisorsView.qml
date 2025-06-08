@@ -62,7 +62,7 @@ Item {
 				}
 				
 				onEntered: {
-					status_text = office_holder ? office_holder.game_data.titled_name : office.name
+					status_text = office_holder ? office_holder.game_data.titled_name : country_game_data.get_office_title_name_qstring(office)
 				}
 				
 				onExited: {
@@ -103,7 +103,7 @@ Item {
 				}
 				
 				onEntered: {
-					status_text = office_holder ? office_holder.game_data.titled_name : office.name
+					status_text = office_holder ? office_holder.game_data.titled_name : country_game_data.get_office_title_name_qstring(office)
 				}
 				
 				onExited: {
