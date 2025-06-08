@@ -3,8 +3,8 @@ expert_workers = {
 	population_class = expert_workers
 	color = { 0 64 184 }
 	literate = true
-	icon = craftsmen_light
-	small_icon = craftsmen_light_small
+	icon = expert_workers
+	small_icon = expert_workers_small
 	output_commodity = labor
 	output_value = 4
 	everyday_consumption = {
@@ -22,17 +22,5 @@ expert_workers = {
 		opium = 0.0625
 		salt = 0.125
 		tea = 0.125
-	}
-	phenotype_icons = {
-		afro_european = craftsmen_medium
-		amerindian = craftsmen_medium
-		south_asian = craftsmen_medium
-		african = craftsmen_dark
-	}
-	phenotype_small_icons = {
-		afro_european = craftsmen_medium_small
-		amerindian = craftsmen_medium_small
-		south_asian = craftsmen_medium_small
-		african = craftsmen_dark_small
 	}
 }
