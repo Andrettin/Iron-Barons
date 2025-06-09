@@ -78,4 +78,25 @@ Rectangle {
 			}
 		}
 	}
+	
+	IconButton {
+		id: research_organizations_button
+		anchors.top: traditions_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "cog"
+		border_color: politics_view_mode === PoliticsView.Mode.ResearchOrganizations ? "white" : "gray"
+		
+		onReleased: {
+			politics_view_mode = PoliticsView.Mode.ResearchOrganizations
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Research Organizations"
+			} else {
+				status_text = ""
+			}
+		}
+	}
 }
