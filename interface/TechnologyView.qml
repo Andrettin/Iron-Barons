@@ -18,8 +18,9 @@ Item {
 	property string status_text: ""
 	property string middle_status_text: ""
 	
-	readonly property var technologies: technology_view_mode === TechnologyView.Mode.Researched ? country_game_data.technologies : (technology_view_mode === TechnologyView.Mode.Available ? country_game_data.researchable_technologies : (technology_view_mode === TechnologyView.Mode.Future ? country_game_data.future_technologies : country.available_technologies))
+	readonly property var technologies: technology_view_mode === TechnologyView.Mode.Researched ? country_game_data.technologies : (technology_view_mode === TechnologyView.Mode.Available ? researchable_technologies : (technology_view_mode === TechnologyView.Mode.Future ? country_game_data.future_technologies : country.available_technologies))
 	readonly property var category_technologies: get_category_technologies(technologies, technology_view_category, technology_view_subcategory)
+	readonly property var researchable_technologies: country_game_data.researchable_technologies
 	
 	ListView {
 		id: technology_list
@@ -81,7 +82,7 @@ Item {
 					anchors.verticalCenter: parent.verticalCenter
 					anchors.left: technology_label.right
 					anchors.leftMargin: 16 * scale_factor
-					visible: technology_view_mode === TechnologyView.Mode.Available
+					visible: researchable_technologies.includes(technology)
 				
 					contentItem: Item {
 						id: research_technology_button_item
