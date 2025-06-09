@@ -142,6 +142,7 @@ felix_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p
 		
 		1848.11.21 = {
 			country = austria #became the head minister of Austria
+			office = chancellor
 		}
 	}
 }
