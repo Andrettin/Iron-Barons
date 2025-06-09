@@ -159,6 +159,7 @@ Item {
 					anchors.right: parent.right
 					anchors.rightMargin: 8 * scale_factor
 					width: 288 * scale_factor
+					wrapMode: Text.WordWrap
 				}
 			}
 			
