@@ -12,10 +12,22 @@ DialogBase {
 	property string modifier_string: ""
 	property string date_string: ""
 	property string description: ""
+	property string portrait_identifier: ""
+	property bool circular_portrait: false
+	
+	PortraitButton {
+		id: portrait
+		anchors.top: title_item.bottom
+		anchors.topMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		portrait_identifier: modifier_dialog.portrait_identifier
+		visible: modifier_dialog.portrait_identifier.length > 0
+		circle: circular_portrait
+	}
 	
 	SmallText {
 		id: type_text
-		anchors.top: title_item.bottom
+		anchors.top: portrait.visible ? portrait.bottom : title_item.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: format_text(type_string)
@@ -24,7 +36,7 @@ DialogBase {
 	
 	SmallText {
 		id: requirements_text
-		anchors.top: type_text.visible ? type_text.bottom : title_item.bottom
+		anchors.top: type_text.visible ? type_text.bottom : (portrait.visible ? portrait.bottom : title_item.bottom)
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: format_text(requirements_string)
@@ -33,7 +45,7 @@ DialogBase {
 	
 	SmallText {
 		id: modifier_text
-		anchors.top: requirements_text.visible ? requirements_text.bottom : (type_text.visible ? type_text.bottom : title_item.bottom)
+		anchors.top: requirements_text.visible ? requirements_text.bottom : (type_text.visible ? type_text.bottom : (portrait.visible ? portrait.bottom : title_item.bottom))
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: format_text(modifier_string)
@@ -42,7 +54,7 @@ DialogBase {
 	
 	SmallText {
 		id: date_text
-		anchors.top: modifier_text.visible ? modifier_text.bottom : (requirements_text.visible ? requirements_text.bottom : (type_text.visible ? type_text.bottom : title_item.bottom))
+		anchors.top: modifier_text.visible ? modifier_text.bottom : (requirements_text.visible ? requirements_text.bottom : (type_text.visible ? type_text.bottom : (portrait.visible ? portrait.bottom : title_item.bottom)))
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: date_string
@@ -51,7 +63,7 @@ DialogBase {
 	
 	SmallText {
 		id: description_text
-		anchors.top: date_text.visible ? date_text.bottom : (modifier_text.visible ? modifier_text.bottom : (requirements_text.visible ? requirements_text.bottom : (type_text.visible ? type_text.bottom : title_item.bottom)))
+		anchors.top: date_text.visible ? date_text.bottom : (modifier_text.visible ? modifier_text.bottom : (requirements_text.visible ? requirements_text.bottom : (type_text.visible ? type_text.bottom : (portrait.visible ? portrait.bottom : title_item.bottom))))
 		anchors.topMargin: 16 * scale_factor
 		anchors.left: parent.left
 		anchors.leftMargin: 8 * scale_factor
@@ -69,7 +81,7 @@ DialogBase {
 				: (modifier_text.visible ? modifier_text.bottom
 					: (requirements_text.visible ? requirements_text.bottom
 						: (type_text.visible ? type_text.bottom
-							: title_item.bottom))))
+							: (portrait.visible ? portrait.bottom : title_item.bottom)))))
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "OK"

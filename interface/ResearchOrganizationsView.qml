@@ -22,6 +22,7 @@ Item {
 			onClicked: {
 				if (research_organization !== null) {
 					research_organization_dialog.title = research_organization.name
+					research_organization_dialog.portrait_identifier = research_organization.portrait.identifier
 					research_organization_dialog.modifier_string = research_organization.get_modifier_qstring(country)
 					research_organization_dialog.open()
 				}
