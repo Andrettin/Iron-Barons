@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import "./dialogs"
 
 Item {
 	id: diplomatic_map_view

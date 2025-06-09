@@ -132,6 +132,12 @@ Rectangle {
 		visible: selected_country_ruler !== null
 		tooltip: selected_country_ruler ? selected_country_ruler.game_data.titled_name : ""
 		circle: true
+		
+		onClicked: {
+			character_dialog.character = selected_country_ruler
+			character_dialog.modifier_string = selected_country_ruler.game_data.get_office_modifier_qstring(selected_country_ruler.game_data.country, selected_country_ruler.game_data.office)
+			character_dialog.open()
+		}
 	}
 	
 	SmallText {
