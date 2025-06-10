@@ -19,16 +19,22 @@ saxe_wittenberg = {
 		traditions += monarchy
 		
 		1428.1.4 = {
-			ruler = friedrich_ii_of_saxony
+			offices = {
+				ruler = friedrich_ii_of_saxony
+			}
 			traditions += monarchy
 		}
 		
 		1733.2.1 = {
-			ruler = august_iii_of_poland
+			offices = {
+				ruler = august_iii_of_poland
+			}
 		}
 		
 		1733.10.5 = {
-			ruler = none #August III became king of Poland
+			offices = {
+				ruler = none #August III became king of Poland
+			}
 		}
 	}
 }

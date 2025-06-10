@@ -139,11 +139,7 @@ felix_zu_schwarzenberg = { #Source: "Encyclopædia Britannica", 1911, vol. 24, p
 	history = {
 		#served for 6 years in the Austrian army
 		#served as an Austrian diplomat from 1824 to 1848
-		
-		1848.11.21 = {
-			country = austria #became the head minister of Austria
-			office = chancellor
-		}
+		#became the head minister of Austria in 1848.11.21
 	}
 }
 

@@ -41,7 +41,15 @@ austria = {
 		
 		1804.8.11 = {
 			tier = empire #Empire of Austria founded on 1804.8.11; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
-			#ruler = franz_i_of_austria
+			offices = {
+				#ruler = franz_i_of_austria
+			}
+		}
+		
+		1815 = {
+			offices = {
+				chancellor = clemens_wenceslaus_von_metternich
+			}
 		}
 		
 		1820 = {
@@ -59,6 +67,12 @@ austria = {
 				tools = 3
 				muskets = 1
 				iron_cannons = 1
+			}
+		}
+		
+		1848.11.21 = {
+			offices = {
+				chancellor = felix_zu_schwarzenberg #Felix zu Schwarzenberg became the head minister of Austria in 1848.11.21; Source: "Encyclopædia Britannica", 1911, vol. 24, p. 390.
 			}
 		}
 		

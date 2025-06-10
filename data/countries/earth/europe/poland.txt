@@ -23,11 +23,15 @@ poland = {
 		}
 		
 		1548.4.2 = {
-			ruler = zygmunt_ii_of_poland
+			offices = {
+				ruler = zygmunt_ii_of_poland
+			}
 		}
 		
 		1733.10.5 = {
-			ruler = august_iii_of_poland
+			offices = {
+				ruler = august_iii_of_poland
+			}
 		}
 		
 		1815 = {

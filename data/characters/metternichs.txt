@@ -43,11 +43,6 @@ clemens_wenceslaus_von_metternich = { #Source: "Gothaischer Hofkalender zum Nutz
 		1795.9.27 = { #married on 1795.9.27 to Marie Eleonore, daughter of prince Ernst of Kaunitz-Rietberg
 			#spouse = marie_eleonore_von_kaunitz
 		}
-		
-		1815 = {
-			country = austria
-			office = chancellor
-		}
 	}
 }
 

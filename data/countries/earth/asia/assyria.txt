@@ -21,12 +21,16 @@ assyria = {
 		traditions += monarchy
 		
 		-720 = {
-			#ruler = sargon_ii_of_assyria #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+			offices = {
+				#ruler = sargon_ii_of_assyria #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+			}
 			traditions += monarchy
 		}
 		
 		-640 = {
-			#ruler = assurbanipal_of_assyria #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+			offices = {
+				#ruler = assurbanipal_of_assyria #Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+			}
 		}
 	}
 }
