@@ -1,15 +1,13 @@
 indelningsverket = {
 	name = "Indelningsverket"
-	category = tradition
-	group = honor
+	subcategory = army_doctrine
 	portrait = fort
 	icon = saber
-	required_technology = organized_regiments
-	prerequisites = {
-		honor
+	cultures = {
+		swedish
 	}
-	preconditions = {
-		culture = swedish
+	prerequisites = {
+		organized_regiments
 	}
 	modifier = {
 		military_unit_domain_stat_modifier = {
