@@ -1,15 +1,13 @@
 arawak_raiders = {
 	name = "Arawak Raiders"
-	category = tradition
-	group = honor
+	subcategory = infantry
 	portrait = helmet
 	icon = bow
-	required_technology = warrior_code
-	prerequisites = {
-		honor
+	cultures = {
+		arawak
 	}
-	preconditions = {
-		culture = arawak
+	prerequisites = {
+		warrior_code
 	}
 	modifier = {
 		military_unit_category_stat_modifier = {
