@@ -1,0 +1,14 @@
+frogs = {
+	name = "Frogs"
+	icon = frog
+	tiny_icon = garrison
+	terrain_types = {
+		swamp
+	}
+	site_types = {
+		resource
+	}
+	modifier = {
+		research_bonus = 1
+	}
+}
