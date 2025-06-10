@@ -1,15 +1,13 @@
 hofkriegsrat = {
 	name = "Hofkriegsrat"
-	category = tradition
-	group = honor
+	subcategory = army_doctrine
 	portrait = aristocratic_palace
 	icon = saber
-	required_technology = organized_regiments
-	prerequisites = {
-		honor
+	cultures = {
+		austrian
 	}
-	preconditions = {
-		culture = austrian
+	prerequisites = {
+		organized_regiments
 	}
 	modifier = {
 		military_unit_domain_stat_modifier = {
