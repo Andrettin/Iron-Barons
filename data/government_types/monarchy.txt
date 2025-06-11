@@ -5,9 +5,9 @@ monarchy = {
 	conditions = {
 		tradition = monarchy
 		not = {
-			technology = aristocracy #Feudal Monarchy
-			and = {
-				technology = free_thought #Enlightened Despotism
+			law = serfdom #Feudal Monarchy
+			and = { #Enlightened Despotism
+				law = free_subjects
 				law = free_press
 			}
 			subject_type = colony

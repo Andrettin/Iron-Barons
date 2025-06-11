@@ -4,6 +4,10 @@ dictatorship = {
 	icon = saber
 	conditions = {
 		tradition = republic
+		or = {
+			law = state_press
+			law = censored_press
+		}
 		not = {
 			subject_type = colony
 		}

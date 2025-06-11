@@ -5,6 +5,10 @@ republic = {
 	conditions = {
 		tradition = republic
 		not = {
+			and = { #Democratic Republic
+				law = free_subjects
+				law = free_press
+			}
 			subject_type = colony
 		}
 	}
