@@ -1,4 +1,0 @@
-upper_class = {
-	name = "Upper Class"
-	default_law = aristocracy
-}

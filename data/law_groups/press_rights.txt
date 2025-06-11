@@ -1,4 +1,0 @@
-press_rights = {
-	name = "Press Rights"
-	default_law = state_press
-}

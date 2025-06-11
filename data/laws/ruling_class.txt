@@ -1,6 +1,6 @@
 aristocracy = {
 	name = "Aristocracy"
-	group = upper_class
+	group = ruling_class
 	icon = crown_baronial
 	required_technology = monarchy
 	commodity_costs = {
@@ -14,7 +14,7 @@ aristocracy = {
 
 plutocracy = {
 	name = "Plutocracy"
-	group = upper_class
+	group = ruling_class
 	icon = wealth
 	required_technology = republic
 	commodity_costs = {
