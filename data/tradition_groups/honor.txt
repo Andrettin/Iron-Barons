@@ -1,3 +1,0 @@
-honor = {
-	name = "Honor"
-}

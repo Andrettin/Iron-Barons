@@ -125,7 +125,7 @@ francisco_de_coronado = {
 		character = francisco_de_coronado
 	}
 	advisor_modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = heavy_cavalry
 			stat = movement
 			value = 1
@@ -189,7 +189,7 @@ jacques_marquette = {
 		character = jacques_marquette
 	}
 	advisor_modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = light_cavalry
 			stat = movement
 			value = 1

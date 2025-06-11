@@ -25,6 +25,22 @@ mysticism = {
 	}
 }
 
+ancestor_worship = {
+	name = "Ancestor Worship"
+	subcategory = religion
+	portrait = temple
+	icon = wooden_cross
+	cost_commodity = piety
+	prerequisites = {
+		ceremonial_burial
+	}
+	modifier = {
+		culture_per_shrine = 1
+		culture_per_temple = 1
+		culture_per_cathedral = 1
+	}
+}
+
 polytheism = {
 	name = "Polytheism"
 	subcategory = religion
@@ -49,6 +65,22 @@ monotheism = {
 	prerequisites = {
 		polytheism
 		philosophy
+	}
+}
+
+organized_religion = {
+	name = "Organized Religion"
+	subcategory = religion
+	portrait = temple
+	icon = wooden_cross
+	cost_commodity = piety
+	prerequisites = {
+		monotheism
+	}
+	modifier = {
+		piety_per_shrine = 1
+		piety_per_temple = 1
+		piety_per_cathedral = 1
 	}
 }
 
@@ -95,5 +127,7 @@ fundamentalism = {
 	prerequisites = {
 		monotheism
 		conscription
+		
+		organized_religion
 	}
 }

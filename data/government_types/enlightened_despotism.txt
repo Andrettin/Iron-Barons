@@ -4,7 +4,8 @@ enlightened_despotism = {
 	icon = crown_imperial
 	conditions = {
 		tradition = monarchy
-		tradition = free_thought
+		technology = free_thought
+		law = free_press
 		not = {
 			subject_type = colony
 		}

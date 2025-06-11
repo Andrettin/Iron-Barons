@@ -11,19 +11,19 @@ arawak_raiders = {
 		warrior_code
 	}
 	modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = mace_infantry
 			stat = damage_bonus
 			value = 10
 		}
 		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = spear_infantry
 			stat = damage_bonus
 			value = 10
 		}
 		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = bowmen
 			stat = damage_bonus
 			value = 10

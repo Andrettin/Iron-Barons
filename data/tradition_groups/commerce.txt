@@ -1,3 +1,0 @@
-commerce = {
-	name = "Commerce"
-}

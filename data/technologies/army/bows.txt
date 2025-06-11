@@ -21,7 +21,11 @@ composite_bow = {
 		shortbow
 	}
 	modifier = {
-		archers_firepower_modifier = 0.25
+		military_unit_stat = {
+			type = archers
+			stat = firepower
+			value = 0.25
+		}
 	}
 }
 
@@ -37,7 +41,11 @@ longbow = {
 		feudalism
 	}
 	modifier = {
-		archers_firepower_modifier = 0.25
+		military_unit_stat = {
+			type = archers
+			stat = firepower
+			value = 0.25
+		}
 	}
 }
 
@@ -54,7 +62,11 @@ reinforced_longbow = {
 		missile_barrage
 	}
 	modifier = {
-		archers_firepower_modifier = 0.25
+		military_unit_stat = {
+			type = archers
+			stat = firepower
+			value = 0.25
+		}
 	}
 }
 
@@ -69,6 +81,10 @@ marksman_longbow = {
 		reinforced_longbow
 	}
 	modifier = {
-		archers_firepower_modifier = 0.25
+		military_unit_stat = {
+			type = archers
+			stat = firepower
+			value = 0.25
+		}
 	}
 }

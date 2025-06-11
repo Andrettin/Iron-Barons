@@ -1,3 +1,0 @@
-aesthetics = {
-	name = "Aesthetics"
-}

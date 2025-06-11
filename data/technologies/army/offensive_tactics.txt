@@ -9,10 +9,16 @@ offensive_terrain = {
 		feudalism
 	}
 	modifier = {
-		chariots_discipline_modifier = 10
-		knights_discipline_modifier = 10
-		lancers_discipline_modifier = 10
-		squires_discipline_modifier = 10
+		military_unit_stat = {
+			category = spear_cavalry
+			stat = discipline
+			value = 10
+		}
+		military_unit_stat = {
+			type = squires
+			stat = discipline
+			value = 10
+		}
 	}
 }
 
@@ -27,10 +33,16 @@ frontal_charge = {
 		offensive_terrain
 	}
 	modifier = {
-		chariots_discipline_modifier = 20
-		knights_discipline_modifier = 20
-		lancers_discipline_modifier = 20
-		squires_discipline_modifier = 20
+		military_unit_stat = {
+			category = spear_cavalry
+			stat = discipline
+			value = 20
+		}
+		military_unit_stat = {
+			type = squires
+			stat = discipline
+			value = 20
+		}
 	}
 }
 
@@ -45,12 +57,16 @@ reserves = {
 		frontal_charge
 	}
 	modifier = {
-		axemen_discipline_modifier = 20
-		swordsmen_discipline_modifier = 20
-		two_handed_swordsmen_discipline_modifier = 20
-		chariots_discipline_modifier = 10
-		knights_discipline_modifier = 10
-		lancers_discipline_modifier = 10
+		military_unit_stat = {
+			category = blade_infantry
+			stat = discipline
+			value = 20
+		}
+		military_unit_stat = {
+			category = spear_cavalry
+			stat = discipline
+			value = 10
+		}
 	}
 }
 
@@ -66,12 +82,16 @@ dismounted_knights = {
 		chivalry
 	}
 	modifier = {
-		axemen_discipline_modifier = 10
-		swordsmen_discipline_modifier = 10
-		two_handed_swordsmen_discipline_modifier = 10
-		chariots_discipline_modifier = 20
-		knights_discipline_modifier = 20
-		lancers_discipline_modifier = 20
+		military_unit_stat = {
+			category = blade_infantry
+			stat = discipline
+			value = 10
+		}
+		military_unit_stat = {
+			category = spear_cavalry
+			stat = discipline
+			value = 20
+		}
 	}
 }
 
@@ -86,12 +106,20 @@ hierarchical_command = {
 		dismounted_knights
 	}
 	modifier = {
-		axemen_discipline_modifier = 10
-		swordsmen_discipline_modifier = 10
-		two_handed_swordsmen_discipline_modifier = 10
-		chariots_discipline_modifier = 10
-		knights_discipline_modifier = 10
-		lancers_discipline_modifier = 10
-		squires_discipline_modifier = 10
+		military_unit_stat = {
+			category = blade_infantry
+			stat = discipline
+			value = 10
+		}
+		military_unit_stat = {
+			category = spear_cavalry
+			stat = discipline
+			value = 10
+		}
+		military_unit_stat = {
+			type = squires
+			stat = discipline
+			value = 10
+		}
 	}
 }

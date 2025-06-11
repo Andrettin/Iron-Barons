@@ -11,7 +11,7 @@ indelningsverket = {
 		organized_regiments
 	}
 	modifier = {
-		military_unit_domain_stat_modifier = {
+		military_unit_stat = {
 			domain = land
 			stat = recovery_modifier
 			value = 20

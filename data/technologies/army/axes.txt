@@ -21,6 +21,10 @@ battleaxe = {
 		handaxe
 	}
 	modifier = {
-		axemen_melee_modifier = 0.5
+		military_unit_stat = {
+			type = axemen
+			stat = melee
+			value = 0.5
+		}
 	}
 }

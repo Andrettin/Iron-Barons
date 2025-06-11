@@ -1,3 +1,0 @@
-rationalism = {
-	name = "Rationalism"
-}

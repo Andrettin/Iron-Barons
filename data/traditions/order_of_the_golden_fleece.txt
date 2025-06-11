@@ -4,9 +4,9 @@ order_of_the_golden_fleece = {
 	group = tradition
 	portrait = helmet
 	icon = saber
-	required_technology = chivalry
+	required_technology = noble_knights
 	prerequisites = {
-		noble_knights
+		tradition
 	}
 	preconditions = {
 		or = {

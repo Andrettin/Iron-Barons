@@ -23,7 +23,11 @@ warhammer = {
 		mace
 	}
 	modifier = {
-		macemen_melee_modifier = 0.5
+		military_unit_stat = {
+			type = macemen
+			stat = melee
+			value = 0.5
+		}
 	}
 }
 
@@ -38,6 +42,10 @@ morningstar = {
 		warhammer
 	}
 	modifier = {
-		macemen_melee_modifier = 0.5
+		military_unit_stat = {
+			type = macemen
+			stat = melee
+			value = 0.5
+		}
 	}
 }

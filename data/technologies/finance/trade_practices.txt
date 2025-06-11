@@ -89,3 +89,19 @@ trade_fairs = {
 		sugar_planting
 	}
 }
+
+mercantilism = {
+	name = "Mercantilism"
+	subcategory = commerce
+	portrait = coinage
+	icon = wealth
+	cost_commodity = statesmanship
+	prerequisites = {
+		merchant_companies
+	}
+	modifier = {
+		research_per_market = 1
+		research_per_bank = 1
+		research_per_stock_exchange = 1
+	}
+}

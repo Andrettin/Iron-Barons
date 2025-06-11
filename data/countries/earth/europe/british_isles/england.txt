@@ -27,7 +27,6 @@ england = {
 	
 	history = {
 		traditions += monarchy
-		traditions += commerce
 		
 		1553 = {
 			consulate = { #England sent a trade mission to Muscovy in 1553; Source: Henry Kamen, "Early Modern European Society", 2021, p. 2.

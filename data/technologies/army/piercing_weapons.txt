@@ -9,7 +9,11 @@ longspear = {
 		warrior_code
 	}
 	modifier = {
-		spearmen_melee_modifier = 0.5
+		military_unit_stat = {
+			type = spearmen
+			stat = melee
+			value = 0.5
+		}
 	}
 }
 
@@ -41,7 +45,11 @@ lance = {
 		frontal_charge
 	}
 	modifier = {
-		knights_melee_modifier = 0.5
+		military_unit_stat = {
+			type = knights
+			stat = melee
+			value = 0.5
+		}
 	}
 }
 
@@ -56,7 +64,11 @@ heavy_lance = {
 		lance
 	}
 	modifier = {
-		knights_melee_modifier = 0.5
+		military_unit_stat = {
+			type = knights
+			stat = melee
+			value = 0.5
+		}
 	}
 }
 
@@ -72,7 +84,11 @@ standardized_pikes = {
 		drilled_pikemen
 	}
 	modifier = {
-		pikemen_melee_modifier = 0.5
+		military_unit_stat = {
+			type = pikemen
+			stat = melee
+			value = 0.5
+		}
 	}
 }
 

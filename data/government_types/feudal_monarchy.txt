@@ -4,9 +4,12 @@ feudal_monarchy = {
 	icon = crown_ducal
 	conditions = {
 		tradition = monarchy
-		tradition = aristocracy
+		technology = aristocracy
 		not = {
-			tradition = free_thought #Enlightened Despotism
+			and = {
+				technology = free_thought #Enlightened Despotism
+				law = free_press
+			}
 			subject_type = colony
 		}
 	}

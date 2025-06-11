@@ -10,7 +10,7 @@ grand_admiral = {
 	}
 	scaled_office_modifiers = {
 		high_admiral = {
-			military_unit_domain_stat_modifier = {
+			military_unit_stat = {
 				domain = water
 				stat = discipline
 				value = 2.5
@@ -51,7 +51,7 @@ privateer = {
 	}
 	scaled_office_modifiers = {
 		high_admiral = {
-			military_unit_category_stat_modifier = {
+			military_unit_stat = {
 				category = light_warship
 				stat = damage_bonus
 				value = 5

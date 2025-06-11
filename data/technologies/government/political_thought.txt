@@ -13,6 +13,22 @@ monarchy = {
 	}
 }
 
+aristocracy = {
+	name = "Aristocracy"
+	subcategory = political_thought
+	portrait = baronial_crown
+	icon = crown_baronial
+	cost_commodity = statesmanship
+	prerequisites = {
+		code_of_laws
+		warrior_code
+	}
+	modifier = {
+		wonder_cost_efficiency = 15
+		amenities_bonus_per_population = 0.1
+	}
+}
+
 republic = {
 	name = "Republic"
 	subcategory = political_thought
@@ -36,6 +52,8 @@ feudalism = {
 	cost = 320
 	cost_commodity = statesmanship
 	prerequisites = {
+		aristocracy
+		
 		monarchy
 		warrior_code
 	}
@@ -128,7 +146,7 @@ paternalism = {
 		}
 	}
 	modifier = {
-		military_unit_domain_stat_modifier = {
+		military_unit_stat = {
 			domain = land
 			stat = morale_recovery_modifier
 			value = 5

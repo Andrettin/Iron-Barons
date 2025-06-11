@@ -1,0 +1,36 @@
+military_drill = {
+	name = "Military Drill"
+	subcategory = army_doctrine
+	portrait = helmet
+	icon = saber
+	cost_commodity = leadership
+	prerequisites = {
+		organized_regiments
+	}
+	modifier = {
+		military_unit_stat = {
+			domain = land
+			stat = discipline
+			value = 15
+		}
+	}
+}
+
+napoleonic_warfare = {
+	name = "Napoleonic Warfare"
+	subcategory = army_doctrine
+	portrait = helmet
+	icon = saber
+	cost_commodity = leadership
+	prerequisites = {
+		military_drill
+		bayonet
+	}
+	modifier = {
+		military_unit_stat = {
+			domain = land
+			stat = discipline
+			value = 5
+		}
+	}
+}

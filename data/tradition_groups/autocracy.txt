@@ -1,3 +1,0 @@
-autocracy = {
-	name = "Autocracy"
-}

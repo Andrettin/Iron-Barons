@@ -5,9 +5,6 @@ theocracy = {
 	portrait = temple
 	icon = wooden_cross
 	required_technology = fundamentalism
-	prerequisites = {
-		organized_religion
-	}
 	incompatible_traditions = {
 		communism
 		monarchy

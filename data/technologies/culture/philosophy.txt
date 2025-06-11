@@ -4,7 +4,7 @@ philosophy = {
 	portrait = scholar
 	icon = philosophy
 	period = 1_500
-	free_technology = true
+	free_technologies = 1
 	cost = 175
 	cost_commodity = research
 	prerequisites = {
@@ -60,6 +60,7 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 	icon = research
 	period = 1600_1650
 	year = 1620
+	free_technologies = 2
 	cost = 1600
 	cost_commodity = research
 	prerequisites = {
@@ -70,9 +71,55 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 		moneylending
 		
 		astronomy
+		
+		free_thought
 	}
 	modifier = {
 		research_output_modifier = 5
+	}
+}
+
+rationalism = {
+	name = "Rationalism"
+	subcategory = philosophy
+	portrait = university
+	icon = research
+	free_technologies = 1
+	cost_commodity = research
+	prerequisites = {
+		natural_philosophy
+	}
+}
+
+humanism = {
+	name = "Humanism"
+	subcategory = philosophy
+	portrait = university
+	icon = research
+	cost_commodity = research
+	prerequisites = {
+		rationalism
+	}
+	modifier = {
+		amenities_per_school = 1
+		amenities_per_college = 1
+		amenities_per_university = 1
+		amenities_per_observatory = 1
+	}
+}
+
+free_thought = {
+	name = "Free Thought"
+	subcategory = philosophy
+	portrait = university
+	icon = research
+	cost_commodity = research
+	prerequisites = {
+		humanism
+	}
+	modifier = {
+		research_per_fur_trading_post = 1
+		research_per_spice_factory = 1
 	}
 }
 
@@ -85,6 +132,7 @@ enlightenment_philosophy = {
 	cost = 360
 	cost_commodity = research
 	prerequisites = {
+		rationalism
 		scientific_method
 		
 		nationalism #to put this technology in the correct technological period

@@ -10,19 +10,17 @@ bronze_shield = {
 		bronzeworking
 	}
 	modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = mace_infantry
 			stat = ranged_defense_modifier
 			value = 10
 		}
-		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = spear_infantry
 			stat = ranged_defense_modifier
 			value = 10
 		}
-		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = blade_infantry
 			stat = ranged_defense_modifier
 			value = 10
@@ -42,19 +40,17 @@ iron_shield = {
 		ironworking
 	}
 	modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = mace_infantry
 			stat = ranged_defense_modifier
 			value = 10
 		}
-		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = spear_infantry
 			stat = ranged_defense_modifier
 			value = 10
 		}
-		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = blade_infantry
 			stat = ranged_defense_modifier
 			value = 10
@@ -73,19 +69,45 @@ tower_shield = {
 		iron_shield
 	}
 	modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = mace_infantry
 			stat = ranged_defense_modifier
 			value = 10
 		}
-		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = spear_infantry
 			stat = ranged_defense_modifier
 			value = 10
 		}
-		
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
+			category = blade_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+	}
+}
+
+shield_wall = {
+	name = "Shield Wall"
+	subcategory = infantry
+	portrait = bronze_shield
+	icon = heater_shield
+	cost_commodity = leadership
+	prerequisites = {
+		iron_shield
+	}
+	modifier = {
+		military_unit_stat = {
+			category = mace_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		military_unit_stat = {
+			category = spear_infantry
+			stat = ranged_defense_modifier
+			value = 10
+		}
+		military_unit_stat = {
 			category = blade_infantry
 			stat = ranged_defense_modifier
 			value = 10

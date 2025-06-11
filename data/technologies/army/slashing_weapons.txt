@@ -10,7 +10,11 @@ shortsword = {
 		bronzeworking
 	}
 	modifier = {
-		squires_melee_modifier = 0.33
+		military_unit_stat = {
+			type = squires
+			stat = melee
+			value = 0.33
+		}
 	}
 }
 
@@ -25,8 +29,16 @@ broadsword = {
 		shortsword
 	}
 	modifier = {
-		swordsmen_melee_modifier = 0.5
-		squires_melee_modifier = 0.33
+		military_unit_stat = {
+			type = swordsmen
+			stat = melee
+			value = 0.5
+		}
+		military_unit_stat = {
+			type = squires
+			stat = melee
+			value = 0.33
+		}
 	}
 }
 
@@ -42,8 +54,16 @@ longsword = {
 		ironworking
 	}
 	modifier = {
-		swordsmen_melee_modifier = 0.5
-		squires_melee_modifier = 0.34
+		military_unit_stat = {
+			type = swordsmen
+			stat = melee
+			value = 0.5
+		}
+		military_unit_stat = {
+			type = squires
+			stat = melee
+			value = 0.34
+		}
 	}
 }
 
@@ -72,6 +92,10 @@ greatsword = {
 		bastard_sword
 	}
 	modifier = {
-		two_handed_swordsmen_melee_modifier = 0.5
+		military_unit_stat = {
+			type = two_handed_swordsmen
+			stat = melee
+			value = 0.5
+		}
 	}
 }

@@ -10,12 +10,31 @@ chained_leather_armor = {
 		ironworking
 	}
 	modifier = {
-		clubmen_defense_modifier = 0.2
-		macemen_defense_modifier = 0.2
-		spearmen_defense_modifier = 0.2
-		pikemen_defense_modifier = 0.2
-		axemen_defense_modifier = 0.2
-		squires_defense_modifier = 0.2
+		military_unit_stat = {
+			category = mace_infantry
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = spearmen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = pikemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = axemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = squires
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -30,12 +49,31 @@ light_chainmail = {
 		chained_leather_armor
 	}
 	modifier = {
-		clubmen_defense_modifier = 0.2
-		macemen_defense_modifier = 0.2
-		spearmen_defense_modifier = 0.2
-		pikemen_defense_modifier = 0.2
-		axemen_defense_modifier = 0.2
-		squires_defense_modifier = 0.2
+		military_unit_stat = {
+			category = mace_infantry
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = spearmen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = pikemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = axemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = squires
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -50,12 +88,31 @@ chainmail = {
 		light_chainmail
 	}
 	modifier = {
-		clubmen_defense_modifier = 0.2
-		macemen_defense_modifier = 0.2
-		spearmen_defense_modifier = 0.2
-		pikemen_defense_modifier = 0.2
-		axemen_defense_modifier = 0.2
-		squires_defense_modifier = 0.2
+		military_unit_stat = {
+			category = mace_infantry
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = spearmen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = pikemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = axemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = squires
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -70,12 +127,31 @@ full_chainmail = {
 		chainmail
 	}
 	modifier = {
-		clubmen_defense_modifier = 0.2
-		macemen_defense_modifier = 0.2
-		spearmen_defense_modifier = 0.2
-		pikemen_defense_modifier = 0.2
-		axemen_defense_modifier = 0.2
-		squires_defense_modifier = 0.2
+		military_unit_stat = {
+			category = mace_infantry
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = spearmen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = pikemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = axemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = squires
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -90,11 +166,30 @@ plated_chainmail = {
 		full_chainmail
 	}
 	modifier = {
-		clubmen_defense_modifier = 0.2
-		macemen_defense_modifier = 0.2
-		spearmen_defense_modifier = 0.2
-		pikemen_defense_modifier = 0.2
-		axemen_defense_modifier = 0.2
-		squires_defense_modifier = 0.2
+		military_unit_stat = {
+			category = mace_infantry
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = spearmen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = pikemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = axemen
+			stat = defense
+			value = 0.2
+		}
+		military_unit_stat = {
+			type = squires
+			stat = defense
+			value = 0.2
+		}
 	}
 }

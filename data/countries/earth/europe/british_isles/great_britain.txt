@@ -32,7 +32,6 @@ great_britain = {
 	
 	history = {
 		traditions += monarchy
-		traditions += commerce
 		
 		1820 = {
 			wealth = 10000

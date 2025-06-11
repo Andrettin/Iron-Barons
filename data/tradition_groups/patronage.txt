@@ -1,3 +1,0 @@
-patronage = {
-	name = "Patronage"
-}

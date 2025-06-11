@@ -10,7 +10,7 @@ army_organizer = {
 	}
 	scaled_office_modifiers = {
 		marshal = {
-			military_unit_domain_stat_modifier = {
+			military_unit_stat = {
 				domain = land
 				stat = morale_recovery_modifier
 				value = 1
@@ -51,7 +51,7 @@ commandant = { #person responsible for drilling troops
 	}
 	scaled_office_modifiers = {
 		marshal = {
-			military_unit_domain_stat_modifier = {
+			military_unit_stat = {
 				domain = land
 				stat = damage_bonus
 				value = 1
@@ -72,7 +72,7 @@ grand_captain = {
 	}
 	scaled_office_modifiers = {
 		marshal = {
-			military_unit_domain_stat_modifier = {
+			military_unit_stat = {
 				domain = land
 				stat = discipline
 				value = 2.5

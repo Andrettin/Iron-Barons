@@ -47,7 +47,11 @@ mangonel = {
 		mathematics
 	}
 	modifier = {
-		catapult_firepower_modifier = 0.5
+		military_unit_stat = {
+			type = catapult
+			stat = firepower
+			value = 0.5
+		}
 	}
 }
 
@@ -62,7 +66,11 @@ trebuchet = {
 		mangonel
 	}
 	modifier = {
-		catapult_firepower_modifier = 0.5
+		military_unit_stat = {
+			type = catapult
+			stat = firepower
+			value = 0.5
+		}
 	}
 }
 
@@ -106,6 +114,30 @@ heavy_artillery = {
 	}
 }
 
+massed_battery = {
+	name = "Massed Battery"
+	subcategory = siege_weapons
+	portrait = engineering
+	icon = cannon
+	period = 1800_1825
+	cost_commodity = leadership
+	prerequisites = {
+		heavy_artillery
+	}
+	modifier = {
+		military_unit_stat = {
+			category = light_artillery
+			stat = damage_bonus
+			value = 10
+		}
+		military_unit_stat = {
+			category = heavy_artillery
+			stat = damage_bonus
+			value = 10
+		}
+	}
+}
+
 light_artillery_tactics = {
 	name = "Light Artillery Tactics"
 	subcategory = siege_weapons
@@ -113,7 +145,7 @@ light_artillery_tactics = {
 	icon = cannon
 	period = 1700_1750
 	cost = 70
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		horse_artillery
 		crucible_process
@@ -172,7 +204,7 @@ field_artillery_tactics = {
 	icon = cannon
 	period = 1800_1825
 	cost = 147
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		light_artillery_tactics
 		modern_military_funding

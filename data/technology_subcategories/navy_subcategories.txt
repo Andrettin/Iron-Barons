@@ -10,11 +10,11 @@ warships = {
 	icon = anchor
 }
 
-#naval_doctrine = {
-#	name = "Naval Doctrine"
-#	category = navy
-#	icon = anchor
-#}
+naval_doctrine = {
+	name = "Naval Doctrine"
+	category = navy
+	icon = anchor
+}
 
 naval_science = {
 	name = "Naval Science"

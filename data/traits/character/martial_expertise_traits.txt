@@ -13,17 +13,17 @@ cavalry_leader = {
 		martial = 1
 	}
 	scaled_leader_modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = spear_cavalry
 			stat = damage_bonus
 			value = 5
 		}
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = light_cavalry
 			stat = damage_bonus
 			value = 5
 		}
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = heavy_cavalry
 			stat = damage_bonus
 			value = 5
@@ -83,12 +83,12 @@ heavy_infantry_leader = {
 		martial = 1
 	}
 	scaled_leader_modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = blade_infantry
 			stat = damage_bonus
 			value = 5
 		}
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = heavy_infantry
 			stat = damage_bonus
 			value = 5
@@ -129,12 +129,12 @@ light_infantry_leader = {
 		martial = 1
 	}
 	scaled_leader_modifier = {
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = militia
 			stat = damage_bonus
 			value = 5
 		}
-		military_unit_category_stat_modifier = {
+		military_unit_stat = {
 			category = light_infantry
 			stat = damage_bonus
 			value = 5

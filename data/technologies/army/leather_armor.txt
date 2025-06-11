@@ -9,8 +9,11 @@ soft_leather_armor = {
 		feudalism
 	}
 	modifier = {
-		archers_defense_modifier = 0.2
-		crossbowmen_defense_modifier = 0.2
+		military_unit_stat = {
+			category = bowmen
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -25,8 +28,11 @@ reinforced_leather_armor = {
 		soft_leather_armor
 	}
 	modifier = {
-		archers_defense_modifier = 0.2
-		crossbowmen_defense_modifier = 0.2
+		military_unit_stat = {
+			category = bowmen
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -41,8 +47,11 @@ boiled_leather_armor = {
 		reinforced_leather_armor
 	}
 	modifier = {
-		archers_defense_modifier = 0.2
-		crossbowmen_defense_modifier = 0.2
+		military_unit_stat = {
+			category = bowmen
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -57,8 +66,11 @@ rigid_leather_armor = {
 		boiled_leather_armor
 	}
 	modifier = {
-		archers_defense_modifier = 0.2
-		crossbowmen_defense_modifier = 0.2
+		military_unit_stat = {
+			category = bowmen
+			stat = defense
+			value = 0.2
+		}
 	}
 }
 
@@ -73,7 +85,10 @@ scaled_leather_armor = {
 		rigid_leather_armor
 	}
 	modifier = {
-		archers_defense_modifier = 0.2
-		crossbowmen_defense_modifier = 0.2
+		military_unit_stat = {
+			category = bowmen
+			stat = defense
+			value = 0.2
+		}
 	}
 }
