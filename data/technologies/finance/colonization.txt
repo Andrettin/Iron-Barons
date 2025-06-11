@@ -5,7 +5,7 @@ colonization = {
 	icon = settlement
 	period = 1500_1550
 	cost = 500
-	cost_commodity = research
+	cost_commodity = statesmanship
 	prerequisites = {
 		#banking
 		#printing_press

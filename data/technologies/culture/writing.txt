@@ -6,7 +6,6 @@ writing = {
 	period = copper_age
 	cost = 55
 	cost_commodity = research
-	}
 }
 
 alphabet = {
