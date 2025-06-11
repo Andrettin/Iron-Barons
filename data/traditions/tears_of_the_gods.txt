@@ -16,6 +16,7 @@ tears_of_the_gods = {
 			has_resource = amber
 			has_resource = diamonds
 			has_resource = gems
+			#has_resource = pearls
 		}
 	}
 	modifier = {

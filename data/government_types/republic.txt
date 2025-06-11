@@ -6,6 +6,7 @@ republic = {
 		tradition = republic
 		not = {
 			and = { #Democratic Republic
+				technology = democracy
 				law = free_subjects
 				law = free_press
 			}

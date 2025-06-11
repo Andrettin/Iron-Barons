@@ -4,6 +4,9 @@ democratic_republic = {
 	icon = philosophy
 	conditions = {
 		tradition = republic
+		technology = democracy
+		law = free_subjects
+		law = free_press
 		not = {
 			subject_type = colony
 		}

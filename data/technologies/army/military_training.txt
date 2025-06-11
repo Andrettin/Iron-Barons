@@ -45,7 +45,6 @@ noble_knights = {
 	cost_commodity = leadership
 	prerequisites = {
 		chivalry
-		aristocracy
 	}
 	modifier = {
 		military_unit_stat = {
