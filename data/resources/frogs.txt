@@ -2,6 +2,7 @@ frogs = {
 	name = "Frogs"
 	icon = frog
 	tiny_icon = garrison
+	discovery_technology = frogs
 	terrain_types = {
 		swamp
 	}
