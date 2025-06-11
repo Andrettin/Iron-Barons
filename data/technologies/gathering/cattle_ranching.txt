@@ -61,7 +61,7 @@ mechanized_slaughtering_block = {
 		putting_out_system
 	}
 	modifier = {
-		livestock_output_modifier = 20
+		meat_output_modifier = 20
 	}
 }
 

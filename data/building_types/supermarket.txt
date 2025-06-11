@@ -15,7 +15,7 @@ supermarket = {
 				produces_commodity = fish
 				produces_commodity = fruit
 				produces_commodity = grain
-				produces_commodity = livestock
+				produces_commodity = meat
 				produces_commodity = potatoes
 			}
 		}

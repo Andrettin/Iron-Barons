@@ -20,9 +20,9 @@ goddess_of_the_hunt = {
 		}
 	}
 	modifier = {
-		livestock_per_improved_beavers = 1
-		livestock_per_improved_bison = 1
-		livestock_per_improved_deer = 1
-		livestock_per_improved_ivory = 1
+		meat_per_improved_beavers = 1
+		meat_per_improved_bison = 1
+		meat_per_improved_deer = 1
+		meat_per_improved_ivory = 1
 	}
 }

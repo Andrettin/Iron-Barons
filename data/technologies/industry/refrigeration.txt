@@ -12,7 +12,7 @@ refrigeration = {
 		sanitation
 	}
 	modifier = {
-		livestock_output_modifier = 20
+		meat_output_modifier = 20
 		fruit_output_modifier = 20
 		fish_output_modifier = 20
 	}

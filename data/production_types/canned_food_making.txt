@@ -1,10 +1,10 @@
-canned_food_making_livestock = {
+canned_food_making_meat = {
 	name = "Canned Food Making"
 	input_commodities = {
 		labor = 2
 		grain = 2
 		fruit = 1
-		livestock = 1
+		meat = 1
 	}
 	output_commodity = canned_food
 	output_value = 2
