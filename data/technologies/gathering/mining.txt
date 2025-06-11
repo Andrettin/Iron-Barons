@@ -4,6 +4,7 @@ percussion_drilling = {
 	portrait = factory
 	icon = iron_ore
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		cathedral_school
 	}

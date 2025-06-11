@@ -4,6 +4,7 @@ longspear = {
 	portrait = helmet
 	icon = saber
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		warrior_code
 	}
@@ -18,6 +19,7 @@ pike = {
 	portrait = helmet
 	icon = saber
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		longspear
 		feudalism
@@ -31,6 +33,7 @@ lance = {
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		pike
 		chivalry
@@ -48,6 +51,7 @@ heavy_lance = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		lance
 	}
@@ -62,6 +66,7 @@ standardized_pikes = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		pike
 		drilled_pikemen
@@ -77,6 +82,7 @@ halberd = {
 	portrait = helmet
 	icon = saber
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		standardized_pikes
 		organized_regiments

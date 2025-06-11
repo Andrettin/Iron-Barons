@@ -4,12 +4,11 @@ economics = {
 	portrait = coinage
 	icon = wealth
 	period = 1750_1800
+	cost = 1150
+	cost_commodity = research
 	prerequisites = {
 		banking
 		university
-	}
-	commodity_costs = {
-		research = 1150
 	}
 	modifier = {
 		capitalist_bonus = 2
@@ -22,12 +21,11 @@ collectivist_theory = {
 	portrait = coinage
 	icon = wealth
 	period = 1825_1850
+	cost = 1080
+	cost_commodity = research
 	prerequisites = {
 		economics
 		collectivism
-	}
-	commodity_costs = {
-		research = 1080
 	}
 	modifier = {
 		capitalist_bonus = 2
@@ -40,11 +38,10 @@ historical_theory = {
 	portrait = coinage
 	icon = wealth
 	period = 1850_1875
+	cost = 1440
+	cost_commodity = research
 	prerequisites = {
 		collectivist_theory
-	}
-	commodity_costs = {
-		research = 1440
 	}
 	modifier = {
 		capitalist_bonus = 2
@@ -57,11 +54,10 @@ neoclassical_theory = {
 	portrait = coinage
 	icon = wealth
 	period = 1875_1900
+	cost = 1800
+	cost_commodity = research
 	prerequisites = {
 		historical_theory
-	}
-	commodity_costs = {
-		research = 1800
 	}
 	modifier = {
 		capitalist_bonus = 2
@@ -74,11 +70,10 @@ keynesian_economics = {
 	portrait = coinage
 	icon = wealth
 	period = 1900_1925
+	cost = 2160
+	cost_commodity = research
 	prerequisites = {
 		neoclassical_theory
-	}
-	commodity_costs = {
-		research = 2160
 	}
 	modifier = {
 		capitalist_bonus = 2

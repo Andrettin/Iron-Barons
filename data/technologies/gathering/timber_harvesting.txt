@@ -4,6 +4,7 @@ double_bit_axe = {
 	portrait = engineering
 	icon = timber
 	period = copper_age
+	cost_commodity = research
 	modifier = {
 		commodity_bonus_per_improvement = {
 			commodity = timber
@@ -19,6 +20,7 @@ bow_saw = {
 	portrait = engineering
 	icon = timber
 	period = iron_age
+	cost_commodity = research
 	prerequisites = {
 		double_bit_axe
 		
@@ -39,6 +41,7 @@ two_man_saw = {
 	portrait = engineering
 	icon = timber
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		bow_saw
 		
@@ -59,6 +62,7 @@ circular_saw = {
 	portrait = engineering
 	icon = timber
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		wind_saw_mill
 		scientific_method
@@ -71,6 +75,7 @@ mechanical_saw = {
 	portrait = engineering
 	icon = timber
 	period = 1800_1825
+	cost_commodity = research
 	prerequisites = {
 		circular_saw
 		putting_out_system

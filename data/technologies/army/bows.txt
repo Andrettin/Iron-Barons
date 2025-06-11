@@ -4,6 +4,7 @@ shortbow = {
 	portrait = helmet
 	icon = bow
 	period = bronze_age
+	cost_commodity = research
 	prerequisites = {
 		warrior_code
 	}
@@ -15,6 +16,7 @@ composite_bow = {
 	portrait = helmet
 	icon = bow
 	period = iron_age
+	cost_commodity = research
 	prerequisites = {
 		shortbow
 	}
@@ -29,6 +31,7 @@ longbow = {
 	portrait = helmet
 	icon = bow
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		composite_bow
 		feudalism
@@ -44,6 +47,7 @@ reinforced_longbow = {
 	portrait = helmet
 	icon = bow
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		longbow
 		
@@ -60,6 +64,7 @@ marksman_longbow = {
 	portrait = helmet
 	icon = bow
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		reinforced_longbow
 	}

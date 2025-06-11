@@ -4,6 +4,7 @@ road_construction = {
 	portrait = engineering
 	icon = road
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		saw_mill
 		iron_mining
@@ -17,6 +18,7 @@ bridge_building = {
 	portrait = engineering
 	icon = road
 	period = 1_500
+	cost_commodity = research
 	prerequisites = {
 		architecture
 		ironworking
@@ -31,15 +33,13 @@ high_pressure_steam_engine = {
 	portrait = engineering
 	icon = railroad
 	period = 1650_1700
+	cost = 48
+	cost_commodity = research
 	prerequisites = {
 		road_construction
 		steam_in_mining
 		
 		physics
-	}
-	wealth_cost = 4800
-	commodity_costs = {
-		research = 2350
 	}
 }
 
@@ -48,11 +48,12 @@ iron_railroad_bridge = {
 	subcategory = infrastructure
 	portrait = engineering
 	icon = railroad
+	cost = 15
+	cost_commodity = research
 	prerequisites = {
 		bridge_building
 		high_pressure_steam_engine
 	}
-	wealth_cost = 1500
 }
 
 compound_steam_engine = {
@@ -61,13 +62,14 @@ compound_steam_engine = {
 	portrait = engineering
 	icon = railroad
 	period = 1700_1750
+	cost = 70
+	cost_commodity = research
 	prerequisites = {
 		high_pressure_steam_engine
 		
 		#iron_railroad_bridge
 		crucible_process
 	}
-	wealth_cost = 7000
 }
 
 dynamite = {
@@ -76,14 +78,12 @@ dynamite = {
 	portrait = engineering
 	icon = railroad
 	period = 1750_1800
+	cost = 400
+	cost_commodity = research
 	prerequisites = {
 		compound_steam_engine
 		square_set_timbering
 		banking
 		explosives
-	}
-	wealth_cost = 40000
-	commodity_costs = {
-		research = 2350
 	}
 }

@@ -4,14 +4,13 @@ gunpowder = {
 	portrait = engineering
 	icon = musket
 	period = 1300_1400
+	cost_commodity = research
+	cost = 780
 	prerequisites = {
 		alchemy
 		invention
 		
 		cathedral_school
-	}
-	commodity_costs = {
-		research = 780
 	}
 }
 
@@ -21,6 +20,7 @@ arquebus = {
 	portrait = engineering
 	icon = musket
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		gunpowder
 	}
@@ -32,6 +32,7 @@ weapon_craftsmanship = {
 	portrait = engineering
 	icon = musket
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		arquebus
 		organized_regiments
@@ -45,6 +46,7 @@ flintlock_rifle = {
 	portrait = engineering
 	icon = rifle
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		improved_infantry_tactics
 		crucible_process
@@ -57,6 +59,7 @@ bayonet = {
 	portrait = engineering
 	icon = musket
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		halberd
 		crucible_process
@@ -69,6 +72,7 @@ explosives = {
 	portrait = engineering
 	icon = musket
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		weapon_craftsmanship
 		industrial_machinery
@@ -81,6 +85,7 @@ improved_cavalry_weapons = {
 	portrait = engineering
 	icon = musket
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		improved_cavalry_tactics
 		crucible_process
@@ -94,6 +99,7 @@ long_range_rifle = {
 	portrait = engineering
 	icon = rifle
 	period = 1800_1825
+	cost_commodity = research
 	prerequisites = {
 		flintlock_rifle
 		modern_military_funding
@@ -107,12 +113,13 @@ needle_gun = {
 	portrait = engineering
 	icon = rifle
 	period = 1750_1800
+	cost = 120
+	cost_commodity = research
 	prerequisites = {
 		bayonet
 		flintlock_rifle
 		industrial_funding_of_research
 	}
-	wealth_cost = 12000
 }
 
 repeating_cavalry_carbine = {
@@ -121,6 +128,7 @@ repeating_cavalry_carbine = {
 	portrait = engineering
 	icon = rifle
 	period = 1750_1800
+	cost_commodity = research
 	prerequisites = {
 		improved_cavalry_weapons
 		industrial_funding_of_research
@@ -133,8 +141,9 @@ machine_gun = {
 	portrait = engineering
 	icon = rifle
 	period = 1875_1900
+	cost = 1000
+	cost_commodity = research
 	prerequisites = {
 		needle_gun
 	}
-	wealth_cost = 100000
 }

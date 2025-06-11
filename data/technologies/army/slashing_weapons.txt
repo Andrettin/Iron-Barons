@@ -4,6 +4,7 @@ shortsword = {
 	portrait = helmet
 	icon = saber
 	period = bronze_age
+	cost_commodity = research
 	prerequisites = {
 		warrior_code
 		bronzeworking
@@ -19,6 +20,7 @@ broadsword = {
 	portrait = helmet
 	icon = saber
 	period = iron_age
+	cost_commodity = research
 	prerequisites = {
 		shortsword
 	}
@@ -34,6 +36,7 @@ longsword = {
 	portrait = helmet
 	icon = saber
 	period = 1_500
+	cost_commodity = research
 	prerequisites = {
 		broadsword
 		ironworking
@@ -50,6 +53,7 @@ bastard_sword = {
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		longsword
 		
@@ -63,6 +67,7 @@ greatsword = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		bastard_sword
 	}

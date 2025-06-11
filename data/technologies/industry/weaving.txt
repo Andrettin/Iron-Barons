@@ -4,6 +4,7 @@ cotton_weaving = {
 	portrait = engineering
 	icon = fabric
 	period = bronze_age
+	cost_commodity = research
 	prerequisites = {
 		cotton
 	}
@@ -15,12 +16,13 @@ spinning_jenny = {
 	portrait = factory
 	icon = fabric
 	period = 1700_1750
+	cost = 30
+	cost_commodity = research
 	prerequisites = {
 		scientific_sheep_breeding
 		industrial_machinery
 		#feed_grasses
 	}
-	wealth_cost = 3000
 	modifier = {
 		fabric_throughput_modifier = 5
 	}
@@ -32,10 +34,11 @@ power_loom = {
 	portrait = factory
 	icon = fabric
 	period = 1825_1850
+	cost = 120
+	cost_commodity = research
 	prerequisites = {
 		spinning_jenny
 	}
-	wealth_cost = 12000
 	modifier = {
 		fabric_throughput_modifier = 5
 	}

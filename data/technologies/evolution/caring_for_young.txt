@@ -4,6 +4,7 @@ caring_for_young = {
 	portrait = building_slot
 	icon = lion
 	period = permian
+	cost_commodity = culture
 	cultures = {
 		mammalian
 		reptilian

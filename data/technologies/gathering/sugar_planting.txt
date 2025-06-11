@@ -13,10 +13,11 @@ sugar_planting = {
 	portrait = engineering
 	icon = sugar_cane
 	period = bronze_age
+	cost = 9
+	cost_commodity = research
 	prerequisites = {
 		sugar_cane
 	}
-	wealth_cost = 900
 }
 
 large_sugar_plantations = {
@@ -25,6 +26,7 @@ large_sugar_plantations = {
 	portrait = engineering
 	icon = sugar_cane
 	period = 1550_1600
+	cost_commodity = research
 	prerequisites = {
 		sugar_planting
 		
@@ -38,8 +40,9 @@ sugar_industry = {
 	portrait = engineering
 	icon = sugar_cane
 	period = 1600_1650
+	cost = 33
+	cost_commodity = research
 	prerequisites = {
 		large_sugar_plantations
 	}
-	wealth_cost = 3300
 }

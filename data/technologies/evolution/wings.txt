@@ -4,6 +4,7 @@ wings = {
 	portrait = building_slot
 	icon = lion
 	period = triassic
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -19,6 +20,7 @@ true_flight = {
 	portrait = building_slot
 	icon = lion
 	period = jurassic
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

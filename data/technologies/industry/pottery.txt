@@ -4,7 +4,6 @@ pottery = {
 	portrait = engineering
 	icon = cog
 	period = copper_age
-	commodity_costs = {
-		research = 35
-	}
+	cost = 35
+	cost_commodity = research
 }

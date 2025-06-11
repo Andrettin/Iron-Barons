@@ -4,6 +4,7 @@ glassblowing = {
 	portrait = engineering
 	icon = glass
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		invention
 		salt_refining

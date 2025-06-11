@@ -4,6 +4,7 @@ offensive_terrain = {
 	portrait = helmet
 	icon = mountains
 	period = 1000_1100
+	cost_commodity = leadership
 	prerequisites = {
 		feudalism
 	}
@@ -21,6 +22,7 @@ frontal_charge = {
 	portrait = helmet
 	icon = saber
 	period = 1100_1200
+	cost_commodity = leadership
 	prerequisites = {
 		offensive_terrain
 	}
@@ -38,6 +40,7 @@ reserves = {
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
+	cost_commodity = leadership
 	prerequisites = {
 		frontal_charge
 	}
@@ -57,6 +60,7 @@ dismounted_knights = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
+	cost_commodity = leadership
 	prerequisites = {
 		reserves
 		chivalry
@@ -77,6 +81,7 @@ hierarchical_command = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
+	cost_commodity = leadership
 	prerequisites = {
 		dismounted_knights
 	}

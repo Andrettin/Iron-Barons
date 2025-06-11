@@ -4,11 +4,10 @@ corporation = {
 	portrait = coinage
 	icon = wealth
 	period = 1800_1825
+	culture = 1000
+	cost_commodity = research
 	prerequisites = {
 		economics
 		industrial_machinery
-	}
-	commodity_costs = {
-		culture = 1000
 	}
 }

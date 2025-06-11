@@ -4,6 +4,7 @@ chained_leather_armor = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		feudalism
 		ironworking
@@ -24,6 +25,7 @@ light_chainmail = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		chained_leather_armor
 	}
@@ -43,6 +45,7 @@ chainmail = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		light_chainmail
 	}
@@ -62,6 +65,7 @@ full_chainmail = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		chainmail
 	}
@@ -81,6 +85,7 @@ plated_chainmail = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		full_chainmail
 	}

@@ -4,6 +4,7 @@ business_contracts = {
 	portrait = coinage
 	icon = treaty
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		trade
 		
@@ -20,6 +21,7 @@ promissory_note = {
 	portrait = coinage
 	icon = wealth
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		business_contracts
 	}
@@ -34,6 +36,7 @@ letters_of_credit = {
 	portrait = coinage
 	icon = wealth
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		promissory_note
 	}
@@ -48,6 +51,7 @@ double_entry_bookkeeping = {
 	portrait = coinage
 	icon = wealth
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		letters_of_credit
 	}
@@ -62,6 +66,7 @@ foreign_accreditation = {
 	portrait = coinage
 	icon = wealth
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		double_entry_bookkeeping
 	}
@@ -76,10 +81,11 @@ trade_fairs = {
 	portrait = coinage
 	icon = wealth
 	period = 1550_1600
+	cost = 20
+	cost_commodity = research
 	prerequisites = {
 		merchant_companies
 		sugar_refining
 		sugar_planting
 	}
-	wealth_cost = 2000
 }

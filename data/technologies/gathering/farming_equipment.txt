@@ -4,6 +4,7 @@ pitchfork = {
 	portrait = engineering
 	icon = grain
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		iron_plow
 		
@@ -22,6 +23,7 @@ harrow = {
 	portrait = engineering
 	icon = grain
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		iron_plow
 		
@@ -40,6 +42,7 @@ padded_horse_collar = {
 	portrait = engineering
 	icon = grain
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		pitchfork
 		harrow

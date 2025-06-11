@@ -4,6 +4,7 @@ wood_plow = {
 	portrait = engineering
 	icon = grain
 	period = copper_age
+	cost_commodity = research
 	modifier = {
 		commodity_bonus_per_improvement = {
 			commodity = grain
@@ -29,6 +30,7 @@ iron_tipped_wood_plow = {
 	portrait = engineering
 	icon = grain
 	period = iron_age
+	cost_commodity = research
 	prerequisites = {
 		wood_plow
 		ironworking
@@ -58,6 +60,7 @@ iron_plow = {
 	portrait = engineering
 	icon = grain
 	period = 1_500
+	cost_commodity = research
 	prerequisites = {
 		iron_tipped_wood_plow
 	}
@@ -86,6 +89,7 @@ land_enclosure = {
 	portrait = engineering
 	icon = grain
 	period = 1500_1550
+	cost_commodity = research
 	prerequisites = {
 		rooting_out
 		
@@ -99,6 +103,7 @@ seed_drill = {
 	portrait = engineering
 	icon = grain
 	period = 1550_1600
+	cost_commodity = research
 	prerequisites = {
 		land_enclosure
 	}
@@ -110,12 +115,13 @@ moldboard_plow = {
 	portrait = engineering
 	icon = grain
 	period = 1825_1850
+	cost = 30
+	cost_commodity = research
 	prerequisites = {
 		seed_drill
 		
 		high_grade_steel
 	}
-	wealth_cost = 3000
 	modifier = {
 		commodity_bonus_per_improvement = {
 			commodity = grain
@@ -136,8 +142,9 @@ mechanical_reaper = {
 	portrait = engineering
 	icon = grain
 	period = 1850_1875
+	cost = 120
+	cost_commodity = research
 	prerequisites = {
 		moldboard_plow
 	}
-	wealth_cost = 12000
 }

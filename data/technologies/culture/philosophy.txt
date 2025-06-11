@@ -5,12 +5,11 @@ philosophy = {
 	icon = philosophy
 	period = 1_500
 	free_technology = true
+	cost = 175
+	cost_commodity = research
 	prerequisites = {
 		literature
 		mysticism
-	}
-	commodity_costs = {
-		research = 175
 	}
 }
 
@@ -20,6 +19,7 @@ aristotelian_logic = {
 	portrait = scholar
 	icon = philosophy
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		philosophy
 		
@@ -33,6 +33,7 @@ scholastics = {
 	portrait = frankish_cleric
 	icon = wooden_cross
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		aristotelian_logic
 		theology
@@ -45,6 +46,7 @@ natural_philosophy = {
 	portrait = scholar
 	icon = philosophy
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		astrology
 		mathematics
@@ -58,6 +60,8 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 	icon = research
 	period = 1600_1650
 	year = 1620
+	cost = 1600
+	cost_commodity = research
 	prerequisites = {
 		natural_philosophy
 		
@@ -66,9 +70,6 @@ scientific_method = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 		moneylending
 		
 		astronomy
-	}
-	commodity_costs = {
-		research = 1600
 	}
 	modifier = {
 		research_output_modifier = 5
@@ -81,13 +82,12 @@ enlightenment_philosophy = {
 	portrait = scholar
 	icon = research
 	period = 1750_1800
+	cost = 360
+	cost_commodity = research
 	prerequisites = {
 		scientific_method
 		
 		nationalism #to put this technology in the correct technological period
-	}
-	commodity_costs = {
-		research = 360
 	}
 	modifier = {
 		research_output_modifier = 5
@@ -100,11 +100,10 @@ idealism = {
 	portrait = scholar
 	icon = research
 	period = 1800_1825
+	cost = 720
+	cost_commodity = research
 	prerequisites = {
 		enlightenment_philosophy
-	}
-	commodity_costs = {
-		research = 720
 	}
 	modifier = {
 		research_output_modifier = 5
@@ -117,11 +116,10 @@ empiricism = {
 	portrait = scholar
 	icon = research
 	period = 1825_1850
+	cost = 1080
+	cost_commodity = research
 	prerequisites = {
 		idealism
-	}
-	commodity_costs = {
-		research = 1080
 	}
 	modifier = {
 		research_output_modifier = 5
@@ -134,11 +132,10 @@ analytic_philosophy = {
 	portrait = scholar
 	icon = research
 	period = 1850_1875
+	cost = 1440
+	cost_commodity = research
 	prerequisites = {
 		empiricism
-	}
-	commodity_costs = {
-		research = 1440
 	}
 	modifier = {
 		research_output_modifier = 5
@@ -152,6 +149,7 @@ phenomenology = {
 	icon = research
 	period = 1875_1900
 	shared_prestige = 20
+	cost_commodity = research
 	prerequisites = {
 		analytic_philosophy
 	}
@@ -167,6 +165,7 @@ hermeneutics = {
 	icon = research
 	period = 1875_1900
 	shared_prestige = 20
+	cost_commodity = research
 	prerequisites = {
 		analytic_philosophy
 	}
@@ -181,12 +180,11 @@ anti_rationalism = {
 	portrait = scholar
 	icon = research
 	period = 1900_1925
+	cost = 2160
+	cost_commodity = research
 	prerequisites = {
 		phenomenology
 		hermeneutics
-	}
-	commodity_costs = {
-		research = 2160
 	}
 	modifier = {
 		research_output_modifier = 5

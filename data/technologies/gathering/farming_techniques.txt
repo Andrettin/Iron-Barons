@@ -4,6 +4,7 @@ two_field_system = {
 	portrait = engineering
 	icon = grain
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		feudalism
 	}
@@ -20,6 +21,7 @@ three_field_system = {
 	portrait = engineering
 	icon = grain
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		two_field_system
 	}
@@ -36,6 +38,7 @@ stripe_plowing = {
 	portrait = engineering
 	icon = grain
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		three_field_system
 	}
@@ -52,6 +55,7 @@ soil_amelioration = {
 	portrait = engineering
 	icon = grain
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		stripe_plowing
 	}
@@ -68,6 +72,7 @@ rooting_out = {
 	portrait = engineering
 	icon = grain
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		soil_amelioration
 	}

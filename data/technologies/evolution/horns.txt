@@ -5,6 +5,7 @@ horns = {
 	icon = lion
 	period = jurassic
 	year = -68000000 #Triceratops
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

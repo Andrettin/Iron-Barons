@@ -5,6 +5,7 @@ armored_fish = {
 	icon = fish
 	period = cretaceous
 	year = -400000000 #Hemicyclaspis
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

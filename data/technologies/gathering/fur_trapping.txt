@@ -13,12 +13,13 @@ improved_trapping_techniques = {
 	portrait = engineering
 	icon = furs
 	period = 1500_1550
+	cost = 9
+	cost_commodity = research
 	prerequisites = {
 		furs
 		
 		academic_disciplines #university
 	}
-	wealth_cost = 900
 }
 
 riverboats = {
@@ -27,11 +28,12 @@ riverboats = {
 	portrait = unload
 	icon = furs
 	period = 1700_1750
+	cost = 70
+	cost_commodity = research
 	prerequisites = {
 		improved_trapping_techniques
 		high_pressure_steam_engine
 	}
-	wealth_cost = 7000
 }
 
 excessive_fur_harvesting = {
@@ -40,6 +42,7 @@ excessive_fur_harvesting = {
 	portrait = engineering
 	icon = furs
 	period = 1750_1800
+	cost_commodity = research
 	prerequisites = {
 		riverboats
 		compound_steam_engine

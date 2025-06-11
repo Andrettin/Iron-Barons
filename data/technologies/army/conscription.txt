@@ -4,6 +4,7 @@ conscription = {
 	portrait = helmet
 	icon = saber
 	period = 1750_1800
+	cost_commodity = leadership
 	prerequisites = {
 		nationalism
 		weapon_craftsmanship

@@ -4,6 +4,7 @@ tail_weapons = {
 	portrait = building_slot
 	icon = lion
 	period = devonian
+	cost_commodity = research
 	cultures = {
 		mammalian
 		reptilian
@@ -17,6 +18,7 @@ tail_spikes = {
 	icon = lion
 	period = triassic
 	year = -155000000 #Stegosaurus
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -32,6 +34,7 @@ tail_crest = {
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -46,6 +49,7 @@ tail_club = {
 	portrait = building_slot
 	icon = lion
 	period = triassic
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -61,6 +65,7 @@ whipping_tail = {
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

@@ -13,6 +13,7 @@ tobacco_planting = {
 	portrait = engineering
 	icon = tobacco
 	period = bronze_age
+	cost_commodity = research
 	prerequisites = {
 		tobacco
 	}
@@ -24,11 +25,12 @@ large_tobacco_plantations = {
 	portrait = engineering
 	icon = tobacco
 	period = 1600_1650
+	cost = 33
+	cost_commodity = research
 	prerequisites = {
 		tobacco_planting
 		seed_drill
 	}
-	wealth_cost = 3300
 }
 
 tobacco_industry = {
@@ -37,6 +39,7 @@ tobacco_industry = {
 	portrait = engineering
 	icon = tobacco
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		large_tobacco_plantations
 		high_pressure_steam_engine

@@ -4,6 +4,7 @@ handaxe = {
 	portrait = helmet
 	icon = saber
 	period = bronze_age
+	cost_commodity = research
 	prerequisites = {
 		warrior_code
 	}
@@ -15,6 +16,7 @@ battleaxe = {
 	portrait = helmet
 	icon = saber
 	period = iron_age
+	cost_commodity = research
 	prerequisites = {
 		handaxe
 	}

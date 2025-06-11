@@ -4,6 +4,7 @@ soft_leather_armor = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		feudalism
 	}
@@ -19,6 +20,7 @@ reinforced_leather_armor = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		soft_leather_armor
 	}
@@ -34,6 +36,7 @@ boiled_leather_armor = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		reinforced_leather_armor
 	}
@@ -49,6 +52,7 @@ rigid_leather_armor = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		boiled_leather_armor
 	}
@@ -64,6 +68,7 @@ scaled_leather_armor = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		rigid_leather_armor
 	}

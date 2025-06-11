@@ -4,6 +4,7 @@ crop_rotation = {
 	portrait = engineering
 	icon = cattle
 	period = 1500_1550
+	cost_commodity = research
 	prerequisites = {
 		rooting_out
 	}
@@ -15,6 +16,7 @@ animal_husbandry = {
 	portrait = engineering
 	icon = cattle
 	period = 1550_1600
+	cost_commodity = research
 	prerequisites = {
 		crop_rotation
 	}
@@ -26,6 +28,7 @@ scientific_cattle_breeding = {
 	portrait = engineering
 	icon = cattle
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		animal_husbandry
 		scientific_method
@@ -38,11 +41,12 @@ feed_grasses = {
 	portrait = engineering
 	icon = cattle
 	period = 1800_1825
+	cost = 15
+	cost_commodity = research
 	prerequisites = {
 		scientific_cattle_breeding
 		scientific_sheep_breeding
 	}
-	wealth_cost = 1500
 }
 
 mechanized_slaughtering_block = {
@@ -51,6 +55,7 @@ mechanized_slaughtering_block = {
 	portrait = engineering
 	icon = cattle
 	period = 1800_1825
+	cost_commodity = research
 	prerequisites = {
 		scientific_cattle_breeding
 		putting_out_system
@@ -66,8 +71,9 @@ barbed_wire = {
 	portrait = engineering
 	icon = cattle
 	period = 1850_1875
+	cost = 200
+	cost_commodity = research
 	prerequisites = {
 		feed_grasses
 	}
-	wealth_cost = 20000
 }

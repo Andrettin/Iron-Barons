@@ -4,6 +4,7 @@ hill_fort = {
 	portrait = engineering
 	icon = wall
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		feudalism
 	}
@@ -15,6 +16,7 @@ small_castle = {
 	portrait = engineering
 	icon = wall
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		hill_fort
 	}
@@ -26,6 +28,7 @@ medium_castle = {
 	portrait = engineering
 	icon = wall
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		small_castle
 	}
@@ -37,6 +40,7 @@ large_castle = {
 	portrait = engineering
 	icon = wall
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		medium_castle
 	}
@@ -48,6 +52,7 @@ huge_castle = {
 	portrait = engineering
 	icon = wall
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		large_castle
 	}
@@ -59,6 +64,7 @@ mine_engineering = {
 	portrait = engineering
 	icon = architecture
 	period = 1500_1550
+	cost_commodity = research
 	prerequisites = {
 		invention
 		academic_disciplines #university
@@ -71,6 +77,7 @@ modern_fortifications = {
 	portrait = fort
 	icon = wall
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		siege_engineering
 		scientific_method

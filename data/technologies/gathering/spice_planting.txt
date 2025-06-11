@@ -13,6 +13,7 @@ improved_sea_routes = {
 	portrait = engineering
 	icon = spices
 	period = 1500_1550
+	cost_commodity = research
 	prerequisites = {
 		spices
 		
@@ -28,6 +29,7 @@ large_spice_plantations = {
 	portrait = engineering
 	icon = spices
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		improved_sea_routes
 		seed_drill
@@ -40,6 +42,7 @@ improved_food_preservation = {
 	portrait = engineering
 	icon = spices
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		large_spice_plantations
 		industrial_machinery

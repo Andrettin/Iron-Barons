@@ -4,10 +4,11 @@ sheep_ranching = {
 	portrait = engineering
 	icon = wool
 	period = 1550_1600
+	cost = 24
+	cost_commodity = research
 	prerequisites = {
 		crop_rotation
 	}
-	wealth_cost = 2400
 }
 
 scientific_sheep_breeding = {
@@ -16,6 +17,7 @@ scientific_sheep_breeding = {
 	portrait = engineering
 	icon = wool
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		sheep_ranching
 		scientific_method

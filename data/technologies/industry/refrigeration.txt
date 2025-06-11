@@ -4,13 +4,12 @@ refrigeration = {
 	portrait = engineering
 	icon = research
 	period = 1875_1900
+	cost = 3100
+	cost_commodity = research
 	prerequisites = {
 		food_packing_system
 		electricity
 		sanitation
-	}
-	commodity_costs = {
-		research = 3100
 	}
 	modifier = {
 		livestock_output_modifier = 20

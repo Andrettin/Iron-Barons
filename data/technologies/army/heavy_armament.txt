@@ -4,6 +4,7 @@ battering_ram = {
 	portrait = helmet
 	icon = saber
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		warrior_code
 		feudalism
@@ -16,6 +17,7 @@ siege_ladders = {
 	portrait = helmet
 	icon = saber
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		battering_ram
 	}
@@ -27,6 +29,7 @@ siege_towers = {
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		siege_ladders
 	}
@@ -38,6 +41,7 @@ mangonel = {
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		siege_towers
 		mathematics
@@ -53,6 +57,7 @@ trebuchet = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		mangonel
 	}
@@ -67,6 +72,7 @@ siege_engineering = {
 	portrait = engineering
 	icon = cannon
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		copper_and_tin_mining
 		printing_press
@@ -79,6 +85,7 @@ horse_artillery = {
 	portrait = engineering
 	icon = cannon
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		animal_husbandry
 		copper_and_tin_mining
@@ -91,6 +98,7 @@ heavy_artillery = {
 	portrait = engineering
 	icon = cannon
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		heavy_emplaced_artillery
 		modern_fortifications
@@ -104,12 +112,13 @@ light_artillery_tactics = {
 	portrait = engineering
 	icon = cannon
 	period = 1700_1750
+	cost = 70
+	cost_commodity = research
 	prerequisites = {
 		horse_artillery
 		crucible_process
 		scientific_method
 	}
-	wealth_cost = 7000
 }
 
 heavy_emplaced_artillery = {
@@ -118,12 +127,13 @@ heavy_emplaced_artillery = {
 	portrait = engineering
 	icon = cannon
 	period = 1650_1700
+	cost = 48
+	cost_commodity = research
 	prerequisites = {
 		siege_engineering
 		national_bureaucracy
 		road_construction
 	}
-	wealth_cost = 4800
 }
 
 high_grade_steel = {
@@ -132,6 +142,7 @@ high_grade_steel = {
 	portrait = factory
 	icon = steel
 	period = 1800_1825
+	cost_commodity = research
 	prerequisites = {
 		heavy_artillery
 		modern_military_funding
@@ -145,12 +156,13 @@ rifled_artillery = {
 	portrait = engineering
 	icon = cannon
 	period = 1800_1825
+	cost = 100
+	cost_commodity = research
 	prerequisites = {
 		heavy_artillery
 		modern_military_funding
 		industrial_funding_of_research
 	}
-	wealth_cost = 10000
 }
 
 field_artillery_tactics = {
@@ -159,11 +171,12 @@ field_artillery_tactics = {
 	portrait = engineering
 	icon = cannon
 	period = 1800_1825
+	cost = 147
+	cost_commodity = research
 	prerequisites = {
 		light_artillery_tactics
 		modern_military_funding
 	}
-	wealth_cost = 14700
 }
 
 emplaced_siege_guns = {
@@ -172,6 +185,7 @@ emplaced_siege_guns = {
 	portrait = engineering
 	icon = cannon
 	period = 1750_1800
+	cost_commodity = research
 	prerequisites = {
 		heavy_emplaced_artillery
 		heavy_artillery
@@ -184,8 +198,9 @@ large_artillery = {
 	portrait = engineering
 	icon = cannon
 	period = 1850_1875
+	cost = 400
+	cost_commodity = research
 	prerequisites = {
 		rifled_artillery
 	}
-	wealth_cost = 40000
 }

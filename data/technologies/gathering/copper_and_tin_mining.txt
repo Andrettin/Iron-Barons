@@ -4,6 +4,7 @@ copper_and_tin_mining = {
 	portrait = factory
 	icon = copper
 	period = 1550_1600
+	cost_commodity = research
 	prerequisites = {
 		mine_engineering
 	}
@@ -15,6 +16,7 @@ large_copper_and_tin_mines = {
 	portrait = factory
 	icon = copper
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		copper_and_tin_mining
 	}
@@ -26,6 +28,7 @@ efficient_extraction_of_copper_and_tin = {
 	portrait = factory
 	icon = copper
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		large_copper_and_tin_mines
 		#large_coal_mines

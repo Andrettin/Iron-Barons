@@ -4,6 +4,7 @@ putting_out_system = {
 	portrait = engineering
 	icon = cog
 	period = 1750_1800
+	cost_commodity = research
 	prerequisites = {
 		banking
 	}

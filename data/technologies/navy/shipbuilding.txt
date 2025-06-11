@@ -4,6 +4,7 @@ superior_hull_design = {
 	portrait = unload
 	icon = anchor
 	period = 1500_1550
+	cost_commodity = research
 	prerequisites = {
 		cartography
 		invention
@@ -18,6 +19,7 @@ improved_sail_design = {
 	portrait = unload
 	icon = anchor
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		superior_hull_design
 		wind_saw_mill
@@ -30,12 +32,13 @@ large_hulls = {
 	portrait = unload
 	icon = anchor
 	period = 1600_1650
+	cost = 33
+	cost_commodity = research
 	prerequisites = {
 		navigation
 		convoying
 		wind_saw_mill
 	}
-	wealth_cost = 3300
 }
 
 advanced_hull_design = {
@@ -44,6 +47,7 @@ advanced_hull_design = {
 	portrait = unload
 	icon = anchor
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		improved_sail_design
 		privateering_companies
@@ -57,6 +61,7 @@ ship_of_the_line = {
 	portrait = unload
 	icon = anchor
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		large_hulls
 		large_copper_and_tin_mines
@@ -69,11 +74,12 @@ streamlined_hulls = {
 	portrait = unload
 	icon = anchor
 	period = 1700_1750
+	cost = 15
+	cost_commodity = research
 	prerequisites = {
 		advanced_hull_design
 		circular_saw
 	}
-	wealth_cost = 1500
 }
 
 paddlewheels = {
@@ -82,11 +88,12 @@ paddlewheels = {
 	portrait = unload
 	icon = anchor
 	period = 1700_1750
+	cost = 30
+	cost_commodity = research
 	prerequisites = {
 		advanced_hull_design
 		high_pressure_steam_engine
 	}
-	wealth_cost = 3000
 }
 
 merchant_steamships = {
@@ -95,6 +102,7 @@ merchant_steamships = {
 	portrait = unload
 	icon = anchor
 	period = 1750_1800
+	cost_commodity = research
 	prerequisites = {
 		paddlewheels
 		riverboats
@@ -107,14 +115,12 @@ advanced_iron_working = {
 	portrait = unload
 	icon = anchor
 	period = 1750_1800
+	cost = 120
+	cost_commodity = research
 	prerequisites = {
 		ship_of_the_line
 		paddlewheels
 		industrial_funding_of_research
-	}
-	wealth_cost = 12000
-	commodity_costs = {
-		research = 1000
 	}
 }
 
@@ -124,10 +130,11 @@ steel_armor_plate = {
 	portrait = unload
 	icon = anchor
 	period = 1850_1875
+	cost = 400
+	cost_commodity = research
 	prerequisites = {
 		advanced_iron_working
 	}
-	wealth_cost = 40000
 }
 
 marine_engineering = {
@@ -136,10 +143,11 @@ marine_engineering = {
 	portrait = unload
 	icon = anchor
 	period = 1875_1900
+	cost = 400
+	cost_commodity = research
 	prerequisites = {
 		steel_armor_plate
 	}
-	wealth_cost = 40000
 }
 
 improved_range_finding = {
@@ -148,8 +156,9 @@ improved_range_finding = {
 	portrait = unload
 	icon = anchor
 	period = 1900_1925
+	cost = 1500
+	cost_commodity = research
 	prerequisites = {
 		marine_engineering
 	}
-	wealth_cost = 150000
 }

@@ -4,6 +4,7 @@ seven_liberal_arts = {
 	portrait = university
 	icon = university
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		philosophy
 		
@@ -17,6 +18,7 @@ monastic_school = {
 	portrait = university
 	icon = university
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		seven_liberal_arts
 	}
@@ -28,6 +30,7 @@ cathedral_school = {
 	portrait = university
 	icon = university
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		monastic_school
 	}
@@ -39,6 +42,8 @@ university = {
 	portrait = university
 	icon = university
 	period = 1300_1400
+	cost = 33
+	cost_commodity = research
 	prerequisites = {
 		cathedral_school
 		mathematics
@@ -48,10 +53,6 @@ university = {
 		#apprentice_workers
 		#moneylending
 	}
-	wealth_cost = 3300
-	commodity_costs = {
-		research = 485
-	}
 }
 
 academic_disciplines = {
@@ -60,6 +61,7 @@ academic_disciplines = {
 	portrait = university
 	icon = university
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		university
 	}

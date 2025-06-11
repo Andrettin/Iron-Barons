@@ -4,6 +4,7 @@ saw_mill = {
 	portrait = engineering
 	icon = lumber
 	period = 1500_1550
+	cost_commodity = research
 	prerequisites = {
 		two_man_saw
 		invention
@@ -18,10 +19,11 @@ wind_saw_mill = {
 	portrait = engineering
 	icon = lumber
 	period = 1550_1600
+	cost = 20
+	cost_commodity = research
 	prerequisites = {
 		saw_mill
 	}
-	wealth_cost = 2000
 	modifier = {
 		lumber_throughput_modifier = 5
 	}
@@ -33,6 +35,7 @@ mechanical_precision_saw = {
 	portrait = engineering
 	icon = lumber
 	period = 1800_1825
+	cost_commodity = research
 	prerequisites = {
 		circular_saw
 		putting_out_system

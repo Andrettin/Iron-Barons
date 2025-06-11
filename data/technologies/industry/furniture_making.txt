@@ -4,6 +4,7 @@ jigs = {
 	portrait = engineering
 	icon = furniture
 	period = 1825_1850
+	cost_commodity = research
 	prerequisites = {
 		mechanical_precision_saw
 		high_pressure_steam_engine

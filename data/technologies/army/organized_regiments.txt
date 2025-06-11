@@ -4,6 +4,7 @@ organized_regiments = {
 	portrait = helmet
 	icon = saber
 	period = 1550_1600
+	cost_commodity = leadership
 	prerequisites = {
 		chivalry
 		

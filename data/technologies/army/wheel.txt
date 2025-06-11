@@ -4,7 +4,6 @@ wheel = {
 	portrait = engineering
 	icon = cog
 	period = copper_age
-	commodity_costs = {
-		research = 55
-	}
+	cost = 55
+	cost_commodity = research
 }

@@ -4,9 +4,8 @@ bronzeworking = {
 	portrait = engineering
 	icon = bronze
 	period = copper_age
-	commodity_costs = {
-		research = 55
-	}
+	cost = 55
+	cost_commodity = research
 }
 
 ironworking = {
@@ -15,12 +14,11 @@ ironworking = {
 	portrait = engineering
 	icon = iron
 	period = bronze_age
+	cost_commodity = research
+	cost = 195
 	prerequisites = {
 		bronzeworking
 		warrior_code
-	}
-	commodity_costs = {
-		research = 195
 	}
 }
 
@@ -30,14 +28,12 @@ crucible_process = {
 	portrait = factory
 	icon = steel
 	period = 1650_1700
+	cost = 48
+	cost_commodity = research
 	prerequisites = {
 		ironworking
 		steam_in_mining
 		large_coal_mines
-	}
-	wealth_cost = 4800
-	commodity_costs = {
-		research = 485
 	}
 }
 
@@ -47,11 +43,12 @@ bessemer_converter = {
 	portrait = factory
 	icon = steel
 	period = 1825_1850
+	cost = 60
+	cost_commodity = research
 	prerequisites = {
 		crucible_process
 		high_grade_steel
 	}
-	wealth_cost = 6000
 	modifier = {
 		steel_throughput_modifier = 5
 	}

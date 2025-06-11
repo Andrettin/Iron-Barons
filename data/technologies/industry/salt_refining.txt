@@ -4,6 +4,7 @@ salt_refining = {
 	portrait = engineering
 	icon = salt
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		invention
 	}

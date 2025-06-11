@@ -4,6 +4,7 @@ duck_bill = {
 	portrait = building_slot
 	icon = lion
 	period = carboniferous
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

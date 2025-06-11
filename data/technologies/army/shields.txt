@@ -4,6 +4,7 @@ bronze_shield = {
 	portrait = bronze_shield
 	icon = heater_shield
 	period = bronze_age
+	cost_commodity = research
 	prerequisites = {
 		warrior_code
 		bronzeworking
@@ -35,6 +36,7 @@ iron_shield = {
 	portrait = bronze_shield
 	icon = heater_shield
 	period = iron_age
+	cost_commodity = research
 	prerequisites = {
 		bronze_shield
 		ironworking
@@ -66,6 +68,7 @@ tower_shield = {
 	portrait = bronze_shield
 	icon = heater_shield
 	period = 1_500
+	cost_commodity = research
 	prerequisites = {
 		iron_shield
 	}

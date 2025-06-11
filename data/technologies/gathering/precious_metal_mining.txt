@@ -13,10 +13,11 @@ precious_metal_mining = {
 	portrait = coinage
 	icon = gold_ore
 	period = bronze_age
+	cost = 24
+	cost_commodity = research
 	prerequisites = {
 		precious_metals
 	}
-	wealth_cost = 2400
 }
 
 extraction_of_precious_metals = {
@@ -25,6 +26,7 @@ extraction_of_precious_metals = {
 	portrait = coinage
 	icon = gold_ore
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		precious_metal_mining
 		scientific_method
@@ -37,6 +39,7 @@ amalgamation_process = {
 	portrait = coinage
 	icon = silver
 	period = 1800_1825
+	cost_commodity = research
 	prerequisites = {
 		extraction_of_precious_metals
 		dynamite

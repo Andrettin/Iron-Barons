@@ -4,6 +4,7 @@ moneylending = {
 	portrait = coinage
 	icon = chest
 	period = 1550_1600
+	cost_commodity = research
 	prerequisites = {
 		merchant_companies
 		land_enclosure
@@ -16,6 +17,8 @@ banking = {
 	portrait = coinage
 	icon = chest
 	period = 1700_1750
+	cost = 70
+	cost_commodity = research
 	prerequisites = {
 		moneylending
 		national_bureaucracy
@@ -23,10 +26,6 @@ banking = {
 		master_artisans
 		
 		republic
-	}
-	wealth_cost = 7000
-	commodity_costs = {
-		research = 780
 	}
 }
 
@@ -36,12 +35,13 @@ modern_military_funding = {
 	portrait = coinage
 	icon = chest
 	period = 1750_1800
+	cost = 102
+	cost_commodity = research
 	prerequisites = {
 		banking
 		large_precious_stone_mines
 		modern_fortifications
 	}
-	wealth_cost = 10200
 }
 
 industrial_funding_of_research = {
@@ -50,6 +50,7 @@ industrial_funding_of_research = {
 	portrait = coinage
 	icon = chest
 	period = 1700_1750
+	cost_commodity = research
 	prerequisites = {
 		industrial_machinery
 		crucible_process

@@ -4,6 +4,7 @@ mace = {
 	portrait = helmet
 	icon = saber
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		battleaxe
 		
@@ -17,6 +18,7 @@ warhammer = {
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		mace
 	}
@@ -31,6 +33,7 @@ morningstar = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		warhammer
 	}

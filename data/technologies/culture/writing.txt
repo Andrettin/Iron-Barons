@@ -4,8 +4,8 @@ writing = {
 	portrait = engineering
 	icon = treaty
 	period = copper_age
-	commodity_costs = {
-		research = 55
+	cost = 55
+	cost_commodity = research
 	}
 }
 
@@ -15,11 +15,10 @@ alphabet = {
 	portrait = engineering
 	icon = treaty
 	period = bronze_age
+	cost = 50
+	cost_commodity = research
 	prerequisites = {
 		writing
-	}
-	commodity_costs = {
-		research = 50
 	}
 }
 
@@ -29,12 +28,11 @@ literature = {
 	portrait = engineering
 	icon = treaty
 	period = iron_age
+	cost = 100
+	cost_commodity = culture
 	prerequisites = {
 		writing
 		code_of_laws
-	}
-	commodity_costs = {
-		culture = 100
 	}
 }
 
@@ -44,11 +42,10 @@ printing_press = {
 	portrait = engineering
 	icon = newspaper
 	period = 1550_1600
+	cost = 780
+	cost_commodity = research
 	prerequisites = {
 		alphabet
 		saw_mill
-	}
-	commodity_costs = {
-		research = 780
 	}
 }

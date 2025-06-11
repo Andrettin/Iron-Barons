@@ -3,6 +3,7 @@ hofkriegsrat = {
 	subcategory = army_doctrine
 	portrait = aristocratic_palace
 	icon = saber
+	cost_commodity = leadership
 	cultures = {
 		austrian
 	}

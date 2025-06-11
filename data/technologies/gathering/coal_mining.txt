@@ -4,10 +4,11 @@ coal_mining = {
 	portrait = factory
 	icon = coal
 	period = 1550_1600
+	cost = 20
+	cost_commodity = research
 	prerequisites = {
 		mine_engineering
 	}
-	wealth_cost = 2000
 }
 
 large_coal_mines = {
@@ -16,6 +17,7 @@ large_coal_mines = {
 	portrait = factory
 	icon = coal
 	period = 1600_1650
+	cost_commodity = research
 	prerequisites = {
 		coal_mining
 		#steam_in_mining
@@ -28,11 +30,12 @@ square_set_timbering = {
 	portrait = factory
 	icon = coal
 	period = 1650_1700
+	cost = 15
+	cost_commodity = research
 	prerequisites = {
 		large_coal_mines
 		#high_pressure_steam_engine
 	}
-	wealth_cost = 1500
 }
 
 safety_lamp = {
@@ -41,6 +44,7 @@ safety_lamp = {
 	portrait = oil_lamp
 	icon = coal
 	period = 1800_1825
+	cost_commodity = research
 	prerequisites = {
 		square_set_timbering
 		dynamite

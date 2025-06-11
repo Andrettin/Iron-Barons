@@ -5,6 +5,7 @@ archosaurs = {
 	icon = lion
 	period = neogene
 	year = -72700000 #Tyrannosaurus
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

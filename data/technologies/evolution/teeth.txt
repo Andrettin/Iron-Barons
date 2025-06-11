@@ -4,6 +4,7 @@ teeth = {
 	portrait = building_slot
 	icon = lion
 	period = permian
+	cost_commodity = research
 	cultures = {
 		mammalian
 		reptilian
@@ -19,6 +20,7 @@ curved_teeth = {
 	portrait = building_slot
 	icon = lion
 	period = jurassic
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -33,6 +35,7 @@ ridged_teeth = {
 	portrait = building_slot
 	icon = lion
 	period = cretaceous
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -47,6 +50,7 @@ serrated_teeth = {
 	portrait = building_slot
 	icon = lion
 	period = paleogene
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

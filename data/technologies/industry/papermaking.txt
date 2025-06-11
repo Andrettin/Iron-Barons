@@ -4,6 +4,7 @@ papermaking = {
 	portrait = engineering
 	icon = paper
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		invention
 		

@@ -3,6 +3,7 @@ indelningsverket = {
 	subcategory = army_doctrine
 	portrait = fort
 	icon = saber
+	cost_commodity = leadership
 	cultures = {
 		swedish
 	}

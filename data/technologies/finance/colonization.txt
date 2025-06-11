@@ -4,6 +4,8 @@ colonization = {
 	portrait = trading_post
 	icon = settlement
 	period = 1500_1550
+	cost = 500
+	cost_commodity = research
 	prerequisites = {
 		#banking
 		#printing_press
@@ -13,8 +15,5 @@ colonization = {
 		gunpowder
 		
 		foreign_accreditation
-	}
-	commodity_costs = {
-		culture = 500
 	}
 }

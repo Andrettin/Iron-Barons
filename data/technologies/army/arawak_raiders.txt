@@ -3,6 +3,7 @@ arawak_raiders = {
 	subcategory = infantry
 	portrait = helmet
 	icon = bow
+	cost_commodity = leadership
 	cultures = {
 		arawak
 	}

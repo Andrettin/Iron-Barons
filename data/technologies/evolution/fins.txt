@@ -5,6 +5,7 @@ spiny_fins = {
 	icon = fish
 	period = devonian
 	year = -405000000 #Climatius
+	cost_commodity = research
 	cultures = {
 		mammalian
 		reptilian
@@ -17,6 +18,7 @@ dorsal_fin = {
 	portrait = building_slot
 	icon = fish
 	period = permian
+	cost_commodity = research
 	cultures = {
 		mammalian
 		reptilian

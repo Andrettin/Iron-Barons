@@ -4,6 +4,7 @@ scalemail = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		feudalism
 		ironworking
@@ -22,6 +23,7 @@ banded_mail = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		scalemail
 	}
@@ -39,6 +41,7 @@ half_plate = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		banded_mail
 	}
@@ -56,6 +59,7 @@ platemail = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		half_plate
 	}
@@ -73,6 +77,7 @@ full_plate = {
 	portrait = helmet
 	icon = heater_shield
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		platemail
 	}

@@ -4,6 +4,7 @@ minor_merchant_houses = {
 	portrait = trading_post
 	icon = wealth
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		trade
 		
@@ -20,6 +21,7 @@ local_merchant_houses = {
 	portrait = trading_post
 	icon = wealth
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		minor_merchant_houses
 	}
@@ -34,6 +36,7 @@ renowned_merchant_houses = {
 	portrait = trading_post
 	icon = wealth
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		local_merchant_houses
 		
@@ -50,6 +53,7 @@ merchant_companies = {
 	portrait = trading_post
 	icon = wealth
 	period = 1500_1550
+	cost_commodity = research
 	prerequisites = {
 		renowned_merchant_houses
 		foreign_accreditation

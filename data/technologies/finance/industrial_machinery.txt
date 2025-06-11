@@ -4,6 +4,7 @@ industrial_machinery = {
 	portrait = factory
 	icon = cog
 	period = 1650_1700
+	cost_commodity = research
 	prerequisites = {
 		steam_in_mining
 		scientific_method

@@ -4,6 +4,7 @@ divine_right = {
 	portrait = grand_ducal_crown
 	icon = crown_royal
 	period = 1000_1100
+	cost_commodity = culture
 	prerequisites = {
 		feudalism
 	}
@@ -18,6 +19,7 @@ chronicle_writing = {
 	portrait = comital_crown
 	icon = treaty
 	period = 1100_1200
+	cost_commodity = culture
 	prerequisites = {
 		divine_right
 	}
@@ -32,6 +34,7 @@ romantic_poetry = {
 	portrait = comital_crown
 	icon = music
 	period = 1200_1300
+	cost_commodity = culture
 	prerequisites = {
 		chronicle_writing
 	}
@@ -46,6 +49,7 @@ heraldry = {
 	portrait = comital_crown
 	icon = heater_shield
 	period = 1300_1400
+	cost_commodity = culture
 	prerequisites = {
 		romantic_poetry
 		tower_shield
@@ -62,6 +66,7 @@ noblesse_oblige = {
 	portrait = comital_crown
 	icon = crown_comital
 	period = 1400_1500
+	cost_commodity = culture
 	prerequisites = {
 		heraldry
 	}

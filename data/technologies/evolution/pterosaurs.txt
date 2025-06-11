@@ -5,6 +5,7 @@ pterosaurs = {
 	icon = lion
 	period = cretaceous
 	year = -150800000 #Pterodactyl
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -21,6 +22,7 @@ advanced_pterosaurs = {
 	icon = lion
 	period = neogene
 	year = -68000000 #Quetzalcoatlus
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}

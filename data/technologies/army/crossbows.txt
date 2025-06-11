@@ -4,6 +4,7 @@ slinged_javelin = {
 	portrait = helmet
 	icon = bow
 	period = 1000_1100
+	cost_commodity = research
 	prerequisites = {
 		warrior_code
 		invention
@@ -16,6 +17,7 @@ light_crossbow = {
 	portrait = helmet
 	icon = bow
 	period = 1100_1200
+	cost_commodity = research
 	prerequisites = {
 		slinged_javelin
 		shortbow
@@ -28,6 +30,7 @@ medium_crossbow = {
 	portrait = helmet
 	icon = bow
 	period = 1200_1300
+	cost_commodity = research
 	prerequisites = {
 		light_crossbow
 	}
@@ -42,6 +45,7 @@ heavy_crossbow = {
 	portrait = helmet
 	icon = bow
 	period = 1300_1400
+	cost_commodity = research
 	prerequisites = {
 		medium_crossbow
 	}
@@ -56,6 +60,7 @@ arbalest = {
 	portrait = helmet
 	icon = bow
 	period = 1400_1500
+	cost_commodity = research
 	prerequisites = {
 		heavy_crossbow
 	}

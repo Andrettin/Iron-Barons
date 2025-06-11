@@ -4,6 +4,7 @@ divine_duty = {
 	portrait = baronial_crown
 	icon = crown_baronial
 	period = 1000_1100
+	cost_commodity = culture
 	prerequisites = {
 		feudalism
 	}
@@ -20,6 +21,7 @@ miracle_plays = {
 	portrait = engineering
 	icon = music
 	period = 1300_1400
+	cost_commodity = culture
 	prerequisites = {
 		troubadours
 	}
@@ -36,6 +38,7 @@ carnivals = {
 	portrait = engineering
 	icon = music
 	period = 1400_1500
+	cost_commodity = culture
 	prerequisites = {
 		miracle_plays
 	}

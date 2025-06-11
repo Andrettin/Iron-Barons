@@ -4,6 +4,7 @@ apprentice_workers = {
 	portrait = engineering
 	icon = craftsmen_light_small
 	period = 1550_1600
+	cost_commodity = research
 	prerequisites = {
 		sugar_refining
 		land_enclosure
@@ -16,12 +17,13 @@ trained_journeymen = {
 	portrait = engineering
 	icon = craftsmen_light_small
 	period = 1600_1650
+	cost = 33
+	cost_commodity = research
 	prerequisites = {
 		apprentice_workers
 		cigar_production
 		printing_press
 	}
-	wealth_cost = 3300
 }
 
 master_artisans = {
@@ -30,10 +32,11 @@ master_artisans = {
 	portrait = engineering
 	icon = craftsmen_light_small
 	period = 1650_1700
+	cost = 48
+	cost_commodity = research
 	prerequisites = {
 		trained_journeymen
 		fur_hat_production
 		scientific_method
 	}
-	wealth_cost = 4800
 }

@@ -5,6 +5,7 @@ spikes = {
 	icon = lion
 	period = permian
 	year = -97000000 #Acanthopholis
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
@@ -20,6 +21,7 @@ hip_spikes = {
 	portrait = building_slot
 	icon = lion
 	period = triassic
+	cost_commodity = research
 	cultures = {
 		reptilian
 	}
