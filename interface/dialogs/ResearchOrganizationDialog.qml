@@ -16,7 +16,7 @@ ModifierDialog {
 	
 	TextButton {
 		id: appoint_button
-		anchors.top: modified_text_item.bottom
+		anchors.top: modifier_text_item.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: is_appointee ? "Unappoint" : "Appoint"

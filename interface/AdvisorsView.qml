@@ -17,6 +17,7 @@ Item {
 		visible: ruler !== null
 		
 		onClicked: {
+			character_dialog.office = null
 			character_dialog.character = ruler
 			character_dialog.modifier_string = ruler.game_data.get_office_modifier_qstring(country, ruler.game_data.office)
 			character_dialog.open()
@@ -38,23 +39,28 @@ Item {
 		anchors.horizontalCenter: parent.horizontalCenter
 		entries: minister_offices
 		delegate: PortraitGridItem {
-			portrait_identifier: office_holder ? office_holder.game_data.portrait.identifier : "no_character"
+			portrait_identifier: appointed_office_holder ? appointed_office_holder.game_data.portrait.identifier + "/grayscale" : (office_holder ? office_holder.game_data.portrait.identifier : "no_character")
 			
 			readonly property var office: model.modelData
 			readonly property var office_holder: country_game_data.get_office_holder(office)
+			readonly property var appointed_office_holder: country_game_data.appointed_office_holders.length > 0 ? country_game_data.get_appointed_office_holder(office) : null //the check here is for the sake of property binding
 			
 			onClicked: {
-				if (office_holder !== null) {
-					character_dialog.character = office_holder
-					character_dialog.modifier_string = office_holder.game_data.get_office_modifier_qstring(country, office)
+				if (office_holder !== null || appointed_office_holder !== null) {
+					character_dialog.office = office
+					character_dialog.character = appointed_office_holder ? appointed_office_holder : office_holder
+					character_dialog.modifier_string = appointed_office_holder ? appointed_office_holder.game_data.get_office_modifier_qstring(country, office) : office_holder.game_data.get_office_modifier_qstring(country, office)
 					character_dialog.open()
+				} else {
+					office_holder_choice_dialog.office = office
+					office_holder_choice_dialog.open()
 				}
 			}
 			
 			onEntered: {
-				status_text = office_holder ? office_holder.game_data.titled_name : country_game_data.get_office_title_name_qstring(office)
+				status_text = appointed_office_holder ? "Appointing " + appointed_office_holder.full_name + " as " + country_game_data.get_office_title_name_qstring(office) : (office_holder ? office_holder.game_data.titled_name : country_game_data.get_office_title_name_qstring(office))
 			}
-			
+				
 			onExited: {
 				status_text = ""
 			}
@@ -68,21 +74,26 @@ Item {
 		anchors.horizontalCenter: parent.horizontalCenter
 		entries: offices
 		delegate: PortraitGridItem {
-			portrait_identifier: office_holder ? office_holder.game_data.portrait.identifier : "no_character"
+			portrait_identifier: appointed_office_holder ? appointed_office_holder.game_data.portrait.identifier + "/grayscale" : (office_holder ? office_holder.game_data.portrait.identifier : "no_character")
 			
 			readonly property var office: model.modelData
 			readonly property var office_holder: country_game_data.get_office_holder(office)
+			readonly property var appointed_office_holder: country_game_data.appointed_office_holders.length > 0 ? country_game_data.get_appointed_office_holder(office) : null //the check here is for the sake of property binding
 			
 			onClicked: {
-				if (office_holder !== null) {
-					character_dialog.character = office_holder
-					character_dialog.modifier_string = office_holder.game_data.get_office_modifier_qstring(country, office)
+				if (office_holder !== null || appointed_office_holder !== null) {
+					character_dialog.office = office
+					character_dialog.character = appointed_office_holder ? appointed_office_holder : office_holder
+					character_dialog.modifier_string = appointed_office_holder ? appointed_office_holder.game_data.get_office_modifier_qstring(country, office) : office_holder.game_data.get_office_modifier_qstring(country, office)
 					character_dialog.open()
+				} else {
+					office_holder_choice_dialog.office = office
+					office_holder_choice_dialog.open()
 				}
 			}
 			
 			onEntered: {
-				status_text = office_holder ? office_holder.game_data.titled_name : country_game_data.get_office_title_name_qstring(office)
+				status_text = appointed_office_holder ? "Appointing " + appointed_office_holder.full_name + " as " + country_game_data.get_office_title_name_qstring(office) : (office_holder ? office_holder.game_data.titled_name : country_game_data.get_office_title_name_qstring(office))
 			}
 			
 			onExited: {
@@ -104,6 +115,7 @@ Item {
 			readonly property var advisor: model.modelData
 			
 			onClicked: {
+				character_dialog.office = null
 				character_dialog.character = advisor
 				character_dialog.modifier_string = advisor.game_data.get_advisor_effects_string(country)
 				character_dialog.open()
@@ -121,6 +133,10 @@ Item {
 	
 	CharacterDialog {
 		id: character_dialog
+	}
+	
+	OfficeHolderChoiceDialog {
+		id: office_holder_choice_dialog
 	}
 	
 	function get_minister_offices(offices) {
