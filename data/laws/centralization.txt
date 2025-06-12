@@ -2,7 +2,6 @@ decentralization = {
 	name = "Decentralization"
 	group = centralization
 	icon = crown_baronial
-	required_technology = feudalism
 	commodity_costs = {
 		statesmanship = 50
 	}
@@ -16,7 +15,7 @@ centralization = {
 	name = "Centralization"
 	group = centralization
 	icon = crown_royal
-	required_technology = feudalism
+	required_technology = monarchy
 	commodity_costs = {
 		statesmanship = 50
 	}
