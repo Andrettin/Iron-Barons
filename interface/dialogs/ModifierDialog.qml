@@ -14,6 +14,7 @@ DialogBase {
 	property string description: ""
 	property string portrait_identifier: ""
 	property bool circular_portrait: false
+	property var modified_text_item: modifier_text
 	
 	PortraitButton {
 		id: portrait
@@ -74,15 +75,18 @@ DialogBase {
 		wrapMode: Text.WordWrap
 	}
 	
-	TextButton {
-		id: ok_button
-		anchors.top: description_text.visible ? description_text.bottom
+	property var ok_button_top_anchor: description_text.visible ? description_text.bottom
 			: (date_text.visible ? date_text.bottom
 				: (modifier_text.visible ? modifier_text.bottom
 					: (requirements_text.visible ? requirements_text.bottom
 						: (type_text.visible ? type_text.bottom
 							: (portrait.visible ? portrait.bottom : title_item.bottom)))))
-		anchors.topMargin: 16 * scale_factor
+	property var ok_button_top_margin: 16 * scale_factor
+	
+	TextButton {
+		id: ok_button
+		anchors.top: ok_button_top_anchor
+		anchors.topMargin: ok_button_top_margin
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "OK"
 		onClicked: {

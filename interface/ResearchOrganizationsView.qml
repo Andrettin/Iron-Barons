@@ -17,19 +17,22 @@ Item {
 			portrait_identifier: research_organization ? research_organization.portrait.identifier : "no_character"
 			
 			readonly property var research_organization_slot: model.modelData
-			readonly property var research_organization: country_game_data.get_research_organization(research_organization_slot)
+			readonly property var research_organization: country_game_data.research_organizations.length > 0 ? country_game_data.get_research_organization(research_organization_slot) : null //the check here is for the sake of property binding
+			readonly property var appointed_research_organization: country_game_data.appointed_research_organizations.length > 0 ? country_game_data.get_appointed_research_organization(research_organization_slot) : null //the check here is for the sake of property binding
 			
 			onClicked: {
 				if (research_organization !== null) {
-					research_organization_dialog.title = research_organization.name
-					research_organization_dialog.portrait_identifier = research_organization.portrait.identifier
-					research_organization_dialog.modifier_string = research_organization.get_modifier_qstring(country)
+					research_organization_dialog.research_organization = research_organization
+					research_organization_dialog.research_organization_slot = research_organization_slot
 					research_organization_dialog.open()
+				} else {
+					research_organization_choice_dialog.research_organization_slot = research_organization_slot
+					research_organization_choice_dialog.open()
 				}
 			}
 			
 			onEntered: {
-				status_text = research_organization ? research_organization.name : research_organization_slot.name + " Slot"
+				status_text = (research_organization ? research_organization.name : research_organization_slot.name + " Slot") + (appointed_research_organization ? " (Appointing " + appointed_research_organization.name + ")" : "")
 			}
 			
 			onExited: {
@@ -38,7 +41,11 @@ Item {
 		}
 	}
 	
-	ModifierDialog {
+	ResearchOrganizationDialog {
 		id: research_organization_dialog
+	}
+	
+	ResearchOrganizationChoiceDialog {
+		id: research_organization_choice_dialog
 	}
 }
