@@ -3,6 +3,11 @@ ruling_class = {
 	default_law = aristocracy
 }
 
+centralization = {
+	name = "Centralization"
+	default_law = decentralization
+}
+
 serfdom = {
 	name = "Serfdom"
 	default_law = free_subjects
