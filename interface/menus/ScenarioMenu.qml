@@ -373,9 +373,8 @@ MenuBase {
 		text: qsTr("Start Game")
 		width: 96 * scale_factor
 		height: 24 * scale_factor
-		enabled: !loading_scenario
-		allowed: selected_country !== null && selected_country.great_power && !selected_country.game_data.anarchy
-		tooltip: allowed ? "" : small_text(
+		enabled: !loading_scenario && selected_country !== null && selected_country.great_power && !selected_country.game_data.anarchy
+		tooltip: enabled ? "" : small_text(
 			selected_country === null ? "You must select a country to play" : (
 				!selected_country.great_power ? "You cannot play as a Minor Nation" : "You cannot play as a country under anarchy"
 			)

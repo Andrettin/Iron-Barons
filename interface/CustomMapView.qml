@@ -206,7 +206,7 @@ Item {
 		switch (event.key) {
 			case Qt.Key_E:
 				infopanel.end_turn_button.down = undefined
-				infopanel.end_turn_button.onReleased()
+				infopanel.end_turn_button.clicked()
 				break
 			case Qt.Key_Shift:
 				tile_detail_mode = false

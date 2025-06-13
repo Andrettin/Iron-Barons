@@ -80,7 +80,7 @@ Item {
 						model: law_group.laws
 						
 						CustomCheckBox {
-							text: colored_text(law.name, "white")
+							text: law.name
 							checked: law === current_law
 							checkable: !checked && country_game_data.laws.length > 0 && country_game_data.can_enact_law(law)
 							tooltip: tooltip_string.length > 0 ? format_text(small_text(tooltip_string)) : ""

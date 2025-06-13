@@ -87,9 +87,9 @@ Item {
 					contentItem: Item {
 						id: research_technology_button_item
 						anchors.verticalCenter: research_technology_button.verticalCenter
-						anchors.verticalCenterOffset: research_technology_button.down && research_technology_button.allowed ? 1 * scale_factor : 0
+						anchors.verticalCenterOffset: research_technology_button.down ? 1 * scale_factor : 0
 						anchors.horizontalCenter: research_technology_button.horizontalCenter
-						anchors.horizontalCenterOffset: research_technology_button.down && research_technology_button.allowed ? 1 * scale_factor : 0
+						anchors.horizontalCenterOffset: research_technology_button.down ? 1 * scale_factor : 0
 						
 						Row {
 							id: commodity_costs_row
@@ -134,7 +134,7 @@ Item {
 							anchors.verticalCenter: research_technology_button_item.verticalCenter
 							anchors.horizontalCenter: research_technology_button_item.horizontalCenter
 							text: "Researching"
-							color: research_technology_button.allowed ? "white" : "gray"
+							color: "white"
 							horizontalAlignment: Text.AlignHCenter
 							verticalAlignment: Text.AlignVCenter
 							visible: country_game_data.current_researches.includes(technology)

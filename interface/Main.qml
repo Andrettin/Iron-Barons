@@ -1,16 +1,19 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 import QtQuick.Window
 import "./menus"
 
-Window {
+ApplicationWindow {
 	id: window
 	visible: true
 	title: qsTr("Iron Barons")
 	width: Screen.width
 	height: Screen.height + 1 //it needs to be +1 otherwise it becomes (non-borderless) fullscreen automatically
 	flags: Qt.FramelessWindowHint | Qt.Window
-	color: "black"
+	font.family: berenika_font.name
+	font.pixelSize: 10 * scale_factor
+	Universal.theme: Universal.Dark
 	
 	readonly property real scale_factor: metternich.scale_factor
 	readonly property color interface_background_color: Qt.rgba(48.0 / 255.0, 48.0 / 255.0, 48.0 / 255.0, 1)

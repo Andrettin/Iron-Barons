@@ -16,7 +16,7 @@ MenuBase {
 		anchors.leftMargin: 16 * scale_factor
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
-		text: colored_text(qsTr("Myths Enabled"), "white")
+		text: qsTr("Myths Enabled")
 		checked: metternich.preferences.game_rules.myths_enabled
 		checkable: true
 		tooltip: small_text("Enable mythical elements in the game")

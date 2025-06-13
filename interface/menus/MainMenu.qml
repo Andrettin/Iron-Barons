@@ -14,7 +14,6 @@ MenuBase {
 		anchors.bottomMargin: 8 * scale_factor
 		text: qsTr("Play Random Map")
 		width: 128 * scale_factor
-		height: 24 * scale_factor
 		
 		onClicked: {
 			menu_stack.push("RandomMapMenu.qml")
@@ -27,7 +26,6 @@ MenuBase {
 		anchors.verticalCenter: parent.verticalCenter
 		text: qsTr("Play Scenario")
 		width: 128 * scale_factor
-		height: 24 * scale_factor
 		
 		onClicked: {
 			menu_stack.push("ScenarioMenu.qml")
@@ -41,7 +39,6 @@ MenuBase {
 		anchors.topMargin: 8 * scale_factor
 		text: qsTr("Exit")
 		width: 128 * scale_factor
-		height: 24 * scale_factor
 		
 		onClicked: {
 			window.close()

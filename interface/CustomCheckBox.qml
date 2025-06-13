@@ -1,9 +1,9 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 
 CheckBox {
 	id: checkbox
-	font.family: berenika_font.name
 	focusPolicy: Qt.NoFocus
 	
 	property string tooltip: ""
