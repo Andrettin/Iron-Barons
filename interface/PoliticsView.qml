@@ -9,6 +9,7 @@ Item {
 		Advisors,
 		Government,
 		Traditions,
+		Religion,
 		ResearchOrganizations
 	}
 	
@@ -53,6 +54,15 @@ Item {
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
 		visible: politics_view_mode === PoliticsView.Mode.Traditions
+	}
+	
+	ReligionView {
+		id: religion_view
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: infopanel.right
+		anchors.right: button_panel.left
+		visible: politics_view_mode === PoliticsView.Mode.Religion
 	}
 	
 	ResearchOrganizationsView {

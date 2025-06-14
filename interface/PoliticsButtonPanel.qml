@@ -80,8 +80,29 @@ Rectangle {
 	}
 	
 	IconButton {
-		id: research_organizations_button
+		id: religion_button
 		anchors.top: traditions_button.bottom
+		anchors.topMargin: 4 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
+		icon_identifier: "wooden_cross"
+		border_color: politics_view_mode === PoliticsView.Mode.Religion ? "white" : "gray"
+		
+		onReleased: {
+			politics_view_mode = PoliticsView.Mode.Religion
+		}
+		
+		onHoveredChanged: {
+			if (hovered) {
+				status_text = "View Religion"
+			} else {
+				status_text = ""
+			}
+		}
+	}
+	
+	IconButton {
+		id: research_organizations_button
+		anchors.top: religion_button.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "cog"

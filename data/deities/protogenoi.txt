@@ -15,9 +15,13 @@ chaos = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p. 12
 gaia = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 200-201.
 	name = "Gaia"
 	pantheon = protogenoi
+	portrait = athena
 	major = true
 	religions = {
 		hellenism
+	}
+	traits = {
+		earth_mother
 	}
 	character = {
 		species = earth_elemental #Protogenoi

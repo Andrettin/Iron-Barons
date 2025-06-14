@@ -1,16 +1,6 @@
 earth_mother = {
 	name = "Earth Mother"
-	category = belief
-	group = piety
-	portrait = temple
-	icon = wooden_cross
-	required_technology = polytheism
-	prerequisites = {
-		piety
-	}
-	preconditions = {
-		religion = pagan
-	}
+	icon = iron_ore
 	conditions = {
 		or = {
 			has_resource = copper
