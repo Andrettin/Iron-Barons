@@ -22,6 +22,15 @@ Item {
 	readonly property var category_technologies: get_category_technologies(technologies, technology_view_category, technology_view_subcategory)
 	readonly property var researchable_technologies: country_game_data.researchable_technologies
 	
+	TiledBackground {
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: infopanel.right
+		anchors.right: button_panel.left
+		interface_style: "dark_wood_boards"
+		frame_count: 8
+	}
+	
 	ListView {
 		id: technology_list
 		anchors.top: top_bar.bottom

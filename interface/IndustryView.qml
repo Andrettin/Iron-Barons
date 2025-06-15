@@ -11,10 +11,14 @@ Item {
 	property string status_text: ""
 	property string middle_status_text: ""
 	
-	Rectangle {
+	TiledBackground {
 		id: portrait_grid_view_background
-		anchors.fill: portrait_grid_view
-		color: "black"
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: infopanel.right
+		anchors.right: right_bar.left
+		interface_style: "dark_wood_boards"
+		frame_count: 8
 	}
 	
 	GridView {

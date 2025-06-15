@@ -19,6 +19,15 @@ Item {
 	
 	readonly property var journal_entries: journal_view.mode === JournalView.Mode.Finished ? country_game_data.finished_journal_entries : (journal_view.mode === JournalView.Mode.Active ? country_game_data.active_journal_entries : country_game_data.inactive_journal_entries)
 	
+	TiledBackground {
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: left_bar.right
+		anchors.right: infopanel.left
+		interface_style: "dark_wood_boards"
+		frame_count: 8
+	}
+	
 	ListView {
 		id: journal_entry_list
 		anchors.top: top_bar.bottom

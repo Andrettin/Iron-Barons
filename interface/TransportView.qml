@@ -10,13 +10,14 @@ Item {
 	property string status_text: ""
 	property string middle_status_text: ""
 	
-	Rectangle {
+	TiledBackground {
 		id: transportable_outputs_area
 		anchors.top: top_bar.bottom
 		anchors.bottom: status_bar.top
 		anchors.left: infopanel.right
 		anchors.right: right_bar.left
-		color: "black"
+		interface_style: "dark_wood_boards"
+		frame_count: 8
 	}
 	
 	Grid {
