@@ -8,9 +8,14 @@ Item {
 	focus: true
 
 	property string title: ""
-	//property string background: wyrmgus.defines.default_menu_background_file
 	property string music_type: "menu"
 	readonly property var title_item: title_text
+	
+	TiledBackground {
+		anchors.fill: parent
+		interface_style: "dark_wood"
+		frame_count: 4
+	}
 	
 	LargeText {
 		id: title_text

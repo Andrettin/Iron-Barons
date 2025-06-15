@@ -4,6 +4,8 @@ import QtQuick.Controls.Universal
 
 Grid {
 	id: background_grid
+	rows: Math.ceil(height / (32 * scale_factor)) + 1
+	columns: Math.ceil(width / (32 * scale_factor)) + 1
 	rowSpacing: 0
 	columnSpacing: 0
 	

@@ -21,8 +21,6 @@ Item {
 		anchors.bottom: status_bar.top
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
-		rows: Math.ceil(height / (32 * scale_factor)) + 1
-		columns: Math.ceil(width / (32 * scale_factor)) + 1
 		interface_style: "dark_wood_boards"
 		frame_count: 8
 	}
