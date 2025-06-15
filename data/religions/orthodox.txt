@@ -2,6 +2,7 @@ orthodox = {
 	name = "Orthodox"
 	group = christian
 	color = { 0 57 166 }
+	icon = wooden_cross
 	title_names = {
 		theocracy = {
 			kingdom = "Patriarchate"

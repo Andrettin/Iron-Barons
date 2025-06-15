@@ -2,6 +2,7 @@ reformed = {
 	name = "Reformed"
 	group = christian
 	color = { 76 76 229 }
+	icon = wooden_cross
 	office_title_names = {
 		ruler = {
 			theocracy = "Reverend"

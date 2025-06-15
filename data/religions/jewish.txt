@@ -2,4 +2,5 @@ jewish = {
 	name = "Jewish"
 	group = jewish
 	color = { 88 212 234 }
+	icon = mountains
 }
