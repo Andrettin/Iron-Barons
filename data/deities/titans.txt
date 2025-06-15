@@ -2,12 +2,12 @@ atlas = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 9
 	name = "Atlas" #the name means "very enduring"
 	pantheon = titan
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = male
 		father = iapetus
 	}
@@ -21,12 +21,12 @@ cronus = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 
 	pantheon = titan
 	major = true
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = male
 		father = uranus
 		mother = gaia
@@ -42,7 +42,7 @@ helios = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 
 	pantheon = titan #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p. 479.
 	portrait = henry_the_navigator
 	religions = {
-		hellenism
+		hellenic
 	}
 	traits = {
 		sun_god
@@ -50,7 +50,7 @@ helios = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = male
 		father = hyperion
 	}
@@ -60,12 +60,12 @@ hyperion = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p.
 	name = "Hyperion" #the name means "he who travels above", apparently meaning the sun
 	pantheon = titan
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = male
 		father = uranus
 		mother = gaia
@@ -78,12 +78,12 @@ iapetus = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p. 
 	name = "Iapetus"
 	pantheon = titan
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = male
 		father = uranus
 		mother = gaia
@@ -94,12 +94,12 @@ oceanus = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p. 
 	name = "Oceanus"
 	pantheon = titan
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = male
 		father = uranus
 		mother = gaia
@@ -112,12 +112,12 @@ prometheus = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, 
 	name = "Prometheus"
 	pantheon = titan
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = male
 		father = iapetus
 	}
@@ -129,7 +129,7 @@ rhea = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 42
 	name = "Rhea"
 	pantheon = titan
 	religions = {
-		hellenism
+		hellenic
 	}
 	cultural_group_names = {
 		latin = "Ops"
@@ -137,7 +137,7 @@ rhea = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 42
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = female
 		father = uranus
 		mother = gaia
@@ -150,12 +150,12 @@ tethys = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p. 4
 	name = "Tethys"
 	pantheon = titan
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = titan
 		culture = abyssal #Titan
-		religion = hellenism
+		religion = hellenic
 		gender = female
 		father = uranus
 		mother = gaia

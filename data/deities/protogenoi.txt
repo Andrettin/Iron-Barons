@@ -2,12 +2,12 @@ chaos = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p. 12
 	name = "Chaos"
 	pantheon = protogenoi
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = air_elemental #Protogenoi; should be a void elemental or similar instead
 		culture = auran #Protogenoi
-		religion = hellenism
+		religion = hellenic
 		gender = female #correct?
 	}
 }
@@ -18,7 +18,7 @@ gaia = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 20
 	portrait = athena
 	major = true
 	religions = {
-		hellenism
+		hellenic
 	}
 	traits = {
 		earth_mother
@@ -26,7 +26,7 @@ gaia = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 20
 	character = {
 		species = earth_elemental #Protogenoi
 		culture = terran_elemental
-		religion = hellenism
+		religion = hellenic
 		gender = female
 		mother = chaos #in Greek mythology, she was the first deity born after Chaos, but here we make her Chaos' daughter, as that fits better with our cosmology
 	}
@@ -37,12 +37,12 @@ uranus = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, p. 4
 	pantheon = protogenoi
 	major = true
 	religions = {
-		hellenism
+		hellenic
 	}
 	character = {
 		species = air_elemental #Protogenoi
 		culture = auran
-		religion = hellenism
+		religion = hellenic
 		gender = male
 	}
 }
