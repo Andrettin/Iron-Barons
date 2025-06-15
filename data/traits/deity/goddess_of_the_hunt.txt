@@ -1,16 +1,5 @@
 goddess_of_the_hunt = {
-	name = "Goddess of the Hunt"
-	category = belief
-	group = piety
-	portrait = temple
 	icon = bow
-	required_technology = polytheism
-	prerequisites = {
-		piety
-	}
-	preconditions = {
-		religion = pagan
-	}
 	conditions = {
 		or = {
 			has_resource = beavers

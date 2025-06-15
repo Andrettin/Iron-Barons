@@ -1,16 +1,6 @@
 sun_god = {
 	name = "Sun God"
-	category = belief
-	group = piety
-	portrait = temple
-	icon = wooden_cross
-	required_technology = polytheism
-	prerequisites = {
-		piety
-	}
-	preconditions = {
-		religion = pagan
-	}
+	icon = research
 	conditions = {
 		or = {
 			has_resource = fruit

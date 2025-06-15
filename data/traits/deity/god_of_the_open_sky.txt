@@ -1,16 +1,6 @@
 god_of_the_open_sky = {
 	name = "God of the Open Sky"
-	category = belief
-	group = piety
-	portrait = temple
 	icon = horses
-	required_technology = polytheism
-	prerequisites = {
-		piety
-	}
-	preconditions = {
-		religion = pagan
-	}
 	conditions = {
 		or = {
 			has_resource = cattle

@@ -31,8 +31,12 @@ apollo = {
 artemis = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 287-288.
 	name = "Artemis"
 	pantheon = olympian
+	portrait = athena
 	religions = {
 		hellenism
+	}
+	traits = {
+		goddess_of_the_hunt
 	}
 	character = {
 		species = archon
@@ -105,12 +109,16 @@ hermes = { #Source: Jenny March, "Dictionary of Classical Mythology", 2014, pp. 
 poseidon = {
 	name = "Poseidon"
 	pantheon = olympian
+	portrait = henry_the_navigator
 	major = true
 	religions = {
 		hellenism
 	}
 	cultural_group_names = {
 		latin = "Neptune"
+	}
+	traits = {
+		god_of_the_sea
 	}
 	character = {
 		species = triton
