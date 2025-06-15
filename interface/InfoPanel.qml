@@ -14,7 +14,7 @@ Rectangle {
 	property bool viewing_population: false
 	property bool viewing_settlement_info: false
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {

@@ -10,7 +10,7 @@ Rectangle {
 	readonly property var advisor_commodity: metternich.defines.advisor_commodity
 	readonly property var leader_commodity: metternich.defines.leader_commodity
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {

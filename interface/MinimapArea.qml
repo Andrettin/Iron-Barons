@@ -8,7 +8,7 @@ Rectangle {
 	height: minimap_borders.height
 	clip: true
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {

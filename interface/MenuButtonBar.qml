@@ -8,7 +8,7 @@ Rectangle {
 	height: 50 * scale_factor
 	clip: true
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {

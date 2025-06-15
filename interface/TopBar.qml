@@ -10,7 +10,7 @@ Rectangle {
 	property bool prestige_visible: true
 	readonly property var stored_commodities: metternich.game.player_country.game_data.stored_commodities
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {

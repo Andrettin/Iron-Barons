@@ -9,7 +9,7 @@ Rectangle {
 	
 	readonly property var selected_country_ruler: selected_country_game_data ? selected_country_game_data.ruler : null
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {

@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 
 Item {
 	id: trade_view
@@ -14,6 +15,17 @@ Item {
 	readonly property var country_turn_data: country ? country.turn_data : null
 	property string status_text: ""
 	property string middle_status_text: ""
+	
+	TiledBackground {
+		anchors.top: top_bar.bottom
+		anchors.bottom: status_bar.top
+		anchors.left: infopanel.right
+		anchors.right: button_panel.left
+		rows: Math.ceil(height / (32 * scale_factor)) + 1
+		columns: Math.ceil(width / (32 * scale_factor)) + 1
+		interface_style: "dark_wood_boards"
+		frame_count: 8
+	}
 	
 	TradeOrdersView {
 		id: trade_orders_view

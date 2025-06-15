@@ -10,7 +10,7 @@ Rectangle {
 	readonly property var tradition_commodity: metternich.defines.tradition_commodity
 	readonly property var belief_commodity: metternich.defines.piety_commodity
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {

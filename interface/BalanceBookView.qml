@@ -1,12 +1,9 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 
 Flickable {
 	id: balance_book_view
-	anchors.top: top_bar.bottom
-	anchors.bottom: status_bar.top
-	anchors.left: left_bar.right
-	anchors.right: infopanel.left
 	boundsBehavior: Flickable.StopAtBounds
 	clip: true
 	

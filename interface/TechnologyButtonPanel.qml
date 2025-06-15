@@ -7,7 +7,7 @@ Rectangle {
 	width: technology_view_mode !== TechnologyView.Mode.TechTree ? (64 * scale_factor + 48 * scale_factor) : 16 * scale_factor
 	clip: true
 	
-	TiledBackground {
+	PanelTiledBackground {
 	}
 	
 	Rectangle {
