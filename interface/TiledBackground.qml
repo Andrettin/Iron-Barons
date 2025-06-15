@@ -19,7 +19,7 @@ Grid {
 		
 		Image {
 			id: background_tile
-			source: "image://interface/wood/tiled_background/" + random(8)
+			source: "image://interface/wood_2/tiled_background/" + random(4)
 		}
 	}
 }
