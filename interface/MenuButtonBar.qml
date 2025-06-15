@@ -6,6 +6,10 @@ Rectangle {
 	color: interface_background_color
 	width: 176 * scale_factor
 	height: 50 * scale_factor
+	clip: true
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

@@ -5,9 +5,13 @@ Rectangle {
 	id: infopanel
 	color: interface_background_color
 	width: 64 * scale_factor + 8 * scale_factor * 2
+	clip: true
 	
 	readonly property var tradition_commodity: metternich.defines.tradition_commodity
 	readonly property var belief_commodity: metternich.defines.piety_commodity
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

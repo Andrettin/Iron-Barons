@@ -5,9 +5,13 @@ Rectangle {
 	id: top_bar
 	color: interface_background_color
 	height: 16 * scale_factor
+	clip: true
 	
 	property bool prestige_visible: true
 	readonly property var stored_commodities: metternich.game.player_country.game_data.stored_commodities
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

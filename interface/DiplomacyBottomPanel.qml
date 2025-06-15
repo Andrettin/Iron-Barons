@@ -5,8 +5,12 @@ Rectangle {
 	id: bottom_panel
 	color: interface_background_color
 	height: 192 * scale_factor
+	clip: true
 	
 	readonly property var selected_country_ruler: selected_country_game_data ? selected_country_game_data.ruler : null
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

@@ -5,6 +5,10 @@ Rectangle {
 	id: button_panel
 	color: interface_background_color
 	width: technology_view_mode !== TechnologyView.Mode.TechTree ? (64 * scale_factor + 48 * scale_factor) : 16 * scale_factor
+	clip: true
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

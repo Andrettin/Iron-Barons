@@ -5,6 +5,10 @@ Rectangle {
 	id: infopanel
 	color: interface_background_color
 	width: 64 * scale_factor
+	clip: true
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

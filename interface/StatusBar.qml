@@ -5,6 +5,10 @@ Rectangle {
 	id: status_bar
 	color: interface_background_color
 	height: 16 * scale_factor
+	clip: true
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

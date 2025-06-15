@@ -112,40 +112,10 @@ Item {
 		anchors.left: parent.left
 	}
 	
-	Rectangle {
+	MinimapArea {
 		id: minimap_area
 		anchors.top: menu_button_bar.bottom
 		anchors.left: parent.left
-		color: interface_background_color
-		width: 176 * scale_factor
-		height: minimap_borders.height
-		
-		Rectangle {
-			color: "gray"
-			anchors.top: parent.top
-			anchors.bottom: parent.bottom
-			anchors.right: parent.right
-			width: 1 * scale_factor
-		}
-		
-		Rectangle {
-			id: minimap_borders
-			anchors.top: minimap.top
-			anchors.topMargin: -1 * scale_factor
-			anchors.bottom: minimap.bottom
-			anchors.bottomMargin: -1 * scale_factor
-			anchors.left: minimap.left
-			anchors.leftMargin: -1 * scale_factor
-			anchors.right: minimap.right
-			anchors.rightMargin: -1 * scale_factor
-			color: "gray"
-		}
-		
-		Minimap {
-			id: minimap
-			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.verticalCenter: parent.verticalCenter
-		}
 	}
 	
 	InfoPanel {

@@ -5,6 +5,10 @@ Rectangle {
 	id: left_bar
 	color: interface_background_color
 	width: 16 * scale_factor
+	clip: true
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

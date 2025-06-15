@@ -5,9 +5,13 @@ Rectangle {
 	id: infopanel
 	color: interface_background_color
 	width: 64 * scale_factor + 8 * scale_factor * 2
+	clip: true
 	
 	readonly property var advisor_commodity: metternich.defines.advisor_commodity
 	readonly property var leader_commodity: metternich.defines.leader_commodity
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"

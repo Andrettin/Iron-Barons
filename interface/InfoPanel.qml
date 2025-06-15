@@ -6,12 +6,16 @@ Rectangle {
 	id: infopanel
 	color: interface_background_color
 	width: 176 * scale_factor
+	clip: true
 	
 	readonly property var end_turn_button: end_turn_button_internal
 	readonly property var province_game_data: selected_province ? selected_province.game_data : null
 	readonly property var selected_site_game_data: selected_site ? selected_site.game_data : null
 	property bool viewing_population: false
 	property bool viewing_settlement_info: false
+	
+	TiledBackground {
+	}
 	
 	Rectangle {
 		color: "gray"
