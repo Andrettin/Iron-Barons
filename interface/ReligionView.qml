@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 import "./dialogs"
 
 Item {
@@ -26,7 +27,7 @@ Item {
 	
 	PortraitGrid {
 		id: deity_portrait_grid
-		anchors.top: government_type_icon.bottom
+		anchors.top: religion_icon.bottom
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		entries: deity_slots
