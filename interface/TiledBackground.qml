@@ -15,7 +15,7 @@ Grid {
 	columnSpacing: 0
 	
 	Repeater {
-		model: background_grid.rows * background_grid.columns
+		model: Math.max(background_grid.rows * background_grid.columns, 1)
 		
 		Image {
 			id: background_tile
