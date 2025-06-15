@@ -5,11 +5,8 @@ tears_of_the_gods = {
 	portrait = temple
 	icon = wooden_cross
 	required_technology = polytheism
-	prerequisites = {
-		piety
-	}
 	preconditions = {
-		religion = pagan
+		religious_group = pagan
 	}
 	conditions = {
 		or = {

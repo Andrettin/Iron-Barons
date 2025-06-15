@@ -5,9 +5,6 @@ religious_idols = {
 	portrait = temple
 	icon = golden_cross_detailed
 	required_technology = ceremonial_burial
-	prerequisites = {
-		piety
-	}
 	conditions = {
 		or = {
 			has_resource = gold

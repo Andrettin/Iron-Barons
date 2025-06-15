@@ -5,9 +5,6 @@ order_of_the_golden_fleece = {
 	portrait = helmet
 	icon = saber
 	required_technology = noble_knights
-	prerequisites = {
-		tradition
-	}
 	preconditions = {
 		or = {
 			country = burgundy

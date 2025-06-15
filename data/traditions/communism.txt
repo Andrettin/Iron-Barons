@@ -5,9 +5,6 @@ communism = {
 	portrait = grand_ducal_crown
 	icon = crown_imperial
 	required_technology = communism
-	prerequisites = {
-		order
-	}
 	incompatible_traditions = {
 		monarchy
 		republic

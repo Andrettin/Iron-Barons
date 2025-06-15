@@ -1,13 +1,10 @@
 republic = {
 	name = "Republic"
 	category = tradition
-	group = tradition
+	group = liberty
 	portrait = city
 	icon = philosophy
 	required_technology = republic
-	prerequisites = {
-		liberty
-	}
 	incompatible_traditions = {
 		communism
 		monarchy
