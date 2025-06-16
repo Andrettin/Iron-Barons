@@ -39,6 +39,7 @@ Item {
 		anchors.right: button_panel.left
 		boundsBehavior: Flickable.StopAtBounds
 		clip: true
+		visible: technology_view_mode !== TechnologyView.Mode.TechTree
 		model: category_technologies
 		delegate: Item {
 			width: technology_list.width
@@ -65,13 +66,12 @@ Item {
 				width: 1 * scale_factor
 			}
 			
-			Rectangle {
+			Item {
 				id: technology_rectangle
 				anchors.top: parent.top
 				anchors.left: portrait_border.right
 				anchors.right: parent.right
 				height: portrait.height
-				color: "black"
 				clip: true
 				
 				SmallText {
@@ -181,13 +181,6 @@ Item {
 				height: 1 * scale_factor
 			}
 		}
-	}
-	
-	Rectangle {
-		id: tech_tree_background
-		anchors.fill: tech_tree
-		color: "black"
-		visible: tech_tree.visible
 	}
 	
 	PortraitButtonTree {
