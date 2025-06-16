@@ -15,4 +15,7 @@ republic = {
 			subject_type = colony
 		}
 	}
+	modifier = {
+		trade_bonus_for_tile_threshold = 1
+	}
 }
