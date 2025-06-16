@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 
 ButtonBase {
 	id: button
@@ -9,19 +10,7 @@ ButtonBase {
 	
 	property string portrait_identifier: ""
 	property bool circle: false
-	property color background_color: "black"
-	property color border_color: "gray"
 	property bool transparent: false
-	
-    background: Rectangle {
-		id: background_rectangle
-        implicitWidth: 40
-        implicitHeight: 40
-        radius: button.radius
-        color: background_color
-        border.color: border_color
-        border.width: 1 * scale_factor
-    }
 	
 	Image {
 		id: portrait_image

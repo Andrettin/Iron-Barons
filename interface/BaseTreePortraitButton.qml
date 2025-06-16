@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 
 Item {
 	readonly property var tree_item: parent.parent
@@ -23,8 +24,10 @@ Item {
 	property bool grayscale: false
 	property bool transparent: false
 	property bool disabled: false
-	property color border_color: "gray"
+	property bool highlighted: false
 	readonly property bool hovered: portrait_button.hovered
+	
+	Universal.accent: Universal.Taupe
 	
 	signal clicked()
 	
@@ -39,10 +42,10 @@ Item {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		portrait_identifier: entry.portrait.identifier
-		border_color: parent.border_color
 		//grayscale: parent.grayscale
 		transparent: parent.transparent
 		//disabled: parent.disabled
+		highlighted: parent.highlighted
 		
 		MouseArea {
 			anchors.fill: parent
@@ -150,6 +153,7 @@ Item {
 				IconButton {
 					id: secondary_parent_icon_button
 					icon_identifier: secondary_parent.icon.identifier
+					highlighted: secondary_parent.class_name === "metternich::technology" && metternich.game.player_country.game_data.has_technology(secondary_parent)
 					circle: true
 					
 					readonly property var secondary_parent: model.modelData

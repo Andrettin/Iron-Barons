@@ -71,7 +71,6 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		portrait_identifier: country_game_data.next_tradition ? country_game_data.next_tradition.portrait.identifier : ""
 		visible: country_game_data.next_tradition !== null
-		radius: 0
 		
 		onHoveredChanged: {
 			if (hovered && country_game_data.next_tradition) {
@@ -130,7 +129,6 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		portrait_identifier: country_game_data.next_belief ? country_game_data.next_belief.portrait.identifier : ""
 		visible: country_game_data.next_belief !== null
-		radius: 0
 		
 		onHoveredChanged: {
 			if (hovered && country_game_data.next_belief) {

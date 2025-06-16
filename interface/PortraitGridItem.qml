@@ -3,8 +3,8 @@ import QtQuick.Controls
 
 Item {
 	id: portrait_grid_item
-	width: portrait_rectangle.width
-	height: portrait_rectangle.height
+	width: portrait_button.width
+	height: portrait_button.height
 	
 	property string portrait_identifier: ""
 	property string tooltip: ""
@@ -13,36 +13,20 @@ Item {
 	signal entered()
 	signal exited()
 	
-	Rectangle {
-		id: portrait_rectangle
+	PortraitButton {
+		id: portrait_button
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
-		width: portrait.width + 2 * scale_factor
-		height: portrait.height + 2 * scale_factor
-		border.color: portrait_mouse_area.containsMouse ? "white" : "gray"
-		border.width: 1 * scale_factor
+		portrait_identifier: portrait_grid_item.portrait_identifier
 		
-		Image {
-			id: portrait
-			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.verticalCenter: parent.verticalCenter
-			source: portrait_identifier.length > 0 ? ("image://portrait/" + portrait_identifier) : "image://empty/"
+		onClicked: {
+			portrait_grid_item.clicked()
 		}
 		
-		MouseArea {
-			id: portrait_mouse_area
-			anchors.fill: parent
-			hoverEnabled: true
-			
-			onClicked: {
-				portrait_grid_item.clicked()
-			}
-			
-			onEntered: {
+		onHoveredChanged: {
+			if (hovered) {
 				portrait_grid_item.entered()
-			}
-			
-			onExited: {
+			} else {
 				portrait_grid_item.exited()
 			}
 		}

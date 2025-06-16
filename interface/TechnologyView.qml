@@ -46,7 +46,6 @@ Item {
 			height: technology_rectangle.height + entry_border.height
 			
 			readonly property var technology: model.modelData
-			
 			readonly property string effects_string: technology.get_effects_string(metternich.game.player_country)
 			
 			Image {
@@ -192,7 +191,7 @@ Item {
 		entries: country.available_technologies
 		visible: technology_view_mode === TechnologyView.Mode.TechTree
 		delegate: TreePortraitButton {
-			border_color: country_game_data.current_researches.includes(technology) ? "white" : (country_game_data.has_technology(technology) ? Qt.rgba(64.0 / 255.0, 64.0 / 255.0, 64.0 / 255.0, 1) : "gray")
+			highlighted: country_game_data.has_technology(technology)
 			
 			readonly property var technology: model.modelData
 			

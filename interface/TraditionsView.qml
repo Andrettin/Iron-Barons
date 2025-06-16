@@ -10,7 +10,7 @@ Item {
 		anchors.fill: parent
 		entries: country_game_data.available_traditions
 		delegate: TreePortraitButton {
-			border_color: country_game_data.next_tradition === tradition ? "white" : "gray"
+			highlighted: country_game_data.next_tradition === tradition
 			transparent: !country_game_data.has_tradition(tradition)
 			
 			readonly property var tradition: model.modelData

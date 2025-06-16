@@ -71,7 +71,6 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		portrait_identifier: country_game_data.next_advisor ? country_game_data.next_advisor.game_data.portrait.identifier : ""
 		visible: country_game_data.next_advisor !== null
-		radius: 0
 		
 		onHoveredChanged: {
 			if (hovered && country_game_data.next_advisor) {

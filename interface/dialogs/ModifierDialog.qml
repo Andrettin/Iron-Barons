@@ -24,6 +24,7 @@ DialogBase {
 		portrait_identifier: modifier_dialog.portrait_identifier
 		visible: modifier_dialog.portrait_identifier.length > 0
 		circle: circular_portrait
+		enabled: false
 	}
 	
 	SmallText {
