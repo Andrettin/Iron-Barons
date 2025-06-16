@@ -20,6 +20,10 @@ Item {
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: country_game_data.government_type.icon.identifier
 		name: country_game_data.government_type.name
+		tooltip: country_game_data.government_type.name + (modifier_string.length > 0 ? format_text(small_text("\n"
+			+ "\n" + modifier_string)) : "")
+		
+		readonly property string modifier_string: country_game_data.government_type.get_modifier_string(country)
 	}
 	
 	SmallText {
