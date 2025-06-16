@@ -71,7 +71,7 @@ Item {
 				anchors.left: portrait_border.right
 				anchors.right: parent.right
 				height: portrait.height
-				color: "black"
+				color: "transparent"
 				clip: true
 				
 				SmallText {
