@@ -4,6 +4,7 @@ oldenburg = {
 	culture = german
 	default_religion = protestant
 	default_tier = county
+	default_government_type = monarchy
 	default_capital = oldenburg
 	max_tier = duchy
 	eras = {
@@ -13,9 +14,5 @@ oldenburg = {
 	}
 	core_provinces = {
 		oldenburg
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

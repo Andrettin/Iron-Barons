@@ -4,6 +4,7 @@ puerto_rico = {
 	culture = castillian
 	default_religion = catholic
 	default_tier = duchy
+	default_government_type = monarchy
 	default_capital = san_juan
 	eras = {
 		industrial_era
@@ -14,8 +15,6 @@ puerto_rico = {
 	
 	
 	history = {
-		traditions += monarchy
-		
 		1513 = {
 			#the Spanish were established in Puerto Rico by 1513; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 201.
 			diplomacy_state = {
@@ -39,7 +38,7 @@ puerto_rico = {
 				subject_type = colony
 			}
 			
-			traditions += republic
+			government_type = self_governing_colony
 		}
 	}
 }

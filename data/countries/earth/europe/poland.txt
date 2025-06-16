@@ -19,7 +19,7 @@ poland = {
 	history = {
 		1025 = {
 			tier = kingdom #Poland became a kingdom in 1025; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 62-63.
-			traditions += monarchy
+			government_type = monarchy
 		}
 		
 		1548.4.2 = {

@@ -4,6 +4,7 @@ catalonia = {
 	culture = catalan
 	default_religion = catholic
 	default_tier = county
+	default_government_type = monarchy
 	default_capital = barcelona
 	eras = {
 		medieval_era
@@ -12,9 +13,5 @@ catalonia = {
 	}
 	core_provinces = {
 		catalonia
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

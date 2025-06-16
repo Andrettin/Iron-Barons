@@ -4,6 +4,7 @@ romania = {
 	culture = romanian
 	default_religion = orthodox
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = bucharest
 	eras = {
 		industrial_era
@@ -13,9 +14,5 @@ romania = {
 		oltenia
 		moldavia
 		dobruja
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

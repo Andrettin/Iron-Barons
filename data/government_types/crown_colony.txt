@@ -2,9 +2,13 @@ crown_colony = {
 	name = "Crown Colony"
 	group = monarchy
 	icon = settlement
+	required_technology = monarchy
 	conditions = {
 		subject_type = colony
-		tradition = monarchy
+		not = {
+			country_type = clade
+			country_type = tribe
+		}
 	}
 	title_names = {
 		duchy = "Captaincy General"

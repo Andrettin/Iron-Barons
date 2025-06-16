@@ -10,8 +10,4 @@ muscovy = {
 	eras = {
 		renaissance_era
 	}
-	
-	history = {
-		traditions += monarchy
-	}
 }

@@ -5,6 +5,7 @@ persia = {
 	culture = persian
 	default_religion = shiite
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = teheran
 	max_tier = empire
 	short_names = {
@@ -32,10 +33,8 @@ persia = {
 	}
 	
 	history = {
-		traditions += monarchy
-		
 		1801 = {
-			traditions += monarchy
+			government_type = monarchy
 		}
 	}
 }

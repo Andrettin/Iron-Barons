@@ -4,15 +4,12 @@ middlesex = {
 	culture = anglo_saxon
 	default_religion = catholic
 	default_tier = county
+	default_government_type = monarchy
 	default_capital = london
 	eras = {
 		medieval_era
 	}
 	core_provinces = {
 		middlesex
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

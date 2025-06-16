@@ -2,13 +2,21 @@ dictatorship = {
 	name = "Dictatorship"
 	group = republic
 	icon = saber
+	required_technology = republic
+	default_laws = {
+		ruling_class = plutocracy
+		centralization = centralization
+		serfdom = free_subjects
+		press_rights = censored_press
+	}
+	forbidden_laws = {
+		decentralization
+		free_press
+	}
 	conditions = {
-		tradition = republic
-		or = {
-			law = state_press
-			law = censored_press
-		}
 		not = {
+			country_type = clade
+			country_type = tribe
 			subject_type = colony
 		}
 	}

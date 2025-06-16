@@ -2,9 +2,13 @@ self_governing_colony = {
 	name = "Self-Governing Colony"
 	group = republic
 	icon = settlement
+	required_technology = republic
 	conditions = {
 		subject_type = colony
-		tradition = republic
+		not = {
+			country_type = clade
+			country_type = tribe
+		}
 	}
 	title_names = {
 		duchy = "Colony"

@@ -4,6 +4,7 @@ tuscany = {
 	culture = italian
 	default_religion = catholic
 	default_tier = duchy
+	default_government_type = monarchy
 	default_capital = florence
 	eras = {
 		medieval_era
@@ -11,9 +12,5 @@ tuscany = {
 	}
 	core_provinces = {
 		tuscany
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

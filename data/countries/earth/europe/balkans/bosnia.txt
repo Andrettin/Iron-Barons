@@ -4,6 +4,7 @@ bosnia = {
 	culture = bosnian
 	default_religion = orthodox
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = sarajevo
 	eras = {
 		medieval_era
@@ -12,9 +13,5 @@ bosnia = {
 	core_provinces = {
 		bosnia
 		herzegovina
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

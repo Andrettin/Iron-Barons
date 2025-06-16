@@ -5,11 +5,10 @@ new_spain = {
 	culture = castillian
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = mexico_city
 	
 	history = {
-		traditions += monarchy
-		
 		1600 = {
 			#Spanish possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {

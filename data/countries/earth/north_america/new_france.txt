@@ -5,6 +5,7 @@ new_france = {
 	culture = french
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = quebec
 	eras = {
 		renaissance_era
@@ -14,8 +15,6 @@ new_france = {
 	}
 	
 	history = {
-		traditions += monarchy
-		
 		1600 = {
 			#French possession in the 1600-1700 period; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {

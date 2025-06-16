@@ -4,6 +4,7 @@ hungary = {
 	culture = magyar
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = pest
 	eras = {
 		medieval_era
@@ -20,8 +21,6 @@ hungary = {
 	}
 	
 	history = {
-		traditions += monarchy
-		
 		1490 = {
 			offices = { #Tamás Bakócz became the leading statesman of Hungary in 1490; Source: "Encyclopædia Britannica", 1911, vol. 3, p. 230.
 				chancellor = tamas_bakocz

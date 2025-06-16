@@ -5,6 +5,7 @@ vandalia = {
 	culture = vandal
 	default_religion = catholic #Arianism
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = tunis #Carthage
 	eras = {
 		medieval_era
@@ -16,9 +17,5 @@ vandalia = {
 		corsica
 		sardinia
 		tripolitania
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

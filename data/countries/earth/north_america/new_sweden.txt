@@ -4,6 +4,7 @@ new_sweden = {
 	culture = swedish
 	default_religion = protestant
 	default_tier = duchy
+	default_government_type = republic
 	default_capital = dover_delaware #not really correct
 	eras = {
 		renaissance_era
@@ -13,8 +14,6 @@ new_sweden = {
 	}
 	
 	history = {
-		traditions += republic
-		
 		1638 = {
 			#New Sweden founded by in 1638; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {

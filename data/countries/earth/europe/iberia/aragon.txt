@@ -4,6 +4,7 @@ aragon = {
 	culture = aragonese
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = zaragoza
 	eras = {
 		medieval_era
@@ -13,9 +14,5 @@ aragon = {
 		aragon
 		catalonia
 		valencia
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

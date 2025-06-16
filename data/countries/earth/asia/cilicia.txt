@@ -4,6 +4,7 @@ cilicia = {
 	culture = cilician
 	default_religion = pagan
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = tarsus
 	eras = {
 		ancient_era
@@ -12,9 +13,5 @@ cilicia = {
 		mersin
 		karaman
 		kayseri
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

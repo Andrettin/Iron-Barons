@@ -4,6 +4,7 @@ wurtemberg = {
 	culture = german
 	default_religion = protestant
 	default_tier = duchy
+	default_government_type = monarchy
 	default_capital = stuttgart
 	min_tier = county
 	max_tier = kingdom
@@ -14,9 +15,5 @@ wurtemberg = {
 	}
 	core_provinces = {
 		wurtemberg
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

@@ -4,6 +4,7 @@ algeria = {
 	culture = arabic
 	default_religion = sunni
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = algiers
 	eras = {
 		medieval_era
@@ -15,8 +16,6 @@ algeria = {
 	}
 	
 	history = {
-		traditions += monarchy
-		
 		1519 = {
 			#became a Turkish dependency in 1519; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 174-175.
 			diplomacy_state = {

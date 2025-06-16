@@ -5,6 +5,7 @@ wessex = {
 	culture = anglo_saxon
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = wells #Winchester
 	eras = {
 		medieval_era
@@ -13,9 +14,5 @@ wessex = {
 		somerset
 		devon
 		cornwall
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

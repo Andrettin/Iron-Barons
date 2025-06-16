@@ -4,6 +4,7 @@ papal_states = {
 	culture = italian
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = fundamentalism
 	default_capital = rome
 	short_name = true
 	eras = {
@@ -14,9 +15,5 @@ papal_states = {
 	core_provinces = {
 		latium
 		romagna
-	}
-	
-	history = {
-		traditions += theocracy
 	}
 }

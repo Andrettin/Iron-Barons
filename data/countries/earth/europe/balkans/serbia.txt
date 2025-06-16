@@ -4,6 +4,7 @@ serbia = {
 	culture = serbian
 	default_religion = orthodox
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = belgrade
 	eras = {
 		medieval_era
@@ -11,9 +12,5 @@ serbia = {
 	}
 	core_provinces = {
 		serbia
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

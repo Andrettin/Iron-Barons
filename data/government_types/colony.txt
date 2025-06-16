@@ -5,8 +5,8 @@ colony = {
 	conditions = {
 		subject_type = colony
 		not = {
-			tradition = monarchy
-			tradition = republic
+			country_type = clade
+			country_type = tribe
 		}
 	}
 	title_names = {

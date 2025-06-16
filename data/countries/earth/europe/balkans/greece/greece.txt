@@ -5,6 +5,7 @@ greece = {
 	culture = greek
 	default_religion = orthodox
 	default_tier = kingdom
+	default_government_type = republic
 	default_capital = athens
 	eras = {
 		ancient_era
@@ -13,9 +14,5 @@ greece = {
 		attica
 		peloponnese
 		thessaly
-	}
-	
-	history = {
-		traditions += republic
 	}
 }

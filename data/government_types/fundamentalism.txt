@@ -2,7 +2,12 @@ fundamentalism = {
 	name = "Fundamentalism"
 	group = theocracy
 	icon = wooden_cross
+	required_technology = fundamentalism
 	conditions = {
-		tradition = theocracy
+		not = {
+			country_type = clade
+			country_type = tribe
+			subject_type = colony
+		}
 	}
 }

@@ -4,6 +4,7 @@ ireland = {
 	culture = irish
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = dublin
 	eras = {
 		medieval_era
@@ -14,9 +15,5 @@ ireland = {
 		munster
 		connaught
 		ulster
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

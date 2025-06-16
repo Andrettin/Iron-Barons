@@ -5,6 +5,7 @@ italy = {
 	culture = italian
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = rome
 	eras = {
 		industrial_era
@@ -24,9 +25,5 @@ italy = {
 		taranto
 		tuscany
 		venetia
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

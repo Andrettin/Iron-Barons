@@ -2,12 +2,14 @@ despotism = {
 	name = "Despotism"
 	group = tribe
 	icon = bow
+	default_laws = {
+		ruling_class = aristocracy
+		centralization = decentralization
+		serfdom = free_subjects
+		press_rights = censored_press
+	}
 	conditions = {
 		not = {
-			tradition = communism
-			tradition = monarchy
-			tradition = republic
-			tradition = theocracy
 			subject_type = colony
 			country_type = clade
 		}

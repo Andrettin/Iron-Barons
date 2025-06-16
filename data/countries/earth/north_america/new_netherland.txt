@@ -5,6 +5,7 @@ new_netherland = {
 	culture = dutch
 	default_religion = protestant
 	default_tier = duchy
+	default_government_type = republic
 	default_capital = new_york
 	eras = {
 		renaissance_era
@@ -14,8 +15,6 @@ new_netherland = {
 	}
 	
 	history = {
-		traditions += republic
-		
 		1609 = {
 			#New Amsterdam founded by the Dutch in 1609; Source: William R. Shepherd, "Historical Atlas", 1911, p. 128.
 			diplomacy_state = {

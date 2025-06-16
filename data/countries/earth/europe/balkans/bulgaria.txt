@@ -4,6 +4,7 @@ bulgaria = {
 	culture = bulgarian
 	default_religion = orthodox
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = sofia
 	eras = {
 		medieval_era
@@ -12,9 +13,5 @@ bulgaria = {
 	core_provinces = {
 		bulgaria
 		eastern_rumelia
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

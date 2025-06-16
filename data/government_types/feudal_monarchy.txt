@@ -2,12 +2,22 @@ feudal_monarchy = {
 	name = "Feudal Monarchy"
 	group = monarchy
 	icon = crown_ducal
+	required_technology = feudalism
+	default_laws = {
+		ruling_class = aristocracy
+		centralization = decentralization
+		serfdom = serfdom
+		press_rights = censored_press
+	}
+	forbidden_laws = {
+		centralization
+		free_subjects
+		plutocracy
+	}
 	conditions = {
-		tradition = monarchy
-		law = aristocracy
-		law = decentralization
-		law = serfdom
 		not = {
+			country_type = clade
+			country_type = tribe
 			subject_type = colony
 		}
 	}

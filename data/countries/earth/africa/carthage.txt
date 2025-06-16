@@ -5,6 +5,7 @@ carthage = {
 	culture = carthaginian
 	default_religion = pagan
 	default_tier = kingdom
+	default_government_type = republic
 	default_capital = carthage
 	short_names = {
 		tribe = "Carthaginians"
@@ -14,9 +15,5 @@ carthage = {
 	}
 	core_provinces = {
 		tunisia
-	}
-	
-	history = {
-		traditions += republic
 	}
 }

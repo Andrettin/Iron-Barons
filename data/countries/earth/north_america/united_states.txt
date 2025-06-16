@@ -5,6 +5,7 @@ united_states = {
 	culture = american
 	default_religion = protestant
 	default_tier = empire
+	default_government_type = republic
 	default_capital = baltimore
 	short_name = true
 	eras = {
@@ -58,9 +59,5 @@ united_states = {
 		west_virginia
 		wisconsin
 		wyoming
-	}
-	
-	history = {
-		traditions += republic
 	}
 }

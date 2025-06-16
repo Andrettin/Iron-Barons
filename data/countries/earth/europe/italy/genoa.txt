@@ -4,6 +4,7 @@ genoa = {
 	culture = italian
 	default_religion = catholic
 	default_tier = duchy
+	default_government_type = republic
 	default_capital = genoa
 	eras = {
 		medieval_era
@@ -11,9 +12,5 @@ genoa = {
 	}
 	core_provinces = {
 		genoa
-	}
-	
-	history = {
-		traditions += republic
 	}
 }

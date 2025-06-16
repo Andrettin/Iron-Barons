@@ -5,6 +5,7 @@ sardinia = {
 	culture = italian
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = turin
 	eras = {
 		renaissance_era
@@ -18,8 +19,6 @@ sardinia = {
 	}
 	
 	history = {
-		traditions += monarchy
-		
 		1820 = {
 			wealth = 1500
 			

@@ -5,6 +5,7 @@ macedon = {
 	culture = greek
 	default_religion = pagan
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = thessalonica
 	eras = {
 		ancient_era
@@ -13,9 +14,5 @@ macedon = {
 		central_macedonia
 		west_macedonia
 		east_macedonia
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

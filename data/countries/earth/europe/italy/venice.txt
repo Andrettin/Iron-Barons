@@ -4,6 +4,7 @@ venice = {
 	culture = italian
 	default_religion = catholic
 	default_tier = duchy
+	default_government_type = republic
 	default_capital = venice
 	eras = {
 		medieval_era
@@ -14,8 +15,6 @@ venice = {
 	}
 	
 	history = {
-		traditions += republic
-		
 		1471 = {
 			consulate = { #Venice began having diplomatic contacts with Muscovy in 1471; Source: Henry Kamen, "Early Modern European Society", 2021, p. 2.
 				country = muscovy

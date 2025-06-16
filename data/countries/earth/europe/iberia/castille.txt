@@ -5,6 +5,7 @@ castille = {
 	culture = castillian
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = madrid
 	eras = {
 		medieval_era
@@ -20,9 +21,5 @@ castille = {
 		murcia
 		granada
 		navarre
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

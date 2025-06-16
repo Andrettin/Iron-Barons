@@ -2,12 +2,22 @@ democratic_republic = {
 	name = "Democratic Republic"
 	group = republic
 	icon = philosophy
+	required_technology = democracy
+	default_laws = {
+		ruling_class = plutocracy
+		serfdom = free_subjects
+		press_rights = free_press
+	}
+	forbidden_laws = {
+		aristocracy
+		censored_press
+		serfdom
+		state_press
+	}
 	conditions = {
-		tradition = republic
-		technology = democracy
-		law = free_subjects
-		law = free_press
 		not = {
+			country_type = clade
+			country_type = tribe
 			subject_type = colony
 		}
 	}

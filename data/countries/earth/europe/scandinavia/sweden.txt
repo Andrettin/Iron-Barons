@@ -5,6 +5,7 @@ sweden = {
 	culture = swedish
 	default_religion = protestant
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = stockholm
 	eras = {
 		medieval_era
@@ -22,13 +23,12 @@ sweden = {
 	}
 	
 	history = {
-		traditions += monarchy
-		
 		1523 = {
 			offices = {
 				ruler = gustav_i_of_sweden #Gustav I became king of Sweden in 1523; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 205.
 			}
-			traditions += monarchy
+			
+			government_type = monarchy
 		}
 	}
 }

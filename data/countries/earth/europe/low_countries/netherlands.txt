@@ -5,6 +5,7 @@ netherlands = {
 	culture = dutch
 	default_religion = protestant
 	default_tier = kingdom
+	default_government_type = republic
 	default_capital = amsterdam
 	definite_article = true
 	eras = {
@@ -18,9 +19,5 @@ netherlands = {
 		overijssel
 		groningen
 		friesland
-	}
-	
-	history = {
-		traditions += republic
 	}
 }

@@ -4,6 +4,7 @@ two_sicilies = {
 	culture = italian
 	default_religion = catholic
 	default_tier = kingdom
+	default_government_type = monarchy
 	default_capital = naples
 	definite_article = true
 	eras = {
@@ -14,9 +15,5 @@ two_sicilies = {
 		cosenza
 		taranto
 		sicily
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

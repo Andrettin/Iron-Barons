@@ -4,6 +4,7 @@ baden = {
 	culture = german
 	default_religion = protestant
 	default_tier = duchy
+	default_government_type = monarchy
 	default_capital = karlsruhe
 	eras = {
 		renaissance_era
@@ -11,9 +12,5 @@ baden = {
 	}
 	core_provinces = {
 		baden
-	}
-	
-	history = {
-		traditions += monarchy
 	}
 }

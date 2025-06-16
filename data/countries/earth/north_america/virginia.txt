@@ -4,6 +4,7 @@ virginia = {
 	culture = american
 	default_religion = protestant
 	default_tier = duchy
+	default_government_type = republic
 	default_capital = richmond
 	eras = {
 		renaissance_era
@@ -15,8 +16,6 @@ virginia = {
 	}
 	
 	history = {
-		traditions += republic
-		
 		1585 = {
 			#Raleigh's Colony of Virginia founded in 1585; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 			diplomacy_state = {
