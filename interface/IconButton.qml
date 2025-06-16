@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 
 ButtonBase {
 	id: button
@@ -8,38 +9,8 @@ ButtonBase {
 	radius: circle ? (width * 0.5) : 5 * scale_factor
 	
 	property string icon_identifier: ""
-	property color background_color: "black"
-	property color border_color: "gray"
 	property bool circle: false
-	property bool unrounded_left_corners: false
 	property bool use_opacity_mask: true
-	
-    background: Rectangle {
-        implicitWidth: 40
-        implicitHeight: 40
-        radius: button.radius
-        color: background_color
-        border.color: border_color
-        border.width: 1 * scale_factor
-		
-		Rectangle {
-			width: parent.width / 2
-			height: parent.height
-			color: background_color
-			border.color: border_color
-			border.width: 1 * scale_factor
-			visible: unrounded_left_corners
-		}
-		
-		Rectangle {
-			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.verticalCenter: parent.verticalCenter
-			width: parent.width / 2
-			height: parent.height - parent.border.width * 2
-			color: background_color
-			visible: unrounded_left_corners
-		}
-    }
 	
 	Item {
 		id: icon_image_area

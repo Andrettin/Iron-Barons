@@ -26,7 +26,7 @@ Rectangle {
 		anchors.topMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "rifle_infantry_light_small"
-		border_color: politics_view_mode === PoliticsView.Mode.Advisors ? "white" : "gray"
+		highlighted: politics_view_mode === PoliticsView.Mode.Advisors
 		
 		onReleased: {
 			politics_view_mode = PoliticsView.Mode.Advisors
@@ -47,7 +47,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "flag"
-		border_color: politics_view_mode === PoliticsView.Mode.Government ? "white" : "gray"
+		highlighted: politics_view_mode === PoliticsView.Mode.Government
 		
 		onReleased: {
 			politics_view_mode = PoliticsView.Mode.Government
@@ -68,7 +68,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "music"
-		border_color: politics_view_mode === PoliticsView.Mode.Traditions ? "white" : "gray"
+		highlighted: politics_view_mode === PoliticsView.Mode.Traditions
 		
 		onReleased: {
 			politics_view_mode = PoliticsView.Mode.Traditions
@@ -89,7 +89,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "wooden_cross"
-		border_color: politics_view_mode === PoliticsView.Mode.Religion ? "white" : "gray"
+		highlighted: politics_view_mode === PoliticsView.Mode.Religion
 		
 		onReleased: {
 			politics_view_mode = PoliticsView.Mode.Religion
@@ -110,7 +110,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "cog"
-		border_color: politics_view_mode === PoliticsView.Mode.ResearchOrganizations ? "white" : "gray"
+		highlighted: politics_view_mode === PoliticsView.Mode.ResearchOrganizations
 		
 		onReleased: {
 			politics_view_mode = PoliticsView.Mode.ResearchOrganizations

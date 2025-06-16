@@ -46,7 +46,7 @@ Rectangle {
 		anchors.topMargin: 8 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "architecture"
-		border_color: technology_view_mode === TechnologyView.Mode.Researched ? "white" : "gray"
+		highlighted: technology_view_mode === TechnologyView.Mode.Researched
 		
 		onReleased: {
 			technology_view_mode = TechnologyView.Mode.Researched
@@ -67,7 +67,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "research"
-		border_color: technology_view_mode === TechnologyView.Mode.Available ? "white" : "gray"
+		highlighted: technology_view_mode === TechnologyView.Mode.Available
 		
 		onReleased: {
 			technology_view_mode = TechnologyView.Mode.Available
@@ -88,7 +88,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "philosophy"
-		border_color: technology_view_mode === TechnologyView.Mode.Future ? "white" : "gray"
+		highlighted: technology_view_mode === TechnologyView.Mode.Future
 		
 		onReleased: {
 			technology_view_mode = TechnologyView.Mode.Future
@@ -109,7 +109,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "university"
-		border_color: technology_view_mode === TechnologyView.Mode.ShowAll ? "white" : "gray"
+		highlighted: technology_view_mode === TechnologyView.Mode.ShowAll
 		
 		onReleased: {
 			technology_view_mode = TechnologyView.Mode.ShowAll
@@ -130,7 +130,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "cog"
-		border_color: technology_view_mode === TechnologyView.Mode.TechTree ? "white" : "gray"
+		highlighted: technology_view_mode === TechnologyView.Mode.TechTree
 		
 		onReleased: {
 			technology_view_mode = TechnologyView.Mode.TechTree

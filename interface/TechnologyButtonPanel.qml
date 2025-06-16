@@ -34,7 +34,7 @@ Rectangle {
 			IconButton {
 				id: category_button
 				icon_identifier: button_category.icon.identifier
-				border_color: technology_view_category === button_category ? "white" : "gray"
+				highlighted: technology_view_category === button_category
 				visible: technology_view_mode !== TechnologyView.Mode.TechTree
 						
 				readonly property var button_category: model.modelData
@@ -70,7 +70,7 @@ Rectangle {
 			IconButton {
 				id: category_button
 				icon_identifier: button_subcategory.icon.identifier
-				border_color: technology_view_subcategory === button_subcategory ? "white" : "gray"
+				highlighted: technology_view_subcategory === button_subcategory
 				visible: technology_view_mode !== TechnologyView.Mode.TechTree
 						
 				readonly property var button_subcategory: model.modelData
@@ -97,7 +97,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.horizontalCenterOffset: 24 * scale_factor
 		icon_identifier: "university"
-		border_color: technology_view_category === null ? "white" : "gray"
+		highlighted: technology_view_category === null
 		visible: technology_view_mode !== TechnologyView.Mode.TechTree
 		
 		onReleased: {
@@ -120,7 +120,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.horizontalCenterOffset: -24 * scale_factor
 		icon_identifier: "university"
-		border_color: technology_view_subcategory === null ? "white" : "gray"
+		highlighted: technology_view_subcategory === null
 		visible: technology_view_mode !== TechnologyView.Mode.TechTree && technology_view_category !== null
 		
 		onReleased: {

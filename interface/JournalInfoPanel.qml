@@ -26,7 +26,7 @@ Rectangle {
 		anchors.bottomMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "skull"
-		border_color: journal_view.mode === JournalView.Mode.Finished ? "white" : "gray"
+		highlighted: journal_view.mode === JournalView.Mode.Finished
 		
 		onReleased: {
 			journal_view.mode = JournalView.Mode.Finished
@@ -47,7 +47,7 @@ Rectangle {
 		anchors.bottomMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "newspaper"
-		border_color: journal_view.mode === JournalView.Mode.Active ? "white" : "gray"
+		highlighted: journal_view.mode === JournalView.Mode.Active
 		
 		onReleased: {
 			journal_view.mode = JournalView.Mode.Active
@@ -68,7 +68,7 @@ Rectangle {
 		anchors.bottomMargin: 16 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "flag"
-		border_color: journal_view.mode === JournalView.Mode.Inactive ? "white" : "gray"
+		highlighted: journal_view.mode === JournalView.Mode.Inactive
 		
 		onReleased: {
 			journal_view.mode = JournalView.Mode.Inactive

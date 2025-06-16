@@ -29,7 +29,7 @@ Rectangle {
 		anchors.right: parent.right
 		anchors.rightMargin: 8 * scale_factor
 		icon_identifier: "flag"
-		border_color: diplomatic_map.mode === DiplomaticMap.Mode.Political ? "white" : "gray"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Political
 		tooltip: "Political Map"
 		
 		onReleased: {
@@ -43,7 +43,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "treaty"
-		border_color: diplomatic_map.mode === DiplomaticMap.Mode.Treaty ? "white" : "gray"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Treaty
 		tooltip: "Treaty Map"
 		
 		onReleased: {
@@ -59,7 +59,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "mountains"
-		border_color: diplomatic_map.mode === DiplomaticMap.Mode.Terrain ? "white" : "gray"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Terrain
 		tooltip: "Terrain Map"
 		
 		onReleased: {
@@ -73,7 +73,7 @@ Rectangle {
 		anchors.topMargin: 4 * scale_factor
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "music"
-		border_color: diplomatic_map.mode === DiplomaticMap.Mode.Cultural ? "white" : "gray"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Cultural
 		tooltip: "Cultural Map"
 		
 		onReleased: {
@@ -87,7 +87,7 @@ Rectangle {
 		anchors.right: cultural_map_mode_button.left
 		anchors.rightMargin: 4 * scale_factor
 		icon_identifier: "wooden_cross"
-		border_color: diplomatic_map.mode === DiplomaticMap.Mode.Religious ? "white" : "gray"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Religious
 		tooltip: "Religious Map"
 		
 		onReleased: {
@@ -224,7 +224,7 @@ Rectangle {
 		IconButton {
 			id: offer_peace_button
 			icon_identifier: "philosophy"
-			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Peace ? "white" : "gray"
+			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Peace
 			tooltip: "Offer Peace"
 			
 			onReleased: {
@@ -240,7 +240,7 @@ Rectangle {
 		IconButton {
 			id: declare_war_button
 			icon_identifier: "crossed_sabers"
-			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.War ? "white" : "gray"
+			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.War
 			tooltip: "Declare War"
 			
 			onReleased: {
@@ -265,7 +265,7 @@ Rectangle {
 		IconButton {
 			id: offer_pact_button
 			icon_identifier: "wall"
-			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.NonAggressionPact ? "white" : "gray"
+			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.NonAggressionPact
 			tooltip: "Offer Non-Aggression Pact"
 			
 			onReleased: {
@@ -281,7 +281,7 @@ Rectangle {
 		IconButton {
 			id: offer_alliance_button
 			icon_identifier: "flag"
-			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Alliance ? "white" : "gray"
+			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Alliance
 			tooltip: "Offer Alliance"
 			
 			onReleased: {
@@ -297,7 +297,7 @@ Rectangle {
 		IconButton {
 			id: join_empire_button
 			icon_identifier: "crown_imperial"
-			border_color: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Vassal ? "white" : "gray"
+			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Vassal
 			tooltip: "Invite to Join Empire"
 			
 			onReleased: {
@@ -322,7 +322,7 @@ Rectangle {
 		IconButton {
 			id: build_trade_consulate_button
 			icon_identifier: "wealth"
-			border_color: diplomatic_map_view.selected_consulate === consulate ? "white" : "gray"
+			highlighted: diplomatic_map_view.selected_consulate === consulate
 			tooltip: "Build a Trade Consulate"
 			
 			readonly property var consulate: metternich.get_consulate("trade_consulate")
@@ -340,7 +340,7 @@ Rectangle {
 		IconButton {
 			id: build_embassy_button
 			icon_identifier: "treaty"
-			border_color: diplomatic_map_view.selected_consulate === consulate ? "white" : "gray"
+			highlighted: diplomatic_map_view.selected_consulate === consulate
 			tooltip: "Build an Embassy"
 			
 			readonly property var consulate: metternich.get_consulate("embassy")

@@ -28,6 +28,7 @@ MenuBase {
 		anchors.left: era_list.right
 		anchors.leftMargin: 16 * scale_factor
 		anchors.right: political_map_mode_button.left
+		anchors.rightMargin: 16 * scale_factor
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
 		anchors.bottom: country_text.top
@@ -41,9 +42,8 @@ MenuBase {
 		anchors.right: parent.right
 		anchors.rightMargin: 16 * scale_factor
 		icon_identifier: "flag"
-		border_color: "white"
-		unrounded_left_corners: true
 		tooltip: "Political Map Mode"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Political
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Political
@@ -53,11 +53,11 @@ MenuBase {
 	IconButton {
 		id: terrain_map_mode_button
 		anchors.top: political_map_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "mountains"
-		border_color: "white"
-		unrounded_left_corners: true
 		tooltip: "Terrain Map Mode"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Terrain
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Terrain
@@ -67,11 +67,11 @@ MenuBase {
 	IconButton {
 		id: cultural_map_mode_button
 		anchors.top: terrain_map_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "music"
-		border_color: "white"
-		unrounded_left_corners: true
 		tooltip: "Cultural Map Mode"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Cultural
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
@@ -81,11 +81,11 @@ MenuBase {
 	IconButton {
 		id: religious_map_mode_button
 		anchors.top: cultural_map_mode_button.bottom
+		anchors.topMargin: 4 * scale_factor
 		anchors.right: political_map_mode_button.right
 		icon_identifier: "wooden_cross"
-		border_color: "white"
-		unrounded_left_corners: true
 		tooltip: "Religious Map Mode"
+		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Religious
 		
 		onReleased: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Religious
