@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Controls.Universal
 import ".."
 
 Popup {
@@ -25,6 +26,12 @@ Popup {
 	property bool open_when_menu_is_closed: false
 	
 	background: Item {
+		Rectangle {
+			anchors.fill: parent
+			color: "black"
+			radius: 5 * scale_factor
+		}
+		
 		TiledBackground {
 			id: tiled_background
 			anchors.fill: parent
