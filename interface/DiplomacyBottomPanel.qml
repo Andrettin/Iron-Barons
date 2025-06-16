@@ -135,7 +135,6 @@ Rectangle {
 		portrait_identifier: selected_country_ruler && selected_country_ruler.game_data.portrait ? selected_country_ruler.game_data.portrait.identifier : ""
 		visible: selected_country_ruler !== null
 		tooltip: selected_country_ruler ? selected_country_ruler.game_data.titled_name : ""
-		circle: true
 		
 		onClicked: {
 			character_dialog.character = selected_country_ruler

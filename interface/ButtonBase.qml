@@ -4,7 +4,7 @@ import QtQuick.Controls.Universal
 
 RoundButton {
 	id: button
-	radius: 5 * scale_factor
+	radius: Math.min(width, height) * 0.25
 	clip: true
 	
 	Rectangle {

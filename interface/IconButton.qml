@@ -6,7 +6,7 @@ ButtonBase {
 	id: button
 	width: (32 * scale_factor) + 6 * scale_factor
 	height: (32 * scale_factor) + 6 * scale_factor
-	radius: circle ? (width * 0.5) : 5 * scale_factor
+	radius: circle ? (width * 0.5) : (width * 0.25)
 	
 	property string icon_identifier: ""
 	property bool circle: false
@@ -37,7 +37,7 @@ ButtonBase {
         anchors.fill: icon_image_area
 		width: icon_image_area.width
 		height: icon_image_area.height
-		radius: circle ? (width * 0.5) : 5 * scale_factor
+		radius: button.radius
         source: icon_image_area
 		visible: use_opacity_mask
 	}

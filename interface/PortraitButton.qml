@@ -6,7 +6,7 @@ ButtonBase {
 	id: button
 	width: portrait_image.width + 2 * scale_factor
 	height: portrait_image.height + 2 * scale_factor
-	radius: circle ? (width * 0.5) : 5 * scale_factor
+	radius: circle ? (width * 0.5) : (width * 0.125)
 	
 	property string portrait_identifier: ""
 	property bool circle: false

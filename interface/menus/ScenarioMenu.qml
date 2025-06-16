@@ -228,7 +228,6 @@ MenuBase {
 		portrait_identifier: portrait ? portrait.identifier : ""
 		visible: ruler !== null
 		tooltip: ruler && selected_country ? ruler.game_data.titled_name : ""
-		circle: true
 		
 		property var ruler: null
 		property var portrait: null
