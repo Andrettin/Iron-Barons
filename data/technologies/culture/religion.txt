@@ -41,6 +41,48 @@ ancestor_worship = {
 	}
 }
 
+oral_tradition = {
+	name = "Oral Tradition"
+	subcategory = religion
+	portrait = temple
+	icon = wooden_cross
+	cost_commodity = piety
+	prerequisites = {
+		ceremonial_burial
+	}
+	modifier = {
+		culture_per_improved_coffee = 1
+		culture_per_improved_cotton = 1
+		culture_per_improved_dye = 1
+		culture_per_improved_opium = 1
+		culture_per_improved_spices = 1
+		culture_per_improved_sugar_cane = 1
+		culture_per_improved_tea = 1
+		culture_per_improved_tobacco = 1
+	}
+}
+
+religious_idols = {
+	name = "Religious Idols"
+	subcategory = religion
+	portrait = temple
+	icon = golden_cross_detailed
+	cost_commodity = piety
+	prerequisites = {
+		ceremonial_burial
+		
+		precious_metal_mining
+	}
+	modifier = {
+		culture_per_improved_gold = 1
+		piety_per_improved_gold = 1
+		culture_per_improved_silver = 1
+		piety_per_improved_silver = 1
+		culture_per_improved_cerro_de_potosi = 1
+		piety_per_improved_cerro_de_potosi = 1
+	}
+}
+
 polytheism = {
 	name = "Polytheism"
 	subcategory = religion
