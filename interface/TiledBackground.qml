@@ -11,7 +11,7 @@ Grid {
 	
 	property string interface_style: "light_wood"
 	property int frame_count: 4
-	readonly property int tile_count: background_grid.rows * background_grid.columns
+	readonly property int tile_count: Math.max(background_grid.rows * background_grid.columns, 0)
 	
 	Repeater {
 		model: tile_count
