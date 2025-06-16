@@ -4,7 +4,7 @@ arawaks = {
 	culture = arawak
 	default_religion = pagan
 	default_tier = kingdom
-	default_government_type = despotism
+	default_government_type = tribal_despotism
 	default_capital = santo_domingo
 	eras = {
 		renaissance_era

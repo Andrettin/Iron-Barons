@@ -4,7 +4,7 @@ latins = {
 	culture = roman
 	default_religion = pagan
 	default_tier = duchy
-	default_government_type = despotism
+	default_government_type = tribal_despotism
 	default_capital = rome
 	eras = {
 		ancient_era

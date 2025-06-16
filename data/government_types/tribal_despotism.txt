@@ -1,5 +1,5 @@
-despotism = {
-	name = "Despotism"
+tribal_despotism = {
+	name = "Tribal Despotism"
 	group = tribe
 	icon = bow
 	default_laws = {

@@ -4,7 +4,7 @@ kwakiutl = {
 	culture = kwakiutl
 	default_religion = pagan
 	default_tier = kingdom
-	default_government_type = despotism
+	default_government_type = tribal_despotism
 	default_capital = victoria
 	eras = {
 		renaissance_era

@@ -4,7 +4,7 @@ burgundians = {
 	culture = gothic
 	default_religion = pagan
 	default_tier = duchy
-	default_government_type = despotism
+	default_government_type = tribal_despotism
 	default_capital = mainz #Worms
 	eras = {
 		medieval_era
