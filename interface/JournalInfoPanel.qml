@@ -28,7 +28,7 @@ Rectangle {
 		icon_identifier: "skull"
 		highlighted: journal_view.mode === JournalView.Mode.Finished
 		
-		onReleased: {
+		onClicked: {
 			journal_view.mode = JournalView.Mode.Finished
 		}
 		
@@ -49,7 +49,7 @@ Rectangle {
 		icon_identifier: "newspaper"
 		highlighted: journal_view.mode === JournalView.Mode.Active
 		
-		onReleased: {
+		onClicked: {
 			journal_view.mode = JournalView.Mode.Active
 		}
 		
@@ -70,7 +70,7 @@ Rectangle {
 		icon_identifier: "flag"
 		highlighted: journal_view.mode === JournalView.Mode.Inactive
 		
-		onReleased: {
+		onClicked: {
 			journal_view.mode = JournalView.Mode.Inactive
 		}
 		

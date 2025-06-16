@@ -539,7 +539,7 @@ Rectangle {
 		icon_identifier: "craftsmen_light_small"
 		visible: selected_site !== null && selected_site.game_data.can_have_population() && selected_site.game_data.is_built() && !selected_garrison && !viewing_population
 		
-		onReleased: {
+		onClicked: {
 			viewing_population = true
 			viewing_settlement_info = false
 		}
@@ -584,7 +584,7 @@ Rectangle {
 		icon_identifier: "cog"
 		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && !viewing_settlement_info
 		
-		onReleased: {
+		onClicked: {
 			viewing_settlement_info = true
 			viewing_population = false
 		}
@@ -607,7 +607,7 @@ Rectangle {
 		icon_identifier: "settlement"
 		visible: selected_site !== null && selected_site.game_data.can_have_population() && selected_site.game_data.is_built() && !selected_garrison && viewing_population
 		
-		onReleased: {
+		onClicked: {
 			viewing_population = false
 		}
 		
@@ -629,7 +629,7 @@ Rectangle {
 		icon_identifier: "settlement"
 		visible: selected_site !== null && selected_site.settlement && selected_site.game_data.settlement_type !== null && !selected_garrison && viewing_settlement_info
 		
-		onReleased: {
+		onClicked: {
 			viewing_settlement_info = false
 		}
 		

@@ -45,7 +45,7 @@ MenuBase {
 		tooltip: "Political Map Mode"
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Political
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Political
 		}
 	}
@@ -59,7 +59,7 @@ MenuBase {
 		tooltip: "Terrain Map Mode"
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Terrain
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Terrain
 		}
 	}
@@ -73,7 +73,7 @@ MenuBase {
 		tooltip: "Cultural Map Mode"
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Cultural
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
 		}
 	}
@@ -87,7 +87,7 @@ MenuBase {
 		tooltip: "Religious Map Mode"
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Religious
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Religious
 		}
 	}

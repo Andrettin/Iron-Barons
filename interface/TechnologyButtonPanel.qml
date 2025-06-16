@@ -75,7 +75,7 @@ Rectangle {
 						
 				readonly property var button_subcategory: model.modelData
 				
-				onReleased: {
+				onClicked: {
 					technology_view_subcategory = button_subcategory
 				}
 				
@@ -100,7 +100,7 @@ Rectangle {
 		highlighted: technology_view_category === null
 		visible: technology_view_mode !== TechnologyView.Mode.TechTree
 		
-		onReleased: {
+		onClicked: {
 			technology_view_category = null
 		}
 		
@@ -123,7 +123,7 @@ Rectangle {
 		highlighted: technology_view_subcategory === null
 		visible: technology_view_mode !== TechnologyView.Mode.TechTree && technology_view_category !== null
 		
-		onReleased: {
+		onClicked: {
 			technology_view_subcategory = null
 		}
 		

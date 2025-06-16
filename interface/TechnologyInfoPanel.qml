@@ -48,7 +48,7 @@ Rectangle {
 		icon_identifier: "architecture"
 		highlighted: technology_view_mode === TechnologyView.Mode.Researched
 		
-		onReleased: {
+		onClicked: {
 			technology_view_mode = TechnologyView.Mode.Researched
 		}
 		
@@ -69,7 +69,7 @@ Rectangle {
 		icon_identifier: "research"
 		highlighted: technology_view_mode === TechnologyView.Mode.Available
 		
-		onReleased: {
+		onClicked: {
 			technology_view_mode = TechnologyView.Mode.Available
 		}
 		
@@ -90,7 +90,7 @@ Rectangle {
 		icon_identifier: "philosophy"
 		highlighted: technology_view_mode === TechnologyView.Mode.Future
 		
-		onReleased: {
+		onClicked: {
 			technology_view_mode = TechnologyView.Mode.Future
 		}
 		
@@ -111,7 +111,7 @@ Rectangle {
 		icon_identifier: "university"
 		highlighted: technology_view_mode === TechnologyView.Mode.ShowAll
 		
-		onReleased: {
+		onClicked: {
 			technology_view_mode = TechnologyView.Mode.ShowAll
 		}
 		
@@ -132,7 +132,7 @@ Rectangle {
 		icon_identifier: "cog"
 		highlighted: technology_view_mode === TechnologyView.Mode.TechTree
 		
-		onReleased: {
+		onClicked: {
 			technology_view_mode = TechnologyView.Mode.TechTree
 		}
 		

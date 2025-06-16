@@ -32,7 +32,7 @@ Rectangle {
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Political
 		tooltip: "Political Map"
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Political
 		}
 	}
@@ -46,7 +46,7 @@ Rectangle {
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Treaty
 		tooltip: "Treaty Map"
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Treaty
 			diplomatic_map_view.selected_diplomacy_state = -1
 			diplomatic_map_view.selected_consulate = null
@@ -62,7 +62,7 @@ Rectangle {
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Terrain
 		tooltip: "Terrain Map"
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Terrain
 		}
 	}
@@ -76,7 +76,7 @@ Rectangle {
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Cultural
 		tooltip: "Cultural Map"
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
 		}
 	}
@@ -90,7 +90,7 @@ Rectangle {
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Religious
 		tooltip: "Religious Map"
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Religious
 		}
 	}
@@ -227,7 +227,7 @@ Rectangle {
 			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Peace
 			tooltip: "Offer Peace"
 			
-			onReleased: {
+			onClicked: {
 				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Peace) {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
@@ -243,7 +243,7 @@ Rectangle {
 			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.War
 			tooltip: "Declare War"
 			
-			onReleased: {
+			onClicked: {
 				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.War) {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
@@ -268,7 +268,7 @@ Rectangle {
 			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.NonAggressionPact
 			tooltip: "Offer Non-Aggression Pact"
 			
-			onReleased: {
+			onClicked: {
 				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.NonAggressionPact) {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
@@ -284,7 +284,7 @@ Rectangle {
 			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Alliance
 			tooltip: "Offer Alliance"
 			
-			onReleased: {
+			onClicked: {
 				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Alliance) {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
@@ -300,7 +300,7 @@ Rectangle {
 			highlighted: diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Vassal
 			tooltip: "Invite to Join Empire"
 			
-			onReleased: {
+			onClicked: {
 				if (diplomatic_map_view.selected_diplomacy_state === DiplomaticView.DiplomacyState.Vassal) {
 					diplomatic_map_view.selected_diplomacy_state = -1
 				} else {
@@ -327,7 +327,7 @@ Rectangle {
 			
 			readonly property var consulate: metternich.get_consulate("trade_consulate")
 			
-			onReleased: {
+			onClicked: {
 				if (diplomatic_map_view.selected_consulate === consulate) {
 					diplomatic_map_view.selected_consulate = null
 				} else {
@@ -345,7 +345,7 @@ Rectangle {
 			
 			readonly property var consulate: metternich.get_consulate("embassy")
 			
-			onReleased: {
+			onClicked: {
 				if (diplomatic_map_view.selected_consulate === consulate) {
 					diplomatic_map_view.selected_consulate = null
 				} else {

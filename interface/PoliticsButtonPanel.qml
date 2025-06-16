@@ -28,7 +28,7 @@ Rectangle {
 		icon_identifier: "rifle_infantry_light_small"
 		highlighted: politics_view_mode === PoliticsView.Mode.Advisors
 		
-		onReleased: {
+		onClicked: {
 			politics_view_mode = PoliticsView.Mode.Advisors
 		}
 		
@@ -49,7 +49,7 @@ Rectangle {
 		icon_identifier: "flag"
 		highlighted: politics_view_mode === PoliticsView.Mode.Government
 		
-		onReleased: {
+		onClicked: {
 			politics_view_mode = PoliticsView.Mode.Government
 		}
 		
@@ -70,7 +70,7 @@ Rectangle {
 		icon_identifier: "music"
 		highlighted: politics_view_mode === PoliticsView.Mode.Traditions
 		
-		onReleased: {
+		onClicked: {
 			politics_view_mode = PoliticsView.Mode.Traditions
 		}
 		
@@ -91,7 +91,7 @@ Rectangle {
 		icon_identifier: "wooden_cross"
 		highlighted: politics_view_mode === PoliticsView.Mode.Religion
 		
-		onReleased: {
+		onClicked: {
 			politics_view_mode = PoliticsView.Mode.Religion
 		}
 		
@@ -112,7 +112,7 @@ Rectangle {
 		icon_identifier: "cog"
 		highlighted: politics_view_mode === PoliticsView.Mode.ResearchOrganizations
 		
-		onReleased: {
+		onClicked: {
 			politics_view_mode = PoliticsView.Mode.ResearchOrganizations
 		}
 		

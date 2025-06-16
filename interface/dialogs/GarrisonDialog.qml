@@ -18,7 +18,7 @@ DialogBase {
 		anchors.rightMargin: 8 * scale_factor
 		icon_identifier: "skull"
 		
-		onReleased: {
+		onClicked: {
 			garrison_dialog.close()
 		}
 		

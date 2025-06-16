@@ -63,7 +63,7 @@ MenuBase {
 		enabled: !loading_scenario
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Political
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Political
 		}
 	}
@@ -78,7 +78,7 @@ MenuBase {
 		enabled: !loading_scenario
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Treaty
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Treaty
 		}
 	}
@@ -93,7 +93,7 @@ MenuBase {
 		enabled: !loading_scenario
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Terrain
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Terrain
 		}
 	}
@@ -108,7 +108,7 @@ MenuBase {
 		enabled: !loading_scenario
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Cultural
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Cultural
 		}
 	}
@@ -123,7 +123,7 @@ MenuBase {
 		enabled: !loading_scenario
 		highlighted: diplomatic_map.mode === DiplomaticMap.Mode.Religious
 		
-		onReleased: {
+		onClicked: {
 			diplomatic_map.mode = DiplomaticMap.Mode.Religious
 		}
 	}

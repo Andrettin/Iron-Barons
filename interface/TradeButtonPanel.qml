@@ -28,7 +28,7 @@ Rectangle {
 		icon_identifier: "wealth"
 		highlighted: trade_view_mode === TradeView.Mode.TradeOrders
 		
-		onReleased: {
+		onClicked: {
 			trade_view_mode = TradeView.Mode.TradeOrders
 		}
 		
@@ -49,7 +49,7 @@ Rectangle {
 		icon_identifier: "chest"
 		highlighted: trade_view_mode === TradeView.Mode.BalanceBook
 		
-		onReleased: {
+		onClicked: {
 			trade_view_mode = TradeView.Mode.BalanceBook
 		}
 		
