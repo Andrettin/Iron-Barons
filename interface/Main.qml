@@ -24,6 +24,8 @@ ApplicationWindow {
 	property var technology_view_subcategory: null
 	property int trade_view_mode: TradeView.TradeOrders
 	
+	property var open_dialogs: []
+	
 	FontLoader {
 		id: berenika_font
 		source: "../fonts/berenika.ttf"

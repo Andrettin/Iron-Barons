@@ -25,7 +25,6 @@ ModifierDialog {
 				metternich.game.player_country.game_data.set_appointed_research_organization(research_organization_slot, null)
 				dialog.close()
 			} else {
-				dialog.close()
 				research_organization_choice_dialog.research_organization_slot = research_organization_slot
 				research_organization_choice_dialog.open()
 			}

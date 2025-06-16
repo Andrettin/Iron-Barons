@@ -83,29 +83,29 @@ Popup {
 	}
 	
 	onOpened: {
-		dialog.receive_focus()
-		
-		if (parent.dialogs) {
-			parent.dialogs.push(this)
+		if (open_dialogs) {
+			open_dialogs.push(this)
 		}
+		
+		dialog.receive_focus()
 	}
 	
 	onClosed: {
 		dialog.give_up_focus()
 		
-		if (parent.dialogs) {
-			const dialog_index = parent.dialogs.indexOf(this)
+		if (open_dialogs) {
+			const dialog_index = open_dialogs.indexOf(this)
 			if (dialog_index != -1) {
-				parent.dialogs.splice(dialog_index, 1)
+				open_dialogs.splice(dialog_index, 1)
 			}
 		}
 	}
 	
 	function give_up_focus() {
 		//give focus to a different open dialog, if any
-		if (parent.dialogs) {
-			for (var i = 0; i < parent.dialogs.length; ++i) {
-				var child_item = parent.dialogs[i]
+		if (open_dialogs) {
+			for (var i = 0; i < open_dialogs.length; ++i) {
+				var child_item = open_dialogs[i]
 				
 				if (child_item == this) {
 					continue
@@ -123,7 +123,7 @@ Popup {
 	
 	function receive_focus() {
 		pane.forceActiveFocus()
-		dialog.z = 1 + (parent.dialogs ? parent.dialogs.length : 0)
+		dialog.z = 1 + (open_dialogs ? open_dialogs.length : 0)
 	}
 	
 	function calculate_max_button_width(button_container) {

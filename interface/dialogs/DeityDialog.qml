@@ -25,7 +25,6 @@ ModifierDialog {
 				metternich.game.player_country.game_data.set_appointed_deity(deity_slot, null)
 				dialog.close()
 			} else {
-				dialog.close()
 				deity_choice_dialog.deity_slot = deity_slot
 				deity_choice_dialog.open()
 			}

@@ -29,7 +29,6 @@ Item {
 	
 	readonly property var event_dialog_component: Qt.createComponent("dialogs/EventDialog.qml")
 	readonly property var notification_dialog_component: Qt.createComponent("dialogs/NotificationDialog.qml")
-	property var dialogs: []
 	
 	Rectangle {
 		id: map_view_background

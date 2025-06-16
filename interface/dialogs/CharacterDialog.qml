@@ -28,7 +28,6 @@ ModifierDialog {
 				metternich.game.player_country.game_data.set_appointed_office_holder(office, null)
 				character_dialog.close()
 			} else {
-				character_dialog.close()
 				office_holder_choice_dialog.office = office
 				office_holder_choice_dialog.open()
 			}
