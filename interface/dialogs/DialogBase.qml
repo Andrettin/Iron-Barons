@@ -24,13 +24,29 @@ Popup {
 	readonly property var title_item: title_text
 	property bool open_when_menu_is_closed: false
 	
-	background: Rectangle {
-		width: dialog.width
-		height: dialog.height
-		color: interface_background_color
-		radius: 5 * scale_factor
-        border.color: "gray"
-        border.width: 1 * scale_factor
+	background: Item {
+		TiledBackground {
+			id: tiled_background
+			anchors.fill: parent
+			layer.enabled: true
+			visible: false
+		}
+	
+		OpacityMask {
+			anchors.fill: parent
+			width: parent.width
+			height: parent.height
+			radius: 5 * scale_factor
+			source: tiled_background
+		}
+		
+		Rectangle {
+			anchors.fill: parent
+			color: "transparent"
+			radius: 5 * scale_factor
+			border.color: "gray"
+			border.width: 1 * scale_factor
+		}
 	}
 	
 	MouseArea {
