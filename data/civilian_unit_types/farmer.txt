@@ -8,6 +8,8 @@ farmer = {
 		dye
 		fruit
 		grain
+		grapes
+		incense
 		opium
 		potatoes
 		silk
