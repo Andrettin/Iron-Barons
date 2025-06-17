@@ -8,7 +8,6 @@ Item {
 	enum Mode {
 		Advisors,
 		Government,
-		Traditions,
 		Religion,
 		ResearchOrganizations
 	}
@@ -16,7 +15,6 @@ Item {
 	property var country: null
 	readonly property var country_game_data: country ? country.game_data : null
 	readonly property var ruler: country_game_data ? country_game_data.ruler : null
-	property var new_tradition: null
 	property string status_text: ""
 	property string middle_status_text: ""
 	
@@ -45,15 +43,6 @@ Item {
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
 		visible: politics_view_mode === PoliticsView.Mode.Government
-	}
-	
-	TraditionsView {
-		id: traditions_view
-		anchors.top: top_bar.bottom
-		anchors.bottom: status_bar.top
-		anchors.left: infopanel.right
-		anchors.right: button_panel.left
-		visible: politics_view_mode === PoliticsView.Mode.Traditions
 	}
 	
 	ReligionView {
@@ -86,15 +75,6 @@ Item {
 		anchors.top: parent.top
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
-		visible: politics_view_mode !== PoliticsView.Mode.Traditions
-	}
-	
-	TraditionsInfoPanel {
-		id: traditions_infopanel
-		anchors.top: parent.top
-		anchors.bottom: parent.bottom
-		anchors.left: parent.left
-		visible: politics_view_mode === PoliticsView.Mode.Traditions
 	}
 	
 	StatusBar {

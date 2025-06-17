@@ -63,29 +63,8 @@ Rectangle {
 	}
 	
 	IconButton {
-		id: traditions_button
-		anchors.top: government_button.bottom
-		anchors.topMargin: 4 * scale_factor
-		anchors.horizontalCenter: parent.horizontalCenter
-		icon_identifier: "music"
-		highlighted: politics_view_mode === PoliticsView.Mode.Traditions
-		
-		onClicked: {
-			politics_view_mode = PoliticsView.Mode.Traditions
-		}
-		
-		onHoveredChanged: {
-			if (hovered) {
-				status_text = "View Traditions"
-			} else {
-				status_text = ""
-			}
-		}
-	}
-	
-	IconButton {
 		id: religion_button
-		anchors.top: traditions_button.bottom
+		anchors.top: government_button.bottom
 		anchors.topMargin: 4 * scale_factor
 		anchors.horizontalCenter: parent.horizontalCenter
 		icon_identifier: "wooden_cross"

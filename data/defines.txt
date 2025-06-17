@@ -38,7 +38,6 @@ river_settlement_commodity_bonuses = {
 
 prestige_commodity = prestige
 piety_commodity = piety
-tradition_commodity = culture
 advisor_commodity = statesmanship
 leader_commodity = leadership
 
