@@ -265,6 +265,27 @@ Item {
 			
 			dialog.open()
 		}
+	
+		function onTechnology_lost(technology) {
+			if (notification_dialog_component.status == Component.Error) {
+				console.error(notification_dialog_component.errorString())
+				return
+			}
+			
+			var dialog = notification_dialog_component.createObject(map_view, {
+				title: "Technology Lost",
+				portrait_object: metternich.defines.interior_minister_portrait,
+				text: "Your Excellency, we have lost knowledge of the " + technology.name + " technology!"),
+				second_button_text: "View Technologies",
+				second_button_effects: () => {
+					if (!technology.discovery && !(menu_stack.currentItem instanceof TechnologyView)) {
+						menu_stack.push("TechnologyView.qml")
+					}
+				}
+			})
+			
+			dialog.open()
+		}
 		
 		function onTradition_adopted(tradition) {
 			if (notification_dialog_component.status == Component.Error) {
