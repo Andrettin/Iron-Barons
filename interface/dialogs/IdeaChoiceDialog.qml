@@ -47,8 +47,10 @@ DialogBase {
 				readonly property string modifier_string: idea.get_modifier_qstring(metternich.game.player_country)
 				
 				onClicked: {
-					metternich.game.player_country.game_data.set_appointed_idea(idea_slot, idea)
-					dialog.close()
+					if (metternich.game.player_country.game_data.can_appoint_idea(idea_slot, idea)) {
+						metternich.game.player_country.game_data.set_appointed_idea(idea_slot, idea)
+						dialog.close()
+					}
 				}
 			}
 		}
