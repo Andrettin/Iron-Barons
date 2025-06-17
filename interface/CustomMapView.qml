@@ -257,7 +257,7 @@ Item {
 			var dialog = notification_dialog_component.createObject(map_view, {
 				title: "Technology Lost",
 				portrait_object: metternich.defines.interior_minister_portrait,
-				text: "Your Excellency, we have lost knowledge of the " + technology.name + " technology!"),
+				text: "Your Excellency, we have lost knowledge of the " + technology.name + " technology!",
 				second_button_text: "View Technologies",
 				second_button_effects: () => {
 					if (!technology.discovery && !(menu_stack.currentItem instanceof TechnologyView)) {
