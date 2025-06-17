@@ -1,3 +1,0 @@
-piety = {
-	name = "Piety"
-}

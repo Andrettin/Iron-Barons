@@ -1,3 +1,0 @@
-tradition = {
-	name = "Tradition"
-}

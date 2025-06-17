@@ -96,6 +96,26 @@ polytheism = {
 	}
 }
 
+tears_of_the_gods = {
+	name = "Tears of the Gods"
+	subcategory = religion
+	portrait = temple
+	icon = wooden_cross
+	cost_commodity = piety
+	religious_groups = {
+		pagan
+	}
+	prerequisites = {
+		polytheism
+	}
+	modifier = {
+		piety_per_improved_amber = 2
+		piety_per_improved_diamonds = 2
+		piety_per_improved_gems = 2
+		#piety_per_improved_pearls = 2
+	}
+}
+
 monotheism = {
 	name = "Monotheism"
 	subcategory = religion
