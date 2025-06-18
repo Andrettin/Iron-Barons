@@ -29,6 +29,7 @@ MenuBase {
 				checked: metternich.preferences.game_rules.get_value(game_rule)
 				checkable: true
 				tooltip: small_text(metternich.preferences.game_rules.description)
+				visible: !game_rule.hidden
 				onCheckedChanged: {
 					if (metternich.preferences.game_rules.get_value(game_rule) !== checked) {
 						metternich.preferences.game_rules.set_value(game_rule, checked)
