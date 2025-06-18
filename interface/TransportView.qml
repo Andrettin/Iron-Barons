@@ -95,6 +95,8 @@ Item {
 							country_game_data.change_transported_commodity_output(commodity, target_value - transported_output)
 							transported_output = country_game_data.get_transported_commodity_output(commodity)
 						}
+						
+						status_text = commodity.name + ": " + transported_output + "/" + transportable_output
 					}
 					
 					onEntered: {
