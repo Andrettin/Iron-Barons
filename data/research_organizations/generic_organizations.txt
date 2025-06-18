@@ -60,3 +60,13 @@ industrial_company = {
 		industrial_company
 	}
 }
+
+naval_company = {
+	name = "Naval Company"
+	portrait = dock
+	skill = 6
+	required_technology = navigation
+	traits = {
+		ship_designer
+	}
+}
