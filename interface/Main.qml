@@ -26,6 +26,8 @@ ApplicationWindow {
 	
 	property var open_dialogs: []
 	
+	readonly property var notification_dialog_component: Qt.createComponent("dialogs/NotificationDialog.qml")
+	
 	FontLoader {
 		id: berenika_font
 		source: "../fonts/berenika.ttf"
@@ -268,5 +270,20 @@ ApplicationWindow {
 		}
 		
 		return str + "s"
+	}
+	
+	function add_notification(title, portrait_object, text, notification_parent) {
+		if (notification_dialog_component.status == Component.Error) {
+			console.error(notification_dialog_component.errorString())
+			return
+		}
+		
+		var dialog = notification_dialog_component.createObject(notification_parent, {
+			title: title,
+			portrait_object: portrait_object,
+			text: text
+		})
+		
+		dialog.open()
 	}
 }

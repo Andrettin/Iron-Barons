@@ -28,7 +28,6 @@ Item {
 	property bool tile_detail_mode: false
 	
 	readonly property var event_dialog_component: Qt.createComponent("dialogs/EventDialog.qml")
-	readonly property var notification_dialog_component: Qt.createComponent("dialogs/NotificationDialog.qml")
 	
 	Rectangle {
 		id: map_view_background
@@ -179,18 +178,7 @@ Item {
 		target: metternich
 		
 		function onNotification_added(title, portrait_object, text) {
-			if (notification_dialog_component.status == Component.Error) {
-				console.error(notification_dialog_component.errorString())
-				return
-			}
-			
-			var dialog = notification_dialog_component.createObject(map_view, {
-				title: title,
-				portrait_object: portrait_object,
-				text: text
-			})
-			
-			dialog.open()
+			add_notification(title, portrait_object, text, map_view)
 		}
 		
 		function onEvent_fired(event_instance) {
@@ -235,7 +223,7 @@ Item {
 			
 			var dialog = notification_dialog_component.createObject(map_view, {
 				title: technology.discovery ? "Discovery" : "Technology Researched",
-				portrait_object: metternich.defines.interior_minister_portrait,
+				portrait_object: metternich.game.player_country.game_data.interior_minister_portrait,
 				text: technology.discovery ? ("Your Excellency, we have discovered " + technology.name + "!") : ("Your Excellency, our scholars have made a breakthrough in the research of the " + technology.name + " technology!"),
 				second_button_text: "View Technologies",
 				second_button_effects: () => {
@@ -256,7 +244,7 @@ Item {
 			
 			var dialog = notification_dialog_component.createObject(map_view, {
 				title: "Technology Lost",
-				portrait_object: metternich.defines.interior_minister_portrait,
+				portrait_object: metternich.game.player_country.game_data.interior_minister_portrait,
 				text: "Your Excellency, we have lost knowledge of the " + technology.name + " technology!",
 				second_button_text: "View Technologies",
 				second_button_effects: () => {
@@ -277,7 +265,7 @@ Item {
 			
 			var dialog = notification_dialog_component.createObject(map_view, {
 				title: "Advisor Recruited",
-				portrait_object: metternich.defines.interior_minister_portrait,
+				portrait_object: metternich.game.player_country.game_data.interior_minister_portrait,
 				text: "Your Excellency, " + advisor.full_name  + " has joined our nation as an advisor!",
 				second_button_text: "View Advisors",
 				second_button_effects: () => {
@@ -300,7 +288,7 @@ Item {
 			
 			var dialog = notification_dialog_component.createObject(map_view, {
 				title: leader.leader_type_name + " Recruited",
-				portrait_object: metternich.defines.war_minister_portrait,
+				portrait_object: metternich.game.player_country.game_data.war_minister_portrait,
 				text: "Your Excellency, the " + leader.leader_type_name.toLowerCase() + " " + leader.full_name  + " has joined our nation!"
 			})
 			
