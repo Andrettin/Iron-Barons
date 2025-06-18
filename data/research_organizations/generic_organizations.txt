@@ -1,0 +1,31 @@
+military_industrial_complex = {
+	name = "Military-Industrial Complex"
+	portrait = fort
+	traits = {
+		military_industrial_complex
+	}
+}
+
+merchant_marine = {
+	name = "Merchant Marine"
+	portrait = unload
+	traits = {
+		merchant_marine
+	}
+}
+
+business_schools = {
+	name = "Business Schools"
+	portrait = trading_post
+	traits = {
+		business_schools
+	}
+}
+
+avantgarde_intelligentsia = {
+	name = "Avantgarde Intelligentsia"
+	portrait = university
+	traits = {
+		avantgarde_intelligentsia
+	}
+}
