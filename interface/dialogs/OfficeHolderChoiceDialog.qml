@@ -47,8 +47,10 @@ DialogBase {
 				readonly property string modifier_string: office_holder.game_data.get_office_modifier_qstring(metternich.game.player_country, office)
 				
 				onClicked: {
-					metternich.game.player_country.game_data.set_appointed_office_holder(office, office_holder)
-					dialog.close()
+					if (metternich.game.player_country.game_data.can_appoint_office_holder(office, office_holder)) {
+						metternich.game.player_country.game_data.set_appointed_office_holder(office, office_holder)
+						dialog.close()
+					}
 				}
 			}
 		}
