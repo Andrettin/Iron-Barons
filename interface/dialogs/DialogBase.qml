@@ -104,7 +104,7 @@ Popup {
 	function give_up_focus() {
 		//give focus to a different open dialog, if any
 		if (open_dialogs) {
-			for (var i = 0; i < open_dialogs.length; ++i) {
+			for (var i = open_dialogs.length - 1; i >= 0; --i) {
 				var child_item = open_dialogs[i]
 				
 				if (child_item == this) {
