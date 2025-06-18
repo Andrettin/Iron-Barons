@@ -123,6 +123,10 @@ Item {
 		anchors.left: parent.left
 	}
 	
+	MenuDialog {
+		id: menu_dialog
+	}
+	
 	ResearchChoiceDialog {
 		id: research_choice_dialog
 	}
