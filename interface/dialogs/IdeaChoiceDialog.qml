@@ -41,10 +41,12 @@ DialogBase {
 				id: idea_button
 				text: format_text(idea.get_cultural_name_qstring(metternich.game.player_country.culture))
 				width: dialog.width - 16 * scale_factor
-				tooltip: modifier_string.length > 0 ? format_text(small_text(modifier_string)) : ""
+				tooltip: tooltip_string.length > 0 ? format_text(small_text(tooltip_string)) : ""
 				
 				readonly property var idea: model.modelData
+				readonly property string costs_string: costs_to_string(metternich.game.player_country.game_data.get_idea_commodity_costs_qvariant_list(idea))
 				readonly property string modifier_string: idea.get_modifier_qstring(metternich.game.player_country)
+				readonly property string tooltip_string: costs_string + (costs_string.length > 0 && modifier_string.length > 0 ? "\n\n" : "") + modifier_string
 				
 				onClicked: {
 					if (metternich.game.player_country.game_data.can_appoint_idea(idea_slot, idea)) {

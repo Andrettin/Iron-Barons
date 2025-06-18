@@ -41,10 +41,12 @@ DialogBase {
 				id: office_holder_button
 				text: format_text(office_holder.full_name)
 				width: dialog.width - 16 * scale_factor
-				tooltip: modifier_string.length > 0 ? format_text(small_text(modifier_string)) : ""
+				tooltip: tooltip_string.length > 0 ? format_text(small_text(tooltip_string)) : ""
 				
 				readonly property var office_holder: model.modelData
+				readonly property string costs_string: costs_to_string(metternich.game.player_country.game_data.get_advisor_commodity_costs_qvariant_list(office))
 				readonly property string modifier_string: office_holder.game_data.get_office_modifier_qstring(metternich.game.player_country, office)
+				readonly property string tooltip_string: costs_string + (costs_string.length > 0 && modifier_string.length > 0 ? "\n\n" : "") + modifier_string
 				
 				onClicked: {
 					if (metternich.game.player_country.game_data.can_appoint_office_holder(office, office_holder)) {

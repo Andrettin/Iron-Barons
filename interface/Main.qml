@@ -258,7 +258,11 @@ ApplicationWindow {
 			var commodity = costs[i].key
 			var cost = costs[i].value
 			
-			str += "\n\t" + Math.floor(cost * modifier / 100) + " " + highlight(commodity.name)
+			if (modifier) {
+				cost = Math.floor(cost * modifier / 100)
+			}
+			
+			str += "\n\t" + cost + " " + highlight(commodity.name)
 		}
 		
 		return str
