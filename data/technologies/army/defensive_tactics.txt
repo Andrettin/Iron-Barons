@@ -4,7 +4,7 @@ defensive_terrain = {
 	portrait = helmet
 	icon = mountains
 	period = 1000_1100
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		feudalism
 	}
@@ -33,7 +33,7 @@ positional_combat = {
 	portrait = helmet
 	icon = crossed_sabers
 	period = 1100_1200
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		defensive_terrain
 	}
@@ -57,7 +57,7 @@ missile_barrage = {
 	portrait = helmet
 	icon = bow
 	period = 1200_1300
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		positional_combat
 	}
@@ -76,7 +76,7 @@ drilled_pikemen = {
 	portrait = helmet
 	icon = saber
 	period = 1300_1400
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		missile_barrage
 		pike
@@ -111,7 +111,7 @@ pike_square = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		drilled_pikemen
 	}
@@ -135,7 +135,7 @@ unit_organization = {
 	portrait = helmet
 	icon = saber
 	period = 1400_1500
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		drilled_pikemen
 	}
@@ -169,7 +169,7 @@ pike_and_shot = {
 	portrait = helmet
 	icon = saber
 	period = 1500_1550
-	cost_commodity = research
+	cost_commodity = leadership
 	prerequisites = {
 		pike_square
 		standardized_pikes
