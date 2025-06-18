@@ -28,6 +28,13 @@ andreas_vesalius = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	death_date = 1564
 	required_technology = medicine #revolutionized the understanding of anatomy
 	skill_multiplier = 0.83
+	conditions = {
+		or = {
+			culture = dutch
+			culture = flemish
+			culture = walloon
+		}
+	}
 	traits = {
 		natural_scientist
 	}

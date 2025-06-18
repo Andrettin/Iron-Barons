@@ -147,6 +147,9 @@ niccolo_tartaglia = { #Source: Isaac Asimov, "Cronologia das Ciências e das Des
 	death_date = 1557
 	required_technology = mathematics #inventor of method to solve cubic equations
 	skill_multiplier = 0.33
+	conditions = {
+		culture = italian
+	}
 	traits = {
 		philosopher
 	}
@@ -165,6 +168,9 @@ geronimo_cardano = { #Source: Isaac Asimov, "Cronologia das Ciências e das Desc
 	death_date = 1576
 	required_technology = mathematics #developed the concept of negative numbers
 	skill_multiplier = 0.67
+	conditions = {
+		culture = italian
+	}
 	traits = {
 		philosopher
 	}
