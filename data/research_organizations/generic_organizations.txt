@@ -29,3 +29,34 @@ avantgarde_intelligentsia = {
 		avantgarde_intelligentsia
 	}
 }
+
+artillery_company = {
+	name = "Artillery Company"
+	portrait = fort
+	skill = 3
+	required_technology = siege_engineering
+	conditions = {
+		not = {
+			country = portugal
+		}
+	}
+	traits = {
+		artillery_designer
+	}
+}
+
+industrial_company = {
+	name = "Industrial Company"
+	portrait = factory
+	skill = 6
+	required_technology = industrial_machinery
+	conditions = {
+		not = {
+			country = brazil
+			country = portugal
+		}
+	}
+	traits = {
+		industrial_company
+	}
+}
