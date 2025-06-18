@@ -1,0 +1,5 @@
+myths_enabled = {
+	name = "Myths Enabled"
+	default_value = true
+	description = "Enable mythical elements in the game"
+}

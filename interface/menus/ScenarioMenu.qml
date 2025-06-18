@@ -8,7 +8,6 @@ import "../dialogs"
 MenuBase {
 	id: scenario_menu
 	title: qsTr("Scenario")
-	//background: metternich.defines.default_menu_background_file
 	
 	property var loading_scenario: false
 	property var map_template_loaded: false

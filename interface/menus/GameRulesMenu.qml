@@ -5,25 +5,38 @@ import ".."
 MenuBase {
 	id: game_rules_menu
 	title: qsTr("Game Rules")
-	//background: metternich.defines.default_menu_background_file
 	
 	property var selected_scenario: null
 	property bool rules_changed: false
 	
-	CustomCheckBox {
-		id: myths_enabled_checkbox
+	Grid {
 		anchors.left: parent.left
 		anchors.leftMargin: 16 * scale_factor
+		anchors.right: parent.right
+		anchors.rightMargin: 16 * scale_factor
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
-		text: qsTr("Myths Enabled")
-		checked: metternich.preferences.game_rules.myths_enabled
-		checkable: true
-		tooltip: small_text("Enable mythical elements in the game")
-		onCheckedChanged: {
-			if (metternich.preferences.game_rules.myths_enabled !== checked) {
-				metternich.preferences.game_rules.myths_enabled = checked
-				rules_changed = true
+		anchors.bottom: previous_menu_button.top
+		anchors.bottomMargin: 32 * scale_factor
+		spacing: 16 * scale_factor
+		
+		Repeater {
+			model: metternich.preferences.game_rules.rules
+			
+			CustomCheckBox {
+				id: game_rule_checkbox
+				text: qsTr(game_rule.name)
+				checked: metternich.preferences.game_rules.get_value(game_rule)
+				checkable: true
+				tooltip: small_text(metternich.preferences.game_rules.description)
+				onCheckedChanged: {
+					if (metternich.preferences.game_rules.get_value(game_rule) !== checked) {
+						metternich.preferences.game_rules.set_value(game_rule, checked)
+						rules_changed = true
+					}
+				}
+				
+				readonly property var game_rule: model.modelData
 			}
 		}
 	}
