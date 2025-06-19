@@ -69,7 +69,7 @@ Rectangle {
 		anchors.topMargin: 3 * scale_factor
 		anchors.left: wealth_label.left
 		anchors.leftMargin: 96 * scale_factor
-		visible: prestige_visible
+		visible: prestige_visible && metternich.defines.prestige_commodity.enabled
 	}
 
 	SmallText {
@@ -79,7 +79,7 @@ Rectangle {
 		anchors.topMargin: 1 * scale_factor
 		anchors.left: prestige_icon.right
 		anchors.leftMargin: 2 * scale_factor
-		visible: prestige_visible
+		visible: prestige_visible && metternich.defines.prestige_commodity.enabled
 	}
 
 	MouseArea {
@@ -88,7 +88,7 @@ Rectangle {
 		anchors.left: prestige_icon.left
 		anchors.right: prestige_label.right
 		hoverEnabled: true
-		enabled: prestige_visible
+		enabled: prestige_visible && metternich.defines.prestige_commodity.enabled
 		onEntered: {
 			status_text = "Prestige"
 		}

@@ -2,4 +2,5 @@ prestige = {
 	name = "Prestige"
 	icon = heater_shield
 	abstract = true
+	game_rule = prestige
 }
