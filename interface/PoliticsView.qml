@@ -90,4 +90,8 @@ Item {
 		anchors.left: infopanel.right
 		anchors.right: button_panel.left
 	}
+	
+	CharacterDialog {
+		id: character_dialog
+	}
 }

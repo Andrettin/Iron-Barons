@@ -131,10 +131,6 @@ Item {
 		}
 	}
 	
-	CharacterDialog {
-		id: character_dialog
-	}
-	
 	OfficeHolderChoiceDialog {
 		id: office_holder_choice_dialog
 	}

@@ -72,6 +72,13 @@ Rectangle {
 		portrait_identifier: country_game_data.next_advisor ? country_game_data.next_advisor.game_data.portrait.identifier : ""
 		visible: country_game_data.next_advisor !== null
 		
+		onClicked: {
+			character_dialog.office = null
+			character_dialog.character = country_game_data.next_advisor
+			character_dialog.modifier_string = country_game_data.next_advisor.game_data.get_advisor_effects_string(country)
+			character_dialog.open()
+		}
+		
 		onHoveredChanged: {
 			if (hovered && country_game_data.next_advisor) {
 				status_text = country_game_data.next_advisor.full_name
