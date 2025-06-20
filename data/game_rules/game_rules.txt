@@ -4,9 +4,17 @@ prestige = {
 	description = "Allow countries to accrue Prestige, which impacts score and trade order"
 }
 
+advisors = {
+	name = "Advisors"
+	group = advisors
+	default_value = true
+	description = "Allow advisors to be recruited with Statesmanship"
+}
+
 offices = {
 	name = "Offices"
-	default_value = true
+	group = advisors
+	default_value = false
 	description = "Allow characters to be appointed to offices"
 }
 

@@ -13,6 +13,16 @@ architect = {
 		stewardship = 2
 		martial = 1
 	}
+	scaled_advisor_modifier = {
+		technology_cost_modifier = {
+			subcategory = architecture
+			value = -5
+		}
+		technology_cost_modifier = {
+			subcategory = infrastructure
+			value = -5
+		}
+	}
 	scaled_office_modifiers = {
 		chief_builder = {
 			technology_cost_modifier = {
@@ -330,6 +340,16 @@ natural_scientist = {
 	conditions = {
 		character_type = natural_scientist
 	}
+	scaled_advisor_modifier = {
+		technology_cost_modifier = {
+			category = gathering
+			value = -5
+		}
+		technology_cost_modifier = {
+			category = industry
+			value = -5
+		}
+	}
 	scaled_office_modifiers = {
 		court_scholar = {
 			technology_cost_modifier = {
@@ -387,6 +407,9 @@ philosopher = {
 	attribute = learning
 	conditions = {
 		character_type = philosopher
+	}
+	scaled_advisor_modifier = {
+		research_output_modifier = 5
 	}
 	scaled_office_modifiers = {
 		court_scholar = {

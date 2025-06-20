@@ -8,6 +8,13 @@ army_organizer = {
 	conditions = {
 		character_type = general
 	}
+	scaled_advisor_modifier = {
+		military_unit_stat = {
+			domain = land
+			stat = morale_recovery_modifier
+			value = 1
+		}
+	}
 	scaled_office_modifiers = {
 		marshal = {
 			military_unit_stat = {
@@ -29,6 +36,12 @@ army_reformer = {
 	conditions = {
 		character_type = general
 	}
+	scaled_advisor_modifier = {
+		technology_cost_modifier = {
+			category = army
+			value = -5
+		}
+	}
 	scaled_office_modifiers = {
 		marshal = {
 			technology_cost_modifier = {
@@ -48,6 +61,13 @@ commandant = { #person responsible for drilling troops
 	attribute = martial
 	conditions = {
 		character_type = general
+	}
+	scaled_advisor_modifier = {
+		military_unit_stat = {
+			domain = land
+			stat = damage_bonus
+			value = 1
+		}
 	}
 	scaled_office_modifiers = {
 		marshal = {
@@ -70,6 +90,13 @@ grand_captain = {
 	conditions = {
 		character_type = general
 	}
+	scaled_advisor_modifier = {
+		military_unit_stat = {
+			domain = land
+			stat = discipline
+			value = 2.5
+		}
+	}
 	scaled_office_modifiers = {
 		marshal = {
 			military_unit_stat = {
@@ -90,6 +117,9 @@ military_engineer = {
 	attribute = martial
 	conditions = {
 		character_type = military_engineer
+	}
+	scaled_advisor_modifier = {
+		entrenchment_bonus_modifier = 5
 	}
 	scaled_office_modifiers = {
 		marshal = {

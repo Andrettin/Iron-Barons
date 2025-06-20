@@ -8,6 +8,9 @@ master_of_mint = {
 	conditions = {
 		character_type = master_of_mint
 	}
+	scaled_advisor_modifier = {
+		inflation_change = -0.01
+	}
 	scaled_office_modifiers = {
 		steward = {
 			inflation_change = -0.01
@@ -25,6 +28,9 @@ merchant = {
 	conditions = {
 		character_type = merchant
 	}
+	scaled_advisor_modifier = {
+		trade_output_modifier = 5
+	}
 	scaled_office_modifiers = {
 		steward = {
 			trade_output_modifier = 5
@@ -41,6 +47,12 @@ treasurer = {
 	attribute = stewardship
 	conditions = {
 		character_type = treasurer
+	}
+	scaled_advisor_modifier = {
+		technology_cost_modifier = {
+			category = finance
+			value = -5
+		}
 	}
 	scaled_office_modifiers = {
 		steward = {
