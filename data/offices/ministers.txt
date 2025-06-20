@@ -2,6 +2,9 @@ chancellor = {
 	name = "Chancellor"
 	minister = true
 	attribute = diplomacy
+	conditions = {
+		game_rule = offices
+	}
 	holder_conditions = {
 		or = {
 			trait = diplomat
@@ -14,6 +17,9 @@ high_admiral = {
 	name = "High Admiral"
 	minister = true
 	attribute = martial
+	conditions = {
+		game_rule = offices
+	}
 	holder_conditions = {
 		or = {
 			trait = grand_admiral
@@ -27,6 +33,9 @@ marshal = {
 	name = "Marshal"
 	minister = true
 	attribute = martial
+	conditions = {
+		game_rule = offices
+	}
 	holder_conditions = {
 		or = {
 			trait = army_organizer
@@ -42,6 +51,9 @@ steward = {
 	name = "Steward"
 	minister = true
 	attribute = stewardship
+	conditions = {
+		game_rule = offices
+	}
 	holder_conditions = {
 		or = {
 			trait = master_of_mint

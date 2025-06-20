@@ -4,6 +4,12 @@ prestige = {
 	description = "Allow countries to accrue Prestige, which impacts score and trade order"
 }
 
+offices = {
+	name = "Offices"
+	default_value = true
+	description = "Allow characters to be appointed to offices"
+}
+
 research_organizations = {
 	name = "Research Organizations"
 	default_value = true

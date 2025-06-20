@@ -1,6 +1,9 @@
 chief_builder = {
 	name = "Chief Builder"
 	attribute = stewardship
+	conditions = {
+		game_rule = offices
+	}
 	holder_conditions = {
 		trait = architect
 	}
@@ -9,6 +12,9 @@ chief_builder = {
 court_scholar = {
 	name = "Court Scholar"
 	attribute = learning
+	conditions = {
+		game_rule = offices
+	}
 	holder_conditions = {
 		or = {
 			trait = natural_scientist
