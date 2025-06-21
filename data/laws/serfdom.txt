@@ -6,6 +6,9 @@ serfdom = {
 	commodity_costs = {
 		statesmanship = 50
 	}
+	conditions = {
+		game_rule = laws
+	}
 	modifier = {
 		infantry_cost_modifier = -30
 		military_unit_stat = {
@@ -24,6 +27,9 @@ free_subjects = {
 	required_technology = feudalism
 	commodity_costs = {
 		statesmanship = 50
+	}
+	conditions = {
+		game_rule = laws
 	}
 	modifier = {
 		infantry_cost_modifier = 30

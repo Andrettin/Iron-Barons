@@ -6,6 +6,9 @@ state_press = {
 	commodity_costs = {
 		statesmanship = 50
 	}
+	conditions = {
+		game_rule = laws
+	}
 	modifier = {
 	}
 }
@@ -17,6 +20,9 @@ censored_press = {
 	required_technology = printing_press
 	commodity_costs = {
 		statesmanship = 50
+	}
+	conditions = {
+		game_rule = laws
 	}
 	modifier = {
 		statesmanship_per_printing_press = 1
@@ -31,6 +37,9 @@ free_press = {
 	required_technology = printing_press
 	commodity_costs = {
 		statesmanship = 50
+	}
+	conditions = {
+		game_rule = laws
 	}
 	modifier = {
 		statesmanship_per_printing_press = 2

@@ -18,6 +18,12 @@ offices = {
 	description = "Allow characters to be appointed to offices"
 }
 
+laws = {
+	name = "Laws"
+	default_value = true
+	description = "Allow countries to enact laws"
+}
+
 research_organizations = {
 	name = "Research Organizations"
 	default_value = true

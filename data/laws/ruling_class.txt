@@ -6,6 +6,9 @@ aristocracy = {
 	commodity_costs = {
 		statesmanship = 50
 	}
+	conditions = {
+		game_rule = laws
+	}
 	modifier = {
 		cavalry_cost_modifier = -25
 		warship_cost_modifier = 10
@@ -19,6 +22,9 @@ plutocracy = {
 	required_technology = republic
 	commodity_costs = {
 		statesmanship = 50
+	}
+	conditions = {
+		game_rule = laws
 	}
 	modifier = {
 		cavalry_cost_modifier = 25
