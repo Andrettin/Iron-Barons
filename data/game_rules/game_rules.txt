@@ -16,6 +16,7 @@ offices = {
 	group = advisors
 	default_value = false
 	description = "Allow characters to be appointed to offices"
+	hidden = true
 }
 
 laws = {
