@@ -32,7 +32,7 @@ MenuBase {
 				model: ["Disabled"].concat(object_list_to_name_list(game_rule_group.rules))
 				onActivated: function(index) {
 					for (var game_rule of game_rule_group.rules) {
-						var rule_value = (game_rule_group.rules[index - 1] == game_rule)
+						var rule_value = index > 0 && (game_rule_group.rules[index - 1] == game_rule)
 						
 						if (metternich.preferences.game_rules.get_value(game_rule) !== rule_value) {
 							metternich.preferences.game_rules.set_value(game_rule, rule_value)
