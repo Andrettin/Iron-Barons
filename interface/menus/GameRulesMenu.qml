@@ -10,10 +10,7 @@ MenuBase {
 	property bool rules_changed: false
 	
 	Grid {
-		anchors.left: parent.left
-		anchors.leftMargin: 16 * scale_factor
-		anchors.right: parent.right
-		anchors.rightMargin: 16 * scale_factor
+		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: title_item.bottom
 		anchors.topMargin: 32 * scale_factor
 		anchors.bottom: previous_menu_button.top
@@ -28,7 +25,7 @@ MenuBase {
 				text: qsTr(game_rule_group.name)
 				currentIndex: get_game_rule_group_current_index(game_rule_group)
 				tooltip: format_text(small_text(get_game_rule_group_description(game_rule_group)))
-				visible: count > 1
+				visible: count > 2
 				model: ["Disabled"].concat(object_list_to_name_list(game_rule_group.rules))
 				onActivated: function(index) {
 					for (var game_rule of game_rule_group.rules) {
@@ -54,7 +51,7 @@ MenuBase {
 				checked: metternich.preferences.game_rules.get_value(game_rule)
 				checkable: true
 				tooltip: small_text(game_rule.description)
-				visible: !game_rule.hidden && game_rule.group === null
+				visible: !game_rule.hidden && (game_rule.group === null || game_rule.group.rules.length === 1)
 				onCheckedChanged: {
 					if (metternich.preferences.game_rules.get_value(game_rule) !== checked) {
 						metternich.preferences.game_rules.set_value(game_rule, checked)
