@@ -18,6 +18,7 @@ castle = {
 		has_building_class = stockade
 	}
 	conditions = {
+		game_rule = additional_settlement_types
 		not = {
 			resource = center_of_trade
 			resource = holy_site

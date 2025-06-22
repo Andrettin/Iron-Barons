@@ -42,3 +42,10 @@ myths_enabled = {
 	default_value = true
 	description = "Enable mythical elements in the game"
 }
+
+additional_settlement_types = {
+	name = "Additional Settlement Types"
+	default_value = false
+	description = "Allow additional settlement types"
+	hidden = true
+}
