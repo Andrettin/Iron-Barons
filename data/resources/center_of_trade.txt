@@ -3,6 +3,7 @@ center_of_trade = {
 	plural_name = "Centers of Trade"
 	icon = wealth
 	tiny_icon = trade_consulate
+	required_game_rule = trade_commodity
 	terrain_types = {
 		plains
 		savannah

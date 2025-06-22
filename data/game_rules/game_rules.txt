@@ -31,6 +31,12 @@ research_organizations = {
 	description = "Allow countries to select research organizations"
 }
 
+trade_commodity = {
+	name = "Trade Commodity"
+	default_value = true
+	description = "Allow the Trade commodity, which is directly converted into wealth"
+}
+
 myths_enabled = {
 	name = "Myths Enabled"
 	default_value = true

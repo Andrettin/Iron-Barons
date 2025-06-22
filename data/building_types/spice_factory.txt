@@ -10,6 +10,9 @@ spice_factory = {
 		city
 		metropolis
 	}
+	conditions = {
+		game_rule = trade_commodity
+	}
 	settlement_conditions = {
 		province = {
 			produces_commodity = spices

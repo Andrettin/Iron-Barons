@@ -4,6 +4,7 @@ sacred_menhir = {
 	building = monument
 	required_technology = bronzeworking
 	#obsolescence_technology = warp_spell
+	required_game_rule = trade_commodity
 	conditions = {
 		scripted_condition = is_northern_european
 	}

@@ -9,6 +9,9 @@ bank = {
 		city
 		metropolis
 	}
+	conditions = {
+		game_rule = trade_commodity
+	}
 	build_conditions = {
 		has_building_class = market
 	}
