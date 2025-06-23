@@ -8,6 +8,7 @@ novum_organum = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobe
 	conditions = {
 		advisor = francis_bacon
 		technology = scientific_method
+		game_rule = research_commodity
 	}
 	option = {
 		effects = {

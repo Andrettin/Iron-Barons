@@ -61,7 +61,7 @@ DialogBase {
 			id: capacity_label
 			anchors.horizontalCenter: parent.horizontalCenter
 			text: "Capacity: " + capacity
-			visible: capacity > 0
+			visible: capacity > 0 && building_slot.available_production_types.length > 0
 		}
 		
 		Grid {

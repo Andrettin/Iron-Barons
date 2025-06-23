@@ -3,6 +3,7 @@ frogs = {
 	icon = frog
 	tiny_icon = garrison
 	discovery_technology = frogs
+	required_game_rule = research_commodity
 	terrain_types = {
 		swamp
 	}

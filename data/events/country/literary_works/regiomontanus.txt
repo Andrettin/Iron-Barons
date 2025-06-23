@@ -7,6 +7,7 @@ de_triangulis = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 	random_weight = 1000
 	conditions = {
 		advisor = regiomontanus
+		game_rule = research_commodity
 	}
 	option = {
 		effects = {
@@ -24,6 +25,7 @@ tabulae_directionum = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 3
 	random_weight = 1000
 	conditions = {
 		advisor = regiomontanus
+		game_rule = research_commodity
 	}
 	option = {
 		effects = {
@@ -41,6 +43,7 @@ ephemerides = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 	random_weight = 1000
 	conditions = {
 		advisor = regiomontanus
+		game_rule = research_commodity
 	}
 	option = {
 		effects = {
@@ -58,6 +61,7 @@ scripta = { #Source: "Encyclopædia Britannica", 1911, vol. 23, p. 39.
 	random_weight = 1000
 	conditions = {
 		advisor = regiomontanus
+		game_rule = research_commodity
 	}
 	option = {
 		effects = {

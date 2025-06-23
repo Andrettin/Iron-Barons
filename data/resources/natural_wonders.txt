@@ -3,6 +3,7 @@ barringer_crater = {
 	icon = mountains
 	tiny_icon = alliance
 	natural_wonder = true
+	required_game_rule = research_commodity
 	terrain_types = {
 		desert
 	}
@@ -39,6 +40,7 @@ krakatoa = {
 	icon = mountains
 	tiny_icon = alliance
 	natural_wonder = true
+	required_game_rule = research_commodity
 	terrain_types = {
 		mountains
 	}
@@ -123,6 +125,7 @@ mount_thera = {
 	icon = mountains
 	tiny_icon = alliance
 	natural_wonder = true
+	required_game_rule = research_commodity
 	terrain_types = {
 		mountains
 	}

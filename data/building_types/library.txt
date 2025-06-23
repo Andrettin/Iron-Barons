@@ -10,6 +10,9 @@ library = {
 		metropolis
 		campus
 	}
+	conditions = {
+		game_rule = research_commodity
+	}
 	settlement_conditions = {
 		province = {
 			#produces_commodity = research

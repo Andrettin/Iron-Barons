@@ -16,6 +16,9 @@ alchemists_shop = {
 		lumber = 4
 		cast_iron = 4
 	}
+	conditions = {
+		game_rule = research_commodity
+	}
 	settlement_conditions = {
 		province = {
 			produces_commodity = cinnabar
