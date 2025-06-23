@@ -25,7 +25,7 @@ Rectangle {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.top: parent.top
 		anchors.topMargin: 16 * scale_factor
-		spacing: 4 * scale_factor
+		spacing: metternich.get_research_commodities().length >= 5 ? (4 * scale_factor) : (8 * scale_factor)
 		
 		Repeater {
 			model: metternich.get_research_commodities()
@@ -34,6 +34,7 @@ Rectangle {
 				name: commodity.name
 				icon_identifier: commodity.icon.identifier
 				count: country_game_data.get_stored_commodity(commodity)
+				visible: commodity.enabled
 				
 				readonly property var commodity: model.modelData
 			}
