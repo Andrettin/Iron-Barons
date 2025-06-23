@@ -51,7 +51,7 @@ MenuBase {
 				checked: metternich.preferences.game_rules.get_value(game_rule)
 				checkable: true
 				tooltip: small_text(game_rule.description)
-				visible: !game_rule.hidden && (game_rule.group === null || game_rule.group.rules.length === 1)
+				visible: metternich.preferences.game_rules.values.length > 0 && !game_rule.hidden && metternich.preferences.game_rules.is_rule_available(game_rule) && (game_rule.group === null || game_rule.group.rules.length === 1) //the check to the values property is there to cause a property binding reevaluation for the is_rule_available check
 				onCheckedChanged: {
 					if (metternich.preferences.game_rules.get_value(game_rule) !== checked) {
 						metternich.preferences.game_rules.set_value(game_rule, checked)
