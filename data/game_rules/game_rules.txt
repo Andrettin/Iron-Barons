@@ -21,8 +21,9 @@ offices = {
 
 laws = {
 	name = "Laws"
-	default_value = true
+	default_value = false
 	description = "Allow countries to enact laws"
+	hidden = true
 }
 
 research_organizations = {
