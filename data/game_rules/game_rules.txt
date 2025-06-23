@@ -31,6 +31,12 @@ research_organizations = {
 	description = "Allow countries to select research organizations"
 }
 
+research_commodity = {
+	name = "Research Commodity"
+	default_value = true
+	description = "Allow the Research commodity, which is used for acquiring technologies"
+}
+
 trade_commodity = {
 	name = "Trade Commodity"
 	default_value = true
