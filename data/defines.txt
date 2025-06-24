@@ -24,6 +24,7 @@ months_per_turn_from_year = { #months per turn after a certain year has been rea
 }
 
 advisors_game_rule = advisors
+ruler_traits_game_rule = ruler_traits
 
 default_population_class = untrained_workers
 default_tribal_population_class = tribesmen
