@@ -4,4 +4,5 @@ amenities = {
 	abstract = true
 	storable = false
 	provincial = true
+	required_game_rule = amenities
 }

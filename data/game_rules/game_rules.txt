@@ -44,6 +44,13 @@ trade_commodity = {
 	description = "Allow the Trade commodity, which is directly converted into wealth"
 }
 
+amenities = {
+	name = "Amenities"
+	default_value = false
+	description = "Allow provinces to have Amenities, which are required by their population"
+	hidden = true
+}
+
 myths_enabled = {
 	name = "Myths Enabled"
 	default_value = true
