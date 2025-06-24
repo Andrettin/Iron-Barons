@@ -73,7 +73,7 @@ Item {
 				if (building !== null) {
 					status_text = building.name
 					
-					if (building_slot.available_production_types.length > 0) {
+					if (building_slot.available_production_types.length > 0 || building_slot.available_education_types.length > 0) {
 						middle_status_text = "Employed Capacity: " + building_slot.employed_capacity + "/" + building_slot.capacity
 					}
 				} else {
