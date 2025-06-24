@@ -5,6 +5,7 @@ soft_leather_armor = {
 	icon = heater_shield
 	period = 1000_1100
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		feudalism
 	}
@@ -24,6 +25,7 @@ reinforced_leather_armor = {
 	icon = heater_shield
 	period = 1100_1200
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		soft_leather_armor
 	}
@@ -43,6 +45,7 @@ boiled_leather_armor = {
 	icon = heater_shield
 	period = 1200_1300
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		reinforced_leather_armor
 	}
@@ -62,6 +65,7 @@ rigid_leather_armor = {
 	icon = heater_shield
 	period = 1300_1400
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		boiled_leather_armor
 	}
@@ -81,6 +85,7 @@ scaled_leather_armor = {
 	icon = heater_shield
 	period = 1400_1500
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		rigid_leather_armor
 	}

@@ -4,6 +4,7 @@ arawak_raiders = {
 	portrait = helmet
 	icon = bow
 	cost_commodity = leadership
+	required_game_rule = additional_technologies
 	cultures = {
 		arawak
 	}

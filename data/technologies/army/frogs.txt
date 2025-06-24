@@ -5,6 +5,7 @@ frogs = {
 	icon = frog
 	discovery = true
 	period = copper_age
+	required_game_rule = additional_technologies
 	cultures = {
 		tupi
 	}
@@ -17,6 +18,7 @@ tupi_poison_arrow_frogs = {
 	icon = frog
 	period = iron_age
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	cultures = {
 		tupi
 	}

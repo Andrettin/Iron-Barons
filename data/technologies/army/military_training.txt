@@ -43,6 +43,7 @@ noble_knights = {
 	portrait = baronial_crown
 	icon = crown_baronial
 	cost_commodity = leadership
+	required_game_rule = additional_technologies
 	prerequisites = {
 		chivalry
 	}

@@ -6,6 +6,7 @@ malthusian_thought = {
 	period = 1750_1800
 	cost = 360
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		nationalism
 	}
@@ -22,6 +23,7 @@ positivism = {
 	period = 1800_1825
 	cost = 720
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		malthusian_thought
 	}
@@ -38,6 +40,7 @@ functionalism = {
 	period = 1825_1850
 	cost = 1080
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		positivism
 	}
@@ -54,6 +57,7 @@ biologism = {
 	period = 1850_1875
 	cost = 1440
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		functionalism
 	}
@@ -70,6 +74,7 @@ social_science = {
 	period = 1875_1900
 	cost = 1800
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		biologism
 	}
@@ -86,6 +91,7 @@ social_alienation = {
 	period = 1900_1925
 	cost = 2160
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		social_science
 	}

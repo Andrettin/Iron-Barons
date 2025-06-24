@@ -47,6 +47,7 @@ order_of_the_golden_fleece = {
 	portrait = helmet
 	icon = saber
 	cost_commodity = statesmanship
+	required_game_rule = additional_technologies
 	cultures = {
 		austrian
 		castillian

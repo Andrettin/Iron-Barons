@@ -31,6 +31,7 @@ ancestor_worship = {
 	portrait = temple
 	icon = wooden_cross
 	cost_commodity = piety
+	required_game_rule = additional_technologies
 	prerequisites = {
 		ceremonial_burial
 	}
@@ -47,6 +48,7 @@ oral_tradition = {
 	portrait = temple
 	icon = wooden_cross
 	cost_commodity = piety
+	required_game_rule = additional_technologies
 	prerequisites = {
 		ceremonial_burial
 	}
@@ -68,6 +70,7 @@ religious_idols = {
 	portrait = temple
 	icon = golden_cross_detailed
 	cost_commodity = piety
+	required_game_rule = additional_technologies
 	prerequisites = {
 		ceremonial_burial
 		
@@ -102,6 +105,7 @@ tears_of_the_gods = {
 	portrait = temple
 	icon = wooden_cross
 	cost_commodity = piety
+	required_game_rule = additional_technologies
 	religious_groups = {
 		pagan
 	}

@@ -5,6 +5,7 @@ divine_duty = {
 	icon = crown_baronial
 	period = 1000_1100
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		feudalism
 	}
@@ -22,6 +23,7 @@ miracle_plays = {
 	icon = music
 	period = 1300_1400
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		troubadours
 	}
@@ -39,6 +41,7 @@ carnivals = {
 	icon = music
 	period = 1400_1500
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		miracle_plays
 	}

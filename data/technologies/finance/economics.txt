@@ -23,6 +23,7 @@ collectivist_theory = {
 	period = 1825_1850
 	cost = 1080
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		economics
 		collectivism
@@ -40,6 +41,7 @@ historical_theory = {
 	period = 1850_1875
 	cost = 1440
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		collectivist_theory
 	}
@@ -56,6 +58,7 @@ neoclassical_theory = {
 	period = 1875_1900
 	cost = 1800
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		historical_theory
 	}
@@ -72,6 +75,7 @@ keynesian_economics = {
 	period = 1900_1925
 	cost = 2160
 	cost_commodity = research
+	required_game_rule = additional_technologies
 	prerequisites = {
 		neoclassical_theory
 	}

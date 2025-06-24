@@ -4,6 +4,7 @@ military_drill = {
 	portrait = helmet
 	icon = saber
 	cost_commodity = leadership
+	required_game_rule = additional_technologies
 	prerequisites = {
 		organized_regiments
 	}
@@ -22,6 +23,7 @@ napoleonic_warfare = {
 	portrait = helmet
 	icon = saber
 	cost_commodity = leadership
+	required_game_rule = additional_technologies
 	prerequisites = {
 		military_drill
 		bayonet

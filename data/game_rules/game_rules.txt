@@ -70,3 +70,10 @@ additional_settlement_types = {
 	description = "Allow additional settlement types"
 	hidden = true
 }
+
+additional_technologies = {
+	name = "Additional Technologies"
+	default_value = false
+	description = "Allow additional technologies"
+	hidden = true
+}

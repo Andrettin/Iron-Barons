@@ -4,6 +4,7 @@ naval_tradition = {
 	portrait = unload
 	icon = anchor
 	cost_commodity = leadership
+	required_game_rule = additional_technologies
 	prerequisites = {
 		navigation
 	}
@@ -20,6 +21,7 @@ naval_drill = {
 	portrait = unload
 	icon = anchor
 	cost_commodity = leadership
+	required_game_rule = additional_technologies
 	prerequisites = {
 		naval_tradition
 	}
@@ -38,6 +40,7 @@ merchant_navy = {
 	portrait = unload
 	icon = anchor
 	cost_commodity = leadership
+	required_game_rule = additional_technologies
 	prerequisites = {
 		naval_tradition
 		convoying
@@ -55,6 +58,7 @@ navigation_acts = {
 	portrait = unload
 	icon = anchor
 	cost_commodity = statesmanship
+	required_game_rule = additional_technologies
 	cultures = {
 		english
 	}
@@ -73,6 +77,7 @@ sun_never_sets = {
 	portrait = unload
 	icon = anchor
 	cost_commodity = statesmanship
+	required_game_rule = additional_technologies
 	cultures = {
 		english
 	}

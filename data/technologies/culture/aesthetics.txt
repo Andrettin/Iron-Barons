@@ -5,6 +5,7 @@ jongleurs = {
 	icon = music
 	period = 1100_1200
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		divine_duty
 	}
@@ -72,6 +73,7 @@ troubadours = {
 	icon = music
 	period = 1200_1300
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		jongleurs
 		music_notation_system
@@ -90,6 +92,7 @@ tapestries = {
 	icon = painting
 	period = 1300_1400
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		choir_songs
 	}
@@ -160,6 +163,7 @@ realism = {
 	shared_prestige = 30
 	cost = 1080
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		romanticism
 	}
@@ -177,6 +181,7 @@ impressionism = {
 	shared_prestige = 45
 	cost = 1440
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		realism
 	}
@@ -194,6 +199,7 @@ expressionism = {
 	shared_prestige = 60
 	cost = 1800
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		impressionism
 	}
@@ -209,6 +215,7 @@ mass_culture = {
 	icon = music
 	period = 1900_1925
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		expressionism
 	}
@@ -225,6 +232,7 @@ avant_garde_art = {
 	period = 1900_1925
 	shared_prestige = 75
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		expressionism
 	}
@@ -241,6 +249,7 @@ jazz = {
 	period = 1900_1925
 	shared_prestige = 25
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		expressionism
 	}
@@ -254,6 +263,7 @@ modern_design = {
 	period = 1900_1925
 	shared_prestige = 25
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		expressionism
 	}
@@ -267,6 +277,7 @@ socialist_realism = {
 	period = 1900_1925
 	shared_prestige = 25
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		expressionism
 	}
@@ -280,6 +291,7 @@ surrealism = {
 	period = 1900_1925
 	shared_prestige = 25
 	cost_commodity = culture
+	required_game_rule = additional_technologies
 	prerequisites = {
 		expressionism
 	}
