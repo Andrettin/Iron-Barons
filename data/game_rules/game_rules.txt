@@ -77,3 +77,10 @@ additional_technologies = {
 	description = "Allow additional technologies"
 	hidden = true
 }
+
+additional_population_types = {
+	name = "Additional Population Types"
+	default_value = false
+	description = "Allow additional population types"
+	hidden = true
+}

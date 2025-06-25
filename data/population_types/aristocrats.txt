@@ -7,6 +7,7 @@ aristocrats = {
 	icon = rifle_infantry_light
 	small_icon = rifle_infantry_light_small
 	max_modifier_multiplier = 5
+	required_game_rule = additional_population_types
 	everyday_consumption = {
 		amenities = 1
 	}

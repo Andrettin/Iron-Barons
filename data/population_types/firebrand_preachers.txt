@@ -8,6 +8,7 @@ firebrand_preachers = {
 	small_icon = rifle_infantry_light_small
 	output_commodity = piety
 	output_value = 2
+	required_game_rule = additional_population_types
 	everyday_consumption = {
 		amenities = 1
 	}
