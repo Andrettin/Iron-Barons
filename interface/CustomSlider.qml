@@ -3,9 +3,10 @@ import QtQuick.Controls
 
 Item {
 	id: slider
-	width: 176 * scale_factor
+	width: default_width
 	height: 16 * scale_factor
 	
+	readonly property real default_width: 192 * scale_factor
 	property int value: 0
 	property int secondary_value: value
 	property int min_value: 0

@@ -117,8 +117,8 @@ DialogBase {
 			model: building_slot ? building_slot.available_production_types : []
 			
 			Item {
-				width: production_slider.width + 16 * scale_factor + production_formula_row.width
-				height: production_formula_row.height
+				width: Math.max(production_slider.width, production_formula_row.width)
+				height: production_slider.height + 8 * scale_factor + production_formula_row.height
 				
 				readonly property var production_type: model.modelData
 				readonly property var output_commodity: production_type.output_commodity
@@ -127,7 +127,7 @@ DialogBase {
 				
 				Row {
 					id: production_formula_row
-					anchors.verticalCenter: parent.verticalCenter
+					anchors.top: parent.top
 					anchors.left: parent.left
 					
 					Repeater {
@@ -219,8 +219,9 @@ DialogBase {
 				
 				CustomSlider {
 					id: production_slider
-					anchors.verticalCenter: production_formula_row.verticalCenter
-					anchors.right: parent.right
+					anchors.top: production_formula_row.bottom
+					anchors.topMargin: 8 * scale_factor
+					anchors.left: parent.left
 					value: employed_capacity
 					secondary_value: output_value
 					max_value: capacity
@@ -336,8 +337,8 @@ DialogBase {
 			model: building_slot ? building_slot.available_education_types : []
 			
 			Item {
-				width: education_slider.width + 16 * scale_factor + education_formula_row.width
-				height: education_formula_row.height
+				width: Math.max(education_slider.width, education_formula_row.width)
+				height: education_slider.height + 8 * scale_factor + education_formula_row.height
 				
 				readonly property var education_type: model.modelData
 				readonly property var input_population_type: education_type.input_population_type
@@ -347,7 +348,7 @@ DialogBase {
 				
 				Row {
 					id: education_formula_row
-					anchors.verticalCenter: parent.verticalCenter
+					anchors.top: parent.top
 					anchors.left: parent.left
 					
 					Image {
@@ -443,8 +444,9 @@ DialogBase {
 				
 				CustomSlider {
 					id: education_slider
-					anchors.verticalCenter: education_formula_row.verticalCenter
-					anchors.right: parent.right
+					anchors.top: education_formula_row.bottom
+					anchors.topMargin: 8 * scale_factor
+					anchors.left: parent.left
 					value: employed_capacity
 					secondary_value: output_value
 					max_value: capacity
