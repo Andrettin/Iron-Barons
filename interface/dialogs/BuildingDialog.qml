@@ -119,6 +119,7 @@ DialogBase {
 			Item {
 				width: Math.max(production_slider.width, production_formula_row.width)
 				height: production_slider.height + 8 * scale_factor + production_formula_row.height
+				anchors.horizontalCenter: content_column.horizontalCenter
 				
 				readonly property var production_type: model.modelData
 				readonly property var output_commodity: production_type.output_commodity
@@ -128,7 +129,7 @@ DialogBase {
 				Row {
 					id: production_formula_row
 					anchors.top: parent.top
-					anchors.left: parent.left
+					anchors.horizontalCenter: parent.horizontalCenter
 					
 					Repeater {
 						model: production_type.input_commodities
@@ -221,7 +222,8 @@ DialogBase {
 					id: production_slider
 					anchors.top: production_formula_row.bottom
 					anchors.topMargin: 8 * scale_factor
-					anchors.left: parent.left
+					anchors.horizontalCenter: parent.horizontalCenter
+					width: content_column.width
 					value: employed_capacity
 					secondary_value: output_value
 					max_value: capacity
@@ -339,6 +341,7 @@ DialogBase {
 			Item {
 				width: Math.max(education_slider.width, education_formula_row.width)
 				height: education_slider.height + 8 * scale_factor + education_formula_row.height
+				anchors.horizontalCenter: content_column.horizontalCenter
 				
 				readonly property var education_type: model.modelData
 				readonly property var input_population_type: education_type.input_population_type
@@ -349,7 +352,7 @@ DialogBase {
 				Row {
 					id: education_formula_row
 					anchors.top: parent.top
-					anchors.left: parent.left
+					anchors.horizontalCenter: parent.horizontalCenter
 					
 					Image {
 						id: input_population_type_icon
@@ -446,7 +449,8 @@ DialogBase {
 					id: education_slider
 					anchors.top: education_formula_row.bottom
 					anchors.topMargin: 8 * scale_factor
-					anchors.left: parent.left
+					anchors.horizontalCenter: parent.horizontalCenter
+					width: content_column.width
 					value: employed_capacity
 					secondary_value: output_value
 					max_value: capacity
