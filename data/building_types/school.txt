@@ -19,6 +19,10 @@ school = {
 			capital = true
 		}
 	}
+	education_types = {
+		trained_workers
+		expert_workers
+	}
 	country_modifier = {
 		commodity_demand = {
 			commodity = paper
@@ -49,6 +53,10 @@ college = {
 			}
 			capital = true
 		}
+	}
+	education_types = {
+		trained_workers
+		expert_workers
 	}
 	country_modifier = {
 		commodity_demand = {
@@ -96,6 +104,10 @@ university = {
 			}
 		}
 	}
+	education_types = {
+		trained_workers
+		expert_workers
+	}
 	country_modifier = {
 		commodity_demand = {
 			commodity = paper
@@ -132,6 +144,10 @@ monastic_school = {
 			capital = true
 		}
 	}
+	education_types = {
+		trained_workers
+		expert_workers
+	}
 	country_modifier = {
 		commodity_demand = {
 			commodity = paper
@@ -161,6 +177,10 @@ cathedral_school = {
 			}
 			capital = true
 		}
+	}
+	education_types = {
+		trained_workers
+		expert_workers
 	}
 	country_modifier = {
 		commodity_demand = {
