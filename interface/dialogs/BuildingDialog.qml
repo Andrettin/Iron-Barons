@@ -61,7 +61,7 @@ DialogBase {
 			id: capacity_label
 			anchors.horizontalCenter: parent.horizontalCenter
 			text: "Capacity: " + capacity
-			visible: capacity > 0 && (building_slot.available_production_types.length > 0 || building_slot.available_education_types.length > 0)
+			visible: capacity > 0 && building_slot.available_production_types.length > 0
 		}
 		
 		Grid {
@@ -453,7 +453,7 @@ DialogBase {
 					width: content_column.width
 					value: employed_capacity
 					secondary_value: output_value
-					max_value: capacity
+					max_value: country_game_data.population.get_type_count(input_population_type)
 					
 					onDecremented: {
 						if (building_slot.can_decrease_education(education_type)) {
