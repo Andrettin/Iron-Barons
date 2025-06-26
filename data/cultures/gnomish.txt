@@ -2,6 +2,7 @@ gnomish = {
 	name = "Gnomish"
 	species = {
 		gnome
+		#rock_gnome
 	}
 	
 	personal_names = {

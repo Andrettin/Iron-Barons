@@ -2,6 +2,10 @@ elven = {
 	name = "Elven"
 	species = {
 		elf
+		#high_elf
+		#gray_elf
+		#wild_elf
+		#wood_elf
 		half_elf
 	}
 	
