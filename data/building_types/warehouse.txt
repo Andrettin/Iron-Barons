@@ -3,10 +3,20 @@ warehouse = {
 	building_class = warehouse
 	portrait = trading_post
 	icon = chest
+	provincial = true
 	warehouse = true
-	expandable = true
-	max_level = 10
-	free_on_start = true
+	free_in_capital = true
+	settlement_types = {
+		camp
+		hamlet
+		village
+		town
+		city
+		metropolis
+		campus
+		castle
+		monastery
+	}
 	country_modifier = {
 		storage_capacity = 100
 	}
