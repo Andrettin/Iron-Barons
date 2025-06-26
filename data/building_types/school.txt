@@ -107,6 +107,10 @@ university = {
 	education_types = {
 		trained_workers
 		expert_workers
+		academics
+		bureaucrats
+		clergymen
+		officers
 	}
 	country_modifier = {
 		commodity_demand = {
